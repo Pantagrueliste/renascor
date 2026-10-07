@@ -39,6 +39,18 @@ The catalogue is published as a static website at [renascore.github.io](https://
 - filters for language, period, region, encoding, and status
 - download of the full dataset as CSV or JSON
 
+### Running the site locally
+
+```bash
+# Build the site data from entries
+python scripts/build_site.py
+
+# Serve the site locally (Python 3)
+python -m http.server 8000 --directory docs
+```
+
+Then open http://localhost:8000 in your browser.
+
 ## Licence
 
 - **Data** (the JSON files in `data/entries/`): [CC0 1.0 Universal](LICENSE-DATA). You may use, modify, and share the data for any purpose, with no obligation to attribute.

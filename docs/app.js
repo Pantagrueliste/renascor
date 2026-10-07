@@ -13,6 +13,8 @@
     language: document.getElementById('f-language'),
     encoding: document.getElementById('f-encoding'),
     status: document.getElementById('f-status'),
+    period: document.getElementById('f-period'),
+    region: document.getElementById('f-region'),
     stats: document.getElementById('stats'),
     tbody: document.getElementById('tbody'),
     dlCsv: document.getElementById('dl-csv'),
@@ -37,14 +39,20 @@
     const languages = new Set();
     const encodings = new Set();
     const statuses = new Set();
+    const periods = new Set();
+    const regions = new Set();
     entries.forEach(e => {
       (e.languages || []).forEach(l => languages.add(l));
       if (e.encoding) encodings.add(e.encoding);
       if (e.status) statuses.add(e.status);
+      if (e.period) periods.add(e.period);
+      if (e.region) regions.add(e.region);
     });
     fillSelect(els.language, [...languages].sort());
     fillSelect(els.encoding, [...encodings].sort());
     fillSelect(els.status, [...statuses].sort());
+    fillSelect(els.period, [...periods].sort());
+    fillSelect(els.region, [...regions].sort());
   }
 
   function fillSelect(select, values) {
@@ -61,15 +69,20 @@
     const lang = els.language.value;
     const enc = els.encoding.value;
     const stat = els.status.value;
+    const per = els.period.value;
+    const reg = els.region.value;
 
     filtered = entries.filter(e => {
       if (lang && !(e.languages || []).includes(lang)) return false;
       if (enc && e.encoding !== enc) return false;
       if (stat && e.status !== stat) return false;
+      if (per && e.period !== per) return false;
+      if (reg && e.region !== reg) return false;
       if (q) {
         const hay = [
           e.title, e.institution, e.author, e.notes,
           (e.languages || []).join(' '),
+          e.region, e.period,
         ].filter(Boolean).join(' ').toLowerCase();
         if (!hay.includes(q)) return false;
       }
@@ -91,6 +104,7 @@
       escapeHtml(e.title) + '</a></td>' +
       '<td>' + (e.languages || []).map(escapeHtml).join(', ') + '</td>' +
       '<td>' + escapeHtml(e.period || '') + '</td>' +
+      '<td>' + escapeHtml(e.region || '') + '</td>' +
       '<td>' + escapeHtml(e.encoding || '') + '</td>' +
       '<td>' + escapeHtml(e.institution || '') + '</td>' +
       '<td><span class="badge ' + escapeHtml(e.status) + '">' + escapeHtml(e.status) + '</span></td>';
@@ -142,6 +156,8 @@
   els.language.addEventListener('change', applyFilters);
   els.encoding.addEventListener('change', applyFilters);
   els.status.addEventListener('change', applyFilters);
+  els.period.addEventListener('change', applyFilters);
+  els.region.addEventListener('change', applyFilters);
   els.dlCsv.addEventListener('click', downloadCsv);
   els.dlJson.addEventListener('click', downloadJson);
 
