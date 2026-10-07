@@ -68,6 +68,10 @@ Then open http://localhost:8000 in your browser.
 
 If you use this catalogue in your research, please cite it. See [CITATION.cff](CITATION.cff).
 
+## Support this project
+
+Renascore runs on a few dollars a month. Donations cover the running costs of the weekly automated search. If you find this catalogue useful, you can [buy me a coffee on Ko-fi](https://ko-fi.com/clementgodbarge).
+
 ## Contact
 
 Clément Godbarge, Lecturer in Digital Humanities, University of St Andrews.
