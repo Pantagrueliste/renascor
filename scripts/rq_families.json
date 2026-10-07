@@ -1,7 +1,8 @@
 {
   "comment": "Canonical family map: RQ Open Corpus collections -> Renascor entries (one entry per documented edition project, all languages merged). First matching rule wins. Unmatched collections go to the pending report.",
   "exclude": {
-    "AbsentLangFill": "internal RQ harvest bucket (remaining_missing fill for languages absent from other collections), not a corpus collection"
+    "AbsentLangFill": "internal RQ harvest bucket (remaining_missing fill for languages absent from other collections), not a corpus collection",
+    "Calvin_Institutio": "personal parallel-text reader (calvin.reformation.nl) with no colophon, editor or licence; not a scholarly edition; Barth-Niesel Latin base and modern translations may be in copyright"
   },
   "groups": [
     {
