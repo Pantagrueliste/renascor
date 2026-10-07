@@ -1,0 +1,108 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://renascore.github.io/schema/entry.schema.json",
+  "title": "Renascore entry",
+  "description": "A single catalogue entry describing a digital edition project of Renaissance-era written documents.",
+  "type": "object",
+  "required": ["title", "url", "languages", "encoding", "status", "provenance", "date_added"],
+  "additionalProperties": false,
+  "properties": {
+    "title": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300,
+      "description": "Name of the edition project or collection."
+    },
+    "url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL where the edition can be found. Must be a valid, resolvable URL."
+    },
+    "languages": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Languages of the texts, as human-readable names (e.g. 'Latin', 'Old French', 'Middle English')."
+    },
+    "encoding": {
+      "type": "string",
+      "enum": ["tei", "html", "markdown", "other"],
+      "description": "Encoding format of the digital edition. TEI = Text Encoding Initiative XML."
+    },
+    "status": {
+      "type": "string",
+      "enum": ["active", "archived"],
+      "description": "Whether the project is currently active (active) or no longer maintained (archived)."
+    },
+    "provenance": {
+      "type": "string",
+      "enum": ["submitted", "discovered"],
+      "description": "How the entry was added. 'submitted' = contributed by a human via issue or pull request. 'discovered' = found by the automated weekly search."
+    },
+    "date_added": {
+      "type": "string",
+      "format": "date",
+      "description": "Date the entry was added to the catalogue, in YYYY-MM-DD format."
+    },
+    "author": {
+      "type": "string",
+      "maxLength": 300,
+      "description": "Author of the source document(s), if known and applicable. Optional."
+    },
+    "date": {
+      "type": "string",
+      "maxLength": 100,
+      "description": "Date or period of the source document(s), e.g. '1492', 'c. 1470-1485', '16th century'. Optional."
+    },
+    "institution": {
+      "type": "string",
+      "maxLength": 300,
+      "description": "Institution, project team, or individual responsible for the edition. Optional."
+    },
+    "words": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Approximate size of the corpus in words. Optional. Use null or omit if unknown."
+    },
+    "region": {
+      "type": "string",
+      "maxLength": 200,
+      "description": "Geographic area covered by the corpus, e.g. 'Italy', 'Low Countries', 'Iberian Peninsula'. Optional."
+    },
+    "period": {
+      "type": "string",
+      "maxLength": 100,
+      "description": "Period covered by the corpus, e.g. '1450-1550', '16th century', 'Renaissance'. Optional."
+    },
+    "years_active": {
+      "type": "object",
+      "description": "Years during which the project was active. Optional.",
+      "required": ["start"],
+      "additionalProperties": false,
+      "properties": {
+        "start": {
+          "type": "integer",
+          "minimum": 1400,
+          "maximum": 2100,
+          "description": "Year the project started."
+        },
+        "end": {
+          "description": "Year the project ended, or the string 'ongoing' if still active.",
+          "oneOf": [
+            { "type": "integer", "minimum": 1400, "maximum": 2100 },
+            { "type": "string", "const": "ongoing" }
+          ]
+        }
+      }
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 2000,
+      "description": "Additional information: scope, quality notes, access conditions, licence. Optional."
+    }
+  }
+}
