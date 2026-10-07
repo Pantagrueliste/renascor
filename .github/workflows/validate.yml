@@ -1,0 +1,77 @@
+name: Validate entries
+
+# Validates every catalogue entry against the schema, checks URLs, and
+# flags probable duplicates. Runs on pull requests and pushes to main.
+
+on:
+  pull_request:
+    paths:
+      - 'data/entries/**'
+      - 'schema/**'
+      - 'scripts/**'
+      - '.github/workflows/validate.yml'
+  push:
+    branches: [main]
+    paths:
+      - 'data/entries/**'
+      - 'schema/**'
+      - 'scripts/**'
+      - '.github/workflows/validate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install jsonschema requests
+
+      - name: Validate schema
+        run: python scripts/validate_all.py
+
+      - name: Check for duplicates
+        run: python scripts/check_duplicates.py
+
+      - name: Check URLs (changed entries only)
+        if: github.event_name == 'pull_request'
+        run: |
+          # Get the list of changed entry files in this PR.
+          CHANGED=$(git diff --name-only --diff-filter=AM origin/${{ github.base_ref }}...HEAD -- 'data/entries/*.json' || true)
+          if [ -z "$CHANGED" ]; then
+            echo "No entry files changed; skipping URL checks."
+            exit 0
+          fi
+          echo "Checking URLs for changed entries:"
+          echo "$CHANGED"
+          for file in $CHANGED; do
+            echo "--- $file"
+            python scripts/validate_entry.py "$file" --check-url || true
+          done
+
+      - name: Build site (verify no breakage)
+        run: python scripts/build_site.py
+
+      - name: Upload build artefacts
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: actions/upload-artifact@v4
+        with:
+          name: site-build
+          path: |
+            docs/data.json
+            docs/renascore.csv
+          retention-days: 7
