@@ -1,0 +1,16 @@
+{
+  "title": "English Broadside Ballad Archive (EBBA)",
+  "url": "https://ebba.english.ucsb.edu/",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "institution": "University of California, Santa Barbara",
+  "languages": [
+    "English"
+  ],
+  "encoding": "other",
+  "words": 3971912,
+  "texts": 5926,
+  "period": "1530-1700",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

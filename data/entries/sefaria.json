@@ -1,0 +1,15 @@
+{
+  "title": "Sefaria",
+  "url": "https://www.sefaria.org/",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "languages": [
+    "Hebrew"
+  ],
+  "encoding": "other",
+  "words": 18955529,
+  "texts": 132,
+  "period": "1495-1690",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

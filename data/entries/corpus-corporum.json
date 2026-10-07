@@ -1,0 +1,16 @@
+{
+  "title": "Corpus Corporum",
+  "url": "https://mlat.uzh.ch/",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "institution": "Universität Zürich",
+  "languages": [
+    "Latin"
+  ],
+  "encoding": "other",
+  "words": 19091970,
+  "texts": 953,
+  "period": "1450-1696",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

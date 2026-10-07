@@ -1,0 +1,15 @@
+{
+  "title": "Early Modern Recipes Online Collective (EMROC)",
+  "url": "https://emroc.hypotheses.org/",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "languages": [
+    "English"
+  ],
+  "encoding": "other",
+  "words": 248907,
+  "texts": 25,
+  "period": "1564-1692",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

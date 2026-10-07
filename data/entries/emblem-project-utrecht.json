@@ -1,0 +1,22 @@
+{
+  "title": "Emblem Project Utrecht",
+  "url": "http://emblems.let.uu.nl/",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "institution": "Universiteit Utrecht",
+  "languages": [
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Italian",
+    "Latin",
+    "Spanish"
+  ],
+  "encoding": "other",
+  "words": 552927,
+  "texts": 1909,
+  "period": "1601-1691",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

@@ -1,0 +1,33 @@
+{
+  "title": "Wikisource",
+  "url": "https://wikisource.org/",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "languages": [
+    "Catalan",
+    "Croatian",
+    "Czech",
+    "Danish",
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Hebrew",
+    "Hungarian",
+    "Icelandic",
+    "Italian",
+    "Latin",
+    "Modern Greek",
+    "Polish",
+    "Portuguese",
+    "Slovenian",
+    "Spanish",
+    "Swedish"
+  ],
+  "encoding": "other",
+  "words": 10833871,
+  "texts": 4270,
+  "period": "1450-1700",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

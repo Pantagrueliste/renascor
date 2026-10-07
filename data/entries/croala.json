@@ -1,0 +1,16 @@
+{
+  "title": "CroALa (Croatiae Auctores Latini)",
+  "url": "https://croala.ffzg.unizg.hr/",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "institution": "University of Zagreb",
+  "languages": [
+    "Latin"
+  ],
+  "encoding": "other",
+  "words": 3545403,
+  "texts": 394,
+  "period": "1450-1700",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

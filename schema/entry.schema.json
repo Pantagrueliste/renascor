@@ -68,6 +68,11 @@
       "minimum": 0,
       "description": "Approximate size of the corpus in words. Optional. Use null or omit if unknown."
     },
+    "texts": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Approximate number of transcribed texts in the collection. Optional. Use null or omit if unknown."
+    },
     "region": {
       "type": "string",
       "maxLength": 200,

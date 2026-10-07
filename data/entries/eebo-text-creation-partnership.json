@@ -1,18 +1,35 @@
 {
   "title": "EEBO Text Creation Partnership",
   "url": "https://www.textcreationpartnership.org/",
-  "languages": ["English"],
+  "languages": [
+    "Ancient Greek",
+    "Dutch",
+    "English",
+    "French",
+    "German",
+    "Hebrew",
+    "Irish",
+    "Italian",
+    "Latin",
+    "Multilingual",
+    "Portuguese",
+    "Romance (other)",
+    "Scots",
+    "Spanish",
+    "Welsh"
+  ],
   "encoding": "tei",
   "status": "active",
   "provenance": "discovered",
   "date_added": "2026-10-07",
   "institution": "Text Creation Partnership (Universities of Oxford, Michigan, and others)",
-  "period": "1473-1700",
+  "period": "1455-1700",
   "region": "England, Scotland, Ireland",
-  "words": 45000000,
+  "words": 1342329634,
   "years_active": {
     "start": 2002,
     "end": "ongoing"
   },
-  "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. Access via EEBO (subscription) or open TCP texts."
+  "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. Access via EEBO (subscription) or open TCP texts. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "texts": 50237
 }

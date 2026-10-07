@@ -1,7 +1,9 @@
 {
   "title": "A Social Edition of the Devonshire MS (BL Add. MS 17492)",
   "url": "https://en.wikibooks.org/wiki/The_Devonshire_Manuscript",
-  "languages": ["English"],
+  "languages": [
+    "English"
+  ],
   "encoding": "tei",
   "status": "archived",
   "provenance": "submitted",

@@ -1,0 +1,16 @@
+{
+  "title": "Philosophical Transactions (pre-1750 archive)",
+  "url": "https://royalsocietypublishing.org/",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "institution": "The Royal Society",
+  "languages": [
+    "English"
+  ],
+  "encoding": "other",
+  "words": 2795758,
+  "texts": 1424,
+  "period": "1665-1700",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

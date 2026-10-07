@@ -1,0 +1,15 @@
+{
+  "title": "Documenta Catholica Omnia",
+  "url": "https://www.documentacatholicaomnia.eu/",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "languages": [
+    "Latin"
+  ],
+  "encoding": "other",
+  "words": 2487100,
+  "texts": 40,
+  "period": "1457-1668",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

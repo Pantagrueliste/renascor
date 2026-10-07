@@ -1,0 +1,16 @@
+{
+  "title": "Statutes of the Realm",
+  "url": "https://www.british-history.ac.uk/search/series/statutes-realm",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "institution": "Institute of Historical Research (British History Online)",
+  "languages": [
+    "English"
+  ],
+  "encoding": "other",
+  "words": 1112931,
+  "texts": 291,
+  "period": "1625-1697",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

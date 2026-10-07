@@ -1,0 +1,383 @@
+{
+  "comment": "Canonical family map: RQ Open Corpus collections -> Renascor entries (one entry per documented edition project, all languages merged). First matching rule wins. Unmatched collections go to the pending report.",
+  "groups": [
+    {
+      "slug": "eebo-text-creation-partnership",
+      "existing": true,
+      "match": [
+        "^EEBO_TCP",
+        "^EEBOphase2$",
+        "EEBO$"
+      ],
+      "title": "EEBO Text Creation Partnership",
+      "url": "https://www.textcreationpartnership.org/"
+    },
+    {
+      "slug": "evans-tcp",
+      "match": [
+        "^EvansTCP"
+      ],
+      "title": "Evans Early American Imprints (Evans-TCP)",
+      "url": "https://quod.lib.umich.edu/e/evans/",
+      "institution": "Readex / University of Michigan"
+    },
+    {
+      "slug": "camena",
+      "match": [
+        "^CAMENA",
+        "^CERA$"
+      ],
+      "title": "CAMENA",
+      "url": "https://mateo.uni-mannheim.de/camenahtdocs/camena.html",
+      "institution": "Universität Mannheim (CAMENA / CERA project)"
+    },
+    {
+      "slug": "dta",
+      "match": [
+        "^DTA",
+        "^DTAE_16c",
+        "^Luther1545"
+      ],
+      "title": "Deutsches Textarchiv (DTA)",
+      "url": "https://www.deutschestextarchiv.de/",
+      "institution": "Berlin-Brandenburgische Akademie der Wissenschaften"
+    },
+    {
+      "slug": "dbnl",
+      "match": [
+        "^DBNL"
+      ],
+      "title": "Digitale Bibliotheek voor de Nederlandse Letteren (DBNL)",
+      "url": "https://www.dbnl.org/"
+    },
+    {
+      "slug": "dracor",
+      "match": [
+        "^DraCor"
+      ],
+      "title": "DraCor",
+      "url": "https://dracor.org/"
+    },
+    {
+      "slug": "sefaria",
+      "match": [
+        "^Sefaria"
+      ],
+      "title": "Sefaria",
+      "url": "https://www.sefaria.org/"
+    },
+    {
+      "slug": "openiti",
+      "match": [
+        "^OpenITI"
+      ],
+      "title": "OpenITI",
+      "url": "https://github.com/OpenITI",
+      "institution": "Open Islamicate Texts Initiative"
+    },
+    {
+      "slug": "wikisource",
+      "match": [
+        "^Wikisource",
+        "^Wikimammenn",
+        "^Hebrew_Wikisource$",
+        "^LatinWikisource$",
+        "^CretanGreek_Wikisource$"
+      ],
+      "title": "Wikisource",
+      "url": "https://wikisource.org/"
+    },
+    {
+      "slug": "project-gutenberg",
+      "match": [
+        "^Gutenberg"
+      ],
+      "title": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/"
+    },
+    {
+      "slug": "titus",
+      "match": [
+        "^TITUS"
+      ],
+      "title": "TITUS (Thesaurus Indogermanischer Text- und Sprachmaterialien)",
+      "url": "https://titus.uni-frankfurt.de/",
+      "institution": "Goethe-Universität Frankfurt"
+    },
+    {
+      "slug": "biblioteca-italiana",
+      "match": [
+        "^BibIT$"
+      ],
+      "title": "Biblioteca Italiana",
+      "url": "http://www.bibliotecaitaliana.it/"
+    },
+    {
+      "slug": "liberliber",
+      "match": [
+        "^LiberLiber$"
+      ],
+      "title": "LiberLiber",
+      "url": "https://www.liberliber.eu/"
+    },
+    {
+      "slug": "corpus-corporum",
+      "match": [
+        "^CorpusCorp$"
+      ],
+      "title": "Corpus Corporum",
+      "url": "https://mlat.uzh.ch/",
+      "institution": "Universität Zürich"
+    },
+    {
+      "slug": "leme",
+      "match": [
+        "^LEME"
+      ],
+      "title": "Lexicons of Early Modern English (LEME)",
+      "url": "https://leme.library.utoronto.ca/",
+      "institution": "University of Toronto"
+    },
+    {
+      "slug": "celt",
+      "match": [
+        "^CELT$"
+      ],
+      "title": "CELT Corpus of Electronic Texts",
+      "url": "https://celt.ucc.ie/",
+      "institution": "University College Cork"
+    },
+    {
+      "slug": "croala",
+      "match": [
+        "^CroALa$"
+      ],
+      "title": "CroALa (Croatiae Auctores Latini)",
+      "url": "https://croala.ffzg.unizg.hr/",
+      "institution": "University of Zagreb"
+    },
+    {
+      "slug": "mazarinades",
+      "match": [
+        "^Mazarinades$"
+      ],
+      "title": "Mazarinades",
+      "url": "https://zenodo.org/records/7443183",
+      "institution": "Bibliothèques patrimoniales de la Ville de Paris"
+    },
+    {
+      "slug": "old-bailey-online",
+      "match": [
+        "^OldBaileyOnline$"
+      ],
+      "title": "The Proceedings of the Old Bailey Online",
+      "url": "https://www.oldbaileyonline.org/"
+    },
+    {
+      "slug": "pepys-diary",
+      "match": [
+        "^PepysDiary$"
+      ],
+      "title": "The Diary of Samuel Pepys (Phil Gyford edition)",
+      "url": "https://www.pepysdiary.com/"
+    },
+    {
+      "slug": "newton-project",
+      "match": [
+        "^Newton_Project$"
+      ],
+      "title": "The Newton Project",
+      "url": "https://www.newtonproject.ox.ac.uk/",
+      "institution": "University of Oxford"
+    },
+    {
+      "slug": "digital-donne",
+      "match": [
+        "^DigitalDonne"
+      ],
+      "title": "The Digital Donne Project",
+      "url": "https://digitaldonne.drc.usask.ca/",
+      "institution": "Variorum Edition of the Poetry of John Donne (Texas A&M / University of Saskatchewan)"
+    },
+    {
+      "slug": "casebooks",
+      "match": [
+        "^Casebooks$"
+      ],
+      "title": "The Casebooks Project",
+      "url": "https://casebooks.lib.cam.ac.uk/",
+      "institution": "University of Cambridge",
+      "status": "archived"
+    },
+    {
+      "slug": "emroc",
+      "match": [
+        "^EMROC"
+      ],
+      "title": "Early Modern Recipes Online Collective (EMROC)",
+      "url": "https://emroc.hypotheses.org/"
+    },
+    {
+      "slug": "emblem-project-utrecht",
+      "match": [
+        "^EmblemProjectUtrecht$"
+      ],
+      "title": "Emblem Project Utrecht",
+      "url": "http://emblems.let.uu.nl/",
+      "institution": "Universiteit Utrecht"
+    },
+    {
+      "slug": "perseus-digital-library",
+      "match": [
+        "^PerseusEng"
+      ],
+      "title": "Perseus Digital Library",
+      "url": "https://www.perseus.tufts.edu/",
+      "institution": "Tufts University"
+    },
+    {
+      "slug": "documenta-catholica-omnia",
+      "match": [
+        "^DocumentaCatholicaOmnia$"
+      ],
+      "title": "Documenta Catholica Omnia",
+      "url": "https://www.documentacatholicaomnia.eu/"
+    },
+    {
+      "slug": "postscriptum",
+      "match": [
+        "^PostScriptum$"
+      ],
+      "title": "P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana)",
+      "url": "https://post-scriptum.org/",
+      "institution": "Centro de Linguística da Universidade de Lisboa (CLUL)"
+    },
+    {
+      "slug": "wolnelektury",
+      "match": [
+        "^WolneLektury$"
+      ],
+      "title": "Wolne Lektury",
+      "url": "https://wolnelektury.pl/"
+    },
+    {
+      "slug": "the-latin-library",
+      "match": [
+        "^LatinLibrary$"
+      ],
+      "title": "The Latin Library",
+      "url": "https://www.thelatinlibrary.com/"
+    },
+    {
+      "slug": "bullinger-digital",
+      "match": [
+        "^BullingerLetters$"
+      ],
+      "title": "Bullinger Digital",
+      "url": "https://bullinger-digital.ch/"
+    },
+    {
+      "slug": "edition-640",
+      "match": [
+        "^Edition640$"
+      ],
+      "title": "Secrets of Craft and Nature in Renaissance France (BnF Ms Fr 640)",
+      "url": "https://edition640.makingandknowing.org/",
+      "institution": "Making and Knowing Project, Columbia University"
+    },
+    {
+      "slug": "ebba",
+      "match": [
+        "^EBBA"
+      ],
+      "title": "English Broadside Ballad Archive (EBBA)",
+      "url": "https://ebba.english.ucsb.edu/",
+      "institution": "University of California, Santa Barbara"
+    },
+    {
+      "slug": "royal-society-transactions",
+      "match": [
+        "^RoyalSocPre1750$"
+      ],
+      "title": "Philosophical Transactions (pre-1750 archive)",
+      "url": "https://royalsocietypublishing.org/",
+      "institution": "The Royal Society"
+    },
+    {
+      "slug": "interregnum-acts",
+      "match": [
+        "^InterregnumActs$"
+      ],
+      "title": "Acts and Ordinances of the Interregnum",
+      "url": "https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum",
+      "institution": "Institute of Historical Research (British History Online)"
+    },
+    {
+      "slug": "russian-national-corpus",
+      "match": [
+        "^Russian_RNC$"
+      ],
+      "title": "Russian National Corpus",
+      "url": "https://ruscorpora.ru/"
+    },
+    {
+      "slug": "vokabular",
+      "match": [
+        "^Vokabular"
+      ],
+      "title": "Vokabulář webový",
+      "url": "https://vokabular.ujc.cas.cz/"
+    },
+    {
+      "slug": "mek",
+      "match": [
+        "^MEK_"
+      ],
+      "title": "Magyar Elektronikus Könyvtár (MEK)",
+      "url": "https://mek.oszk.hu/"
+    },
+    {
+      "slug": "bfm",
+      "match": [
+        "^BFM$"
+      ],
+      "title": "Base de Français Médiéval (BFM)",
+      "url": "https://www.bfm.ens-lyon.fr/",
+      "institution": "École normale supérieure de Lyon"
+    },
+    {
+      "slug": "bokselskap",
+      "match": [
+        "^Bokselskap"
+      ],
+      "title": "Bokselskap",
+      "url": "https://bokselskap.no/"
+    },
+    {
+      "slug": "statutes-realm",
+      "match": [
+        "^StatutesOfTheRealm$"
+      ],
+      "title": "Statutes of the Realm",
+      "url": "https://www.british-history.ac.uk/search/series/statutes-realm",
+      "institution": "Institute of Historical Research (British History Online)"
+    },
+    {
+      "slug": "freem",
+      "match": [
+        "^FreEM$"
+      ],
+      "title": "FreEM (FREnch Early Modern corpus)",
+      "url": "https://freem-corpora.github.io/"
+    },
+    {
+      "slug": "noscemus",
+      "match": [
+        "^NOSCEMUS$"
+      ],
+      "title": "NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin",
+      "url": "https://www.uibk.ac.at/projects/noscemus/",
+      "institution": "Universität Innsbruck"
+    }
+  ]
+}

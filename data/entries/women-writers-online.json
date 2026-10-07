@@ -1,7 +1,13 @@
 {
   "title": "Women Writers Online",
   "url": "https://www.wwp.northeastern.edu/",
-  "languages": ["English", "French", "Latin", "Italian", "Spanish"],
+  "languages": [
+    "English",
+    "French",
+    "Latin",
+    "Italian",
+    "Spanish"
+  ],
   "encoding": "tei",
   "status": "active",
   "provenance": "submitted",

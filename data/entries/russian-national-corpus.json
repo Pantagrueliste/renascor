@@ -1,0 +1,15 @@
+{
+  "title": "Russian National Corpus",
+  "url": "https://ruscorpora.ru/",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "languages": [
+    "Russian"
+  ],
+  "encoding": "other",
+  "words": 96174,
+  "texts": 13,
+  "period": "1474-1698",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

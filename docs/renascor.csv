@@ -1,6 +1,47 @@
 title,url,languages,encoding,status,institution,period,words,region,author,date,years_active,provenance,date_added
+Biblioteca Italiana,http://www.bibliotecaitaliana.it/,Italian; Latin,tei,active,,1460-1650,29844182,,,,,submitted,2026-10-07
+Bokselskap,https://bokselskap.no/,Norwegian,other,active,,1571-1700,264577,,,,,submitted,2026-10-07
+Bullinger Digital,https://bullinger-digital.ch/,French; German; Italian; Latin,tei,active,,1523-1575,5030220,,,,,submitted,2026-10-07
+CAMENA,https://mateo.uni-mannheim.de/camenahtdocs/camena.html,Latin,other,active,Universität Mannheim (CAMENA / CERA project),1500-1699,40551750,,,,,submitted,2026-10-07
+The Casebooks Project,https://casebooks.lib.cam.ac.uk/,English,other,archived,University of Cambridge,1596-1640,1710446,,,,,submitted,2026-10-07
+CELT Corpus of Electronic Texts,https://celt.ucc.ie/,English; Irish; Latin,other,active,University College Cork,1454-1698,1831057,,,,,submitted,2026-10-07
+Corpus Corporum,https://mlat.uzh.ch/,Latin,other,active,Universität Zürich,1450-1696,19091970,,,,,submitted,2026-10-07
+CroALa (Croatiae Auctores Latini),https://croala.ffzg.unizg.hr/,Latin,other,active,University of Zagreb,1450-1700,3545403,,,,,submitted,2026-10-07
+Digitale Bibliotheek voor de Nederlandse Letteren (DBNL),https://www.dbnl.org/,Dutch; Frisian,other,active,,1477-1700,21440504,,,,,submitted,2026-10-07
 A Social Edition of the Devonshire MS (BL Add. MS 17492),https://en.wikibooks.org/wiki/The_Devonshire_Manuscript,English,tei,archived,University of Victoria (editorial team led by Ray Siemens); print edition by Iter & ACMRS Press,c. 1539-1547,,England,,,{'start': 2004},submitted,2026-10-07
-EEBO Text Creation Partnership,https://www.textcreationpartnership.org/,English,tei,active,"Text Creation Partnership (Universities of Oxford, Michigan, and others)",1473-1700,45000000,"England, Scotland, Ireland",,,"{'start': 2002, 'end': 'ongoing'}",discovered,2026-10-07
+The Digital Donne Project,https://digitaldonne.drc.usask.ca/,English,other,active,Variorum Edition of the Poetry of John Donne (Texas A&M / University of Saskatchewan),1611-1611,74553,,,,,submitted,2026-10-07
+Documenta Catholica Omnia,https://www.documentacatholicaomnia.eu/,Latin,other,active,,1457-1668,2487100,,,,,submitted,2026-10-07
+DraCor,https://dracor.org/,Dutch; English; French; German; Hungarian; Italian; Latin; Spanish,tei,active,,1451-1700,25101629,,,,,submitted,2026-10-07
+Deutsches Textarchiv (DTA),https://www.deutschestextarchiv.de/,German,other,active,Berlin-Brandenburgische Akademie der Wissenschaften,1453-1700,41616768,,,,,submitted,2026-10-07
+English Broadside Ballad Archive (EBBA),https://ebba.english.ucsb.edu/,English,other,active,"University of California, Santa Barbara",1530-1700,3971912,,,,,submitted,2026-10-07
+Secrets of Craft and Nature in Renaissance France (BnF Ms Fr 640),https://edition640.makingandknowing.org/,French,other,active,"Making and Knowing Project, Columbia University",,122621,,,,,submitted,2026-10-07
+EEBO Text Creation Partnership,https://www.textcreationpartnership.org/,Ancient Greek; Dutch; English; French; German; Hebrew; Irish; Italian; Latin; Multilingual; Portuguese; Romance (other); Scots; Spanish; Welsh,tei,active,"Text Creation Partnership (Universities of Oxford, Michigan, and others)",1455-1700,1342329634,"England, Scotland, Ireland",,,"{'start': 2002, 'end': 'ongoing'}",discovered,2026-10-07
+Emblem Project Utrecht,http://emblems.let.uu.nl/,Dutch; English; French; German; Italian; Latin; Spanish,other,active,Universiteit Utrecht,1601-1691,552927,,,,,submitted,2026-10-07
+Early Modern Recipes Online Collective (EMROC),https://emroc.hypotheses.org/,English,other,active,,1564-1692,248907,,,,,submitted,2026-10-07
+Evans Early American Imprints (Evans-TCP),https://quod.lib.umich.edu/e/evans/,English,other,active,Readex / University of Michigan,1640-1700,7878692,,,,,submitted,2026-10-07
+FreEM (FREnch Early Modern corpus),https://freem-corpora.github.io/,French,tei,active,,1529-1700,25609193,,,,,submitted,2026-10-07
+Acts and Ordinances of the Interregnum,https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum,English,other,active,Institute of Historical Research (British History Online),1642-1659,1346924,,,,,submitted,2026-10-07
+Lexicons of Early Modern English (LEME),https://leme.library.utoronto.ca/,English,other,active,University of Toronto,1477-1699,9780803,,,,,submitted,2026-10-07
+LiberLiber,https://www.liberliber.eu/,Italian; Latin; Multilingual; Venetian,other,active,,1450-1700,28388618,,,,,submitted,2026-10-07
 The Map of Early Modern London,https://mapoflondon.uvic.ca/,English,tei,active,University of Victoria,1550-1700,,"London, England",,,"{'start': 2000, 'end': 'ongoing'}",submitted,2026-10-07
+Mazarinades,https://zenodo.org/records/7443183,French,other,active,Bibliothèques patrimoniales de la Ville de Paris,1648-1653,10122051,,,,,submitted,2026-10-07
+Magyar Elektronikus Könyvtár (MEK),https://mek.oszk.hu/,Hungarian,other,active,,1554-1693,418083,,,,,submitted,2026-10-07
+The Newton Project,https://www.newtonproject.ox.ac.uk/,English; Latin,other,active,University of Oxford,1659-1700,2069555,,,,,submitted,2026-10-07
+NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin,https://www.uibk.ac.at/projects/noscemus/,Latin,other,active,Universität Innsbruck,1472-1700,82381900,,,,,submitted,2026-10-07
+The Proceedings of the Old Bailey Online,https://www.oldbaileyonline.org/,English,other,active,,1674-1700,924767,,,,,submitted,2026-10-07
+OpenITI,https://github.com/OpenITI,Arabic,other,active,Open Islamicate Texts Initiative,1451-1700,193859865,,,,,submitted,2026-10-07
+The Diary of Samuel Pepys (Phil Gyford edition),https://www.pepysdiary.com/,English,other,active,,1665-1665,1277817,,,,,submitted,2026-10-07
+Perseus Digital Library,https://www.perseus.tufts.edu/,English,other,active,Tufts University,1590-1610,6762346,,,,,submitted,2026-10-07
+P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana),https://post-scriptum.org/,Portuguese; Spanish,other,active,Centro de Linguística da Universidade de Lisboa (CLUL),1500-1699,899841,,,,,submitted,2026-10-07
+Project Gutenberg,https://www.gutenberg.org/,Catalan; Dutch; Finnish; French; German; Italian; Latin; Polish; Portuguese; Spanish,other,active,,1519-1697,18441603,,,,,submitted,2026-10-07
+Philosophical Transactions (pre-1750 archive),https://royalsocietypublishing.org/,English,other,active,The Royal Society,1665-1700,2795758,,,,,submitted,2026-10-07
+Russian National Corpus,https://ruscorpora.ru/,Russian,other,active,,1474-1698,96174,,,,,submitted,2026-10-07
+Sefaria,https://www.sefaria.org/,Hebrew,other,active,,1495-1690,18955529,,,,,submitted,2026-10-07
+Statutes of the Realm,https://www.british-history.ac.uk/search/series/statutes-realm,English,other,active,Institute of Historical Research (British History Online),1625-1697,1112931,,,,,submitted,2026-10-07
 TextGrid Repository,https://textgridrep.org/,German; Latin; French; English; Italian,tei,active,TextGrid Consortium (German universities and research institutions),800-1900,50000000,German-speaking Europe,,,"{'start': 2006, 'end': 'ongoing'}",discovered,2026-10-07
+The Latin Library,https://www.thelatinlibrary.com/,Latin,other,active,,1450-1700,673616,,,,,submitted,2026-10-07
+TITUS (Thesaurus Indogermanischer Text- und Sprachmaterialien),https://titus.uni-frankfurt.de/,Albanian; Georgian; Lithuanian; Old Prussian,other,active,Goethe-Universität Frankfurt,1545-1700,1746475,,,,,submitted,2026-10-07
+Vokabulář webový,https://vokabular.ujc.cas.cz/,Czech,other,active,,1450-1696,4848608,,,,,submitted,2026-10-07
+Wikisource,https://wikisource.org/,Catalan; Croatian; Czech; Danish; Dutch; English; French; German; Hebrew; Hungarian; Icelandic; Italian; Latin; Modern Greek; Polish; Portuguese; Slovenian; Spanish; Swedish,other,active,,1450-1700,10833871,,,,,submitted,2026-10-07
+Wolne Lektury,https://wolnelektury.pl/,Polish,other,active,,1555-1680,583360,,,,,submitted,2026-10-07
 Women Writers Online,https://www.wwp.northeastern.edu/,English; French; Latin; Italian; Spanish,tei,active,Northeastern University (Women Writers Project),1400-1700,12000000,"Europe, Americas",,,"{'start': 1988, 'end': 'ongoing'}",submitted,2026-10-07

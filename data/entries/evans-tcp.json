@@ -1,0 +1,16 @@
+{
+  "title": "Evans Early American Imprints (Evans-TCP)",
+  "url": "https://quod.lib.umich.edu/e/evans/",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "institution": "Readex / University of Michigan",
+  "languages": [
+    "English"
+  ],
+  "encoding": "other",
+  "words": 7878692,
+  "texts": 716,
+  "period": "1640-1700",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

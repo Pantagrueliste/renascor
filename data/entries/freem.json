@@ -1,0 +1,15 @@
+{
+  "title": "FreEM (FREnch Early Modern corpus)",
+  "url": "https://freem-corpora.github.io/",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "languages": [
+    "French"
+  ],
+  "encoding": "tei",
+  "words": 25609193,
+  "texts": 1207,
+  "period": "1529-1700",
+  "status": "active",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+}

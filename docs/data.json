@@ -4,9 +4,156 @@
     "description": "An open catalogue of digital editions of Renaissance-era written documents",
     "licence": "CC0 1.0",
     "source": "https://github.com/Pantagrueliste/renascor",
-    "entries": 5
+    "entries": 46
   },
   "entries": [
+    {
+      "title": "Biblioteca Italiana",
+      "url": "http://www.bibliotecaitaliana.it/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Italian",
+        "Latin"
+      ],
+      "encoding": "tei",
+      "words": 29844182,
+      "texts": 974,
+      "period": "1460-1650",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Bokselskap",
+      "url": "https://bokselskap.no/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Norwegian"
+      ],
+      "encoding": "other",
+      "words": 264577,
+      "texts": 9,
+      "period": "1571-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Bullinger Digital",
+      "url": "https://bullinger-digital.ch/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "French",
+        "German",
+        "Italian",
+        "Latin"
+      ],
+      "encoding": "tei",
+      "words": 5030220,
+      "texts": 12482,
+      "period": "1523-1575",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "CAMENA",
+      "url": "https://mateo.uni-mannheim.de/camenahtdocs/camena.html",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Universität Mannheim (CAMENA / CERA project)",
+      "languages": [
+        "Latin"
+      ],
+      "encoding": "other",
+      "words": 40551750,
+      "texts": 834,
+      "period": "1500-1699",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "The Casebooks Project",
+      "url": "https://casebooks.lib.cam.ac.uk/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "University of Cambridge",
+      "status": "archived",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "words": 1710446,
+      "texts": 67,
+      "period": "1596-1640",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "CELT Corpus of Electronic Texts",
+      "url": "https://celt.ucc.ie/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "University College Cork",
+      "languages": [
+        "English",
+        "Irish",
+        "Latin"
+      ],
+      "encoding": "other",
+      "words": 1831057,
+      "texts": 66,
+      "period": "1454-1698",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Corpus Corporum",
+      "url": "https://mlat.uzh.ch/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Universität Zürich",
+      "languages": [
+        "Latin"
+      ],
+      "encoding": "other",
+      "words": 19091970,
+      "texts": 953,
+      "period": "1450-1696",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "CroALa (Croatiae Auctores Latini)",
+      "url": "https://croala.ffzg.unizg.hr/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "University of Zagreb",
+      "languages": [
+        "Latin"
+      ],
+      "encoding": "other",
+      "words": 3545403,
+      "texts": 394,
+      "period": "1450-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Digitale Bibliotheek voor de Nederlandse Letteren (DBNL)",
+      "url": "https://www.dbnl.org/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Dutch",
+        "Frisian"
+      ],
+      "encoding": "other",
+      "words": 21440504,
+      "texts": 856,
+      "period": "1477-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
     {
       "title": "A Social Edition of the Devonshire MS (BL Add. MS 17492)",
       "url": "https://en.wikibooks.org/wiki/The_Devonshire_Manuscript",
@@ -26,24 +173,257 @@
       "notes": "A digital edition of a mid-sixteenth-century miscellany of verse and prose, compiled in the court circle of Margaret Douglas and later the Rutland household, with contributions by Thomas Wyatt, Mary Shelton and others. Diplomatic transcription, modernised text and scholarly apparatus, encoded in TEI P5. The original dedicated site (devonshire.unb.ca) is offline; the social edition now lives on Wikibooks, and the ~200 TEI XML transcriptions and witnesses (CC BY-SA 4.0) are archived at Oxford LLDS: https://llds.phon.ox.ac.uk/llds/xmlui/handle/20.500.14106/2587"
     },
     {
+      "title": "The Digital Donne Project",
+      "url": "https://digitaldonne.drc.usask.ca/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Variorum Edition of the Poetry of John Donne (Texas A&M / University of Saskatchewan)",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "words": 74553,
+      "texts": 183,
+      "period": "1611-1611",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Documenta Catholica Omnia",
+      "url": "https://www.documentacatholicaomnia.eu/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Latin"
+      ],
+      "encoding": "other",
+      "words": 2487100,
+      "texts": 40,
+      "period": "1457-1668",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "DraCor",
+      "url": "https://dracor.org/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Dutch",
+        "English",
+        "French",
+        "German",
+        "Hungarian",
+        "Italian",
+        "Latin",
+        "Spanish"
+      ],
+      "encoding": "tei",
+      "words": 25101629,
+      "texts": 1738,
+      "period": "1451-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Deutsches Textarchiv (DTA)",
+      "url": "https://www.deutschestextarchiv.de/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Berlin-Brandenburgische Akademie der Wissenschaften",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "words": 41616768,
+      "texts": 1303,
+      "period": "1453-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "English Broadside Ballad Archive (EBBA)",
+      "url": "https://ebba.english.ucsb.edu/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "University of California, Santa Barbara",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "words": 3971912,
+      "texts": 5926,
+      "period": "1530-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Secrets of Craft and Nature in Renaissance France (BnF Ms Fr 640)",
+      "url": "https://edition640.makingandknowing.org/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Making and Knowing Project, Columbia University",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "words": 122621,
+      "texts": 1,
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
       "title": "EEBO Text Creation Partnership",
       "url": "https://www.textcreationpartnership.org/",
       "languages": [
-        "English"
+        "Ancient Greek",
+        "Dutch",
+        "English",
+        "French",
+        "German",
+        "Hebrew",
+        "Irish",
+        "Italian",
+        "Latin",
+        "Multilingual",
+        "Portuguese",
+        "Romance (other)",
+        "Scots",
+        "Spanish",
+        "Welsh"
       ],
       "encoding": "tei",
       "status": "active",
       "provenance": "discovered",
       "date_added": "2026-10-07",
       "institution": "Text Creation Partnership (Universities of Oxford, Michigan, and others)",
-      "period": "1473-1700",
+      "period": "1455-1700",
       "region": "England, Scotland, Ireland",
-      "words": 45000000,
+      "words": 1342329634,
       "years_active": {
         "start": 2002,
         "end": "ongoing"
       },
-      "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. Access via EEBO (subscription) or open TCP texts."
+      "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. Access via EEBO (subscription) or open TCP texts. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "texts": 50237
+    },
+    {
+      "title": "Emblem Project Utrecht",
+      "url": "http://emblems.let.uu.nl/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Universiteit Utrecht",
+      "languages": [
+        "Dutch",
+        "English",
+        "French",
+        "German",
+        "Italian",
+        "Latin",
+        "Spanish"
+      ],
+      "encoding": "other",
+      "words": 552927,
+      "texts": 1909,
+      "period": "1601-1691",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Early Modern Recipes Online Collective (EMROC)",
+      "url": "https://emroc.hypotheses.org/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "words": 248907,
+      "texts": 25,
+      "period": "1564-1692",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Evans Early American Imprints (Evans-TCP)",
+      "url": "https://quod.lib.umich.edu/e/evans/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Readex / University of Michigan",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "words": 7878692,
+      "texts": 716,
+      "period": "1640-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "FreEM (FREnch Early Modern corpus)",
+      "url": "https://freem-corpora.github.io/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "French"
+      ],
+      "encoding": "tei",
+      "words": 25609193,
+      "texts": 1207,
+      "period": "1529-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Acts and Ordinances of the Interregnum",
+      "url": "https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Institute of Historical Research (British History Online)",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "words": 1346924,
+      "texts": 954,
+      "period": "1642-1659",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Lexicons of Early Modern English (LEME)",
+      "url": "https://leme.library.utoronto.ca/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "University of Toronto",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "words": 9780803,
+      "texts": 296,
+      "period": "1477-1699",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "LiberLiber",
+      "url": "https://www.liberliber.eu/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Italian",
+        "Latin",
+        "Multilingual",
+        "Venetian"
+      ],
+      "encoding": "other",
+      "words": 28388618,
+      "texts": 310,
+      "period": "1450-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
       "title": "The Map of Early Modern London",
@@ -63,6 +443,235 @@
         "end": "ongoing"
       },
       "notes": "A digital scholarly edition of early modern London, combining a gazetteer, an anthology of TEI-encoded texts, and a map. Includes links between places, people, and texts."
+    },
+    {
+      "title": "Mazarinades",
+      "url": "https://zenodo.org/records/7443183",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Bibliothèques patrimoniales de la Ville de Paris",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "words": 10122051,
+      "texts": 3064,
+      "period": "1648-1653",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Magyar Elektronikus Könyvtár (MEK)",
+      "url": "https://mek.oszk.hu/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Hungarian"
+      ],
+      "encoding": "other",
+      "words": 418083,
+      "texts": 8,
+      "period": "1554-1693",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "The Newton Project",
+      "url": "https://www.newtonproject.ox.ac.uk/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "University of Oxford",
+      "languages": [
+        "English",
+        "Latin"
+      ],
+      "encoding": "other",
+      "words": 2069555,
+      "texts": 168,
+      "period": "1659-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin",
+      "url": "https://www.uibk.ac.at/projects/noscemus/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Universität Innsbruck",
+      "languages": [
+        "Latin"
+      ],
+      "encoding": "other",
+      "words": 82381900,
+      "texts": 678,
+      "period": "1472-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "The Proceedings of the Old Bailey Online",
+      "url": "https://www.oldbaileyonline.org/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "words": 924767,
+      "texts": 198,
+      "period": "1674-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "OpenITI",
+      "url": "https://github.com/OpenITI",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Open Islamicate Texts Initiative",
+      "languages": [
+        "Arabic"
+      ],
+      "encoding": "other",
+      "words": 193859865,
+      "texts": 799,
+      "period": "1451-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "The Diary of Samuel Pepys (Phil Gyford edition)",
+      "url": "https://www.pepysdiary.com/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "words": 1277817,
+      "texts": 1,
+      "period": "1665-1665",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Perseus Digital Library",
+      "url": "https://www.perseus.tufts.edu/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Tufts University",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "words": 6762346,
+      "texts": 81,
+      "period": "1590-1610",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana)",
+      "url": "https://post-scriptum.org/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Centro de Linguística da Universidade de Lisboa (CLUL)",
+      "languages": [
+        "Portuguese",
+        "Spanish"
+      ],
+      "encoding": "other",
+      "words": 899841,
+      "texts": 1878,
+      "period": "1500-1699",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Project Gutenberg",
+      "url": "https://www.gutenberg.org/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Catalan",
+        "Dutch",
+        "Finnish",
+        "French",
+        "German",
+        "Italian",
+        "Latin",
+        "Polish",
+        "Portuguese",
+        "Spanish"
+      ],
+      "encoding": "other",
+      "words": 18441603,
+      "texts": 264,
+      "period": "1519-1697",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Philosophical Transactions (pre-1750 archive)",
+      "url": "https://royalsocietypublishing.org/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "The Royal Society",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "words": 2795758,
+      "texts": 1424,
+      "period": "1665-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Russian National Corpus",
+      "url": "https://ruscorpora.ru/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Russian"
+      ],
+      "encoding": "other",
+      "words": 96174,
+      "texts": 13,
+      "period": "1474-1698",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Sefaria",
+      "url": "https://www.sefaria.org/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Hebrew"
+      ],
+      "encoding": "other",
+      "words": 18955529,
+      "texts": 132,
+      "period": "1495-1690",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Statutes of the Realm",
+      "url": "https://www.british-history.ac.uk/search/series/statutes-realm",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Institute of Historical Research (British History Online)",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "words": 1112931,
+      "texts": 291,
+      "period": "1625-1697",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
       "title": "TextGrid Repository",
@@ -87,6 +696,103 @@
         "end": "ongoing"
       },
       "notes": "A digital repository for the humanities offering TEI-encoded texts, images, and structured data. Includes many scholarly editions of German literature. Free registration for some features; texts are openly licensed."
+    },
+    {
+      "title": "The Latin Library",
+      "url": "https://www.thelatinlibrary.com/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Latin"
+      ],
+      "encoding": "other",
+      "words": 673616,
+      "texts": 121,
+      "period": "1450-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "TITUS (Thesaurus Indogermanischer Text- und Sprachmaterialien)",
+      "url": "https://titus.uni-frankfurt.de/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Goethe-Universität Frankfurt",
+      "languages": [
+        "Albanian",
+        "Georgian",
+        "Lithuanian",
+        "Old Prussian"
+      ],
+      "encoding": "other",
+      "words": 1746475,
+      "texts": 26,
+      "period": "1545-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Vokabulář webový",
+      "url": "https://vokabular.ujc.cas.cz/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Czech"
+      ],
+      "encoding": "other",
+      "words": 4848608,
+      "texts": 295,
+      "period": "1450-1696",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Wikisource",
+      "url": "https://wikisource.org/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Catalan",
+        "Croatian",
+        "Czech",
+        "Danish",
+        "Dutch",
+        "English",
+        "French",
+        "German",
+        "Hebrew",
+        "Hungarian",
+        "Icelandic",
+        "Italian",
+        "Latin",
+        "Modern Greek",
+        "Polish",
+        "Portuguese",
+        "Slovenian",
+        "Spanish",
+        "Swedish"
+      ],
+      "encoding": "other",
+      "words": 10833871,
+      "texts": 4270,
+      "period": "1450-1700",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Wolne Lektury",
+      "url": "https://wolnelektury.pl/",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "languages": [
+        "Polish"
+      ],
+      "encoding": "other",
+      "words": 583360,
+      "texts": 8,
+      "period": "1555-1680",
+      "status": "active",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
       "title": "Women Writers Online",

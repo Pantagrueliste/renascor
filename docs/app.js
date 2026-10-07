@@ -169,6 +169,7 @@
     if (e.period) meta.appendChild(tag(e.period, 'label'));
     if (e.region) meta.appendChild(tag(e.region, 'label'));
     if (typeof e.words === 'number') meta.appendChild(tag(numberFmt.format(e.words) + ' words', 'label'));
+    if (typeof e.texts === 'number') meta.appendChild(tag(numberFmt.format(e.texts) + ' texts', 'label'));
     const ya = yearsActive(e);
     if (ya) meta.appendChild(tag(ya, 'label'));
     div.appendChild(meta);
