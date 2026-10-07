@@ -19,6 +19,7 @@
     period: document.getElementById('f-period'),
     region: document.getElementById('f-region'),
     stats: document.getElementById('stats'),
+    heroStats: document.getElementById('hero-stats'),
     cards: document.getElementById('cards'),
     tbody: document.getElementById('tbody'),
     viewCards: document.getElementById('view-cards'),
@@ -37,6 +38,7 @@
         filtered = entries.slice();
         restoreView();
         populateFilters();
+        renderHero();
         render();
       })
       .catch(err => {
@@ -67,6 +69,31 @@
     document.body.classList.toggle('view-table', view === 'table');
     els.viewCards.setAttribute('aria-pressed', String(view === 'cards'));
     els.viewTable.setAttribute('aria-pressed', String(view === 'table'));
+  }
+
+  function renderHero() {
+    if (!els.heroStats) return;
+    const totalWords = entries.reduce((s, e) =>
+      s + (typeof e.words === 'number' ? e.words : 0), 0);
+    const totalTexts = entries.reduce((s, e) =>
+      s + (typeof e.texts === 'number' ? e.texts : 0), 0);
+    const langs = new Set();
+    entries.forEach(e => (e.languages || []).forEach(l => langs.add(l)));
+    const stat = (value, label) => {
+      const div = document.createElement('div');
+      div.className = 'hero-stat';
+      const b = document.createElement('b');
+      b.textContent = numberFmt.format(value);
+      const span = document.createElement('span');
+      span.textContent = label;
+      div.appendChild(b);
+      div.appendChild(span);
+      return div;
+    };
+    els.heroStats.appendChild(stat(entries.length, 'editions'));
+    els.heroStats.appendChild(stat(langs.size, 'languages'));
+    if (totalTexts) els.heroStats.appendChild(stat(totalTexts, 'texts'));
+    if (totalWords) els.heroStats.appendChild(stat(Math.round(totalWords / 1e6) * 1e6, 'words'));
   }
 
   function populateFilters() {

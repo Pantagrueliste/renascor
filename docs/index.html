@@ -5,84 +5,197 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Renascor: digital editions of Renaissance texts</title>
 <meta name="description" content="An open catalogue of digital editions of Renaissance-era written documents.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap" rel="stylesheet">
 <style>
   :root {
     color-scheme: light dark;
-    --bg: #faf9f6;
-    --fg: #1a1a18;
-    --muted: #6b6a64;
-    --border: #ddd9d0;
-    --accent: #2d5a3d;
-    --accent-fg: #ffffff;
-    --card: #ffffff;
+    --bg: #f7f3ea;
+    --card: #fffdf6;
+    --fg: #2b2418;
+    --muted: #7c7462;
+    --border: #e3dbc7;
+    --accent: #8c3b2e;
+    --accent-soft: #f3e4de;
+    --accent-fg: #fff8ef;
+    --gold: #a37a1f;
+    --active-bg: #e2eeda;
+    --active-fg: #2f5c2a;
+    --archived-bg: #f4ded9;
+    --archived-fg: #7c2d1e;
+    --shadow: 0 1px 2px rgba(43, 36, 24, .06);
+    --shadow-hover: 0 6px 18px rgba(43, 36, 24, .12);
   }
   @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #1a1a18;
-      --fg: #f0efe9;
-      --muted: #a0a099;
-      --border: #3a3a36;
-      --accent: #5a9a6d;
-      --accent-fg: #1a1a18;
-      --card: #232320;
+      --bg: #171410;
+      --card: #201b14;
+      --fg: #ece4d1;
+      --muted: #a2987f;
+      --border: #3b3325;
+      --accent: #cf7d63;
+      --accent-soft: #2c2018;
+      --accent-fg: #201b14;
+      --gold: #c99a3f;
+      --active-bg: #22301d;
+      --active-fg: #a3c996;
+      --archived-bg: #37211b;
+      --archived-fg: #dfa091;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .3);
+      --shadow-hover: 0 6px 18px rgba(0, 0, 0, .45);
     }
   }
+  :root[data-theme="dark"] {
+    --bg: #171410; --card: #201b14; --fg: #ece4d1; --muted: #a2987f;
+    --border: #3b3325; --accent: #cf7d63; --accent-soft: #2c2018; --accent-fg: #201b14;
+    --gold: #c99a3f; --active-bg: #22301d; --active-fg: #a3c996;
+    --archived-bg: #37211b; --archived-fg: #dfa091;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .3); --shadow-hover: 0 6px 18px rgba(0, 0, 0, .45);
+  }
   * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
   body {
     margin: 0;
     background: var(--bg);
     color: var(--fg);
-    font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, sans-serif;
+    font: 16px/1.65 ui-sans-serif, system-ui, -apple-system, sans-serif;
     -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
   }
-  .wrap { max-width: 1100px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
-  header h1 { font-family: ui-serif, Georgia, serif; font-size: 2rem; margin: 0 0 .25rem; }
-  header p { color: var(--muted); margin: 0 0 1.5rem; max-width: 60ch; }
-  .controls {
-    display: flex; flex-wrap: wrap; gap: .75rem; align-items: flex-end;
-    padding: 1rem; background: var(--bg); border: 1px solid var(--border);
-    border-radius: 8px; margin-bottom: 1.5rem;
+  .wrap { max-width: 1160px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+
+  /* ── Hero ─────────────────────────────────────────────── */
+  .hero {
+    text-align: center;
+    padding: 3.2rem 1rem 2.2rem;
   }
-  .controls label { font-size: .85rem; color: var(--muted); display: block; margin-bottom: .2rem; }
-  .controls input, .controls select {
-    font: inherit; padding: .4rem .6rem; border: 1px solid var(--border);
-    border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 140px;
+  .hero .fleuron { font-size: 1.35rem; color: var(--gold); letter-spacing: .5rem; }
+  .hero h1 {
+    font-family: "EB Garamond", Georgia, serif;
+    font-size: clamp(2.6rem, 6vw, 3.6rem);
+    font-weight: 700;
+    margin: .1rem 0 .1rem;
+    letter-spacing: .02em;
   }
-  .controls button {
-    font: inherit; padding: .4rem .9rem; border: 1px solid var(--accent);
+  .hero h1 .drop { color: var(--accent); }
+  .hero .lede {
+    font-family: "EB Garamond", Georgia, serif;
+    font-style: italic;
+    font-size: 1.15rem;
+    color: var(--muted);
+    max-width: 62ch;
+    margin: .4rem auto 0;
+  }
+  .hero-rule {
+    display: flex; align-items: center; gap: 1rem;
+    max-width: 520px; margin: 1.4rem auto 1.6rem;
+    color: var(--border);
+  }
+  .hero-rule::before, .hero-rule::after {
+    content: ""; flex: 1; height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border));
+  }
+  .hero-rule::after { background: linear-gradient(90deg, var(--border), transparent); }
+  .hero-rule span { color: var(--gold); font-size: .95rem; }
+  .hero-stats {
+    display: flex; flex-wrap: wrap; justify-content: center; gap: 2.2rem;
+  }
+  .hero-stat { text-align: center; }
+  .hero-stat b {
+    display: block;
+    font-family: "EB Garamond", Georgia, serif;
+    font-size: 1.7rem; font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    color: var(--fg);
+  }
+  .hero-stat span {
+    font-size: .74rem; letter-spacing: .14em; text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* ── Toolbar ──────────────────────────────────────────── */
+  .toolbar {
+    position: sticky; top: 0; z-index: 5;
+    background: color-mix(in srgb, var(--bg) 88%, transparent);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 2rem;
+  }
+  .toolbar-inner {
+    max-width: 1160px; margin: 0 auto;
+    padding: .8rem 1.5rem;
+    display: flex; flex-wrap: wrap; gap: .7rem .9rem; align-items: flex-end;
+  }
+  .toolbar label {
+    font-size: .72rem; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--muted); display: block; margin-bottom: .25rem;
+  }
+  .toolbar input, .toolbar select {
+    font: inherit; font-size: .9rem;
+    padding: .42rem .6rem; border: 1px solid var(--border);
+    border-radius: 6px; background: var(--card); color: var(--fg); min-width: 130px;
+  }
+  .toolbar input:focus-visible, .toolbar select:focus-visible,
+  .toolbar button:focus-visible {
+    outline: 2px solid var(--accent); outline-offset: 1px;
+  }
+  .toolbar input::placeholder { color: var(--muted); }
+  .controls-spacer { flex: 1; }
+  .toolbar button {
+    font: inherit; font-size: .9rem;
+    padding: .42rem .9rem; border: 1px solid var(--accent);
     border-radius: 6px; background: var(--accent); color: var(--accent-fg); cursor: pointer;
   }
-  .controls button.secondary { background: transparent; color: var(--accent); }
+  .toolbar button:hover { filter: brightness(1.08); }
+  .toolbar button.secondary {
+    background: transparent; color: var(--accent);
+  }
+  .toolbar button.secondary:hover { background: var(--accent-soft); filter: none; }
   .view-toggle { display: inline-flex; border: 1px solid var(--accent); border-radius: 6px; overflow: hidden; }
   .view-toggle button {
     background: transparent; color: var(--accent); border: none; border-radius: 0;
-    padding: .45rem .9rem; cursor: pointer; font: inherit;
+    padding: .42rem .9rem; cursor: pointer; font: inherit; font-size: .9rem;
+    filter: none;
   }
   .view-toggle button[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
-  .stats { color: var(--muted); font-size: .9rem; margin: 0 0 1rem; }
+  .stats { color: var(--muted); font-size: .9rem; margin: 0 0 1.2rem; }
 
-  /* Cards view */
+  /* ── Cards view ───────────────────────────────────────── */
   #cards {
-    display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-    gap: 1rem;
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 1.1rem;
   }
   .card {
-    display: flex; flex-direction: column; gap: .5rem;
-    padding: 1.1rem 1.2rem; background: var(--card);
+    position: relative;
+    display: flex; flex-direction: column; gap: .55rem;
+    padding: 1.3rem 1.35rem 1.1rem; background: var(--card);
     border: 1px solid var(--border); border-radius: 10px;
+    box-shadow: var(--shadow);
+    transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
   }
-  .card:hover { border-color: var(--accent); }
-  .card h2 { font-family: ui-serif, Georgia, serif; font-size: 1.1rem; line-height: 1.35; margin: 0; }
+  .card::before {
+    content: ""; position: absolute; inset: 0 auto 0 0; width: 3px;
+    background: var(--accent); opacity: 0; border-radius: 10px 0 0 10px;
+  }
+  .card:hover { transform: translateY(-2px); box-shadow: var(--shadow-hover); border-color: var(--accent); }
+  .card:hover::before { opacity: 1; }
+  .card h2 {
+    font-family: "EB Garamond", Georgia, serif;
+    font-size: 1.28rem; font-weight: 600; line-height: 1.3; margin: 0;
+  }
   .card h2 a { color: var(--fg); text-decoration: none; }
   .card h2 a:hover { color: var(--accent); }
-  .card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: .5rem; }
-  .card-inst { font-size: .85rem; color: var(--muted); }
+  .card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: .6rem; }
+  .card-inst { font-size: .84rem; color: var(--muted); font-style: italic; }
   .meta { display: flex; flex-wrap: wrap; gap: .35rem; }
   .tag {
-    display: inline-block; padding: .05rem .55rem; border-radius: 999px;
-    border: 1px solid var(--border); font-size: .78rem;
+    display: inline-block; padding: .08rem .6rem; border-radius: 3px;
+    border: 1px solid var(--border); font-size: .78rem; font-variant-numeric: tabular-nums;
   }
-  .tag.label { color: var(--muted); }
+  .tag.label { color: var(--muted); font-size: .74rem; letter-spacing: .04em; }
   .card-notes {
     font-size: .87rem; color: var(--muted); line-height: 1.55; margin: 0;
     display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
@@ -90,87 +203,113 @@
   .card-notes.expanded { display: block; overflow: visible; }
   .card-foot {
     display: flex; align-items: center; justify-content: space-between;
-    gap: .5rem; margin-top: .25rem;
+    gap: .5rem; margin-top: auto; padding-top: .55rem;
+    border-top: 1px dashed var(--border);
   }
-  .card-foot .visit { color: var(--accent); font-size: .85rem; text-decoration: none; }
+  .card-foot span { font-size: .78rem; color: var(--muted); }
+  .card-foot .visit {
+    color: var(--accent); font-size: .85rem; text-decoration: none; font-weight: 500;
+  }
   .card-foot .visit:hover { text-decoration: underline; }
   .more {
     background: none; border: none; padding: 0; font: inherit; font-size: .78rem;
     color: var(--accent); cursor: pointer;
   }
+  .more:hover { text-decoration: underline; }
   .meta-line { display: flex; flex-wrap: wrap; gap: .25rem 1rem; font-size: .85rem; }
   .meta-line span b { color: var(--muted); font-weight: 500; }
   body.view-table #cards { display: none; }
   body.view-card #table { display: none; }
 
-  /* Table view */
+  /* ── Table view ───────────────────────────────────────── */
+  #table {
+    background: var(--card); border: 1px solid var(--border); border-radius: 10px;
+    box-shadow: var(--shadow);
+  }
   table { width: 100%; border-collapse: collapse; font-size: .9rem; }
-  th, td { text-align: left; padding: .6rem .75rem; border-bottom: 1px solid var(--border); vertical-align: top; }
-  th { font-weight: 600; color: var(--muted); position: sticky; top: 0; background: var(--bg); }
-  tbody tr:hover { background: var(--border); }
-  td a { color: var(--accent); text-decoration: none; }
+  th, td { text-align: left; padding: .65rem .85rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th {
+    font-weight: 600; color: var(--muted); position: sticky; top: 0; background: var(--card);
+    font-size: .74rem; letter-spacing: .1em; text-transform: uppercase;
+  }
+  tbody tr:hover { background: var(--accent-soft); }
+  tbody tr:last-child td { border-bottom: none; }
+  td a { color: var(--accent); text-decoration: none; font-weight: 500; }
   td a:hover { text-decoration: underline; }
   .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
+
+  /* ── Badges ───────────────────────────────────────────── */
   .badge {
-    display: inline-block; padding: .1rem .5rem; border-radius: 999px;
-    font-size: .75rem; background: var(--border); color: var(--fg);
+    display: inline-block; padding: .12rem .55rem; border-radius: 999px;
+    font-size: .72rem; letter-spacing: .07em; text-transform: uppercase;
+    background: var(--border); color: var(--fg); white-space: nowrap;
   }
-  .badge.active { background: #d4edda; color: #155724; }
-  .badge.archived { background: #f8d7da; color: #721c24; }
-  @media (prefers-color-scheme: dark) {
-    .badge.active { background: #1e4620; color: #a3d9a5; }
-    .badge.archived { background: #4a1c20; color: #e5a3a8; }
+  .badge.active { background: var(--active-bg); color: var(--active-fg); }
+  .badge.archived { background: var(--archived-bg); color: var(--archived-fg); }
+
+  footer {
+    margin-top: 3.5rem; padding-top: 1.6rem; border-top: 1px solid var(--border);
+    color: var(--muted); font-size: .85rem; text-align: center;
   }
-  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border);
-           color: var(--muted); font-size: .85rem; }
+  footer .fleuron { color: var(--gold); display: block; margin-bottom: .6rem; }
   footer a { color: var(--accent); }
+
   @media (max-width: 640px) {
-    .controls input, .controls select { min-width: 100%; }
+    .toolbar-inner { padding: .8rem 1rem; }
+    .toolbar input, .toolbar select { min-width: 100%; }
+    .hero-stats { gap: 1.4rem 2rem; }
   }
 </style>
 </head>
 <body class="view-card">
-<div class="wrap">
-  <header>
-    <h1>Renascor</h1>
-    <p>An open catalogue of digital editions of Renaissance-era written documents: manuscripts, printed works, and correspondence.</p>
-  </header>
+<div class="hero">
+  <div class="fleuron">❦</div>
+  <h1>Rena<span class="drop">s</span>cor</h1>
+  <p class="lede">An open catalogue of digital editions of Renaissance-era written documents: manuscripts, printed works, and correspondence.</p>
+  <div class="hero-rule"><span>✦ ✦ ✦</span></div>
+  <div class="hero-stats" id="hero-stats"></div>
+</div>
 
-  <div class="controls">
-    <div>
-      <label for="search">Search</label>
-      <input type="search" id="search" placeholder="title, institution, author..." autocomplete="off">
-    </div>
-    <div>
-      <label for="f-language">Language</label>
-      <select id="f-language"><option value="">All</option></select>
-    </div>
-    <div>
-      <label for="f-encoding">Encoding</label>
-      <select id="f-encoding"><option value="">All</option></select>
-    </div>
-    <div>
-      <label for="f-status">Status</label>
-      <select id="f-status"><option value="">All</option></select>
-    </div>
-    <div>
-      <label for="f-period">Period</label>
-      <select id="f-period"><option value="">All</option></select>
-    </div>
-    <div>
-      <label for="f-region">Region</label>
-      <select id="f-region"><option value="">All</option></select>
-    </div>
-    <div>
-      <label>View</label>
-      <div class="view-toggle" role="group" aria-label="View mode">
-        <button id="view-cards" aria-pressed="true" type="button">Cards</button>
-        <button id="view-table" aria-pressed="false" type="button">Table</button>
+<div class="wrap">
+  <div class="toolbar">
+    <div class="toolbar-inner">
+      <div>
+        <label for="search">Search</label>
+        <input type="search" id="search" placeholder="title, institution, author..." autocomplete="off">
       </div>
-    </div>
-    <div>
-      <button id="dl-csv" class="secondary">Download CSV</button>
-      <button id="dl-json" class="secondary">Download JSON</button>
+      <div>
+        <label for="f-language">Language</label>
+        <select id="f-language"><option value="">All</option></select>
+      </div>
+      <div>
+        <label for="f-encoding">Encoding</label>
+        <select id="f-encoding"><option value="">All</option></select>
+      </div>
+      <div>
+        <label for="f-status">Status</label>
+        <select id="f-status"><option value="">All</option></select>
+      </div>
+      <div>
+        <label for="f-period">Period</label>
+        <select id="f-period"><option value="">All</option></select>
+      </div>
+      <div>
+        <label for="f-region">Region</label>
+        <select id="f-region"><option value="">All</option></select>
+      </div>
+      <div class="controls-spacer"></div>
+      <div>
+        <label>View</label>
+        <div class="view-toggle" role="group" aria-label="View mode">
+          <button id="view-cards" aria-pressed="true" type="button">Cards</button>
+          <button id="view-table" aria-pressed="false" type="button">Table</button>
+        </div>
+      </div>
+      <div>
+        <label>Export</label>
+        <button id="dl-csv" class="secondary">CSV</button>
+        <button id="dl-json" class="secondary">JSON</button>
+      </div>
     </div>
   </div>
 
@@ -196,6 +335,7 @@
   </table>
 
   <footer>
+    <span class="fleuron">❦</span>
     <p>
       Data: <a href="https://github.com/Pantagrueliste/renascor/tree/main/data/entries">github.com/Pantagrueliste/renascor</a>
       (CC0 1.0).
