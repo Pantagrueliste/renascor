@@ -14,6 +14,7 @@
     --border: #ddd9d0;
     --accent: #2d5a3d;
     --accent-fg: #ffffff;
+    --card: #ffffff;
   }
   @media (prefers-color-scheme: dark) {
     :root {
@@ -23,6 +24,7 @@
       --border: #3a3a36;
       --accent: #5a9a6d;
       --accent-fg: #1a1a18;
+      --card: #232320;
     }
   }
   * { box-sizing: border-box; }
@@ -51,13 +53,64 @@
     border-radius: 6px; background: var(--accent); color: var(--accent-fg); cursor: pointer;
   }
   .controls button.secondary { background: transparent; color: var(--accent); }
-  .stats { color: var(--muted); font-size: .9rem; margin-bottom: 1rem; }
+  .view-toggle { display: inline-flex; border: 1px solid var(--accent); border-radius: 6px; overflow: hidden; }
+  .view-toggle button {
+    background: transparent; color: var(--accent); border: none; border-radius: 0;
+    padding: .45rem .9rem; cursor: pointer; font: inherit;
+  }
+  .view-toggle button[aria-pressed="true"] { background: var(--accent); color: var(--accent-fg); }
+  .stats { color: var(--muted); font-size: .9rem; margin: 0 0 1rem; }
+
+  /* Cards view */
+  #cards {
+    display: grid; grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    gap: 1rem;
+  }
+  .card {
+    display: flex; flex-direction: column; gap: .5rem;
+    padding: 1.1rem 1.2rem; background: var(--card);
+    border: 1px solid var(--border); border-radius: 10px;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card h2 { font-family: ui-serif, Georgia, serif; font-size: 1.1rem; line-height: 1.35; margin: 0; }
+  .card h2 a { color: var(--fg); text-decoration: none; }
+  .card h2 a:hover { color: var(--accent); }
+  .card-head { display: flex; align-items: flex-start; justify-content: space-between; gap: .5rem; }
+  .card-inst { font-size: .85rem; color: var(--muted); }
+  .meta { display: flex; flex-wrap: wrap; gap: .35rem; }
+  .tag {
+    display: inline-block; padding: .05rem .55rem; border-radius: 999px;
+    border: 1px solid var(--border); font-size: .78rem;
+  }
+  .tag.label { color: var(--muted); }
+  .card-notes {
+    font-size: .87rem; color: var(--muted); line-height: 1.55; margin: 0;
+    display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden;
+  }
+  .card-notes.expanded { display: block; overflow: visible; }
+  .card-foot {
+    display: flex; align-items: center; justify-content: space-between;
+    gap: .5rem; margin-top: .25rem;
+  }
+  .card-foot .visit { color: var(--accent); font-size: .85rem; text-decoration: none; }
+  .card-foot .visit:hover { text-decoration: underline; }
+  .more {
+    background: none; border: none; padding: 0; font: inherit; font-size: .78rem;
+    color: var(--accent); cursor: pointer;
+  }
+  .meta-line { display: flex; flex-wrap: wrap; gap: .25rem 1rem; font-size: .85rem; }
+  .meta-line span b { color: var(--muted); font-weight: 500; }
+  body.view-table #cards { display: none; }
+  body.view-card #table { display: none; }
+
+  /* Table view */
   table { width: 100%; border-collapse: collapse; font-size: .9rem; }
   th, td { text-align: left; padding: .6rem .75rem; border-bottom: 1px solid var(--border); vertical-align: top; }
   th { font-weight: 600; color: var(--muted); position: sticky; top: 0; background: var(--bg); }
   tbody tr:hover { background: var(--border); }
   td a { color: var(--accent); text-decoration: none; }
   td a:hover { text-decoration: underline; }
+  .num { font-variant-numeric: tabular-nums; white-space: nowrap; }
   .badge {
     display: inline-block; padding: .1rem .5rem; border-radius: 999px;
     font-size: .75rem; background: var(--border); color: var(--fg);
@@ -71,9 +124,12 @@
   footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border);
            color: var(--muted); font-size: .85rem; }
   footer a { color: var(--accent); }
+  @media (max-width: 640px) {
+    .controls input, .controls select { min-width: 100%; }
+  }
 </style>
 </head>
-<body>
+<body class="view-card">
 <div class="wrap">
   <header>
     <h1>Renascor</h1>
@@ -106,12 +162,21 @@
       <select id="f-region"><option value="">All</option></select>
     </div>
     <div>
+      <label>View</label>
+      <div class="view-toggle" role="group" aria-label="View mode">
+        <button id="view-cards" aria-pressed="true" type="button">Cards</button>
+        <button id="view-table" aria-pressed="false" type="button">Table</button>
+      </div>
+    </div>
+    <div>
       <button id="dl-csv" class="secondary">Download CSV</button>
       <button id="dl-json" class="secondary">Download JSON</button>
     </div>
   </div>
 
   <p class="stats" id="stats">Loading...</p>
+
+  <div id="cards"></div>
 
   <table id="table">
     <thead>
@@ -121,6 +186,8 @@
         <th>Period</th>
         <th>Region</th>
         <th>Encoding</th>
+        <th>Words</th>
+        <th>Active</th>
         <th>Institution</th>
         <th>Status</th>
       </tr>
