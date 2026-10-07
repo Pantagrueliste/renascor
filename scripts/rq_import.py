@@ -216,6 +216,9 @@ def main() -> int:
         members = assigned.get(slug)
         if not members:
             continue
+        members = [c for c in members if c not in g.get("drop", [])]
+        if not members:
+            continue
         stats = aggregate(args.db, members)
         out_path = args.out_dir / f"{slug}.json"
         existing = None

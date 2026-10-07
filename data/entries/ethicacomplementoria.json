@@ -1,15 +1,16 @@
 {
-  "title": "EthicaComplementoria",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Digital Edition of the Ethica Complementoria",
+  "url": "https://github.com/arockenberger/EthicaComplementoria",
   "languages": [
     "German"
   ],
-  "encoding": "other",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 73680,
   "texts": 8,
   "period": "1643-1665",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "Annika Rockenberger's GitHub project (repo live 200) holds the TEI P5 transcriptions and analysis code for her digital scholarly edition of the 17th-c. German etiquette prints of the Ethica Complementoria tradition, published with the Herzog August Bibliothek Wolfenbüttel; the harvest covers A3 (1648), C3 (1665), Complementierbüchlein (B6, 1660), Cochleatio Novissima (1656), Klag und Trost (1652) — matching origin 'Ethica Complementoria project: Ethica Complementoria (A3) (1648)'. A companion repo greflinger-dse/EthicaComplementoria holds edition files linked to DTA publications; data on GitHub under CC-BY. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Annika Rockenberger (herzog August Bibliothek Wolfenbuettel / University of Oslo)"
 }

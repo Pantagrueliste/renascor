@@ -1,15 +1,16 @@
 {
-  "title": "FabulasMitologicas",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Fabulas mitologicas del Siglo de Oro (ed. Antonio Rojas Castro, GitHub)",
+  "url": "https://github.com/arojascastro/fabulasmitologicas",
   "languages": [
     "Spanish"
   ],
-  "encoding": "other",
-  "status": "active",
+  "encoding": "tei",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
-  "words": 164959,
-  "texts": 26,
+  "words": 182943,
+  "texts": 30,
   "period": "1620-1620",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "Same project and repository as fabulasmito-gh: Antonio Rojas Castro's 2016 TEI-XML corpus of 26 Spanish Golden Age mythological fables (~150k words, CC BY 4.0), harvested here under origin 'Fábulas mitológicas: Barahona_acteon' with witnesses Barahona de Soto's Acteón and Vértumno, Bermúdez's Narciso, Bocángel's Leandro, Carrillo's Acis; the repo (live 200) is the canonical public source, with a companion publication in Studia Aurea (2017) and stylometry workshops built on this corpus. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Antonio Rojas Castro (Freie Universitaet Berlin / UNED)"
 }

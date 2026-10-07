@@ -1,15 +1,16 @@
 {
-  "title": "DRC Romansh",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Digitale Rätoromanische Chrestomathie (Biblioteca Digitala)",
+  "url": "https://crestomazia.dch.phil-fak.uni-koeln.de/",
   "languages": [
     "Romansh"
   ],
   "encoding": "other",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 143335,
   "texts": 5,
   "period": "1527-1565",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "DFG project (2009–2011) at the Universität zu Köln that digitized and deep-indexed Caspar Decurtins' 'Rätoromanische Chrestomathie' (~7,500 pages of Romansh texts), published as the 'Biblioteca Digitala' full-text corpus; data preservation is now with the Data Center for the Humanities (dch.phil-fak.uni-koeln.de, 200). The harvest covers Decurtins vol. V (Engadine 16th-c. authors Travers, Bifrun, Chiampell, Planta, Papa), matching origin 'DRC Vol V (Engadine 16th c.): Gian Travers'. Caveat: the crestomazia server deliberately answers HTTP 418 (anti-crawler 'teapot') to non-browser clients including this checker, so verify interactively in a browser; it is up, not dead (no 404/000). Text units are OCR'd chapters, not TEI. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Universitaet zu Koeln (Sprachliche Informationsverarbeitung / Universitaets- und Stadtbibliothek / Data Center for the Humanities)"
 }

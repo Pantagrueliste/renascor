@@ -1,15 +1,16 @@
 {
-  "title": "GerManC",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "GerManC - parsed corpus of German 1650-1800, 'Plays' text collection (OTA 2544)",
+  "url": "https://ota.ox.ac.uk/desc/2544",
   "languages": [
     "German"
   ],
-  "encoding": "other",
-  "status": "active",
+  "encoding": "tei",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 230403,
   "texts": 117,
   "period": "1654-1700",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "GerManC is the Leverhulme-funded (2005-2009) manually parsed corpus of German 1650-1800 sampled across nine text types and five 30-year periods; the 'Plays' collection (drama manuscripts and prints 1650-1700 in the harvest: 'GerManC drama 1673', '...1657', '...1699', '...1700') is deposited as a separate Oxford Text Archive record, ota:2544, in TEI-style XML with text and metadata; license CC-BY-NC (free distribution for non-commercial use with acknowledgment). The former project site germanc.lancs.ac.uk no longer responds (checked Oct 2026), so the OTA catalogue record (returning HTTP 200 behind an Anubis anti-bot gate) is the verified link. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "University of Manchester (Silke Regenbogen, Paul Bennett; superv. David Denison / Astrid Erdmann), deposited at the Oxford Text Archive (ota:2544)"
 }

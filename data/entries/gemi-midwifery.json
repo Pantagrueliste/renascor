@@ -1,15 +1,16 @@
 {
-  "title": "GeMi Midwifery",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "The Nottingham Corpus of Early Modern German Midwifery and Women's Medicine, ca. 1500–1700 (GeMi, OTA 2562)",
+  "url": "https://ota.ox.ac.uk/desc/2562",
   "languages": [
     "German"
   ],
-  "encoding": "other",
-  "status": "active",
+  "encoding": "tei",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 105188,
   "texts": 12,
   "period": "1500-1690",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "Whitt's GeMi corpus (OTA 2562, published 2016) holds 12 German midwifery and women's-medicine texts ca. 1500–1700 (Rösslin's Rosengarten, the anonymous Frauenbüchlein ca. 1500, Rüff's Trostbüchlein, HoffWeheMutter, HebammenBuch...) in paired RAW plain-text and TEI XML files plus a manual — the RAW/TEI file pairs with dates match the harvest origins one-for-one ('GeMi: FrauenbüchleinRAW (1500)', 'GeMi: RosengartenRAW (1513)', 'GeMi: JungfrawenRAW (1624)'; 12 distinct origin files = the 12 corpus texts). Transcriptions derive mostly from the Würzburg 'Digitale Volltexte' Gynäkologie collection; CC BY-NC-SA 3.0. Caveat: OTA pages sit behind an Anubis anti-bot proof-of-work gate (HTTP 200 but challenge page to crawlers); open the URL in a browser. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "University of Nottingham (Richard J. Whitt), deposited at the Oxford Text Archive (ota:2562)"
 }

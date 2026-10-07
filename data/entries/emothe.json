@@ -1,6 +1,6 @@
 {
-  "title": "EMOTHE",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "EMOTHE - Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos",
+  "url": "https://emothe.uv.es/",
   "languages": [
     "English",
     "French",
@@ -8,12 +8,13 @@
     "Portuguese",
     "Spanish"
   ],
-  "encoding": "other",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 842260,
   "texts": 47,
   "period": "1517-1656",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "EMOTHE at the Universitat de València (site live 200) studies and edits the canon of early modern European theatre (Italian, English, French, Portuguese, Spanish, 16th–17th c.); its digital library has ~350 TEI-XML editions (originales y traducciones) with ids like EMOTHE0357, EMOTHE0382 — matching the harvest origin 'EMOTHE/EMOTHE0357: Fernández Mosquera, Santiago, ed. — A SECRETO AGRAVIO, SECRETA VENGANZA' and the 357-text id span. TEI files (TEI-All validated) are openly distributed via GitLab (gitlab.com/emothe/emothe-research-project) and the Zenodo community zenodo.org/communities/emothe; workflow is FileMaker + oXygen, not TEITOK. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Universitat de Valencia (proyecto ARTELOPE; founders Joan Oleza, current PI Jesus Tronch Perez)"
 }

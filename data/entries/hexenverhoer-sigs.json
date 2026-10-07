@@ -1,15 +1,16 @@
 {
-  "title": "Hexenverhoer SiGS",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Hexenverhoerprotokolle (SiGS corpus, LAUDATIO repository)",
+  "url": "https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
   "languages": [
     "German"
   ],
   "encoding": "other",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 85441,
   "texts": 55,
   "period": "1570-1665",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "The SiGS corpus published in LAUDATIO (DOI resolves live 200) contains 18 Early New High German witch-trial interrogation protocols 1570–1665 (Jever, Alme, Bamberg, München, Wernigerode, Osnabrück, Crivitz, Helmstedt, Leonberg, Memmingen...), matching the harvest origins 'Hexenverhörprotokoll Wernigerode1597' etc. one-for-one. Texts derive from Macha et al. (2005) 'Deutsche Kanzleisprache in Hexenverhörprotokollen der Frühen Neuzeit', converted to TEI P5 and further encoded as PAULA XML/relANNIS for ANNIS — hence encoding 'other' (PAULA, TEI-derived). Project page with corpus map: uni-muenster.de/SIGS-Projekt/corpus/index.html (200). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "DFG project SiGS / Universities of Muenster, Cologne and Hamburg (Renata Szczepaniak, Klaus-Michael Koepcke, Fabian Barteld, Stefan Hartmann et al.); published in LAUDATIO (HU Berlin)"
 }

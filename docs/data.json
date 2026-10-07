@@ -4,7 +4,7 @@
     "description": "An open catalogue of digital editions of Renaissance-era written documents",
     "licence": "CC0 1.0",
     "source": "https://github.com/Pantagrueliste/renascor",
-    "entries": 199
+    "entries": 198
   },
   "entries": [
     {
@@ -811,19 +811,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "DISCO SpanishSonnets",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "DISCO: Diachronic Spanish Sonnet Corpus",
+      "url": "https://github.com/pruizf/disco",
       "languages": [
         "Spanish"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 76564,
       "texts": 1,
       "period": "1600-1600",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "DISCO is the Diachronic Spanish Sonnet Corpus of ~4,500 Spanish sonnets 15th–20th c. in XML-TEI with metrical annotation and VIAF-linked metadata; the Golden Age subcorpus (15th–17th c.) deliberately includes minor/non-canonical authors, exactly matching the harvest reference 'DISCO Golden Age minor-author sonnets' (150 texts). Distributed under CC-BY 4.0 via GitHub and Zenodo (zenodo.org/records/1193782). The former project site editionsdisco.com no longer resolves (checked Oct 2026), but the project site is mirrored at prf1.org/disco/about.html (200). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "UNED Madrid (Pablo Ruiz Fabo, Helena Bermudez Sabel, Clara Martinez Canton, Jose Calvo Tello)"
     },
     {
       "title": "DissEd PhDeditions",
@@ -911,49 +912,52 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "DRC Romansh",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Digitale Rätoromanische Chrestomathie (Biblioteca Digitala)",
+      "url": "https://crestomazia.dch.phil-fak.uni-koeln.de/",
       "languages": [
         "Romansh"
       ],
       "encoding": "other",
-      "status": "active",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 143335,
       "texts": 5,
       "period": "1527-1565",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "DFG project (2009–2011) at the Universität zu Köln that digitized and deep-indexed Caspar Decurtins' 'Rätoromanische Chrestomathie' (~7,500 pages of Romansh texts), published as the 'Biblioteca Digitala' full-text corpus; data preservation is now with the Data Center for the Humanities (dch.phil-fak.uni-koeln.de, 200). The harvest covers Decurtins vol. V (Engadine 16th-c. authors Travers, Bifrun, Chiampell, Planta, Papa), matching origin 'DRC Vol V (Engadine 16th c.): Gian Travers'. Caveat: the crestomazia server deliberately answers HTTP 418 (anti-crawler 'teapot') to non-browser clients including this checker, so verify interactively in a browser; it is up, not dead (no 404/000). Text units are OCR'd chapters, not TEI. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Universitaet zu Koeln (Sprachliche Informationsverarbeitung / Universitaets- und Stadtbibliothek / Data Center for the Humanities)"
     },
     {
-      "title": "DSL HenrikSmith",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Henrik Smith: Lægebøger (1577), scholarly online edition (tekstnet.dk / DSL)",
+      "url": "https://tekstnet.dk/books/smith-h_1-laegebog-top-til-taa/",
       "languages": [
         "Danish"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 256557,
       "texts": 6,
       "period": "1577-1577",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "The collection is DSL/tekstnet.dk's scientific online edition of Henrik Smid's six medical books (the posthumous 1577 edition), edited by Simon Skovgaard Boeck with Anne Mette Hansen and Ebba Hjorth; text transcribed from digital photographs in cooperation with the Universität Trier. The three harvested texts correspond word-for-word to the origin ids 'smith-h_1-laegebog-top-til-taa (1577)' etc., verified live (200) at tekstnet.dk/books/smith-h_1-laegebog-top-til-taa/. tekstnet.dk is DSL's portal for Old Danish text editions. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Det Danske Sprog- og Litteraturselskab (DSL), Copenhagen"
     },
     {
-      "title": "DSL Salmer",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Reformationstidens danske salme- og messeboeger digitaliseret (salmer.dsl.dk)",
+      "url": "https://salmer.dsl.dk/",
       "languages": [
         "Danish"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 1194918,
       "texts": 9,
       "period": "1529-1573",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). Det Danske Sprog- og Litteraturselskab (DSL) Salmer local TEI dump; data/raw/dsl_salmer/eXist-dbs/salmer/xml/; rebuild/dsl_salmer_raw_lock_2026-06-13.tsv; rebuild/dsl_salmer_source_selection_2026-06-1"
+      "notes": "DSL project 'Musik og sprog i reformationstidens danske salmesang' (Carlsberg-funded) digitally published nine Danish hymnals and mass books of the Reformation era, 1529–1573; the four harvested texts (christian-3-bibel 1550, claus-mortensen-messe-1529, dietz-salmebog-1529/1536, jespersen_1573) match the origin ids 'DSL DSL_Salmer: ...' exactly by slug. Texts are served as TEI/XML from DSL's eXist-db (RQ harvest path data/raw/dsl_salmer/eXist-dbs/salmer/xml/), with companion portals melodier.dsl.dk and ordnet.dk/ren; project page at dsl.dk/projekter/musik-og-sprog-i-reformationstidens-danske-salmesang (200). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Det Danske Sprog- og Litteraturselskab (DSL), Copenhagen"
     },
     {
       "title": "Deutsches Textarchiv (DTA)",
@@ -972,19 +976,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "EarlyModernGreek CLARINEL",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "CLARIN:EL Medieval and Early Modern Greek corpora (16th c. notarial registers and Cretan/Heptanesian literature)",
+      "url": "http://hdl.handle.net/11500/AEGEAN-0000-0000-5806-7",
       "languages": [
         "Modern Greek"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 152215,
       "texts": 5,
       "period": "1520-1646",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "CLARIN:EL publishes a resource family of Medieval and Early Modern Greek resources (featured at clarin.gr/en/resource-of-the-month/greek-middle-ages-clarinel, 200), including 11 complete 16th-c. notarial registers of Cretan and Ionian notaries; the notarial-deeds corpus behind the handle above (resolves to inventory.clarin.gr/corpus/902, live) covers deeds by Katoimeris, Varagas, Farmakis, Alexakis, Vranianitis, Maras, Patsidiotis and Ioannis Olokalos — matching the harvested documents '(Alexakis)' and 'Olokalos notary documents (Crete, 1496-1543)'; sibling corpora contain Montselese's Evgena (1646) and Kapianos/Visvizis deed editions, matching the other origin strings of this 20-text cluster ('CLARIN:EL 1210' is the RQ harvest's internal resource id; corpora are TEI-compliant XML). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "University of the Aegean / Greek Language Centre / ILSP 'Athena' (CLARIN:EL infrastructure)"
     },
     {
       "title": "English Broadside Ballad Archive (EBBA)",
@@ -1053,49 +1058,52 @@
       "texts": 50237
     },
     {
-      "title": "ELAN crenum",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "CreNum - Edition numerique de la Chronique francaise de Guillaume Cretin",
+      "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum",
       "languages": [
         "French"
       ],
-      "encoding": "other",
-      "status": "active",
+      "encoding": "tei",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 192178,
       "texts": 5,
       "period": "1515-1515",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "CreNum is the ELAN (Grenoble) digital XML-TEI edition of Guillaume Crétin's Chronique française (ed. Delaissa Berrada, 2020, CC-BY 3.0 for the TEI at data.elan-numerique.fr/textes/oeuvre15.xml), matching the harvest origin 'ÉLAN crenum: Livre_I..V' (five books, 1515 edition). The edition portal research.elan-numerique.fr (page oeuvres/edition/15) did not respond at check time (000), so the live GitLab repo gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum is given as the verified project URL. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes)"
     },
     {
-      "title": "ELAN fnvr",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "FNVR - Fictions Narratives en Vers de la Renaissance (1490-1600)",
+      "url": "https://elan.gricad-pages.univ-grenoble-alpes.fr/fnvr/",
       "languages": [
         "French"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 78532,
       "texts": 4,
       "period": "1500-1500",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "FNVR is a Litt&Arts (Grenoble) project building XML-TEI editions of French verse narratives composed or translated 1490-1600, some first modern editions, led by Pascale Mounier; the TEI dataset is openly published on Recherche Data Gouv (DOI 10.57745/SSC5XT). The harvested files (amantDesconforte, chevallier, palamon, rondeaux) match the repo layout of elan/fnvr on the Grenoble GitLab, whose project page is live (200) and matches origin 'ELAN fnvr: amantDesconforte'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Pascale Mounier"
     },
     {
-      "title": "ELAN polygrenaille",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "POLY-GRENAILLE - edition numerique des oeuvres morales de Francois de Grenaille",
+      "url": "https://elan.gricad-pages.univ-grenoble-alpes.fr/polygrenaille/",
       "languages": [
         "French"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 77536,
       "texts": 1,
       "period": "1642-1642",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "POLY-GRENAILLE (Grenolle ELAN platform, live 200) is a digital critical edition of the 1640s moral works of Francois de Grenaille including his La Mode (Paris 1642), matching the harvest origin 'ELAN polygrenaille: grenaille_la_mode' (39 texts). Published within UMR Litt&Arts' ELAN platform with TEI encoding and critical annotation (never previously modern-edited). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Cecile Lignereux and Bernard Roukhomovsky (project MoREM)"
     },
     {
       "title": "Emblem Project Utrecht",
@@ -1135,23 +1143,24 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/CCS-ZCU/EMLAP_ETL; data/raw/emlap/data/emlap_metadata.csv; data/raw/emlap/data/emlap_corpus_public/emlap_txts/; rebuild/emlap_raw_lock_2026-06-13.tsv; rebuild/emlap_source_selection"
     },
     {
-      "title": "EMMO Folger",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "EMMO: Early Modern Manuscripts Online",
+      "url": "https://emmo.folger.edu/",
       "languages": [
         "English"
       ],
-      "encoding": "other",
-      "status": "active",
+      "encoding": "tei",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 40606,
       "texts": 1,
       "period": "1620-1620",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "EMMO is the Folger Shakespeare Library's IMLS-funded project giving web access to TEI P5 transcriptions, images and metadata of 16th- and 17th-century English manuscripts, with diplomatic/semi-diplomatic/regularized text flavors and a downloadable XML corpus; the site (live 200) documents exactly '100 transcribed documents', matching the harvest origin 'EMMO (Folger), 100 manuscript transcriptions'. Crowdsourced transcription ran on Dromio (transcribe.folger.edu); the IMLS grant concluded, leaving the site a preserved static resource. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Folger Shakespeare Library (project lead Heather Wolfe)"
     },
     {
-      "title": "EMOTHE",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "EMOTHE - Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos",
+      "url": "https://emothe.uv.es/",
       "languages": [
         "English",
         "French",
@@ -1159,14 +1168,15 @@
         "Portuguese",
         "Spanish"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 842260,
       "texts": 47,
       "period": "1517-1656",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "EMOTHE at the Universitat de València (site live 200) studies and edits the canon of early modern European theatre (Italian, English, French, Portuguese, Spanish, 16th–17th c.); its digital library has ~350 TEI-XML editions (originales y traducciones) with ids like EMOTHE0357, EMOTHE0382 — matching the harvest origin 'EMOTHE/EMOTHE0357: Fernández Mosquera, Santiago, ed. — A SECRETO AGRAVIO, SECRETA VENGANZA' and the 357-text id span. TEI files (TEI-All validated) are openly distributed via GitLab (gitlab.com/emothe/emothe-research-project) and the Zenodo community zenodo.org/communities/emothe; workflow is FileMaker + oXygen, not TEITOK. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Universitat de Valencia (proyecto ARTELOPE; founders Joan Oleza, current PI Jesus Tronch Perez)"
     },
     {
       "title": "Early Modern Recipes Online Collective (EMROC)",
@@ -1214,19 +1224,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/Jero2760/estilometria; data/raw/estilometria/Siglo_de_Oro/; rebuild/estilometria_raw_lock_2026-06-13.tsv; rebuild/estilometria_source_selection_2026-06-13.tsv; rebuild/estilometria_"
     },
     {
-      "title": "EthicaComplementoria",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Digital Edition of the Ethica Complementoria",
+      "url": "https://github.com/arockenberger/EthicaComplementoria",
       "languages": [
         "German"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 73680,
       "texts": 8,
       "period": "1643-1665",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Annika Rockenberger's GitHub project (repo live 200) holds the TEI P5 transcriptions and analysis code for her digital scholarly edition of the 17th-c. German etiquette prints of the Ethica Complementoria tradition, published with the Herzog August Bibliothek Wolfenbüttel; the harvest covers A3 (1648), C3 (1665), Complementierbüchlein (B6, 1660), Cochleatio Novissima (1656), Klag und Trost (1652) — matching origin 'Ethica Complementoria project: Ethica Complementoria (A3) (1648)'. A companion repo greflinger-dse/EthicaComplementoria holds edition files linked to DTA publications; data on GitHub under CC-BY. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Annika Rockenberger (herzog August Bibliothek Wolfenbuettel / University of Oslo)"
     },
     {
       "title": "Evans Early American Imprints (Evans-TCP)",
@@ -1245,49 +1256,36 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "FabulasMito GH",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Fabulas mitologicas del Siglo de Oro (ed. Antonio Rojas Castro, GitHub)",
+      "url": "https://github.com/arojascastro/fabulasmitologicas",
       "languages": [
         "Spanish"
       ],
-      "encoding": "other",
-      "status": "active",
+      "encoding": "tei",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
-      "words": 17984,
-      "texts": 4,
+      "words": 182943,
+      "texts": 30,
       "period": "1620-1620",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Same project and repository as fabulasmito-gh: Antonio Rojas Castro's 2016 TEI-XML corpus of 26 Spanish Golden Age mythological fables (~150k words, CC BY 4.0), harvested here under origin 'Fábulas mitológicas: Barahona_acteon' with witnesses Barahona de Soto's Acteón and Vértumno, Bermúdez's Narciso, Bocángel's Leandro, Carrillo's Acis; the repo (live 200) is the canonical public source, with a companion publication in Studia Aurea (2017) and stylometry workshops built on this corpus. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Antonio Rojas Castro (Freie Universitaet Berlin / UNED)"
     },
     {
-      "title": "FabulasMitologicas",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
-      "languages": [
-        "Spanish"
-      ],
-      "encoding": "other",
-      "status": "active",
-      "provenance": "submitted",
-      "date_added": "2026-10-07",
-      "words": 164959,
-      "texts": 26,
-      "period": "1620-1620",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
-    },
-    {
-      "title": "FallOfConstantinople Arranz",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Tale of the Fall of Constantinople - parallel interlinear edition (obdurodon.org)",
+      "url": "http://arranz.obdurodon.org",
       "languages": [
         "Church Slavonic"
       ],
-      "encoding": "other",
-      "status": "active",
+      "encoding": "tei",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 29847,
       "texts": 2,
       "period": "1561-1585",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "arranz.obdurodon.org (live 200) hosts the interlinear collation digital edition of the East Slavic 'Povest' o vzjatii Car'grada' (Tale of the capture of Constantinople), developed by Isabel Arranz del Riego from her 2013 UCM dissertation and maintained by David J. Birnbaum with XML/RelaxNG files and the three Hilandar Monastery witnesses 281 (1561), 280 (1585) and 282 (1826) - the first two are exactly the harvested witnesses ('witness HM281 (1561)', 'witness HM280 (1585)'). Released under CC BY-NC-SA 3.0. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Isabel Arranz del Riego (Universidad Complutense de Madrid); maintained by David J. Birnbaum (University of Pittsburgh, obdurodon.org)"
     },
     {
       "title": "FAMSI Bolles YucatecMaya",
@@ -1380,19 +1378,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "Fuerstinnenkorrespondenz",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Frühneuzeitliche Fürstinnenkorrespondenzen (Fuerstinnenkorrespondenz corpus, LAUDATIO)",
+      "url": "http://hdl.handle.net/11022/0000-0000-82A0-7",
       "languages": [
         "German"
       ],
-      "encoding": "other",
-      "status": "active",
+      "encoding": "tei",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 23824,
       "texts": 1,
       "period": "1568-1568",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "DFG project on the letter corpora of early modern princely women of the central German area (~5,500 letters in 24 correspondences; the published corpus v1.1 has ~250k tokens of 16th-c. princesses' letters), published in the LAUDATIO repository (handle resolves and is live 200) with TEI plus morphological/POS annotation, queryable in ANNIS; matches origin 'Fürstinnenkorrespondenz (early-modern German princely women's letters, 16c)'. Related Anhalt/Thuringia letter materials sit in ThULB Jena 'Digitale Fürstinnenkorrespondenzen' collections; a BBAW reuse experiment by Stefan Dumont confirms the free licence of the TEI data. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Friedrich-Schiller-Universitaet Jena (Rosemarie Luehr, Vera Fasshauer, Daniela Prutscher, Henry Seidel), published in the LAUDATIO repository"
     },
     {
       "title": "Galileo Opere Favaro",
@@ -1458,34 +1457,36 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://ganjoor.net/; data/raw/ganjoor/ganjoor.s3db; rebuild/ganjoor_raw_lock_2026-06-13.tsv; rebuild/ganjoor_source_selection_2026-06-13.tsv; rebuild/ganjoor_source_native_audit_2026-06-13.csv; scrip"
     },
     {
-      "title": "GeMi Midwifery",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "The Nottingham Corpus of Early Modern German Midwifery and Women's Medicine, ca. 1500–1700 (GeMi, OTA 2562)",
+      "url": "https://ota.ox.ac.uk/desc/2562",
       "languages": [
         "German"
       ],
-      "encoding": "other",
-      "status": "active",
+      "encoding": "tei",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 105188,
       "texts": 12,
       "period": "1500-1690",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Whitt's GeMi corpus (OTA 2562, published 2016) holds 12 German midwifery and women's-medicine texts ca. 1500–1700 (Rösslin's Rosengarten, the anonymous Frauenbüchlein ca. 1500, Rüff's Trostbüchlein, HoffWeheMutter, HebammenBuch...) in paired RAW plain-text and TEI XML files plus a manual — the RAW/TEI file pairs with dates match the harvest origins one-for-one ('GeMi: FrauenbüchleinRAW (1500)', 'GeMi: RosengartenRAW (1513)', 'GeMi: JungfrawenRAW (1624)'; 12 distinct origin files = the 12 corpus texts). Transcriptions derive mostly from the Würzburg 'Digitale Volltexte' Gynäkologie collection; CC BY-NC-SA 3.0. Caveat: OTA pages sit behind an Anubis anti-bot proof-of-work gate (HTTP 200 but challenge page to crawlers); open the URL in a browser. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "University of Nottingham (Richard J. Whitt), deposited at the Oxford Text Archive (ota:2562)"
     },
     {
-      "title": "GerManC",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "GerManC - parsed corpus of German 1650-1800, 'Plays' text collection (OTA 2544)",
+      "url": "https://ota.ox.ac.uk/desc/2544",
       "languages": [
         "German"
       ],
-      "encoding": "other",
-      "status": "active",
+      "encoding": "tei",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 230403,
       "texts": 117,
       "period": "1654-1700",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "GerManC is the Leverhulme-funded (2005-2009) manually parsed corpus of German 1650-1800 sampled across nine text types and five 30-year periods; the 'Plays' collection (drama manuscripts and prints 1650-1700 in the harvest: 'GerManC drama 1673', '...1657', '...1699', '...1700') is deposited as a separate Oxford Text Archive record, ota:2544, in TEI-style XML with text and metadata; license CC-BY-NC (free distribution for non-commercial use with acknowledgment). The former project site germanc.lancs.ac.uk no longer responds (checked Oct 2026), so the OTA catalogue record (returning HTTP 200 behind an Anubis anti-bot gate) is the verified link. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "University of Manchester (Silke Regenbogen, Paul Bennett; superv. David Denison / Astrid Erdmann), deposited at the Oxford Text Archive (ota:2544)"
     },
     {
       "title": "Gilberti Purepecha",
@@ -1515,7 +1516,7 @@
       "words": 36856,
       "texts": 3,
       "period": "1612-1627",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin. Original harvest trace: GitHub arojascastro/soledades: edicion/anotada/input/soledades_anotada.xml ; GitHub arojascastro/soledades: edicion/critica/soledades_critica.xml"
     },
     {
       "title": "GlasgowEmblems",
@@ -1552,20 +1553,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://ilg.usc.gal/gondomar/; rebuild/gondomar_galician_source_selection_2026-06-24.tsv; data/raw/Gondomar_Galician/Gondomar_Galician.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     },
     {
-      "title": "OBVIL — Gongora Obra",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Obras de Góngora (obra poética, ed. Antonio Carreira) — Labex OBVIL GONGORA project",
+      "url": "https://github.com/gongoradigital/polemos",
       "languages": [
         "Spanish"
       ],
-      "encoding": "other",
-      "status": "active",
+      "encoding": "tei",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 59121,
       "texts": 2,
-      "institution": "Sorbonne Université (OBVIL)",
+      "institution": "Labex OBVIL (Sorbonne Universite), dir. Mercedes Blanco; TEI files on gongoradigital GitHub",
       "period": "1605-1610",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "The OBVIL GONGORA project digitized Carreira's edition of Góngora's poetic works plus the polémica gongorina in TEI P5 (2013–2016, CC BY-NC-ND); its TEI encodings are openly published in the gongoradigital/polemos GitHub repo (live 200), described as 'Codificación xml de la polémica gongorina y la obra poética de Góngora editadas por el Labex OBVIL' — matching the harvested 'Góngora: epistolario (1610)' and 'comediavenatoria (1605)' files. The original portal obvil.paris-sorbonne.fr/corpus/gongora/ redirects to obvil.sorbonne-universite.site/corpus/gongora/ which did not respond at check time (000), so the GitHub repository is given as the verified live source; see also linhd-postdata/gongocorpus. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
       "title": "GutorGlyn Welsh",
@@ -1583,19 +1584,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://gutorglyn.net/gutorglyn/; rebuild/gutorglyn_welsh_source_selection_2026-06-24.tsv; data/raw/GutorGlyn_Welsh/GutorGlyn_Welsh.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     },
     {
-      "title": "Hexenverhoer SiGS",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Hexenverhoerprotokolle (SiGS corpus, LAUDATIO repository)",
+      "url": "https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
       "languages": [
         "German"
       ],
       "encoding": "other",
-      "status": "active",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 85441,
       "texts": 55,
       "period": "1570-1665",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "The SiGS corpus published in LAUDATIO (DOI resolves live 200) contains 18 Early New High German witch-trial interrogation protocols 1570–1665 (Jever, Alme, Bamberg, München, Wernigerode, Osnabrück, Crivitz, Helmstedt, Leonberg, Memmingen...), matching the harvest origins 'Hexenverhörprotokoll Wernigerode1597' etc. one-for-one. Texts derive from Macha et al. (2005) 'Deutsche Kanzleisprache in Hexenverhörprotokollen der Frühen Neuzeit', converted to TEI P5 and further encoded as PAULA XML/relANNIS for ANNIS — hence encoding 'other' (PAULA, TEI-derived). Project page with corpus map: uni-muenster.de/SIGS-Projekt/corpus/index.html (200). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "DFG project SiGS / Universities of Muenster, Cologne and Hamburg (Renata Szczepaniak, Klaus-Michael Koepcke, Fabian Barteld, Stefan Hartmann et al.); published in LAUDATIO (HU Berlin)"
     },
     {
       "title": "HistCorp Swedish",
@@ -2697,20 +2699,19 @@
       "institution": "Universidad de Alicante (Borja Navarro-Colorado; ADSO project, Fundacion BBVA)"
     },
     {
-      "title": "Fábulas mitológicas del Siglo de Oro",
-      "url": "https://github.com/arojascastro/fabulasmitologicas",
+      "title": "SpanishGitHubGoldenAge",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
       "languages": [
         "Spanish"
       ],
-      "encoding": "tei",
+      "encoding": "other",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 165232,
       "texts": 26,
       "period": "1620-1620",
-      "notes": "GitHub repository 'arojascastro/fabulasmitologicas': a corpus of mythological fable poems of the Spanish Golden Age (Gongora's Polifemo and Piramo y Tisbe, Lope's Andromeda/Circe/Filomena, Quevedo, Carrillo y Sotomayor, Espinosa...) in TEI XML plus plain text, assembled for stylometric analysis (~150,746 words). Suggested citation 'VV. AA. Fábulas mitológicas del Siglo de Oro. Ed. Antonio Rojas Castro. Barcelona, 2016'. Licence CC BY 4.0 as stated in the README. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Antonio Rojas Castro (Barcelona)"
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
     },
     {
       "title": "SPXVI Polish16c",

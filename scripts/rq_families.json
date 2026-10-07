@@ -409,6 +409,20 @@
       "title": "TextGrid Repository",
       "url": "https://textgridrep.org/",
       "merge_stats": false
+    },
+    {
+      "slug": "fabulasmitologicas",
+      "match": [
+        "^FabulasMito_GH$",
+        "^FabulasMitologicas$"
+      ],
+      "title": "Fábulas mitológicas del Siglo de Oro",
+      "url": "https://github.com/arojascastro/fabulasmitologicas",
+      "institution": "ed. Antonio Rojas Castro",
+      "drop": [
+        "SpanishGitHubGoldenAge"
+      ],
+      "drop_note": "SpanishGitHubGoldenAge is a re-harvest of FabulasMitologicas (same 26 texts, same GitHub source, wordcounts identical to within 0.2%) — excluded from statistics to avoid double counting."
     }
   ],
   "known_collections": {
@@ -477,9 +491,9 @@
       "institution": "Sorbonne Université (OBVIL)"
     },
     "GongoraObra_OBVIL": {
-      "title": "OBVIL — Gongora Obra",
-      "url": "http://obvil.paris-sorbonne.fr/",
-      "institution": "Sorbonne Université (OBVIL)"
+      "title": "Obras de Góngora (obra poética, ed. Antonio Carreira) — Labex OBVIL GONGORA project",
+      "url": "https://github.com/gongoradigital/polemos",
+      "institution": "Labex OBVIL (Sorbonne Universite), dir. Mercedes Blanco; TEI files on gongoradigital GitHub"
     },
     "IcePaHC_Icelandic": {
       "title": "IcePaHC — Icelandic Parsed Historical Corpus"
@@ -528,11 +542,6 @@
       "title": "Corpus de sonetos del Siglo de Oro (ADSO)",
       "url": "https://github.com/bncolorado/CorpusSonetosSigloDeOro",
       "institution": "Universidad de Alicante (Borja Navarro-Colorado; ADSO project, Fundacion BBVA)"
-    },
-    "SpanishGitHubGoldenAge": {
-      "title": "Fábulas mitológicas del Siglo de Oro",
-      "url": "https://github.com/arojascastro/fabulasmitologicas",
-      "institution": "Antonio Rojas Castro (Barcelona)"
     },
     "SSRQ_SwissLaw": {
       "title": "SSRQ Online — Sammlung Schweizerischer Rechtsquellen / Collection des sources du droit suisse",
@@ -663,6 +672,86 @@
       "title": "DiBiPhil — Corpus of philosophical texts from Zeno's Digital Library",
       "url": "https://github.com/deutschestextarchiv/DiBiPhil",
       "institution": "Deutsches Textarchiv (BBAW); source texts from Zeno.org's Digitale Bibliothek"
+    },
+    "DISCO_SpanishSonnets": {
+      "title": "DISCO: Diachronic Spanish Sonnet Corpus",
+      "url": "https://github.com/pruizf/disco",
+      "institution": "UNED Madrid (Pablo Ruiz Fabo, Helena Bermudez Sabel, Clara Martinez Canton, Jose Calvo Tello)"
+    },
+    "DRC_Romansh": {
+      "title": "Digitale Rätoromanische Chrestomathie (Biblioteca Digitala)",
+      "url": "https://crestomazia.dch.phil-fak.uni-koeln.de/",
+      "institution": "Universitaet zu Koeln (Sprachliche Informationsverarbeitung / Universitaets- und Stadtbibliothek / Data Center for the Humanities)"
+    },
+    "DSL_HenrikSmith": {
+      "title": "Henrik Smith: Lægebøger (1577), scholarly online edition (tekstnet.dk / DSL)",
+      "url": "https://tekstnet.dk/books/smith-h_1-laegebog-top-til-taa/",
+      "institution": "Det Danske Sprog- og Litteraturselskab (DSL), Copenhagen"
+    },
+    "DSL_Salmer": {
+      "title": "Reformationstidens danske salme- og messeboeger digitaliseret (salmer.dsl.dk)",
+      "url": "https://salmer.dsl.dk/",
+      "institution": "Det Danske Sprog- og Litteraturselskab (DSL), Copenhagen"
+    },
+    "EarlyModernGreek_CLARINEL": {
+      "title": "CLARIN:EL Medieval and Early Modern Greek corpora (16th c. notarial registers and Cretan/Heptanesian literature)",
+      "url": "http://hdl.handle.net/11500/AEGEAN-0000-0000-5806-7",
+      "institution": "University of the Aegean / Greek Language Centre / ILSP 'Athena' (CLARIN:EL infrastructure)"
+    },
+    "ELAN_crenum": {
+      "title": "CreNum - Edition numerique de la Chronique francaise de Guillaume Cretin",
+      "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum",
+      "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes)"
+    },
+    "ELAN_fnvr": {
+      "title": "FNVR - Fictions Narratives en Vers de la Renaissance (1490-1600)",
+      "url": "https://elan.gricad-pages.univ-grenoble-alpes.fr/fnvr/",
+      "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Pascale Mounier"
+    },
+    "ELAN_polygrenaille": {
+      "title": "POLY-GRENAILLE - edition numerique des oeuvres morales de Francois de Grenaille",
+      "url": "https://elan.gricad-pages.univ-grenoble-alpes.fr/polygrenaille/",
+      "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Cecile Lignereux and Bernard Roukhomovsky (project MoREM)"
+    },
+    "EMMO_Folger": {
+      "title": "EMMO: Early Modern Manuscripts Online",
+      "url": "https://emmo.folger.edu/",
+      "institution": "Folger Shakespeare Library (project lead Heather Wolfe)"
+    },
+    "EMOTHE": {
+      "title": "EMOTHE - Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos",
+      "url": "https://emothe.uv.es/",
+      "institution": "Universitat de Valencia (proyecto ARTELOPE; founders Joan Oleza, current PI Jesus Tronch Perez)"
+    },
+    "EthicaComplementoria": {
+      "title": "Digital Edition of the Ethica Complementoria",
+      "url": "https://github.com/arockenberger/EthicaComplementoria",
+      "institution": "Annika Rockenberger (herzog August Bibliothek Wolfenbuettel / University of Oslo)"
+    },
+    "FallOfConstantinople_Arranz": {
+      "title": "Tale of the Fall of Constantinople - parallel interlinear edition (obdurodon.org)",
+      "url": "http://arranz.obdurodon.org",
+      "institution": "Isabel Arranz del Riego (Universidad Complutense de Madrid); maintained by David J. Birnbaum (University of Pittsburgh, obdurodon.org)"
+    },
+    "Fuerstinnenkorrespondenz": {
+      "title": "Frühneuzeitliche Fürstinnenkorrespondenzen (Fuerstinnenkorrespondenz corpus, LAUDATIO)",
+      "url": "http://hdl.handle.net/11022/0000-0000-82A0-7",
+      "institution": "Friedrich-Schiller-Universitaet Jena (Rosemarie Luehr, Vera Fasshauer, Daniela Prutscher, Henry Seidel), published in the LAUDATIO repository"
+    },
+    "GeMi_Midwifery": {
+      "title": "The Nottingham Corpus of Early Modern German Midwifery and Women's Medicine, ca. 1500–1700 (GeMi, OTA 2562)",
+      "url": "https://ota.ox.ac.uk/desc/2562",
+      "institution": "University of Nottingham (Richard J. Whitt), deposited at the Oxford Text Archive (ota:2562)"
+    },
+    "GerManC": {
+      "title": "GerManC - parsed corpus of German 1650-1800, 'Plays' text collection (OTA 2544)",
+      "url": "https://ota.ox.ac.uk/desc/2544",
+      "institution": "University of Manchester (Silke Regenbogen, Paul Bennett; superv. David Denison / Astrid Erdmann), deposited at the Oxford Text Archive (ota:2544)"
+    },
+    "Hexenverhoer_SiGS": {
+      "title": "Hexenverhoerprotokolle (SiGS corpus, LAUDATIO repository)",
+      "url": "https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
+      "institution": "DFG project SiGS / Universities of Muenster, Cologne and Hamburg (Renata Szczepaniak, Klaus-Michael Koepcke, Fabian Barteld, Stefan Hartmann et al.); published in LAUDATIO (HU Berlin)"
     }
   }
 }
