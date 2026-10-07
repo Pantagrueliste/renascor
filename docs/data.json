@@ -4,7 +4,7 @@
     "description": "An open catalogue of digital editions of Renaissance-era written documents",
     "licence": "CC0 1.0",
     "source": "https://github.com/Pantagrueliste/renascor",
-    "entries": 195
+    "entries": 194
   },
   "entries": [
     {
@@ -588,8 +588,8 @@
       "institution": "e-ditiones (Simon Gabay), GitHub open repo"
     },
     {
-      "title": "CretanGreek snhell",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Anthologies of the Spoudastirion Neou Ellinismou (snhell.gr) — Cretan Greek lyric poetry",
+      "url": "http://web.archive.org/web/20010623201249/http://www.snhell.gr:80/a_anth_text.asp",
       "languages": [
         "Modern Greek"
       ],
@@ -600,7 +600,8 @@
       "words": 1736,
       "texts": 3,
       "period": "1590-1655",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://www.snhell.gr/anthology/; rebuild/cretangreek_snhell_source_selection_2026-06-24.tsv; data/raw/CretanGreek_snhell/CretanGreek_snhell.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv. Original harvest trace: Spoudastirio Neou Ellinismou (snhell.gr) anthology via Wayback; ed. Kritiki Lyriki Poiisi, Ermis 1999"
+      "notes": "Three Cretan poems from the online anthologies of the Spoudastirion Neou Ellinismou (snhell.gr; ed. Kritiki Lyriki Poiisi, Ermis 1999), which RQ harvested through the Wayback Machine. The host snhell.gr no longer resolves; the entry points to a verified archived snapshot (the whole domain is archived, see also http://web.archive.org/web/19981111191619/http://www.snhell.gr:80/). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine"
     },
     {
       "title": "CroALa (Croatiae Auctores Latini)",
@@ -2667,21 +2668,6 @@
       "texts": 5078,
       "notes": "The well-known metrical corpus of 5,078 Spanish Golden Age sonnets (matching the catalogue count) in TEI XML with metrical pattern annotation, edited by Borja Navarro-Colorado (Univ. Alicante) from texts of the Biblioteca Virtual Miguel de Cervantes; part of the ADSO project. Licence CC BY-NC 4.0 for the annotations (BVMC terms for the texts); a searchable interface exists at BVMC.Labs (data.cervantesvirtual.com/goldenage). The 'Sonetos del Siglo de Oro' label in the harvest refers to this corpus (texts stem from Ramón García González-type BVMC anthologies). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
       "institution": "Universidad de Alicante (Borja Navarro-Colorado; ADSO project, Fundacion BBVA)"
-    },
-    {
-      "title": "SpanishGitHubGoldenAge",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
-      "languages": [
-        "Spanish"
-      ],
-      "encoding": "other",
-      "status": "active",
-      "provenance": "submitted",
-      "date_added": "2026-10-07",
-      "words": 165232,
-      "texts": 26,
-      "period": "1620-1620",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
     },
     {
       "title": "SPXVI Polish16c",

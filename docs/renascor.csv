@@ -35,7 +35,7 @@ Taklow Kernewek ('Cornish Things') — Cornish language text resources,https://t
 Cornish Tregear,https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche,Cornish,other,active,,1556-1556,38078,,,,,submitted,2026-10-07
 Corpus Corporum,https://mlat.uzh.ch/,Latin,other,active,Universität Zürich,1450-1696,19091970,,,,,submitted,2026-10-07
 CORPUS17 — 17th c. French texts corpus,https://github.com/e-ditiones/CORPUS17,French,tei,active,"e-ditiones (Simon Gabay), GitHub open repo",1622-1700,149810,,,,,submitted,2026-10-07
-CretanGreek snhell,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Modern Greek,other,active,,1590-1655,1736,,,,,submitted,2026-10-07
+Anthologies of the Spoudastirion Neou Ellinismou (snhell.gr) — Cretan Greek lyric poetry,http://web.archive.org/web/20010623201249/http://www.snhell.gr:80/a_anth_text.asp,Modern Greek,other,active,"Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine",1590-1655,1736,,,,,submitted,2026-10-07
 CroALa (Croatiae Auctores Latini),https://croala.ffzg.unizg.hr/,Latin,other,active,University of Zagreb,1450-1700,3545403,,,,,submitted,2026-10-07
 Bible-Corpus — multilingual parallel corpus of Bible translations,https://github.com/christos-c/bible-corpus,Czech,other,active,"Christos Christodoulopoulos (christos-c), GitHub open repo",1613-1613,597503,,,,,submitted,2026-10-07
 tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový),https://github.com/CzechLanguageInstitute/tei2019,Czech,tei,active,"Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",1503-1503,69891,,,,,submitted,2026-10-07
@@ -164,7 +164,6 @@ SERMO - Corpus de sermons protestants 1550-1750,http://sermo.unine.ch/SERMO/,Fre
 "IMP — Corpus of Slovene Historical Texts, 1567-1899",https://www.clarin.si/repository/xmlui/handle/11356/1255,Slovenian,tei,archived,Jozef Stefan Institute (CLARIN.SI) with ZRC SAZU Institute of Slovene Literature / Fran Ramovs Library and NUK,1584-1695,14669,,,,,submitted,2026-10-07
 SMI ItalianMusic,https://chmtl.indiana.edu/smi,Italian,other,active,,1599-1599,62023,,,,,submitted,2026-10-07
 Corpus de sonetos del Siglo de Oro (ADSO),https://github.com/bncolorado/CorpusSonetosSigloDeOro,Spanish,tei,active,"Universidad de Alicante (Borja Navarro-Colorado; ADSO project, Fundacion BBVA)",,466011,,,,,submitted,2026-10-07
-SpanishGitHubGoldenAge,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1620-1620,165232,,,,,submitted,2026-10-07
 SPXVI Polish16c,https://spxvi.edu.pl,Polish,other,active,,1500-1601,6962996,,,,,submitted,2026-10-07
 SSRQ Online — Sammlung Schweizerischer Rechtsquellen / Collection des sources du droit suisse,https://ssrq-sds-fds.ch/,German,tei,active,"Law Sources Foundation of the Swiss Jurists' Society (SSRQ), editorial office at the Universität Zürich (Historisches Seminar)",1500-1644,1058858,,,,,submitted,2026-10-07
 Statutes of the Realm,https://www.british-history.ac.uk/search/series/statutes-realm,English,other,active,Institute of Historical Research (British History Online),1625-1697,1112931,,,,,submitted,2026-10-07
