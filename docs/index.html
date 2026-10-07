@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Renascore: digital editions of Renaissance texts</title>
+<meta name="description" content="An open catalogue of digital editions of Renaissance-era written documents.">
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #faf9f6;
+    --fg: #1a1a18;
+    --muted: #6b6a64;
+    --border: #ddd9d0;
+    --accent: #2d5a3d;
+    --accent-fg: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1a1a18;
+      --fg: #f0efe9;
+      --muted: #a0a099;
+      --border: #3a3a36;
+      --accent: #5a9a6d;
+      --accent-fg: #1a1a18;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.6 ui-sans-serif, system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 2rem 1.25rem 4rem; }
+  header h1 { font-family: ui-serif, Georgia, serif; font-size: 2rem; margin: 0 0 .25rem; }
+  header p { color: var(--muted); margin: 0 0 1.5rem; max-width: 60ch; }
+  .controls {
+    display: flex; flex-wrap: wrap; gap: .75rem; align-items: flex-end;
+    padding: 1rem; background: var(--bg); border: 1px solid var(--border);
+    border-radius: 8px; margin-bottom: 1.5rem;
+  }
+  .controls label { font-size: .85rem; color: var(--muted); display: block; margin-bottom: .2rem; }
+  .controls input, .controls select {
+    font: inherit; padding: .4rem .6rem; border: 1px solid var(--border);
+    border-radius: 6px; background: var(--bg); color: var(--fg); min-width: 140px;
+  }
+  .controls button {
+    font: inherit; padding: .4rem .9rem; border: 1px solid var(--accent);
+    border-radius: 6px; background: var(--accent); color: var(--accent-fg); cursor: pointer;
+  }
+  .controls button.secondary { background: transparent; color: var(--accent); }
+  .stats { color: var(--muted); font-size: .9rem; margin-bottom: 1rem; }
+  table { width: 100%; border-collapse: collapse; font-size: .9rem; }
+  th, td { text-align: left; padding: .6rem .75rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+  th { font-weight: 600; color: var(--muted); position: sticky; top: 0; background: var(--bg); }
+  tbody tr:hover { background: var(--border); }
+  td a { color: var(--accent); text-decoration: none; }
+  td a:hover { text-decoration: underline; }
+  .badge {
+    display: inline-block; padding: .1rem .5rem; border-radius: 999px;
+    font-size: .75rem; background: var(--border); color: var(--fg);
+  }
+  .badge.active { background: #d4edda; color: #155724; }
+  .badge.archived { background: #f8d7da; color: #721c24; }
+  @media (prefers-color-scheme: dark) {
+    .badge.active { background: #1e4620; color: #a3d9a5; }
+    .badge.archived { background: #4a1c20; color: #e5a3a8; }
+  }
+  footer { margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--border);
+           color: var(--muted); font-size: .85rem; }
+  footer a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Renascore</h1>
+    <p>An open catalogue of digital editions of Renaissance-era written documents: manuscripts, printed works, and correspondence.</p>
+  </header>
+
+  <div class="controls">
+    <div>
+      <label for="search">Search</label>
+      <input type="search" id="search" placeholder="title, institution, author..." autocomplete="off">
+    </div>
+    <div>
+      <label for="f-language">Language</label>
+      <select id="f-language"><option value="">All</option></select>
+    </div>
+    <div>
+      <label for="f-encoding">Encoding</label>
+      <select id="f-encoding"><option value="">All</option></select>
+    </div>
+    <div>
+      <label for="f-status">Status</label>
+      <select id="f-status"><option value="">All</option></select>
+    </div>
+    <div>
+      <button id="dl-csv" class="secondary">Download CSV</button>
+      <button id="dl-json" class="secondary">Download JSON</button>
+    </div>
+  </div>
+
+  <p class="stats" id="stats">Loading...</p>
+
+  <table id="table">
+    <thead>
+      <tr>
+        <th>Project</th>
+        <th>Language</th>
+        <th>Period</th>
+        <th>Encoding</th>
+        <th>Institution</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="tbody"></tbody>
+  </table>
+
+  <footer>
+    <p>
+      Data: <a href="https://github.com/Pantagrueliste/renascore/tree/main/data/entries">github.com/Pantagrueliste/renascore</a>
+      (CC0 1.0).
+      Contribute: <a href="https://github.com/Pantagrueliste/renascore/issues/new?template=new-entry.yml">report a missing edition</a>.
+    </p>
+  </footer>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

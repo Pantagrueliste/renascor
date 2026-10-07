@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Renascore: An open catalogue of digital editions of Renaissance-era written documents"
+message: "If you use this catalogue in your research, please cite it as below."
+type: dataset
+authors:
+  - family-names: Godbarge
+    given-names: Clément
+    affiliation: "University of St Andrews"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+repository-code: "https://github.com/Pantagrueliste/renascore"
+url: "https://renascore.github.io"
+abstract: >-
+  Renascore is an open catalogue of projects that have produced digital
+  editions of Renaissance-era written documents (manuscripts, printed works,
+  correspondence) from roughly 1450 to 1700. Each entry records the project
+  title, URL, language, encoding format, status, and provenance.
+keywords:
+  - digital humanities
+  - renaissance
+  - digital editions
+  - catalogue
+  - TEI
+license: CC0-1.0
+version: 0.1.0
+date-released: 2026-10-07
