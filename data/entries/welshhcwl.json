@@ -1,15 +1,16 @@
 {
-  "title": "WelshHCWL",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Historical Corpus of the Welsh Language, 1500-1850 (HCWL; Corpws Hanesyddol yr Iaith Gymraeg)",
+  "url": "https://www.celticstudies.net/",
   "languages": [
     "Welsh"
   ],
-  "encoding": "other",
-  "status": "active",
+  "encoding": "tei",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 276280,
   "texts": 18,
   "period": "1487-1700",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "HCWL 1500-1850 is a ~420,000-word TEI-XML corpus of 30 Welsh texts (incl. Y Beibl Cyssegr-lan 1588, A study of three Welsh religious plays, Report on Manuscripts in the Welsh Language...) built at Cambridge c. 2004, hosted at celticstudies.net (which the harvest used as mirror; 'HCWL celticstudies.net mirror -> b1588.xml', bll.xml, cardiff6.xml etc. are the corpus's XML master files); a parsed derivative (PARSHCWL) and a LINDAT/CLARIAH-CZ deposit (LRT-883) also exist. Site copyright 2004, University of Cambridge; effectively archived. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "University of Cambridge, Linguistics Dept. (David Willis)"
 }

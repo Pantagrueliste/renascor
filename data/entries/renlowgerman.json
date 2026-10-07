@@ -1,15 +1,16 @@
 {
-  "title": "ReNLowGerman",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Referenzkorpus Mittelniederdeutsch/Niederrheinisch, 1200-1650 (ReN)",
+  "url": "https://www.slm.uni-hamburg.de/ren",
   "languages": [
     "German"
   ],
-  "encoding": "other",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 1475279,
   "texts": 137,
   "period": "1450-1699",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). Reference Corpus Middle Low German/Low Rhenish (ReN), Hamburg FDR CorA-ReN-XML_1.1 local dump; data/raw/lowgerman/CorA-ReN-XML_1.1/; rebuild/ren_lowgerman_raw_lock_2026-06-13.tsv; rebuild/ren_lowgerma"
+  "notes": "The ReN collection is NOT a ReFrame sub-project but the Referenzkorpus Mittelniederdeutsch/Niederrheinisch (ReN, 1200-1650), the DFG reference corpus of Middle Low German/Low Rhenish texts built at the Universities of Hamburg and Münster. The harvested files ('ReN Low German Agneta_Willeken.xml (1535)', 'ReN Low German Lüb._Bibel_1494.xml (1494)') come from the CorA-ReN-XML TEI dump the project distributes (the RQ snapshot used a local CorA-ReN-XML_1.1 dump); corpus metadata is CC-BY via the RefCorG/REDE framework. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Universität Hamburg (DFG project; Prof. Ingrid Schröder / Prof. Robert Langhanke)"
 }

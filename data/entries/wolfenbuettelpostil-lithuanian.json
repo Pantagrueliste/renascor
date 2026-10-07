@@ -1,15 +1,16 @@
 {
-  "title": "WolfenbuettelPostil Lithuanian",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Postil Time Machine (PosTiMe) — digital edition of the Old Lithuanian Postilles incl. the Wolfenbuettel Postille of 1573",
+  "url": "https://dh.phil-fak.uni-koeln.de/forschung/abgeschlossene-projekte/postil-time-machine-postime",
   "languages": [
     "Lithuanian"
   ],
-  "encoding": "other",
-  "status": "active",
+  "encoding": "tei",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 131626,
   "texts": 1,
   "period": "1573-1573",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "PosTiMe (DFG, Frankfurt/Cologne, 2021+) produces the language-historically annotated TEI edition and reference corpus of the Old Lithuanian Lutheran postilles; its core object is the Wolfenbüttel Postille of 1573 (Cod. Guelf. 11.2 Aug. 2, Herzog August Bibliothek), the first Lithuanian collection of sermons. The RQ text ('Wolfenbüttel Postil (1573), Old Lithuanian', source 'WP1573-TEI (postime, TITUS-derived)') is the WP1573-TEI layer derived from the earlier TITUS transcription associated with the Gelumbeckaite/HAB 1573 Postille edition project; the HAB project page describes the underlying critical edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Goethe-Universitaet Frankfurt (Jolanta Gelumbeckaite) and Universitaet zu Koeln (Oyvind Eide); DFG 443985248; Wolfenbuettel ms. Cod. Guelf. 11.2 Aug. 2 at the HAB"
 }

@@ -1,15 +1,16 @@
 {
-  "title": "RIALC Catalan",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "RIALC - Repertorio informatizzato dell'antica letteratura catalana",
+  "url": "http://www.rialc.unina.it/",
   "languages": [
     "Catalan"
   ],
   "encoding": "other",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 220010,
   "texts": 20,
   "period": "1455-1490",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "RIALC (built 1999-2003 at Naples Federico II, in collaboration with the Universities of Barcelona, UAB and Girona) is the standard digital library of medieval Catalan poetry: ~216 authors and ~1,600 13th-15th c. poems transcribed from critical editions (HTML, not TEI). The harvested texts ('RIALC: Joan de Masdovelles (~1460, 9 poems)', 'RIALC: Joan Berenguer de Masdovelles (~1460, 168 poems)', etc.) are author pages of this repertory. No explicit licence; site is live but the project is no longer actively extended. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Università degli Studi di Napoli Federico II (dir. Costanzo Di Girolamo, with Lola Badia)"
 }

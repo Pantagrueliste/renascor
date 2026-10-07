@@ -1,6 +1,6 @@
 {
-  "title": "Vietnamese deRhodes",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Phép giảng tám ngày (Cathechismus) — Alexandre de Rhodes, Rome 1651",
+  "url": "https://vi.wikisource.org/wiki/Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y",
   "languages": [
     "Vietnamese"
   ],
@@ -11,5 +11,6 @@
   "words": 53364,
   "texts": 8,
   "period": "1651-1651",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://vi.wikisource.org/wiki/Phép_giảng_tám_ngày; rebuild/vietnamese_derhodes_source_selection_2026-06-24.tsv; data/raw/Vietnamese_deRhodes/Vietnamese_deRhodes.jsonl; rebuild/rawtree_full_lock_2026-"
+  "notes": "The Vietnamese Wikisource page 'Phép giảng tám ngày' (Latin title page 'Cathechismvs ... in octo dies divisus') is a page-by-page proofread transcription of Alexandre de Rhodes's catechism printed in Rome in 1651 by the Congregation de Propaganda Fide — the first printed prose work in chữ Quốc ngữ script; public domain. The harvested origin ('proofread keyed transcription of Cathechismus, Rome 1651') refers to this transcription, taken from the linked scan (Index:Phép giảng tám ngày.pdf). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Vietnamese Wikisource community (proofread transcription of the Congregatio de Propaganda Fide editio princeps)"
 }

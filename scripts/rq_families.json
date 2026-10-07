@@ -483,6 +483,96 @@
     },
     "IcePaHC_Icelandic": {
       "title": "IcePaHC — Icelandic Parsed Historical Corpus"
+    },
+    "ReNLowGerman": {
+      "title": "Referenzkorpus Mittelniederdeutsch/Niederrheinisch, 1200-1650 (ReN)",
+      "url": "https://www.slm.uni-hamburg.de/ren",
+      "institution": "Universität Hamburg (DFG project; Prof. Ingrid Schröder / Prof. Robert Langhanke)"
+    },
+    "RhythmicCorpus_SGA": {
+      "title": "Rhythmic Corpus of 100 Spanish Golden Age Plays",
+      "url": "https://zenodo.org/records/17537343",
+      "institution": "Universitat Autònoma de Barcelona (Álvaro Cuéllar)"
+    },
+    "RIALC_Catalan": {
+      "title": "RIALC - Repertorio informatizzato dell'antica letteratura catalana",
+      "url": "http://www.rialc.unina.it/",
+      "institution": "Università degli Studi di Napoli Federico II (dir. Costanzo Di Girolamo, with Lola Badia)"
+    },
+    "RIN_ConDE": {
+      "title": "ConDÉ — faire vivre six siècles de coutumiers normands (Corpus Numérique des Éditions de la Coutume de Normandie)",
+      "url": "https://mrsh.unicaen.fr/coutumiers/conde/accueil.html",
+      "institution": "CRISCO EA4255 / MRSH, Université de Caen Normandie (Pierre Larrivée, Mathieu Goux; with Université de Rouen), funded by the Région Normandie RIN programme"
+    },
+    "RUP_Folger": {
+      "title": "RUP — Rare or Unique Poems from Manuscripts, 1500-1660 (RUP)",
+      "url": "https://github.com/jedmondes/Rare-or-Unique-Poems-from-manuscripts-1500-1660-FOLGER",
+      "institution": "Jessica Edmondes (Folger Shakespeare Library fellowship)"
+    },
+    "Russian_Ulozhenie1649": {
+      "title": "Sobornoe ulozhenie 1649 goda (Russian Wikisource transcription)",
+      "url": "https://ru.wikisource.org/wiki/%D0%A1%D0%BE%D0%B1%D0%BE%D1%80%D0%BD%D0%BE%D0%B5_%D1%83%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_1649_%D0%B3%D0%BE%D0%B4%D0%B0",
+      "institution": "Russian Wikisource community"
+    },
+    "SERMO": {
+      "title": "SERMO - Corpus de sermons protestants 1550-1750",
+      "url": "http://sermo.unine.ch/SERMO/",
+      "institution": "Universite de Neuchatel (Carine Skupien Dekens; SNSF grant 105212_160030)"
+    },
+    "SloveneIMP": {
+      "title": "IMP — Corpus of Slovene Historical Texts, 1567-1899",
+      "url": "https://www.clarin.si/repository/xmlui/handle/11356/1255",
+      "institution": "Jozef Stefan Institute (CLARIN.SI) with ZRC SAZU Institute of Slovene Literature / Fran Ramovs Library and NUK"
+    },
+    "SonetosSiglodeOro": {
+      "title": "Corpus de sonetos del Siglo de Oro (ADSO)",
+      "url": "https://github.com/bncolorado/CorpusSonetosSigloDeOro",
+      "institution": "Universidad de Alicante (Borja Navarro-Colorado; ADSO project, Fundacion BBVA)"
+    },
+    "SpanishGitHubGoldenAge": {
+      "title": "Fábulas mitológicas del Siglo de Oro",
+      "url": "https://github.com/arojascastro/fabulasmitologicas",
+      "institution": "Antonio Rojas Castro (Barcelona)"
+    },
+    "SSRQ_SwissLaw": {
+      "title": "SSRQ Online — Sammlung Schweizerischer Rechtsquellen / Collection des sources du droit suisse",
+      "url": "https://ssrq-sds-fds.ch/",
+      "institution": "Law Sources Foundation of the Swiss Jurists' Society (SSRQ), editorial office at the Universität Zürich (Historisches Seminar)"
+    },
+    "TBSO_GH": {
+      "title": "Repositorio de teatro breve del Siglo de Oro (TBSO)",
+      "url": "https://github.com/dxvidmr/repositorioTBSO",
+      "institution": "Teatro Breve del Siglo de Oro project, Universidad de Sevilla (Abraham Madroñal et al.); repository maintained by David Merino Recalde"
+    },
+    "Translatoscope_NeoLat": {
+      "title": "RenArD — Renaissance Aristophanes Digital (Translatoscope / ELAN)",
+      "url": "https://renard.elan-numerique.fr/",
+      "institution": "UMR Litt&Arts, Universite Grenoble Alpes (Malika Bastin-Hammou; ELAN project)"
+    },
+    "VespasianoLetters": {
+      "title": "Vespasiano da Bisticci, Lettere. A digital edition (Knowledge Site)",
+      "url": "https://projects.dharc.unibo.it/vespasiano/",
+      "institution": "Digital Humanities Advanced Research Centre (/DH.arc), Università di Bologna (Francesca Tomasi)"
+    },
+    "Vietnamese_deRhodes": {
+      "title": "Phép giảng tám ngày (Cathechismus) — Alexandre de Rhodes, Rome 1651",
+      "url": "https://vi.wikisource.org/wiki/Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y",
+      "institution": "Vietnamese Wikisource community (proofread transcription of the Congregatio de Propaganda Fide editio princeps)"
+    },
+    "WelshHCWL": {
+      "title": "Historical Corpus of the Welsh Language, 1500-1850 (HCWL; Corpws Hanesyddol yr Iaith Gymraeg)",
+      "url": "https://www.celticstudies.net/",
+      "institution": "University of Cambridge, Linguistics Dept. (David Willis)"
+    },
+    "WiN_LowGermanIncunabula": {
+      "title": "WiN — Wiedererzählen im Norden. Digitale Analyse weltlicher Erzählungen in niederdeutschen Inkunabeln (WiN-Korpus v1.0)",
+      "url": "https://www.laudatio-repository.org/browse/corpus/XnU19IIBa2XDdNuCXFx-/corpora",
+      "institution": "Georg-August-Universität Göttingen (Heike Sahm, Marco Coniglio, Chiara De Bastiani, Anabel Recker, Jan Christian Schaffert; PRO*Niedersachsen)"
+    },
+    "WolfenbuettelPostil_Lithuanian": {
+      "title": "Postil Time Machine (PosTiMe) — digital edition of the Old Lithuanian Postilles incl. the Wolfenbuettel Postille of 1573",
+      "url": "https://dh.phil-fak.uni-koeln.de/forschung/abgeschlossene-projekte/postil-time-machine-postime",
+      "institution": "Goethe-Universitaet Frankfurt (Jolanta Gelumbeckaite) and Universitaet zu Koeln (Oyvind Eide); DFG 443985248; Wolfenbuettel ms. Cod. Guelf. 11.2 Aug. 2 at the HAB"
     }
   }
 }

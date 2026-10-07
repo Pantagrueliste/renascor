@@ -1,15 +1,16 @@
 {
-  "title": "SERMO",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "SERMO - Corpus de sermons protestants 1550-1750",
+  "url": "http://sermo.unine.ch/SERMO/",
   "languages": [
     "French"
   ],
-  "encoding": "tei",
-  "status": "active",
+  "encoding": "other",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 521919,
   "texts": 62,
   "period": "1600-1600",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "SERMO is an SNSF project (2015-2018) at Neuchatel that produced an annotated corpus of 62 French Protestant sermons (~600k tokens, mostly printed in Geneva, by Calvin, Beze, Daille, Mestrezat, the Turrettini etc.), with tokenisation, lemmatisation and POS annotation for diachronic French linguistics. The XML corpus version 1 was released on Zenodo (DOI 10.5281/zenodo.14620210, CC BY 4.0); the project site (sermo.unine.ch) is live but the project itself closed in 2018. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Universite de Neuchatel (Carine Skupien Dekens; SNSF grant 105212_160030)"
 }

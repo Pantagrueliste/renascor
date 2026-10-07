@@ -1,15 +1,16 @@
 {
-  "title": "RUP Folger",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "RUP — Rare or Unique Poems from Manuscripts, 1500-1660 (RUP)",
+  "url": "https://github.com/jedmondes/Rare-or-Unique-Poems-from-manuscripts-1500-1660-FOLGER",
   "languages": [
     "English"
   ],
-  "encoding": "other",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 3428,
   "texts": 20,
   "period": "1620-1620",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "RUP is an early-stage collaborative project (project blog at rup.hypotheses.org) publishing TEI encodings of rare or unique early modern English manuscript poems (<= 3 manuscript copies, never printed), begun during Jessica Edmondes' fellowship at the Folger Shakespeare Library; the source harvested is the project's experimental TEI repo (poems/, personography/, taxonomy/, encoding_guidelines.xml), whose file naming follows Folger LUNA image ids of the form 'rup_000001_va103_1_002v'. No custom ODD and no stated licence. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Jessica Edmondes (Folger Shakespeare Library fellowship)"
 }

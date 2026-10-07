@@ -1,15 +1,16 @@
 {
-  "title": "RhythmicCorpus SGA",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Rhythmic Corpus of 100 Spanish Golden Age Plays",
+  "url": "https://zenodo.org/records/17537343",
   "languages": [
     "Spanish"
   ],
   "encoding": "other",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 1454447,
   "texts": 117,
   "period": "1620-1620",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "Zenodo dataset DOI 10.5281/zenodo.17537343 (all-versions DOI 10.5281/zenodo.17537048 family): 100 securely attributed comedias by nine Golden Age playwrights (Cervantes, Lope, Tirso, Calderon, etc.), each in original and rhythmic-scansion versions, produced with Fernando Sanz-Lázaro's libEscansión and revised by hand. It accompanies Álvaro Cuéllar's article 'From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre' (Janus 14, 2025). Licence CC BY 4.0. The record is the exact source string cited by the harvest ('Cuéllar Rhythmic Corpus 100 SGA Plays'). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Universitat Autònoma de Barcelona (Álvaro Cuéllar)"
 }

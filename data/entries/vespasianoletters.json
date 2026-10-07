@@ -1,15 +1,16 @@
 {
-  "title": "VespasianoLetters",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Vespasiano da Bisticci, Lettere. A digital edition (Knowledge Site)",
+  "url": "https://projects.dharc.unibo.it/vespasiano/",
   "languages": [
     "Italian"
   ],
   "encoding": "other",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 33623,
   "texts": 1,
   "period": "1480-1480",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "Digital edition (Knowledge Site 3.0, 2020) of the letters of Vespasiano da Bisticci (Florentine book dealer, 1444-1497), a semantic/RDF-based faceted edition with philological apparatus (nota filologica, authorities, tavola sinottica), built at /DH.arc Bologna. The harvested origin 'Vespasiano da Bisticci, Letters (15th c.)' with source '(DHARC, digital edition)' refers to this site; the edition is stable but no longer actively developed. Site code CC BY 4.0 on GitHub (dharc-org/vespasiano-da-bisticci-letters-de). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Digital Humanities Advanced Research Centre (/DH.arc), Università di Bologna (Francesca Tomasi)"
 }
