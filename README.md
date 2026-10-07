@@ -31,6 +31,14 @@ There are two ways to add an entry:
 
 Every contribution is reviewed by a human before it appears in the catalogue.
 
+## How this catalogue is built
+
+This catalogue is maintained with AI assistance. A weekly automated search uses a Mistral language model to find new digital edition projects on the web. The model proposes candidates; it does not add them to the catalogue.
+
+Every automatically discovered entry is reviewed by a human before publication. The reviewer checks that the project is real, that it provides digital editions (not just page images), that the source material falls within the project's scope, and that the metadata is accurate. Entries contributed by humans through the issue form or pull requests are also reviewed.
+
+The running cost of the automated search is under one cent per week. Without this assistance, the catalogue would grow much more slowly, and some corners of the landscape would likely remain unexplored. The assistance is a tool, not a replacement for judgement: the editorial decisions are human.
+
 ## The public site
 
 The catalogue is published as a static website at [renascore.github.io](https://renascore.github.io) (or your GitHub Pages URL). The site is generated from the JSON files in `data/entries/` and offers:
