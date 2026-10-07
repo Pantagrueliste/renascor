@@ -2,8 +2,6 @@
 
 An open catalogue of digital editions of Renaissance-era written documents: manuscripts, printed works, and correspondence.
 
-The name blends Latin *renascor* ('I am reborn') with 'corpus'.
-
 ## What this is
 
 Renascor records projects that have produced digital editions of texts from roughly 1450 to 1700. Each entry describes one edition project: who made it, what it contains, in which language, in which format, and where to find it.
