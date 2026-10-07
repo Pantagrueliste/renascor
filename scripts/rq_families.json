@@ -412,6 +412,11 @@
     }
   ],
   "known_collections": {
+    "AmadisCorpus_GH": {
+      "title": "Amadis in Translation (Digital Amadis)",
+      "url": "http://amadis.newtfire.org/",
+      "institution": "University of Pittsburgh at Greensburg (Stacey Triplette, Elisa Beshero-Bondar) and Universidade de Santiago de Compostela (Helena Bermúdez Sabel)"
+    },
     "ABaCus_Baroque": {
       "title": "ABaC:us — Austrian Baroque Corpus",
       "url": "https://abacus.acdh.oeaw.ac.at/",

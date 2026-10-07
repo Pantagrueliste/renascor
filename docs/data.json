@@ -55,19 +55,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/kb-dk/public-adl-text-sources; rebuild/adl_danish_source_selection_2026-06-24.tsv; data/raw/ADL_Danish/ADL_Danish.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     },
     {
-      "title": "AmadisCorpus GH",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Amadis in Translation (Digital Amadis)",
+      "url": "http://amadis.newtfire.org/",
       "languages": [
         "Spanish"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "institution": "University of Pittsburgh at Greensburg (Stacey Triplette, Elisa Beshero-Bondar) and Universidade de Santiago de Compostela (Helena Bermúdez Sabel)",
+      "period": "1547-1547",
       "words": 97420,
       "texts": 35,
-      "period": "1547-1547",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Digital study of the transformation of Montalvo's Amadís de Gaula across editions and translations (Spanish, French, English, from the 1500s to the early 1800s). The corpus files are the 35 TEI XML chapters of the 1547 Sevilla printing of Montalvo's Amadís (facsimile source: Biblioteca Virtual de Andalucía), used to align Garci Rodríguez de Montalvo's text with Robert Southey's 1803 translation and study translation shifts. Project team: Stacey Triplette, Elisa Beshero-Bondar, Helena Bermúdez Sabel; maintained by Beshero-Bondar since 2015. Code and TEI data: https://github.com/ebeshero/Amadis-in-Translation (AGPL-3.0); archive DOI: https://doi.org/10.5281/zenodo.10892444. Project documentation and a 1533 frontispiece facsimile on the project site. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
       "title": "Azerbaijani WS",

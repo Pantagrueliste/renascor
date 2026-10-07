@@ -2,7 +2,7 @@ title,url,languages,encoding,status,institution,period,words,region,author,date,
 ABaC:us — Austrian Baroque Corpus,https://abacus.acdh.oeaw.ac.at/,German,tei,active,"Austrian Academy of Sciences (ÖAW), Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)",1680-1693,119281,,,,,submitted,2026-10-07
 ABU — Bibliothèque Universelle,http://abu.cnam.fr/,French,other,active,Conservatoire national des arts et métiers,1480-1693,999019,,,,,submitted,2026-10-07
 ADL Danish,https://github.com/kb-dk/public-adl-text-sources,Danish,other,active,,1543-1681,936123,,,,,submitted,2026-10-07
-AmadisCorpus GH,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1547-1547,97420,,,,,submitted,2026-10-07
+Amadis in Translation (Digital Amadis),http://amadis.newtfire.org/,Spanish,tei,active,"University of Pittsburgh at Greensburg (Stacey Triplette, Elisa Beshero-Bondar) and Universidade de Santiago de Compostela (Helena Bermúdez Sabel)",1547-1547,97420,,,,,submitted,2026-10-07
 Azerbaijani WS,https://az.wikisource.org,Azerbaijani,other,active,,1536-1536,122211,,,,,submitted,2026-10-07
 BalkanSlavic Damaskini,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Bulgarian,other,active,,1650-1650,44047,,,,,submitted,2026-10-07
 Bartoli Correspondence,https://zenodo.org/records/14559525,Italian,other,active,,1562-1572,1371054,,,,,submitted,2026-10-07
