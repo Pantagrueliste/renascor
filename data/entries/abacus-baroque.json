@@ -1,15 +1,16 @@
 {
-  "title": "ABaCus Baroque",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "ABaC:us — Austrian Baroque Corpus",
+  "url": "https://abacus.acdh.oeaw.ac.at/",
   "languages": [
     "German"
   ],
-  "encoding": "other",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
+  "institution": "Austrian Academy of Sciences (ÖAW), Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)",
+  "period": "1680-1693",
   "words": 119281,
   "texts": 4,
-  "period": "1680-1693",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "Digital corpus of German baroque literary texts (c. 1650-1750), focused on devotional literature around death preparation (Ars moriendi, Totentanz, Memento mori) connected with Abraham a Sancta Clara (1644-1709), e.g. Mercks Wienn (1680), Grosse Todten Bruderschaft (1681). First-edition principle, XML-TEI P5 with linguistic annotation (tokenisation, PoS tagging, lemmatisation) and person/place indices. Project directed by Claudia Resch and Ulrike Czeitschner; online since 2015, new infrastructure launched 2025. Project archive page: https://www.oeaw.ac.at/acdh/research/literary-studies/research/project-archive/abacus. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
 }

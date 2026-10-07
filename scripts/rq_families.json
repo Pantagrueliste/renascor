@@ -411,6 +411,11 @@
     }
   ],
   "known_collections": {
+    "ABaCus_Baroque": {
+      "title": "ABaC:us — Austrian Baroque Corpus",
+      "url": "https://abacus.acdh.oeaw.ac.at/",
+      "institution": "Austrian Academy of Sciences (ÖAW), ACDH-CH"
+    },
     "ABU_French": {
       "title": "ABU — Bibliothèque Universelle",
       "url": "http://abu.cnam.fr/",
