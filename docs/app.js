@@ -81,19 +81,16 @@
     entries.forEach(e => (e.languages || []).forEach(l => langs.add(l)));
     const stat = (value, label) => {
       const div = document.createElement('div');
-      div.className = 'hero-stat';
       const b = document.createElement('b');
       b.textContent = numberFmt.format(value);
-      const span = document.createElement('span');
-      span.textContent = label;
       div.appendChild(b);
-      div.appendChild(span);
+      div.appendChild(document.createTextNode(' ' + label));
       return div;
     };
     els.heroStats.appendChild(stat(entries.length, 'editions'));
     els.heroStats.appendChild(stat(langs.size, 'languages'));
     if (totalTexts) els.heroStats.appendChild(stat(totalTexts, 'texts'));
-    if (totalWords) els.heroStats.appendChild(stat(Math.round(totalWords / 1e6) * 1e6, 'words'));
+    if (totalWords) els.heroStats.appendChild(stat(Math.round(totalWords / 1e8) / 10, 'Bn words'));
   }
 
   function populateFilters() {
