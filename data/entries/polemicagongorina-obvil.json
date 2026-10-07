@@ -1,16 +1,16 @@
 {
-  "title": "OBVIL — Polémica Góngorina",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Polemos — Codificación XML de la polémica gongorina (Labex OBVIL)",
+  "url": "https://github.com/gongoradigital/polemos",
   "languages": [
     "Spanish"
   ],
-  "encoding": "other",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 263434,
   "texts": 30,
-  "institution": "Sorbonne Université (OBVIL)",
+  "institution": "La Polémica Gongorina project (Mercedes Blanco et al.), LabEx OBVIL, Sorbonne Université; TEI encoding under gongoradigital",
   "period": "1613-1662",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "Polemos is the XML-TEI encoding of the 17th-century polémica gongorina (Jáuregui, Espinosa, Díez de Revenga texts, 1613-1630s) published for the Labex OBVIL; source XML files are in the gongoradigital organisation (polemos, polemos-naked). The 31 RQ texts (carta-amigo_1613, anti-jauregui, apologetico_1662, censura-lope...) match this edition. GitHub org and both repos verified live; the OBVIL reading site (obvil.sorbonne-universite.fr/corpus/gongora/polemos) refused connections from two networks at check time. License per ATTRIBUTIONS: CC BY-NC-ND. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
 }

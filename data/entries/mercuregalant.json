@@ -1,15 +1,16 @@
 {
-  "title": "MercureGalant",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Mercure galant (OBVIL/IReMus — édition complète 1672-1710)",
+  "url": "https://obvil.github.io/mercure-galant/",
   "languages": [
     "French"
   ],
-  "encoding": "other",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 4216289,
   "texts": 26,
   "period": "1672-1700",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "The OBVIL/IReMus Mercure galant programme publishes the whole run 1672-1710 in TEI XML (GitHub repo OBVIL/mercure-galant 'MG-1672-01' to 'MG-1721-05'); RQ harvested 1672-1689 issues (4.2M words), matching the origin ('Mercure Galant 1672 (1 issues)' etc.) and the source 'Mercure Galant (OBVIL/IReMus, TEI)'. License per ATTRIBUTIONS: CC BY-NC-ND. The main OBVIL reading site (obtic.huma-num.fr / obvil.sorbonne-universite.fr) refused connections from two networks at check time, so the verified live URL is the GitHub Pages edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "LabEx OBVIL (Sorbonne) & IReMus (CNRS, dir. Anne Piéjus, Nathalie Berton-Blivet), with Huma-Num"
 }

@@ -1,6 +1,6 @@
 {
-  "title": "MuyscCubun Muisca",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Muysc cubun — Lengua Muisca (Manuscrito 158 BNC; Gramática de Lugo)",
+  "url": "https://muysca.cubun.org/",
   "languages": [
     "Muisca"
   ],
@@ -11,5 +11,6 @@
   "words": 42662,
   "texts": 13,
   "period": "1612-1619",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://muysca.cubun.org/; rebuild/muysccubun_muisca_source_selection_2026-06-24.tsv; data/raw/MuyscCubun_Muisca/MuyscCubun_Muisca.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+  "notes": "muysca.cubun.org is a MediaWiki-based research site (since 2008/2009) on the Muisca (Chibcha) language: dictionary, and transcriptions of colonial manuscripts including Manuscrito 158 (Biblioteca Nacional de Colombia) and Lugo's 1619 gramatica, exactly matching the origins ('keyed transcription'). The site loaded successfully via WebFetch (curl from this network is blocked by the host's TLS/firewall; HTTPS handshake hangs, so treat liveness as verified-by-fetch). Companion site coleccionmutis.cubun.org holds Manuscrito 2922 BPRM cited in a third origin. Non-TEI (wiki 'keyed transcriptions'). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Muysc cubun research group, founded and maintained by Diego F. Gómez, with Muisca communities (Suba, Chía), Colombia"
 }

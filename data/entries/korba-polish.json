@@ -1,15 +1,16 @@
 {
-  "title": "KorBa Polish",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
-  "languages": [
-    "Polish"
-  ],
-  "encoding": "other",
+  "title": "KorBa — Elektroniczny korpus tekstów polskich z XVII i XVIII w.",
+  "url": "https://korba.edu.pl/",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
-  "words": 90943,
-  "texts": 99,
-  "period": "1603-1699",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "institution": "Instytut Języka Polskiego, Polska Akademia Nauk (IJP PAN)",
+  "notes": "KorBa (korba.edu.pl) is the largest corpus of historical Polish (1601-1800, ~27M segments), TEI P5 encoded with transcription/transliteration layers and rich metadata; maintained by the Institute of Polish Language, Polish Academy of Sciences (IJP PAN) with IPI PAN, PI Włodzimierz Gruszczyński, National Humanities Programme (2013-2023). The manually annotated subcorpus is downloadable under CC BY-SA (the legacy hostname korba.clarin-pl.eu no longer resolves). The RQ snapshot contains three collections of this project (KorBa_Polish, KorBa_Polish_full17c and KorbaText, the plain-text layer whose titles match KorBa's published text list), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "languages": [
+    "Polish"
+  ],
+  "encoding": "tei",
+  "words": 429778,
+  "texts": 802,
+  "period": "1603-1700"
 }

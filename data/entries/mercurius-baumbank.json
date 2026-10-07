@@ -1,15 +1,16 @@
 {
-  "title": "Mercurius Baumbank",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Mercurius-Baumbank (Version 1.1) — LAUDATIO repository",
+  "url": "https://www.laudatio-repository.org/browse/corpus/VyQiCnMB7CArCQ9CjF3O/corpora",
   "languages": [
     "German"
   ],
-  "encoding": "other",
-  "status": "active",
+  "encoding": "tei",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 187423,
   "texts": 2,
   "period": "1597-1667",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "The LAUDATIO long-term corpus repository (HU Berlin) hosts a published corpus 'Mercurius-Baumbank (Version 1.1)' edited by Ulrike Demske, an annotated TEI corpus of early German news/Relation publications (the 1597 and 1667 items match the origins verbatim). Listed on the repository's published-corpora index; the corpus browse page verifies. Encoding TEI (LAUDATIO standard); license on the corpus page (RQ ATTRIBUTIONS tags the collection cc_by). LAUDATIO's own search/API endpoints were partly broken at check time, but the published listing and this corpus page are live. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Ulrike Demske; LAUDATIO repository (Humboldt-Universität zu Berlin)"
 }

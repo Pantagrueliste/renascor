@@ -1,6 +1,6 @@
 {
-  "title": "OSTA",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "OSTA — Old Spanish Textual Archive",
+  "url": "https://osta.oldspanishtextualarchive.org/",
   "languages": [
     "Aragonese",
     "Latin",
@@ -13,5 +13,6 @@
   "words": 21519708,
   "texts": 375,
   "period": "1450-1674",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). OSTA Zenodo 18931376; data/raw/osta/hispanicseminary-OSTA-29ee6b0/; rebuild/osta_raw_lock_2026-06-13.tsv; rebuild/osta_source_native_audit_2026-06-13.csv; scripts/overnight/osta_ingest.py; rebuild/raw"
+  "notes": "OSTA is the lemmatized/morphologically tagged ~35M-word corpus of 400+ semi-paleographic transcriptions of Old Spanish (including Asturleonese/Navarro-Aragonese) texts, begun 2015 by HSMS; the transcriptions and metadata are on GitHub (hispanicseminary/OSTA) and Zenodo 10.5281/zenodo.18931376 (CC BY-NC-SA 4.0, verified live), which is exactly the RQ source ('OSTA Zenodo 18931376 -> TEXT.2CR', Cortes' Cartas de relación, Libro de albeiteria, Libro del abad don Juan etc.). Main search interface v2.0 verified live. RQ keeps the semi-paleographic text layer (not the lemmatized one). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Hispanic Seminary of Medieval Studies (HSMS); Francisco Gago Jover (College of the Holy Cross) & F. Javier Pueyo Mena"
 }

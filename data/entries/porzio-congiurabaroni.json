@@ -1,15 +1,16 @@
 {
-  "title": "Porzio CongiuraBaroni",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Digital TEI-XML edition of Camillo Porzio's \"La congiura de' Baroni del Regno di Napoli contra re Ferdinando primo\"",
+  "url": "https://zenodo.org/records/18047915",
   "languages": [
     "Italian"
   ],
-  "encoding": "other",
-  "status": "active",
+  "encoding": "tei",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 49439,
   "texts": 1,
   "period": "1565-1565",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "A Zenodo-published TEI-XML dataset of the critical digital edition of Porzio's La congiura de' Baroni (first published Naples 1565), encoded and curated by Cristiano Amendola; matches the RQ origin (single text). DOI 10.5281/zenodo.18047915 verified live; license CC BY 4.0. RQ holds the TEI-derived text (~49k words). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Cristiano Amendola (KU Leuven), within PRIN 2022 \"HISTORIALE MARE\" (PI Fulvio Delle Donne, Università di Napoli Federico II)"
 }

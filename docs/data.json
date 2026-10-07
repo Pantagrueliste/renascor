@@ -4,7 +4,7 @@
     "description": "An open catalogue of digital editions of Renaissance-era written documents",
     "licence": "CC0 1.0",
     "source": "https://github.com/Pantagrueliste/renascor",
-    "entries": 198
+    "entries": 195
   },
   "entries": [
     {
@@ -1554,7 +1554,7 @@
     },
     {
       "title": "Obras de Góngora (obra poética, ed. Antonio Carreira) — Labex OBVIL GONGORA project",
-      "url": "https://github.com/gongoradigital/polemos",
+      "url": "https://github.com/gongoradigital/gongoraobra",
       "languages": [
         "Spanish"
       ],
@@ -1566,7 +1566,7 @@
       "texts": 2,
       "institution": "Labex OBVIL (Sorbonne Universite), dir. Mercedes Blanco; TEI files on gongoradigital GitHub",
       "period": "1605-1610",
-      "notes": "The OBVIL GONGORA project digitized Carreira's edition of Góngora's poetic works plus the polémica gongorina in TEI P5 (2013–2016, CC BY-NC-ND); its TEI encodings are openly published in the gongoradigital/polemos GitHub repo (live 200), described as 'Codificación xml de la polémica gongorina y la obra poética de Góngora editadas por el Labex OBVIL' — matching the harvested 'Góngora: epistolario (1610)' and 'comediavenatoria (1605)' files. The original portal obvil.paris-sorbonne.fr/corpus/gongora/ redirects to obvil.sorbonne-universite.site/corpus/gongora/ which did not respond at check time (000), so the GitHub repository is given as the verified live source; see also linhd-postdata/gongocorpus. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+      "notes": "The OBVIL GONGORA project digitized Carreira's edition of Góngora's poetic works plus the polémica gongorina in TEI P5 (2013–2016, CC BY-NC-ND); its TEI encodings are openly published in the gongoradigital GitHub org (gongoraobra) repo (live 200), described as 'Codificación xml de la polémica gongorina y la obra poética de Góngora editadas por el Labex OBVIL' — matching the harvested 'Góngora: epistolario (1610)' and 'comediavenatoria (1605)' files. The original portal obvil.paris-sorbonne.fr/corpus/gongora/ redirects to obvil.sorbonne-universite.site/corpus/gongora/ which did not respond at check time (000), so the GitHub repository is given as the verified live source; see also linhd-postdata/gongocorpus. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
       "title": "GutorGlyn Welsh",
@@ -1600,8 +1600,8 @@
       "institution": "DFG project SiGS / Universities of Muenster, Cologne and Hamburg (Renata Szczepaniak, Klaus-Michael Koepcke, Fabian Barteld, Stefan Hartmann et al.); published in LAUDATIO (HU Berlin)"
     },
     {
-      "title": "HistCorp Swedish",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "HistCorp — Historical Corpora and Tools (fornsvenska / Fornsvenska textbanken)",
+      "url": "https://sprakbanken-clarin.lingfil.uu.se/histcorp/",
       "languages": [
         "Swedish"
       ],
@@ -1612,11 +1612,12 @@
       "words": 5641945,
       "texts": 49,
       "period": "1450-1700",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "HistCorp is an open platform for historical corpora and tools, distributed via the Swedish CLARIN node; its Swedish section is built on Fornsvenska textbanken (machine-readable Old/Early Modern Swedish texts 1350-1758), all supplied as plain text (RQ fmt_detected: plain). Freely available; ATTRIBUTIONS lists the collection as cc_by. The 20 RQ texts (e.g. 'HistorCorp fornsvenska: Prosaiska kronikan (1450)' -> origin 'HistCorp fornsvenska: Prosaiska krönikan (1450)') are directly from this download bundle. Note: Sprakbanken Text Gothenburg's Korp 'all_hist' mode offers related searchable corpora; HistCorp is the canonical downloadable source. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Eva Pettersson (Uppsala University) & Beata Megyesi (Stockholm University), Swedish CLARIN"
     },
     {
-      "title": "Huarochiri Quechua full",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Ritos y tradiciones de Huarochirí (Taylor 1987) — Biblioteca Digital Curt Nimuendajú",
+      "url": "https://www.etnolinguistica.org/biblio:taylor-1987-ritos",
       "languages": [
         "Quechua"
       ],
@@ -1627,7 +1628,8 @@
       "words": 11586,
       "texts": 17,
       "period": "1608-1608",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://etnolinguistica.org/huarochiri; rebuild/huarochiri_quechua_full_source_selection_2026-06-24.tsv; data/raw/Huarochiri_Quechua_full/Huarochiri_Quechua_full.jsonl; rebuild/rawtree_full_lock_2026-"
+      "notes": "The collection is the single-text digitisation of Gerald Taylor's 1987 IEP/IFEA edition of the Huarochiri manuscript (Quechua, ca. 1608), held on the Biblioteca Digital Curt Nimuendaju at etnolinguistica.org (PDF verified live: https://etnolinguistica.wdfiles.com/local--files/biblio%3Ataylor-1987-ritos/TaylorG_1987_RitosYTradicionesDeHuarochiri.pdf). RQ has only the reconstituted quechua text as plain text-derived 'keyed' material. Publicly downloadable; not a TEI project. Origin verbatim: Taylor (ed.) 1987 via Biblioteca Digital Curt Nimuendaju / etnolinguistica.org. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Biblioteca Digital Curt Nimuendajú / etnolinguistica.org"
     },
     {
       "title": "GitLab des humanités numériques (Huma-Num)",
@@ -1648,23 +1650,8 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
     },
     {
-      "title": "HungarianCorpus",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
-      "languages": [
-        "Hungarian"
-      ],
-      "encoding": "other",
-      "status": "active",
-      "provenance": "submitted",
-      "date_added": "2026-10-07",
-      "words": 3023383,
-      "texts": 74,
-      "period": "1450-1532",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
-    },
-    {
       "title": "IcePaHC — Icelandic Parsed Historical Corpus",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "url": "https://github.com/antonkarl/icecorpus",
       "languages": [
         "Icelandic"
       ],
@@ -1675,22 +1662,24 @@
       "words": 283630,
       "texts": 21,
       "period": "1450-1680",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "IcePaHC is the Iceland Parsed Historical Corpus treebank (Old/Norse-to-modern Icelandic span, texts 1350-1750+ for pre-1700), distributed on GitHub as .psd/.tagged/.txt files. The 21 RQ files (bandamenn, ectorssaga, judit, vilhjalmur etc.) match the corpus .txt files exactly. Free public release; the linguist.is wiki site returned HTTP 511 from two networks, so the verified live canonical entry point is the GitHub repo. RQ collected from the raw txt layer (word-level parses dropped). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Joel C. Wallenberg (York), Anton Karl Ingason & Einar Freyr Sigurðsson (Árni Magnússon Institute/HI, Iceland), Eiríkur Rögnvaldsson; version 2024.03"
     },
     {
-      "title": "IMP Slovene",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "IMP — Digital library and corpus of historical Slovene",
+      "url": "https://nl.ijs.si/imp/",
       "languages": [
         "Slovenian"
       ],
-      "encoding": "other",
-      "status": "active",
+      "encoding": "tei",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 27084,
       "texts": 2,
       "period": "1584-1695",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "IMP is the IMPACT-project digital library/corpus of historical Slovene (658 texts, 1584-1919), published as hand-corrected TEI P5 transcriptions with facsimile links and lemma/MTE morphology. CLARIN.SI handle 11356/1031 (verified live) is exactly the RQ source: it contains filenames such as 'ZRC_00001-1584-ana.xml' (Jurij Dalmatin's 1584 Bible) and 'ZRC_00002-1695-ana.xml' (Janez Svetokrski), matching the origin verbatim. License CC BY-SA 4.0 (CLARIN.SI); the site nl.ijs.si/imp is still online though the project completed in 2014. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Tomaž Erjavec, Jožef Stefan Institute (IJS), Ljubljana; funded by EU FP7 IMPACT"
     },
     {
       "title": "IMPACTes OriginalImprint",
@@ -1754,49 +1743,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www2.ninjal.ac.jp/textdb_dataset/en/; rebuild/kirishitan_japanese_source_selection_2026-06-24.tsv; data/raw/Kirishitan_Japanese/Kirishitan_Japanese.jsonl; rebuild/rawtree_full_lock_2026-07-16."
     },
     {
-      "title": "KorBa Polish full17c",
-      "url": "https://korba.edu.pl",
-      "languages": [
-        "Polish"
-      ],
-      "encoding": "other",
+      "title": "KorBa — Elektroniczny korpus tekstów polskich z XVII i XVIII w.",
+      "url": "https://korba.edu.pl/",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
-      "words": 11252,
-      "texts": 37,
-      "period": "1609-1700",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://korba.edu.pl; rebuild/korba_polish_full17c_source_selection_2026-06-24.tsv; data/raw/KorBa_Polish_full17c/KorBa_Polish_full17c.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
-    },
-    {
-      "title": "KorBa Polish",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
-      "languages": [
-        "Polish"
-      ],
-      "encoding": "other",
-      "status": "active",
-      "provenance": "submitted",
-      "date_added": "2026-10-07",
-      "words": 90943,
-      "texts": 99,
-      "period": "1603-1699",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
-    },
-    {
-      "title": "KorbaText",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "institution": "Instytut Języka Polskiego, Polska Akademia Nauk (IJP PAN)",
+      "notes": "KorBa (korba.edu.pl) is the largest corpus of historical Polish (1601-1800, ~27M segments), TEI P5 encoded with transcription/transliteration layers and rich metadata; maintained by the Institute of Polish Language, Polish Academy of Sciences (IJP PAN) with IPI PAN, PI Włodzimierz Gruszczyński, National Humanities Programme (2013-2023). The manually annotated subcorpus is downloadable under CC BY-SA (the legacy hostname korba.clarin-pl.eu no longer resolves). The RQ snapshot contains three collections of this project (KorBa_Polish, KorBa_Polish_full17c and KorbaText, the plain-text layer whose titles match KorBa's published text list), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
       "languages": [
         "Polish"
       ],
       "encoding": "tei",
-      "status": "active",
-      "provenance": "submitted",
-      "date_added": "2026-10-07",
-      "words": 327583,
-      "texts": 666,
-      "period": "1670-1670",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "words": 429778,
+      "texts": 802,
+      "period": "1603-1700"
     },
     {
       "title": "Kronieken Dutch",
@@ -1814,19 +1774,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://doi.org/10.5281/zenodo.13332815; data/raw/kronieken/chroniclingnovelty-chronicles-datasets-ee5a9f3/; rebuild/kronieken_raw_lock_2026-06-13.tsv; rebuild/kronieken_source_selection_2026-06-13.ts"
     },
     {
-      "title": "Lampeter English",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "The Lampeter Corpus of Early Modern English Tracts (OTA ota:3193)",
+      "url": "https://ota.ox.ac.uk/desc/3193",
       "languages": [
         "English"
       ],
-      "encoding": "other",
-      "status": "active",
+      "encoding": "tei",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 723592,
       "texts": 74,
       "period": "1641-1700",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/3193; rebuild/lampeter_english_source_selection_2026-06-24.tsv; data/raw/Lampeter_English/Lampeter_English.jsonl; rebuild/rawtree_ful"
+      "notes": "120 English tracts and pamphlets 1640-1740 (~1.19M words), TEI, CC BY-SA 3.0; OTA record ota:3193 answers at https://ota.ox.ac.uk/desc/3193 (the bodleian UI URL is the same record). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Josef Schmied, Claudia Claridge & Rainer Siemund (Chemnitz University of Technology); Oxford Text Archive"
     },
     {
       "title": "Lexicons of Early Modern English (LEME)",
@@ -1893,19 +1854,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://en.wikipedia.org/wiki/Il-Kantilena; rebuild/maltese_cantilena_source_selection_2026-06-24.tsv; data/raw/Maltese_Cantilena/Maltese_Cantilena.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     },
     {
-      "title": "Mambrino",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Progetto Mambrino Digital Library — Sferamundi di Grecia",
+      "url": "https://zenodo.org/records/14235252",
       "languages": [
         "Italian"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 1461652,
       "texts": 7,
       "period": "1530-1565",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Mambrino Digital Library is the digital library of Spanish-inspired Italian chivalric romances (named after Mambrino Roseo da Fabriano). Each RQ text is a separate Zenodo dataset of a digital scholarly edition of 16th-century Sferamundi di Grecia books: 10.5281/zenodo.14235252 (Sferamundi 1), 11398260 (2), 11400259 (3), 11400335 (4), 11400513 (5), 11400584 (6) — each containing TEI XML transcription and commentary files. License CC BY-SA 4.0 (checked for record 14235252; per-record). All Zenodo records verified live. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Stefano Bazzaco et al., University of Verona (PRIN 2017 'Mapping Chivalry'; 'Inclusive Humanities' Dept. of Foreign Languages, University of Verona)"
     },
     {
       "title": "The Map of Early Modern London",
@@ -1958,49 +1920,36 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "MercureGalant",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Mercure galant (OBVIL/IReMus — édition complète 1672-1710)",
+      "url": "https://obvil.github.io/mercure-galant/",
       "languages": [
         "French"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 4216289,
       "texts": 26,
       "period": "1672-1700",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "The OBVIL/IReMus Mercure galant programme publishes the whole run 1672-1710 in TEI XML (GitHub repo OBVIL/mercure-galant 'MG-1672-01' to 'MG-1721-05'); RQ harvested 1672-1689 issues (4.2M words), matching the origin ('Mercure Galant 1672 (1 issues)' etc.) and the source 'Mercure Galant (OBVIL/IReMus, TEI)'. License per ATTRIBUTIONS: CC BY-NC-ND. The main OBVIL reading site (obtic.huma-num.fr / obvil.sorbonne-universite.fr) refused connections from two networks at check time, so the verified live URL is the GitHub Pages edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "LabEx OBVIL (Sorbonne) & IReMus (CNRS, dir. Anne Piéjus, Nathalie Berton-Blivet), with Huma-Num"
     },
     {
-      "title": "Mercurius Baumbank",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Mercurius-Baumbank (Version 1.1) — LAUDATIO repository",
+      "url": "https://www.laudatio-repository.org/browse/corpus/VyQiCnMB7CArCQ9CjF3O/corpora",
       "languages": [
         "German"
       ],
-      "encoding": "other",
-      "status": "active",
+      "encoding": "tei",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 187423,
       "texts": 2,
       "period": "1597-1667",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
-    },
-    {
-      "title": "MGTSZ AporCodex",
-      "url": "http://oldhungariancorpus.nytud.hu",
-      "languages": [
-        "Hungarian"
-      ],
-      "encoding": "other",
-      "status": "active",
-      "provenance": "submitted",
-      "date_added": "2026-10-07",
-      "words": 23332,
-      "texts": 1,
-      "period": "1500-1500",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://oldhungariancorpus.nytud.hu/; rebuild/mgtsz_aporcodex_source_selection_2026-06-24.tsv; data/raw/MGTSZ_AporCodex/MGTSZ_AporCodex.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+      "notes": "The LAUDATIO long-term corpus repository (HU Berlin) hosts a published corpus 'Mercurius-Baumbank (Version 1.1)' edited by Ulrike Demske, an annotated TEI corpus of early German news/Relation publications (the 1597 and 1667 items match the origins verbatim). Listed on the repository's published-corpora index; the corpus browse page verifies. Encoding TEI (LAUDATIO standard); license on the corpus page (RQ ATTRIBUTIONS tags the collection cc_by). LAUDATIO's own search/API endpoints were partly broken at check time, but the published listing and this corpus page are live. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Ulrike Demske; LAUDATIO repository (Humboldt-Universität zu Berlin)"
     },
     {
       "title": "Montoya Guarani",
@@ -2018,8 +1967,8 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://archive.org/details/gramaticaydiccio02ruiz; rebuild/montoya_guarani_source_selection_2026-06-24.tsv; data/raw/Montoya_Guarani/Montoya_Guarani.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     },
     {
-      "title": "MuyscCubun Muisca",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Muysc cubun — Lengua Muisca (Manuscrito 158 BNC; Gramática de Lugo)",
+      "url": "https://muysca.cubun.org/",
       "languages": [
         "Muisca"
       ],
@@ -2030,7 +1979,8 @@
       "words": 42662,
       "texts": 13,
       "period": "1612-1619",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://muysca.cubun.org/; rebuild/muysccubun_muisca_source_selection_2026-06-24.tsv; data/raw/MuyscCubun_Muisca/MuyscCubun_Muisca.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+      "notes": "muysca.cubun.org is a MediaWiki-based research site (since 2008/2009) on the Muisca (Chibcha) language: dictionary, and transcriptions of colonial manuscripts including Manuscrito 158 (Biblioteca Nacional de Colombia) and Lugo's 1619 gramatica, exactly matching the origins ('keyed transcription'). The site loaded successfully via WebFetch (curl from this network is blocked by the host's TLS/firewall; HTTPS handshake hangs, so treat liveness as verified-by-fetch). Companion site coleccionmutis.cubun.org holds Manuscrito 2922 BPRM cited in a third origin. Non-TEI (wiki 'keyed transcriptions'). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Muysc cubun research group, founded and maintained by Diego F. Gómez, with Muisca communities (Suba, Chía), Colombia"
     },
     {
       "title": "Nahuatl depth",
@@ -2061,7 +2011,7 @@
       "words": 2904654,
       "texts": 109,
       "period": "1458-1698",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin. Original harvest trace: Nakala (Huma-Num, nakala.fr)"
     },
     {
       "title": "The Newton Project",
@@ -2112,36 +2062,36 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "OBVIL — Laboratoire des littératures françaises (collections sources)",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "OBVIL — corpus d'éditions anciennes françaises (Teinte)",
+      "url": "https://github.com/OBVIL",
       "languages": [
         "French"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 73996,
       "texts": 3,
-      "institution": "Sorbonne Université (OBVIL)",
+      "institution": "LabEx OBVIL, Sorbonne Université",
       "period": "1557-1694",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Born-digital TEI corpora of early-modern French texts from LabEx OBVIL (Sorbonne Université), encoded with the Teinte toolchain (lauze_apologie-danse_1623, Faceties 1557, La Bruyère 1694, etc.); CC BY-NC-ND. Org-level attribution: corpus repositories and the Teinte tool live on the OBVIL GitHub org (verified), while the lab's reading sites (obvil.sorbonne-universite.fr, obtic.huma-num.fr) refused connections from two networks at check time. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "OBVIL — Théâtre de la Haine",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "OBVIL — corpus La Haine du théâtre (querelle du théâtre)",
+      "url": "https://obvil.github.io/haine-theatre/",
       "languages": [
         "French"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 1162096,
       "texts": 85,
-      "institution": "Sorbonne Université (OBVIL)",
+      "institution": "LabEx OBVIL (Sorbonne Université)",
       "period": "1541-1698",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "'La Haine du theatre / querelle du theatre' is an OBVIL corpus of the 17th-century French anti-theatre controversy (1541-1698 texts: adibert_avis_1687, honneur-theatre_1620, etc.), TEI encoded (repo OBVIL/haine-theatre, GitHub Pages edition verified live); the 14 RQ texts match its file namespace exactly. License per ATTRIBUTIONS: CC BY-NC-ND. The main OBVIL site was unreachable at check time; the GitHub Pages edition is the verified entry point. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
       "title": "Occitan 1000ans",
@@ -2159,8 +2109,8 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://uoh.univ-montp3.fr/1000ans/; rebuild/occitan_1000ans_source_selection_2026-06-24.tsv; data/raw/Occitan_1000ans/Occitan_1000ans.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     },
     {
-      "title": "ODE CorderegraSpanish",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "CORDEREGRA — Corpus diacrónico del español del Reino de Granada",
+      "url": "https://corpora.uah.es/charta/",
       "languages": [
         "Spanish"
       ],
@@ -2171,7 +2121,8 @@
       "words": 203336,
       "texts": 138,
       "period": "1509-1700",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Corpus diacrónico (~500k words) of unpublished archival documents of the Real Chancillería de Granada with facsimile, palaeographic and critical presentations, distributed through the CHARTA network at corpora.uah.es/charta (CORDEREGRA-*.xml); the project's own domain corderegra.es no longer resolves, so the entry points to its working host. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Universidad de Granada (Miguel Calderón Campos & M.ª Teresa García-Godoy); CHARTA network (corpora.uah.es)"
     },
     {
       "title": "The Proceedings of the Old Bailey Online",
@@ -2187,6 +2138,22 @@
       "period": "1674-1700",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Old Hungarian Corpus (Régi Magyar Nyelvemlékek)",
+      "url": "http://oldhungariancorpus.nytud.hu/",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Research Institute for Linguistics, Hungarian Academy of Sciences (MGTSZ)",
+      "notes": "Old Hungarian Corpus of codices and early printed books (11th-16th c., original orthography betűhű and phonemic levels), maintained by the Hungarian Generative Diachronic Syntax project at the Research Institute for Linguistics. The RQ snapshot contains two collections of this resource (HungarianCorpus and MGTSZ_AporCodex, the Apor Codex file), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "languages": [
+        "Hungarian"
+      ],
+      "encoding": "other",
+      "words": 3046715,
+      "texts": 75,
+      "period": "1450-1532"
     },
     {
       "title": "OpenEDGeS (Open Editions of Early Modern Dutch and German Bibles)",
@@ -2221,8 +2188,8 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "OSTA",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "OSTA — Old Spanish Textual Archive",
+      "url": "https://osta.oldspanishtextualarchive.org/",
       "languages": [
         "Aragonese",
         "Latin",
@@ -2235,7 +2202,8 @@
       "words": 21519708,
       "texts": 375,
       "period": "1450-1674",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). OSTA Zenodo 18931376; data/raw/osta/hispanicseminary-OSTA-29ee6b0/; rebuild/osta_raw_lock_2026-06-13.tsv; rebuild/osta_source_native_audit_2026-06-13.csv; scripts/overnight/osta_ingest.py; rebuild/raw"
+      "notes": "OSTA is the lemmatized/morphologically tagged ~35M-word corpus of 400+ semi-paleographic transcriptions of Old Spanish (including Asturleonese/Navarro-Aragonese) texts, begun 2015 by HSMS; the transcriptions and metadata are on GitHub (hispanicseminary/OSTA) and Zenodo 10.5281/zenodo.18931376 (CC BY-NC-SA 4.0, verified live), which is exactly the RQ source ('OSTA Zenodo 18931376 -> TEXT.2CR', Cortes' Cartas de relación, Libro de albeiteria, Libro del abad don Juan etc.). Main search interface v2.0 verified live. RQ keeps the semi-paleographic text layer (not the lemmatized one). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Hispanic Seminary of Medieval Studies (HSMS); Francisco Gago Jover (College of the Holy Cross) & F. Javier Pueyo Mena"
     },
     {
       "title": "Otomi mission",
@@ -2313,35 +2281,36 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "OBVIL — Polémica Góngorina",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Polemos — Codificación XML de la polémica gongorina (Labex OBVIL)",
+      "url": "https://github.com/gongoradigital/polemos",
       "languages": [
         "Spanish"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 263434,
       "texts": 30,
-      "institution": "Sorbonne Université (OBVIL)",
+      "institution": "La Polémica Gongorina project (Mercedes Blanco et al.), LabEx OBVIL, Sorbonne Université; TEI encoding under gongoradigital",
       "period": "1613-1662",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Polemos is the XML-TEI encoding of the 17th-century polémica gongorina (Jáuregui, Espinosa, Díez de Revenga texts, 1613-1630s) published for the Labex OBVIL; source XML files are in the gongoradigital organisation (polemos, polemos-naked). The 31 RQ texts (carta-amigo_1613, anti-jauregui, apologetico_1662, censura-lope...) match this edition. GitHub org and both repos verified live; the OBVIL reading site (obvil.sorbonne-universite.fr/corpus/gongora/polemos) refused connections from two networks at check time. License per ATTRIBUTIONS: CC BY-NC-ND. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "Porzio CongiuraBaroni",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Digital TEI-XML edition of Camillo Porzio's \"La congiura de' Baroni del Regno di Napoli contra re Ferdinando primo\"",
+      "url": "https://zenodo.org/records/18047915",
       "languages": [
         "Italian"
       ],
-      "encoding": "other",
-      "status": "active",
+      "encoding": "tei",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 49439,
       "texts": 1,
       "period": "1565-1565",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "A Zenodo-published TEI-XML dataset of the critical digital edition of Porzio's La congiura de' Baroni (first published Naples 1565), encoded and curated by Cristiano Amendola; matches the RQ origin (single text). DOI 10.5281/zenodo.18047915 verified live; license CC BY 4.0. RQ holds the TEI-derived text (~49k words). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Cristiano Amendola (KU Leuven), within PRIN 2022 \"HISTORIALE MARE\" (PI Fulvio Delle Donne, Università di Napoli Federico II)"
     },
     {
       "title": "P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana)",
@@ -2401,20 +2370,21 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "QHOD",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "QhoD — Quellen zur habsburgisch-osmanischen Diplomatie (Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500-1918) — edition-data release 2.0",
+      "url": "https://qhod.net/",
       "languages": [
         "Latin",
         "Ottoman Turkish"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 21296,
       "texts": 17,
       "period": "1570-1600",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "QhoD is the born-digital critical edition of Habsburg-Ottoman diplomatic sources (diplomatic correspondence, instructions, minutes...), TEI encoded, CC BY 4.0, published via qhod.net (verified live) with TEI/image data released on GitHub (QHOD/qhod-edition-data) and Zenodo (10.5281/zenodo.14449603, release 2.0 by Stephan Kurz, verified live) — exactly the RQ source. RQ's 219 texts (1570-1600 era) come from that Zenodo/GitHub TEI edition-data bundle (Habsburg-Ottoman diplomatic texts in Latin etc.). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "QhoD project (PI Arno Strohmeyer), Institute for Habsburg and Balkan Studies (IHB), Austrian Academy of Sciences (OEAW); technical editor Stephan Kurz; TEI publishing via ACDH-CH/ZIM Graz (GAMS)"
     },
     {
       "title": "REED English",

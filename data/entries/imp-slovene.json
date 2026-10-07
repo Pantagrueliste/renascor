@@ -1,15 +1,16 @@
 {
-  "title": "IMP Slovene",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "IMP — Digital library and corpus of historical Slovene",
+  "url": "https://nl.ijs.si/imp/",
   "languages": [
     "Slovenian"
   ],
-  "encoding": "other",
-  "status": "active",
+  "encoding": "tei",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 27084,
   "texts": 2,
   "period": "1584-1695",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "IMP is the IMPACT-project digital library/corpus of historical Slovene (658 texts, 1584-1919), published as hand-corrected TEI P5 transcriptions with facsimile links and lemma/MTE morphology. CLARIN.SI handle 11356/1031 (verified live) is exactly the RQ source: it contains filenames such as 'ZRC_00001-1584-ana.xml' (Jurij Dalmatin's 1584 Bible) and 'ZRC_00002-1695-ana.xml' (Janez Svetokrski), matching the origin verbatim. License CC BY-SA 4.0 (CLARIN.SI); the site nl.ijs.si/imp is still online though the project completed in 2014. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Tomaž Erjavec, Jožef Stefan Institute (IJS), Ljubljana; funded by EU FP7 IMPACT"
 }

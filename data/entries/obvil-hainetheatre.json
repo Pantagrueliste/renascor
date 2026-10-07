@@ -1,16 +1,16 @@
 {
-  "title": "OBVIL — Théâtre de la Haine",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "OBVIL — corpus La Haine du théâtre (querelle du théâtre)",
+  "url": "https://obvil.github.io/haine-theatre/",
   "languages": [
     "French"
   ],
-  "encoding": "other",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 1162096,
   "texts": 85,
-  "institution": "Sorbonne Université (OBVIL)",
+  "institution": "LabEx OBVIL (Sorbonne Université)",
   "period": "1541-1698",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "'La Haine du theatre / querelle du theatre' is an OBVIL corpus of the 17th-century French anti-theatre controversy (1541-1698 texts: adibert_avis_1687, honneur-theatre_1620, etc.), TEI encoded (repo OBVIL/haine-theatre, GitHub Pages edition verified live); the 14 RQ texts match its file namespace exactly. License per ATTRIBUTIONS: CC BY-NC-ND. The main OBVIL site was unreachable at check time; the GitHub Pages edition is the verified entry point. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
 }

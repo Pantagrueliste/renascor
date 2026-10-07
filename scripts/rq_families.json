@@ -423,6 +423,29 @@
         "SpanishGitHubGoldenAge"
       ],
       "drop_note": "SpanishGitHubGoldenAge is a re-harvest of FabulasMitologicas (same 26 texts, same GitHub source, wordcounts identical to within 0.2%) — excluded from statistics to avoid double counting."
+    },
+    {
+      "slug": "korba-polish",
+      "match": [
+        "^KorBa_Polish$",
+        "^KorBa_Polish_full17c$",
+        "^KorbaText$"
+      ],
+      "title": "KorBa — Elektroniczny korpus tekstów polskich z XVII i XVIII w.",
+      "url": "https://korba.edu.pl/",
+      "institution": "Instytut Języka Polskiego, Polska Akademia Nauk (IJP PAN)",
+      "notes": "KorBa (korba.edu.pl) is the largest corpus of historical Polish (1601-1800, ~27M segments), TEI P5 encoded with transcription/transliteration layers and rich metadata; maintained by the Institute of Polish Language, Polish Academy of Sciences (IJP PAN) with IPI PAN, PI Włodzimierz Gruszczyński, National Humanities Programme (2013-2023). The manually annotated subcorpus is downloadable under CC BY-SA (the legacy hostname korba.clarin-pl.eu no longer resolves). The RQ snapshot contains three collections of this project (KorBa_Polish, KorBa_Polish_full17c and KorbaText, the plain-text layer whose titles match KorBa's published text list), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "slug": "old-hungarian-corpus",
+      "match": [
+        "^HungarianCorpus$",
+        "^MGTSZ_AporCodex$"
+      ],
+      "title": "Old Hungarian Corpus (Régi Magyar Nyelvemlékek)",
+      "url": "http://oldhungariancorpus.nytud.hu/",
+      "institution": "Research Institute for Linguistics, Hungarian Academy of Sciences (MGTSZ)",
+      "notes": "Old Hungarian Corpus of codices and early printed books (11th-16th c., original orthography betűhű and phonemic levels), maintained by the Hungarian Generative Diachronic Syntax project at the Research Institute for Linguistics. The RQ snapshot contains two collections of this resource (HungarianCorpus and MGTSZ_AporCodex, the Apor Codex file), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     }
   ],
   "known_collections": {
@@ -476,19 +499,19 @@
       "institution": "Hochschule Augsburg"
     },
     "OBVIL_French": {
-      "title": "OBVIL — Laboratoire des littératures françaises (collections sources)",
-      "url": "http://obvil.paris-sorbonne.fr/",
-      "institution": "Sorbonne Université (OBVIL)"
+      "title": "OBVIL — corpus d'éditions anciennes françaises (Teinte)",
+      "url": "https://github.com/OBVIL",
+      "institution": "LabEx OBVIL, Sorbonne Université"
     },
     "OBVIL_HaineTheatre": {
-      "title": "OBVIL — Théâtre de la Haine",
-      "url": "http://obvil.paris-sorbonne.fr/",
-      "institution": "Sorbonne Université (OBVIL)"
+      "title": "OBVIL — corpus La Haine du théâtre (querelle du théâtre)",
+      "url": "https://obvil.github.io/haine-theatre/",
+      "institution": "LabEx OBVIL (Sorbonne Université)"
     },
     "PolemicaGongorina_OBVIL": {
-      "title": "OBVIL — Polémica Góngorina",
-      "url": "http://obvil.paris-sorbonne.fr/",
-      "institution": "Sorbonne Université (OBVIL)"
+      "title": "Polemos — Codificación XML de la polémica gongorina (Labex OBVIL)",
+      "url": "https://github.com/gongoradigital/polemos",
+      "institution": "La Polémica Gongorina project (Mercedes Blanco et al.), LabEx OBVIL, Sorbonne Université; TEI encoding under gongoradigital"
     },
     "GongoraObra_OBVIL": {
       "title": "Obras de Góngora (obra poética, ed. Antonio Carreira) — Labex OBVIL GONGORA project",
@@ -496,7 +519,9 @@
       "institution": "Labex OBVIL (Sorbonne Universite), dir. Mercedes Blanco; TEI files on gongoradigital GitHub"
     },
     "IcePaHC_Icelandic": {
-      "title": "IcePaHC — Icelandic Parsed Historical Corpus"
+      "title": "IcePaHC — Icelandic Parsed Historical Corpus",
+      "url": "https://github.com/antonkarl/icecorpus",
+      "institution": "Joel C. Wallenberg (York), Anton Karl Ingason & Einar Freyr Sigurðsson (Árni Magnússon Institute/HI, Iceland), Eiríkur Rögnvaldsson; version 2024.03"
     },
     "ReNLowGerman": {
       "title": "Referenzkorpus Mittelniederdeutsch/Niederrheinisch, 1200-1650 (ReN)",
@@ -752,6 +777,71 @@
       "title": "Hexenverhoerprotokolle (SiGS corpus, LAUDATIO repository)",
       "url": "https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
       "institution": "DFG project SiGS / Universities of Muenster, Cologne and Hamburg (Renata Szczepaniak, Klaus-Michael Koepcke, Fabian Barteld, Stefan Hartmann et al.); published in LAUDATIO (HU Berlin)"
+    },
+    "HistCorp_Swedish": {
+      "title": "HistCorp — Historical Corpora and Tools (fornsvenska / Fornsvenska textbanken)",
+      "url": "https://sprakbanken-clarin.lingfil.uu.se/histcorp/",
+      "institution": "Eva Pettersson (Uppsala University) & Beata Megyesi (Stockholm University), Swedish CLARIN"
+    },
+    "Huarochiri_Quechua_full": {
+      "title": "Ritos y tradiciones de Huarochirí (Taylor 1987) — Biblioteca Digital Curt Nimuendajú",
+      "url": "https://www.etnolinguistica.org/biblio:taylor-1987-ritos",
+      "institution": "Biblioteca Digital Curt Nimuendajú / etnolinguistica.org"
+    },
+    "IMP_Slovene": {
+      "title": "IMP — Digital library and corpus of historical Slovene",
+      "url": "https://nl.ijs.si/imp/",
+      "institution": "Tomaž Erjavec, Jožef Stefan Institute (IJS), Ljubljana; funded by EU FP7 IMPACT"
+    },
+    "KorBa_Polish": {
+      "title": "KorBa — Elektroniczny korpus tekstów polskich z XVII i XVIII w.",
+      "url": "https://korba.edu.pl/",
+      "institution": "Instytut Języka Polskiego, Polska Akademia Nauk (IJP PAN)"
+    },
+    "Lampeter_English": {
+      "title": "The Lampeter Corpus of Early Modern English Tracts (OTA ota:3193)",
+      "url": "https://ota.ox.ac.uk/desc/3193",
+      "institution": "Josef Schmied, Claudia Claridge & Rainer Siemund (Chemnitz University of Technology); Oxford Text Archive"
+    },
+    "Mambrino": {
+      "title": "Progetto Mambrino Digital Library — Sferamundi di Grecia",
+      "url": "https://zenodo.org/records/14235252",
+      "institution": "Stefano Bazzaco et al., University of Verona (PRIN 2017 'Mapping Chivalry'; 'Inclusive Humanities' Dept. of Foreign Languages, University of Verona)"
+    },
+    "MercureGalant": {
+      "title": "Mercure galant (OBVIL/IReMus — édition complète 1672-1710)",
+      "url": "https://obvil.github.io/mercure-galant/",
+      "institution": "LabEx OBVIL (Sorbonne) & IReMus (CNRS, dir. Anne Piéjus, Nathalie Berton-Blivet), with Huma-Num"
+    },
+    "Mercurius_Baumbank": {
+      "title": "Mercurius-Baumbank (Version 1.1) — LAUDATIO repository",
+      "url": "https://www.laudatio-repository.org/browse/corpus/VyQiCnMB7CArCQ9CjF3O/corpora",
+      "institution": "Ulrike Demske; LAUDATIO repository (Humboldt-Universität zu Berlin)"
+    },
+    "MuyscCubun_Muisca": {
+      "title": "Muysc cubun — Lengua Muisca (Manuscrito 158 BNC; Gramática de Lugo)",
+      "url": "https://muysca.cubun.org/",
+      "institution": "Muysc cubun research group, founded and maintained by Diego F. Gómez, with Muisca communities (Suba, Chía), Colombia"
+    },
+    "ODE_CorderegraSpanish": {
+      "title": "CORDEREGRA — Corpus diacrónico del español del Reino de Granada",
+      "url": "https://corpora.uah.es/charta/",
+      "institution": "Universidad de Granada (Miguel Calderón Campos & M.ª Teresa García-Godoy); CHARTA network (corpora.uah.es)"
+    },
+    "OSTA": {
+      "title": "OSTA — Old Spanish Textual Archive",
+      "url": "https://osta.oldspanishtextualarchive.org/",
+      "institution": "Hispanic Seminary of Medieval Studies (HSMS); Francisco Gago Jover (College of the Holy Cross) & F. Javier Pueyo Mena"
+    },
+    "Porzio_CongiuraBaroni": {
+      "title": "Digital TEI-XML edition of Camillo Porzio's \"La congiura de' Baroni del Regno di Napoli contra re Ferdinando primo\"",
+      "url": "https://zenodo.org/records/18047915",
+      "institution": "Cristiano Amendola (KU Leuven), within PRIN 2022 \"HISTORIALE MARE\" (PI Fulvio Delle Donne, Università di Napoli Federico II)"
+    },
+    "QHOD": {
+      "title": "QhoD — Quellen zur habsburgisch-osmanischen Diplomatie (Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500-1918) — edition-data release 2.0",
+      "url": "https://qhod.net/",
+      "institution": "QhoD project (PI Arno Strohmeyer), Institute for Habsburg and Balkan Studies (IHB), Austrian Academy of Sciences (OEAW); technical editor Stephan Kurz; TEI publishing via ACDH-CH/ZIM Graz (GAMS)"
     }
   }
 }

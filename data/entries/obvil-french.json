@@ -1,16 +1,16 @@
 {
-  "title": "OBVIL — Laboratoire des littératures françaises (collections sources)",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "OBVIL — corpus d'éditions anciennes françaises (Teinte)",
+  "url": "https://github.com/OBVIL",
   "languages": [
     "French"
   ],
-  "encoding": "other",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 73996,
   "texts": 3,
-  "institution": "Sorbonne Université (OBVIL)",
+  "institution": "LabEx OBVIL, Sorbonne Université",
   "period": "1557-1694",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "Born-digital TEI corpora of early-modern French texts from LabEx OBVIL (Sorbonne Université), encoded with the Teinte toolchain (lauze_apologie-danse_1623, Faceties 1557, La Bruyère 1694, etc.); CC BY-NC-ND. Org-level attribution: corpus repositories and the Teinte tool live on the OBVIL GitHub org (verified), while the lab's reading sites (obvil.sorbonne-universite.fr, obtic.huma-num.fr) refused connections from two networks at check time. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
 }

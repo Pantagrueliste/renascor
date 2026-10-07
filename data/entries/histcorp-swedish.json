@@ -1,6 +1,6 @@
 {
-  "title": "HistCorp Swedish",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "HistCorp — Historical Corpora and Tools (fornsvenska / Fornsvenska textbanken)",
+  "url": "https://sprakbanken-clarin.lingfil.uu.se/histcorp/",
   "languages": [
     "Swedish"
   ],
@@ -11,5 +11,6 @@
   "words": 5641945,
   "texts": 49,
   "period": "1450-1700",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "HistCorp is an open platform for historical corpora and tools, distributed via the Swedish CLARIN node; its Swedish section is built on Fornsvenska textbanken (machine-readable Old/Early Modern Swedish texts 1350-1758), all supplied as plain text (RQ fmt_detected: plain). Freely available; ATTRIBUTIONS lists the collection as cc_by. The 20 RQ texts (e.g. 'HistorCorp fornsvenska: Prosaiska kronikan (1450)' -> origin 'HistCorp fornsvenska: Prosaiska krönikan (1450)') are directly from this download bundle. Note: Sprakbanken Text Gothenburg's Korp 'all_hist' mode offers related searchable corpora; HistCorp is the canonical downloadable source. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Eva Pettersson (Uppsala University) & Beata Megyesi (Stockholm University), Swedish CLARIN"
 }
