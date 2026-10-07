@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "title": "Renascore",
+    "description": "An open catalogue of digital editions of Renaissance-era written documents",
+    "licence": "CC0 1.0",
+    "source": "https://github.com/Pantagrueliste/renascore",
+    "entries": 5
+  },
+  "entries": [
+    {
+      "title": "The Devonshire Manuscript",
+      "url": "https://devonshire.unb.ca/",
+      "languages": [
+        "English"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "University of New Brunswick",
+      "period": "1539-1541",
+      "region": "England",
+      "words": 135000,
+      "years_active": {
+        "start": 2007,
+        "end": "ongoing"
+      },
+      "notes": "A digital edition of a mid-sixteenth-century miscellany of verse and prose, compiled by women. Includes diplomatic transcription, modernised text, and scholarly apparatus. TEI XML with page images."
+    },
+    {
+      "title": "EEBO Text Creation Partnership",
+      "url": "https://www.textcreationpartnership.org/",
+      "languages": [
+        "English"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "discovered",
+      "date_added": "2026-10-07",
+      "institution": "Text Creation Partnership (Universities of Oxford, Michigan, and others)",
+      "period": "1473-1700",
+      "region": "England, Scotland, Ireland",
+      "words": 45000000,
+      "years_active": {
+        "start": 2002,
+        "end": "ongoing"
+      },
+      "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. Access via EEBO (subscription) or open TCP texts."
+    },
+    {
+      "title": "The Map of Early Modern London",
+      "url": "https://mapoflondon.uvic.ca/",
+      "languages": [
+        "English"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "University of Victoria",
+      "period": "1550-1700",
+      "region": "London, England",
+      "years_active": {
+        "start": 2000,
+        "end": "ongoing"
+      },
+      "notes": "A digital scholarly edition of early modern London, combining a gazetteer, an anthology of TEI-encoded texts, and a map. Includes links between places, people, and texts."
+    },
+    {
+      "title": "TextGrid Repository",
+      "url": "https://textgridrep.org/",
+      "languages": [
+        "German",
+        "Latin",
+        "French",
+        "English",
+        "Italian"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "discovered",
+      "date_added": "2026-10-07",
+      "institution": "TextGrid Consortium (German universities and research institutions)",
+      "period": "800-1900",
+      "region": "German-speaking Europe",
+      "words": 50000000,
+      "years_active": {
+        "start": 2006,
+        "end": "ongoing"
+      },
+      "notes": "A digital repository for the humanities offering TEI-encoded texts, images, and structured data. Includes many scholarly editions of German literature. Free registration for some features; texts are openly licensed."
+    },
+    {
+      "title": "Women Writers Online",
+      "url": "https://www.wwp.northeastern.edu/",
+      "languages": [
+        "English",
+        "French",
+        "Latin",
+        "Italian",
+        "Spanish"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "Northeastern University (Women Writers Project)",
+      "period": "1400-1700",
+      "region": "Europe, Americas",
+      "words": 12000000,
+      "years_active": {
+        "start": 1988,
+        "end": "ongoing"
+      },
+      "notes": "A digital library of texts by women from the medieval and early modern periods. TEI XML encoding with extensive metadata. Free and open access."
+    }
+  ]
+}

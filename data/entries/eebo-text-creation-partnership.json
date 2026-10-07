@@ -1,0 +1,18 @@
+{
+  "title": "EEBO Text Creation Partnership",
+  "url": "https://www.textcreationpartnership.org/",
+  "languages": ["English"],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-07",
+  "institution": "Text Creation Partnership (Universities of Oxford, Michigan, and others)",
+  "period": "1473-1700",
+  "region": "England, Scotland, Ireland",
+  "words": 45000000,
+  "years_active": {
+    "start": 2002,
+    "end": "ongoing"
+  },
+  "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. Access via EEBO (subscription) or open TCP texts."
+}

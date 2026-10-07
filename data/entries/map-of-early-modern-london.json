@@ -1,0 +1,17 @@
+{
+  "title": "The Map of Early Modern London",
+  "url": "https://mapoflondon.uvic.ca/",
+  "languages": ["English"],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "institution": "University of Victoria",
+  "period": "1550-1700",
+  "region": "London, England",
+  "years_active": {
+    "start": 2000,
+    "end": "ongoing"
+  },
+  "notes": "A digital scholarly edition of early modern London, combining a gazetteer, an anthology of TEI-encoded texts, and a map. Includes links between places, people, and texts."
+}

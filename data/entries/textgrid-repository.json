@@ -1,0 +1,18 @@
+{
+  "title": "TextGrid Repository",
+  "url": "https://textgridrep.org/",
+  "languages": ["German", "Latin", "French", "English", "Italian"],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-07",
+  "institution": "TextGrid Consortium (German universities and research institutions)",
+  "period": "800-1900",
+  "region": "German-speaking Europe",
+  "words": 50000000,
+  "years_active": {
+    "start": 2006,
+    "end": "ongoing"
+  },
+  "notes": "A digital repository for the humanities offering TEI-encoded texts, images, and structured data. Includes many scholarly editions of German literature. Free registration for some features; texts are openly licensed."
+}

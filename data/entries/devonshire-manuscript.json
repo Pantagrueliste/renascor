@@ -1,0 +1,18 @@
+{
+  "title": "The Devonshire Manuscript",
+  "url": "https://devonshire.unb.ca/",
+  "languages": ["English"],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "institution": "University of New Brunswick",
+  "period": "1539-1541",
+  "region": "England",
+  "words": 135000,
+  "years_active": {
+    "start": 2007,
+    "end": "ongoing"
+  },
+  "notes": "A digital edition of a mid-sixteenth-century miscellany of verse and prose, compiled by women. Includes diplomatic transcription, modernised text, and scholarly apparatus. TEI XML with page images."
+}

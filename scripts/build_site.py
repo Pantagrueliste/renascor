@@ -24,19 +24,19 @@ def load_schema() -> dict:
     return json.loads(SCHEMA_PATH.read_text(encoding="utf-8"))
 
 
-def load_entries(entries_dir: Path) -> list[dict]:
+def load_entries(entries_dir: Path) -> list[tuple[str, dict]]:
+    """Load entries. Returns a list of (filename, entry) tuples."""
     entries = []
     for path in sorted(entries_dir.glob("*.json")):
         try:
             entry = json.loads(path.read_text(encoding="utf-8"))
-            entry["_file"] = path.name
-            entries.append(entry)
+            entries.append((path.name, entry))
         except json.JSONDecodeError as e:
             print(f"Warning: {path.name} is not valid JSON: {e}", file=sys.stderr)
     return entries
 
 
-def validate_entries(entries: list[dict], schema: dict) -> list[str]:
+def validate_entries(entries: list[tuple[str, dict]], schema: dict) -> list[str]:
     """Validate entries against the schema. Returns a list of error messages."""
     try:
         import jsonschema
@@ -46,16 +46,15 @@ def validate_entries(entries: list[dict], schema: dict) -> list[str]:
 
     errors = []
     validator = jsonschema.Draft7Validator(schema)
-    for entry in entries:
+    for filename, entry in entries:
         for error in validator.iter_errors(entry):
             path = "/".join(str(p) for p in error.absolute_path) or "(root)"
-            errors.append(f"{entry.get('_file', '?')}: {path}: {error.message}")
+            errors.append(f"{filename}: {path}: {error.message}")
     return errors
 
 
-def write_json(entries: list[dict], out_path: Path) -> None:
-    # Strip the internal _file key before writing.
-    clean = [{k: v for k, v in e.items() if k != "_file"} for e in entries]
+def write_json(entries: list[tuple[str, dict]], out_path: Path) -> None:
+    clean = [entry for _, entry in entries]
     payload = {
         "meta": {
             "title": "Renascore",
@@ -69,7 +68,7 @@ def write_json(entries: list[dict], out_path: Path) -> None:
     out_path.write_text(json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8")
 
 
-def write_csv(entries: list[dict], out_path: Path) -> None:
+def write_csv(entries: list[tuple[str, dict]], out_path: Path) -> None:
     cols = [
         "title", "url", "languages", "encoding", "status", "institution",
         "period", "words", "region", "author", "date", "years_active",
@@ -78,9 +77,8 @@ def write_csv(entries: list[dict], out_path: Path) -> None:
     with out_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")
         writer.writeheader()
-        for entry in entries:
+        for _, entry in entries:
             row = dict(entry)
-            row.pop("_file", None)
             if isinstance(row.get("languages"), list):
                 row["languages"] = "; ".join(row["languages"])
             writer.writerow(row)
