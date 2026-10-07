@@ -1,0 +1,117 @@
+name: Propose a new entry
+description: Tell us about a digital edition project of Renaissance-era texts that is not yet in the catalogue.
+title: "[new entry] "
+labels: ["new-entry", "status:needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping to build this catalogue.
+
+        Fill in what you know. Leave blank what you do not. A maintainer will review your submission and add it to the catalogue.
+
+        **One distinction matters.** We catalogue projects that provide **digital editions**: transcriptions, editorial text, or corrected OCR/HTR of Renaissance-era documents (roughly 1450 to 1700). We do **not** catalogue page images or facsimiles only, raw uncorrected OCR dumps, or bibliographies with no texts.
+
+        If you are unsure whether a project qualifies, submit it anyway and say so.
+
+  - type: input
+    id: title
+    attributes:
+      label: Project name
+      description: The name of the edition project or collection.
+      placeholder: "e.g. Women Writers Online, TextGrid Repository"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: The main page where the edition can be found. If there is a separate download or API endpoint, mention it in the notes.
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: languages
+    attributes:
+      label: Language(s)
+      description: Plain names are fine. If the project is multilingual, list them separated by commas.
+      placeholder: "e.g. Latin, or French and German"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: encoding
+    attributes:
+      label: Encoding format
+      description: How is the text encoded?
+      options:
+        - TEI XML
+        - HTML
+        - Markdown
+        - Other
+        - I am not sure
+    validations:
+      required: true
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Is the project active?
+      options:
+        - Active (currently maintained, updated, or accepting contributions)
+        - Archived (no longer maintained, but still online)
+        - I am not sure
+    validations:
+      required: true
+
+  - type: input
+    id: institution
+    attributes:
+      label: Institution or team
+      description: Who is behind the edition? A university, a library, a research team, an individual?
+      placeholder: "e.g. University of St Andrews, or a research project name"
+
+  - type: input
+    id: period
+    attributes:
+      label: Period covered
+      description: What period do the texts cover? The project's scope is roughly 1450 to 1700, but partial overlap is fine.
+      placeholder: "e.g. 16th century, or 1550-1620"
+
+  - type: input
+    id: region
+    attributes:
+      label: Geographic area
+      description: What region or country do the texts come from?
+      placeholder: "e.g. Italy, Low Countries, England"
+
+  - type: input
+    id: words
+    attributes:
+      label: Approximate size (words)
+      description: Any unit you have. If you do not know, leave blank.
+      placeholder: "e.g. 500000, or 'several million'"
+
+  - type: input
+    id: years_active
+    attributes:
+      label: Years active
+      description: When did the project start and end? Use 'ongoing' if still active.
+      placeholder: "e.g. 2010-2020, or 2015-ongoing"
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else we should know
+      description: Author of the source texts, licence, access conditions, quality notes, why it matters, or anything else.
+
+  - type: checkboxes
+    id: scope
+    attributes:
+      label: Scope
+      description: "This catalogue covers European material of roughly 1450 to 1700, and texts produced by European encounter (mission imprints, chancery documents, etc.)."
+      options:
+        - label: "As far as I can tell, this project falls within that scope, or I have explained above why it is a borderline case."
+          required: true

@@ -1,0 +1,56 @@
+name: Report a correction
+description: Tell us about an error in an existing catalogue entry.
+title: "[correction] "
+labels: ["correction", "status:needs-review"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping to keep the catalogue accurate.
+
+        Describe the error and, if you can, suggest the correct value. A wrong URL, a mis-tagged language, a text dated to the wrong century, a collection attributed to the wrong institution: all of these are worth reporting.
+
+  - type: input
+    id: entry
+    attributes:
+      label: Which entry is wrong?
+      description: The project name, or the filename in data/entries/.
+      placeholder: "e.g. Women Writers Online, or women-writers-online.json"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: field
+    attributes:
+      label: Which field is wrong?
+      options:
+        - title
+        - url
+        - languages
+        - encoding
+        - status
+        - institution
+        - period
+        - region
+        - words
+        - years_active
+        - notes
+        - Other / not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: current
+    attributes:
+      label: What does the entry currently say?
+      placeholder: "Copy the current value here."
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct
+    attributes:
+      label: What should it say?
+      placeholder: "The correct value, and a source if you have one (a link to the project page, for example)."
+    validations:
+      required: true
