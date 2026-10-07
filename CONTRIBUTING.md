@@ -1,10 +1,10 @@
-# Contributing to Renascore
+# Contributing to Renascor
 
 Thank you for helping to build this catalogue. There are two ways to contribute, and neither requires technical expertise.
 
 ## Option 1: Open an issue (recommended for most people)
 
-Use the [new entry form](https://github.com/Pantagrueliste/renascore/issues/new?template=new-entry.yml).
+Use the [new entry form](https://github.com/Pantagrueliste/renascor/issues/new?template=new-entry.yml).
 
 The form asks for the essential details about a digital edition project. Fill in what you know; leave blank what you do not. A maintainer will review your submission, format it as a catalogue entry, and add it to the dataset.
 
@@ -56,7 +56,7 @@ If you are unsure whether a project qualifies, submit it anyway and say so. Misc
 
 ## Corrections
 
-If you find an error in an existing entry, [open an issue](https://github.com/Pantagrueliste/renascore/issues/new?template=correction.yml) or propose a fix via pull request.
+If you find an error in an existing entry, [open an issue](https://github.com/Pantagrueliste/renascor/issues/new?template=correction.yml) or propose a fix via pull request.
 
 ## Code of conduct
 

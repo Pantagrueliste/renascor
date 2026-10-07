@@ -7,7 +7,7 @@ entry schema, and writes a JSON file to data/entries/.
 
 Usage:
     python scripts/issue_to_entry.py --issue-file issue.md --output-dir data/entries
-    python scripts/issue_to_entry.py --issue-number 42 --repo Pantagrueliste/renascore
+    python scripts/issue_to_entry.py --issue-number 42 --repo Pantagrueliste/renascor
 
 The second form requires the GITHUB_TOKEN environment variable.
 """
@@ -128,7 +128,7 @@ def main() -> int:
                         help="Path to a file containing the issue body")
     parser.add_argument("--issue-number", type=int,
                         help="Issue number (requires GITHUB_TOKEN and --repo)")
-    parser.add_argument("--repo", default="Pantagrueliste/renascore",
+    parser.add_argument("--repo", default="Pantagrueliste/renascor",
                         help="Repository in owner/name format")
     parser.add_argument("--output-dir", type=Path, default=REPO_ROOT / "data" / "entries",
                         help="Directory to write the entry JSON file")

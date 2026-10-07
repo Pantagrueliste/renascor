@@ -64,11 +64,11 @@ def check_urls(entries: list[tuple[str, dict]], timeout: float = 10.0) -> list[s
             continue
         try:
             response = requests.head(url, timeout=timeout, allow_redirects=True,
-                                     headers={"User-Agent": "RenascoreBot/1.0 (validation)"})
+                                     headers={"User-Agent": "RenascorBot/1.0 (validation)"})
             if response.status_code >= 400:
                 # Some servers reject HEAD; try GET.
                 response = requests.get(url, timeout=timeout, allow_redirects=True,
-                                        headers={"User-Agent": "RenascoreBot/1.0 (validation)"},
+                                        headers={"User-Agent": "RenascorBot/1.0 (validation)"},
                                         stream=True)
                 response.close()
             if response.status_code >= 400:

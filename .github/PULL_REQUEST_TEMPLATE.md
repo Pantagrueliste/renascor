@@ -10,7 +10,7 @@
 - [ ] If adding a new entry: the URL resolves (checked with `--check-url`).
 - [ ] If adding a new entry: I have not duplicated an existing entry (checked the catalogue first).
 - [ ] If modifying an existing entry: I have explained what was wrong and why the change is correct.
-- [ ] I have run `python scripts/build_site.py` to regenerate `docs/data.json` and `docs/renascore.csv`.
+- [ ] I have run `python scripts/build_site.py` to regenerate `docs/data.json` and `docs/renascor.csv`.
 
 ## Notes for the reviewer
 

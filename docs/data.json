@@ -1,9 +1,9 @@
 {
   "meta": {
-    "title": "Renascore",
+    "title": "Renascor",
     "description": "An open catalogue of digital editions of Renaissance-era written documents",
     "licence": "CC0 1.0",
-    "source": "https://github.com/Pantagrueliste/renascore",
+    "source": "https://github.com/Pantagrueliste/renascor",
     "entries": 5
   },
   "entries": [

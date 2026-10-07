@@ -1,6 +1,6 @@
 # Design decisions
 
-This document records non-obvious choices made when building Renascore, and the reasoning behind them. It is intended for future maintainers and curious contributors.
+This document records non-obvious choices made when building Renascor, and the reasoning behind them. It is intended for future maintainers and curious contributors.
 
 ## Data format: JSON, not YAML
 
@@ -32,7 +32,7 @@ We use two separate licence files (`LICENSE` and `LICENSE-DATA`) rather than one
 
 ## No database
 
-Renascore is a directory of JSON files, not a database. There is no SQL, no server, no API. The dataset is small (expected: hundreds to low thousands of entries) and changes slowly (a few entries per week at most). A database would add operational cost with no benefit at this scale.
+Renascor is a directory of JSON files, not a database. There is no SQL, no server, no API. The dataset is small (expected: hundreds to low thousands of entries) and changes slowly (a few entries per week at most). A database would add operational cost with no benefit at this scale.
 
 If the catalogue grows to tens of thousands of entries, this decision should be revisited.
 

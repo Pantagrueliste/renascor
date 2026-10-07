@@ -1,4 +1,4 @@
-# Renascore
+# Renascor
 
 An open catalogue of digital editions of Renaissance-era written documents: manuscripts, printed works, and correspondence.
 
@@ -6,7 +6,7 @@ The name blends Latin *renascor* ('I am reborn') with 'corpus'.
 
 ## What this is
 
-Renascore records projects that have produced digital editions of texts from roughly 1450 to 1700. Each entry describes one edition project: who made it, what it contains, in which language, in which format, and where to find it.
+Renascor records projects that have produced digital editions of texts from roughly 1450 to 1700. Each entry describes one edition project: who made it, what it contains, in which language, in which format, and where to find it.
 
 This is a catalogue of editions, not a corpus of texts. We do not host the texts themselves. We point to them.
 
@@ -26,7 +26,7 @@ Every entry in `data/entries/` is a single JSON file describing one edition proj
 
 There are two ways to add an entry:
 
-1. **Open an issue.** Use the [new entry form](https://github.com/Pantagrueliste/renascore/issues/new?template=new-entry.yml). You do not need to know Git or JSON.
+1. **Open an issue.** Use the [new entry form](https://github.com/Pantagrueliste/renascor/issues/new?template=new-entry.yml). You do not need to know Git or JSON.
 2. **Edit a file directly.** Add a JSON file to `data/entries/` and open a pull request. See [CONTRIBUTING.md](CONTRIBUTING.md) for the format.
 
 Every contribution is reviewed by a human before it appears in the catalogue.
@@ -41,7 +41,7 @@ The running cost of the automated search is under one cent per week. Without thi
 
 ## The public site
 
-The catalogue is published as a static website at [renascore.github.io](https://renascore.github.io) (or your GitHub Pages URL). The site is generated from the JSON files in `data/entries/` and offers:
+The catalogue is published as a static website at [renascor.github.io](https://renascor.github.io) (or your GitHub Pages URL). The site is generated from the JSON files in `data/entries/` and offers:
 
 - search across all entries
 - filters for language, period, region, encoding, and status
@@ -70,7 +70,7 @@ If you use this catalogue in your research, please cite it. See [CITATION.cff](C
 
 ## Support this project
 
-Renascore runs on a few dollars a month. Donations cover the running costs of the weekly automated search. If you find this catalogue useful, you can [buy me a coffee on Ko-fi](https://ko-fi.com/clementgodbarge).
+Renascor runs on a few dollars a month. Donations cover the running costs of the weekly automated search. If you find this catalogue useful, you can [buy me a coffee on Ko-fi](https://ko-fi.com/clementgodbarge).
 
 ## Contact
 

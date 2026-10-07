@@ -73,5 +73,5 @@ jobs:
           name: site-build
           path: |
             docs/data.json
-            docs/renascore.csv
+            docs/renascor.csv
           retention-days: 7

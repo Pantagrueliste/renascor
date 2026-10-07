@@ -1,0 +1,6 @@
+title,url,languages,encoding,status,institution,period,words,region,author,date,years_active,provenance,date_added
+The Devonshire Manuscript,https://devonshire.unb.ca/,English,tei,active,University of New Brunswick,1539-1541,135000,England,,,"{'start': 2007, 'end': 'ongoing'}",submitted,2026-10-07
+EEBO Text Creation Partnership,https://www.textcreationpartnership.org/,English,tei,active,"Text Creation Partnership (Universities of Oxford, Michigan, and others)",1473-1700,45000000,"England, Scotland, Ireland",,,"{'start': 2002, 'end': 'ongoing'}",discovered,2026-10-07
+The Map of Early Modern London,https://mapoflondon.uvic.ca/,English,tei,active,University of Victoria,1550-1700,,"London, England",,,"{'start': 2000, 'end': 'ongoing'}",submitted,2026-10-07
+TextGrid Repository,https://textgridrep.org/,German; Latin; French; English; Italian,tei,active,TextGrid Consortium (German universities and research institutions),800-1900,50000000,German-speaking Europe,,,"{'start': 2006, 'end': 'ongoing'}",discovered,2026-10-07
+Women Writers Online,https://www.wwp.northeastern.edu/,English; French; Latin; Italian; Spanish,tei,active,Northeastern University (Women Writers Project),1400-1700,12000000,"Europe, Americas",,,"{'start': 1988, 'end': 'ongoing'}",submitted,2026-10-07

@@ -1,7 +1,7 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://renascore.github.io/schema/entry.schema.json",
-  "title": "Renascore entry",
+  "$id": "https://renascor.github.io/schema/entry.schema.json",
+  "title": "Renascor entry",
   "description": "A single catalogue entry describing a digital edition project of Renaissance-era written documents.",
   "type": "object",
   "required": ["title", "url", "languages", "encoding", "status", "provenance", "date_added"],

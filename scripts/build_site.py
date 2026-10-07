@@ -3,7 +3,7 @@
 
 Reads every JSON file in data/entries/, validates it against the schema,
 and writes docs/data.json for the public site. Also writes a CSV export
-to docs/renascore.csv.
+to docs/renascor.csv.
 
 Usage:
     python scripts/build_site.py [--entries-dir DIR] [--out-dir DIR]
@@ -57,10 +57,10 @@ def write_json(entries: list[tuple[str, dict]], out_path: Path) -> None:
     clean = [entry for _, entry in entries]
     payload = {
         "meta": {
-            "title": "Renascore",
+            "title": "Renascor",
             "description": "An open catalogue of digital editions of Renaissance-era written documents",
             "licence": "CC0 1.0",
-            "source": "https://github.com/Pantagrueliste/renascore",
+            "source": "https://github.com/Pantagrueliste/renascor",
             "entries": len(clean),
         },
         "entries": clean,
@@ -105,7 +105,7 @@ def main() -> int:
 
     args.out_dir.mkdir(parents=True, exist_ok=True)
     write_json(entries, args.out_dir / "data.json")
-    write_csv(entries, args.out_dir / "renascore.csv")
+    write_csv(entries, args.out_dir / "renascor.csv")
 
     print(f"Built site: {len(entries)} entries -> {args.out_dir}")
     return 0

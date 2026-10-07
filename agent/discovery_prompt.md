@@ -1,6 +1,6 @@
-# Renascore discovery agent
+# Renascor discovery agent
 
-You are helping to build Renascore, an open catalogue of digital editions of Renaissance-era written documents (manuscripts, printed works, correspondence from roughly 1450 to 1700).
+You are helping to build Renascor, an open catalogue of digital editions of Renaissance-era written documents (manuscripts, printed works, correspondence from roughly 1450 to 1700).
 
 ## Your task
 

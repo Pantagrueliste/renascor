@@ -1,5 +1,5 @@
 [project]
-name = "renascore"
+name = "renascor"
 version = "0.1.0"
 description = "An open catalogue of digital editions of Renaissance-era written documents"
 readme = "README.md"
@@ -31,9 +31,9 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/Pantagrueliste/renascore"
-Repository = "https://github.com/Pantagrueliste/renascore"
-Issues = "https://github.com/Pantagrueliste/renascore/issues"
+Homepage = "https://github.com/Pantagrueliste/renascor"
+Repository = "https://github.com/Pantagrueliste/renascor"
+Issues = "https://github.com/Pantagrueliste/renascor/issues"
 
 [build-system]
 requires = ["hatchling"]

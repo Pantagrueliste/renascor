@@ -43,11 +43,11 @@ def check_url(url: str, timeout: float = 10.0) -> tuple[bool, str]:
 
     try:
         response = requests.head(url, timeout=timeout, allow_redirects=True,
-                                 headers={"User-Agent": "RenascoreBot/1.0"})
+                                 headers={"User-Agent": "RenascorBot/1.0"})
         if response.status_code >= 400:
             # Some servers reject HEAD; try GET.
             response = requests.get(url, timeout=timeout, allow_redirects=True,
-                                    headers={"User-Agent": "RenascoreBot/1.0"},
+                                    headers={"User-Agent": "RenascorBot/1.0"},
                                     stream=True)
             response.close()
         if response.status_code >= 400:
