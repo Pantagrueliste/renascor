@@ -1,18 +1,16 @@
 {
-  "title": "The Devonshire Manuscript",
-  "url": "https://devonshire.unb.ca/",
+  "title": "A Social Edition of the Devonshire MS (BL Add. MS 17492)",
+  "url": "https://en.wikibooks.org/wiki/The_Devonshire_Manuscript",
   "languages": ["English"],
   "encoding": "tei",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
-  "institution": "University of New Brunswick",
-  "period": "1539-1541",
+  "institution": "University of Victoria (editorial team led by Ray Siemens); print edition by Iter & ACMRS Press",
+  "period": "c. 1539-1547",
   "region": "England",
-  "words": 135000,
   "years_active": {
-    "start": 2007,
-    "end": "ongoing"
+    "start": 2004
   },
-  "notes": "A digital edition of a mid-sixteenth-century miscellany of verse and prose, compiled by women. Includes diplomatic transcription, modernised text, and scholarly apparatus. TEI XML with page images."
+  "notes": "A digital edition of a mid-sixteenth-century miscellany of verse and prose, compiled in the court circle of Margaret Douglas and later the Rutland household, with contributions by Thomas Wyatt, Mary Shelton and others. Diplomatic transcription, modernised text and scholarly apparatus, encoded in TEI P5. The original dedicated site (devonshire.unb.ca) is offline; the social edition now lives on Wikibooks, and the ~200 TEI XML transcriptions and witnesses (CC BY-SA 4.0) are archived at Oxford LLDS: https://llds.phon.ox.ac.uk/llds/xmlui/handle/20.500.14106/2587"
 }
