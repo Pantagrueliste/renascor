@@ -6,14 +6,17 @@ collections into canonical edition projects via scripts/rq_families.json
 (one entry per documented project, all languages merged), and writes one
 JSON entry per canonical project into data/entries/.
 
-Collections that match no documented project (micro-collections from the
-retired RQ corpus assembly, platforms without a distinct project site,
-unidentifiable origins) are NOT imported. They are listed, with their
-statistics, in a pending report for later discovery and review.
+Collections that match no documented project (micro-collections, generic
+platforms, unidentifiable origins) are imported individually from the RQ
+source inventory: each gets its own entry, with the first working URL from
+its source_ref column, or a pointer to the RQ Open Corpus frozen release
+when nothing verifiable resolves. A pending report lists the rare
+collections that could not be imported at all.
 
 Usage:
     python scripts/rq_import.py --db sqlite.db [--families FILE]
-                                [--out-dir DIR] [--report FILE]
+                                [--inventory FILE] [--out-dir DIR]
+                                [--report FILE]
 """
 from __future__ import annotations
 
@@ -23,6 +26,8 @@ import json
 import re
 import sqlite3
 import sys
+import urllib.request
+import urllib.error
 from datetime import date
 from pathlib import Path
 
@@ -33,6 +38,23 @@ STATS_NOTE = (
     "Corpus statistics (text, word and language counts, period) derived "
     "from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
 )
+
+FALLBACK_URL = "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen"
+
+USER_AGENT = "Mozilla/5.0 (compatible; renascor-link-checker/1.0)"
+
+
+def url_ok(url: str, timeout: float = 15.0) -> bool:
+    """True if the URL answers (403 counts as reachable: many sites block bots)."""
+    req = urllib.request.Request(url, method="HEAD",
+                                 headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout):
+            return True
+    except urllib.error.HTTPError as e:
+        return e.code != 404
+    except Exception:
+        return False
 
 
 def slugify(name: str) -> str:
@@ -74,7 +96,8 @@ def aggregate(db_path: Path, collections: list[str]) -> dict:
             "words": words, "texts": len(rows)}
 
 
-def build_entry(group: dict, stats: dict, existing: dict | None, today: str) -> dict:
+def build_entry(group: dict, stats: dict, existing: dict | None, today: str,
+                merge_stats: bool = True) -> dict:
     entry = dict(existing) if existing else {}
     if not existing:
         entry["title"] = group["title"]
@@ -91,20 +114,72 @@ def build_entry(group: dict, stats: dict, existing: dict | None, today: str) -> 
     entry["languages"] = sorted(
         set(entry.get("languages") or []) | {code for code in stats["langs"] if code}
     )
-    entry["encoding"] = "tei" if "tei" in stats["fmts"] else entry.get("encoding", "other")
-    if stats["words"]:
-        entry["words"] = stats["words"]
-    entry["texts"] = stats["texts"]
-    if stats["period"]:
-        lo, hi = stats["period"]
-        entry["period"] = f"{lo}-{hi}"
+    if merge_stats:
+        entry["encoding"] = "tei" if "tei" in stats["fmts"] else entry.get("encoding", "other")
+        if stats["words"]:
+            entry["words"] = stats["words"]
+        entry["texts"] = stats["texts"]
+        if stats["period"]:
+            lo, hi = stats["period"]
+            entry["period"] = f"{lo}-{hi}"
     return entry
+
+
+FALLBACK_NOTE = (
+    "No public project page could be verified for this collection; it is "
+    "documented here as a corpus collection of the RQ Open Corpus snapshot "
+    "(v2026.06-frozen). The original harvest reference is given below."
+)
+
+
+def inventory_entry(collection: str, inv_row: dict, stats: dict, today: str,
+                    known: dict | None = None) -> dict | None:
+    """Build a per-collection entry from the RQ source inventory."""
+    known = known or {}
+    candidates = []
+    if known.get("url"):
+        candidates.append(known["url"])
+    ref_urls = dict.fromkeys(url_re.findall(inv_row["source_ref"]))
+    candidates += [u.rstrip("/") for u in ref_urls]
+    url = next((u for u in candidates if url_ok(u)), None)
+    notes = STATS_NOTE
+    if url is None:
+        url = known.get("fallback") or FALLBACK_URL
+        notes = FALLBACK_NOTE + " " + STATS_NOTE
+    title = (inv_row["collection"] or collection).replace("_", " ")
+    if not title.strip():
+        title = collection
+    if known.get("title"):
+        title = known["title"]
+    entry = {
+        "title": title,
+        "url": url,
+        "languages": sorted(l for l in stats["langs"] if l),
+        "encoding": "tei" if "tei" in stats["fmts"] else "other",
+        "status": "active",
+        "provenance": "submitted",
+        "date_added": today,
+        "words": stats["words"],
+        "texts": stats["texts"],
+    }
+    if known.get("institution"):
+        entry["institution"] = known["institution"]
+    if stats["period"]:
+        entry["period"] = f"{stats['period'][0]}-{stats['period'][1]}"
+    origin_sample = inv_row["source_ref"][:200]
+    entry["notes"] = f"{notes} {origin_sample}".strip()
+    return entry
+
+
+url_re = re.compile(r'https?://[^\s;,"]+')
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--db", required=True, type=Path)
     parser.add_argument("--families", type=Path, default=FAMILIES_PATH)
+    parser.add_argument("--inventory", type=Path, default=None,
+                        help="RQ source inventory CSV (verification kit)")
     parser.add_argument("--out-dir", type=Path, default=REPO_ROOT / "data" / "entries")
     parser.add_argument("--report", type=Path,
                         default=REPO_ROOT / "data" / "rq_pending.csv")
@@ -112,6 +187,9 @@ def main() -> int:
     today = date.today().isoformat()
 
     groups = json.loads(args.families.read_text(encoding="utf-8"))["groups"]
+    fams = json.loads(args.families.read_text(encoding="utf-8"))
+    groups = fams["groups"]
+    known_all = fams.get("known_collections", {})
     con = sqlite3.connect(args.db)
     collections = [r[0] for r in con.execute(
         "SELECT DISTINCT collection FROM texts WHERE in_core=1 AND is_dup=0 ORDER BY collection"
@@ -145,18 +223,57 @@ def main() -> int:
         if not g.get("url"):
             skipped.append(slug)
             continue
-        entry = build_entry(g, stats, existing, today)
+        entry = build_entry(g, stats, existing, today,
+                            merge_stats=g.get("merge_stats", True))
         out_path.write_text(
             json.dumps(entry, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
         )
         (written if not existing else updated).append(slug)
 
+    imported_leftovers = []
+    inventory = {}
+    if args.inventory:
+        inventory = {r["collection"]: r for r in
+                     csv.DictReader(args.inventory.open(encoding="utf-8"))}
+    for c in pending:
+        slug = slugify(c)
+        path = args.out_dir / f"{slug}.json"
+        # Support re-running: an existing entry is "imported" only if it is ours.
+        if path.exists():
+            try:
+                existing_title = json.loads(path.read_text(encoding="utf-8")).get("title", "")
+            except Exception:
+                existing_title = None
+            known_title = (known_all.get(c) or {}).get("title")
+            if existing_title is not None and (
+                existing_title.replace("_", " ") == c.replace("_", " ")
+                or (known_title and existing_title == known_title)
+            ):
+                imported_leftovers.append(slug)
+                continue
+            print(f"Warning: {path.name} exists with a different title; not overwriting",
+                  file=sys.stderr)
+            continue
+        stats = aggregate(args.db, [c])
+        row = inventory.get(c)
+        new_entry = inventory_entry(c, row, stats, today, known_all.get(c)) if row else None
+        if new_entry:
+            path.write_text(json.dumps(new_entry, indent=2, ensure_ascii=False) + "\n",
+                            encoding="utf-8")
+            imported_leftovers.append(slug)
+        else:
+            print(f"Still pending (no working URL in source_ref): {c}", file=sys.stderr)
+
+    # Refresh the pending report: keep only collections not written as entries.
+    imported_slugs = set(imported_leftovers)
     with args.report.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         w.writerow(["collection", "texts", "words", "languages", "period", "origin_sample"])
         con = sqlite3.connect(args.db)
-        for c in pending:
+        mapped_collections = {c for members in assigned.values() for c in members}
+        still_pending = [c for c in pending if slugify(c) not in imported_slugs]
+        for c in still_pending:
             r = con.execute(
                 "SELECT COUNT(*), COALESCE(SUM(wordcount),0), "
                 "GROUP_CONCAT(DISTINCT lang_display), MIN(year), MAX(year), "
@@ -170,9 +287,11 @@ def main() -> int:
     print(f"Mapped {sum(len(v) for v in assigned.values())} of {len(collections)} "
           f"collections into {len(written) + len(updated)} canonical projects "
           f"({len(updated)} updated, {len(written)} new, {len(skipped)} skipped without URL).")
-    print(f"Pending (not imported): {len(pending)} collections -> {args.report}")
+    print(f"Leftover collections imported individually: {len(imported_leftovers)}")
     for slug in written:
         print(f"  new:      {slug}")
+    for slug in imported_leftovers:
+        print(f"  leftover: {slug}")
     for slug in updated:
         print(f"  updated:  {slug}")
     for slug in skipped:

@@ -19,6 +19,12 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
+# Deliberately shared pointer: entries for RQ collections with no verifiable
+# project site all point to the same frozen release. Not duplicates.
+SHARED_FALLBACK_URLS = [
+    "https://github.com/pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+]
+
 
 def load_entries(entries_dir: Path) -> list[tuple[str, dict]]:
     entries = []
@@ -58,7 +64,7 @@ def check_duplicates(
             url_to_files.setdefault(url, []).append(filename)
 
     for url, files in url_to_files.items():
-        if len(files) > 1:
+        if len(files) > 1 and url not in SHARED_FALLBACK_URLS:
             warnings.append(
                 f"Same URL ({url}) in multiple entries: {', '.join(files)}"
             )

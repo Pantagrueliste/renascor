@@ -1,0 +1,15 @@
+{
+  "title": "Cornish Tregear",
+  "url": "https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche",
+  "languages": [
+    "Cornish"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 38078,
+  "texts": 13,
+  "period": "1556-1556",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche; rebuild/cornish_tregear_source_selection_2026-06-24.tsv; data/raw/Cornish_Tregear/Cornish_Tregear.jsonl; rebuild/rawtree_full_lock_2026-07-16.ts"
+}

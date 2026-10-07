@@ -1,0 +1,15 @@
+{
+  "title": "TMI SMI Italian",
+  "url": "https://tmiweb.science.uu.nl",
+  "languages": [
+    "Italian"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 2029235,
+  "texts": 41,
+  "period": "1525-1649",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://tmiweb.science.uu.nl/; rebuild/tmi_smi_italian_source_selection_2026-06-24.tsv; data/raw/TMI_SMI_Italian/TMI_SMI_Italian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+}

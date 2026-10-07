@@ -1,0 +1,15 @@
+{
+  "title": "FAMSI Bolles YucatecMaya",
+  "url": "http://www.famsi.org/reports/96072",
+  "languages": [
+    "Yucatec Maya"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 73544,
+  "texts": 24,
+  "period": "1557-1580",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://www.famsi.org/reports/96072/; rebuild/famsi_bolles_yucatecmaya_source_selection_2026-06-24.tsv; data/raw/FAMSI_Bolles_YucatecMaya/FAMSI_Bolles_YucatecMaya.jsonl; rebuild/rawtree_full_lock_2026-"
+}

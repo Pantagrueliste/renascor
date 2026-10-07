@@ -1,0 +1,16 @@
+{
+  "title": "Galileo Opere Favaro",
+  "url": "https://it.wikisource.org/wiki/Le_opere_di_Galileo_Galilei_(Favaro)",
+  "languages": [
+    "Italian",
+    "Latin"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 97354,
+  "texts": 4,
+  "period": "1611-1633",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://it.wikisource.org/wiki/Le_opere_di_Galileo_Galilei_(Favaro); rebuild/galileo_opere_favaro_source_selection_2026-06-24.tsv; data/raw/Galileo_Opere_Favaro/Galileo_Opere_Favaro.jsonl; rebuild/raw"
+}

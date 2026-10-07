@@ -1,0 +1,15 @@
+{
+  "title": "FilologiaSarda Sardinian",
+  "url": "https://www.filologiasarda.eu",
+  "languages": [
+    "Sardinian"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 10596,
+  "texts": 4,
+  "period": "1573-1597",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.filologiasarda.eu/; rebuild/filologiasarda_sardinian_source_selection_2026-06-24.tsv; data/raw/FilologiaSarda_Sardinian/FilologiaSarda_Sardinian.jsonl; rebuild/rawtree_full_lock_2026-07-16"
+}

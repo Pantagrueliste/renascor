@@ -82,7 +82,14 @@
         "^Wikimammenn",
         "^Hebrew_Wikisource$",
         "^LatinWikisource$",
-        "^CretanGreek_Wikisource$"
+        "^CretanGreek_Wikisource$",
+        "^ArmenianWS$",
+        "^Azerbaijani_WS$",
+        "^roWikisource",
+        "^SpanishGoldenAgeProse_WS$",
+        "^AmadisDeGaula$",
+        "^BretonNonn_Wikimammenn$",
+        "^Tupi_Anchieta$"
       ],
       "title": "Wikisource",
       "url": "https://wikisource.org/"
@@ -90,7 +97,8 @@
     {
       "slug": "project-gutenberg",
       "match": [
-        "^Gutenberg"
+        "^Gutenberg",
+        "^Hakluyt_English$"
       ],
       "title": "Project Gutenberg",
       "url": "https://www.gutenberg.org/"
@@ -378,6 +386,89 @@
       "title": "NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin",
       "url": "https://www.uibk.ac.at/projects/noscemus/",
       "institution": "Universität Innsbruck"
+    },
+    {
+      "slug": "openedges",
+      "match": [
+        "^OpenEDGeS"
+      ],
+      "title": "OpenEDGeS (Open Editions of Early Modern Dutch and German Bibles)",
+      "url": "https://spraakbanken.gu.se/en/resources/openedges",
+      "institution": "University of Gothenburg (Språkbanken)"
+    },
+    {
+      "slug": "textgrid-repository",
+      "existing": true,
+      "match": [
+        "^TextGrid_German$"
+      ],
+      "title": "TextGrid Repository",
+      "url": "https://textgridrep.org/",
+      "merge_stats": false
     }
-  ]
+  ],
+  "known_collections": {
+    "ABU_French": {
+      "title": "ABU — Bibliothèque Universelle",
+      "url": "http://abu.cnam.fr/",
+      "institution": "Conservatoire national des arts et métiers"
+    },
+    "CKCC_Epistolarium": {
+      "title": "Epistolarium (CKCC)",
+      "url": "https://ckcc.huygens.knaw.nl/",
+      "institution": "Huygens ING (KNAW)"
+    },
+    "GAMS_BaselRecords": {
+      "title": "GAMS — Basel Records",
+      "url": "https://gams.uni-graz.at/",
+      "institution": "Universität Graz (GAMS)"
+    },
+    "BVH_Epistemon_Print": {
+      "title": "Bibliothèques Virtuelles Humanistes — Épistémon",
+      "url": "https://www.bvh.univ-tours.fr/",
+      "institution": "CESR (CNRS / Université de Tours)"
+    },
+    "Epistemon": {
+      "title": "Bibliothèques Virtuelles Humanistes — Épistémon",
+      "url": "https://www.bvh.univ-tours.fr/",
+      "institution": "CESR (CNRS / Université de Tours)"
+    },
+    "HumaNumGitLab": {
+      "title": "GitLab des humanités numériques (Huma-Num)",
+      "url": "https://gitlab.huma-num.fr/",
+      "institution": "IR Huma-Num"
+    },
+    "TheatreClassique": {
+      "title": "Théâtre Classique",
+      "url": "http://www.theatre-classique.fr/"
+    },
+    "BibAugustana": {
+      "title": "Bibliotheca Augustana",
+      "url": "https://www.hs-augsburg.de/~harsch/",
+      "institution": "Hochschule Augsburg"
+    },
+    "OBVIL_French": {
+      "title": "OBVIL — Laboratoire des littératures françaises (collections sources)",
+      "url": "http://obvil.paris-sorbonne.fr/",
+      "institution": "Sorbonne Université (OBVIL)"
+    },
+    "OBVIL_HaineTheatre": {
+      "title": "OBVIL — Théâtre de la Haine",
+      "url": "http://obvil.paris-sorbonne.fr/",
+      "institution": "Sorbonne Université (OBVIL)"
+    },
+    "PolemicaGongorina_OBVIL": {
+      "title": "OBVIL — Polémica Góngorina",
+      "url": "http://obvil.paris-sorbonne.fr/",
+      "institution": "Sorbonne Université (OBVIL)"
+    },
+    "GongoraObra_OBVIL": {
+      "title": "OBVIL — Gongora Obra",
+      "url": "http://obvil.paris-sorbonne.fr/",
+      "institution": "Sorbonne Université (OBVIL)"
+    },
+    "IcePaHC_Icelandic": {
+      "title": "IcePaHC — Icelandic Parsed Historical Corpus"
+    }
+  }
 }

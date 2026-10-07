@@ -1,0 +1,15 @@
+{
+  "title": "Izbornyk Ukrainian",
+  "url": "http://litopys.org.ua",
+  "languages": [
+    "Ukrainian"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 345998,
+  "texts": 155,
+  "period": "1575-1697",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://litopys.org.ua; rebuild/izbornyk_ukrainian_source_selection_2026-06-24.tsv; data/raw/Izbornyk_Ukrainian/Izbornyk_Ukrainian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+}

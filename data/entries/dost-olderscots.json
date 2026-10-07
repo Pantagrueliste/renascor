@@ -1,0 +1,15 @@
+{
+  "title": "DOST OlderScots",
+  "url": "http://purl.ox.ac.uk/ota/0701",
+  "languages": [
+    "Scots"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 788698,
+  "texts": 18,
+  "period": "1500-1500",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/0701; http://purl.ox.ac.uk/ota/0701; data/raw/queue4/dost_files.txt; data/raw/queue/dost.zip; data/raw/queue4/dost/; rebuild/dost_raw"
+}

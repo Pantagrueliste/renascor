@@ -1,0 +1,16 @@
+{
+  "title": "Gallicorpora French HTR",
+  "url": "https://github.com/Gallicorpora",
+  "languages": [
+    "French",
+    "Latin"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 601671,
+  "texts": 68,
+  "period": "1518-1697",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/Gallicorpora; rebuild/gallicorpora_french_htr_source_selection_2026-06-24.tsv; data/raw/Gallicorpora_French_HTR/Gallicorpora_French_HTR.jsonl; rebuild/rawtree_full_lock_2026-07-16.t"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Estilometria SigloOro",
+  "url": "https://github.com/Jero2760/estilometria",
+  "languages": [
+    "Spanish"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 7188629,
+  "texts": 371,
+  "period": "1600-1645",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/Jero2760/estilometria; data/raw/estilometria/Siglo_de_Oro/; rebuild/estilometria_raw_lock_2026-06-13.tsv; rebuild/estilometria_source_selection_2026-06-13.tsv; rebuild/estilometria_"
+}

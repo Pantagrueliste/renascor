@@ -1,0 +1,14 @@
+{
+  "title": "Otomi mission",
+  "url": "https://www.sup-infor.com",
+  "languages": [
+    "Otomí"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 4365,
+  "texts": 27,
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.sup-infor.com/; rebuild/otomi_mission_source_selection_2026-06-24.tsv; data/raw/Otomi_mission/Otomi_mission.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+}

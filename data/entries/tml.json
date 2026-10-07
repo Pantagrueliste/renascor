@@ -1,0 +1,15 @@
+{
+  "title": "TML",
+  "url": "https://github.com/cmm2209/TMLr",
+  "languages": [
+    "Latin"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 1789274,
+  "texts": 219,
+  "period": "1475-1650",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/cmm2209/TMLr; data/raw/tml/TMLr-main/; rebuild/tml_raw_lock_2026-06-13.tsv; rebuild/tml_source_selection_2026-06-13.tsv; rebuild/tml_source_native_audit_2026-06-13.csv; scripts/over"
+}

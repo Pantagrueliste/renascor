@@ -1,0 +1,16 @@
+{
+  "title": "Salamanca",
+  "url": "https://github.com/digicademy/svsal-tei",
+  "languages": [
+    "Latin",
+    "Spanish"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 4271105,
+  "texts": 18,
+  "period": "1522-1648",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/digicademy/svsal-tei; data/raw/salamanca/svsal-tei-master/; rebuild/salamanca_raw_lock_2026-06-13.tsv; rebuild/salamanca_source_selection_2026-06-13.tsv; rebuild/salamanca_source_na"
+}

@@ -1,0 +1,16 @@
+{
+  "title": "OpenEDGeS (Open Editions of Early Modern Dutch and German Bibles)",
+  "url": "https://spraakbanken.gu.se/en/resources/openedges",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "institution": "University of Gothenburg (Språkbanken)",
+  "languages": [
+    "Dutch",
+    "German"
+  ],
+  "encoding": "other",
+  "words": 7105392,
+  "texts": 10,
+  "period": "1460-1661"
+}

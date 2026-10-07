@@ -1,0 +1,15 @@
+{
+  "title": "DoctrinaLima1584 Quechua",
+  "url": "http://www.runasimi.de/waruchir.htm",
+  "languages": [
+    "Quechua"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 6649,
+  "texts": 17,
+  "period": "1600-1600",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://www.runasimi.de/waruchir.htm; rebuild/doctrinalima1584_quechua_source_selection_2026-06-24.tsv; data/raw/DoctrinaLima1584_Quechua/DoctrinaLima1584_Quechua.jsonl; rebuild/rawtree_full_lock_2026-"
+}

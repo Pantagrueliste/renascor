@@ -1,0 +1,15 @@
+{
+  "title": "Vietnamese deRhodes",
+  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "languages": [
+    "Vietnamese"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 53364,
+  "texts": 8,
+  "period": "1651-1651",
+  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://vi.wikisource.org/wiki/Phép_giảng_tám_ngày; rebuild/vietnamese_derhodes_source_selection_2026-06-24.tsv; data/raw/Vietnamese_deRhodes/Vietnamese_deRhodes.jsonl; rebuild/rawtree_full_lock_2026-"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Montoya Guarani",
+  "url": "https://archive.org/details/gramaticaydiccio02ruiz",
+  "languages": [
+    "Guaraní"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 41109,
+  "texts": 36,
+  "period": "1639-1640",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://archive.org/details/gramaticaydiccio02ruiz; rebuild/montoya_guarani_source_selection_2026-06-24.tsv; data/raw/Montoya_Guarani/Montoya_Guarani.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+}

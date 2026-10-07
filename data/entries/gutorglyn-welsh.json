@@ -1,0 +1,15 @@
+{
+  "title": "GutorGlyn Welsh",
+  "url": "https://gutorglyn.net/gutorglyn",
+  "languages": [
+    "Welsh"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 30864,
+  "texts": 91,
+  "period": "1450-1497",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://gutorglyn.net/gutorglyn/; rebuild/gutorglyn_welsh_source_selection_2026-06-24.tsv; data/raw/GutorGlyn_Welsh/GutorGlyn_Welsh.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Passiusalmar Icelandic",
+  "url": "https://hallgrimurpetursson.is",
+  "languages": [
+    "Icelandic"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 23536,
+  "texts": 50,
+  "period": "1666-1666",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://hallgrimurpetursson.is/; rebuild/passiusalmar_icelandic_source_selection_2026-06-24.tsv; data/raw/Passiusalmar_Icelandic/Passiusalmar_Icelandic.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+}

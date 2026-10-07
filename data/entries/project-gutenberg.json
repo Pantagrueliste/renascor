@@ -6,6 +6,7 @@
   "languages": [
     "Catalan",
     "Dutch",
+    "English",
     "Finnish",
     "French",
     "German",
@@ -16,8 +17,8 @@
     "Spanish"
   ],
   "encoding": "other",
-  "words": 18441603,
-  "texts": 264,
+  "words": 20440559,
+  "texts": 280,
   "period": "1519-1697",
   "status": "active",
   "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."

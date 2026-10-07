@@ -1,0 +1,17 @@
+{
+  "title": "OSTA",
+  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "languages": [
+    "Aragonese",
+    "Latin",
+    "Spanish"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 21519708,
+  "texts": 375,
+  "period": "1450-1674",
+  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). OSTA Zenodo 18931376; data/raw/osta/hispanicseminary-OSTA-29ee6b0/; rebuild/osta_raw_lock_2026-06-13.tsv; rebuild/osta_source_native_audit_2026-06-13.csv; scripts/overnight/osta_ingest.py; rebuild/raw"
+}

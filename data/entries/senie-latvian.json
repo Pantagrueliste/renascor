@@ -1,0 +1,15 @@
+{
+  "title": "SENIE Latvian",
+  "url": "https://hdl.handle.net/20.500.12574/141",
+  "languages": [
+    "Latvian"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 2476220,
+  "texts": 156,
+  "period": "1507-1699",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://hdl.handle.net/20.500.12574/141; data/raw/latvian_senie/SENIE_Unicode_unhyphened.tei.xml; rebuild/senie_raw_lock_2026-06-13.tsv; rebuild/senie_source_selection_2026-06-13.tsv; rebuild/senie_so"
+}

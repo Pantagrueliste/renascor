@@ -1,0 +1,15 @@
+{
+  "title": "Kronieken Dutch",
+  "url": "https://doi.org/10.5281/zenodo.13332815",
+  "languages": [
+    "Dutch"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 1431218,
+  "texts": 20,
+  "period": "1499-1574",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://doi.org/10.5281/zenodo.13332815; data/raw/kronieken/chroniclingnovelty-chronicles-datasets-ee5a9f3/; rebuild/kronieken_raw_lock_2026-06-13.tsv; rebuild/kronieken_source_selection_2026-06-13.ts"
+}

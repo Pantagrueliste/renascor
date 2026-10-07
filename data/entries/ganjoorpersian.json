@@ -1,0 +1,15 @@
+{
+  "title": "GanjoorPersian",
+  "url": "https://ganjoor.net",
+  "languages": [
+    "Persian"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 4810638,
+  "texts": 41,
+  "period": "1466-1700",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://ganjoor.net/; data/raw/ganjoor/ganjoor.s3db; rebuild/ganjoor_raw_lock_2026-06-13.tsv; rebuild/ganjoor_source_selection_2026-06-13.tsv; rebuild/ganjoor_source_native_audit_2026-06-13.csv; scrip"
+}

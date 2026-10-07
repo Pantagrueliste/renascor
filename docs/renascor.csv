@@ -1,47 +1,202 @@
 title,url,languages,encoding,status,institution,period,words,region,author,date,years_active,provenance,date_added
+ABaCus Baroque,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1680-1693,119281,,,,,submitted,2026-10-07
+AbsentLangFill,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Arabic; Aramaic; Church Slavonic; Estonian; Lithuanian; Romanian; Russian; Ruthenian; Sami; Syriac; Yiddish,other,active,,1478-1700,3822838,,,,,submitted,2026-10-07
+ABU — Bibliothèque Universelle,http://abu.cnam.fr/,French,other,active,Conservatoire national des arts et métiers,1480-1693,999019,,,,,submitted,2026-10-07
+ADL Danish,https://github.com/kb-dk/public-adl-text-sources,Danish,other,active,,1543-1681,936123,,,,,submitted,2026-10-07
+AmadisCorpus GH,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1547-1547,97420,,,,,submitted,2026-10-07
+Azerbaijani WS,https://az.wikisource.org,Azerbaijani,other,active,,1536-1536,122211,,,,,submitted,2026-10-07
+BalkanSlavic Damaskini,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Bulgarian,other,active,,1650-1650,44047,,,,,submitted,2026-10-07
+Bartoli Correspondence,https://zenodo.org/records/14559525,Italian,other,active,,1562-1572,1371054,,,,,submitted,2026-10-07
+BasqueKG,https://klasikoak.armiarma.eus,Basque,other,active,,1545-1696,818721,,,,,submitted,2026-10-07
+BDPN Novohispano,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1630-1690,53333,,,,,submitted,2026-10-07
+Belarusian Skaryna,https://knihi.com/Francysk_Skaryna,Belarusian,other,active,,1517-1519,1775,,,,,submitted,2026-10-07
+Bertonio Aymara,https://github.com/amosbatto/native-dics,Aymara,other,active,,1612-1612,74082,,,,,submitted,2026-10-07
+BetaMasaheft Geez,https://github.com/BetaMasaheft/Works,Ge'ez,other,active,,1555-1555,51400,,,,,submitted,2026-10-07
+Bibliotheca Augustana,https://www.hs-augsburg.de/~harsch/,Latin,other,active,Hochschule Augsburg,1480-1650,195974,,,,,submitted,2026-10-07
+BibCerTxt,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,,2373898,,,,,submitted,2026-10-07
 Biblioteca Italiana,http://www.bibliotecaitaliana.it/,Italian; Latin,tei,active,,1460-1650,29844182,,,,,submitted,2026-10-07
 Bokselskap,https://bokselskap.no/,Norwegian,other,active,,1571-1700,264577,,,,,submitted,2026-10-07
+BrievenAlsBuit,https://brievenalsbuit.ivdnt.org,Dutch,other,active,,1661-1675,421272,,,,,submitted,2026-10-07
 Bullinger Digital,https://bullinger-digital.ch/,French; German; Italian; Latin,tei,active,,1523-1575,5030220,,,,,submitted,2026-10-07
+BVH Epistemon Print,https://github.com/lb42/tei-fr,French,other,active,,1529-1616,1968888,,,,,submitted,2026-10-07
+Calvin Institutio,https://calvin.reformation.nl/872-Institutes+of+the+Christian+Religion.,French; Latin,other,active,,1559-1560,1053747,,,,,submitted,2026-10-07
 CAMENA,https://mateo.uni-mannheim.de/camenahtdocs/camena.html,Latin,other,active,Universität Mannheim (CAMENA / CERA project),1500-1699,40551750,,,,,submitted,2026-10-07
+Campanella ATC,https://www.iliesi.cnr.it/ATC,Italian; Latin,other,active,,1595-1635,703209,,,,,submitted,2026-10-07
 The Casebooks Project,https://casebooks.lib.cam.ac.uk/,English,other,archived,University of Cambridge,1596-1640,1710446,,,,,submitted,2026-10-07
+Cavriana Correspondence,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Italian,other,active,,1580-1580,45188,,,,,submitted,2026-10-07
 CELT Corpus of Electronic Texts,https://celt.ucc.ie/,English; Irish; Latin,other,active,University College Cork,1454-1698,1831057,,,,,submitted,2026-10-07
+CET Teatro16c Portuguese,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Portuguese,other,active,,1540-1540,676876,,,,,submitted,2026-10-07
+CHM Mapudungun,https://benmolineaux.github.io,Mapudungun,other,active,,1606-1643,25494,,,,,submitted,2026-10-07
+CIDTC,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Czech; Dutch; French; German; Italian; Latin; Polish; Spanish,other,active,,1500-1549,1911266,,,,,submitted,2026-10-07
+Epistolarium (CKCC),https://ckcc.huygens.knaw.nl/,Dutch; English; French; German; Italian; Latin; Spanish,other,active,Huygens ING (KNAW),1629-1699,7946427,,,,,submitted,2026-10-07
+CoDiAJe JudeoSpanish,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Ladino,other,active,,1564-1679,30953,,,,,submitted,2026-10-07
+Colonia,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Portuguese,other,active,,1500-1691,1454490,,,,,submitted,2026-10-07
+Controversia Confessio,https://www.controversia-et-confessio.de,German; Latin,other,active,,1548-1575,1075246,,,,,submitted,2026-10-07
+Coqalane,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French,other,active,,1508-1595,83657,,,,,submitted,2026-10-07
+Cornish GwreansAnBys,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Cornish,other,active,,1611-1611,12560,,,,,submitted,2026-10-07
+Cornish Tregear,https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche,Cornish,other,active,,1556-1556,38078,,,,,submitted,2026-10-07
 Corpus Corporum,https://mlat.uzh.ch/,Latin,other,active,Universität Zürich,1450-1696,19091970,,,,,submitted,2026-10-07
+CORPUS17 French,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French,other,active,,1622-1700,149810,,,,,submitted,2026-10-07
+CretanGreek snhell,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Modern Greek,other,active,,1590-1655,1736,,,,,submitted,2026-10-07
 CroALa (Croatiae Auctores Latini),https://croala.ffzg.unizg.hr/,Latin,other,active,University of Zagreb,1450-1700,3545403,,,,,submitted,2026-10-07
+Czech Kralice1613,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Czech,other,active,,1613-1613,597503,,,,,submitted,2026-10-07
+Czech tei2019,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Czech,other,active,,1503-1503,69891,,,,,submitted,2026-10-07
+DanishPostils,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Danish,other,active,,1540-1635,2289816,,,,,submitted,2026-10-07
 Digitale Bibliotheek voor de Nederlandse Letteren (DBNL),https://www.dbnl.org/,Dutch; Frisian,other,active,,1477-1700,21440504,,,,,submitted,2026-10-07
 A Social Edition of the Devonshire MS (BL Add. MS 17492),https://en.wikibooks.org/wiki/The_Devonshire_Manuscript,English,tei,archived,University of Victoria (editorial team led by Ray Siemens); print edition by Iter & ACMRS Press,c. 1539-1547,,England,,,{'start': 2004},submitted,2026-10-07
+Diacronia Romanian,https://www.diacronia.ro,Romanian,other,active,,1580-1600,5774,,,,,submitted,2026-10-07
+DIACU Bulgarian,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Bulgarian,other,active,,1450-1650,221171,,,,,submitted,2026-10-07
+Diakorp Czech,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Czech,other,active,,1492-1662,425831,,,,,submitted,2026-10-07
+DiBiLit German,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1517-1696,2135890,,,,,submitted,2026-10-07
+DiBiPhil Renaissance,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1530-1612,175616,,,,,submitted,2026-10-07
+DIGILIB Armenian,https://digilib.aua.am/en,Armenian,other,active,,1619-1699,532046,,,,,submitted,2026-10-07
 The Digital Donne Project,https://digitaldonne.drc.usask.ca/,English,other,active,Variorum Edition of the Poetry of John Donne (Texas A&M / University of Saskatchewan),1611-1611,74553,,,,,submitted,2026-10-07
+DISCO SpanishSonnets,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1600-1600,76564,,,,,submitted,2026-10-07
+DissEd PhDeditions,https://theses.fr,French; Italian; Latin; Occitan,other,active,,1480-1698,254491,,,,,submitted,2026-10-07
+DoctrinaLima1584 Quechua,http://www.runasimi.de/waruchir.htm,Quechua,other,active,,1600-1600,6649,,,,,submitted,2026-10-07
 Documenta Catholica Omnia,https://www.documentacatholicaomnia.eu/,Latin,other,active,,1457-1668,2487100,,,,,submitted,2026-10-07
+DOST OlderScots,http://purl.ox.ac.uk/ota/0701,Scots,other,active,,1500-1500,788698,,,,,submitted,2026-10-07
 DraCor,https://dracor.org/,Dutch; English; French; German; Hungarian; Italian; Latin; Spanish,tei,active,,1451-1700,25101629,,,,,submitted,2026-10-07
+DRC Romansh,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Romansh,other,active,,1527-1565,143335,,,,,submitted,2026-10-07
+DSL HenrikSmith,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Danish,other,active,,1577-1577,256557,,,,,submitted,2026-10-07
+DSL Salmer,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Danish,other,active,,1529-1573,1194918,,,,,submitted,2026-10-07
 Deutsches Textarchiv (DTA),https://www.deutschestextarchiv.de/,German,other,active,Berlin-Brandenburgische Akademie der Wissenschaften,1453-1700,41616768,,,,,submitted,2026-10-07
+EarlyModernGreek CLARINEL,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Modern Greek,other,active,,1520-1646,152215,,,,,submitted,2026-10-07
 English Broadside Ballad Archive (EBBA),https://ebba.english.ucsb.edu/,English,other,active,"University of California, Santa Barbara",1530-1700,3971912,,,,,submitted,2026-10-07
 Secrets of Craft and Nature in Renaissance France (BnF Ms Fr 640),https://edition640.makingandknowing.org/,French,other,active,"Making and Knowing Project, Columbia University",,122621,,,,,submitted,2026-10-07
 EEBO Text Creation Partnership,https://www.textcreationpartnership.org/,Ancient Greek; Dutch; English; French; German; Hebrew; Irish; Italian; Latin; Multilingual; Portuguese; Romance (other); Scots; Spanish; Welsh,tei,active,"Text Creation Partnership (Universities of Oxford, Michigan, and others)",1455-1700,1342329634,"England, Scotland, Ireland",,,"{'start': 2002, 'end': 'ongoing'}",discovered,2026-10-07
+ELAN crenum,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French,other,active,,1515-1515,192178,,,,,submitted,2026-10-07
+ELAN fnvr,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French,other,active,,1500-1500,78532,,,,,submitted,2026-10-07
+ELAN polygrenaille,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French,other,active,,1642-1642,77536,,,,,submitted,2026-10-07
 Emblem Project Utrecht,http://emblems.let.uu.nl/,Dutch; English; French; German; Italian; Latin; Spanish,other,active,Universiteit Utrecht,1601-1691,552927,,,,,submitted,2026-10-07
+EMLAP,https://github.com/CCS-ZCU/EMLAP_ETL,Latin,other,active,,1518-1644,4548087,,,,,submitted,2026-10-07
+EMMO Folger,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,English,other,active,,1620-1620,40606,,,,,submitted,2026-10-07
+EMOTHE,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,English; French; Italian; Portuguese; Spanish,other,active,,1517-1656,842260,,,,,submitted,2026-10-07
 Early Modern Recipes Online Collective (EMROC),https://emroc.hypotheses.org/,English,other,active,,1564-1692,248907,,,,,submitted,2026-10-07
+Bibliothèques Virtuelles Humanistes — Épistémon,https://www.bvh.univ-tours.fr/,French,other,active,CESR (CNRS / Université de Tours),,3061651,,,,,submitted,2026-10-07
+Estilometria SigloOro,https://github.com/Jero2760/estilometria,Spanish,other,active,,1600-1645,7188629,,,,,submitted,2026-10-07
+EthicaComplementoria,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1643-1665,73680,,,,,submitted,2026-10-07
 Evans Early American Imprints (Evans-TCP),https://quod.lib.umich.edu/e/evans/,English,other,active,Readex / University of Michigan,1640-1700,7878692,,,,,submitted,2026-10-07
+FabulasMito GH,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1620-1620,17984,,,,,submitted,2026-10-07
+FabulasMitologicas,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1620-1620,164959,,,,,submitted,2026-10-07
+FallOfConstantinople Arranz,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Church Slavonic,other,active,,1561-1585,29847,,,,,submitted,2026-10-07
+FAMSI Bolles YucatecMaya,http://www.famsi.org/reports/96072,Yucatec Maya,other,active,,1557-1580,73544,,,,,submitted,2026-10-07
+FilologiaSarda Sardinian,https://www.filologiasarda.eu,Sardinian,other,active,,1573-1597,10596,,,,,submitted,2026-10-07
+FlorentineCodex Nahuatl,https://zenodo.org/records/7213020,Nahuatl,other,active,,1577-1577,290869,,,,,submitted,2026-10-07
+Fornsvenska Swedish,https://www.nordlund.lu.se,Swedish,other,active,,1536-1674,95194,,,,,submitted,2026-10-07
+Fran Slovenian16c,https://fran.si/korpus16,Slovenian,other,active,,1550-1595,3380332,,,,,submitted,2026-10-07
 FreEM (FREnch Early Modern corpus),https://freem-corpora.github.io/,French,tei,active,,1529-1700,25609193,,,,,submitted,2026-10-07
+Fuerstinnenkorrespondenz,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1568-1568,23824,,,,,submitted,2026-10-07
+Galileo Opere Favaro,https://it.wikisource.org/wiki/Le_opere_di_Galileo_Galilei_(Favaro),Italian; Latin,other,active,,1611-1633,97354,,,,,submitted,2026-10-07
+Gallicorpora French HTR,https://github.com/Gallicorpora,French; Latin,other,active,,1518-1697,601671,,,,,submitted,2026-10-07
+GAMS — Basel Records,https://gams.uni-graz.at/,German,other,active,Universität Graz (GAMS),1535-1610,926956,,,,,submitted,2026-10-07
+GanjoorPersian,https://ganjoor.net,Persian,other,active,,1466-1700,4810638,,,,,submitted,2026-10-07
+GeMi Midwifery,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1500-1690,105188,,,,,submitted,2026-10-07
+GerManC,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1654-1700,230403,,,,,submitted,2026-10-07
+Gilberti Purepecha,https://archive.org/details/vocabularioenlen00gilb,Purépecha,other,active,,1559-1559,14264,,,,,submitted,2026-10-07
+GitHubTEI,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,tei,active,,1612-1627,36856,,,,,submitted,2026-10-07
+GlasgowEmblems,https://www.emblems.arts.gla.ac.uk,French; German; Italian; Latin; Spanish,other,active,,1531-1621,549460,,,,,submitted,2026-10-07
+Gondomar Galician,https://ilg.usc.gal/gondomar,Galician,other,active,,1594-1697,11031,,,,,submitted,2026-10-07
+OBVIL — Gongora Obra,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,Sorbonne Université (OBVIL),1605-1610,59121,,,,,submitted,2026-10-07
+GutorGlyn Welsh,https://gutorglyn.net/gutorglyn,Welsh,other,active,,1450-1497,30864,,,,,submitted,2026-10-07
+Hexenverhoer SiGS,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1570-1665,85441,,,,,submitted,2026-10-07
+HistCorp Swedish,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Swedish,other,active,,1450-1700,5641945,,,,,submitted,2026-10-07
+Huarochiri Quechua full,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Quechua,other,active,,1608-1608,11586,,,,,submitted,2026-10-07
+GitLab des humanités numériques (Huma-Num),https://gitlab.huma-num.fr/,French; Latin; Spanish,tei,active,IR Huma-Num,1474-1700,1816659,,,,,submitted,2026-10-07
+HungarianCorpus,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Hungarian,other,active,,1450-1532,3023383,,,,,submitted,2026-10-07
+IcePaHC — Icelandic Parsed Historical Corpus,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Icelandic,other,active,,1450-1680,283630,,,,,submitted,2026-10-07
+IMP Slovene,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Slovenian,other,active,,1584-1695,27084,,,,,submitted,2026-10-07
+IMPACTes OriginalImprint,https://github.com/impactcentre/groundtruth-spa,Spanish,other,active,,1543-1691,1962810,,,,,submitted,2026-10-07
 Acts and Ordinances of the Interregnum,https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum,English,other,active,Institute of Historical Research (British History Online),1642-1659,1346924,,,,,submitted,2026-10-07
+Izbornyk Ukrainian,http://litopys.org.ua,Ukrainian,other,active,,1575-1697,345998,,,,,submitted,2026-10-07
+Kirishitan Japanese,https://www2.ninjal.ac.jp/textdb_dataset/en,Japanese,other,active,,1592-1603,154229,,,,,submitted,2026-10-07
+KorBa Polish full17c,https://korba.edu.pl,Polish,other,active,,1609-1700,11252,,,,,submitted,2026-10-07
+KorBa Polish,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Polish,other,active,,1603-1699,90943,,,,,submitted,2026-10-07
+KorbaText,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Polish,tei,active,,1670-1670,327583,,,,,submitted,2026-10-07
+Kronieken Dutch,https://doi.org/10.5281/zenodo.13332815,Dutch,other,active,,1499-1574,1431218,,,,,submitted,2026-10-07
+Lampeter English,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,English,other,active,,1641-1700,723592,,,,,submitted,2026-10-07
 Lexicons of Early Modern English (LEME),https://leme.library.utoronto.ca/,English,other,active,University of Toronto,1477-1699,9780803,,,,,submitted,2026-10-07
 LiberLiber,https://www.liberliber.eu/,Italian; Latin; Multilingual; Venetian,other,active,,1450-1700,28388618,,,,,submitted,2026-10-07
+Litteraturbanken Swedish,https://spraakbanken.gu.se/en/resources/lb-open,Swedish,other,active,,1611-1649,114226,,,,,submitted,2026-10-07
+Maltese Cantilena,https://en.wikipedia.org/wiki/Il-Kantilena,Maltese,other,active,,1470-1470,135,,,,,submitted,2026-10-07
+Mambrino,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Italian,other,active,,1530-1565,1461652,,,,,submitted,2026-10-07
 The Map of Early Modern London,https://mapoflondon.uvic.ca/,English,tei,active,University of Victoria,1550-1700,,"London, England",,,"{'start': 2000, 'end': 'ongoing'}",submitted,2026-10-07
 Mazarinades,https://zenodo.org/records/7443183,French,other,active,Bibliothèques patrimoniales de la Ville de Paris,1648-1653,10122051,,,,,submitted,2026-10-07
 Magyar Elektronikus Könyvtár (MEK),https://mek.oszk.hu/,Hungarian,other,active,,1554-1693,418083,,,,,submitted,2026-10-07
+MercureGalant,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French,other,active,,1672-1700,4216289,,,,,submitted,2026-10-07
+Mercurius Baumbank,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1597-1667,187423,,,,,submitted,2026-10-07
+MGTSZ AporCodex,http://oldhungariancorpus.nytud.hu,Hungarian,other,active,,1500-1500,23332,,,,,submitted,2026-10-07
+Montoya Guarani,https://archive.org/details/gramaticaydiccio02ruiz,Guaraní,other,active,,1639-1640,41109,,,,,submitted,2026-10-07
+MuyscCubun Muisca,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Muisca,other,active,,1612-1619,42662,,,,,submitted,2026-10-07
+Nahuatl depth,https://www.history.ucsb.edu,Nahuatl,other,active,,1559-1695,36506,,,,,submitted,2026-10-07
+Nakala,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French; Latin,other,active,,1458-1698,2904654,,,,,submitted,2026-10-07
 The Newton Project,https://www.newtonproject.ox.ac.uk/,English; Latin,other,active,University of Oxford,1659-1700,2069555,,,,,submitted,2026-10-07
+Norman MuseNormande,https://archive.org/details/lamusenormanded09ferrgoog,Norman,other,active,,1638-1652,153528,,,,,submitted,2026-10-07
 NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin,https://www.uibk.ac.at/projects/noscemus/,Latin,other,active,Universität Innsbruck,1472-1700,82381900,,,,,submitted,2026-10-07
+OBVIL — Laboratoire des littératures françaises (collections sources),https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French,other,active,Sorbonne Université (OBVIL),1557-1694,73996,,,,,submitted,2026-10-07
+OBVIL — Théâtre de la Haine,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French,other,active,Sorbonne Université (OBVIL),1541-1698,1162096,,,,,submitted,2026-10-07
+Occitan 1000ans,https://uoh.univ-montp3.fr/1000ans,Occitan,other,active,,1456-1617,22599,,,,,submitted,2026-10-07
+ODE CorderegraSpanish,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1509-1700,203336,,,,,submitted,2026-10-07
 The Proceedings of the Old Bailey Online,https://www.oldbaileyonline.org/,English,other,active,,1674-1700,924767,,,,,submitted,2026-10-07
+OpenEDGeS (Open Editions of Early Modern Dutch and German Bibles),https://spraakbanken.gu.se/en/resources/openedges,Dutch; German,other,active,University of Gothenburg (Språkbanken),1460-1661,7105392,,,,,submitted,2026-10-07
 OpenITI,https://github.com/OpenITI,Arabic,other,active,Open Islamicate Texts Initiative,1451-1700,193859865,,,,,submitted,2026-10-07
+OSTA,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Aragonese; Latin; Spanish,other,active,,1450-1674,21519708,,,,,submitted,2026-10-07
+Otomi mission,https://www.sup-infor.com,Otomí,other,active,,,4365,,,,,submitted,2026-10-07
+Passiusalmar Icelandic,https://hallgrimurpetursson.is,Icelandic,other,active,,1666-1666,23536,,,,,submitted,2026-10-07
+PCEEC2,https://github.com/beatrice57/pceec2,English,other,active,,1462-1679,2429178,,,,,submitted,2026-10-07
 The Diary of Samuel Pepys (Phil Gyford edition),https://www.pepysdiary.com/,English,other,active,,1665-1665,1277817,,,,,submitted,2026-10-07
 Perseus Digital Library,https://www.perseus.tufts.edu/,English,other,active,Tufts University,1590-1610,6762346,,,,,submitted,2026-10-07
+OBVIL — Polémica Góngorina,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,Sorbonne Université (OBVIL),1613-1662,263434,,,,,submitted,2026-10-07
+Porzio CongiuraBaroni,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Italian,other,active,,1565-1565,49439,,,,,submitted,2026-10-07
 P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana),https://post-scriptum.org/,Portuguese; Spanish,other,active,Centro de Linguística da Universidade de Lisboa (CLUL),1500-1699,899841,,,,,submitted,2026-10-07
-Project Gutenberg,https://www.gutenberg.org/,Catalan; Dutch; Finnish; French; German; Italian; Latin; Polish; Portuguese; Spanish,other,active,,1519-1697,18441603,,,,,submitted,2026-10-07
+PPCHY Yiddish,https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish,Yiddish,other,active,,1478-1697,46634,,,,,submitted,2026-10-07
+Project Gutenberg,https://www.gutenberg.org/,Catalan; Dutch; English; Finnish; French; German; Italian; Latin; Polish; Portuguese; Spanish,other,active,,1519-1697,20440559,,,,,submitted,2026-10-07
+QHOD,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Latin; Ottoman Turkish,other,active,,1570-1600,21296,,,,,submitted,2026-10-07
+REED English,https://ereed.org,English; Italian; Latin,other,active,,1450-1643,355821,,,,,submitted,2026-10-07
+ReF ENHG,https://zenodo.org/records/5793616,German,other,active,,1450-1625,2440564,,,,,submitted,2026-10-07
+ReNLowGerman,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1450-1699,1475279,,,,,submitted,2026-10-07
+RhythmicCorpus SGA,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1620-1620,1454447,,,,,submitted,2026-10-07
+RIALC Catalan,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Catalan,other,active,,1455-1490,220010,,,,,submitted,2026-10-07
+RIN ConDE,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French,other,active,,1539-1678,2539837,,,,,submitted,2026-10-07
+roPsalt Romanian,https://github.com/mmoruz/RoPsalt,Romanian,other,active,,1510-1589,188849,,,,,submitted,2026-10-07
 Philosophical Transactions (pre-1750 archive),https://royalsocietypublishing.org/,English,other,active,The Royal Society,1665-1700,2795758,,,,,submitted,2026-10-07
+RUP Folger,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,English,other,active,,1620-1620,3428,,,,,submitted,2026-10-07
 Russian National Corpus,https://ruscorpora.ru/,Russian,other,active,,1474-1698,96174,,,,,submitted,2026-10-07
+Russian Ulozhenie1649,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Russian,other,active,,1649-1649,89869,,,,,submitted,2026-10-07
+Salamanca,https://github.com/digicademy/svsal-tei,Latin; Spanish,other,active,,1522-1648,4271105,,,,,submitted,2026-10-07
 Sefaria,https://www.sefaria.org/,Hebrew,other,active,,1495-1690,18955529,,,,,submitted,2026-10-07
+SENIE Latvian,https://hdl.handle.net/20.500.12574/141,Latvian,other,active,,1507-1699,2476220,,,,,submitted,2026-10-07
+SERMO,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French,tei,active,,1600-1600,521919,,,,,submitted,2026-10-07
+SloveneIMP,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Slovenian,other,active,,1584-1695,14669,,,,,submitted,2026-10-07
+SMI ItalianMusic,https://chmtl.indiana.edu/smi,Italian,other,active,,1599-1599,62023,,,,,submitted,2026-10-07
+SonetosSiglodeOro,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,,466011,,,,,submitted,2026-10-07
+SpanishGitHubGoldenAge,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1620-1620,165232,,,,,submitted,2026-10-07
+SPXVI Polish16c,https://spxvi.edu.pl,Polish,other,active,,1500-1601,6962996,,,,,submitted,2026-10-07
+SSRQ SwissLaw,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1500-1644,1058858,,,,,submitted,2026-10-07
 Statutes of the Realm,https://www.british-history.ac.uk/search/series/statutes-realm,English,other,active,Institute of Historical Research (British History Online),1625-1697,1112931,,,,,submitted,2026-10-07
-TextGrid Repository,https://textgridrep.org/,German; Latin; French; English; Italian,tei,active,TextGrid Consortium (German universities and research institutions),800-1900,50000000,German-speaking Europe,,,"{'start': 2006, 'end': 'ongoing'}",discovered,2026-10-07
+Suriano Correspondence,https://github.com/HuygensING/suriano,Italian,other,active,,1616-1623,1132668,,,,,submitted,2026-10-07
+Tagalog Doctrina1593,https://www.gutenberg.org/ebooks/16119,Tagalog,other,active,,1593-1593,2018,,,,,submitted,2026-10-07
+TBSO GH,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1640-1640,47933,,,,,submitted,2026-10-07
+TextGrid Repository,https://textgridrep.org/,English; French; German; Italian; Latin,tei,active,TextGrid Consortium (German universities and research institutions),800-1900,50000000,German-speaking Europe,,,"{'start': 2006, 'end': 'ongoing'}",discovered,2026-10-07
 The Latin Library,https://www.thelatinlibrary.com/,Latin,other,active,,1450-1700,673616,,,,,submitted,2026-10-07
+Théâtre Classique,http://www.theatre-classique.fr/,French,other,active,,1659-1697,29912,,,,,submitted,2026-10-07
+Thornton Kikongo,https://www.bu.edu/afam/people/faculty/john-thornton,Kikongo,other,active,,1624-1649,7024,,,,,submitted,2026-10-07
+Ticha Zapotec,https://github.com/HCDigitalScholarship/ticha-xml-tei,Zapotec,other,active,,1578-1666,73928,,,,,submitted,2026-10-07
 TITUS (Thesaurus Indogermanischer Text- und Sprachmaterialien),https://titus.uni-frankfurt.de/,Albanian; Georgian; Lithuanian; Old Prussian,other,active,Goethe-Universität Frankfurt,1545-1700,1746475,,,,,submitted,2026-10-07
+TMI SMI Italian,https://tmiweb.science.uu.nl,Italian,other,active,,1525-1649,2029235,,,,,submitted,2026-10-07
+TMK,http://tmk.nytud.hu,Hungarian,other,active,,1532-1700,341772,,,,,submitted,2026-10-07
+TML,https://github.com/cmm2209/TMLr,Latin,other,active,,1475-1650,1789274,,,,,submitted,2026-10-07
+Translatoscope NeoLat,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Latin,other,active,,1460-1580,46329,,,,,submitted,2026-10-07
+TychoBrahe Portuguese,https://www.tycho.iel.unicamp.br/corpus/texts/txt.zip,Portuguese,other,active,,1524-1696,616264,,,,,submitted,2026-10-07
+VAKK Estonian,https://vakk.ut.ee,Estonian,other,active,,1524-1700,646452,,,,,submitted,2026-10-07
+VespasianoLetters,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Italian,other,active,,1480-1480,33623,,,,,submitted,2026-10-07
+Vietnamese deRhodes,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Vietnamese,other,active,,1651-1651,53364,,,,,submitted,2026-10-07
+VKS OldLiteraryFinnish,https://www.kielipankki.fi/corpora/vks,Finnish,other,active,,1543-1700,2745991,,,,,submitted,2026-10-07
 Vokabulář webový,https://vokabular.ujc.cas.cz/,Czech,other,active,,1450-1696,4848608,,,,,submitted,2026-10-07
-Wikisource,https://wikisource.org/,Catalan; Croatian; Czech; Danish; Dutch; English; French; German; Hebrew; Hungarian; Icelandic; Italian; Latin; Modern Greek; Polish; Portuguese; Slovenian; Spanish; Swedish,other,active,,1450-1700,10833871,,,,,submitted,2026-10-07
+WelshHCWL,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Welsh,other,active,,1487-1700,276280,,,,,submitted,2026-10-07
+Wikisource,https://wikisource.org/,Armenian; Azerbaijani; Breton; Catalan; Croatian; Czech; Danish; Dutch; English; French; German; Hebrew; Hungarian; Icelandic; Italian; Latin; Modern Greek; Polish; Portuguese; Romanian; Slovenian; Spanish; Swedish; Tupi,other,active,,1450-1700,11451738,,,,,submitted,2026-10-07
+WiN LowGermanIncunabula,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1480-1480,27584,,,,,submitted,2026-10-07
+WolfenbuettelPostil Lithuanian,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Lithuanian,other,active,,1573-1573,131626,,,,,submitted,2026-10-07
 Wolne Lektury,https://wolnelektury.pl/,Polish,other,active,,1555-1680,583360,,,,,submitted,2026-10-07
 Women Writers Online,https://www.wwp.northeastern.edu/,English; French; Latin; Italian; Spanish,tei,active,Northeastern University (Women Writers Project),1400-1700,12000000,"Europe, Americas",,,"{'start': 1988, 'end': 'ongoing'}",submitted,2026-10-07
+ZlatyFond Slovak,https://zlatyfond.sme.sk,Slovak,other,active,,1636-1636,61219,,,,,submitted,2026-10-07

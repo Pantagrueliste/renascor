@@ -1,0 +1,16 @@
+{
+  "title": "Controversia Confessio",
+  "url": "https://www.controversia-et-confessio.de",
+  "languages": [
+    "German",
+    "Latin"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 1075246,
+  "texts": 138,
+  "period": "1548-1575",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.controversia-et-confessio.de/; rebuild/controversia_confessio_source_selection_2026-06-24.tsv; data/raw/Controversia_Confessio/Controversia_Confessio.jsonl; rebuild/rawtree_full_lock_2026-"
+}

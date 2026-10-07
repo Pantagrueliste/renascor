@@ -2,11 +2,11 @@
   "title": "TextGrid Repository",
   "url": "https://textgridrep.org/",
   "languages": [
-    "German",
-    "Latin",
-    "French",
     "English",
-    "Italian"
+    "French",
+    "German",
+    "Italian",
+    "Latin"
   ],
   "encoding": "tei",
   "status": "active",

@@ -4,9 +4,245 @@
     "description": "An open catalogue of digital editions of Renaissance-era written documents",
     "licence": "CC0 1.0",
     "source": "https://github.com/Pantagrueliste/renascor",
-    "entries": 46
+    "entries": 201
   },
   "entries": [
+    {
+      "title": "ABaCus Baroque",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 119281,
+      "texts": 4,
+      "period": "1680-1693",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "AbsentLangFill",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Arabic",
+        "Aramaic",
+        "Church Slavonic",
+        "Estonian",
+        "Lithuanian",
+        "Romanian",
+        "Russian",
+        "Ruthenian",
+        "Sami",
+        "Syriac",
+        "Yiddish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 3822838,
+      "texts": 138,
+      "period": "1478-1700",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "ABU — Bibliothèque Universelle",
+      "url": "http://abu.cnam.fr/",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 999019,
+      "texts": 33,
+      "institution": "Conservatoire national des arts et métiers",
+      "period": "1480-1693",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://abu.cnam.fr; rebuild/abu_french_source_selection_2026-06-24.tsv; data/raw/ABU_French/ABU_French.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "ADL Danish",
+      "url": "https://github.com/kb-dk/public-adl-text-sources",
+      "languages": [
+        "Danish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 936123,
+      "texts": 14,
+      "period": "1543-1681",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/kb-dk/public-adl-text-sources; rebuild/adl_danish_source_selection_2026-06-24.tsv; data/raw/ADL_Danish/ADL_Danish.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "AmadisCorpus GH",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 97420,
+      "texts": 35,
+      "period": "1547-1547",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Azerbaijani WS",
+      "url": "https://az.wikisource.org",
+      "languages": [
+        "Azerbaijani"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 122211,
+      "texts": 346,
+      "period": "1536-1536",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://az.wikisource.org; rebuild/azerbaijani_ws_source_selection_2026-06-24.tsv; data/raw/Azerbaijani_WS/Azerbaijani_WS.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "BalkanSlavic Damaskini",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Bulgarian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 44047,
+      "texts": 1,
+      "period": "1650-1650",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Bartoli Correspondence",
+      "url": "https://zenodo.org/records/14559525",
+      "languages": [
+        "Italian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1371054,
+      "texts": 11,
+      "period": "1562-1572",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://zenodo.org/records/14559525; https://zenodo.org/records/14559525/files/Cosimo_Bartoli_letters_newsletters_1562-1572_v1.zip?download=1; data/raw/bartoli/Cosimo_Bartoli_letters_newsletters_1562-"
+    },
+    {
+      "title": "BasqueKG",
+      "url": "https://klasikoak.armiarma.eus",
+      "languages": [
+        "Basque"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 818721,
+      "texts": 32,
+      "period": "1545-1696",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://klasikoak.armiarma.eus/; data/raw/basque_kg/KG-tei-0612/; rebuild/basque_kg_raw_lock_2026-06-13.tsv; rebuild/basque_kg_source_selection_2026-06-13.tsv; rebuild/basque_kg_source_native_audit_20"
+    },
+    {
+      "title": "BDPN Novohispano",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 53333,
+      "texts": 9,
+      "period": "1630-1690",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Belarusian Skaryna",
+      "url": "https://knihi.com/Francysk_Skaryna",
+      "languages": [
+        "Belarusian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1775,
+      "texts": 4,
+      "period": "1517-1519",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://knihi.com/Francysk_Skaryna/; rebuild/belarusian_skaryna_source_selection_2026-06-24.tsv; data/raw/Belarusian_Skaryna/Belarusian_Skaryna.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Bertonio Aymara",
+      "url": "https://github.com/amosbatto/native-dics",
+      "languages": [
+        "Aymara"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 74082,
+      "texts": 23,
+      "period": "1612-1612",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/amosbatto/native-dics; rebuild/bertonio_aymara_source_selection_2026-06-24.tsv; data/raw/Bertonio_Aymara/Bertonio_Aymara.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "BetaMasaheft Geez",
+      "url": "https://github.com/BetaMasaheft/Works",
+      "languages": [
+        "Ge'ez"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 51400,
+      "texts": 5,
+      "period": "1555-1555",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/BetaMasaheft/Works; rebuild/betamasaheft_geez_source_selection_2026-06-24.tsv; data/raw/BetaMasaheft_Geez/BetaMasaheft_Geez.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Bibliotheca Augustana",
+      "url": "https://www.hs-augsburg.de/~harsch/",
+      "languages": [
+        "Latin"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 195974,
+      "texts": 50,
+      "institution": "Hochschule Augsburg",
+      "period": "1480-1650",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "BibCerTxt",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 2373898,
+      "texts": 125,
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
     {
       "title": "Biblioteca Italiana",
       "url": "http://www.bibliotecaitaliana.it/",
@@ -39,6 +275,21 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "BrievenAlsBuit",
+      "url": "https://brievenalsbuit.ivdnt.org",
+      "languages": [
+        "Dutch"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 421272,
+      "texts": 970,
+      "period": "1661-1675",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://brievenalsbuit.ivdnt.org/ — text via Wikiscripta Neerlandica transcriptions; rebuild/brievenalsbuit_source_selection_2026-06-24.tsv; data/raw/BrievenAlsBuit/BrievenAlsBuit.jsonl; rebuild/rawtr"
+    },
+    {
       "title": "Bullinger Digital",
       "url": "https://bullinger-digital.ch/",
       "provenance": "submitted",
@@ -57,6 +308,37 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "BVH Epistemon Print",
+      "url": "https://github.com/lb42/tei-fr",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1968888,
+      "texts": 46,
+      "period": "1529-1616",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/lb42/tei-fr; rebuild/bvh_epistemon_print_source_selection_2026-06-24.tsv; data/raw/BVH_Epistemon_Print/BVH_Epistemon_Print.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Calvin Institutio",
+      "url": "https://calvin.reformation.nl/872-Institutes+of+the+Christian+Religion.",
+      "languages": [
+        "French",
+        "Latin"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1053747,
+      "texts": 162,
+      "period": "1559-1560",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://calvin.reformation.nl/872-Institutes+of+the+Christian+Religion.; rebuild/calvin_institutio_source_selection_2026-06-24.tsv; data/raw/Calvin_Institutio/Calvin_Institutio.jsonl; rebuild/rawtree_"
+    },
+    {
       "title": "CAMENA",
       "url": "https://mateo.uni-mannheim.de/camenahtdocs/camena.html",
       "provenance": "submitted",
@@ -73,6 +355,22 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "Campanella ATC",
+      "url": "https://www.iliesi.cnr.it/ATC",
+      "languages": [
+        "Italian",
+        "Latin"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 703209,
+      "texts": 21,
+      "period": "1595-1635",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.iliesi.cnr.it/ATC/; rebuild/campanella_atc_source_selection_2026-06-24.tsv; data/raw/Campanella_ATC/Campanella_ATC.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
       "title": "The Casebooks Project",
       "url": "https://casebooks.lib.cam.ac.uk/",
       "provenance": "submitted",
@@ -87,6 +385,21 @@
       "texts": 67,
       "period": "1596-1640",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Cavriana Correspondence",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Italian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 45188,
+      "texts": 1,
+      "period": "1580-1580",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
     },
     {
       "title": "CELT Corpus of Electronic Texts",
@@ -107,6 +420,171 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "CET Teatro16c Portuguese",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Portuguese"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 676876,
+      "texts": 83,
+      "period": "1540-1540",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "CHM Mapudungun",
+      "url": "https://benmolineaux.github.io",
+      "languages": [
+        "Mapudungun"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 25494,
+      "texts": 7,
+      "period": "1606-1643",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://benmolineaux.github.io/; rebuild/chm_mapudungun_source_selection_2026-06-24.tsv; data/raw/CHM_Mapudungun/CHM_Mapudungun.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "CIDTC",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Czech",
+        "Dutch",
+        "French",
+        "German",
+        "Italian",
+        "Latin",
+        "Polish",
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1911266,
+      "texts": 4614,
+      "period": "1500-1549",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Epistolarium (CKCC)",
+      "url": "https://ckcc.huygens.knaw.nl/",
+      "languages": [
+        "Dutch",
+        "English",
+        "French",
+        "German",
+        "Italian",
+        "Latin",
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 7946427,
+      "texts": 27,
+      "institution": "Huygens ING (KNAW)",
+      "period": "1629-1699",
+      "notes": "The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://ckcc.huygens.knaw.nl/; data/raw/ckcc/letters.jsonl; rebuild/ckcc_raw_lock_2026-06-13.tsv; rebuild/ckcc_source_native_audit_2026-06-13.csv; scripts/overnight/ckcc_harvest.py; rebuild/rawtree_ful"
+    },
+    {
+      "title": "CoDiAJe JudeoSpanish",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Ladino"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 30953,
+      "texts": 6,
+      "period": "1564-1679",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://lindat.mff.cuni.cz/services/teitok-live/codiaje/; rebuild/codiaje_judeospanish_source_selection_2026-06-24.tsv; data/raw/CoDiAJe_JudeoSpanish/CoDiAJe_JudeoSpanish.jsonl; rebuild/rawtree_full_l"
+    },
+    {
+      "title": "Colonia",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Portuguese"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1454490,
+      "texts": 20,
+      "period": "1500-1691",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Controversia Confessio",
+      "url": "https://www.controversia-et-confessio.de",
+      "languages": [
+        "German",
+        "Latin"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1075246,
+      "texts": 138,
+      "period": "1548-1575",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.controversia-et-confessio.de/; rebuild/controversia_confessio_source_selection_2026-06-24.tsv; data/raw/Controversia_Confessio/Controversia_Confessio.jsonl; rebuild/rawtree_full_lock_2026-"
+    },
+    {
+      "title": "Coqalane",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 83657,
+      "texts": 57,
+      "period": "1508-1595",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Cornish GwreansAnBys",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Cornish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 12560,
+      "texts": 1,
+      "period": "1611-1611",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Cornish Tregear",
+      "url": "https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche",
+      "languages": [
+        "Cornish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 38078,
+      "texts": 13,
+      "period": "1556-1556",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche; rebuild/cornish_tregear_source_selection_2026-06-24.tsv; data/raw/Cornish_Tregear/Cornish_Tregear.jsonl; rebuild/rawtree_full_lock_2026-07-16.ts"
+    },
+    {
       "title": "Corpus Corporum",
       "url": "https://mlat.uzh.ch/",
       "provenance": "submitted",
@@ -123,6 +601,36 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "CORPUS17 French",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 149810,
+      "texts": 15,
+      "period": "1622-1700",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "CretanGreek snhell",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Modern Greek"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1736,
+      "texts": 3,
+      "period": "1590-1655",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://www.snhell.gr/anthology/; rebuild/cretangreek_snhell_source_selection_2026-06-24.tsv; data/raw/CretanGreek_snhell/CretanGreek_snhell.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
       "title": "CroALa (Croatiae Auctores Latini)",
       "url": "https://croala.ffzg.unizg.hr/",
       "provenance": "submitted",
@@ -137,6 +645,51 @@
       "period": "1450-1700",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Czech Kralice1613",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Czech"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 597503,
+      "texts": 66,
+      "period": "1613-1613",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Czech tei2019",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Czech"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 69891,
+      "texts": 1,
+      "period": "1503-1503",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "DanishPostils",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Danish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 2289816,
+      "texts": 13,
+      "period": "1540-1635",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
     },
     {
       "title": "Digitale Bibliotheek voor de Nederlandse Letteren (DBNL)",
@@ -173,6 +726,96 @@
       "notes": "A digital edition of a mid-sixteenth-century miscellany of verse and prose, compiled in the court circle of Margaret Douglas and later the Rutland household, with contributions by Thomas Wyatt, Mary Shelton and others. Diplomatic transcription, modernised text and scholarly apparatus, encoded in TEI P5. The original dedicated site (devonshire.unb.ca) is offline; the social edition now lives on Wikibooks, and the ~200 TEI XML transcriptions and witnesses (CC BY-SA 4.0) are archived at Oxford LLDS: https://llds.phon.ox.ac.uk/llds/xmlui/handle/20.500.14106/2587"
     },
     {
+      "title": "Diacronia Romanian",
+      "url": "https://www.diacronia.ro",
+      "languages": [
+        "Romanian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 5774,
+      "texts": 4,
+      "period": "1580-1600",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.diacronia.ro; rebuild/diacronia_romanian_source_selection_2026-06-24.tsv; data/raw/Diacronia_Romanian/Diacronia_Romanian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "DIACU Bulgarian",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Bulgarian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 221171,
+      "texts": 24,
+      "period": "1450-1650",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Diakorp Czech",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Czech"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 425831,
+      "texts": 21,
+      "period": "1492-1662",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "DiBiLit German",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 2135890,
+      "texts": 47,
+      "period": "1517-1696",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "DiBiPhil Renaissance",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 175616,
+      "texts": 3,
+      "period": "1530-1612",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "DIGILIB Armenian",
+      "url": "https://digilib.aua.am/en",
+      "languages": [
+        "Armenian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 532046,
+      "texts": 18,
+      "period": "1619-1699",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://digilib.aua.am/en; rebuild/digilib_armenian_source_selection_2026-06-24.tsv; data/raw/DIGILIB_Armenian/DIGILIB_Armenian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
       "title": "The Digital Donne Project",
       "url": "https://digitaldonne.drc.usask.ca/",
       "provenance": "submitted",
@@ -189,6 +832,54 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "DISCO SpanishSonnets",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 76564,
+      "texts": 1,
+      "period": "1600-1600",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "DissEd PhDeditions",
+      "url": "https://theses.fr",
+      "languages": [
+        "French",
+        "Italian",
+        "Latin",
+        "Occitan"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 254491,
+      "texts": 9,
+      "period": "1480-1698",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://theses.fr + https://diva-portal.org; rebuild/dissed_phdeditions_source_selection_2026-06-24.tsv; data/raw/DissEd_PhDeditions/DissEd_PhDeditions.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "DoctrinaLima1584 Quechua",
+      "url": "http://www.runasimi.de/waruchir.htm",
+      "languages": [
+        "Quechua"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 6649,
+      "texts": 17,
+      "period": "1600-1600",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://www.runasimi.de/waruchir.htm; rebuild/doctrinalima1584_quechua_source_selection_2026-06-24.tsv; data/raw/DoctrinaLima1584_Quechua/DoctrinaLima1584_Quechua.jsonl; rebuild/rawtree_full_lock_2026-"
+    },
+    {
       "title": "Documenta Catholica Omnia",
       "url": "https://www.documentacatholicaomnia.eu/",
       "provenance": "submitted",
@@ -202,6 +893,21 @@
       "period": "1457-1668",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "DOST OlderScots",
+      "url": "http://purl.ox.ac.uk/ota/0701",
+      "languages": [
+        "Scots"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 788698,
+      "texts": 18,
+      "period": "1500-1500",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/0701; http://purl.ox.ac.uk/ota/0701; data/raw/queue4/dost_files.txt; data/raw/queue/dost.zip; data/raw/queue4/dost/; rebuild/dost_raw"
     },
     {
       "title": "DraCor",
@@ -226,6 +932,51 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "DRC Romansh",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Romansh"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 143335,
+      "texts": 5,
+      "period": "1527-1565",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "DSL HenrikSmith",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Danish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 256557,
+      "texts": 6,
+      "period": "1577-1577",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "DSL Salmer",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Danish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1194918,
+      "texts": 9,
+      "period": "1529-1573",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). Det Danske Sprog- og Litteraturselskab (DSL) Salmer local TEI dump; data/raw/dsl_salmer/eXist-dbs/salmer/xml/; rebuild/dsl_salmer_raw_lock_2026-06-13.tsv; rebuild/dsl_salmer_source_selection_2026-06-1"
+    },
+    {
       "title": "Deutsches Textarchiv (DTA)",
       "url": "https://www.deutschestextarchiv.de/",
       "provenance": "submitted",
@@ -240,6 +991,21 @@
       "period": "1453-1700",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "EarlyModernGreek CLARINEL",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Modern Greek"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 152215,
+      "texts": 5,
+      "period": "1520-1646",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
     },
     {
       "title": "English Broadside Ballad Archive (EBBA)",
@@ -308,6 +1074,51 @@
       "texts": 50237
     },
     {
+      "title": "ELAN crenum",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 192178,
+      "texts": 5,
+      "period": "1515-1515",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "ELAN fnvr",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 78532,
+      "texts": 4,
+      "period": "1500-1500",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "ELAN polygrenaille",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 77536,
+      "texts": 1,
+      "period": "1642-1642",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
       "title": "Emblem Project Utrecht",
       "url": "http://emblems.let.uu.nl/",
       "provenance": "submitted",
@@ -330,6 +1141,55 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "EMLAP",
+      "url": "https://github.com/CCS-ZCU/EMLAP_ETL",
+      "languages": [
+        "Latin"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 4548087,
+      "texts": 94,
+      "period": "1518-1644",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/CCS-ZCU/EMLAP_ETL; data/raw/emlap/data/emlap_metadata.csv; data/raw/emlap/data/emlap_corpus_public/emlap_txts/; rebuild/emlap_raw_lock_2026-06-13.tsv; rebuild/emlap_source_selection"
+    },
+    {
+      "title": "EMMO Folger",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 40606,
+      "texts": 1,
+      "period": "1620-1620",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "EMOTHE",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "English",
+        "French",
+        "Italian",
+        "Portuguese",
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 842260,
+      "texts": 47,
+      "period": "1517-1656",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
       "title": "Early Modern Recipes Online Collective (EMROC)",
       "url": "https://emroc.hypotheses.org/",
       "provenance": "submitted",
@@ -343,6 +1203,51 @@
       "period": "1564-1692",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Bibliothèques Virtuelles Humanistes — Épistémon",
+      "url": "https://www.bvh.univ-tours.fr/",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 3061651,
+      "texts": 70,
+      "institution": "CESR (CNRS / Université de Tours)",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Estilometria SigloOro",
+      "url": "https://github.com/Jero2760/estilometria",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 7188629,
+      "texts": 371,
+      "period": "1600-1645",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/Jero2760/estilometria; data/raw/estilometria/Siglo_de_Oro/; rebuild/estilometria_raw_lock_2026-06-13.tsv; rebuild/estilometria_source_selection_2026-06-13.tsv; rebuild/estilometria_"
+    },
+    {
+      "title": "EthicaComplementoria",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 73680,
+      "texts": 8,
+      "period": "1643-1665",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
     },
     {
       "title": "Evans Early American Imprints (Evans-TCP)",
@@ -361,6 +1266,126 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "FabulasMito GH",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 17984,
+      "texts": 4,
+      "period": "1620-1620",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "FabulasMitologicas",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 164959,
+      "texts": 26,
+      "period": "1620-1620",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "FallOfConstantinople Arranz",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Church Slavonic"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 29847,
+      "texts": 2,
+      "period": "1561-1585",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "FAMSI Bolles YucatecMaya",
+      "url": "http://www.famsi.org/reports/96072",
+      "languages": [
+        "Yucatec Maya"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 73544,
+      "texts": 24,
+      "period": "1557-1580",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://www.famsi.org/reports/96072/; rebuild/famsi_bolles_yucatecmaya_source_selection_2026-06-24.tsv; data/raw/FAMSI_Bolles_YucatecMaya/FAMSI_Bolles_YucatecMaya.jsonl; rebuild/rawtree_full_lock_2026-"
+    },
+    {
+      "title": "FilologiaSarda Sardinian",
+      "url": "https://www.filologiasarda.eu",
+      "languages": [
+        "Sardinian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 10596,
+      "texts": 4,
+      "period": "1573-1597",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.filologiasarda.eu/; rebuild/filologiasarda_sardinian_source_selection_2026-06-24.tsv; data/raw/FilologiaSarda_Sardinian/FilologiaSarda_Sardinian.jsonl; rebuild/rawtree_full_lock_2026-07-16"
+    },
+    {
+      "title": "FlorentineCodex Nahuatl",
+      "url": "https://zenodo.org/records/7213020",
+      "languages": [
+        "Nahuatl"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 290869,
+      "texts": 12,
+      "period": "1577-1577",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://zenodo.org/records/7213020; rebuild/florentinecodex_nahuatl_source_selection_2026-06-24.tsv; data/raw/FlorentineCodex_Nahuatl/FlorentineCodex_Nahuatl.jsonl; rebuild/rawtree_full_lock_2026-07-1"
+    },
+    {
+      "title": "Fornsvenska Swedish",
+      "url": "https://www.nordlund.lu.se",
+      "languages": [
+        "Swedish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 95194,
+      "texts": 5,
+      "period": "1536-1674",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.nordlund.lu.se/; rebuild/fornsvenska_swedish_source_selection_2026-06-24.tsv; data/raw/Fornsvenska_Swedish/Fornsvenska_Swedish.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Fran Slovenian16c",
+      "url": "https://fran.si/korpus16",
+      "languages": [
+        "Slovenian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 3380332,
+      "texts": 45,
+      "period": "1550-1595",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://fran.si/korpus16; rebuild/fran_slovenian16c_source_selection_2026-06-24.tsv; data/raw/Fran_Slovenian16c/Fran_Slovenian16c.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
       "title": "FreEM (FREnch Early Modern corpus)",
       "url": "https://freem-corpora.github.io/",
       "provenance": "submitted",
@@ -374,6 +1399,332 @@
       "period": "1529-1700",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Fuerstinnenkorrespondenz",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 23824,
+      "texts": 1,
+      "period": "1568-1568",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Galileo Opere Favaro",
+      "url": "https://it.wikisource.org/wiki/Le_opere_di_Galileo_Galilei_(Favaro)",
+      "languages": [
+        "Italian",
+        "Latin"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 97354,
+      "texts": 4,
+      "period": "1611-1633",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://it.wikisource.org/wiki/Le_opere_di_Galileo_Galilei_(Favaro); rebuild/galileo_opere_favaro_source_selection_2026-06-24.tsv; data/raw/Galileo_Opere_Favaro/Galileo_Opere_Favaro.jsonl; rebuild/raw"
+    },
+    {
+      "title": "Gallicorpora French HTR",
+      "url": "https://github.com/Gallicorpora",
+      "languages": [
+        "French",
+        "Latin"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 601671,
+      "texts": 68,
+      "period": "1518-1697",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/Gallicorpora; rebuild/gallicorpora_french_htr_source_selection_2026-06-24.tsv; data/raw/Gallicorpora_French_HTR/Gallicorpora_French_HTR.jsonl; rebuild/rawtree_full_lock_2026-07-16.t"
+    },
+    {
+      "title": "GAMS — Basel Records",
+      "url": "https://gams.uni-graz.at/",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 926956,
+      "texts": 76,
+      "institution": "Universität Graz (GAMS)",
+      "period": "1535-1610",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "GanjoorPersian",
+      "url": "https://ganjoor.net",
+      "languages": [
+        "Persian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 4810638,
+      "texts": 41,
+      "period": "1466-1700",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://ganjoor.net/; data/raw/ganjoor/ganjoor.s3db; rebuild/ganjoor_raw_lock_2026-06-13.tsv; rebuild/ganjoor_source_selection_2026-06-13.tsv; rebuild/ganjoor_source_native_audit_2026-06-13.csv; scrip"
+    },
+    {
+      "title": "GeMi Midwifery",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 105188,
+      "texts": 12,
+      "period": "1500-1690",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "GerManC",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 230403,
+      "texts": 117,
+      "period": "1654-1700",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Gilberti Purepecha",
+      "url": "https://archive.org/details/vocabularioenlen00gilb",
+      "languages": [
+        "Purépecha"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 14264,
+      "texts": 1,
+      "period": "1559-1559",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://archive.org/details/vocabularioenlen00gilb; rebuild/gilberti_purepecha_source_selection_2026-06-24.tsv; data/raw/Gilberti_Purepecha/Gilberti_Purepecha.jsonl; rebuild/rawtree_full_lock_2026-07-"
+    },
+    {
+      "title": "GitHubTEI",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 36856,
+      "texts": 3,
+      "period": "1612-1627",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "GlasgowEmblems",
+      "url": "https://www.emblems.arts.gla.ac.uk",
+      "languages": [
+        "French",
+        "German",
+        "Italian",
+        "Latin",
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 549460,
+      "texts": 5963,
+      "period": "1531-1621",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.emblems.arts.gla.ac.uk/; rebuild/glasgowemblems_source_selection_2026-06-24.tsv; data/raw/GlasgowEmblems/GlasgowEmblems.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Gondomar Galician",
+      "url": "https://ilg.usc.gal/gondomar",
+      "languages": [
+        "Galician"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 11031,
+      "texts": 31,
+      "period": "1594-1697",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://ilg.usc.gal/gondomar/; rebuild/gondomar_galician_source_selection_2026-06-24.tsv; data/raw/Gondomar_Galician/Gondomar_Galician.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "OBVIL — Gongora Obra",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 59121,
+      "texts": 2,
+      "institution": "Sorbonne Université (OBVIL)",
+      "period": "1605-1610",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "GutorGlyn Welsh",
+      "url": "https://gutorglyn.net/gutorglyn",
+      "languages": [
+        "Welsh"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 30864,
+      "texts": 91,
+      "period": "1450-1497",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://gutorglyn.net/gutorglyn/; rebuild/gutorglyn_welsh_source_selection_2026-06-24.tsv; data/raw/GutorGlyn_Welsh/GutorGlyn_Welsh.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Hexenverhoer SiGS",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 85441,
+      "texts": 55,
+      "period": "1570-1665",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "HistCorp Swedish",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Swedish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 5641945,
+      "texts": 49,
+      "period": "1450-1700",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Huarochiri Quechua full",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Quechua"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 11586,
+      "texts": 17,
+      "period": "1608-1608",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://etnolinguistica.org/huarochiri; rebuild/huarochiri_quechua_full_source_selection_2026-06-24.tsv; data/raw/Huarochiri_Quechua_full/Huarochiri_Quechua_full.jsonl; rebuild/rawtree_full_lock_2026-"
+    },
+    {
+      "title": "GitLab des humanités numériques (Huma-Num)",
+      "url": "https://gitlab.huma-num.fr/",
+      "languages": [
+        "French",
+        "Latin",
+        "Spanish"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1816659,
+      "texts": 77,
+      "institution": "IR Huma-Num",
+      "period": "1474-1700",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "HungarianCorpus",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Hungarian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 3023383,
+      "texts": 74,
+      "period": "1450-1532",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "IcePaHC — Icelandic Parsed Historical Corpus",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Icelandic"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 283630,
+      "texts": 21,
+      "period": "1450-1680",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "IMP Slovene",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Slovenian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 27084,
+      "texts": 2,
+      "period": "1584-1695",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "IMPACTes OriginalImprint",
+      "url": "https://github.com/impactcentre/groundtruth-spa",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1962810,
+      "texts": 14,
+      "period": "1543-1691",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/impactcentre/groundtruth-spa; data/raw/impactes/; rebuild/impactes_raw_lock_2026-06-13.tsv; rebuild/impactes_source_selection_2026-06-13.tsv; rebuild/impactes_source_native_audit_20"
     },
     {
       "title": "Acts and Ordinances of the Interregnum",
@@ -390,6 +1741,111 @@
       "period": "1642-1659",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Izbornyk Ukrainian",
+      "url": "http://litopys.org.ua",
+      "languages": [
+        "Ukrainian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 345998,
+      "texts": 155,
+      "period": "1575-1697",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://litopys.org.ua; rebuild/izbornyk_ukrainian_source_selection_2026-06-24.tsv; data/raw/Izbornyk_Ukrainian/Izbornyk_Ukrainian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Kirishitan Japanese",
+      "url": "https://www2.ninjal.ac.jp/textdb_dataset/en",
+      "languages": [
+        "Japanese"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 154229,
+      "texts": 4,
+      "period": "1592-1603",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www2.ninjal.ac.jp/textdb_dataset/en/; rebuild/kirishitan_japanese_source_selection_2026-06-24.tsv; data/raw/Kirishitan_Japanese/Kirishitan_Japanese.jsonl; rebuild/rawtree_full_lock_2026-07-16."
+    },
+    {
+      "title": "KorBa Polish full17c",
+      "url": "https://korba.edu.pl",
+      "languages": [
+        "Polish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 11252,
+      "texts": 37,
+      "period": "1609-1700",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://korba.edu.pl; rebuild/korba_polish_full17c_source_selection_2026-06-24.tsv; data/raw/KorBa_Polish_full17c/KorBa_Polish_full17c.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "KorBa Polish",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Polish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 90943,
+      "texts": 99,
+      "period": "1603-1699",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "KorbaText",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Polish"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 327583,
+      "texts": 666,
+      "period": "1670-1670",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Kronieken Dutch",
+      "url": "https://doi.org/10.5281/zenodo.13332815",
+      "languages": [
+        "Dutch"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1431218,
+      "texts": 20,
+      "period": "1499-1574",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://doi.org/10.5281/zenodo.13332815; data/raw/kronieken/chroniclingnovelty-chronicles-datasets-ee5a9f3/; rebuild/kronieken_raw_lock_2026-06-13.tsv; rebuild/kronieken_source_selection_2026-06-13.ts"
+    },
+    {
+      "title": "Lampeter English",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 723592,
+      "texts": 74,
+      "period": "1641-1700",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/3193; rebuild/lampeter_english_source_selection_2026-06-24.tsv; data/raw/Lampeter_English/Lampeter_English.jsonl; rebuild/rawtree_ful"
     },
     {
       "title": "Lexicons of Early Modern English (LEME)",
@@ -424,6 +1880,51 @@
       "period": "1450-1700",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Litteraturbanken Swedish",
+      "url": "https://spraakbanken.gu.se/en/resources/lb-open",
+      "languages": [
+        "Swedish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 114226,
+      "texts": 7,
+      "period": "1611-1649",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://spraakbanken.gu.se/en/resources/lb-open; rebuild/litteraturbanken_swedish_source_selection_2026-06-24.tsv; data/raw/Litteraturbanken_Swedish/Litteraturbanken_Swedish.jsonl; rebuild/rawtree_ful"
+    },
+    {
+      "title": "Maltese Cantilena",
+      "url": "https://en.wikipedia.org/wiki/Il-Kantilena",
+      "languages": [
+        "Maltese"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 135,
+      "texts": 1,
+      "period": "1470-1470",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://en.wikipedia.org/wiki/Il-Kantilena; rebuild/maltese_cantilena_source_selection_2026-06-24.tsv; data/raw/Maltese_Cantilena/Maltese_Cantilena.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Mambrino",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Italian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1461652,
+      "texts": 7,
+      "period": "1530-1565",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
     },
     {
       "title": "The Map of Early Modern London",
@@ -476,6 +1977,112 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "MercureGalant",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 4216289,
+      "texts": 26,
+      "period": "1672-1700",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Mercurius Baumbank",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 187423,
+      "texts": 2,
+      "period": "1597-1667",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "MGTSZ AporCodex",
+      "url": "http://oldhungariancorpus.nytud.hu",
+      "languages": [
+        "Hungarian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 23332,
+      "texts": 1,
+      "period": "1500-1500",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://oldhungariancorpus.nytud.hu/; rebuild/mgtsz_aporcodex_source_selection_2026-06-24.tsv; data/raw/MGTSZ_AporCodex/MGTSZ_AporCodex.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Montoya Guarani",
+      "url": "https://archive.org/details/gramaticaydiccio02ruiz",
+      "languages": [
+        "Guaraní"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 41109,
+      "texts": 36,
+      "period": "1639-1640",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://archive.org/details/gramaticaydiccio02ruiz; rebuild/montoya_guarani_source_selection_2026-06-24.tsv; data/raw/Montoya_Guarani/Montoya_Guarani.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "MuyscCubun Muisca",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Muisca"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 42662,
+      "texts": 13,
+      "period": "1612-1619",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://muysca.cubun.org/; rebuild/muysccubun_muisca_source_selection_2026-06-24.tsv; data/raw/MuyscCubun_Muisca/MuyscCubun_Muisca.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Nahuatl depth",
+      "url": "https://www.history.ucsb.edu",
+      "languages": [
+        "Nahuatl"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 36506,
+      "texts": 94,
+      "period": "1559-1695",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.history.ucsb.edu/; rebuild/nahuatl_depth_source_selection_2026-06-24.tsv; data/raw/Nahuatl_depth/Nahuatl_depth.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Nakala",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "French",
+        "Latin"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 2904654,
+      "texts": 109,
+      "period": "1458-1698",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
       "title": "The Newton Project",
       "url": "https://www.newtonproject.ox.ac.uk/",
       "provenance": "submitted",
@@ -491,6 +2098,21 @@
       "period": "1659-1700",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "Norman MuseNormande",
+      "url": "https://archive.org/details/lamusenormanded09ferrgoog",
+      "languages": [
+        "Norman"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 153528,
+      "texts": 38,
+      "period": "1638-1652",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://archive.org/details/lamusenormanded09ferrgoog; rebuild/norman_musenormande_source_selection_2026-06-24.tsv; data/raw/Norman_MuseNormande/Norman_MuseNormande.jsonl; rebuild/rawtree_full_lock_20"
     },
     {
       "title": "NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin",
@@ -509,6 +2131,68 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "OBVIL — Laboratoire des littératures françaises (collections sources)",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 73996,
+      "texts": 3,
+      "institution": "Sorbonne Université (OBVIL)",
+      "period": "1557-1694",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "OBVIL — Théâtre de la Haine",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1162096,
+      "texts": 85,
+      "institution": "Sorbonne Université (OBVIL)",
+      "period": "1541-1698",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Occitan 1000ans",
+      "url": "https://uoh.univ-montp3.fr/1000ans",
+      "languages": [
+        "Occitan"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 22599,
+      "texts": 57,
+      "period": "1456-1617",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://uoh.univ-montp3.fr/1000ans/; rebuild/occitan_1000ans_source_selection_2026-06-24.tsv; data/raw/Occitan_1000ans/Occitan_1000ans.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "ODE CorderegraSpanish",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 203336,
+      "texts": 138,
+      "period": "1509-1700",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
       "title": "The Proceedings of the Old Bailey Online",
       "url": "https://www.oldbaileyonline.org/",
       "provenance": "submitted",
@@ -522,6 +2206,22 @@
       "period": "1674-1700",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "OpenEDGeS (Open Editions of Early Modern Dutch and German Bibles)",
+      "url": "https://spraakbanken.gu.se/en/resources/openedges",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "institution": "University of Gothenburg (Språkbanken)",
+      "languages": [
+        "Dutch",
+        "German"
+      ],
+      "encoding": "other",
+      "words": 7105392,
+      "texts": 10,
+      "period": "1460-1661"
     },
     {
       "title": "OpenITI",
@@ -538,6 +2238,67 @@
       "period": "1451-1700",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "OSTA",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Aragonese",
+        "Latin",
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 21519708,
+      "texts": 375,
+      "period": "1450-1674",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). OSTA Zenodo 18931376; data/raw/osta/hispanicseminary-OSTA-29ee6b0/; rebuild/osta_raw_lock_2026-06-13.tsv; rebuild/osta_source_native_audit_2026-06-13.csv; scripts/overnight/osta_ingest.py; rebuild/raw"
+    },
+    {
+      "title": "Otomi mission",
+      "url": "https://www.sup-infor.com",
+      "languages": [
+        "Otomí"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 4365,
+      "texts": 27,
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.sup-infor.com/; rebuild/otomi_mission_source_selection_2026-06-24.tsv; data/raw/Otomi_mission/Otomi_mission.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Passiusalmar Icelandic",
+      "url": "https://hallgrimurpetursson.is",
+      "languages": [
+        "Icelandic"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 23536,
+      "texts": 50,
+      "period": "1666-1666",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://hallgrimurpetursson.is/; rebuild/passiusalmar_icelandic_source_selection_2026-06-24.tsv; data/raw/Passiusalmar_Icelandic/Passiusalmar_Icelandic.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "PCEEC2",
+      "url": "https://github.com/beatrice57/pceec2",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 2429178,
+      "texts": 81,
+      "period": "1462-1679",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/beatrice57/pceec2; https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2510; data/raw/eng_dh/pceec2-main/data/parsed/; rebuild/pceec2_raw_lock_2026-06-13.tsv; rebuild/pce"
     },
     {
       "title": "The Diary of Samuel Pepys (Phil Gyford edition)",
@@ -571,6 +2332,37 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "OBVIL — Polémica Góngorina",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 263434,
+      "texts": 30,
+      "institution": "Sorbonne Université (OBVIL)",
+      "period": "1613-1662",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Porzio CongiuraBaroni",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Italian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 49439,
+      "texts": 1,
+      "period": "1565-1565",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
       "title": "P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana)",
       "url": "https://post-scriptum.org/",
       "provenance": "submitted",
@@ -588,6 +2380,21 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "PPCHY Yiddish",
+      "url": "https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish",
+      "languages": [
+        "Yiddish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 46634,
+      "texts": 25,
+      "period": "1478-1697",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish; rebuild/ppchy_yiddish_source_selection_2026-06-24.tsv; data/raw/PPCHY_Yiddish/PPCHY_Yiddish.jsonl; rebuild/rawtree_full_lock_202"
+    },
+    {
       "title": "Project Gutenberg",
       "url": "https://www.gutenberg.org/",
       "provenance": "submitted",
@@ -595,6 +2402,7 @@
       "languages": [
         "Catalan",
         "Dutch",
+        "English",
         "Finnish",
         "French",
         "German",
@@ -605,11 +2413,134 @@
         "Spanish"
       ],
       "encoding": "other",
-      "words": 18441603,
-      "texts": 264,
+      "words": 20440559,
+      "texts": 280,
       "period": "1519-1697",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "QHOD",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Latin",
+        "Ottoman Turkish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 21296,
+      "texts": 17,
+      "period": "1570-1600",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "REED English",
+      "url": "https://ereed.org",
+      "languages": [
+        "English",
+        "Italian",
+        "Latin"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 355821,
+      "texts": 1538,
+      "period": "1450-1643",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://ereed.org; rebuild/reed_english_source_selection_2026-06-24.tsv; data/raw/REED_English/REED_English.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "ReF ENHG",
+      "url": "https://zenodo.org/records/5793616",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 2440564,
+      "texts": 144,
+      "period": "1450-1625",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://zenodo.org/records/5793616; https://doi.org/10.5281/zenodo.5793616; data/raw/ref/ReF-v1.0.2/; rebuild/ref_raw_lock_2026-06-13.tsv; rebuild/ref_source_selection_2026-06-13.tsv; rebuild/ref_sour"
+    },
+    {
+      "title": "ReNLowGerman",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1475279,
+      "texts": 137,
+      "period": "1450-1699",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). Reference Corpus Middle Low German/Low Rhenish (ReN), Hamburg FDR CorA-ReN-XML_1.1 local dump; data/raw/lowgerman/CorA-ReN-XML_1.1/; rebuild/ren_lowgerman_raw_lock_2026-06-13.tsv; rebuild/ren_lowgerma"
+    },
+    {
+      "title": "RhythmicCorpus SGA",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1454447,
+      "texts": 117,
+      "period": "1620-1620",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "RIALC Catalan",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Catalan"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 220010,
+      "texts": 20,
+      "period": "1455-1490",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "RIN ConDE",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 2539837,
+      "texts": 4,
+      "period": "1539-1678",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "roPsalt Romanian",
+      "url": "https://github.com/mmoruz/RoPsalt",
+      "languages": [
+        "Romanian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 188849,
+      "texts": 903,
+      "period": "1510-1589",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/mmoruz/RoPsalt; rebuild/ropsalt_romanian_source_selection_2026-06-24.tsv; data/raw/roPsalt_Romanian/roPsalt_Romanian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     },
     {
       "title": "Philosophical Transactions (pre-1750 archive)",
@@ -628,6 +2559,21 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "RUP Folger",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "English"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 3428,
+      "texts": 20,
+      "period": "1620-1620",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
       "title": "Russian National Corpus",
       "url": "https://ruscorpora.ru/",
       "provenance": "submitted",
@@ -643,6 +2589,37 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "Russian Ulozhenie1649",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Russian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 89869,
+      "texts": 1,
+      "period": "1649-1649",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Salamanca",
+      "url": "https://github.com/digicademy/svsal-tei",
+      "languages": [
+        "Latin",
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 4271105,
+      "texts": 18,
+      "period": "1522-1648",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/digicademy/svsal-tei; data/raw/salamanca/svsal-tei-master/; rebuild/salamanca_raw_lock_2026-06-13.tsv; rebuild/salamanca_source_selection_2026-06-13.tsv; rebuild/salamanca_source_na"
+    },
+    {
       "title": "Sefaria",
       "url": "https://www.sefaria.org/",
       "provenance": "submitted",
@@ -656,6 +2633,125 @@
       "period": "1495-1690",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "SENIE Latvian",
+      "url": "https://hdl.handle.net/20.500.12574/141",
+      "languages": [
+        "Latvian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 2476220,
+      "texts": 156,
+      "period": "1507-1699",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://hdl.handle.net/20.500.12574/141; data/raw/latvian_senie/SENIE_Unicode_unhyphened.tei.xml; rebuild/senie_raw_lock_2026-06-13.tsv; rebuild/senie_source_selection_2026-06-13.tsv; rebuild/senie_so"
+    },
+    {
+      "title": "SERMO",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "French"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 521919,
+      "texts": 62,
+      "period": "1600-1600",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "SloveneIMP",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Slovenian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 14669,
+      "texts": 2,
+      "period": "1584-1695",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "SMI ItalianMusic",
+      "url": "https://chmtl.indiana.edu/smi",
+      "languages": [
+        "Italian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 62023,
+      "texts": 3,
+      "period": "1599-1599",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://chmtl.indiana.edu/smi/; rebuild/smi_italianmusic_source_selection_2026-06-24.tsv; data/raw/SMI_ItalianMusic/SMI_ItalianMusic.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "SonetosSiglodeOro",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 466011,
+      "texts": 5078,
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "SpanishGitHubGoldenAge",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 165232,
+      "texts": 26,
+      "period": "1620-1620",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "SPXVI Polish16c",
+      "url": "https://spxvi.edu.pl",
+      "languages": [
+        "Polish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 6962996,
+      "texts": 187,
+      "period": "1500-1601",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://spxvi.edu.pl/; data/raw/spxvi/; rebuild/spxvi_raw_lock_2026-06-13.tsv; rebuild/spxvi_source_native_audit_2026-06-13.csv; scripts/overnight/polish_spxvi_harvest.py; rebuild/rawtree_full_lock_20"
+    },
+    {
+      "title": "SSRQ SwissLaw",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1058858,
+      "texts": 7,
+      "period": "1500-1644",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
     },
     {
       "title": "Statutes of the Realm",
@@ -674,14 +2770,59 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "Suriano Correspondence",
+      "url": "https://github.com/HuygensING/suriano",
+      "languages": [
+        "Italian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1132668,
+      "texts": 11,
+      "period": "1616-1623",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/HuygensING/suriano; https://doi.org/10.5281/zenodo.13950093; data/raw/suriano/app/__checkout__.txt; data/raw/suriano/datasource/plaintext/; rebuild/suriano_raw_lock_2026-06-13.tsv;"
+    },
+    {
+      "title": "Tagalog Doctrina1593",
+      "url": "https://www.gutenberg.org/ebooks/16119",
+      "languages": [
+        "Tagalog"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 2018,
+      "texts": 12,
+      "period": "1593-1593",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.gutenberg.org/ebooks/16119; rebuild/tagalog_doctrina1593_source_selection_2026-06-24.tsv; data/raw/Tagalog_Doctrina1593/Tagalog_Doctrina1593.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "TBSO GH",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 47933,
+      "texts": 40,
+      "period": "1640-1640",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
       "title": "TextGrid Repository",
       "url": "https://textgridrep.org/",
       "languages": [
-        "German",
-        "Latin",
-        "French",
         "English",
-        "Italian"
+        "French",
+        "German",
+        "Italian",
+        "Latin"
       ],
       "encoding": "tei",
       "status": "active",
@@ -713,6 +2854,51 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "Théâtre Classique",
+      "url": "http://www.theatre-classique.fr/",
+      "languages": [
+        "French"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 29912,
+      "texts": 2,
+      "period": "1659-1697",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Thornton Kikongo",
+      "url": "https://www.bu.edu/afam/people/faculty/john-thornton",
+      "languages": [
+        "Kikongo"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 7024,
+      "texts": 2,
+      "period": "1624-1649",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.bu.edu/afam/people/faculty/john-thornton/; rebuild/thornton_kikongo_source_selection_2026-06-24.tsv; data/raw/Thornton_Kikongo/Thornton_Kikongo.jsonl; rebuild/rawtree_full_lock_2026-07-16."
+    },
+    {
+      "title": "Ticha Zapotec",
+      "url": "https://github.com/HCDigitalScholarship/ticha-xml-tei",
+      "languages": [
+        "Zapotec"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 73928,
+      "texts": 229,
+      "period": "1578-1666",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/HCDigitalScholarship/ticha-xml-tei; rebuild/ticha_zapotec_source_selection_2026-06-24.tsv; data/raw/Ticha_Zapotec/Ticha_Zapotec.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
       "title": "TITUS (Thesaurus Indogermanischer Text- und Sprachmaterialien)",
       "url": "https://titus.uni-frankfurt.de/",
       "provenance": "submitted",
@@ -732,6 +2918,141 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "TMI SMI Italian",
+      "url": "https://tmiweb.science.uu.nl",
+      "languages": [
+        "Italian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 2029235,
+      "texts": 41,
+      "period": "1525-1649",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://tmiweb.science.uu.nl/; rebuild/tmi_smi_italian_source_selection_2026-06-24.tsv; data/raw/TMI_SMI_Italian/TMI_SMI_Italian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "TMK",
+      "url": "http://tmk.nytud.hu",
+      "languages": [
+        "Hungarian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 341772,
+      "texts": 1178,
+      "period": "1532-1700",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://tmk.nytud.hu/; rebuild/tmk_source_selection_2026-06-24.tsv; data/raw/TMK/TMK.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "TML",
+      "url": "https://github.com/cmm2209/TMLr",
+      "languages": [
+        "Latin"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 1789274,
+      "texts": 219,
+      "period": "1475-1650",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/cmm2209/TMLr; data/raw/tml/TMLr-main/; rebuild/tml_raw_lock_2026-06-13.tsv; rebuild/tml_source_selection_2026-06-13.tsv; rebuild/tml_source_native_audit_2026-06-13.csv; scripts/over"
+    },
+    {
+      "title": "Translatoscope NeoLat",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Latin"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 46329,
+      "texts": 8,
+      "period": "1460-1580",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "TychoBrahe Portuguese",
+      "url": "https://www.tycho.iel.unicamp.br/corpus/texts/txt.zip",
+      "languages": [
+        "Portuguese"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 616264,
+      "texts": 16,
+      "period": "1524-1696",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.tycho.iel.unicamp.br/corpus/texts/txt.zip; rebuild/tychobrahe_portuguese_source_selection_2026-06-24.tsv; data/raw/TychoBrahe_Portuguese/TychoBrahe_Portuguese.jsonl; rebuild/rawtree_full_l"
+    },
+    {
+      "title": "VAKK Estonian",
+      "url": "https://vakk.ut.ee",
+      "languages": [
+        "Estonian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 646452,
+      "texts": 83,
+      "period": "1524-1700",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://vakk.ut.ee/; rebuild/vakk_estonian_source_selection_2026-06-24.tsv; data/raw/VAKK_Estonian/VAKK_Estonian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "VespasianoLetters",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Italian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 33623,
+      "texts": 1,
+      "period": "1480-1480",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "Vietnamese deRhodes",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Vietnamese"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 53364,
+      "texts": 8,
+      "period": "1651-1651",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://vi.wikisource.org/wiki/Phép_giảng_tám_ngày; rebuild/vietnamese_derhodes_source_selection_2026-06-24.tsv; data/raw/Vietnamese_deRhodes/Vietnamese_deRhodes.jsonl; rebuild/rawtree_full_lock_2026-"
+    },
+    {
+      "title": "VKS OldLiteraryFinnish",
+      "url": "https://www.kielipankki.fi/corpora/vks",
+      "languages": [
+        "Finnish"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 2745991,
+      "texts": 56,
+      "period": "1543-1700",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.kielipankki.fi/corpora/vks/; rebuild/vks_oldliteraryfinnish_source_selection_2026-06-24.tsv; data/raw/VKS_OldLiteraryFinnish/VKS_OldLiteraryFinnish.jsonl; rebuild/rawtree_full_lock_2026-07"
+    },
+    {
       "title": "Vokabulář webový",
       "url": "https://vokabular.ujc.cas.cz/",
       "provenance": "submitted",
@@ -747,11 +3068,29 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "WelshHCWL",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Welsh"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 276280,
+      "texts": 18,
+      "period": "1487-1700",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
       "title": "Wikisource",
       "url": "https://wikisource.org/",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
+        "Armenian",
+        "Azerbaijani",
+        "Breton",
         "Catalan",
         "Croatian",
         "Czech",
@@ -768,16 +3107,48 @@
         "Modern Greek",
         "Polish",
         "Portuguese",
+        "Romanian",
         "Slovenian",
         "Spanish",
-        "Swedish"
+        "Swedish",
+        "Tupi"
       ],
       "encoding": "other",
-      "words": 10833871,
-      "texts": 4270,
+      "words": 11451738,
+      "texts": 4664,
       "period": "1450-1700",
       "status": "active",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "title": "WiN LowGermanIncunabula",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "German"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 27584,
+      "texts": 6,
+      "period": "1480-1480",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+    },
+    {
+      "title": "WolfenbuettelPostil Lithuanian",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "languages": [
+        "Lithuanian"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 131626,
+      "texts": 1,
+      "period": "1573-1573",
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
     },
     {
       "title": "Wolne Lektury",
@@ -817,6 +3188,21 @@
         "end": "ongoing"
       },
       "notes": "A digital library of texts by women from the medieval and early modern periods. TEI XML encoding with extensive metadata. Free and open access."
+    },
+    {
+      "title": "ZlatyFond Slovak",
+      "url": "https://zlatyfond.sme.sk",
+      "languages": [
+        "Slovak"
+      ],
+      "encoding": "other",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-07",
+      "words": 61219,
+      "texts": 14,
+      "period": "1636-1636",
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://zlatyfond.sme.sk/; rebuild/zlatyfond_slovak_source_selection_2026-06-24.tsv; data/raw/ZlatyFond_Slovak/ZlatyFond_Slovak.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     }
   ]
 }
