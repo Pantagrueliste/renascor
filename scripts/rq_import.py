@@ -196,6 +196,10 @@ def main() -> int:
     )]
     con.close()
 
+    excluded = fams.get("exclude", {})
+    excluded_out = [c for c in collections if c in excluded]
+    collections = [c for c in collections if c not in excluded]
+
     assigned: dict[str, list[str]] = {}
     pending: list[str] = []
     for c in collections:
@@ -287,6 +291,8 @@ def main() -> int:
     print(f"Mapped {sum(len(v) for v in assigned.values())} of {len(collections)} "
           f"collections into {len(written) + len(updated)} canonical projects "
           f"({len(updated)} updated, {len(written)} new, {len(skipped)} skipped without URL).")
+    for c in excluded_out:
+        print(f"  excluded: {c} ({excluded[c]})")
     print(f"Leftover collections imported individually: {len(imported_leftovers)}")
     for slug in written:
         print(f"  new:      {slug}")

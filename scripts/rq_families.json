@@ -1,5 +1,8 @@
 {
   "comment": "Canonical family map: RQ Open Corpus collections -> Renascor entries (one entry per documented edition project, all languages merged). First matching rule wins. Unmatched collections go to the pending report.",
+  "exclude": {
+    "AbsentLangFill": "internal RQ harvest bucket (remaining_missing fill for languages absent from other collections), not a corpus collection"
+  },
   "groups": [
     {
       "slug": "eebo-text-creation-partnership",
