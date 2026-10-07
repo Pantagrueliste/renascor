@@ -1,5 +1,5 @@
 {
-  "title": "Calvin Institutio",
+  "title": "The Institutes of the Christian Religion — Parallel Editions Reader (calvin.reformation.nl)",
   "url": "https://calvin.reformation.nl/872-Institutes+of+the+Christian+Religion.",
   "languages": [
     "French",
@@ -9,8 +9,9 @@
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
+  "institution": "Independent personal project of Dmytro Bintsarovskyi (Theological University of Kampen); no institutional backing or licensing statement",
+  "period": "1559-1560",
   "words": 1053747,
   "texts": 162,
-  "period": "1559-1560",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://calvin.reformation.nl/872-Institutes+of+the+Christian+Religion.; rebuild/calvin_institutio_source_selection_2026-06-24.tsv; data/raw/Calvin_Institutio/Calvin_Institutio.jsonl; rebuild/rawtree_"
+  "notes": "Not a critical digital edition: a personal parallel-text reader for John Calvin's Institutes (1559/1560), displaying editions side by side. Latin text from the Barth–Niesel critical edition (1926–52), French from the Baumgartner edition (1888) of the 1560 Institution; also serves English (Allen 1813, Beveridge 1845), Dutch (Sizoo 1931), German (Weber 1936–38), Afrikaans (Simpson 1984) and Russian (1997–99) translations. The site carries no colophon, credits or licence statement; contact given is dbintsarovskyi@tukampen.nl. Caution for reuse: the Barth–Niesel Latin base and the modern translations may themselves be in copyright, despite the 'public domain base text' claim recorded at harvest. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
 }
