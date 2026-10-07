@@ -1,6 +1,6 @@
 {
-  "title": "BibCerTxt",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Biblioteca Virtual Miguel de Cervantes (BVMC)",
+  "url": "https://www.cervantesvirtual.com/",
   "languages": [
     "Spanish"
   ],
@@ -10,5 +10,6 @@
   "date_added": "2026-10-07",
   "words": 2373898,
   "texts": 125,
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "The 331 Spanish texts (comedias like 'El gran teatro del mundo', 'El vellocino de oro', etc.) were harvested from the Biblioteca Virtual Miguel de Cervantes, the major Spanish digital library run with the Universidad de Alicante; filenames follow BVMC URL slugs with year suffixes (e.g. el-gran-teatro-del-mundo-2010.txt). Site live. Open access but individual texts are copyrighted by BVMC (no blanket open licence). Origin verbatim: 'Biblioteca Cervantes'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Fundación Marcelino Botín / Universidad de Alicante"
 }

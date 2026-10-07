@@ -4,15 +4,15 @@ ABU — Bibliothèque Universelle,http://abu.cnam.fr/,French,other,active,Conser
 ADL Danish,https://github.com/kb-dk/public-adl-text-sources,Danish,other,active,,1543-1681,936123,,,,,submitted,2026-10-07
 Amadis in Translation (Digital Amadis),http://amadis.newtfire.org/,Spanish,tei,active,"University of Pittsburgh at Greensburg (Stacey Triplette, Elisa Beshero-Bondar) and Universidade de Santiago de Compostela (Helena Bermúdez Sabel)",1547-1547,97420,,,,,submitted,2026-10-07
 Azerbaijani WS,https://az.wikisource.org,Azerbaijani,other,active,,1536-1536,122211,,,,,submitted,2026-10-07
-BalkanSlavic Damaskini,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Bulgarian,other,active,,1650-1650,44047,,,,,submitted,2026-10-07
+Annotated Corpus of Pre-Standardized Balkan Slavic Literature 1.1,https://www.clarin.si/repository/xmlui/handle/11356/1441,Bulgarian,other,archived,"ZuCoSlaV project, Ivan Simko, University of Zurich, hosted at CLARIN.SI",1650-1650,44047,,,,,submitted,2026-10-07
 Bartoli Correspondence,https://zenodo.org/records/14559525,Italian,other,active,,1562-1572,1371054,,,,,submitted,2026-10-07
 BasqueKG,https://klasikoak.armiarma.eus,Basque,other,active,,1545-1696,818721,,,,,submitted,2026-10-07
-BDPN Novohispano,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1630-1690,53333,,,,,submitted,2026-10-07
+Biblioteca Digital del Pensamiento Novohispano (BDPN),https://github.com/ficino2021/bdpn,Spanish,other,active,UNAM (Mexico); recovered GitHub repository ficino2021/bdpn,1630-1690,53333,,,,,submitted,2026-10-07
 Belarusian Skaryna,https://knihi.com/Francysk_Skaryna,Belarusian,other,active,,1517-1519,1775,,,,,submitted,2026-10-07
 Bertonio Aymara,https://github.com/amosbatto/native-dics,Aymara,other,active,,1612-1612,74082,,,,,submitted,2026-10-07
 BetaMasaheft Geez,https://github.com/BetaMasaheft/Works,Ge'ez,other,active,,1555-1555,51400,,,,,submitted,2026-10-07
 Bibliotheca Augustana,https://www.hs-augsburg.de/~harsch/,Latin,other,active,Hochschule Augsburg,1480-1650,195974,,,,,submitted,2026-10-07
-BibCerTxt,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,,2373898,,,,,submitted,2026-10-07
+Biblioteca Virtual Miguel de Cervantes (BVMC),https://www.cervantesvirtual.com/,Spanish,other,active,Fundación Marcelino Botín / Universidad de Alicante,,2373898,,,,,submitted,2026-10-07
 Biblioteca Italiana,http://www.bibliotecaitaliana.it/,Italian; Latin,tei,active,,1460-1650,29844182,,,,,submitted,2026-10-07
 Bokselskap,https://bokselskap.no/,Norwegian,other,active,,1571-1700,264577,,,,,submitted,2026-10-07
 BrievenAlsBuit,https://brievenalsbuit.ivdnt.org,Dutch,other,active,,1661-1675,421272,,,,,submitted,2026-10-07
@@ -21,32 +21,32 @@ BVH Epistemon Print,https://github.com/lb42/tei-fr,French,other,active,,1529-161
 CAMENA,https://mateo.uni-mannheim.de/camenahtdocs/camena.html,Latin,other,active,Universität Mannheim (CAMENA / CERA project),1500-1699,40551750,,,,,submitted,2026-10-07
 Campanella ATC,https://www.iliesi.cnr.it/ATC,Italian; Latin,other,active,,1595-1635,703209,,,,,submitted,2026-10-07
 The Casebooks Project,https://casebooks.lib.cam.ac.uk/,English,other,archived,University of Cambridge,1596-1640,1710446,,,,,submitted,2026-10-07
-Cavriana Correspondence,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Italian,other,active,,1580-1580,45188,,,,,submitted,2026-10-07
+Digital Edition of Filippo Cavriana's Correspondence,https://github.com/Pantagrueliste/CavrianaCorr,Italian,tei,active,"Pantagrueliste (research project on Cavriana correspondence), GitHub-hosted TEI edition",1580-1580,45188,,,,,submitted,2026-10-07
 CELT Corpus of Electronic Texts,https://celt.ucc.ie/,English; Irish; Latin,other,active,University College Cork,1454-1698,1831057,,,,,submitted,2026-10-07
-CET Teatro16c Portuguese,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Portuguese,other,active,,1540-1540,676876,,,,,submitted,2026-10-07
+Teatro de Autores Portugueses do Séc. XVI,http://cet-e-quinhentos.com/,Portuguese,other,archived,"Centro de Estudos de Teatro (CET), Faculdade de Letras da Universidade de Lisboa, dir. José Camões (FCT project POCTI/ELT/33464/2000)",1540-1540,676876,,,,,submitted,2026-10-07
 CHM Mapudungun,https://benmolineaux.github.io,Mapudungun,other,active,,1606-1643,25494,,,,,submitted,2026-10-07
-CIDTC,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Czech; Dutch; French; German; Italian; Latin; Polish; Spanish,other,active,,1500-1549,1911266,,,,,submitted,2026-10-07
+Dantiscus' Correspondence,https://editions.al.uw.edu.pl/exist/apps/dantiscus/,Czech; Dutch; French; German; Italian; Latin; Polish; Spanish,tei,active,"Faculty of 'Artes Liberales', University of Warsaw (editions.al.uw.edu.pl)",1500-1549,1911266,,,,,submitted,2026-10-07
 Epistolarium (CKCC),https://ckcc.huygens.knaw.nl/,Dutch; English; French; German; Italian; Latin; Spanish,other,active,Huygens ING (KNAW),1629-1699,7946427,,,,,submitted,2026-10-07
-CoDiAJe JudeoSpanish,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Ladino,other,active,,1564-1679,30953,,,,,submitted,2026-10-07
-Colonia,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Portuguese,other,active,,1500-1691,1454490,,,,,submitted,2026-10-07
+CoDiAJe — The Annotated Diachronic Corpus of Judeo-Spanish,https://aldina-quintana.huji.ac.il/codiaje-annotated-diachronic-corpus-judeo-spanish,Ladino,tei,active,"Aldina Quintana, Hebrew University of Jerusalem, with Maarten Janssen (Charles University) and Josep M. Fontana (UPF); ISF grants 473/11, 486/19",1564-1679,30953,,,,,submitted,2026-10-07
+Colonia — Corpus of Classical (Colonial) Portuguese,https://www.linguateca.pt/acesso/lista_autores_colonia.html,Portuguese,other,archived,"Linguateca / CorporaVM, corpus directed by Diana Santos",1500-1691,1454490,,,,,submitted,2026-10-07
 Controversia Confessio,https://www.controversia-et-confessio.de,German; Latin,other,active,,1548-1575,1075246,,,,,submitted,2026-10-07
-Coqalane,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French,other,active,,1508-1595,83657,,,,,submitted,2026-10-07
-Cornish GwreansAnBys,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Cornish,other,active,,1611-1611,12560,,,,,submitted,2026-10-07
+GIT-Coqalane — Corpus TEI-XML des coq-à-l'âne,https://gitlab.huma-num.fr/ccanoarnedo/GIT-Coqalane,French,tei,active,"Cyril Cano-Arnedo, GitLab Huma-Num",1508-1595,83657,,,,,submitted,2026-10-07
+Taklow Kernewek ('Cornish Things') — Cornish language text resources,https://taklowkernewek.neocities.org/,Cornish,other,active,"Taklow Kernewek (Tony Hakoyama), Neocities personal project; text after Stokes 1861 / Jordan",1611-1611,12560,,,,,submitted,2026-10-07
 Cornish Tregear,https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche,Cornish,other,active,,1556-1556,38078,,,,,submitted,2026-10-07
 Corpus Corporum,https://mlat.uzh.ch/,Latin,other,active,Universität Zürich,1450-1696,19091970,,,,,submitted,2026-10-07
-CORPUS17 French,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French,other,active,,1622-1700,149810,,,,,submitted,2026-10-07
+CORPUS17 — 17th c. French texts corpus,https://github.com/e-ditiones/CORPUS17,French,tei,active,"e-ditiones (Simon Gabay), GitHub open repo",1622-1700,149810,,,,,submitted,2026-10-07
 CretanGreek snhell,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Modern Greek,other,active,,1590-1655,1736,,,,,submitted,2026-10-07
 CroALa (Croatiae Auctores Latini),https://croala.ffzg.unizg.hr/,Latin,other,active,University of Zagreb,1450-1700,3545403,,,,,submitted,2026-10-07
-Czech Kralice1613,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Czech,other,active,,1613-1613,597503,,,,,submitted,2026-10-07
-Czech tei2019,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Czech,other,active,,1503-1503,69891,,,,,submitted,2026-10-07
-DanishPostils,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Danish,other,active,,1540-1635,2289816,,,,,submitted,2026-10-07
+Bible-Corpus — multilingual parallel corpus of Bible translations,https://github.com/christos-c/bible-corpus,Czech,other,active,"Christos Christodoulopoulos (christos-c), GitHub open repo",1613-1613,597503,,,,,submitted,2026-10-07
+tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový),https://github.com/CzechLanguageInstitute/tei2019,Czech,tei,active,"Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",1503-1503,69891,,,,,submitted,2026-10-07
+Early Modern Danish Postils v0.2.0,https://zenodo.org/records/7113232,Danish,other,archived,"Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)",1540-1635,2289816,,,,,submitted,2026-10-07
 Digitale Bibliotheek voor de Nederlandse Letteren (DBNL),https://www.dbnl.org/,Dutch; Frisian,other,active,,1477-1700,21440504,,,,,submitted,2026-10-07
 A Social Edition of the Devonshire MS (BL Add. MS 17492),https://en.wikibooks.org/wiki/The_Devonshire_Manuscript,English,tei,archived,University of Victoria (editorial team led by Ray Siemens); print edition by Iter & ACMRS Press,c. 1539-1547,,England,,,{'start': 2004},submitted,2026-10-07
 Diacronia Romanian,https://www.diacronia.ro,Romanian,other,active,,1580-1600,5774,,,,,submitted,2026-10-07
-DIACU Bulgarian,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Bulgarian,other,active,,1450-1650,221171,,,,,submitted,2026-10-07
-Diakorp Czech,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Czech,other,active,,1492-1662,425831,,,,,submitted,2026-10-07
-DiBiLit German,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1517-1696,2135890,,,,,submitted,2026-10-07
-DiBiPhil Renaissance,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,German,other,active,,1530-1612,175616,,,,,submitted,2026-10-07
+DIACU — A dataset for the DIAchronic analysis of Church Slavonic,https://github.com/MariaCassese/DIACU,Bulgarian,other,active,Maria Cassese et al. (GitHub repo aggregating Sofia University historical-dictionary / Cyrillomethodiana texts),1450-1650,221171,,,,,submitted,2026-10-07
+Diakorp v6: diachronic corpus of Czech,https://lindat.mff.cuni.cz/repository/items/c7544e98-f017-4f4f-ad21-048c692c3bc7,Czech,other,archived,"Kučera, Řehořková, Stluka — Institute of the Czech National Corpus (ÚČNK), Charles University, Prague; deposited on LINDAT/CLARIAH-CZ",1492-1662,425831,,,,,submitted,2026-10-07
+"DiBiLit-Korpus (Digitale Bibliothek, Literatur)",https://github.com/deutschestextarchiv/DiBiLit-Korpus,German,tei,active,"Deutsches Textarchiv / BBAW (CLARIAH-DE, BMBF); source texts from Zeno.org / TextGrid Repository",1517-1696,2135890,,,,,submitted,2026-10-07
+DiBiPhil — Corpus of philosophical texts from Zeno's Digital Library,https://github.com/deutschestextarchiv/DiBiPhil,German,tei,active,Deutsches Textarchiv (BBAW); source texts from Zeno.org's Digitale Bibliothek,1530-1612,175616,,,,,submitted,2026-10-07
 DIGILIB Armenian,https://digilib.aua.am/en,Armenian,other,active,,1619-1699,532046,,,,,submitted,2026-10-07
 The Digital Donne Project,https://digitaldonne.drc.usask.ca/,English,other,active,Variorum Edition of the Poetry of John Donne (Texas A&M / University of Saskatchewan),1611-1611,74553,,,,,submitted,2026-10-07
 DISCO SpanishSonnets,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,other,active,,1600-1600,76564,,,,,submitted,2026-10-07

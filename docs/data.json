@@ -86,19 +86,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://az.wikisource.org; rebuild/azerbaijani_ws_source_selection_2026-06-24.tsv; data/raw/Azerbaijani_WS/Azerbaijani_WS.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     },
     {
-      "title": "BalkanSlavic Damaskini",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Annotated Corpus of Pre-Standardized Balkan Slavic Literature 1.1",
+      "url": "https://www.clarin.si/repository/xmlui/handle/11356/1441",
       "languages": [
         "Bulgarian"
       ],
       "encoding": "other",
-      "status": "active",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 44047,
       "texts": 1,
       "period": "1650-1650",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "The 23-text Damaskini subcorpus (16th-19th c. Balkan Slavic, Bulgarian/Macedonian/Torlak, ~53k tokens) is exactly the resource published at CLARIN.SI handle 11356/1441 (v1.1, 2021) by the SNSF-funded ZuCoSlaV project of Ivan Simko (University of Zurich, Slavic Seminary). Mirror on UZH GitLab: https://gitlab.uzh.ch/uzh-slavic-corpora/pre-standardized-balkan-slavic-literature. Formats are TSV/CoNLL-U/plain text (not TEI). License: CC BY-SA 4.0. Origin verbatim: 'Damaskini (pre-standard Balkan Slavic), 17th c.'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "ZuCoSlaV project, Ivan Simko, University of Zurich, hosted at CLARIN.SI"
     },
     {
       "title": "Bartoli Correspondence",
@@ -131,8 +132,8 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://klasikoak.armiarma.eus/; data/raw/basque_kg/KG-tei-0612/; rebuild/basque_kg_raw_lock_2026-06-13.tsv; rebuild/basque_kg_source_selection_2026-06-13.tsv; rebuild/basque_kg_source_native_audit_20"
     },
     {
-      "title": "BDPN Novohispano",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Biblioteca Digital del Pensamiento Novohispano (BDPN)",
+      "url": "https://github.com/ficino2021/bdpn",
       "languages": [
         "Spanish"
       ],
@@ -143,7 +144,8 @@
       "words": 53333,
       "texts": 9,
       "period": "1630-1690",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th c. Mexican texts (scientific/astrological discourse, cartas, lunarios). The GitHub repository ficino2021/bdpn (CC0, live 200) preserved the corpus files after the original UNAM platform went offline; the official site bdpn.unam.mx/es is also live. The collected filenames (Almanaque y Lunario, Discursos astronomicos Bonilla, etc.) match BDPN titles. Origin verbatim: 'BDPN novohispano: Almanaque y Lunario (última revisión) (1) (1685)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "UNAM (Mexico); recovered GitHub repository ficino2021/bdpn"
     },
     {
       "title": "Belarusian Skaryna",
@@ -207,8 +209,8 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
     },
     {
-      "title": "BibCerTxt",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Biblioteca Virtual Miguel de Cervantes (BVMC)",
+      "url": "https://www.cervantesvirtual.com/",
       "languages": [
         "Spanish"
       ],
@@ -218,7 +220,8 @@
       "date_added": "2026-10-07",
       "words": 2373898,
       "texts": 125,
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "The 331 Spanish texts (comedias like 'El gran teatro del mundo', 'El vellocino de oro', etc.) were harvested from the Biblioteca Virtual Miguel de Cervantes, the major Spanish digital library run with the Universidad de Alicante; filenames follow BVMC URL slugs with year suffixes (e.g. el-gran-teatro-del-mundo-2010.txt). Site live. Open access but individual texts are copyrighted by BVMC (no blanket open licence). Origin verbatim: 'Biblioteca Cervantes'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Fundación Marcelino Botín / Universidad de Alicante"
     },
     {
       "title": "Biblioteca Italiana",
@@ -348,19 +351,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "Cavriana Correspondence",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Digital Edition of Filippo Cavriana's Correspondence",
+      "url": "https://github.com/Pantagrueliste/CavrianaCorr",
       "languages": [
         "Italian"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 45188,
       "texts": 1,
       "period": "1580-1580",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "The repository Pantagrueliste/CavrianaCorr (live 200) is a digital TEI edition of Filippo Cavriana's late-16th-century correspondence, described as 'Digital Edition of Filippo Cavriana's Correspondence'; licence CC BY 4.0. Matches the collected 2-text collection exactly. Origin verbatim: 'Cavriana correspondence (late 16th c)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Pantagrueliste (research project on Cavriana correspondence), GitHub-hosted TEI edition"
     },
     {
       "title": "CELT Corpus of Electronic Texts",
@@ -381,19 +385,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "CET Teatro16c Portuguese",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Teatro de Autores Portugueses do Séc. XVI",
+      "url": "http://cet-e-quinhentos.com/",
       "languages": [
         "Portuguese"
       ],
       "encoding": "other",
-      "status": "active",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 676876,
       "texts": 83,
       "period": "1540-1540",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Textual database of critical editions of 16th-century Portuguese theatre by the Centro de Estudos de Teatro (ULisboa). The live obras page (ver http://cet-e-quinhentos.com/obras, 200) lists the exact collected autos, including 'Auto de Santiago' by Afonso Álvares and 'Auto das Padeiras' (Anónimo). HTML site with critical apparatus/glossary/facsimiles (not TEI). Licence not stated. Origin verbatim: 'CET 16c PT theatre: Afonso Álvares — Auto de Santiago'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Centro de Estudos de Teatro (CET), Faculdade de Letras da Universidade de Lisboa, dir. José Camões (FCT project POCTI/ELT/33464/2000)"
     },
     {
       "title": "CHM Mapudungun",
@@ -411,8 +416,8 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://benmolineaux.github.io/; rebuild/chm_mapudungun_source_selection_2026-06-24.tsv; data/raw/CHM_Mapudungun/CHM_Mapudungun.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     },
     {
-      "title": "CIDTC",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Dantiscus' Correspondence",
+      "url": "https://editions.al.uw.edu.pl/exist/apps/dantiscus/",
       "languages": [
         "Czech",
         "Dutch",
@@ -423,14 +428,15 @@
         "Polish",
         "Spanish"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 1911266,
       "texts": 4614,
       "period": "1500-1549",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "CIDTC is the digital critical edition of the correspondence of Johannes Dantiscus (1485-1548), royal Polish diplomat, published online at the University of Warsaw's editions.al.uw.edu.pl on an eXist-db/TEI-Publisher stack. The root URL shows a bare eXist-db landing page; the edition app itself lives at /exist/apps/dantiscus/ (verified 200, title 'Dantiscus' Correspondence'), serving TEI P5 XML files with IDs of the form IDLxxxxx.xml exactly as the origin indicates. Origin verbatim: 'CIDTC editions.al.uw.edu.pl -> IDL5422.xml'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Faculty of 'Artes Liberales', University of Warsaw (editions.al.uw.edu.pl)"
     },
     {
       "title": "Epistolarium (CKCC)",
@@ -455,34 +461,36 @@
       "notes": "The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://ckcc.huygens.knaw.nl/; data/raw/ckcc/letters.jsonl; rebuild/ckcc_raw_lock_2026-06-13.tsv; rebuild/ckcc_source_native_audit_2026-06-13.csv; scripts/overnight/ckcc_harvest.py; rebuild/rawtree_ful"
     },
     {
-      "title": "CoDiAJe JudeoSpanish",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "CoDiAJe — The Annotated Diachronic Corpus of Judeo-Spanish",
+      "url": "https://aldina-quintana.huji.ac.il/codiaje-annotated-diachronic-corpus-judeo-spanish",
       "languages": [
         "Ladino"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 30953,
       "texts": 6,
       "period": "1564-1679",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://lindat.mff.cuni.cz/services/teitok-live/codiaje/; rebuild/codiaje_judeospanish_source_selection_2026-06-24.tsv; data/raw/CoDiAJe_JudeoSpanish/CoDiAJe_JudeoSpanish.jsonl; rebuild/rawtree_full_l"
+      "notes": "Multi-alphabetic annotated diachronic corpus of Judeo-Spanish (14th-21st c.) built in TEITOK (TEI-XML over CQP); hosted with a live TEITOK interface at LINDAT/CLARIN (https://lindat.mff.cuni.cz/services/teitok-live/codiaje/index.php, verified 200). Described by Aldina Quintana in Scriptum Digital 9 (2020). Origin verbatim: 'CoDiAJe (Corpus Diacronico del Judeoespanol), LINDAT/TEITOK'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Aldina Quintana, Hebrew University of Jerusalem, with Maarten Janssen (Charles University) and Josep M. Fontana (UPF); ISF grants 473/11, 486/19"
     },
     {
-      "title": "Colonia",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Colonia — Corpus of Classical (Colonial) Portuguese",
+      "url": "https://www.linguateca.pt/acesso/lista_autores_colonia.html",
       "languages": [
         "Portuguese"
       ],
       "encoding": "other",
-      "status": "active",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 1454490,
       "texts": 20,
       "period": "1500-1691",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Colonia is the diachronic corpus of classical Portuguese (16th-20th c.) of the AC/DC annotation project at Linguateca (Diana Santos). The live Linguateca author/works list for Colonia enumerates exactly the collected works — Anchieta, Pero Vaz de Caminha, Gandavo, Vieira sermons/letters, Camões, Guerr(a?)e(d)eiro, Melo — matching collection filenames (caminha1500, gandavo1576, vieira1655...). The corpus's own site (corporavm.uni-koeln.de/colonia) is dead; Linguateca's page remains the live official listing. Origin verbatim: 'Colonia (Hist. Portuguese)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Linguateca / CorporaVM, corpus directed by Diana Santos"
     },
     {
       "title": "Controversia Confessio",
@@ -501,23 +509,24 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.controversia-et-confessio.de/; rebuild/controversia_confessio_source_selection_2026-06-24.tsv; data/raw/Controversia_Confessio/Controversia_Confessio.jsonl; rebuild/rawtree_full_lock_2026-"
     },
     {
-      "title": "Coqalane",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "GIT-Coqalane — Corpus TEI-XML des coq-à-l'âne",
+      "url": "https://gitlab.huma-num.fr/ccanoarnedo/GIT-Coqalane",
       "languages": [
         "French"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 83657,
       "texts": 57,
       "period": "1508-1595",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Public Huma-Num GitLab repository 'GIT-Coqalane' by Cyril Cano-Arnedo: TEI-XML corpus of the Renaissance coq-à-l'âne epigram genre (poems 1530-1650), one TEI file per poem, reuse under CC BY-NC-SA 4.0. The collected files (CAA13-Rescript_Esprit_Troublé.xml etc.) match its file naming. Origin verbatim: 'Huma-Num GitLab Coqalane: CAA13-Rescript_Esprit_Troublé.xml'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Cyril Cano-Arnedo, GitLab Huma-Num"
     },
     {
-      "title": "Cornish GwreansAnBys",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Taklow Kernewek ('Cornish Things') — Cornish language text resources",
+      "url": "https://taklowkernewek.neocities.org/",
       "languages": [
         "Cornish"
       ],
@@ -528,7 +537,8 @@
       "words": 12560,
       "texts": 1,
       "period": "1611-1611",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Taklow Kernewek's Neocities site hosts digitized Middle/Late Cornish texts including 'Gwreans an Bys' (The Creation of the World, Cornish ordinance/cycle play, MS 1611) in plain text, as confirmed by the live files https://taklowkernewek.neocities.org/GwreansAnBys_segmented.txt and .../kernewekFSS/GwreansAnBysConvertedSWF.txt (after the transcriptions by W. Stokes and N. Jordan). Origin verbatim: 'Gwreans an Bys (Cornish, MS 1611)'. Licence not stated on site. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Taklow Kernewek (Tony Hakoyama), Neocities personal project; text after Stokes 1861 / Jordan"
     },
     {
       "title": "Cornish Tregear",
@@ -562,19 +572,20 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "CORPUS17 French",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "CORPUS17 — 17th c. French texts corpus",
+      "url": "https://github.com/e-ditiones/CORPUS17",
       "languages": [
         "French"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 149810,
       "texts": 15,
       "period": "1622-1700",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "CORPUS17 is Simon Gabay's open GitHub corpus of 17th-century French texts encoded in diplomatic TEI (e-ditiones/CORPUS17, live 200, description '17th c. French texts corpus'). The 120 collected texts (dates 1624-1687 etc.) mirror its TEI files. No explicit licence in repo metadata listed by the GitHub API. Origin verbatim: 'CORPUS17:  (1624)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "e-ditiones (Simon Gabay), GitHub open repo"
     },
     {
       "title": "CretanGreek snhell",
@@ -589,7 +600,7 @@
       "words": 1736,
       "texts": 3,
       "period": "1590-1655",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://www.snhell.gr/anthology/; rebuild/cretangreek_snhell_source_selection_2026-06-24.tsv; data/raw/CretanGreek_snhell/CretanGreek_snhell.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://www.snhell.gr/anthology/; rebuild/cretangreek_snhell_source_selection_2026-06-24.tsv; data/raw/CretanGreek_snhell/CretanGreek_snhell.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv. Original harvest trace: Spoudastirio Neou Ellinismou (snhell.gr) anthology via Wayback; ed. Kritiki Lyriki Poiisi, Ermis 1999"
     },
     {
       "title": "CroALa (Croatiae Auctores Latini)",
@@ -608,8 +619,8 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
-      "title": "Czech Kralice1613",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Bible-Corpus — multilingual parallel corpus of Bible translations",
+      "url": "https://github.com/christos-c/bible-corpus",
       "languages": [
         "Czech"
       ],
@@ -620,37 +631,40 @@
       "words": 597503,
       "texts": 66,
       "period": "1613-1613",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "The 66 collected books of the Kralice Bible 1613 (books GEN, EXO, LEV... 6 texts retained after filtering with in_core/is_dup) were extracted from the Bible Database christos-c/bible-corpus (live 200), which contains bibles/Czech.xml (the Kralice translation) among parallel Bible translations. Corpus licence CC0-1.0 (Bible Database). Origin verbatim: 'Bible kralická 1613: GEN'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Christos Christodoulopoulos (christos-c), GitHub open repo"
     },
     {
-      "title": "Czech tei2019",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový)",
+      "url": "https://github.com/CzechLanguageInstitute/tei2019",
       "languages": [
         "Czech"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 69891,
       "texts": 1,
       "period": "1503-1503",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Repository accompanying the TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions' (Boris Lehečka, ÚJČ AV ČR), containing ~240 digital editions of Old/Middle Czech texts (1300-1800) published in Vokabulář webový (https://vokabular.ujc.cas.cz/, live 200). 'LekJadroBrn' = the edition of 'Lék jádro brněnské' (Knihy lékařské, 1502-1503), matching the collected file cz_lekjadrobrn_1503.txt. Origin verbatim: 'LekJadroBrn (Knihy lékařské, 1502-1503)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka"
     },
     {
-      "title": "DanishPostils",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Early Modern Danish Postils v0.2.0",
+      "url": "https://zenodo.org/records/7113232",
       "languages": [
         "Danish"
       ],
       "encoding": "other",
-      "status": "active",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 2289816,
       "texts": 13,
       "period": "1540-1635",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Verified via the Zenodo API: record 7479443 (v0.2.0) is 'Early Modern Danish Postils' by Jonas Kjøller-Rasmussen (University of Copenhagen), concept DOI 10.5281/zenodo.7113232 — the canonical project URL; the specific record cited in the origin is https://zenodo.org/records/7479443 (also live). 13 texts, plain text distribution. License MIT. Origin verbatim: 'Zenodo DOI 10.5281/zenodo.7479443'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)"
     },
     {
       "title": "Digitale Bibliotheek voor de Nederlandse Letteren (DBNL)",
@@ -702,8 +716,8 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.diacronia.ro; rebuild/diacronia_romanian_source_selection_2026-06-24.tsv; data/raw/Diacronia_Romanian/Diacronia_Romanian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     },
     {
-      "title": "DIACU Bulgarian",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "DIACU — A dataset for the DIAchronic analysis of Church Slavonic",
+      "url": "https://github.com/MariaCassese/DIACU",
       "languages": [
         "Bulgarian"
       ],
@@ -714,52 +728,56 @@
       "words": 221171,
       "texts": 24,
       "period": "1450-1650",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "DIACU v1.0 (GitHub repo live 200, description 'A dataset for the DIAchronic analysis of Church Slavonic, version 1.0') aggregates documents from Old Church Slavonic to Ruthenian, including 15th-century Bulgarian manuscripts distributed by Sofia University's historical dictionary / Cyrillomethodiana collections, matching the Late-15th-c. Bulgarian homilies of the collection (Homilia Domini nostri Iesu Christi de quid et quo..., Vita Hilarionis Moglen...). 3 texts retained. No explicit licence in repo metadata. Origin verbatim: 'DIACU: Homilia Domini nostril Iesu Christi de quid et quo tempore creavit (Last quarter of the 15th c.)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Maria Cassese et al. (GitHub repo aggregating Sofia University historical-dictionary / Cyrillomethodiana texts)"
     },
     {
-      "title": "Diakorp Czech",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "Diakorp v6: diachronic corpus of Czech",
+      "url": "https://lindat.mff.cuni.cz/repository/items/c7544e98-f017-4f4f-ad21-048c692c3bc7",
       "languages": [
         "Czech"
       ],
       "encoding": "other",
-      "status": "active",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 425831,
       "texts": 21,
       "period": "1492-1662",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Diakorp v6 (~3.45M words, 116 documents, 14th-20th c., normalized transcriptions with original spellings) is officially deposited on LINDAT/CLARIAH-CZ with PID http://hdl.handle.net/11234/1-5413 (verified 200 on the LINDAT landing page), distributed in a CQP-vertical format (not TEI). The 7 collected texts (Kabátník's Cesta z Čech..., Komenský's Labyrint...) are among its 116 source documents. Licence CC BY-NC-SA 4.0. Origin verbatim: 'Diakorp: Kabátník, Martin: Cesta z Čech do Jeruzaléma a Egypta (KapPr (1492)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Kučera, Řehořková, Stluka — Institute of the Czech National Corpus (ÚČNK), Charles University, Prague; deposited on LINDAT/CLARIAH-CZ"
     },
     {
-      "title": "DiBiLit German",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "DiBiLit-Korpus (Digitale Bibliothek, Literatur)",
+      "url": "https://github.com/deutschestextarchiv/DiBiLit-Korpus",
       "languages": [
         "German"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 2135890,
       "texts": 47,
       "period": "1517-1696",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "DiBiLit is the BBAW/DTA homogenized corpus of 2,000+ texts derived from the 'Digitale Bibliothek' (DirectMedia/Zeno.org), DTABf-encoded (TEI P5 subformat), CC BY-SA 4.0, with genre folders including drama; presentation page https://www.deutschestextarchiv.de/dibilit/ (live 200). The 24 collected early German drama/Schwank texts (ayrer: Sidea, Theseus; gengenbach; opitz) match its drama files. Origin verbatim: 'DiBiLit: Sidea (ayrer, ~1600)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Deutsches Textarchiv / BBAW (CLARIAH-DE, BMBF); source texts from Zeno.org / TextGrid Repository"
     },
     {
-      "title": "DiBiPhil Renaissance",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+      "title": "DiBiPhil — Corpus of philosophical texts from Zeno's Digital Library",
+      "url": "https://github.com/deutschestextarchiv/DiBiPhil",
       "languages": [
         "German"
       ],
-      "encoding": "other",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 175616,
       "texts": 3,
       "period": "1530-1612",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+      "notes": "Companion corpus of the DTA derived from Zeno.org's Digitale Bibliothek philosophical writings, DTABf/TEI-encoding, licence CC BY-SA 4.0 (repo live 200; presentation page https://www.deutschestextarchiv.de/dibiphil/ live 200). The 40 collected texts match, e.g. Böhme's 'Aurora oder Morgenröte im Aufgang' (1612) and Paracelsus treatises. Origin verbatim: 'DiBiPhil: Böhme, Aurora oder Morgenröte im Aufgang (1612)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Deutsches Textarchiv (BBAW); source texts from Zeno.org's Digitale Bibliothek"
     },
     {
       "title": "DIGILIB Armenian",

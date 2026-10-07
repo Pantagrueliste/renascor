@@ -1,15 +1,16 @@
 {
-  "title": "CET Teatro16c Portuguese",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Teatro de Autores Portugueses do Séc. XVI",
+  "url": "http://cet-e-quinhentos.com/",
   "languages": [
     "Portuguese"
   ],
   "encoding": "other",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 676876,
   "texts": 83,
   "period": "1540-1540",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "Textual database of critical editions of 16th-century Portuguese theatre by the Centro de Estudos de Teatro (ULisboa). The live obras page (ver http://cet-e-quinhentos.com/obras, 200) lists the exact collected autos, including 'Auto de Santiago' by Afonso Álvares and 'Auto das Padeiras' (Anónimo). HTML site with critical apparatus/glossary/facsimiles (not TEI). Licence not stated. Origin verbatim: 'CET 16c PT theatre: Afonso Álvares — Auto de Santiago'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Centro de Estudos de Teatro (CET), Faculdade de Letras da Universidade de Lisboa, dir. José Camões (FCT project POCTI/ELT/33464/2000)"
 }

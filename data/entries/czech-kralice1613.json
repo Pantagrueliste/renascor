@@ -1,6 +1,6 @@
 {
-  "title": "Czech Kralice1613",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Bible-Corpus — multilingual parallel corpus of Bible translations",
+  "url": "https://github.com/christos-c/bible-corpus",
   "languages": [
     "Czech"
   ],
@@ -11,5 +11,6 @@
   "words": 597503,
   "texts": 66,
   "period": "1613-1613",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "The 66 collected books of the Kralice Bible 1613 (books GEN, EXO, LEV... 6 texts retained after filtering with in_core/is_dup) were extracted from the Bible Database christos-c/bible-corpus (live 200), which contains bibles/Czech.xml (the Kralice translation) among parallel Bible translations. Corpus licence CC0-1.0 (Bible Database). Origin verbatim: 'Bible kralická 1613: GEN'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Christos Christodoulopoulos (christos-c), GitHub open repo"
 }

@@ -573,6 +573,96 @@
       "title": "Postil Time Machine (PosTiMe) — digital edition of the Old Lithuanian Postilles incl. the Wolfenbuettel Postille of 1573",
       "url": "https://dh.phil-fak.uni-koeln.de/forschung/abgeschlossene-projekte/postil-time-machine-postime",
       "institution": "Goethe-Universitaet Frankfurt (Jolanta Gelumbeckaite) and Universitaet zu Koeln (Oyvind Eide); DFG 443985248; Wolfenbuettel ms. Cod. Guelf. 11.2 Aug. 2 at the HAB"
+    },
+    "BalkanSlavic_Damaskini": {
+      "title": "Annotated Corpus of Pre-Standardized Balkan Slavic Literature 1.1",
+      "url": "https://www.clarin.si/repository/xmlui/handle/11356/1441",
+      "institution": "ZuCoSlaV project, Ivan Simko, University of Zurich, hosted at CLARIN.SI"
+    },
+    "BDPN_Novohispano": {
+      "title": "Biblioteca Digital del Pensamiento Novohispano (BDPN)",
+      "url": "https://github.com/ficino2021/bdpn",
+      "institution": "UNAM (Mexico); recovered GitHub repository ficino2021/bdpn"
+    },
+    "BibCerTxt": {
+      "title": "Biblioteca Virtual Miguel de Cervantes (BVMC)",
+      "url": "https://www.cervantesvirtual.com/",
+      "institution": "Fundación Marcelino Botín / Universidad de Alicante"
+    },
+    "Cavriana_Correspondence": {
+      "title": "Digital Edition of Filippo Cavriana's Correspondence",
+      "url": "https://github.com/Pantagrueliste/CavrianaCorr",
+      "institution": "Pantagrueliste (research project on Cavriana correspondence), GitHub-hosted TEI edition"
+    },
+    "CET_Teatro16c_Portuguese": {
+      "title": "Teatro de Autores Portugueses do Séc. XVI",
+      "url": "http://cet-e-quinhentos.com/",
+      "institution": "Centro de Estudos de Teatro (CET), Faculdade de Letras da Universidade de Lisboa, dir. José Camões (FCT project POCTI/ELT/33464/2000)"
+    },
+    "CIDTC": {
+      "title": "Dantiscus' Correspondence",
+      "url": "https://editions.al.uw.edu.pl/exist/apps/dantiscus/",
+      "institution": "Faculty of 'Artes Liberales', University of Warsaw (editions.al.uw.edu.pl)"
+    },
+    "CoDiAJe_JudeoSpanish": {
+      "title": "CoDiAJe — The Annotated Diachronic Corpus of Judeo-Spanish",
+      "url": "https://aldina-quintana.huji.ac.il/codiaje-annotated-diachronic-corpus-judeo-spanish",
+      "institution": "Aldina Quintana, Hebrew University of Jerusalem, with Maarten Janssen (Charles University) and Josep M. Fontana (UPF); ISF grants 473/11, 486/19"
+    },
+    "Colonia": {
+      "title": "Colonia — Corpus of Classical (Colonial) Portuguese",
+      "url": "https://www.linguateca.pt/acesso/lista_autores_colonia.html",
+      "institution": "Linguateca / CorporaVM, corpus directed by Diana Santos"
+    },
+    "Coqalane": {
+      "title": "GIT-Coqalane — Corpus TEI-XML des coq-à-l'âne",
+      "url": "https://gitlab.huma-num.fr/ccanoarnedo/GIT-Coqalane",
+      "institution": "Cyril Cano-Arnedo, GitLab Huma-Num"
+    },
+    "Cornish_GwreansAnBys": {
+      "title": "Taklow Kernewek ('Cornish Things') — Cornish language text resources",
+      "url": "https://taklowkernewek.neocities.org/",
+      "institution": "Taklow Kernewek (Tony Hakoyama), Neocities personal project; text after Stokes 1861 / Jordan"
+    },
+    "CORPUS17_French": {
+      "title": "CORPUS17 — 17th c. French texts corpus",
+      "url": "https://github.com/e-ditiones/CORPUS17",
+      "institution": "e-ditiones (Simon Gabay), GitHub open repo"
+    },
+    "Czech_Kralice1613": {
+      "title": "Bible-Corpus — multilingual parallel corpus of Bible translations",
+      "url": "https://github.com/christos-c/bible-corpus",
+      "institution": "Christos Christodoulopoulos (christos-c), GitHub open repo"
+    },
+    "Czech_tei2019": {
+      "title": "tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový)",
+      "url": "https://github.com/CzechLanguageInstitute/tei2019",
+      "institution": "Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka"
+    },
+    "DanishPostils": {
+      "title": "Early Modern Danish Postils v0.2.0",
+      "url": "https://zenodo.org/records/7113232",
+      "institution": "Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)"
+    },
+    "DIACU_Bulgarian": {
+      "title": "DIACU — A dataset for the DIAchronic analysis of Church Slavonic",
+      "url": "https://github.com/MariaCassese/DIACU",
+      "institution": "Maria Cassese et al. (GitHub repo aggregating Sofia University historical-dictionary / Cyrillomethodiana texts)"
+    },
+    "Diakorp_Czech": {
+      "title": "Diakorp v6: diachronic corpus of Czech",
+      "url": "https://lindat.mff.cuni.cz/repository/items/c7544e98-f017-4f4f-ad21-048c692c3bc7",
+      "institution": "Kučera, Řehořková, Stluka — Institute of the Czech National Corpus (ÚČNK), Charles University, Prague; deposited on LINDAT/CLARIAH-CZ"
+    },
+    "DiBiLit_German": {
+      "title": "DiBiLit-Korpus (Digitale Bibliothek, Literatur)",
+      "url": "https://github.com/deutschestextarchiv/DiBiLit-Korpus",
+      "institution": "Deutsches Textarchiv / BBAW (CLARIAH-DE, BMBF); source texts from Zeno.org / TextGrid Repository"
+    },
+    "DiBiPhil_Renaissance": {
+      "title": "DiBiPhil — Corpus of philosophical texts from Zeno's Digital Library",
+      "url": "https://github.com/deutschestextarchiv/DiBiPhil",
+      "institution": "Deutsches Textarchiv (BBAW); source texts from Zeno.org's Digitale Bibliothek"
     }
   }
 }

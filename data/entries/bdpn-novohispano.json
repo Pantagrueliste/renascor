@@ -1,6 +1,6 @@
 {
-  "title": "BDPN Novohispano",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Biblioteca Digital del Pensamiento Novohispano (BDPN)",
+  "url": "https://github.com/ficino2021/bdpn",
   "languages": [
     "Spanish"
   ],
@@ -11,5 +11,6 @@
   "words": 53333,
   "texts": 9,
   "period": "1630-1690",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th c. Mexican texts (scientific/astrological discourse, cartas, lunarios). The GitHub repository ficino2021/bdpn (CC0, live 200) preserved the corpus files after the original UNAM platform went offline; the official site bdpn.unam.mx/es is also live. The collected filenames (Almanaque y Lunario, Discursos astronomicos Bonilla, etc.) match BDPN titles. Origin verbatim: 'BDPN novohispano: Almanaque y Lunario (última revisión) (1) (1685)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "UNAM (Mexico); recovered GitHub repository ficino2021/bdpn"
 }

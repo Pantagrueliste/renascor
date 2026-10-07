@@ -1,15 +1,16 @@
 {
-  "title": "DiBiLit German",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "DiBiLit-Korpus (Digitale Bibliothek, Literatur)",
+  "url": "https://github.com/deutschestextarchiv/DiBiLit-Korpus",
   "languages": [
     "German"
   ],
-  "encoding": "other",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 2135890,
   "texts": 47,
   "period": "1517-1696",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "DiBiLit is the BBAW/DTA homogenized corpus of 2,000+ texts derived from the 'Digitale Bibliothek' (DirectMedia/Zeno.org), DTABf-encoded (TEI P5 subformat), CC BY-SA 4.0, with genre folders including drama; presentation page https://www.deutschestextarchiv.de/dibilit/ (live 200). The 24 collected early German drama/Schwank texts (ayrer: Sidea, Theseus; gengenbach; opitz) match its drama files. Origin verbatim: 'DiBiLit: Sidea (ayrer, ~1600)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Deutsches Textarchiv / BBAW (CLARIAH-DE, BMBF); source texts from Zeno.org / TextGrid Repository"
 }

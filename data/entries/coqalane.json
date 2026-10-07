@@ -1,15 +1,16 @@
 {
-  "title": "Coqalane",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "GIT-Coqalane — Corpus TEI-XML des coq-à-l'âne",
+  "url": "https://gitlab.huma-num.fr/ccanoarnedo/GIT-Coqalane",
   "languages": [
     "French"
   ],
-  "encoding": "other",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 83657,
   "texts": 57,
   "period": "1508-1595",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "Public Huma-Num GitLab repository 'GIT-Coqalane' by Cyril Cano-Arnedo: TEI-XML corpus of the Renaissance coq-à-l'âne epigram genre (poems 1530-1650), one TEI file per poem, reuse under CC BY-NC-SA 4.0. The collected files (CAA13-Rescript_Esprit_Troublé.xml etc.) match its file naming. Origin verbatim: 'Huma-Num GitLab Coqalane: CAA13-Rescript_Esprit_Troublé.xml'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Cyril Cano-Arnedo, GitLab Huma-Num"
 }

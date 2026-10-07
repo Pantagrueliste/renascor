@@ -1,15 +1,16 @@
 {
-  "title": "CORPUS17 French",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "CORPUS17 — 17th c. French texts corpus",
+  "url": "https://github.com/e-ditiones/CORPUS17",
   "languages": [
     "French"
   ],
-  "encoding": "other",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 149810,
   "texts": 15,
   "period": "1622-1700",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "CORPUS17 is Simon Gabay's open GitHub corpus of 17th-century French texts encoded in diplomatic TEI (e-ditiones/CORPUS17, live 200, description '17th c. French texts corpus'). The 120 collected texts (dates 1624-1687 etc.) mirror its TEI files. No explicit licence in repo metadata listed by the GitHub API. Origin verbatim: 'CORPUS17:  (1624)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "e-ditiones (Simon Gabay), GitHub open repo"
 }

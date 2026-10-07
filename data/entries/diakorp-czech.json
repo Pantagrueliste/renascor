@@ -1,15 +1,16 @@
 {
-  "title": "Diakorp Czech",
-  "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
+  "title": "Diakorp v6: diachronic corpus of Czech",
+  "url": "https://lindat.mff.cuni.cz/repository/items/c7544e98-f017-4f4f-ad21-048c692c3bc7",
   "languages": [
     "Czech"
   ],
   "encoding": "other",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 425831,
   "texts": 21,
   "period": "1492-1662",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin"
+  "notes": "Diakorp v6 (~3.45M words, 116 documents, 14th-20th c., normalized transcriptions with original spellings) is officially deposited on LINDAT/CLARIAH-CZ with PID http://hdl.handle.net/11234/1-5413 (verified 200 on the LINDAT landing page), distributed in a CQP-vertical format (not TEI). The 7 collected texts (Kabátník's Cesta z Čech..., Komenský's Labyrint...) are among its 116 source documents. Licence CC BY-NC-SA 4.0. Origin verbatim: 'Diakorp: Kabátník, Martin: Cesta z Čech do Jeruzaléma a Egypta (KapPr (1492)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Kučera, Řehořková, Stluka — Institute of the Czech National Corpus (ÚČNK), Charles University, Prague; deposited on LINDAT/CLARIAH-CZ"
 }
