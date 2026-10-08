@@ -78,7 +78,7 @@ def call_agent(api_key: str, system_prompt: str, max_calls: int = MAX_API_CALLS)
     """Call the Mistral API with web search tool. Returns (candidates, usage)."""
     try:
         from mistralai import Mistral
-    except ImportError:
+    except ModuleNotFoundError:
         print("Error: mistralai not installed. Run: pip install mistralai", file=sys.stderr)
         sys.exit(2)
 
