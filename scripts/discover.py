@@ -122,7 +122,7 @@ def mistral_post(path: str, body: dict, api_key: str) -> dict:
         method="POST",
     )
     try:
-        with urllib.request.urlopen(req, timeout=300) as resp:
+        with urllib.request.urlopen(req, timeout=900) as resp:
             return json.loads(resp.read())
     except urllib.error.HTTPError as e:
         print(f"Mistral API error {e.code} on {path}: {e.read()[:300]}", file=sys.stderr)
