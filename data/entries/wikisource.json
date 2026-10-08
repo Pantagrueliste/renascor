@@ -34,5 +34,5 @@
   "texts": 4664,
   "period": "1450-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+  "notes": "Texts harvested from the language subdomains of Wikisource (de, es, it, ca, cs, el, sv, pl, hr, hu, pt, among others), the multilingual library of openly licensed digitised source texts; the entry points to the portal wikisource.org, whose per-language subdomains host each text. Several RQ collections scope Renaissance-era texts and early Bibles specifically (e.g. Luther NT 1522, Gustav Vasa Bible 1541, Diodati 1607). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
 }
