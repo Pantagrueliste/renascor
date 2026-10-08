@@ -52,7 +52,8 @@
       "words": 936123,
       "texts": 14,
       "period": "1543-1681",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/kb-dk/public-adl-text-sources; rebuild/adl_danish_source_selection_2026-06-24.tsv; data/raw/ADL_Danish/ADL_Danish.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/kb-dk/public-adl-text-sources; rebuild/adl_danish_source_selection_2026-06-24.tsv; data/raw/ADL_Danish/ADL_Danish.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+      "last_modified": "2026-08-25"
     },
     {
       "title": "Amadis in Translation (Digital Amadis)",
@@ -114,7 +115,8 @@
       "words": 1371054,
       "texts": 11,
       "period": "1562-1572",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://zenodo.org/records/14559525; https://zenodo.org/records/14559525/files/Cosimo_Bartoli_letters_newsletters_1562-1572_v1.zip?download=1; data/raw/bartoli/Cosimo_Bartoli_letters_newsletters_1562-"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://zenodo.org/records/14559525; https://zenodo.org/records/14559525/files/Cosimo_Bartoli_letters_newsletters_1562-1572_v1.zip?download=1; data/raw/bartoli/Cosimo_Bartoli_letters_newsletters_1562-",
+      "last_modified": "2024-12-26"
     },
     {
       "title": "BasqueKG",
@@ -145,7 +147,8 @@
       "texts": 9,
       "period": "1630-1690",
       "notes": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th c. Mexican texts (scientific/astrological discourse, cartas, lunarios). The GitHub repository ficino2021/bdpn (CC0, live 200) preserved the corpus files after the original UNAM platform went offline; the official site bdpn.unam.mx/es is also live. The collected filenames (Almanaque y Lunario, Discursos astronomicos Bonilla, etc.) match BDPN titles. Origin verbatim: 'BDPN novohispano: Almanaque y Lunario (última revisión) (1) (1685)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "UNAM (Mexico); recovered GitHub repository ficino2021/bdpn"
+      "institution": "UNAM (Mexico); recovered GitHub repository ficino2021/bdpn",
+      "last_modified": "2025-05-30"
     },
     {
       "title": "Belarusian Skaryna",
@@ -175,7 +178,8 @@
       "words": 74082,
       "texts": 23,
       "period": "1612-1612",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/amosbatto/native-dics; rebuild/bertonio_aymara_source_selection_2026-06-24.tsv; data/raw/Bertonio_Aymara/Bertonio_Aymara.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/amosbatto/native-dics; rebuild/bertonio_aymara_source_selection_2026-06-24.tsv; data/raw/Bertonio_Aymara/Bertonio_Aymara.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+      "last_modified": "2023-04-23"
     },
     {
       "title": "BetaMasaheft Geez",
@@ -190,7 +194,8 @@
       "words": 51400,
       "texts": 5,
       "period": "1555-1555",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/BetaMasaheft/Works; rebuild/betamasaheft_geez_source_selection_2026-06-24.tsv; data/raw/BetaMasaheft_Geez/BetaMasaheft_Geez.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/BetaMasaheft/Works; rebuild/betamasaheft_geez_source_selection_2026-06-24.tsv; data/raw/BetaMasaheft_Geez/BetaMasaheft_Geez.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+      "last_modified": "2026-10-06"
     },
     {
       "title": "Bibliotheca Augustana",
@@ -300,7 +305,8 @@
       "words": 1968888,
       "texts": 46,
       "period": "1529-1616",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/lb42/tei-fr; rebuild/bvh_epistemon_print_source_selection_2026-06-24.tsv; data/raw/BVH_Epistemon_Print/BVH_Epistemon_Print.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/lb42/tei-fr; rebuild/bvh_epistemon_print_source_selection_2026-06-24.tsv; data/raw/BVH_Epistemon_Print/BVH_Epistemon_Print.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+      "last_modified": "2023-10-18"
     },
     {
       "title": "CAMENA",
@@ -364,7 +370,8 @@
       "texts": 1,
       "period": "1580-1580",
       "notes": "The repository Pantagrueliste/CavrianaCorr (live 200) is a digital TEI edition of Filippo Cavriana's late-16th-century correspondence, described as 'Digital Edition of Filippo Cavriana's Correspondence'; licence CC BY 4.0. Matches the collected 2-text collection exactly. Origin verbatim: 'Cavriana correspondence (late 16th c)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Pantagrueliste (research project on Cavriana correspondence), GitHub-hosted TEI edition"
+      "institution": "Pantagrueliste (research project on Cavriana correspondence), GitHub-hosted TEI edition",
+      "last_modified": "2026-09-02"
     },
     {
       "title": "CELT Corpus of Electronic Texts",
@@ -585,7 +592,8 @@
       "texts": 15,
       "period": "1622-1700",
       "notes": "CORPUS17 is Simon Gabay's open GitHub corpus of 17th-century French texts encoded in diplomatic TEI (e-ditiones/CORPUS17, live 200, description '17th c. French texts corpus'). The 120 collected texts (dates 1624-1687 etc.) mirror its TEI files. No explicit licence in repo metadata listed by the GitHub API. Origin verbatim: 'CORPUS17:  (1624)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "e-ditiones (Simon Gabay), GitHub open repo"
+      "institution": "e-ditiones (Simon Gabay), GitHub open repo",
+      "last_modified": "2021-02-26"
     },
     {
       "title": "Anthologies of the Spoudastirion Neou Ellinismou (snhell.gr) — Cretan Greek lyric poetry",
@@ -633,7 +641,8 @@
       "texts": 66,
       "period": "1613-1613",
       "notes": "The 66 collected books of the Kralice Bible 1613 (books GEN, EXO, LEV... 6 texts retained after filtering with in_core/is_dup) were extracted from the Bible Database christos-c/bible-corpus (live 200), which contains bibles/Czech.xml (the Kralice translation) among parallel Bible translations. Corpus licence CC0-1.0 (Bible Database). Origin verbatim: 'Bible kralická 1613: GEN'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Christos Christodoulopoulos (christos-c), GitHub open repo"
+      "institution": "Christos Christodoulopoulos (christos-c), GitHub open repo",
+      "last_modified": "2025-05-19"
     },
     {
       "title": "tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový)",
@@ -649,7 +658,8 @@
       "texts": 1,
       "period": "1503-1503",
       "notes": "Repository accompanying the TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions' (Boris Lehečka, ÚJČ AV ČR), containing ~240 digital editions of Old/Middle Czech texts (1300-1800) published in Vokabulář webový (https://vokabular.ujc.cas.cz/, live 200). 'LekJadroBrn' = the edition of 'Lék jádro brněnské' (Knihy lékařské, 1502-1503), matching the collected file cz_lekjadrobrn_1503.txt. Origin verbatim: 'LekJadroBrn (Knihy lékařské, 1502-1503)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka"
+      "institution": "Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",
+      "last_modified": "2019-09-19"
     },
     {
       "title": "Early Modern Danish Postils v0.2.0",
@@ -665,7 +675,8 @@
       "texts": 13,
       "period": "1540-1635",
       "notes": "Verified via the Zenodo API: record 7479443 (v0.2.0) is 'Early Modern Danish Postils' by Jonas Kjøller-Rasmussen (University of Copenhagen), concept DOI 10.5281/zenodo.7113232 — the canonical project URL; the specific record cited in the origin is https://zenodo.org/records/7479443 (also live). 13 texts, plain text distribution. License MIT. Origin verbatim: 'Zenodo DOI 10.5281/zenodo.7479443'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)"
+      "institution": "Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)",
+      "last_modified": "2022-12-24"
     },
     {
       "title": "Digitale Bibliotheek voor de Nederlandse Letteren (DBNL)",
@@ -730,7 +741,8 @@
       "texts": 24,
       "period": "1450-1650",
       "notes": "DIACU v1.0 (GitHub repo live 200, description 'A dataset for the DIAchronic analysis of Church Slavonic, version 1.0') aggregates documents from Old Church Slavonic to Ruthenian, including 15th-century Bulgarian manuscripts distributed by Sofia University's historical dictionary / Cyrillomethodiana collections, matching the Late-15th-c. Bulgarian homilies of the collection (Homilia Domini nostri Iesu Christi de quid et quo..., Vita Hilarionis Moglen...). 3 texts retained. No explicit licence in repo metadata. Origin verbatim: 'DIACU: Homilia Domini nostril Iesu Christi de quid et quo tempore creavit (Last quarter of the 15th c.)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Maria Cassese et al. (GitHub repo aggregating Sofia University historical-dictionary / Cyrillomethodiana texts)"
+      "institution": "Maria Cassese et al. (GitHub repo aggregating Sofia University historical-dictionary / Cyrillomethodiana texts)",
+      "last_modified": "2025-06-12"
     },
     {
       "title": "Diakorp v6: diachronic corpus of Czech",
@@ -762,7 +774,8 @@
       "texts": 47,
       "period": "1517-1696",
       "notes": "DiBiLit is the BBAW/DTA homogenized corpus of 2,000+ texts derived from the 'Digitale Bibliothek' (DirectMedia/Zeno.org), DTABf-encoded (TEI P5 subformat), CC BY-SA 4.0, with genre folders including drama; presentation page https://www.deutschestextarchiv.de/dibilit/ (live 200). The 24 collected early German drama/Schwank texts (ayrer: Sidea, Theseus; gengenbach; opitz) match its drama files. Origin verbatim: 'DiBiLit: Sidea (ayrer, ~1600)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Deutsches Textarchiv / BBAW (CLARIAH-DE, BMBF); source texts from Zeno.org / TextGrid Repository"
+      "institution": "Deutsches Textarchiv / BBAW (CLARIAH-DE, BMBF); source texts from Zeno.org / TextGrid Repository",
+      "last_modified": "2025-03-03"
     },
     {
       "title": "DiBiPhil — Corpus of philosophical texts from Zeno's Digital Library",
@@ -778,7 +791,8 @@
       "texts": 3,
       "period": "1530-1612",
       "notes": "Companion corpus of the DTA derived from Zeno.org's Digitale Bibliothek philosophical writings, DTABf/TEI-encoding, licence CC BY-SA 4.0 (repo live 200; presentation page https://www.deutschestextarchiv.de/dibiphil/ live 200). The 40 collected texts match, e.g. Böhme's 'Aurora oder Morgenröte im Aufgang' (1612) and Paracelsus treatises. Origin verbatim: 'DiBiPhil: Böhme, Aurora oder Morgenröte im Aufgang (1612)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Deutsches Textarchiv (BBAW); source texts from Zeno.org's Digitale Bibliothek"
+      "institution": "Deutsches Textarchiv (BBAW); source texts from Zeno.org's Digitale Bibliothek",
+      "last_modified": "2023-11-22"
     },
     {
       "title": "DIGILIB Armenian",
@@ -825,7 +839,8 @@
       "texts": 1,
       "period": "1600-1600",
       "notes": "DISCO is the Diachronic Spanish Sonnet Corpus of ~4,500 Spanish sonnets 15th–20th c. in XML-TEI with metrical annotation and VIAF-linked metadata; the Golden Age subcorpus (15th–17th c.) deliberately includes minor/non-canonical authors, exactly matching the harvest reference 'DISCO Golden Age minor-author sonnets' (150 texts). Distributed under CC-BY 4.0 via GitHub and Zenodo (zenodo.org/records/1193782). The former project site editionsdisco.com no longer resolves (checked Oct 2026), but the project site is mirrored at prf1.org/disco/about.html (200). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "UNED Madrid (Pablo Ruiz Fabo, Helena Bermudez Sabel, Clara Martinez Canton, Jose Calvo Tello)"
+      "institution": "UNED Madrid (Pablo Ruiz Fabo, Helena Bermudez Sabel, Clara Martinez Canton, Jose Calvo Tello)",
+      "last_modified": "2026-04-26"
     },
     {
       "title": "DissEd PhDeditions",
@@ -1141,7 +1156,8 @@
       "words": 4548087,
       "texts": 94,
       "period": "1518-1644",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/CCS-ZCU/EMLAP_ETL; data/raw/emlap/data/emlap_metadata.csv; data/raw/emlap/data/emlap_corpus_public/emlap_txts/; rebuild/emlap_raw_lock_2026-06-13.tsv; rebuild/emlap_source_selection"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/CCS-ZCU/EMLAP_ETL; data/raw/emlap/data/emlap_metadata.csv; data/raw/emlap/data/emlap_corpus_public/emlap_txts/; rebuild/emlap_raw_lock_2026-06-13.tsv; rebuild/emlap_source_selection",
+      "last_modified": "2026-06-10"
     },
     {
       "title": "EMMO: Early Modern Manuscripts Online",
@@ -1222,7 +1238,8 @@
       "words": 7188629,
       "texts": 371,
       "period": "1600-1645",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/Jero2760/estilometria; data/raw/estilometria/Siglo_de_Oro/; rebuild/estilometria_raw_lock_2026-06-13.tsv; rebuild/estilometria_source_selection_2026-06-13.tsv; rebuild/estilometria_"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/Jero2760/estilometria; data/raw/estilometria/Siglo_de_Oro/; rebuild/estilometria_raw_lock_2026-06-13.tsv; rebuild/estilometria_source_selection_2026-06-13.tsv; rebuild/estilometria_",
+      "last_modified": "2025-01-12"
     },
     {
       "title": "Digital Edition of the Ethica Complementoria",
@@ -1238,7 +1255,8 @@
       "texts": 8,
       "period": "1643-1665",
       "notes": "Annika Rockenberger's GitHub project (repo live 200) holds the TEI P5 transcriptions and analysis code for her digital scholarly edition of the 17th-c. German etiquette prints of the Ethica Complementoria tradition, published with the Herzog August Bibliothek Wolfenbüttel; the harvest covers A3 (1648), C3 (1665), Complementierbüchlein (B6, 1660), Cochleatio Novissima (1656), Klag und Trost (1652) — matching origin 'Ethica Complementoria project: Ethica Complementoria (A3) (1648)'. A companion repo greflinger-dse/EthicaComplementoria holds edition files linked to DTA publications; data on GitHub under CC-BY. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Annika Rockenberger (herzog August Bibliothek Wolfenbuettel / University of Oslo)"
+      "institution": "Annika Rockenberger (herzog August Bibliothek Wolfenbuettel / University of Oslo)",
+      "last_modified": "2019-09-05"
     },
     {
       "title": "Evans Early American Imprints (Evans-TCP)",
@@ -1270,7 +1288,8 @@
       "texts": 30,
       "period": "1620-1620",
       "notes": "Same project and repository as fabulasmito-gh: Antonio Rojas Castro's 2016 TEI-XML corpus of 26 Spanish Golden Age mythological fables (~150k words, CC BY 4.0), harvested here under origin 'Fábulas mitológicas: Barahona_acteon' with witnesses Barahona de Soto's Acteón and Vértumno, Bermúdez's Narciso, Bocángel's Leandro, Carrillo's Acis; the repo (live 200) is the canonical public source, with a companion publication in Studia Aurea (2017) and stylometry workshops built on this corpus. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Antonio Rojas Castro (Freie Universitaet Berlin / UNED)"
+      "institution": "Antonio Rojas Castro (Freie Universitaet Berlin / UNED)",
+      "last_modified": "2025-08-05"
     },
     {
       "title": "Tale of the Fall of Constantinople - parallel interlinear edition (obdurodon.org)",
@@ -1331,7 +1350,8 @@
       "words": 290869,
       "texts": 12,
       "period": "1577-1577",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://zenodo.org/records/7213020; rebuild/florentinecodex_nahuatl_source_selection_2026-06-24.tsv; data/raw/FlorentineCodex_Nahuatl/FlorentineCodex_Nahuatl.jsonl; rebuild/rawtree_full_lock_2026-07-1"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://zenodo.org/records/7213020; rebuild/florentinecodex_nahuatl_source_selection_2026-06-24.tsv; data/raw/FlorentineCodex_Nahuatl/FlorentineCodex_Nahuatl.jsonl; rebuild/rawtree_full_lock_2026-07-1",
+      "last_modified": "2025-06-14"
     },
     {
       "title": "Fornsvenska Swedish",
@@ -1552,7 +1572,8 @@
       "encoding": "tei",
       "words": 36856,
       "texts": 3,
-      "period": "1612-1627"
+      "period": "1612-1627",
+      "last_modified": "2025-08-05"
     },
     {
       "title": "Obras de Góngora (obra poética, ed. Antonio Carreira) — Labex OBVIL GONGORA project",
@@ -1568,7 +1589,8 @@
       "texts": 2,
       "institution": "Labex OBVIL (Sorbonne Universite), dir. Mercedes Blanco; TEI files on gongoradigital GitHub",
       "period": "1605-1610",
-      "notes": "The OBVIL GONGORA project digitized Carreira's edition of Góngora's poetic works plus the polémica gongorina in TEI P5 (2013–2016, CC BY-NC-ND); its TEI encodings are openly published in the gongoradigital GitHub org (gongoraobra) repo (live 200), described as 'Codificación xml de la polémica gongorina y la obra poética de Góngora editadas por el Labex OBVIL' — matching the harvested 'Góngora: epistolario (1610)' and 'comediavenatoria (1605)' files. The original portal obvil.paris-sorbonne.fr/corpus/gongora/ redirects to obvil.sorbonne-universite.site/corpus/gongora/ which did not respond at check time (000), so the GitHub repository is given as the verified live source; see also linhd-postdata/gongocorpus. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+      "notes": "The OBVIL GONGORA project digitized Carreira's edition of Góngora's poetic works plus the polémica gongorina in TEI P5 (2013–2016, CC BY-NC-ND); its TEI encodings are openly published in the gongoradigital GitHub org (gongoraobra) repo (live 200), described as 'Codificación xml de la polémica gongorina y la obra poética de Góngora editadas por el Labex OBVIL' — matching the harvested 'Góngora: epistolario (1610)' and 'comediavenatoria (1605)' files. The original portal obvil.paris-sorbonne.fr/corpus/gongora/ redirects to obvil.sorbonne-universite.site/corpus/gongora/ which did not respond at check time (000), so the GitHub repository is given as the verified live source; see also linhd-postdata/gongocorpus. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "last_modified": "2022-04-04"
     },
     {
       "title": "GutorGlyn Welsh",
@@ -1665,7 +1687,8 @@
       "texts": 21,
       "period": "1450-1680",
       "notes": "IcePaHC is the Iceland Parsed Historical Corpus treebank (Old/Norse-to-modern Icelandic span, texts 1350-1750+ for pre-1700), distributed on GitHub as .psd/.tagged/.txt files. The 21 RQ files (bandamenn, ectorssaga, judit, vilhjalmur etc.) match the corpus .txt files exactly. Free public release; the linguist.is wiki site returned HTTP 511 from two networks, so the verified live canonical entry point is the GitHub repo. RQ collected from the raw txt layer (word-level parses dropped). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Joel C. Wallenberg (York), Anton Karl Ingason & Einar Freyr Sigurðsson (Árni Magnússon Institute/HI, Iceland), Eiríkur Rögnvaldsson; version 2024.03"
+      "institution": "Joel C. Wallenberg (York), Anton Karl Ingason & Einar Freyr Sigurðsson (Árni Magnússon Institute/HI, Iceland), Eiríkur Rögnvaldsson; version 2024.03",
+      "last_modified": "2025-12-11"
     },
     {
       "title": "IMP — Digital library and corpus of historical Slovene",
@@ -1696,7 +1719,8 @@
       "words": 1962810,
       "texts": 14,
       "period": "1543-1691",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/impactcentre/groundtruth-spa; data/raw/impactes/; rebuild/impactes_raw_lock_2026-06-13.tsv; rebuild/impactes_source_selection_2026-06-13.tsv; rebuild/impactes_source_native_audit_20"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/impactcentre/groundtruth-spa; data/raw/impactes/; rebuild/impactes_raw_lock_2026-06-13.tsv; rebuild/impactes_source_selection_2026-06-13.tsv; rebuild/impactes_source_native_audit_20",
+      "last_modified": "2013-04-15"
     },
     {
       "title": "Acts and Ordinances of the Interregnum",
@@ -1869,7 +1893,8 @@
       "texts": 7,
       "period": "1530-1565",
       "notes": "Mambrino Digital Library is the digital library of Spanish-inspired Italian chivalric romances (named after Mambrino Roseo da Fabriano). Each RQ text is a separate Zenodo dataset of a digital scholarly edition of 16th-century Sferamundi di Grecia books: 10.5281/zenodo.14235252 (Sferamundi 1), 11398260 (2), 11400259 (3), 11400335 (4), 11400513 (5), 11400584 (6) — each containing TEI XML transcription and commentary files. License CC BY-SA 4.0 (checked for record 14235252; per-record). All Zenodo records verified live. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Stefano Bazzaco et al., University of Verona (PRIN 2017 'Mapping Chivalry'; 'Inclusive Humanities' Dept. of Foreign Languages, University of Verona)"
+      "institution": "Stefano Bazzaco et al., University of Verona (PRIN 2017 'Mapping Chivalry'; 'Inclusive Humanities' Dept. of Foreign Languages, University of Verona)",
+      "last_modified": "2024-11-28"
     },
     {
       "title": "The Map of Early Modern London",
@@ -1904,7 +1929,8 @@
       "texts": 3064,
       "period": "1648-1653",
       "status": "active",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "last_modified": "2026-05-22"
     },
     {
       "title": "Magyar Elektronikus Könyvtár (MEK)",
@@ -2014,7 +2040,8 @@
       "texts": 109,
       "period": "1458-1698",
       "notes": "109 French and Latin texts (1458-1698) deposited on Nakala, the research-data repository of Huma-Num (CNRS), as individual datasets carrying no project-level metadata. We searched the Nakala platform and the RQ attributions manifest but could not identify the depositor or the scholarly project the texts belong to, so this entry documents a platform-level deposit only; the underlying datasets remain accessible through the frozen RQ release referenced here and their harvest reference is 'Nakala (Huma-Num, nakala.fr)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Nakala, research-data repository of Huma-Num (CNRS) and IRD"
+      "institution": "Nakala, research-data repository of Huma-Num (CNRS) and IRD",
+      "last_modified": "2026-07-18"
     },
     {
       "title": "The Newton Project",
@@ -2250,7 +2277,8 @@
       "words": 2429178,
       "texts": 81,
       "period": "1462-1679",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/beatrice57/pceec2; https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2510; data/raw/eng_dh/pceec2-main/data/parsed/; rebuild/pceec2_raw_lock_2026-06-13.tsv; rebuild/pce"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/beatrice57/pceec2; https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2510; data/raw/eng_dh/pceec2-main/data/parsed/; rebuild/pceec2_raw_lock_2026-06-13.tsv; rebuild/pce",
+      "last_modified": "2026-10-03"
     },
     {
       "title": "The Diary of Samuel Pepys (Phil Gyford edition)",
@@ -2297,7 +2325,8 @@
       "texts": 30,
       "institution": "La Polémica Gongorina project (Mercedes Blanco et al.), LabEx OBVIL, Sorbonne Université; TEI encoding under gongoradigital",
       "period": "1613-1662",
-      "notes": "Polemos is the XML-TEI encoding of the 17th-century polémica gongorina (Jáuregui, Espinosa, Díez de Revenga texts, 1613-1630s) published for the Labex OBVIL; source XML files are in the gongoradigital organisation (polemos, polemos-naked). The 31 RQ texts (carta-amigo_1613, anti-jauregui, apologetico_1662, censura-lope...) match this edition. GitHub org and both repos verified live; the OBVIL reading site (obvil.sorbonne-universite.fr/corpus/gongora/polemos) refused connections from two networks at check time. License per ATTRIBUTIONS: CC BY-NC-ND. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+      "notes": "Polemos is the XML-TEI encoding of the 17th-century polémica gongorina (Jáuregui, Espinosa, Díez de Revenga texts, 1613-1630s) published for the Labex OBVIL; source XML files are in the gongoradigital organisation (polemos, polemos-naked). The 31 RQ texts (carta-amigo_1613, anti-jauregui, apologetico_1662, censura-lope...) match this edition. GitHub org and both repos verified live; the OBVIL reading site (obvil.sorbonne-universite.fr/corpus/gongora/polemos) refused connections from two networks at check time. License per ATTRIBUTIONS: CC BY-NC-ND. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "last_modified": "2025-05-27"
     },
     {
       "title": "Digital TEI-XML edition of Camillo Porzio's \"La congiura de' Baroni del Regno di Napoli contra re Ferdinando primo\"",
@@ -2313,7 +2342,8 @@
       "texts": 1,
       "period": "1565-1565",
       "notes": "A Zenodo-published TEI-XML dataset of the critical digital edition of Porzio's La congiura de' Baroni (first published Naples 1565), encoded and curated by Cristiano Amendola; matches the RQ origin (single text). DOI 10.5281/zenodo.18047915 verified live; license CC BY 4.0. RQ holds the TEI-derived text (~49k words). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Cristiano Amendola (KU Leuven), within PRIN 2022 \"HISTORIALE MARE\" (PI Fulvio Delle Donne, Università di Napoli Federico II)"
+      "institution": "Cristiano Amendola (KU Leuven), within PRIN 2022 \"HISTORIALE MARE\" (PI Fulvio Delle Donne, Università di Napoli Federico II)",
+      "last_modified": "2026-03-01"
     },
     {
       "title": "P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana)",
@@ -2345,7 +2375,8 @@
       "words": 46634,
       "texts": 25,
       "period": "1478-1697",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish; rebuild/ppchy_yiddish_source_selection_2026-06-24.tsv; data/raw/PPCHY_Yiddish/PPCHY_Yiddish.jsonl; rebuild/rawtree_full_lock_202"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish; rebuild/ppchy_yiddish_source_selection_2026-06-24.tsv; data/raw/PPCHY_Yiddish/PPCHY_Yiddish.jsonl; rebuild/rawtree_full_lock_202",
+      "last_modified": "2026-09-22"
     },
     {
       "title": "Project Gutenberg",
@@ -2419,7 +2450,8 @@
       "words": 2440564,
       "texts": 144,
       "period": "1450-1625",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://zenodo.org/records/5793616; https://doi.org/10.5281/zenodo.5793616; data/raw/ref/ReF-v1.0.2/; rebuild/ref_raw_lock_2026-06-13.tsv; rebuild/ref_source_selection_2026-06-13.tsv; rebuild/ref_sour"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://zenodo.org/records/5793616; https://doi.org/10.5281/zenodo.5793616; data/raw/ref/ReF-v1.0.2/; rebuild/ref_raw_lock_2026-06-13.tsv; rebuild/ref_source_selection_2026-06-13.tsv; rebuild/ref_sour",
+      "last_modified": "2021-12-21"
     },
     {
       "title": "Referenzkorpus Mittelniederdeutsch/Niederrheinisch, 1200-1650 (ReN)",
@@ -2451,7 +2483,8 @@
       "texts": 117,
       "period": "1620-1620",
       "notes": "Zenodo dataset DOI 10.5281/zenodo.17537343 (all-versions DOI 10.5281/zenodo.17537048 family): 100 securely attributed comedias by nine Golden Age playwrights (Cervantes, Lope, Tirso, Calderon, etc.), each in original and rhythmic-scansion versions, produced with Fernando Sanz-Lázaro's libEscansión and revised by hand. It accompanies Álvaro Cuéllar's article 'From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre' (Janus 14, 2025). Licence CC BY 4.0. The record is the exact source string cited by the harvest ('Cuéllar Rhythmic Corpus 100 SGA Plays'). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Universitat Autònoma de Barcelona (Álvaro Cuéllar)"
+      "institution": "Universitat Autònoma de Barcelona (Álvaro Cuéllar)",
+      "last_modified": "2025-11-05"
     },
     {
       "title": "RIALC - Repertorio informatizzato dell'antica letteratura catalana",
@@ -2498,7 +2531,8 @@
       "words": 188849,
       "texts": 903,
       "period": "1510-1589",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/mmoruz/RoPsalt; rebuild/ropsalt_romanian_source_selection_2026-06-24.tsv; data/raw/roPsalt_Romanian/roPsalt_Romanian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/mmoruz/RoPsalt; rebuild/ropsalt_romanian_source_selection_2026-06-24.tsv; data/raw/roPsalt_Romanian/roPsalt_Romanian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+      "last_modified": "2023-12-06"
     },
     {
       "title": "Philosophical Transactions (pre-1750 archive)",
@@ -2530,7 +2564,8 @@
       "texts": 20,
       "period": "1620-1620",
       "notes": "RUP is an early-stage collaborative project (project blog at rup.hypotheses.org) publishing TEI encodings of rare or unique early modern English manuscript poems (<= 3 manuscript copies, never printed), begun during Jessica Edmondes' fellowship at the Folger Shakespeare Library; the source harvested is the project's experimental TEI repo (poems/, personography/, taxonomy/, encoding_guidelines.xml), whose file naming follows Folger LUNA image ids of the form 'rup_000001_va103_1_002v'. No custom ODD and no stated licence. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Jessica Edmondes (Folger Shakespeare Library fellowship)"
+      "institution": "Jessica Edmondes (Folger Shakespeare Library fellowship)",
+      "last_modified": "2026-06-09"
     },
     {
       "title": "Russian National Corpus",
@@ -2577,7 +2612,8 @@
       "words": 4271105,
       "texts": 18,
       "period": "1522-1648",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/digicademy/svsal-tei; data/raw/salamanca/svsal-tei-master/; rebuild/salamanca_raw_lock_2026-06-13.tsv; rebuild/salamanca_source_selection_2026-06-13.tsv; rebuild/salamanca_source_na"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/digicademy/svsal-tei; data/raw/salamanca/svsal-tei-master/; rebuild/salamanca_raw_lock_2026-06-13.tsv; rebuild/salamanca_source_selection_2026-06-13.tsv; rebuild/salamanca_source_na",
+      "last_modified": "2025-07-14"
     },
     {
       "title": "Sefaria",
@@ -2669,7 +2705,8 @@
       "words": 466011,
       "texts": 5078,
       "notes": "The well-known metrical corpus of 5,078 Spanish Golden Age sonnets (matching the catalogue count) in TEI XML with metrical pattern annotation, edited by Borja Navarro-Colorado (Univ. Alicante) from texts of the Biblioteca Virtual Miguel de Cervantes; part of the ADSO project. Licence CC BY-NC 4.0 for the annotations (BVMC terms for the texts); a searchable interface exists at BVMC.Labs (data.cervantesvirtual.com/goldenage). The 'Sonetos del Siglo de Oro' label in the harvest refers to this corpus (texts stem from Ramón García González-type BVMC anthologies). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Universidad de Alicante (Borja Navarro-Colorado; ADSO project, Fundacion BBVA)"
+      "institution": "Universidad de Alicante (Borja Navarro-Colorado; ADSO project, Fundacion BBVA)",
+      "last_modified": "2026-02-19"
     },
     {
       "title": "SPXVI Polish16c",
@@ -2731,7 +2768,8 @@
       "words": 1132668,
       "texts": 11,
       "period": "1616-1623",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/HuygensING/suriano; https://doi.org/10.5281/zenodo.13950093; data/raw/suriano/app/__checkout__.txt; data/raw/suriano/datasource/plaintext/; rebuild/suriano_raw_lock_2026-06-13.tsv;"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/HuygensING/suriano; https://doi.org/10.5281/zenodo.13950093; data/raw/suriano/app/__checkout__.txt; data/raw/suriano/datasource/plaintext/; rebuild/suriano_raw_lock_2026-06-13.tsv;",
+      "last_modified": "2026-03-09"
     },
     {
       "title": "Tagalog Doctrina1593",
@@ -2762,7 +2800,8 @@
       "texts": 40,
       "period": "1640-1640",
       "notes": "The project Teatro Breve del Siglo de Oro (Univ. de Sevilla, transcribing the short Golden Age plays — entremeses, jácaras, loas — held at the BNE, FANTEN and RAE) publishes its XML-TEI files through David Merino Recalde's GitHub repositories; the RQ texts ('TBSO: ARM_agujetero_fingido' = 'Entremés del agujetero fingido' by Gil López de Armesto, and the other ARM_* entremes files) correspond to the txt/TEI files of dxvidmr/repositorioTBSO (companion repo dxvidmr/teatro-breve-del-siglo-de-oro holds the full xml_tei tree). No explicit licence in the repository. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-      "institution": "Teatro Breve del Siglo de Oro project, Universidad de Sevilla (Abraham Madroñal et al.); repository maintained by David Merino Recalde"
+      "institution": "Teatro Breve del Siglo de Oro project, Universidad de Sevilla (Abraham Madroñal et al.); repository maintained by David Merino Recalde",
+      "last_modified": "2024-10-07"
     },
     {
       "title": "TextGrid Repository",
@@ -2846,7 +2885,8 @@
       "words": 73928,
       "texts": 229,
       "period": "1578-1666",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/HCDigitalScholarship/ticha-xml-tei; rebuild/ticha_zapotec_source_selection_2026-06-24.tsv; data/raw/Ticha_Zapotec/Ticha_Zapotec.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/HCDigitalScholarship/ticha-xml-tei; rebuild/ticha_zapotec_source_selection_2026-06-24.tsv; data/raw/Ticha_Zapotec/Ticha_Zapotec.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+      "last_modified": "2022-03-10"
     },
     {
       "title": "TITUS (Thesaurus Indogermanischer Text- und Sprachmaterialien)",
@@ -2910,7 +2950,8 @@
       "words": 1789274,
       "texts": 219,
       "period": "1475-1650",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/cmm2209/TMLr; data/raw/tml/TMLr-main/; rebuild/tml_raw_lock_2026-06-13.tsv; rebuild/tml_source_selection_2026-06-13.tsv; rebuild/tml_source_native_audit_2026-06-13.csv; scripts/over"
+      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/cmm2209/TMLr; data/raw/tml/TMLr-main/; rebuild/tml_raw_lock_2026-06-13.tsv; rebuild/tml_source_selection_2026-06-13.tsv; rebuild/tml_source_native_audit_2026-06-13.csv; scripts/over",
+      "last_modified": "2026-02-23"
     },
     {
       "title": "RenArD — Renaissance Aristophanes Digital (Translatoscope / ELAN)",

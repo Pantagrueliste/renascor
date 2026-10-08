@@ -11,5 +11,6 @@
   "words": 1968888,
   "texts": 46,
   "period": "1529-1616",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/lb42/tei-fr; rebuild/bvh_epistemon_print_source_selection_2026-06-24.tsv; data/raw/BVH_Epistemon_Print/BVH_Epistemon_Print.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/lb42/tei-fr; rebuild/bvh_epistemon_print_source_selection_2026-06-24.tsv; data/raw/BVH_Epistemon_Print/BVH_Epistemon_Print.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "last_modified": "2023-10-18"
 }

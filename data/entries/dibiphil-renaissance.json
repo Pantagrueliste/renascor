@@ -12,5 +12,6 @@
   "texts": 3,
   "period": "1530-1612",
   "notes": "Companion corpus of the DTA derived from Zeno.org's Digitale Bibliothek philosophical writings, DTABf/TEI-encoding, licence CC BY-SA 4.0 (repo live 200; presentation page https://www.deutschestextarchiv.de/dibiphil/ live 200). The 40 collected texts match, e.g. Böhme's 'Aurora oder Morgenröte im Aufgang' (1612) and Paracelsus treatises. Origin verbatim: 'DiBiPhil: Böhme, Aurora oder Morgenröte im Aufgang (1612)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Deutsches Textarchiv (BBAW); source texts from Zeno.org's Digitale Bibliothek"
+  "institution": "Deutsches Textarchiv (BBAW); source texts from Zeno.org's Digitale Bibliothek",
+  "last_modified": "2023-11-22"
 }

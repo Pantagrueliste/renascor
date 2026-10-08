@@ -11,5 +11,6 @@
   "words": 51400,
   "texts": 5,
   "period": "1555-1555",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/BetaMasaheft/Works; rebuild/betamasaheft_geez_source_selection_2026-06-24.tsv; data/raw/BetaMasaheft_Geez/BetaMasaheft_Geez.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/BetaMasaheft/Works; rebuild/betamasaheft_geez_source_selection_2026-06-24.tsv; data/raw/BetaMasaheft_Geez/BetaMasaheft_Geez.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "last_modified": "2026-10-06"
 }

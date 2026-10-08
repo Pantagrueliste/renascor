@@ -12,5 +12,6 @@
   "texts": 40,
   "period": "1640-1640",
   "notes": "The project Teatro Breve del Siglo de Oro (Univ. de Sevilla, transcribing the short Golden Age plays — entremeses, jácaras, loas — held at the BNE, FANTEN and RAE) publishes its XML-TEI files through David Merino Recalde's GitHub repositories; the RQ texts ('TBSO: ARM_agujetero_fingido' = 'Entremés del agujetero fingido' by Gil López de Armesto, and the other ARM_* entremes files) correspond to the txt/TEI files of dxvidmr/repositorioTBSO (companion repo dxvidmr/teatro-breve-del-siglo-de-oro holds the full xml_tei tree). No explicit licence in the repository. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Teatro Breve del Siglo de Oro project, Universidad de Sevilla (Abraham Madroñal et al.); repository maintained by David Merino Recalde"
+  "institution": "Teatro Breve del Siglo de Oro project, Universidad de Sevilla (Abraham Madroñal et al.); repository maintained by David Merino Recalde",
+  "last_modified": "2024-10-07"
 }

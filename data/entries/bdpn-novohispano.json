@@ -12,5 +12,6 @@
   "texts": 9,
   "period": "1630-1690",
   "notes": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th c. Mexican texts (scientific/astrological discourse, cartas, lunarios). The GitHub repository ficino2021/bdpn (CC0, live 200) preserved the corpus files after the original UNAM platform went offline; the official site bdpn.unam.mx/es is also live. The collected filenames (Almanaque y Lunario, Discursos astronomicos Bonilla, etc.) match BDPN titles. Origin verbatim: 'BDPN novohispano: Almanaque y Lunario (última revisión) (1) (1685)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "UNAM (Mexico); recovered GitHub repository ficino2021/bdpn"
+  "institution": "UNAM (Mexico); recovered GitHub repository ficino2021/bdpn",
+  "last_modified": "2025-05-30"
 }

@@ -72,7 +72,7 @@ def write_csv(entries: list[tuple[str, dict]], out_path: Path) -> None:
     cols = [
         "title", "url", "languages", "encoding", "status", "institution",
         "period", "words", "region", "author", "date", "years_active",
-        "provenance", "date_added",
+        "provenance", "date_added", "last_modified",
     ]
     with out_path.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=cols, extrasaction="ignore")

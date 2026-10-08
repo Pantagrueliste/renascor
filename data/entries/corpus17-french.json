@@ -12,5 +12,6 @@
   "texts": 15,
   "period": "1622-1700",
   "notes": "CORPUS17 is Simon Gabay's open GitHub corpus of 17th-century French texts encoded in diplomatic TEI (e-ditiones/CORPUS17, live 200, description '17th c. French texts corpus'). The 120 collected texts (dates 1624-1687 etc.) mirror its TEI files. No explicit licence in repo metadata listed by the GitHub API. Origin verbatim: 'CORPUS17:  (1624)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "e-ditiones (Simon Gabay), GitHub open repo"
+  "institution": "e-ditiones (Simon Gabay), GitHub open repo",
+  "last_modified": "2021-02-26"
 }

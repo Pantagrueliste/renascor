@@ -12,5 +12,6 @@
   "texts": 24,
   "period": "1450-1650",
   "notes": "DIACU v1.0 (GitHub repo live 200, description 'A dataset for the DIAchronic analysis of Church Slavonic, version 1.0') aggregates documents from Old Church Slavonic to Ruthenian, including 15th-century Bulgarian manuscripts distributed by Sofia University's historical dictionary / Cyrillomethodiana collections, matching the Late-15th-c. Bulgarian homilies of the collection (Homilia Domini nostri Iesu Christi de quid et quo..., Vita Hilarionis Moglen...). 3 texts retained. No explicit licence in repo metadata. Origin verbatim: 'DIACU: Homilia Domini nostril Iesu Christi de quid et quo tempore creavit (Last quarter of the 15th c.)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Maria Cassese et al. (GitHub repo aggregating Sofia University historical-dictionary / Cyrillomethodiana texts)"
+  "institution": "Maria Cassese et al. (GitHub repo aggregating Sofia University historical-dictionary / Cyrillomethodiana texts)",
+  "last_modified": "2025-06-12"
 }

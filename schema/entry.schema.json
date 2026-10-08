@@ -137,6 +137,11 @@
       "type": "string",
       "maxLength": 2000,
       "description": "Additional information: scope, quality notes, access conditions, licence. Optional."
+    },
+    "last_modified": {
+      "type": "string",
+      "format": "date",
+      "description": "Date of the last modification of the resource as reported by its host (GitHub repo last push, Zenodo record update). Optional; host-dependent."
     }
   }
 }

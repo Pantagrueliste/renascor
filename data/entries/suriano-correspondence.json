@@ -11,5 +11,6 @@
   "words": 1132668,
   "texts": 11,
   "period": "1616-1623",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/HuygensING/suriano; https://doi.org/10.5281/zenodo.13950093; data/raw/suriano/app/__checkout__.txt; data/raw/suriano/datasource/plaintext/; rebuild/suriano_raw_lock_2026-06-13.tsv;"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/HuygensING/suriano; https://doi.org/10.5281/zenodo.13950093; data/raw/suriano/app/__checkout__.txt; data/raw/suriano/datasource/plaintext/; rebuild/suriano_raw_lock_2026-06-13.tsv;",
+  "last_modified": "2026-03-09"
 }

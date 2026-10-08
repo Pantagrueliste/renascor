@@ -11,5 +11,6 @@
   "words": 46634,
   "texts": 25,
   "period": "1478-1697",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish; rebuild/ppchy_yiddish_source_selection_2026-06-24.tsv; data/raw/PPCHY_Yiddish/PPCHY_Yiddish.jsonl; rebuild/rawtree_full_lock_202"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish; rebuild/ppchy_yiddish_source_selection_2026-06-24.tsv; data/raw/PPCHY_Yiddish/PPCHY_Yiddish.jsonl; rebuild/rawtree_full_lock_202",
+  "last_modified": "2026-09-22"
 }

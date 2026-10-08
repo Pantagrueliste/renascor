@@ -12,5 +12,6 @@
   "texts": 13,
   "period": "1540-1635",
   "notes": "Verified via the Zenodo API: record 7479443 (v0.2.0) is 'Early Modern Danish Postils' by Jonas Kjøller-Rasmussen (University of Copenhagen), concept DOI 10.5281/zenodo.7113232 — the canonical project URL; the specific record cited in the origin is https://zenodo.org/records/7479443 (also live). 13 texts, plain text distribution. License MIT. Origin verbatim: 'Zenodo DOI 10.5281/zenodo.7479443'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)"
+  "institution": "Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)",
+  "last_modified": "2022-12-24"
 }

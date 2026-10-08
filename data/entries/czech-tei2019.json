@@ -12,5 +12,6 @@
   "texts": 1,
   "period": "1503-1503",
   "notes": "Repository accompanying the TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions' (Boris Lehečka, ÚJČ AV ČR), containing ~240 digital editions of Old/Middle Czech texts (1300-1800) published in Vokabulář webový (https://vokabular.ujc.cas.cz/, live 200). 'LekJadroBrn' = the edition of 'Lék jádro brněnské' (Knihy lékařské, 1502-1503), matching the collected file cz_lekjadrobrn_1503.txt. Origin verbatim: 'LekJadroBrn (Knihy lékařské, 1502-1503)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka"
+  "institution": "Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",
+  "last_modified": "2019-09-19"
 }

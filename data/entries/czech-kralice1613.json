@@ -12,5 +12,6 @@
   "texts": 66,
   "period": "1613-1613",
   "notes": "The 66 collected books of the Kralice Bible 1613 (books GEN, EXO, LEV... 6 texts retained after filtering with in_core/is_dup) were extracted from the Bible Database christos-c/bible-corpus (live 200), which contains bibles/Czech.xml (the Kralice translation) among parallel Bible translations. Corpus licence CC0-1.0 (Bible Database). Origin verbatim: 'Bible kralická 1613: GEN'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Christos Christodoulopoulos (christos-c), GitHub open repo"
+  "institution": "Christos Christodoulopoulos (christos-c), GitHub open repo",
+  "last_modified": "2025-05-19"
 }

@@ -12,5 +12,6 @@
   "texts": 8,
   "period": "1643-1665",
   "notes": "Annika Rockenberger's GitHub project (repo live 200) holds the TEI P5 transcriptions and analysis code for her digital scholarly edition of the 17th-c. German etiquette prints of the Ethica Complementoria tradition, published with the Herzog August Bibliothek Wolfenbüttel; the harvest covers A3 (1648), C3 (1665), Complementierbüchlein (B6, 1660), Cochleatio Novissima (1656), Klag und Trost (1652) — matching origin 'Ethica Complementoria project: Ethica Complementoria (A3) (1648)'. A companion repo greflinger-dse/EthicaComplementoria holds edition files linked to DTA publications; data on GitHub under CC-BY. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Annika Rockenberger (herzog August Bibliothek Wolfenbuettel / University of Oslo)"
+  "institution": "Annika Rockenberger (herzog August Bibliothek Wolfenbuettel / University of Oslo)",
+  "last_modified": "2019-09-05"
 }

@@ -12,5 +12,6 @@
   "texts": 20,
   "period": "1620-1620",
   "notes": "RUP is an early-stage collaborative project (project blog at rup.hypotheses.org) publishing TEI encodings of rare or unique early modern English manuscript poems (<= 3 manuscript copies, never printed), begun during Jessica Edmondes' fellowship at the Folger Shakespeare Library; the source harvested is the project's experimental TEI repo (poems/, personography/, taxonomy/, encoding_guidelines.xml), whose file naming follows Folger LUNA image ids of the form 'rup_000001_va103_1_002v'. No custom ODD and no stated licence. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Jessica Edmondes (Folger Shakespeare Library fellowship)"
+  "institution": "Jessica Edmondes (Folger Shakespeare Library fellowship)",
+  "last_modified": "2026-06-09"
 }

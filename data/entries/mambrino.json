@@ -12,5 +12,6 @@
   "texts": 7,
   "period": "1530-1565",
   "notes": "Mambrino Digital Library is the digital library of Spanish-inspired Italian chivalric romances (named after Mambrino Roseo da Fabriano). Each RQ text is a separate Zenodo dataset of a digital scholarly edition of 16th-century Sferamundi di Grecia books: 10.5281/zenodo.14235252 (Sferamundi 1), 11398260 (2), 11400259 (3), 11400335 (4), 11400513 (5), 11400584 (6) — each containing TEI XML transcription and commentary files. License CC BY-SA 4.0 (checked for record 14235252; per-record). All Zenodo records verified live. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Stefano Bazzaco et al., University of Verona (PRIN 2017 'Mapping Chivalry'; 'Inclusive Humanities' Dept. of Foreign Languages, University of Verona)"
+  "institution": "Stefano Bazzaco et al., University of Verona (PRIN 2017 'Mapping Chivalry'; 'Inclusive Humanities' Dept. of Foreign Languages, University of Verona)",
+  "last_modified": "2024-11-28"
 }

@@ -232,7 +232,8 @@
     const foot = document.createElement('div');
     foot.className = 'card-foot';
     foot.innerHTML = '<span>' + (e.provenance === 'discovered' ? 'Discovered by automated search' : 'Submitted') +
-      ' · ' + escapeHtml(e.date_added || '') + '</span>' +
+      ' · ' + escapeHtml(e.date_added || '') +
+      (e.last_modified ? ' · updated ' + escapeHtml(e.last_modified) : '') + '</span>' +
       '<a class="visit" href="' + escapeHtml(e.url) + '" target="_blank" rel="noopener">Visit edition →</a>';
     div.appendChild(foot);
     return div;
