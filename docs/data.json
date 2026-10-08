@@ -11,8 +11,8 @@
   "released": "2026-10-07",
   "updated": "2026-10-08",
   "data_commit": {
-   "sha": "2143c599c12e0afef2c9cd98dd6216d482bb3870",
-   "short": "2143c59"
+   "sha": "35d811836243c05257d2cc5763909f08000ebcf8",
+   "short": "35d8118"
   },
   "scope": {
    "from": 1450,
@@ -534,8 +534,8 @@
    "updated_long": "8 October 2026",
    "updated_iso": "2026-10-08",
    "version": "0.1.0",
-   "data_commit_short": "2143c59",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/2143c599c12e0afef2c9cd98dd6216d482bb3870",
+   "data_commit_short": "35d8118",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/35d811836243c05257d2cc5763909f08000ebcf8",
    "header_note": "Counts for 188 of the 197 editions come from the RQ Open Corpus snapshot v2026.06 and may cover only part of an edition; one edition holds 61% of all words.",
    "snapshot_version": "v2026.06",
    "snapshot_frozen_long": "26 June 2026",
@@ -550,7 +550,7 @@
    "languages_note": "An edition counts once for each of its languages; 165 of the 197 editions have a single language. The catalogue uses 75 language labels: 73 languages, plus “Multilingual” and “Romance (other)”, which are not single languages.",
    "citation_author_year": "Godbarge, Clément (2026).",
    "citation_title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
-   "citation_tail": "(Version 0.1.0) [Data set]. https://renascor.github.io",
+   "citation_tail": "(Version 0.1.0) [Data set]. https://pantagrueliste.github.io/renascor/",
    "status_active": "161 editions.",
    "status_archived": "34 editions.",
    "status_discontinued": "2 editions.",

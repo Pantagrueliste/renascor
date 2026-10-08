@@ -41,7 +41,7 @@ The running cost of the automated search is a few cents per week. Without this a
 
 ## The public site
 
-The catalogue is published as a static website at [renascor.github.io](https://renascor.github.io) (or your GitHub Pages URL). The site is generated from the JSON files in `data/entries/` and offers:
+The catalogue is published as a static website at [pantagrueliste.github.io/renascor](https://pantagrueliste.github.io/renascor/). The site is generated from the JSON files in `data/entries/` and offers:
 
 - a table of all editions (or cards), sortable by title, words, texts, period, encoding and status
 - search across titles, institutions, languages and notes
