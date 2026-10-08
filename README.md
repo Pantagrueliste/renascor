@@ -35,7 +35,7 @@ This catalogue is maintained with AI assistance. A weekly automated search uses 
 
 Every automatically discovered entry is reviewed by a human before publication. The reviewer checks that the project is real, that it provides digital editions (not just page images), that the source material falls within the project's scope, and that the metadata is accurate. Entries contributed by humans through the issue form or pull requests are also reviewed.
 
-The running cost of the automated search is under one cent per week. Without this assistance, the catalogue would grow much more slowly, and some corners of the landscape would likely remain unexplored. The assistance is a tool, not a replacement for judgement: the editorial decisions are human.
+The running cost of the automated search is a few cents per week. Without this assistance, the catalogue would grow much more slowly, and some corners of the landscape would likely remain unexplored. The assistance is a tool, not a replacement for judgement: the editorial decisions are human.
 
 ## The public site
 

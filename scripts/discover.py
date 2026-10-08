@@ -34,14 +34,15 @@ SCHEMA_PATH = REPO_ROOT / "schema" / "entry.schema.json"
 # Hard cap on API calls per run (cost control).
 MAX_API_CALLS = 1
 
-# Model choice: mistral-small is the cheapest option ($0.10/M input, $0.30/M output).
+# Model choice: Mistral Large 4 (v26.10, public preview, ID mistral-large-4-0).
 # Web search is a built-in tool, so no extra cost for the tool itself.
-MODEL = "mistral-small-latest"
+# Pricing is the current preview rate (list price: $1.36/M input, $4.18/M output).
+MODEL = "mistral-large-4-0"
 
 # Approximate pricing (USD per million tokens) for cost logging.
 PRICING = {
-    "input_per_million": 0.10,
-    "output_per_million": 0.30,
+    "input_per_million": 0.68,
+    "output_per_million": 2.09,
 }
 
 

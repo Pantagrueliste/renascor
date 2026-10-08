@@ -8,7 +8,7 @@ This directory contains the system prompt for the weekly discovery agent.
 
 2. **Prompt.** The script `scripts/discover.py` reads `discovery_prompt.md` and injects the list of existing catalogue entries (URLs and titles) into the `{EXISTING_ENTRIES}` placeholder. This tells the agent what is already catalogued, so it does not search for or return known projects.
 
-3. **API call.** The script calls the Mistral API (`mistral-small-latest`) with the `web_search` tool enabled. The agent searches Zenodo, DARIAH, re3data, GitHub, and the general web.
+3. **API call.** The script calls the Mistral API (`mistral-large-4-0`, i.e. Mistral Large 4) with the `web_search` tool enabled. The agent searches Zenodo, DARIAH, re3data, GitHub, and the general web.
 
 4. **Output.** The agent returns a JSON array of candidates in the catalogue schema. The script validates each candidate against `schema/entry.schema.json`.
 
@@ -16,9 +16,9 @@ This directory contains the system prompt for the weekly discovery agent.
 
 ## Cost control
 
-- **Model:** `mistral-small-latest` ($0.10/M input tokens, $0.30/M output tokens).
+- **Model:** `mistral-large-4-0` (Mistral Large 4, v26.10 public preview — current rate $0.68/M input tokens, $2.09/M output tokens).
 - **Hard cap:** 1 API call per run (enforced in `scripts/discover.py`).
-- **Expected cost:** under $0.01 per run.
+- **Expected cost:** a few cents per run.
 - **Token logging:** The script logs input/output token counts and estimated cost to the workflow log.
 
 ## Editing the prompt

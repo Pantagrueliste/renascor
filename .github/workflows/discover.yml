@@ -5,8 +5,9 @@ name: Weekly discovery
 # catalogue schema. Candidates are never merged automatically: the workflow
 # opens a GitHub issue labelled 'discovered' for human review.
 #
-# Cost control: hard cap of 1 API call per run, using mistral-small
-# ($0.10/M input, $0.30/M output). Estimated cost per run: <$0.01.
+# Cost control: hard cap of 1 API call per run, using Mistral Large 4
+# (mistral-large-4-0, preview rate $0.68/M input, $2.09/M output).
+# Estimated cost per run: a few cents.
 
 on:
   schedule:
@@ -53,8 +54,8 @@ jobs:
         run: |
           echo "## Weekly discovery run" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "- Model: mistral-small-latest" >> $GITHUB_STEP_SUMMARY
+          echo "- Model: mistral-large-4-0 (Mistral Large 4, v26.10 preview)" >> $GITHUB_STEP_SUMMARY
           echo "- Max API calls: 1" >> $GITHUB_STEP_SUMMARY
-          echo "- Estimated cost per run: <$0.01" >> $GITHUB_STEP_SUMMARY
+          echo "- Estimated cost per run: a few cents" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "See the workflow log for exact token usage and cost." >> $GITHUB_STEP_SUMMARY
