@@ -4,7 +4,7 @@
     "description": "An open catalogue of digital editions of Renaissance-era written documents",
     "licence": "CC0 1.0",
     "source": "https://github.com/Pantagrueliste/renascor",
-    "entries": 194
+    "entries": 193
   },
   "entries": [
     {
@@ -70,21 +70,6 @@
       "words": 97420,
       "texts": 35,
       "notes": "Digital study of the transformation of Montalvo's Amadís de Gaula across editions and translations (Spanish, French, English, from the 1500s to the early 1800s). The corpus files are the 35 TEI XML chapters of the 1547 Sevilla printing of Montalvo's Amadís (facsimile source: Biblioteca Virtual de Andalucía), used to align Garci Rodríguez de Montalvo's text with Robert Southey's 1803 translation and study translation shifts. Project team: Stacey Triplette, Elisa Beshero-Bondar, Helena Bermúdez Sabel; maintained by Beshero-Bondar since 2015. Code and TEI data: https://github.com/ebeshero/Amadis-in-Translation (AGPL-3.0); archive DOI: https://doi.org/10.5281/zenodo.10892444. Project documentation and a 1533 frontispiece facsimile on the project site. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
-    },
-    {
-      "title": "Azerbaijani WS",
-      "url": "https://az.wikisource.org",
-      "languages": [
-        "Azerbaijani"
-      ],
-      "encoding": "other",
-      "status": "active",
-      "provenance": "submitted",
-      "date_added": "2026-10-07",
-      "words": 122211,
-      "texts": 346,
-      "period": "1536-1536",
-      "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://az.wikisource.org; rebuild/azerbaijani_ws_source_selection_2026-06-24.tsv; data/raw/Azerbaijani_WS/Azerbaijani_WS.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     },
     {
       "title": "Annotated Corpus of Pre-Standardized Balkan Slavic Literature 1.1",
