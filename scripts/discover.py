@@ -77,7 +77,8 @@ def load_prompt(existing_entries: list[dict]) -> str:
 def call_agent(api_key: str, system_prompt: str, max_calls: int = MAX_API_CALLS) -> tuple[list[dict], dict]:
     """Call the Mistral API with web search tool. Returns (candidates, usage)."""
     try:
-        from mistralai import Mistral
+        # mistralai SDK 3.x ships the client in the mistralai.client submodule
+        from mistralai.client import Mistral
     except ModuleNotFoundError:
         print("Error: mistralai not installed. Run: pip install mistralai", file=sys.stderr)
         sys.exit(2)
