@@ -491,13 +491,15 @@ def open_pull_request(entries: list[dict], cost: float, usage: dict) -> str | No
 
     files = []
     for entry in entries:
-        slug = entry.pop("_file", None) or slugify(entry["title"])
-        path = ENTRIES_DIR / f"{slug}.json"
+        slug = entry.pop("_file", None) or f"{slugify(entry['title'])}.json"
+        if not slug.endswith(".json"):
+            slug += ".json"
+        path = ENTRIES_DIR / slug
         path.write_text(
             json.dumps(entry, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
         )
-        files.append("data/entries/" + f"{slug}.json")
+        files.append("data/entries/" + slug)
 
     git("add", *files)
     git("commit", "-m", f"Add {len(entries)} candidate edition(s) discovered on {today}")
