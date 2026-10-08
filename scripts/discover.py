@@ -15,7 +15,7 @@ Requires:
     - MISTRAL_API_KEY environment variable (or --api-key)
     - GITHUB_TOKEN environment variable (for opening the PR; optional with --dry-run)
     - git and gh CLI available
-    - mistralai Python package: pip install mistralai
+    - jsonschema Python package (for candidate validation)
 """
 from __future__ import annotations
 
@@ -25,6 +25,8 @@ import os
 import re
 import subprocess
 import sys
+import urllib.error
+import urllib.request
 from datetime import date
 from pathlib import Path
 
@@ -75,50 +77,77 @@ def load_prompt(existing_entries: list[dict]) -> str:
 
 
 def call_agent(api_key: str, system_prompt: str, max_calls: int = MAX_API_CALLS) -> tuple[list[dict], dict]:
-    """Call the Mistral API with web search tool. Returns (candidates, usage)."""
-    try:
-        # mistralai SDK 3.x ships the client in the mistralai.client submodule
-        from mistralai.client import Mistral
-    except ModuleNotFoundError:
-        print("Error: mistralai not installed. Run: pip install mistralai", file=sys.stderr)
-        sys.exit(2)
+    """Call the Mistral API chat completions endpoint directly (raw JSON).
 
-    client = Mistral(api_key=api_key)
-
-    messages = [
-        {"role": "system", "content": system_prompt},
-        {
-            "role": "user",
-            "content": (
-                "Run your weekly discovery search. Search Zenodo, DARIAH, re3data, "
-                "GitHub, and the general web for new digital edition projects of "
-                "Renaissance-era texts (1450-1700) that are not in the catalogue. "
-                "Return up to 10 candidates in the exact JSON format specified in "
-                "your instructions. If you find nothing new, return an empty array."
-            ),
+    We bypass the SDK: its strict pydantic unmarshalling breaks on the
+    response shapes returned when the web_search tool is enabled, and the
+    raw JSON body we parse here is stable across SDK releases.
+    """
+    payload = {
+        "model": MODEL,
+        "messages": [
+            {"role": "system", "content": system_prompt},
+            {
+                "role": "user",
+                "content": (
+                    "Run your weekly discovery search. Search Zenodo, DARIAH, re3data, "
+                    "GitHub, and the general web for new digital edition projects of "
+                    "Renaissance-era texts (1450-1700) that are not in the catalogue. "
+                    "Return up to 10 candidates in the exact JSON format specified in "
+                    "your instructions. If you find nothing new, return an empty array."
+                ),
+            },
+        ],
+        "tools": [{"type": "web_search"}],
+        "max_tokens": 8192,
+        "temperature": 0.3,
+    }
+    req = urllib.request.Request(
+        "https://api.mistral.ai/v1/chat/completions",
+        data=json.dumps(payload).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "User-Agent": "renascor-discovery/1.0",
         },
-    ]
-
-    response = client.chat.complete(
-        model=MODEL,
-        messages=messages,
-        tools=[{"type": "web_search"}],
-        max_tokens=8192,
-        temperature=0.3,
+        method="POST",
     )
+    try:
+        with urllib.request.urlopen(req, timeout=300) as resp:
+            result = json.loads(resp.read())
+    except urllib.error.HTTPError as e:
+        print(f"Mistral API error {e.code}: {e.read()[:300]}", file=sys.stderr)
+        sys.exit(3)
+    except Exception as e:
+        print(f"Mistral API request failed: {e}", file=sys.stderr)
+        sys.exit(3)
 
-    # Extract usage for cost logging.
+    usage = result.get("usage", {})
     usage = {
-        "input_tokens": response.usage.prompt_tokens if response.usage else 0,
-        "output_tokens": response.usage.completion_tokens if response.usage else 0,
+        "input_tokens": usage.get("prompt_tokens", 0) or 0,
+        "output_tokens": usage.get("completion_tokens", 0) or 0,
     }
 
-    # Parse the response content as JSON.
-    content = response.choices[0].message.content
+    choices = result.get("choices") or []
+    message = (choices[0].get("message") or {}) if choices else {}
+    content = message.get("content")
     if not content:
         return [], usage
 
-    # Strip markdown code blocks if present (agent sometimes wraps JSON).
+    # With the web_search tool, content can be a list of typed chunks;
+    # keep only the text parts.
+    if isinstance(content, list):
+        parts = []
+        for chunk in content:
+            if isinstance(chunk, dict) and chunk.get("type") == "text":
+                parts.append(chunk.get("text", ""))
+            elif isinstance(chunk, str):
+                parts.append(chunk)
+        content = "".join(parts)
+    if not isinstance(content, str) or not content.strip():
+        return [], usage
+
+    # Strip markdown code blocks if present (agents sometimes wrap JSON).
     content = content.strip()
     if content.startswith("```"):
         content = re.sub(r"^```(?:json)?\s*", "", content)
