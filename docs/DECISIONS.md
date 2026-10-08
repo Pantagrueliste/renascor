@@ -41,11 +41,46 @@ If the catalogue grows to tens of thousands of entries, this decision should be 
 The public site is a single HTML page with vanilla JavaScript. We chose this over a framework (React, Vue, Svelte) because:
 
 - The site is simple: a searchable, filterable table.
-- Vanilla JS has no build step and no dependency tree.
-- The page loads fast and works without JavaScript for basic viewing (the data is in a `<script>` tag, but the table is server-rendered at build time).
+- Vanilla JS has no build step and no dependency tree; the page loads no external script, stylesheet or font.
 - Accessibility is easier to control when the HTML is hand-written.
 
-The build script (`scripts/build_site.py`) generates the HTML table from the JSON entries. The JavaScript handles only search and filtering client-side.
+`scripts/build_site.py` validates the entries and writes `docs/data.json` (the entries exactly as stored, plus a parallel array of display-only fields such as parsed periods and cleaned notes), `docs/renascor.csv` and `docs/renascor.json`. It also writes the catalogue figures, the numbers of the methodology section and its two small charts into `docs/index.html`, so these parts are correct without JavaScript.
+
+The searchable list is rendered in the browser from `data.json`. Without JavaScript the page shows the figures, the methodology and links to the CSV, the JSON and the entry files on GitHub; it does not show the list.
+
+## The public page: table first
+
+The catalogue opens on a table because scholars compare sizes, periods and encodings across editions, and a table lines them up. Cards remain one click away, and phones get a stacked list with the same facts. A record opens in place, under its row or after its row of cards, so the list keeps its order and its context; its address (`#id`) is a permanent link.
+
+The period is chosen on a timeline above the list: a bar chart of editions per decade on which a range can be dragged, moved or typed, with presets for the late fifteenth, sixteenth and seventeenth centuries. Its two handles are sliders for keyboards and screen readers. It replaced a period filter made of a small histogram and two year fields, which proved hard to use.
+
+## Where the figures come from
+
+Most word, text, language and period figures come from the RQ Open Corpus snapshot and may describe only the part of an edition that was harvested. The page says so in the header note, in each record and in the methodology section; it names the snapshot only in that general text and never links to the corpus repository (the build fails if an entry does).
+
+The page shows no summed totals for a filtered list. The counts belong to whole editions, so a sum under a language or period filter would be misread as the number of words in that language or from those years.
+
+The catalogue counts 73 languages: "Multilingual" and "Romance (other)" are labels used in the data, not languages, so they are left out of the count and explained where the labels are listed.
+
+## Notes are shown in the record only
+
+The `notes` field holds curators' working notes. The page shows them only inside a record, under "Notes", after removing link-check codes ("live 200"), harvest bookkeeping (pipeline paths, "Origin verbatim" labels, the reference list after the RQ sentence) and the discovery agent's reviewer paragraph. The raw note stays one click away ("Original note, as recorded"). The build never modifies `data/entries`; the cleaned text exists only in `data.json`.
+
+## Periods
+
+An edition is listed for a range of years when its period overlaps that range. Periods recorded as centuries count as their hundred years (the 16th century as 1500–1599), and ranges beyond 1450–1700 are compared with their full years. Periods given only in words are shown as recorded and are not matched by year filters; while a range is set, the page says how many editions are left out for that reason.
+
+## Exports
+
+The export columns follow the schema: `id`, then the schema's properties in a fixed preferred order, then any new property, with `notes` last, so a new field is never dropped. The page and the build write the same CSV (the whole catalogue in the default order exported from the page is byte-identical to `docs/renascor.csv`): UTF-8 without BOM, lists joined with semicolons, quotes only where needed, CRLF line endings. The JSON exports keep every value exactly as stored.
+
+## Data updated, data version
+
+"Data of" is the date of the last commit on the main line that changed `data/entries` (`git log -1 --first-parent -- data/entries`), and the page links that commit, so a reader can tell which state of the data they saw and cite it. The catalogue version comes from `CITATION.cff`. The Pages workflow checks out the full history (`fetch-depth: 0`): with a shallow clone every file looks changed in the last commit, and the date would follow any documentation-only push. Exported files are named after the version and the date.
+
+## Files
+
+Where an edition's machine-readable files can be obtained (a repository, a download page or a dataset record), `data_url` records the address and `data_format` their format, with the same vocabulary as `encoding`. The table shows a download link beside the encoding, the record links the files, and a Files filter lists editions by the format of their files, with "No files recorded" for the others.
 
 ## Inclusion rule: new, countable text only
 
@@ -55,9 +90,15 @@ The rule was adopted after a portal (the Digital Latin Library) entered the cata
 
 ## Weekly discovery, human review
 
-An automated agent discovers new candidate entries each week. These are **never** merged automatically. The agent opens an issue labelled `discovered`, and a human reviews each candidate before it enters the catalogue.
+An automated agent discovers new candidate entries each week. These are **never** merged automatically. The workflow commits the candidates on a branch and opens a pull request labelled `discovered`, and a human reviews each candidate before it enters the catalogue.
 
 This is deliberate. Automated discovery finds candidates; it does not judge quality, scope, or accuracy. A human must confirm that a project is real, relevant, and correctly described.
+
+## Region and countries
+
+The free-text `region` field was replaced by standardised country codes. Only a handful of editions recorded a region, in inconsistent wording ("Italy", "Germany / Europe"), so it could not support a filter. `countries` records the present-day countries where an edition's documents were written or printed, as ISO 3166-1 codes, with ISO 3166-2 codes for England, Scotland, Wales and Northern Ireland, which were distinct before 1707. Present-day countries are unambiguous and easy to check; historical states are not.
+
+For navigation, `schema/countries.json` groups the countries into historical areas (British Isles, Holy Roman Empire, Italian Peninsula, Ottoman Empire and Near East...). The grouping is a convenience and can be changed in that file without touching the entries. The page offers an Area filter, with the countries of each area one level down, as soon as an edition records countries, and lists the countries and their areas in each record. While `region` remains on some entries, records still show it.
 
 ## Minimal dependencies
 

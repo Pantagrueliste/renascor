@@ -43,9 +43,13 @@ The running cost of the automated search is a few cents per week. Without this a
 
 The catalogue is published as a static website at [renascor.github.io](https://renascor.github.io) (or your GitHub Pages URL). The site is generated from the JSON files in `data/entries/` and offers:
 
-- search across all entries
-- filters for language, period, region, encoding, and status
-- download of the full dataset as CSV or JSON
+- a table of all editions (or cards), sortable by title, words, texts, period, encoding and status
+- search across titles, institutions, languages and notes
+- filters for language, period (any range of years, chosen on a timeline), encoding, status and size, combined freely; a files filter (the format of the files that can be downloaded) and an area filter (once countries are recorded) appear when the data carry them
+- a full record for each edition, with a permanent link
+- links that keep the current search and filters, so a selection can be shared
+- export of the editions shown, and download of the whole catalogue, as CSV or JSON with every field
+- a methodology section explaining where the figures come from
 
 ### Running the site locally
 
@@ -58,6 +62,14 @@ python -m http.server 8000 --directory docs
 ```
 
 Then open http://localhost:8000 in your browser.
+
+`build_site.py` validates the entries and writes `docs/data.json`, `docs/renascor.csv` and `docs/renascor.json`. It also writes the catalogue figures and the two charts of the methodology section into `docs/index.html`, so run it after any change to the data. A second run changes nothing. To try the page on other data without touching `docs/`, build into another directory, which receives a copy of the page and its script:
+
+```bash
+python scripts/build_site.py --entries-dir /path/to/entries --out-dir /tmp/renascor-site
+```
+
+The unit tests of the build run with `python -m unittest discover -s tests -v`.
 
 ## Licence
 
@@ -75,4 +87,3 @@ Renascor runs on a few dollars a month. Donations cover the running costs of the
 ## Contact
 
 Clément Godbarge, Lecturer in Digital Humanities, University of St Andrews.
-test
