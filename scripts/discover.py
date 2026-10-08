@@ -27,7 +27,7 @@ import subprocess
 import sys
 import urllib.error
 import urllib.request
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -505,17 +505,17 @@ def open_pull_request(entries: list[dict], cost: float, usage: dict) -> str | No
     git("commit", "-m", f"Add {len(entries)} candidate edition(s) discovered on {today}")
 
     remote = f"https://x-access-token:{token}@github.com/{repo}.git"
-    try:
-        git("push", remote, branch)
-    except RuntimeError as e:
-        if "already exists" not in str(e):
-            raise
-        # Branch already on the remote (prior run today): pick a fresh name.
-        import datetime as _dt
-        branch = (f"discovered/{today}-"
-                  f"{_dt.datetime.now().strftime('%H%M')}")
+    # Pick a branch name that does not exist on the remote yet: a prior
+    # discovery run today (bot branch, or a repaired manual branch) would
+    # make the push non-fast-forward.
+    probe = subprocess.run(
+        ["git", "ls-remote", "--heads", remote, branch],
+        capture_output=True, text=True, env={**os.environ},
+    )
+    if probe.returncode == 0 and probe.stdout.strip():
+        branch = f"{branch}-{datetime.datetime.now(timezone.utc).strftime('%H%M')}"
         git("checkout", "-B", branch)
-        git("push", remote, branch)
+    git("push", remote, branch)
 
     ensure_labels(["discovered", "status:needs-review"], token)
     result = subprocess.run(
