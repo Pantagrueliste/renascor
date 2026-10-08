@@ -1,10 +1,12 @@
 {
   "title": "TychoBrahe Portuguese",
   "url": "https://www.tycho.iel.unicamp.br/corpus/texts/txt.zip",
+  "data_url": "https://www.tycho.iel.unicamp.br/corpus/texts/xml/",
+  "data_format": "xml",
   "languages": [
     "Portuguese"
   ],
-  "encoding": "plain-text",
+  "encoding": "xml",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

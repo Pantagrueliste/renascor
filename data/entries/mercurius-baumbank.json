@@ -1,10 +1,12 @@
 {
   "title": "Mercurius-Baumbank (Version 1.1) — LAUDATIO repository",
   "url": "https://www.laudatio-repository.org/browse/corpus/VyQiCnMB7CArCQ9CjF3O/corpora",
+  "data_url": "https://www.laudatio-repository.org/browse/corpus/VyQiCnMB7CArCQ9CjF3O/corpora",
+  "data_format": "xml",
   "languages": [
     "German"
   ],
-  "encoding": "tei",
+  "encoding": "xml",
   "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",

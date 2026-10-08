@@ -1,6 +1,8 @@
 {
   "title": "Historical Corpus of the Welsh Language, 1500-1850 (HCWL; Corpws Hanesyddol yr Iaith Gymraeg)",
   "url": "https://www.celticstudies.net/",
+  "data_url": "https://github.com/dwew2/hcwl",
+  "data_format": "tei",
   "languages": [
     "Welsh"
   ],

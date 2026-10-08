@@ -1,6 +1,8 @@
 {
   "title": "SSRQ Online — Sammlung Schweizerischer Rechtsquellen / Collection des sources du droit suisse",
   "url": "https://ssrq-sds-fds.ch/",
+  "data_url": "https://github.com/SSRQ-SDS-FDS/editio-data",
+  "data_format": "tei",
   "languages": [
     "German"
   ],

@@ -1,10 +1,12 @@
 {
   "title": "SPXVI Polish16c",
   "url": "https://spxvi.edu.pl",
+  "data_url": "https://spxvi.edu.pl/korpus/teksty/",
+  "data_format": "html",
   "languages": [
     "Polish"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

@@ -1,10 +1,12 @@
 {
   "title": "Norman MuseNormande",
   "url": "https://archive.org/details/lamusenormanded09ferrgoog",
+  "data_url": "https://archive.org/download/lamusenormanded09ferrgoog",
+  "data_format": "xml",
   "languages": [
     "Norman"
   ],
-  "encoding": "plain-text",
+  "encoding": "xml",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

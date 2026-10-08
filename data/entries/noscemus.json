@@ -1,13 +1,15 @@
 {
   "title": "NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin",
   "url": "https://www.uibk.ac.at/projects/noscemus/",
+  "data_url": "https://zenodo.org/records/15040256",
+  "data_format": "plain-text",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Universität Innsbruck",
   "languages": [
     "Latin"
   ],
-  "encoding": "plain-text",
+  "encoding": "xml",
   "words": 82381900,
   "texts": 678,
   "period": "1472-1700",

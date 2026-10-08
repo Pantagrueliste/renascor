@@ -1,10 +1,12 @@
 {
   "title": "ABU — Bibliothèque Universelle",
   "url": "http://abu.cnam.fr/",
+  "data_url": "http://abu.cnam.fr/BIB/",
+  "data_format": "plain-text",
   "languages": [
     "French"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

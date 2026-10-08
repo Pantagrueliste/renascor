@@ -33,6 +33,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PROMPT_PATH = REPO_ROOT / "agent" / "discovery_prompt.md"
 ENTRIES_DIR = REPO_ROOT / "data" / "entries"
+REJECTED_PATH = REPO_ROOT / "data" / "rejected.json"
 SCHEMA_PATH = REPO_ROOT / "schema" / "entry.schema.json"
 
 # Hard cap on API calls per run (cost control).
@@ -61,6 +62,20 @@ def load_existing_entries(entries_dir: Path) -> list[dict]:
     return entries
 
 
+def load_rejected(path: Path = REJECTED_PATH) -> list[dict]:
+    """Resources reviewed and rejected (title, url, reason), never to be proposed again."""
+    if not path.exists():
+        return []
+    return json.loads(path.read_text(encoding="utf-8")).get("rejected", [])
+
+
+def format_rejected_for_prompt(rejected: list[dict]) -> str:
+    """Format rejected resources, with the reason, as a list for the prompt."""
+    lines = [f"- {r.get('title', '?')} — {r.get('url', '?')}: {r.get('reason', '')}"
+             for r in rejected]
+    return "\n".join(lines) if lines else "(none yet)"
+
+
 def format_existing_for_prompt(entries: list[dict]) -> str:
     """Format existing entries as a list for the prompt."""
     lines = []
@@ -69,11 +84,11 @@ def format_existing_for_prompt(entries: list[dict]) -> str:
     return "\n".join(lines) if lines else "(none yet)"
 
 
-def load_prompt(existing_entries: list[dict]) -> str:
-    """Load the discovery prompt and inject the list of existing entries."""
+def load_prompt(existing_entries: list[dict], rejected: list[dict]) -> str:
+    """Load the discovery prompt and inject the existing and rejected entries."""
     prompt = PROMPT_PATH.read_text(encoding="utf-8")
-    existing = format_existing_for_prompt(existing_entries)
-    return prompt.replace("{EXISTING_ENTRIES}", existing)
+    prompt = prompt.replace("{EXISTING_ENTRIES}", format_existing_for_prompt(existing_entries))
+    return prompt.replace("{REJECTED_ENTRIES}", format_rejected_for_prompt(rejected))
 
 
 def collect_text_chunks(node) -> list:
@@ -326,6 +341,9 @@ def candidate_to_entry(candidate: dict) -> dict:
     for field in ["institution", "period", "region", "words", "years_active", "notes"]:
         if candidate.get(field) is not None:
             entry[field] = candidate[field]
+    if candidate.get("data_url"):
+        entry["data_url"] = candidate["data_url"]
+        entry["data_format"] = candidate.get("data_format") or entry["encoding"]
     # Store the justification and source URL in notes if not already present.
     extra = []
     if candidate.get("justification"):
@@ -409,6 +427,8 @@ def build_pr_body(entries: list[dict], cost: float, usage: dict) -> str:
             f"- **URL:** {entry['url']}",
             f"- **Languages:** {', '.join(entry.get('languages', []))}",
             f"- **Encoding:** {entry.get('encoding', 'other')}",
+            f"- **Files:** {entry['data_url']} ({entry['data_format']})" if entry.get("data_url")
+            else "- **Files:** none given",
             f"- **Status:** {entry.get('status', 'active')}",
             f"- **File:** `data/entries/{entry.get('_file')}`",
         ])
@@ -434,7 +454,12 @@ def build_pr_body(entries: list[dict], cost: float, usage: dict) -> str:
         "- [ ] The project provides digital editions (not just page images)",
         "- [ ] The source material is roughly 1450-1700",
         "- [ ] The entry is not a duplicate of an existing catalogue entry",
+        "- [ ] Inclusion rule: the words it adds can be counted exactly (count them and "
+        "fill `words` and `texts`), and its texts are not already in the catalogue "
+        "(not a portal, aggregator, mirror or re-harvest of catalogued projects)",
         "- [ ] The metadata (languages, encoding, status) is accurate",
+        "- [ ] The encoding was checked against the files the project publishes, "
+        "and any TEI/XML files are linked in data_url",
         "",
         "To accept a candidate: merge the pull request. To reject one: delete "
         "its JSON file from the branch and commit (or edit it in place).",
@@ -555,10 +580,11 @@ def main() -> int:
 
     # Load existing entries.
     existing = load_existing_entries(ENTRIES_DIR)
-    print(f"Loaded {len(existing)} existing entries.")
+    rejected = load_rejected()
+    print(f"Loaded {len(existing)} existing entries and {len(rejected)} rejected resources.")
 
     # Build the prompt.
-    system_prompt = load_prompt(existing)
+    system_prompt = load_prompt(existing, rejected)
 
     # Call the agent.
     print(f"Calling Mistral agent (model: {MODEL}, max calls: {args.max_calls})...")
@@ -587,10 +613,10 @@ def main() -> int:
         print("No valid candidates after validation.")
         return 1
 
-    # Drop candidates whose URL is already catalogued.
-    valid_entries, known_dropped = deduplicate(valid_entries, existing)
+    # Drop candidates whose URL is already catalogued or was rejected.
+    valid_entries, known_dropped = deduplicate(valid_entries, existing + rejected)
     for title in known_dropped:
-        print(f"Dropped as duplicate URL of an existing entry: {title}")
+        print(f"Dropped as duplicate URL of an existing or rejected entry: {title}")
     if not valid_entries:
         print("No new candidates after duplicate check.")
         return 0

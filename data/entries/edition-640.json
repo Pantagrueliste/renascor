@@ -1,13 +1,15 @@
 {
   "title": "Secrets of Craft and Nature in Renaissance France (BnF Ms Fr 640)",
   "url": "https://edition640.makingandknowing.org/",
+  "data_url": "https://github.com/cu-mkp/m-k-manuscript-data",
+  "data_format": "xml",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Making and Knowing Project, Columbia University",
   "languages": [
     "French"
   ],
-  "encoding": "plain-text",
+  "encoding": "xml",
   "words": 122621,
   "texts": 1,
   "status": "active",

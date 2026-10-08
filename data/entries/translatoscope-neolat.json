@@ -1,6 +1,8 @@
 {
   "title": "RenArD — Renaissance Aristophanes Digital (Translatoscope / ELAN)",
   "url": "https://renard.elan-numerique.fr/",
+  "data_url": "https://nakala.fr/collection/10.34847/nkl.798c6967",
+  "data_format": "tei",
   "languages": [
     "Latin"
   ],

@@ -1,13 +1,15 @@
 {
   "title": "Mazarinades",
   "url": "https://zenodo.org/records/7443183",
+  "data_url": "https://github.com/Antonomaz/Corpus",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Bibliothèques patrimoniales de la Ville de Paris",
   "languages": [
     "French"
   ],
-  "encoding": "xml",
+  "encoding": "tei",
   "words": 10122051,
   "texts": 3064,
   "period": "1648-1653",

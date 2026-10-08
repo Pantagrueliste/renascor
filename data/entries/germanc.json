@@ -1,6 +1,8 @@
 {
   "title": "GerManC - parsed corpus of German 1650-1800, 'Plays' text collection (OTA 2544)",
   "url": "https://ota.ox.ac.uk/desc/2544",
+  "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2544",
+  "data_format": "tei",
   "languages": [
     "German"
   ],

@@ -1,10 +1,12 @@
 {
   "title": "Théâtre Classique",
   "url": "http://www.theatre-classique.fr/",
+  "data_url": "http://www.theatre-classique.fr/pages/programmes/PageEdition.php",
+  "data_format": "xml",
   "languages": [
     "French"
   ],
-  "encoding": "plain-text",
+  "encoding": "xml",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

@@ -1,6 +1,8 @@
 {
   "title": "Digital Edition of Filippo Cavriana's Correspondence",
   "url": "https://github.com/Pantagrueliste/CavrianaCorr",
+  "data_url": "https://github.com/Pantagrueliste/CavrianaCorr/tree/main/letters",
+  "data_format": "tei",
   "languages": [
     "Italian"
   ],

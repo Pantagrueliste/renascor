@@ -1,10 +1,12 @@
 {
   "title": "Ritos y tradiciones de Huarochirí (Taylor 1987) — Biblioteca Digital Curt Nimuendajú",
   "url": "https://www.etnolinguistica.org/biblio:taylor-1987-ritos",
+  "data_url": "https://www.etnolinguistica.org/biblio:taylor-1987-ritos",
+  "data_format": "other",
   "languages": [
     "Quechua"
   ],
-  "encoding": "plain-text",
+  "encoding": "other",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

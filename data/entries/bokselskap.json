@@ -1,12 +1,14 @@
 {
   "title": "Bokselskap",
   "url": "https://bokselskap.no/",
+  "data_url": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-81/",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [
     "Norwegian"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "words": 264577,
   "texts": 9,
   "period": "1571-1700",

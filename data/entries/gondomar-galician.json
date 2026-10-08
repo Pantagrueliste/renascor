@@ -1,10 +1,12 @@
 {
   "title": "Gondomar Galician",
   "url": "https://ilg.usc.gal/gondomar",
+  "data_url": "https://ilg.usc.gal/gondomar/index.php?action=texts",
+  "data_format": "tei",
   "languages": [
     "Galician"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

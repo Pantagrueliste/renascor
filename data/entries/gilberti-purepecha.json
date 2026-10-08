@@ -1,10 +1,12 @@
 {
   "title": "Gilberti Purepecha",
   "url": "https://archive.org/details/vocabularioenlen00gilb",
+  "data_url": "https://archive.org/download/vocabularioenlen00gilb",
+  "data_format": "xml",
   "languages": [
     "Purépecha"
   ],
-  "encoding": "plain-text",
+  "encoding": "xml",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

@@ -1,12 +1,14 @@
 {
   "title": "Sefaria",
   "url": "https://www.sefaria.org/",
+  "data_url": "https://github.com/Sefaria/Sefaria-Export",
+  "data_format": "plain-text",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [
     "Hebrew"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "words": 18955529,
   "texts": 132,
   "period": "1495-1690",

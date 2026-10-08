@@ -1,10 +1,12 @@
 {
   "title": "BrievenAlsBuit",
   "url": "https://brievenalsbuit.ivdnt.org",
+  "data_url": "https://brievenalsbuit.ivdnt.org/blacklab-server/BaB/docs/",
+  "data_format": "tei",
   "languages": [
     "Dutch"
   ],
-  "encoding": "xml",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

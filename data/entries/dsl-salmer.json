@@ -1,6 +1,8 @@
 {
   "title": "Reformationstidens danske salme- og messeboeger digitaliseret (salmer.dsl.dk)",
   "url": "https://salmer.dsl.dk/",
+  "data_url": "https://github.com/dsldk/salmer/tree/master/eXist-dbs/salmer/xml",
+  "data_format": "tei",
   "languages": [
     "Danish"
   ],

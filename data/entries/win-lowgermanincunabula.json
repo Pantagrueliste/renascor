@@ -1,6 +1,8 @@
 {
   "title": "WiN — Wiedererzählen im Norden. Digitale Analyse weltlicher Erzählungen in niederdeutschen Inkunabeln (WiN-Korpus v1.0)",
   "url": "https://www.laudatio-repository.org/browse/corpus/XnU19IIBa2XDdNuCXFx-/corpora",
+  "data_url": "https://www.laudatio-repository.org/browse/corpus/XnU19IIBa2XDdNuCXFx-/corpora",
+  "data_format": "xml",
   "languages": [
     "German"
   ],

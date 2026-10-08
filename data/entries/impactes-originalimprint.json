@@ -1,10 +1,12 @@
 {
   "title": "IMPACTes OriginalImprint",
   "url": "https://github.com/impactcentre/groundtruth-spa",
+  "data_url": "https://digitisation.eu/knowledge/language-resources/impact-es-2/",
+  "data_format": "tei",
   "languages": [
     "Spanish"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",

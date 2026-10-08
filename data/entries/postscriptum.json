@@ -1,6 +1,8 @@
 {
   "title": "P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana)",
   "url": "https://post-scriptum.org/",
+  "data_url": "http://ps.clul.ul.pt/index.php?action=downloads",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Centro de Linguística da Universidade de Lisboa (CLUL)",
@@ -8,7 +10,7 @@
     "Portuguese",
     "Spanish"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "words": 899841,
   "texts": 1878,
   "period": "1500-1699",

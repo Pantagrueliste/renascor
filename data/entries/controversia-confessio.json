@@ -1,11 +1,13 @@
 {
   "title": "Controversia Confessio",
   "url": "https://www.controversia-et-confessio.de",
+  "data_url": "https://exist.ulb.tu-darmstadt.de/2/r/edoc/collection/pa000002.json",
+  "data_format": "tei",
   "languages": [
     "German",
     "Latin"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

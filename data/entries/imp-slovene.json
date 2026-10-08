@@ -1,6 +1,8 @@
 {
   "title": "IMP — Digital library and corpus of historical Slovene",
   "url": "https://nl.ijs.si/imp/",
+  "data_url": "https://hdl.handle.net/11356/1031",
+  "data_format": "tei",
   "languages": [
     "Slovenian"
   ],

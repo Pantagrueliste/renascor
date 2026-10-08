@@ -26,6 +26,24 @@
       "format": "uri",
       "description": "URL where the edition can be found. Must be a valid, resolvable URL."
     },
+    "data_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL where the edition's machine-readable files can be obtained: a repository, a download page or a dataset record (e.g. GitHub, Zenodo, Oxford Text Archive). Give it whenever TEI or other XML files are publicly available. Optional; requires data_format."
+    },
+    "data_format": {
+      "type": "string",
+      "enum": [
+        "tei",
+        "xml",
+        "html",
+        "plain-text",
+        "wikitext",
+        "markdown",
+        "other"
+      ],
+      "description": "Format of the files available at data_url, with the same vocabulary as encoding. Required when data_url is given."
+    },
     "languages": {
       "type": "array",
       "items": {
@@ -47,7 +65,7 @@
         "markdown",
         "other"
       ],
-      "description": "Primary encoding format of the digital edition: TEI (Text Encoding Initiative XML), other XML (non-TEI), HTML, plain text, wiki markup, Markdown, or other."
+      "description": "Primary encoding format of the digital edition: the richest format in which the project publishes or documents its text (precedence TEI > other XML > HTML > wiki markup > plain text > Markdown). tei = TEI XML; xml = other (non-TEI) XML; html = HTML pages; plain-text; wikitext = wiki markup; markdown; other."
     },
     "status": {
       "type": "string",
@@ -56,7 +74,7 @@
         "archived",
         "discontinued"
       ],
-      "description": "Whether the project is currently active (active) or no longer maintained (archived)."
+      "description": "active = online and maintained; archived = still online but no longer maintained; discontinued = no longer online (the URL may point to an archived copy)."
     },
     "provenance": {
       "type": "string",
@@ -100,6 +118,17 @@
       "type": "string",
       "maxLength": 200,
       "description": "Geographic area covered by the corpus, e.g. 'Italy', 'Low Countries', 'Iberian Peninsula'. Optional."
+    },
+    "countries": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z]{2}(-[A-Z]{3})?$"
+      },
+      "minItems": 1,
+      "maxItems": 8,
+      "uniqueItems": true,
+      "description": "Present-day countries where the documents were written or printed, most important first: ISO 3166-1 alpha-2 codes, or ISO 3166-2 codes for the nations of Great Britain (GB-ENG, GB-SCT, GB-WLS, GB-NIR). Every code must be listed in schema/countries.json, which also groups the countries into the historical areas used by the public site."
     },
     "period": {
       "type": "string",
@@ -146,5 +175,13 @@
       "format": "date",
       "description": "Date of the last modification of the resource as reported by its host (GitHub repo last push, Zenodo record update). Optional; host-dependent."
     }
+  },
+  "dependencies": {
+    "data_url": [
+      "data_format"
+    ],
+    "data_format": [
+      "data_url"
+    ]
   }
 }

@@ -1,11 +1,13 @@
 {
   "title": "Latin texts deposited on the Nakala repository (Huma-Num)",
   "url": "https://nakala.fr/",
+  "data_url": "https://nakala.fr/",
+  "data_format": "tei",
   "languages": [
     "French",
     "Latin"
   ],
-  "encoding": "xml",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

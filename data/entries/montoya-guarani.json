@@ -1,10 +1,12 @@
 {
   "title": "Montoya Guarani",
   "url": "https://archive.org/details/gramaticaydiccio02ruiz",
+  "data_url": "https://archive.org/download/gramaticaydiccio02ruiz",
+  "data_format": "xml",
   "languages": [
     "Guaraní"
   ],
-  "encoding": "plain-text",
+  "encoding": "xml",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

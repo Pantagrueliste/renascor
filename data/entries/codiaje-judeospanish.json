@@ -1,6 +1,8 @@
 {
   "title": "CoDiAJe — The Annotated Diachronic Corpus of Judeo-Spanish",
   "url": "https://aldina-quintana.huji.ac.il/codiaje-annotated-diachronic-corpus-judeo-spanish",
+  "data_url": "https://lindat.mff.cuni.cz/services/teitok-live/codiaje/index.php?action=browser&show=all",
+  "data_format": "tei",
   "languages": [
     "Ladino"
   ],

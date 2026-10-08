@@ -1,6 +1,8 @@
 {
   "title": "Fabulas mitologicas del Siglo de Oro (ed. Antonio Rojas Castro, GitHub)",
   "url": "https://github.com/arojascastro/fabulasmitologicas",
+  "data_url": "https://github.com/arojascastro/fabulasmitologicas/tree/master/corpus/tei",
+  "data_format": "tei",
   "languages": [
     "Spanish"
   ],

@@ -1,10 +1,12 @@
 {
   "title": "BetaMasaheft Geez",
   "url": "https://github.com/BetaMasaheft/Works",
+  "data_url": "https://github.com/BetaMasaheft/Works",
+  "data_format": "tei",
   "languages": [
     "Ge'ez"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

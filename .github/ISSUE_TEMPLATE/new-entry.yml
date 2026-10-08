@@ -12,6 +12,8 @@ body:
 
         **One distinction matters.** We catalogue projects that provide **digital editions**: transcriptions, editorial text, or corrected OCR/HTR of Renaissance-era documents (roughly 1450 to 1700). We do **not** catalogue page images or facsimiles only, raw uncorrected OCR dumps, or bibliographies with no texts.
 
+        **The inclusion rule.** A resource is added only if the words it contributes can be counted exactly (its full texts can be downloaded or otherwise obtained) **and** its texts are not already in the catalogue. Portals and aggregators that federate other projects' texts are therefore not included.
+
         If you are unsure whether a project qualifies, submit it anyway and say so.
 
   - type: input
@@ -27,10 +29,17 @@ body:
     id: url
     attributes:
       label: URL
-      description: The main page where the edition can be found. If there is a separate download or API endpoint, mention it in the notes.
+      description: The main page where the edition can be found.
       placeholder: "https://..."
     validations:
       required: true
+
+  - type: input
+    id: data_url
+    attributes:
+      label: Files URL
+      description: Where the machine-readable files (TEI XML, other XML, plain text...) can be downloaded, if they are available, for example a GitHub repository, a download page or a Zenodo record. Leave blank if there is none or you do not know.
+      placeholder: "https://github.com/... or https://zenodo.org/records/..."
 
   - type: input
     id: languages
@@ -45,10 +54,13 @@ body:
     id: encoding
     attributes:
       label: Encoding format
-      description: How is the text encoded?
+      description: How is the text encoded? If the project offers several formats, choose the richest one (TEI XML first).
       options:
         - TEI XML
+        - Other XML
         - HTML
+        - Plain text
+        - Wiki markup
         - Markdown
         - Other
         - I am not sure
@@ -62,6 +74,7 @@ body:
       options:
         - Active (currently maintained, updated, or accepting contributions)
         - Archived (no longer maintained, but still online)
+        - Discontinued (no longer online)
         - I am not sure
     validations:
       required: true

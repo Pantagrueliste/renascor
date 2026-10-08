@@ -1,12 +1,14 @@
 {
   "title": "Early Modern Recipes Online Collective (EMROC)",
   "url": "https://emroc.hypotheses.org/",
+  "data_url": "https://fromthepage.com/iiif/collection/early-modern-recipe-books",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [
     "English"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "words": 248907,
   "texts": 25,
   "period": "1564-1692",

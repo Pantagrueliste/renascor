@@ -1,6 +1,8 @@
 {
   "title": "EEBO Text Creation Partnership",
   "url": "https://www.textcreationpartnership.org/",
+  "data_url": "https://github.com/textcreationpartnership",
+  "data_format": "tei",
   "languages": [
     "Ancient Greek",
     "Dutch",

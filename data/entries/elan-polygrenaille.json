@@ -1,6 +1,8 @@
 {
   "title": "POLY-GRENAILLE - edition numerique des oeuvres morales de Francois de Grenaille",
   "url": "https://elan.gricad-pages.univ-grenoble-alpes.fr/polygrenaille/",
+  "data_url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/polygrenaille/-/tree/main/data/tei/textes",
+  "data_format": "tei",
   "languages": [
     "French"
   ],

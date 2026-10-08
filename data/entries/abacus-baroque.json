@@ -1,6 +1,8 @@
 {
   "title": "ABaC:us — Austrian Baroque Corpus",
   "url": "https://abacus.acdh.oeaw.ac.at/",
+  "data_url": "https://github.com/Austrian-Baroque-Corpus/abc-data",
+  "data_format": "tei",
   "languages": [
     "German"
   ],

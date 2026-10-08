@@ -1,10 +1,12 @@
 {
   "title": "Thornton Kikongo",
   "url": "https://www.bu.edu/afam/people/faculty/john-thornton",
+  "data_url": "https://www.kaowarsom.be/fr/memoir_249",
+  "data_format": "other",
   "languages": [
     "Kikongo"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

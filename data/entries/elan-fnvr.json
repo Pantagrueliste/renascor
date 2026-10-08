@@ -1,6 +1,8 @@
 {
   "title": "FNVR - Fictions Narratives en Vers de la Renaissance (1490-1600)",
   "url": "https://elan.gricad-pages.univ-grenoble-alpes.fr/fnvr/",
+  "data_url": "https://doi.org/10.57745/SSC5XT",
+  "data_format": "tei",
   "languages": [
     "French"
   ],

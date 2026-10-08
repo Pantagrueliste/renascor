@@ -1,6 +1,8 @@
 {
   "title": "The Nottingham Corpus of Early Modern German Midwifery and Women's Medicine, ca. 1500–1700 (GeMi, OTA 2562)",
   "url": "https://ota.ox.ac.uk/desc/2562",
+  "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2562",
+  "data_format": "tei",
   "languages": [
     "German"
   ],

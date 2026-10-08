@@ -1,10 +1,12 @@
 {
   "title": "Maltese Cantilena",
   "url": "https://en.wikipedia.org/wiki/Il-Kantilena",
+  "data_url": "https://wikisource.org/wiki/Il-Kantilena",
+  "data_format": "wikitext",
   "languages": [
     "Maltese"
   ],
-  "encoding": "plain-text",
+  "encoding": "wikitext",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

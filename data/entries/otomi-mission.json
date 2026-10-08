@@ -1,10 +1,12 @@
 {
   "title": "Otomi mission",
   "url": "https://www.sup-infor.com",
+  "data_url": "https://www.sup-infor.com/sources/liste-otomi.htm",
+  "data_format": "other",
   "languages": [
     "Otomí"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

@@ -1,10 +1,12 @@
 {
   "title": "BasqueKG",
   "url": "https://klasikoak.armiarma.eus",
+  "data_url": "https://www.ehu.eus/ehg/kc/",
+  "data_format": "tei",
   "languages": [
     "Basque"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

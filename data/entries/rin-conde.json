@@ -1,6 +1,8 @@
 {
   "title": "ConDÉ — faire vivre six siècles de coutumiers normands (Corpus Numérique des Éditions de la Coutume de Normandie)",
   "url": "https://mrsh.unicaen.fr/coutumiers/conde/accueil.html",
+  "data_url": "https://github.com/RIN-ConDE/editions",
+  "data_format": "tei",
   "languages": [
     "French"
   ],

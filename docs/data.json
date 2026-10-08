@@ -4,12 +4,14 @@
     "description": "An open catalogue of digital editions of Renaissance-era written documents",
     "licence": "CC0 1.0",
     "source": "https://github.com/Pantagrueliste/renascor",
-    "entries": 193
+    "entries": 197
   },
   "entries": [
     {
       "title": "ABaC:us — Austrian Baroque Corpus",
       "url": "https://abacus.acdh.oeaw.ac.at/",
+      "data_url": "https://github.com/Austrian-Baroque-Corpus/abc-data",
+      "data_format": "tei",
       "languages": [
         "German"
       ],
@@ -26,10 +28,12 @@
     {
       "title": "ABU — Bibliothèque Universelle",
       "url": "http://abu.cnam.fr/",
+      "data_url": "http://abu.cnam.fr/BIB/",
+      "data_format": "plain-text",
       "languages": [
         "French"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -42,10 +46,12 @@
     {
       "title": "ADL Danish",
       "url": "https://github.com/kb-dk/public-adl-text-sources",
+      "data_url": "https://github.com/kb-dk/public-adl-text-sources/tree/master/texts",
+      "data_format": "tei",
       "languages": [
         "Danish"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -58,6 +64,8 @@
     {
       "title": "Amadis in Translation (Digital Amadis)",
       "url": "http://amadis.newtfire.org/",
+      "data_url": "https://github.com/ebeshero/Amadis-in-Translation/tree/master/XMLandSchemas/Montalvo",
+      "data_format": "tei",
       "languages": [
         "Spanish"
       ],
@@ -74,6 +82,8 @@
     {
       "title": "Annotated Corpus of Pre-Standardized Balkan Slavic Literature 1.1",
       "url": "https://www.clarin.si/repository/xmlui/handle/11356/1441",
+      "data_url": "https://www.clarin.si/repository/xmlui/handle/11356/1441",
+      "data_format": "plain-text",
       "languages": [
         "Bulgarian"
       ],
@@ -90,10 +100,12 @@
     {
       "title": "Bartoli Correspondence",
       "url": "https://zenodo.org/records/14559525",
+      "data_url": "https://zenodo.org/records/14559525",
+      "data_format": "tei",
       "languages": [
         "Italian"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -106,10 +118,12 @@
     {
       "title": "BasqueKG",
       "url": "https://klasikoak.armiarma.eus",
+      "data_url": "https://www.ehu.eus/ehg/kc/",
+      "data_format": "tei",
       "languages": [
         "Basque"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -121,10 +135,12 @@
     {
       "title": "Biblioteca Digital del Pensamiento Novohispano (BDPN)",
       "url": "https://github.com/ficino2021/bdpn",
+      "data_url": "https://github.com/ficino2021/bdpn/tree/main/archivosXMLDocumentos",
+      "data_format": "tei",
       "languages": [
         "Spanish"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -138,10 +154,12 @@
     {
       "title": "Belarusian Skaryna",
       "url": "https://knihi.com/Francysk_Skaryna",
+      "data_url": "https://knihi.com/Francysk_Skaryna/",
+      "data_format": "other",
       "languages": [
         "Belarusian"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -153,10 +171,12 @@
     {
       "title": "Bertonio Aymara",
       "url": "https://github.com/amosbatto/native-dics",
+      "data_url": "https://github.com/amosbatto/native-dics/tree/main/dics/es_ay-bertonio",
+      "data_format": "other",
       "languages": [
         "Aymara"
       ],
-      "encoding": "plain-text",
+      "encoding": "other",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -169,10 +189,12 @@
     {
       "title": "BetaMasaheft Geez",
       "url": "https://github.com/BetaMasaheft/Works",
+      "data_url": "https://github.com/BetaMasaheft/Works",
+      "data_format": "tei",
       "languages": [
         "Ge'ez"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -204,7 +226,7 @@
       "languages": [
         "Spanish"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -216,6 +238,8 @@
     {
       "title": "Biblioteca Italiana",
       "url": "http://www.bibliotecaitaliana.it/",
+      "data_url": "http://www.bibliotecaitaliana.it/catalogo?collezioni=bibit",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
@@ -232,12 +256,14 @@
     {
       "title": "Bokselskap",
       "url": "https://bokselskap.no/",
+      "data_url": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-81/",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
         "Norwegian"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 264577,
       "texts": 9,
       "period": "1571-1700",
@@ -247,10 +273,12 @@
     {
       "title": "BrievenAlsBuit",
       "url": "https://brievenalsbuit.ivdnt.org",
+      "data_url": "https://brievenalsbuit.ivdnt.org/blacklab-server/BaB/docs/",
+      "data_format": "tei",
       "languages": [
         "Dutch"
       ],
-      "encoding": "xml",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -262,6 +290,8 @@
     {
       "title": "Bullinger Digital",
       "url": "https://bullinger-digital.ch/",
+      "data_url": "https://github.com/stazh/bullinger-korpus-tei",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
@@ -280,10 +310,12 @@
     {
       "title": "BVH Epistemon Print",
       "url": "https://github.com/lb42/tei-fr",
+      "data_url": "https://github.com/lb42/tei-fr/tree/master/Projects/BVH/Corpus",
+      "data_format": "tei",
       "languages": [
         "French"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -296,6 +328,8 @@
     {
       "title": "CAMENA",
       "url": "https://mateo.uni-mannheim.de/camenahtdocs/camena.html",
+      "data_url": "https://github.com/nevenjovanovic/camena-neolatinlit",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Universität Mannheim (CAMENA / CERA project)",
@@ -312,11 +346,13 @@
     {
       "title": "Campanella ATC",
       "url": "https://www.iliesi.cnr.it/ATC",
+      "data_url": "https://www.iliesi.cnr.it/ATC/xml/Aforismi.xml",
+      "data_format": "tei",
       "languages": [
         "Italian",
         "Latin"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -328,6 +364,8 @@
     {
       "title": "The Casebooks Project",
       "url": "https://casebooks.lib.cam.ac.uk/",
+      "data_url": "https://github.com/CasebooksProject/casebooks-data",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "University of Cambridge",
@@ -335,7 +373,7 @@
       "languages": [
         "English"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 1710446,
       "texts": 67,
       "period": "1596-1640",
@@ -344,6 +382,8 @@
     {
       "title": "Digital Edition of Filippo Cavriana's Correspondence",
       "url": "https://github.com/Pantagrueliste/CavrianaCorr",
+      "data_url": "https://github.com/Pantagrueliste/CavrianaCorr/tree/main/letters",
+      "data_format": "tei",
       "languages": [
         "Italian"
       ],
@@ -361,6 +401,8 @@
     {
       "title": "CELT Corpus of Electronic Texts",
       "url": "https://celt.ucc.ie/",
+      "data_url": "https://celt.ucc.ie/publishd.html",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "University College Cork",
@@ -382,7 +424,7 @@
       "languages": [
         "Portuguese"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -395,10 +437,12 @@
     {
       "title": "CHM Mapudungun",
       "url": "https://benmolineaux.github.io",
+      "data_url": "http://www.amc-resources.lel.ed.ac.uk/CHM/data/1621VALDIVIA-Sermones.xml",
+      "data_format": "tei",
       "languages": [
         "Mapudungun"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -410,6 +454,8 @@
     {
       "title": "Dantiscus' Correspondence",
       "url": "https://editions.al.uw.edu.pl/exist/apps/dantiscus/",
+      "data_url": "https://editions.al.uw.edu.pl/exist/rest/db/apps/dantiscus-data/data/letters/",
+      "data_format": "tei",
       "languages": [
         "Czech",
         "Dutch",
@@ -433,6 +479,8 @@
     {
       "title": "Epistolarium (CKCC)",
       "url": "https://ckcc.huygens.knaw.nl/",
+      "data_url": "https://doi.org/10.17026/DANS-XFD-N8Y5",
+      "data_format": "tei",
       "languages": [
         "Dutch",
         "English",
@@ -442,7 +490,7 @@
         "Latin",
         "Spanish"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -455,6 +503,8 @@
     {
       "title": "CoDiAJe — The Annotated Diachronic Corpus of Judeo-Spanish",
       "url": "https://aldina-quintana.huji.ac.il/codiaje-annotated-diachronic-corpus-judeo-spanish",
+      "data_url": "https://lindat.mff.cuni.cz/services/teitok-live/codiaje/index.php?action=browser&show=all",
+      "data_format": "tei",
       "languages": [
         "Ladino"
       ],
@@ -471,10 +521,12 @@
     {
       "title": "Colonia — Corpus of Classical (Colonial) Portuguese",
       "url": "https://www.linguateca.pt/acesso/lista_autores_colonia.html",
+      "data_url": "https://www.kaggle.com/datasets/rtatman/colonia-corpus-of-historical-portuguese",
+      "data_format": "other",
       "languages": [
         "Portuguese"
       ],
-      "encoding": "xml",
+      "encoding": "other",
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -487,11 +539,13 @@
     {
       "title": "Controversia Confessio",
       "url": "https://www.controversia-et-confessio.de",
+      "data_url": "https://exist.ulb.tu-darmstadt.de/2/r/edoc/collection/pa000002.json",
+      "data_format": "tei",
       "languages": [
         "German",
         "Latin"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -503,6 +557,8 @@
     {
       "title": "GIT-Coqalane — Corpus TEI-XML des coq-à-l'âne",
       "url": "https://gitlab.huma-num.fr/ccanoarnedo/GIT-Coqalane",
+      "data_url": "https://github.com/cyrcan/GIT-Coqalane",
+      "data_format": "tei",
       "languages": [
         "French"
       ],
@@ -519,6 +575,8 @@
     {
       "title": "Taklow Kernewek ('Cornish Things') — Cornish language text resources",
       "url": "https://taklowkernewek.neocities.org/",
+      "data_url": "https://github.com/davidtreth/taklow-kernewek",
+      "data_format": "plain-text",
       "languages": [
         "Cornish"
       ],
@@ -535,10 +593,12 @@
     {
       "title": "Cornish Tregear",
       "url": "https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche",
+      "data_url": "https://wikisource.org/w/index.php?title=Homelyes_XIII_in_Cornysche&action=raw",
+      "data_format": "wikitext",
       "languages": [
         "Cornish"
       ],
-      "encoding": "plain-text",
+      "encoding": "wikitext",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -550,13 +610,15 @@
     {
       "title": "Corpus Corporum",
       "url": "https://mlat.uzh.ch/",
+      "data_url": "https://mlat.uzh.ch/browser",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Universität Zürich",
       "languages": [
         "Latin"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 19091970,
       "texts": 953,
       "period": "1450-1696",
@@ -566,6 +628,8 @@
     {
       "title": "CORPUS17 — 17th c. French texts corpus",
       "url": "https://github.com/e-ditiones/CORPUS17",
+      "data_url": "https://github.com/e-ditiones/CORPUS17/tree/master/data",
+      "data_format": "tei",
       "languages": [
         "French"
       ],
@@ -586,7 +650,7 @@
       "languages": [
         "Modern Greek"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "discontinued",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -599,13 +663,15 @@
     {
       "title": "CroALa (Croatiae Auctores Latini)",
       "url": "https://croala.ffzg.unizg.hr/",
+      "data_url": "https://github.com/nevenjovanovic/croatiae-auctores-latini-textus",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "University of Zagreb",
       "languages": [
         "Latin"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 3545403,
       "texts": 394,
       "period": "1450-1700",
@@ -615,10 +681,12 @@
     {
       "title": "Bible-Corpus — multilingual parallel corpus of Bible translations",
       "url": "https://github.com/christos-c/bible-corpus",
+      "data_url": "https://textgridrep.org/browse/490rm.0",
+      "data_format": "tei",
       "languages": [
         "Czech"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -632,6 +700,8 @@
     {
       "title": "tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový)",
       "url": "https://github.com/CzechLanguageInstitute/tei2019",
+      "data_url": "https://github.com/CzechLanguageInstitute/tei2019/tree/master/Conversion/Output",
+      "data_format": "tei",
       "languages": [
         "Czech"
       ],
@@ -649,6 +719,8 @@
     {
       "title": "Early Modern Danish Postils v0.2.0",
       "url": "https://zenodo.org/records/7113232",
+      "data_url": "https://zenodo.org/records/7479443",
+      "data_format": "plain-text",
       "languages": [
         "Danish"
       ],
@@ -666,13 +738,15 @@
     {
       "title": "Digitale Bibliotheek voor de Nederlandse Letteren (DBNL)",
       "url": "https://www.dbnl.org/",
+      "data_url": "https://www.dbnl.org/letterkunde/pd/index.php",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
         "Dutch",
         "Frisian"
       ],
-      "encoding": "html",
+      "encoding": "tei",
       "words": 21440504,
       "texts": 856,
       "period": "1477-1700",
@@ -682,6 +756,8 @@
     {
       "title": "A Social Edition of the Devonshire MS (BL Add. MS 17492)",
       "url": "https://en.wikibooks.org/wiki/The_Devonshire_Manuscript",
+      "data_url": "https://github.com/etcluvic/devonshire-ms",
+      "data_format": "tei",
       "languages": [
         "English"
       ],
@@ -700,10 +776,12 @@
     {
       "title": "Diacronia Romanian",
       "url": "https://www.diacronia.ro",
+      "data_url": "https://dumps.wikimedia.org/rowikisource/",
+      "data_format": "wikitext",
       "languages": [
         "Romanian"
       ],
-      "encoding": "plain-text",
+      "encoding": "wikitext",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -715,10 +793,12 @@
     {
       "title": "DIACU — A dataset for the DIAchronic analysis of Church Slavonic",
       "url": "https://github.com/MariaCassese/DIACU",
+      "data_url": "https://github.com/MariaCassese/DIACU/tree/main/data",
+      "data_format": "other",
       "languages": [
         "Bulgarian"
       ],
-      "encoding": "plain-text",
+      "encoding": "other",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -732,10 +812,12 @@
     {
       "title": "Diakorp v6: diachronic corpus of Czech",
       "url": "https://lindat.mff.cuni.cz/repository/items/c7544e98-f017-4f4f-ad21-048c692c3bc7",
+      "data_url": "https://hdl.handle.net/11234/1-5413",
+      "data_format": "other",
       "languages": [
         "Czech"
       ],
-      "encoding": "plain-text",
+      "encoding": "other",
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -748,6 +830,8 @@
     {
       "title": "DiBiLit-Korpus (Digitale Bibliothek, Literatur)",
       "url": "https://github.com/deutschestextarchiv/DiBiLit-Korpus",
+      "data_url": "https://github.com/deutschestextarchiv/DiBiLit-Korpus/tree/main/data",
+      "data_format": "tei",
       "languages": [
         "German"
       ],
@@ -765,6 +849,8 @@
     {
       "title": "DiBiPhil — Corpus of philosophical texts from Zeno's Digital Library",
       "url": "https://github.com/deutschestextarchiv/DiBiPhil",
+      "data_url": "https://github.com/deutschestextarchiv/DiBiPhil/tree/main/data",
+      "data_format": "tei",
       "languages": [
         "German"
       ],
@@ -785,7 +871,7 @@
       "languages": [
         "Armenian"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -797,13 +883,15 @@
     {
       "title": "The Digital Donne Project",
       "url": "https://digitaldonne.drc.usask.ca/",
+      "data_url": "https://drc.usask.ca/projects/ark/XML/Poems/Poems.xml",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Variorum Edition of the Poetry of John Donne (Texas A&M / University of Saskatchewan)",
       "languages": [
         "English"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 74553,
       "texts": 183,
       "period": "1611-1611",
@@ -811,8 +899,27 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon",
+      "url": "https://github.com/AndreaLaVeglia/Postille_Poliziano_Sappho_EVT",
+      "languages": [
+        "Italian",
+        "Latin",
+        "Ancient Greek"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "discovered",
+      "date_added": "2026-10-08",
+      "institution": "Università di Salerno, Sapienza Università di Roma, Università di Napoli Federico II, Università di Torino, CNR-ILC",
+      "period": "15th century (Angelo Poliziano, 1454–1494)",
+      "region": "Italy",
+      "notes": "EVT 2-based digital scholarly edition encoding multiple edition levels of Poliziano's manuscript annotations on the Epistle of Sappho to Phaon, with Wikidata items and CTS URNs; the dataset is also deposited on Zenodo (doi:10.5281/zenodo.17315766). It is a single-work edition, but carries a full scholarly apparatus (diplomatic and critical layers, apparatus of marks), so it is included despite the single-author caveat.\n\nJustification: A peer-reviewed (Journal of Open Humanities Data, 2025) TEI digital scholarly edition of a 15th-century Renaissance manuscript annotation corpus. Found via Zenodo and Journal of Open Humanities Data search results. Not in the catalogue.\nFound at: https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.493"
+    },
+    {
       "title": "DISCO: Diachronic Spanish Sonnet Corpus",
       "url": "https://github.com/pruizf/disco",
+      "data_url": "https://github.com/pruizf/disco/tree/main/tei",
+      "data_format": "tei",
       "languages": [
         "Spanish"
       ],
@@ -836,7 +943,7 @@
         "Latin",
         "Occitan"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -851,7 +958,7 @@
       "languages": [
         "Quechua"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -863,12 +970,14 @@
     {
       "title": "Documenta Catholica Omnia",
       "url": "https://www.documentacatholicaomnia.eu/",
+      "data_url": "https://www.documentacatholicaomnia.eu/a_1011_Conspectus_Omnium_Rerum_Ratione_Temporum_Distributus_1500-1599.html",
+      "data_format": "other",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
         "Latin"
       ],
-      "encoding": "plain-text",
+      "encoding": "other",
       "words": 2487100,
       "texts": 40,
       "period": "1457-1668",
@@ -878,10 +987,12 @@
     {
       "title": "DOST OlderScots",
       "url": "http://purl.ox.ac.uk/ota/0701",
+      "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/0701",
+      "data_format": "plain-text",
       "languages": [
         "Scots"
       ],
-      "encoding": "xml",
+      "encoding": "plain-text",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -893,6 +1004,8 @@
     {
       "title": "DraCor",
       "url": "https://dracor.org/",
+      "data_url": "https://github.com/dracor-org",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
@@ -915,10 +1028,12 @@
     {
       "title": "Digitale Rätoromanische Chrestomathie (Biblioteca Digitala)",
       "url": "https://crestomazia.dch.phil-fak.uni-koeln.de/",
+      "data_url": "https://crestomazia.dch.phil-fak.uni-koeln.de/",
+      "data_format": "xml",
       "languages": [
         "Romansh"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -931,6 +1046,8 @@
     {
       "title": "Henrik Smith: Lægebøger (1577), scholarly online edition (tekstnet.dk / DSL)",
       "url": "https://tekstnet.dk/books/smith-h_1-laegebog-top-til-taa/",
+      "data_url": "https://github.com/dsldk/henrik-smith",
+      "data_format": "tei",
       "languages": [
         "Danish"
       ],
@@ -947,6 +1064,8 @@
     {
       "title": "Reformationstidens danske salme- og messeboeger digitaliseret (salmer.dsl.dk)",
       "url": "https://salmer.dsl.dk/",
+      "data_url": "https://github.com/dsldk/salmer/tree/master/eXist-dbs/salmer/xml",
+      "data_format": "tei",
       "languages": [
         "Danish"
       ],
@@ -963,6 +1082,8 @@
     {
       "title": "Deutsches Textarchiv (DTA)",
       "url": "https://www.deutschestextarchiv.de/",
+      "data_url": "https://www.deutschestextarchiv.de/download",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Berlin-Brandenburgische Akademie der Wissenschaften",
@@ -979,10 +1100,12 @@
     {
       "title": "CLARIN:EL Medieval and Early Modern Greek corpora (16th c. notarial registers and Cretan/Heptanesian literature)",
       "url": "http://hdl.handle.net/11500/AEGEAN-0000-0000-5806-7",
+      "data_url": "https://hdl.handle.net/11500/CLARIN-EL-0000-0000-6A00-9",
+      "data_format": "other",
       "languages": [
         "Modern Greek"
       ],
-      "encoding": "tei",
+      "encoding": "plain-text",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -995,13 +1118,15 @@
     {
       "title": "English Broadside Ballad Archive (EBBA)",
       "url": "https://ebba.english.ucsb.edu/",
+      "data_url": "https://ebba.english.ucsb.edu/page/tei-xml",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "University of California, Santa Barbara",
       "languages": [
         "English"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 3971912,
       "texts": 5926,
       "period": "1530-1700",
@@ -1011,13 +1136,15 @@
     {
       "title": "Secrets of Craft and Nature in Renaissance France (BnF Ms Fr 640)",
       "url": "https://edition640.makingandknowing.org/",
+      "data_url": "https://github.com/cu-mkp/m-k-manuscript-data",
+      "data_format": "xml",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Making and Knowing Project, Columbia University",
       "languages": [
         "French"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "words": 122621,
       "texts": 1,
       "status": "active",
@@ -1026,6 +1153,8 @@
     {
       "title": "EEBO Text Creation Partnership",
       "url": "https://www.textcreationpartnership.org/",
+      "data_url": "https://github.com/textcreationpartnership",
+      "data_format": "tei",
       "languages": [
         "Ancient Greek",
         "Dutch",
@@ -1061,6 +1190,8 @@
     {
       "title": "CreNum - Edition numerique de la Chronique francaise de Guillaume Cretin",
       "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum",
+      "data_url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum/-/tree/main/data/xml",
+      "data_format": "tei",
       "languages": [
         "French"
       ],
@@ -1077,6 +1208,8 @@
     {
       "title": "FNVR - Fictions Narratives en Vers de la Renaissance (1490-1600)",
       "url": "https://elan.gricad-pages.univ-grenoble-alpes.fr/fnvr/",
+      "data_url": "https://doi.org/10.57745/SSC5XT",
+      "data_format": "tei",
       "languages": [
         "French"
       ],
@@ -1093,6 +1226,8 @@
     {
       "title": "POLY-GRENAILLE - edition numerique des oeuvres morales de Francois de Grenaille",
       "url": "https://elan.gricad-pages.univ-grenoble-alpes.fr/polygrenaille/",
+      "data_url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/polygrenaille/-/tree/main/data/tei/textes",
+      "data_format": "tei",
       "languages": [
         "French"
       ],
@@ -1109,6 +1244,8 @@
     {
       "title": "Emblem Project Utrecht",
       "url": "http://emblems.let.uu.nl/",
+      "data_url": "https://emblems.hum.uu.nl/project_procedures.html",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Universiteit Utrecht",
@@ -1121,7 +1258,7 @@
         "Latin",
         "Spanish"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 552927,
       "texts": 1909,
       "period": "1601-1691",
@@ -1131,10 +1268,12 @@
     {
       "title": "EMLAP",
       "url": "https://github.com/CCS-ZCU/EMLAP_ETL",
+      "data_url": "https://ccs-lab.zcu.cz/emlap_corpus_public/emlap_lemmatized_xmls/",
+      "data_format": "tei",
       "languages": [
         "Latin"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1147,6 +1286,8 @@
     {
       "title": "EMMO: Early Modern Manuscripts Online",
       "url": "https://emmo.folger.edu/",
+      "data_url": "https://emmo.folger.edu/browse/",
+      "data_format": "tei",
       "languages": [
         "English"
       ],
@@ -1163,6 +1304,8 @@
     {
       "title": "EMOTHE - Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos",
       "url": "https://emothe.uv.es/",
+      "data_url": "https://emothe.uv.es/biblioteca/textosXML/",
+      "data_format": "tei",
       "languages": [
         "English",
         "French",
@@ -1183,12 +1326,14 @@
     {
       "title": "Early Modern Recipes Online Collective (EMROC)",
       "url": "https://emroc.hypotheses.org/",
+      "data_url": "https://fromthepage.com/iiif/collection/early-modern-recipe-books",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
         "English"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 248907,
       "texts": 25,
       "period": "1564-1692",
@@ -1198,10 +1343,12 @@
     {
       "title": "Bibliothèques Virtuelles Humanistes — Épistémon",
       "url": "https://www.bvh.univ-tours.fr/",
+      "data_url": "https://www.bvh.univ-tours.fr/Epistemon/index.asp",
+      "data_format": "tei",
       "languages": [
         "French"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1213,6 +1360,8 @@
     {
       "title": "Estilometria SigloOro",
       "url": "https://github.com/Jero2760/estilometria",
+      "data_url": "https://github.com/Jero2760/estilometria/tree/master/Siglo_de_Oro",
+      "data_format": "plain-text",
       "languages": [
         "Spanish"
       ],
@@ -1229,6 +1378,8 @@
     {
       "title": "Digital Edition of the Ethica Complementoria",
       "url": "https://github.com/arockenberger/EthicaComplementoria",
+      "data_url": "https://github.com/arockenberger/EthicaComplementoria/tree/master/transcriptions",
+      "data_format": "tei",
       "languages": [
         "German"
       ],
@@ -1246,6 +1397,8 @@
     {
       "title": "Evans Early American Imprints (Evans-TCP)",
       "url": "https://quod.lib.umich.edu/e/evans/",
+      "data_url": "https://app.box.com/s/zj7pzfokxde4glrhebxsavbbxzyr3ogz",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Readex / University of Michigan",
@@ -1262,6 +1415,8 @@
     {
       "title": "Fabulas mitologicas del Siglo de Oro (ed. Antonio Rojas Castro, GitHub)",
       "url": "https://github.com/arojascastro/fabulasmitologicas",
+      "data_url": "https://github.com/arojascastro/fabulasmitologicas/tree/master/corpus/tei",
+      "data_format": "tei",
       "languages": [
         "Spanish"
       ],
@@ -1279,10 +1434,12 @@
     {
       "title": "Tale of the Fall of Constantinople - parallel interlinear edition (obdurodon.org)",
       "url": "http://arranz.obdurodon.org",
+      "data_url": "https://arranz.obdurodon.org/edition.xml",
+      "data_format": "xml",
       "languages": [
         "Church Slavonic"
       ],
-      "encoding": "tei",
+      "encoding": "xml",
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1295,10 +1452,12 @@
     {
       "title": "FAMSI Bolles YucatecMaya",
       "url": "http://www.famsi.org/reports/96072",
+      "data_url": "https://www.famsi.org/reports/96072/textsrc/index.html",
+      "data_format": "html",
       "languages": [
         "Yucatec Maya"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1310,10 +1469,12 @@
     {
       "title": "FilologiaSarda Sardinian",
       "url": "https://www.filologiasarda.eu",
+      "data_url": "https://www.filologiasarda.eu/pubblicazioni/libro.php?sez=34&id=770&pdf=12703",
+      "data_format": "other",
       "languages": [
         "Sardinian"
       ],
-      "encoding": "plain-text",
+      "encoding": "other",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1325,6 +1486,8 @@
     {
       "title": "FlorentineCodex Nahuatl",
       "url": "https://zenodo.org/records/7213020",
+      "data_url": "https://zenodo.org/records/7213020",
+      "data_format": "plain-text",
       "languages": [
         "Nahuatl"
       ],
@@ -1341,10 +1504,12 @@
     {
       "title": "Fornsvenska Swedish",
       "url": "https://www.nordlund.lu.se",
+      "data_url": "https://www.nordlund.lu.se/texter/nysvenska-annexet/",
+      "data_format": "html",
       "languages": [
         "Swedish"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1359,7 +1524,7 @@
       "languages": [
         "Slovenian"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1371,6 +1536,8 @@
     {
       "title": "FreEM (FREnch Early Modern corpus)",
       "url": "https://freem-corpora.github.io/",
+      "data_url": "https://github.com/FreEM-corpora/FreEMmax_OA",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
@@ -1386,10 +1553,12 @@
     {
       "title": "Frühneuzeitliche Fürstinnenkorrespondenzen (Fuerstinnenkorrespondenz corpus, LAUDATIO)",
       "url": "http://hdl.handle.net/11022/0000-0000-82A0-7",
+      "data_url": "https://hdl.handle.net/11022/0000-0000-82A0-7",
+      "data_format": "xml",
       "languages": [
         "German"
       ],
-      "encoding": "tei",
+      "encoding": "xml",
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1402,11 +1571,13 @@
     {
       "title": "Galileo Opere Favaro",
       "url": "https://it.wikisource.org/wiki/Le_opere_di_Galileo_Galilei_(Favaro)",
+      "data_url": "https://dumps.wikimedia.org/itwikisource/",
+      "data_format": "wikitext",
       "languages": [
         "Italian",
         "Latin"
       ],
-      "encoding": "plain-text",
+      "encoding": "wikitext",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1418,11 +1589,13 @@
     {
       "title": "Gallicorpora French HTR",
       "url": "https://github.com/Gallicorpora",
+      "data_url": "https://github.com/Gallicorpora/TEI/tree/main/Corpus_print_16-18",
+      "data_format": "tei",
       "languages": [
         "French",
         "Latin"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1434,10 +1607,12 @@
     {
       "title": "GAMS — Basel Records",
       "url": "https://gams.uni-graz.at/",
+      "data_url": "https://gams.uni-graz.at/context:depcha.srbas",
+      "data_format": "tei",
       "languages": [
         "German"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1450,10 +1625,12 @@
     {
       "title": "GanjoorPersian",
       "url": "https://ganjoor.net",
+      "data_url": "https://github.com/ganjoor/ganjoor-data",
+      "data_format": "other",
       "languages": [
         "Persian"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1465,6 +1642,8 @@
     {
       "title": "The Nottingham Corpus of Early Modern German Midwifery and Women's Medicine, ca. 1500–1700 (GeMi, OTA 2562)",
       "url": "https://ota.ox.ac.uk/desc/2562",
+      "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2562",
+      "data_format": "tei",
       "languages": [
         "German"
       ],
@@ -1481,6 +1660,8 @@
     {
       "title": "GerManC - parsed corpus of German 1650-1800, 'Plays' text collection (OTA 2544)",
       "url": "https://ota.ox.ac.uk/desc/2544",
+      "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2544",
+      "data_format": "tei",
       "languages": [
         "German"
       ],
@@ -1497,10 +1678,12 @@
     {
       "title": "Gilberti Purepecha",
       "url": "https://archive.org/details/vocabularioenlen00gilb",
+      "data_url": "https://archive.org/download/vocabularioenlen00gilb",
+      "data_format": "xml",
       "languages": [
         "Purépecha"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1519,7 +1702,7 @@
         "Latin",
         "Spanish"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1531,10 +1714,12 @@
     {
       "title": "Gondomar Galician",
       "url": "https://ilg.usc.gal/gondomar",
+      "data_url": "https://ilg.usc.gal/gondomar/index.php?action=texts",
+      "data_format": "tei",
       "languages": [
         "Galician"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1546,6 +1731,8 @@
     {
       "title": "Soledades. Edición digital (Luis de Góngora, 1613) — ed. Antonio Rojas Castro",
       "url": "https://github.com/arojascastro/soledades",
+      "data_url": "https://github.com/arojascastro/soledades",
+      "data_format": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-08",
@@ -1563,6 +1750,8 @@
     {
       "title": "Obras de Góngora (obra poética, ed. Antonio Carreira) — Labex OBVIL GONGORA project",
       "url": "https://github.com/gongoradigital/gongoraobra",
+      "data_url": "https://github.com/gongoradigital/gongoraobra",
+      "data_format": "tei",
       "languages": [
         "Spanish"
       ],
@@ -1578,12 +1767,33 @@
       "last_modified": "2022-04-04"
     },
     {
+      "title": "Grand Tour digital — TEI dataset of early modern travel testimonies (Grand Tour TEI)",
+      "url": "https://zenodo.org/records/23055358",
+      "languages": [
+        "German"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "discovered",
+      "date_added": "2026-10-08",
+      "institution": "Herzog August Bibliothek Wolfenbüttel",
+      "period": "16th–18th century (partial overlap with 1450–1700)",
+      "region": "Germany / Europe",
+      "years_active": {
+        "start": 2022,
+        "end": 2026
+      },
+      "notes": "TEI-XML files underlying the digital edition of a corpus of early modern travel testimonies (Reiseselbstzeugnisse). Full text was created with Transkribus HTR plus NER, i.e. project-released corrected machine text, published as an open dataset (CC BY-SA 4.0) on 30 September 2026. The corpus spans the 16th–18th centuries, so only part falls within the catalogue window; the dedicated edition website was not located, so the Zenodo deposit (and the git.hab.de repository it points to) is the stable access point.\n\nJustification: A brand-new (September 2026) Zenodo deposit of corrected HTR/TEI full text of early modern travel accounts produced by a DFG-funded project (2022–2025, project no. 469982284) at the Herzog August Bibliothek. Found via a Zenodo search for recent early modern TEI editions. Not in the catalogue.\nFound at: https://zenodo.org/records/23055358"
+    },
+    {
       "title": "GutorGlyn Welsh",
       "url": "https://gutorglyn.net/gutorglyn",
+      "data_url": "https://github.com/casglur/django-gutorglyn-2/tree/main/SDPublisher/gutorglyn/texts",
+      "data_format": "tei",
       "languages": [
         "Welsh"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1595,10 +1805,12 @@
     {
       "title": "Hexenverhoerprotokolle (SiGS corpus, LAUDATIO repository)",
       "url": "https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
+      "data_url": "https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
+      "data_format": "xml",
       "languages": [
         "German"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1611,6 +1823,8 @@
     {
       "title": "HistCorp — Historical Corpora and Tools (fornsvenska / Fornsvenska textbanken)",
       "url": "https://sprakbanken-clarin.lingfil.uu.se/histcorp/",
+      "data_url": "https://zenodo.org/records/10017247",
+      "data_format": "plain-text",
       "languages": [
         "Swedish"
       ],
@@ -1627,10 +1841,12 @@
     {
       "title": "Ritos y tradiciones de Huarochirí (Taylor 1987) — Biblioteca Digital Curt Nimuendajú",
       "url": "https://www.etnolinguistica.org/biblio:taylor-1987-ritos",
+      "data_url": "https://www.etnolinguistica.org/biblio:taylor-1987-ritos",
+      "data_format": "other",
       "languages": [
         "Quechua"
       ],
-      "encoding": "plain-text",
+      "encoding": "other",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1643,6 +1859,8 @@
     {
       "title": "GitLab des humanités numériques (Huma-Num)",
       "url": "https://gitlab.huma-num.fr/",
+      "data_url": "https://gitlab.huma-num.fr/crh/factums-metiers/factums-ancien-regime",
+      "data_format": "tei",
       "languages": [
         "French",
         "Latin",
@@ -1661,6 +1879,8 @@
     {
       "title": "IcePaHC — Icelandic Parsed Historical Corpus",
       "url": "https://github.com/antonkarl/icecorpus",
+      "data_url": "https://hdl.handle.net/20.500.12537/325",
+      "data_format": "plain-text",
       "languages": [
         "Icelandic"
       ],
@@ -1678,6 +1898,8 @@
     {
       "title": "IMP — Digital library and corpus of historical Slovene",
       "url": "https://nl.ijs.si/imp/",
+      "data_url": "https://hdl.handle.net/11356/1031",
+      "data_format": "tei",
       "languages": [
         "Slovenian"
       ],
@@ -1694,10 +1916,12 @@
     {
       "title": "IMPACTes OriginalImprint",
       "url": "https://github.com/impactcentre/groundtruth-spa",
+      "data_url": "https://digitisation.eu/knowledge/language-resources/impact-es-2/",
+      "data_format": "tei",
       "languages": [
         "Spanish"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1716,7 +1940,7 @@
       "languages": [
         "English"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "words": 1346924,
       "texts": 954,
       "period": "1642-1659",
@@ -1729,7 +1953,7 @@
       "languages": [
         "Ukrainian"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1741,6 +1965,8 @@
     {
       "title": "Kirishitan Japanese",
       "url": "https://www2.ninjal.ac.jp/textdb_dataset/en",
+      "data_url": "https://www2.ninjal.ac.jp/textdb_dataset/en/",
+      "data_format": "plain-text",
       "languages": [
         "Japanese"
       ],
@@ -1756,6 +1982,8 @@
     {
       "title": "KorBa — Elektroniczny korpus tekstów polskich z XVII i XVIII w.",
       "url": "https://korba.edu.pl/",
+      "data_url": "https://korba.edu.pl/download",
+      "data_format": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1772,10 +2000,12 @@
     {
       "title": "Kronieken Dutch",
       "url": "https://doi.org/10.5281/zenodo.13332815",
+      "data_url": "https://github.com/chroniclingnovelty/chronicles-datasets",
+      "data_format": "tei",
       "languages": [
         "Dutch"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1787,6 +2017,8 @@
     {
       "title": "The Lampeter Corpus of Early Modern English Tracts (OTA ota:3193)",
       "url": "https://ota.ox.ac.uk/desc/3193",
+      "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/3193",
+      "data_format": "tei",
       "languages": [
         "English"
       ],
@@ -1803,13 +2035,15 @@
     {
       "title": "Lexicons of Early Modern English (LEME)",
       "url": "https://leme.library.utoronto.ca/",
+      "data_url": "https://hdl.handle.net/1807/99021",
+      "data_format": "xml",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "University of Toronto",
       "languages": [
         "English"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "words": 9780803,
       "texts": 296,
       "period": "1477-1699",
@@ -1819,6 +2053,8 @@
     {
       "title": "LiberLiber",
       "url": "https://www.liberliber.eu/",
+      "data_url": "https://liberliber.it/opere/libri/",
+      "data_format": "html",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
@@ -1827,7 +2063,7 @@
         "Multilingual",
         "Venetian"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "words": 28388618,
       "texts": 310,
       "period": "1450-1700",
@@ -1837,10 +2073,12 @@
     {
       "title": "Litteraturbanken Swedish",
       "url": "https://spraakbanken.gu.se/en/resources/lb-open",
+      "data_url": "https://litteraturbanken.se/bibliotek?nedladdning=true",
+      "data_format": "tei",
       "languages": [
         "Swedish"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1852,10 +2090,12 @@
     {
       "title": "Maltese Cantilena",
       "url": "https://en.wikipedia.org/wiki/Il-Kantilena",
+      "data_url": "https://wikisource.org/wiki/Il-Kantilena",
+      "data_format": "wikitext",
       "languages": [
         "Maltese"
       ],
-      "encoding": "plain-text",
+      "encoding": "wikitext",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1867,6 +2107,8 @@
     {
       "title": "Progetto Mambrino Digital Library — Sferamundi di Grecia",
       "url": "https://zenodo.org/records/14235252",
+      "data_url": "https://zenodo.org/communities/mambrino/records",
+      "data_format": "tei",
       "languages": [
         "Italian"
       ],
@@ -1884,6 +2126,8 @@
     {
       "title": "The Map of Early Modern London",
       "url": "https://mapoflondon.uvic.ca/",
+      "data_url": "https://mapoflondon.uvic.ca/xml/",
+      "data_format": "tei",
       "languages": [
         "English"
       ],
@@ -1903,13 +2147,15 @@
     {
       "title": "Mazarinades",
       "url": "https://zenodo.org/records/7443183",
+      "data_url": "https://github.com/Antonomaz/Corpus",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Bibliothèques patrimoniales de la Ville de Paris",
       "languages": [
         "French"
       ],
-      "encoding": "xml",
+      "encoding": "tei",
       "words": 10122051,
       "texts": 3064,
       "period": "1648-1653",
@@ -1925,7 +2171,7 @@
       "languages": [
         "Hungarian"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "words": 418083,
       "texts": 8,
       "period": "1554-1693",
@@ -1935,6 +2181,8 @@
     {
       "title": "Mercure galant (OBVIL/IReMus — édition complète 1672-1710)",
       "url": "https://obvil.github.io/mercure-galant/",
+      "data_url": "https://github.com/OBVIL/mercure-galant",
+      "data_format": "tei",
       "languages": [
         "French"
       ],
@@ -1951,10 +2199,12 @@
     {
       "title": "Mercurius-Baumbank (Version 1.1) — LAUDATIO repository",
       "url": "https://www.laudatio-repository.org/browse/corpus/VyQiCnMB7CArCQ9CjF3O/corpora",
+      "data_url": "https://www.laudatio-repository.org/browse/corpus/VyQiCnMB7CArCQ9CjF3O/corpora",
+      "data_format": "xml",
       "languages": [
         "German"
       ],
-      "encoding": "tei",
+      "encoding": "xml",
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1967,10 +2217,12 @@
     {
       "title": "Montoya Guarani",
       "url": "https://archive.org/details/gramaticaydiccio02ruiz",
+      "data_url": "https://archive.org/download/gramaticaydiccio02ruiz",
+      "data_format": "xml",
       "languages": [
         "Guaraní"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1982,10 +2234,12 @@
     {
       "title": "Muysc cubun — Lengua Muisca (Manuscrito 158 BNC; Gramática de Lugo)",
       "url": "https://muysca.cubun.org/",
+      "data_url": "https://muysca.cubun.org/Especial:Exportar",
+      "data_format": "wikitext",
       "languages": [
         "Muisca"
       ],
-      "encoding": "plain-text",
+      "encoding": "wikitext",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -1998,10 +2252,12 @@
     {
       "title": "Nahuatl depth",
       "url": "https://www.history.ucsb.edu",
+      "data_url": "https://www.history.ucsb.edu/wp-content/uploads/testaments_of_culhuacan.pdf",
+      "data_format": "other",
       "languages": [
         "Nahuatl"
       ],
-      "encoding": "plain-text",
+      "encoding": "other",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2013,11 +2269,13 @@
     {
       "title": "Latin texts deposited on the Nakala repository (Huma-Num)",
       "url": "https://nakala.fr/",
+      "data_url": "https://nakala.fr/",
+      "data_format": "tei",
       "languages": [
         "French",
         "Latin"
       ],
-      "encoding": "xml",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2031,6 +2289,8 @@
     {
       "title": "The Newton Project",
       "url": "https://www.newtonproject.ox.ac.uk/",
+      "data_url": "https://www.newtonproject.ox.ac.uk/texts/browse-all-texts/by-category",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "University of Oxford",
@@ -2038,7 +2298,7 @@
         "English",
         "Latin"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 2069555,
       "texts": 168,
       "period": "1659-1700",
@@ -2048,10 +2308,12 @@
     {
       "title": "Norman MuseNormande",
       "url": "https://archive.org/details/lamusenormanded09ferrgoog",
+      "data_url": "https://archive.org/download/lamusenormanded09ferrgoog",
+      "data_format": "xml",
       "languages": [
         "Norman"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2063,13 +2325,15 @@
     {
       "title": "NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin",
       "url": "https://www.uibk.ac.at/projects/noscemus/",
+      "data_url": "https://zenodo.org/records/15040256",
+      "data_format": "plain-text",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Universität Innsbruck",
       "languages": [
         "Latin"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "words": 82381900,
       "texts": 678,
       "period": "1472-1700",
@@ -2079,6 +2343,8 @@
     {
       "title": "OBVIL — corpus d'éditions anciennes françaises (Teinte)",
       "url": "https://obtic.sorbonne-universite.fr/corpus",
+      "data_url": "https://github.com/OBVIL",
+      "data_format": "tei",
       "languages": [
         "French"
       ],
@@ -2095,6 +2361,8 @@
     {
       "title": "OBVIL — corpus La Haine du théâtre (querelle du théâtre)",
       "url": "https://obvil.github.io/haine-theatre/",
+      "data_url": "https://github.com/OBVIL/haine-theatre",
+      "data_format": "tei",
       "languages": [
         "French"
       ],
@@ -2114,7 +2382,7 @@
       "languages": [
         "Occitan"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2126,10 +2394,12 @@
     {
       "title": "CORDEREGRA — Corpus diacrónico del español del Reino de Granada",
       "url": "https://corpora.uah.es/charta/",
+      "data_url": "http://corpora.ugr.es/ode/index.php?action=browser&show=all",
+      "data_format": "tei",
       "languages": [
         "Spanish"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "discontinued",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2142,12 +2412,14 @@
     {
       "title": "The Proceedings of the Old Bailey Online",
       "url": "https://www.oldbaileyonline.org/",
+      "data_url": "https://www.dhi.ac.uk/data/oldbailey",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
         "English"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 924767,
       "texts": 198,
       "period": "1674-1700",
@@ -2157,6 +2429,8 @@
     {
       "title": "Old Hungarian Corpus (Régi Magyar Nyelvemlékek)",
       "url": "http://oldhungariancorpus.nytud.hu/",
+      "data_url": "http://oldhungariancorpus.nytud.hu/en-texts.html",
+      "data_format": "plain-text",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2173,6 +2447,8 @@
     {
       "title": "OpenEDGeS (Open Editions of Early Modern Dutch and German Bibles)",
       "url": "https://spraakbanken.gu.se/en/resources/openedges",
+      "data_url": "https://sprakbanken.se/en/resources/openedges",
+      "data_format": "plain-text",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2189,6 +2465,8 @@
     {
       "title": "OpenITI",
       "url": "https://github.com/OpenITI",
+      "data_url": "https://doi.org/10.5281/zenodo.3082463",
+      "data_format": "markdown",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Open Islamicate Texts Initiative",
@@ -2205,12 +2483,14 @@
     {
       "title": "OSTA — Old Spanish Textual Archive",
       "url": "https://osta.oldspanishtextualarchive.org/",
+      "data_url": "https://github.com/hispanicseminary/OSTA",
+      "data_format": "plain-text",
       "languages": [
         "Aragonese",
         "Latin",
         "Spanish"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2223,10 +2503,12 @@
     {
       "title": "Otomi mission",
       "url": "https://www.sup-infor.com",
+      "data_url": "https://www.sup-infor.com/sources/liste-otomi.htm",
+      "data_format": "other",
       "languages": [
         "Otomí"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2240,7 +2522,7 @@
       "languages": [
         "Icelandic"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2252,10 +2534,12 @@
     {
       "title": "PCEEC2",
       "url": "https://github.com/beatrice57/pceec2",
+      "data_url": "https://github.com/beatrice57/pceec2",
+      "data_format": "other",
       "languages": [
         "English"
       ],
-      "encoding": "plain-text",
+      "encoding": "other",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2268,12 +2552,14 @@
     {
       "title": "The Diary of Samuel Pepys (Phil Gyford edition)",
       "url": "https://www.pepysdiary.com/",
+      "data_url": "https://www.pepysdiary.com/api/",
+      "data_format": "html",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
         "English"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "words": 1277817,
       "texts": 1,
       "period": "1665-1665",
@@ -2283,6 +2569,8 @@
     {
       "title": "Perseus Digital Library",
       "url": "https://www.perseus.tufts.edu/",
+      "data_url": "https://github.com/PerseusDL/canonical-engLit",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Tufts University",
@@ -2297,8 +2585,29 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
+      "title": "Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636 (annotated digital edition)",
+      "url": "https://hainhofer.hab.de/",
+      "languages": [
+        "German"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "discovered",
+      "date_added": "2026-10-08",
+      "institution": "Herzog August Bibliothek Wolfenbüttel (DFG long-term project; research data archived at arthistoricum.net@heiDATA, Universität Heidelberg)",
+      "period": "1594–1636 (17th century)",
+      "region": "Germany (Augsburg and the courts of southern Germany)",
+      "years_active": {
+        "start": 2020,
+        "end": "ongoing"
+      },
+      "notes": "Annotated digital edition presenting the travel accounts and collection descriptions of the Augsburg merchant and cultural broker Philipp Hainhofer (1578–1647) for the first time in full, with manuscript facsimiles, full text, critical apparatus and text/image commentaries. TEI/XML transcriptions and registers are archived on arthistoricum.net@heiDATA. Edition website went online in 2020 (first DFG phase, Munich journeys 1603–1636); further phases are scheduled until 2029, so the project is ongoing.\n\nJustification: A DFG-funded scholarly digital edition of 17th-century travel manuscripts with TEI/XML full text and critical apparatus, squarely inside the 1450–1700 window. Found via the DARIAH-DE partner projects page and the TEI Consortium projects list; the URL was verified live. Not in the catalogue.\nFound at: https://de.dariah.eu/en/mitmachen/partnerprojekte/"
+    },
+    {
       "title": "Polemos — Codificación XML de la polémica gongorina (Labex OBVIL)",
       "url": "https://github.com/gongoradigital/polemos",
+      "data_url": "https://github.com/gongoradigital/polemos",
+      "data_format": "tei",
       "languages": [
         "Spanish"
       ],
@@ -2316,6 +2625,8 @@
     {
       "title": "Digital TEI-XML edition of Camillo Porzio's \"La congiura de' Baroni del Regno di Napoli contra re Ferdinando primo\"",
       "url": "https://zenodo.org/records/18047915",
+      "data_url": "https://zenodo.org/records/18047915",
+      "data_format": "tei",
       "languages": [
         "Italian"
       ],
@@ -2333,6 +2644,8 @@
     {
       "title": "P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana)",
       "url": "https://post-scriptum.org/",
+      "data_url": "http://ps.clul.ul.pt/index.php?action=downloads",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Centro de Linguística da Universidade de Lisboa (CLUL)",
@@ -2340,7 +2653,7 @@
         "Portuguese",
         "Spanish"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 899841,
       "texts": 1878,
       "period": "1500-1699",
@@ -2350,10 +2663,12 @@
     {
       "title": "PPCHY Yiddish",
       "url": "https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish",
+      "data_url": "https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/tree/main/data",
+      "data_format": "other",
       "languages": [
         "Yiddish"
       ],
-      "encoding": "plain-text",
+      "encoding": "other",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2366,6 +2681,8 @@
     {
       "title": "Project Gutenberg",
       "url": "https://www.gutenberg.org/",
+      "data_url": "https://www.gutenberg.org/policy/robot_access.html",
+      "data_format": "html",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
@@ -2381,7 +2698,7 @@
         "Portuguese",
         "Spanish"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "words": 20440559,
       "texts": 280,
       "period": "1519-1697",
@@ -2391,6 +2708,8 @@
     {
       "title": "QhoD — Quellen zur habsburgisch-osmanischen Diplomatie (Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500-1918) — edition-data release 2.0",
       "url": "https://qhod.net/",
+      "data_url": "https://zenodo.org/records/14449603",
+      "data_format": "tei",
       "languages": [
         "Latin",
         "Ottoman Turkish"
@@ -2408,12 +2727,14 @@
     {
       "title": "REED English",
       "url": "https://ereed.org",
+      "data_url": "https://github.com/REEDProject/Collections",
+      "data_format": "tei",
       "languages": [
         "English",
         "Italian",
         "Latin"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2425,10 +2746,12 @@
     {
       "title": "ReF ENHG",
       "url": "https://zenodo.org/records/5793616",
+      "data_url": "https://zenodo.org/records/5793616",
+      "data_format": "xml",
       "languages": [
         "German"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2441,6 +2764,8 @@
     {
       "title": "Referenzkorpus Mittelniederdeutsch/Niederrheinisch, 1200-1650 (ReN)",
       "url": "https://www.slm.uni-hamburg.de/ren",
+      "data_url": "https://www.fdr.uni-hamburg.de/record/9195",
+      "data_format": "tei",
       "languages": [
         "German"
       ],
@@ -2457,6 +2782,8 @@
     {
       "title": "Rhythmic Corpus of 100 Spanish Golden Age Plays",
       "url": "https://zenodo.org/records/17537343",
+      "data_url": "https://zenodo.org/records/17537343",
+      "data_format": "plain-text",
       "languages": [
         "Spanish"
       ],
@@ -2477,7 +2804,7 @@
       "languages": [
         "Catalan"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2490,6 +2817,8 @@
     {
       "title": "ConDÉ — faire vivre six siècles de coutumiers normands (Corpus Numérique des Éditions de la Coutume de Normandie)",
       "url": "https://mrsh.unicaen.fr/coutumiers/conde/accueil.html",
+      "data_url": "https://github.com/RIN-ConDE/editions",
+      "data_format": "tei",
       "languages": [
         "French"
       ],
@@ -2506,10 +2835,12 @@
     {
       "title": "roPsalt Romanian",
       "url": "https://github.com/mmoruz/RoPsalt",
+      "data_url": "https://github.com/mmoruz/RoPsalt",
+      "data_format": "xml",
       "languages": [
         "Romanian"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2522,13 +2853,15 @@
     {
       "title": "Philosophical Transactions (pre-1750 archive)",
       "url": "https://royalsocietypublishing.org/",
+      "data_url": "https://fedora.clarin-d.uni-saarland.de/rsc_v6/access.html",
+      "data_format": "tei",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "The Royal Society",
       "languages": [
         "English"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 2795758,
       "texts": 1424,
       "period": "1665-1700",
@@ -2538,6 +2871,8 @@
     {
       "title": "RUP — Rare or Unique Poems from Manuscripts, 1500-1660 (RUP)",
       "url": "https://github.com/jedmondes/Rare-or-Unique-Poems-from-manuscripts-1500-1660-FOLGER",
+      "data_url": "https://github.com/jedmondes/Rare-or-Unique-Poems-from-manuscripts-1500-1660-FOLGER",
+      "data_format": "tei",
       "languages": [
         "English"
       ],
@@ -2555,12 +2890,14 @@
     {
       "title": "Russian National Corpus",
       "url": "https://ruscorpora.ru/",
+      "data_url": "https://github.com/UniversalDependencies/UD_Old_East_Slavic-RNC",
+      "data_format": "other",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
         "Russian"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "words": 96174,
       "texts": 13,
       "period": "1474-1698",
@@ -2573,7 +2910,7 @@
       "languages": [
         "Russian"
       ],
-      "encoding": "plain-text",
+      "encoding": "wikitext",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2586,11 +2923,13 @@
     {
       "title": "Salamanca",
       "url": "https://github.com/digicademy/svsal-tei",
+      "data_url": "https://github.com/digicademy/svsal-tei",
+      "data_format": "tei",
       "languages": [
         "Latin",
         "Spanish"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2603,12 +2942,14 @@
     {
       "title": "Sefaria",
       "url": "https://www.sefaria.org/",
+      "data_url": "https://github.com/Sefaria/Sefaria-Export",
+      "data_format": "plain-text",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
         "Hebrew"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "words": 18955529,
       "texts": 132,
       "period": "1495-1690",
@@ -2618,10 +2959,12 @@
     {
       "title": "SENIE Latvian",
       "url": "https://hdl.handle.net/20.500.12574/141",
+      "data_url": "https://hdl.handle.net/20.500.12574/141",
+      "data_format": "tei",
       "languages": [
         "Latvian"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2633,6 +2976,8 @@
     {
       "title": "SERMO - Corpus de sermons protestants 1550-1750",
       "url": "http://sermo.unine.ch/SERMO/",
+      "data_url": "http://sermo.unine.ch/SERMO/apropos/index?part=corpus",
+      "data_format": "tei",
       "languages": [
         "French"
       ],
@@ -2649,6 +2994,8 @@
     {
       "title": "IMP — Corpus of Slovene Historical Texts, 1567-1899",
       "url": "https://www.clarin.si/repository/xmlui/handle/11356/1255",
+      "data_url": "https://www.clarin.si/repository/xmlui/handle/11356/1031",
+      "data_format": "tei",
       "languages": [
         "Slovenian"
       ],
@@ -2668,7 +3015,7 @@
       "languages": [
         "Italian"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2680,6 +3027,8 @@
     {
       "title": "Corpus de sonetos del Siglo de Oro (ADSO)",
       "url": "https://github.com/bncolorado/CorpusSonetosSigloDeOro",
+      "data_url": "https://github.com/bncolorado/CorpusSonetosSigloDeOro",
+      "data_format": "tei",
       "languages": [
         "Spanish"
       ],
@@ -2696,10 +3045,12 @@
     {
       "title": "SPXVI Polish16c",
       "url": "https://spxvi.edu.pl",
+      "data_url": "https://spxvi.edu.pl/korpus/teksty/",
+      "data_format": "html",
       "languages": [
         "Polish"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2711,6 +3062,8 @@
     {
       "title": "SSRQ Online — Sammlung Schweizerischer Rechtsquellen / Collection des sources du droit suisse",
       "url": "https://ssrq-sds-fds.ch/",
+      "data_url": "https://github.com/SSRQ-SDS-FDS/editio-data",
+      "data_format": "tei",
       "languages": [
         "German"
       ],
@@ -2733,7 +3086,7 @@
       "languages": [
         "English"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "words": 1112931,
       "texts": 291,
       "period": "1625-1697",
@@ -2743,10 +3096,12 @@
     {
       "title": "Suriano Correspondence",
       "url": "https://github.com/HuygensING/suriano",
+      "data_url": "https://github.com/HuygensING/suriano/tree/main/datasource/tei",
+      "data_format": "tei",
       "languages": [
         "Italian"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2759,10 +3114,12 @@
     {
       "title": "Tagalog Doctrina1593",
       "url": "https://www.gutenberg.org/ebooks/16119",
+      "data_url": "https://www.gutenberg.org/ebooks/16119",
+      "data_format": "html",
       "languages": [
         "Tagalog"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2774,6 +3131,8 @@
     {
       "title": "Repositorio de teatro breve del Siglo de Oro (TBSO)",
       "url": "https://github.com/dxvidmr/repositorioTBSO",
+      "data_url": "https://github.com/dxvidmr/repositorioTBSO",
+      "data_format": "tei",
       "languages": [
         "Spanish"
       ],
@@ -2791,6 +3150,8 @@
     {
       "title": "TextGrid Repository",
       "url": "https://textgridrep.org/",
+      "data_url": "https://textgridrep.org/project/TGPR-372fe6dc-57f2-6cd4-01b5-2c4bbefcfd3c",
+      "data_format": "tei",
       "languages": [
         "English",
         "French",
@@ -2815,6 +3176,8 @@
     {
       "title": "The Latin Library",
       "url": "https://www.thelatinlibrary.com/",
+      "data_url": "https://www.thelatinlibrary.com/neo.html",
+      "data_format": "html",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
@@ -2830,10 +3193,12 @@
     {
       "title": "Théâtre Classique",
       "url": "http://www.theatre-classique.fr/",
+      "data_url": "http://www.theatre-classique.fr/pages/programmes/PageEdition.php",
+      "data_format": "xml",
       "languages": [
         "French"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2845,10 +3210,12 @@
     {
       "title": "Thornton Kikongo",
       "url": "https://www.bu.edu/afam/people/faculty/john-thornton",
+      "data_url": "https://www.kaowarsom.be/fr/memoir_249",
+      "data_format": "other",
       "languages": [
         "Kikongo"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2860,10 +3227,12 @@
     {
       "title": "Ticha Zapotec",
       "url": "https://github.com/HCDigitalScholarship/ticha-xml-tei",
+      "data_url": "https://github.com/HCDigitalScholarship/ticha-xml-tei",
+      "data_format": "tei",
       "languages": [
         "Zapotec"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2876,6 +3245,8 @@
     {
       "title": "TITUS (Thesaurus Indogermanischer Text- und Sprachmaterialien)",
       "url": "https://titus.uni-frankfurt.de/",
+      "data_url": "https://titus.uni-frankfurt.de/sliekkas/html/texts.html",
+      "data_format": "xml",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "institution": "Goethe-Universität Frankfurt",
@@ -2885,7 +3256,7 @@
         "Lithuanian",
         "Old Prussian"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "words": 1746475,
       "texts": 26,
       "period": "1545-1700",
@@ -2898,7 +3269,7 @@
       "languages": [
         "Italian"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2913,7 +3284,7 @@
       "languages": [
         "Hungarian"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2925,10 +3296,12 @@
     {
       "title": "TML",
       "url": "https://github.com/cmm2209/TMLr",
+      "data_url": "https://github.com/cmm2209/TMLr",
+      "data_format": "html",
       "languages": [
         "Latin"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2941,6 +3314,8 @@
     {
       "title": "RenArD — Renaissance Aristophanes Digital (Translatoscope / ELAN)",
       "url": "https://renard.elan-numerique.fr/",
+      "data_url": "https://nakala.fr/collection/10.34847/nkl.798c6967",
+      "data_format": "tei",
       "languages": [
         "Latin"
       ],
@@ -2955,12 +3330,29 @@
       "institution": "UMR Litt&Arts, Universite Grenoble Alpes (Malika Bastin-Hammou; ELAN project)"
     },
     {
+      "title": "travel!digital — corpus of travel accounts (Kontextualisierung von Reiseberichten)",
+      "url": "https://www.digitale-edition.at/archive/objects/o:konde.p18/",
+      "languages": [
+        "German"
+      ],
+      "encoding": "tei",
+      "status": "active",
+      "provenance": "discovered",
+      "date_added": "2026-10-08",
+      "institution": "Austrian Centre for Digital Humanities and Cultural Heritage (ACDH), Austrian Academy of Sciences",
+      "period": "early modern (believed 16th–18th century; uncertain)",
+      "region": "Austria / German-speaking Europe",
+      "notes": "Full-text corpus of travel accounts with linguistic and semantic mark-up, a documented TEI schema, and digital facsimiles of all volumes, archived in ARCHE (digitale-edition.at). Uncertainties: the exact period coverage (whether the majority of the corpus falls within 1450–1700) and the current project website were not verified — the ARCHE collection page blocked automated reading — and the language composition of the travel accounts may go beyond German. Verify scope before cataloguing.\n\nJustification: An ACDH corpus project providing TEI-encoded, linguistically annotated full text of early modern travel literature together with facsimiles; found via a re3data/DARIAH-oriented web search. Not in the catalogue (the catalogue lists ABaC:us from the same institute, which is a different project).\nFound at: https://www.digitale-edition.at/archive/objects/o:konde.p18/datastreams/TEI_SOURCE/content"
+    },
+    {
       "title": "TychoBrahe Portuguese",
       "url": "https://www.tycho.iel.unicamp.br/corpus/texts/txt.zip",
+      "data_url": "https://www.tycho.iel.unicamp.br/corpus/texts/xml/",
+      "data_format": "xml",
       "languages": [
         "Portuguese"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2975,7 +3367,7 @@
       "languages": [
         "Estonian"
       ],
-      "encoding": "plain-text",
+      "encoding": "html",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -2987,10 +3379,12 @@
     {
       "title": "Vespasiano da Bisticci, Lettere. A digital edition (Knowledge Site)",
       "url": "https://projects.dharc.unibo.it/vespasiano/",
+      "data_url": "https://amsacta.unibo.it/id/eprint/6852",
+      "data_format": "xml",
       "languages": [
         "Italian"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -3003,10 +3397,12 @@
     {
       "title": "Phép giảng tám ngày (Cathechismus) — Alexandre de Rhodes, Rome 1651",
       "url": "https://vi.wikisource.org/wiki/Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y",
+      "data_url": "https://vi.wikisource.org/wiki/M%E1%BB%A5c_l%E1%BB%A5c:Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y.pdf",
+      "data_format": "wikitext",
       "languages": [
         "Vietnamese"
       ],
-      "encoding": "plain-text",
+      "encoding": "wikitext",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -3019,10 +3415,12 @@
     {
       "title": "VKS OldLiteraryFinnish",
       "url": "https://www.kielipankki.fi/corpora/vks",
+      "data_url": "https://kaino.kotus.fi/korpus/vks/meta/vks_coll_rdf.xml",
+      "data_format": "tei",
       "languages": [
         "Finnish"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
@@ -3039,7 +3437,7 @@
       "languages": [
         "Czech"
       ],
-      "encoding": "plain-text",
+      "encoding": "tei",
       "words": 4848608,
       "texts": 295,
       "period": "1450-1696",
@@ -3049,6 +3447,8 @@
     {
       "title": "Historical Corpus of the Welsh Language, 1500-1850 (HCWL; Corpws Hanesyddol yr Iaith Gymraeg)",
       "url": "https://www.celticstudies.net/",
+      "data_url": "https://github.com/dwew2/hcwl",
+      "data_format": "tei",
       "languages": [
         "Welsh"
       ],
@@ -3065,6 +3465,8 @@
     {
       "title": "Wikisource",
       "url": "https://wikisource.org/",
+      "data_url": "https://dumps.wikimedia.org/other/mediawiki_content_current/",
+      "data_format": "wikitext",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
@@ -3103,6 +3505,8 @@
     {
       "title": "WiN — Wiedererzählen im Norden. Digitale Analyse weltlicher Erzählungen in niederdeutschen Inkunabeln (WiN-Korpus v1.0)",
       "url": "https://www.laudatio-repository.org/browse/corpus/XnU19IIBa2XDdNuCXFx-/corpora",
+      "data_url": "https://www.laudatio-repository.org/browse/corpus/XnU19IIBa2XDdNuCXFx-/corpora",
+      "data_format": "xml",
       "languages": [
         "German"
       ],
@@ -3119,6 +3523,8 @@
     {
       "title": "Postil Time Machine (PosTiMe) — digital edition of the Old Lithuanian Postilles incl. the Wolfenbuettel Postille of 1573",
       "url": "https://dh.phil-fak.uni-koeln.de/forschung/abgeschlossene-projekte/postil-time-machine-postime",
+      "data_url": "https://github.com/postime/WP1573-TEI",
+      "data_format": "tei",
       "languages": [
         "Lithuanian"
       ],
@@ -3135,6 +3541,8 @@
     {
       "title": "Wolne Lektury",
       "url": "https://wolnelektury.pl/",
+      "data_url": "https://wolnelektury.pl/api/",
+      "data_format": "xml",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "languages": [
@@ -3177,7 +3585,7 @@
       "languages": [
         "Slovak"
       ],
-      "encoding": "plain-text",
+      "encoding": "xml",
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",

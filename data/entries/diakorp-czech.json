@@ -1,10 +1,12 @@
 {
   "title": "Diakorp v6: diachronic corpus of Czech",
   "url": "https://lindat.mff.cuni.cz/repository/items/c7544e98-f017-4f4f-ad21-048c692c3bc7",
+  "data_url": "https://hdl.handle.net/11234/1-5413",
+  "data_format": "other",
   "languages": [
     "Czech"
   ],
-  "encoding": "plain-text",
+  "encoding": "other",
   "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",

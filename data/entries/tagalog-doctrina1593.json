@@ -1,10 +1,12 @@
 {
   "title": "Tagalog Doctrina1593",
   "url": "https://www.gutenberg.org/ebooks/16119",
+  "data_url": "https://www.gutenberg.org/ebooks/16119",
+  "data_format": "html",
   "languages": [
     "Tagalog"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

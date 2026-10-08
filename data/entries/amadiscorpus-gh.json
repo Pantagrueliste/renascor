@@ -1,6 +1,8 @@
 {
   "title": "Amadis in Translation (Digital Amadis)",
   "url": "http://amadis.newtfire.org/",
+  "data_url": "https://github.com/ebeshero/Amadis-in-Translation/tree/master/XMLandSchemas/Montalvo",
+  "data_format": "tei",
   "languages": [
     "Spanish"
   ],

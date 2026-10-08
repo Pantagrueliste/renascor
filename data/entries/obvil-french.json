@@ -1,6 +1,8 @@
 {
   "title": "OBVIL — corpus d'éditions anciennes françaises (Teinte)",
   "url": "https://obtic.sorbonne-universite.fr/corpus",
+  "data_url": "https://github.com/OBVIL",
+  "data_format": "tei",
   "languages": [
     "French"
   ],

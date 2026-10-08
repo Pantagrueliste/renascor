@@ -1,6 +1,8 @@
 {
   "title": "Obras de Góngora (obra poética, ed. Antonio Carreira) — Labex OBVIL GONGORA project",
   "url": "https://github.com/gongoradigital/gongoraobra",
+  "data_url": "https://github.com/gongoradigital/gongoraobra",
+  "data_format": "tei",
   "languages": [
     "Spanish"
   ],

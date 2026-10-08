@@ -1,10 +1,12 @@
 {
   "title": "Kronieken Dutch",
   "url": "https://doi.org/10.5281/zenodo.13332815",
+  "data_url": "https://github.com/chroniclingnovelty/chronicles-datasets",
+  "data_format": "tei",
   "languages": [
     "Dutch"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

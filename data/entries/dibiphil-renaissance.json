@@ -1,6 +1,8 @@
 {
   "title": "DiBiPhil — Corpus of philosophical texts from Zeno's Digital Library",
   "url": "https://github.com/deutschestextarchiv/DiBiPhil",
+  "data_url": "https://github.com/deutschestextarchiv/DiBiPhil/tree/main/data",
+  "data_format": "tei",
   "languages": [
     "German"
   ],

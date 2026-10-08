@@ -1,6 +1,8 @@
 {
   "title": "RUP — Rare or Unique Poems from Manuscripts, 1500-1660 (RUP)",
   "url": "https://github.com/jedmondes/Rare-or-Unique-Poems-from-manuscripts-1500-1660-FOLGER",
+  "data_url": "https://github.com/jedmondes/Rare-or-Unique-Poems-from-manuscripts-1500-1660-FOLGER",
+  "data_format": "tei",
   "languages": [
     "English"
   ],

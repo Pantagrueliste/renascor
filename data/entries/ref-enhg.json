@@ -1,10 +1,12 @@
 {
   "title": "ReF ENHG",
   "url": "https://zenodo.org/records/5793616",
+  "data_url": "https://zenodo.org/records/5793616",
+  "data_format": "xml",
   "languages": [
     "German"
   ],
-  "encoding": "plain-text",
+  "encoding": "xml",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

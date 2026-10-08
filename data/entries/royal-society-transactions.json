@@ -1,13 +1,15 @@
 {
   "title": "Philosophical Transactions (pre-1750 archive)",
   "url": "https://royalsocietypublishing.org/",
+  "data_url": "https://fedora.clarin-d.uni-saarland.de/rsc_v6/access.html",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "The Royal Society",
   "languages": [
     "English"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "words": 2795758,
   "texts": 1424,
   "period": "1665-1700",

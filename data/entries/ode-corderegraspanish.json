@@ -1,10 +1,12 @@
 {
   "title": "CORDEREGRA — Corpus diacrónico del español del Reino de Granada",
   "url": "https://corpora.uah.es/charta/",
+  "data_url": "http://corpora.ugr.es/ode/index.php?action=browser&show=all",
+  "data_format": "tei",
   "languages": [
     "Spanish"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "discontinued",
   "provenance": "submitted",
   "date_added": "2026-10-07",

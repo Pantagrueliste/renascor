@@ -1,6 +1,8 @@
 {
   "title": "Old Hungarian Corpus (Régi Magyar Nyelvemlékek)",
   "url": "http://oldhungariancorpus.nytud.hu/",
+  "data_url": "http://oldhungariancorpus.nytud.hu/en-texts.html",
+  "data_format": "plain-text",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

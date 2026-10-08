@@ -1,6 +1,8 @@
 {
   "title": "The Newton Project",
   "url": "https://www.newtonproject.ox.ac.uk/",
+  "data_url": "https://www.newtonproject.ox.ac.uk/texts/browse-all-texts/by-category",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "University of Oxford",
@@ -8,7 +10,7 @@
     "English",
     "Latin"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "words": 2069555,
   "texts": 168,
   "period": "1659-1700",

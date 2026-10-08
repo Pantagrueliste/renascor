@@ -1,11 +1,13 @@
 {
   "title": "Gallicorpora French HTR",
   "url": "https://github.com/Gallicorpora",
+  "data_url": "https://github.com/Gallicorpora/TEI/tree/main/Corpus_print_16-18",
+  "data_format": "tei",
   "languages": [
     "French",
     "Latin"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

@@ -1,6 +1,8 @@
 {
   "title": "Kirishitan Japanese",
   "url": "https://www2.ninjal.ac.jp/textdb_dataset/en",
+  "data_url": "https://www2.ninjal.ac.jp/textdb_dataset/en/",
+  "data_format": "plain-text",
   "languages": [
     "Japanese"
   ],

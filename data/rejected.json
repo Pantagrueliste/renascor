@@ -1,0 +1,11 @@
+{
+  "comment": "Resources reviewed and rejected. The weekly discovery run is told never to propose them again, and its candidates are filtered against these URLs. Inclusion rule: a resource is added only if the number of words it contributes can be counted exactly AND its texts are verifiably not already in the catalogue.",
+  "rejected": [
+    {
+      "title": "Digital Latin Library — Library of Digital Latin Texts (LDLT)",
+      "url": "https://digitallatin.org/",
+      "reason": "Federates texts published elsewhere: the words it adds cannot be counted exactly, and they cannot be shown not to be in the catalogue already.",
+      "date": "2026-10-08"
+    }
+  ]
+}

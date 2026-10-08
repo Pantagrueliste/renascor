@@ -1,10 +1,12 @@
 {
   "title": "roPsalt Romanian",
   "url": "https://github.com/mmoruz/RoPsalt",
+  "data_url": "https://github.com/mmoruz/RoPsalt",
+  "data_format": "xml",
   "languages": [
     "Romanian"
   ],
-  "encoding": "plain-text",
+  "encoding": "xml",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

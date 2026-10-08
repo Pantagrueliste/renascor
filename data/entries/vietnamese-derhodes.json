@@ -1,10 +1,12 @@
 {
   "title": "Phép giảng tám ngày (Cathechismus) — Alexandre de Rhodes, Rome 1651",
   "url": "https://vi.wikisource.org/wiki/Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y",
+  "data_url": "https://vi.wikisource.org/wiki/M%E1%BB%A5c_l%E1%BB%A5c:Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y.pdf",
+  "data_format": "wikitext",
   "languages": [
     "Vietnamese"
   ],
-  "encoding": "plain-text",
+  "encoding": "wikitext",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

@@ -1,10 +1,12 @@
 {
   "title": "Bibliothèques Virtuelles Humanistes — Épistémon",
   "url": "https://www.bvh.univ-tours.fr/",
+  "data_url": "https://www.bvh.univ-tours.fr/Epistemon/index.asp",
+  "data_format": "tei",
   "languages": [
     "French"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

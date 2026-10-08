@@ -1,11 +1,13 @@
 {
   "title": "Campanella ATC",
   "url": "https://www.iliesi.cnr.it/ATC",
+  "data_url": "https://www.iliesi.cnr.it/ATC/xml/Aforismi.xml",
+  "data_format": "tei",
   "languages": [
     "Italian",
     "Latin"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

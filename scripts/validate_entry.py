@@ -16,6 +16,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_PATH = REPO_ROOT / "schema" / "entry.schema.json"
+COUNTRIES_PATH = REPO_ROOT / "schema" / "countries.json"
 
 
 def validate_schema(entry: dict, schema: dict) -> list[str]:
@@ -79,6 +80,9 @@ def main() -> int:
     schema = json.loads(args.schema.read_text(encoding="utf-8"))
 
     errors = validate_schema(entry, schema)
+    known = json.loads(COUNTRIES_PATH.read_text(encoding="utf-8"))["countries"]
+    errors += [f"countries: unknown code {code!r} (add it to schema/countries.json)"
+               for code in entry.get("countries", []) if code not in known]
     if errors:
         print(f"Schema validation failed for {args.entry_file.name}:")
         for e in errors:
@@ -88,12 +92,17 @@ def main() -> int:
     print(f"Schema OK: {args.entry_file.name}")
 
     if args.check_url:
-        url = entry.get("url", "")
-        ok, message = check_url(url)
-        if ok:
-            print(f"URL OK: {url} ({message})")
-        else:
-            print(f"URL check failed: {url} ({message})")
+        failed = False
+        for url in (entry.get("url", ""), entry.get("data_url", "")):
+            if not url:
+                continue
+            ok, message = check_url(url)
+            if ok:
+                print(f"URL OK: {url} ({message})")
+            else:
+                print(f"URL check failed: {url} ({message})")
+                failed = True
+        if failed:
             return 1
 
     return 0

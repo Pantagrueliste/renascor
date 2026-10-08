@@ -1,0 +1,520 @@
+{
+  "comment": "Controlled vocabulary for the 'countries' field: present-day countries as ISO 3166-1 alpha-2 codes, and ISO 3166-2 codes for the nations of Great Britain (England, Scotland and Wales were distinct before 1707). 'area' groups them into historical areas used by the public site for navigation; the grouping is a convenience and can be changed here without touching the entries. Greece, Cyprus and the Balkans form their own area so that Venetian Crete or Cyprus are not labelled Ottoman. Add a country here before using it in an entry.",
+  "areas": [
+    "British Isles",
+    "France",
+    "Low Countries",
+    "Holy Roman Empire",
+    "Italian Peninsula",
+    "Iberian Peninsula",
+    "Scandinavia",
+    "Central and Eastern Europe",
+    "Balkans and Greece",
+    "Ottoman Empire and Near East",
+    "Americas",
+    "Asia",
+    "Africa"
+  ],
+  "countries": {
+    "GB-ENG": {
+      "name": "England",
+      "area": "British Isles"
+    },
+    "GB-SCT": {
+      "name": "Scotland",
+      "area": "British Isles"
+    },
+    "GB-WLS": {
+      "name": "Wales",
+      "area": "British Isles"
+    },
+    "GB-NIR": {
+      "name": "Northern Ireland",
+      "area": "British Isles"
+    },
+    "IE": {
+      "name": "Ireland",
+      "area": "British Isles"
+    },
+    "IM": {
+      "name": "Isle of Man",
+      "area": "British Isles"
+    },
+    "FR": {
+      "name": "France",
+      "area": "France"
+    },
+    "MC": {
+      "name": "Monaco",
+      "area": "France"
+    },
+    "NL": {
+      "name": "Netherlands",
+      "area": "Low Countries"
+    },
+    "BE": {
+      "name": "Belgium",
+      "area": "Low Countries"
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "area": "Low Countries"
+    },
+    "DE": {
+      "name": "Germany",
+      "area": "Holy Roman Empire"
+    },
+    "AT": {
+      "name": "Austria",
+      "area": "Holy Roman Empire"
+    },
+    "CH": {
+      "name": "Switzerland",
+      "area": "Holy Roman Empire"
+    },
+    "CZ": {
+      "name": "Czechia",
+      "area": "Holy Roman Empire"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "area": "Holy Roman Empire"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "area": "Holy Roman Empire"
+    },
+    "IT": {
+      "name": "Italy",
+      "area": "Italian Peninsula"
+    },
+    "MT": {
+      "name": "Malta",
+      "area": "Italian Peninsula"
+    },
+    "SM": {
+      "name": "San Marino",
+      "area": "Italian Peninsula"
+    },
+    "VA": {
+      "name": "Vatican City",
+      "area": "Italian Peninsula"
+    },
+    "ES": {
+      "name": "Spain",
+      "area": "Iberian Peninsula"
+    },
+    "PT": {
+      "name": "Portugal",
+      "area": "Iberian Peninsula"
+    },
+    "AD": {
+      "name": "Andorra",
+      "area": "Iberian Peninsula"
+    },
+    "GI": {
+      "name": "Gibraltar",
+      "area": "Iberian Peninsula"
+    },
+    "DK": {
+      "name": "Denmark",
+      "area": "Scandinavia"
+    },
+    "NO": {
+      "name": "Norway",
+      "area": "Scandinavia"
+    },
+    "SE": {
+      "name": "Sweden",
+      "area": "Scandinavia"
+    },
+    "IS": {
+      "name": "Iceland",
+      "area": "Scandinavia"
+    },
+    "FI": {
+      "name": "Finland",
+      "area": "Scandinavia"
+    },
+    "FO": {
+      "name": "Faroe Islands",
+      "area": "Scandinavia"
+    },
+    "GL": {
+      "name": "Greenland",
+      "area": "Scandinavia"
+    },
+    "PL": {
+      "name": "Poland",
+      "area": "Central and Eastern Europe"
+    },
+    "LT": {
+      "name": "Lithuania",
+      "area": "Central and Eastern Europe"
+    },
+    "LV": {
+      "name": "Latvia",
+      "area": "Central and Eastern Europe"
+    },
+    "EE": {
+      "name": "Estonia",
+      "area": "Central and Eastern Europe"
+    },
+    "BY": {
+      "name": "Belarus",
+      "area": "Central and Eastern Europe"
+    },
+    "UA": {
+      "name": "Ukraine",
+      "area": "Central and Eastern Europe"
+    },
+    "RU": {
+      "name": "Russia",
+      "area": "Central and Eastern Europe"
+    },
+    "HU": {
+      "name": "Hungary",
+      "area": "Central and Eastern Europe"
+    },
+    "SK": {
+      "name": "Slovakia",
+      "area": "Central and Eastern Europe"
+    },
+    "HR": {
+      "name": "Croatia",
+      "area": "Central and Eastern Europe"
+    },
+    "RO": {
+      "name": "Romania",
+      "area": "Central and Eastern Europe"
+    },
+    "MD": {
+      "name": "Moldova",
+      "area": "Central and Eastern Europe"
+    },
+    "GR": {
+      "name": "Greece",
+      "area": "Balkans and Greece"
+    },
+    "CY": {
+      "name": "Cyprus",
+      "area": "Balkans and Greece"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "area": "Balkans and Greece"
+    },
+    "RS": {
+      "name": "Serbia",
+      "area": "Balkans and Greece"
+    },
+    "BA": {
+      "name": "Bosnia and Herzegovina",
+      "area": "Balkans and Greece"
+    },
+    "ME": {
+      "name": "Montenegro",
+      "area": "Balkans and Greece"
+    },
+    "MK": {
+      "name": "North Macedonia",
+      "area": "Balkans and Greece"
+    },
+    "AL": {
+      "name": "Albania",
+      "area": "Balkans and Greece"
+    },
+    "TR": {
+      "name": "Türkiye",
+      "area": "Ottoman Empire and Near East"
+    },
+    "SY": {
+      "name": "Syria",
+      "area": "Ottoman Empire and Near East"
+    },
+    "LB": {
+      "name": "Lebanon",
+      "area": "Ottoman Empire and Near East"
+    },
+    "IL": {
+      "name": "Israel",
+      "area": "Ottoman Empire and Near East"
+    },
+    "PS": {
+      "name": "Palestine",
+      "area": "Ottoman Empire and Near East"
+    },
+    "JO": {
+      "name": "Jordan",
+      "area": "Ottoman Empire and Near East"
+    },
+    "IQ": {
+      "name": "Iraq",
+      "area": "Ottoman Empire and Near East"
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "area": "Ottoman Empire and Near East"
+    },
+    "YE": {
+      "name": "Yemen",
+      "area": "Ottoman Empire and Near East"
+    },
+    "EG": {
+      "name": "Egypt",
+      "area": "Ottoman Empire and Near East"
+    },
+    "AM": {
+      "name": "Armenia",
+      "area": "Ottoman Empire and Near East"
+    },
+    "GE": {
+      "name": "Georgia",
+      "area": "Ottoman Empire and Near East"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "area": "Ottoman Empire and Near East"
+    },
+    "IR": {
+      "name": "Iran",
+      "area": "Ottoman Empire and Near East"
+    },
+    "MX": {
+      "name": "Mexico",
+      "area": "Americas"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "area": "Americas"
+    },
+    "HN": {
+      "name": "Honduras",
+      "area": "Americas"
+    },
+    "SV": {
+      "name": "El Salvador",
+      "area": "Americas"
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "area": "Americas"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "area": "Americas"
+    },
+    "PA": {
+      "name": "Panama",
+      "area": "Americas"
+    },
+    "CU": {
+      "name": "Cuba",
+      "area": "Americas"
+    },
+    "DO": {
+      "name": "Dominican Republic",
+      "area": "Americas"
+    },
+    "HT": {
+      "name": "Haiti",
+      "area": "Americas"
+    },
+    "PR": {
+      "name": "Puerto Rico",
+      "area": "Americas"
+    },
+    "JM": {
+      "name": "Jamaica",
+      "area": "Americas"
+    },
+    "CO": {
+      "name": "Colombia",
+      "area": "Americas"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "area": "Americas"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "area": "Americas"
+    },
+    "PE": {
+      "name": "Peru",
+      "area": "Americas"
+    },
+    "BO": {
+      "name": "Bolivia",
+      "area": "Americas"
+    },
+    "CL": {
+      "name": "Chile",
+      "area": "Americas"
+    },
+    "AR": {
+      "name": "Argentina",
+      "area": "Americas"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "area": "Americas"
+    },
+    "UY": {
+      "name": "Uruguay",
+      "area": "Americas"
+    },
+    "BR": {
+      "name": "Brazil",
+      "area": "Americas"
+    },
+    "US": {
+      "name": "United States",
+      "area": "Americas"
+    },
+    "CA": {
+      "name": "Canada",
+      "area": "Americas"
+    },
+    "JP": {
+      "name": "Japan",
+      "area": "Asia"
+    },
+    "CN": {
+      "name": "China",
+      "area": "Asia"
+    },
+    "KR": {
+      "name": "South Korea",
+      "area": "Asia"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "area": "Asia"
+    },
+    "MO": {
+      "name": "Macao",
+      "area": "Asia"
+    },
+    "PH": {
+      "name": "Philippines",
+      "area": "Asia"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "area": "Asia"
+    },
+    "KH": {
+      "name": "Cambodia",
+      "area": "Asia"
+    },
+    "TH": {
+      "name": "Thailand",
+      "area": "Asia"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "area": "Asia"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "area": "Asia"
+    },
+    "IN": {
+      "name": "India",
+      "area": "Asia"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "area": "Asia"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "area": "Asia"
+    },
+    "AF": {
+      "name": "Afghanistan",
+      "area": "Asia"
+    },
+    "MN": {
+      "name": "Mongolia",
+      "area": "Asia"
+    },
+    "MA": {
+      "name": "Morocco",
+      "area": "Africa"
+    },
+    "DZ": {
+      "name": "Algeria",
+      "area": "Africa"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "area": "Africa"
+    },
+    "LY": {
+      "name": "Libya",
+      "area": "Africa"
+    },
+    "ET": {
+      "name": "Ethiopia",
+      "area": "Africa"
+    },
+    "ER": {
+      "name": "Eritrea",
+      "area": "Africa"
+    },
+    "SD": {
+      "name": "Sudan",
+      "area": "Africa"
+    },
+    "CD": {
+      "name": "DR Congo",
+      "area": "Africa"
+    },
+    "CG": {
+      "name": "Congo",
+      "area": "Africa"
+    },
+    "AO": {
+      "name": "Angola",
+      "area": "Africa"
+    },
+    "MZ": {
+      "name": "Mozambique",
+      "area": "Africa"
+    },
+    "ST": {
+      "name": "São Tomé and Príncipe",
+      "area": "Africa"
+    },
+    "CV": {
+      "name": "Cabo Verde",
+      "area": "Africa"
+    },
+    "SN": {
+      "name": "Senegal",
+      "area": "Africa"
+    },
+    "GH": {
+      "name": "Ghana",
+      "area": "Africa"
+    },
+    "ZA": {
+      "name": "South Africa",
+      "area": "Africa"
+    },
+    "KE": {
+      "name": "Kenya",
+      "area": "Africa"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "area": "Africa"
+    },
+    "MG": {
+      "name": "Madagascar",
+      "area": "Africa"
+    }
+  }
+}

@@ -1,12 +1,14 @@
 {
   "title": "OSTA — Old Spanish Textual Archive",
   "url": "https://osta.oldspanishtextualarchive.org/",
+  "data_url": "https://github.com/hispanicseminary/OSTA",
+  "data_format": "plain-text",
   "languages": [
     "Aragonese",
     "Latin",
     "Spanish"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

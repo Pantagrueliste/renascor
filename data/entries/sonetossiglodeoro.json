@@ -1,6 +1,8 @@
 {
   "title": "Corpus de sonetos del Siglo de Oro (ADSO)",
   "url": "https://github.com/bncolorado/CorpusSonetosSigloDeOro",
+  "data_url": "https://github.com/bncolorado/CorpusSonetosSigloDeOro",
+  "data_format": "tei",
   "languages": [
     "Spanish"
   ],

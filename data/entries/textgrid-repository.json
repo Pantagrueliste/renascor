@@ -1,6 +1,8 @@
 {
   "title": "TextGrid Repository",
   "url": "https://textgridrep.org/",
+  "data_url": "https://textgridrep.org/project/TGPR-372fe6dc-57f2-6cd4-01b5-2c4bbefcfd3c",
+  "data_format": "tei",
   "languages": [
     "English",
     "French",

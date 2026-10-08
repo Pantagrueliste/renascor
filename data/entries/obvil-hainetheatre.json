@@ -1,6 +1,8 @@
 {
   "title": "OBVIL — corpus La Haine du théâtre (querelle du théâtre)",
   "url": "https://obvil.github.io/haine-theatre/",
+  "data_url": "https://github.com/OBVIL/haine-theatre",
+  "data_format": "tei",
   "languages": [
     "French"
   ],

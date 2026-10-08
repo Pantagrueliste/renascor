@@ -1,6 +1,8 @@
 {
   "title": "Perseus Digital Library",
   "url": "https://www.perseus.tufts.edu/",
+  "data_url": "https://github.com/PerseusDL/canonical-engLit",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Tufts University",

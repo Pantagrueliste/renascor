@@ -1,6 +1,8 @@
 {
   "title": "Dantiscus' Correspondence",
   "url": "https://editions.al.uw.edu.pl/exist/apps/dantiscus/",
+  "data_url": "https://editions.al.uw.edu.pl/exist/rest/db/apps/dantiscus-data/data/letters/",
+  "data_format": "tei",
   "languages": [
     "Czech",
     "Dutch",

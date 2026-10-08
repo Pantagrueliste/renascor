@@ -1,6 +1,8 @@
 {
   "title": "CORPUS17 — 17th c. French texts corpus",
   "url": "https://github.com/e-ditiones/CORPUS17",
+  "data_url": "https://github.com/e-ditiones/CORPUS17/tree/master/data",
+  "data_format": "tei",
   "languages": [
     "French"
   ],

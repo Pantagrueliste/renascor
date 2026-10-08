@@ -1,6 +1,8 @@
 {
   "title": "Postil Time Machine (PosTiMe) — digital edition of the Old Lithuanian Postilles incl. the Wolfenbuettel Postille of 1573",
   "url": "https://dh.phil-fak.uni-koeln.de/forschung/abgeschlossene-projekte/postil-time-machine-postime",
+  "data_url": "https://github.com/postime/WP1573-TEI",
+  "data_format": "tei",
   "languages": [
     "Lithuanian"
   ],
