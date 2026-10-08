@@ -34,11 +34,11 @@ GIT-Coqalane — Corpus TEI-XML des coq-à-l'âne,https://gitlab.huma-num.fr/cca
 Taklow Kernewek ('Cornish Things') — Cornish language text resources,https://taklowkernewek.neocities.org/,Cornish,other,active,"Taklow Kernewek (Tony Hakoyama), Neocities personal project; text after Stokes 1861 / Jordan",1611-1611,12560,,,,,submitted,2026-10-07
 Cornish Tregear,https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche,Cornish,other,active,,1556-1556,38078,,,,,submitted,2026-10-07
 Corpus Corporum,https://mlat.uzh.ch/,Latin,other,active,Universität Zürich,1450-1696,19091970,,,,,submitted,2026-10-07
-CORPUS17 — 17th c. French texts corpus,https://github.com/e-ditiones/CORPUS17,French,tei,active,"e-ditiones (Simon Gabay), GitHub open repo",1622-1700,149810,,,,,submitted,2026-10-07
+CORPUS17 — 17th c. French texts corpus,https://github.com/e-ditiones/CORPUS17,French,tei,archived,"e-ditiones (Simon Gabay), GitHub open repo",1622-1700,149810,,,,,submitted,2026-10-07
 Anthologies of the Spoudastirion Neou Ellinismou (snhell.gr) — Cretan Greek lyric poetry,http://web.archive.org/web/20010623201249/http://www.snhell.gr:80/a_anth_text.asp,Modern Greek,other,discontinued,"Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine",1590-1655,1736,,,,,submitted,2026-10-07
 CroALa (Croatiae Auctores Latini),https://croala.ffzg.unizg.hr/,Latin,other,active,University of Zagreb,1450-1700,3545403,,,,,submitted,2026-10-07
 Bible-Corpus — multilingual parallel corpus of Bible translations,https://github.com/christos-c/bible-corpus,Czech,other,active,"Christos Christodoulopoulos (christos-c), GitHub open repo",1613-1613,597503,,,,,submitted,2026-10-07
-tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový),https://github.com/CzechLanguageInstitute/tei2019,Czech,tei,active,"Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",1503-1503,69891,,,,,submitted,2026-10-07
+tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový),https://github.com/CzechLanguageInstitute/tei2019,Czech,tei,archived,"Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",1503-1503,69891,,,,,submitted,2026-10-07
 Early Modern Danish Postils v0.2.0,https://zenodo.org/records/7113232,Danish,other,archived,"Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)",1540-1635,2289816,,,,,submitted,2026-10-07
 Digitale Bibliotheek voor de Nederlandse Letteren (DBNL),https://www.dbnl.org/,Dutch; Frisian,other,active,,1477-1700,21440504,,,,,submitted,2026-10-07
 A Social Edition of the Devonshire MS (BL Add. MS 17492),https://en.wikibooks.org/wiki/The_Devonshire_Manuscript,English,tei,archived,University of Victoria (editorial team led by Ray Siemens); print edition by Iter & ACMRS Press,c. 1539-1547,,England,,,{'start': 2004},submitted,2026-10-07
@@ -73,7 +73,7 @@ EMOTHE - Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos,ht
 Early Modern Recipes Online Collective (EMROC),https://emroc.hypotheses.org/,English,other,active,,1564-1692,248907,,,,,submitted,2026-10-07
 Bibliothèques Virtuelles Humanistes — Épistémon,https://www.bvh.univ-tours.fr/,French,other,active,CESR (CNRS / Université de Tours),,3061651,,,,,submitted,2026-10-07
 Estilometria SigloOro,https://github.com/Jero2760/estilometria,Spanish,other,active,,1600-1645,7188629,,,,,submitted,2026-10-07
-Digital Edition of the Ethica Complementoria,https://github.com/arockenberger/EthicaComplementoria,German,tei,active,Annika Rockenberger (herzog August Bibliothek Wolfenbuettel / University of Oslo),1643-1665,73680,,,,,submitted,2026-10-07
+Digital Edition of the Ethica Complementoria,https://github.com/arockenberger/EthicaComplementoria,German,tei,archived,Annika Rockenberger (herzog August Bibliothek Wolfenbuettel / University of Oslo),1643-1665,73680,,,,,submitted,2026-10-07
 Evans Early American Imprints (Evans-TCP),https://quod.lib.umich.edu/e/evans/,English,other,active,Readex / University of Michigan,1640-1700,7878692,,,,,submitted,2026-10-07
 "Fabulas mitologicas del Siglo de Oro (ed. Antonio Rojas Castro, GitHub)",https://github.com/arojascastro/fabulasmitologicas,Spanish,tei,archived,Antonio Rojas Castro (Freie Universitaet Berlin / UNED),1620-1620,182943,,,,,submitted,2026-10-07
 Tale of the Fall of Constantinople - parallel interlinear edition (obdurodon.org),http://arranz.obdurodon.org,Church Slavonic,tei,archived,"Isabel Arranz del Riego (Universidad Complutense de Madrid); maintained by David J. Birnbaum (University of Pittsburgh, obdurodon.org)",1561-1585,29847,,,,,submitted,2026-10-07
@@ -102,7 +102,7 @@ Ritos y tradiciones de Huarochirí (Taylor 1987) — Biblioteca Digital Curt Nim
 GitLab des humanités numériques (Huma-Num),https://gitlab.huma-num.fr/,French; Latin; Spanish,tei,active,IR Huma-Num,1474-1700,1816659,,,,,submitted,2026-10-07
 IcePaHC — Icelandic Parsed Historical Corpus,https://github.com/antonkarl/icecorpus,Icelandic,other,active,"Joel C. Wallenberg (York), Anton Karl Ingason & Einar Freyr Sigurðsson (Árni Magnússon Institute/HI, Iceland), Eiríkur Rögnvaldsson; version 2024.03",1450-1680,283630,,,,,submitted,2026-10-07
 IMP — Digital library and corpus of historical Slovene,https://nl.ijs.si/imp/,Slovenian,tei,archived,"Tomaž Erjavec, Jožef Stefan Institute (IJS), Ljubljana; funded by EU FP7 IMPACT",1584-1695,27084,,,,,submitted,2026-10-07
-IMPACTes OriginalImprint,https://github.com/impactcentre/groundtruth-spa,Spanish,other,active,,1543-1691,1962810,,,,,submitted,2026-10-07
+IMPACTes OriginalImprint,https://github.com/impactcentre/groundtruth-spa,Spanish,other,archived,,1543-1691,1962810,,,,,submitted,2026-10-07
 Acts and Ordinances of the Interregnum,https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum,English,other,active,Institute of Historical Research (British History Online),1642-1659,1346924,,,,,submitted,2026-10-07
 Izbornyk Ukrainian,http://litopys.org.ua,Ukrainian,other,active,,1575-1697,345998,,,,,submitted,2026-10-07
 Kirishitan Japanese,https://www2.ninjal.ac.jp/textdb_dataset/en,Japanese,other,active,,1592-1603,154229,,,,,submitted,2026-10-07
@@ -174,7 +174,7 @@ TextGrid Repository,https://textgridrep.org/,English; French; German; Italian; L
 The Latin Library,https://www.thelatinlibrary.com/,Latin,other,active,,1450-1700,673616,,,,,submitted,2026-10-07
 Théâtre Classique,http://www.theatre-classique.fr/,French,other,active,,1659-1697,29912,,,,,submitted,2026-10-07
 Thornton Kikongo,https://www.bu.edu/afam/people/faculty/john-thornton,Kikongo,other,active,,1624-1649,7024,,,,,submitted,2026-10-07
-Ticha Zapotec,https://github.com/HCDigitalScholarship/ticha-xml-tei,Zapotec,other,active,,1578-1666,73928,,,,,submitted,2026-10-07
+Ticha Zapotec,https://github.com/HCDigitalScholarship/ticha-xml-tei,Zapotec,other,archived,,1578-1666,73928,,,,,submitted,2026-10-07
 TITUS (Thesaurus Indogermanischer Text- und Sprachmaterialien),https://titus.uni-frankfurt.de/,Albanian; Georgian; Lithuanian; Old Prussian,other,active,Goethe-Universität Frankfurt,1545-1700,1746475,,,,,submitted,2026-10-07
 TMI SMI Italian,https://tmiweb.science.uu.nl,Italian,other,active,,1525-1649,2029235,,,,,submitted,2026-10-07
 TMK,http://tmk.nytud.hu,Hungarian,other,active,,1532-1700,341772,,,,,submitted,2026-10-07

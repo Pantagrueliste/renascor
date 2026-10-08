@@ -578,7 +578,7 @@
         "French"
       ],
       "encoding": "tei",
-      "status": "active",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 149810,
@@ -642,7 +642,7 @@
         "Czech"
       ],
       "encoding": "tei",
-      "status": "active",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 69891,
@@ -1231,7 +1231,7 @@
         "German"
       ],
       "encoding": "tei",
-      "status": "active",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 73680,
@@ -1690,7 +1690,7 @@
         "Spanish"
       ],
       "encoding": "other",
-      "status": "active",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 1962810,
@@ -2840,7 +2840,7 @@
         "Zapotec"
       ],
       "encoding": "other",
-      "status": "active",
+      "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 73928,
