@@ -513,7 +513,7 @@ def open_pull_request(entries: list[dict], cost: float, usage: dict) -> str | No
         capture_output=True, text=True, env={**os.environ},
     )
     if probe.returncode == 0 and probe.stdout.strip():
-        branch = f"{branch}-{datetime.datetime.now(timezone.utc).strftime('%H%M')}"
+        branch = f"{branch}-{datetime.now(timezone.utc).strftime('%H%M')}"
         git("checkout", "-B", branch)
     git("push", remote, branch)
 
