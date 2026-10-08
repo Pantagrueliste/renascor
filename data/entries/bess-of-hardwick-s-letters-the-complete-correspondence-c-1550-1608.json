@@ -1,0 +1,19 @@
+{
+  "title": "Bess of Hardwick's Letters: The Complete Correspondence, c.1550-1608",
+  "url": "https://www.bessofhardwick.org/",
+  "languages": [
+    "English"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-08",
+  "institution": "University of Glasgow (AHRC Letters of Bess of Hardwick Project), with the Digital Humanities Institute, University of Sheffield",
+  "period": "1550-1608",
+  "region": "England",
+  "years_active": {
+    "start": 2008,
+    "end": 2012
+  },
+  "notes": "Fully searchable online edition of all 234 letters to and from Elizabeth Talbot, Countess of Shrewsbury, with scholarly commentaries on material and linguistic features and downloadable data. Project ran 2008-2012; the edition remains online and maintained. Encoding of the downloadable data is unclear from the project page; the reading interface is HTML.\n\nJustification: A complete scholarly digital edition of a major 16th-century correspondence corpus (Renaissance letters), freely accessible and not in the catalogue. Found via a general web search for new digital editions of Renaissance correspondence, confirmed on the Digital Humanities Institute project page.\nFound at: https://www.dhi.ac.uk/projects/bess-of-hardwick/"
+}

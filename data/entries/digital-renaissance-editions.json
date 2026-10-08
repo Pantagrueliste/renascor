@@ -1,0 +1,15 @@
+{
+  "title": "Digital Renaissance Editions",
+  "url": "https://digitalrenaissance.uvic.ca/",
+  "languages": [
+    "English"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-08",
+  "institution": "University of Victoria (Digital Humanities / MoEML team)",
+  "period": "c. 1450-1700",
+  "region": "England",
+  "notes": "Electronic scholarly editions of early English drama and related texts: late medieval moralities, Tudor interludes, occasional entertainments and civic pageants, academic and closet drama, and plays of the commercial London theatres. Editions are TEI-derived HTML. Not in the catalogue (REED English, DraCor and Théâtre Classique are listed, but not this collection).\n\nJustification: A university-published collection of scholarly digital editions of early English drama squarely within the 1450-1700 window, with editorial apparatus. Found via a general web search for new digital edition projects; the site is live and stable.\nFound at: https://digitalrenaissance.uvic.ca/"
+}
