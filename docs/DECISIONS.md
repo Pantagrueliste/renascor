@@ -47,6 +47,12 @@ The public site is a single HTML page with vanilla JavaScript. We chose this ove
 
 The build script (`scripts/build_site.py`) generates the HTML table from the JSON entries. The JavaScript handles only search and filtering client-side.
 
+## Inclusion rule: new, countable text only
+
+A resource is added only if (1) the number of words it contributes can be counted exactly, and (2) its texts are verifiably not already in the catalogue. If either condition fails, the resource is left out, however useful it is.
+
+The rule was adopted after a portal (the Digital Latin Library) entered the catalogue through the automated discovery: it federates texts published elsewhere, so it added no text of its own and blurred what the catalogue's figures mean. The catalogue's word and text counts are exact counts of deduplicated texts; a resource whose contribution cannot be counted, or may duplicate texts already listed, would make those figures unreliable. Rejected resources are kept in `data/rejected.json` with the reason, and the discovery run is told never to propose them again.
+
 ## Weekly discovery, human review
 
 An automated agent discovers new candidate entries each week. These are **never** merged automatically. The agent opens an issue labelled `discovered`, and a human reviews each candidate before it enters the catalogue.

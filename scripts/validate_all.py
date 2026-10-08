@@ -15,6 +15,7 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_PATH = REPO_ROOT / "schema" / "entry.schema.json"
+COUNTRIES_PATH = REPO_ROOT / "schema" / "countries.json"
 
 
 def load_schema() -> dict:
@@ -49,6 +50,14 @@ def validate_schema(entries: list[tuple[str, dict]], schema: dict) -> list[str]:
     return errors
 
 
+def validate_countries(entries: list[tuple[str, dict]]) -> list[str]:
+    """Every country code must be listed in schema/countries.json. Returns error messages."""
+    known = json.loads(COUNTRIES_PATH.read_text(encoding="utf-8"))["countries"]
+    return [f"{filename}: countries: unknown code {code!r} (add it to schema/countries.json)"
+            for filename, entry in entries
+            for code in entry.get("countries", []) if code not in known]
+
+
 def check_urls(entries: list[tuple[str, dict]], timeout: float = 10.0) -> list[str]:
     """Check that entry URLs resolve. Returns warning messages."""
     try:
@@ -58,10 +67,9 @@ def check_urls(entries: list[tuple[str, dict]], timeout: float = 10.0) -> list[s
         return []
 
     warnings = []
-    for filename, entry in entries:
-        url = entry.get("url", "")
-        if not url:
-            continue
+    urls = [(filename, url) for filename, entry in entries
+            for url in (entry.get("url", ""), entry.get("data_url", "")) if url]
+    for filename, url in urls:
         try:
             response = requests.head(url, timeout=timeout, allow_redirects=True,
                                      headers={"User-Agent": "RenascorBot/1.0 (validation)"})
@@ -96,7 +104,7 @@ def main() -> int:
     print(f"Validating {len(entries)} entries...")
 
     # Schema validation (fatal).
-    errors = validate_schema(entries, schema)
+    errors = validate_schema(entries, schema) + validate_countries(entries)
     if errors:
         print(f"\nSchema validation failed ({len(errors)} errors):")
         for e in errors:

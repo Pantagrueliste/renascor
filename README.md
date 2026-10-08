@@ -8,6 +8,8 @@ Renascor records projects that have produced digital editions of texts from roug
 
 This is a catalogue of editions, not a corpus of texts. We do not host the texts themselves. We point to them.
 
+A resource is added only if it brings new, countable text: the number of words it contributes can be counted exactly, and its texts are verifiably not already in the catalogue. Portals and aggregators that federate other projects' texts are not included. See [CONTRIBUTING.md](CONTRIBUTING.md#the-inclusion-rule-new-countable-text).
+
 ## What is in an entry
 
 Every entry in `data/entries/` is a single JSON file describing one edition project. The full field list is defined in `schema/entry.schema.json`. At minimum, each entry records:

@@ -26,6 +26,7 @@ body:
       options:
         - title
         - url
+        - data_url (files link)
         - languages
         - encoding
         - status
@@ -33,6 +34,7 @@ body:
         - period
         - region
         - words
+        - texts
         - years_active
         - notes
         - Other / not sure

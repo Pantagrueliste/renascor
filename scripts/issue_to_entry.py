@@ -26,7 +26,10 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 # Map issue form encoding options to schema enum values.
 ENCODING_MAP = {
     "tei xml": "tei",
+    "other xml": "xml",
     "html": "html",
+    "plain text": "plain-text",
+    "wiki markup": "wikitext",
     "markdown": "markdown",
     "other": "other",
 }
@@ -35,6 +38,7 @@ ENCODING_MAP = {
 STATUS_MAP = {
     "active (currently maintained, updated, or accepting contributions)": "active",
     "archived (no longer maintained, but still online)": "archived",
+    "discontinued (no longer online)": "discontinued",
 }
 
 
@@ -106,6 +110,11 @@ def fields_to_entry(fields: dict, submitted_by: str = "") -> dict:
     }
 
     # Optional fields.
+    if fields.get("files url"):
+        # The form does not ask for the files' format: assume the edition's
+        # encoding; the maintainer checks it during review.
+        entry["data_url"] = fields["files url"]
+        entry["data_format"] = encoding
     if fields.get("institution or team"):
         entry["institution"] = fields["institution or team"]
     if fields.get("period covered"):
@@ -178,6 +187,8 @@ def main() -> int:
     print(f"  URL: {entry['url']}")
     print(f"  Languages: {', '.join(entry['languages'])}")
     print(f"  Encoding: {entry['encoding']}, Status: {entry['status']}")
+    if entry.get("data_url"):
+        print(f"  Files: {entry['data_url']} (format assumed: {entry['data_format']}; check it)")
     print()
     print("Next steps:")
     print(f"  1. Validate: python scripts/validate_entry.py {out_path} --check-url")
