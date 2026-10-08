@@ -95,7 +95,7 @@ def collect_usage(node) -> dict:
     """First usage object found in the response (token counts)."""
     stack = [node]
     while stack:
-        n = stack.pop()
+        n = stack.pop(0)
         if isinstance(n, dict):
             u = n.get("usage")
             if isinstance(u, dict):
@@ -132,13 +132,84 @@ def mistral_post(path: str, body: dict, api_key: str) -> dict:
         sys.exit(3)
 
 
+def mistral_get(path: str, api_key: str) -> dict:
+    """GET a resource from the Mistral API."""
+    req = urllib.request.Request(
+        f"https://api.mistral.ai{path}",
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "User-Agent": "renascor-discovery/1.0",
+        },
+        method="GET",
+    )
+    try:
+        with urllib.request.urlopen(req, timeout=120) as resp:
+            return json.loads(resp.read())
+    except Exception:
+        return {}
+
+
+def mistral_stream_conversation(body: dict, api_key: str) -> tuple[str | None, list, dict]:
+    """Start a conversation with stream:true and consume the SSE events.
+
+    Long-running conversations are silently disconnected by the server
+    when they run synchronously with no body flowing; streaming keeps the
+    connection alive. Returns (conversation_id, text_chunks, usage).
+    """
+    req = urllib.request.Request(
+        "https://api.mistral.ai/v1/conversations",
+        data=json.dumps({**body, "stream": True}).encode("utf-8"),
+        headers={
+            "Authorization": f"Bearer {api_key}",
+            "Content-Type": "application/json",
+            "Accept": "text/event-stream",
+            "User-Agent": "renascor-discovery/1.0",
+        },
+        method="POST",
+    )
+    texts, conv_id, usage = [], None, None
+    try:
+        with urllib.request.urlopen(req, timeout=900) as resp:
+            for raw in resp:
+                line = raw.decode("utf-8", "ignore").strip()
+                if not line.startswith("data:"):
+                    continue
+                data = line[5:].strip()
+                if data == "[DONE]":
+                    break
+                try:
+                    event = json.loads(data)
+                except json.JSONDecodeError:
+                    continue
+                if conv_id is None and isinstance(event, dict) and event.get("conversation_id"):
+                    conv_id = event["conversation_id"]
+                if event.get("type") == "message.output.delta":
+                    content = event.get("content")
+                    if isinstance(content, str):
+                        texts.append(content)
+                    elif isinstance(content, dict) and content.get("type") == "text":
+                        texts.append(content.get("text", ""))
+                u = collect_usage(event)
+                if u != {"input_tokens": 0, "output_tokens": 0}:
+                    usage = u
+    except urllib.error.HTTPError as e:
+        print(f"Mistral API error {e.code} on /v1/conversations (stream): "
+              f"{e.read()[:300]}", file=sys.stderr)
+        sys.exit(3)
+    except Exception as e:
+        print(f"Mistral API stream failed: {e}", file=sys.stderr)
+        sys.exit(3)
+    return conv_id, texts, usage or {"input_tokens": 0, "output_tokens": 0}
+
+
 def call_agent(api_key: str, system_prompt: str, max_calls: int = MAX_API_CALLS) -> tuple[list[dict], dict]:
     """Run one discovery conversation with web search enabled.
 
     The web_search tool lives on the Agents/Conversations API (it is
     rejected by /v1/chat/completions). We create a one-off agent carrying
-    the system prompt, run a single conversation, extract the text chunks,
-    and delete the agent afterwards.
+    the system prompt, run a single streamed conversation, then fetch the
+    stored conversation to rebuild the final answer text, and delete the
+    agent afterwards.
     """
     agent = mistral_post("/v1/agents", {
         "model": MODEL,
@@ -151,7 +222,7 @@ def call_agent(api_key: str, system_prompt: str, max_calls: int = MAX_API_CALLS)
     }, api_key)
     agent_id = agent.get("id") or agent.get("agent_id")
 
-    conversation = mistral_post("/v1/conversations", {
+    conv_id, streamed_texts, usage = mistral_stream_conversation({
         "agent_id": agent_id,
         "inputs": [{
             "role": "user",
@@ -177,8 +248,14 @@ def call_agent(api_key: str, system_prompt: str, max_calls: int = MAX_API_CALLS)
     except Exception:
         pass
 
-    usage = collect_usage(conversation)
-    chunks = collect_text_chunks(conversation)
+    # Prefer the stored conversation (canonical, complete outputs) over the
+    # streamed deltas.
+    chunks = []
+    if conv_id:
+        stored = mistral_get(f"/v1/conversations/{conv_id}", api_key)
+        chunks = collect_text_chunks(stored)
+    if not chunks:
+        chunks = streamed_texts
 
     def parse_json_array(text: str):
         """Extract the first well-formed JSON array of objects from text.
@@ -217,7 +294,6 @@ def call_agent(api_key: str, system_prompt: str, max_calls: int = MAX_API_CALLS)
               file=sys.stderr)
         return [], usage
     return candidates, usage
-
 
 def estimate_cost(usage: dict) -> float:
     """Estimate cost in USD from token usage."""
