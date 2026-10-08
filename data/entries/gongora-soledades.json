@@ -1,6 +1,8 @@
 {
   "title": "Soledades. Edición digital (Luis de Góngora, 1613) — ed. Antonio Rojas Castro",
   "url": "https://github.com/arojascastro/soledades",
+  "data_url": "https://github.com/arojascastro/soledades",
+  "data_format": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-08",

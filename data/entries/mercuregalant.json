@@ -1,6 +1,8 @@
 {
   "title": "Mercure galant (OBVIL/IReMus — édition complète 1672-1710)",
   "url": "https://obvil.github.io/mercure-galant/",
+  "data_url": "https://github.com/OBVIL/mercure-galant",
+  "data_format": "tei",
   "languages": [
     "French"
   ],

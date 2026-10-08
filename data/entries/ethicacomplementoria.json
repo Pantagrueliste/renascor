@@ -1,6 +1,8 @@
 {
   "title": "Digital Edition of the Ethica Complementoria",
   "url": "https://github.com/arockenberger/EthicaComplementoria",
+  "data_url": "https://github.com/arockenberger/EthicaComplementoria/tree/master/transcriptions",
+  "data_format": "tei",
   "languages": [
     "German"
   ],

@@ -1,6 +1,8 @@
 {
   "title": "OpenEDGeS (Open Editions of Early Modern Dutch and German Bibles)",
   "url": "https://spraakbanken.gu.se/en/resources/openedges",
+  "data_url": "https://sprakbanken.se/en/resources/openedges",
+  "data_format": "plain-text",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

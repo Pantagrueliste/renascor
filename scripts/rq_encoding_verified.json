@@ -1,0 +1,1357 @@
+{
+  "comment": "Encodings verified at the source (files sampled, documentation read) in the audit of 2026-10-08. scripts/rq_encoding.py treats them as authoritative over fmt_detected, which records the format the RQ Open Corpus ingested rather than the format the edition publishes.",
+  "checked": "2026-10-08",
+  "entries": {
+    "abacus-baroque": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/Austrian-Baroque-Corpus/abc-data",
+      "basis": "A live file of the project's own data repository (abc-data/data/editions/Abraham-Todten_Bruderschaft.xml) has the TEI P5 root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> with <w lemma=… type=…> tokens. The project's Annotation page says the texts are encoded to TEI P5 with an ODD customisation. RQ's 'plain' (4 .txt files) is RQ's own derivation.",
+      "confidence": "high"
+    },
+    "abu-french": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "http://abu.cnam.fr/BIB/",
+      "basis": "Each text's download page (cgi-bin/donner?<id>) offers three formats: HTML, 'Balises ABU' text and unformatted ISO-Latin-1 text. No XML or TEI exists; 'TEI minimale' is only announced as a future format. The brief's precedence (html > plain-text) gives html. The HTML is, however, an automatic conversion (only <pre>/<br>/<p>/<i>) of the plain-text 'norme ABU' master, so 'plain-text' accurately describes the master format.",
+      "confidence": "medium"
+    },
+    "adl-danish": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/kb-dk/public-adl-text-sources/tree/master/texts",
+      "basis": "All 499 files in the source repository's texts/ folder are TEI P5 (root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">), including all 14 volumes RQ ingested (the live palladius01val.xml was checked), and the repo README says the whole corpus is TEI-encoded. RQ's 'plain' label describes RQ's own text extraction, not what ADL publishes.",
+      "confidence": "high"
+    },
+    "amadiscorpus-gh": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/ebeshero/Amadis-in-Translation/tree/master/XMLandSchemas/Montalvo",
+      "basis": "Live file XMLandSchemas/Montalvo/Montalvo_Amadis_1547_1.xml in github.com/ebeshero/Amadis-in-Translation has the TEI P5 root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, tied to the project ODD schema (amadis_odd.rng), with <div type=\"chapter\">, <cl xml:id> clauses and <persName ref>. The project site states 'We have applied the XML language of the Text Encoding Initiative (TEI)'.",
+      "confidence": "high"
+    },
+    "balkanslavic-damaskini": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://www.clarin.si/repository/xmlui/handle/11356/1441",
+      "basis": "CLARIN.SI 11356/1441 is the latest version: it replaces 11356/1368 and has no isReplacedBy. It publishes only TSV (full annotation), CoNLL-U and plain-text zips, plus two PDFs. Its Technical Description §4 says the data come as tab-separated text and CoNLL-U, and no TEI/XML exists anywhere. Plain text is therefore the best format in the enum; TSV and CoNLL-U go under other_formats.",
+      "confidence": "high"
+    },
+    "bartoli-correspondence": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://zenodo.org/records/14559525",
+      "basis": "The Zenodo dataset is the edition's only distribution. Its TEI_XML/ folder holds 13 TEI P5 files: I extracted TEI_XML/Vol__3089.xml from the live zip and its root is <ns0:TEI xmlns:ns0=\"http://www.tei-c.org/ns/1.0\">. The zip also holds 8,146 PAGE XML pages, and the project's About page says the PAGE XML and TEI XML transcriptions are on Zenodo. The 'plain' label came from RQ's own per-year .txt files made from the Markdown.",
+      "confidence": "high"
+    },
+    "basquekg": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://www.ehu.eus/ehg/kc/",
+      "basis": "Klasikoen Gordailua distributes its corpus as a TEI zip. The live KG-tei-0612.zip holds 338 files. Its first entry, decompressed from a range request on the live file, starts <!DOCTYPE TEI.2 PUBLIC \"-//TEI P4//DTD Main DTD Driver File//EN\" \"http://www.tei-c.org/P4X/DTD/tei2.dtd\"> with root <TEI.2>. The download page labels it 'TEI (Text Encoding Initiative)'. RQ stripped the tags to plain text.",
+      "confidence": "high"
+    },
+    "bdpn-novohispano": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/ficino2021/bdpn/tree/main/archivosXMLDocumentos",
+      "basis": "Every document file in ficino2021/bdpn/archivosXMLDocumentos is TEI P5 (root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">; the teiHeader credits 'Marcado original XML/TEI'). The official site's 'Archivos XML/TEI' page names this repo as the project's TEI distribution. RQ's 'plain' .txt files are its own extraction.",
+      "confidence": "high"
+    },
+    "belarusian-skaryna": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://knihi.com/Francysk_Skaryna/",
+      "basis": "knihi.com (Belaruskaja Palička) publishes the Skaryna texts as HTML pages, with per-text EPUB downloads and PDF/DjVu scans. No XML, TEI or source files are offered. The other RQ source, be.wikisource, holds the Harecki 1922 excerpts as wikitext, which ranks below HTML.",
+      "confidence": "high"
+    },
+    "bertonio-aymara": {
+      "encoding": "other",
+      "public_files": "none",
+      "data_url": "https://github.com/amosbatto/native-dics/tree/main/dics/es_ay-bertonio",
+      "basis": "The only published machine-readable form is a StarDict dictionary: a binary .idx index plus a dictzip'd .dict of unmarked UTF-8 text (sametypesequence=m). I found no XML, TEI, HTML or TXT version in the repo or elsewhere. Under the brief's rule (non-markup container formats are 'other' when nothing better exists) this is 'other'. 'plain-text' remains defensible for the text payload itself; either way, no XML exists.",
+      "confidence": "medium"
+    },
+    "betamasaheft-geez": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/BetaMasaheft/Works",
+      "basis": "All five works are TEI P5 files in BetaMasaheft/Works, with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\" type=\"work\"> and the Ge'ez text in <div type=\"edition\">. The repo describes itself as 'Ethiopian Literature edited in TEI'. RQ's 'plain' label describes its own text extraction.",
+      "confidence": "high"
+    },
+    "bibaugustana": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The library publishes its texts only as static, hand-made HTML/XHTML pages (e.g. Celtis cel_orin.html, Cusanus cus_apol.html). No page, index, impressum or 'Ad lectorem' text offers XML, TEI, plain-text or bulk downloads, and a web search found none.",
+      "confidence": "high"
+    },
+    "bibcertxt": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "BVMC's own record in the TEI Consortium's project list states its books are encoded in TEI-XML and that the HTML is generated from those TEI-XML sources by XSLT. BVMC.Labs (2022) also refers to its theatre 'documentos originales en formato TEI'. The 2022 EPUB of a BibCerTxt work carries the BVMC generator meta 'XML2HTML 20040212'. So the texts are TEI internally, but BVMC publishes only HTML, EPUB and PDF.",
+      "confidence": "medium"
+    },
+    "biblioteca-italiana": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "http://www.bibliotecaitaliana.it/catalogo?collezioni=bibit",
+      "basis": "Every file is TEI P4: the live API file for bibit000004 and all 989 harvested files have root <TEI.2> and the BibIt TEI DTD (http://backend.bibliotecaitaliana.it/DTD/bibit.dtd). The BiBit collection page says the works are 'codificate in XML/TEI'.",
+      "confidence": "high"
+    },
+    "bokselskap": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-81/",
+      "basis": "bokselskap.no says 'The texts are encoded in xml using the P5 standard from Text Encoding Initiative (TEI)'. Files in NSL's dump on Språkbanken carry the TEI P5 DOCTYPE (tei_all.dtd) and a <TEI> root; one example is NSL_Anonym_Mesteren_tekst.xml, an RQ text.",
+      "confidence": "high"
+    },
+    "brievenalsbuit": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://brievenalsbuit.ivdnt.org/blacklab-server/BaB/docs/",
+      "basis": "Three letters fetched from the edition's BlackLab API (/docs/bab0605, /docs/bab1060 and /docs/bab1246, each with /contents, which BlackLab documents as \"the original input document\") are well-formed TEI. Each has a <TEI.2> root with a teiHeader, and the letter <div> declares xmlns=\"http://www.tei-c.org/ns/1.0\" and holds <w>/<seg>/<fs>/<f>/<lb>/<pb>/<pc> markup. This meets both the P4 and the P5 test.",
+      "confidence": "high"
+    },
+    "bullinger-digital": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/stazh/bullinger-korpus-tei",
+      "basis": "Every letter file of the official GitHub distribution (13,114 files in data/letters) has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. I saw this live in 1.xml and 10000.xml, and in 300 of 300 sampled local raw files. The README is titled 'Bullinger Digital (Korpus in TEI-XML)'.",
+      "confidence": "high"
+    },
+    "bvh-epistemon-print": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/lb42/tei-fr/tree/master/Projects/BVH/Corpus",
+      "basis": "Actual files from the source are TEI P5. The lb42/tei-fr Projects/BVH/Corpus/*_tei.xml files and the 88 files in BVH's official SourceForge zip all have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, and the BVH Epistemon page says the texts are encoded in XML-TEI ('TEI-Renaissance'). RQ's 'plain' only describes its own JSONL derivation.",
+      "confidence": "high"
+    },
+    "camena": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/nevenjovanovic/camena-neolatinlit",
+      "basis": "The project's live XML files are TEI P4 (TEI Lite). https://mateo.uni-mannheim.de/camena/pont2/books/pontanusinstitutiones_7.xml begins <!DOCTYPE TEI.2 SYSTEM \"http://mateo.uni-mannheim.de/camenatools/DTD/teixlite.dtd\"><TEI.2>. The project homepage says its markup uses '50 aus TEILite ausgewählten Kodierungen', and the English page speaks of 'intellectual markup following the TEILite standard'.",
+      "confidence": "high"
+    },
+    "campanella-atc": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://www.iliesi.cnr.it/ATC/xml/Aforismi.xml",
+      "basis": "The archive's texts are XML files under https://www.iliesi.cnr.it/ATC/xml/, and its HTML reading pages are generated from them. Dich.xml carries the TEI P4 Lite DOCTYPE with a <TEI.2> root; Dialogo.xml and Pro.xml have <TEI xmlns='http://www.tei-c.org/ns/1.0'>. The letters (Lettere.xml) and the Scelta poems are custom TEI-like XML with a <body> root. Liburdi (JLIS.it 2020) also documents that the letters edition was 'codificato in XML'.",
+      "confidence": "high"
+    },
+    "casebooks": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/CasebooksProject/casebooks-data",
+      "basis": "The project's GitHub repository holds 79,881 per-case TEI P5 files; live cases/CASE1.xml has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. The project's page 'Mining our XML data' says the raw XML transcriptions can be downloaded from that repository.",
+      "confidence": "high"
+    },
+    "cavriana-correspondence": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/Pantagrueliste/CavrianaCorr/tree/main/letters",
+      "basis": "The live GitHub letters/*.xml files (e.g. letters/1574-03-06.xml) have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. The README declares 'Full TEI-XML encoding with semantic markup', and the repo has an ODD (ODD_CavrianaCorr.xml) and a TEI-validation workflow.",
+      "confidence": "high"
+    },
+    "celt": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://celt.ucc.ie/publishd.html",
+      "basis": "Live per-text files such as https://celt.ucc.ie/texts/E600000.xml are TEI P4: root <TEI.2> with DOCTYPE teicelt.dtd. CELT's documentation calls its masters 'SGML/XML TEI-conformant' files in TEI P3/P4.",
+      "confidence": "high"
+    },
+    "cet-teatro16c-portuguese": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The live database serves each play as an HTML fragment via POST /obras/Detail, with line divs and javascript glossary/note links, and RQ's raw harvest is 253 such HTML files. The project's own description says the editions are made in Word with macros linked to Access databases and published to the web. It offers no XML/TEI and no download, so the plain-text value is RQ's derivation.",
+      "confidence": "high"
+    },
+    "chm-mapudungun": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "http://www.amc-resources.lel.ed.ac.uk/CHM/data/1621VALDIVIA-Sermones.xml",
+      "basis": "The corpus files on the CHM server are TEI P5 (e.g. 1621VALDIVIA-Sermones.xml: root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> with word, morpheme and character tagging), and the project's Corpora article says the texts were encoded as TEI XML.",
+      "confidence": "medium"
+    },
+    "cidtc": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://editions.al.uw.edu.pl/exist/rest/db/apps/dantiscus-data/data/letters/",
+      "basis": "Live letters fetched from the project's eXist server are TEI P5, root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, byte-identical to the 7,096 local raw files. The project's 'About CIDTC' page documents its 'Text encoding in TEI standard'.",
+      "confidence": "high"
+    },
+    "ckcc-epistolarium": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://doi.org/10.17026/DANS-XFD-N8Y5",
+      "basis": "The CKCC Corpus page says 'We have chosen to convert the letters to TEI', and the CKCC Letter Format document requires each letter to be a TEI document. The public files confirm this. The ePistolarium API returns per-letter <TEI> XML. The DANS archive holds DBNL TEI P4 volumes (<!DOCTYPE TEI.2 ... teixlite.dtd>) and text containers of the CKCC <TEI> letter documents.",
+      "confidence": "high"
+    },
+    "codiaje-judeospanish": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://lindat.mff.cuni.cz/services/teitok-live/codiaje/index.php?action=browser&show=all",
+      "basis": "Project documentation is explicit: Quintana, Scriptum Digital 9 (2020), says 'The documents are incorporated into CoDiAJe using the XML-TEI format', each text being 'a single TEI-based XML document' in TEITOK. Live files have an un-namespaced <TEI>/<teiHeader> root (TEITOK dialect; some files carry <TEI xmlnsoff=\"http://www.tei-c.org/ns/1.0\">) and <tok>/<dtok> tokens with lemma, PoS and normalised forms.",
+      "confidence": "medium"
+    },
+    "colonia": {
+      "encoding": "other",
+      "public_files": "none",
+      "data_url": "https://www.kaggle.com/datasets/rtatman/colonia-corpus-of-historical-portuguese",
+      "basis": "Colonia is distributed as TreeTagger output in CWB 'vertical' form: .txt files with <text id>/<s> tags around token TAB POS TAB lemma lines, and '<unknown>' lemma placeholders. None of the 45 local files parses as XML. The project only documented a POS-tagged download (2013 paper: 'three column format'; 2019 homepage). A 'raw text' version mentioned in 2017 is no longer distributed anywhere. The catalogue's 'xml' comes from RQ's fmt_detected reacting to the leading '<text' tag. There is no TEI and no real XML.",
+      "confidence": "high"
+    },
+    "controversia-confessio": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://exist.ulb.tu-darmstadt.de/2/r/edoc/collection/pa000002.json",
+      "basis": "Every Controversia et Confessio digital-edition text is served as TEI P5. The ULB Darmstadt wdbplus REST API returns application/tei+xml with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> for resources of Bd. 2, 3, 4, 5, 6, 7 and 9; Bd. 2 says 'Elektronische Ausgabe nach TEI P5'. The HAB-hosted Bd. 8 is also TEI P5. RQ's 'plain' is its own JSONL extraction of these texts.",
+      "confidence": "high"
+    },
+    "coqalane": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/cyrcan/GIT-Coqalane",
+      "basis": "Every XML file has a TEI P5 root (<TEI xmlns=\"http://www.tei-c.org/ns/1.0\">): all 57 in the catalogued Huma-Num GitLab repo and all 109 real ones in the author's GitHub repo. The README describes a 'Corpus TEI-xml' with one TEI file per poem, and the repos include an ODD/RNG customisation.",
+      "confidence": "high"
+    },
+    "cornish-gwreansanbys": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://github.com/davidtreth/taklow-kernewek",
+      "basis": "The harvested text is byte-identical to the site's plain-text file cw_strip.txt. Both the site and the author's GitHub repo publish the text only as .txt (the repo has 0 .xml files), and no TEI/XML version of Gwreans an Bys was found anywhere.",
+      "confidence": "high"
+    },
+    "cornish-tregear": {
+      "encoding": "wikitext",
+      "public_files": "none",
+      "data_url": "https://wikisource.org/w/index.php?title=Homelyes_XIII_in_Cornysche&action=raw",
+      "basis": "The edition is one multilingual-Wikisource page, Homelyes XIII in Cornysche (Category:Kernewek; kw.wikisource.org redirects there). Its 211,854-byte wikitext is Keith Syed's keyed file of Bice 1969/KDL 1994, with <br> line breaks. Apart from its HTML rendering, this is the only published form, and no TEI/XML edition of the Tregear Homilies exists anywhere. The schema maps Wikisource to `wikitext`.",
+      "confidence": "high"
+    },
+    "corpus-corporum": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://mlat.uzh.ch/browser",
+      "basis": "The project serves TEI P5 for each text. https://mlat.uzh.ch/php_modules/download.php?type=file-xml&idno=13982 returns Vossius_Epistolae.xml with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. The site states 'Texts may be downloaded as TEI xml for non-commercial use', and all 952 local raw files have a TEI-namespaced root. RQ's 'plain' label reflects its own .xml.txt derivations.",
+      "confidence": "high"
+    },
+    "corpus17-french": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/e-ditiones/CORPUS17/tree/master/data",
+      "basis": "Live data/EDI_0001.xml has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xml:id=\"EDI_0001\">. All 63 XML files in data/ are in the TEI namespace (15 <TEI>, 15 <teiHeader>, 33 <text> parts). The README says texts follow the ODD17 TEI customisation.",
+      "confidence": "high"
+    },
+    "cretangreek-snhell": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The anthology was only ever published as ASP-generated HTML pages (charset windows-1253) on www.snhell.gr: anthology/content.asp?id=43 and 44 (Chortatsis) and id=46 (Foskolos). These are now reachable only through the Wayback Machine. No XML/TEI or downloadable text files were ever offered. RQ's 'plain' label describes its own extraction.",
+      "confidence": "high"
+    },
+    "croala": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/nevenjovanovic/croatiae-auctores-latini-textus",
+      "basis": "All 573 text files in the project's GitHub repository (txts/) are TEI P5, with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. Both the README and the site preface say the texts are TEI XML encoded.",
+      "confidence": "high"
+    },
+    "czech-kralice1613": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://textgridrep.org/browse/490rm.0",
+      "basis": "The project now publishes the corpus as TEI P5 in the TextGrid Repository, per the GitHub README's May 2025 update. The TextGrid Czech Genesis object (textgrid:490ht.0) has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, and the collection's TEI-Corpus export has root <teiCorpus>. The original GitHub bibles/Czech.xml is non-TEI CES XML (<cesDoc version=\"4\">), so 'plain-text' is wrong either way.",
+      "confidence": "high"
+    },
+    "czech-tei2019": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/CzechLanguageInstitute/tei2019/tree/master/Conversion/Output",
+      "basis": "The repo's final outputs are TEI P5. Live raw Conversion/Output/LekJadroBrn.xml has root <TEI xml:lang=\"cs\" xmlns=\"http://www.tei-c.org/ns/1.0\">, and ÚJČ's methodology says the editions are produced 've formátu XML TEI P5 pro publikaci'. The entry's 'tei' is correct.",
+      "confidence": "high"
+    },
+    "danishpostils": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://zenodo.org/records/7479443",
+      "basis": "The Zenodo v0.2.0 zip and the identical GitHub repository contain only plain .txt texts: 12 files in data/, plus README, LICENSE, an intro notebook and a stopword list. There is no XML of any kind. The README describes the texts as raw Transkribus HTR exports covering the body text only.",
+      "confidence": "high"
+    },
+    "dbnl": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://www.dbnl.org/letterkunde/pd/index.php",
+      "basis": "DBNL publishes every title as DBNL-TEI (TEI P4: <!DOCTYPE TEI.2 PUBLIC \"-//DBNL//DTD TEI.2 XML//NL\" \".../teixlite.dtd\"><TEI.2>). Files are available per title ('Download XML van tekst') and as a bulk public-domain zip; checked in actual files.",
+      "confidence": "high"
+    },
+    "devonshire-manuscript": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/etcluvic/devonshire-ms",
+      "basis": "Poem and witness files from the project's GitHub repository are TEI P5: root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> with <?xml-model href=\"../tei_all.rnc\"?>. The OTA/LLDS record describes its zips as 'The Devonshire Manuscripts in TEI'. The Wikibooks edition itself is wikitext.",
+      "confidence": "high"
+    },
+    "diacronia-romanian": {
+      "encoding": "wikitext",
+      "public_files": "none",
+      "data_url": "https://dumps.wikimedia.org/rowikisource/",
+      "basis": "Diacronia does not publish these texts at all. The four texts are Romanian Wikisource pages whose source is MediaWiki wikitext: RQ's text equals the action=raw wikitext with <nowiki> tags stripped. No XML or TEI version exists, so under the catalogue's own Wikisource convention (wikisource.json = wikitext) the encoding is wikitext.",
+      "confidence": "high"
+    },
+    "diacu-bulgarian": {
+      "encoding": "other",
+      "public_files": "none",
+      "data_url": "https://github.com/MariaCassese/DIACU/tree/main/data",
+      "basis": "DIACU publishes a single JSON file (data/DIACU_1.0.json, 652 documents) whose 'Content' fields hold plain text; it has no XML. Under the brief's rule (JSON -> other when nothing better is published), the result is 'other'. The upstream Histdict corpus models the texts in TEI-style structures, but its XML export is login-only.",
+      "confidence": "high"
+    },
+    "diakorp-czech": {
+      "encoding": "other",
+      "public_files": "none",
+      "data_url": "https://hdl.handle.net/11234/1-5413",
+      "basis": "The only published form of Diakorp v6 is the LINDAT file diakorp_v6.gz. LINDAT describes it as 'a CoNLL-U-like vertical format used as an input to the Manatee query engine': 116 <doc> blocks with <page> tags and 4.13 M token lines of two tab-separated columns (normalized form, original spelling). It is not an XML document (whole-file parse fails), and no TEI, XML, HTML or plain-text version is offered. KonText (registered users only) provides concordance search, not the text.",
+      "confidence": "high"
+    },
+    "dibilit-german": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/deutschestextarchiv/DiBiLit-Korpus/tree/main/data",
+      "basis": "Live repository files are TEI P5 in the DTA base format (DTABf). data/drama/ayrer_sidea_1865.txt.xml has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> with the DTABf basisformat.rng xml-model, and the README says the texts are 'DTABf-encoded'. The entry's 'tei' is correct.",
+      "confidence": "high"
+    },
+    "dibiphil-renaissance": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/deutschestextarchiv/DiBiPhil/tree/main/data",
+      "basis": "All 270 files in the live repo's data/ folder are TEI P5 (DTABf). Boehme_Aurora-oder-Morgenroete-im-Aufgang.xml and the Paracelsus files have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, and the readme says the texts were 'transferred into the TEI format DTABf'. The entry's 'tei' is correct.",
+      "confidence": "high"
+    },
+    "digilib-armenian": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "DIGILIB serves each text only as inline HTML in its Apache Wicket web app. The live chapter page for book/248 returns text/html containing RQ's opening line. There is no download, no XML and no documented encoding; RQ's plain text is its own derivation.",
+      "confidence": "high"
+    },
+    "digital-donne": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://drc.usask.ca/projects/ark/XML/Poems/Poems.xml",
+      "basis": "TEI P5 is observed in an actual Digital Donne text file served by the edition's host: Poems.xml (root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, 9,672 <l> keyed by the project's own transcription ID tags, e.g. n=\"001.00A.001\"). The project's 1654 Prose Letters page documents a 'Conversion from Donne Variorum markup to TEI P5', and the homepage says the v2.0 texts were 'prepared in XML'.",
+      "confidence": "medium"
+    },
+    "disco-spanishsonnets": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/pruizf/disco/tree/main/tei",
+      "basis": "The live GitHub files under tei/ are TEI P5 (root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, with <lg type=\"sonnet\"> and <l met rhyme>). The README states the corpus is published in XML-TEI P5 and in plain text, so TEI is the richest published format.",
+      "confidence": "high"
+    },
+    "dissed-phdeditions": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "Four of the five source theses (Sjökvist 2007 and 2012, De Carolis 2015, Tondi 2019) publish their edited text only as PDF. The fifth, Salvati 2024 (Ladam, Chronique abrégée, about 39% of the entry's characters), is explicitly documented in its own PDF as a TEI-XML P5 digital edition, so tei ranks highest by precedence. That TEI was never published.",
+      "confidence": "medium"
+    },
+    "doctrinalima1584-quechua": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The text is published only as two static HTML pages on runasimi.de: waruchir.htm with š/çh spellings and waruchi2.htm without (ISO-8859-1). There are no downloadable files and no XML. RQ's 'plain' came from its own JSONL extraction.",
+      "confidence": "high"
+    },
+    "documenta-catholica-omnia": {
+      "encoding": "other",
+      "public_files": "none",
+      "data_url": "https://www.documentacatholicaomnia.eu/a_1011_Conspectus_Omnium_Rerum_Ratione_Temporum_Distributus_1500-1599.html",
+      "basis": "DCO publishes each text only as an individual MS Word .doc file and/or a PDF file, reached through HTML wrapper pages that hold only metadata. Across the site there are 11,763 PDF and 2,958 DOC items against 15 TXT, and no XML, TEI or HTML text at all, so the label is 'other'. RQ's 'plain' is its own text extraction from the .doc/.pdf files (filenames end in _doc/_pdf; Word field codes are left in the text). A strict reading of the precedence rule could argue for 'plain-text' because of the ~15 stray .txt files, but they are negligible.",
+      "confidence": "medium"
+    },
+    "dost-olderscots": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/0701",
+      "basis": "OTA 0701 distributes the corpus as 19 .txt files, each described as 'Version of the work in plain text format'. They are COCOA-referenced plain text (<T ASL 1>, <D 1520A>, ...): 14,809 opening tags, no closing tags, and 0 of 19 files parse as XML. The only XML in the record is header0701.xml, a TEI header that holds metadata only. RQ's 'xml' was a false positive caused by the angle-bracket COCOA tags.",
+      "confidence": "medium"
+    },
+    "dracor": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/dracor-org",
+      "basis": "Every DraCor play is published as TEI P5. Local harvests (dracor_eng, dracor_fre, neolatdracor, hundracor) all have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, the live API returns TEI (application/xml) for a play, and DraCor's documentation states 'Our platform hosts plays encoded in the TEI format'. The current value 'tei' is correct.",
+      "confidence": "high"
+    },
+    "drc-romansh": {
+      "encoding": "tei",
+      "public_files": "xml",
+      "data_url": "https://crestomazia.dch.phil-fak.uni-koeln.de/",
+      "basis": "The portal's own XML view wraps every page in a teiHeader that states 'Dieses Werk wurde in XML/TEI P5 kodiert' (explicit project documentation of TEI P5). However, the view has no TEI namespace, and the only downloadable files ('Seite speichern' → downloadXml) are custom non-TEI XML with a <page> root and <lb/>/<pb/>. Hence verified tei by documentation, but public files are xml; medium confidence.",
+      "confidence": "medium"
+    },
+    "dsl-henriksmith": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/dsldk/henrik-smith",
+      "basis": "DSL's own GitHub repository dsldk/henrik-smith, which RQ cloned, holds six TEI P5 files (root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">), one per book. The live files match the local copies.",
+      "confidence": "high"
+    },
+    "dsl-salmer": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/dsldk/salmer/tree/master/eXist-dbs/salmer/xml",
+      "basis": "All 10 edition files in DSL's own public GitHub repository dsldk/salmer (eXist-dbs/salmer/xml/) are TEI P5: root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> with full teiHeader. A file fetched live confirms this. RQ's fmt_detected 'plain' is RQ's own text derivation.",
+      "confidence": "high"
+    },
+    "dta": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://www.deutschestextarchiv.de/download",
+      "basis": "Every DTA download is in the DTA-Basisformat, a TEI P5 subset, as the download page states. Actual files have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> with an xml-model pointing to basisformat.rng. The catalogued 'tei' is correct.",
+      "confidence": "high"
+    },
+    "earlymoderngreek-clarinel": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://hdl.handle.net/11500/CLARIN-EL-0000-0000-6A00-9",
+      "basis": "No TEI or XML exists for any part of this cluster. The 5 harvested texts come from CLARIN:EL resource 1210, whose only distribution is Sources.zip of MS Word .doc files (data_format omtd-share DocumentFormat; local copies are Composite Document File V2). The sibling corpus 902 behind the entry's handle documents UTF-8 plain 'Text' (8 files) but is a metadata-only record. Plain text is therefore the richest documented format, and Word is the only downloadable one.",
+      "confidence": "medium"
+    },
+    "ebba": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://ebba.english.ucsb.edu/page/tei-xml",
+      "basis": "Each ballad's 'View Raw XML' link (/ballad/{ID}/ebba-xml-{ID}) serves text/xml with the TEI P4 DTD and root <TEI.2>, checked on three ballads. EBBA's TEI-XML page also says the ballads conform to the TEI standards. The catalogue's plain-text comes from RQ's own JSONL extraction.",
+      "confidence": "high"
+    },
+    "edition-640": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://github.com/cu-mkp/m-k-manuscript-data",
+      "basis": "The edition's source files are project-specific XML: roots <root>, <all> and <entry>, with no TEI namespace, files named *_preTEI.xml, and a RelaxNG schema with an empty default namespace. The project's documentation calls it a 'custom schema ... influenced by ... TEI', so this is non-TEI XML rather than TEI. The catalogue's plain-text reflects only RQ's single normalized TXT.",
+      "confidence": "high"
+    },
+    "eebo-text-creation-partnership": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/textcreationpartnership",
+      "basis": "Actual files in the TCP's own GitHub repositories are TEI P5, with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> in A00002.xml (Phase I) and A38983.xml (Phase II). The TCP FAQ and readme also document bulk TCP P4 XML, SGML and P5 XML. RQ's fmt_detected 'plain' only reflects RQ's own .P5.txt derivations of these XML files.",
+      "confidence": "high"
+    },
+    "elan-crenum": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum/-/tree/main/data/xml",
+      "basis": "The project's public GitLab repo publishes the five books as TEI P5 (data/xml/books/Livre_I-V.xml, root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">); I opened Livre_III.xml live. The local harvest holds the same five TEI files.",
+      "confidence": "high"
+    },
+    "elan-fnvr": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://doi.org/10.57745/SSC5XT",
+      "basis": "Both the GRICAD GitLab files and the Recherche Data Gouv deposit are TEI P5 (root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, validated against FNVR_odd.rng). The dataset itself is titled 'Édition XML-TEI de fictions narratives en vers de la Renaissance'.",
+      "confidence": "high"
+    },
+    "elan-polygrenaille": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/polygrenaille/-/tree/main/data/tei/textes",
+      "basis": "The edition's public GitLab repository elan/polygrenaille (linked as 'Code source' from every site page) holds data/tei/textes/grenaille_la_mode.xml, whose root is <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. The README documents data/tei/textes/ as the XML of the moral works, and the site's HTML is generated from it by XSLT.",
+      "confidence": "high"
+    },
+    "emblem-project-utrecht": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://emblems.hum.uu.nl/project_procedures.html",
+      "basis": "Every emblem book is published as an XML file at https://emblems.hum.uu.nl/xml/<id>.xml with DOCTYPE TEI.2 SYSTEM \"../dtd/vaentei.dtd\" (a customised TEI P4 / TEI Lite DTD) and root <TEI.2>. The project's Editorial Procedures page documents its TEI DTD customisations, and its Project Info page says the site is built with XML, TEI and Iconclass.",
+      "confidence": "high"
+    },
+    "emlap": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://ccs-lab.zcu.cz/emlap_corpus_public/emlap_lemmatized_xmls/",
+      "basis": "The project publishes one TEI P5 file per work alongside the TXT files, on its server and on GitHub (root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, token-level <w lemma pos>). RQ's 'plain' only reflects the TXT version it ingested.",
+      "confidence": "high"
+    },
+    "emmo-folger": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://emmo.folger.edu/browse/",
+      "basis": "The site's whole-corpus download (https://emmo.folger.edu/zip/emmo.zip) and per-document zips contain TEI P5 files with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> (checked La2.xml live, and all 100 files in the identical local copy). The About page states the transcriptions are generated from TEI-XML source files with XSLT.",
+      "confidence": "high"
+    },
+    "emothe": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://emothe.uv.es/biblioteca/textosXML/",
+      "basis": "I opened actual EMOTHE files from three places: the RQ raw harvest on the NAS, the project server's /biblioteca/textosXML/ folder and the project GitLab. All are TEI P5 (UTF-16, root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">). The project's own documentation also says the texts are \"codificados en XML-TEI y transformados después a HTML-PHP\".",
+      "confidence": "high"
+    },
+    "emroc": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://fromthepage.com/iiif/collection/early-modern-recipe-books",
+      "basis": "RQ took these texts from the FromThePage 'Early modern recipe books' collection. FromThePage publishes a TEI export for each work, and each work's IIIF manifest advertises it as 'TEI Export' (application/tei+xml). I opened two exports (works 54701 and 32038497): both are TEI P5 with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> validated against tei_all.xsd. FromThePage generates this TEI from the transcribers' markup (expan/del/add/lb/pb); it is not a hand-edited edition. RQ's 'plain' text is its own derivation, with split-markup artefacts.",
+      "confidence": "high"
+    },
+    "epistemon": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://www.bvh.univ-tours.fr/Epistemon/index.asp",
+      "basis": "BVH documents Epistemon as XML-TEI P5 editions (TEI-Renaissance schema). Its XTF viewer offered a per-text 'Télécharger > TEI' link, and an archived official file has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. RQ's 'plain' texts are its own XSLT output from these *_tei.xml files.",
+      "confidence": "high"
+    },
+    "estilometria-siglooro": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://github.com/Jero2760/estilometria/tree/master/Siglo_de_Oro",
+      "basis": "Both the live repository tree and the local clone contain only .txt texts, with no XML or HTML. The README describes the corpus as 'en formato txt' / 'in plain text format'.",
+      "confidence": "high"
+    },
+    "ethicacomplementoria": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/arockenberger/EthicaComplementoria/tree/master/transcriptions",
+      "basis": "The live transcription files in the GitHub repo are TEI P5 (root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, many in DTA-Basisformat). The Deutsches Textarchiv also publishes the 1643 print in TEI with Rockenberger credited as editor.",
+      "confidence": "high"
+    },
+    "evans-tcp": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://app.box.com/s/zj7pzfokxde4glrhebxsavbbxzyr3ogz",
+      "basis": "The TCP publishes every Evans text as TEI P5. The official bulk-download folder's P5_XML_OXF/N3.zip holds 200 *.p5.xml files with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, as does the per-text repo textcreationpartnership/N00001. The TCP FAQ documents three forms: TCP (P4) XML, SGML and TEI P5 XML. RQ's 'plain' format is its own markup-stripped derivation.",
+      "confidence": "high"
+    },
+    "fabulasmitologicas": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/arojascastro/fabulasmitologicas/tree/master/corpus/tei",
+      "basis": "TEI P5 confirmed in the live repository: corpus/tei/Gongora_polifemo.xml has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, and all 26 files in corpus/tei of the local clone carry the TEI namespace. The README documents 'XML/TEI y TXT'. RQ's 'plain' only reflects that RQ ingested the corpus/txt derivatives.",
+      "confidence": "high"
+    },
+    "fallofconstantinople-arranz": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://arranz.obdurodon.org/edition.xml",
+      "basis": "The edition's only published data file, https://arranz.obdurodon.org/edition.xml, is custom XML, not TEI. Its root is <edition> with no namespace and children block/hm281/hm280/hm282/rubric/sup/lb/pb/gap/sic, validated by the project's own Relax NG compact schema edition.rnc. 'tei-c.org' occurs nowhere in it. The HTML pages are XHTML views generated from this file.",
+      "confidence": "high"
+    },
+    "famsi-bolles-yucatecmaya": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://www.famsi.org/reports/96072/textsrc/index.html",
+      "basis": "FAMSI publishes Bolles's colonial Yucatec Maya texts as static HTML pages (textsrc/sectionNN.htm). These are the exact pages RQ harvested, and section01.htm contains the line-numbered transcription. Part of the material is also a PDF. No XML is published anywhere.",
+      "confidence": "high"
+    },
+    "filologiasarda-sardinian": {
+      "encoding": "other",
+      "public_files": "none",
+      "data_url": "https://www.filologiasarda.eu/pubblicazioni/libro.php?sez=34&id=770&pdf=12703",
+      "basis": "The Centro di Studi Filologici Sardi publishes the two source editions only as downloadable PDFs split by chapter: Araolla, Rimas diversas spirituales (ed. M. Virdis, 2006) and Lo Frasso, Los diez libros de Fortuna de amor (ed. A. Murtas, 2012). The site's HTML shows only short anthology excerpts. RQ's plain text is its own extraction, and no XML exists.",
+      "confidence": "high"
+    },
+    "florentinecodex-nahuatl": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://zenodo.org/records/7213020",
+      "basis": "Zenodo 7213020 publishes only 12 per-book .txt files and a Readme.md. The Book 1 file I opened is unmarked plain text with folio headers and line breaks. RQ's local JSONL is its own staging copy of these .txt files.",
+      "confidence": "high"
+    },
+    "fornsvenska-swedish": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://www.nordlund.lu.se/texter/nysvenska-annexet/",
+      "basis": "Fornsvenska textbanken (Lund) publishes its machine texts as HTML pages with the full text inline (Johan Hand, Kiöping) and as 'RTF-fil' downloads (Arndt-1647.rtf is application/rtf and begins '{\\rtf1'). Its About page says the texts are read on screen or downloaded as RTF files, and the project publishes or documents no XML or TEI. The current 'plain-text' value comes from RQ's own JSONL staging (fmt_detected plain).",
+      "confidence": "high"
+    },
+    "fran-slovenian16c": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "Korpus 16's own 'Osnovne informacije' page says the simple XML tags of the double-keyed transcriptions were converted to TEI XML, and that the texts were then published on the website. The colophon credits 'Pretvorba v TEI'. That is explicit project documentation of TEI encoding. The plain text in RQ is RQ's own scrape of the HTML reader.",
+      "confidence": "high"
+    },
+    "freem": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/FreEM-corpora/FreEMmax_OA",
+      "basis": "The public FreEMmax_OA repository is the open-access FreEM max corpus; its build.py produces the '*_dAlembert.txt' files RQ ingested. It holds 2,549 source XML files and 2,550 TEI headers. Sampled files are TEI P5 (namespace http://www.tei-c.org/ns/1.0), except the Théâtre Classique subset, which uses an un-namespaced <TEI> root. The README says the sources are 'loosely encoded in TEI'.",
+      "confidence": "high"
+    },
+    "fuerstinnenkorrespondenz": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://hdl.handle.net/11022/0000-0000-82A0-7",
+      "basis": "The LAUDATIO corpus publishes the letters' text as EXMARaLDA basic-transcription XML (600 .exb files, root <basic-transcription>, not TEI) and as relANNIS. Its 'TEI Metadata' download holds TEI P5 headers only, and every document file ends in an empty <text/>. An EADH project description says TEI/XML transcriptions are on collections@UrMEL (ThULB), but I could not verify that.",
+      "confidence": "medium"
+    },
+    "galileo-opere-favaro": {
+      "encoding": "wikitext",
+      "public_files": "none",
+      "data_url": "https://dumps.wikimedia.org/itwikisource/",
+      "basis": "The edition is it.wikisource's proofread transcription of Favaro's Edizione Nazionale. Its text lives in ProofreadPage wikitext pages (e.g. Pagina:Le opere di Galileo Galilei III.djvu/255: <pagequality level=\"3\">, {{Pt}}, {{AutoreCitato}}, <ref>), which ns0 pages transclude with <pages index=…/>. No TEI or XML edition exists. RQ's plain text is its own derivation.",
+      "confidence": "high"
+    },
+    "gallicorpora-french-htr": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/Gallicorpora/TEI/tree/main/Corpus_print_16-18",
+      "basis": "Every source in this bundle publishes the transcriptions as ALTO v4 XML (String CONTENT observed). TEI P5 for the same documents is also published by Gallicorpora itself (Gallicorpora/TEI, root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, 22 of its 25 texts) and by SETAF (TEI-SETAF, all 19 Pierre de Vingle texts), so the precedence rule gives tei. 'plain-text' was RQ's own JSONL derivation. One caveat: Gallicorpora's TEI is an uncorrected Kraken transcription, not the ground truth (see flags). If the entry should describe only the ground-truth text, 'xml' is the stricter value.",
+      "confidence": "medium"
+    },
+    "gams-baselrecords": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://gams.uni-graz.at/context:depcha.srbas",
+      "basis": "The live GAMS datastream o:srbas.1535/TEI_SOURCE is TEI P5 (root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">) and has the same byte size as the local raw copy. All 77 local raw files are TEI P5. Every account page offers a 'TEI Download' icon, and the project description says the encoding 'vollständig der Version 2.7 der TEI entspricht'.",
+      "confidence": "high"
+    },
+    "ganjoorpersian": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://github.com/ganjoor/ganjoor-data",
+      "basis": "Ganjoor publishes its texts as HTML pages, with verses in div.b/m1/m2. Its machine-readable outputs are SQLite (desktop releases), JSON (ganjoor-data), EPUB and a desktop plain-text export. No TEI or XML of the texts exists (FAQ id=11; the 67 repos of the ganjoor org), so HTML is the richest published format. RQ's plain text was derived from the SQLite DB.",
+      "confidence": "high"
+    },
+    "gemi-midwifery": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2562",
+      "basis": "The OTA record ota:2562 (now hosted on the LLDS) says the corpus comes 'in plain text, and TEI XML versions'. Its 2562.zip is byte-identical to the local harvest copy (MD5 c0f3247bcadfde369f5bf26433b43728). In that zip, all 20 'TEI Files' (12 main texts + 8 Titelei) have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> (TEI Lite P5).",
+      "confidence": "high"
+    },
+    "germanc": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2544",
+      "basis": "The project documentation, shipped inside the OTA zip, describes a 'TEI-annotated corpus (TEI)' encoded in 'TEI lite P5'. The OTA/LLDS 2544.zip is byte-identical to the local harvest (MD5 ca757d121bbda2ecbfea1ff81d06d053). It contains TEI/ with 336 files, all with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">.",
+      "confidence": "high"
+    },
+    "gilberti-purepecha": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://archive.org/download/vocabularioenlen00gilb",
+      "basis": "The Internet Archive item (John Carter Brown Library copy of the 1559 Juan Pablos print, OCR by ABBYY FineReader 8.0) publishes its OCR as XML: vocabularioenlen00gilb_djvu.xml (root <DjVuXML>, 546 pages, 92,035 <WORD coords> elements, including the headwords RQ extracted) and _abbyy.gz (ABBYY FineReader XML). It also offers hOCR HTML and _djvu.txt. These are OCR layout formats that carry the full text, but the text is uncorrected machine OCR, not an edited or TEI encoding. 'plain-text' only reflects RQ's own JSONL extraction.",
+      "confidence": "high"
+    },
+    "glasgowemblems": {
+      "encoding": "xml",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The project's own help pages (Alciato at Glasgow and French Emblems at Glasgow) say each emblem was keyed and marked up in XML, used behind the scenes for search. No project page names TEI. A 2022 third-party review (Quaranta, Renaissance and Reformation 45.3) reports the books were transcribed in XML validated against a customised TEI Lite. That would justify 'tei' only if a reviewer's statement is accepted as documentation. The public site itself serves only HTML.",
+      "confidence": "medium"
+    },
+    "gondomar-galician": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://ilg.usc.gal/gondomar/index.php?action=texts",
+      "basis": "Every text page offers a public 'Descargar xml' export (TEITOK getxml) that returns a TEI document: root <TEI> with a full teiHeader and msDesc, then <text><front><body><lg><l> with token-level lemma and POS. The project's transcription manual (Álvarez & González Seoane 2017) specifies encoding each document as <TEI> with <teiHeader> and <text> in an XML file. The files are TEITOK-style TEI without the TEI namespace.",
+      "confidence": "high"
+    },
+    "gongora-soledades": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/arojascastro/soledades",
+      "basis": "All three files RQ harvested are TEI P5 at the live source: soledades_anotada.xml, soledades_critica.xml and soledades_simple.xml each have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. The repo describes itself as 'TEI encodings and datasets'.",
+      "confidence": "high"
+    },
+    "gongoraobra-obvil": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/gongoradigital/gongoraobra",
+      "basis": "All five files in the live repo are TEI P5: gongora_epistolario.xml has root <TEI xml:lang=\"spa\" xmlns=\"http://www.tei-c.org/ns/1.0\">, and the local clone shows the same for all 5. RQ's 'plain' reflects its own .txt extraction of 2 of them.",
+      "confidence": "high"
+    },
+    "gutorglyn-welsh": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/casglur/django-gutorglyn-2/tree/main/SDPublisher/gutorglyn/texts",
+      "basis": "The project's own documentation says the edition was encoded following the TEI guidelines (Ann Parry Owen, 'Golygu Digidol: Profiad Prosiect Guto'r Glyn', Tu Chwith 2013, hosted on gutorglyn.net). The site's poem source files are TEI P5 (root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">) in the web officer's public GitHub repo.",
+      "confidence": "high"
+    },
+    "hexenverhoer-sigs": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
+      "basis": "The LAUDATIO record (v1.0, 2023) publishes the corpus in exactly two formats, PAULA XML (format 5) and relANNIS (format 1). PAULA is stand-off XML that is not TEI, and its *.text.xml files carry the full transcription (root <paula version=\"1.1\">, text in <body>), so the label is 'xml'. No TEI version is published anywhere.",
+      "confidence": "high"
+    },
+    "histcorp-swedish": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://zenodo.org/records/10017247",
+      "basis": "HistCorp distributes its Swedish Fornsvenska and Konsistoriet subcorpora only as plain text ('txt', with a '#'-prefixed metadata header) and one-token-per-line 'tok' files. Its readmes say so, the HistCorp table shows no Anno/XML for these rows, and the Zenodo zip previews contain only .txt.",
+      "confidence": "high"
+    },
+    "huarochiri-quechua-full": {
+      "encoding": "other",
+      "public_files": "none",
+      "data_url": "https://www.etnolinguistica.org/biblio:taylor-1987-ritos",
+      "basis": "The Biblioteca Digital Curt Nimuendajú record offers a single file: a 10.5 MB PDF of Taylor's printed 1987 edition, made of page images with an OCR text layer. RQ's plain text is its own extraction from that PDF, and the OCR spacing artefacts survive in it. No XML, HTML or plain-text release of the edition exists.",
+      "confidence": "high"
+    },
+    "humanumgitlab": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://gitlab.huma-num.fr/crh/factums-metiers/factums-ancien-regime",
+      "basis": "All 77 in-core texts come from 7 public Huma-Num GitLab repositories. I opened one file from each at the live source, and every one has a TEI P5 root (<TEI xmlns=\"http://www.tei-c.org/ns/1.0\">). RQ's fmt_detected is tei for all 248 texts in the collection.",
+      "confidence": "medium"
+    },
+    "icepahc-icelandic": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://hdl.handle.net/20.500.12537/325",
+      "basis": "IcePaHC publishes its texts as raw .txt files alongside .psd (Penn-style labelled bracketing), .tagged (word/tag/lemma) and .info files: the README says so, and the 2024.03 release zip (on GitHub and CLARIN-IS) holds txt/, psd/, tagged/ and info/, with no XML. Plain text is the richest format in the enum; the treebank layers count as 'other'. The current value is correct.",
+      "confidence": "high"
+    },
+    "imp-slovene": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://hdl.handle.net/11356/1031",
+      "basis": "Actual files from both the CLARIN.SI deposit (local copy) and the live per-text download on nl.ijs.si have the root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. The project README and the CLARIN.SI record both state that the library and the corpus are distributed 'in source TEI P5 XML'.",
+      "confidence": "high"
+    },
+    "impactes-originalimprint": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://digitisation.eu/knowledge/language-resources/impact-es-2/",
+      "basis": "The IMPACT Spanish ground truth behind this entry is published in two XML forms. The IMPACT-es project (Universidad de Alicante / BVMC) issues the same texts as TEI P5 whole-work files in GT.zip, observed as <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> and documented as TEI P5 in Sánchez-Martínez et al. 2013. The entry's GitHub repo holds them page by page as PAGE XML, with full Unicode transcriptions in TextEquiv. TEI outranks both. 'plain-text' was RQ's own derivation.",
+      "confidence": "high"
+    },
+    "interregnum-acts": {
+      "encoding": "xml",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "BHO publishes this volume only as HTML pages. The project documents that its double-rekeyed texts are stored in a lightweight custom XML ('BHO syntax', DOCTYPE report SYSTEM 'dtd/report.dtd'), which is not TEI. RQ's 'plain' is its own JSONL scrape of the HTML pages. The value is xml under the 'documented' rule; it would be html if only public formats counted.",
+      "confidence": "medium"
+    },
+    "izbornyk-ukrainian": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "Izbornyk publishes its texts only as static HTML pages (windows-1251, meta Document-state 'Static'). RQ's 155 JSONL records are text it extracted from those pages: record izbornyk_old14_16_old14_01 maps to http://litopys.org.ua/old14_16/old14_01.htm, and a JSONL passage appears verbatim in the live page. No XML, TEI or text download is offered anywhere on the site.",
+      "confidence": "high"
+    },
+    "kirishitan-japanese": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://www2.ninjal.ac.jp/textdb_dataset/en/",
+      "basis": "NINJAL publishes the Kirishitan texts only as UTF-8 .txt transcriptions. Feiqe no monogatari and Esopo no fabulas each come in three versions: original romanisation, Japanese-script transliteration, and both together. Contemptus Mundi comes in original and normalised romanisation. The Nippojisho headword data is a TSV + XLSX zip. The HTML pages only display the same txt. No XML or TEI is published for these texts.",
+      "confidence": "high"
+    },
+    "korba-polish": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://korba.edu.pl/download",
+      "basis": "I read the public download korba_xml.zip (linked from korba.edu.pl/download) live: it contains 8,365 .xml files, and member TEI/TEI_korba1/AkDziec/text.xml has root <teiCorpus xmlns=\"http://www.tei-c.org/ns/1.0\"> (NKJP-style TEI P5). Its headers are titled 'TEI P5 encoded version of …'.",
+      "confidence": "high"
+    },
+    "kronieken-dutch": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/chroniclingnovelty/chronicles-datasets",
+      "basis": "The Kronieken Dataset (Zenodo 10.5281/zenodo.13332815 = GitHub chroniclingnovelty/chronicles-datasets v1.0.0) consists of 612 XML files, every one with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> (a Transkribus TEI P5 export). RQ's 'plain' is its own derivation from xmls_no_tags.",
+      "confidence": "high"
+    },
+    "lampeter-english": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/3193",
+      "basis": "The OTA/LLDS record ota:3193 lists 3193.xml as 'Version of the work in the original source TEI XML file' (8.3 MB; METS MD5 eef997b1e0d1015581df84d4e932fe6c). The project documentation (CoRD) says the markup follows the TEI guidelines. LLDS downloads returned 502, so I could not open the file there. A TextGrid mirror of the same OTA file opens with <teiCorpus xmlns=\"http://www.tei-c.org/ns/1.0\"> and OTA's own header.",
+      "confidence": "high"
+    },
+    "leme": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://hdl.handle.net/1807/99021",
+      "basis": "All 314 items in LEME's TSpace collection (now on the University of Toronto Scholaris; handle 1807/99021) carry a custom LEME XML file. Each has <!DOCTYPE leme> and <root><leme no=…>, with <wordentry>, <form> and <xpln>, and no TEI namespace. LEME's Terms of Use name these 'XML encoded texts' in TSpace under CC BY 4.0. A TEI version is only announced in the Guide to Encoding and has not been published.",
+      "confidence": "high"
+    },
+    "liberliber": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://liberliber.it/opere/libri/",
+      "basis": "LiberLiber publishes each title as downloadable files: PDF, ODT, ePub, zipped TXT and RTF, and for part of the library zipped HTML (seen on 4 of the 85 RQ-mapped work pages; the site's own Istruzioni page says HTML covers 'solo una parte della nostra biblioteca'). Under the precedence rule HTML outranks plain-text. No TEI or other text-encoding XML is published: ODT and ePub are office and e-book containers.",
+      "confidence": "medium"
+    },
+    "litteraturbanken-swedish": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://litteraturbanken.se/bibliotek?nedladdning=true",
+      "basis": "Litteraturbanken's own public download returns TEI P5 for the RQ works: Disa (lb2518188) and Tisbe (lb1229488) both have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. Its API lists an 'xml' export for all 7 RQ etexts, and RIDE (2017) documents that the texts are encoded in TEI. The entry's url is Språkbanken's lb-open corpus, which is non-TEI Sparv XML, so plain-text is wrong under either reading.",
+      "confidence": "high"
+    },
+    "maltese-cantilena": {
+      "encoding": "wikitext",
+      "public_files": "none",
+      "data_url": "https://wikisource.org/wiki/Il-Kantilena",
+      "basis": "No TEI/XML or other digital scholarly edition of the Cantilena exists that I could find. The text is published only on wikis: the entry's Wikipedia article (the source RQ actually used) and a multilingual Wikisource page. I chose 'wikitext' rather than 'html' because the catalogue's own convention maps wiki sources to wikitext. The Wettinger–Fsadni edition is in print, and OAR@UM holds only PDF articles.",
+      "confidence": "medium"
+    },
+    "mambrino": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://zenodo.org/communities/mambrino/records",
+      "basis": "Each volume is published on Zenodo as TEI P5 (*_source.xml plus *_commentary.xml). I confirmed the root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> with a tei_all.rng xml-model in SM1_source.xml, SM4_source.xml, PALM2-source.xml, FLORTIR-source.xml and SM1_commentary.xml. The catalogued 'tei' is correct.",
+      "confidence": "high"
+    },
+    "map-of-early-modern-london": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://mapoflondon.uvic.ca/xml/",
+      "basis": "MoEML's own documentation (xml_outputs.htm) says it is 'a TEI P5 XML project; all of our documents are encoded according to the P5 Guidelines'. An actual primary-source file, https://mapoflondon.uvic.ca/xml/standard/DIXI2.xml (Peele's 1585 mayoral show), has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\" version=\"5.0\"> and holds the full transcription (130 <l>, 17 <lg>, 6 <pb>).",
+      "confidence": "high"
+    },
+    "mazarinades": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/Antonomaz/Corpus",
+      "basis": "Actual files from both public sources are TEI P5: corpus/Moreau1917_MAZ.xml and corpus/Moreau849_GBOOKS.xml in the Zenodo zip, and Mazarinades/1-100/Moreau100_GALL.xml on GitHub, all have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> and are validated by the project's ODD (Antonomaz/ODD). The project README says 'un corpus de mazarinades encodées en XML-TEI', so the catalogue's 'xml' understates the format.",
+      "confidence": "high"
+    },
+    "mek": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The four MEK items behind this entry are 01137 (Zrínyi), 00609 (Balassi), 06793 (Pázmány) and 01100 (Tinódi). Their cover pages and index.xml records list only HTML, PDF, RTF and Word, plus EPUB, PRC and LIT. Every XML URL tried for them returns MEK's HTML soft-404 page, so HTML is the richest format published. MEK does publish TEI P4 XML zips for a minority of other titles (e.g. MEK-00750), but none of the early-modern ones checked.",
+      "confidence": "medium"
+    },
+    "mercuregalant": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/OBVIL/mercure-galant",
+      "basis": "The live file OBVIL/mercure-galant xml/MG-1672-01.xml has the root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\" n=\"MG-1672-01\">, Teinte schema, edition 'OBVIL/IReMus'. The repo holds 564 per-issue TEI files (MG-1672-01 to MG-1721-05). No local raw copy exists.",
+      "confidence": "high"
+    },
+    "mercurius-baumbank": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://www.laudatio-repository.org/browse/corpus/VyQiCnMB7CArCQ9CjF3O/corpora",
+      "basis": "LAUDATIO publishes the text only as TIGER-XML (root <corpus xsi:noNamespaceSchemaLocation=\"./schema/TigerXML.xsd\">, tokens as <t word= pos= morph=>), NEGRA export and relANNIS. Its 'TEI Metadata' download holds TEI headers only, with an empty <text />, so the text itself is non-TEI XML.",
+      "confidence": "high"
+    },
+    "montoya-guarani": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://archive.org/download/gramaticaydiccio02ruiz",
+      "basis": "The Internet Archive item (JCB copy of Varnhagen's 1876 Vienna/Paris edition of Ruiz de Montoya's Arte, Vocabulario y Tesoro) publishes its OCR as XML: gramaticaydiccio02ruiz_djvu.xml (root <DjVuXML>, 426 pages, 213,507 <WORD> elements, including the Guarani phrases RQ extracted) and _abbyy.gz (ABBYY FineReader XML). It also offers hOCR HTML and _djvu.txt. These are OCR layout formats that carry the text, but the text is uncorrected machine OCR, not an edited or TEI encoding.",
+      "confidence": "high"
+    },
+    "muysccubun-muisca": {
+      "encoding": "wikitext",
+      "public_files": "none",
+      "data_url": "https://muysca.cubun.org/Especial:Exportar",
+      "basis": "muysca.cubun.org runs MediaWiki 1.35.14 and its transcriptions are written in wiki markup. action=raw on Manuscrito_158_BNC/Gramática/fol_1r returns template-based wikitext ({{trascripcion_158 |seccion=Gramática |foto=...}}, with <br>, {{an1|-}} and a diplomatic plus a 'texto' layer). The HTML pages are only MediaWiki's rendering of that wikitext. No TEI or XML edition exists. The 'plain-text' value came from RQ's own JSONL derivation. This follows the catalogue's convention for MediaWiki sources (the Wikisource entry is 'wikitext').",
+      "confidence": "high"
+    },
+    "nahuatl-depth": {
+      "encoding": "other",
+      "public_files": "none",
+      "data_url": "https://www.history.ucsb.edu/wp-content/uploads/testaments_of_culhuacan.pdf",
+      "basis": "The entry's url and 80 of RQ's 96 texts point to the UCSB-hosted provisional edition of The Testaments of Culhuacan (Cline & León-Portilla). It is published only as a 143-page PDF with the Nahuatl transcription and the English translation in two columns; RQ's plain text is its own extraction of the Nahuatl column. The other 16 texts come from a different project, the Early Nahuatl Library, which publishes HTML pages and offers TEI XML of its database only on e-mail request.",
+      "confidence": "medium"
+    },
+    "nakala": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://nakala.fr/",
+      "basis": "All 120 RQ 'Nakala' files (109 in-core) in the local raw copy /Volumes/Pollux/Downloads/nakala_renaissance have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. Five datasets opened live from Nakala are served as application/tei+xml with the same TEI P5 root. The 'xml' value reflects only RQ's fmt_detected.",
+      "confidence": "high"
+    },
+    "newton-project": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://www.newtonproject.ox.ac.uk/texts/browse-all-texts/by-category",
+      "basis": "Every Newton Project text page offers 'Download <ID>.xml and schema (advanced users only)'. /view/texts/xml/NATP00001 and NATP00089 return text/xml with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:np=\"...\" type=\"transcription\">. The revision history reads 'Updated to Newton V3.0 (TEI P5 Schema)', and the About page documents 'MathML and TEI-P5 encoding'. The 'plain-text' value came from RQ's own JSONL derivation.",
+      "confidence": "high"
+    },
+    "norman-musenormande": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://archive.org/download/lamusenormanded09ferrgoog",
+      "basis": "The Internet Archive item (Google scan of the NYPL copy of Héron's edition of La Muse normande, Tome II, Rouen 1891, OCR by ABBYY FineReader 8.0) publishes its OCR as XML: lamusenormanded09ferrgoog_djvu.xml (root <DjVuXML>, 457 pages, 93,966 <WORD> elements) and _abbyy.gz (ABBYY FineReader6 XML with character-level charParams), alongside _djvu.txt. These are OCR layout formats that carry the text, but the text is uncorrected machine OCR, not an edited or TEI encoding.",
+      "confidence": "high"
+    },
+    "noscemus": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://zenodo.org/records/15040256",
+      "basis": "The Digital Sourcebook is published on Transkribus Sites, whose text layer is PAGE XML (2013-07-15 schema). One file per page carries the uncorrected HTR transcription in TextLine/TextEquiv/Unicode and is served publicly. The project's only bulk release (Zenodo 15040256) is plain text, so XML ranks first under the precedence rule, but it is not offered as a download.",
+      "confidence": "medium"
+    },
+    "obvil-french": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/OBVIL",
+      "basis": "All three RQ source files have the root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> (Teinte schema), both in the local git clones and live on GitHub: OBVIL/danse xml/lauze_apologie-danse_1623_orig.xml, OBVIL/faceties xml_orig/xml_orig_Faceties_011.xml and OBVIL/critique la-bruyere/la-bruyere_ouvrages-esprit_1694.xml.",
+      "confidence": "high"
+    },
+    "obvil-hainetheatre": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/OBVIL/haine-theatre",
+      "basis": "Every file sampled from the public repo OBVIL/haine-theatre (xml/, xml-diplo/, annotatedXML/) has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xml:lang=\"fre\"> (TEI P5, Teinte RelaxNG). The 85 xml/ files dated up to 1700 match the 85 RQ texts.",
+      "confidence": "high"
+    },
+    "occitan-1000ans": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The UOH anthology at the entry url ('1000 ans de littérature d'Oc', WordPress) presents its excerpts only as HTML pages, with translations and MP3 readings. The other 49 of the 57 RQ texts come from Occitan pages on the multilingual Wikisource (wikitext rendered as HTML). Neither source publishes XML or TEI.",
+      "confidence": "high"
+    },
+    "ode-corderegraspanish": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "http://corpora.ugr.es/ode/index.php?action=browser&show=all",
+      "basis": "ODE (corpora.ugr.es/ode) is where all 138 RQ texts come from, and CHARTA names it as CORDEREGRA's access point. Every ODE document offers 'Download XML' as 'TEI P5 XML' or 'TEITOK XML'. The live TEI P5 exports have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> with <w> and <choice><abbr><expan>. ODE's encoding guide (Vaamonde, Zenodo 10.5281/zenodo.14060223) documents both downloads.",
+      "confidence": "high"
+    },
+    "old-bailey-online": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://www.dhi.ac.uk/data/oldbailey",
+      "basis": "A file extracted from the public DHI dataset (sessionsPapers/16960708.xml, pulled from oldbailey.zip by HTTP range request) has root <TEI.2>, i.e. TEI P4 with div0/div1/interp/persName/xptr. The project's data page states the files are '2,163 editions of the Proceedings and 475 Ordinary's Accounts marked up in TEI-XML'.",
+      "confidence": "high"
+    },
+    "old-hungarian-corpus": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "http://oldhungariancorpus.nytud.hu/en-texts.html",
+      "basis": "The project's Texts page says each text is provided as plain text (original orthography) and PDF, normalized texts as plain text, a TSV with all layers, and CoNLL-U for some codices. A crawl of the open /documents/ tree (855 files) found 553 .txt, 126 .pdf, 78 rmkinput TSV and no XML at all.",
+      "confidence": "high"
+    },
+    "openedges": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://sprakbanken.se/en/resources/openedges",
+      "basis": "Both published releases (v1.01 and v1.0.0) contain only TSV files (one per Bible book, plus alignments) and one-verse-per-line TXT whole-Bible files. The release's 'Files and formats.txt' and the Språkbanken page describe exactly these two text formats. No XML exists in either release, in Korp, or elsewhere.",
+      "confidence": "high"
+    },
+    "openiti": {
+      "encoding": "markdown",
+      "public_files": "none",
+      "data_url": "https://doi.org/10.5281/zenodo.3082463",
+      "basis": "OpenITI publishes its texts only in OpenITI mARkdown: header ######OpenITI#, #META# lines, '# ' paragraphs, '~~' continuation lines, with YAML metadata. They appear in the GitHub period repos and the Zenodo releases. Renascor's schema README says the markdown value includes OpenITI mARkdown. TEI exists only as a schema and converter, not as published files. RQ's 9 'xml' detections were HTML fragments inside .txt files.",
+      "confidence": "high"
+    },
+    "osta": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://github.com/hispanicseminary/OSTA",
+      "basis": "Beyond its 670 plain-text semi-paleographic transcriptions (.txt with HSMS mnemonics), the project repo publishes verticalized/: 77 lemmatized, PoS-tagged texts that the README calls 'XML/HTML format'. These are HTML documents (<!DOCTYPE html><HTML><HEAD>) with custom tags (<w data1='token•lemma•PoS'>, <LN>, <FOL>, <RMK>, <ABB>) and they fail XML parsing. HTML therefore outranks plain text; no TEI or XML exists.",
+      "confidence": "medium"
+    },
+    "otomi-mission": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://www.sup-infor.com/sources/liste-otomi.htm",
+      "basis": "Sup-Infor publishes David Charles Wright Carr's paleography of the Códice de Huichapan only as a static HTML page (cod_huic-txt.htm) and an RTF download (cod_huic.zip), with no XML. The 'plain' format came from RQ's own JSONL derivation, so html is the richest published format.",
+      "confidence": "high"
+    },
+    "passiusalmar-icelandic": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The edition (the National and University Library's 1996 text of Hallgrímur's autograph, in modern spelling) is published only as WordPress HTML pages on hallgrimurpetursson.is; /salmarnir/ carries all 50 psalms inline. The site offers no XML, TEI or downloadable text files. RQ's plain text is RQ's own scrape of that HTML.",
+      "confidence": "high"
+    },
+    "pceec2": {
+      "encoding": "other",
+      "public_files": "none",
+      "data_url": "https://github.com/beatrice57/pceec2",
+      "basis": "PCEEC2 publishes only Penn-treebank labelled-bracketing files: 84 .psd parsed and 84 .lem lemmatized, with CODE parameter lines and METADATA nodes, plus HTML docs and CSV/XLSX metadata. It has no plain text and no XML. RQ's 'plain' was its own text extraction from the .psd files. Under the brief, treebank formats are 'other' when nothing better exists. Plain .txt files exist only in the 2006 first edition (OTA ota:2510, Academic Use), a separate and uncorrected release. If the owner treats the two editions as one project, 'plain-text' could be kept.",
+      "confidence": "medium"
+    },
+    "pepys-diary": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://www.pepysdiary.com/api/",
+      "basis": "pepysdiary.com publishes the edition's text as HTML only. Each daily entry is an HTML page, and the documented API (/api/v1/entries) returns JSON whose entryHTML/footnotesHTML fields hold the text as HTML, or HTML output. There is no TEI/XML anywhere (?format=xml still returns JSON). The 'plain-text' label reflects RQ's ingestion of the Project Gutenberg #4200 plain text, not this edition.",
+      "confidence": "high"
+    },
+    "perseus-digital-library": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/PerseusDL/canonical-engLit",
+      "basis": "The PerseusDL/canonical-engLit GitHub repository ('Perseus Renaissance and early modern collection') holds the collection as TEI. Its 96 Renaissance/ files are TEI P4: DOCTYPE TEI.2 with the TEI P4 DTD and root <TEI.2>. Its 11 data/ files are TEI P5/EpiDoc, root <TEI xmlns='http://www.tei-c.org/ns/1.0'>. All 94 local raw files harvested from this repository are TEI P4.",
+      "confidence": "high"
+    },
+    "polemicagongorina-obvil": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/gongoradigital/polemos",
+      "basis": "The live repository gongoradigital/polemos (default branch gh-pages) publishes 32 .xml texts. The live 1624_anti-jauregui.xml and all 32 files in the local clone have the root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. The edition's own reading site, now on obtic.huma-num.fr, links 'tei polémica' in its download menu to this repository.",
+      "confidence": "high"
+    },
+    "porzio-congiurabaroni": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://zenodo.org/records/18047915",
+      "basis": "The Zenodo record states 'The text is encoded in TEI P5' and that the dataset 'contains only the TEI-XML files'. The 4 files in ara73.zip use TEI vocabulary throughout: root <TEI>, a full teiHeader, and persName/placeName/orgName markup in the body. Caveat: the files declare no TEI namespace (root <TEI> with no xmlns and no DOCTYPE).",
+      "confidence": "high"
+    },
+    "postscriptum": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "http://ps.clul.ul.pt/index.php?action=downloads",
+      "basis": "The project's Downloads page (Table 5) distributes the letters as XML-TEI P5 zips, validated by the project's own ODD/RNG. PT1500_XML-TEI_P5.zip, downloaded from that page, contains 261 files with root <TEI xmlns='http://www.tei-c.org/ns/1.0' xml:lang='pt'> and the full transcription in <text><body>. The 1,881 local raw files are the same TEI P5 files. RQ's 'plain' was its own text extraction.",
+      "confidence": "high"
+    },
+    "ppchy-yiddish": {
+      "encoding": "other",
+      "public_files": "none",
+      "data_url": "https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish/tree/main/data",
+      "basis": "The project publishes the corpus only as 63 .psd files in data/. These are Penn-style labelled-bracketing parse trees for CorpusSearch, e.g. '( (IP-MAT (NP-VOC (ADJ liebe) (N froyndin)) … (ID 1478W-LETTER-REGENSBURG,156.3))'. There is no XML/TEI, no HTML text and no plain running text; the HTML files are documentation and the PDFs are source scans. This treebank format is analogous to CoNLL-U, so it is 'other' per the brief. RQ's 'plain' is its own de-annotated derivation.",
+      "confidence": "high"
+    },
+    "project-gutenberg": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://www.gutenberg.org/policy/robot_access.html",
+      "basis": "Project Gutenberg publishes all 250 ebooks behind this entry as HTML, plus plain text, EPUB and Kindle (Gutendex tally, ebook pages, and PG's mirroring page: 'manually curated HTML and plain text files'). RQ only ingested the .txt files. TEI exists for just 2 of the 250 ebooks (legacy PGTEI), which does not make the platform a TEI edition.",
+      "confidence": "high"
+    },
+    "qhod": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://zenodo.org/records/14449603",
+      "basis": "Every file inspected is TEI P5 with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">: the local clone of QHOD/qhod-edition-data, the live GitHub raw file and the live qhod.net TEI_SOURCE download. The Zenodo 2.0 record calls itself a 'Release of QhoD edition TEI and image data'.",
+      "confidence": "high"
+    },
+    "reed-english": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/REEDProject/Collections",
+      "basis": "REED Online's Digital Methodology page says the records and editorial materials are TEI-encoded and that the raw files can be downloaded from github.com/REEDProject/Collections. The live files there are TEI P5 (<TEI xmlns=\"http://www.tei-c.org/ns/1.0\">), and RQ's plain-text records carry the xml:ids of those TEI files (e.g. berks-ridm254445584), so 'plain-text' is an RQ derivation.",
+      "confidence": "high"
+    },
+    "ref-enhg": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://zenodo.org/records/5793616",
+      "basis": "The project distributes the texts as non-TEI XML that carries the full transcription: CorA-XML for ReF.RUB and ReF.MLU (root <text id=…> with <cora-header>, layoutinfo and token-level <tok_dipl>/<tok_anno> diplomatic and normalised forms) and TigerXML for ReF.UP (root <corpus>). The README and the project access page say exactly this. No TEI namespace occurs, and plain text is only RQ's own derivation.",
+      "confidence": "high"
+    },
+    "renlowgerman": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://www.fdr.uni-hamburg.de/record/9195",
+      "basis": "The project handbook (section 5) states 'Die TEI-Version ist eine Version des Korpus, die den Konventionen der Text Encoding Initiative P5 folgt'. The FDR record publishes it as tei_1.1.zip: 235 .tei files using TEI P5 elements (<w> with lemma/pos/msd, <s>, <pb>, <lb>, <unclear>, <gap>, <note type=\"editorial\">). Caveat: the files have a bare <text> root with no TEI namespace and no teiHeader. The CorA-ReN-XML version that RQ harvested is non-TEI CorA XML.",
+      "confidence": "high"
+    },
+    "rhythmiccorpus-sga": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://zenodo.org/records/17537343",
+      "basis": "The dataset's only file, RhythmicCorpus100-AlvaroCuellar.zip, contains just 200 .txt files: 100plays/ holds bare verse lines and 100plays-rhythms/ holds '+'/'-' stress scansions. No markup appears (0 tags across the 100 play files), and the two earlier versions also hold only .txt. No XML version is published anywhere that I could find.",
+      "confidence": "high"
+    },
+    "rialc-catalan": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "RIALC publishes its texts only as static HTML pages, made with Microsoft FrontPage and encoded windows-1252, one page per poem (e.g. https://www.rialc.unina.it/0.102.htm). It offers no XML, TEI or download. The catalogued 'plain-text' comes from RQ's own text extraction (fmt_detected 'plain', .txt names), and the entry's notes already say 'HTML, not TEI'.",
+      "confidence": "high"
+    },
+    "rin-conde": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/RIN-ConDE/editions",
+      "basis": "The project's GitHub repository RIN-ConDE/editions is linked as 'Télécharger' from the project homepage. It distributes the corpus as TEI P5: base-version/rouille_base.xml and simplified-version/gc_lighter.xml both open with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\" version=\"5\">. The 4 local RQ raw files are copies of base-version files with identical byte sizes and the same TEI root. The current 'tei' value is correct.",
+      "confidence": "high"
+    },
+    "ropsalt-romanian": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://github.com/mmoruz/RoPsalt",
+      "basis": "github.com/mmoruz/RoPsalt publishes 151 per-psalm XML files (1.xml–151.xml) in a custom, non-TEI schema. The root is <psalm xsi:noNamespaceSchemaLocation=\"roPsalt.xsd\">, with verse-aligned <verse><variant sigle=\"PS|PH|CP|CP1|CP2|PC|PV|PG|PR\"><language value=\"ro|sla|lat\">, validated by roPsalt.xsd. The project's Corpus page states that the aligned psalms are available 'în format XML' in this repo and in XMLPsalters.zip. RQ's 'plain' rows are its own extraction of the Romanian variants.",
+      "confidence": "high"
+    },
+    "royal-society-transactions": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://fedora.clarin-d.uni-saarland.de/rsc_v6/access.html",
+      "basis": "RQ's 1,424 texts are the plain-text files of the Royal Society Corpus 6.0 Open: RQ's paths (Royal_Society_Corpus_open_v6.0_text_*.txt) match the RSC TXT zip names exactly. The same release publishes every text as TEI P5: root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, observed in text_102790.tei.xml. It also publishes VRT and TCF.",
+      "confidence": "high"
+    },
+    "rup-folger": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/jedmondes/Rare-or-Unique-Poems-from-manuscripts-1500-1660-FOLGER",
+      "basis": "The live repo's poems/ folder holds 21 files with the root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">: live checks of rup_000001, 000010, 000020 and 000021, plus all 20 files in the local raw copy. The README states 'TEI P5 … TEI All schema'. RQ's fmt_detected 'plain' was wrong, but the catalogue's 'tei' is correct.",
+      "confidence": "high"
+    },
+    "russian-national-corpus": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://github.com/UniversalDependencies/UD_Old_East_Slavic-RNC",
+      "basis": "The RNC publishes its Middle Russian corpus (8,301 texts) only through its online search interface (HTML). It documents no downloadable or XML form of these texts; XML is documented only for the modern SynTagRus offline dataset, which is licensed. The only public machine-readable form of RQ's texts is the UD_Old_East_Slavic-RNC treebank in CoNLL-U ('other'), which ranks below html.",
+      "confidence": "medium"
+    },
+    "russian-ulozhenie1649": {
+      "encoding": "wikitext",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The edition is a Russian Wikisource ProofreadPage transcription. Its chapter pages (contentmodel wikitext) transclude, via <pages index=.../>, 161 validated Page: wikitext pages of the scanned Полное собрание законов, vol. I. The catalogue schema defines wikitext as 'wiki markup (e.g. Wikisource)'. No TEI or XML version exists; RQ's 'plain' is its own flattening.",
+      "confidence": "high"
+    },
+    "salamanca": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/digicademy/svsal-tei",
+      "basis": "The entry's own url, github.com/digicademy/svsal-tei, is a repository of 18 TEI P5 works (W0002.xml…W0113.xml, root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, SalTEI customisation). These are exactly the 18 texts RQ ingested and flattened to .txt, so 'plain' only reflects RQ's own derivation. The project site also offers a complete TEI corpus download.",
+      "confidence": "high"
+    },
+    "sefaria": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://github.com/Sefaria/Sefaria-Export",
+      "basis": "Sefaria publishes its texts as HTML reader pages, and its developer docs say the text segments themselves carry inline HTML (<b>, <br>, <small>, footnote <sup>/<i>, <i data-commentator>). Its official bulk export offers only JSON, TXT and CLTK-JSON, and both JSON and TXT keep those HTML tags. No XML or TEI is published anywhere, so by the precedence html > plain-text the encoding is html.",
+      "confidence": "high"
+    },
+    "senie-latvian": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://hdl.handle.net/20.500.12574/141",
+      "basis": "The CLARIN-LV record publishes the corpus as 'Corpus data in TEI 5 XML format' (SENIE_Unicode.tei.xml.zip, plus an unhyphenated variant). The public file's root is <teiCorpus xmlns=\"http://www.tei-c.org/ns/1.0\"> with 186 <TEI> documents, the same structure as the local RQ harvest.",
+      "confidence": "high"
+    },
+    "sermo": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "http://sermo.unine.ch/SERMO/apropos/index?part=corpus",
+      "basis": "I downloaded all 62 sermons from the project's own endpoint (/SERMO/collection/downloadXML). Every file is well-formed TEI P5, with the root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, a teiHeader and the xml-model tei_sermo.rnc, and every file is byte-identical to one of RQ's 62 source files.",
+      "confidence": "high"
+    },
+    "sloveneimp": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://www.clarin.si/repository/xmlui/handle/11356/1031",
+      "basis": "I read the live IMP-corpus-tei.zip at CLARIN.SI hdl 11356/1031 with an HTTP range request. ZRC_00002-1695-ana.xml has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> and records a 'Conversion to TEI P5' change. The record's subjects include 'TEI', and the IMP site says all resources follow a TEI P5-based schema. The local harvest is byte-identical to the live zip.",
+      "confidence": "high"
+    },
+    "smi-italianmusic": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "Saggi musicali italiani published each treatise as an XHTML page (e.g. BOTTRIG1_MCBMB44.html) with GIF figures. Its documentation describes ASCII-keyed transcriptions plus GIF graphics, and no XML or TEI ever existed. The Wayback inventory of the SMI site contains only HTML, GIF, CSS/JS and the canon PDF.",
+      "confidence": "high"
+    },
+    "sonetossiglodeoro": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/bncolorado/CorpusSonetosSigloDeOro",
+      "basis": "The repository holds 5,078 per-sonnet files, one folder per poet. Their root is <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> and metrical patterns sit in l/@met. The README states each sonnet is 'annotated in XML in accordance with the TEI standard'. RQ's 'plain' is its own .txt derivation (NAS Corpus_v4 folder with identical file names).",
+      "confidence": "high"
+    },
+    "spxvi-polish16c": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": "https://spxvi.edu.pl/korpus/teksty/",
+      "basis": "The project documents TEI P5 XML explicitly in two places. The page spxvi.edu.pl/korpus/ says the corpus was 'opracowanego zgodnie ze specyfikacją TEI (Text Encoding Initiative) w wersji P5'. Opaliński & Potoniec 2020 (DOI 10.33896/PorJ.2020.8.2) say the texts are encoded in XML in a TEI P5 selection and transformed with XSLT/XSL-FO into HTML for spxvi.edu.pl and into PDF. No TEI file was observed; the public output is HTML only.",
+      "confidence": "high"
+    },
+    "ssrq-swisslaw": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/SSRQ-SDS-FDS/editio-data",
+      "basis": "All 5,596 files in the project's public data repository SSRQ-SDS-FDS/editio-data are TEI P5 (root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">). The README calls it the edition's '(TEI-XML) data', and the live editio API returns TEI for each document.",
+      "confidence": "high"
+    },
+    "statutes-realm": {
+      "encoding": "xml",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "BHO publishes vols 5-7 only as HTML pages. The project documents that its double-rekeyed texts are stored in a lightweight custom XML ('BHO syntax', report.dtd), which is not TEI. RQ's 'plain' is its own JSONL scrape of those pages. The value is xml under the 'documented' rule; it would be html if only public formats counted.",
+      "confidence": "medium"
+    },
+    "suriano-correspondence": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/HuygensING/suriano/tree/main/datasource/tei",
+      "basis": "The entry's url (github.com/HuygensING/suriano) publishes all 725 letters as TEI P5 in datasource/tei/<filza>/<nnn>.xml. The root is <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> with the project schema suriano.rng. The README documents it: 'The source data and the TEI that we derived from it ... is available in directory /datasource'. RQ only ingested 11 volume-level .txt files.",
+      "confidence": "high"
+    },
+    "tagalog-doctrina1593": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://www.gutenberg.org/ebooks/16119",
+      "basis": "PG eBook 16119 is published as HTML (16119-h.htm, with facsimile page images) plus plain text, EPUB and Kindle. Its full RDF file list has no TEI/XML text file, so HTML is the richest published format.",
+      "confidence": "high"
+    },
+    "tbso-gh": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/dxvidmr/repositorioTBSO",
+      "basis": "The repository publishes TEI P5 for part of the collection: 4 finished files in tei/ (e.g. QUIN_el_juego_del_hombre.xml, root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">) and 4 more in tei/en_proceso. The README documents TXT for every work and 'XML siguiendo el estándar ... TEI' for some. TEI is therefore the richest published format, even though the 40 RQ texts are the normalised txt/ files.",
+      "confidence": "high"
+    },
+    "textgrid-repository": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://textgridrep.org/project/TGPR-372fe6dc-57f2-6cd4-01b5-2c4bbefcfd3c",
+      "basis": "TEI P5 was observed in an actual repository object, the first RQ sample text (textgrid:jfss.0, Abraham a Sancta Clara, Mercks Wienn), with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. It also appears in the official bulk ZIP (root <teiCorpus xmlns=\"http://www.tei-c.org/ns/1.0\">), and the project documents the Digitale Bibliothek as 'XML/TEI-erschlossene Texte' converted 'in ein gültiges TEI-Format'. RQ's 'plain' is its own JSONL text extraction.",
+      "confidence": "high"
+    },
+    "the-latin-library": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://www.thelatinlibrary.com/neo.html",
+      "basis": "Texts are published only as simple hand-coded HTML pages; e.g. bacon/bacon.hist1.shtml is <html><head><title>Bacon: History of the Reign of Henry VII</title> with <p> paragraphs. The site's Technical Notes describe HTML-only maintenance, and no XML exists anywhere on the site.",
+      "confidence": "high"
+    },
+    "theatreclassique": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "http://www.theatre-classique.fr/pages/programmes/PageEdition.php",
+      "basis": "The project publishes one XML file per play (pages/documents/<ID>.xml, linked as 'XML' for each play on PageEdition.php). These are TEI-like but not conformant TEI: root <TEI xml:lang=\"fr\"> with no TEI namespace and no DTD, plus non-TEI elements such as <SourceDesc>, <genre>, <periode>, <permalien> and author@born. The site says only that it was 'inspired by a lightened TEI.2 DTD'; namespaced TEI P5 exists only in the third-party dramacode/tcp5 conversion that RQ used.",
+      "confidence": "medium"
+    },
+    "thornton-kikongo": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://www.kaowarsom.be/fr/memoir_249",
+      "basis": "Thornton's only part, the Roboredo sermon (c.1649), is published as a WordPress HTML page: a diplomatic transcription with '/' line breaks, bracketed expansions, 74 notes and an English translation. No files are attached. The Cardoso 1624 Doutrina Christãa text comes from Bontinck & Ndembe Nsasi's 1978 critical edition, which ARSOM offers only as a scanned PDF with an OCR layer. There is no XML or TEI anywhere, and RQ's 'plain' is its own JSONL.",
+      "confidence": "medium"
+    },
+    "ticha-zapotec": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/HCDigitalScholarship/ticha-xml-tei",
+      "basis": "The catalogued url, github.com/HCDigitalScholarship/ticha-xml-tei, holds 97 .xml files. 96 of them, including the two works RQ harvested (aguero-miscelaneo.xml and cordova-arte.xml), have the root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. The README calls them 'representations in TEI', so the catalogue's 'plain' only reflects RQ's own JSONL derivation.",
+      "confidence": "high"
+    },
+    "titus": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://titus.uni-frankfurt.de/sliekkas/html/texts.html",
+      "basis": "TITUS itself publishes all 26 texts of this entry only as HTML pages ('HTML version (UTF-8) with index available'). The TITUS-hosted SLIEKKAS Old Lithuanian corpus project openly distributes ELAN .eaf files (XML, not TEI) that carry the full TITUS transcription of 4 of the entry's 6 Old Lithuanian texts. So xml ranks highest, though most of the entry is HTML-only.",
+      "confidence": "medium"
+    },
+    "tmi-smi-italian": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The TmiWeb homepage states 'All texts are encoded using a slightly-extended variant of the TEI P5 standard' and the project's DANS deposit describes 'TEI P5 encodings of the treatises'. The live HTML is rendered from TEI (TEI namespace on <html>, 'tei sic'/'tei corr' classes). The SMI part (10 of 41 texts) was plain HTML.",
+      "confidence": "high"
+    },
+    "tmk": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The project's own article says the corpus is kept in a proprietary line-oriented annotation format, stored in an Emdros database and converted to HTML for display. It also says it was never converted to XML. Texts are published only through the HTML web query interface, and the ARP dataset record holds no files.",
+      "confidence": "high"
+    },
+    "tml": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://github.com/cmm2209/TMLr",
+      "basis": "The catalogued url, cmm2209/TMLr, publishes each treatise as a static HTML page: 709 .html files that are not well-formed XML. Its only 5 .xml files are a sitemap and RSS feeds. The official TML (Indiana CHMTL) also serves HTML only, and its 'Future plans' page says a TEI/MEI edition is still only planned, 'depend[ing] on availability of funds'. RQ's .txt files are its own derivation.",
+      "confidence": "high"
+    },
+    "translatoscope-neolat": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://nakala.fr/collection/10.34847/nkl.798c6967",
+      "basis": "The project documents its texts as TEI. The Translatoscope Source page says the TEI data are shared on Nakala, and RenArD states its 'encodage en XML-TEI' follows the TEI P5 Guidelines. Every file fetched has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">: two Nakala downloads (application/tei+xml), the GitLab file Les_Nuees__Alessandro_da_Otranto.xml, RenArD's EVT data file alexandre.xml and 84 of the 88 local XML files.",
+      "confidence": "high"
+    },
+    "tychobrahe-portuguese": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://www.tycho.iel.unicamp.br/corpus/texts/xml/",
+      "basis": "The project publishes every corpus text, including all 16 in this entry, as custom non-TEI XML in https://www.tycho.iel.unicamp.br/corpus/texts/xml/ (root <document> with <head><metadata> and <body><text><sec><p><s> plus <ed_mark><or>/<ed> editorial markup; no TEI namespace). The txt.zip RQ ingested is only a derivative labelled 'Simple Text, for Automatic Tools'.",
+      "confidence": "high"
+    },
+    "vakk-estonian": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "VAKK publishes its texts only through its web interface: page-by-page HTML views at tekstid.php?kood=…&lk=N, with each word wrapped in spans carrying lemma, POS and form annotation, plus facsimile images. Neither the site, its guide, nor the CELR/META-SHARE record (no format declared) documents an XML or TEI version.",
+      "confidence": "high"
+    },
+    "vespasianoletters": {
+      "encoding": "tei",
+      "public_files": "xml",
+      "data_url": "https://amsacta.unibo.it/id/eprint/6852",
+      "basis": "Explicit project documentation. The methodology page states 'The letters have been marked up in XML/TEI P5 format' (then converted to HTML and to RDF). The live site's markup page says each letter 'e marcata in formato XML/TEI'. No TEI file is published anywhere, so 'tei' rests on documentation, not on an observed file.",
+      "confidence": "high"
+    },
+    "vietnamese-derhodes": {
+      "encoding": "wikitext",
+      "public_files": "none",
+      "data_url": "https://vi.wikisource.org/wiki/M%E1%BB%A5c_l%E1%BB%A5c:Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y.pdf",
+      "basis": "The edition is a Vietnamese Wikisource transcription. Its text is MediaWiki wikitext in 330 Page-namespace pages (Trang:Phép giảng tám ngày.pdf/N, with templates for errata, apex diacritics, sic and section markers), transcluded with <pages index=…/> into the main page and its 8 day subpages. No TEI or XML exists, and the schema maps Wikisource to `wikitext`. RQ's 'plain' label describes its own JSONL derivation.",
+      "confidence": "high"
+    },
+    "vks-oldliteraryfinnish": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://kaino.kotus.fi/korpus/vks/meta/vks_coll_rdf.xml",
+      "basis": "Kotus publishes the Corpus of Old Literary Finnish texts as TEI P4 XML. Official files kaino.kotus.fi/korpus/vks/teksti/lait/ahf1500.xml (archived 2024-09-07) and lju.ml.xml (archived 2026-03-23) declare <!DOCTYPE TEI.2 SYSTEM \"http://kaino.kotus.fi/dtd/tei_kotus.dtd\">, have root <TEI.2>, and carry a respStmt 'TEI-encoding'. RQ's plain text was harvested sentence by sentence from Kielipankki Korp.",
+      "confidence": "high"
+    },
+    "vokabular": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The ÚJČ's own methodology for these editions (Černá & Lehečka, hosted on vokabular.ujc.cas.cz) specifies output 've formátu XML TEI P5 pro publikaci a další zpracování'. The institute's public tei2019 repository holds pipeline output with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, and its xml:id scheme (t-1.body-1.div-1.p-1) matches the anchors in the live edition-module HTML (#main-t-1.body-1.div-1.p-2.note-1). The public sees only HTML rendered from TEI. RQ's 'plain' label describes its own JSONL scrape.",
+      "confidence": "high"
+    },
+    "welshhcwl": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/dwew2/hcwl",
+      "basis": "All 30 texts in the site's 'Download the entire corpus' zip are TEI P4: DOCTYPE TEI.2 PUBLIC \"-//TEI Consortium//DTD TEI P4//EN\" with root <TEI.2>. The site's xml.htm says the corpus files are encoded in TEI XML.",
+      "confidence": "high"
+    },
+    "wikisource": {
+      "encoding": "wikitext",
+      "public_files": "none",
+      "data_url": "https://dumps.wikimedia.org/other/mediawiki_content_current/",
+      "basis": "Wikisource texts are written and published as MediaWiki wikitext: action=raw serves text/x-wiki, and Special:Export and the Wikimedia content exports carry the same wikitext (<model>wikitext</model>, <format>text/x-wiki</format>). HTML is only the rendered display. The schema README names Wikisource as the example of `wikitext`. No TEI or XML encoding of the texts is published anywhere.",
+      "confidence": "high"
+    },
+    "win-lowgermanincunabula": {
+      "encoding": "tei",
+      "public_files": "xml",
+      "data_url": "https://www.laudatio-repository.org/browse/corpus/XnU19IIBa2XDdNuCXFx-/corpora",
+      "basis": "The project handbook (Handbuch WIN v1.0, DARIAH-DE) says explicitly that the texts are transcribed diplomatically in XML following TEI and DTABf guidelines, with metadata in a <teiHeader>. This TEI is internal only: the published WiN-Korpus v1.0 on LAUDATIO is EXMARaLDA XML (<basic-transcription>), plus TEI metadata headers with an empty <text/>.",
+      "confidence": "medium"
+    },
+    "wolfenbuettelpostil-lithuanian": {
+      "encoding": "tei",
+      "public_files": "tei",
+      "data_url": "https://github.com/postime/WP1573-TEI",
+      "basis": "The edition is published as 74 TEI P5 (EpiDoc) XML files in the public GitHub repo postime/WP1573-TEI. Root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> was seen in a live raw file and in all 74 files of RQ's local clone, which is at the same commit (3a544db).",
+      "confidence": "high"
+    },
+    "wolnelektury": {
+      "encoding": "xml",
+      "public_files": "xml",
+      "data_url": "https://wolnelektury.pl/api/",
+      "basis": "Wolne Lektury publishes each book's source in its own WL-XML format, not TEI. The root is <utwor> with an RDF/Dublin Core header, and elements include <strofa>, <wers_wciety>, <motyw> and <slowo_obce>. Live files and all 577 cached files have no TEI namespace. The project's converter (fnp/librarian) calls it the 'XML-based markup language used by WL for writing books'.",
+      "confidence": "high"
+    },
+    "women-writers-online": {
+      "encoding": "tei",
+      "public_files": "restricted",
+      "data_url": null,
+      "basis": "The WWP's own documentation says WWO is 'rigorously transcribed and encoded in TEI/XML' and that its schema is 'a customization of the TEI Guidelines' (the ODD and RNC are published). One caveat: WWP files are a TEI extension whose elements all sit in the WWP namespace http://www.wwp.northeastern.edu/ns/textbase, not the TEI P5 namespace. The WWP says they convert to TEI-conformant files. The TEI is not publicly downloadable: researchers must ask the WWP by e-mail and subscribers download it under licence, so no files link is given.",
+      "confidence": "high"
+    },
+    "zlatyfond-slovak": {
+      "encoding": "xml",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "Zlatý fond denníka SME published its texts as DocBook XML, which is not TEI. Archived files served by zlatyfond.sme.sk carry <!DOCTYPE book PUBLIC \"-//OASIS//DTD DocBook XML V4.2//EN\"> (2007) or V4.5 (2011, /download/xml), with root <book lang=\"sk\">. The March 2010 Cithara sanctorum Díl 1 page offered an 'xml' download for this exact work, labelled 'Súbor formátu Docbook'. The catalogue's plain-text is RQ's own JSONL derivation from Wayback HTML pages. Today the project serves HTML only.",
+      "confidence": "high"
+    }
+  }
+}

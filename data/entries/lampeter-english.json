@@ -1,6 +1,8 @@
 {
   "title": "The Lampeter Corpus of Early Modern English Tracts (OTA ota:3193)",
   "url": "https://ota.ox.ac.uk/desc/3193",
+  "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/3193",
+  "data_format": "tei",
   "languages": [
     "English"
   ],

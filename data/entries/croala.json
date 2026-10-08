@@ -1,13 +1,15 @@
 {
   "title": "CroALa (Croatiae Auctores Latini)",
   "url": "https://croala.ffzg.unizg.hr/",
+  "data_url": "https://github.com/nevenjovanovic/croatiae-auctores-latini-textus",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "University of Zagreb",
   "languages": [
     "Latin"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "words": 3545403,
   "texts": 394,
   "period": "1450-1700",

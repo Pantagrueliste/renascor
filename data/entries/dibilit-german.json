@@ -1,6 +1,8 @@
 {
   "title": "DiBiLit-Korpus (Digitale Bibliothek, Literatur)",
   "url": "https://github.com/deutschestextarchiv/DiBiLit-Korpus",
+  "data_url": "https://github.com/deutschestextarchiv/DiBiLit-Korpus/tree/main/data",
+  "data_format": "tei",
   "languages": [
     "German"
   ],

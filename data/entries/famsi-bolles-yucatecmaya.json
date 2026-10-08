@@ -1,10 +1,12 @@
 {
   "title": "FAMSI Bolles YucatecMaya",
   "url": "http://www.famsi.org/reports/96072",
+  "data_url": "https://www.famsi.org/reports/96072/textsrc/index.html",
+  "data_format": "html",
   "languages": [
     "Yucatec Maya"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

@@ -1,10 +1,12 @@
 {
   "title": "Frühneuzeitliche Fürstinnenkorrespondenzen (Fuerstinnenkorrespondenz corpus, LAUDATIO)",
   "url": "http://hdl.handle.net/11022/0000-0000-82A0-7",
+  "data_url": "https://hdl.handle.net/11022/0000-0000-82A0-7",
+  "data_format": "xml",
   "languages": [
     "German"
   ],
-  "encoding": "tei",
+  "encoding": "xml",
   "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",

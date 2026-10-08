@@ -1,10 +1,12 @@
 {
   "title": "Bible-Corpus — multilingual parallel corpus of Bible translations",
   "url": "https://github.com/christos-c/bible-corpus",
+  "data_url": "https://textgridrep.org/browse/490rm.0",
+  "data_format": "tei",
   "languages": [
     "Czech"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

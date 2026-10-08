@@ -1,6 +1,8 @@
 {
   "title": "Taklow Kernewek ('Cornish Things') — Cornish language text resources",
   "url": "https://taklowkernewek.neocities.org/",
+  "data_url": "https://github.com/davidtreth/taklow-kernewek",
+  "data_format": "plain-text",
   "languages": [
     "Cornish"
   ],

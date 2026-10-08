@@ -1,6 +1,8 @@
 {
   "title": "CreNum - Edition numerique de la Chronique francaise de Guillaume Cretin",
   "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum",
+  "data_url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum/-/tree/main/data/xml",
+  "data_format": "tei",
   "languages": [
     "French"
   ],

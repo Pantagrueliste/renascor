@@ -1,6 +1,8 @@
 {
   "title": "KorBa — Elektroniczny korpus tekstów polskich z XVII i XVIII w.",
   "url": "https://korba.edu.pl/",
+  "data_url": "https://korba.edu.pl/download",
+  "data_format": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

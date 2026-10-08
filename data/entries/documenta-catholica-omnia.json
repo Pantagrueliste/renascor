@@ -1,12 +1,14 @@
 {
   "title": "Documenta Catholica Omnia",
   "url": "https://www.documentacatholicaomnia.eu/",
+  "data_url": "https://www.documentacatholicaomnia.eu/a_1011_Conspectus_Omnium_Rerum_Ratione_Temporum_Distributus_1500-1599.html",
+  "data_format": "other",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [
     "Latin"
   ],
-  "encoding": "plain-text",
+  "encoding": "other",
   "words": 2487100,
   "texts": 40,
   "period": "1457-1668",

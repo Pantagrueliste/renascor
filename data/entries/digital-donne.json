@@ -1,13 +1,15 @@
 {
   "title": "The Digital Donne Project",
   "url": "https://digitaldonne.drc.usask.ca/",
+  "data_url": "https://drc.usask.ca/projects/ark/XML/Poems/Poems.xml",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Variorum Edition of the Poetry of John Donne (Texas A&M / University of Saskatchewan)",
   "languages": [
     "English"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "words": 74553,
   "texts": 183,
   "period": "1611-1611",

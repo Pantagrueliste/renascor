@@ -1,6 +1,8 @@
 {
   "title": "SERMO - Corpus de sermons protestants 1550-1750",
   "url": "http://sermo.unine.ch/SERMO/",
+  "data_url": "http://sermo.unine.ch/SERMO/apropos/index?part=corpus",
+  "data_format": "tei",
   "languages": [
     "French"
   ],

@@ -1,12 +1,14 @@
 {
   "title": "The Proceedings of the Old Bailey Online",
   "url": "https://www.oldbaileyonline.org/",
+  "data_url": "https://www.dhi.ac.uk/data/oldbailey",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [
     "English"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "words": 924767,
   "texts": 198,
   "period": "1674-1700",

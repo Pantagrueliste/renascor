@@ -1,10 +1,12 @@
 {
   "title": "Suriano Correspondence",
   "url": "https://github.com/HuygensING/suriano",
+  "data_url": "https://github.com/HuygensING/suriano/tree/main/datasource/tei",
+  "data_format": "tei",
   "languages": [
     "Italian"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

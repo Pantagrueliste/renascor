@@ -1,6 +1,8 @@
 {
   "title": "QhoD — Quellen zur habsburgisch-osmanischen Diplomatie (Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500-1918) — edition-data release 2.0",
   "url": "https://qhod.net/",
+  "data_url": "https://zenodo.org/records/14449603",
+  "data_format": "tei",
   "languages": [
     "Latin",
     "Ottoman Turkish"

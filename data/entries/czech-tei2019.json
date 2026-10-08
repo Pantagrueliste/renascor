@@ -1,6 +1,8 @@
 {
   "title": "tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový)",
   "url": "https://github.com/CzechLanguageInstitute/tei2019",
+  "data_url": "https://github.com/CzechLanguageInstitute/tei2019/tree/master/Conversion/Output",
+  "data_format": "tei",
   "languages": [
     "Czech"
   ],

@@ -1,10 +1,12 @@
 {
   "title": "DOST OlderScots",
   "url": "http://purl.ox.ac.uk/ota/0701",
+  "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/0701",
+  "data_format": "plain-text",
   "languages": [
     "Scots"
   ],
-  "encoding": "xml",
+  "encoding": "plain-text",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

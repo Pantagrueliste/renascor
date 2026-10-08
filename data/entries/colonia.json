@@ -1,10 +1,12 @@
 {
   "title": "Colonia — Corpus of Classical (Colonial) Portuguese",
   "url": "https://www.linguateca.pt/acesso/lista_autores_colonia.html",
+  "data_url": "https://www.kaggle.com/datasets/rtatman/colonia-corpus-of-historical-portuguese",
+  "data_format": "other",
   "languages": [
     "Portuguese"
   ],
-  "encoding": "xml",
+  "encoding": "other",
   "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",

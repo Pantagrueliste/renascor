@@ -1,10 +1,12 @@
 {
   "title": "TML",
   "url": "https://github.com/cmm2209/TMLr",
+  "data_url": "https://github.com/cmm2209/TMLr",
+  "data_format": "html",
   "languages": [
     "Latin"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

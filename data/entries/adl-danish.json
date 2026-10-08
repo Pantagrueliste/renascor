@@ -1,10 +1,12 @@
 {
   "title": "ADL Danish",
   "url": "https://github.com/kb-dk/public-adl-text-sources",
+  "data_url": "https://github.com/kb-dk/public-adl-text-sources/tree/master/texts",
+  "data_format": "tei",
   "languages": [
     "Danish"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

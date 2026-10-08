@@ -1,11 +1,13 @@
 {
   "title": "Galileo Opere Favaro",
   "url": "https://it.wikisource.org/wiki/Le_opere_di_Galileo_Galilei_(Favaro)",
+  "data_url": "https://dumps.wikimedia.org/itwikisource/",
+  "data_format": "wikitext",
   "languages": [
     "Italian",
     "Latin"
   ],
-  "encoding": "plain-text",
+  "encoding": "wikitext",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

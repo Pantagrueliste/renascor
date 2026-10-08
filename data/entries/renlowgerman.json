@@ -1,6 +1,8 @@
 {
   "title": "Referenzkorpus Mittelniederdeutsch/Niederrheinisch, 1200-1650 (ReN)",
   "url": "https://www.slm.uni-hamburg.de/ren",
+  "data_url": "https://www.fdr.uni-hamburg.de/record/9195",
+  "data_format": "tei",
   "languages": [
     "German"
   ],

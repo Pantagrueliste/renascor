@@ -1,10 +1,12 @@
 {
   "title": "GutorGlyn Welsh",
   "url": "https://gutorglyn.net/gutorglyn",
+  "data_url": "https://github.com/casglur/django-gutorglyn-2/tree/main/SDPublisher/gutorglyn/texts",
+  "data_format": "tei",
   "languages": [
     "Welsh"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

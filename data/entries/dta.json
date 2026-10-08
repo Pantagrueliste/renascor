@@ -1,6 +1,8 @@
 {
   "title": "Deutsches Textarchiv (DTA)",
   "url": "https://www.deutschestextarchiv.de/",
+  "data_url": "https://www.deutschestextarchiv.de/download",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Berlin-Brandenburgische Akademie der Wissenschaften",

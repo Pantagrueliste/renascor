@@ -1,6 +1,8 @@
 {
   "title": "Epistolarium (CKCC)",
   "url": "https://ckcc.huygens.knaw.nl/",
+  "data_url": "https://doi.org/10.17026/DANS-XFD-N8Y5",
+  "data_format": "tei",
   "languages": [
     "Dutch",
     "English",
@@ -10,7 +12,7 @@
     "Latin",
     "Spanish"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

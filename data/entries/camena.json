@@ -1,6 +1,8 @@
 {
   "title": "CAMENA",
   "url": "https://mateo.uni-mannheim.de/camenahtdocs/camena.html",
+  "data_url": "https://github.com/nevenjovanovic/camena-neolatinlit",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Universität Mannheim (CAMENA / CERA project)",

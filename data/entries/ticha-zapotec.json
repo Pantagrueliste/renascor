@@ -1,10 +1,12 @@
 {
   "title": "Ticha Zapotec",
   "url": "https://github.com/HCDigitalScholarship/ticha-xml-tei",
+  "data_url": "https://github.com/HCDigitalScholarship/ticha-xml-tei",
+  "data_format": "tei",
   "languages": [
     "Zapotec"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",

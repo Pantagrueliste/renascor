@@ -1,10 +1,12 @@
 {
   "title": "Biblioteca Digital del Pensamiento Novohispano (BDPN)",
   "url": "https://github.com/ficino2021/bdpn",
+  "data_url": "https://github.com/ficino2021/bdpn/tree/main/archivosXMLDocumentos",
+  "data_format": "tei",
   "languages": [
     "Spanish"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

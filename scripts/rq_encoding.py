@@ -6,6 +6,10 @@ scripts/rq_families.json, individual collections via their slugified name) and
 sets the entry's primary encoding with the precedence TEI > XML > HTML >
 wikitext > plain-text. Run whenever encoding categories change upstream.
 
+fmt_detected records the format RQ ingested, which is often a plain-text
+derivation of a TEI/XML edition. Encodings verified at the source are kept in
+scripts/rq_encoding_verified.json and take precedence over everything else.
+
 Usage:
     python scripts/rq_encoding.py --db corpus.sqlite
 """
@@ -18,6 +22,7 @@ import sqlite3
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
+VERIFIED_PATH = REPO_ROOT / "scripts" / "rq_encoding_verified.json"
 
 FMT_MAP = {
     "tei": "tei",
@@ -95,6 +100,9 @@ def main() -> int:
     parser.add_argument("--entries-dir", type=Path, default=REPO_ROOT / "data" / "entries")
     args = parser.parse_args()
 
+    verified = {}
+    if VERIFIED_PATH.exists():
+        verified = json.loads(VERIFIED_PATH.read_text(encoding="utf-8"))["entries"]
     fams = json.load(open(args.families))
     groups = fams["groups"]
 
@@ -121,7 +129,8 @@ def main() -> int:
         if not path.exists():
             continue
         entry = json.load(open(path))
-        enc = (OVERRIDES.get(slug)
+        enc = ((verified.get(slug) or {}).get("encoding")
+               or OVERRIDES.get(slug)
                or ("tei" if slug in TEI_VERIFIED else None)
                or best(fmts))
         if entry.get("encoding") != enc:

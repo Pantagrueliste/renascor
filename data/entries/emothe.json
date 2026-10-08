@@ -1,6 +1,8 @@
 {
   "title": "EMOTHE - Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos",
   "url": "https://emothe.uv.es/",
+  "data_url": "https://emothe.uv.es/biblioteca/textosXML/",
+  "data_format": "tei",
   "languages": [
     "English",
     "French",

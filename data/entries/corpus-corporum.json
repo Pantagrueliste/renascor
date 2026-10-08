@@ -1,13 +1,15 @@
 {
   "title": "Corpus Corporum",
   "url": "https://mlat.uzh.ch/",
+  "data_url": "https://mlat.uzh.ch/browser",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Universität Zürich",
   "languages": [
     "Latin"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "words": 19091970,
   "texts": 953,
   "period": "1450-1696",

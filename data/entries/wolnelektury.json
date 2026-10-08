@@ -1,6 +1,8 @@
 {
   "title": "Wolne Lektury",
   "url": "https://wolnelektury.pl/",
+  "data_url": "https://wolnelektury.pl/api/",
+  "data_format": "xml",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [

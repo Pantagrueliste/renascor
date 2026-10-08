@@ -1,10 +1,12 @@
 {
   "title": "SENIE Latvian",
   "url": "https://hdl.handle.net/20.500.12574/141",
+  "data_url": "https://hdl.handle.net/20.500.12574/141",
+  "data_format": "tei",
   "languages": [
     "Latvian"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

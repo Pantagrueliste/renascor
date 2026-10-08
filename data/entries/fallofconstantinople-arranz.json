@@ -1,10 +1,12 @@
 {
   "title": "Tale of the Fall of Constantinople - parallel interlinear edition (obdurodon.org)",
   "url": "http://arranz.obdurodon.org",
+  "data_url": "https://arranz.obdurodon.org/edition.xml",
+  "data_format": "xml",
   "languages": [
     "Church Slavonic"
   ],
-  "encoding": "tei",
+  "encoding": "xml",
   "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",

@@ -1,6 +1,8 @@
 {
   "title": "The Latin Library",
   "url": "https://www.thelatinlibrary.com/",
+  "data_url": "https://www.thelatinlibrary.com/neo.html",
+  "data_format": "html",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [

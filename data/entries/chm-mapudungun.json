@@ -1,10 +1,12 @@
 {
   "title": "CHM Mapudungun",
   "url": "https://benmolineaux.github.io",
+  "data_url": "http://www.amc-resources.lel.ed.ac.uk/CHM/data/1621VALDIVIA-Sermones.xml",
+  "data_format": "tei",
   "languages": [
     "Mapudungun"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

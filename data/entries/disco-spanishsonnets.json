@@ -1,6 +1,8 @@
 {
   "title": "DISCO: Diachronic Spanish Sonnet Corpus",
   "url": "https://github.com/pruizf/disco",
+  "data_url": "https://github.com/pruizf/disco/tree/main/tei",
+  "data_format": "tei",
   "languages": [
     "Spanish"
   ],

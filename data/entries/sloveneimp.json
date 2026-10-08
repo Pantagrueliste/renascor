@@ -1,6 +1,8 @@
 {
   "title": "IMP — Corpus of Slovene Historical Texts, 1567-1899",
   "url": "https://www.clarin.si/repository/xmlui/handle/11356/1255",
+  "data_url": "https://www.clarin.si/repository/xmlui/handle/11356/1031",
+  "data_format": "tei",
   "languages": [
     "Slovenian"
   ],

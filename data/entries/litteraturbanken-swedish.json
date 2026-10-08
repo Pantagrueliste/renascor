@@ -1,10 +1,12 @@
 {
   "title": "Litteraturbanken Swedish",
   "url": "https://spraakbanken.gu.se/en/resources/lb-open",
+  "data_url": "https://litteraturbanken.se/bibliotek?nedladdning=true",
+  "data_format": "tei",
   "languages": [
     "Swedish"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

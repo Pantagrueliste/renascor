@@ -1,6 +1,8 @@
 {
   "title": "EMMO: Early Modern Manuscripts Online",
   "url": "https://emmo.folger.edu/",
+  "data_url": "https://emmo.folger.edu/browse/",
+  "data_format": "tei",
   "languages": [
     "English"
   ],

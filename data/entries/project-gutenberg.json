@@ -1,6 +1,8 @@
 {
   "title": "Project Gutenberg",
   "url": "https://www.gutenberg.org/",
+  "data_url": "https://www.gutenberg.org/policy/robot_access.html",
+  "data_format": "html",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [
@@ -16,7 +18,7 @@
     "Portuguese",
     "Spanish"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "words": 20440559,
   "texts": 280,
   "period": "1519-1697",

@@ -1,6 +1,8 @@
 {
   "title": "Emblem Project Utrecht",
   "url": "http://emblems.let.uu.nl/",
+  "data_url": "https://emblems.hum.uu.nl/project_procedures.html",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Universiteit Utrecht",
@@ -13,7 +15,7 @@
     "Latin",
     "Spanish"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "words": 552927,
   "texts": 1909,
   "period": "1601-1691",

@@ -1,10 +1,12 @@
 {
   "title": "VKS OldLiteraryFinnish",
   "url": "https://www.kielipankki.fi/corpora/vks",
+  "data_url": "https://kaino.kotus.fi/korpus/vks/meta/vks_coll_rdf.xml",
+  "data_format": "tei",
   "languages": [
     "Finnish"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

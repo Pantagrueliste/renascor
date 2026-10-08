@@ -1,10 +1,12 @@
 {
   "title": "GanjoorPersian",
   "url": "https://ganjoor.net",
+  "data_url": "https://github.com/ganjoor/ganjoor-data",
+  "data_format": "other",
   "languages": [
     "Persian"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

@@ -1,6 +1,8 @@
 {
   "title": "Repositorio de teatro breve del Siglo de Oro (TBSO)",
   "url": "https://github.com/dxvidmr/repositorioTBSO",
+  "data_url": "https://github.com/dxvidmr/repositorioTBSO",
+  "data_format": "tei",
   "languages": [
     "Spanish"
   ],

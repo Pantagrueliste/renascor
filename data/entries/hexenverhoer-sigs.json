@@ -1,10 +1,12 @@
 {
   "title": "Hexenverhoerprotokolle (SiGS corpus, LAUDATIO repository)",
   "url": "https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
+  "data_url": "https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
+  "data_format": "xml",
   "languages": [
     "German"
   ],
-  "encoding": "plain-text",
+  "encoding": "xml",
   "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",

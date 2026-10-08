@@ -1,10 +1,12 @@
 {
   "title": "EMLAP",
   "url": "https://github.com/CCS-ZCU/EMLAP_ETL",
+  "data_url": "https://ccs-lab.zcu.cz/emlap_corpus_public/emlap_lemmatized_xmls/",
+  "data_format": "tei",
   "languages": [
     "Latin"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

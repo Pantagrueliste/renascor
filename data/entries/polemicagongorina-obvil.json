@@ -1,6 +1,8 @@
 {
   "title": "Polemos — Codificación XML de la polémica gongorina (Labex OBVIL)",
   "url": "https://github.com/gongoradigital/polemos",
+  "data_url": "https://github.com/gongoradigital/polemos",
+  "data_format": "tei",
   "languages": [
     "Spanish"
   ],

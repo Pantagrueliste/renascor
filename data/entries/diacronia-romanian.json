@@ -1,10 +1,12 @@
 {
   "title": "Diacronia Romanian",
   "url": "https://www.diacronia.ro",
+  "data_url": "https://dumps.wikimedia.org/rowikisource/",
+  "data_format": "wikitext",
   "languages": [
     "Romanian"
   ],
-  "encoding": "plain-text",
+  "encoding": "wikitext",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

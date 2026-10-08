@@ -1,13 +1,15 @@
 {
   "title": "Digitale Bibliotheek voor de Nederlandse Letteren (DBNL)",
   "url": "https://www.dbnl.org/",
+  "data_url": "https://www.dbnl.org/letterkunde/pd/index.php",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [
     "Dutch",
     "Frisian"
   ],
-  "encoding": "html",
+  "encoding": "tei",
   "words": 21440504,
   "texts": 856,
   "period": "1477-1700",

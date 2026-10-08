@@ -1,6 +1,8 @@
 {
   "title": "CELT Corpus of Electronic Texts",
   "url": "https://celt.ucc.ie/",
+  "data_url": "https://celt.ucc.ie/publishd.html",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "University College Cork",

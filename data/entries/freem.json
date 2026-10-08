@@ -1,6 +1,8 @@
 {
   "title": "FreEM (FREnch Early Modern corpus)",
   "url": "https://freem-corpora.github.io/",
+  "data_url": "https://github.com/FreEM-corpora/FreEMmax_OA",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [

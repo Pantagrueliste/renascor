@@ -1,6 +1,8 @@
 {
   "title": "LiberLiber",
   "url": "https://www.liberliber.eu/",
+  "data_url": "https://liberliber.it/opere/libri/",
+  "data_format": "html",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [
@@ -9,7 +11,7 @@
     "Multilingual",
     "Venetian"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "words": 28388618,
   "texts": 310,
   "period": "1450-1700",

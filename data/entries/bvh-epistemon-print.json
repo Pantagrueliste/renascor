@@ -1,10 +1,12 @@
 {
   "title": "BVH Epistemon Print",
   "url": "https://github.com/lb42/tei-fr",
+  "data_url": "https://github.com/lb42/tei-fr/tree/master/Projects/BVH/Corpus",
+  "data_format": "tei",
   "languages": [
     "French"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

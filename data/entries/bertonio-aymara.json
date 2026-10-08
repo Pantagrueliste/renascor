@@ -1,10 +1,12 @@
 {
   "title": "Bertonio Aymara",
   "url": "https://github.com/amosbatto/native-dics",
+  "data_url": "https://github.com/amosbatto/native-dics/tree/main/dics/es_ay-bertonio",
+  "data_format": "other",
   "languages": [
     "Aymara"
   ],
-  "encoding": "plain-text",
+  "encoding": "other",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

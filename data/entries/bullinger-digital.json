@@ -1,6 +1,8 @@
 {
   "title": "Bullinger Digital",
   "url": "https://bullinger-digital.ch/",
+  "data_url": "https://github.com/stazh/bullinger-korpus-tei",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [

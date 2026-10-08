@@ -1,10 +1,12 @@
 {
   "title": "Muysc cubun — Lengua Muisca (Manuscrito 158 BNC; Gramática de Lugo)",
   "url": "https://muysca.cubun.org/",
+  "data_url": "https://muysca.cubun.org/Especial:Exportar",
+  "data_format": "wikitext",
   "languages": [
     "Muisca"
   ],
-  "encoding": "plain-text",
+  "encoding": "wikitext",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

@@ -1,12 +1,14 @@
 {
   "title": "The Diary of Samuel Pepys (Phil Gyford edition)",
   "url": "https://www.pepysdiary.com/",
+  "data_url": "https://www.pepysdiary.com/api/",
+  "data_format": "html",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [
     "English"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "words": 1277817,
   "texts": 1,
   "period": "1665-1665",

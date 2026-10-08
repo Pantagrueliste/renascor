@@ -1,6 +1,8 @@
 {
   "title": "Henrik Smith: Lægebøger (1577), scholarly online edition (tekstnet.dk / DSL)",
   "url": "https://tekstnet.dk/books/smith-h_1-laegebog-top-til-taa/",
+  "data_url": "https://github.com/dsldk/henrik-smith",
+  "data_format": "tei",
   "languages": [
     "Danish"
   ],

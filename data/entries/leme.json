@@ -1,13 +1,15 @@
 {
   "title": "Lexicons of Early Modern English (LEME)",
   "url": "https://leme.library.utoronto.ca/",
+  "data_url": "https://hdl.handle.net/1807/99021",
+  "data_format": "xml",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "University of Toronto",
   "languages": [
     "English"
   ],
-  "encoding": "plain-text",
+  "encoding": "xml",
   "words": 9780803,
   "texts": 296,
   "period": "1477-1699",

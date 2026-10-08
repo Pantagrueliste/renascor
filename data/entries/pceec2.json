@@ -1,10 +1,12 @@
 {
   "title": "PCEEC2",
   "url": "https://github.com/beatrice57/pceec2",
+  "data_url": "https://github.com/beatrice57/pceec2",
+  "data_format": "other",
   "languages": [
     "English"
   ],
-  "encoding": "plain-text",
+  "encoding": "other",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

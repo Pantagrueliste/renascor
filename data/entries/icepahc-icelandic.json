@@ -1,6 +1,8 @@
 {
   "title": "IcePaHC — Icelandic Parsed Historical Corpus",
   "url": "https://github.com/antonkarl/icecorpus",
+  "data_url": "https://hdl.handle.net/20.500.12537/325",
+  "data_format": "plain-text",
   "languages": [
     "Icelandic"
   ],

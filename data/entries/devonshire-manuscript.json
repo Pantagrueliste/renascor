@@ -1,6 +1,8 @@
 {
   "title": "A Social Edition of the Devonshire MS (BL Add. MS 17492)",
   "url": "https://en.wikibooks.org/wiki/The_Devonshire_Manuscript",
+  "data_url": "https://github.com/etcluvic/devonshire-ms",
+  "data_format": "tei",
   "languages": [
     "English"
   ],

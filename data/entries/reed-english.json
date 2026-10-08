@@ -1,12 +1,14 @@
 {
   "title": "REED English",
   "url": "https://ereed.org",
+  "data_url": "https://github.com/REEDProject/Collections",
+  "data_format": "tei",
   "languages": [
     "English",
     "Italian",
     "Latin"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

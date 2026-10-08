@@ -1,6 +1,8 @@
 {
   "title": "The Map of Early Modern London",
   "url": "https://mapoflondon.uvic.ca/",
+  "data_url": "https://mapoflondon.uvic.ca/xml/",
+  "data_format": "tei",
   "languages": [
     "English"
   ],

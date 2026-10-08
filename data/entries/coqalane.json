@@ -1,6 +1,8 @@
 {
   "title": "GIT-Coqalane — Corpus TEI-XML des coq-à-l'âne",
   "url": "https://gitlab.huma-num.fr/ccanoarnedo/GIT-Coqalane",
+  "data_url": "https://github.com/cyrcan/GIT-Coqalane",
+  "data_format": "tei",
   "languages": [
     "French"
   ],

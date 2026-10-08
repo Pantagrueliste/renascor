@@ -1,12 +1,14 @@
 {
   "title": "Russian National Corpus",
   "url": "https://ruscorpora.ru/",
+  "data_url": "https://github.com/UniversalDependencies/UD_Old_East_Slavic-RNC",
+  "data_format": "other",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [
     "Russian"
   ],
-  "encoding": "plain-text",
+  "encoding": "html",
   "words": 96174,
   "texts": 13,
   "period": "1474-1698",

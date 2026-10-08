@@ -1,13 +1,15 @@
 {
   "title": "English Broadside Ballad Archive (EBBA)",
   "url": "https://ebba.english.ucsb.edu/",
+  "data_url": "https://ebba.english.ucsb.edu/page/tei-xml",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "University of California, Santa Barbara",
   "languages": [
     "English"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "words": 3971912,
   "texts": 5926,
   "period": "1530-1700",

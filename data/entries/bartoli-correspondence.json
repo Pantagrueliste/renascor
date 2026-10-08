@@ -1,10 +1,12 @@
 {
   "title": "Bartoli Correspondence",
   "url": "https://zenodo.org/records/14559525",
+  "data_url": "https://zenodo.org/records/14559525",
+  "data_format": "tei",
   "languages": [
     "Italian"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

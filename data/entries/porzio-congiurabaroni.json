@@ -1,6 +1,8 @@
 {
   "title": "Digital TEI-XML edition of Camillo Porzio's \"La congiura de' Baroni del Regno di Napoli contra re Ferdinando primo\"",
   "url": "https://zenodo.org/records/18047915",
+  "data_url": "https://zenodo.org/records/18047915",
+  "data_format": "tei",
   "languages": [
     "Italian"
   ],

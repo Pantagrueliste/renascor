@@ -1,6 +1,8 @@
 {
   "title": "Evans Early American Imprints (Evans-TCP)",
   "url": "https://quod.lib.umich.edu/e/evans/",
+  "data_url": "https://app.box.com/s/zj7pzfokxde4glrhebxsavbbxzyr3ogz",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Readex / University of Michigan",

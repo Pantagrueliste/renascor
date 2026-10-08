@@ -1,10 +1,12 @@
 {
   "title": "Digitale Rätoromanische Chrestomathie (Biblioteca Digitala)",
   "url": "https://crestomazia.dch.phil-fak.uni-koeln.de/",
+  "data_url": "https://crestomazia.dch.phil-fak.uni-koeln.de/",
+  "data_format": "xml",
   "languages": [
     "Romansh"
   ],
-  "encoding": "plain-text",
+  "encoding": "tei",
   "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",

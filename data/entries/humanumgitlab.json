@@ -1,6 +1,8 @@
 {
   "title": "GitLab des humanités numériques (Huma-Num)",
   "url": "https://gitlab.huma-num.fr/",
+  "data_url": "https://gitlab.huma-num.fr/crh/factums-metiers/factums-ancien-regime",
+  "data_format": "tei",
   "languages": [
     "French",
     "Latin",

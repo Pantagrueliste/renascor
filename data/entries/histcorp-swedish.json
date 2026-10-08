@@ -1,6 +1,8 @@
 {
   "title": "HistCorp — Historical Corpora and Tools (fornsvenska / Fornsvenska textbanken)",
   "url": "https://sprakbanken-clarin.lingfil.uu.se/histcorp/",
+  "data_url": "https://zenodo.org/records/10017247",
+  "data_format": "plain-text",
   "languages": [
     "Swedish"
   ],

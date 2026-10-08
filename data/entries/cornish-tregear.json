@@ -1,10 +1,12 @@
 {
   "title": "Cornish Tregear",
   "url": "https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche",
+  "data_url": "https://wikisource.org/w/index.php?title=Homelyes_XIII_in_Cornysche&action=raw",
+  "data_format": "wikitext",
   "languages": [
     "Cornish"
   ],
-  "encoding": "plain-text",
+  "encoding": "wikitext",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",

@@ -1,6 +1,8 @@
 {
   "title": "DraCor",
   "url": "https://dracor.org/",
+  "data_url": "https://github.com/dracor-org",
+  "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [

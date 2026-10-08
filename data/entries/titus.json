@@ -1,6 +1,8 @@
 {
   "title": "TITUS (Thesaurus Indogermanischer Text- und Sprachmaterialien)",
   "url": "https://titus.uni-frankfurt.de/",
+  "data_url": "https://titus.uni-frankfurt.de/sliekkas/html/texts.html",
+  "data_format": "xml",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Goethe-Universität Frankfurt",
@@ -10,7 +12,7 @@
     "Lithuanian",
     "Old Prussian"
   ],
-  "encoding": "plain-text",
+  "encoding": "xml",
   "words": 1746475,
   "texts": 26,
   "period": "1545-1700",
