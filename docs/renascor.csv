@@ -1,195 +1,195 @@
 title,url,languages,encoding,status,institution,period,words,region,author,date,years_active,provenance,date_added,last_modified
 ABaC:us — Austrian Baroque Corpus,https://abacus.acdh.oeaw.ac.at/,German,tei,active,"Austrian Academy of Sciences (ÖAW), Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)",1680-1693,119281,,,,,submitted,2026-10-07,
-ABU — Bibliothèque Universelle,http://abu.cnam.fr/,French,other,active,Conservatoire national des arts et métiers,1480-1693,999019,,,,,submitted,2026-10-07,
-ADL Danish,https://github.com/kb-dk/public-adl-text-sources,Danish,other,active,,1543-1681,936123,,,,,submitted,2026-10-07,2026-08-25
+ABU — Bibliothèque Universelle,http://abu.cnam.fr/,French,plain-text,active,Conservatoire national des arts et métiers,1480-1693,999019,,,,,submitted,2026-10-07,
+ADL Danish,https://github.com/kb-dk/public-adl-text-sources,Danish,plain-text,active,,1543-1681,936123,,,,,submitted,2026-10-07,2026-08-25
 Amadis in Translation (Digital Amadis),http://amadis.newtfire.org/,Spanish,tei,active,"University of Pittsburgh at Greensburg (Stacey Triplette, Elisa Beshero-Bondar) and Universidade de Santiago de Compostela (Helena Bermúdez Sabel)",1547-1547,97420,,,,,submitted,2026-10-07,
 Azerbaijani WS,https://az.wikisource.org,Azerbaijani,other,active,,1536-1536,122211,,,,,submitted,2026-10-07,
-Annotated Corpus of Pre-Standardized Balkan Slavic Literature 1.1,https://www.clarin.si/repository/xmlui/handle/11356/1441,Bulgarian,other,archived,"ZuCoSlaV project, Ivan Simko, University of Zurich, hosted at CLARIN.SI",1650-1650,44047,,,,,submitted,2026-10-07,
-Bartoli Correspondence,https://zenodo.org/records/14559525,Italian,other,active,,1562-1572,1371054,,,,,submitted,2026-10-07,2024-12-26
-BasqueKG,https://klasikoak.armiarma.eus,Basque,other,active,,1545-1696,818721,,,,,submitted,2026-10-07,
-Biblioteca Digital del Pensamiento Novohispano (BDPN),https://github.com/ficino2021/bdpn,Spanish,other,active,UNAM (Mexico); recovered GitHub repository ficino2021/bdpn,1630-1690,53333,,,,,submitted,2026-10-07,2025-05-30
-Belarusian Skaryna,https://knihi.com/Francysk_Skaryna,Belarusian,other,active,,1517-1519,1775,,,,,submitted,2026-10-07,
-Bertonio Aymara,https://github.com/amosbatto/native-dics,Aymara,other,active,,1612-1612,74082,,,,,submitted,2026-10-07,2023-04-23
-BetaMasaheft Geez,https://github.com/BetaMasaheft/Works,Ge'ez,other,active,,1555-1555,51400,,,,,submitted,2026-10-07,2026-10-06
-Bibliotheca Augustana,https://www.hs-augsburg.de/~harsch/,Latin,other,active,Hochschule Augsburg,1480-1650,195974,,,,,submitted,2026-10-07,
-Biblioteca Virtual Miguel de Cervantes (BVMC),https://www.cervantesvirtual.com/,Spanish,other,active,Fundación Marcelino Botín / Universidad de Alicante,,2373898,,,,,submitted,2026-10-07,
+Annotated Corpus of Pre-Standardized Balkan Slavic Literature 1.1,https://www.clarin.si/repository/xmlui/handle/11356/1441,Bulgarian,plain-text,archived,"ZuCoSlaV project, Ivan Simko, University of Zurich, hosted at CLARIN.SI",1650-1650,44047,,,,,submitted,2026-10-07,
+Bartoli Correspondence,https://zenodo.org/records/14559525,Italian,plain-text,active,,1562-1572,1371054,,,,,submitted,2026-10-07,2024-12-26
+BasqueKG,https://klasikoak.armiarma.eus,Basque,plain-text,active,,1545-1696,818721,,,,,submitted,2026-10-07,
+Biblioteca Digital del Pensamiento Novohispano (BDPN),https://github.com/ficino2021/bdpn,Spanish,plain-text,active,UNAM (Mexico); recovered GitHub repository ficino2021/bdpn,1630-1690,53333,,,,,submitted,2026-10-07,2025-05-30
+Belarusian Skaryna,https://knihi.com/Francysk_Skaryna,Belarusian,plain-text,active,,1517-1519,1775,,,,,submitted,2026-10-07,
+Bertonio Aymara,https://github.com/amosbatto/native-dics,Aymara,plain-text,active,,1612-1612,74082,,,,,submitted,2026-10-07,2023-04-23
+BetaMasaheft Geez,https://github.com/BetaMasaheft/Works,Ge'ez,plain-text,active,,1555-1555,51400,,,,,submitted,2026-10-07,2026-10-06
+Bibliotheca Augustana,https://www.hs-augsburg.de/~harsch/,Latin,html,active,Hochschule Augsburg,1480-1650,195974,,,,,submitted,2026-10-07,
+Biblioteca Virtual Miguel de Cervantes (BVMC),https://www.cervantesvirtual.com/,Spanish,plain-text,active,Fundación Marcelino Botín / Universidad de Alicante,,2373898,,,,,submitted,2026-10-07,
 Biblioteca Italiana,http://www.bibliotecaitaliana.it/,Italian; Latin,tei,active,,1460-1650,29844182,,,,,submitted,2026-10-07,
-Bokselskap,https://bokselskap.no/,Norwegian,other,active,,1571-1700,264577,,,,,submitted,2026-10-07,
-BrievenAlsBuit,https://brievenalsbuit.ivdnt.org,Dutch,other,active,,1661-1675,421272,,,,,submitted,2026-10-07,
+Bokselskap,https://bokselskap.no/,Norwegian,plain-text,active,,1571-1700,264577,,,,,submitted,2026-10-07,
+BrievenAlsBuit,https://brievenalsbuit.ivdnt.org,Dutch,xml,active,,1661-1675,421272,,,,,submitted,2026-10-07,
 Bullinger Digital,https://bullinger-digital.ch/,French; German; Italian; Latin,tei,active,,1523-1575,5030220,,,,,submitted,2026-10-07,
-BVH Epistemon Print,https://github.com/lb42/tei-fr,French,other,active,,1529-1616,1968888,,,,,submitted,2026-10-07,2023-10-18
-CAMENA,https://mateo.uni-mannheim.de/camenahtdocs/camena.html,Latin,other,active,Universität Mannheim (CAMENA / CERA project),1500-1699,40551750,,,,,submitted,2026-10-07,
-Campanella ATC,https://www.iliesi.cnr.it/ATC,Italian; Latin,other,active,,1595-1635,703209,,,,,submitted,2026-10-07,
-The Casebooks Project,https://casebooks.lib.cam.ac.uk/,English,other,archived,University of Cambridge,1596-1640,1710446,,,,,submitted,2026-10-07,
+BVH Epistemon Print,https://github.com/lb42/tei-fr,French,plain-text,active,,1529-1616,1968888,,,,,submitted,2026-10-07,2023-10-18
+CAMENA,https://mateo.uni-mannheim.de/camenahtdocs/camena.html,Latin,tei,active,Universität Mannheim (CAMENA / CERA project),1500-1699,40551750,,,,,submitted,2026-10-07,
+Campanella ATC,https://www.iliesi.cnr.it/ATC,Italian; Latin,plain-text,active,,1595-1635,703209,,,,,submitted,2026-10-07,
+The Casebooks Project,https://casebooks.lib.cam.ac.uk/,English,plain-text,archived,University of Cambridge,1596-1640,1710446,,,,,submitted,2026-10-07,
 Digital Edition of Filippo Cavriana's Correspondence,https://github.com/Pantagrueliste/CavrianaCorr,Italian,tei,active,"Pantagrueliste (research project on Cavriana correspondence), GitHub-hosted TEI edition",1580-1580,45188,,,,,submitted,2026-10-07,2026-09-02
-CELT Corpus of Electronic Texts,https://celt.ucc.ie/,English; Irish; Latin,other,active,University College Cork,1454-1698,1831057,,,,,submitted,2026-10-07,
-Teatro de Autores Portugueses do Séc. XVI,http://cet-e-quinhentos.com/,Portuguese,other,archived,"Centro de Estudos de Teatro (CET), Faculdade de Letras da Universidade de Lisboa, dir. José Camões (FCT project POCTI/ELT/33464/2000)",1540-1540,676876,,,,,submitted,2026-10-07,
-CHM Mapudungun,https://benmolineaux.github.io,Mapudungun,other,active,,1606-1643,25494,,,,,submitted,2026-10-07,
+CELT Corpus of Electronic Texts,https://celt.ucc.ie/,English; Irish; Latin,tei,active,University College Cork,1454-1698,1831057,,,,,submitted,2026-10-07,
+Teatro de Autores Portugueses do Séc. XVI,http://cet-e-quinhentos.com/,Portuguese,plain-text,archived,"Centro de Estudos de Teatro (CET), Faculdade de Letras da Universidade de Lisboa, dir. José Camões (FCT project POCTI/ELT/33464/2000)",1540-1540,676876,,,,,submitted,2026-10-07,
+CHM Mapudungun,https://benmolineaux.github.io,Mapudungun,plain-text,active,,1606-1643,25494,,,,,submitted,2026-10-07,
 Dantiscus' Correspondence,https://editions.al.uw.edu.pl/exist/apps/dantiscus/,Czech; Dutch; French; German; Italian; Latin; Polish; Spanish,tei,active,"Faculty of 'Artes Liberales', University of Warsaw (editions.al.uw.edu.pl)",1500-1549,1911266,,,,,submitted,2026-10-07,
-Epistolarium (CKCC),https://ckcc.huygens.knaw.nl/,Dutch; English; French; German; Italian; Latin; Spanish,other,active,Huygens ING (KNAW),1629-1699,7946427,,,,,submitted,2026-10-07,
+Epistolarium (CKCC),https://ckcc.huygens.knaw.nl/,Dutch; English; French; German; Italian; Latin; Spanish,plain-text,active,Huygens ING (KNAW),1629-1699,7946427,,,,,submitted,2026-10-07,
 CoDiAJe — The Annotated Diachronic Corpus of Judeo-Spanish,https://aldina-quintana.huji.ac.il/codiaje-annotated-diachronic-corpus-judeo-spanish,Ladino,tei,active,"Aldina Quintana, Hebrew University of Jerusalem, with Maarten Janssen (Charles University) and Josep M. Fontana (UPF); ISF grants 473/11, 486/19",1564-1679,30953,,,,,submitted,2026-10-07,
-Colonia — Corpus of Classical (Colonial) Portuguese,https://www.linguateca.pt/acesso/lista_autores_colonia.html,Portuguese,other,archived,"Linguateca / CorporaVM, corpus directed by Diana Santos",1500-1691,1454490,,,,,submitted,2026-10-07,
-Controversia Confessio,https://www.controversia-et-confessio.de,German; Latin,other,active,,1548-1575,1075246,,,,,submitted,2026-10-07,
+Colonia — Corpus of Classical (Colonial) Portuguese,https://www.linguateca.pt/acesso/lista_autores_colonia.html,Portuguese,xml,archived,"Linguateca / CorporaVM, corpus directed by Diana Santos",1500-1691,1454490,,,,,submitted,2026-10-07,
+Controversia Confessio,https://www.controversia-et-confessio.de,German; Latin,plain-text,active,,1548-1575,1075246,,,,,submitted,2026-10-07,
 GIT-Coqalane — Corpus TEI-XML des coq-à-l'âne,https://gitlab.huma-num.fr/ccanoarnedo/GIT-Coqalane,French,tei,active,"Cyril Cano-Arnedo, GitLab Huma-Num",1508-1595,83657,,,,,submitted,2026-10-07,
-Taklow Kernewek ('Cornish Things') — Cornish language text resources,https://taklowkernewek.neocities.org/,Cornish,other,active,"Taklow Kernewek (Tony Hakoyama), Neocities personal project; text after Stokes 1861 / Jordan",1611-1611,12560,,,,,submitted,2026-10-07,
-Cornish Tregear,https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche,Cornish,other,active,,1556-1556,38078,,,,,submitted,2026-10-07,
-Corpus Corporum,https://mlat.uzh.ch/,Latin,other,active,Universität Zürich,1450-1696,19091970,,,,,submitted,2026-10-07,
+Taklow Kernewek ('Cornish Things') — Cornish language text resources,https://taklowkernewek.neocities.org/,Cornish,plain-text,active,"Taklow Kernewek (Tony Hakoyama), Neocities personal project; text after Stokes 1861 / Jordan",1611-1611,12560,,,,,submitted,2026-10-07,
+Cornish Tregear,https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche,Cornish,plain-text,active,,1556-1556,38078,,,,,submitted,2026-10-07,
+Corpus Corporum,https://mlat.uzh.ch/,Latin,plain-text,active,Universität Zürich,1450-1696,19091970,,,,,submitted,2026-10-07,
 CORPUS17 — 17th c. French texts corpus,https://github.com/e-ditiones/CORPUS17,French,tei,archived,"e-ditiones (Simon Gabay), GitHub open repo",1622-1700,149810,,,,,submitted,2026-10-07,2021-02-26
-Anthologies of the Spoudastirion Neou Ellinismou (snhell.gr) — Cretan Greek lyric poetry,http://web.archive.org/web/20010623201249/http://www.snhell.gr:80/a_anth_text.asp,Modern Greek,other,discontinued,"Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine",1590-1655,1736,,,,,submitted,2026-10-07,
-CroALa (Croatiae Auctores Latini),https://croala.ffzg.unizg.hr/,Latin,other,active,University of Zagreb,1450-1700,3545403,,,,,submitted,2026-10-07,
-Bible-Corpus — multilingual parallel corpus of Bible translations,https://github.com/christos-c/bible-corpus,Czech,other,active,"Christos Christodoulopoulos (christos-c), GitHub open repo",1613-1613,597503,,,,,submitted,2026-10-07,2025-05-19
+Anthologies of the Spoudastirion Neou Ellinismou (snhell.gr) — Cretan Greek lyric poetry,http://web.archive.org/web/20010623201249/http://www.snhell.gr:80/a_anth_text.asp,Modern Greek,plain-text,discontinued,"Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine",1590-1655,1736,,,,,submitted,2026-10-07,
+CroALa (Croatiae Auctores Latini),https://croala.ffzg.unizg.hr/,Latin,plain-text,active,University of Zagreb,1450-1700,3545403,,,,,submitted,2026-10-07,
+Bible-Corpus — multilingual parallel corpus of Bible translations,https://github.com/christos-c/bible-corpus,Czech,plain-text,active,"Christos Christodoulopoulos (christos-c), GitHub open repo",1613-1613,597503,,,,,submitted,2026-10-07,2025-05-19
 tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový),https://github.com/CzechLanguageInstitute/tei2019,Czech,tei,archived,"Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",1503-1503,69891,,,,,submitted,2026-10-07,2019-09-19
-Early Modern Danish Postils v0.2.0,https://zenodo.org/records/7113232,Danish,other,archived,"Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)",1540-1635,2289816,,,,,submitted,2026-10-07,2022-12-24
-Digitale Bibliotheek voor de Nederlandse Letteren (DBNL),https://www.dbnl.org/,Dutch; Frisian,other,active,,1477-1700,21440504,,,,,submitted,2026-10-07,
+Early Modern Danish Postils v0.2.0,https://zenodo.org/records/7113232,Danish,plain-text,archived,"Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)",1540-1635,2289816,,,,,submitted,2026-10-07,2022-12-24
+Digitale Bibliotheek voor de Nederlandse Letteren (DBNL),https://www.dbnl.org/,Dutch; Frisian,html,active,,1477-1700,21440504,,,,,submitted,2026-10-07,
 A Social Edition of the Devonshire MS (BL Add. MS 17492),https://en.wikibooks.org/wiki/The_Devonshire_Manuscript,English,tei,archived,University of Victoria (editorial team led by Ray Siemens); print edition by Iter & ACMRS Press,c. 1539-1547,,England,,,{'start': 2004},submitted,2026-10-07,
-Diacronia Romanian,https://www.diacronia.ro,Romanian,other,active,,1580-1600,5774,,,,,submitted,2026-10-07,
-DIACU — A dataset for the DIAchronic analysis of Church Slavonic,https://github.com/MariaCassese/DIACU,Bulgarian,other,active,Maria Cassese et al. (GitHub repo aggregating Sofia University historical-dictionary / Cyrillomethodiana texts),1450-1650,221171,,,,,submitted,2026-10-07,2025-06-12
-Diakorp v6: diachronic corpus of Czech,https://lindat.mff.cuni.cz/repository/items/c7544e98-f017-4f4f-ad21-048c692c3bc7,Czech,other,archived,"Kučera, Řehořková, Stluka — Institute of the Czech National Corpus (ÚČNK), Charles University, Prague; deposited on LINDAT/CLARIAH-CZ",1492-1662,425831,,,,,submitted,2026-10-07,
+Diacronia Romanian,https://www.diacronia.ro,Romanian,plain-text,active,,1580-1600,5774,,,,,submitted,2026-10-07,
+DIACU — A dataset for the DIAchronic analysis of Church Slavonic,https://github.com/MariaCassese/DIACU,Bulgarian,plain-text,active,Maria Cassese et al. (GitHub repo aggregating Sofia University historical-dictionary / Cyrillomethodiana texts),1450-1650,221171,,,,,submitted,2026-10-07,2025-06-12
+Diakorp v6: diachronic corpus of Czech,https://lindat.mff.cuni.cz/repository/items/c7544e98-f017-4f4f-ad21-048c692c3bc7,Czech,plain-text,archived,"Kučera, Řehořková, Stluka — Institute of the Czech National Corpus (ÚČNK), Charles University, Prague; deposited on LINDAT/CLARIAH-CZ",1492-1662,425831,,,,,submitted,2026-10-07,
 "DiBiLit-Korpus (Digitale Bibliothek, Literatur)",https://github.com/deutschestextarchiv/DiBiLit-Korpus,German,tei,active,"Deutsches Textarchiv / BBAW (CLARIAH-DE, BMBF); source texts from Zeno.org / TextGrid Repository",1517-1696,2135890,,,,,submitted,2026-10-07,2025-03-03
 DiBiPhil — Corpus of philosophical texts from Zeno's Digital Library,https://github.com/deutschestextarchiv/DiBiPhil,German,tei,active,Deutsches Textarchiv (BBAW); source texts from Zeno.org's Digitale Bibliothek,1530-1612,175616,,,,,submitted,2026-10-07,2023-11-22
-DIGILIB Armenian,https://digilib.aua.am/en,Armenian,other,active,,1619-1699,532046,,,,,submitted,2026-10-07,
-The Digital Donne Project,https://digitaldonne.drc.usask.ca/,English,other,active,Variorum Edition of the Poetry of John Donne (Texas A&M / University of Saskatchewan),1611-1611,74553,,,,,submitted,2026-10-07,
+DIGILIB Armenian,https://digilib.aua.am/en,Armenian,plain-text,active,,1619-1699,532046,,,,,submitted,2026-10-07,
+The Digital Donne Project,https://digitaldonne.drc.usask.ca/,English,plain-text,active,Variorum Edition of the Poetry of John Donne (Texas A&M / University of Saskatchewan),1611-1611,74553,,,,,submitted,2026-10-07,
 DISCO: Diachronic Spanish Sonnet Corpus,https://github.com/pruizf/disco,Spanish,tei,active,"UNED Madrid (Pablo Ruiz Fabo, Helena Bermudez Sabel, Clara Martinez Canton, Jose Calvo Tello)",1600-1600,76564,,,,,submitted,2026-10-07,2026-04-26
-DissEd PhDeditions,https://theses.fr,French; Italian; Latin; Occitan,other,active,,1480-1698,254491,,,,,submitted,2026-10-07,
-DoctrinaLima1584 Quechua,http://www.runasimi.de/waruchir.htm,Quechua,other,active,,1600-1600,6649,,,,,submitted,2026-10-07,
-Documenta Catholica Omnia,https://www.documentacatholicaomnia.eu/,Latin,other,active,,1457-1668,2487100,,,,,submitted,2026-10-07,
-DOST OlderScots,http://purl.ox.ac.uk/ota/0701,Scots,other,active,,1500-1500,788698,,,,,submitted,2026-10-07,
+DissEd PhDeditions,https://theses.fr,French; Italian; Latin; Occitan,plain-text,active,,1480-1698,254491,,,,,submitted,2026-10-07,
+DoctrinaLima1584 Quechua,http://www.runasimi.de/waruchir.htm,Quechua,plain-text,active,,1600-1600,6649,,,,,submitted,2026-10-07,
+Documenta Catholica Omnia,https://www.documentacatholicaomnia.eu/,Latin,plain-text,active,,1457-1668,2487100,,,,,submitted,2026-10-07,
+DOST OlderScots,http://purl.ox.ac.uk/ota/0701,Scots,xml,active,,1500-1500,788698,,,,,submitted,2026-10-07,
 DraCor,https://dracor.org/,Dutch; English; French; German; Hungarian; Italian; Latin; Spanish,tei,active,,1451-1700,25101629,,,,,submitted,2026-10-07,
-Digitale Rätoromanische Chrestomathie (Biblioteca Digitala),https://crestomazia.dch.phil-fak.uni-koeln.de/,Romansh,other,archived,Universitaet zu Koeln (Sprachliche Informationsverarbeitung / Universitaets- und Stadtbibliothek / Data Center for the Humanities),1527-1565,143335,,,,,submitted,2026-10-07,
+Digitale Rätoromanische Chrestomathie (Biblioteca Digitala),https://crestomazia.dch.phil-fak.uni-koeln.de/,Romansh,plain-text,archived,Universitaet zu Koeln (Sprachliche Informationsverarbeitung / Universitaets- und Stadtbibliothek / Data Center for the Humanities),1527-1565,143335,,,,,submitted,2026-10-07,
 "Henrik Smith: Lægebøger (1577), scholarly online edition (tekstnet.dk / DSL)",https://tekstnet.dk/books/smith-h_1-laegebog-top-til-taa/,Danish,tei,active,"Det Danske Sprog- og Litteraturselskab (DSL), Copenhagen",1577-1577,256557,,,,,submitted,2026-10-07,
 Reformationstidens danske salme- og messeboeger digitaliseret (salmer.dsl.dk),https://salmer.dsl.dk/,Danish,tei,active,"Det Danske Sprog- og Litteraturselskab (DSL), Copenhagen",1529-1573,1194918,,,,,submitted,2026-10-07,
-Deutsches Textarchiv (DTA),https://www.deutschestextarchiv.de/,German,other,active,Berlin-Brandenburgische Akademie der Wissenschaften,1453-1700,41616768,,,,,submitted,2026-10-07,
+Deutsches Textarchiv (DTA),https://www.deutschestextarchiv.de/,German,tei,active,Berlin-Brandenburgische Akademie der Wissenschaften,1453-1700,41616768,,,,,submitted,2026-10-07,
 CLARIN:EL Medieval and Early Modern Greek corpora (16th c. notarial registers and Cretan/Heptanesian literature),http://hdl.handle.net/11500/AEGEAN-0000-0000-5806-7,Modern Greek,tei,active,University of the Aegean / Greek Language Centre / ILSP 'Athena' (CLARIN:EL infrastructure),1520-1646,152215,,,,,submitted,2026-10-07,
-English Broadside Ballad Archive (EBBA),https://ebba.english.ucsb.edu/,English,other,active,"University of California, Santa Barbara",1530-1700,3971912,,,,,submitted,2026-10-07,
-Secrets of Craft and Nature in Renaissance France (BnF Ms Fr 640),https://edition640.makingandknowing.org/,French,other,active,"Making and Knowing Project, Columbia University",,122621,,,,,submitted,2026-10-07,
+English Broadside Ballad Archive (EBBA),https://ebba.english.ucsb.edu/,English,plain-text,active,"University of California, Santa Barbara",1530-1700,3971912,,,,,submitted,2026-10-07,
+Secrets of Craft and Nature in Renaissance France (BnF Ms Fr 640),https://edition640.makingandknowing.org/,French,plain-text,active,"Making and Knowing Project, Columbia University",,122621,,,,,submitted,2026-10-07,
 EEBO Text Creation Partnership,https://www.textcreationpartnership.org/,Ancient Greek; Dutch; English; French; German; Hebrew; Irish; Italian; Latin; Multilingual; Portuguese; Romance (other); Scots; Spanish; Welsh,tei,active,"Text Creation Partnership (Universities of Oxford, Michigan, and others)",1455-1700,1342329634,"England, Scotland, Ireland",,,"{'start': 2002, 'end': 'ongoing'}",discovered,2026-10-07,
 CreNum - Edition numerique de la Chronique francaise de Guillaume Cretin,https://gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum,French,tei,archived,ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes),1515-1515,192178,,,,,submitted,2026-10-07,
 FNVR - Fictions Narratives en Vers de la Renaissance (1490-1600),https://elan.gricad-pages.univ-grenoble-alpes.fr/fnvr/,French,tei,active,"ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Pascale Mounier",1500-1500,78532,,,,,submitted,2026-10-07,
 POLY-GRENAILLE - edition numerique des oeuvres morales de Francois de Grenaille,https://elan.gricad-pages.univ-grenoble-alpes.fr/polygrenaille/,French,tei,active,"ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Cecile Lignereux and Bernard Roukhomovsky (project MoREM)",1642-1642,77536,,,,,submitted,2026-10-07,
-Emblem Project Utrecht,http://emblems.let.uu.nl/,Dutch; English; French; German; Italian; Latin; Spanish,other,active,Universiteit Utrecht,1601-1691,552927,,,,,submitted,2026-10-07,
-EMLAP,https://github.com/CCS-ZCU/EMLAP_ETL,Latin,other,active,,1518-1644,4548087,,,,,submitted,2026-10-07,2026-06-10
+Emblem Project Utrecht,http://emblems.let.uu.nl/,Dutch; English; French; German; Italian; Latin; Spanish,plain-text,active,Universiteit Utrecht,1601-1691,552927,,,,,submitted,2026-10-07,
+EMLAP,https://github.com/CCS-ZCU/EMLAP_ETL,Latin,plain-text,active,,1518-1644,4548087,,,,,submitted,2026-10-07,2026-06-10
 EMMO: Early Modern Manuscripts Online,https://emmo.folger.edu/,English,tei,archived,Folger Shakespeare Library (project lead Heather Wolfe),1620-1620,40606,,,,,submitted,2026-10-07,
 EMOTHE - Teatro europeo de los siglos XVI y XVII: patrimonio y bases de datos,https://emothe.uv.es/,English; French; Italian; Portuguese; Spanish,tei,active,"Universitat de Valencia (proyecto ARTELOPE; founders Joan Oleza, current PI Jesus Tronch Perez)",1517-1656,842260,,,,,submitted,2026-10-07,
-Early Modern Recipes Online Collective (EMROC),https://emroc.hypotheses.org/,English,other,active,,1564-1692,248907,,,,,submitted,2026-10-07,
-Bibliothèques Virtuelles Humanistes — Épistémon,https://www.bvh.univ-tours.fr/,French,other,active,CESR (CNRS / Université de Tours),,3061651,,,,,submitted,2026-10-07,
-Estilometria SigloOro,https://github.com/Jero2760/estilometria,Spanish,other,active,,1600-1645,7188629,,,,,submitted,2026-10-07,2025-01-12
+Early Modern Recipes Online Collective (EMROC),https://emroc.hypotheses.org/,English,plain-text,active,,1564-1692,248907,,,,,submitted,2026-10-07,
+Bibliothèques Virtuelles Humanistes — Épistémon,https://www.bvh.univ-tours.fr/,French,plain-text,active,CESR (CNRS / Université de Tours),,3061651,,,,,submitted,2026-10-07,
+Estilometria SigloOro,https://github.com/Jero2760/estilometria,Spanish,plain-text,active,,1600-1645,7188629,,,,,submitted,2026-10-07,2025-01-12
 Digital Edition of the Ethica Complementoria,https://github.com/arockenberger/EthicaComplementoria,German,tei,archived,Annika Rockenberger (herzog August Bibliothek Wolfenbuettel / University of Oslo),1643-1665,73680,,,,,submitted,2026-10-07,2019-09-05
-Evans Early American Imprints (Evans-TCP),https://quod.lib.umich.edu/e/evans/,English,other,active,Readex / University of Michigan,1640-1700,7878692,,,,,submitted,2026-10-07,
+Evans Early American Imprints (Evans-TCP),https://quod.lib.umich.edu/e/evans/,English,tei,active,Readex / University of Michigan,1640-1700,7878692,,,,,submitted,2026-10-07,
 "Fabulas mitologicas del Siglo de Oro (ed. Antonio Rojas Castro, GitHub)",https://github.com/arojascastro/fabulasmitologicas,Spanish,tei,archived,Antonio Rojas Castro (Freie Universitaet Berlin / UNED),1620-1620,182943,,,,,submitted,2026-10-07,2025-08-05
 Tale of the Fall of Constantinople - parallel interlinear edition (obdurodon.org),http://arranz.obdurodon.org,Church Slavonic,tei,archived,"Isabel Arranz del Riego (Universidad Complutense de Madrid); maintained by David J. Birnbaum (University of Pittsburgh, obdurodon.org)",1561-1585,29847,,,,,submitted,2026-10-07,
-FAMSI Bolles YucatecMaya,http://www.famsi.org/reports/96072,Yucatec Maya,other,active,,1557-1580,73544,,,,,submitted,2026-10-07,
-FilologiaSarda Sardinian,https://www.filologiasarda.eu,Sardinian,other,active,,1573-1597,10596,,,,,submitted,2026-10-07,
-FlorentineCodex Nahuatl,https://zenodo.org/records/7213020,Nahuatl,other,active,,1577-1577,290869,,,,,submitted,2026-10-07,2025-06-14
-Fornsvenska Swedish,https://www.nordlund.lu.se,Swedish,other,active,,1536-1674,95194,,,,,submitted,2026-10-07,
-Fran Slovenian16c,https://fran.si/korpus16,Slovenian,other,active,,1550-1595,3380332,,,,,submitted,2026-10-07,
+FAMSI Bolles YucatecMaya,http://www.famsi.org/reports/96072,Yucatec Maya,plain-text,active,,1557-1580,73544,,,,,submitted,2026-10-07,
+FilologiaSarda Sardinian,https://www.filologiasarda.eu,Sardinian,plain-text,active,,1573-1597,10596,,,,,submitted,2026-10-07,
+FlorentineCodex Nahuatl,https://zenodo.org/records/7213020,Nahuatl,plain-text,active,,1577-1577,290869,,,,,submitted,2026-10-07,2025-06-14
+Fornsvenska Swedish,https://www.nordlund.lu.se,Swedish,plain-text,active,,1536-1674,95194,,,,,submitted,2026-10-07,
+Fran Slovenian16c,https://fran.si/korpus16,Slovenian,plain-text,active,,1550-1595,3380332,,,,,submitted,2026-10-07,
 FreEM (FREnch Early Modern corpus),https://freem-corpora.github.io/,French,tei,active,,1529-1700,25609193,,,,,submitted,2026-10-07,
 "Frühneuzeitliche Fürstinnenkorrespondenzen (Fuerstinnenkorrespondenz corpus, LAUDATIO)",http://hdl.handle.net/11022/0000-0000-82A0-7,German,tei,archived,"Friedrich-Schiller-Universitaet Jena (Rosemarie Luehr, Vera Fasshauer, Daniela Prutscher, Henry Seidel), published in the LAUDATIO repository",1568-1568,23824,,,,,submitted,2026-10-07,
-Galileo Opere Favaro,https://it.wikisource.org/wiki/Le_opere_di_Galileo_Galilei_(Favaro),Italian; Latin,other,active,,1611-1633,97354,,,,,submitted,2026-10-07,
-Gallicorpora French HTR,https://github.com/Gallicorpora,French; Latin,other,active,,1518-1697,601671,,,,,submitted,2026-10-07,
-GAMS — Basel Records,https://gams.uni-graz.at/,German,other,active,Universität Graz (GAMS),1535-1610,926956,,,,,submitted,2026-10-07,
-GanjoorPersian,https://ganjoor.net,Persian,other,active,,1466-1700,4810638,,,,,submitted,2026-10-07,
+Galileo Opere Favaro,https://it.wikisource.org/wiki/Le_opere_di_Galileo_Galilei_(Favaro),Italian; Latin,plain-text,active,,1611-1633,97354,,,,,submitted,2026-10-07,
+Gallicorpora French HTR,https://github.com/Gallicorpora,French; Latin,plain-text,active,,1518-1697,601671,,,,,submitted,2026-10-07,
+GAMS — Basel Records,https://gams.uni-graz.at/,German,plain-text,active,Universität Graz (GAMS),1535-1610,926956,,,,,submitted,2026-10-07,
+GanjoorPersian,https://ganjoor.net,Persian,plain-text,active,,1466-1700,4810638,,,,,submitted,2026-10-07,
 "The Nottingham Corpus of Early Modern German Midwifery and Women's Medicine, ca. 1500–1700 (GeMi, OTA 2562)",https://ota.ox.ac.uk/desc/2562,German,tei,archived,"University of Nottingham (Richard J. Whitt), deposited at the Oxford Text Archive (ota:2562)",1500-1690,105188,,,,,submitted,2026-10-07,
 "GerManC - parsed corpus of German 1650-1800, 'Plays' text collection (OTA 2544)",https://ota.ox.ac.uk/desc/2544,German,tei,archived,"University of Manchester (Silke Regenbogen, Paul Bennett; superv. David Denison / Astrid Erdmann), deposited at the Oxford Text Archive (ota:2544)",1654-1700,230403,,,,,submitted,2026-10-07,
-Gilberti Purepecha,https://archive.org/details/vocabularioenlen00gilb,Purépecha,other,active,,1559-1559,14264,,,,,submitted,2026-10-07,
-GlasgowEmblems,https://www.emblems.arts.gla.ac.uk,French; German; Italian; Latin; Spanish,other,active,,1531-1621,549460,,,,,submitted,2026-10-07,
-Gondomar Galician,https://ilg.usc.gal/gondomar,Galician,other,active,,1594-1697,11031,,,,,submitted,2026-10-07,
+Gilberti Purepecha,https://archive.org/details/vocabularioenlen00gilb,Purépecha,plain-text,active,,1559-1559,14264,,,,,submitted,2026-10-07,
+GlasgowEmblems,https://www.emblems.arts.gla.ac.uk,French; German; Italian; Latin; Spanish,plain-text,active,,1531-1621,549460,,,,,submitted,2026-10-07,
+Gondomar Galician,https://ilg.usc.gal/gondomar,Galician,plain-text,active,,1594-1697,11031,,,,,submitted,2026-10-07,
 "Soledades. Edición digital (Luis de Góngora, 1613) — ed. Antonio Rojas Castro",https://github.com/arojascastro/soledades,Spanish,tei,active,ed. Antonio Rojas Castro,1612-1627,36856,,,,,submitted,2026-10-08,2025-08-05
 "Obras de Góngora (obra poética, ed. Antonio Carreira) — Labex OBVIL GONGORA project",https://github.com/gongoradigital/gongoraobra,Spanish,tei,archived,"Labex OBVIL (Sorbonne Universite), dir. Mercedes Blanco; TEI files on gongoradigital GitHub",1605-1610,59121,,,,,submitted,2026-10-07,2022-04-04
-GutorGlyn Welsh,https://gutorglyn.net/gutorglyn,Welsh,other,active,,1450-1497,30864,,,,,submitted,2026-10-07,
-"Hexenverhoerprotokolle (SiGS corpus, LAUDATIO repository)",https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w,German,other,archived,"DFG project SiGS / Universities of Muenster, Cologne and Hamburg (Renata Szczepaniak, Klaus-Michael Koepcke, Fabian Barteld, Stefan Hartmann et al.); published in LAUDATIO (HU Berlin)",1570-1665,85441,,,,,submitted,2026-10-07,
-HistCorp — Historical Corpora and Tools (fornsvenska / Fornsvenska textbanken),https://sprakbanken-clarin.lingfil.uu.se/histcorp/,Swedish,other,active,"Eva Pettersson (Uppsala University) & Beata Megyesi (Stockholm University), Swedish CLARIN",1450-1700,5641945,,,,,submitted,2026-10-07,
-Ritos y tradiciones de Huarochirí (Taylor 1987) — Biblioteca Digital Curt Nimuendajú,https://www.etnolinguistica.org/biblio:taylor-1987-ritos,Quechua,other,active,Biblioteca Digital Curt Nimuendajú / etnolinguistica.org,1608-1608,11586,,,,,submitted,2026-10-07,
+GutorGlyn Welsh,https://gutorglyn.net/gutorglyn,Welsh,plain-text,active,,1450-1497,30864,,,,,submitted,2026-10-07,
+"Hexenverhoerprotokolle (SiGS corpus, LAUDATIO repository)",https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w,German,plain-text,archived,"DFG project SiGS / Universities of Muenster, Cologne and Hamburg (Renata Szczepaniak, Klaus-Michael Koepcke, Fabian Barteld, Stefan Hartmann et al.); published in LAUDATIO (HU Berlin)",1570-1665,85441,,,,,submitted,2026-10-07,
+HistCorp — Historical Corpora and Tools (fornsvenska / Fornsvenska textbanken),https://sprakbanken-clarin.lingfil.uu.se/histcorp/,Swedish,plain-text,active,"Eva Pettersson (Uppsala University) & Beata Megyesi (Stockholm University), Swedish CLARIN",1450-1700,5641945,,,,,submitted,2026-10-07,
+Ritos y tradiciones de Huarochirí (Taylor 1987) — Biblioteca Digital Curt Nimuendajú,https://www.etnolinguistica.org/biblio:taylor-1987-ritos,Quechua,plain-text,active,Biblioteca Digital Curt Nimuendajú / etnolinguistica.org,1608-1608,11586,,,,,submitted,2026-10-07,
 GitLab des humanités numériques (Huma-Num),https://gitlab.huma-num.fr/,French; Latin; Spanish,tei,active,IR Huma-Num,1474-1700,1816659,,,,,submitted,2026-10-07,
-IcePaHC — Icelandic Parsed Historical Corpus,https://github.com/antonkarl/icecorpus,Icelandic,other,active,"Joel C. Wallenberg (York), Anton Karl Ingason & Einar Freyr Sigurðsson (Árni Magnússon Institute/HI, Iceland), Eiríkur Rögnvaldsson; version 2024.03",1450-1680,283630,,,,,submitted,2026-10-07,2025-12-11
+IcePaHC — Icelandic Parsed Historical Corpus,https://github.com/antonkarl/icecorpus,Icelandic,plain-text,active,"Joel C. Wallenberg (York), Anton Karl Ingason & Einar Freyr Sigurðsson (Árni Magnússon Institute/HI, Iceland), Eiríkur Rögnvaldsson; version 2024.03",1450-1680,283630,,,,,submitted,2026-10-07,2025-12-11
 IMP — Digital library and corpus of historical Slovene,https://nl.ijs.si/imp/,Slovenian,tei,archived,"Tomaž Erjavec, Jožef Stefan Institute (IJS), Ljubljana; funded by EU FP7 IMPACT",1584-1695,27084,,,,,submitted,2026-10-07,
-IMPACTes OriginalImprint,https://github.com/impactcentre/groundtruth-spa,Spanish,other,archived,,1543-1691,1962810,,,,,submitted,2026-10-07,2013-04-15
-Acts and Ordinances of the Interregnum,https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum,English,other,active,Institute of Historical Research (British History Online),1642-1659,1346924,,,,,submitted,2026-10-07,
-Izbornyk Ukrainian,http://litopys.org.ua,Ukrainian,other,active,,1575-1697,345998,,,,,submitted,2026-10-07,
-Kirishitan Japanese,https://www2.ninjal.ac.jp/textdb_dataset/en,Japanese,other,active,,1592-1603,154229,,,,,submitted,2026-10-07,
+IMPACTes OriginalImprint,https://github.com/impactcentre/groundtruth-spa,Spanish,plain-text,archived,,1543-1691,1962810,,,,,submitted,2026-10-07,2013-04-15
+Acts and Ordinances of the Interregnum,https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum,English,plain-text,active,Institute of Historical Research (British History Online),1642-1659,1346924,,,,,submitted,2026-10-07,
+Izbornyk Ukrainian,http://litopys.org.ua,Ukrainian,plain-text,active,,1575-1697,345998,,,,,submitted,2026-10-07,
+Kirishitan Japanese,https://www2.ninjal.ac.jp/textdb_dataset/en,Japanese,plain-text,active,,1592-1603,154229,,,,,submitted,2026-10-07,
 KorBa — Elektroniczny korpus tekstów polskich z XVII i XVIII w.,https://korba.edu.pl/,Polish,tei,active,"Instytut Języka Polskiego, Polska Akademia Nauk (IJP PAN)",1603-1700,429778,,,,,submitted,2026-10-07,
-Kronieken Dutch,https://doi.org/10.5281/zenodo.13332815,Dutch,other,active,,1499-1574,1431218,,,,,submitted,2026-10-07,
+Kronieken Dutch,https://doi.org/10.5281/zenodo.13332815,Dutch,plain-text,active,,1499-1574,1431218,,,,,submitted,2026-10-07,
 The Lampeter Corpus of Early Modern English Tracts (OTA ota:3193),https://ota.ox.ac.uk/desc/3193,English,tei,archived,"Josef Schmied, Claudia Claridge & Rainer Siemund (Chemnitz University of Technology); Oxford Text Archive",1641-1700,723592,,,,,submitted,2026-10-07,
-Lexicons of Early Modern English (LEME),https://leme.library.utoronto.ca/,English,other,active,University of Toronto,1477-1699,9780803,,,,,submitted,2026-10-07,
-LiberLiber,https://www.liberliber.eu/,Italian; Latin; Multilingual; Venetian,other,active,,1450-1700,28388618,,,,,submitted,2026-10-07,
-Litteraturbanken Swedish,https://spraakbanken.gu.se/en/resources/lb-open,Swedish,other,active,,1611-1649,114226,,,,,submitted,2026-10-07,
-Maltese Cantilena,https://en.wikipedia.org/wiki/Il-Kantilena,Maltese,other,active,,1470-1470,135,,,,,submitted,2026-10-07,
+Lexicons of Early Modern English (LEME),https://leme.library.utoronto.ca/,English,plain-text,active,University of Toronto,1477-1699,9780803,,,,,submitted,2026-10-07,
+LiberLiber,https://www.liberliber.eu/,Italian; Latin; Multilingual; Venetian,plain-text,active,,1450-1700,28388618,,,,,submitted,2026-10-07,
+Litteraturbanken Swedish,https://spraakbanken.gu.se/en/resources/lb-open,Swedish,plain-text,active,,1611-1649,114226,,,,,submitted,2026-10-07,
+Maltese Cantilena,https://en.wikipedia.org/wiki/Il-Kantilena,Maltese,plain-text,active,,1470-1470,135,,,,,submitted,2026-10-07,
 Progetto Mambrino Digital Library — Sferamundi di Grecia,https://zenodo.org/records/14235252,Italian,tei,active,"Stefano Bazzaco et al., University of Verona (PRIN 2017 'Mapping Chivalry'; 'Inclusive Humanities' Dept. of Foreign Languages, University of Verona)",1530-1565,1461652,,,,,submitted,2026-10-07,2024-11-28
 The Map of Early Modern London,https://mapoflondon.uvic.ca/,English,tei,active,University of Victoria,1550-1700,,"London, England",,,"{'start': 2000, 'end': 'ongoing'}",submitted,2026-10-07,
-Mazarinades,https://zenodo.org/records/7443183,French,other,active,Bibliothèques patrimoniales de la Ville de Paris,1648-1653,10122051,,,,,submitted,2026-10-07,2026-05-22
-Magyar Elektronikus Könyvtár (MEK),https://mek.oszk.hu/,Hungarian,other,active,,1554-1693,418083,,,,,submitted,2026-10-07,
+Mazarinades,https://zenodo.org/records/7443183,French,xml,active,Bibliothèques patrimoniales de la Ville de Paris,1648-1653,10122051,,,,,submitted,2026-10-07,2026-05-22
+Magyar Elektronikus Könyvtár (MEK),https://mek.oszk.hu/,Hungarian,plain-text,active,,1554-1693,418083,,,,,submitted,2026-10-07,
 Mercure galant (OBVIL/IReMus — édition complète 1672-1710),https://obvil.github.io/mercure-galant/,French,tei,active,"LabEx OBVIL (Sorbonne) & IReMus (CNRS, dir. Anne Piéjus, Nathalie Berton-Blivet), with Huma-Num",1672-1700,4216289,,,,,submitted,2026-10-07,
 Mercurius-Baumbank (Version 1.1) — LAUDATIO repository,https://www.laudatio-repository.org/browse/corpus/VyQiCnMB7CArCQ9CjF3O/corpora,German,tei,archived,Ulrike Demske; LAUDATIO repository (Humboldt-Universität zu Berlin),1597-1667,187423,,,,,submitted,2026-10-07,
-Montoya Guarani,https://archive.org/details/gramaticaydiccio02ruiz,Guaraní,other,active,,1639-1640,41109,,,,,submitted,2026-10-07,
-Muysc cubun — Lengua Muisca (Manuscrito 158 BNC; Gramática de Lugo),https://muysca.cubun.org/,Muisca,other,active,"Muysc cubun research group, founded and maintained by Diego F. Gómez, with Muisca communities (Suba, Chía), Colombia",1612-1619,42662,,,,,submitted,2026-10-07,
-Nahuatl depth,https://www.history.ucsb.edu,Nahuatl,other,active,,1559-1695,36506,,,,,submitted,2026-10-07,
-Latin texts deposited on the Nakala repository (Huma-Num),https://nakala.fr/,French; Latin,other,active,"Nakala, research-data repository of Huma-Num (CNRS) and IRD",1458-1698,2904654,,,,,submitted,2026-10-07,2026-07-18
-The Newton Project,https://www.newtonproject.ox.ac.uk/,English; Latin,other,active,University of Oxford,1659-1700,2069555,,,,,submitted,2026-10-07,
-Norman MuseNormande,https://archive.org/details/lamusenormanded09ferrgoog,Norman,other,active,,1638-1652,153528,,,,,submitted,2026-10-07,
-NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin,https://www.uibk.ac.at/projects/noscemus/,Latin,other,active,Universität Innsbruck,1472-1700,82381900,,,,,submitted,2026-10-07,
+Montoya Guarani,https://archive.org/details/gramaticaydiccio02ruiz,Guaraní,plain-text,active,,1639-1640,41109,,,,,submitted,2026-10-07,
+Muysc cubun — Lengua Muisca (Manuscrito 158 BNC; Gramática de Lugo),https://muysca.cubun.org/,Muisca,plain-text,active,"Muysc cubun research group, founded and maintained by Diego F. Gómez, with Muisca communities (Suba, Chía), Colombia",1612-1619,42662,,,,,submitted,2026-10-07,
+Nahuatl depth,https://www.history.ucsb.edu,Nahuatl,plain-text,active,,1559-1695,36506,,,,,submitted,2026-10-07,
+Latin texts deposited on the Nakala repository (Huma-Num),https://nakala.fr/,French; Latin,xml,active,"Nakala, research-data repository of Huma-Num (CNRS) and IRD",1458-1698,2904654,,,,,submitted,2026-10-07,2026-07-18
+The Newton Project,https://www.newtonproject.ox.ac.uk/,English; Latin,plain-text,active,University of Oxford,1659-1700,2069555,,,,,submitted,2026-10-07,
+Norman MuseNormande,https://archive.org/details/lamusenormanded09ferrgoog,Norman,plain-text,active,,1638-1652,153528,,,,,submitted,2026-10-07,
+NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin,https://www.uibk.ac.at/projects/noscemus/,Latin,plain-text,active,Universität Innsbruck,1472-1700,82381900,,,,,submitted,2026-10-07,
 OBVIL — corpus d'éditions anciennes françaises (Teinte),https://obtic.sorbonne-universite.fr/corpus,French,tei,active,"LabEx OBVIL, Sorbonne Université",1557-1694,73996,,,,,submitted,2026-10-07,
 OBVIL — corpus La Haine du théâtre (querelle du théâtre),https://obvil.github.io/haine-theatre/,French,tei,active,LabEx OBVIL (Sorbonne Université),1541-1698,1162096,,,,,submitted,2026-10-07,
-Occitan 1000ans,https://uoh.univ-montp3.fr/1000ans,Occitan,other,active,,1456-1617,22599,,,,,submitted,2026-10-07,
-CORDEREGRA — Corpus diacrónico del español del Reino de Granada,https://corpora.uah.es/charta/,Spanish,other,discontinued,Universidad de Granada (Miguel Calderón Campos & M.ª Teresa García-Godoy); CHARTA network (corpora.uah.es),1509-1700,203336,,,,,submitted,2026-10-07,
-The Proceedings of the Old Bailey Online,https://www.oldbaileyonline.org/,English,other,active,,1674-1700,924767,,,,,submitted,2026-10-07,
-Old Hungarian Corpus (Régi Magyar Nyelvemlékek),http://oldhungariancorpus.nytud.hu/,Hungarian,other,active,"Research Institute for Linguistics, Hungarian Academy of Sciences (MGTSZ)",1450-1532,3046715,,,,,submitted,2026-10-07,
-OpenEDGeS (Open Editions of Early Modern Dutch and German Bibles),https://spraakbanken.gu.se/en/resources/openedges,Dutch; German,other,active,University of Gothenburg (Språkbanken),1460-1661,7105392,,,,,submitted,2026-10-07,
-OpenITI,https://github.com/OpenITI,Arabic,other,active,Open Islamicate Texts Initiative,1451-1700,193859865,,,,,submitted,2026-10-07,
-OSTA — Old Spanish Textual Archive,https://osta.oldspanishtextualarchive.org/,Aragonese; Latin; Spanish,other,active,Hispanic Seminary of Medieval Studies (HSMS); Francisco Gago Jover (College of the Holy Cross) & F. Javier Pueyo Mena,1450-1674,21519708,,,,,submitted,2026-10-07,
-Otomi mission,https://www.sup-infor.com,Otomí,other,active,,,4365,,,,,submitted,2026-10-07,
-Passiusalmar Icelandic,https://hallgrimurpetursson.is,Icelandic,other,active,,1666-1666,23536,,,,,submitted,2026-10-07,
-PCEEC2,https://github.com/beatrice57/pceec2,English,other,active,,1462-1679,2429178,,,,,submitted,2026-10-07,2026-10-03
-The Diary of Samuel Pepys (Phil Gyford edition),https://www.pepysdiary.com/,English,other,active,,1665-1665,1277817,,,,,submitted,2026-10-07,
-Perseus Digital Library,https://www.perseus.tufts.edu/,English,other,active,Tufts University,1590-1610,6762346,,,,,submitted,2026-10-07,
+Occitan 1000ans,https://uoh.univ-montp3.fr/1000ans,Occitan,plain-text,active,,1456-1617,22599,,,,,submitted,2026-10-07,
+CORDEREGRA — Corpus diacrónico del español del Reino de Granada,https://corpora.uah.es/charta/,Spanish,plain-text,discontinued,Universidad de Granada (Miguel Calderón Campos & M.ª Teresa García-Godoy); CHARTA network (corpora.uah.es),1509-1700,203336,,,,,submitted,2026-10-07,
+The Proceedings of the Old Bailey Online,https://www.oldbaileyonline.org/,English,plain-text,active,,1674-1700,924767,,,,,submitted,2026-10-07,
+Old Hungarian Corpus (Régi Magyar Nyelvemlékek),http://oldhungariancorpus.nytud.hu/,Hungarian,plain-text,active,"Research Institute for Linguistics, Hungarian Academy of Sciences (MGTSZ)",1450-1532,3046715,,,,,submitted,2026-10-07,
+OpenEDGeS (Open Editions of Early Modern Dutch and German Bibles),https://spraakbanken.gu.se/en/resources/openedges,Dutch; German,plain-text,active,University of Gothenburg (Språkbanken),1460-1661,7105392,,,,,submitted,2026-10-07,
+OpenITI,https://github.com/OpenITI,Arabic,markdown,active,Open Islamicate Texts Initiative,1451-1700,193859865,,,,,submitted,2026-10-07,
+OSTA — Old Spanish Textual Archive,https://osta.oldspanishtextualarchive.org/,Aragonese; Latin; Spanish,plain-text,active,Hispanic Seminary of Medieval Studies (HSMS); Francisco Gago Jover (College of the Holy Cross) & F. Javier Pueyo Mena,1450-1674,21519708,,,,,submitted,2026-10-07,
+Otomi mission,https://www.sup-infor.com,Otomí,plain-text,active,,,4365,,,,,submitted,2026-10-07,
+Passiusalmar Icelandic,https://hallgrimurpetursson.is,Icelandic,plain-text,active,,1666-1666,23536,,,,,submitted,2026-10-07,
+PCEEC2,https://github.com/beatrice57/pceec2,English,plain-text,active,,1462-1679,2429178,,,,,submitted,2026-10-07,2026-10-03
+The Diary of Samuel Pepys (Phil Gyford edition),https://www.pepysdiary.com/,English,plain-text,active,,1665-1665,1277817,,,,,submitted,2026-10-07,
+Perseus Digital Library,https://www.perseus.tufts.edu/,English,tei,active,Tufts University,1590-1610,6762346,,,,,submitted,2026-10-07,
 Polemos — Codificación XML de la polémica gongorina (Labex OBVIL),https://github.com/gongoradigital/polemos,Spanish,tei,active,"La Polémica Gongorina project (Mercedes Blanco et al.), LabEx OBVIL, Sorbonne Université; TEI encoding under gongoradigital",1613-1662,263434,,,,,submitted,2026-10-07,2025-05-27
 "Digital TEI-XML edition of Camillo Porzio's ""La congiura de' Baroni del Regno di Napoli contra re Ferdinando primo""",https://zenodo.org/records/18047915,Italian,tei,archived,"Cristiano Amendola (KU Leuven), within PRIN 2022 ""HISTORIALE MARE"" (PI Fulvio Delle Donne, Università di Napoli Federico II)",1565-1565,49439,,,,,submitted,2026-10-07,2026-03-01
-P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana),https://post-scriptum.org/,Portuguese; Spanish,other,active,Centro de Linguística da Universidade de Lisboa (CLUL),1500-1699,899841,,,,,submitted,2026-10-07,
-PPCHY Yiddish,https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish,Yiddish,other,active,,1478-1697,46634,,,,,submitted,2026-10-07,2026-09-22
-Project Gutenberg,https://www.gutenberg.org/,Catalan; Dutch; English; Finnish; French; German; Italian; Latin; Polish; Portuguese; Spanish,other,active,,1519-1697,20440559,,,,,submitted,2026-10-07,
+P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana),https://post-scriptum.org/,Portuguese; Spanish,plain-text,active,Centro de Linguística da Universidade de Lisboa (CLUL),1500-1699,899841,,,,,submitted,2026-10-07,
+PPCHY Yiddish,https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish,Yiddish,plain-text,active,,1478-1697,46634,,,,,submitted,2026-10-07,2026-09-22
+Project Gutenberg,https://www.gutenberg.org/,Catalan; Dutch; English; Finnish; French; German; Italian; Latin; Polish; Portuguese; Spanish,plain-text,active,,1519-1697,20440559,,,,,submitted,2026-10-07,
 QhoD — Quellen zur habsburgisch-osmanischen Diplomatie (Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500-1918) — edition-data release 2.0,https://qhod.net/,Latin; Ottoman Turkish,tei,active,"QhoD project (PI Arno Strohmeyer), Institute for Habsburg and Balkan Studies (IHB), Austrian Academy of Sciences (OEAW); technical editor Stephan Kurz; TEI publishing via ACDH-CH/ZIM Graz (GAMS)",1570-1600,21296,,,,,submitted,2026-10-07,
-REED English,https://ereed.org,English; Italian; Latin,other,active,,1450-1643,355821,,,,,submitted,2026-10-07,
-ReF ENHG,https://zenodo.org/records/5793616,German,other,active,,1450-1625,2440564,,,,,submitted,2026-10-07,2021-12-21
+REED English,https://ereed.org,English; Italian; Latin,plain-text,active,,1450-1643,355821,,,,,submitted,2026-10-07,
+ReF ENHG,https://zenodo.org/records/5793616,German,plain-text,active,,1450-1625,2440564,,,,,submitted,2026-10-07,2021-12-21
 "Referenzkorpus Mittelniederdeutsch/Niederrheinisch, 1200-1650 (ReN)",https://www.slm.uni-hamburg.de/ren,German,tei,active,Universität Hamburg (DFG project; Prof. Ingrid Schröder / Prof. Robert Langhanke),1450-1699,1475279,,,,,submitted,2026-10-07,
-Rhythmic Corpus of 100 Spanish Golden Age Plays,https://zenodo.org/records/17537343,Spanish,other,archived,Universitat Autònoma de Barcelona (Álvaro Cuéllar),1620-1620,1454447,,,,,submitted,2026-10-07,2025-11-05
-RIALC - Repertorio informatizzato dell'antica letteratura catalana,http://www.rialc.unina.it/,Catalan,other,archived,"Università degli Studi di Napoli Federico II (dir. Costanzo Di Girolamo, with Lola Badia)",1455-1490,220010,,,,,submitted,2026-10-07,
+Rhythmic Corpus of 100 Spanish Golden Age Plays,https://zenodo.org/records/17537343,Spanish,plain-text,archived,Universitat Autònoma de Barcelona (Álvaro Cuéllar),1620-1620,1454447,,,,,submitted,2026-10-07,2025-11-05
+RIALC - Repertorio informatizzato dell'antica letteratura catalana,http://www.rialc.unina.it/,Catalan,plain-text,archived,"Università degli Studi di Napoli Federico II (dir. Costanzo Di Girolamo, with Lola Badia)",1455-1490,220010,,,,,submitted,2026-10-07,
 ConDÉ — faire vivre six siècles de coutumiers normands (Corpus Numérique des Éditions de la Coutume de Normandie),https://mrsh.unicaen.fr/coutumiers/conde/accueil.html,French,tei,active,"CRISCO EA4255 / MRSH, Université de Caen Normandie (Pierre Larrivée, Mathieu Goux; with Université de Rouen), funded by the Région Normandie RIN programme",1539-1678,2539837,,,,,submitted,2026-10-07,
-roPsalt Romanian,https://github.com/mmoruz/RoPsalt,Romanian,other,active,,1510-1589,188849,,,,,submitted,2026-10-07,2023-12-06
-Philosophical Transactions (pre-1750 archive),https://royalsocietypublishing.org/,English,other,active,The Royal Society,1665-1700,2795758,,,,,submitted,2026-10-07,
+roPsalt Romanian,https://github.com/mmoruz/RoPsalt,Romanian,plain-text,active,,1510-1589,188849,,,,,submitted,2026-10-07,2023-12-06
+Philosophical Transactions (pre-1750 archive),https://royalsocietypublishing.org/,English,plain-text,active,The Royal Society,1665-1700,2795758,,,,,submitted,2026-10-07,
 "RUP — Rare or Unique Poems from Manuscripts, 1500-1660 (RUP)",https://github.com/jedmondes/Rare-or-Unique-Poems-from-manuscripts-1500-1660-FOLGER,English,tei,active,Jessica Edmondes (Folger Shakespeare Library fellowship),1620-1620,3428,,,,,submitted,2026-10-07,2026-06-09
-Russian National Corpus,https://ruscorpora.ru/,Russian,other,active,,1474-1698,96174,,,,,submitted,2026-10-07,
-Sobornoe ulozhenie 1649 goda (Russian Wikisource transcription),https://ru.wikisource.org/wiki/%D0%A1%D0%BE%D0%B1%D0%BE%D1%80%D0%BD%D0%BE%D0%B5_%D1%83%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_1649_%D0%B3%D0%BE%D0%B4%D0%B0,Russian,other,active,Russian Wikisource community,1649-1649,89869,,,,,submitted,2026-10-07,
-Salamanca,https://github.com/digicademy/svsal-tei,Latin; Spanish,other,active,,1522-1648,4271105,,,,,submitted,2026-10-07,2025-07-14
-Sefaria,https://www.sefaria.org/,Hebrew,other,active,,1495-1690,18955529,,,,,submitted,2026-10-07,
-SENIE Latvian,https://hdl.handle.net/20.500.12574/141,Latvian,other,active,,1507-1699,2476220,,,,,submitted,2026-10-07,
-SERMO - Corpus de sermons protestants 1550-1750,http://sermo.unine.ch/SERMO/,French,other,archived,Universite de Neuchatel (Carine Skupien Dekens; SNSF grant 105212_160030),1600-1600,521919,,,,,submitted,2026-10-07,
+Russian National Corpus,https://ruscorpora.ru/,Russian,plain-text,active,,1474-1698,96174,,,,,submitted,2026-10-07,
+Sobornoe ulozhenie 1649 goda (Russian Wikisource transcription),https://ru.wikisource.org/wiki/%D0%A1%D0%BE%D0%B1%D0%BE%D1%80%D0%BD%D0%BE%D0%B5_%D1%83%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_1649_%D0%B3%D0%BE%D0%B4%D0%B0,Russian,plain-text,active,Russian Wikisource community,1649-1649,89869,,,,,submitted,2026-10-07,
+Salamanca,https://github.com/digicademy/svsal-tei,Latin; Spanish,plain-text,active,,1522-1648,4271105,,,,,submitted,2026-10-07,2025-07-14
+Sefaria,https://www.sefaria.org/,Hebrew,plain-text,active,,1495-1690,18955529,,,,,submitted,2026-10-07,
+SENIE Latvian,https://hdl.handle.net/20.500.12574/141,Latvian,plain-text,active,,1507-1699,2476220,,,,,submitted,2026-10-07,
+SERMO - Corpus de sermons protestants 1550-1750,http://sermo.unine.ch/SERMO/,French,tei,archived,Universite de Neuchatel (Carine Skupien Dekens; SNSF grant 105212_160030),1600-1600,521919,,,,,submitted,2026-10-07,
 "IMP — Corpus of Slovene Historical Texts, 1567-1899",https://www.clarin.si/repository/xmlui/handle/11356/1255,Slovenian,tei,archived,Jozef Stefan Institute (CLARIN.SI) with ZRC SAZU Institute of Slovene Literature / Fran Ramovs Library and NUK,1584-1695,14669,,,,,submitted,2026-10-07,
-SMI ItalianMusic,https://chmtl.indiana.edu/smi,Italian,other,active,,1599-1599,62023,,,,,submitted,2026-10-07,
+SMI ItalianMusic,https://chmtl.indiana.edu/smi,Italian,plain-text,active,,1599-1599,62023,,,,,submitted,2026-10-07,
 Corpus de sonetos del Siglo de Oro (ADSO),https://github.com/bncolorado/CorpusSonetosSigloDeOro,Spanish,tei,active,"Universidad de Alicante (Borja Navarro-Colorado; ADSO project, Fundacion BBVA)",,466011,,,,,submitted,2026-10-07,2026-02-19
-SPXVI Polish16c,https://spxvi.edu.pl,Polish,other,active,,1500-1601,6962996,,,,,submitted,2026-10-07,
+SPXVI Polish16c,https://spxvi.edu.pl,Polish,plain-text,active,,1500-1601,6962996,,,,,submitted,2026-10-07,
 SSRQ Online — Sammlung Schweizerischer Rechtsquellen / Collection des sources du droit suisse,https://ssrq-sds-fds.ch/,German,tei,active,"Law Sources Foundation of the Swiss Jurists' Society (SSRQ), editorial office at the Universität Zürich (Historisches Seminar)",1500-1644,1058858,,,,,submitted,2026-10-07,
-Statutes of the Realm,https://www.british-history.ac.uk/search/series/statutes-realm,English,other,active,Institute of Historical Research (British History Online),1625-1697,1112931,,,,,submitted,2026-10-07,
-Suriano Correspondence,https://github.com/HuygensING/suriano,Italian,other,active,,1616-1623,1132668,,,,,submitted,2026-10-07,2026-03-09
-Tagalog Doctrina1593,https://www.gutenberg.org/ebooks/16119,Tagalog,other,active,,1593-1593,2018,,,,,submitted,2026-10-07,
+Statutes of the Realm,https://www.british-history.ac.uk/search/series/statutes-realm,English,plain-text,active,Institute of Historical Research (British History Online),1625-1697,1112931,,,,,submitted,2026-10-07,
+Suriano Correspondence,https://github.com/HuygensING/suriano,Italian,plain-text,active,,1616-1623,1132668,,,,,submitted,2026-10-07,2026-03-09
+Tagalog Doctrina1593,https://www.gutenberg.org/ebooks/16119,Tagalog,plain-text,active,,1593-1593,2018,,,,,submitted,2026-10-07,
 Repositorio de teatro breve del Siglo de Oro (TBSO),https://github.com/dxvidmr/repositorioTBSO,Spanish,tei,active,"Teatro Breve del Siglo de Oro project, Universidad de Sevilla (Abraham Madroñal et al.); repository maintained by David Merino Recalde",1640-1640,47933,,,,,submitted,2026-10-07,2024-10-07
 TextGrid Repository,https://textgridrep.org/,English; French; German; Italian; Latin,tei,active,TextGrid Consortium (German universities and research institutions),800-1900,50000000,German-speaking Europe,,,"{'start': 2006, 'end': 'ongoing'}",discovered,2026-10-07,
-The Latin Library,https://www.thelatinlibrary.com/,Latin,other,active,,1450-1700,673616,,,,,submitted,2026-10-07,
-Théâtre Classique,http://www.theatre-classique.fr/,French,other,active,,1659-1697,29912,,,,,submitted,2026-10-07,
-Thornton Kikongo,https://www.bu.edu/afam/people/faculty/john-thornton,Kikongo,other,active,,1624-1649,7024,,,,,submitted,2026-10-07,
-Ticha Zapotec,https://github.com/HCDigitalScholarship/ticha-xml-tei,Zapotec,other,archived,,1578-1666,73928,,,,,submitted,2026-10-07,2022-03-10
-TITUS (Thesaurus Indogermanischer Text- und Sprachmaterialien),https://titus.uni-frankfurt.de/,Albanian; Georgian; Lithuanian; Old Prussian,other,active,Goethe-Universität Frankfurt,1545-1700,1746475,,,,,submitted,2026-10-07,
-TMI SMI Italian,https://tmiweb.science.uu.nl,Italian,other,active,,1525-1649,2029235,,,,,submitted,2026-10-07,
-TMK,http://tmk.nytud.hu,Hungarian,other,active,,1532-1700,341772,,,,,submitted,2026-10-07,
-TML,https://github.com/cmm2209/TMLr,Latin,other,active,,1475-1650,1789274,,,,,submitted,2026-10-07,2026-02-23
+The Latin Library,https://www.thelatinlibrary.com/,Latin,html,active,,1450-1700,673616,,,,,submitted,2026-10-07,
+Théâtre Classique,http://www.theatre-classique.fr/,French,plain-text,active,,1659-1697,29912,,,,,submitted,2026-10-07,
+Thornton Kikongo,https://www.bu.edu/afam/people/faculty/john-thornton,Kikongo,plain-text,active,,1624-1649,7024,,,,,submitted,2026-10-07,
+Ticha Zapotec,https://github.com/HCDigitalScholarship/ticha-xml-tei,Zapotec,plain-text,archived,,1578-1666,73928,,,,,submitted,2026-10-07,2022-03-10
+TITUS (Thesaurus Indogermanischer Text- und Sprachmaterialien),https://titus.uni-frankfurt.de/,Albanian; Georgian; Lithuanian; Old Prussian,plain-text,active,Goethe-Universität Frankfurt,1545-1700,1746475,,,,,submitted,2026-10-07,
+TMI SMI Italian,https://tmiweb.science.uu.nl,Italian,plain-text,active,,1525-1649,2029235,,,,,submitted,2026-10-07,
+TMK,http://tmk.nytud.hu,Hungarian,plain-text,active,,1532-1700,341772,,,,,submitted,2026-10-07,
+TML,https://github.com/cmm2209/TMLr,Latin,plain-text,active,,1475-1650,1789274,,,,,submitted,2026-10-07,2026-02-23
 RenArD — Renaissance Aristophanes Digital (Translatoscope / ELAN),https://renard.elan-numerique.fr/,Latin,tei,active,"UMR Litt&Arts, Universite Grenoble Alpes (Malika Bastin-Hammou; ELAN project)",1460-1580,46329,,,,,submitted,2026-10-07,
-TychoBrahe Portuguese,https://www.tycho.iel.unicamp.br/corpus/texts/txt.zip,Portuguese,other,active,,1524-1696,616264,,,,,submitted,2026-10-07,
-VAKK Estonian,https://vakk.ut.ee,Estonian,other,active,,1524-1700,646452,,,,,submitted,2026-10-07,
-"Vespasiano da Bisticci, Lettere. A digital edition (Knowledge Site)",https://projects.dharc.unibo.it/vespasiano/,Italian,other,archived,"Digital Humanities Advanced Research Centre (/DH.arc), Università di Bologna (Francesca Tomasi)",1480-1480,33623,,,,,submitted,2026-10-07,
-"Phép giảng tám ngày (Cathechismus) — Alexandre de Rhodes, Rome 1651",https://vi.wikisource.org/wiki/Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y,Vietnamese,other,active,Vietnamese Wikisource community (proofread transcription of the Congregatio de Propaganda Fide editio princeps),1651-1651,53364,,,,,submitted,2026-10-07,
-VKS OldLiteraryFinnish,https://www.kielipankki.fi/corpora/vks,Finnish,other,active,,1543-1700,2745991,,,,,submitted,2026-10-07,
-Vokabulář webový,https://vokabular.ujc.cas.cz/,Czech,other,active,,1450-1696,4848608,,,,,submitted,2026-10-07,
+TychoBrahe Portuguese,https://www.tycho.iel.unicamp.br/corpus/texts/txt.zip,Portuguese,plain-text,active,,1524-1696,616264,,,,,submitted,2026-10-07,
+VAKK Estonian,https://vakk.ut.ee,Estonian,plain-text,active,,1524-1700,646452,,,,,submitted,2026-10-07,
+"Vespasiano da Bisticci, Lettere. A digital edition (Knowledge Site)",https://projects.dharc.unibo.it/vespasiano/,Italian,plain-text,archived,"Digital Humanities Advanced Research Centre (/DH.arc), Università di Bologna (Francesca Tomasi)",1480-1480,33623,,,,,submitted,2026-10-07,
+"Phép giảng tám ngày (Cathechismus) — Alexandre de Rhodes, Rome 1651",https://vi.wikisource.org/wiki/Ph%C3%A9p_gi%E1%BA%A3ng_t%C3%A1m_ng%C3%A0y,Vietnamese,plain-text,active,Vietnamese Wikisource community (proofread transcription of the Congregatio de Propaganda Fide editio princeps),1651-1651,53364,,,,,submitted,2026-10-07,
+VKS OldLiteraryFinnish,https://www.kielipankki.fi/corpora/vks,Finnish,plain-text,active,,1543-1700,2745991,,,,,submitted,2026-10-07,
+Vokabulář webový,https://vokabular.ujc.cas.cz/,Czech,plain-text,active,,1450-1696,4848608,,,,,submitted,2026-10-07,
 "Historical Corpus of the Welsh Language, 1500-1850 (HCWL; Corpws Hanesyddol yr Iaith Gymraeg)",https://www.celticstudies.net/,Welsh,tei,archived,"University of Cambridge, Linguistics Dept. (David Willis)",1487-1700,276280,,,,,submitted,2026-10-07,
-Wikisource,https://wikisource.org/,Armenian; Azerbaijani; Breton; Catalan; Croatian; Czech; Danish; Dutch; English; French; German; Hebrew; Hungarian; Icelandic; Italian; Latin; Modern Greek; Polish; Portuguese; Romanian; Slovenian; Spanish; Swedish; Tupi,other,active,,1450-1700,11451738,,,,,submitted,2026-10-07,
+Wikisource,https://wikisource.org/,Armenian; Azerbaijani; Breton; Catalan; Croatian; Czech; Danish; Dutch; English; French; German; Hebrew; Hungarian; Icelandic; Italian; Latin; Modern Greek; Polish; Portuguese; Romanian; Slovenian; Spanish; Swedish; Tupi,wikitext,active,,1450-1700,11451738,,,,,submitted,2026-10-07,
 WiN — Wiedererzählen im Norden. Digitale Analyse weltlicher Erzählungen in niederdeutschen Inkunabeln (WiN-Korpus v1.0),https://www.laudatio-repository.org/browse/corpus/XnU19IIBa2XDdNuCXFx-/corpora,German,tei,archived,"Georg-August-Universität Göttingen (Heike Sahm, Marco Coniglio, Chiara De Bastiani, Anabel Recker, Jan Christian Schaffert; PRO*Niedersachsen)",1480-1480,27584,,,,,submitted,2026-10-07,
 Postil Time Machine (PosTiMe) — digital edition of the Old Lithuanian Postilles incl. the Wolfenbuettel Postille of 1573,https://dh.phil-fak.uni-koeln.de/forschung/abgeschlossene-projekte/postil-time-machine-postime,Lithuanian,tei,archived,Goethe-Universitaet Frankfurt (Jolanta Gelumbeckaite) and Universitaet zu Koeln (Oyvind Eide); DFG 443985248; Wolfenbuettel ms. Cod. Guelf. 11.2 Aug. 2 at the HAB,1573-1573,131626,,,,,submitted,2026-10-07,
-Wolne Lektury,https://wolnelektury.pl/,Polish,other,active,,1555-1680,583360,,,,,submitted,2026-10-07,
+Wolne Lektury,https://wolnelektury.pl/,Polish,xml,active,,1555-1680,583360,,,,,submitted,2026-10-07,
 Women Writers Online,https://www.wwp.northeastern.edu/,English; French; Latin; Italian; Spanish,tei,active,Northeastern University (Women Writers Project),1400-1700,12000000,"Europe, Americas",,,"{'start': 1988, 'end': 'ongoing'}",submitted,2026-10-07,
-ZlatyFond Slovak,https://zlatyfond.sme.sk,Slovak,other,active,,1636-1636,61219,,,,,submitted,2026-10-07,
+ZlatyFond Slovak,https://zlatyfond.sme.sk,Slovak,plain-text,active,,1636-1636,61219,,,,,submitted,2026-10-07,

@@ -115,7 +115,8 @@ def build_entry(group: dict, stats: dict, existing: dict | None, today: str,
         set(entry.get("languages") or []) | {code for code in stats["langs"] if code}
     )
     if merge_stats:
-        entry["encoding"] = "tei" if "tei" in stats["fmts"] else entry.get("encoding", "other")
+        # an explicit "encoding" on the family group overrides the fmt-derived one
+        entry["encoding"] = group.get("encoding") or primary_encoding(stats["fmts"])
         if stats["words"]:
             entry["words"] = stats["words"]
         entry["texts"] = stats["texts"]
@@ -155,7 +156,7 @@ def inventory_entry(collection: str, inv_row: dict, stats: dict, today: str,
         "title": title,
         "url": url,
         "languages": sorted(l for l in stats["langs"] if l),
-        "encoding": "tei" if "tei" in stats["fmts"] else "other",
+        "encoding": primary_encoding(stats["fmts"]),
         "status": "active",
         "provenance": "submitted",
         "date_added": today,
@@ -169,6 +170,18 @@ def inventory_entry(collection: str, inv_row: dict, stats: dict, today: str,
     origin_sample = inv_row["source_ref"][:200]
     entry["notes"] = f"{notes} {origin_sample}".strip()
     return entry
+
+
+FMT_MAP = {"tei": "tei", "xml": "xml", "html": "html", "wiki": "wikitext",
+           "wikitext": "wikitext", "plain": "plain-text", "txt": "plain-text",
+           "md": "markdown"}
+ENCODING_PRECEDENCE = ["tei", "xml", "html", "wikitext", "plain-text", "markdown"]
+
+
+def primary_encoding(fmts: set) -> str:
+    """Primary encoding of a text set, given the RQ fmt_detected values."""
+    codes = {FMT_MAP.get(f, "other") for f in fmts}
+    return next((c for c in ENCODING_PRECEDENCE if c in codes), "other")
 
 
 url_re = re.compile(r'https?://[^\s;,"]+')

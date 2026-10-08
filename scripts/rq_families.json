@@ -247,7 +247,8 @@
       ],
       "title": "Perseus Digital Library",
       "url": "https://www.perseus.tufts.edu/",
-      "institution": "Tufts University"
+      "institution": "Tufts University",
+      "encoding": "tei"
     },
     {
       "slug": "documenta-catholica-omnia",

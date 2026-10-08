@@ -15,7 +15,7 @@ Every entry in `data/entries/` is a single JSON file describing one edition proj
 - the title of the project or collection
 - the URL where the edition can be found
 - the language or languages of the texts
-- the encoding format (TEI, HTML, Markdown, or other)
+- the encoding format (TEI, other XML, HTML, plain text, wiki markup, Markdown, or other)
 - whether the project is active, archived, or discontinued (no longer online)
 - how the entry was added (submitted by a contributor, or discovered by automated search)
 - the date the entry was added
