@@ -178,26 +178,45 @@ def call_agent(api_key: str, system_prompt: str, max_calls: int = MAX_API_CALLS)
         pass
 
     usage = collect_usage(conversation)
-    content = "".join(collect_text_chunks(conversation))
-    if not content.strip():
-        return [], usage
+    chunks = collect_text_chunks(conversation)
 
-    # Strip markdown code blocks if present (agents sometimes wrap JSON).
-    content = content.strip()
-    if content.startswith("```"):
-        content = re.sub(r"^```(?:json)?\s*", "", content)
-        content = re.sub(r"\s*```$", "", content)
+    def parse_json_array(text: str):
+        """Extract the first well-formed JSON array of objects from text.
 
-    try:
-        candidates = json.loads(content)
-        if not isinstance(candidates, list):
-            print(f"Warning: agent returned non-array JSON: {type(candidates)}", file=sys.stderr)
-            return [], usage
-        return candidates, usage
-    except json.JSONDecodeError as e:
-        print(f"Warning: could not parse agent response as JSON: {e}", file=sys.stderr)
-        print(f"Raw response (first 500 chars): {content[:500]}", file=sys.stderr)
+        Brackets are tried from the last one backwards so that the final
+        answer wins over any array-like snippet in earlier reasoning."""
+        dec = json.JSONDecoder()
+        brackets = [m.start() for m in re.finditer(r"\[", text)]
+        for i in reversed(brackets):
+            try:
+                val, _ = dec.raw_decode(text[i:])
+            except json.JSONDecodeError:
+                continue
+            if isinstance(val, list) and (not val or all(isinstance(o, dict) for o in val)):
+                return val
+        return None
+
+    candidates = None
+    # The final message is usually a pure JSON array: try whole chunks first.
+    for chunk in reversed(chunks):
+        stripped = re.sub(r"^```(?:json)?\s*|\s*```$", "", chunk.strip())
+        try:
+            val = json.loads(stripped)
+        except json.JSONDecodeError:
+            continue
+        if isinstance(val, list) and (not val or all(isinstance(o, dict) for o in val)):
+            candidates = val
+            break
+    if candidates is None:
+        joined = "".join(chunks)
+        candidates = parse_json_array(joined)
+
+    if candidates is None:
+        print(f"Warning: could not parse agent response as JSON. "
+              f"Raw response (last 500 chars): {(''.join(chunks))[-500:]}",
+              file=sys.stderr)
         return [], usage
+    return candidates, usage
 
 
 def estimate_cost(usage: dict) -> float:
