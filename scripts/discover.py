@@ -76,35 +76,44 @@ def load_prompt(existing_entries: list[dict]) -> str:
     return prompt.replace("{EXISTING_ENTRIES}", existing)
 
 
-def call_agent(api_key: str, system_prompt: str, max_calls: int = MAX_API_CALLS) -> tuple[list[dict], dict]:
-    """Call the Mistral API chat completions endpoint directly (raw JSON).
+def collect_text_chunks(node) -> list:
+    """Deep-collect the text chunks of an Agents-API response."""
+    texts = []
+    stack = [node]
+    while stack:
+        n = stack.pop(0)  # FIFO: text chunks are joined in document order
+        if isinstance(n, dict):
+            if n.get("type") == "text" and isinstance(n.get("text"), str):
+                texts.append(n["text"])
+            stack.extend(n.values())
+        elif isinstance(n, list):
+            stack.extend(n)
+    return texts
 
-    We bypass the SDK: its strict pydantic unmarshalling breaks on the
-    response shapes returned when the web_search tool is enabled, and the
-    raw JSON body we parse here is stable across SDK releases.
-    """
-    payload = {
-        "model": MODEL,
-        "messages": [
-            {"role": "system", "content": system_prompt},
-            {
-                "role": "user",
-                "content": (
-                    "Run your weekly discovery search. Search Zenodo, DARIAH, re3data, "
-                    "GitHub, and the general web for new digital edition projects of "
-                    "Renaissance-era texts (1450-1700) that are not in the catalogue. "
-                    "Return up to 10 candidates in the exact JSON format specified in "
-                    "your instructions. If you find nothing new, return an empty array."
-                ),
-            },
-        ],
-        "tools": [{"type": "web_search"}],
-        "max_tokens": 8192,
-        "temperature": 0.3,
-    }
+
+def collect_usage(node) -> dict:
+    """First usage object found in the response (token counts)."""
+    stack = [node]
+    while stack:
+        n = stack.pop()
+        if isinstance(n, dict):
+            u = n.get("usage")
+            if isinstance(u, dict):
+                return {
+                    "input_tokens": u.get("prompt_tokens", 0) or 0,
+                    "output_tokens": u.get("completion_tokens", 0) or 0,
+                }
+            stack.extend(n.values())
+        elif isinstance(n, list):
+            stack.extend(n)
+    return {"input_tokens": 0, "output_tokens": 0}
+
+
+def mistral_post(path: str, body: dict, api_key: str) -> dict:
+    """POST a JSON body to the Mistral API and return the parsed response."""
     req = urllib.request.Request(
-        "https://api.mistral.ai/v1/chat/completions",
-        data=json.dumps(payload).encode("utf-8"),
+        f"https://api.mistral.ai{path}",
+        data=json.dumps(body).encode("utf-8"),
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
@@ -114,37 +123,63 @@ def call_agent(api_key: str, system_prompt: str, max_calls: int = MAX_API_CALLS)
     )
     try:
         with urllib.request.urlopen(req, timeout=300) as resp:
-            result = json.loads(resp.read())
+            return json.loads(resp.read())
     except urllib.error.HTTPError as e:
-        print(f"Mistral API error {e.code}: {e.read()[:300]}", file=sys.stderr)
+        print(f"Mistral API error {e.code} on {path}: {e.read()[:300]}", file=sys.stderr)
         sys.exit(3)
     except Exception as e:
-        print(f"Mistral API request failed: {e}", file=sys.stderr)
+        print(f"Mistral API request failed ({path}): {e}", file=sys.stderr)
         sys.exit(3)
 
-    usage = result.get("usage", {})
-    usage = {
-        "input_tokens": usage.get("prompt_tokens", 0) or 0,
-        "output_tokens": usage.get("completion_tokens", 0) or 0,
-    }
 
-    choices = result.get("choices") or []
-    message = (choices[0].get("message") or {}) if choices else {}
-    content = message.get("content")
-    if not content:
-        return [], usage
+def call_agent(api_key: str, system_prompt: str, max_calls: int = MAX_API_CALLS) -> tuple[list[dict], dict]:
+    """Run one discovery conversation with web search enabled.
 
-    # With the web_search tool, content can be a list of typed chunks;
-    # keep only the text parts.
-    if isinstance(content, list):
-        parts = []
-        for chunk in content:
-            if isinstance(chunk, dict) and chunk.get("type") == "text":
-                parts.append(chunk.get("text", ""))
-            elif isinstance(chunk, str):
-                parts.append(chunk)
-        content = "".join(parts)
-    if not isinstance(content, str) or not content.strip():
+    The web_search tool lives on the Agents/Conversations API (it is
+    rejected by /v1/chat/completions). We create a one-off agent carrying
+    the system prompt, run a single conversation, extract the text chunks,
+    and delete the agent afterwards.
+    """
+    agent = mistral_post("/v1/agents", {
+        "model": MODEL,
+        "name": "renascor-discovery",
+        "description": "Weekly discovery of digital edition projects for the "
+                       "Renascor catalogue.",
+        "instructions": system_prompt,
+        "tools": [{"type": "web_search"}],
+        "completion_args": {"temperature": 0.3, "max_tokens": 8192},
+    }, api_key)
+    agent_id = agent.get("id") or agent.get("agent_id")
+
+    conversation = mistral_post("/v1/conversations", {
+        "agent_id": agent_id,
+        "inputs": [{
+            "role": "user",
+            "content": (
+                "Run your weekly discovery search. Search Zenodo, DARIAH, re3data, "
+                "GitHub, and the general web for new digital edition projects of "
+                "Renaissance-era texts (1450-1700) that are not in the catalogue. "
+                "Return up to 10 candidates in the exact JSON format specified in "
+                "your instructions. If you find nothing new, return an empty array."
+            ),
+        }],
+    }, api_key)
+
+    # Clean up the one-off agent (best effort).
+    try:
+        del_req = urllib.request.Request(
+            f"https://api.mistral.ai/v1/agents/{agent_id}",
+            headers={"Authorization": f"Bearer {api_key}",
+                     "User-Agent": "renascor-discovery/1.0"},
+            method="DELETE",
+        )
+        urllib.request.urlopen(del_req, timeout=60)
+    except Exception:
+        pass
+
+    usage = collect_usage(conversation)
+    content = "".join(collect_text_chunks(conversation))
+    if not content.strip():
         return [], usage
 
     # Strip markdown code blocks if present (agents sometimes wrap JSON).
