@@ -222,78 +222,87 @@ def call_agent(api_key: str, system_prompt: str, max_calls: int = MAX_API_CALLS)
     }, api_key)
     agent_id = agent.get("id") or agent.get("agent_id")
 
-    conv_id, streamed_texts, usage = mistral_stream_conversation({
-        "agent_id": agent_id,
-        "inputs": [{
-            "role": "user",
-            "content": (
-                "Run your weekly discovery search. Search Zenodo, DARIAH, re3data, "
-                "GitHub, and the general web for new digital edition projects of "
-                "Renaissance-era texts (1450-1700) that are not in the catalogue. "
-                "Return up to 10 candidates in the exact JSON format specified in "
-                "your instructions. If you find nothing new, return an empty array."
-            ),
-        }],
-    }, api_key)
+    SEARCH_TASK = (
+        "Run your weekly discovery search. Search Zenodo, DARIAH, re3data, "
+        "GitHub, and the general web for new digital edition projects of "
+        "Renaissance-era texts (1450-1700) that are not in the catalogue. "
+        "You have a limited web-search budget: at most 10 searches, then "
+        "stop. As soon as you have up to 10 solid candidates — or nothing "
+        "new — immediately return the JSON array exactly as specified in "
+        "your instructions, as your one final message with no commentary."
+    )
+    RETRY_TASK = (
+        "Your previous run hit its web-search limit before returning the "
+        "final answer. Retry once, more economically: at most 6 searches. "
+        "Your final message must be ONLY the JSON array (possibly empty) "
+        "exactly as specified in your instructions."
+    )
 
-    # Clean up the one-off agent (best effort).
-    try:
-        del_req = urllib.request.Request(
-            f"https://api.mistral.ai/v1/agents/{agent_id}",
-            headers={"Authorization": f"Bearer {api_key}",
-                     "User-Agent": "renascor-discovery/1.0"},
-            method="DELETE",
-        )
-        urllib.request.urlopen(del_req, timeout=60)
-    except Exception:
-        pass
+    def parse_candidates(chunks: list) -> tuple[list | None, list]:
+        """Extract the final JSON array from a list of text chunks."""
+        def parse_json_array(text: str):
+            """Brackets tried from the last one backwards: the final answer
+            wins over array-like snippets in earlier reasoning."""
+            dec = json.JSONDecoder()
+            brackets = [m.start() for m in re.finditer(r"\[", text)]
+            for i in reversed(brackets):
+                try:
+                    val, _ = dec.raw_decode(text[i:])
+                except json.JSONDecodeError:
+                    continue
+                if isinstance(val, list) and (not val or all(isinstance(o, dict) for o in val)):
+                    return val
+            return None
 
-    # Prefer the stored conversation (canonical, complete outputs) over the
-    # streamed deltas.
-    chunks = []
-    if conv_id:
-        stored = mistral_get(f"/v1/conversations/{conv_id}", api_key)
-        chunks = collect_text_chunks(stored)
-    if not chunks:
-        chunks = streamed_texts
-
-    def parse_json_array(text: str):
-        """Extract the first well-formed JSON array of objects from text.
-
-        Brackets are tried from the last one backwards so that the final
-        answer wins over any array-like snippet in earlier reasoning."""
-        dec = json.JSONDecoder()
-        brackets = [m.start() for m in re.finditer(r"\[", text)]
-        for i in reversed(brackets):
+        # The final message is usually a pure JSON array: whole chunks first.
+        for chunk in reversed(chunks):
+            stripped = re.sub(r"^```(?:json)?\s*|\s*```$", "", chunk.strip())
             try:
-                val, _ = dec.raw_decode(text[i:])
+                val = json.loads(stripped)
             except json.JSONDecodeError:
                 continue
             if isinstance(val, list) and (not val or all(isinstance(o, dict) for o in val)):
                 return val
-        return None
+        return parse_json_array("".join(chunks))
 
-    candidates = None
-    # The final message is usually a pure JSON array: try whole chunks first.
-    for chunk in reversed(chunks):
-        stripped = re.sub(r"^```(?:json)?\s*|\s*```$", "", chunk.strip())
-        try:
-            val = json.loads(stripped)
-        except json.JSONDecodeError:
-            continue
-        if isinstance(val, list) and (not val or all(isinstance(o, dict) for o in val)):
-            candidates = val
-            break
+    def run_conversation(task: str):
+        conv_id, streamed, usage = mistral_stream_conversation({
+            "agent_id": agent_id,
+            "inputs": [{"role": "user", "content": task}],
+        }, api_key)
+        # Prefer the stored conversation (canonical, complete outputs).
+        chunks = []
+        if conv_id:
+            stored = mistral_get(f"/v1/conversations/{conv_id}", api_key)
+            chunks = collect_text_chunks(stored)
+        if not chunks:
+            chunks = streamed
+        return chunks, usage
+
+    chunks, usage = run_conversation(SEARCH_TASK)
+    candidates = parse_candidates(chunks)
+
+    # One retry: the model sometimes burns its web-search budget mid-run
+    # and never returns the final JSON array.
     if candidates is None:
-        joined = "".join(chunks)
-        candidates = parse_json_array(joined)
+        print("No parseable JSON array; retrying once with a fresh "
+              "conversation...", file=sys.stderr)
+        retry_chunks, retry_usage = run_conversation(RETRY_TASK)
+        candidates = parse_candidates(retry_chunks)
+        usage = {
+            "input_tokens": usage["input_tokens"] + retry_usage["input_tokens"],
+            "output_tokens": usage["output_tokens"] + retry_usage["output_tokens"],
+        }
+        if candidates is not None:
+            chunks = retry_chunks
 
     if candidates is None:
         print(f"Warning: could not parse agent response as JSON. "
-              f"Raw response (last 500 chars): {(''.join(chunks))[-500:]}",
-              file=sys.stderr)
+              f"({len(chunks)} text chunks, {len(''.join(chunks))} chars; "
+              f"last 500 chars: {(''.join(chunks))[-500:]})", file=sys.stderr)
         return [], usage
     return candidates, usage
+
 
 def estimate_cost(usage: dict) -> float:
     """Estimate cost in USD from token usage."""
