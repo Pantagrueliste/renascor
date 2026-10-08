@@ -3,16 +3,18 @@
 
 The agent searches the web (Zenodo, DARIAH, re3data, GitHub, general web) for
 new digital editions of Renaissance-era texts that are not yet in the catalogue.
-Candidates are never merged automatically. This script opens a GitHub issue
-containing the proposed entries, labelled 'discovered', for human review.
+Candidates are never merged automatically. This script opens a pull request
+containing the proposed entries (one JSON file per candidate in data/entries/),
+labelled 'discovered', for human review and merge.
 
 Usage:
     python scripts/discover.py --api-key $MISTRAL_API_KEY
-    python scripts/discover.py --dry-run   # print candidates without opening an issue
+    python scripts/discover.py --dry-run   # print candidates without opening a PR
 
 Requires:
     - MISTRAL_API_KEY environment variable (or --api-key)
-    - GITHUB_TOKEN environment variable (for opening issues; optional with --dry-run)
+    - GITHUB_TOKEN environment variable (for opening the PR; optional with --dry-run)
+    - git and gh CLI available
     - mistralai Python package: pip install mistralai
 """
 from __future__ import annotations
@@ -192,17 +194,30 @@ def validate_candidates(candidates: list[dict], schema_path: Path) -> tuple[list
     return valid, errors
 
 
-def open_issue(entries: list[dict], cost: float, usage: dict) -> str | None:
-    """Open a GitHub issue with the proposed entries. Returns the issue URL."""
-    if not entries:
-        return None
+def slugify(name: str) -> str:
+    """File name (without .json) for an entry, from its title."""
+    return re.sub(r"[^a-z0-9]+", "-", name.lower()).strip("-")
 
-    token = os.environ.get("GITHUB_TOKEN")
-    if not token:
-        print("Warning: GITHUB_TOKEN not set; cannot open issue", file=sys.stderr)
-        return None
 
-    # Build the issue body.
+def normalize_url(url: str) -> str:
+    """Loose canonical form of a URL, for duplicate detection."""
+    url = (url or "").strip().lower().rstrip("/")
+    return re.sub(r"^https?://", "", url)
+
+
+def deduplicate(candidates: list[dict], existing: list[dict]) -> tuple[list[dict], list[str]]:
+    """Drop candidates whose URL is already in the catalogue. Returns (kept, dropped)."""
+    known = {normalize_url(e.get("url", "")) for e in existing}
+    kept, dropped = [], []
+    for c in candidates:
+        if normalize_url(c.get("url", "")) in known:
+            dropped.append(c.get("title", "?"))
+        else:
+            kept.append(c)
+    return kept, dropped
+
+
+def build_pr_body(entries: list[dict], cost: float, usage: dict) -> str:
     lines = [
         "## Discovered candidates",
         "",
@@ -211,7 +226,9 @@ def open_issue(entries: list[dict], cost: float, usage: dict) -> str | None:
         f"**Estimated cost:** ${cost:.4f} "
         f"({usage['input_tokens']:,} input tokens, {usage['output_tokens']:,} output tokens)",
         "",
-        "These candidates are **not yet in the catalogue**. A human must review each one.",
+        "These candidates are **not yet in the catalogue**. Merging this pull "
+        "request adds the candidate JSON files to `data/entries/`; every "
+        "candidate should be reviewed first.",
         "",
         "---",
         "",
@@ -222,8 +239,9 @@ def open_issue(entries: list[dict], cost: float, usage: dict) -> str | None:
             "",
             f"- **URL:** {entry['url']}",
             f"- **Languages:** {', '.join(entry.get('languages', []))}",
-            f"- **Encoding:** {entry['encoding']}",
-            f"- **Status:** {entry['status']}",
+            f"- **Encoding:** {entry.get('encoding', 'other')}",
+            f"- **Status:** {entry.get('status', 'active')}",
+            f"- **File:** `data/entries/{entry.get('_file')}`",
         ])
         if entry.get("institution"):
             lines.append(f"- **Institution:** {entry['institution']}")
@@ -235,15 +253,7 @@ def open_issue(entries: list[dict], cost: float, usage: dict) -> str | None:
             lines.append(f"- **Words:** {entry['words']:,}")
         if entry.get("notes"):
             lines.append(f"- **Notes:** {entry['notes']}")
-        lines.extend([
-            "",
-            "**Proposed entry JSON:**",
-            "",
-            "```json",
-            json.dumps(entry, indent=2, ensure_ascii=False),
-            "```",
-            "",
-        ])
+        lines.append("")
 
     lines.extend([
         "---",
@@ -257,17 +267,92 @@ def open_issue(entries: list[dict], cost: float, usage: dict) -> str | None:
         "- [ ] The entry is not a duplicate of an existing catalogue entry",
         "- [ ] The metadata (languages, encoding, status) is accurate",
         "",
-        "To accept a candidate: add the JSON to `data/entries/` as a new file, "
-        "run `python scripts/build_site.py`, and commit.",
+        "To accept a candidate: merge the pull request. To reject one: delete "
+        "its JSON file from the branch and commit (or edit it in place).",
     ])
 
-    body = "\n".join(lines)
-    title = f"[discovered] {len(entries)} new candidate(s) — {date.today().isoformat()}"
+    return "\n".join(lines)
 
-    # Use gh CLI to create the issue.
+
+def ensure_labels(labels: list[str], token: str) -> None:
+    """Create the triage labels if they do not exist yet (idempotent)."""
+    colors = {"discovered": "0e8a16", "status:needs-review": "fbca04"}
+    for label in labels:
+        result = subprocess.run(
+            ["gh", "label", "create", label,
+             "--color", colors.get(label, "ededed")],
+            capture_output=True,
+            text=True,
+            env={**os.environ, "GH_TOKEN": token},
+        )
+        if result.returncode != 0 and "already exists" not in result.stderr + result.stdout:
+            print(f"Warning: could not create label '{label}': "
+                  f"{result.stderr.strip()}", file=sys.stderr)
+
+
+def open_pull_request(entries: list[dict], cost: float, usage: dict) -> str | None:
+    """Commit the candidate entries on a branch and open a pull request.
+
+    Returns the PR URL, or None on failure.
+    """
+    if not entries:
+        return None
+
+    token = os.environ.get("GITHUB_TOKEN")
+    if not token:
+        print("Warning: GITHUB_TOKEN not set; cannot open pull request", file=sys.stderr)
+        return None
+
+    repo = os.environ.get("GITHUB_REPOSITORY", "Pantagrueliste/renascor")
+    branch = f"discovered/{date.today().isoformat()}"
+    today = date.today().isoformat()
+    title = f"[discovered] {len(entries)} new candidate(s) — {today}"
+    body = build_pr_body(entries, cost, usage)
+
+    def git(*args: str) -> str:
+        result = subprocess.run(["git", *args], capture_output=True, text=True,
+                                env={**os.environ})
+        if result.returncode != 0:
+            raise RuntimeError(f"git {' '.join(args)}: {result.stderr.strip()}")
+        return result.stdout.strip()
+
+    git("config", "user.name", "github-actions[bot]")
+    git("config", "user.email", "41898282+github-actions[bot]@users.noreply.github.com")
+    git("checkout", "-B", branch)
+
+    files = []
+    for entry in entries:
+        slug = entry.pop("_file", None) or slugify(entry["title"])
+        path = ENTRIES_DIR / f"{slug}.json"
+        path.write_text(
+            json.dumps(entry, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+        files.append("data/entries/" + f"{slug}.json")
+
+    git("add", *files)
+    git("commit", "-m", f"Add {len(entries)} candidate edition(s) discovered on {today}")
+
+    remote = f"https://x-access-token:{token}@github.com/{repo}.git"
+    try:
+        git("push", remote, branch)
+    except RuntimeError as e:
+        if "already exists" not in str(e):
+            raise
+        # Branch already on the remote (prior run today): pick a fresh name.
+        import datetime as _dt
+        branch = (f"discovered/{today}-"
+                  f"{_dt.datetime.now().strftime('%H%M')}")
+        git("checkout", "-B", branch)
+        git("push", remote, branch)
+
+    ensure_labels(["discovered", "status:needs-review"], token)
     result = subprocess.run(
         [
-            "gh", "issue", "create",
+            "gh", "pr", "create",
+            "--repo", repo,
+            "--base", "main",
+            "--head", branch,
             "--title", title,
             "--body", body,
             "--label", "discovered,status:needs-review",
@@ -277,7 +362,7 @@ def open_issue(entries: list[dict], cost: float, usage: dict) -> str | None:
         env={**os.environ, "GH_TOKEN": token},
     )
     if result.returncode != 0:
-        print(f"Error creating issue: {result.stderr}", file=sys.stderr)
+        print(f"Error creating pull request: {result.stderr}", file=sys.stderr)
         return None
     return result.stdout.strip()
 
@@ -287,7 +372,7 @@ def main() -> int:
     parser.add_argument("--api-key", default=os.environ.get("MISTRAL_API_KEY"),
                         help="Mistral API key (or set MISTRAL_API_KEY)")
     parser.add_argument("--dry-run", action="store_true",
-                        help="Print candidates without opening an issue")
+                        help="Print candidates without opening a pull request")
     parser.add_argument("--max-calls", type=int, default=MAX_API_CALLS,
                         help=f"Maximum API calls per run (default: {MAX_API_CALLS})")
     args = parser.parse_args()
@@ -331,23 +416,37 @@ def main() -> int:
         print("No valid candidates after validation.")
         return 1
 
+    # Drop candidates whose URL is already catalogued.
+    valid_entries, known_dropped = deduplicate(valid_entries, existing)
+    for title in known_dropped:
+        print(f"Dropped as duplicate URL of an existing entry: {title}")
+    if not valid_entries:
+        print("No new candidates after duplicate check.")
+        return 0
+
+    # Give each entry its target file name, shown in the PR body.
+    for entry in valid_entries:
+        entry["_file"] = slugify(entry["title"]) + ".json"
+
     # Dry run: print and exit.
     if args.dry_run:
         print("\n--- DRY RUN: candidates ---")
         for entry in valid_entries:
-            print(json.dumps(entry, indent=2, ensure_ascii=False))
+            print(json.dumps({k: v for k, v in entry.items() if k != '_file'},
+                             indent=2, ensure_ascii=False))
             print()
         return 0
 
-    # Open an issue with the candidates.
-    print("\nOpening GitHub issue with candidates...")
-    issue_url = open_issue(valid_entries, cost, usage)
-    if issue_url:
-        print(f"Issue created: {issue_url}")
+    # Open a pull request with the candidates.
+    print("\nOpening pull request with candidates...")
+    pr_url = open_pull_request(valid_entries, cost, usage)
+    if pr_url:
+        print(f"Pull request created: {pr_url}")
     else:
-        print("Failed to create issue. Candidates were:")
+        print("Failed to create pull request. Candidates were:")
         for entry in valid_entries:
-            print(json.dumps(entry, indent=2, ensure_ascii=False))
+            print(json.dumps({k: v for k, v in entry.items() if k != '_file'},
+                             indent=2, ensure_ascii=False))
 
     return 0
 

@@ -12,7 +12,7 @@ This directory contains the system prompt for the weekly discovery agent.
 
 4. **Output.** The agent returns a JSON array of candidates in the catalogue schema. The script validates each candidate against `schema/entry.schema.json`.
 
-5. **Human review.** Candidates are **never** merged automatically. The script opens a GitHub issue labelled `discovered` containing the proposed entries. A human reviews each candidate before it enters the catalogue.
+5. **Human review.** Candidates are **never** merged automatically. The script commits the proposed entries on a branch `discovered/<date>` and opens a pull request labelled `discovered`. A human reviews each candidate and merges or rejects the PR.
 
 ## Cost control
 

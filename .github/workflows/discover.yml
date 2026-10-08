@@ -3,7 +3,8 @@ name: Weekly discovery
 # Runs a Mistral agent weekly (and on manual trigger) to discover new digital
 # edition projects. The agent searches the web and returns candidates in the
 # catalogue schema. Candidates are never merged automatically: the workflow
-# opens a GitHub issue labelled 'discovered' for human review.
+# commits the candidate entries on a branch 'discovered/<date>' and opens a
+# pull request labelled 'discovered' for human review.
 #
 # Cost control: hard cap of 1 API call per run, using Mistral Large 4
 # (mistral-large-4-0, preview rate $0.68/M input, $2.09/M output).
@@ -15,13 +16,14 @@ on:
     - cron: '0 6 * * 1'
   workflow_dispatch:
 
-permissions:
-  issues: write
-  contents: read
-
 concurrency:
   group: discover
   cancel-in-progress: false
+
+# The discovery job pushes a branch and opens a pull request for review.
+permissions:
+  contents: write
+  pull-requests: write
 
 jobs:
   discover:
