@@ -1,0 +1,15 @@
+{
+  "title": "travel!digital — corpus of travel accounts (Kontextualisierung von Reiseberichten)",
+  "url": "https://www.digitale-edition.at/archive/objects/o:konde.p18/",
+  "languages": [
+    "German"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-08",
+  "institution": "Austrian Centre for Digital Humanities and Cultural Heritage (ACDH), Austrian Academy of Sciences",
+  "period": "early modern (believed 16th–18th century; uncertain)",
+  "region": "Austria / German-speaking Europe",
+  "notes": "Full-text corpus of travel accounts with linguistic and semantic mark-up, a documented TEI schema, and digital facsimiles of all volumes, archived in ARCHE (digitale-edition.at). Uncertainties: the exact period coverage (whether the majority of the corpus falls within 1450–1700) and the current project website were not verified — the ARCHE collection page blocked automated reading — and the language composition of the travel accounts may go beyond German. Verify scope before cataloguing.\n\nJustification: An ACDH corpus project providing TEI-encoded, linguistically annotated full text of early modern travel literature together with facsimiles; found via a re3data/DARIAH-oriented web search. Not in the catalogue (the catalogue lists ABaC:us from the same institute, which is a different project).\nFound at: https://www.digitale-edition.at/archive/objects/o:konde.p18/datastreams/TEI_SOURCE/content"
+}

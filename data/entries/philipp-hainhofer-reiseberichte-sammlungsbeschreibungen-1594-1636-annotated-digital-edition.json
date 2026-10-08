@@ -1,0 +1,19 @@
+{
+  "title": "Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636 (annotated digital edition)",
+  "url": "https://hainhofer.hab.de/",
+  "languages": [
+    "German"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-08",
+  "institution": "Herzog August Bibliothek Wolfenbüttel (DFG long-term project; research data archived at arthistoricum.net@heiDATA, Universität Heidelberg)",
+  "period": "1594–1636 (17th century)",
+  "region": "Germany (Augsburg and the courts of southern Germany)",
+  "years_active": {
+    "start": 2020,
+    "end": "ongoing"
+  },
+  "notes": "Annotated digital edition presenting the travel accounts and collection descriptions of the Augsburg merchant and cultural broker Philipp Hainhofer (1578–1647) for the first time in full, with manuscript facsimiles, full text, critical apparatus and text/image commentaries. TEI/XML transcriptions and registers are archived on arthistoricum.net@heiDATA. Edition website went online in 2020 (first DFG phase, Munich journeys 1603–1636); further phases are scheduled until 2029, so the project is ongoing.\n\nJustification: A DFG-funded scholarly digital edition of 17th-century travel manuscripts with TEI/XML full text and critical apparatus, squarely inside the 1450–1700 window. Found via the DARIAH-DE partner projects page and the TEI Consortium projects list; the URL was verified live. Not in the catalogue.\nFound at: https://de.dariah.eu/en/mitmachen/partnerprojekte/"
+}

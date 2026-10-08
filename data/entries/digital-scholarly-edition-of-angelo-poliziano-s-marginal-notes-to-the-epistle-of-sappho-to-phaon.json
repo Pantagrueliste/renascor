@@ -1,0 +1,17 @@
+{
+  "title": "Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon",
+  "url": "https://github.com/AndreaLaVeglia/Postille_Poliziano_Sappho_EVT",
+  "languages": [
+    "Italian",
+    "Latin",
+    "Ancient Greek"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-08",
+  "institution": "Università di Salerno, Sapienza Università di Roma, Università di Napoli Federico II, Università di Torino, CNR-ILC",
+  "period": "15th century (Angelo Poliziano, 1454–1494)",
+  "region": "Italy",
+  "notes": "EVT 2-based digital scholarly edition encoding multiple edition levels of Poliziano's manuscript annotations on the Epistle of Sappho to Phaon, with Wikidata items and CTS URNs; the dataset is also deposited on Zenodo (doi:10.5281/zenodo.17315766). It is a single-work edition, but carries a full scholarly apparatus (diplomatic and critical layers, apparatus of marks), so it is included despite the single-author caveat.\n\nJustification: A peer-reviewed (Journal of Open Humanities Data, 2025) TEI digital scholarly edition of a 15th-century Renaissance manuscript annotation corpus. Found via Zenodo and Journal of Open Humanities Data search results. Not in the catalogue.\nFound at: https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.493"
+}
