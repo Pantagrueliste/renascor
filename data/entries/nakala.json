@@ -1,5 +1,5 @@
 {
-  "title": "Nakala",
+  "title": "Latin texts deposited on the Nakala repository (Huma-Num)",
   "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
   "languages": [
     "French",
@@ -12,5 +12,6 @@
   "words": 2904654,
   "texts": 109,
   "period": "1458-1698",
-  "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin. Original harvest trace: Nakala (Huma-Num, nakala.fr)"
+  "notes": "109 French and Latin texts (1458-1698) deposited on Nakala, the research-data repository of Huma-Num (CNRS), as individual datasets carrying no project-level metadata. We searched the Nakala platform and the RQ attributions manifest but could not identify the depositor or the scholarly project the texts belong to, so this entry documents a platform-level deposit only; the underlying datasets remain accessible through the frozen RQ release referenced here and their harvest reference is 'Nakala (Huma-Num, nakala.fr)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "institution": "Nakala, research-data repository of Huma-Num (CNRS) and IRD"
 }

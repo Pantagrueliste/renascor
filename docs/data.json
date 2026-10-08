@@ -594,7 +594,7 @@
         "Modern Greek"
       ],
       "encoding": "other",
-      "status": "active",
+      "status": "discontinued",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 1736,
@@ -1505,21 +1505,6 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://archive.org/details/vocabularioenlen00gilb; rebuild/gilberti_purepecha_source_selection_2026-06-24.tsv; data/raw/Gilberti_Purepecha/Gilberti_Purepecha.jsonl; rebuild/rawtree_full_lock_2026-07-"
     },
     {
-      "title": "GitHubTEI",
-      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
-      "languages": [
-        "Spanish"
-      ],
-      "encoding": "tei",
-      "status": "active",
-      "provenance": "submitted",
-      "date_added": "2026-10-07",
-      "words": 36856,
-      "texts": 3,
-      "period": "1612-1627",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin. Original harvest trace: GitHub arojascastro/soledades: edicion/anotada/input/soledades_anotada.xml ; GitHub arojascastro/soledades: edicion/critica/soledades_critica.xml"
-    },
-    {
       "title": "GlasgowEmblems",
       "url": "https://www.emblems.arts.gla.ac.uk",
       "languages": [
@@ -1552,6 +1537,22 @@
       "texts": 31,
       "period": "1594-1697",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://ilg.usc.gal/gondomar/; rebuild/gondomar_galician_source_selection_2026-06-24.tsv; data/raw/Gondomar_Galician/Gondomar_Galician.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+    },
+    {
+      "title": "Soledades. Edición digital (Luis de Góngora, 1613) — ed. Antonio Rojas Castro",
+      "url": "https://github.com/arojascastro/soledades",
+      "status": "active",
+      "provenance": "submitted",
+      "date_added": "2026-10-08",
+      "institution": "ed. Antonio Rojas Castro",
+      "notes": "TEI encodings and datasets supporting the digital edition of Góngora's Soledades (1613) in the arojascastro/soledades GitHub repository: an annotated edition (soledades_anotada.xml), a critical edition (soledades_critica.xml) and simple transcriptions. The RQ harvest labelled this set 'GitHubTEI'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "languages": [
+        "Spanish"
+      ],
+      "encoding": "tei",
+      "words": 36856,
+      "texts": 3,
+      "period": "1612-1627"
     },
     {
       "title": "Obras de Góngora (obra poética, ed. Antonio Carreira) — Labex OBVIL GONGORA project",
@@ -1999,7 +2000,7 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.history.ucsb.edu/; rebuild/nahuatl_depth_source_selection_2026-06-24.tsv; data/raw/Nahuatl_depth/Nahuatl_depth.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
     },
     {
-      "title": "Nakala",
+      "title": "Latin texts deposited on the Nakala repository (Huma-Num)",
       "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen",
       "languages": [
         "French",
@@ -2012,7 +2013,8 @@
       "words": 2904654,
       "texts": 109,
       "period": "1458-1698",
-      "notes": "No public project page could be verified for this collection; it is documented here as a corpus collection of the RQ Open Corpus snapshot (v2026.06-frozen). The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin. Original harvest trace: Nakala (Huma-Num, nakala.fr)"
+      "notes": "109 French and Latin texts (1458-1698) deposited on Nakala, the research-data repository of Huma-Num (CNRS), as individual datasets carrying no project-level metadata. We searched the Nakala platform and the RQ attributions manifest but could not identify the depositor or the scholarly project the texts belong to, so this entry documents a platform-level deposit only; the underlying datasets remain accessible through the frozen RQ release referenced here and their harvest reference is 'Nakala (Huma-Num, nakala.fr)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+      "institution": "Nakala, research-data repository of Huma-Num (CNRS) and IRD"
     },
     {
       "title": "The Newton Project",
@@ -2064,7 +2066,7 @@
     },
     {
       "title": "OBVIL — corpus d'éditions anciennes françaises (Teinte)",
-      "url": "https://github.com/OBVIL",
+      "url": "https://obtic.sorbonne-universite.fr/corpus",
       "languages": [
         "French"
       ],
@@ -2076,7 +2078,7 @@
       "texts": 3,
       "institution": "LabEx OBVIL, Sorbonne Université",
       "period": "1557-1694",
-      "notes": "Born-digital TEI corpora of early-modern French texts from LabEx OBVIL (Sorbonne Université), encoded with the Teinte toolchain (lauze_apologie-danse_1623, Faceties 1557, La Bruyère 1694, etc.); CC BY-NC-ND. Org-level attribution: corpus repositories and the Teinte tool live on the OBVIL GitHub org (verified), while the lab's reading sites (obvil.sorbonne-universite.fr, obtic.huma-num.fr) refused connections from two networks at check time. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+      "notes": "Born-digital TEI corpora of early-modern French texts from LabEx OBVIL (Sorbonne Université), encoded with the Teinte toolchain (lauze_apologie-danse_1623, Faceties 1557, La Bruyère 1694, etc.); CC BY-NC-ND. The lab's data platform ObTIC (obtic.sorbonne-universite.fr/corpus, verified) indexes the freely available OBVIL corpora; the reading corpus pages live on the OBVIL GitHub organisation (https://github.com/OBVIL), and obvil.sorbonne-universite.fr refused connections at check time. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
       "title": "OBVIL — corpus La Haine du théâtre (querelle du théâtre)",
@@ -2116,7 +2118,7 @@
         "Spanish"
       ],
       "encoding": "other",
-      "status": "active",
+      "status": "discontinued",
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "words": 203336,

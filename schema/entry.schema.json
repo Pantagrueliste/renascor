@@ -4,7 +4,15 @@
   "title": "Renascor entry",
   "description": "A single catalogue entry describing a digital edition project of Renaissance-era written documents.",
   "type": "object",
-  "required": ["title", "url", "languages", "encoding", "status", "provenance", "date_added"],
+  "required": [
+    "title",
+    "url",
+    "languages",
+    "encoding",
+    "status",
+    "provenance",
+    "date_added"
+  ],
   "additionalProperties": false,
   "properties": {
     "title": {
@@ -30,17 +38,29 @@
     },
     "encoding": {
       "type": "string",
-      "enum": ["tei", "html", "markdown", "other"],
+      "enum": [
+        "tei",
+        "html",
+        "markdown",
+        "other"
+      ],
       "description": "Encoding format of the digital edition. TEI = Text Encoding Initiative XML."
     },
     "status": {
       "type": "string",
-      "enum": ["active", "archived"],
+      "enum": [
+        "active",
+        "archived",
+        "discontinued"
+      ],
       "description": "Whether the project is currently active (active) or no longer maintained (archived)."
     },
     "provenance": {
       "type": "string",
-      "enum": ["submitted", "discovered"],
+      "enum": [
+        "submitted",
+        "discovered"
+      ],
       "description": "How the entry was added. 'submitted' = contributed by a human via issue or pull request. 'discovered' = found by the automated weekly search."
     },
     "date_added": {
@@ -86,7 +106,9 @@
     "years_active": {
       "type": "object",
       "description": "Years during which the project was active. Optional.",
-      "required": ["start"],
+      "required": [
+        "start"
+      ],
       "additionalProperties": false,
       "properties": {
         "start": {
@@ -98,8 +120,15 @@
         "end": {
           "description": "Year the project ended, or the string 'ongoing' if still active.",
           "oneOf": [
-            { "type": "integer", "minimum": 1400, "maximum": 2100 },
-            { "type": "string", "const": "ongoing" }
+            {
+              "type": "integer",
+              "minimum": 1400,
+              "maximum": 2100
+            },
+            {
+              "type": "string",
+              "const": "ongoing"
+            }
           ]
         }
       }

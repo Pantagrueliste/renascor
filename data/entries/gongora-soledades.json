@@ -1,0 +1,16 @@
+{
+  "title": "Soledades. Edición digital (Luis de Góngora, 1613) — ed. Antonio Rojas Castro",
+  "url": "https://github.com/arojascastro/soledades",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-08",
+  "institution": "ed. Antonio Rojas Castro",
+  "notes": "TEI encodings and datasets supporting the digital edition of Góngora's Soledades (1613) in the arojascastro/soledades GitHub repository: an annotated edition (soledades_anotada.xml), a critical edition (soledades_critica.xml) and simple transcriptions. The RQ harvest labelled this set 'GitHubTEI'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "languages": [
+    "Spanish"
+  ],
+  "encoding": "tei",
+  "words": 36856,
+  "texts": 3,
+  "period": "1612-1627"
+}

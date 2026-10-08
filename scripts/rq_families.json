@@ -447,6 +447,16 @@
       "url": "http://oldhungariancorpus.nytud.hu/",
       "institution": "Research Institute for Linguistics, Hungarian Academy of Sciences (MGTSZ)",
       "notes": "Old Hungarian Corpus of codices and early printed books (11th-16th c., original orthography betűhű and phonemic levels), maintained by the Hungarian Generative Diachronic Syntax project at the Research Institute for Linguistics. The RQ snapshot contains two collections of this resource (HungarianCorpus and MGTSZ_AporCodex, the Apor Codex file), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    },
+    {
+      "slug": "gongora-soledades",
+      "match": [
+        "^GitHubTEI$"
+      ],
+      "title": "Soledades. Edición digital (Luis de Góngora, 1613) — ed. Antonio Rojas Castro",
+      "url": "https://github.com/arojascastro/soledades",
+      "institution": "ed. Antonio Rojas Castro",
+      "notes": "TEI encodings and datasets supporting the digital edition of Góngora's Soledades (1613) in the arojascastro/soledades GitHub repository: an annotated edition (soledades_anotada.xml), a critical edition (soledades_critica.xml) and simple transcriptions. The RQ harvest labelled this set 'GitHubTEI'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     }
   ],
   "known_collections": {
@@ -848,6 +858,14 @@
       "title": "Anthologies of the Spoudastirion Neou Ellinismou (snhell.gr) — Cretan Greek lyric poetry",
       "url": "http://web.archive.org/web/20010623201249/http://www.snhell.gr:80/a_anth_text.asp",
       "institution": "Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine"
+    },
+    "GitHubTEI": {
+      "title": "Soledades. Edición digital (Luis de Góngora, 1613) — ed. Antonio Rojas Castro",
+      "url": "https://github.com/arojascastro/soledades"
+    },
+    "Nakala": {
+      "title": "Latin texts deposited on the Nakala repository (Huma-Num)",
+      "url": "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen"
     }
   }
 }

@@ -35,7 +35,7 @@ Taklow Kernewek ('Cornish Things') — Cornish language text resources,https://t
 Cornish Tregear,https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche,Cornish,other,active,,1556-1556,38078,,,,,submitted,2026-10-07
 Corpus Corporum,https://mlat.uzh.ch/,Latin,other,active,Universität Zürich,1450-1696,19091970,,,,,submitted,2026-10-07
 CORPUS17 — 17th c. French texts corpus,https://github.com/e-ditiones/CORPUS17,French,tei,active,"e-ditiones (Simon Gabay), GitHub open repo",1622-1700,149810,,,,,submitted,2026-10-07
-Anthologies of the Spoudastirion Neou Ellinismou (snhell.gr) — Cretan Greek lyric poetry,http://web.archive.org/web/20010623201249/http://www.snhell.gr:80/a_anth_text.asp,Modern Greek,other,active,"Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine",1590-1655,1736,,,,,submitted,2026-10-07
+Anthologies of the Spoudastirion Neou Ellinismou (snhell.gr) — Cretan Greek lyric poetry,http://web.archive.org/web/20010623201249/http://www.snhell.gr:80/a_anth_text.asp,Modern Greek,other,discontinued,"Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine",1590-1655,1736,,,,,submitted,2026-10-07
 CroALa (Croatiae Auctores Latini),https://croala.ffzg.unizg.hr/,Latin,other,active,University of Zagreb,1450-1700,3545403,,,,,submitted,2026-10-07
 Bible-Corpus — multilingual parallel corpus of Bible translations,https://github.com/christos-c/bible-corpus,Czech,other,active,"Christos Christodoulopoulos (christos-c), GitHub open repo",1613-1613,597503,,,,,submitted,2026-10-07
 tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový),https://github.com/CzechLanguageInstitute/tei2019,Czech,tei,active,"Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",1503-1503,69891,,,,,submitted,2026-10-07
@@ -91,9 +91,9 @@ GanjoorPersian,https://ganjoor.net,Persian,other,active,,1466-1700,4810638,,,,,s
 "The Nottingham Corpus of Early Modern German Midwifery and Women's Medicine, ca. 1500–1700 (GeMi, OTA 2562)",https://ota.ox.ac.uk/desc/2562,German,tei,archived,"University of Nottingham (Richard J. Whitt), deposited at the Oxford Text Archive (ota:2562)",1500-1690,105188,,,,,submitted,2026-10-07
 "GerManC - parsed corpus of German 1650-1800, 'Plays' text collection (OTA 2544)",https://ota.ox.ac.uk/desc/2544,German,tei,archived,"University of Manchester (Silke Regenbogen, Paul Bennett; superv. David Denison / Astrid Erdmann), deposited at the Oxford Text Archive (ota:2544)",1654-1700,230403,,,,,submitted,2026-10-07
 Gilberti Purepecha,https://archive.org/details/vocabularioenlen00gilb,Purépecha,other,active,,1559-1559,14264,,,,,submitted,2026-10-07
-GitHubTEI,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,Spanish,tei,active,,1612-1627,36856,,,,,submitted,2026-10-07
 GlasgowEmblems,https://www.emblems.arts.gla.ac.uk,French; German; Italian; Latin; Spanish,other,active,,1531-1621,549460,,,,,submitted,2026-10-07
 Gondomar Galician,https://ilg.usc.gal/gondomar,Galician,other,active,,1594-1697,11031,,,,,submitted,2026-10-07
+"Soledades. Edición digital (Luis de Góngora, 1613) — ed. Antonio Rojas Castro",https://github.com/arojascastro/soledades,Spanish,tei,active,ed. Antonio Rojas Castro,1612-1627,36856,,,,,submitted,2026-10-08
 "Obras de Góngora (obra poética, ed. Antonio Carreira) — Labex OBVIL GONGORA project",https://github.com/gongoradigital/gongoraobra,Spanish,tei,archived,"Labex OBVIL (Sorbonne Universite), dir. Mercedes Blanco; TEI files on gongoradigital GitHub",1605-1610,59121,,,,,submitted,2026-10-07
 GutorGlyn Welsh,https://gutorglyn.net/gutorglyn,Welsh,other,active,,1450-1497,30864,,,,,submitted,2026-10-07
 "Hexenverhoerprotokolle (SiGS corpus, LAUDATIO repository)",https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w,German,other,archived,"DFG project SiGS / Universities of Muenster, Cologne and Hamburg (Renata Szczepaniak, Klaus-Michael Koepcke, Fabian Barteld, Stefan Hartmann et al.); published in LAUDATIO (HU Berlin)",1570-1665,85441,,,,,submitted,2026-10-07
@@ -122,14 +122,14 @@ Mercurius-Baumbank (Version 1.1) — LAUDATIO repository,https://www.laudatio-re
 Montoya Guarani,https://archive.org/details/gramaticaydiccio02ruiz,Guaraní,other,active,,1639-1640,41109,,,,,submitted,2026-10-07
 Muysc cubun — Lengua Muisca (Manuscrito 158 BNC; Gramática de Lugo),https://muysca.cubun.org/,Muisca,other,active,"Muysc cubun research group, founded and maintained by Diego F. Gómez, with Muisca communities (Suba, Chía), Colombia",1612-1619,42662,,,,,submitted,2026-10-07
 Nahuatl depth,https://www.history.ucsb.edu,Nahuatl,other,active,,1559-1695,36506,,,,,submitted,2026-10-07
-Nakala,https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French; Latin,other,active,,1458-1698,2904654,,,,,submitted,2026-10-07
+Latin texts deposited on the Nakala repository (Huma-Num),https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen,French; Latin,other,active,"Nakala, research-data repository of Huma-Num (CNRS) and IRD",1458-1698,2904654,,,,,submitted,2026-10-07
 The Newton Project,https://www.newtonproject.ox.ac.uk/,English; Latin,other,active,University of Oxford,1659-1700,2069555,,,,,submitted,2026-10-07
 Norman MuseNormande,https://archive.org/details/lamusenormanded09ferrgoog,Norman,other,active,,1638-1652,153528,,,,,submitted,2026-10-07
 NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin,https://www.uibk.ac.at/projects/noscemus/,Latin,other,active,Universität Innsbruck,1472-1700,82381900,,,,,submitted,2026-10-07
-OBVIL — corpus d'éditions anciennes françaises (Teinte),https://github.com/OBVIL,French,tei,active,"LabEx OBVIL, Sorbonne Université",1557-1694,73996,,,,,submitted,2026-10-07
+OBVIL — corpus d'éditions anciennes françaises (Teinte),https://obtic.sorbonne-universite.fr/corpus,French,tei,active,"LabEx OBVIL, Sorbonne Université",1557-1694,73996,,,,,submitted,2026-10-07
 OBVIL — corpus La Haine du théâtre (querelle du théâtre),https://obvil.github.io/haine-theatre/,French,tei,active,LabEx OBVIL (Sorbonne Université),1541-1698,1162096,,,,,submitted,2026-10-07
 Occitan 1000ans,https://uoh.univ-montp3.fr/1000ans,Occitan,other,active,,1456-1617,22599,,,,,submitted,2026-10-07
-CORDEREGRA — Corpus diacrónico del español del Reino de Granada,https://corpora.uah.es/charta/,Spanish,other,active,Universidad de Granada (Miguel Calderón Campos & M.ª Teresa García-Godoy); CHARTA network (corpora.uah.es),1509-1700,203336,,,,,submitted,2026-10-07
+CORDEREGRA — Corpus diacrónico del español del Reino de Granada,https://corpora.uah.es/charta/,Spanish,other,discontinued,Universidad de Granada (Miguel Calderón Campos & M.ª Teresa García-Godoy); CHARTA network (corpora.uah.es),1509-1700,203336,,,,,submitted,2026-10-07
 The Proceedings of the Old Bailey Online,https://www.oldbaileyonline.org/,English,other,active,,1674-1700,924767,,,,,submitted,2026-10-07
 Old Hungarian Corpus (Régi Magyar Nyelvemlékek),http://oldhungariancorpus.nytud.hu/,Hungarian,other,active,"Research Institute for Linguistics, Hungarian Academy of Sciences (MGTSZ)",1450-1532,3046715,,,,,submitted,2026-10-07
 OpenEDGeS (Open Editions of Early Modern Dutch and German Bibles),https://spraakbanken.gu.se/en/resources/openedges,Dutch; German,other,active,University of Gothenburg (Språkbanken),1460-1661,7105392,,,,,submitted,2026-10-07
