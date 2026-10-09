@@ -42,7 +42,7 @@ body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.55 var(-
 a { color: var(--accent); text-decoration: none; }
 :where(.fig-note, .list-note, .rec-dl dd, .prose p, .prose li, .defs-note, .facet-note, .state, .site-foot span:not(.right), .m-meta) a { text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 a:hover { text-decoration: underline; text-decoration-color: currentColor; }
-a, .linkbtn, .hist-values summary { text-underline-offset: 2px; }
+a, .linkbtn { text-underline-offset: 2px; }
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
 h1, h2, h3 { margin: 0; }
 p { margin: 0; }
@@ -54,7 +54,7 @@ button, input, select { font: inherit; color: inherit; }
 .skip:focus { top: 12px; text-decoration: none; }
 .ico { width: 16px; height: 16px; flex: none; fill: none; stroke: currentColor; stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; }
 .linkbtn { padding: 0; border: 0; background: none; color: var(--accent); font-size: inherit; cursor: pointer; text-align: left; }
-.linkbtn:hover, .hist-values summary:hover { text-decoration: underline; }
+.linkbtn:hover { text-decoration: underline; }
 .nw { white-space: nowrap; }
 
 .site-head { padding: 20px 0 16px; border-bottom: 1px solid var(--border); }
@@ -161,17 +161,6 @@ button, input, select { font: inherit; color: inherit; }
 :is(.tl-axis, .strip-axis) span.last { transform: translateX(-100%); }
 .tl-foot { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 16px; min-height: 18px; margin-top: 2px; font-size: 12.5px; line-height: 18px; }
 .tl-note { color: var(--muted); }
-.hist-values { margin-left: auto; }
-.hist-values[open] { flex-basis: 100%; }
-.hist-values summary { display: flex; align-items: center; gap: 4px; width: max-content; margin-left: auto; color: var(--accent); cursor: pointer; list-style: none; }
-.hist-values summary::-webkit-details-marker { display: none; }
-.hist-values summary .ico { width: 10px; height: 10px; stroke-width: 2; transform: rotate(90deg); transition: transform .15s ease; }
-.hist-values[open] summary .ico { transform: rotate(-90deg); }
-.hist-values table { margin: 8px 0 4px; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
-.hist-values th, .hist-values td { padding: 3px 24px 3px 0; text-align: left; border-bottom: 1px solid var(--border); font-weight: 400; }
-.hist-values thead th { color: var(--muted); font-size: 12px; font-weight: 600; }
-.hist-values .num { text-align: right; padding-right: 0; }
-.hist-values tr.in th, .hist-values tr.in td { color: var(--accent); font-weight: 600; }
 
 .resbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; min-height: 34px; margin-top: 14px; }
 .count { order: -1; flex: 1 1 auto; font-size: 15px; font-weight: 600; font-variant-numeric: tabular-nums; }
@@ -403,9 +392,8 @@ figure { margin: 0; }
 	.tools { width: 100%; margin-left: 0; gap: 8px; }
 	.ctl-sort { flex: 1 1 auto; min-width: 0; }
 	.ctl-sort .select, .ctl-sort select { width: 100%; }
-	.ctl-sort .lbl, .ctl-export .lbl { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+	.ctl-sort .lbl { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
 	.ctl-view { display: none; }
-	.ctl-export .seg button { padding: 0 10px; }
 	.about-row { grid-template-columns: minmax(0, 1fr); gap: 10px; padding: 26px 0; }
 	.defs { grid-template-columns: minmax(0, 1fr); gap: 20px; }
 	.defs dl { grid-template-columns: 96px minmax(0, 1fr); }
@@ -455,7 +443,7 @@ figure { margin: 0; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-	.tog .chev, .hist-values summary .ico { transition: none; }
+	.tog .chev { transition: none; }
 	.reg tr.flash > *, .card.flash { animation: none; }
 }
 
@@ -543,7 +531,7 @@ figure { margin: 0; }
 		</div>
 		<div class="tl-plot" id="tl-plot">
 			<div class="tl-band" id="tl-band" hidden></div>
-			<div class="tl-bars" id="tl-bars" aria-hidden="true"></div>
+			<div class="tl-bars" id="tl-bars" role="img" aria-label="Corpus words per decade"></div>
 			<div class="tl-handle" id="tl-h0" role="slider" tabindex="0" aria-label="Start of period" aria-valuemin="1450" aria-valuemax="1700" aria-valuenow="1450" aria-valuetext="1450" style="left:0%"><span class="tl-tip" aria-hidden="true">1450</span></div>
 			<div class="tl-handle" id="tl-h1" role="slider" tabindex="0" aria-label="End of period" aria-valuemin="1450" aria-valuemax="1700" aria-valuenow="1700" aria-valuetext="1700" style="left:100%"><span class="tl-tip" aria-hidden="true">1700</span></div>
 			<span class="tl-hover" id="tl-hover" aria-hidden="true" hidden></span>
@@ -551,14 +539,6 @@ figure { margin: 0; }
 		<div class="tl-axis" id="tl-axis" aria-hidden="true"></div>
 		<div class="tl-foot">
 			<p class="tl-note" id="tl-note" hidden></p>
-			<details class="hist-values">
-				<summary>Show values<svg class="ico" aria-hidden="true"><use href="#i-chev"/></svg></summary>
-				<table>
-					<caption class="sr-only">Deduplicated corpus words per decade, for collections matching the other filters</caption>
-					<thead><tr><th scope="col">Decade</th><th scope="col" class="num">Words</th></tr></thead>
-					<tbody id="tl-values-body"></tbody>
-				</table>
-			</details>
 		</div>
 	</section>
 
@@ -589,13 +569,7 @@ figure { margin: 0; }
 						<button type="button" id="view-cards-btn" aria-pressed="false"><svg class="ico" aria-hidden="true"><use href="#i-grid"/></svg>Cards</button>
 					</div>
 				</div>
-				<div class="ctl ctl-export">
-					<span class="lbl" id="export-label">Export</span>
-					<div class="seg" role="group" aria-labelledby="export-label">
-						<button type="button" id="export-csv"><svg class="ico" aria-hidden="true"><use href="#i-down"/></svg>CSV</button>
-						<button type="button" id="export-json">JSON</button>
-					</div>
-				</div>
+				<a class="btn" href="#download">Export data</a>
 			</div>
 			<h2 class="count" id="catalogue" tabindex="-1">Loading the catalogue…</h2>
 		</div>
@@ -709,7 +683,7 @@ figure { margin: 0; }
 		<div class="about-row" id="download">
 			<h2>Download and cite</h2>
 			<div class="prose">
-				<p>The whole catalogue can be downloaded with every field of every edition. The Export buttons above the list download only the editions shown.</p>
+				<p>Download the whole catalogue with every field of every edition. Please cite the catalogue when you use its data; a suggested citation is provided below.</p>
 				<div class="actions-list" style="margin-top:14px">
 					<a class="btn" href="renascor.csv" download><svg class="ico" aria-hidden="true"><use href="#i-down"/></svg>Full catalogue (CSV)</a>
 					<a class="btn" href="renascor.json" download><svg class="ico" aria-hidden="true"><use href="#i-down"/></svg>Full catalogue (JSON)</a>

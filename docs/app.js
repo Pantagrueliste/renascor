@@ -1,4 +1,4 @@
-/* Renascor: the catalogue list, filters, timeline, records, URL state and exports, from data.json
+/* Renascor: the catalogue list, filters, timeline, records and URL state, from data.json
  * (scripts/build_site.py). The header figures and the methodology are static in index.html. */
 (function () {
 'use strict';
@@ -42,7 +42,6 @@ const FACET_VALUES = {
 };
 const DECADES = Array.from({ length: NBINS }, (_, i) => MIN + 10 * i);
 const binEnd = i => (i === NBINS - 1 ? MAX : DECADES[i] + 9);
-const binLabel = i => (i === NBINS - 1 ? DECADES[i] + '–' + MAX : DECADES[i] + 's');
 const VIEW_KEY = 'renascor.view';
 
 // == State ==
@@ -61,9 +60,9 @@ function grab(ids, prefix) {
 	return o;
 }
 const els = grab('q q-clear search-row catalogue live notice chips sort results tbody view-table view-cards state ' +
-	'view-table-btn view-cards-btn export-csv export-json facets facet-list facets-slot clear-facets filter-toggle filter-badge ' +
+	'view-table-btn view-cards-btn facets facet-list facets-slot clear-facets filter-toggle filter-badge ' +
 	'filters-dialog sheet-body sheet-close sheet-clear sheet-done cite-copy cite-text', '');
-const TL = grab('tl-state tl-clear y-from y-to tl-plot tl-band tl-bars tl-h0 tl-h1 tl-hover tl-axis tl-note tl-values-body', 'tl-');
+const TL = grab('tl-state tl-clear y-from y-to tl-plot tl-band tl-bars tl-h0 tl-h1 tl-hover tl-axis tl-note', 'tl-');
 TL.presets = Array.from(document.querySelectorAll('.tl-presets button'));
 const SORTS = Array.from(els.sort.options, o => o.value);
 const narrowMQ = matchMedia('(max-width: 799px)'), wideMQ = matchMedia('(min-width: 1280px)');
@@ -127,7 +126,7 @@ function load() {
 			$('main').classList.add('load-failed');
 			els.results.removeAttribute('aria-busy');
 			els.catalogue.textContent = 'The catalogue could not be loaded';
-			els.viewTable.hidden = els.viewCards.hidden = els.exportCsv.disabled = els.exportJson.disabled = true;
+			els.viewTable.hidden = els.viewCards.hidden = true;
 			els.state.innerHTML = `<div class="state"><p class="state-text">The catalogue data could not be loaded (${esc(err.message)}). ` +
 				'Try reloading the page. The full catalogue is also available as <a href="renascor.csv">renascor.csv</a> and ' +
 				`<a href="renascor.json">renascor.json</a>, or as one JSON file per edition on <a href="${REPO}/tree/main/data/entries">GitHub</a>.</p></div>`;
@@ -287,8 +286,6 @@ function buildTimeline() {
 		ax += `<span${y === MIN ? ' class="first"' : y === MAX ? ' class="last"' : ''} style="left:${(frac(y) * 100).toFixed(2)}%">${y}</span>`;
 	}
 	TL.axis.innerHTML = ax;
-	TL.valuesBody.innerHTML = DECADES.map((y, i) => `<tr><th scope="row">${binLabel(i)}</th><td class="num">0</td></tr>`).join('');
-	TL.valueRows = Array.from(TL.valuesBody.rows);
 }
 
 let tlShown = null, yearsApplying = false;
@@ -316,10 +313,8 @@ function renderTimeline() {
 		b.style.height = counts[i] ? `max(2px, ${(Math.min(counts[i], decadeScale) / decadeScale * 100).toFixed(2)}%)` : '0px';
 		b.classList.toggle('in', inRange(i));
 	});
-	TL.valueRows.forEach((tr, i) => {
-		tr.cells[1].textContent = known ? fmt(counts[i]) : '—';
-		tr.classList.toggle('in', inRange(i));
-	});
+	TL.bars.setAttribute('aria-label', known ? 'Corpus words per decade: ' + counts.map((n, i) =>
+		DECADES[i] + '–' + binEnd(i) + ': ' + plural(n, 'word')).join('; ') : 'Word counts not recorded for these collections.');
 	const l = frac(state.from) * 100, r = frac(state.to + 1) * 100;
 	TL.band.hidden = !active;
 	TL.band.style.cssText = `left:${l.toFixed(3)}%;width:${Math.max(0, r - l).toFixed(3)}%`;
@@ -890,10 +885,7 @@ function syncControls() {
 	});
 	els.viewTableBtn.setAttribute('aria-pressed', String(state.view === 'table'));
 	els.viewCardsBtn.setAttribute('aria-pressed', String(state.view === 'cards'));
-	const n = shown.length, what = narrowed() ? `Export the ${plural(n, 'edition')} shown` : 'Export all ' + plural(n, 'edition');
-	els.exportCsv.setAttribute('aria-label', what + ' as CSV');
-	els.exportJson.setAttribute('aria-label', what + ' as JSON');
-	els.exportCsv.disabled = els.exportJson.disabled = !n;
+	const n = shown.length;
 	const f = facetFilterCount();
 	els.filterBadge.hidden = !f;
 	els.filterBadge.textContent = f;
@@ -1022,68 +1014,7 @@ function resetAll() {
 	render();
 }
 
-// == Exports ==
-function csvValue(v) {
-	if (v == null) return '';
-	if (Array.isArray(v)) return v.map(csvValue).join('; ');
-	return typeof v === 'object' ? JSON.stringify(v) : String(v);
-}
-const csvCell = s => (/[",\r\n]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s);
-
-// Byte-identical to docs/renascor.csv for the whole catalogue.
-function csvText(list) {
-	const fields = meta.fields || ['id'];
-	const lines = [(meta.csv_columns || fields).map(csvCell).join(',')];
-	list.forEach(r => {
-		const row = [];
-		fields.forEach(f => {
-			if (f === 'id') row.push(r.id);
-			else if (f === 'years_active') { const ya = r.e.years_active || {}; row.push(csvValue(ya.start), csvValue(ya.end)); }
-			else row.push(csvValue(r.e[f]));
-		});
-		lines.push(row.map(csvCell).join(','));
-	});
-	return lines.join('\r\n') + '\r\n';
-}
-
-function exportEntry(r) {
-	const o = { id: r.id };
-	(meta.fields || []).slice(1).forEach(f => { if (has(r.e, f)) o[f] = r.e[f]; });
-	return o;
-}
-
-const exportName = ext => `renascor-${meta.version ? meta.version + '-' : ''}${meta.updated || 'data'}${narrowed() ? '-selection' : ''}.${ext}`;
-
-function downloadJSON() {
-	const t = new Date(), S = state;
-	const payload = {
-		meta: {
-			title: meta.title || 'Renascor', source: meta.source || REPO, licence: 'CC0-1.0', version: meta.version || '',
-			data_updated: meta.updated || '', data_commit: meta.data_commit ? meta.data_commit.sha : null,
-			corpus_statistics: meta.corpus_statistics || null,
-			exported: [t.getFullYear(), t.getMonth() + 1, t.getDate()].map(n => String(n).padStart(2, '0')).join('-'),
-			records: shown.length, fields: meta.fields || [], sort: S.sort,
-			selection: narrowed() ? {
-				url: location.href, search: S.q, languages: S.lang, encodings: S.encoding, statuses: S.status,
-				sizes: S.size, files: S.files, areas: S.area, countries: S.country,
-				period: periodActive() ? { from: S.from, to: S.to } : null
-			} : null
-		},
-		entries: shown.map(exportEntry)
-	};
-	save(new Blob([JSON.stringify(payload, null, 2) + '\n'], { type: 'application/json' }), exportName('json'));
-}
-
-function save(blob, name) {
-	const a = document.createElement('a');
-	a.href = URL.createObjectURL(blob);
-	a.download = name;
-	document.body.appendChild(a);
-	a.click();
-	a.remove();
-	setTimeout(() => URL.revokeObjectURL(a.href), 4000);
-}
-
+// == Clipboard ==
 function copyText(text, done) {
 	const fallback = () => {
 		const ta = document.createElement('textarea');
@@ -1231,8 +1162,6 @@ function wireEvents() {
 	};
 	on(els.viewTableBtn, 'click', () => setView('table'));
 	on(els.viewCardsBtn, 'click', () => setView('cards'));
-	on(els.exportCsv, 'click', () => save(new Blob([csvText(shown)], { type: 'text/csv;charset=utf-8' }), exportName('csv')));
-	on(els.exportJson, 'click', downloadJSON);
 
 	// Filters dialog
 	on(els.filterToggle, 'click', openSheet);
