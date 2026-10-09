@@ -29,5 +29,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://ssh.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/DANS-XFD-N8Y5",
-  "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "doi": "10.17026/DANS-XFD-N8Y5"
 }

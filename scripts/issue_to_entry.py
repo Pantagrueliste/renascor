@@ -21,6 +21,11 @@ import sys
 from datetime import date
 from pathlib import Path
 
+try:
+    from .languages import catalogue_languages
+except ImportError:
+    from languages import catalogue_languages
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 
 # Map issue form encoding options to schema enum values.
@@ -69,7 +74,7 @@ def fields_to_entry(fields: dict, submitted_by: str = "") -> dict:
     """Convert parsed issue form fields to a catalogue entry."""
     # Parse languages: comma-separated string to list.
     languages_raw = fields.get("language(s)", "")
-    languages = [lang.strip() for lang in languages_raw.split(",") if lang.strip()]
+    languages = catalogue_languages(languages_raw.split(","))
 
     # Map encoding.
     encoding_raw = fields.get("encoding format", "").lower()
@@ -111,6 +116,9 @@ def fields_to_entry(fields: dict, submitted_by: str = "") -> dict:
     }
 
     # Optional fields.
+    if fields.get("collection doi"):
+        entry["doi"] = re.sub(r"^(?:https?://(?:dx\.)?doi\.org/|doi:\s*)", "",
+                              fields["collection doi"].strip(), flags=re.I).strip()
     entry["license"] = fields.get("text licence") or "Not stated"
     if fields.get("licence source url"):
         entry["license_url"] = fields["licence source url"]

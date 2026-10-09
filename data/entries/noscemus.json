@@ -22,5 +22,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "doi": "10.5281/zenodo.15040256"
 }

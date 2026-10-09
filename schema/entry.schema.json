@@ -26,6 +26,12 @@
       "format": "uri",
       "description": "URL where the edition can be found. Must be a valid, resolvable URL."
     },
+    "doi": {
+      "type": "string",
+      "maxLength": 300,
+      "pattern": "^10\\.[0-9]{4,9}/\\S+$",
+      "description": "Verified DOI of the collection, edition or archived text dataset release, without the https://doi.org/ prefix. Do not use a grant DOI or a DOI for a related article or poster."
+    },
     "data_url": {
       "type": "string",
       "format": "uri",
@@ -49,7 +55,10 @@
       "type": "array",
       "items": {
         "type": "string",
-        "minLength": 1
+        "minLength": 1,
+        "not": {
+          "enum": ["Ancient Greek", "Modern Greek", "Multilingual", "Romance", "Romance (other)"]
+        }
       },
       "minItems": 1,
       "uniqueItems": true,

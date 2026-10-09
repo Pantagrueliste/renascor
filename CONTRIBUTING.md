@@ -45,9 +45,19 @@ We catalogue projects that provide digital editions of Renaissance-era written d
 
 We record the project, not individual texts. A project may contain one text or thousands.
 
+### Geographical and historical scope
+
+“Renaissance” is a historical and cultural framework centred on Europe, particularly Western Europe; **1450–1700** supplies its chronological limits. We also include texts arising from documented contacts between European societies and other populations, including trade, diplomacy, travel, migration, missions and colonial encounters. Texts by any community involved are eligible, wherever written and in any language. Connected traditions are considered in their own historical contexts.
+
+For a collection outside the European focus, explain the relevant historical connection and identify the texts concerned. A date within 1450–1700 alone does not establish geographical relevance. Broader repositories may qualify through an identifiable subset; describe that subset and the counting coverage.
+
 ### The inclusion rule: text collections
 
 A resource must provide an identifiable collection of transcribed or editorially corrected Renaissance texts. Collections, anthologies and repositories can qualify even when they reproduce texts available in other catalogued resources. A directory or search portal without a text collection does not qualify.
+
+The texts must be freely accessible. Collections requiring payment or a subscription are excluded, even if metadata, previews or temporary trials are free. Free access does not establish a reuse licence: record the text licence separately.
+
+If the collection, edition or archived text dataset has a DOI, record it in `doi`. Verify what it identifies; do not substitute a grant DOI or the DOI of an article about the resource.
 
 Record the resource’s own `words` and `texts` within **1450–1700, before content deduplication**. Give the source, counting method and coverage; identify partial harvests explicitly. Omit counts that have not been established rather than guessing or entering zero. A missing count can be completed after the resource has been reviewed.
 
@@ -57,6 +67,7 @@ Active rejections and resources awaiting reconsideration are recorded separately
 
 ## What we do not accept
 
+- Text collections requiring payment or a subscription
 - Page images or facsimiles only, with no text layer
 - Raw, uncorrected OCR without editorial review
 - Catalogues or bibliographies that contain no texts
@@ -71,4 +82,4 @@ If you find an error in an existing entry, [open an issue](https://github.com/Pa
 
 ## Code of conduct
 
-This project follows the [Contributor Covenant](CODE_OF_CONDUCT.md). Be respectful, be constructive, and assume good faith.
+[Behave well.](CODE_OF_CONDUCT.md)

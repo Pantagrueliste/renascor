@@ -12,7 +12,7 @@ body:
 
         **One distinction matters.** We catalogue projects that provide **digital editions**: transcriptions, editorial text, or corrected OCR/HTR of Renaissance-era documents (roughly 1450 to 1700). We do **not** catalogue page images or facsimiles only, raw uncorrected OCR dumps, or bibliographies with no texts.
 
-        **The inclusion rule.** Collections that provide Renaissance texts are eligible even when their contents overlap with other resources. Each collection’s word and text totals are recorded within 1450–1700, before content deduplication, with their source and coverage. Leave unknown counts blank. Deduplication applies separately to the Renascor Corpus Project; directories and search portals without texts are out of scope.
+        **The inclusion rule.** Collections that provide freely accessible Renaissance texts are eligible even when their contents overlap with other resources. Texts requiring payment or a subscription are excluded; free previews and trials do not qualify. Each collection’s word and text totals are recorded within 1450–1700, before content deduplication, with their source and coverage. Leave unknown counts blank. Deduplication applies separately to the Renascor Corpus Project; directories and search portals without texts are out of scope.
 
         If you are unsure whether a project qualifies, submit it anyway and say so.
 
@@ -21,7 +21,7 @@ body:
     attributes:
       label: Project name
       description: The name of the edition project or collection.
-      placeholder: "e.g. Women Writers Online, TextGrid Repository"
+      placeholder: "e.g. TextGrid Repository"
     validations:
       required: true
 
@@ -33,6 +33,13 @@ body:
       placeholder: "https://..."
     validations:
       required: true
+
+  - type: input
+    id: doi
+    attributes:
+      label: Collection DOI
+      description: DOI of the collection, edition or archived text dataset release, if available. Do not give the DOI of a grant, article or poster about it.
+      placeholder: "10.5281/zenodo.14559525"
 
   - type: input
     id: data_url
@@ -143,7 +150,7 @@ body:
     id: scope
     attributes:
       label: Scope
-      description: "This catalogue covers European material of roughly 1450 to 1700, and texts produced by European encounter (mission imprints, chancery documents, etc.)."
+      description: "Renaissance is a historical and cultural focus centred on Europe, particularly Western Europe, within 1450–1700. Texts arising from documented contacts with other populations also qualify, regardless of language or authorship. For collections outside Europe, explain the historical connection and the relevant subset above."
       options:
         - label: "As far as I can tell, this project falls within that scope, or I have explained above why it is a borderline case."
           required: true

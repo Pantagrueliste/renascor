@@ -1,5 +1,9 @@
 # Design decisions
 
+## Historical and geographical focus
+
+“Renaissance” describes a historical and cultural framework centred on Europe, particularly Western Europe, with chronological limits of 1450–1700. Texts arising from documented contacts between European societies and other populations also qualify, wherever written, in any language and by any community involved. Connected traditions are considered in their own historical contexts. A broader repository can qualify through an identifiable relevant subset; the record must explain its scope and counting coverage. A matching date alone does not establish geographical relevance.
+
 This document records non-obvious choices made when building Renascor, and the reasoning behind them. It is intended for future maintainers and curious contributors.
 
 ## Data format: JSON, not YAML
@@ -60,7 +64,7 @@ Most word, text, language and period figures come from the Renascor Corpus Proje
 
 The page shows no summed totals for a filtered list. The counts belong to whole editions, so a sum under a language or period filter would be misread as the number of words in that language or from those years.
 
-The catalogue counts 73 languages: "Multilingual" and "Romance (other)" are labels used in the data, not languages, so they are left out of the count and explained where the labels are listed.
+Greek is one catalogue language category, covering source labels "Ancient Greek" and "Modern Greek". "Multilingual" and "Romance (other)" were removed on 9 October 2026; records list their identified languages instead. Imports and submission conversion apply the same rule, while historical source audits retain their original classifications.
 
 ## Notes are shown in the record only
 
@@ -115,3 +119,19 @@ The catalogue resource size now includes retained duplicates within 1450–1700,
 Each card records the edition text licence separately from the catalogue metadata licence. Publisher-source evidence overrides the legacy corpus rights labels. Mixed and unstated rights are explicit. Public encoding describes the available text format, rather than unpublished internal XML. JSON and multiple download formats are supported, along with links to official API documentation.
 
 Sefaria's resource size has a separate source census from the API inventory and official October exports. It counts individual Hebrew source versions of works whose entire recorded composition-date range falls within 1450–1700, without content deduplication. Generated merged copies and translations are excluded. Undated and boundary-crossing titles are retained in the audit for review. The original June Renascor Corpus contribution remains visible separately. Corpus imports and recounts preserve the newer resource census.
+
+## Corpus total and collection totals (9 October 2026)
+
+The headline word and text totals describe the complete June 2026 working Renascor Corpus after its duplicate filter. They are calculated from all collections in the checksum-backed count audit, before grouping them into catalogue records. They measure the corpus's harvested textual coverage; they are not a sum of overlapping catalogue collections or an estimate of all Renaissance intellectual production. Later independent collection censuses remain separate until incorporated into a new corpus count. A build without a matching audit leaves the corpus totals unrecorded.
+
+Individual collection sizes remain before content deduplication within 1450–1700. Their sums, size comparisons and share chart include overlaps and can include later source censuses. The JSON exports distinguish these from the corpus total in `meta.corpus_statistics`.
+
+## Free access and exclusions (9 October 2026)
+
+The catalogue requires freely accessible texts. Paid and subscription collections are excluded, even if their metadata, previews or temporary trials are free. This is distinct from reuse permission: freely readable texts can still have copyright or custom terms.
+
+Women Writers Online was removed after its note incorrectly described it as free and open access. Frantext was not present in the catalogue but is now explicitly excluded. Both decisions, with publisher evidence, are recorded in `data/rejected.json`, which the discovery process reads to avoid proposing them again.
+
+## Collection DOIs (9 October 2026)
+
+`doi` identifies the collection, edition or archived text dataset release. Cards and full records link to its DOI resolver, search includes the identifier, and CSV/JSON exports preserve it. Related papers, posters and funding grants are not collection identifiers. Verification evidence and decisions are kept separately from the catalogue entries.

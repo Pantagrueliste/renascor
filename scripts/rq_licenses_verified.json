@@ -400,7 +400,6 @@
       "license": "Not stated",
       "checked": "2026-08-11",
       "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
-      "license_url": "https://api.nakala.fr/collections/10.34847/nkl.1279lie9",
       "license_note": "No reuse licence established from the available publisher-source evidence."
     },
     "eebo-text-creation-partnership": {
@@ -586,7 +585,6 @@
       "license": "Not stated",
       "checked": "2026-08-11",
       "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
-      "license_url": "https://zenodo.org/records/10976238",
       "license_note": "No reuse licence established from the available publisher-source evidence."
     },
     "glasgowemblems": {

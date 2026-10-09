@@ -31,6 +31,11 @@ import urllib.error
 from datetime import date
 from pathlib import Path
 
+try:
+    from .languages import catalogue_languages
+except ImportError:
+    from languages import catalogue_languages
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 FAMILIES_PATH = REPO_ROOT / "scripts" / "rq_families.json"
 
@@ -140,9 +145,8 @@ def build_entry(group: dict, stats: dict, existing: dict | None, today: str,
     for field in ("data_url", "data_format", "data_formats", "api_url"):
         if group.get(field):
             entry[field] = group[field]
-    entry["languages"] = sorted(
-        set(entry.get("languages") or []) | {code for code in stats["langs"] if code}
-    )
+    entry["languages"] = sorted(catalogue_languages(
+        list(entry.get("languages") or []) + [code for code in stats["langs"] if code]))
     if merge_stats:
         # an explicit "encoding" on the family group overrides the fmt-derived one
         verified = json.loads((REPO_ROOT / "scripts/rq_encoding_verified.json").read_text())["entries"]
@@ -185,7 +189,7 @@ def inventory_entry(collection: str, inv_row: dict, stats: dict, today: str,
     entry = {
         "title": title,
         "url": url,
-        "languages": sorted(l for l in stats["langs"] if l),
+        "languages": sorted(catalogue_languages(stats["langs"])),
         "encoding": primary_encoding(stats["fmts"]),
         "status": "active",
         "provenance": "submitted",

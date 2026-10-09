@@ -1,6 +1,23 @@
 {
   "comment": "Only active rejected records are excluded from discovery. Textual overlap is allowed in the catalogue; deduplication applies separately to the Renascor Corpus. Review-pending records preserve earlier decisions for reconsideration and are not excluded from discovery.",
-  "rejected": [],
+  "rejected": [
+    {
+      "id": "women-writers-online",
+      "title": "Women Writers Online",
+      "url": "https://www.wwp.northeastern.edu/",
+      "reason": "The full-text collection requires an institutional or individual subscription. Free metadata and temporary trials do not meet the catalogue's free-access requirement. Removed from the catalogue after its note incorrectly described it as free and open access.",
+      "source_url": "https://wwp.northeastern.edu/wwo/license/",
+      "date": "2026-10-09"
+    },
+    {
+      "id": "frantext",
+      "title": "Frantext",
+      "url": "https://www.frantext.fr/",
+      "reason": "Access to Frantext Intégral requires a paid institutional or individual subscription. Temporary access to restricted free corpora does not make the full collection freely accessible.",
+      "source_url": "https://paiement.frantext.fr/conditions-generales",
+      "date": "2026-10-09"
+    }
+  ],
   "review_pending": [
     {
       "title": "Digital Latin Library — Library of Digital Latin Texts (LDLT)",

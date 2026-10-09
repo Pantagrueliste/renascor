@@ -5,12 +5,27 @@
     "licence": "CC0-1.0",
     "version": "0.1.0",
     "data_updated": "2026-10-09",
-    "data_commit": "5484f765d869cc6ccf2a05eba3df002d1a4ea830",
-    "records": 197,
+    "data_commit": "754db37800344bc8d3c0f44288d7884b9ea0a077",
+    "corpus_statistics": {
+      "name": "Renascor Corpus",
+      "snapshot": "v2026.06",
+      "frozen": "2026-06-26",
+      "scope": [
+        1450,
+        1700
+      ],
+      "words": 2141439302,
+      "texts": 123172,
+      "basis": "After the corpus duplicate filter; complete working snapshot, before catalogue grouping",
+      "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
+      "database_sha256": "380f7ee3fecb563cef4efc6e80df0f52d765c99a81b5bebc9d73b1d6af1e93cf"
+    },
+    "records": 196,
     "fields": [
       "id",
       "title",
       "url",
+      "doi",
       "data_url",
       "data_format",
       "data_formats",
@@ -156,6 +171,7 @@
       "id": "amadiscorpus-gh",
       "title": "Amadis in Translation (Digital Amadis)",
       "url": "http://amadis.newtfire.org/",
+      "doi": "10.5281/zenodo.10892444",
       "data_url": "https://github.com/ebeshero/Amadis-in-Translation/tree/master/XMLandSchemas/Montalvo",
       "data_format": "tei",
       "institution": "University of Pittsburgh at Greensburg (Stacey Triplette, Elisa Beshero-Bondar) and Universidade de Santiago de Compostela (Helena Bermúdez Sabel)",
@@ -212,7 +228,7 @@
       "url": "http://web.archive.org/web/20010623201249/http://www.snhell.gr:80/a_anth_text.asp",
       "institution": "Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine",
       "languages": [
-        "Modern Greek"
+        "Greek"
       ],
       "period": "1590-1655",
       "words": 1736,
@@ -235,6 +251,7 @@
       "id": "bartoli-correspondence",
       "title": "Bartoli Correspondence",
       "url": "https://zenodo.org/records/14559525",
+      "doi": "10.5281/zenodo.14559525",
       "data_url": "https://zenodo.org/records/14559525",
       "data_format": "tei",
       "languages": [
@@ -786,7 +803,7 @@
       "data_format": "other",
       "institution": "University of the Aegean / Greek Language Centre / ILSP 'Athena' (CLARIN:EL infrastructure)",
       "languages": [
-        "Modern Greek"
+        "Greek"
       ],
       "period": "1520-1646",
       "words": 152215,
@@ -1451,11 +1468,12 @@
       "id": "digital-scholarly-edition-of-angelo-poliziano-s-marginal-notes-to-the-epistle-of-sappho-to-phaon",
       "title": "Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon",
       "url": "https://github.com/AndreaLaVeglia/Postille_Poliziano_Sappho_EVT",
+      "doi": "10.5281/zenodo.17315766",
       "institution": "Università di Salerno, Sapienza Università di Roma, Università di Napoli Federico II, Università di Torino, CNR-ILC",
       "languages": [
         "Italian",
         "Latin",
-        "Ancient Greek"
+        "Greek"
       ],
       "period": "15th century (Angelo Poliziano, 1454–1494)",
       "encoding": "tei",
@@ -1470,6 +1488,7 @@
       "id": "porzio-congiurabaroni",
       "title": "Digital TEI-XML edition of Camillo Porzio's \"La congiura de' Baroni del Regno di Napoli contra re Ferdinando primo\"",
       "url": "https://zenodo.org/records/18047915",
+      "doi": "10.5281/zenodo.18047915",
       "data_url": "https://zenodo.org/records/18047915",
       "data_format": "tei",
       "institution": "Cristiano Amendola (KU Leuven), within PRIN 2022 \"HISTORIALE MARE\" (PI Fulvio Delle Donne, Università di Napoli Federico II)",
@@ -1553,6 +1572,7 @@
       "id": "disco-spanishsonnets",
       "title": "DISCO: Diachronic Spanish Sonnet Corpus",
       "url": "https://github.com/pruizf/disco",
+      "doi": "10.5281/zenodo.7604914",
       "data_url": "https://github.com/pruizf/disco/tree/main/tei",
       "data_format": "tei",
       "institution": "UNED Madrid (Pablo Ruiz Fabo, Helena Bermudez Sabel, Clara Martinez Canton, Jose Calvo Tello)",
@@ -1575,7 +1595,7 @@
       "last_modified": "2026-04-26",
       "provenance": "submitted",
       "date_added": "2026-10-07",
-      "notes": "DISCO is the Diachronic Spanish Sonnet Corpus of ~4,500 Spanish sonnets 15th–20th c. in XML-TEI with metrical annotation and VIAF-linked metadata; the Golden Age subcorpus (15th–17th c.) deliberately includes minor/non-canonical authors, exactly matching the harvest reference 'DISCO Golden Age minor-author sonnets' (150 texts). Distributed under CC-BY 4.0 via GitHub and Zenodo (zenodo.org/records/1193782). The former project site editionsdisco.com no longer resolves (checked Oct 2026), but the project site is mirrored at prf1.org/disco/about.html (200). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset)."
+      "notes": "DISCO is the Diachronic Spanish Sonnet Corpus of ~4,500 Spanish sonnets 15th–20th c. in XML-TEI with metrical annotation and VIAF-linked metadata; the Golden Age subcorpus (15th–17th c.) deliberately includes minor/non-canonical authors, exactly matching the harvest reference 'DISCO Golden Age minor-author sonnets' (150 texts). Distributed under CC-BY 4.0 via GitHub and Zenodo (zenodo.org/records/7604914). The former project site editionsdisco.com no longer resolves (checked Oct 2026), but the project site is mirrored at prf1.org/disco/about.html (200). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset)."
     },
     {
       "id": "dissed-phdeditions",
@@ -1721,6 +1741,7 @@
       "id": "danishpostils",
       "title": "Early Modern Danish Postils v0.2.0",
       "url": "https://zenodo.org/records/7113232",
+      "doi": "10.5281/zenodo.7479443",
       "data_url": "https://zenodo.org/records/7479443",
       "data_format": "plain-text",
       "institution": "Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)",
@@ -1780,7 +1801,7 @@
       "data_format": "tei",
       "institution": "Text Creation Partnership (Universities of Oxford, Michigan, and others)",
       "languages": [
-        "Ancient Greek",
+        "Greek",
         "Dutch",
         "English",
         "French",
@@ -1789,9 +1810,7 @@
         "Irish",
         "Italian",
         "Latin",
-        "Multilingual",
         "Portuguese",
-        "Romance (other)",
         "Scots",
         "Spanish",
         "Welsh"
@@ -1857,6 +1876,7 @@
       "id": "emlap",
       "title": "EMLAP",
       "url": "https://github.com/CCS-ZCU/EMLAP_ETL",
+      "doi": "10.5281/zenodo.14765293",
       "data_url": "https://ccs-lab.zcu.cz/emlap_corpus_public/emlap_lemmatized_xmls/",
       "data_format": "tei",
       "languages": [
@@ -1970,6 +1990,7 @@
       "id": "ckcc-epistolarium",
       "title": "Epistolarium (CKCC)",
       "url": "https://ckcc.huygens.knaw.nl/",
+      "doi": "10.17026/DANS-XFD-N8Y5",
       "data_url": "https://doi.org/10.17026/DANS-XFD-N8Y5",
       "data_format": "tei",
       "institution": "Huygens ING (KNAW)",
@@ -2138,6 +2159,7 @@
       "id": "florentinecodex-nahuatl",
       "title": "FlorentineCodex Nahuatl",
       "url": "https://zenodo.org/records/7213020",
+      "doi": "10.5281/zenodo.7213020",
       "data_url": "https://zenodo.org/records/7213020",
       "data_format": "plain-text",
       "languages": [
@@ -2166,6 +2188,7 @@
       "id": "elan-fnvr",
       "title": "FNVR - Fictions Narratives en Vers de la Renaissance (1490-1600)",
       "url": "https://elan.gricad-pages.univ-grenoble-alpes.fr/fnvr/",
+      "doi": "10.57745/SSC5XT",
       "data_url": "https://doi.org/10.57745/SSC5XT",
       "data_format": "tei",
       "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Pascale Mounier",
@@ -2243,6 +2266,7 @@
       "id": "freem",
       "title": "FreEM (FREnch Early Modern corpus)",
       "url": "https://freem-corpora.github.io/",
+      "doi": "10.5281/zenodo.6481135",
       "data_url": "https://github.com/FreEM-corpora/FreEMmax_OA",
       "data_format": "tei",
       "languages": [
@@ -2449,7 +2473,6 @@
       "count_basis": "rq-retained-rows",
       "encoding": "xml",
       "license": "Not stated",
-      "license_url": "https://zenodo.org/records/10976238",
       "license_note": "No reuse licence established from the available publisher-source evidence.",
       "status": "active",
       "provenance": "submitted",
@@ -2573,6 +2596,7 @@
       "id": "grand-tour-digital-tei-dataset-of-early-modern-travel-testimonies-grand-tour-tei",
       "title": "Grand Tour digital — TEI dataset of early modern travel testimonies (Grand Tour TEI)",
       "url": "https://zenodo.org/records/23055358",
+      "doi": "10.5281/zenodo.23055358",
       "institution": "Herzog August Bibliothek Wolfenbüttel",
       "languages": [
         "German"
@@ -2649,6 +2673,7 @@
       "id": "hexenverhoer-sigs",
       "title": "Hexenverhoerprotokolle (SiGS corpus, LAUDATIO repository)",
       "url": "https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
+      "doi": "10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
       "data_url": "https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
       "data_format": "xml",
       "institution": "DFG project SiGS / Universities of Muenster, Cologne and Hamburg (Renata Szczepaniak, Klaus-Michael Koepcke, Fabian Barteld, Stefan Hartmann et al.); published in LAUDATIO (HU Berlin)",
@@ -2921,6 +2946,7 @@
       "id": "kronieken-dutch",
       "title": "Kronieken Dutch",
       "url": "https://doi.org/10.5281/zenodo.13332815",
+      "doi": "10.5281/zenodo.13332815",
       "data_url": "https://github.com/chroniclingnovelty/chronicles-datasets",
       "data_format": "tei",
       "languages": [
@@ -3063,7 +3089,6 @@
       "languages": [
         "Italian",
         "Latin",
-        "Multilingual",
         "Venetian"
       ],
       "period": "1450-1700",
@@ -3190,6 +3215,7 @@
       "id": "mazarinades",
       "title": "Mazarinades",
       "url": "https://zenodo.org/records/7443183",
+      "doi": "10.5281/zenodo.7443183",
       "data_url": "https://github.com/Antonomaz/Corpus",
       "data_format": "tei",
       "institution": "Bibliothèques patrimoniales de la Ville de Paris",
@@ -3407,6 +3433,7 @@
       "id": "noscemus",
       "title": "NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin",
       "url": "https://www.uibk.ac.at/projects/noscemus/",
+      "doi": "10.5281/zenodo.15040256",
       "data_url": "https://zenodo.org/records/15040256",
       "data_format": "plain-text",
       "institution": "Universität Innsbruck",
@@ -3619,6 +3646,7 @@
       "id": "openiti",
       "title": "OpenITI",
       "url": "https://github.com/OpenITI",
+      "doi": "10.5281/zenodo.17767721",
       "data_url": "https://doi.org/10.5281/zenodo.3082463",
       "data_format": "markdown",
       "institution": "Open Islamicate Texts Initiative",
@@ -3647,6 +3675,7 @@
       "id": "osta",
       "title": "OSTA — Old Spanish Textual Archive",
       "url": "https://osta.oldspanishtextualarchive.org/",
+      "doi": "10.5281/zenodo.18931376",
       "data_url": "https://github.com/hispanicseminary/OSTA",
       "data_format": "plain-text",
       "institution": "Hispanic Seminary of Medieval Studies (HSMS); Francisco Gago Jover (College of the Holy Cross) & F. Javier Pueyo Mena",
@@ -4026,6 +4055,7 @@
       "id": "mambrino",
       "title": "Progetto Mambrino Digital Library — Sferamundi di Grecia",
       "url": "https://zenodo.org/records/14235252",
+      "doi": "10.5281/zenodo.14235252",
       "data_url": "https://zenodo.org/communities/mambrino/records",
       "data_format": "tei",
       "institution": "Stefano Bazzaco et al., University of Verona (PRIN 2017 'Mapping Chivalry'; 'Inclusive Humanities' Dept. of Foreign Languages, University of Verona)",
@@ -4092,6 +4122,7 @@
       "id": "qhod",
       "title": "QhoD — Quellen zur habsburgisch-osmanischen Diplomatie (Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500-1918) — edition-data release 2.0",
       "url": "https://qhod.net/",
+      "doi": "10.5281/zenodo.14449603",
       "data_url": "https://zenodo.org/records/14449603",
       "data_format": "tei",
       "institution": "QhoD project (PI Arno Strohmeyer), Institute for Habsburg and Balkan Studies (IHB), Austrian Academy of Sciences (OEAW); technical editor Stephan Kurz; TEI publishing via ACDH-CH/ZIM Graz (GAMS)",
@@ -4149,6 +4180,7 @@
       "id": "ref-enhg",
       "title": "ReF ENHG",
       "url": "https://zenodo.org/records/5793616",
+      "doi": "10.5281/zenodo.5793616",
       "data_url": "https://zenodo.org/records/5793616",
       "data_format": "xml",
       "languages": [
@@ -4176,6 +4208,7 @@
       "id": "renlowgerman",
       "title": "Referenzkorpus Mittelniederdeutsch/Niederrheinisch, 1200-1650 (ReN)",
       "url": "https://www.slm.uni-hamburg.de/ren",
+      "doi": "10.25592/uhhfdm.9195",
       "data_url": "https://www.fdr.uni-hamburg.de/record/9195",
       "data_format": "tei",
       "institution": "Universität Hamburg (DFG project; Prof. Ingrid Schröder / Prof. Robert Langhanke)",
@@ -4286,6 +4319,7 @@
       "id": "rhythmiccorpus-sga",
       "title": "Rhythmic Corpus of 100 Spanish Golden Age Plays",
       "url": "https://zenodo.org/records/17537343",
+      "doi": "10.5281/zenodo.17537343",
       "data_url": "https://zenodo.org/records/17537343",
       "data_format": "plain-text",
       "institution": "Universitat Autònoma de Barcelona (Álvaro Cuéllar)",
@@ -4494,7 +4528,6 @@
       "count_basis": "rq-retained-rows",
       "encoding": "xml",
       "license": "Not stated",
-      "license_url": "https://api.nakala.fr/collections/10.34847/nkl.1279lie9",
       "license_note": "No reuse licence established from the available publisher-source evidence.",
       "status": "active",
       "provenance": "submitted",
@@ -4569,6 +4602,7 @@
       "id": "sermo",
       "title": "SERMO - Corpus de sermons protestants 1550-1750",
       "url": "http://sermo.unine.ch/SERMO/",
+      "doi": "10.5281/zenodo.14620210",
       "data_url": "http://sermo.unine.ch/SERMO/apropos/index?part=corpus",
       "data_format": "tei",
       "institution": "Universite de Neuchatel (Carine Skupien Dekens; SNSF grant 105212_160030)",
@@ -4724,6 +4758,7 @@
       "id": "ssrq-swisslaw",
       "title": "SSRQ Online — Sammlung Schweizerischer Rechtsquellen / Collection des sources du droit suisse",
       "url": "https://ssrq-sds-fds.ch/",
+      "doi": "10.5281/zenodo.10878757",
       "data_url": "https://github.com/SSRQ-SDS-FDS/editio-data",
       "data_format": "tei",
       "institution": "Law Sources Foundation of the Swiss Jurists' Society (SSRQ), editorial office at the Universität Zürich (Historisches Seminar)",
@@ -4778,6 +4813,7 @@
       "id": "suriano-correspondence",
       "title": "Suriano Correspondence",
       "url": "https://github.com/HuygensING/suriano",
+      "doi": "10.5281/zenodo.13950093",
       "data_url": "https://github.com/HuygensING/suriano/tree/main/datasource/tei",
       "data_format": "tei",
       "languages": [
@@ -5228,6 +5264,7 @@
       "id": "vespasianoletters",
       "title": "Vespasiano da Bisticci, Lettere. A digital edition (Knowledge Site)",
       "url": "https://projects.dharc.unibo.it/vespasiano/",
+      "doi": "10.6092/unibo/vespasianodabisticciletters",
       "data_url": "https://amsacta.unibo.it/id/eprint/6852",
       "data_format": "xml",
       "institution": "Digital Humanities Advanced Research Centre (/DH.arc), Università di Bologna (Francesca Tomasi)",
@@ -5325,7 +5362,7 @@
         "Icelandic",
         "Italian",
         "Latin",
-        "Modern Greek",
+        "Greek",
         "Polish",
         "Portuguese",
         "Romanian",
@@ -5406,32 +5443,6 @@
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset)."
-    },
-    {
-      "id": "women-writers-online",
-      "title": "Women Writers Online",
-      "url": "https://www.wwp.northeastern.edu/",
-      "institution": "Northeastern University (Women Writers Project)",
-      "languages": [
-        "English",
-        "French",
-        "Latin",
-        "Italian",
-        "Spanish"
-      ],
-      "period": "1400-1700",
-      "words": 12000000,
-      "encoding": "tei",
-      "license": "Not stated",
-      "status": "active",
-      "region": "Europe, Americas",
-      "years_active": {
-        "start": 1988,
-        "end": "ongoing"
-      },
-      "provenance": "submitted",
-      "date_added": "2026-10-07",
-      "notes": "A digital library of texts by women from the medieval and early modern periods. TEI XML encoding with extensive metadata. Free and open access."
     },
     {
       "id": "zlatyfond-slovak",

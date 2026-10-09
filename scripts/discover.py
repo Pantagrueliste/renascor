@@ -30,6 +30,11 @@ import urllib.request
 from datetime import date, datetime, timezone
 from pathlib import Path
 
+try:
+    from .languages import catalogue_languages
+except ImportError:
+    from languages import catalogue_languages
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 PROMPT_PATH = REPO_ROOT / "agent" / "discovery_prompt.md"
 ENTRIES_DIR = REPO_ROOT / "data" / "entries"
@@ -331,14 +336,15 @@ def candidate_to_entry(candidate: dict) -> dict:
     entry = {
         "title": candidate.get("title", "Untitled"),
         "url": candidate.get("url", ""),
-        "languages": candidate.get("languages", ["Unknown"]),
+        "languages": catalogue_languages(candidate.get("languages", ["Unknown"])),
         "encoding": candidate.get("encoding", "other"),
         "status": candidate.get("status", "active"),
         "provenance": "discovered",
         "date_added": date.today().isoformat(),
     }
     # Optional fields.
-    for field in ["institution", "period", "region", "words", "years_active", "notes"]:
+    for field in ["institution", "period", "region", "words", "texts", "years_active", "notes",
+                  "doi", "license", "license_url", "license_note", "data_formats", "api_url"]:
         if candidate.get(field) is not None:
             entry[field] = candidate[field]
     if candidate.get("data_url"):

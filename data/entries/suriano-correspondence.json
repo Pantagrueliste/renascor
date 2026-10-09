@@ -23,5 +23,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://zenodo.org/records/13950093",
-  "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "doi": "10.5281/zenodo.13950093"
 }

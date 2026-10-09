@@ -17,6 +17,11 @@ import sqlite3
 import sys
 from pathlib import Path
 
+try:
+    from .languages import catalogue_languages
+except ImportError:
+    from languages import catalogue_languages
+
 ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOT = "v2026.06"
 SOURCE = "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen"
@@ -170,7 +175,7 @@ def refresh_entries(entries_dir: Path, stats: dict, families: dict, licenses: di
             # A newer source census takes precedence over the frozen harvested subset.
             if not entry.get("resource_statistics"):
                 increased += s["words"] > s["corpus_words"] or s["texts"] > s["corpus_texts"]
-                entry.update(words=s["words"], texts=s["texts"], languages=sorted(s["langs"]),
+                entry.update(words=s["words"], texts=s["texts"], languages=sorted(catalogue_languages(s["langs"])),
                              corpus_statistics={"snapshot": SNAPSHOT, "words": s["corpus_words"],
                                                 "texts": s["corpus_texts"]},
                              count_basis=("rq-retained-rows-and-staging" if s["restored_texts"]
