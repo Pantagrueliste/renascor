@@ -143,7 +143,8 @@ button, input, select { font: inherit; color: inherit; }
 .tl-band { position: absolute; top: 0; bottom: 0; background: var(--accent-soft); border-left: 1px solid var(--accent); border-right: 1px solid var(--accent); cursor: grab; }
 .tl-plot.dragging, .tl-plot.dragging .tl-band { cursor: grabbing; }
 .tl-bars { position: absolute; inset: 0; display: flex; align-items: flex-end; gap: 2px; border-bottom: 1px solid var(--border-strong); pointer-events: none; }
-.tl-bars span { flex: 1 1 0; min-width: 0; background: var(--chart); border-radius: 2px 2px 0 0; }
+.tl-bars span { position: relative; flex: 1 1 0; min-width: 0; background: var(--chart); border-radius: 2px 2px 0 0; overflow: hidden; }
+.tl-bars .estimated { position: absolute; inset: 0 0 auto; background: repeating-linear-gradient(135deg, transparent 0 2px, var(--bg) 2px 4px); }
 .tl-bars span.in { background: var(--accent); }
 .tl-handle { position: absolute; top: 50%; z-index: 2; width: 10px; height: 28px; transform: translate(-50%, -50%); background: var(--bg); border: 2px solid var(--accent); border-radius: 5px; cursor: ew-resize; touch-action: none; }
 .tl-handle::before { content: ""; position: absolute; inset: -9px -19px; }
@@ -152,7 +153,7 @@ button, input, select { font: inherit; color: inherit; }
 .tl-tip, .tl-hover { position: absolute; border: 1px solid var(--border-strong); border-radius: 4px; background: var(--bg); color: var(--fg); font-size: 12px; white-space: nowrap; pointer-events: none; font-variant-numeric: tabular-nums; }
 .tl-tip { display: none; bottom: calc(100% + 5px); left: 50%; transform: translateX(-50%); padding: 0 5px; line-height: 18px; }
 .tl-handle:focus-visible .tl-tip, .tl-plot.dragging .tl-tip { display: block; }
-.tl-hover { top: calc(100% + 1px); z-index: 3; padding: 0 6px; line-height: 20px; }
+.tl-hover { top: calc(100% + 1px); z-index: 3; padding: 0 6px; line-height: 20px; white-space: pre-line; }
 .tl-axis { position: relative; height: 18px; margin: 0 12px; font-size: 12px; line-height: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .tl-axis i { position: absolute; top: 0; width: 1px; height: 3px; background: var(--border-strong); }
 .tl-axis i.major { height: 5px; background: var(--faint); }
@@ -645,7 +646,7 @@ figure { margin: 0; }
 					<p class="chart-note" data-stat="share_note">Shares of the 2,383,502,748 words recorded for 190 editions; 6 editions have no word count. Collection totals include overlapping texts.</p>
 				</figure>
 				<p>Periods are given as the first and last year of the texts; a single year is written once (1620, not 1620–1620) and “c.” marks an approximate date. The period filter keeps an edition when its period overlaps the years chosen. Periods recorded as centuries count as their hundred years (the 16th century as 1500–1599); periods given only in words are shown as recorded and are not matched by year filters.</p>
-				<p>The graph counts each retained text in the June 2026 corpus once, at its recorded harvest year. Dates may be inferred, including from author lifespans. Undated words and collections without corpus date data are omitted.</p>
+				<p>The graph counts each retained text in the June 2026 corpus once. Recorded years may be approximate. Where a Gutenberg text lacks a year but has a recorded author lifespan wholly within 1450–1700, its words are distributed evenly across that range and shown with hatching. This is a broad estimate for display, not a known composition or publication date. Texts without usable date evidence remain omitted from the graph.</p>
 				<p>For <span data-stat="with_last_modified">41 editions</span> the record also gives the date of the last change reported by the host, such as the last push to a GitHub repository or the last update of a Zenodo record.</p>
 			</div>
 		</div>

@@ -550,7 +550,7 @@ def load_corpus_statistics(path: Path, snapshot: str | None) -> dict | None:
 
 
 def load_period_words(path: Path, corpus: dict | None, derived: list[dict]) -> dict | None:
-    """Attach actual dated corpus contributions, never estimates from collection date spans."""
+    """Attach recorded years and explicitly separate estimates from per-text evidence."""
     for d in derived:
         d["period_words"] = None
     if not corpus or not path.is_file():
@@ -571,24 +571,56 @@ def load_period_words(path: Path, corpus: dict | None, derived: list[dict]) -> d
     unlisted_words = 0
     for name, c in collections.items():
         bins = c.get("decade_words", [])
-        counts = [c.get("words"), c.get("texts"), c.get("undated_words"), *bins]
-        if len(bins) != len(DECADE_STARTS) or any(not is_int(n) or n < 0 for n in counts):
+        estimates = c.get("estimated_decade_words", [])
+        counts = [c.get("words"), c.get("texts"), c.get("undated_words"), *bins, *estimates]
+        if (len(bins) != len(DECADE_STARTS) or len(estimates) != len(DECADE_STARTS)
+                or any(not is_int(n) or n < 0 for n in counts)):
             raise BuildError(f"Invalid period word counts: {name}")
         if (c["words"] != source[name]["corpus_words"] or c["texts"] != source[name]["corpus_texts"]
-                or sum(bins) + c["undated_words"] != c["words"]):
+                or sum(bins) + sum(estimates) + c["undated_words"] != c["words"]):
             raise BuildError(f"Period word counts disagree with the corpus audit: {name}")
+        ranges = [e for e in c.get("date_estimates", []) if e.get("status") == "estimated"]
+        for e in ranges:
+            span = e.get("range", [])
+            if (len(span) != 2 or any(not is_int(y) for y in span)
+                    or not SCOPE[0] <= span[0] <= span[1] <= SCOPE[1]
+                    or not is_int(e.get("words")) or e["words"] < 0):
+                raise BuildError(f"Invalid date estimate: {name}")
+        if sum(e["words"] for e in ranges) != sum(estimates):
+            raise BuildError(f"Date estimates disagree with allocated words: {name}")
         d = by_entry.get(c.get("entry"))
         if d is None:
             unlisted_words += c["words"]
             continue
         if d["period_words"] is None:
-            d["period_words"] = {"decades": [0] * len(DECADE_STARTS), "undated": 0}
+            d["period_words"] = {"decades": [0] * len(DECADE_STARTS),
+                                 "estimated": [0] * len(DECADE_STARTS), "undated": 0,
+                                 "estimated_range": None}
         p = d["period_words"]
         p["decades"] = [a + b for a, b in zip(p["decades"], bins)]
+        p["estimated"] = [a + b for a, b in zip(p["estimated"], estimates)]
         p["undated"] += c["undated_words"]
+        if ranges:
+            spans = [e["range"] for e in ranges] + ([p["estimated_range"]] if p["estimated_range"] else [])
+            p["estimated_range"] = [min(s[0] for s in spans), max(s[1] for s in spans)]
+    # Keep cards and date filtering consistent with the graph's approximate coverage.
+    for d in derived:
+        p = d["period_words"]
+        if not p or not p["estimated_range"]:
+            continue
+        lo, hi = p["estimated_range"]
+        original = d.get("period")
+        if original and original["start"] is not None:
+            lo, hi = min(lo, original["start"]), max(hi, original["end"])
+        period = parse_period(f"c. {lo}-{hi}")
+        period["raw"] = original["raw"] if original else None
+        period["note"] = original["note"] if original else None
+        period["estimate_note"] = "Includes broad author-lifespan estimates for texts without a recorded year."
+        d["period"] = period
     mapped = [d["period_words"] for d in derived if d["period_words"] is not None]
     return {"snapshot": corpus["snapshot"], "frozen": corpus["frozen"],
-            "decade_words": [sum(p["decades"][i] for p in mapped) for i in range(len(DECADE_STARTS))],
+            "decade_words": [sum(p["decades"][i] + p["estimated"][i] for p in mapped) for i in range(len(DECADE_STARTS))],
+            "estimated_words": sum(sum(p["estimated"]) for p in mapped),
             "undated_words": sum(p["undated"] for p in mapped), "unlisted_words": unlisted_words,
             "basis": audit["basis"], "date_basis": audit["date_basis"],
             "source": f"{REPO_URL}/blob/main/data/period_word_counts.json"}
