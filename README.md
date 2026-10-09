@@ -10,7 +10,7 @@
 
 - Search and filter by language, period, format and collection size.
 - Find text files, APIs and licences, with a permanent link to every record.
-- Download the catalogue or export a selection as CSV or JSON.
+- Download the catalogue as CSV or JSON, with citation information.
 
 Renascor points to freely accessible collections of transcribed or corrected text. Each record identifies the project, its scope, format, rights, access links and DOI where available.
 

@@ -402,33 +402,6 @@
     "in_words": 1,
     "missing": 5
    },
-   "decades": [
-    27,
-    32,
-    40,
-    45,
-    46,
-    57,
-    62,
-    69,
-    78,
-    87,
-    93,
-    96,
-    101,
-    97,
-    102,
-    106,
-    109,
-    106,
-    102,
-    105,
-    95,
-    88,
-    80,
-    75,
-    72
-   ],
    "figures": {
     "rq": 187,
     "other": 3,
@@ -533,6 +506,42 @@
    "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
    "database_sha256": "380f7ee3fecb563cef4efc6e80df0f52d765c99a81b5bebc9d73b1d6af1e93cf"
   },
+  "timeline": {
+   "snapshot": "v2026.06",
+   "frozen": "2026-06-26",
+   "decade_words": [
+    26464686,
+    4042752,
+    17748748,
+    18827055,
+    18756435,
+    30161499,
+    16491782,
+    22231534,
+    29518358,
+    40307031,
+    77804928,
+    56108585,
+    63071976,
+    68800195,
+    65850237,
+    93260908,
+    111495446,
+    89219982,
+    94326552,
+    146198330,
+    259101553,
+    158307485,
+    170997604,
+    210836036,
+    218251739
+   ],
+   "undated_words": 28216049,
+   "unlisted_words": 5041817,
+   "basis": "Retained in-core texts after the corpus duplicate filter. Each text is counted once.",
+   "date_basis": "Recorded harvest years, including inferred dates and author-lifespan proxies; not a uniform chronology of composition or publication. Undated words are separate.",
+   "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/period_word_counts.json"
+  },
   "display": {
    "editions": "196",
    "editions_label": "196 editions",
@@ -569,7 +578,6 @@
    "with_data_url": "169 editions",
    "with_countries": "",
    "areas_list": "British Isles, France, Low Countries, Holy Roman Empire, Italian Peninsula, Iberian Peninsula, Scandinavia, Central and Eastern Europe, Balkans and Greece, Ottoman Empire and Near East, Americas, Asia and Africa",
-   "languages_note": "An edition counts once for each of its languages; 165 of the 196 editions have a single language.",
    "citation_author_year": "Godbarge, Clément (2026).",
    "citation_title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
    "citation_tail": "(Version 0.1.0) [Data set]. https://pantagrueliste.github.io/renascor/",
@@ -6341,7 +6349,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Digital corpus of German baroque literary texts (c. 1650-1750), focused on devotional literature around death preparation (Ars moriendi, Totentanz, Memento mori) connected with Abraham a Sancta Clara (1644-1709), e.g. Mercks Wienn (1680), Grosse Todten Bruderschaft (1681). First-edition principle, XML-TEI P5 with linguistic annotation (tokenisation, PoS tagging, lemmatisation) and person/place indices. Project directed by Claudia Resch and Ulrike Czeitschner; online since 2015, new infrastructure launched 2025. Project archive page: https://www.oeaw.ac.at/acdh/research/literary-studies/research/project-archive/abacus."
+   "notes_display": "Digital corpus of German baroque literary texts (c. 1650-1750), focused on devotional literature around death preparation (Ars moriendi, Totentanz, Memento mori) connected with Abraham a Sancta Clara (1644-1709), e.g. Mercks Wienn (1680), Grosse Todten Bruderschaft (1681). First-edition principle, XML-TEI P5 with linguistic annotation (tokenisation, PoS tagging, lemmatisation) and person/place indices. Project directed by Claudia Resch and Ulrike Czeitschner; online since 2015, new infrastructure launched 2025. Project archive page: https://www.oeaw.ac.at/acdh/research/literary-studies/research/project-archive/abacus.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     98446,
+     20835
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "abu-french",
@@ -6363,7 +6401,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     1956,
+     0,
+     0,
+     0,
+     0,
+     44335,
+     0,
+     4958,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     127632,
+     53318,
+     50411,
+     220301,
+     122675,
+     163334,
+     47017,
+     163082
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "adl-danish",
@@ -6385,7 +6453,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     377248,
+     0,
+     0,
+     0,
+     0,
+     32320,
+     0,
+     0,
+     0,
+     73663,
+     0,
+     0,
+     95732,
+     97563,
+     259597,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "amadiscorpus-gh",
@@ -6407,7 +6505,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Digital study of the transformation of Montalvo's Amadís de Gaula across editions and translations (Spanish, French, English, from the 1500s to the early 1800s). The corpus files are the 35 TEI XML chapters of the 1547 Sevilla printing of Montalvo's Amadís (facsimile source: Biblioteca Virtual de Andalucía), used to align Garci Rodríguez de Montalvo's text with Robert Southey's 1803 translation and study translation shifts. Project team: Stacey Triplette, Elisa Beshero-Bondar, Helena Bermúdez Sabel; maintained by Beshero-Bondar since 2015. Code and TEI data: https://github.com/ebeshero/Amadis-in-Translation (AGPL-3.0); archive DOI: https://doi.org/10.5281/zenodo.10892444. Project documentation and a 1533 frontispiece facsimile on the project site."
+   "notes_display": "Digital study of the transformation of Montalvo's Amadís de Gaula across editions and translations (Spanish, French, English, from the 1500s to the early 1800s). The corpus files are the 35 TEI XML chapters of the 1547 Sevilla printing of Montalvo's Amadís (facsimile source: Biblioteca Virtual de Andalucía), used to align Garci Rodríguez de Montalvo's text with Robert Southey's 1803 translation and study translation shifts. Project team: Stacey Triplette, Elisa Beshero-Bondar, Helena Bermúdez Sabel; maintained by Beshero-Bondar since 2015. Code and TEI data: https://github.com/ebeshero/Amadis-in-Translation (AGPL-3.0); archive DOI: https://doi.org/10.5281/zenodo.10892444. Project documentation and a 1533 frontispiece facsimile on the project site.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     97420,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "balkanslavic-damaskini",
@@ -6429,7 +6557,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The 23-text Damaskini subcorpus (16th-19th c. Balkan Slavic, Bulgarian/Macedonian/Torlak, ~53k tokens) is exactly the resource published at CLARIN.SI handle 11356/1441 (v1.1, 2021) by the SNSF-funded ZuCoSlaV project of Ivan Simko (University of Zurich, Slavic Seminary). Mirror on UZH GitLab: https://gitlab.uzh.ch/uzh-slavic-corpora/pre-standardized-balkan-slavic-literature. Formats are TSV/CoNLL-U/plain text (not TEI). License: CC BY-SA 4.0."
+   "notes_display": "The 23-text Damaskini subcorpus (16th-19th c. Balkan Slavic, Bulgarian/Macedonian/Torlak, ~53k tokens) is exactly the resource published at CLARIN.SI handle 11356/1441 (v1.1, 2021) by the SNSF-funded ZuCoSlaV project of Ivan Simko (University of Zurich, Slavic Seminary). Mirror on UZH GitLab: https://gitlab.uzh.ch/uzh-slavic-corpora/pre-standardized-balkan-slavic-literature. Formats are TSV/CoNLL-U/plain text (not TEI). License: CC BY-SA 4.0.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     44047,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "bartoli-correspondence",
@@ -6451,7 +6609,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1159846,
+     211208,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "basquekg",
@@ -6473,7 +6661,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     7037,
+     0,
+     13583,
+     219217,
+     0,
+     1230,
+     0,
+     16469,
+     83390,
+     27740,
+     103434,
+     17289,
+     184114,
+     38574,
+     71257,
+     35387
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "bdpn-novohispano",
@@ -6495,7 +6713,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th c. Mexican texts (scientific/astrological discourse, cartas, lunarios). The GitHub repository ficino2021/bdpn (CC0) preserved the corpus files after the original UNAM platform went offline; the official site bdpn.unam.mx/es is also live. The collected filenames (Almanaque y Lunario, Discursos astronomicos Bonilla, etc.) match BDPN titles."
+   "notes_display": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th c. Mexican texts (scientific/astrological discourse, cartas, lunarios). The GitHub repository ficino2021/bdpn (CC0) preserved the corpus files after the original UNAM platform went offline; the official site bdpn.unam.mx/es is also live. The collected filenames (Almanaque y Lunario, Discursos astronomicos Bonilla, etc.) match BDPN titles.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     7049,
+     0,
+     0,
+     0,
+     0,
+     38002,
+     8282
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "belarusian-skaryna",
@@ -6517,7 +6765,37 @@
    "size_band": "under-10k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1775,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "bertonio-aymara",
@@ -6539,7 +6817,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     74082,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "betamasaheft-geez",
@@ -6561,7 +6869,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     335,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 51065
+   }
   },
   {
    "id": "bibaugustana",
@@ -6583,7 +6921,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     76560,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     102123,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     17291,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "bibcertxt",
@@ -6596,7 +6964,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The 331 Spanish texts (comedias like 'El gran teatro del mundo', 'El vellocino de oro', etc.) were harvested from the Biblioteca Virtual Miguel de Cervantes, the major Spanish digital library run with the Universidad de Alicante; filenames follow BVMC URL slugs with year suffixes (e.g. el-gran-teatro-del-mundo-2010.txt). Open access but individual texts are copyrighted by BVMC (no blanket open licence)."
+   "notes_display": "The 331 Spanish texts (comedias like 'El gran teatro del mundo', 'El vellocino de oro', etc.) were harvested from the Biblioteca Virtual Miguel de Cervantes, the major Spanish digital library run with the Universidad de Alicante; filenames follow BVMC URL slugs with year suffixes (e.g. el-gran-teatro-del-mundo-2010.txt). Open access but individual texts are copyrighted by BVMC (no blanket open licence).",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 2373898
+   }
   },
   {
    "id": "biblioteca-italiana",
@@ -6618,7 +7016,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     21399,
+     2855449,
+     347212,
+     437076,
+     66966,
+     0,
+     1570343,
+     374634,
+     842840,
+     19277566,
+     155506,
+     702509,
+     67777,
+     1832144,
+     5797,
+     182469,
+     391816,
+     0,
+     0,
+     712679,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "bokselskap",
@@ -6640,7 +7068,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     11681,
+     0,
+     50420,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     45720,
+     28311,
+     50391
+    ],
+    "undated": 78054
+   }
   },
   {
    "id": "brievenalsbuit",
@@ -6662,7 +7120,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     279516,
+     141756,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "bullinger-digital",
@@ -6684,7 +7172,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     36169,
+     436571,
+     971160,
+     1254452,
+     1541379,
+     790489,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "bvh-epistemon-print",
@@ -6706,7 +7224,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     57866,
+     270823,
+     234434,
+     564502,
+     217951,
+     100417,
+     61454,
+     0,
+     119952,
+     341489,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "camena",
@@ -6728,7 +7276,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     88550,
+     0,
+     0,
+     0,
+     0,
+     7806846,
+     163052,
+     579591,
+     241774,
+     341572,
+     2395617,
+     1882733,
+     862893,
+     405080,
+     1509958,
+     17052568,
+     2097744,
+     2362844,
+     1383819,
+     1366621
+    ],
+    "undated": 10488
+   }
   },
   {
    "id": "campanella-atc",
@@ -6750,7 +7328,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     118531,
+     274616,
+     469,
+     79525,
+     37131,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 192937
+   }
   },
   {
    "id": "casebooks",
@@ -6772,7 +7380,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     223475,
+     512452,
+     311988,
+     421753,
+     238129,
+     2649,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "cavriana-correspondence",
@@ -6794,7 +7432,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The repository Pantagrueliste/CavrianaCorr is a digital TEI edition of Filippo Cavriana's late-16th-century correspondence, described as 'Digital Edition of Filippo Cavriana's Correspondence'; licence CC BY 4.0. Matches the collected 2-text collection exactly."
+   "notes_display": "The repository Pantagrueliste/CavrianaCorr is a digital TEI edition of Filippo Cavriana's late-16th-century correspondence, described as 'Digital Edition of Filippo Cavriana's Correspondence'; licence CC BY 4.0. Matches the collected 2-text collection exactly.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     45188,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "celt",
@@ -6816,7 +7484,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     292,
+     2222,
+     34868,
+     12426,
+     141428,
+     200132,
+     18570,
+     67119,
+     58510,
+     113211,
+     5156,
+     17707,
+     0,
+     219369,
+     41660,
+     85782,
+     484144,
+     28082,
+     283242,
+     0,
+     6658,
+     4156,
+     0,
+     0,
+     6323
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "cet-teatro16c-portuguese",
@@ -6838,7 +7536,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Textual database of critical editions of 16th-century Portuguese theatre by the Centro de Estudos de Teatro (ULisboa). The live obras page (ver http://cet-e-quinhentos.com/obras) lists the exact collected autos, including 'Auto de Santiago' by Afonso Álvares and 'Auto das Padeiras' (Anónimo). HTML site with critical apparatus/glossary/facsimiles (not TEI). Licence not stated."
+   "notes_display": "Textual database of critical editions of 16th-century Portuguese theatre by the Centro de Estudos de Teatro (ULisboa). The live obras page (ver http://cet-e-quinhentos.com/obras) lists the exact collected autos, including 'Auto de Santiago' by Afonso Álvares and 'Auto das Padeiras' (Anónimo). HTML site with critical apparatus/glossary/facsimiles (not TEI). Licence not stated.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     676876,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "chm-mapudungun",
@@ -6860,7 +7588,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5418,
+     0,
+     19380,
+     0,
+     696,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "cidtc",
@@ -6882,7 +7640,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "CIDTC is the digital critical edition of the correspondence of Johannes Dantiscus (1485-1548), royal Polish diplomat, published online at the University of Warsaw's editions.al.uw.edu.pl on an eXist-db/TEI-Publisher stack. The root URL shows a bare eXist-db landing page; the edition app itself lives at /exist/apps/dantiscus/, serving TEI P5 XML files with IDs of the form IDLxxxxx.xml exactly as the origin indicates."
+   "notes_display": "CIDTC is the digital critical edition of the correspondence of Johannes Dantiscus (1485-1548), royal Polish diplomat, published online at the University of Warsaw's editions.al.uw.edu.pl on an eXist-db/TEI-Publisher stack. The root URL shows a bare eXist-db landing page; the edition app itself lives at /exist/apps/dantiscus/, serving TEI P5 XML files with IDs of the form IDLxxxxx.xml exactly as the origin indicates.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     461,
+     3568,
+     170734,
+     1682236,
+     54267,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "ckcc-epistolarium",
@@ -6904,7 +7692,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     17674,
+     3243913,
+     1712392,
+     468771,
+     1857075,
+     75923,
+     563622,
+     7057
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "codiaje-judeospanish",
@@ -6926,7 +7744,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Multi-alphabetic annotated diachronic corpus of Judeo-Spanish (14th-21st c.) built in TEITOK (TEI-XML over CQP); hosted with a live TEITOK interface at LINDAT/CLARIN (https://lindat.mff.cuni.cz/services/teitok-live/codiaje/index.php). Described by Aldina Quintana in Scriptum Digital 9 (2020)."
+   "notes_display": "Multi-alphabetic annotated diachronic corpus of Judeo-Spanish (14th-21st c.) built in TEITOK (TEI-XML over CQP); hosted with a live TEITOK interface at LINDAT/CLARIN (https://lindat.mff.cuni.cz/services/teitok-live/codiaje/index.php). Described by Aldina Quintana in Scriptum Digital 9 (2020).",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     22362,
+     0,
+     484,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     533,
+     0,
+     0
+    ],
+    "undated": 7574
+   }
   },
   {
    "id": "colonia",
@@ -6948,7 +7796,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Colonia is the diachronic corpus of classical Portuguese (16th-20th c.) of the AC/DC annotation project at Linguateca (Diana Santos). The live Linguateca author/works list for Colonia enumerates exactly the collected works — Anchieta, Pero Vaz de Caminha, Gandavo, Vieira sermons/letters, Camões, Guerr(a?)e(d)eiro, Melo — matching collection filenames (caminha1500, gandavo1576, vieira1655...). The corpus's own site (corporavm.uni-koeln.de/colonia) is dead; Linguateca's page remains the live official listing."
+   "notes_display": "Colonia is the diachronic corpus of classical Portuguese (16th-20th c.) of the AC/DC annotation project at Linguateca (Diana Santos). The live Linguateca author/works list for Colonia enumerates exactly the collected works — Anchieta, Pero Vaz de Caminha, Gandavo, Vieira sermons/letters, Camões, Guerr(a?)e(d)eiro, Melo — matching collection filenames (caminha1500, gandavo1576, vieira1655...). The corpus's own site (corporavm.uni-koeln.de/colonia) is dead; Linguateca's page remains the live official listing.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     27204,
+     115136,
+     0,
+     0,
+     123632,
+     151988,
+     91212,
+     92140,
+     24185,
+     0,
+     0,
+     178469,
+     0,
+     107968,
+     319726,
+     192257,
+     0,
+     0,
+     0,
+     30573
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "controversia-confessio",
@@ -6970,7 +7848,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     37284,
+     440882,
+     142274,
+     81222,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 373584
+   }
   },
   {
    "id": "coqalane",
@@ -6992,7 +7900,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Public Huma-Num GitLab repository 'GIT-Coqalane' by Cyril Cano-Arnedo: TEI-XML corpus of the Renaissance coq-à-l'âne epigram genre (poems 1530-1650), one TEI file per poem, reuse under CC BY-NC-SA 4.0. The collected files (CAA13-Rescript_Esprit_Troublé.xml etc.) match its file naming."
+   "notes_display": "Public Huma-Num GitLab repository 'GIT-Coqalane' by Cyril Cano-Arnedo: TEI-XML corpus of the Renaissance coq-à-l'âne epigram genre (poems 1530-1650), one TEI file per poem, reuse under CC BY-NC-SA 4.0. The collected files (CAA13-Rescript_Esprit_Troublé.xml etc.) match its file naming.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     5996,
+     1727,
+     3492,
+     704,
+     65138,
+     0,
+     0,
+     5670,
+     0,
+     930,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "cornish-gwreansanbys",
@@ -7014,7 +7952,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Taklow Kernewek's Neocities site hosts digitized Middle/Late Cornish texts including 'Gwreans an Bys' (The Creation of the World, Cornish ordinance/cycle play, MS 1611) in plain text, as confirmed by the live files https://taklowkernewek.neocities.org/GwreansAnBys_segmented.txt and .../kernewekFSS/GwreansAnBysConvertedSWF.txt (after the transcriptions by W. Stokes and N. Jordan). Licence not stated on site."
+   "notes_display": "Taklow Kernewek's Neocities site hosts digitized Middle/Late Cornish texts including 'Gwreans an Bys' (The Creation of the World, Cornish ordinance/cycle play, MS 1611) in plain text, as confirmed by the live files https://taklowkernewek.neocities.org/GwreansAnBys_segmented.txt and .../kernewekFSS/GwreansAnBysConvertedSWF.txt (after the transcriptions by W. Stokes and N. Jordan). Licence not stated on site.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     12560,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "cornish-tregear",
@@ -7036,7 +8004,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     38078,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "corpus-corporum",
@@ -7058,7 +8056,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     427867,
+     582412,
+     272598,
+     232705,
+     413724,
+     504756,
+     536229,
+     1280622,
+     1013751,
+     284162,
+     233041,
+     408080,
+     2013955,
+     153498,
+     241569,
+     3338688,
+     2812994,
+     91589,
+     813240,
+     754940,
+     505878,
+     418560,
+     85323,
+     1568434,
+     103355
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "corpus17-french",
@@ -7080,7 +8108,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "CORPUS17 is Simon Gabay's open GitHub corpus of 17th-century French texts encoded in diplomatic TEI (e-ditiones/CORPUS17, description '17th c. French texts corpus'). The 120 collected texts (dates 1624-1687 etc.) mirror its TEI files. No explicit licence in repo metadata listed by the GitHub API."
+   "notes_display": "CORPUS17 is Simon Gabay's open GitHub corpus of 17th-century French texts encoded in diplomatic TEI (e-ditiones/CORPUS17, description '17th c. French texts corpus'). The 120 collected texts (dates 1624-1687 etc.) mirror its TEI files. No explicit licence in repo metadata listed by the GitHub API.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     46525,
+     16659,
+     377,
+     26160,
+     41354,
+     69,
+     6260,
+     12406
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "cretangreek-snhell",
@@ -7105,7 +8163,37 @@
    "size_band": "under-10k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Three Cretan poems from the online anthologies of the Spoudastirion Neou Ellinismou (snhell.gr; ed. Kritiki Lyriki Poiisi, Ermis 1999), which RQ harvested through the Wayback Machine. The host snhell.gr no longer resolves; the entry points to a verified archived snapshot (the whole domain is archived, see also http://web.archive.org/web/19981111191619/http://www.snhell.gr:80/)."
+   "notes_display": "Three Cretan poems from the online anthologies of the Spoudastirion Neou Ellinismou (snhell.gr; ed. Kritiki Lyriki Poiisi, Ermis 1999), which RQ harvested through the Wayback Machine. The host snhell.gr no longer resolves; the entry points to a verified archived snapshot (the whole domain is archived, see also http://web.archive.org/web/19981111191619/http://www.snhell.gr:80/).",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1171,
+     0,
+     0,
+     0,
+     0,
+     0,
+     565,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "croala",
@@ -7127,7 +8215,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     67609,
+     77192,
+     45198,
+     10044,
+     215462,
+     484216,
+     292754,
+     281046,
+     83980,
+     43714,
+     1529329,
+     42688,
+     5004,
+     230,
+     30613,
+     22164,
+     0,
+     134,
+     6581,
+     599,
+     181457,
+     612,
+     7684,
+     61775,
+     55318
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "czech-kralice1613",
@@ -7149,7 +8267,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The 66 collected books of the Kralice Bible 1613 (books GEN, EXO, LEV... 6 texts retained after filtering with in_core/is_dup) were extracted from the Bible Database christos-c/bible-corpus, which contains bibles/Czech.xml (the Kralice translation) among parallel Bible translations. Corpus licence CC0-1.0 (Bible Database)."
+   "notes_display": "The 66 collected books of the Kralice Bible 1613 (books GEN, EXO, LEV... 6 texts retained after filtering with in_core/is_dup) were extracted from the Bible Database christos-c/bible-corpus, which contains bibles/Czech.xml (the Kralice translation) among parallel Bible translations. Corpus licence CC0-1.0 (Bible Database).",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     597503,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "czech-tei2019",
@@ -7171,7 +8319,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Repository accompanying the TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions' (Boris Lehečka, ÚJČ AV ČR), containing ~240 digital editions of Old/Middle Czech texts (1300-1800) published in Vokabulář webový (https://vokabular.ujc.cas.cz/). 'LekJadroBrn' = the edition of 'Lék jádro brněnské' (Knihy lékařské, 1502-1503), matching the collected file cz_lekjadrobrn_1503.txt."
+   "notes_display": "Repository accompanying the TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions' (Boris Lehečka, ÚJČ AV ČR), containing ~240 digital editions of Old/Middle Czech texts (1300-1800) published in Vokabulář webový (https://vokabular.ujc.cas.cz/). 'LekJadroBrn' = the edition of 'Lék jádro brněnské' (Knihy lékařské, 1502-1503), matching the collected file cz_lekjadrobrn_1503.txt.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     69891,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "danishpostils",
@@ -7193,7 +8371,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Verified via the Zenodo API: record 7479443 (v0.2.0) is 'Early Modern Danish Postils' by Jonas Kjøller-Rasmussen (University of Copenhagen), concept DOI 10.5281/zenodo.7113232 — the canonical project URL; the specific record cited in the origin is https://zenodo.org/records/7479443. 13 texts, plain text distribution. License MIT."
+   "notes_display": "Verified via the Zenodo API: record 7479443 (v0.2.0) is 'Early Modern Danish Postils' by Jonas Kjøller-Rasmussen (University of Copenhagen), concept DOI 10.5281/zenodo.7113232 — the canonical project URL; the specific record cited in the origin is https://zenodo.org/records/7479443. 13 texts, plain text distribution. License MIT.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     360985,
+     0,
+     338104,
+     0,
+     0,
+     0,
+     674123,
+     0,
+     0,
+     916604,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "dbnl",
@@ -7215,7 +8423,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     69278,
+     25933,
+     2005,
+     2829,
+     0,
+     131215,
+     235367,
+     7835,
+     185307,
+     691125,
+     154239,
+     337300,
+     613977,
+     1313114,
+     1885496,
+     2407504,
+     2158175,
+     2677908,
+     1716234,
+     1610422,
+     1484241,
+     1762465,
+     1968535
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "devonshire-manuscript",
@@ -7237,7 +8475,8 @@
    "size_band": null,
    "figures": "none",
    "snapshot": null,
-   "notes_display": "A digital edition of a mid-sixteenth-century miscellany of verse and prose, compiled in the court circle of Margaret Douglas and later the Rutland household, with contributions by Thomas Wyatt, Mary Shelton and others. Diplomatic transcription, modernised text and scholarly apparatus, encoded in TEI P5. The original dedicated site (devonshire.unb.ca) is offline; the social edition now lives on Wikibooks, and the ~200 TEI XML transcriptions and witnesses (CC BY-SA 4.0) are archived at Oxford LLDS: https://llds.phon.ox.ac.uk/llds/xmlui/handle/20.500.14106/2587"
+   "notes_display": "A digital edition of a mid-sixteenth-century miscellany of verse and prose, compiled in the court circle of Margaret Douglas and later the Rutland household, with contributions by Thomas Wyatt, Mary Shelton and others. Diplomatic transcription, modernised text and scholarly apparatus, encoded in TEI P5. The original dedicated site (devonshire.unb.ca) is offline; the social edition now lives on Wikibooks, and the ~200 TEI XML transcriptions and witnesses (CC BY-SA 4.0) are archived at Oxford LLDS: https://llds.phon.ox.ac.uk/llds/xmlui/handle/20.500.14106/2587",
+   "period_words": null
   },
   {
    "id": "diacronia-romanian",
@@ -7259,7 +8498,37 @@
    "size_band": "under-10k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1487,
+     0,
+     4287,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "diacu-bulgarian",
@@ -7281,7 +8550,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "DIACU v1.0 (GitHub repo, description 'A dataset for the DIAchronic analysis of Church Slavonic, version 1.0') aggregates documents from Old Church Slavonic to Ruthenian, including 15th-century Bulgarian manuscripts distributed by Sofia University's historical dictionary / Cyrillomethodiana collections, matching the Late-15th-c. Bulgarian homilies of the collection (Homilia Domini nostri Iesu Christi de quid et quo..., Vita Hilarionis Moglen...). 3 texts retained. No explicit licence in repo metadata."
+   "notes_display": "DIACU v1.0 (GitHub repo, description 'A dataset for the DIAchronic analysis of Church Slavonic, version 1.0') aggregates documents from Old Church Slavonic to Ruthenian, including 15th-century Bulgarian manuscripts distributed by Sofia University's historical dictionary / Cyrillomethodiana collections, matching the Late-15th-c. Bulgarian homilies of the collection (Homilia Domini nostri Iesu Christi de quid et quo..., Vita Hilarionis Moglen...). 3 texts retained. No explicit licence in repo metadata.",
+   "period_words": {
+    "decades": [
+     42841,
+     0,
+     9309,
+     2620,
+     0,
+     45942,
+     0,
+     0,
+     0,
+     0,
+     2007,
+     0,
+     670,
+     0,
+     0,
+     105,
+     0,
+     0,
+     0,
+     0,
+     117677,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "diakorp-czech",
@@ -7303,7 +8602,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Diakorp v6 (~3.45M words, 116 documents, 14th-20th c., normalized transcriptions with original spellings) is officially deposited on LINDAT/CLARIAH-CZ with PID http://hdl.handle.net/11234/1-5413, distributed in a CQP-vertical format (not TEI). The 7 collected texts (Kabátník's Cesta z Čech..., Komenský's Labyrint...) are among its 116 source documents. Licence CC BY-NC-SA 4.0."
+   "notes_display": "Diakorp v6 (~3.45M words, 116 documents, 14th-20th c., normalized transcriptions with original spellings) is officially deposited on LINDAT/CLARIAH-CZ with PID http://hdl.handle.net/11234/1-5413, distributed in a CQP-vertical format (not TEI). The 7 collected texts (Kabátník's Cesta z Čech..., Komenský's Labyrint...) are among its 116 source documents. Licence CC BY-NC-SA 4.0.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     22748,
+     0,
+     0,
+     0,
+     4655,
+     3686,
+     24025,
+     89972,
+     44862,
+     118739,
+     7879,
+     0,
+     28858,
+     27187,
+     0,
+     0,
+     5533,
+     47687,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "dibilit-german",
@@ -7325,7 +8654,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "DiBiLit is the BBAW/DTA homogenized corpus of 2,000+ texts derived from the 'Digitale Bibliothek' (DirectMedia/Zeno.org), DTABf-encoded (TEI P5 subformat), CC BY-SA 4.0, with genre folders including drama; presentation page https://www.deutschestextarchiv.de/dibilit/. The 24 collected early German drama/Schwank texts (ayrer: Sidea, Theseus; gengenbach; opitz) match its drama files."
+   "notes_display": "DiBiLit is the BBAW/DTA homogenized corpus of 2,000+ texts derived from the 'Digitale Bibliothek' (DirectMedia/Zeno.org), DTABf-encoded (TEI P5 subformat), CC BY-SA 4.0, with genre folders including drama; presentation page https://www.deutschestextarchiv.de/dibilit/. The 24 collected early German drama/Schwank texts (ayrer: Sidea, Theseus; gengenbach; opitz) match its drama files.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     13222,
+     0,
+     15530,
+     119575,
+     264431,
+     0,
+     148056,
+     0,
+     142562,
+     34030,
+     0,
+     5252,
+     0,
+     152584,
+     489145,
+     0,
+     237318,
+     471687,
+     42498
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "dibiphil-renaissance",
@@ -7347,7 +8706,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Companion corpus of the DTA derived from Zeno.org's Digitale Bibliothek philosophical writings, DTABf/TEI-encoding, licence CC BY-SA 4.0 (repo; presentation page https://www.deutschestextarchiv.de/dibiphil/). The 40 collected texts match, e.g. Böhme's 'Aurora oder Morgenröte im Aufgang' (1612) and Paracelsus treatises."
+   "notes_display": "Companion corpus of the DTA derived from Zeno.org's Digitale Bibliothek philosophical writings, DTABf/TEI-encoding, licence CC BY-SA 4.0 (repo; presentation page https://www.deutschestextarchiv.de/dibiphil/). The 40 collected texts match, e.g. Böhme's 'Aurora oder Morgenröte im Aufgang' (1612) and Paracelsus treatises.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     41738,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     133878,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "digilib-armenian",
@@ -7369,7 +8758,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     206050,
+     10466,
+     0,
+     0,
+     0,
+     32119,
+     0,
+     52912,
+     86249
+    ],
+    "undated": 144250
+   }
   },
   {
    "id": "digital-donne",
@@ -7391,7 +8810,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3745,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 70808
+   }
   },
   {
    "id": "digital-scholarly-edition-of-angelo-poliziano-s-marginal-notes-to-the-epistle-of-sappho-to-phaon",
@@ -7413,7 +8862,8 @@
    "size_band": null,
    "figures": "none",
    "snapshot": null,
-   "notes_display": "EVT 2-based digital scholarly edition encoding multiple edition levels of Poliziano's manuscript annotations on the Epistle of Sappho to Phaon, with Wikidata items and CTS URNs; the dataset is also deposited on Zenodo (doi:10.5281/zenodo.17315766). It is a single-work edition, but carries a full scholarly apparatus (diplomatic and critical layers, apparatus of marks), so it is included despite the single-author caveat."
+   "notes_display": "EVT 2-based digital scholarly edition encoding multiple edition levels of Poliziano's manuscript annotations on the Epistle of Sappho to Phaon, with Wikidata items and CTS URNs; the dataset is also deposited on Zenodo (doi:10.5281/zenodo.17315766). It is a single-work edition, but carries a full scholarly apparatus (diplomatic and critical layers, apparatus of marks), so it is included despite the single-author caveat.",
+   "period_words": null
   },
   {
    "id": "disco-spanishsonnets",
@@ -7435,7 +8885,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "DISCO is the Diachronic Spanish Sonnet Corpus of ~4,500 Spanish sonnets 15th–20th c. in XML-TEI with metrical annotation and VIAF-linked metadata; the Golden Age subcorpus (15th–17th c.) deliberately includes minor/non-canonical authors, exactly matching the harvest reference 'DISCO Golden Age minor-author sonnets' (150 texts). Distributed under CC-BY 4.0 via GitHub and Zenodo (zenodo.org/records/7604914). The former project site editionsdisco.com no longer resolves (checked Oct 2026), but the project site is mirrored at prf1.org/disco/about.html."
+   "notes_display": "DISCO is the Diachronic Spanish Sonnet Corpus of ~4,500 Spanish sonnets 15th–20th c. in XML-TEI with metrical annotation and VIAF-linked metadata; the Golden Age subcorpus (15th–17th c.) deliberately includes minor/non-canonical authors, exactly matching the harvest reference 'DISCO Golden Age minor-author sonnets' (150 texts). Distributed under CC-BY 4.0 via GitHub and Zenodo (zenodo.org/records/7604914). The former project site editionsdisco.com no longer resolves (checked Oct 2026), but the project site is mirrored at prf1.org/disco/about.html.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     76564,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "dissed-phdeditions",
@@ -7457,7 +8937,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     166682,
+     0,
+     0,
+     0,
+     0,
+     53030,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1237,
+     4806,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     15591,
+     6116,
+     7029
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "doctrinalima1584-quechua",
@@ -7479,7 +8989,37 @@
    "size_band": "under-10k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     6649,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "documenta-catholica-omnia",
@@ -7501,7 +9041,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     2533,
+     12175,
+     1090,
+     2390,
+     0,
+     277771,
+     24073,
+     2313,
+     126842,
+     123881,
+     7387,
+     195023,
+     304998,
+     11939,
+     427576,
+     97125,
+     10352,
+     0,
+     0,
+     0,
+     470,
+     484359,
+     0,
+     0,
+     0
+    ],
+    "undated": 374803
+   }
   },
   {
    "id": "dost-olderscots",
@@ -7523,7 +9093,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     788698,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "dracor",
@@ -7545,7 +9145,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     8649,
+     4061,
+     6836,
+     28753,
+     64706,
+     59949,
+     64855,
+     95810,
+     111101,
+     178714,
+     158720,
+     315800,
+     214824,
+     601606,
+     1168528,
+     2314516,
+     1945820,
+     1767216,
+     3567382,
+     2275531,
+     1575815,
+     2460448,
+     2382017,
+     1627632,
+     2102340
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "drc-romansh",
@@ -7567,7 +9197,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "DFG project (2009–2011) at the Universität zu Köln that digitized and deep-indexed Caspar Decurtins' 'Rätoromanische Chrestomathie' (~7,500 pages of Romansh texts), published as the 'Biblioteca Digitala' full-text corpus; data preservation is now with the Data Center for the Humanities (dch.phil-fak.uni-koeln.de). The harvest covers Decurtins vol. V (Engadine 16th-c. authors Travers, Bifrun, Chiampell, Planta, Papa), matching origin 'DRC Vol V (Engadine 16th c.): Gian Travers'. Caveat: the crestomazia server deliberately answers HTTP 418 (anti-crawler 'teapot') to non-browser clients including this checker, so verify interactively in a browser; it is up, not dead (no 404/000). Text units are OCR'd chapters, not TEI."
+   "notes_display": "DFG project (2009–2011) at the Universität zu Köln that digitized and deep-indexed Caspar Decurtins' 'Rätoromanische Chrestomathie' (~7,500 pages of Romansh texts), published as the 'Biblioteca Digitala' full-text corpus; data preservation is now with the Data Center for the Humanities (dch.phil-fak.uni-koeln.de). The harvest covers Decurtins vol. V (Engadine 16th-c. authors Travers, Bifrun, Chiampell, Planta, Papa), matching origin 'DRC Vol V (Engadine 16th c.): Gian Travers'. Caveat: the crestomazia server deliberately answers HTTP 418 (anti-crawler 'teapot') to non-browser clients including this checker, so verify interactively in a browser; it is up, not dead (no 404/000). Text units are OCR'd chapters, not TEI.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     68613,
+     0,
+     0,
+     0,
+     74722,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "dsl-henriksmith",
@@ -7589,7 +9249,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The collection is DSL/tekstnet.dk's scientific online edition of Henrik Smid's six medical books (the posthumous 1577 edition), edited by Simon Skovgaard Boeck with Anne Mette Hansen and Ebba Hjorth; text transcribed from digital photographs in cooperation with the Universität Trier. The three harvested texts correspond word-for-word to the origin ids 'smith-h_1-laegebog-top-til-taa (1577)' etc., verified live at tekstnet.dk/books/smith-h_1-laegebog-top-til-taa/. tekstnet.dk is DSL's portal for Old Danish text editions."
+   "notes_display": "The collection is DSL/tekstnet.dk's scientific online edition of Henrik Smid's six medical books (the posthumous 1577 edition), edited by Simon Skovgaard Boeck with Anne Mette Hansen and Ebba Hjorth; text transcribed from digital photographs in cooperation with the Universität Trier. The three harvested texts correspond word-for-word to the origin ids 'smith-h_1-laegebog-top-til-taa (1577)' etc., verified live at tekstnet.dk/books/smith-h_1-laegebog-top-til-taa/. tekstnet.dk is DSL's portal for Old Danish text editions.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     256557,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "dsl-salmer",
@@ -7611,7 +9301,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "DSL project 'Musik og sprog i reformationstidens danske salmesang' (Carlsberg-funded) digitally published nine Danish hymnals and mass books of the Reformation era, 1529–1573; the four harvested texts (christian-3-bibel 1550, claus-mortensen-messe-1529, dietz-salmebog-1529/1536, jespersen_1573) match the origin ids 'DSL DSL_Salmer: ...' exactly by slug. Texts are served as TEI/XML from DSL's eXist-db, with companion portals melodier.dsl.dk and ordnet.dk/ren; project page at dsl.dk/projekter/musik-og-sprog-i-reformationstidens-danske-salmesang."
+   "notes_display": "DSL project 'Musik og sprog i reformationstidens danske salmesang' (Carlsberg-funded) digitally published nine Danish hymnals and mass books of the Reformation era, 1529–1573; the four harvested texts (christian-3-bibel 1550, claus-mortensen-messe-1529, dietz-salmebog-1529/1536, jespersen_1573) match the origin ids 'DSL DSL_Salmer: ...' exactly by slug. Texts are served as TEI/XML from DSL's eXist-db, with companion portals melodier.dsl.dk and ordnet.dk/ren; project page at dsl.dk/projekter/musik-og-sprog-i-reformationstidens-danske-salmesang.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     25591,
+     65546,
+     0,
+     972620,
+     99876,
+     31285,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "dta",
@@ -7633,7 +9353,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     12436,
+     0,
+     504,
+     25082,
+     52758,
+     13206,
+     1602466,
+     236958,
+     106719,
+     972811,
+     821450,
+     223394,
+     247276,
+     1498989,
+     1418516,
+     1693826,
+     2591697,
+     1309882,
+     1740474,
+     1632288,
+     4988319,
+     4019525,
+     4609655,
+     5802367,
+     5996170
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "earlymoderngreek-clarinel",
@@ -7655,7 +9405,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "CLARIN:EL publishes a resource family of Medieval and Early Modern Greek resources (featured at clarin.gr/en/resource-of-the-month/greek-middle-ages-clarinel), including 11 complete 16th-c. notarial registers of Cretan and Ionian notaries; the notarial-deeds corpus behind the handle above (resolves to inventory.clarin.gr/corpus/902, live) covers deeds by Katoimeris, Varagas, Farmakis, Alexakis, Vranianitis, Maras, Patsidiotis and Ioannis Olokalos — matching the harvested documents '(Alexakis)' and 'Olokalos notary documents (Crete, 1496-1543)'; sibling corpora contain Montselese's Evgena (1646) and Kapianos/Visvizis deed editions, matching the other origin strings of this 20-text cluster ('CLARIN:EL 1210' is the RQ harvest's internal resource id; corpora are TEI-compliant XML)."
+   "notes_display": "CLARIN:EL publishes a resource family of Medieval and Early Modern Greek resources (featured at clarin.gr/en/resource-of-the-month/greek-middle-ages-clarinel), including 11 complete 16th-c. notarial registers of Cretan and Ionian notaries; the notarial-deeds corpus behind the handle above (resolves to inventory.clarin.gr/corpus/902, live) covers deeds by Katoimeris, Varagas, Farmakis, Alexakis, Vranianitis, Maras, Patsidiotis and Ioannis Olokalos — matching the harvested documents '(Alexakis)' and 'Olokalos notary documents (Crete, 1496-1543)'; sibling corpora contain Montselese's Evgena (1646) and Kapianos/Visvizis deed editions, matching the other origin strings of this 20-text cluster ('CLARIN:EL 1210' is the RQ harvest's internal resource id; corpora are TEI-compliant XML).",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     57753,
+     0,
+     0,
+     80268,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     14194,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "ebba",
@@ -7677,7 +9457,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     887,
+     12476,
+     22386,
+     27054,
+     58828,
+     16715,
+     4672,
+     73074,
+     67231,
+     231021,
+     144497,
+     140672,
+     99341,
+     322275,
+     781368,
+     1358592,
+     610823
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "edition-640",
@@ -7690,7 +9500,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 122621
+   }
   },
   {
    "id": "eebo-text-creation-partnership",
@@ -7712,7 +9552,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. Access via EEBO (subscription) or open TCP texts."
+   "notes_display": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. Access via EEBO (subscription) or open TCP texts.",
+   "period_words": {
+    "decades": [
+     11907,
+     132877,
+     680890,
+     3936734,
+     2633987,
+     1852773,
+     1848100,
+     3517081,
+     10432796,
+     11702198,
+     10610056,
+     23743416,
+     36378116,
+     45683597,
+     39274716,
+     63117802,
+     69327263,
+     60886801,
+     68174440,
+     104873292,
+     196142813,
+     122619908,
+     135611715,
+     164822486,
+     164313870
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "elan-crenum",
@@ -7734,7 +9604,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "CreNum is the ELAN (Grenoble) digital XML-TEI edition of Guillaume Crétin's Chronique française (ed. Delaissa Berrada, 2020, CC-BY 3.0 for the TEI at data.elan-numerique.fr/textes/oeuvre15.xml), matching the harvest origin 'ÉLAN crenum: Livre_I..V' (five books, 1515 edition). The edition portal research.elan-numerique.fr (page oeuvres/edition/15) did not respond at check time, so the live GitLab repo gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum is given as the verified project URL."
+   "notes_display": "CreNum is the ELAN (Grenoble) digital XML-TEI edition of Guillaume Crétin's Chronique française (ed. Delaissa Berrada, 2020, CC-BY 3.0 for the TEI at data.elan-numerique.fr/textes/oeuvre15.xml), matching the harvest origin 'ÉLAN crenum: Livre_I..V' (five books, 1515 edition). The edition portal research.elan-numerique.fr (page oeuvres/edition/15) did not respond at check time, so the live GitLab repo gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum is given as the verified project URL.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     192178,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "elan-fnvr",
@@ -7756,7 +9656,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "FNVR is a Litt&Arts (Grenoble) project building XML-TEI editions of French verse narratives composed or translated 1490-1600, some first modern editions, led by Pascale Mounier; the TEI dataset is openly published on Recherche Data Gouv (DOI 10.57745/SSC5XT). The harvested files (amantDesconforte, chevallier, palamon, rondeaux) match the repo layout of elan/fnvr on the Grenoble GitLab, whose project page is live and matches origin 'ELAN fnvr: amantDesconforte'."
+   "notes_display": "FNVR is a Litt&Arts (Grenoble) project building XML-TEI editions of French verse narratives composed or translated 1490-1600, some first modern editions, led by Pascale Mounier; the TEI dataset is openly published on Recherche Data Gouv (DOI 10.57745/SSC5XT). The harvested files (amantDesconforte, chevallier, palamon, rondeaux) match the repo layout of elan/fnvr on the Grenoble GitLab, whose project page is live and matches origin 'ELAN fnvr: amantDesconforte'.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     78532,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "elan-polygrenaille",
@@ -7778,7 +9708,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "POLY-GRENAILLE (Grenolle ELAN platform) is a digital critical edition of the 1640s moral works of Francois de Grenaille including his La Mode (Paris 1642), matching the harvest origin 'ELAN polygrenaille: grenaille_la_mode' (39 texts). Published within UMR Litt&Arts' ELAN platform with TEI encoding and critical annotation (never previously modern-edited)."
+   "notes_display": "POLY-GRENAILLE (Grenolle ELAN platform) is a digital critical edition of the 1640s moral works of Francois de Grenaille including his La Mode (Paris 1642), matching the harvest origin 'ELAN polygrenaille: grenaille_la_mode' (39 texts). Published within UMR Litt&Arts' ELAN platform with TEI encoding and critical annotation (never previously modern-edited).",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     77536,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "emblem-project-utrecht",
@@ -7800,7 +9760,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     27009,
+     156583,
+     253728,
+     0,
+     0,
+     0,
+     0,
+     16560,
+     68607,
+     30440
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "emlap",
@@ -7822,7 +9812,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     50913,
+     59558,
+     29531,
+     219848,
+     209669,
+     984933,
+     754693,
+     658282,
+     403115,
+     649105,
+     128714,
+     130284,
+     110091,
+     159351,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "emmo-folger",
@@ -7844,7 +9864,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "EMMO is the Folger Shakespeare Library's IMLS-funded project giving web access to TEI P5 transcriptions, images and metadata of 16th- and 17th-century English manuscripts, with diplomatic/semi-diplomatic/regularized text flavors and a downloadable XML corpus; the site documents exactly '100 transcribed documents', matching the harvest origin 'EMMO (Folger), 100 manuscript transcriptions'. Crowdsourced transcription ran on Dromio (transcribe.folger.edu); the IMLS grant concluded, leaving the site a preserved static resource."
+   "notes_display": "EMMO is the Folger Shakespeare Library's IMLS-funded project giving web access to TEI P5 transcriptions, images and metadata of 16th- and 17th-century English manuscripts, with diplomatic/semi-diplomatic/regularized text flavors and a downloadable XML corpus; the site documents exactly '100 transcribed documents', matching the harvest origin 'EMMO (Folger), 100 manuscript transcriptions'. Crowdsourced transcription ran on Dromio (transcribe.folger.edu); the IMLS grant concluded, leaving the site a preserved static resource.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     40606,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "emothe",
@@ -7866,7 +9916,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "EMOTHE at the Universitat de València studies and edits the canon of early modern European theatre (Italian, English, French, Portuguese, Spanish, 16th–17th c.); its digital library has ~350 TEI-XML editions (originales y traducciones) with ids like EMOTHE0357, EMOTHE0382 — matching the harvest origin 'EMOTHE/EMOTHE0357: Fernández Mosquera, Santiago, ed. — A SECRETO AGRAVIO, SECRETA VENGANZA' and the 357-text id span. TEI files (TEI-All validated) are openly distributed via GitLab (gitlab.com/emothe/emothe-research-project) and the Zenodo community zenodo.org/communities/emothe; workflow is FileMaker + oXygen, not TEITOK."
+   "notes_display": "EMOTHE at the Universitat de València studies and edits the canon of early modern European theatre (Italian, English, French, Portuguese, Spanish, 16th–17th c.); its digital library has ~350 TEI-XML editions (originales y traducciones) with ids like EMOTHE0357, EMOTHE0382 — matching the harvest origin 'EMOTHE/EMOTHE0357: Fernández Mosquera, Santiago, ed. — A SECRETO AGRAVIO, SECRETA VENGANZA' and the 357-text id span. TEI files (TEI-All validated) are openly distributed via GitLab (gitlab.com/emothe/emothe-research-project) and the Zenodo community zenodo.org/communities/emothe; workflow is FileMaker + oXygen, not TEITOK.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     8730,
+     0,
+     0,
+     0,
+     15061,
+     0,
+     43373,
+     0,
+     0,
+     641626,
+     20380,
+     0,
+     37852,
+     53865,
+     21373,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "emroc",
@@ -7888,7 +9968,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     8162,
+     0,
+     0,
+     0,
+     8010,
+     0,
+     3258,
+     31137,
+     15666,
+     16682,
+     4628,
+     0,
+     20186,
+     14189
+    ],
+    "undated": 126989
+   }
   },
   {
    "id": "epistemon",
@@ -7901,7 +10011,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 3061651
+   }
   },
   {
    "id": "estilometria-siglooro",
@@ -7923,7 +10063,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     120598,
+     6111200,
+     515111,
+     383237,
+     58483,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "ethicacomplementoria",
@@ -7945,7 +10115,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Annika Rockenberger's GitHub project holds the TEI P5 transcriptions and analysis code for her digital scholarly edition of the 17th-c. German etiquette prints of the Ethica Complementoria tradition, published with the Herzog August Bibliothek Wolfenbüttel; the harvest covers A3 (1648), C3 (1665), Complementierbüchlein (B6, 1660), Cochleatio Novissima (1656), Klag und Trost (1652) — matching origin 'Ethica Complementoria project: Ethica Complementoria (A3) (1648)'. A companion repo greflinger-dse/EthicaComplementoria holds edition files linked to DTA publications; data on GitHub under CC-BY."
+   "notes_display": "Annika Rockenberger's GitHub project holds the TEI P5 transcriptions and analysis code for her digital scholarly edition of the 17th-c. German etiquette prints of the Ethica Complementoria tradition, published with the Herzog August Bibliothek Wolfenbüttel; the harvest covers A3 (1648), C3 (1665), Complementierbüchlein (B6, 1660), Cochleatio Novissima (1656), Klag und Trost (1652) — matching origin 'Ethica Complementoria project: Ethica Complementoria (A3) (1648)'. A companion repo greflinger-dse/EthicaComplementoria holds edition files linked to DTA publications; data on GitHub under CC-BY.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     12583,
+     29179,
+     31918,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "evans-tcp",
@@ -7967,7 +10167,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     118385,
+     177521,
+     549809,
+     1453367,
+     1770175,
+     3809435
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "fabulasmitologicas",
@@ -7989,7 +10219,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Same project and repository as fabulasmito-gh: Antonio Rojas Castro's 2016 TEI-XML corpus of 26 Spanish Golden Age mythological fables (~150k words, CC BY 4.0), harvested here under origin 'Fábulas mitológicas: Barahona_acteon' with witnesses Barahona de Soto's Acteón and Vértumno, Bermúdez's Narciso, Bocángel's Leandro, Carrillo's Acis; the repo is the canonical public source, with a companion publication in Studia Aurea (2017) and stylometry workshops built on this corpus."
+   "notes_display": "Same project and repository as fabulasmito-gh: Antonio Rojas Castro's 2016 TEI-XML corpus of 26 Spanish Golden Age mythological fables (~150k words, CC BY 4.0), harvested here under origin 'Fábulas mitológicas: Barahona_acteon' with witnesses Barahona de Soto's Acteón and Vértumno, Bermúdez's Narciso, Bocángel's Leandro, Carrillo's Acis; the repo is the canonical public source, with a companion publication in Studia Aurea (2017) and stylometry workshops built on this corpus.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     182943,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "fallofconstantinople-arranz",
@@ -8011,7 +10271,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "arranz.obdurodon.org hosts the interlinear collation digital edition of the East Slavic 'Povest' o vzjatii Car'grada' (Tale of the capture of Constantinople), developed by Isabel Arranz del Riego from her 2013 UCM dissertation and maintained by David J. Birnbaum with XML/RelaxNG files and the three Hilandar Monastery witnesses 281 (1561), 280 (1585) and 282 (1826) - the first two are exactly the harvested witnesses ('witness HM281 (1561)', 'witness HM280 (1585)'). Released under CC BY-NC-SA 3.0."
+   "notes_display": "arranz.obdurodon.org hosts the interlinear collation digital edition of the East Slavic 'Povest' o vzjatii Car'grada' (Tale of the capture of Constantinople), developed by Isabel Arranz del Riego from her 2013 UCM dissertation and maintained by David J. Birnbaum with XML/RelaxNG files and the three Hilandar Monastery witnesses 281 (1561), 280 (1585) and 282 (1826) - the first two are exactly the harvested witnesses ('witness HM281 (1561)', 'witness HM280 (1585)'). Released under CC BY-NC-SA 3.0.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     15213,
+     0,
+     14634,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "famsi-bolles-yucatecmaya",
@@ -8033,7 +10323,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1912,
+     456,
+     0,
+     634,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 70542
+   }
   },
   {
    "id": "filologiasarda-sardinian",
@@ -8055,7 +10375,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     584,
+     0,
+     10012,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "florentinecodex-nahuatl",
@@ -8077,7 +10427,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     290869,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "fornsvenska-swedish",
@@ -8099,7 +10479,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     15203,
+     33794,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     10922,
+     0,
+     2879,
+     0,
+     0,
+     32396,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "fran-slovenian16c",
@@ -8121,7 +10531,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     343537,
+     432375,
+     691367,
+     1322465,
+     590588,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "freem",
@@ -8143,7 +10583,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     71187,
+     302350,
+     304802,
+     685244,
+     267889,
+     510434,
+     410216,
+     304559,
+     977500,
+     985060,
+     454611,
+     2002462,
+     4207584,
+     3063418,
+     2219004,
+     3483231,
+     3038355,
+     2321287
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "fuerstinnenkorrespondenz",
@@ -8165,7 +10635,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "DFG project on the letter corpora of early modern princely women of the central German area (~5,500 letters in 24 correspondences; the published corpus v1.1 has ~250k tokens of 16th-c. princesses' letters), published in the LAUDATIO repository with TEI plus morphological/POS annotation, queryable in ANNIS; matches origin 'Fürstinnenkorrespondenz (early-modern German princely women's letters, 16c)'. Related Anhalt/Thuringia letter materials sit in ThULB Jena 'Digitale Fürstinnenkorrespondenzen' collections; a BBAW reuse experiment by Stefan Dumont confirms the free licence of the TEI data."
+   "notes_display": "DFG project on the letter corpora of early modern princely women of the central German area (~5,500 letters in 24 correspondences; the published corpus v1.1 has ~250k tokens of 16th-c. princesses' letters), published in the LAUDATIO repository with TEI plus morphological/POS annotation, queryable in ANNIS; matches origin 'Fürstinnenkorrespondenz (early-modern German princely women's letters, 16c)'. Related Anhalt/Thuringia letter materials sit in ThULB Jena 'Digitale Fürstinnenkorrespondenzen' collections; a BBAW reuse experiment by Stefan Dumont confirms the free licence of the TEI data.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     23824,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "galileo-opere-favaro",
@@ -8187,7 +10687,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     15663,
+     0,
+     81691,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "gallicorpora-french-htr",
@@ -8209,7 +10739,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3754,
+     0,
+     406666,
+     3946,
+     2733,
+     3172,
+     0,
+     19087,
+     0,
+     6953,
+     0,
+     4381,
+     28190,
+     10973,
+     2988,
+     36169,
+     20765,
+     12557,
+     13998
+    ],
+    "undated": 25339
+   }
   },
   {
    "id": "gams-baselrecords",
@@ -8231,7 +10791,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     52607,
+     111756,
+     116198,
+     195625,
+     120202,
+     105965,
+     109027,
+     104049,
+     11527,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "ganjoorpersian",
@@ -8253,7 +10843,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     32520,
+     39965,
+     84348,
+     569585,
+     160302,
+     82873,
+     0,
+     310613,
+     0,
+     101655,
+     67982,
+     49178,
+     158976,
+     257290,
+     0,
+     140784,
+     243790,
+     48843,
+     430083,
+     104842,
+     265321,
+     1179249,
+     338554,
+     143885
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "gemi-midwifery",
@@ -8275,7 +10895,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Whitt's GeMi corpus (OTA 2562, published 2016) holds 12 German midwifery and women's-medicine texts ca. 1500–1700 (Rösslin's Rosengarten, the anonymous Frauenbüchlein ca. 1500, Rüff's Trostbüchlein, HoffWeheMutter, HebammenBuch...) in paired RAW plain-text and TEI XML files plus a manual — the RAW/TEI file pairs with dates match the harvest origins one-for-one ('GeMi: FrauenbüchleinRAW (1500)', 'GeMi: RosengartenRAW (1513)', 'GeMi: JungfrawenRAW (1624)'; 12 distinct origin files = the 12 corpus texts). Transcriptions derive mostly from the Würzburg 'Digitale Volltexte' Gynäkologie collection; CC BY-NC-SA 3.0. Caveat: OTA pages sit behind an Anubis anti-bot proof-of-work gate (HTTP 200 but challenge page to crawlers); open the URL in a browser."
+   "notes_display": "Whitt's GeMi corpus (OTA 2562, published 2016) holds 12 German midwifery and women's-medicine texts ca. 1500–1700 (Rösslin's Rosengarten, the anonymous Frauenbüchlein ca. 1500, Rüff's Trostbüchlein, HoffWeheMutter, HebammenBuch...) in paired RAW plain-text and TEI XML files plus a manual — the RAW/TEI file pairs with dates match the harvest origins one-for-one ('GeMi: FrauenbüchleinRAW (1500)', 'GeMi: RosengartenRAW (1513)', 'GeMi: JungfrawenRAW (1624)'; 12 distinct origin files = the 12 corpus texts). Transcriptions derive mostly from the Würzburg 'Digitale Volltexte' Gynäkologie collection; CC BY-NC-SA 3.0. Caveat: OTA pages sit behind an Anubis anti-bot proof-of-work gate (HTTP 200 but challenge page to crawlers); open the URL in a browser.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     3119,
+     10779,
+     0,
+     0,
+     0,
+     9691,
+     0,
+     8699,
+     0,
+     20167,
+     5055,
+     9797,
+     9610,
+     0,
+     0,
+     10247,
+     0,
+     0,
+     7929,
+     10095
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "germanc",
@@ -8297,7 +10947,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "GerManC is the Leverhulme-funded (2005-2009) manually parsed corpus of German 1650-1800 sampled across nine text types and five 30-year periods; the 'Plays' collection (drama manuscripts and prints 1650-1700 in the harvest: 'GerManC drama 1673', '...1657', '...1699', '...1700') is deposited as a separate Oxford Text Archive record, ota:2544, in TEI-style XML with text and metadata; license CC-BY-NC (free distribution for non-commercial use with acknowledgment). The former project site germanc.lancs.ac.uk no longer responds (checked Oct 2026), so the OTA catalogue record (returning HTTP 200 behind an Anubis anti-bot gate) is the verified link."
+   "notes_display": "GerManC is the Leverhulme-funded (2005-2009) manually parsed corpus of German 1650-1800 sampled across nine text types and five 30-year periods; the 'Plays' collection (drama manuscripts and prints 1650-1700 in the harvest: 'GerManC drama 1673', '...1657', '...1699', '...1700') is deposited as a separate Oxford Text Archive record, ota:2544, in TEI-style XML with text and metadata; license CC-BY-NC (free distribution for non-commercial use with acknowledgment). The former project site germanc.lancs.ac.uk no longer responds (checked Oct 2026), so the OTA catalogue record (returning HTTP 200 behind an Anubis anti-bot gate) is the verified link.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     24612,
+     50108,
+     39444,
+     65598,
+     50641
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "gilberti-purepecha",
@@ -8319,7 +10999,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     14264,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "glasgowemblems",
@@ -8341,7 +11051,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     43484,
+     119674,
+     115746,
+     108298,
+     5584,
+     71112,
+     26382,
+     0,
+     49544,
+     9636,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "gondomar-galician",
@@ -8363,7 +11103,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2987,
+     1968,
+     321,
+     558,
+     0,
+     0,
+     0,
+     0,
+     1129,
+     138,
+     3930
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "gongora-soledades",
@@ -8385,7 +11155,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "TEI encodings and datasets supporting the digital edition of Góngora's Soledades (1613) in the arojascastro/soledades GitHub repository: an annotated edition (soledades_anotada.xml), a critical edition (soledades_critica.xml) and simple transcriptions. The RQ harvest labelled this set 'GitHubTEI'."
+   "notes_display": "TEI encodings and datasets supporting the digital edition of Góngora's Soledades (1613) in the arojascastro/soledades GitHub repository: an annotated edition (soledades_anotada.xml), a critical edition (soledades_critica.xml) and simple transcriptions. The RQ harvest labelled this set 'GitHubTEI'.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     11676,
+     25180,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "gongoraobra-obvil",
@@ -8407,7 +11207,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The OBVIL GONGORA project digitized Carreira's edition of Góngora's poetic works plus the polémica gongorina in TEI P5 (2013–2016, CC BY-NC-ND); its TEI encodings are openly published in the gongoradigital GitHub org (gongoraobra) repo, described as 'Codificación xml de la polémica gongorina y la obra poética de Góngora editadas por el Labex OBVIL' — matching the harvested 'Góngora: epistolario (1610)' and 'comediavenatoria (1605)' files. The original portal obvil.paris-sorbonne.fr/corpus/gongora/ redirects to obvil.sorbonne-universite.site/corpus/gongora/ which did not respond at check time, so the GitHub repository is given as the verified live source; see also linhd-postdata/gongocorpus."
+   "notes_display": "The OBVIL GONGORA project digitized Carreira's edition of Góngora's poetic works plus the polémica gongorina in TEI P5 (2013–2016, CC BY-NC-ND); its TEI encodings are openly published in the gongoradigital GitHub org (gongoraobra) repo, described as 'Codificación xml de la polémica gongorina y la obra poética de Góngora editadas por el Labex OBVIL' — matching the harvested 'Góngora: epistolario (1610)' and 'comediavenatoria (1605)' files. The original portal obvil.paris-sorbonne.fr/corpus/gongora/ redirects to obvil.sorbonne-universite.site/corpus/gongora/ which did not respond at check time, so the GitHub repository is given as the verified live source; see also linhd-postdata/gongocorpus.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2072,
+     57049,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "grand-tour-digital-tei-dataset-of-early-modern-travel-testimonies-grand-tour-tei",
@@ -8429,7 +11259,8 @@
    "size_band": null,
    "figures": "none",
    "snapshot": null,
-   "notes_display": "TEI-XML files underlying the digital edition of a corpus of early modern travel testimonies (Reiseselbstzeugnisse). Full text was created with Transkribus HTR plus NER, i.e. project-released corrected machine text, published as an open dataset (CC BY-SA 4.0) on 30 September 2026. The corpus spans the 16th–18th centuries, so only part falls within the catalogue window; the dedicated edition website was not located, so the Zenodo deposit (and the git.hab.de repository it points to) is the stable access point."
+   "notes_display": "TEI-XML files underlying the digital edition of a corpus of early modern travel testimonies (Reiseselbstzeugnisse). Full text was created with Transkribus HTR plus NER, i.e. project-released corrected machine text, published as an open dataset (CC BY-SA 4.0) on 30 September 2026. The corpus spans the 16th–18th centuries, so only part falls within the catalogue window; the dedicated edition website was not located, so the Zenodo deposit (and the git.hab.de repository it points to) is the stable access point.",
+   "period_words": null
   },
   {
    "id": "gutorglyn-welsh",
@@ -8451,7 +11282,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     8551,
+     7913,
+     5461,
+     5181,
+     1020,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 2738
+   }
   },
   {
    "id": "hexenverhoer-sigs",
@@ -8473,7 +11334,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The SiGS corpus published in LAUDATIO contains 18 Early New High German witch-trial interrogation protocols 1570–1665 (Jever, Alme, Bamberg, München, Wernigerode, Osnabrück, Crivitz, Helmstedt, Leonberg, Memmingen...), matching the harvest origins 'Hexenverhörprotokoll Wernigerode1597' etc. one-for-one. Texts derive from Macha et al. (2005) 'Deutsche Kanzleisprache in Hexenverhörprotokollen der Frühen Neuzeit', converted to TEI P5 and further encoded as PAULA XML/relANNIS for ANNIS — hence encoding 'other' (PAULA, TEI-derived). Project page with corpus map: uni-muenster.de/SIGS-Projekt/corpus/index.html."
+   "notes_display": "The SiGS corpus published in LAUDATIO contains 18 Early New High German witch-trial interrogation protocols 1570–1665 (Jever, Alme, Bamberg, München, Wernigerode, Osnabrück, Crivitz, Helmstedt, Leonberg, Memmingen...), matching the harvest origins 'Hexenverhörprotokoll Wernigerode1597' etc. one-for-one. Texts derive from Macha et al. (2005) 'Deutsche Kanzleisprache in Hexenverhörprotokollen der Frühen Neuzeit', converted to TEI P5 and further encoded as PAULA XML/relANNIS for ANNIS — hence encoding 'other' (PAULA, TEI-derived). Project page with corpus map: uni-muenster.de/SIGS-Projekt/corpus/index.html.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1111,
+     2172,
+     11187,
+     7464,
+     11950,
+     20530,
+     17390,
+     9955,
+     2247,
+     1435,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "histcorp-swedish",
@@ -8495,7 +11386,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "HistCorp is an open platform for historical corpora and tools, distributed via the Swedish CLARIN node; its Swedish section is built on Fornsvenska textbanken (machine-readable Old/Early Modern Swedish texts 1350-1758), all supplied as plain text (RQ fmt_detected: plain). Freely available; ATTRIBUTIONS lists the collection as cc_by. The 20 RQ texts (e.g. 'HistorCorp fornsvenska: Prosaiska kronikan (1450)' -> origin 'HistCorp fornsvenska: Prosaiska krönikan (1450)') are directly from this download bundle. Note: Sprakbanken Text Gothenburg's Korp 'all_hist' mode offers related searchable corpora; HistCorp is the canonical downloadable source."
+   "notes_display": "HistCorp is an open platform for historical corpora and tools, distributed via the Swedish CLARIN node; its Swedish section is built on Fornsvenska textbanken (machine-readable Old/Early Modern Swedish texts 1350-1758), all supplied as plain text (RQ fmt_detected: plain). Freely available; ATTRIBUTIONS lists the collection as cc_by. The 20 RQ texts (e.g. 'HistorCorp fornsvenska: Prosaiska kronikan (1450)' -> origin 'HistCorp fornsvenska: Prosaiska krönikan (1450)') are directly from this download bundle. Note: Sprakbanken Text Gothenburg's Korp 'all_hist' mode offers related searchable corpora; HistCorp is the canonical downloadable source.",
+   "period_words": {
+    "decades": [
+     63698,
+     0,
+     0,
+     52935,
+     0,
+     0,
+     41017,
+     65199,
+     71437,
+     0,
+     79240,
+     51787,
+     0,
+     26317,
+     8011,
+     0,
+     0,
+     177768,
+     178198,
+     218655,
+     341080,
+     641569,
+     1059514,
+     1708056,
+     857464
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "huarochiri-quechua-full",
@@ -8517,7 +11438,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The collection is the single-text digitisation of Gerald Taylor's 1987 IEP/IFEA edition of the Huarochiri manuscript (Quechua, ca. 1608), held on the Biblioteca Digital Curt Nimuendaju at etnolinguistica.org (PDF verified live: https://etnolinguistica.wdfiles.com/local--files/biblio%3Ataylor-1987-ritos/TaylorG_1987_RitosYTradicionesDeHuarochiri.pdf). RQ has only the reconstituted quechua text as plain text-derived 'keyed' material. Publicly downloadable; not a TEI project."
+   "notes_display": "The collection is the single-text digitisation of Gerald Taylor's 1987 IEP/IFEA edition of the Huarochiri manuscript (Quechua, ca. 1608), held on the Biblioteca Digital Curt Nimuendaju at etnolinguistica.org (PDF verified live: https://etnolinguistica.wdfiles.com/local--files/biblio%3Ataylor-1987-ritos/TaylorG_1987_RitosYTradicionesDeHuarochiri.pdf). RQ has only the reconstituted quechua text as plain text-derived 'keyed' material. Publicly downloadable; not a TEI project.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     11586,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "humanumgitlab",
@@ -8539,7 +11490,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     84060,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     12908,
+     3368,
+     59700,
+     28905,
+     53504,
+     12204,
+     0,
+     24940,
+     43444,
+     88968,
+     1046876,
+     320391,
+     37391
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "icepahc-icelandic",
@@ -8561,7 +11542,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "IcePaHC is the Iceland Parsed Historical Corpus treebank (Old/Norse-to-modern Icelandic span, texts 1350-1750+ for pre-1700), distributed on GitHub as .psd/.tagged/.txt files. The 21 RQ files (bandamenn, ectorssaga, judit, vilhjalmur etc.) match the corpus .txt files exactly. Free public release; the linguist.is wiki site returned HTTP 511 from two networks, so the verified live canonical entry point is the GitHub repo. RQ collected from the raw txt layer (word-level parses dropped)."
+   "notes_display": "IcePaHC is the Iceland Parsed Historical Corpus treebank (Old/Norse-to-modern Icelandic span, texts 1350-1750+ for pre-1700), distributed on GitHub as .psd/.tagged/.txt files. The 21 RQ files (bandamenn, ectorssaga, judit, vilhjalmur etc.) match the corpus .txt files exactly. Free public release; the linguist.is wiki site returned HTTP 511 from two networks, so the verified live canonical entry point is the GitHub repo. RQ collected from the raw txt layer (word-level parses dropped).",
+   "period_words": {
+    "decades": [
+     56898,
+     0,
+     15919,
+     12575,
+     0,
+     0,
+     0,
+     27154,
+     0,
+     33667,
+     0,
+     0,
+     0,
+     0,
+     21475,
+     0,
+     14176,
+     15203,
+     12058,
+     0,
+     27507,
+     21300,
+     16628,
+     9070,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "imp-slovene",
@@ -8583,7 +11594,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "IMP is the IMPACT-project digital library/corpus of historical Slovene (658 texts, 1584-1919), published as hand-corrected TEI P5 transcriptions with facsimile links and lemma/MTE morphology. CLARIN.SI handle 11356/1031 is exactly the RQ source: it contains filenames such as 'ZRC_00001-1584-ana.xml' (Jurij Dalmatin's 1584 Bible) and 'ZRC_00002-1695-ana.xml' (Janez Svetokrski), matching the origin verbatim. License CC BY-SA 4.0 (CLARIN.SI); the site nl.ijs.si/imp is still online though the project completed in 2014."
+   "notes_display": "IMP is the IMPACT-project digital library/corpus of historical Slovene (658 texts, 1584-1919), published as hand-corrected TEI P5 transcriptions with facsimile links and lemma/MTE morphology. CLARIN.SI handle 11356/1031 is exactly the RQ source: it contains filenames such as 'ZRC_00001-1584-ana.xml' (Jurij Dalmatin's 1584 Bible) and 'ZRC_00002-1695-ana.xml' (Janez Svetokrski), matching the origin verbatim. License CC BY-SA 4.0 (CLARIN.SI); the site nl.ijs.si/imp is still online though the project completed in 2014.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     11335,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     15749
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "impactes-originalimprint",
@@ -8605,7 +11646,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     138337,
+     21798,
+     78634,
+     0,
+     130069,
+     147710,
+     704164,
+     360466,
+     0,
+     0,
+     368513,
+     0,
+     0,
+     0,
+     0,
+     13119
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "interregnum-acts",
@@ -8627,7 +11698,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     787704,
+     559220,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "izbornyk-ukrainian",
@@ -8649,7 +11750,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     7756,
+     13973,
+     48812,
+     5442,
+     11540,
+     27113,
+     13148,
+     3122,
+     13033,
+     5505,
+     1828,
+     2898,
+     2434
+    ],
+    "undated": 189394
+   }
   },
   {
    "id": "kirishitan-japanese",
@@ -8671,7 +11802,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     119633,
+     34596,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "korba-polish",
@@ -8693,7 +11854,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "KorBa (korba.edu.pl) is the largest corpus of historical Polish (1601-1800, ~27M segments), TEI P5 encoded with transcription/transliteration layers and rich metadata; maintained by the Institute of Polish Language, Polish Academy of Sciences (IJP PAN) with IPI PAN, PI Włodzimierz Gruszczyński, National Humanities Programme (2013-2023). The manually annotated subcorpus is downloadable under CC BY-SA (the legacy hostname korba.clarin-pl.eu no longer resolves). The Renascor Corpus working snapshot contains three collections of this project (KorBa_Polish, KorBa_Polish_full17c and KorbaText, the plain-text layer whose titles match KorBa's published text list), merged here as one edition."
+   "notes_display": "KorBa (korba.edu.pl) is the largest corpus of historical Polish (1601-1800, ~27M segments), TEI P5 encoded with transcription/transliteration layers and rich metadata; maintained by the Institute of Polish Language, Polish Academy of Sciences (IJP PAN) with IPI PAN, PI Włodzimierz Gruszczyński, National Humanities Programme (2013-2023). The manually annotated subcorpus is downloadable under CC BY-SA (the legacy hostname korba.clarin-pl.eu no longer resolves). The Renascor Corpus working snapshot contains three collections of this project (KorBa_Polish, KorBa_Polish_full17c and KorbaText, the plain-text layer whose titles match KorBa's published text list), merged here as one edition.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     22293,
+     8713,
+     7023,
+     10314,
+     7180,
+     4404,
+     3468,
+     344247,
+     10498,
+     11638
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "kronieken-dutch",
@@ -8715,7 +11906,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     16391,
+     57948,
+     0,
+     16542,
+     15799,
+     59241,
+     270979,
+     499972,
+     494346,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "lampeter-english",
@@ -8737,7 +11958,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "120 English tracts and pamphlets 1640-1740 (~1.19M words), TEI, CC BY-SA 3.0; OTA record ota:3193 answers at https://ota.ox.ac.uk/desc/3193 (the bodleian UI URL is the same record)."
+   "notes_display": "120 English tracts and pamphlets 1640-1740 (~1.19M words), TEI, CC BY-SA 3.0; OTA record ota:3193 answers at https://ota.ox.ac.uk/desc/3193 (the bodleian UI URL is the same record).",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     123078,
+     94831,
+     93564,
+     130605,
+     147153,
+     134361
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "leme",
@@ -8759,7 +12010,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     597,
+     21544,
+     112914,
+     252980,
+     39827,
+     99286,
+     799636,
+     494557,
+     91285,
+     179718,
+     935055,
+     1017171,
+     1502206,
+     207888,
+     1499330,
+     171026,
+     16711,
+     311727,
+     506299,
+     114656,
+     306512,
+     335549,
+     764329
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "liberliber",
@@ -8781,7 +12062,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     7119214,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     9658799,
+     1932723,
+     33418,
+     375541,
+     0,
+     0,
+     0,
+     3437512,
+     0,
+     104399,
+     2745586,
+     0,
+     0,
+     0,
+     2981426
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "litteraturbanken-swedish",
@@ -8803,7 +12114,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     39464,
+     10318,
+     0,
+     39883,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 24561
+   }
   },
   {
    "id": "maltese-cantilena",
@@ -8825,7 +12166,37 @@
    "size_band": "under-10k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     135,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "mambrino",
@@ -8847,7 +12218,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Mambrino Digital Library is the digital library of Spanish-inspired Italian chivalric romances (named after Mambrino Roseo da Fabriano). Each RQ text is a separate Zenodo dataset of a digital scholarly edition of 16th-century Sferamundi di Grecia books: 10.5281/zenodo.14235252 (Sferamundi 1), 11398260 (2), 11400259 (3), 11400335 (4), 11400513 (5), 11400584 (6) — each containing TEI XML transcription and commentary files. License CC BY-SA 4.0 (checked for record 14235252; per-record). All Zenodo records verified live."
+   "notes_display": "Mambrino Digital Library is the digital library of Spanish-inspired Italian chivalric romances (named after Mambrino Roseo da Fabriano). Each RQ text is a separate Zenodo dataset of a digital scholarly edition of 16th-century Sferamundi di Grecia books: 10.5281/zenodo.14235252 (Sferamundi 1), 11398260 (2), 11400259 (3), 11400335 (4), 11400513 (5), 11400584 (6) — each containing TEI XML transcription and commentary files. License CC BY-SA 4.0 (checked for record 14235252; per-record). All Zenodo records verified live.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     125163,
+     0,
+     0,
+     1336489,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "map-of-early-modern-london",
@@ -8869,7 +12270,8 @@
    "size_band": null,
    "figures": "none",
    "snapshot": null,
-   "notes_display": "A digital scholarly edition of early modern London, combining a gazetteer, an anthology of TEI-encoded texts, and a map. Includes links between places, people, and texts."
+   "notes_display": "A digital scholarly edition of early modern London, combining a gazetteer, an anthology of TEI-encoded texts, and a map. Includes links between places, people, and texts.",
+   "period_words": null
   },
   {
    "id": "mazarinades",
@@ -8891,7 +12293,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     4327041,
+     5795010,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "mek",
@@ -8913,7 +12345,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     49506,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     35643,
+     22835,
+     0,
+     0,
+     20141
+    ],
+    "undated": 289958
+   }
   },
   {
    "id": "mercuregalant",
@@ -8935,7 +12397,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The OBVIL/IReMus Mercure galant programme publishes the whole run 1672-1710 in TEI XML (GitHub repo OBVIL/mercure-galant 'MG-1672-01' to 'MG-1721-05'); RQ harvested 1672-1689 issues (4.2M words), matching the origin ('Mercure Galant 1672 (1 issues)' etc.) and the source 'Mercure Galant (OBVIL/IReMus, TEI)'. License per ATTRIBUTIONS: CC BY-NC-ND. The main OBVIL reading site (obtic.huma-num.fr / obvil.sorbonne-universite.fr) refused connections from two networks at check time, so the verified live URL is the GitHub Pages edition."
+   "notes_display": "The OBVIL/IReMus Mercure galant programme publishes the whole run 1672-1710 in TEI XML (GitHub repo OBVIL/mercure-galant 'MG-1672-01' to 'MG-1721-05'); RQ harvested 1672-1689 issues (4.2M words), matching the origin ('Mercure Galant 1672 (1 issues)' etc.) and the source 'Mercure Galant (OBVIL/IReMus, TEI)'. License per ATTRIBUTIONS: CC BY-NC-ND. The main OBVIL reading site (obtic.huma-num.fr / obvil.sorbonne-universite.fr) refused connections from two networks at check time, so the verified live URL is the GitHub Pages edition.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     881085,
+     2173393,
+     1161811
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "mercurius-baumbank",
@@ -8957,7 +12449,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The LAUDATIO long-term corpus repository (HU Berlin) hosts a published corpus 'Mercurius-Baumbank (Version 1.1)' edited by Ulrike Demske, an annotated TEI corpus of early German news/Relation publications (the 1597 and 1667 items match the origins verbatim). Listed on the repository's published-corpora index; the corpus browse page verifies. Encoding TEI (LAUDATIO standard); license on the corpus page (RQ ATTRIBUTIONS tags the collection cc_by). LAUDATIO's own search/API endpoints were partly broken at check time, but the published listing and this corpus page are live."
+   "notes_display": "The LAUDATIO long-term corpus repository (HU Berlin) hosts a published corpus 'Mercurius-Baumbank (Version 1.1)' edited by Ulrike Demske, an annotated TEI corpus of early German news/Relation publications (the 1597 and 1667 items match the origins verbatim). Listed on the repository's published-corpora index; the corpus browse page verifies. Encoding TEI (LAUDATIO standard); license on the corpus page (RQ ATTRIBUTIONS tags the collection cc_by). LAUDATIO's own search/API endpoints were partly broken at check time, but the published listing and this corpus page are live.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     43719,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     143704,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "montoya-guarani",
@@ -8979,7 +12501,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     37650,
+     3459,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "muysccubun-muisca",
@@ -9001,7 +12553,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "muysca.cubun.org is a MediaWiki-based research site (since 2008/2009) on the Muisca (Chibcha) language: dictionary, and transcriptions of colonial manuscripts including Manuscrito 158 (Biblioteca Nacional de Colombia) and Lugo's 1619 gramatica, exactly matching the origins ('keyed transcription'). The site loaded successfully via WebFetch (curl from this network is blocked by the host's TLS/firewall; HTTPS handshake hangs, so treat liveness as verified-by-fetch). Companion site coleccionmutis.cubun.org holds Manuscrito 2922 BPRM cited in a third origin. Non-TEI (wiki 'keyed transcriptions')."
+   "notes_display": "muysca.cubun.org is a MediaWiki-based research site (since 2008/2009) on the Muisca (Chibcha) language: dictionary, and transcriptions of colonial manuscripts including Manuscrito 158 (Biblioteca Nacional de Colombia) and Lugo's 1619 gramatica, exactly matching the origins ('keyed transcription'). The site loaded successfully via WebFetch (curl from this network is blocked by the host's TLS/firewall; HTTPS handshake hangs, so treat liveness as verified-by-fetch). Companion site coleccionmutis.cubun.org holds Manuscrito 2922 BPRM cited in a third origin. Non-TEI (wiki 'keyed transcriptions').",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     23516,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 19146
+   }
   },
   {
    "id": "nahuatl-depth",
@@ -9023,7 +12605,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1941,
+     0,
+     2391,
+     17733,
+     30,
+     830,
+     2088,
+     1237,
+     0,
+     0,
+     772,
+     0,
+     0,
+     0,
+     512
+    ],
+    "undated": 8972
+   }
   },
   {
    "id": "nakala",
@@ -9045,7 +12657,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "109 French and Latin texts (1458-1698) deposited on Nakala, the research-data repository of Huma-Num (CNRS), as individual datasets carrying no project-level metadata. We searched the Nakala platform and the RQ attributions manifest but could not identify the depositor or the scholarly project the texts belong to, so this entry documents the platform-level deposit only, at the URLs where the texts were originally harvested (nakala.fr)."
+   "notes_display": "109 French and Latin texts (1458-1698) deposited on Nakala, the research-data repository of Huma-Num (CNRS), as individual datasets carrying no project-level metadata. We searched the Nakala platform and the RQ attributions manifest but could not identify the depositor or the scholarly project the texts belong to, so this entry documents the platform-level deposit only, at the URLs where the texts were originally harvested (nakala.fr).",
+   "period_words": {
+    "decades": [
+     1689,
+     0,
+     135424,
+     3429,
+     62702,
+     0,
+     77841,
+     15724,
+     157171,
+     1313561,
+     29125,
+     17075,
+     49828,
+     247385,
+     97515,
+     81781,
+     19784,
+     28570,
+     9365,
+     51645,
+     77190,
+     190331,
+     142492,
+     2712,
+     92315
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "newton-project",
@@ -9067,7 +12709,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     10775,
+     290358,
+     620764,
+     474862,
+     672796
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "norman-musenormande",
@@ -9089,7 +12761,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     51035,
+     57447,
+     45046,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "noscemus",
@@ -9111,7 +12813,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     509574,
+     168324,
+     259936,
+     767594,
+     1056337,
+     1207767,
+     3773561,
+     4109607,
+     8981983,
+     4159447,
+     5559038,
+     6348477,
+     4738967,
+     3111948,
+     2995104,
+     3241055,
+     3794624,
+     3258546,
+     9587673,
+     8001528,
+     1915181,
+     3059954,
+     1775675
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "obvil-french",
@@ -9133,7 +12865,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Born-digital TEI corpora of early-modern French texts from LabEx OBVIL (Sorbonne Université), encoded with the Teinte toolchain (lauze_apologie-danse_1623, Faceties 1557, La Bruyère 1694, etc.); CC BY-NC-ND. The lab's data platform ObTIC (obtic.sorbonne-universite.fr/corpus, verified) indexes the freely available OBVIL corpora; the reading corpus pages live on the OBVIL GitHub organisation (https://github.com/OBVIL), and obvil.sorbonne-universite.fr refused connections at check time."
+   "notes_display": "Born-digital TEI corpora of early-modern French texts from LabEx OBVIL (Sorbonne Université), encoded with the Teinte toolchain (lauze_apologie-danse_1623, Faceties 1557, La Bruyère 1694, etc.); CC BY-NC-ND. The lab's data platform ObTIC (obtic.sorbonne-universite.fr/corpus, verified) indexes the freely available OBVIL corpora; the reading corpus pages live on the OBVIL GitHub organisation (https://github.com/OBVIL), and obvil.sorbonne-universite.fr refused connections at check time.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     50063,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     16510,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     7423
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "obvil-hainetheatre",
@@ -9155,7 +12917,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "'La Haine du theatre / querelle du theatre' is an OBVIL corpus of the 17th-century French anti-theatre controversy (1541-1698 texts: adibert_avis_1687, honneur-theatre_1620, etc.), TEI encoded (repo OBVIL/haine-theatre, GitHub Pages edition verified live); the 14 RQ texts match its file namespace exactly. License per ATTRIBUTIONS: CC BY-NC-ND. The main OBVIL site was unreachable at check time; the GitHub Pages edition is the verified entry point."
+   "notes_display": "'La Haine du theatre / querelle du theatre' is an OBVIL corpus of the 17th-century French anti-theatre controversy (1541-1698 texts: adibert_avis_1687, honneur-theatre_1620, etc.), TEI encoded (repo OBVIL/haine-theatre, GitHub Pages edition verified live); the 14 RQ texts match its file namespace exactly. License per ATTRIBUTIONS: CC BY-NC-ND. The main OBVIL site was unreachable at check time; the GitHub Pages edition is the verified entry point.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5734,
+     0,
+     0,
+     13307,
+     10654,
+     2534,
+     70099,
+     0,
+     958,
+     51924,
+     283150,
+     2072,
+     196449,
+     257267,
+     28301,
+     239647
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "occitan-1000ans",
@@ -9177,7 +12969,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     8966,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     800,
+     0,
+     4040,
+     232,
+     262,
+     8299,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "ode-corderegraspanish",
@@ -9199,7 +13021,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Corpus diacrónico (~500k words) of unpublished archival documents of the Real Chancillería de Granada with facsimile, palaeographic and critical presentations, distributed through the CHARTA network at corpora.uah.es/charta (CORDEREGRA-*.xml); the project's own domain corderegra.es no longer resolves, so the entry points to its working host."
+   "notes_display": "Corpus diacrónico (~500k words) of unpublished archival documents of the Real Chancillería de Granada with facsimile, palaeographic and critical presentations, distributed through the CHARTA network at corpora.uah.es/charta (CORDEREGRA-*.xml); the project's own domain corderegra.es no longer resolves, so the entry points to its working host.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     1276,
+     1734,
+     3537,
+     2528,
+     9880,
+     6202,
+     0,
+     7173,
+     5119,
+     11229,
+     16701,
+     10587,
+     31764,
+     13778,
+     35388,
+     7105,
+     0,
+     2529,
+     23919,
+     12887
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "old-bailey-online",
@@ -9221,7 +13073,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     105189,
+     326872,
+     492706
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "old-hungarian-corpus",
@@ -9243,7 +13125,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Old Hungarian Corpus of codices and early printed books (11th-16th c., original orthography betűhű and phonemic levels), maintained by the Hungarian Generative Diachronic Syntax project at the Research Institute for Linguistics. The Renascor Corpus working snapshot contains two collections of this resource (HungarianCorpus and MGTSZ_AporCodex, the Apor Codex file), merged here as one edition."
+   "notes_display": "Old Hungarian Corpus of codices and early printed books (11th-16th c., original orthography betűhű and phonemic levels), maintained by the Hungarian Generative Diachronic Syntax project at the Research Institute for Linguistics. The Renascor Corpus working snapshot contains two collections of this resource (HungarianCorpus and MGTSZ_AporCodex, the Apor Codex file), merged here as one edition.",
+   "period_words": {
+    "decades": [
+     275,
+     74570,
+     3440,
+     0,
+     48392,
+     1469965,
+     741438,
+     485927,
+     222708,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "openedges",
@@ -9265,7 +13177,37 @@
    "size_band": "1m-10m",
    "figures": "other",
    "snapshot": null,
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     172341,
+     632013,
+     0,
+     0,
+     0,
+     0,
+     884879,
+     0,
+     1775475,
+     0,
+     1708993,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     927320,
+     828195,
+     0,
+     176176,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "openiti",
@@ -9287,7 +13229,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     16570852,
+     1497835,
+     9572558,
+     11081631,
+     6816767,
+     19474191,
+     6225894,
+     6006462,
+     4790363,
+     5422379,
+     7346092,
+     9321759,
+     5401855,
+     4836798,
+     2509779,
+     7283342,
+     5496219,
+     4366460,
+     2318009,
+     8191658,
+     6657387,
+     2690114,
+     5767226,
+     12412801,
+     21801434
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "osta",
@@ -9309,7 +13281,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "OSTA is the lemmatized/morphologically tagged ~35M-word corpus of 400+ semi-paleographic transcriptions of Old Spanish (including Asturleonese/Navarro-Aragonese) texts, begun 2015 by HSMS; the transcriptions and metadata are on GitHub (hispanicseminary/OSTA) and Zenodo 10.5281/zenodo.18931376 (CC BY-NC-SA 4.0), which is exactly the RQ source ('OSTA Zenodo 18931376 -> TEXT.2CR', Cortes' Cartas de relación, Libro de albeiteria, Libro del abad don Juan etc.). Main search interface v2.0 verified live. RQ keeps the semi-paleographic text layer (not the lemmatized one)."
+   "notes_display": "OSTA is the lemmatized/morphologically tagged ~35M-word corpus of 400+ semi-paleographic transcriptions of Old Spanish (including Asturleonese/Navarro-Aragonese) texts, begun 2015 by HSMS; the transcriptions and metadata are on GitHub (hispanicseminary/OSTA) and Zenodo 10.5281/zenodo.18931376 (CC BY-NC-SA 4.0), which is exactly the RQ source ('OSTA Zenodo 18931376 -> TEXT.2CR', Cortes' Cartas de relación, Libro de albeiteria, Libro del abad don Juan etc.). Main search interface v2.0 verified live. RQ keeps the semi-paleographic text layer (not the lemmatized one).",
+   "period_words": {
+    "decades": [
+     1547446,
+     728528,
+     369630,
+     1734096,
+     5620647,
+     2581398,
+     2265974,
+     2489098,
+     1134271,
+     1401439,
+     702143,
+     125700,
+     156722,
+     164534,
+     346493,
+     91868,
+     0,
+     0,
+     0,
+     0,
+     1613,
+     36884,
+     21224,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "otomi-mission",
@@ -9322,7 +13324,37 @@
    "size_band": "under-10k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 4365
+   }
   },
   {
    "id": "passiusalmar-icelandic",
@@ -9344,7 +13376,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     23536,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "pceec2",
@@ -9366,7 +13428,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     272730,
+     44767,
+     61203,
+     43687,
+     6645,
+     37896,
+     12818,
+     184802,
+     64876,
+     0,
+     23390,
+     214864,
+     103944,
+     69576,
+     109669,
+     105364,
+     285172,
+     128105,
+     151017,
+     176136,
+     80835,
+     251682,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "pepys-diary",
@@ -9388,7 +13480,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1277817,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "perseus-digital-library",
@@ -9410,7 +13532,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     241032,
+     172370,
+     6348944,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "philipp-hainhofer-reiseberichte-sammlungsbeschreibungen-1594-1636-annotated-digital-edition",
@@ -9432,7 +13584,8 @@
    "size_band": null,
    "figures": "none",
    "snapshot": null,
-   "notes_display": "Annotated digital edition presenting the travel accounts and collection descriptions of the Augsburg merchant and cultural broker Philipp Hainhofer (1578–1647) for the first time in full, with manuscript facsimiles, full text, critical apparatus and text/image commentaries. TEI/XML transcriptions and registers are archived on arthistoricum.net@heiDATA. Edition website went online in 2020 (first DFG phase, Munich journeys 1603–1636); further phases are scheduled until 2029, so the project is ongoing."
+   "notes_display": "Annotated digital edition presenting the travel accounts and collection descriptions of the Augsburg merchant and cultural broker Philipp Hainhofer (1578–1647) for the first time in full, with manuscript facsimiles, full text, critical apparatus and text/image commentaries. TEI/XML transcriptions and registers are archived on arthistoricum.net@heiDATA. Edition website went online in 2020 (first DFG phase, Munich journeys 1603–1636); further phases are scheduled until 2029, so the project is ongoing.",
+   "period_words": null
   },
   {
    "id": "polemicagongorina-obvil",
@@ -9454,7 +13607,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Polemos is the XML-TEI encoding of the 17th-century polémica gongorina (Jáuregui, Espinosa, Díez de Revenga texts, 1613-1630s) published for the Labex OBVIL; source XML files are in the gongoradigital organisation (polemos, polemos-naked). The 31 RQ texts (carta-amigo_1613, anti-jauregui, apologetico_1662, censura-lope...) match this edition. GitHub org and both repos verified live; the OBVIL reading site (obvil.sorbonne-universite.fr/corpus/gongora/polemos) refused connections from two networks at check time. License per ATTRIBUTIONS: CC BY-NC-ND."
+   "notes_display": "Polemos is the XML-TEI encoding of the 17th-century polémica gongorina (Jáuregui, Espinosa, Díez de Revenga texts, 1613-1630s) published for the Labex OBVIL; source XML files are in the gongoradigital organisation (polemos, polemos-naked). The 31 RQ texts (carta-amigo_1613, anti-jauregui, apologetico_1662, censura-lope...) match this edition. GitHub org and both repos verified live; the OBVIL reading site (obvil.sorbonne-universite.fr/corpus/gongora/polemos) refused connections from two networks at check time. License per ATTRIBUTIONS: CC BY-NC-ND.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     73704,
+     53650,
+     96123,
+     0,
+     0,
+     39957,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "porzio-congiurabaroni",
@@ -9476,7 +13659,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "A Zenodo-published TEI-XML dataset of the critical digital edition of Porzio's La congiura de' Baroni (first published Naples 1565), encoded and curated by Cristiano Amendola; matches the RQ origin (single text). DOI 10.5281/zenodo.18047915 verified live; license CC BY 4.0. RQ holds the TEI-derived text (~49k words)."
+   "notes_display": "A Zenodo-published TEI-XML dataset of the critical digital edition of Porzio's La congiura de' Baroni (first published Naples 1565), encoded and curated by Cristiano Amendola; matches the RQ origin (single text). DOI 10.5281/zenodo.18047915 verified live; license CC BY 4.0. RQ holds the TEI-derived text (~49k words).",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     49439,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "postscriptum",
@@ -9498,7 +13711,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2265,
+     2194,
+     6022,
+     14763,
+     55897,
+     36206,
+     37838,
+     45594,
+     39964,
+     67799,
+     52585,
+     49150,
+     69678,
+     56407,
+     51072,
+     45020,
+     40303,
+     94195,
+     81479,
+     51410
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "ppchy-yiddish",
@@ -9520,7 +13763,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     63,
+     0,
+     0,
+     5887,
+     590,
+     0,
+     851,
+     0,
+     32,
+     0,
+     6247,
+     5534,
+     1532,
+     1405,
+     725,
+     6707,
+     0,
+     2641,
+     0,
+     2751,
+     3845,
+     0,
+     7824
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "project-gutenberg",
@@ -9542,7 +13815,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     57971,
+     865863,
+     167601,
+     415200,
+     233350,
+     63365,
+     187394,
+     728977,
+     2153647,
+     0,
+     331854,
+     474583,
+     0,
+     414205,
+     0,
+     85389,
+     143690,
+     77629,
+     117731
+    ],
+    "undated": 13922110
+   }
   },
   {
    "id": "qhod",
@@ -9564,7 +13867,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "QhoD is the born-digital critical edition of Habsburg-Ottoman diplomatic sources (diplomatic correspondence, instructions, minutes...), TEI encoded, CC BY 4.0, published via qhod.net with TEI/image data released on GitHub (QHOD/qhod-edition-data) and Zenodo (10.5281/zenodo.14449603, release 2.0 by Stephan Kurz) — exactly the RQ source. RQ's 219 texts (1570-1600 era) come from that Zenodo/GitHub TEI edition-data bundle (Habsburg-Ottoman diplomatic texts in Latin etc.)."
+   "notes_display": "QhoD is the born-digital critical edition of Habsburg-Ottoman diplomatic sources (diplomatic correspondence, instructions, minutes...), TEI encoded, CC BY 4.0, published via qhod.net with TEI/image data released on GitHub (QHOD/qhod-edition-data) and Zenodo (10.5281/zenodo.14449603, release 2.0 by Stephan Kurz) — exactly the RQ source. RQ's 219 texts (1570-1600 era) come from that Zenodo/GitHub TEI edition-data bundle (Habsburg-Ottoman diplomatic texts in Latin etc.).",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     16856,
+     0,
+     0,
+     4440,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "reed-english",
@@ -9586,7 +13919,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     1702,
+     3005,
+     4639,
+     7250,
+     5184,
+     4567,
+     5254,
+     2817,
+     9415,
+     2483,
+     3965,
+     6746,
+     19076,
+     31703,
+     39542,
+     68885,
+     82005,
+     42562,
+     13571,
+     1450,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "ref-enhg",
@@ -9608,7 +13971,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     48385,
+     0,
+     769178,
+     0,
+     0,
+     0,
+     0,
+     808819,
+     0,
+     0,
+     0,
+     0,
+     519873,
+     0,
+     0,
+     0,
+     0,
+     294309,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "renlowgerman",
@@ -9630,7 +14023,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The ReN collection is NOT a ReFrame sub-project but the Referenzkorpus Mittelniederdeutsch/Niederrheinisch (ReN, 1200-1650), the DFG reference corpus of Middle Low German/Low Rhenish texts built at the Universities of Hamburg and Münster. The harvested files ('ReN Low German Agneta_Willeken.xml (1535)', 'ReN Low German Lüb._Bibel_1494.xml (1494)') come from the CorA-ReN-XML TEI dump the project distributes (the Renascor Corpus working snapshot used a local CorA-ReN-XML_1.1 dump); corpus metadata is CC-BY via the RefCorG/REDE framework."
+   "notes_display": "The ReN collection is NOT a ReFrame sub-project but the Referenzkorpus Mittelniederdeutsch/Niederrheinisch (ReN, 1200-1650), the DFG reference corpus of Middle Low German/Low Rhenish texts built at the Universities of Hamburg and Münster. The harvested files ('ReN Low German Agneta_Willeken.xml (1535)', 'ReN Low German Lüb._Bibel_1494.xml (1494)') come from the CorA-ReN-XML TEI dump the project distributes (the Renascor Corpus working snapshot used a local CorA-ReN-XML_1.1 dump); corpus metadata is CC-BY via the RefCorG/REDE framework.",
+   "period_words": {
+    "decades": [
+     70211,
+     39939,
+     133379,
+     166740,
+     250858,
+     192437,
+     115070,
+     92472,
+     127679,
+     20080,
+     13926,
+     43652,
+     0,
+     49290,
+     19722,
+     19587,
+     23443,
+     3431,
+     0,
+     10855,
+     47911,
+     20369,
+     0,
+     0,
+     14228
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "rhythmiccorpus-sga",
@@ -9652,7 +14075,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Zenodo dataset DOI 10.5281/zenodo.17537343 (all-versions DOI 10.5281/zenodo.17537048 family): 100 securely attributed comedias by nine Golden Age playwrights (Cervantes, Lope, Tirso, Calderon, etc.), each in original and rhythmic-scansion versions, produced with Fernando Sanz-Lázaro's libEscansión and revised by hand. It accompanies Álvaro Cuéllar's article 'From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre' (Janus 14, 2025). Licence CC BY 4.0. The record is the exact source string cited by the harvest ('Cuéllar Rhythmic Corpus 100 SGA Plays')."
+   "notes_display": "Zenodo dataset DOI 10.5281/zenodo.17537343 (all-versions DOI 10.5281/zenodo.17537048 family): 100 securely attributed comedias by nine Golden Age playwrights (Cervantes, Lope, Tirso, Calderon, etc.), each in original and rhythmic-scansion versions, produced with Fernando Sanz-Lázaro's libEscansión and revised by hand. It accompanies Álvaro Cuéllar's article 'From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre' (Janus 14, 2025). Licence CC BY 4.0. The record is the exact source string cited by the harvest ('Cuéllar Rhythmic Corpus 100 SGA Plays').",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1454447,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "rialc-catalan",
@@ -9674,7 +14127,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "RIALC (built 1999-2003 at Naples Federico II, in collaboration with the Universities of Barcelona, UAB and Girona) is the standard digital library of medieval Catalan poetry: ~216 authors and ~1,600 13th-15th c. poems transcribed from critical editions (HTML, not TEI). The harvested texts ('RIALC: Joan de Masdovelles (~1460, 9 poems)', 'RIALC: Joan Berenguer de Masdovelles (~1460, 168 poems)', etc.) are author pages of this repertory. No explicit licence; site is live but the project is no longer actively extended."
+   "notes_display": "RIALC (built 1999-2003 at Naples Federico II, in collaboration with the Universities of Barcelona, UAB and Girona) is the standard digital library of medieval Catalan poetry: ~216 authors and ~1,600 13th-15th c. poems transcribed from critical editions (HTML, not TEI). The harvested texts ('RIALC: Joan de Masdovelles (~1460, 9 poems)', 'RIALC: Joan Berenguer de Masdovelles (~1460, 168 poems)', etc.) are author pages of this repertory. No explicit licence; site is live but the project is no longer actively extended.",
+   "period_words": {
+    "decades": [
+     83734,
+     66517,
+     10972,
+     15369,
+     43418,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "rin-conde",
@@ -9696,7 +14179,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The ConDE project (RIN = Réseau d'Intérêt Normand funding scheme; the TEI corpus itself is released on GitHub at github.com/RIN-ConDE/editions, which is why the RQ collection carries the 'RIN-ConDE' name) transcribes and TEI-encodes successive editions of the Coutume de Normandie and its commentaries (Le Rouillé 1539, Terrien 1578, Bérault 1614, Basnage 1678...). The project site is hosted by the MRSH / Pôle Document Numérique in Caen with a blog at conde.hypotheses.org; corpus cited as 'corpus ConDE, Caen, CRISCO EA4255'."
+   "notes_display": "The ConDE project (RIN = Réseau d'Intérêt Normand funding scheme; the TEI corpus itself is released on GitHub at github.com/RIN-ConDE/editions, which is why the RQ collection carries the 'RIN-ConDE' name) transcribes and TEI-encodes successive editions of the Coutume de Normandie and its commentaries (Le Rouillé 1539, Terrien 1578, Bérault 1614, Basnage 1678...). The project site is hosted by the MRSH / Pôle Document Numérique in Caen with a blog at conde.hypotheses.org; corpus cited as 'corpus ConDE, Caen, CRISCO EA4255'.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     288489,
+     0,
+     0,
+     0,
+     456022,
+     0,
+     0,
+     0,
+     512003,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1283323,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "ropsalt-romanian",
@@ -9718,7 +14231,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     29624,
+     0,
+     0,
+     0,
+     8717,
+     0,
+     119832,
+     30676,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "royal-society-transactions",
@@ -9740,7 +14283,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     455259,
+     831190,
+     573018,
+     936291
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "rup-folger",
@@ -9762,7 +14335,37 @@
    "size_band": "under-10k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "RUP is an early-stage collaborative project (project blog at rup.hypotheses.org) publishing TEI encodings of rare or unique early modern English manuscript poems (<= 3 manuscript copies, never printed), begun during Jessica Edmondes' fellowship at the Folger Shakespeare Library; the source harvested is the project's experimental TEI repo (poems/, personography/, taxonomy/, encoding_guidelines.xml), whose file naming follows Folger LUNA image ids of the form 'rup_000001_va103_1_002v'. No custom ODD and no stated licence."
+   "notes_display": "RUP is an early-stage collaborative project (project blog at rup.hypotheses.org) publishing TEI encodings of rare or unique early modern English manuscript poems (<= 3 manuscript copies, never printed), begun during Jessica Edmondes' fellowship at the Folger Shakespeare Library; the source harvested is the project's experimental TEI repo (poems/, personography/, taxonomy/, encoding_guidelines.xml), whose file naming follows Folger LUNA image ids of the form 'rup_000001_va103_1_002v'. No custom ODD and no stated licence.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3428,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "russian-national-corpus",
@@ -9784,7 +14387,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     2703,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1576,
+     0,
+     0,
+     0,
+     0,
+     668,
+     463,
+     14018,
+     0,
+     3834,
+     0,
+     708,
+     61700,
+     10504
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "russian-ulozhenie1649",
@@ -9806,7 +14439,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The single text is a user proofread transcription on Russian Wikisource of the 1649 Sobornoe ulozhenie 1649 (Muscovite law code, Введение + 25 chapters); the underlying source (hist.msu.ru) goes back to the Tikhomirov/Epifanov Moscow 1961 edition and is public domain. The harvested origin string ('Sobornoe ulozhenie 1649 1649 goda (Muscovite law code)') matches the Wikisource page title. No scholarly project behind it; it is a community wiki transcription rather than a TEI project."
+   "notes_display": "The single text is a user proofread transcription on Russian Wikisource of the 1649 Sobornoe ulozhenie 1649 (Muscovite law code, Введение + 25 chapters); the underlying source (hist.msu.ru) goes back to the Tikhomirov/Epifanov Moscow 1961 edition and is public domain. The harvested origin string ('Sobornoe ulozhenie 1649 1649 goda (Muscovite law code)') matches the Wikisource page title. No scholarly project behind it; it is a community wiki transcription rather than a TEI project.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     89869,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "salamanca",
@@ -9828,7 +14491,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     24756,
+     56692,
+     552374,
+     1098818,
+     305034,
+     443672,
+     0,
+     476638,
+     0,
+     0,
+     113302,
+     214586,
+     985233,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "sefaria",
@@ -9850,7 +14543,37 @@
    "size_band": "10m-plus",
    "figures": "other",
    "snapshot": "v2026.06",
-   "notes_display": "Official bulk exports provide JSON and TXT downloads; the developer documentation describes the REST API."
+   "notes_display": "Official bulk exports provide JSON and TXT downloads; the developer documentation describes the REST API.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     50737,
+     0,
+     0,
+     274905,
+     0,
+     5139106,
+     23476,
+     1165311,
+     808806,
+     91382,
+     2623612,
+     528797,
+     126625,
+     2693206,
+     0,
+     1421037,
+     1253301,
+     1310330,
+     315700,
+     423462,
+     705736
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "senie-latvian",
@@ -9872,7 +14595,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     28,
+     0,
+     118,
+     0,
+     0,
+     100,
+     0,
+     55,
+     70633,
+     55,
+     0,
+     87579,
+     28275,
+     198893,
+     124229,
+     406100,
+     0,
+     89432,
+     1433536,
+     37187
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "sermo",
@@ -9894,7 +14647,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "SERMO is an SNSF project (2015-2018) at Neuchatel that produced an annotated corpus of 62 French Protestant sermons (~600k tokens, mostly printed in Geneva, by Calvin, Beze, Daille, Mestrezat, the Turrettini etc.), with tokenisation, lemmatisation and POS annotation for diachronic French linguistics. The XML corpus version 1 was released on Zenodo (DOI 10.5281/zenodo.14620210, CC BY 4.0); the project site (sermo.unine.ch) is live but the project itself closed in 2018."
+   "notes_display": "SERMO is an SNSF project (2015-2018) at Neuchatel that produced an annotated corpus of 62 French Protestant sermons (~600k tokens, mostly printed in Geneva, by Calvin, Beze, Daille, Mestrezat, the Turrettini etc.), with tokenisation, lemmatisation and POS annotation for diachronic French linguistics. The XML corpus version 1 was released on Zenodo (DOI 10.5281/zenodo.14620210, CC BY 4.0); the project site (sermo.unine.ch) is live but the project itself closed in 2018.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     521919,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "sloveneimp",
@@ -9916,7 +14699,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "IMP is the diachronic corpus of historical Slovene (1567-1899, TEI P5, msd-annotated) integrated from nine sub-corpora incl. the ZRC SAZU digitisation of old Slovenian printings (DACP); the harvested files ('CLARIN.SI IMP ZRC_00001-1584-ana.xml: Dalmatin, Jurij (1584)', 'CLARIN.SI IMP ZRC_00002-1695-ana.xml: Janez Svetokriški (1695)') are the -ana (analytic/annotation) TEI files of the IMP distribution hosted on CLARIN.SI (hdl 11356/1255, also a texts-only version hdl 11356/1423). Licence: CLARIN.SI terms, varying per subcorpus."
+   "notes_display": "IMP is the diachronic corpus of historical Slovene (1567-1899, TEI P5, msd-annotated) integrated from nine sub-corpora incl. the ZRC SAZU digitisation of old Slovenian printings (DACP); the harvested files ('CLARIN.SI IMP ZRC_00001-1584-ana.xml: Dalmatin, Jurij (1584)', 'CLARIN.SI IMP ZRC_00002-1695-ana.xml: Janez Svetokriški (1695)') are the -ana (analytic/annotation) TEI files of the IMP distribution hosted on CLARIN.SI (hdl 11356/1255, also a texts-only version hdl 11356/1423). Licence: CLARIN.SI terms, varying per subcorpus.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     5955,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     8714
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "smi-italianmusic",
@@ -9938,7 +14751,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     62023,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "sonetossiglodeoro",
@@ -9951,7 +14794,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The well-known metrical corpus of 5,078 Spanish Golden Age sonnets (matching the catalogue count) in TEI XML with metrical pattern annotation, edited by Borja Navarro-Colorado (Univ. Alicante) from texts of the Biblioteca Virtual Miguel de Cervantes; part of the ADSO project. Licence CC BY-NC 4.0 for the annotations (BVMC terms for the texts); a searchable interface exists at BVMC.Labs (data.cervantesvirtual.com/goldenage). The 'Sonetos del Siglo de Oro' label in the harvest refers to this corpus (texts stem from Ramón García González-type BVMC anthologies)."
+   "notes_display": "The well-known metrical corpus of 5,078 Spanish Golden Age sonnets (matching the catalogue count) in TEI XML with metrical pattern annotation, edited by Borja Navarro-Colorado (Univ. Alicante) from texts of the Biblioteca Virtual Miguel de Cervantes; part of the ADSO project. Licence CC BY-NC 4.0 for the annotations (BVMC terms for the texts); a searchable interface exists at BVMC.Labs (data.cervantesvirtual.com/goldenage). The 'Sonetos del Siglo de Oro' label in the harvest refers to this corpus (texts stem from Ramón García González-type BVMC anthologies).",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 466011
+   }
   },
   {
    "id": "spxvi-polish16c",
@@ -9973,7 +14846,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     114493,
+     20401,
+     162600,
+     419938,
+     242969,
+     332832,
+     2602276,
+     930589,
+     864214,
+     1237822,
+     34862,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "ssrq-swisslaw",
@@ -9995,7 +14898,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "SSRQ is Switzerland's critical edition series of medieval/early modern legal sources, published in XML/TEI online since 2019 (Omeka S) and now also on the new 'editio' platform; the harvested origins are Zurich volumes of the Neue Folge (e.g. 'SSRQ ZH_NF_I_2_1 (1452-1637, 222 docs)', 'SSRQ ZH_NF_II_11 (1458-1696, 124 docs)'). The old domain ssrq-sdsr.ch has been renamed to ssrq-sds-fds.ch (the .sdsr URLs no longer resolve); TEI data is published on Zenodo (DOI 10.5281/zenodo.10878757) and by the GitHub org SSRQ-SDS-FDS."
+   "notes_display": "SSRQ is Switzerland's critical edition series of medieval/early modern legal sources, published in XML/TEI online since 2019 (Omeka S) and now also on the new 'editio' platform; the harvested origins are Zurich volumes of the Neue Folge (e.g. 'SSRQ ZH_NF_I_2_1 (1452-1637, 222 docs)', 'SSRQ ZH_NF_II_11 (1458-1696, 124 docs)'). The old domain ssrq-sdsr.ch has been renamed to ssrq-sds-fds.ch (the .sdsr URLs no longer resolve); TEI data is published on Zenodo (DOI 10.5281/zenodo.10878757) and by the GitHub org SSRQ-SDS-FDS.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     122333,
+     133839,
+     0,
+     0,
+     64450,
+     0,
+     0,
+     278281,
+     0,
+     0,
+     0,
+     0,
+     0,
+     73847,
+     386108,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "statutes-realm",
@@ -10017,7 +14950,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     65950,
+     0,
+     144020,
+     0,
+     135385,
+     0,
+     199846,
+     567730
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "suriano-correspondence",
@@ -10039,7 +15002,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     380430,
+     752238,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "tagalog-doctrina1593",
@@ -10061,7 +15054,37 @@
    "size_band": "under-10k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2018,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "tbso-gh",
@@ -10083,7 +15106,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The project Teatro Breve del Siglo de Oro (Univ. de Sevilla, transcribing the short Golden Age plays — entremeses, jácaras, loas — held at the BNE, FANTEN and RAE) publishes its XML-TEI files through David Merino Recalde's GitHub repositories; the RQ texts ('TBSO: ARM_agujetero_fingido' = 'Entremés del agujetero fingido' by Gil López de Armesto, and the other ARM_* entremes files) correspond to the txt/TEI files of dxvidmr/repositorioTBSO (companion repo dxvidmr/teatro-breve-del-siglo-de-oro holds the full xml_tei tree). No explicit licence in the repository."
+   "notes_display": "The project Teatro Breve del Siglo de Oro (Univ. de Sevilla, transcribing the short Golden Age plays — entremeses, jácaras, loas — held at the BNE, FANTEN and RAE) publishes its XML-TEI files through David Merino Recalde's GitHub repositories; the RQ texts ('TBSO: ARM_agujetero_fingido' = 'Entremés del agujetero fingido' by Gil López de Armesto, and the other ARM_* entremes files) correspond to the txt/TEI files of dxvidmr/repositorioTBSO (companion repo dxvidmr/teatro-breve-del-siglo-de-oro holds the full xml_tei tree). No explicit licence in the repository.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     47933,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "textgrid-repository",
@@ -10105,7 +15158,37 @@
    "size_band": "10m-plus",
    "figures": "other",
    "snapshot": null,
-   "notes_display": "A digital repository for the humanities offering TEI-encoded texts, images, and structured data. Includes many scholarly editions of German literature. Free registration for some features; texts are openly licensed."
+   "notes_display": "A digital repository for the humanities offering TEI-encoded texts, images, and structured data. Includes many scholarly editions of German literature. Free registration for some features; texts are openly licensed.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     94277,
+     0,
+     71669,
+     253930,
+     331996,
+     35557,
+     324127,
+     74610,
+     23488,
+     190821,
+     198087,
+     32240,
+     77120,
+     0,
+     45352,
+     69015,
+     1344369,
+     1663055,
+     477288,
+     1304989,
+     444793
+    ],
+    "undated": 1688704
+   }
   },
   {
    "id": "the-latin-library",
@@ -10127,7 +15210,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     20382,
+     0,
+     0,
+     10204,
+     3515,
+     24087,
+     162583,
+     21111,
+     35824,
+     0,
+     0,
+     0,
+     20766,
+     6858,
+     4935,
+     207573,
+     16869,
+     7206,
+     17128,
+     19560,
+     9572,
+     0,
+     67019,
+     2482,
+     15942
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "theatreclassique",
@@ -10149,7 +15262,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     17285,
+     0,
+     0,
+     0,
+     12627
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "thornton-kikongo",
@@ -10171,7 +15314,37 @@
    "size_band": "under-10k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     6616,
+     0,
+     408,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "ticha-zapotec",
@@ -10193,7 +15366,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     9727,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     64201,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "titus",
@@ -10215,7 +15418,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     8384,
+     125417,
+     7786,
+     16075,
+     0,
+     35025,
+     0,
+     0,
+     133510,
+     0,
+     10330,
+     749413,
+     38259,
+     0,
+     117709,
+     235709
+    ],
+    "undated": 268858
+   }
   },
   {
    "id": "tmi-smi-italian",
@@ -10237,7 +15470,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     16240,
+     5827,
+     93175,
+     331809,
+     85129,
+     0,
+     900974,
+     352390,
+     136157,
+     0,
+     20910,
+     2555,
+     43072,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 40997
+   }
   },
   {
    "id": "tmk",
@@ -10259,7 +15522,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     2247,
+     13023,
+     33419,
+     46460,
+     19744,
+     45711,
+     30710,
+     4294,
+     10886,
+     5713,
+     35989,
+     27392,
+     27968,
+     9143,
+     7902,
+     2857,
+     18204
+    ],
+    "undated": 110
+   }
   },
   {
    "id": "tml",
@@ -10281,7 +15574,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     852105,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     840164,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     97005,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "translatoscope-neolat",
@@ -10303,7 +15626,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "RenArD is the Renaissance branch of the Translatoscope project (ELAN, Litt&Arts Grenoble), offering the first XML-TEI editions of the Latin humanist translations of Aristophanes — Ploutos and Les Nuees (Clouds) translated by Alessandro da Otranto (1470), Johannes Cuno, Beatus Rhenanus, Lorenzo Giacomini etc. — presented alongside the manuscript facsimile via EVT. The harvested origins ('Translatoscope: Les Nuees / Alessandro da Otranto (1470)', 'Translatoscope: Ploutos / Beatus Rhenanus (1520)') map directly onto these translations; TEI data is deposited on Nakala."
+   "notes_display": "RenArD is the Renaissance branch of the Translatoscope project (ELAN, Litt&Arts Grenoble), offering the first XML-TEI editions of the Latin humanist translations of Aristophanes — Ploutos and Les Nuees (Clouds) translated by Alessandro da Otranto (1470), Johannes Cuno, Beatus Rhenanus, Lorenzo Giacomini etc. — presented alongside the manuscript facsimile via EVT. The harvested origins ('Translatoscope: Les Nuees / Alessandro da Otranto (1470)', 'Translatoscope: Ploutos / Beatus Rhenanus (1520)') map directly onto these translations; TEI data is deposited on Nakala.",
+   "period_words": {
+    "decades": [
+     0,
+     8782,
+     1882,
+     9257,
+     0,
+     1532,
+     0,
+     12267,
+     8926,
+     0,
+     0,
+     0,
+     0,
+     3683,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "travel-digital-corpus-of-travel-accounts-kontextualisierung-von-reiseberichten",
@@ -10325,7 +15678,8 @@
    "size_band": null,
    "figures": "none",
    "snapshot": null,
-   "notes_display": "Full-text corpus of travel accounts with linguistic and semantic mark-up, a documented TEI schema, and digital facsimiles of all volumes, archived in ARCHE (digitale-edition.at). Uncertainties: the exact period coverage (whether the majority of the corpus falls within 1450–1700) and the current project website were not verified — the ARCHE collection page blocked automated reading — and the language composition of the travel accounts may go beyond German. Verify scope before cataloguing."
+   "notes_display": "Full-text corpus of travel accounts with linguistic and semantic mark-up, a documented TEI schema, and digital facsimiles of all volumes, archived in ARCHE (digitale-edition.at). Uncertainties: the exact period coverage (whether the majority of the corpus falls within 1450–1700) and the current project website were not verified — the ARCHE collection page blocked automated reading — and the language composition of the travel accounts may go beyond German. Verify scope before cataloguing.",
+   "period_words": null
   },
   {
    "id": "tychobrahe-portuguese",
@@ -10347,7 +15701,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     50958,
+     22456,
+     0,
+     0,
+     33574,
+     0,
+     0,
+     47747,
+     18543,
+     0,
+     0,
+     0,
+     0,
+     0,
+     92312,
+     0,
+     47053,
+     31748
+    ],
+    "undated": 271873
+   }
   },
   {
    "id": "vakk-estonian",
@@ -10369,7 +15753,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     164,
+     1005,
+     145,
+     120,
+     33,
+     34,
+     1174,
+     0,
+     104096,
+     0,
+     4467,
+     191796,
+     270825,
+     16653,
+     50312,
+     0,
+     0,
+     5628
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "vespasianoletters",
@@ -10391,7 +15805,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Digital edition (Knowledge Site 3.0, 2020) of the letters of Vespasiano da Bisticci (Florentine book dealer, 1444-1497), a semantic/RDF-based faceted edition with philological apparatus (nota filologica, authorities, tavola sinottica), built at /DH.arc Bologna. The harvested origin 'Vespasiano da Bisticci, Letters (15th c.)' with source '(DHARC, digital edition)' refers to this site; the edition is stable but no longer actively developed. Site code CC BY 4.0 on GitHub (dharc-org/vespasiano-da-bisticci-letters-de)."
+   "notes_display": "Digital edition (Knowledge Site 3.0, 2020) of the letters of Vespasiano da Bisticci (Florentine book dealer, 1444-1497), a semantic/RDF-based faceted edition with philological apparatus (nota filologica, authorities, tavola sinottica), built at /DH.arc Bologna. The harvested origin 'Vespasiano da Bisticci, Letters (15th c.)' with source '(DHARC, digital edition)' refers to this site; the edition is stable but no longer actively developed. Site code CC BY 4.0 on GitHub (dharc-org/vespasiano-da-bisticci-letters-de).",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     33623,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "vietnamese-derhodes",
@@ -10413,7 +15857,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The Vietnamese Wikisource page 'Phép giảng tám ngày' (Latin title page 'Cathechismvs ... in octo dies divisus') is a page-by-page proofread transcription of Alexandre de Rhodes's catechism printed in Rome in 1651 by the Congregation de Propaganda Fide — the first printed prose work in chữ Quốc ngữ script; public domain. The harvested origin ('proofread keyed transcription of Cathechismus, Rome 1651') refers to this transcription, taken from the linked scan (Index:Phép giảng tám ngày.pdf)."
+   "notes_display": "The Vietnamese Wikisource page 'Phép giảng tám ngày' (Latin title page 'Cathechismvs ... in octo dies divisus') is a page-by-page proofread transcription of Alexandre de Rhodes's catechism printed in Rome in 1651 by the Congregation de Propaganda Fide — the first printed prose work in chữ Quốc ngữ script; public domain. The harvested origin ('proofread keyed transcription of Cathechismus, Rome 1651') refers to this transcription, taken from the linked scan (Index:Phép giảng tám ngày.pdf).",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     53364,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "vks-oldliteraryfinnish",
@@ -10435,7 +15909,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     391723,
+     127579,
+     0,
+     0,
+     25431,
+     0,
+     149928,
+     252907,
+     0,
+     0,
+     1170048,
+     90600,
+     0,
+     16329,
+     36131,
+     420947
+    ],
+    "undated": 64368
+   }
   },
   {
    "id": "vokabular",
@@ -10457,7 +15961,37 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     93481,
+     269685,
+     573441,
+     200889,
+     324466,
+     218298,
+     134064,
+     59623,
+     182895,
+     65387,
+     106036,
+     39687,
+     50654,
+     161021,
+     39522,
+     1750,
+     103861,
+     10489,
+     0,
+     0,
+     13207,
+     0,
+     9968,
+     0,
+     20313
+    ],
+    "undated": 2169871
+   }
   },
   {
    "id": "welshhcwl",
@@ -10479,7 +16013,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "HCWL 1500-1850 is a ~420,000-word TEI-XML corpus of 30 Welsh texts (incl. Y Beibl Cyssegr-lan 1588, A study of three Welsh religious plays, Report on Manuscripts in the Welsh Language...) built at Cambridge c. 2004, hosted at celticstudies.net (which the harvest used as mirror; 'HCWL celticstudies.net mirror -> b1588.xml', bll.xml, cardiff6.xml etc. are the corpus's XML master files); a parsed derivative (PARSHCWL) and a LINDAT/CLARIAH-CZ deposit (LRT-883) also exist. Site copyright 2004, University of Cambridge; effectively archived."
+   "notes_display": "HCWL 1500-1850 is a ~420,000-word TEI-XML corpus of 30 Welsh texts (incl. Y Beibl Cyssegr-lan 1588, A study of three Welsh religious plays, Report on Manuscripts in the Welsh Language...) built at Cambridge c. 2004, hosted at celticstudies.net (which the harvest used as mirror; 'HCWL celticstudies.net mirror -> b1588.xml', bll.xml, cardiff6.xml etc. are the corpus's XML master files); a parsed derivative (PARSHCWL) and a LINDAT/CLARIAH-CZ deposit (LRT-883) also exist. Site copyright 2004, University of Cambridge; effectively archived.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     14596,
+     0,
+     0,
+     12500,
+     0,
+     0,
+     14768,
+     31397,
+     75306,
+     0,
+     18596,
+     16845,
+     28706,
+     21640,
+     0,
+     0,
+     15885,
+     0,
+     13821,
+     0,
+     0,
+     12220
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "wikisource",
@@ -10501,7 +16065,37 @@
    "size_band": "10m-plus",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Texts harvested from the language subdomains of Wikisource (de, es, it, ca, cs, el, sv, pl, hr, hu, pt, among others), the multilingual library of openly licensed digitised source texts; the entry points to the portal wikisource.org, whose per-language subdomains host each text. Several RQ collections scope Renaissance-era texts and early Bibles specifically (e.g. Luther NT 1522, Gustav Vasa Bible 1541, Diodati 1607)."
+   "notes_display": "Texts harvested from the language subdomains of Wikisource (de, es, it, ca, cs, el, sv, pl, hr, hu, pt, among others), the multilingual library of openly licensed digitised source texts; the entry points to the portal wikisource.org, whose per-language subdomains host each text. Several RQ collections scope Renaissance-era texts and early Bibles specifically (e.g. Luther NT 1522, Gustav Vasa Bible 1541, Diodati 1607).",
+   "period_words": {
+    "decades": [
+     195068,
+     36049,
+     10823,
+     247180,
+     448045,
+     132282,
+     386363,
+     531006,
+     244106,
+     159153,
+     380538,
+     152221,
+     856893,
+     363266,
+     710932,
+     669481,
+     1540872,
+     424079,
+     986651,
+     337402,
+     159748,
+     330369,
+     290540,
+     63310,
+     95951
+    ],
+    "undated": 1699410
+   }
   },
   {
    "id": "win-lowgermanincunabula",
@@ -10523,7 +16117,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The WiN project (Goettingen GCDH, funded by Niedersächsisches Vorab) built a parallel corpus of Early New High German short narratives and their Middle Low German versions from late 15th c. incunabula (Dracole, Griseldis, Juden, Graf, Kaufleute...), published as WiN-Korpus v1.0 (2022) in the LAUDATIO repository (HU Berlin), TEI-annotated, with the transcription handbook on DARIAH-DE; the project page is uni-goettingen.de/de/wiedererzählen+im+norden./607371.html. The harvested origins ('WiN Low German incunable: Dracole (c.1480)' etc.) are the corpus's individual texts."
+   "notes_display": "The WiN project (Goettingen GCDH, funded by Niedersächsisches Vorab) built a parallel corpus of Early New High German short narratives and their Middle Low German versions from late 15th c. incunabula (Dracole, Griseldis, Juden, Graf, Kaufleute...), published as WiN-Korpus v1.0 (2022) in the LAUDATIO repository (HU Berlin), TEI-annotated, with the transcription handbook on DARIAH-DE; the project page is uni-goettingen.de/de/wiedererzählen+im+norden./607371.html. The harvested origins ('WiN Low German incunable: Dracole (c.1480)' etc.) are the corpus's individual texts.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     27584,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "wolfenbuettelpostil-lithuanian",
@@ -10545,7 +16169,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "PosTiMe (DFG, Frankfurt/Cologne, 2021+) produces the language-historically annotated TEI edition and reference corpus of the Old Lithuanian Lutheran postilles; its core object is the Wolfenbüttel Postille of 1573 (Cod. Guelf. 11.2 Aug. 2, Herzog August Bibliothek), the first Lithuanian collection of sermons. The RQ text ('Wolfenbüttel Postil (1573), Old Lithuanian', source 'WP1573-TEI (postime, TITUS-derived)') is the WP1573-TEI layer derived from the earlier TITUS transcription associated with the Gelumbeckaite/HAB 1573 Postille edition project; the HAB project page describes the underlying critical edition."
+   "notes_display": "PosTiMe (DFG, Frankfurt/Cologne, 2021+) produces the language-historically annotated TEI edition and reference corpus of the Old Lithuanian Lutheran postilles; its core object is the Wolfenbüttel Postille of 1573 (Cod. Guelf. 11.2 Aug. 2, Herzog August Bibliothek), the first Lithuanian collection of sermons. The RQ text ('Wolfenbüttel Postil (1573), Old Lithuanian', source 'WP1573-TEI (postime, TITUS-derived)') is the WP1573-TEI layer derived from the earlier TITUS transcription associated with the Gelumbeckaite/HAB 1573 Postille edition project; the HAB project page describes the underlying critical edition.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     131626,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "wolnelektury",
@@ -10567,7 +16221,37 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     290121,
+     0,
+     93103,
+     0,
+     50369,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     128257,
+     21510,
+     0
+    ],
+    "undated": 0
+   }
   },
   {
    "id": "zlatyfond-slovak",
@@ -10589,7 +16273,37 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": ""
+   "notes_display": "",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     61219,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0
+   }
   }
  ]
 }
