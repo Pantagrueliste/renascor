@@ -7,19 +7,25 @@ on:
   pull_request:
     paths:
       - 'data/entries/**'
+      - 'data/rq_statistics.json'
+      - 'data/period_word_counts.json'
       - 'schema/**'
       - 'scripts/**'
       - 'tests/**'
       - 'docs/index.html'
+      - 'docs/app.js'
       - '.github/workflows/validate.yml'
   push:
     branches: [main]
     paths:
       - 'data/entries/**'
+      - 'data/rq_statistics.json'
+      - 'data/period_word_counts.json'
       - 'schema/**'
       - 'scripts/**'
       - 'tests/**'
       - 'docs/index.html'
+      - 'docs/app.js'
       - '.github/workflows/validate.yml'
   workflow_dispatch:
 

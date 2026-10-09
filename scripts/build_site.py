@@ -9,7 +9,7 @@ Reads every JSON file in data/entries/, validates it against the schema and writ
   docs/renascor.csv   the whole catalogue, one row per edition, every field (UTF-8, CRLF).
   docs/renascor.json  the whole catalogue as JSON, every field.
   docs/index.html     the catalogue figures, the numbers of the methodology section and its
-                      two charts are written into the page (data-stat, data-href and data-if
+                      share chart are written into the page (data-stat, data-href and data-if
                       attributes, and the build: regions), so they are right without JavaScript.
 
 The entries are never modified. A second build of the same commit changes nothing.
@@ -23,6 +23,7 @@ and docs/app.js are copied into that directory first, so a scratch build never t
 from __future__ import annotations
 
 import argparse
+import hashlib
 import html
 import json
 import re
@@ -33,7 +34,7 @@ import unicodedata
 from collections import Counter
 from decimal import ROUND_HALF_UP, Decimal
 from pathlib import Path
-from urllib.parse import quote, urlsplit
+from urllib.parse import urlsplit
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_PATH = REPO_ROOT / "schema" / "entry.schema.json"
@@ -67,7 +68,6 @@ ID_RE = re.compile(r"^[a-z0-9-]+$")
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August",
           "September", "October", "November", "December"]
 DECADE_STARTS = list(range(SCOPE[0], SCOPE[1], 10))      # 1450 ... 1690 (the last bin ends in 1700)
-REGIONS = ("share-chart", "languages-chart")
 
 
 class BuildError(Exception):
@@ -481,12 +481,6 @@ def compute_stats(entries: list[tuple[str, dict]], derived: list[dict]) -> dict:
     def numeric(d):
         return d["period"] is not None and d["period"]["start"] is not None
 
-    decades = []
-    for y0 in DECADE_STARTS:
-        y1 = SCOPE[1] if y0 + 10 >= SCOPE[1] else y0 + 9
-        decades.append(sum(1 for d in derived if numeric(d)
-                           and d["period"]["start"] <= y1 and d["period"]["end"] >= y0))
-
     by_words = sorted(((e["words"], e, d) for e, d in zip(data, derived) if is_int(e.get("words"))),
                       key=lambda t: (-t[0], t[2]["id"]))
     top = [{"id": d["id"], "label": chart_label(e["title"]), "words": w,
@@ -514,7 +508,6 @@ def compute_stats(entries: list[tuple[str, dict]], derived: list[dict]) -> dict:
         "period": {"numeric": sum(1 for d in derived if numeric(d)),
                    "in_words": sum(1 for d in derived if d["period"] and d["period"]["start"] is None),
                    "missing": sum(1 for d in derived if not d["period"])},
-        "decades": decades,
         "figures": {"rq": fig["rq"], "other": fig["other"], "none": fig["none"],
                     "other_titles": [e["title"] for e, d in zip(data, derived) if d["figures"] == "other"],
                     "none_titles": [e["title"] for e, d in zip(data, derived) if d["figures"] == "none"]},
@@ -556,6 +549,51 @@ def load_corpus_statistics(path: Path, snapshot: str | None) -> dict | None:
             "database_sha256": audit.get("database_sha256")}
 
 
+def load_period_words(path: Path, corpus: dict | None, derived: list[dict]) -> dict | None:
+    """Attach actual dated corpus contributions, never estimates from collection date spans."""
+    for d in derived:
+        d["period_words"] = None
+    if not corpus or not path.is_file():
+        return None
+    audit = json.loads(path.read_text(encoding="utf-8"))
+    if (audit.get("snapshot") != corpus["snapshot"] or audit.get("scope") != list(SCOPE)
+            or audit.get("database_sha256") != corpus["database_sha256"]
+            or audit.get("decade_starts") != DECADE_STARTS):
+        raise BuildError("Period word counts must match the corpus snapshot, database and scope")
+    family_hash = hashlib.sha256((REPO_ROOT / "scripts/rq_families.json").read_bytes()).hexdigest()
+    if audit.get("families_sha256") != family_hash:
+        raise BuildError("Regenerate period word counts after changing the collection family map")
+    source = json.loads((path.parent / "rq_statistics.json").read_text(encoding="utf-8"))["collections"]
+    collections = audit.get("collections", {})
+    if set(collections) != set(source):
+        raise BuildError("Period word counts must cover every audited source collection")
+    by_entry = {d["id"]: d for d in derived}
+    unlisted_words = 0
+    for name, c in collections.items():
+        bins = c.get("decade_words", [])
+        counts = [c.get("words"), c.get("texts"), c.get("undated_words"), *bins]
+        if len(bins) != len(DECADE_STARTS) or any(not is_int(n) or n < 0 for n in counts):
+            raise BuildError(f"Invalid period word counts: {name}")
+        if (c["words"] != source[name]["corpus_words"] or c["texts"] != source[name]["corpus_texts"]
+                or sum(bins) + c["undated_words"] != c["words"]):
+            raise BuildError(f"Period word counts disagree with the corpus audit: {name}")
+        d = by_entry.get(c.get("entry"))
+        if d is None:
+            unlisted_words += c["words"]
+            continue
+        if d["period_words"] is None:
+            d["period_words"] = {"decades": [0] * len(DECADE_STARTS), "undated": 0}
+        p = d["period_words"]
+        p["decades"] = [a + b for a, b in zip(p["decades"], bins)]
+        p["undated"] += c["undated_words"]
+    mapped = [d["period_words"] for d in derived if d["period_words"] is not None]
+    return {"snapshot": corpus["snapshot"], "frozen": corpus["frozen"],
+            "decade_words": [sum(p["decades"][i] for p in mapped) for i in range(len(DECADE_STARTS))],
+            "undated_words": sum(p["undated"] for p in mapped), "unlisted_words": unlisted_words,
+            "basis": audit["basis"], "date_basis": audit["date_basis"],
+            "source": f"{REPO_URL}/blob/main/data/period_word_counts.json"}
+
+
 def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dict,
                     snapshot: str | None, areas: list[str] | None, corpus: dict | None = None) -> dict:
     """Every figure and sentence the build writes into index.html (the page never formats these)."""
@@ -585,16 +623,6 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
         share_note = f"Shares of the {fmt_int(s['words'])} words recorded for all {plural(n, 'edition')}."
 
     share_note += " Collection totals include overlapping texts."
-    languages_note = (f"An edition counts once for each of its languages; {fmt_int(s['single_language'])} "
-                      f"of the {plural(n, 'edition')} {'has' if s['single_language'] == 1 else 'have'} "
-                      "a single language.")
-    if s["pseudo_languages"]:
-        q = join_and([f"“{l}”" for l in s["pseudo_languages"]])
-        one = len(s["pseudo_languages"]) == 1
-        languages_note += (f" The catalogue uses {plural(s['language_labels'], 'language label')}: "
-                           f"{plural(s['languages'], 'language')}, plus {q}, which "
-                           f"{'is not a single language' if one else 'are not single languages'}.")
-
     disc = s["provenance"].get("discovered", 0)
     discovered_sentence = (f"{fmt_int(disc)} of the {plural(n, 'record')} "
                            f"{'was' if disc == 1 else 'were'} proposed this way")
@@ -636,7 +664,6 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
         "with_data_url": plural(s["with_data_url"], "edition") if s["with_data_url"] else "",
         "with_countries": plural(s["with_countries"], "edition") if s["with_countries"] else "",
         "areas_list": join_and(areas or []),
-        "languages_note": languages_note,
         "citation_author_year": f"{citation.get('author', '')} ({year}).",
         "citation_title": citation.get("title", ""),
         "citation_tail": f"(Version {version}) [Data set]. {citation.get('url', '')}".rstrip(),
@@ -674,37 +701,6 @@ def share_chart(stats: dict) -> str:
             '<thead><tr><th scope="col">Edition</th><th scope="col"><span class="sr-only">Share, as a bar</span></th>'
             '<th scope="col" class="num">Share</th><th scope="col" class="num">Words</th></tr></thead>'
             '<tbody>' + "".join(rows) + '</tbody></table>')
-
-
-def languages_chart(stats: dict) -> str:
-    """The 12 most frequent languages as bars, the others in columns, then the other labels (6.5)."""
-    s = stats
-    counts = [(l, c) for l, c in s["language_counts"]]
-    real = [(l, c) for l, c in counts if l not in PSEUDO_LANGUAGES]
-    top, rest = real[:12], real[12:]
-
-    def link(label: str) -> str:
-        # app.js reads the label back from the query string (no data attribute: index.html budget).
-        return f'<a href="?lang={quote(label, safe="")}#catalogue">{html.escape(label)}</a>'
-
-    if not top:
-        return '<p class="chart-empty">No languages are recorded yet.</p>'
-    mx = top[0][1]
-    rows = "".join(f'<tr><th scope="row">{link(l)}</th><td class="bar" aria-hidden="true">'
-                   f'<span style="width:{c / mx * 100:.2f}%"></span></td><td class="num">{fmt_int(c)}</td></tr>'
-                   for l, c in top)
-    out = (f'<table class="langt"><caption class="sr-only">Editions per language, the {len(top)} most '
-           'frequent languages</caption><thead class="sr-only"><tr><th scope="col">Language</th>'
-           '<th scope="col">Bar</th><th scope="col">Editions</th></tr></thead>'
-           f'<tbody>{rows}</tbody></table>')
-    if rest:
-        items = "".join(f'<li>{link(l)} <span class="n">{fmt_int(c)}</span></li>' for l, c in rest)
-        out += f'<h3 class="lang-h">Other languages ({len(rest)})</h3><ul class="lang-cols">{items}</ul>'
-    pseudo = [(l, c) for l, c in counts if l in PSEUDO_LANGUAGES]
-    if pseudo:
-        items = "".join(f'<li>{link(l)} <span class="n">{fmt_int(c)}</span></li>' for l, c in pseudo)
-        out += f'<h3 class="lang-h">Other labels</h3><ul class="lang-cols">{items}</ul>'
-    return out
 
 
 # --- Writing index.html -------------------------------------------------------------------
@@ -790,6 +786,7 @@ def build_payload(entries: list[tuple[str, dict]], schema: dict, entries_dir: Pa
     has_countries_prop = "countries" in schema.get("properties", {})
     fields = export_fields(schema)
     corpus = load_corpus_statistics(entries_dir.parent / "rq_statistics.json", snapshot)
+    timeline = load_period_words(entries_dir.parent / "period_word_counts.json", corpus, derived)
 
     meta = {
         "title": SITE_TITLE,
@@ -810,6 +807,7 @@ def build_payload(entries: list[tuple[str, dict]], schema: dict, entries_dir: Pa
         "csv_columns": csv_columns(fields),
         "stats": stats,
         "corpus_statistics": corpus,
+        "timeline": timeline,
         "display": display_strings(stats, updated=updated, sha=sha, citation=citation, snapshot=snapshot,
                                    areas=areas if (countries is not None and has_countries_prop) else None,
                                    corpus=corpus),
@@ -871,8 +869,7 @@ def write_outputs(entries, derived, meta, out_dir: Path, index_template: Path) -
         if app.exists() and write_if_changed(out_dir / "app.js", app.read_bytes()):
             changed.append("app.js")
     page = index_template.read_text(encoding="utf-8")
-    page = inject(page, meta["display"], {"share-chart": share_chart(meta["stats"]),
-                                          "languages-chart": languages_chart(meta["stats"])})
+    page = inject(page, meta["display"], {"share-chart": share_chart(meta["stats"])})
     if write_if_changed(target, page.encode("utf-8")):
         changed.append("index.html")
     return changed

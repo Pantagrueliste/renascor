@@ -329,8 +329,6 @@ button, input, select { font: inherit; color: inherit; }
 .prose strong { color: var(--fg); font-weight: 600; }
 .prose h3 { font-size: 14.5px; font-weight: 600; color: var(--fg); }
 .prose .small { font-size: 13px; line-height: 1.5; color: var(--muted); }
-.wide { max-width: none; }
-.wide > p { max-width: 76ch; }
 figure { margin: 0; }
 .share { max-width: 760px; margin-top: 18px; padding: 14px 18px 12px; background: var(--bg); border: 1px solid var(--border); border-radius: 8px; }
 .sharet { width: 100%; border-collapse: collapse; font-size: 13.5px; line-height: 1.35; }
@@ -342,21 +340,10 @@ figure { margin: 0; }
 .sharet tbody th a:hover { color: var(--accent); }
 .sharet td { padding: 6px 0; vertical-align: middle; }
 .sharet td.bar { width: 100%; }
-.sharet td.bar span, .langt td.bar span { display: block; height: 10px; min-width: 2px; border-radius: 0 3px 3px 0; background: var(--chart); }
+.sharet td.bar span { display: block; height: 10px; min-width: 2px; border-radius: 0 3px 3px 0; background: var(--chart); }
 .sharet tr.rest th { color: var(--muted); }
 .sharet td.num { padding-left: 14px; text-align: right; white-space: nowrap; font-variant-numeric: tabular-nums; }
 .chart-note { margin-top: 8px; font-size: 12.5px; line-height: 1.45; color: var(--muted); }
-.langt { width: 100%; max-width: 560px; margin-top: 16px; border-collapse: collapse; font-size: 14px; line-height: 1.35; }
-.langt th { width: 132px; padding: 4px 12px 4px 0; text-align: left; font-weight: 400; white-space: nowrap; }
-.langt td { padding: 4px 0; vertical-align: middle; }
-.langt td.bar { width: auto; }
-.langt td.num { width: 1%; padding-left: 12px; text-align: right; color: var(--muted); font-variant-numeric: tabular-nums; }
-.lang-h { margin-top: 20px !important; font-size: 13.5px !important; }
-.prose .lang-cols { columns: 160px; column-gap: 24px; margin: 8px 0 0; padding: 0; list-style: none; font-size: 14px; line-height: 1.75; }
-.prose .lang-cols li { break-inside: avoid; margin: 0; }
-.prose .lang-cols a { text-decoration: none; }
-.prose .lang-cols a:hover { text-decoration: underline; }
-.lang-cols .n { color: var(--muted); font-variant-numeric: tabular-nums; }
 .defs { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 24px 40px; max-width: 980px; }
 .defs h3 { margin-bottom: 8px; font-size: 14.5px; font-weight: 600; }
 .defs dl { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 7px 16px; margin: 0; font-size: 14px; line-height: 1.5; }
@@ -423,7 +410,6 @@ figure { margin: 0; }
 	.defs { grid-template-columns: minmax(0, 1fr); gap: 20px; }
 	.defs dl { grid-template-columns: 96px minmax(0, 1fr); }
 	.share { padding: 12px 12px 10px; }
-	.langt th { width: 112px; white-space: normal; }
 	.cite-box { padding-right: 16px; padding-bottom: 52px; }
 	.cite-box button { top: auto; bottom: 10px; right: auto; left: 16px; }
 	.site-foot .right { margin-left: 0; }
@@ -538,7 +524,7 @@ figure { margin: 0; }
 
 	<section class="timeline" id="timeline" aria-labelledby="tl-title">
 		<div class="tl-head">
-			<h2 id="tl-title">Period</h2>
+			<h2 id="tl-title">Period <span class="sr-only">— words per decade</span></h2>
 			<p class="tl-state" id="tl-state">All years</p>
 			<button type="button" class="linkbtn tl-clear" id="tl-clear" hidden>Clear<span class="sr-only"> the period</span></button>
 			<div class="tl-tools">
@@ -568,8 +554,8 @@ figure { margin: 0; }
 			<details class="hist-values">
 				<summary>Show values<svg class="ico" aria-hidden="true"><use href="#i-chev"/></svg></summary>
 				<table>
-					<caption class="sr-only">Editions per decade, for the other filters</caption>
-					<thead><tr><th scope="col">Decade</th><th scope="col" class="num">Editions</th></tr></thead>
+					<caption class="sr-only">Deduplicated corpus words per decade, for collections matching the other filters</caption>
+					<thead><tr><th scope="col">Decade</th><th scope="col" class="num">Words</th></tr></thead>
 					<tbody id="tl-values-body"></tbody>
 				</table>
 			</details>
@@ -685,17 +671,8 @@ figure { margin: 0; }
 					<p class="chart-note" data-stat="share_note">Shares of the 2,383,502,748 words recorded for 190 editions; 6 editions have no word count. Collection totals include overlapping texts.</p>
 				</figure>
 				<p>Periods are given as the first and last year of the texts; a single year is written once (1620, not 1620–1620) and “c.” marks an approximate date. The period filter keeps an edition when its period overlaps the years chosen. Periods recorded as centuries count as their hundred years (the 16th century as 1500–1599); periods given only in words are shown as recorded and are not matched by year filters.</p>
+				<p>The graph counts each retained text in the June 2026 corpus once, at its recorded harvest year. Dates may be inferred, including from author lifespans. Undated words and collections without corpus date data are omitted.</p>
 				<p>For <span data-stat="with_last_modified">41 editions</span> the record also gives the date of the last change reported by the host, such as the last push to a GitHub repository or the last update of a Zenodo record.</p>
-			</div>
-		</div>
-
-		<div class="about-row" id="languages">
-			<h2>Languages</h2>
-			<div class="prose wide">
-				<p><span data-stat="languages_note">An edition counts once for each of its languages; 165 of the 196 editions have a single language.</span> Select a language to list its editions.</p>
-<!-- build:languages-chart -->
-<table class="langt"><caption class="sr-only">Editions per language, the 12 most frequent languages</caption><thead class="sr-only"><tr><th scope="col">Language</th><th scope="col">Bar</th><th scope="col">Editions</th></tr></thead><tbody><tr><th scope="row"><a href="?lang=Latin#catalogue">Latin</a></th><td class="bar" aria-hidden="true"><span style="width:100.00%"></span></td><td class="num">36</td></tr><tr><th scope="row"><a href="?lang=French#catalogue">French</a></th><td class="bar" aria-hidden="true"><span style="width:88.89%"></span></td><td class="num">32</td></tr><tr><th scope="row"><a href="?lang=German#catalogue">German</a></th><td class="bar" aria-hidden="true"><span style="width:83.33%"></span></td><td class="num">30</td></tr><tr><th scope="row"><a href="?lang=English#catalogue">English</a></th><td class="bar" aria-hidden="true"><span style="width:80.56%"></span></td><td class="num">29</td></tr><tr><th scope="row"><a href="?lang=Spanish#catalogue">Spanish</a></th><td class="bar" aria-hidden="true"><span style="width:75.00%"></span></td><td class="num">27</td></tr><tr><th scope="row"><a href="?lang=Italian#catalogue">Italian</a></th><td class="bar" aria-hidden="true"><span style="width:72.22%"></span></td><td class="num">26</td></tr><tr><th scope="row"><a href="?lang=Dutch#catalogue">Dutch</a></th><td class="bar" aria-hidden="true"><span style="width:30.56%"></span></td><td class="num">11</td></tr><tr><th scope="row"><a href="?lang=Portuguese#catalogue">Portuguese</a></th><td class="bar" aria-hidden="true"><span style="width:22.22%"></span></td><td class="num">8</td></tr><tr><th scope="row"><a href="?lang=Czech#catalogue">Czech</a></th><td class="bar" aria-hidden="true"><span style="width:16.67%"></span></td><td class="num">6</td></tr><tr><th scope="row"><a href="?lang=Polish#catalogue">Polish</a></th><td class="bar" aria-hidden="true"><span style="width:16.67%"></span></td><td class="num">6</td></tr><tr><th scope="row"><a href="?lang=Danish#catalogue">Danish</a></th><td class="bar" aria-hidden="true"><span style="width:13.89%"></span></td><td class="num">5</td></tr><tr><th scope="row"><a href="?lang=Greek#catalogue">Greek</a></th><td class="bar" aria-hidden="true"><span style="width:13.89%"></span></td><td class="num">5</td></tr></tbody></table><h3 class="lang-h">Other languages (60)</h3><ul class="lang-cols"><li><a href="?lang=Hungarian#catalogue">Hungarian</a> <span class="n">5</span></li><li><a href="?lang=Slovenian#catalogue">Slovenian</a> <span class="n">4</span></li><li><a href="?lang=Swedish#catalogue">Swedish</a> <span class="n">4</span></li><li><a href="?lang=Catalan#catalogue">Catalan</a> <span class="n">3</span></li><li><a href="?lang=Hebrew#catalogue">Hebrew</a> <span class="n">3</span></li><li><a href="?lang=Icelandic#catalogue">Icelandic</a> <span class="n">3</span></li><li><a href="?lang=Romanian#catalogue">Romanian</a> <span class="n">3</span></li><li><a href="?lang=Welsh#catalogue">Welsh</a> <span class="n">3</span></li><li><a href="?lang=Armenian#catalogue">Armenian</a> <span class="n">2</span></li><li><a href="?lang=Bulgarian#catalogue">Bulgarian</a> <span class="n">2</span></li><li><a href="?lang=Cornish#catalogue">Cornish</a> <span class="n">2</span></li><li><a href="?lang=Finnish#catalogue">Finnish</a> <span class="n">2</span></li><li><a href="?lang=Irish#catalogue">Irish</a> <span class="n">2</span></li><li><a href="?lang=Lithuanian#catalogue">Lithuanian</a> <span class="n">2</span></li><li><a href="?lang=Nahuatl#catalogue">Nahuatl</a> <span class="n">2</span></li><li><a href="?lang=Occitan#catalogue">Occitan</a> <span class="n">2</span></li><li><a href="?lang=Quechua#catalogue">Quechua</a> <span class="n">2</span></li><li><a href="?lang=Russian#catalogue">Russian</a> <span class="n">2</span></li><li><a href="?lang=Scots#catalogue">Scots</a> <span class="n">2</span></li><li><a href="?lang=Albanian#catalogue">Albanian</a> <span class="n">1</span></li><li><a href="?lang=Arabic#catalogue">Arabic</a> <span class="n">1</span></li><li><a href="?lang=Aragonese#catalogue">Aragonese</a> <span class="n">1</span></li><li><a href="?lang=Aymara#catalogue">Aymara</a> <span class="n">1</span></li><li><a href="?lang=Azerbaijani#catalogue">Azerbaijani</a> <span class="n">1</span></li><li><a href="?lang=Basque#catalogue">Basque</a> <span class="n">1</span></li><li><a href="?lang=Belarusian#catalogue">Belarusian</a> <span class="n">1</span></li><li><a href="?lang=Breton#catalogue">Breton</a> <span class="n">1</span></li><li><a href="?lang=Church%20Slavonic#catalogue">Church Slavonic</a> <span class="n">1</span></li><li><a href="?lang=Croatian#catalogue">Croatian</a> <span class="n">1</span></li><li><a href="?lang=Estonian#catalogue">Estonian</a> <span class="n">1</span></li><li><a href="?lang=Frisian#catalogue">Frisian</a> <span class="n">1</span></li><li><a href="?lang=Galician#catalogue">Galician</a> <span class="n">1</span></li><li><a href="?lang=Ge%27ez#catalogue">Ge&#x27;ez</a> <span class="n">1</span></li><li><a href="?lang=Georgian#catalogue">Georgian</a> <span class="n">1</span></li><li><a href="?lang=Guaran%C3%AD#catalogue">Guaraní</a> <span class="n">1</span></li><li><a href="?lang=Japanese#catalogue">Japanese</a> <span class="n">1</span></li><li><a href="?lang=Kikongo#catalogue">Kikongo</a> <span class="n">1</span></li><li><a href="?lang=Ladino#catalogue">Ladino</a> <span class="n">1</span></li><li><a href="?lang=Latvian#catalogue">Latvian</a> <span class="n">1</span></li><li><a href="?lang=Maltese#catalogue">Maltese</a> <span class="n">1</span></li><li><a href="?lang=Mapudungun#catalogue">Mapudungun</a> <span class="n">1</span></li><li><a href="?lang=Muisca#catalogue">Muisca</a> <span class="n">1</span></li><li><a href="?lang=Norman#catalogue">Norman</a> <span class="n">1</span></li><li><a href="?lang=Norwegian#catalogue">Norwegian</a> <span class="n">1</span></li><li><a href="?lang=Old%20Prussian#catalogue">Old Prussian</a> <span class="n">1</span></li><li><a href="?lang=Otom%C3%AD#catalogue">Otomí</a> <span class="n">1</span></li><li><a href="?lang=Ottoman%20Turkish#catalogue">Ottoman Turkish</a> <span class="n">1</span></li><li><a href="?lang=Persian#catalogue">Persian</a> <span class="n">1</span></li><li><a href="?lang=Pur%C3%A9pecha#catalogue">Purépecha</a> <span class="n">1</span></li><li><a href="?lang=Romansh#catalogue">Romansh</a> <span class="n">1</span></li><li><a href="?lang=Sardinian#catalogue">Sardinian</a> <span class="n">1</span></li><li><a href="?lang=Slovak#catalogue">Slovak</a> <span class="n">1</span></li><li><a href="?lang=Tagalog#catalogue">Tagalog</a> <span class="n">1</span></li><li><a href="?lang=Tupi#catalogue">Tupi</a> <span class="n">1</span></li><li><a href="?lang=Ukrainian#catalogue">Ukrainian</a> <span class="n">1</span></li><li><a href="?lang=Venetian#catalogue">Venetian</a> <span class="n">1</span></li><li><a href="?lang=Vietnamese#catalogue">Vietnamese</a> <span class="n">1</span></li><li><a href="?lang=Yiddish#catalogue">Yiddish</a> <span class="n">1</span></li><li><a href="?lang=Yucatec%20Maya#catalogue">Yucatec Maya</a> <span class="n">1</span></li><li><a href="?lang=Zapotec#catalogue">Zapotec</a> <span class="n">1</span></li></ul>
-<!-- /build:languages-chart -->
 			</div>
 		</div>
 

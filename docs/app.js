@@ -141,7 +141,7 @@ function init(data) {
 	records = (data.entries || []).map((e, i) => buildRecord(e, derived[i] || {}, i));
 	records.forEach(r => { byId[r.id] = r; });
 	hasFiles = records.some(r => r.e.data_url);
-	decadeScale = Math.max(1, ...(stats.decades || []));
+	decadeScale = Math.max(1, ...(meta.timeline && meta.timeline.decade_words || []));
 	wordsSorted = records.map(r => r.e.words).filter(hasNum).sort((a, b) => a - b);
 	totalWords = wordsSorted.reduce((a, b) => a + b, 0);
 	readURL();
@@ -301,23 +301,23 @@ function renderTimeline() {
 	}
 	tlShown = [state.from, state.to];
 	const counts = new Array(NBINS).fill(0);
-	let undated = 0;
+	let undated = 0, missing = false, known = false;
 	records.forEach(r => {
 		if (!matches(r, 'period')) return;
-		const p = r.p;
-		if (!p) { undated++; return; }
-		if (p.end < MIN || p.start > MAX) return;
-		const last = clamp(Math.floor((Math.min(p.end, MAX) - MIN) / 10), 0, NBINS - 1);
-		for (let i = clamp(Math.floor((p.start - MIN) / 10), 0, NBINS - 1); i <= last; i++) counts[i]++;
+		const p = r.d.period_words;
+		if (!p) { missing = true; return; }
+		known = true;
+		p.decades.forEach((words, i) => { counts[i] += words; });
+		undated += p.undated;
 	});
-	lastCounts = counts;
+	lastCounts = known ? counts : null;
 	const active = periodActive(), inRange = i => active && DECADES[i] <= state.to && binEnd(i) >= state.from;
 	TL.barEls.forEach((b, i) => {
 		b.style.height = counts[i] ? `max(2px, ${(Math.min(counts[i], decadeScale) / decadeScale * 100).toFixed(2)}%)` : '0px';
 		b.classList.toggle('in', inRange(i));
 	});
 	TL.valueRows.forEach((tr, i) => {
-		tr.cells[1].textContent = fmt(counts[i]);
+		tr.cells[1].textContent = known ? fmt(counts[i]) : '—';
 		tr.classList.toggle('in', inRange(i));
 	});
 	const l = frac(state.from) * 100, r = frac(state.to + 1) * 100;
@@ -325,13 +325,16 @@ function renderTimeline() {
 	TL.band.style.cssText = `left:${l.toFixed(3)}%;width:${Math.max(0, r - l).toFixed(3)}%`;
 	setHandle(TL.h0, l, state.from);
 	setHandle(TL.h1, r, state.to);
-	TL.state.innerHTML = active ? `<b>${yearsLabel(state.from, state.to)}</b> · ${plural(shown.length, 'edition')}` : 'All years';
+	TL.state.innerHTML = active ? `<b>${yearsLabel(state.from, state.to)}</b>` : 'All years';
 	TL.clear.hidden = !active;
 	if (!TL.yFrom.dataset.dirty) TL.yFrom.value = state.from;
 	if (!TL.yTo.dataset.dirty) TL.yTo.value = state.to;
 	TL.presets.forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.from === state.from && +b.dataset.to === state.to)));
-	TL.note.hidden = !(active && undated);
-	TL.note.textContent = active && undated ? `${plural(undated, 'edition')} without years ${undated === 1 ? 'is' : 'are'} left out while a range is set.` : '';
+	TL.note.hidden = false;
+	const note = known ? ['Deduplicated corpus words (June 2026); dates include estimates.'] : ['No dated corpus word counts recorded for these collections.'];
+	if (undated) note.push(`${plural(undated, 'undated word')} omitted.`);
+	if (missing && known) note.push('Collections without dated corpus counts are omitted.');
+	TL.note.textContent = note.join(' ');
 }
 
 function setHandle(h, left, year) {
@@ -466,7 +469,7 @@ function endDrag() {
 function showHover(ev) {
 	if (ev.target.closest('.tl-handle')) { hideHover(); return; }
 	const i = Math.min(NBINS - 1, Math.floor(plotFrac(ev.clientX) * NBINS));
-	TL.hover.textContent = DECADES[i] + '–' + binEnd(i) + ' · ' + plural(lastCounts[i], 'edition');
+	TL.hover.textContent = DECADES[i] + '–' + binEnd(i) + ' · ' + (lastCounts ? plural(lastCounts[i], 'word') : 'word count not recorded');
 	TL.hover.hidden = false;
 	const W = TL.plot.clientWidth, w = TL.hover.offsetWidth;
 	TL.hover.style.left = clamp((i + 0.5) / NBINS * W - w / 2, -8, Math.max(-8, W - w + 8)).toFixed(1) + 'px';
@@ -1238,22 +1241,14 @@ function wireEvents() {
 	on(els.sheetClear, 'click', () => { resetFacets(); render(); });
 	on(els.filtersDialog, 'close', onSheetClosed);
 
-	// Copy buttons, language links, "/"
+	// Copy buttons, "/"
 	on(document, 'click', ev => {
-		const t = ev.target, copy = t.closest('.copy-link'), link = t.closest('#languages a[href^="?lang="]');
+		const copy = ev.target.closest('.copy-link');
 		if (copy) {
 			copyText(location.origin + location.pathname + '#' + encodeURIComponent(copy.dataset.id), ok => {
 				flashLabel(copy, ok ? 'Link copied' : 'Copy failed');
 				if (ok) els.live.textContent = 'Link copied to the clipboard.';
 			});
-		} else if (link && !ev.metaKey && !ev.ctrlKey && !ev.shiftKey && !ev.altKey && ev.button === 0) {
-			const l = new URLSearchParams(link.search).get('lang');
-			ev.preventDefault();
-			resetAll();
-			if (records.some(r => r.labels.includes(l))) state.lang = [l];
-			render();
-			els.catalogue.scrollIntoView({ block: 'start' });
-			els.catalogue.focus({ preventScroll: true });
 		}
 	});
 	if (els.citeCopy) {

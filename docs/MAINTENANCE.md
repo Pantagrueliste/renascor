@@ -32,6 +32,17 @@ python3 scripts/build_site.py
 
 The recount reads the corpus without changing it and writes its audit to [data/rq_statistics.json](../data/rq_statistics.json). Material excluded before saved harvests remains unknown. Imports use the recount only when its database checksum matches.
 
+## Period graph
+
+The graph uses deduplicated words from the same June working corpus, counted once at each text's recorded harvest year. It does not distribute collection totals across their date spans. Dates include estimates and author-lifespan proxies, and are not consistently composition or publication dates. Undated words are recorded separately and omitted from the bars. Other filters select catalogue collections, including all languages in a multilingual collection.
+
+```bash
+python3 scripts/corpus_timeline.py --db /path/to/corpus_master_FROZEN_2026-06-26.sqlite
+python3 scripts/build_site.py
+```
+
+The text-free [period audit](../data/period_word_counts.json) conserves the complete corpus counts and records date-confidence labels. The displayed graph covers only mapped catalogue collections; internal or excluded sources remain in the audit. Later collection censuses, restored pre-deduplication texts and collections without corpus dates do not enter this graph. Regenerate the audit after changing `scripts/rq_families.json`; normal site builds need neither the private database nor its texts.
+
 ## Sefaria source census
 
 ```bash

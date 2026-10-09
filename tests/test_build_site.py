@@ -305,9 +305,8 @@ class InjectTests(unittest.TestCase):
     PAGE = ('<p><b data-stat="editions">0</b> <span class="x" data-stat="note">old</span></p>'
             '<p data-if="empty">gone</p><p data-if="full" hidden>shown</p>'
             '<a href="#" data-href="url"><span data-stat="sha">x</span></a>'
-            '<!-- build:share-chart -->old<!-- /build:share-chart -->'
-            '<!-- build:languages-chart --><!-- /build:languages-chart -->')
-    REGIONS = {"share-chart": "<table>S</table>", "languages-chart": "<table>L</table>"}
+            '<!-- build:share-chart -->old<!-- /build:share-chart -->')
+    REGIONS = {"share-chart": "<table>S</table>"}
 
     def test_injection(self):
         out = bs.inject(self.PAGE, self.DISPLAY, self.REGIONS)
@@ -350,7 +349,7 @@ class InjectTests(unittest.TestCase):
             e = entry(words=10, **({"countries": countries} if countries else {}))
             with redirect_stderr(StringIO()):
                 meta, _ = bs.build_payload([("a-test.json", e)], schema, Path(tempfile.gettempdir()))
-            regions = {"share-chart": bs.share_chart(meta["stats"]), "languages-chart": bs.languages_chart(meta["stats"])}
+            regions = {"share-chart": bs.share_chart(meta["stats"])}
             out = bs.inject(page, meta["display"], regions)
             item = re.search(r'<li data-if="with_countries"[^>]*>', out).group(0)
             self.assertEqual(" hidden" in item, not countries)
@@ -365,7 +364,7 @@ class InjectTests(unittest.TestCase):
         schema = bs.load_schema()
         with redirect_stderr(StringIO()):
             meta, _ = bs.build_payload(entries, schema, Path(tempfile.gettempdir()))
-        regions = {"share-chart": bs.share_chart(meta["stats"]), "languages-chart": bs.languages_chart(meta["stats"])}
+        regions = {"share-chart": bs.share_chart(meta["stats"])}
         out = bs.inject(page, meta["display"], regions)
         self.assertEqual(bs.inject(out, meta["display"], regions), out)
 
