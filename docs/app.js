@@ -49,7 +49,7 @@ const state = { q: '', from: MIN, to: MAX, sort: 'title-asc', view: 'table' };
 let meta = {}, records = [], shown = [], terms = [], PSEUDO = new Set(), facetOpts = {};
 const byId = Object.create(null), open = new Set();
 let langExpanded = false, hasFiles = false, ready = false;
-let decadeScale = 1, lastCounts = new Array(NBINS).fill(0), wordsSorted = [], totalWords = 0;
+let decadeScale = 1, lastCounts = new Array(NBINS).fill(0), lastEstimated = new Array(NBINS).fill(0), wordsSorted = [], totalWords = 0;
 
 const nf = new Intl.NumberFormat('en');
 const $ = id => document.getElementById(id);
@@ -298,6 +298,7 @@ function renderTimeline() {
 	}
 	tlShown = [state.from, state.to];
 	const counts = new Array(NBINS).fill(0);
+	const estimated = new Array(NBINS).fill(0);
 	let undated = 0, missing = false, known = false;
 	records.forEach(r => {
 		if (!matches(r, 'period')) return;
@@ -305,16 +306,18 @@ function renderTimeline() {
 		if (!p) { missing = true; return; }
 		known = true;
 		p.decades.forEach((words, i) => { counts[i] += words; });
+		(p.estimated || []).forEach((words, i) => { counts[i] += words; estimated[i] += words; });
 		undated += p.undated;
 	});
 	lastCounts = known ? counts : null;
+	lastEstimated = estimated;
 	const active = periodActive(), inRange = i => active && DECADES[i] <= state.to && binEnd(i) >= state.from;
 	TL.barEls.forEach((b, i) => {
 		b.style.height = counts[i] ? `max(2px, ${(Math.min(counts[i], decadeScale) / decadeScale * 100).toFixed(2)}%)` : '0px';
 		b.classList.toggle('in', inRange(i));
 	});
 	TL.bars.setAttribute('aria-label', known ? 'Corpus words per decade: ' + counts.map((n, i) =>
-		DECADES[i] + '–' + binEnd(i) + ': ' + plural(n, 'word')).join('; ') : 'Word counts not recorded for these collections.');
+		DECADES[i] + '–' + binEnd(i) + ': ' + plural(n, 'word') + (estimated[i] ? ', including ' + plural(estimated[i], 'word') + ' allocated from estimated date ranges' : '')).join('; ') : 'Word counts not recorded for these collections.');
 	const l = frac(state.from) * 100, r = frac(state.to + 1) * 100;
 	TL.band.hidden = !active;
 	TL.band.style.cssText = `left:${l.toFixed(3)}%;width:${Math.max(0, r - l).toFixed(3)}%`;
@@ -327,7 +330,9 @@ function renderTimeline() {
 	TL.presets.forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.from === state.from && +b.dataset.to === state.to)));
 	TL.note.hidden = false;
 	const note = known ? ['Deduplicated corpus words (June 2026); dates include estimates.'] : ['No dated corpus word counts recorded for these collections.'];
-	if (undated) note.push(`${plural(undated, 'undated word')} omitted.`);
+	const estimatedTotal = estimated.reduce((a, b) => a + b, 0);
+	if (estimatedTotal) note.push(`${plural(estimatedTotal, 'word')} allocated from author-lifespan estimates.`);
+	if (undated) note.push(`${plural(undated, 'word')} without a usable date omitted.`);
 	if (missing && known) note.push('Collections without dated corpus counts are omitted.');
 	TL.note.textContent = note.join(' ');
 }
@@ -465,6 +470,7 @@ function showHover(ev) {
 	if (ev.target.closest('.tl-handle')) { hideHover(); return; }
 	const i = Math.min(NBINS - 1, Math.floor(plotFrac(ev.clientX) * NBINS));
 	TL.hover.textContent = DECADES[i] + '–' + binEnd(i) + ' · ' + (lastCounts ? plural(lastCounts[i], 'word') : 'word count not recorded');
+	if (lastCounts && lastEstimated[i]) TL.hover.textContent += '\n' + plural(lastEstimated[i], 'word') + ' from estimated date ranges';
 	TL.hover.hidden = false;
 	const W = TL.plot.clientWidth, w = TL.hover.offsetWidth;
 	TL.hover.style.left = clamp((i + 0.5) / NBINS * W - w / 2, -8, Math.max(-8, W - w + 8)).toFixed(1) + 'px';
@@ -703,7 +709,8 @@ function periodFull(r) {
 	const p = r.d.period;
 	if (!p) return 'Not recorded';
 	const lines = [];
-	if (p.note || p.kind === 'century') lines.push(`As recorded: “${esc(p.raw)}”`);
+	if (p.raw && (p.note || p.kind === 'century' || p.estimate_note)) lines.push(`As recorded: “${esc(p.raw)}”`);
+	if (p.estimate_note) lines.push(esc(p.estimate_note));
 	if (p.kind === 'century') lines.push(`Counted as ${p.start}–${p.end} by the period filter.`);
 	if (p.kind === 'text') lines.push('Given in words, so not matched by the period filter.');
 	if (p.beyond_scope) lines.push('Extends beyond the catalogue’s 1450–1700 range.');

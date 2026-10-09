@@ -152,7 +152,7 @@ button, input, select { font: inherit; color: inherit; }
 .tl-tip, .tl-hover { position: absolute; border: 1px solid var(--border-strong); border-radius: 4px; background: var(--bg); color: var(--fg); font-size: 12px; white-space: nowrap; pointer-events: none; font-variant-numeric: tabular-nums; }
 .tl-tip { display: none; bottom: calc(100% + 5px); left: 50%; transform: translateX(-50%); padding: 0 5px; line-height: 18px; }
 .tl-handle:focus-visible .tl-tip, .tl-plot.dragging .tl-tip { display: block; }
-.tl-hover { top: calc(100% + 1px); z-index: 3; padding: 0 6px; line-height: 20px; }
+.tl-hover { top: calc(100% + 1px); z-index: 3; padding: 0 6px; line-height: 20px; white-space: pre-line; }
 .tl-axis { position: relative; height: 18px; margin: 0 12px; font-size: 12px; line-height: 14px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .tl-axis i { position: absolute; top: 0; width: 1px; height: 3px; background: var(--border-strong); }
 .tl-axis i.major { height: 5px; background: var(--faint); }
@@ -645,7 +645,7 @@ figure { margin: 0; }
 					<p class="chart-note" data-stat="share_note">Shares of the 2,383,502,748 words recorded for 190 editions; 6 editions have no word count. Collection totals include overlapping texts.</p>
 				</figure>
 				<p>Periods are given as the first and last year of the texts; a single year is written once (1620, not 1620–1620) and “c.” marks an approximate date. The period filter keeps an edition when its period overlaps the years chosen. Periods recorded as centuries count as their hundred years (the 16th century as 1500–1599); periods given only in words are shown as recorded and are not matched by year filters.</p>
-				<p>The graph counts each retained text in the June 2026 corpus once, at its recorded harvest year. Dates may be inferred, including from author lifespans. Undated words and collections without corpus date data are omitted.</p>
+				<p>The graph gives an approximate view of the distribution of deduplicated corpus words over time. Where a Gutenberg text lacks a year but has a recorded author lifespan wholly within 1450–1700, its words are distributed evenly across that range and included in the bars. These are broad estimates, rather than established composition or publication dates. Texts without usable date evidence remain omitted from the graph.</p>
 				<p>For <span data-stat="with_last_modified">41 editions</span> the record also gives the date of the last change reported by the host, such as the last push to a GitHub repository or the last update of a Zenodo record.</p>
 			</div>
 		</div>

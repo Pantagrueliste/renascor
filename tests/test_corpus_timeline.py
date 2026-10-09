@@ -17,8 +17,8 @@ class CorpusTimelineTests(unittest.TestCase):
         self.root = Path(self.temp.name)
         self.db = self.root / "frozen.sqlite"
         con = sqlite3.connect(self.db)
-        con.execute("CREATE TABLE texts (collection, year, wordcount, date_confidence, in_core, is_dup)")
-        con.executemany("INSERT INTO texts VALUES (?,?,?,?,?,?)", [
+        con.execute("CREATE TABLE texts (collection, year, wordcount, date_confidence, in_core, is_dup, filename, origin)")
+        con.executemany("INSERT INTO texts (collection, year, wordcount, date_confidence, in_core, is_dup) VALUES (?,?,?,?,?,?)", [
             ("A", 1450, 10, "exact", 1, 0), ("A", 1459, 20, "exact", 1, 0),
             ("A", 1460, 30, "inferred", 1, 0), ("A", 1700, 40, "exact", 1, 0),
             ("A", None, 50, "collection", 1, 0), ("A", 1500, 900, "exact", 1, 1),
@@ -49,7 +49,8 @@ class CorpusTimelineTests(unittest.TestCase):
         return audit, path
 
     def build_counts(self, path):
-        derived = [{"id": "example"}, {"id": "new-resource"}, {"id": "zero"}]
+        derived = [{"id": "example", "period": bs.parse_period("1570")},
+                   {"id": "new-resource"}, {"id": "zero"}]
         corpus = {**self.corpus, "frozen": "2026-06-26"}
         return bs.load_period_words(path, corpus, derived), derived
 
@@ -96,6 +97,57 @@ class CorpusTimelineTests(unittest.TestCase):
         con.close()
         with self.assertRaisesRegex(ValueError, "outside 1450–1700"):
             ct.count_years(self.db)
+
+    def test_range_allocation_conserves_words_and_includes_1700(self):
+        self.assertEqual(ct.allocate_range(251, 1450, 1700), [10] * 24 + [11])
+        bins = ct.allocate_range(410, 1540, 1580)
+        self.assertEqual(bins[9:14], [100, 100, 100, 100, 10])
+        self.assertEqual(sum(bins), 410)
+        self.assertEqual(sum(ct.allocate_range(1, 1540, 1580)), 1)
+        with self.assertRaises(ValueError):
+            ct.allocate_range(100, 1690, 1710)
+
+    def test_estimates_require_a_consistent_complete_in_scope_lifespan(self):
+        origin = 'Project Gutenberg #42 — Example, Author, 1540-1580 — Work'
+        result = ct.lifespan_estimate('GutenbergFR', 'pg42.txt', origin, 'author_death_1580')
+        self.assertEqual((result['status'], result['range']), ('estimated', [1540, 1580]))
+        for value, basis in [(origin.replace('1540', '1440'), 'author_death_1580'),
+                             (origin.replace('1540-', '-'), 'author_death_1580'),
+                             (origin, 'author_death_1590')]:
+            self.assertEqual(ct.lifespan_estimate('GutenbergFR', 'pg42.txt', value, basis)['status'], 'review')
+        self.assertIsNone(ct.lifespan_estimate('Other', 'work-2020.txt', origin, 'collection'))
+
+    def test_estimates_are_separate_and_do_not_change_recorded_years_or_corpus_counts(self):
+        con = sqlite3.connect(self.db)
+        origin = 'Project Gutenberg #42 — Example, Author, 1540-1580 — Work'
+        con.executemany('INSERT INTO texts VALUES (?,?,?,?,?,?,?,?)', [
+            ('GutenbergFR', None, 410, 'author_death_1580', 1, 0, 'pg42.txt', origin),
+            ('GutenbergFR', 1570, 100, 'author_death_1580', 1, 0, 'pg43.txt', origin),
+            ('GutenbergFR', None, 900, 'author_death_1580', 1, 1, 'pg44.txt', origin),
+        ])
+        con.commit(); con.close()
+        self.corpus['database_sha256'] = ct.checksum(self.db)
+        self.corpus['collections']['GutenbergFR'] = {'corpus_words': 510, 'corpus_texts': 2}
+        self.families['groups'][0]['match'].append('^GutenbergFR$')
+        audit, path = self.audit()
+        c = audit['collections']['GutenbergFR']
+        self.assertEqual(sum(c['estimated_decade_words']), 410)
+        self.assertEqual(sum(c['decade_words']), 100)
+        self.assertEqual(c['undated_words'], 0)
+        self.assertEqual(len(c['date_estimates']), 1)
+        timeline, derived = self.build_counts(path)
+        self.assertEqual(timeline['estimated_words'], 410)
+        self.assertEqual(sum(timeline['decade_words']), 635)
+        self.assertTrue(derived[0]['period']['approx'])
+        self.assertEqual(derived[0]['period']['raw'], '1570')
+        self.assertEqual(derived[0]['period']['label'], 'c.\u00a01540–1580')
+        self.assertIn('author-lifespan', derived[0]['period']['estimate_note'])
+        self.assertEqual(derived[0]['period_words']['estimated_range'], [1540, 1580])
+        # The audit cannot silently change an estimated allocation's total.
+        audit['collections']['GutenbergFR']['date_estimates'][0]['words'] += 1
+        path.write_text(json.dumps(audit))
+        with self.assertRaisesRegex(bs.BuildError, 'allocated words'):
+            self.build_counts(path)
 
 
 if __name__ == "__main__":

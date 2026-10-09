@@ -34,14 +34,18 @@ The recount reads the corpus without changing it and writes its audit to [data/r
 
 ## Period graph
 
-The graph uses deduplicated words from the same June working corpus, counted once at each text's recorded harvest year. It does not distribute collection totals across their date spans. Dates include estimates and author-lifespan proxies, and are not consistently composition or publication dates. Undated words are recorded separately and omitted from the bars. Other filters select catalogue collections, including all languages in a multilingual collection.
+The graph uses deduplicated words from the same June working corpus. Recorded harvest years, which can themselves be inferred, remain separate from newly estimated dates. Dates are not consistently composition or publication dates. Other filters select catalogue collections, including all languages in a multilingual collection.
+
+For missing Gutenberg years, the estimator reads the author lifespan from saved harvest metadata and checks it against the selected author's death-year evidence. A single complete lifespan wholly within 1450–1700 is accepted as a broad proxy for the underlying work. No ebook release dates, modern edition filename dates, arbitrary point dates or collection-wide date spans are substituted. Missing or conflicting lifespans and ranges crossing the scope are retained for review.
+
+For display, estimated words are allocated equally per year across the lifespan, then aggregated by decade. Integer largest-remainder allocation preserves each text's exact word count, including 1700 in the last bin. This is a visual convention, not evidence that production was uniform or a statistical probability model. Estimated words appear in the same solid bars as recorded-year words; the graph note and hover labels explain their contribution. Catalogue coverage derived from these ranges is labelled approximate. Words without usable evidence stay unallocated; the frozen database and corpus totals remain unchanged.
 
 ```bash
 python3 scripts/corpus_timeline.py --db /path/to/corpus_master_FROZEN_2026-06-26.sqlite
 python3 scripts/build_site.py
 ```
 
-The text-free [period audit](../data/period_word_counts.json) conserves the complete corpus counts and records date-confidence labels. The displayed graph covers only mapped catalogue collections; internal or excluded sources remain in the audit. Later collection censuses, restored pre-deduplication texts and collections without corpus dates do not enter this graph. Regenerate the audit after changing `scripts/rq_families.json`; normal site builds need neither the private database nor its texts.
+The text-free [period audit](../data/period_word_counts.json) conserves the complete corpus counts and records date-confidence labels, each inferred range, source metadata evidence and review reasons. The displayed graph covers only mapped catalogue collections; internal or excluded sources remain in the audit. Later collection censuses, restored pre-deduplication texts and collections without date evidence do not enter this graph. Regenerate the audit after changing `scripts/rq_families.json`; normal site builds need neither the private database nor its texts.
 
 ## Sefaria source census
 
