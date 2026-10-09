@@ -34,6 +34,7 @@
    "id",
    "title",
    "url",
+   "doi",
    "data_url",
    "data_format",
    "data_formats",
@@ -65,6 +66,7 @@
    "id",
    "title",
    "url",
+   "doi",
    "data_url",
    "data_format",
    "data_formats",
@@ -94,38 +96,35 @@
    "notes"
   ],
   "stats": {
-   "editions": 197,
-   "language_labels": 75,
-   "languages": 73,
-   "pseudo_languages": [
-    "Multilingual",
-    "Romance (other)"
-   ],
+   "editions": 196,
+   "language_labels": 72,
+   "languages": 72,
+   "pseudo_languages": [],
    "single_language": 165,
    "language_counts": [
     [
      "Latin",
-     37
+     36
     ],
     [
      "French",
-     33
-    ],
-    [
-     "English",
-     30
+     32
     ],
     [
      "German",
      30
     ],
     [
+     "English",
+     29
+    ],
+    [
      "Spanish",
-     28
+     27
     ],
     [
      "Italian",
-     27
+     26
     ],
     [
      "Dutch",
@@ -145,6 +144,10 @@
     ],
     [
      "Danish",
+     5
+    ],
+    [
+     "Greek",
      5
     ],
     [
@@ -172,20 +175,12 @@
      3
     ],
     [
-     "Modern Greek",
-     3
-    ],
-    [
      "Romanian",
      3
     ],
     [
      "Welsh",
      3
-    ],
-    [
-     "Ancient Greek",
-     2
     ],
     [
      "Armenian",
@@ -209,10 +204,6 @@
     ],
     [
      "Lithuanian",
-     2
-    ],
-    [
-     "Multilingual",
      2
     ],
     [
@@ -356,10 +347,6 @@
      1
     ],
     [
-     "Romance (other)",
-     1
-    ],
-    [
      "Romansh",
      1
     ],
@@ -405,52 +392,51 @@
     ]
    ],
    "texts": 126213,
-   "words": 2395502748,
+   "words": 2383502748,
    "with_texts": 189,
-   "with_words": 191,
-   "median_words": 425831,
+   "with_words": 190,
+   "median_words": 423562,
    "median_texts": 30,
    "period": {
-    "numeric": 191,
+    "numeric": 190,
     "in_words": 1,
     "missing": 5
    },
    "decades": [
-    28,
-    33,
-    41,
+    27,
+    32,
+    40,
+    45,
     46,
-    47,
-    58,
-    63,
-    70,
-    79,
-    88,
-    94,
+    57,
+    62,
+    69,
+    78,
+    87,
+    93,
+    96,
+    101,
     97,
     102,
-    98,
-    103,
-    107,
-    110,
-    107,
-    103,
     106,
-    96,
-    89,
-    81,
-    76,
-    73
+    109,
+    106,
+    102,
+    105,
+    95,
+    88,
+    80,
+    75,
+    72
    ],
    "figures": {
     "rq": 187,
-    "other": 4,
+    "other": 3,
     "none": 6,
     "other_titles": [
      "OpenEDGeS (Open Editions of Early Modern Dutch and German Bibles)",
      "Sefaria",
-     "TextGrid Repository",
-     "Women Writers Online"
+     "TextGrid Repository"
     ],
     "none_titles": [
      "A Social Edition of the Devonshire MS (BL Add. MS 17492)",
@@ -465,47 +451,47 @@
     "id": "eebo-text-creation-partnership",
     "title": "EEBO Text Creation Partnership",
     "words": 1348840666,
-    "share": 0.5631
+    "share": 0.5659
    },
    "top_by_words": [
     {
      "id": "eebo-text-creation-partnership",
      "label": "EEBO Text Creation Partnership",
      "words": 1348840666,
-     "share": 0.5631
+     "share": 0.5659
     },
     {
      "id": "openiti",
      "label": "OpenITI",
      "words": 356834104,
-     "share": 0.149
+     "share": 0.1497
     },
     {
      "id": "noscemus",
      "label": "NOSCEMUS",
      "words": 82381900,
-     "share": 0.0344
+     "share": 0.0346
     },
     {
      "id": "sefaria",
      "label": "Sefaria",
      "words": 51508557,
-     "share": 0.0215
+     "share": 0.0216
     },
     {
      "id": "textgrid-repository",
      "label": "TextGrid Repository",
      "words": 50000000,
-     "share": 0.0209
+     "share": 0.021
     }
    ],
    "status": {
-    "active": 161,
+    "active": 160,
     "archived": 34,
     "discontinued": 2
    },
    "encoding": {
-    "tei": 112,
+    "tei": 111,
     "xml": 17,
     "json": 1,
     "html": 34,
@@ -526,54 +512,71 @@
    },
    "provenance": {
     "discovered": 6,
-    "submitted": 191
+    "submitted": 190
    },
    "with_last_modified": 41,
    "with_data_url": 169,
-   "with_region": 9,
+   "with_region": 8,
    "with_countries": 0
   },
+  "corpus_statistics": {
+   "name": "Renascor Corpus",
+   "snapshot": "v2026.06",
+   "frozen": "2026-06-26",
+   "scope": [
+    1450,
+    1700
+   ],
+   "words": 2141439302,
+   "texts": 123172,
+   "basis": "After the corpus duplicate filter; complete working snapshot, before catalogue grouping",
+   "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
+   "database_sha256": "380f7ee3fecb563cef4efc6e80df0f52d765c99a81b5bebc9d73b1d6af1e93cf"
+  },
   "display": {
-   "editions": "197",
-   "editions_label": "197 editions",
-   "languages": "73",
-   "language_labels": "75",
+   "editions": "196",
+   "editions_label": "196 editions",
+   "languages": "72",
+   "language_labels": "72",
    "texts": "126,213",
-   "words": "2,395,502,748",
-   "words_compact": "2.40 billion",
-   "with_words": "191",
-   "with_words_editions": "191 editions",
+   "words": "2,383,502,748",
+   "words_compact": "2.38 billion",
+   "corpus_texts": "123,172",
+   "corpus_words": "2,141,439,302",
+   "corpus_words_compact": "2.14 billion",
+   "with_words": "190",
+   "with_words_editions": "190 editions",
    "without_words": "6",
    "figures_rq": "187",
    "discovered": "6",
-   "discovered_sentence": "6 of the 197 records were proposed this way",
+   "discovered_sentence": "6 of the 196 records were proposed this way",
    "single_language": "165",
-   "median_words": "425,831",
+   "median_words": "423,562",
    "median_texts": "30",
    "updated_long": "9 October 2026",
    "updated_iso": "2026-10-09",
    "version": "0.1.0",
    "data_commit_short": "5484f76",
    "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/5484f765d869cc6ccf2a05eba3df002d1a4ea830",
-   "header_note": "Resource totals include overlaps and may cover only part of a collection.",
+   "header_note": "Corpus totals exclude duplicate texts (June 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.06",
    "snapshot_frozen_long": "26 June 2026",
    "snapshot_month": "June 2026",
-   "figures_other_sentence": "For 4 editions the counts come from other sources: OpenEDGeS, Sefaria, TextGrid Repository and Women Writers Online. 6 editions have no word or text count.",
-   "largest_share": "56%",
-   "share_note": "Shares of the 2,395,502,748 words recorded for 191 editions; 6 editions have no word count.",
+   "figures_other_sentence": "For 3 editions the counts come from other sources: OpenEDGeS, Sefaria and TextGrid Repository. 6 editions have no word or text count.",
+   "largest_share": "57%",
+   "share_note": "Shares of the 2,383,502,748 words recorded for 190 editions; 6 editions have no word count. Collection totals include overlapping texts.",
    "with_last_modified": "41 editions",
    "with_data_url": "169 editions",
    "with_countries": "",
    "areas_list": "British Isles, France, Low Countries, Holy Roman Empire, Italian Peninsula, Iberian Peninsula, Scandinavia, Central and Eastern Europe, Balkans and Greece, Ottoman Empire and Near East, Americas, Asia and Africa",
-   "languages_note": "An edition counts once for each of its languages; 165 of the 197 editions have a single language. The catalogue uses 75 language labels: 73 languages, plus “Multilingual” and “Romance (other)”, which are not single languages.",
+   "languages_note": "An edition counts once for each of its languages; 165 of the 196 editions have a single language.",
    "citation_author_year": "Godbarge, Clément (2026).",
    "citation_title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
    "citation_tail": "(Version 0.1.0) [Data set]. https://pantagrueliste.github.io/renascor/",
-   "status_active": "161 editions.",
+   "status_active": "160 editions.",
    "status_archived": "34 editions.",
    "status_discontinued": "2 editions.",
-   "encoding_tei": "112 editions.",
+   "encoding_tei": "111 editions.",
    "encoding_xml": "17 editions.",
    "encoding_json": "1 edition.",
    "encoding_html": "34 editions.",
@@ -1206,7 +1209,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "AGPL-3.0",
-   "license_url": "https://github.com/ebeshero/Amadis-in-Translation/blob/master/License"
+   "license_url": "https://github.com/ebeshero/Amadis-in-Translation/blob/master/License",
+   "doi": "10.5281/zenodo.10892444"
   },
   {
    "title": "Annotated Corpus of Pre-Standardized Balkan Slavic Literature 1.1",
@@ -1258,7 +1262,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
-   "license_url": "https://zenodo.org/records/14559525"
+   "license_url": "https://zenodo.org/records/14559525",
+   "doi": "10.5281/zenodo.14559525"
   },
   {
    "title": "BasqueKG",
@@ -1826,7 +1831,8 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://ssh.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/DANS-XFD-N8Y5",
-   "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "doi": "10.17026/DANS-XFD-N8Y5"
   },
   {
    "title": "CoDiAJe — The Annotated Diachronic Corpus of Judeo-Spanish",
@@ -2044,7 +2050,7 @@
    "title": "Anthologies of the Spoudastirion Neou Ellinismou (snhell.gr) — Cretan Greek lyric poetry",
    "url": "http://web.archive.org/web/20010623201249/http://www.snhell.gr:80/a_anth_text.asp",
    "languages": [
-    "Modern Greek"
+    "Greek"
    ],
    "encoding": "html",
    "status": "discontinued",
@@ -2170,7 +2176,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "MIT",
-   "license_url": "https://github.com/DT-UCPH/early_modern_danish_postils/blob/main/LICENSE.md"
+   "license_url": "https://github.com/DT-UCPH/early_modern_danish_postils/blob/main/LICENSE.md",
+   "doi": "10.5281/zenodo.7479443"
   },
   {
    "title": "Digitale Bibliotheek voor de Nederlandse Letteren (DBNL)",
@@ -2410,7 +2417,7 @@
    "languages": [
     "Italian",
     "Latin",
-    "Ancient Greek"
+    "Greek"
    ],
    "encoding": "tei",
    "status": "active",
@@ -2420,7 +2427,8 @@
    "period": "15th century (Angelo Poliziano, 1454–1494)",
    "region": "Italy",
    "notes": "EVT 2-based digital scholarly edition encoding multiple edition levels of Poliziano's manuscript annotations on the Epistle of Sappho to Phaon, with Wikidata items and CTS URNs; the dataset is also deposited on Zenodo (doi:10.5281/zenodo.17315766). It is a single-work edition, but carries a full scholarly apparatus (diplomatic and critical layers, apparatus of marks), so it is included despite the single-author caveat.\n\nJustification: A peer-reviewed (Journal of Open Humanities Data, 2025) TEI digital scholarly edition of a 15th-century Renaissance manuscript annotation corpus. Found via Zenodo and Journal of Open Humanities Data search results. Not in the catalogue.\nFound at: https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.493",
-   "license": "Not stated"
+   "license": "Not stated",
+   "doi": "10.5281/zenodo.17315766"
   },
   {
    "title": "DISCO: Diachronic Spanish Sonnet Corpus",
@@ -2437,7 +2445,7 @@
    "words": 76564,
    "texts": 1,
    "period": "1600-1600",
-   "notes": "DISCO is the Diachronic Spanish Sonnet Corpus of ~4,500 Spanish sonnets 15th–20th c. in XML-TEI with metrical annotation and VIAF-linked metadata; the Golden Age subcorpus (15th–17th c.) deliberately includes minor/non-canonical authors, exactly matching the harvest reference 'DISCO Golden Age minor-author sonnets' (150 texts). Distributed under CC-BY 4.0 via GitHub and Zenodo (zenodo.org/records/1193782). The former project site editionsdisco.com no longer resolves (checked Oct 2026), but the project site is mirrored at prf1.org/disco/about.html (200). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+   "notes": "DISCO is the Diachronic Spanish Sonnet Corpus of ~4,500 Spanish sonnets 15th–20th c. in XML-TEI with metrical annotation and VIAF-linked metadata; the Golden Age subcorpus (15th–17th c.) deliberately includes minor/non-canonical authors, exactly matching the harvest reference 'DISCO Golden Age minor-author sonnets' (150 texts). Distributed under CC-BY 4.0 via GitHub and Zenodo (zenodo.org/records/7604914). The former project site editionsdisco.com no longer resolves (checked Oct 2026), but the project site is mirrored at prf1.org/disco/about.html (200). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
    "institution": "UNED Madrid (Pablo Ruiz Fabo, Helena Bermudez Sabel, Clara Martinez Canton, Jose Calvo Tello)",
    "last_modified": "2026-04-26",
    "corpus_statistics": {
@@ -2447,7 +2455,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
-   "license_url": "https://github.com/pruizf/disco/blob/master/LICENSE"
+   "license_url": "https://github.com/pruizf/disco/blob/master/LICENSE",
+   "doi": "10.5281/zenodo.7604914"
   },
   {
    "title": "DissEd PhDeditions",
@@ -2697,7 +2706,7 @@
    "data_url": "https://hdl.handle.net/11500/CLARIN-EL-0000-0000-6A00-9",
    "data_format": "other",
    "languages": [
-    "Modern Greek"
+    "Greek"
    ],
    "encoding": "plain-text",
    "status": "active",
@@ -2767,7 +2776,6 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "Not stated",
-   "license_url": "https://api.nakala.fr/collections/10.34847/nkl.1279lie9",
    "license_note": "No reuse licence established from the available publisher-source evidence."
   },
   {
@@ -2776,7 +2784,7 @@
    "data_url": "https://github.com/textcreationpartnership",
    "data_format": "tei",
    "languages": [
-    "Ancient Greek",
+    "Greek",
     "Dutch",
     "English",
     "French",
@@ -2785,9 +2793,7 @@
     "Irish",
     "Italian",
     "Latin",
-    "Multilingual",
     "Portuguese",
-    "Romance (other)",
     "Scots",
     "Spanish",
     "Welsh"
@@ -2867,7 +2873,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-NC-SA-4.0",
-   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr",
+   "doi": "10.57745/SSC5XT"
   },
   {
    "title": "POLY-GRENAILLE - edition numerique des oeuvres morales de Francois de Grenaille",
@@ -2953,7 +2960,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-SA-4.0",
-   "license_url": "https://zenodo.org/api/records/18662799"
+   "license_url": "https://zenodo.org/api/records/18662799",
+   "doi": "10.5281/zenodo.14765293"
   },
   {
    "title": "EMMO: Early Modern Manuscripts Online",
@@ -3271,7 +3279,8 @@
    "count_basis": "rq-retained-rows",
    "license": "Copyright",
    "license_url": "https://florentinecodex.getty.edu/about/3_Citations_and_Permissions",
-   "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+   "license_note": "Copyright restrictions apply; no standard open reuse licence established.",
+   "doi": "10.5281/zenodo.7213020"
   },
   {
    "title": "Fornsvenska Swedish",
@@ -3344,7 +3353,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-NC-4.0",
-   "license_url": "https://zenodo.org/records/6481135"
+   "license_url": "https://zenodo.org/records/6481135",
+   "doi": "10.5281/zenodo.6481135"
   },
   {
    "title": "Frühneuzeitliche Fürstinnenkorrespondenzen (Fuerstinnenkorrespondenz corpus, LAUDATIO)",
@@ -3553,7 +3563,6 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "Not stated",
-   "license_url": "https://zenodo.org/records/10976238",
    "license_note": "No reuse licence established from the available publisher-source evidence."
   },
   {
@@ -3683,7 +3692,8 @@
     "end": 2026
    },
    "notes": "TEI-XML files underlying the digital edition of a corpus of early modern travel testimonies (Reiseselbstzeugnisse). Full text was created with Transkribus HTR plus NER, i.e. project-released corrected machine text, published as an open dataset (CC BY-SA 4.0) on 30 September 2026. The corpus spans the 16th–18th centuries, so only part falls within the catalogue window; the dedicated edition website was not located, so the Zenodo deposit (and the git.hab.de repository it points to) is the stable access point.\n\nJustification: A brand-new (September 2026) Zenodo deposit of corrected HTR/TEI full text of early modern travel accounts produced by a DFG-funded project (2022–2025, project no. 469982284) at the Herzog August Bibliothek. Found via a Zenodo search for recent early modern TEI editions. Not in the catalogue.\nFound at: https://zenodo.org/records/23055358",
-   "license": "Not stated"
+   "license": "Not stated",
+   "doi": "10.5281/zenodo.23055358"
   },
   {
    "title": "GutorGlyn Welsh",
@@ -3735,7 +3745,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-SA-4.0",
-   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+   "doi": "10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w"
   },
   {
    "title": "HistCorp — Historical Corpora and Tools (fornsvenska / Fornsvenska textbanken)",
@@ -4025,7 +4036,8 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://github.com/chroniclingnovelty/chronicles-datasets/blob/main/Licence",
-   "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "doi": "10.5281/zenodo.13332815"
   },
   {
    "title": "The Lampeter Corpus of Early Modern English Tracts (OTA ota:3193)",
@@ -4088,7 +4100,6 @@
    "languages": [
     "Italian",
     "Latin",
-    "Multilingual",
     "Venetian"
    ],
    "encoding": "html",
@@ -4185,7 +4196,8 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://zenodo.org/api/records/20445621",
-   "license_note": "Includes CC-BY-NC-ND-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-NC-ND-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "doi": "10.5281/zenodo.14235252"
   },
   {
    "title": "The Map of Early Modern London",
@@ -4234,7 +4246,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
-   "license_url": "https://zenodo.org/records/7443183"
+   "license_url": "https://zenodo.org/records/7443183",
+   "doi": "10.5281/zenodo.7443183"
   },
   {
    "title": "Magyar Elektronikus Könyvtár (MEK)",
@@ -4495,7 +4508,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0/"
+   "license_url": "https://creativecommons.org/licenses/by/4.0/",
+   "doi": "10.5281/zenodo.15040256"
   },
   {
    "title": "OBVIL — corpus d'éditions anciennes françaises (Teinte)",
@@ -4699,7 +4713,8 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://zenodo.org/records/17767721",
-   "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "doi": "10.5281/zenodo.17767721"
   },
   {
    "title": "OSTA — Old Spanish Textual Archive",
@@ -4727,7 +4742,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-NC-SA-4.0",
-   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+   "doi": "10.5281/zenodo.18931376"
   },
   {
    "title": "Otomi mission",
@@ -4931,7 +4947,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "Not stated",
-   "license_note": "No reuse licence established from the available publisher-source evidence."
+   "license_note": "No reuse licence established from the available publisher-source evidence.",
+   "doi": "10.5281/zenodo.18047915"
   },
   {
    "title": "P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana)",
@@ -5048,7 +5065,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
-   "license_url": "https://zenodo.org/records/14449603"
+   "license_url": "https://zenodo.org/records/14449603",
+   "doi": "10.5281/zenodo.14449603"
   },
   {
    "title": "REED English",
@@ -5102,7 +5120,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-SA-4.0",
-   "license_url": "https://linguistics.rub.de/ref/access/index.html"
+   "license_url": "https://linguistics.rub.de/ref/access/index.html",
+   "doi": "10.5281/zenodo.5793616"
   },
   {
    "title": "Referenzkorpus Mittelniederdeutsch/Niederrheinisch, 1200-1650 (ReN)",
@@ -5128,7 +5147,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
-   "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+   "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
+   "doi": "10.25592/uhhfdm.9195"
   },
   {
    "title": "Rhythmic Corpus of 100 Spanish Golden Age Plays",
@@ -5155,7 +5175,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
-   "license_url": "https://zenodo.org/records/17537343"
+   "license_url": "https://zenodo.org/records/17537343",
+   "doi": "10.5281/zenodo.17537343"
   },
   {
    "title": "RIALC - Repertorio informatizzato dell'antica letteratura catalana",
@@ -5451,7 +5472,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "Not stated",
-   "license_note": "No reuse licence established from the available publisher-source evidence."
+   "license_note": "No reuse licence established from the available publisher-source evidence.",
+   "doi": "10.5281/zenodo.14620210"
   },
   {
    "title": "IMP — Corpus of Slovene Historical Texts, 1567-1899",
@@ -5581,7 +5603,8 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-   "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "doi": "10.5281/zenodo.10878757"
   },
   {
    "title": "Statutes of the Realm",
@@ -5633,7 +5656,8 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://zenodo.org/records/13950093",
-   "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "doi": "10.5281/zenodo.13950093"
   },
   {
    "title": "Tagalog Doctrina1593",
@@ -6038,7 +6062,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
-   "license_url": "http://projects.dharc.unibo.it/vespasiano/"
+   "license_url": "http://projects.dharc.unibo.it/vespasiano/",
+   "doi": "10.6092/unibo/vespasianodabisticciletters"
   },
   {
    "title": "Phép giảng tám ngày (Cathechismus) — Alexandre de Rhodes, Rome 1651",
@@ -6166,7 +6191,7 @@
     "Icelandic",
     "Italian",
     "Latin",
-    "Modern Greek",
+    "Greek",
     "Polish",
     "Portuguese",
     "Romanian",
@@ -6270,31 +6295,6 @@
    "license": "Mixed",
    "license_url": "https://wolnelektury.pl/info/zasady-wykorzystania/",
    "license_note": "Includes CC-BY-SA-3.0-PL. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
-  },
-  {
-   "title": "Women Writers Online",
-   "url": "https://www.wwp.northeastern.edu/",
-   "languages": [
-    "English",
-    "French",
-    "Latin",
-    "Italian",
-    "Spanish"
-   ],
-   "encoding": "tei",
-   "status": "active",
-   "provenance": "submitted",
-   "date_added": "2026-10-07",
-   "institution": "Northeastern University (Women Writers Project)",
-   "period": "1400-1700",
-   "region": "Europe, Americas",
-   "words": 12000000,
-   "years_active": {
-    "start": 1988,
-    "end": "ongoing"
-   },
-   "notes": "A digital library of texts by women from the medieval and early modern periods. TEI XML encoding with extensive metadata. Free and open access.",
-   "license": "Not stated"
   },
   {
    "title": "ZlatyFond Slovak",
@@ -7435,7 +7435,7 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "DISCO is the Diachronic Spanish Sonnet Corpus of ~4,500 Spanish sonnets 15th–20th c. in XML-TEI with metrical annotation and VIAF-linked metadata; the Golden Age subcorpus (15th–17th c.) deliberately includes minor/non-canonical authors, exactly matching the harvest reference 'DISCO Golden Age minor-author sonnets' (150 texts). Distributed under CC-BY 4.0 via GitHub and Zenodo (zenodo.org/records/1193782). The former project site editionsdisco.com no longer resolves (checked Oct 2026), but the project site is mirrored at prf1.org/disco/about.html."
+   "notes_display": "DISCO is the Diachronic Spanish Sonnet Corpus of ~4,500 Spanish sonnets 15th–20th c. in XML-TEI with metrical annotation and VIAF-linked metadata; the Golden Age subcorpus (15th–17th c.) deliberately includes minor/non-canonical authors, exactly matching the harvest reference 'DISCO Golden Age minor-author sonnets' (150 texts). Distributed under CC-BY 4.0 via GitHub and Zenodo (zenodo.org/records/7604914). The former project site editionsdisco.com no longer resolves (checked Oct 2026), but the project site is mirrored at prf1.org/disco/about.html."
   },
   {
    "id": "dissed-phdeditions",
@@ -10568,28 +10568,6 @@
    "figures": "rq",
    "snapshot": "v2026.06",
    "notes_display": ""
-  },
-  {
-   "id": "women-writers-online",
-   "sort_title": "women writers online",
-   "host": "wwp.northeastern.edu",
-   "url_display": "wwp.northeastern.edu",
-   "archived_copy": null,
-   "data_display": null,
-   "period": {
-    "raw": "1400-1700",
-    "label": "1400–1700",
-    "start": 1400,
-    "end": 1700,
-    "approx": false,
-    "kind": "range",
-    "note": null,
-    "beyond_scope": true
-   },
-   "size_band": "10m-plus",
-   "figures": "other",
-   "snapshot": null,
-   "notes_display": "A digital library of texts by women from the medieval and early modern periods. TEI XML encoding with extensive metadata. Free and open access."
   },
   {
    "id": "zlatyfond-slovak",

@@ -23,5 +23,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "MIT",
-  "license_url": "https://github.com/DT-UCPH/early_modern_danish_postils/blob/main/LICENSE.md"
+  "license_url": "https://github.com/DT-UCPH/early_modern_danish_postils/blob/main/LICENSE.md",
+  "doi": "10.5281/zenodo.7479443"
 }

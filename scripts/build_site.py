@@ -54,7 +54,7 @@ ENCODING_ORDER = ["tei", "xml", "json", "html", "wikitext", "plain-text", "markd
 STATUS_ORDER = ["active", "archived", "discontinued"]
 SIZE_BANDS = [(10_000_000, "10m-plus"), (1_000_000, "1m-10m"), (100_000, "100k-1m"),
               (10_000, "10k-100k"), (0, "under-10k")]
-PREFERRED_FIELDS = ["title", "url", "data_url", "data_format", "data_formats", "api_url", "institution", "languages", "period",
+PREFERRED_FIELDS = ["title", "url", "doi", "data_url", "data_format", "data_formats", "api_url", "institution", "languages", "period",
                     "words", "texts", "corpus_statistics", "count_basis", "resource_statistics", "encoding", "license",
                     "license_url", "license_note", "status", "region", "countries", "years_active",
                     "author", "date", "last_modified", "provenance", "date_added", "notes"]
@@ -532,15 +532,41 @@ def compute_stats(entries: list[tuple[str, dict]], derived: list[dict]) -> dict:
     }
 
 
+def load_corpus_statistics(path: Path, snapshot: str | None) -> dict | None:
+    """Count the complete audited corpus, independently of catalogue rows and resource censuses."""
+    if not snapshot or not path.is_file():
+        return None
+    audit = json.loads(path.read_text(encoding="utf-8"))
+    if audit.get("snapshot") != snapshot or audit.get("scope") != list(SCOPE):
+        raise BuildError("Corpus audit must match the working snapshot and 1450–1700 scope")
+    collections = audit.get("collections", {})
+    if not collections:
+        raise BuildError("Corpus audit has no collections")
+    for collection in collections.values():
+        for key in ("words", "texts"):
+            count = collection.get("corpus_" + key)
+            resource_count = collection.get(key)
+            if not is_int(count) or count < 0 or not is_int(resource_count) or count > resource_count:
+                raise BuildError("Corpus audit has invalid deduplicated counts")
+    return {"name": SNAPSHOT_NAME, "snapshot": snapshot, "frozen": SNAPSHOTS[snapshot]["frozen"],
+            "scope": list(SCOPE), "words": sum(c["corpus_words"] for c in collections.values()),
+            "texts": sum(c["corpus_texts"] for c in collections.values()),
+            "basis": "After the corpus duplicate filter; complete working snapshot, before catalogue grouping",
+            "source": f"{REPO_URL}/blob/main/data/rq_statistics.json",
+            "database_sha256": audit.get("database_sha256")}
+
+
 def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dict,
-                    snapshot: str | None, areas: list[str] | None) -> dict:
+                    snapshot: str | None, areas: list[str] | None, corpus: dict | None = None) -> dict:
     """Every figure and sentence the build writes into index.html (the page never formats these)."""
     s = stats
     n = s["editions"]
     version = citation.get("version", "")
     frozen = SNAPSHOTS.get(snapshot, {}).get("frozen") if snapshot else None
 
-    note = "Resource totals include overlaps and may cover only part of a collection."
+    note = (f"Corpus totals exclude duplicate texts ({month_year(corpus['frozen'])} working count). "
+            "Individual collection sizes include overlaps and may be partial." if corpus else
+            "No deduplicated corpus total recorded. Individual collection sizes include overlaps and may be partial.")
 
     other_bits = []
     if s["figures"]["other"]:
@@ -558,6 +584,7 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
     else:
         share_note = f"Shares of the {fmt_int(s['words'])} words recorded for all {plural(n, 'edition')}."
 
+    share_note += " Collection totals include overlapping texts."
     languages_note = (f"An edition counts once for each of its languages; {fmt_int(s['single_language'])} "
                       f"of the {plural(n, 'edition')} {'has' if s['single_language'] == 1 else 'have'} "
                       "a single language.")
@@ -581,6 +608,9 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
         "texts": fmt_int(s["texts"]),
         "words": fmt_int(s["words"]),
         "words_compact": compact_words(s["words"]),
+        "corpus_texts": fmt_int(corpus["texts"]) if corpus else "—",
+        "corpus_words": fmt_int(corpus["words"]) if corpus else "—",
+        "corpus_words_compact": compact_words(corpus["words"]) if corpus else "—",
         "with_words": fmt_int(s["with_words"]),
         "with_words_editions": plural(s["with_words"], "edition"),
         "without_words": fmt_int(missing),
@@ -640,7 +670,7 @@ def share_chart(stats: dict) -> str:
     rest_n = s["with_words"] - len(s["top_by_words"])
     if rest_n > 0:
         rows.append(row(html.escape(plural(rest_n, "other edition")), rest_words, ' class="rest"'))
-    return ('<table class="sharet"><caption>Share of all recorded words, by edition</caption>'
+    return ('<table class="sharet"><caption>Share of recorded collection words, including overlaps</caption>'
             '<thead><tr><th scope="col">Edition</th><th scope="col"><span class="sr-only">Share, as a bar</span></th>'
             '<th scope="col" class="num">Share</th><th scope="col" class="num">Words</th></tr></thead>'
             '<tbody>' + "".join(rows) + '</tbody></table>')
@@ -759,6 +789,7 @@ def build_payload(entries: list[tuple[str, dict]], schema: dict, entries_dir: Pa
     countries, areas = load_countries()
     has_countries_prop = "countries" in schema.get("properties", {})
     fields = export_fields(schema)
+    corpus = load_corpus_statistics(entries_dir.parent / "rq_statistics.json", snapshot)
 
     meta = {
         "title": SITE_TITLE,
@@ -778,8 +809,10 @@ def build_payload(entries: list[tuple[str, dict]], schema: dict, entries_dir: Pa
         "fields": fields,
         "csv_columns": csv_columns(fields),
         "stats": stats,
+        "corpus_statistics": corpus,
         "display": display_strings(stats, updated=updated, sha=sha, citation=citation, snapshot=snapshot,
-                                   areas=areas if (countries is not None and has_countries_prop) else None),
+                                   areas=areas if (countries is not None and has_countries_prop) else None,
+                                   corpus=corpus),
     }
     if countries is not None and has_countries_prop:
         meta["countries"] = countries
@@ -805,6 +838,7 @@ def public_json(entries, derived, meta) -> dict:
             "version": meta["version"],
             "data_updated": meta["updated"],
             "data_commit": meta["data_commit"]["sha"] if meta["data_commit"] else None,
+            "corpus_statistics": meta.get("corpus_statistics"),
             "records": len(entries),
             "fields": fields,
             "sort": "title-asc",

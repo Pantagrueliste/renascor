@@ -171,7 +171,7 @@ function buildRecord(e, d, i) {
 		fileKeys: e.data_url ? dataFormats(e).map(f => has(ENC, f) ? f : 'other') : ['none']
 	};
 	r.hay = fold([e.title, e.institution, labels.join(' '), d.notes_display, e.region, countryNames.join(' '), areas.join(' '),
-		e.author, e.date, d.period && d.period.label, e.period, encLabel(e.encoding), e.encoding,
+		e.author, e.date, e.doi, d.period && d.period.label, e.period, encLabel(e.encoding), e.encoding,
 		e.data_url ? formatsLabel(e) : '', e.license, e.license_note, statusLabel(e.status), d.host, d.url_display, d.data_display, id
 	].filter(Boolean).join(' '));
 	return r;
@@ -626,6 +626,7 @@ function cardFor(r) {
 	el.innerHTML = tog(r, ` id="ct-${esc(r.id)}" aria-controls="cpanel-${esc(r.id)}"`) + `<dl class="card-dl"><dt>Languages</dt><dd class="c-langs"></dd><dt>Period</dt><dd>${p ? esc(p.label) + coverageBar(r.p) : NOT_RECORDED}</dd>` +
 		`<dt>Size</dt><dd>${size}</dd><dt>Encoding</dt><dd>${esc(encLabel(e.encoding))}</dd>` +
 		`<dt>Licence</dt><dd>${licenseHTML(e)}</dd>` +
+		(e.doi ? `<dt>DOI</dt><dd>${extLink('https://doi.org/' + e.doi, esc(e.doi))}</dd>` : '') +
 		(e.data_url ? `<dt>Files</dt><dd>${filesLink(r, ICON.down + esc(formatsLabel(e)), '')}</dd>` : '') +
 		(e.api_url ? `<dt>API</dt><dd>${extLink(e.api_url, 'API documentation')}</dd>` : '') +
 		`</dl><div class="card-foot">${statusHTML(e.status)}<span class="host">${esc(d.host || '')}</span>` +
@@ -687,8 +688,8 @@ function rankSentence(words) {
 		s = `Larger than ${Math.round(below / (n - 1) * 100)}% of the ${plural(n, 'edition')} with a word count`;
 	}
 	const share = totalWords ? words / totalWords * 100 : 0;
-	if (share >= 10) s += ` · ${Math.round(share)}% of all words`;
-	else if (share >= 1) s += ` · ${(Math.round(share * 10) / 10).toFixed(1)}% of all words`;
+	if (share >= 10) s += ` · ${Math.round(share)}% of recorded collection words`;
+	else if (share >= 1) s += ` · ${(Math.round(share * 10) / 10).toFixed(1)}% of recorded collection words`;
 	return s;
 }
 
@@ -750,6 +751,7 @@ function recordHTML(r) {
 	if (r.recHTML) return r.recHTML;
 	const e = r.e, d = r.d, arch = d.archived_copy;
 	const left = [['Edition', extLink(e.url, esc(d.url_display || e.url) + NEW_TAB) + (arch ? muted('(Wayback Machine)') : '')]];
+	if (e.doi) left.push(['DOI', extLink('https://doi.org/' + e.doi, esc(e.doi) + NEW_TAB)]);
 	if (e.data_url) left.push(['Files', extLink(e.data_url, esc(d.data_display || e.data_url) + NEW_TAB) + ` <span class="q nw">· ${esc(formatsLabel(e))}</span>`]);
 	if (e.api_url) left.push(['API', extLink(e.api_url, 'API documentation' + NEW_TAB)]);
 	left.push(['Institution', e.institution ? esc(e.institution) : 'Not recorded'], ['Languages', languagesFull(r)], ['Period', periodFull(r)], ['Size', sizeFull(r)]);
@@ -1055,6 +1057,7 @@ function downloadJSON() {
 		meta: {
 			title: meta.title || 'Renascor', source: meta.source || REPO, licence: 'CC0-1.0', version: meta.version || '',
 			data_updated: meta.updated || '', data_commit: meta.data_commit ? meta.data_commit.sha : null,
+			corpus_statistics: meta.corpus_statistics || null,
 			exported: [t.getFullYear(), t.getMonth() + 1, t.getDate()].map(n => String(n).padStart(2, '0')).join('-'),
 			records: shown.length, fields: meta.fields || [], sort: S.sort,
 			selection: narrowed() ? {

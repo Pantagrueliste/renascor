@@ -191,7 +191,7 @@ class ExportTests(unittest.TestCase):
         schema = bs.load_schema()
         props = dict(schema["properties"])
         fields = bs.export_fields({"properties": props})
-        self.assertEqual(fields[:5], ["id", "title", "url", "data_url", "data_format"])
+        self.assertEqual(fields[:6], ["id", "title", "url", "doi", "data_url", "data_format"])
         self.assertEqual(fields[-1], "notes")
         self.assertEqual(set(fields[1:]), set(props))
         # a property added to a copy of the schema becomes a column without code changes
@@ -233,6 +233,47 @@ class ExportTests(unittest.TestCase):
         self.assertEqual(bs.csv_value(["GB-ENG", "IE"]), "GB-ENG; IE")
         self.assertEqual(bs.csv_value({"a": 1, "b": "é"}), '{"a":1,"b":"é"}')
         self.assertEqual(bs.csv_value(True), "true")
+
+
+class CorpusTotalsTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.root = Path(self.temp.name)
+        self.audit = self.root / "rq_statistics.json"
+        self.payload = {"snapshot": "v2026.06", "scope": [1450, 1700], "collections": {
+            "listed": {"words": 300, "texts": 3, "corpus_words": 100, "corpus_texts": 1},
+            "other": {"words": 700, "texts": 7, "corpus_words": 250, "corpus_texts": 2}}}
+        self.audit.write_text(json.dumps(self.payload))
+
+    def tearDown(self):
+        self.temp.cleanup()
+
+    def test_complete_corpus_is_independent_of_catalogue_rows_and_raw_resource_sizes(self):
+        entries = [("listed.json", entry(words=300, texts=3, notes=NotesTests.RQ))]
+        with redirect_stderr(StringIO()):
+            meta, _ = bs.build_payload(entries, bs.load_schema(), self.root / "entries")
+        self.assertEqual(meta["stats"]["words"], 300)
+        self.assertEqual((meta["corpus_statistics"]["words"], meta["corpus_statistics"]["texts"]), (350, 3))
+        self.assertEqual(meta["display"]["corpus_words"], "350")
+
+    def test_missing_corpus_audit_never_falls_back_to_summed_resource_sizes(self):
+        self.audit.unlink()
+        entries = [("listed.json", entry(words=300, texts=3, notes=NotesTests.RQ))]
+        with redirect_stderr(StringIO()):
+            meta, _ = bs.build_payload(entries, bs.load_schema(), self.root / "entries")
+        self.assertIsNone(meta["corpus_statistics"])
+        self.assertEqual(meta["display"]["corpus_words"], "—")
+
+    def test_scope_and_duplicate_counts_are_checked(self):
+        self.payload["scope"] = [1400, 1800]
+        self.audit.write_text(json.dumps(self.payload))
+        with self.assertRaises(bs.BuildError):
+            bs.load_corpus_statistics(self.audit, "v2026.06")
+        self.payload["scope"] = [1450, 1700]
+        self.payload["collections"]["listed"]["corpus_words"] = 301
+        self.audit.write_text(json.dumps(self.payload))
+        with self.assertRaises(bs.BuildError):
+            bs.load_corpus_statistics(self.audit, "v2026.06")
 
 
 class GuardTests(unittest.TestCase):
@@ -320,7 +361,7 @@ class InjectTests(unittest.TestCase):
         """docs/index.html must only use keys the build produces."""
         page = (REPO / "docs" / "index.html").read_text(encoding="utf-8")
         entries = [("a-test.json", entry(words=100, texts=2, period="1500-1550", notes=NotesTests.RQ)),
-                   ("b-test.json", entry(languages=["French", "Multilingual"], status="archived", words=50))]
+                   ("b-test.json", entry(languages=["French", "Greek"], status="archived", words=50))]
         schema = bs.load_schema()
         with redirect_stderr(StringIO()):
             meta, _ = bs.build_payload(entries, schema, Path(tempfile.gettempdir()))
@@ -346,6 +387,7 @@ class BuildTests(unittest.TestCase):
         self.entries.mkdir()
         samples = {
             "alpha": entry(title="The Alpha Letters", words=1_500_000, texts=40, period="1550-1600",
+                           doi="10.5281/zenodo.14559525",
                            notes="Letters. " + NotesTests.RQ + " rebuild/a.tsv"),
             "beta": entry(title="Beta, \"quoted\" corpus", languages=["French", "Latin"], words=2_000, texts=3,
                           period="16th century", status="archived", data_url="https://example.org/beta.zip",
@@ -390,11 +432,15 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(lines[0], ",".join(data["meta"]["csv_columns"]))
         self.assertTrue(lines[1].startswith("alpha,"))               # default order: sort_title, then id
         self.assertEqual(lines[-1], "")
+        self.assertEqual(lines[1].split(",")[data["meta"]["csv_columns"].index("doi")],
+                         "10.5281/zenodo.14559525")
 
         public = json.loads((self.out / "renascor.json").read_text(encoding="utf-8"))
         self.assertEqual([e["id"] for e in public["entries"]], ["alpha", "beta", "gamma"])
         self.assertEqual(list(public["meta"])[:6], ["title", "source", "licence", "version", "data_updated", "data_commit"])
         self.assertNotIn("region", public["entries"][0])            # absent fields are omitted
+        self.assertEqual(public["entries"][0]["doi"], "10.5281/zenodo.14559525")
+        self.assertIsNone(public["meta"]["corpus_statistics"])
 
         page = (self.out / "index.html").read_text(encoding="utf-8")
         self.assertIn('<dd data-stat="editions">3</dd>', page)

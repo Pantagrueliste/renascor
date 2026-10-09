@@ -23,5 +23,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Copyright",
   "license_url": "https://florentinecodex.getty.edu/about/3_Citations_and_Permissions",
-  "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+  "license_note": "Copyright restrictions apply; no standard open reuse licence established.",
+  "doi": "10.5281/zenodo.7213020"
 }

@@ -19,6 +19,7 @@
 | Field | Type | Description |
 |-------|------|-------------|
 | `data_url` | string (URI) | Where the edition's machine-readable files can be obtained: a repository, a download page or a dataset record. Give it whenever TEI or other XML files are publicly available. Requires `data_format`. |
+| `doi` | string | Verified DOI of the collection, edition or archived text dataset release, such as `10.5281/zenodo.14559525`. Store the identifier without the resolver prefix. Grant, article and poster DOIs do not qualify. |
 | `data_format` | string | Format of the files at `data_url`, with the same vocabulary as `encoding`. Requires `data_url`. |
 | `data_formats` | array of strings | All available download formats, including the primary `data_format`. Requires `data_url` and `data_format`. |
 | `api_url` | string (URI) | Official API documentation for access to the texts. |
@@ -54,6 +55,8 @@
 - **provenance**: `submitted`, `discovered`
 
 The encoding describes what the edition publishes, not how the text happens to be displayed or how a third party harvested it. Check the project's download links, repository files or documentation before choosing.
+
+Use `Greek` for both Ancient and Modern Greek. List the identified languages of a collection; do not use `Multilingual`, `Romance` or `Romance (other)` as language categories.
 
 ## Validation
 

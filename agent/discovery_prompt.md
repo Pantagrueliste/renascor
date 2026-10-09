@@ -26,10 +26,11 @@ A project does **not** qualify if it provides only:
 A candidate is relevant if:
 
 1. It provides a **digital edition or text collection**: machine-readable, transcribed or editorially corrected text of Renaissance-era documents.
-2. The source material falls within **roughly 1450 to 1700** (partial overlap is acceptable; the majority of the corpus should be in this window).
-3. The URL is **stable and accessible**: a project page, a repository, or a digital library. Not a personal blog post, not a paywalled page with no preview, not a dead link.
+2. It includes identifiable source material within **roughly 1450 to 1700**. Broader collections may qualify through a relevant subset; identify the subset and its coverage rather than presenting the whole collection as Renaissance material.
+3. The texts are **freely accessible** at a stable project page, repository or digital library. Exclude collections requiring payment or a subscription, even when metadata, previews or temporary trials are free. Public access does not establish a reuse licence.
 4. The resource is **not already represented by a catalogue record** (see the list of existing URLs and titles below). Textual overlap with another resource is allowed.
 5. It provides an identifiable text collection (see the inclusion rule below).
+6. It fits the catalogue’s **historical and geographical focus**: Europe, particularly Western Europe, and texts arising from documented contacts between European societies and other populations. “Renaissance” is a historical and cultural framework, with 1450–1700 as its chronological limits. Relevant contacts include trade, diplomacy, travel, migration, missions and colonial encounters. Texts by any community involved may qualify, in any language. For a collection outside Europe, document the historical connection and identify the relevant texts or subset in `notes`; a matching date alone is insufficient. Consider connected traditions in their own historical contexts.
 
 ## Inclusion rule
 
@@ -67,6 +68,7 @@ Return your findings as a JSON array. Each element must be an object with exactl
 {
   "title": "string, the name of the project or collection",
   "url": "string, the main URL where the edition can be found",
+  "doi": "string, optional, verified DOI of the collection, edition or archived text dataset release, without the resolver prefix",
   "data_url": "string, optional, where the machine-readable files can be downloaded (repository, download page, dataset record)",
   "data_format": "tei | xml | json | html | plain-text | wikitext | markdown | other, required if data_url is given",
   "languages": ["array", "of", "human-readable", "language", "names"],
@@ -86,11 +88,13 @@ Return your findings as a JSON array. Each element must be an object with exactl
 
 Rules for the output:
 
+- `doi`: verify that the identifier belongs to the collection, edition or archived text dataset, not a grant, article or poster about it. Omit unverified identifiers.
 - `title`, `url`, `languages`, `encoding`, `status` are **required**.
 - `encoding` must be one of: `tei`, `xml`, `json`, `html`, `plain-text`, `wikitext`, `markdown`, `other`. Use `tei` for TEI XML, `xml` for other (non-TEI) XML, `json` for structured JSON exports, `html` for HTML editions, `plain-text` for plain text, `wikitext` for wiki markup, `markdown` for Markdown, `other` for anything else. If the project offers several formats, give the richest one (TEI first, then other XML, JSON, HTML, wiki markup, plain text, Markdown). Do not infer the format from how the texts are displayed: check what the project actually publishes (download links, repository files, documentation).
 - `data_url`: if the texts can be downloaded as files (TEI XML above all, but also other XML or plain text), give the address of the repository, download page or dataset record, and set `data_format` to the format of those files. Omit both fields if no files are available or you could not find them.
 - `status` must be `active`, `archived` (still online but no longer maintained) or `discontinued` (no longer online). Use `active` unless you have evidence the project is no longer maintained.
 - `languages` must be an array of human-readable names (e.g. `["Latin", "French"]`), not ISO codes.
+- Use `Greek` for both Ancient and Modern Greek. List identified languages rather than `Multilingual`, `Romance` or `Romance (other)`.
 - `words` and `texts` must be integers when supplied. Count resource text instances before content deduplication, within 1450–1700; give source, method and coverage in `notes`. Omit unknown counts.
 - `years_active` is an object with `start` (integer) and `end` (integer or the string `"ongoing"`). If unknown, omit the field.
 - `justification` is **required**. Explain briefly why this candidate is relevant and where you found it.

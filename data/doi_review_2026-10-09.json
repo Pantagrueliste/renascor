@@ -1,0 +1,286 @@
+{
+  "date": "2026-10-09",
+  "method": "Identifiers checked against registration metadata and the catalogued collection identity. Dataset releases and repository archives containing the edition texts qualify; grants, related papers, posters and archives of a different edition do not. This is a record of verified identifiers, not a claim that every collection lacks other DOIs.",
+  "verified": [
+    {
+      "id": "mazarinades",
+      "doi": "10.5281/zenodo.7443183",
+      "registered_title": "Mazarinades_Antonomaz",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.7443183",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.7443183",
+      "metadata_sha256": "20e0e1fa4b2a37b69e7167042cf7a819ed629b08d268df5357e4af3ecd8076f3"
+    },
+    {
+      "id": "grand-tour-digital-tei-dataset-of-early-modern-travel-testimonies-grand-tour-tei",
+      "doi": "10.5281/zenodo.23055358",
+      "registered_title": "Grand Tour TEI",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.23055358",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.23055358",
+      "metadata_sha256": "bf3b0928d487325e7009e9bc59a277a8ac0b13b77ff833bd2e71cbf240a1109b"
+    },
+    {
+      "id": "elan-fnvr",
+      "doi": "10.57745/SSC5XT",
+      "registered_title": "Édition XML-TEI de fictions narratives en vers de la Renaissance",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.57745/SSC5XT",
+      "landing_url": "https://entrepot.recherche.data.gouv.fr/citation?persistentId=doi:10.57745/SSC5XT",
+      "metadata_sha256": "5e9c48c16564eb914aa8a888629c9a059aa6e3814629c2aba357d28b1eab38b8"
+    },
+    {
+      "id": "danishpostils",
+      "doi": "10.5281/zenodo.7479443",
+      "registered_title": "Early Modern Danish Postils v0.2.0",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.7479443",
+      "landing_url": "https://zenodo.org/record/7479443",
+      "metadata_sha256": "c2c094e2c3cda17d914f562bb2d22c2f9c9836a695f4dfabb612e90a06bcf292"
+    },
+    {
+      "id": "ssrq-swisslaw",
+      "doi": "10.5281/zenodo.10878757",
+      "registered_title": "Collection of Swiss Law Sources Online – TEI-XML Data",
+      "resource_type": "Software",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.10878757",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.10878757",
+      "metadata_sha256": "ce9c684b1a6a066139bd2395b2fd995d849591cb486c1c380c55cf2503622a6a"
+    },
+    {
+      "id": "hexenverhoer-sigs",
+      "doi": "10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
+      "registered_title": "Hexenverhörprotokolle",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
+      "landing_url": "https://www.laudatio-repository.org/browse/corpus/2TkBi4gBUnBk-z0fwp-w/corpora",
+      "metadata_sha256": "2c0774dafbc5cc835f77069298246c8471e29909acf008b75a1a1ac8ef889c65"
+    },
+    {
+      "id": "disco-spanishsonnets",
+      "doi": "10.5281/zenodo.7604914",
+      "registered_title": "pruizf/disco: Version 4.0",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.7604914",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.7604914",
+      "metadata_sha256": "4b9178375f4551df10d3139d0a7591d4f66fd341c0d7ba7f2003b69781be616c"
+    },
+    {
+      "id": "rhythmiccorpus-sga",
+      "doi": "10.5281/zenodo.17537343",
+      "registered_title": "Rhythmic Corpus of 100 Spanish Golden Age Plays",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.17537343",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.17537343",
+      "metadata_sha256": "603332e1819e8e371b4c42d51ce6f8843fc4836ec185effbcb27b23ad686991f"
+    },
+    {
+      "id": "sermo",
+      "doi": "10.5281/zenodo.14620210",
+      "registered_title": "Corpus SERMO: un corpus annoté de 62 sermons protestants en français, de 1550 à 1750",
+      "resource_type": "Other",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.14620210",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.14620210",
+      "metadata_sha256": "259bb29336c04203cdc46277c958a5dc945609343bf12e82e9567222faa15d74"
+    },
+    {
+      "id": "florentinecodex-nahuatl",
+      "doi": "10.5281/zenodo.7213020",
+      "registered_title": "Transcript of the Florentine Codex (Nahuatl)",
+      "resource_type": "Book",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.7213020",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.7213020",
+      "metadata_sha256": "80dedb50d148fdb5276295a2d68cf7359e7009035bba450f4ed61a46431f1d14"
+    },
+    {
+      "id": "freem",
+      "doi": "10.5281/zenodo.6481135",
+      "registered_title": "FreEM-corpora/FreEMmax_OA: FreEM max OA: A Large Corpus for Early modern French - Open access version",
+      "resource_type": "Software",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.6481135",
+      "landing_url": "https://zenodo.org/record/6481135",
+      "metadata_sha256": "3f929ecca4f2023bc8593b50460ef7ec26fe24cdb2fa97124851789a2e1c6e8d"
+    },
+    {
+      "id": "osta",
+      "doi": "10.5281/zenodo.18931376",
+      "registered_title": "hispanicseminary/OSTA: Old Spanish Textual Archive materials",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.18931376",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.18931376",
+      "metadata_sha256": "788263f858f4a66fee18a79e37900c82659deb77ccc3d93bce15a950ca51f87f"
+    },
+    {
+      "id": "kronieken-dutch",
+      "doi": "10.5281/zenodo.13332815",
+      "registered_title": "chroniclingnovelty/chronicles-datasets: Kronieken Dataset",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.13332815",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.13332815",
+      "metadata_sha256": "92038dd63196521287454b111675c7fceb34d9cd5354549fec288a6839ef3f0d"
+    },
+    {
+      "id": "noscemus",
+      "doi": "10.5281/zenodo.15040256",
+      "registered_title": "Noscemus Digital Sourcebook",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.15040256",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.15040256",
+      "metadata_sha256": "2355345cb408abf96450102975d9e81a025af839a1454c8dd849d4c2af6d9d6f"
+    },
+    {
+      "id": "digital-scholarly-edition-of-angelo-poliziano-s-marginal-notes-to-the-epistle-of-sappho-to-phaon",
+      "doi": "10.5281/zenodo.17315766",
+      "registered_title": "The Digital Scholarly Edition of Marginal Notes of Poliziano to the Epistle of Sappho to Phaon",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.17315766",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.17315766",
+      "metadata_sha256": "4a37e5c67cf1554228b016fee62d894f5f1cfd4feb0e7540536e2e9ad03fae90"
+    },
+    {
+      "id": "mambrino",
+      "doi": "10.5281/zenodo.14235252",
+      "registered_title": "13/1 Sferamundi di Grecia. Prima parte - Progetto Mambrino Digital Library",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.14235252",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.14235252",
+      "metadata_sha256": "aec27e3cedbda0b7cac24442d2415c7b31493edff2df39c0660ce575167f060e"
+    },
+    {
+      "id": "bartoli-correspondence",
+      "doi": "10.5281/zenodo.14559525",
+      "registered_title": "Cosimo Bartoli's Correspondence and Newsletters (1562-1572): Transcriptions and Metadata",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.14559525",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.14559525",
+      "metadata_sha256": "52862ae9ceff019d098895e90fcc5e245b61ca1ff9fd92e48b7e05a90045bb28"
+    },
+    {
+      "id": "suriano-correspondence",
+      "doi": "10.5281/zenodo.13950093",
+      "registered_title": "HuygensING/suriano: Delivery",
+      "resource_type": "Software",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.13950093",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.13950093",
+      "metadata_sha256": "6a9005a5a742492510b1f230ed714275c5e053d502e3ac0a71106d2c6cf929f8"
+    },
+    {
+      "id": "openiti",
+      "doi": "10.5281/zenodo.17767721",
+      "registered_title": "OpenITI: a Machine-Readable Corpus of Islamicate Texts",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.17767721",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.17767721",
+      "metadata_sha256": "7adcbb4866abdc05db794c39cb98e068d07f6ffd8872ec9bc37f78184de17f88"
+    },
+    {
+      "id": "qhod",
+      "doi": "10.5281/zenodo.14449603",
+      "registered_title": "QHOD/qhod-edition-data: 2.0",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.14449603",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.14449603",
+      "metadata_sha256": "005403fbb37476f140520696b473568900acffa5793715b575713ade083c6ab4"
+    },
+    {
+      "id": "ref-enhg",
+      "doi": "10.5281/zenodo.5793616",
+      "registered_title": "Reference Corpus of Early New High German (1350–1650)",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.5793616",
+      "landing_url": "https://zenodo.org/record/5793616",
+      "metadata_sha256": "5a26a6d13a9665343a233ed0b1719b08439ccf1f3ae792f495605729e9b1951d"
+    },
+    {
+      "id": "porzio-congiurabaroni",
+      "doi": "10.5281/zenodo.18047915",
+      "registered_title": "Digital TEI-XML edition of Camillo Porzio's \"La congiura de' Baroni del Regno di Napoli contra re Ferdinando primo\"",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.18047915",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.18047915",
+      "metadata_sha256": "beea01f9c292d742557ffef40e27f908664ea1cd42f25f94c945cd2b28da6241"
+    },
+    {
+      "id": "ckcc-epistolarium",
+      "doi": "10.17026/DANS-XFD-N8Y5",
+      "registered_title": "Project Circulation of Knowledge and learned practices in the 17th-century Dutch Republic. A web-based Humanities Collaboratory on Correspondences (Geleerdenbrieven) - archived version d.d. 2013-07-23",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.17026/DANS-XFD-N8Y5",
+      "landing_url": "https://ssh.datastations.nl/citation?persistentId=doi:10.17026/DANS-XFD-N8Y5",
+      "metadata_sha256": "c2aa5e9c36e87224171bf4474aabb83bbf8530646a156301b259af98560a6606"
+    },
+    {
+      "id": "amadiscorpus-gh",
+      "doi": "10.5281/zenodo.10892444",
+      "registered_title": "ebeshero/Amadis-in-Translation: Proof of Concept",
+      "resource_type": "Software",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.10892444",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.10892444",
+      "metadata_sha256": "4f93c7c2f4727d98df51962c3db8285f0d64911c001c4e8979adbc9fe3f869aa"
+    },
+    {
+      "id": "vespasianoletters",
+      "doi": "10.6092/unibo/vespasianodabisticciletters",
+      "registered_title": "Vespasiano da Bisticci, Lettere",
+      "resource_type": "Text",
+      "source_url": "https://api.datacite.org/dois/10.6092/unibo/vespasianodabisticciletters",
+      "landing_url": "http://vespasianodabisticciletters.unibo.it",
+      "metadata_sha256": "b038439d3b3122b1d66c7ef8e203536a328c0ae69d7728e5396e4327a0a998ad"
+    },
+    {
+      "id": "renlowgerman",
+      "doi": "10.25592/uhhfdm.9195",
+      "registered_title": "Reference Corpus Middle Low German/Low Rhenish (1200–1650); Referenzkorpus Mittelniederdeutsch/Niederrheinisch (1200–1650)",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.25592/uhhfdm.9195",
+      "landing_url": "https://www.fdr.uni-hamburg.de/record/9195",
+      "metadata_sha256": "8ff4e9605b6160d5f1adf486f33a926ebb15e440b45d1b40473ba9e2ea50adfd"
+    },
+    {
+      "id": "emlap",
+      "doi": "10.5281/zenodo.14765293",
+      "registered_title": "EMLAP",
+      "resource_type": "Dataset",
+      "source_url": "https://api.datacite.org/dois/10.5281/zenodo.14765293",
+      "landing_url": "https://zenodo.org/doi/10.5281/zenodo.14765293",
+      "metadata_sha256": "ade83cb588fe4c376e0d6c06358dc6ddf4b3dbefaef407f14f277cf2e521db86"
+    }
+  ],
+  "not_used": [
+    {
+      "id": "disco-spanishsonnets",
+      "identifier": "10.5281/zenodo.1193782",
+      "reason": "Poster about DISCO; replaced by the corpus dataset release DOI."
+    },
+    {
+      "id": "histcorp-swedish",
+      "identifier": "10.5281/zenodo.10017247",
+      "reason": "Conference paper about HistCorp, not a corpus deposit."
+    },
+    {
+      "id": "digital-scholarly-edition-of-angelo-poliziano-s-marginal-notes-to-the-epistle-of-sappho-to-phaon",
+      "identifier": "10.5334/johd.493",
+      "reason": "Related journal article; use the text dataset DOI instead."
+    },
+    {
+      "id": "gilberti-purepecha",
+      "identifier": "10.5281/zenodo.10976238",
+      "reason": "Archive of BIGDICTONARY, not the catalogued 1559 Vocabulario transcription."
+    },
+    {
+      "id": "edition-640",
+      "identifier": "10.34847/nkl.1279lie9",
+      "reason": "Nakala collection identifier cited in the legacy licence source identifies BFM, not this edition; no matching DataCite registration established."
+    },
+    {
+      "id": "translatoscope-neolat",
+      "identifier": "10.34847/nkl.798c6967",
+      "reason": "Nakala collection identifier; no matching DOI registration established. Retained as the files URL, not a DOI."
+    },
+    {
+      "id": "dta",
+      "identifier": "10.5281/zenodo.14780927",
+      "reason": "Poster about DTA, not the text collection."
+    }
+  ]
+}

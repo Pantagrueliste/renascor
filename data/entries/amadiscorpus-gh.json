@@ -22,5 +22,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "AGPL-3.0",
-  "license_url": "https://github.com/ebeshero/Amadis-in-Translation/blob/master/License"
+  "license_url": "https://github.com/ebeshero/Amadis-in-Translation/blob/master/License",
+  "doi": "10.5281/zenodo.10892444"
 }

@@ -4,7 +4,7 @@
   "data_url": "https://github.com/textcreationpartnership",
   "data_format": "tei",
   "languages": [
-    "Ancient Greek",
+    "Greek",
     "Dutch",
     "English",
     "French",
@@ -13,9 +13,7 @@
     "Irish",
     "Italian",
     "Latin",
-    "Multilingual",
     "Portuguese",
-    "Romance (other)",
     "Scots",
     "Spanish",
     "Welsh"
