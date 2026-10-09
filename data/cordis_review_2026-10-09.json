@@ -1,0 +1,1817 @@
+{
+  "date": "2026-10-09",
+  "status": "first_pass",
+  "scope": "Official bulk project metadata for FP4–FP7, Horizon 2020 and Horizon Europe; available bulk report, deliverable and publication metadata; targeted report and publisher checks. Not an exhaustive reading of all attachments or coverage of all EU funding programmes.",
+  "project_records": 126612,
+  "project_records_by_archive": {
+    "cordis-HORIZONprojects-csv.zip": 23613,
+    "cordis-fp4projects-csv.zip": 14526,
+    "cordis-fp5projects-csv.zip": 17206,
+    "cordis-fp6projects-csv.zip": 10093,
+    "cordis-fp7projects-csv.zip": 25785,
+    "cordis-h2020projects-csv.zip": 35389
+  },
+  "document_metadata_records": 907140,
+  "document_metadata_records_by_archive": {
+    "cordis-HORIZONprojectDeliverables-csv.zip": 60657,
+    "cordis-HORIZONprojectPublications-csv.zip": 89999,
+    "cordis-HORIZONreports-csv.zip": 9887,
+    "cordis-fp6reports-csv.zip": 5222,
+    "cordis-fp7reports-csv.zip": 21605,
+    "cordis-h2020projectDeliverables-csv.zip": 195617,
+    "cordis-h2020projectPublications-csv.zip": 489441,
+    "cordis-h2020reports-csv.zip": 34712
+  },
+  "project_ids_retained_for_review": [
+    "101039572",
+    "101040474",
+    "101041517",
+    "101043939",
+    "101063043",
+    "101064589",
+    "101070660",
+    "101072698",
+    "101054750",
+    "101062473",
+    "101064483",
+    "101068487",
+    "101054143",
+    "101066898",
+    "101051223",
+    "101078785",
+    "101077793",
+    "101076836",
+    "101086104",
+    "101088497",
+    "101107702",
+    "101078603",
+    "101104439",
+    "101110752",
+    "101108617",
+    "101078434",
+    "101077744",
+    "101077790",
+    "101130753",
+    "101110867",
+    "101105776",
+    "101130796",
+    "101108056",
+    "101088528",
+    "101113879",
+    "101087560",
+    "101110431",
+    "101116087",
+    "101104788",
+    "101116563",
+    "101122916",
+    "101126116",
+    "101153691",
+    "101146622",
+    "101124354",
+    "101150496",
+    "101151709",
+    "101153667",
+    "101143731",
+    "101150056",
+    "101151290",
+    "101154204",
+    "101146193",
+    "101151621",
+    "101124193",
+    "101161602",
+    "101155233",
+    "101171427",
+    "101171391",
+    "101170233",
+    "101201460",
+    "101201972",
+    "101200600",
+    "101204566",
+    "101206982",
+    "101204984",
+    "101210694",
+    "101201419",
+    "101210307",
+    "101209613",
+    "101205031",
+    "101202270",
+    "101207202",
+    "101202686",
+    "101204916",
+    "101206360",
+    "101209938",
+    "101169707",
+    "101226689",
+    "101219751",
+    "101231448",
+    "101229235",
+    "101269237",
+    "101271502",
+    "101268449",
+    "101268916",
+    "101230242",
+    "101277685",
+    "101279559",
+    "101230691",
+    "101271905",
+    "101285134",
+    "101275231",
+    "101283814",
+    "101280264",
+    "101276129",
+    "101280069",
+    "101277441",
+    "101263918",
+    "101281103",
+    "101278436",
+    "101270515",
+    "101275018",
+    "101273404",
+    "101273123",
+    "101281180",
+    "101278061",
+    "101266473",
+    "101290169",
+    "101263982",
+    "101267330",
+    "101280677",
+    "101266284",
+    "AC075",
+    "AC367",
+    "SF.-00263-97",
+    "20638",
+    "AC100",
+    "23193",
+    "FAIR950710",
+    "FAIR950282",
+    "IST-2001-32745",
+    "IST-2000-28218",
+    "4",
+    "IST-2001-34337",
+    "EVG1-CT-1999-00010",
+    "11526",
+    "511466",
+    "46564",
+    "3191",
+    "10706",
+    "295562",
+    "273411",
+    "249416",
+    "323761",
+    "630030",
+    "626696",
+    "312397",
+    "301594",
+    "265860",
+    "284076",
+    "224895",
+    "283760",
+    "302429",
+    "263549",
+    "241070",
+    "617391",
+    "328247",
+    "309528",
+    "240865",
+    "263557",
+    "614727",
+    "624981",
+    "235472",
+    "629256",
+    "255307",
+    "323316",
+    "219885",
+    "301873",
+    "235088",
+    "208986",
+    "230261",
+    "269725",
+    "228770",
+    "207182",
+    "638578",
+    "640798",
+    "654825",
+    "655703",
+    "656748",
+    "659625",
+    "637533",
+    "683685",
+    "699818",
+    "705090",
+    "713988",
+    "702296",
+    "707231",
+    "681415",
+    "706611",
+    "726195",
+    "747857",
+    "745642",
+    "745704",
+    "748645",
+    "753615",
+    "723085",
+    "750904",
+    "752060",
+    "725687",
+    "714569",
+    "753496",
+    "741374",
+    "724914",
+    "758450",
+    "760792",
+    "771640",
+    "789672",
+    "794074",
+    "770299",
+    "786083",
+    "802645",
+    "786379",
+    "794064",
+    "801653",
+    "801861",
+    "813547",
+    "823862",
+    "788986",
+    "795792",
+    "803486",
+    "810141",
+    "819734",
+    "837857",
+    "840531",
+    "840913",
+    "842112",
+    "839195",
+    "839351",
+    "818098",
+    "844886",
+    "835193",
+    "819953",
+    "833933",
+    "851411",
+    "864635",
+    "866400",
+    "892794",
+    "866319",
+    "892029",
+    "892680",
+    "887605",
+    "894231",
+    "882588",
+    "890285",
+    "883033",
+    "893982",
+    "897531",
+    "948152",
+    "949525",
+    "950513",
+    "948497",
+    "949710",
+    "101004949",
+    "896809",
+    "883219",
+    "948390",
+    "101000442",
+    "101001197",
+    "101002084",
+    "101025775",
+    "101029346",
+    "101023861",
+    "101025811",
+    "101030479",
+    "101019781",
+    "101024274",
+    "101001857",
+    "101036092",
+    "101031720",
+    "101020985",
+    "101021262",
+    "101018777",
+    "101019327",
+    "101001328",
+    "101020613",
+    "639008",
+    "101064348"
+  ],
+  "method": "Historical-period and digital-text keyword screening of titles/objectives, followed by targeted publisher checks. Document metadata was also screened directly and joined to retained project IDs. Manual checks distinguish edited texts, images, metadata, excerpts, planned releases, access, dates and existing catalogue records.",
+  "document_screening_patterns": {
+    "historical": "renaissance|early[ -]modern|sixteenth|seventeenth|(?:15|16|17)(?:th|ème|e)[ -]centur|humanis[mt]|ottoman|byzantin|late[ -]medieval|(?:14[5-9]\\d|1[56]\\d{2}|1700)\\b",
+    "text_resource": "digital.{0,35}(?:text|edition|corpus|librar|archive)|(?:text|edition|corpus).{0,35}digital|\\bTEI\\b|transcri|text.{0,15}databas|electronic.{0,15}(?:text|edition)"
+  },
+  "limitations": [
+    "FP1–FP3 and other EU schemes were not covered by the downloaded project datasets.",
+    "Keyword filters can miss relevant projects and retain false positives.",
+    "The metadata CSVs do not contain the full text of every report, deliverable or publication.",
+    "Counts, rights and chronological or geographic subsets remain unresolved for review leads."
+  ],
+  "archives": [
+    {
+      "name": "cordis-HORIZONprojectDeliverables-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-HORIZONprojectDeliverables-csv.zip",
+      "sha256": "dec308eb4a71472237c9810ae776a41ab35cbae7da9cc2cf447ad0536e415eaa",
+      "bytes": 4806341,
+      "last_modified": "Tue, 22 Sep 2026 07:47:02 GMT",
+      "metadata_records": 60657
+    },
+    {
+      "name": "cordis-HORIZONprojectPublications-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-HORIZONprojectPublications-csv.zip",
+      "sha256": "7a91fbb8a20e7489d22b58b8266b9fbc992b35edf1b3d262232cd3ffd47549fd",
+      "bytes": 13643524,
+      "last_modified": "Tue, 22 Sep 2026 07:47:15 GMT",
+      "metadata_records": 89999
+    },
+    {
+      "name": "cordis-HORIZONprojects-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-HORIZONprojects-csv.zip",
+      "sha256": "1496a16ee79649d573a53697781b2fd950c18a5469c6a9f545f35dd5397771a7",
+      "bytes": 36908998,
+      "last_modified": "Tue, 22 Sep 2026 07:47:28 GMT",
+      "metadata_records": 23613
+    },
+    {
+      "name": "cordis-HORIZONreports-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-HORIZONreports-csv.zip",
+      "sha256": "0dae3a176e0bb4b1238a115494f1a05c1c9eb1a394c51b02fba9197c960f9940",
+      "bytes": 1044653,
+      "last_modified": "Tue, 22 Sep 2026 07:47:44 GMT",
+      "metadata_records": 9887
+    },
+    {
+      "name": "cordis-fp4projects-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-fp4projects-csv.zip",
+      "sha256": "f17cc6e24eace0e9b85e3bebcf66355d845ec8117e9b9d45063f2b88be45889c",
+      "bytes": 14114353,
+      "last_modified": "Tue, 22 Oct 2024 14:44:12 GMT",
+      "metadata_records": 14526
+    },
+    {
+      "name": "cordis-fp5projects-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-fp5projects-csv.zip",
+      "sha256": "da520d035259adc412d1c241138cd6292f1485471c49f4b135a8415a4d4fdea8",
+      "bytes": 13059978,
+      "last_modified": "Tue, 22 Oct 2024 14:45:13 GMT",
+      "metadata_records": 17206
+    },
+    {
+      "name": "cordis-fp6projects-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-fp6projects-csv.zip",
+      "sha256": "c4b4d50451b50fd3e3778d8fac79d405926921f144d02ecacdadca508e50379c",
+      "bytes": 11979508,
+      "last_modified": "Tue, 22 Oct 2024 14:46:45 GMT",
+      "metadata_records": 10093
+    },
+    {
+      "name": "cordis-fp6reports-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-fp6reports-csv.zip",
+      "sha256": "3805790712b6d680ebeedffdaefd88961356b6d79ad900fa6be0d8da15b9ad16",
+      "bytes": 317052,
+      "last_modified": "Tue, 22 Oct 2024 14:48:15 GMT",
+      "metadata_records": 5222
+    },
+    {
+      "name": "cordis-fp7projects-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-fp7projects-csv.zip",
+      "sha256": "886ee47973584971259db3ab3de76feb4d95c9b13fbe41241b85e5bfc97113a6",
+      "bytes": 32953397,
+      "last_modified": "Thu, 02 Jan 2025 10:27:58 GMT",
+      "metadata_records": 25785
+    },
+    {
+      "name": "cordis-fp7reports-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-fp7reports-csv.zip",
+      "sha256": "052d4c32ed724f0b4c955bb4460bf9e6c3ac10ec08421de343fe4f17e2fec9a8",
+      "bytes": 1628916,
+      "last_modified": "Thu, 02 Jan 2025 10:27:25 GMT",
+      "metadata_records": 21605
+    },
+    {
+      "name": "cordis-h2020projectDeliverables-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-h2020projectDeliverables-csv.zip",
+      "sha256": "dd033d09b738d51c6ac62bc9e4fab74fbc4d18a91321a2e6c43b3ae335d1b3f9",
+      "bytes": 15119926,
+      "last_modified": "Tue, 22 Sep 2026 07:46:03 GMT",
+      "metadata_records": 195617
+    },
+    {
+      "name": "cordis-h2020projectPublications-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-h2020projectPublications-csv.zip",
+      "sha256": "f1a2544b42a9c247931fe58547be1ac695aac243f165b2836a3af655ad756630",
+      "bytes": 69147199,
+      "last_modified": "Tue, 22 Sep 2026 07:46:55 GMT",
+      "metadata_records": 489441
+    },
+    {
+      "name": "cordis-h2020projects-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-h2020projects-csv.zip",
+      "sha256": "d4a8e3645d0b1896b967618e8e7a7f7928738b469737363a30816c217cbd48f2",
+      "bytes": 55219250,
+      "last_modified": "Tue, 22 Sep 2026 07:46:58 GMT",
+      "metadata_records": 35389
+    },
+    {
+      "name": "cordis-h2020reports-csv.zip",
+      "url": "https://cordis.europa.eu/data/cordis-h2020reports-csv.zip",
+      "sha256": "9c390afbb7c53265bfb8f502dc2219714171a1b9486e71ebca83823eee2b72cf",
+      "bytes": 3526312,
+      "last_modified": "Tue, 22 Sep 2026 07:47:01 GMT",
+      "metadata_records": 34712
+    }
+  ],
+  "report_page_checks": [
+    {
+      "id": "639008",
+      "url": "https://cordis.europa.eu/project/id/639008/reporting",
+      "bytes": 74798,
+      "sha256": "d2843220cff38e48a9fddccbf2e54a97d15f84cd004a95090e7d138e7b6654f2",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101064348",
+      "url": "https://cordis.europa.eu/project/id/101064348/reporting",
+      "bytes": 76020,
+      "sha256": "cd76266578282b4eed3f9d95db09cdcaf9c8410dced7445fc5a7586813134d8c",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "801653",
+      "url": "https://cordis.europa.eu/project/id/801653/reporting",
+      "bytes": 71893,
+      "sha256": "332c8f543e105fcfb24b4c183fcae26e71addd28ba4bfc6c0d3a2edaf5760b7a",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "207182",
+      "url": "https://cordis.europa.eu/project/id/207182/reporting",
+      "bytes": 95426,
+      "sha256": "52c53302f3e038028ae49945a6a2352f5fe6321d77a390c99ef286738cd2dcd0",
+      "status": "retrieved",
+      "has_report_summary": false
+    },
+    {
+      "id": "794074",
+      "url": "https://cordis.europa.eu/project/id/794074/reporting",
+      "bytes": 75936,
+      "sha256": "1a0cfc03ef2922aa30925fa9454a83cd1f79fc7586584f214d14e968b3d08fe6",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "819953",
+      "url": "https://cordis.europa.eu/project/id/819953/reporting",
+      "bytes": 82858,
+      "sha256": "b251362b2dcb44c154022ebe9f90fa0dfb678ea70c2f61cce8333c5068bd26c9",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "839195",
+      "url": "https://cordis.europa.eu/project/id/839195/reporting",
+      "bytes": 74468,
+      "sha256": "5e1e73e2fc3c59dcd07a5eaebc740ccf0ce62eefcc04956dbc2af2cc75a89375",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "837857",
+      "url": "https://cordis.europa.eu/project/id/837857/reporting",
+      "bytes": 74576,
+      "sha256": "0e1d21be0216a8677ee1a4673ddf39ff982d10d4da9108d87f5e3518b538715e",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "249416",
+      "url": "https://cordis.europa.eu/project/id/249416/reporting",
+      "bytes": 65030,
+      "sha256": "dff89578bb1a5d2bb624caf9eda86d53780a60bd1376a08c802995eaeaec68cf",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "323761",
+      "url": "https://cordis.europa.eu/project/id/323761/reporting",
+      "bytes": 64397,
+      "sha256": "a4b167942b53daf68262b71638fbf9b0a50f70356131f64fd70bea7d284e3c46",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101039572",
+      "url": "https://cordis.europa.eu/project/id/101039572/reporting",
+      "bytes": 77650,
+      "sha256": "673f9fffa394c1a9fe6a020f52f4aff09fc9adc0493861efdcb1e9ec40fcf809",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101054750",
+      "url": "https://cordis.europa.eu/project/id/101054750/reporting",
+      "bytes": 76700,
+      "sha256": "496a25d89c49d6b5aa74dcde68c5b478856dbf8db3a7d1145d4e702c3deff0af",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "866319",
+      "url": "https://cordis.europa.eu/project/id/866319/reporting",
+      "bytes": 74471,
+      "sha256": "c71f7e51a8f8f2d128e3b97e83803e053225a32fb02c90763769daa53de6d984",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101025811",
+      "url": "https://cordis.europa.eu/project/id/101025811/reporting",
+      "bytes": 68969,
+      "sha256": "6e102fca29ed61d8f526ad5116ad6eee9c45328fcbe63fc2021cab8537aed3cc",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "835193",
+      "url": "https://cordis.europa.eu/project/id/835193/reporting",
+      "bytes": 75862,
+      "sha256": "0c599b25e725e2d9ff6992aad22dbc8cd4e3ebe9511d9d5b0f5d382317cc39c0",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101076836",
+      "url": "https://cordis.europa.eu/project/id/101076836/reporting",
+      "bytes": 77010,
+      "sha256": "2eec696bed762e53b19fc5b3f47d3e01b0b1a89264a0fd69f53c297edd8177f1",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "771640",
+      "url": "https://cordis.europa.eu/project/id/771640/reporting",
+      "bytes": 71978,
+      "sha256": "f5c6478d207bd03bbbb2936362a8397cb673c349a6cd4aab0006f4618ce4b856",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101087560",
+      "url": "https://cordis.europa.eu/project/id/101087560/reporting",
+      "bytes": 73738,
+      "sha256": "e8fc3194abc273f8bbcaafb0914ce5ac954dff52047a6a780b0873788082a010",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101021262",
+      "url": "https://cordis.europa.eu/project/id/101021262/reporting",
+      "bytes": 81978,
+      "sha256": "3fac9dfad13a84c6cf52bd573e35613f888df264af8079012ad8d36f0d2de02f",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101019327",
+      "url": "https://cordis.europa.eu/project/id/101019327/reporting",
+      "bytes": 71386,
+      "sha256": "f759f67c3b021b6c324db946abd0c45b2575901a2e3bfb5f892683d3698a0e1b",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101001857",
+      "url": "https://cordis.europa.eu/project/id/101001857/reporting",
+      "bytes": 115580,
+      "sha256": "6d9de40e046fd660f02b70934a3a54f8357c4bf111924ff75e375c041d987a62",
+      "status": "retrieved",
+      "has_report_summary": false
+    },
+    {
+      "id": "101031720",
+      "url": "https://cordis.europa.eu/project/id/101031720/reporting",
+      "bytes": 75521,
+      "sha256": "baa355000acc63246a877e99eb1624533c331f5533f1cab5aab13642693a49b0",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101043939",
+      "url": "https://cordis.europa.eu/project/id/101043939/reporting",
+      "bytes": 81145,
+      "sha256": "faceb9796a78142a0a16effeb3c5d70fe2c8c3a6db891a35c5347e5749ebef06",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "802645",
+      "url": "https://cordis.europa.eu/project/id/802645/reporting",
+      "bytes": 79996,
+      "sha256": "08f118e6f83a0b5fa741030be470d6154d69b86ec870f5ecd279e689a6b98e59",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101207202",
+      "url": "https://cordis.europa.eu/project/id/101207202/reporting",
+      "bytes": 121791,
+      "sha256": "b575c74d60b322220a3e210bf25bbd9af9f9962c8df8df28cbf30cc00eeb74b4",
+      "status": "retrieved",
+      "has_report_summary": false
+    },
+    {
+      "id": "101278061",
+      "url": "https://cordis.europa.eu/project/id/101278061/reporting",
+      "bytes": 109015,
+      "sha256": "7459253e7f02ff52626964a3f67d621204c53a46bcbcef0d3f7afc038ddde06c",
+      "status": "retrieved",
+      "has_report_summary": false
+    },
+    {
+      "id": "723085",
+      "url": "https://cordis.europa.eu/project/id/723085/reporting",
+      "status": "failed",
+      "error": "The read operation timed out",
+      "has_report_summary": false
+    },
+    {
+      "id": "654825",
+      "url": "https://cordis.europa.eu/project/id/654825/reporting",
+      "bytes": 74716,
+      "sha256": "fbf298dabf568f86d2cd24e307c47b645d6a1bc259338651f910133c858320b0",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101108056",
+      "url": "https://cordis.europa.eu/project/id/101108056/reporting",
+      "bytes": 75205,
+      "sha256": "08d96392fc77407cbc873f157cebce3ed842f0c21d8d95098ec75dd67c09073d",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101106709",
+      "url": "https://cordis.europa.eu/project/id/101106709/reporting",
+      "bytes": 122282,
+      "sha256": "3bf189015b7d32efa9ff06b82f62f0da2999563230a571b3af58d2ae29a31658",
+      "status": "retrieved",
+      "has_report_summary": false
+    },
+    {
+      "id": "101088528",
+      "url": "https://cordis.europa.eu/project/id/101088528/reporting",
+      "bytes": 73941,
+      "sha256": "8fbfd145575978e1a9802d1fb04dc7c46efa008db0821570b473d927fca76eec",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101069994",
+      "url": "https://cordis.europa.eu/project/id/101069994/reporting",
+      "bytes": 78055,
+      "sha256": "5deb26fae5d035830458574ecabcba2c08a61b4684ad76aa0873ee0129e966db",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101171427",
+      "url": "https://cordis.europa.eu/project/id/101171427/reporting",
+      "bytes": 105531,
+      "sha256": "75f8691a07f1bde568439bc3df651aeb165adb28a7466b03540c078de6ecab6d",
+      "status": "retrieved",
+      "has_report_summary": false
+    },
+    {
+      "id": "101077744",
+      "url": "https://cordis.europa.eu/project/id/101077744/reporting",
+      "bytes": 108207,
+      "sha256": "6d06d8d8b9a0d9c6a12f8c3cfce10df061c4aba787ae765eafdb70bcb3b89840",
+      "status": "retrieved",
+      "has_report_summary": false
+    },
+    {
+      "id": "101107702",
+      "url": "https://cordis.europa.eu/project/id/101107702/reporting",
+      "bytes": 81748,
+      "sha256": "73c8588089158eb3bb578598f0b493dd5f3857ea333b16d2b872701d0b23af1c",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101206360",
+      "url": "https://cordis.europa.eu/project/id/101206360/reporting",
+      "bytes": 117671,
+      "sha256": "a175bc8f70e0dcdbccffc58b477f542e1fadc9e2f5d04ee6fc8c833d046d8fc4",
+      "status": "retrieved",
+      "has_report_summary": false
+    },
+    {
+      "id": "101024274",
+      "url": "https://cordis.europa.eu/project/id/101024274/reporting",
+      "bytes": 71031,
+      "sha256": "86f43eaec4d7251c24ce107ecc91f917793868e585e9976813e9368a8c054fa5",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101026488",
+      "url": "https://cordis.europa.eu/project/id/101026488/reporting",
+      "bytes": 74316,
+      "sha256": "8bb1cf160b403f764e9c9f5ba2dc74a49a86eee99fe99a9cf02e5e2b9b53d461",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101025997",
+      "url": "https://cordis.europa.eu/project/id/101025997/reporting",
+      "bytes": 70782,
+      "sha256": "f938cdf0b170051a8f52e3f14e87e895d2ca50150f17b087afc72a0ba096e2db",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101001328",
+      "url": "https://cordis.europa.eu/project/id/101001328/reporting",
+      "bytes": 73520,
+      "sha256": "84f02ae39f689747e3f5f8920d9aa02f4a4934eccd94aeca261783aea3a35d65",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "323316",
+      "url": "https://cordis.europa.eu/project/id/323316/reporting",
+      "bytes": 65691,
+      "sha256": "05ce76d4ebac33a1a6ab59960e1953cd1e520aaf94d0d351f470ebdf32cc83e1",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "230261",
+      "url": "https://cordis.europa.eu/project/id/230261/reporting",
+      "bytes": 65616,
+      "sha256": "8c8962b317a3ecb08ec57ab2baaaff458774ea2d475fb7bb8ba94b6997ad45bb",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "219885",
+      "url": "https://cordis.europa.eu/project/id/219885/reporting",
+      "bytes": 65576,
+      "sha256": "52127fcb38980f814bb69d317e4b0d354007f8135d04814282325615eca59965",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101040474",
+      "url": "https://cordis.europa.eu/project/id/101040474/reporting",
+      "bytes": 78720,
+      "sha256": "9be68baa4fd1391f8dc79e93d9a2e284281707d8c3a1f86e9312f4b1cc1a5eed",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "101063043",
+      "url": "https://cordis.europa.eu/project/id/101063043/reporting",
+      "bytes": 81709,
+      "sha256": "0e95b80a874032f208dc366a2a33ae2b97b4fd12095198fa7856aee926b4c500",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "724972",
+      "url": "https://cordis.europa.eu/project/id/724972/reporting",
+      "bytes": 75038,
+      "sha256": "ea92ddf5ab831e047dea89ce37ee95760a80dd08b48c2e81f054f1ee5af629b2",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "897531",
+      "url": "https://cordis.europa.eu/project/id/897531/reporting",
+      "bytes": 74450,
+      "sha256": "7f7b67f428417c4dfa875b334aa4a7e814267f3cf4dad79eb7115e096b8d4589",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "864635",
+      "url": "https://cordis.europa.eu/project/id/864635/reporting",
+      "bytes": 75074,
+      "sha256": "430257aafc2984b90ee7c50fb76a8b96f8e1640e1f75caf7da2d6f738de9cf71",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "640798",
+      "url": "https://cordis.europa.eu/project/id/640798/reporting",
+      "bytes": 67506,
+      "sha256": "9ff4a41a6958e7d1452a08eebdecb499366eeae12fe6b19f6fc9f776ad269986",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "659625",
+      "url": "https://cordis.europa.eu/project/id/659625/reporting",
+      "bytes": 79127,
+      "sha256": "e9b135f95f3b3923b235a6620e3ef41b83680ff8110e687c621f27623f173c72",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "681415",
+      "url": "https://cordis.europa.eu/project/id/681415/reporting",
+      "bytes": 76599,
+      "sha256": "e501e2073b334876e5e5b6ccca1a975d4f11789ca2af77740ff8ba5273feca3f",
+      "status": "retrieved",
+      "has_report_summary": true
+    },
+    {
+      "id": "714569",
+      "url": "https://cordis.europa.eu/project/id/714569/reporting",
+      "bytes": 74010,
+      "sha256": "2f9ff36be98bbfc5bd7c389c462dfd2cf5761c05e8ac332e7d67babf2ac462b3",
+      "status": "retrieved",
+      "has_report_summary": true
+    }
+  ],
+  "direct_document_metadata_matches": [
+    {
+      "archive": "cordis-HORIZONprojectPublications-csv.zip",
+      "project_id": "101086923",
+      "acronym": "AEGIS-IMB",
+      "title": "Molecular Mechanism of Nucleosome Recognition by the Pioneer Transcription Factor Sox",
+      "url": null,
+      "doi": "10.1021/acs.jcim.2c01520",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-HORIZONprojectPublications-csv.zip",
+      "project_id": "101044105",
+      "acronym": "LOOP",
+      "title": "How controlled vocabularies help transcribing handwritten Ottoman sources",
+      "url": null,
+      "doi": "10.58079/12imz",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-HORIZONprojectPublications-csv.zip",
+      "project_id": "101108056",
+      "acronym": "CIVILITY",
+      "title": "Claude Chappuys \"\"Discours de la court\"\" (1543) - transcription\"\"",
+      "url": null,
+      "doi": "10.5281/ZENODO.15688586",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-HORIZONprojectPublications-csv.zip",
+      "project_id": "101108056",
+      "acronym": "CIVILITY",
+      "title": "Antoine de Nervèze \"\"Guide des courtisans\"\" 1610 - transcription\"\"",
+      "url": null,
+      "doi": "10.5281/ZENODO.15512190",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-HORIZONprojectPublications-csv.zip",
+      "project_id": "101078683",
+      "acronym": "ACCESS",
+      "title": "Fritsche, Andrea (2023): Asyl als Anspruch?: Der Alltag des Rechts und Rechte im Alltag von Asylsuchenden, Bielefeld: transcript Verlag. https://doi.org/10.1515/9783839466131",
+      "url": null,
+      "doi": "10.1007/S11614-024-00558-2",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-HORIZONreports-csv.zip",
+      "project_id": "101039572",
+      "acronym": "ARITHMETIC",
+      "title": "Periodic Reporting for period 1 - ARITHMETIC (German Arithmetical Treatises in Manuscripts of the Late Middle Ages (1400-1522). A Study on Philology, History and Culture based on a Digital Edition of the Treatises.)",
+      "url": null,
+      "doi": null,
+      "attachment": ""
+    },
+    {
+      "archive": "cordis-fp7reports-csv.zip",
+      "project_id": "295562",
+      "acronym": "P.S.",
+      "title": "Final Report Summary - P.S. (Post Scriptum: A Digital Archive of Ordinary Writings (Early Modern Portugal and Spain))",
+      "url": null,
+      "doi": null,
+      "attachment": ""
+    },
+    {
+      "archive": "cordis-h2020projectDeliverables-csv.zip",
+      "project_id": "732117",
+      "acronym": "Ps2Share",
+      "title": "The project partners make sure to make the output data from the project findable, accessible, interoperable and reusable. The project will produce three main types of data with increasing degree of confidentiality:a) Reports: Literature overviews, platform analyses and recommendations/guidelinesb) Survey data in structured, anonymized (non-identifiable) formc) Interview transcripts from qualitative interviews with both ordinary citizens (participants and non-participants in the sharing economy) as well as experts/key stakeholders (employees and platform designers in the sharing economy) The data from the literature review will come in unstructured text form but we plan to synthesize the findings in a more structured manner, for example with tables or Figures that allow the inclusion of relational aspects (e.g., hyperlinks to the original studies within a table). We deem this type of data to be unproblematic for sharing in a public repository and – following the open access policy of Horizon 2020 projects – aim at making it freely available, corresponding with the FAIR Guidelines. In particular, we will host key documents from the reports and the reports themselves in an institutional repository of one (or all) of the participating institutions. (We will certainly use Alexandria (University of St. Gallen) and BI Brage (BI Norwegian Business School) to deposit these reports. Alexandria is based on the eprints software, allows the creation of project pages (where all adjacent and project-relevant documents can be stored), is well indexed in Google, enables the entry of a rich set of metadata, is indexed in Google Scholar and has social media plug-ins. This enables interoperability.)Thus, these documents will be findable and accessible. We aim at making key elements from the reports interoperable and reusable by transforming them into a machine-readable format (CSV tables or relational databases) under a Creative Commons CC-BY license. The survey data will come in structured form from an online survey. We will collaborate with an ESOMAR-certified market research company for the recruiting of participants and data collection and aim at 1500 responses across several European countries. We will adhere to good practice in survey design (e.g., prepare a participant information sheet as well as an understandable consent form). The respondents of the survey will remain anonymous and we will not ask for information that allows easy personal identification such as names, (email) addresses, postal code or employer. The survey data will be cleaned and uploaded in standard formats (CSV) on an institutional repository of one of the collaborating partners under a Creative Commons CC-BY license. Thus, it will be findable, accessible, interoperable and reusable. Finally, the interview transcripts will include sensitive information. Thus, the project team will decide on a case-by-case basis whether to openly share the data – in anonymized form. For the expert interviews, non-disclosure agreements might prevent the data from being shared. We will weigh the privacy considerations first in all cases.",
+      "url": "https://www.ec.europa.eu/research/participants/documents/downloadPublic?documentIds=080166e5b77e7876&appId=PPGMS",
+      "doi": null,
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "833438",
+      "acronym": "RUTTER",
+      "title": "The Untold Story of Oceanic Pilot Bartolomeu Borges who Guided Jean Ribault to Florida in 1562: Document Transcription and Translation, Accompanied by an Historical Introduction",
+      "url": null,
+      "doi": "10.1080/00822884.2023.2182986",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "874764",
+      "acronym": "REANIMA",
+      "title": "Transcriptomic data meta-analysis reveals common and injury model specific gene expression changes in the regenerating zebrafish heart",
+      "url": null,
+      "doi": "10.1038/s41598-023-32272-6",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "882588",
+      "acronym": "PAGES",
+      "title": "On some excerpts in Froben’s rhetorical sylloge (Basel 1521): Transcription and commentary notes",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "641984",
+      "acronym": "List_MAPS",
+      "title": "Listeria monocytogenes Relies on the Heme-Regulated Transporter hrtAB to Resist Heme Toxicity and Uses Heme as a Signal to Induce Transcription of lmo1634, Encoding Listeria Adhesion Protein",
+      "url": null,
+      "doi": "10.3389/fmicb.2018.03090",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "674943",
+      "acronym": "READ",
+      "title": "Transcribing a 17th-century botanical manuscript: Longitudinal evaluation of document layout detection and interactive transcription",
+      "url": null,
+      "doi": "10.1093/llc/fqw064",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "733161",
+      "acronym": "MultipleMS",
+      "title": "Deep characterization of paired chromatin and transcriptomes in four immune cell types from multiple sclerosis patients. . 2021 Oct;13(20):1607-1618. doi: /",
+      "url": null,
+      "doi": "10.2217/epi-2021-0205",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "726195",
+      "acronym": "RE-FASHIONING",
+      "title": "Representing Renaissance textures and colours digitally",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "852732",
+      "acronym": "DURARE",
+      "title": "Avoiding “Fleas” and Green Skies: Varnishes in Ms. Fr. 640",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101019327",
+      "acronym": "DiDip",
+      "title": "Few Shot Classification for Labeling of Medieval and Early Modern Charter Texts",
+      "url": null,
+      "doi": "10.5281/zenodo.8228459",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101020985",
+      "acronym": "PHILIUMM",
+      "title": "Transcribing Western modern manuscripts (1500-2020)",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "648718",
+      "acronym": "ARTECHNE",
+      "title": "Secrets of Craft and Nature in Renaissance France. A Digital Critical Edition and English Translation of BnF Ms. Fr. 640",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "726195",
+      "acronym": "RE-FASHIONING",
+      "title": "Daily Life and Material Culture in early modern Europe",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "648718",
+      "acronym": "ARTECHNE",
+      "title": "Working (with) the Corps. The Body of Sands, Colors, and Varnishes in Ms. Fr. 640",
+      "url": null,
+      "doi": "10.7916/jyms-a974",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "839351",
+      "acronym": "VIR MAXIMUS",
+      "title": "Para un mapa georeferenciado de las traducciones del “Oráculo manual y arte de prudencia” (1647) de B. Gracián: algunas reflexiones metodológicas",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101021775",
+      "acronym": "MED1stMR",
+      "title": "When Realities Interweave: Exploring the Design Space of Immersive Tangible XR",
+      "url": null,
+      "doi": "10.1145/3569009.3571843",
+      "attachment": null
+    }
+  ],
+  "text_related_outputs_for_retained_projects": [
+    {
+      "archive": "cordis-HORIZONprojectPublications-csv.zip",
+      "project_id": "101040474",
+      "acronym": "VeNiss",
+      "title": "A Geospatial and Time-based Reconstruction of the Venetian Lagoon in a 3D Web Semantic Infrastructure",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-HORIZONprojectPublications-csv.zip",
+      "project_id": "101072698",
+      "acronym": "REBPAF",
+      "title": "Witnessing Middle Dutch Textual Traditions. Diplomatic Transcriptions of Dietsche Catoen, Scolastica, and Karel ende Elegast",
+      "url": null,
+      "doi": "10.5334/JOHD.328",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-HORIZONprojectPublications-csv.zip",
+      "project_id": "101108056",
+      "acronym": "CIVILITY",
+      "title": "Claude Chappuys \"\"Discours de la court\"\" (1543) - transcription\"\"",
+      "url": null,
+      "doi": "10.5281/ZENODO.15688586",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-HORIZONprojectPublications-csv.zip",
+      "project_id": "101108056",
+      "acronym": "CIVILITY",
+      "title": "Antoine de Nervèze \"\"Guide des courtisans\"\" 1610 - transcription\"\"",
+      "url": null,
+      "doi": "10.5281/ZENODO.15512190",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-HORIZONreports-csv.zip",
+      "project_id": "101039572",
+      "acronym": "ARITHMETIC",
+      "title": "Periodic Reporting for period 1 - ARITHMETIC (German Arithmetical Treatises in Manuscripts of the Late Middle Ages (1400-1522). A Study on Philology, History and Culture based on a Digital Edition of the Treatises.)",
+      "url": null,
+      "doi": null,
+      "attachment": ""
+    },
+    {
+      "archive": "cordis-fp7reports-csv.zip",
+      "project_id": "295562",
+      "acronym": "P.S.",
+      "title": "Final Report Summary - P.S. (Post Scriptum: A Digital Archive of Ordinary Writings (Early Modern Portugal and Spain))",
+      "url": null,
+      "doi": null,
+      "attachment": ""
+    },
+    {
+      "archive": "cordis-h2020projectDeliverables-csv.zip",
+      "project_id": "819953",
+      "acronym": "TEXTCOURT",
+      "title": "The digitized and tagged texts in the core database of the project will be presented on SOAS Digital Collections which is open to public access. A prototype of the project webpage can be found on https://digital.soas.ac.uk/textcourt. We will deposit a copy of the data created on Zenodo, which will be digital archive platform for the project. Page images of the extended database will also be presented on SOAS Digital Collections",
+      "url": "",
+      "doi": null,
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "819953",
+      "acronym": "TEXTCOURT",
+      "title": "TEXTCOURT: developing a digital approach to Chinese court drama",
+      "url": null,
+      "doi": "10.6853/dadh.202210_(10).0001",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "758450",
+      "acronym": "RISK",
+      "title": "Close reading and idea encoding: digital edition of opera libretti",
+      "url": null,
+      "doi": "10.6092/issn.2532-8816/16861",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "882588",
+      "acronym": "PAGES",
+      "title": "New Frontiers in the Digital Restoration of Hidden Texts in Manuscripts: A Review of the Technical Approaches",
+      "url": null,
+      "doi": "10.3390/heritage7020034",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101000442",
+      "acronym": "DISSINET",
+      "title": "Syntactic-semantic capture of historical texts as a platform for source-critical analysis: telling the story of a premodern heresy trial with Computer-Assisted Semantic Text Modelling (CASTEMO)",
+      "url": null,
+      "doi": "10.1093/llc/fqag016",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "882588",
+      "acronym": "PAGES",
+      "title": "On some excerpts in Froben’s rhetorical sylloge (Basel 1521): Transcription and commentary notes",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "833933",
+      "acronym": "VIETNAMICA",
+      "title": "Transcription Alignment of Historical Vietnamese Manuscripts without Human-Annotated Learning Samples",
+      "url": null,
+      "doi": "10.3390/app11114894",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "770299",
+      "acronym": "NewsEye",
+      "title": "MELHISSA: a multilingual entity linking architecture for historical press articles",
+      "url": null,
+      "doi": "10.1007/s00799-021-00319-6",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "770299",
+      "acronym": "NewsEye",
+      "title": "Assessing the Impact of OCR Noise on Multilingual Event Detection over Digitised Documents",
+      "url": null,
+      "doi": "10.1007/s00799-022-00325-2",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "810141",
+      "acronym": "EuQu",
+      "title": "The Representation and Narrative Function of the Language of the Saracens in French Medieval Literature (13th-14th Centuries)",
+      "url": null,
+      "doi": "10.30687/transcript/2785-5708/2022/02/002",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "802645",
+      "acronym": "KaraimBible",
+      "title": "A digital edition of the Karaim biblical manuscript ADub.III.73",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "802645",
+      "acronym": "KaraimBible",
+      "title": "A digital edition of the Karaim biblical manuscript JSul.III.65",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "802645",
+      "acronym": "KaraimBible",
+      "title": "A digital edition of the Karaim biblical manuscript F305-90",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "802645",
+      "acronym": "KaraimBible",
+      "title": "A digital edition of the Karaim biblical manuscript F305-07",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "802645",
+      "acronym": "KaraimBible",
+      "title": "A digital edition of the Karaim biblical manuscript F305-01",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "802645",
+      "acronym": "KaraimBible",
+      "title": "A digital edition of the Karaim biblical manuscript ADub.III.84",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "802645",
+      "acronym": "KaraimBible",
+      "title": "A digital edition of the Karaim biblical manuscript ADub.III.83",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "802645",
+      "acronym": "KaraimBible",
+      "title": "A digital edition of the Karaim biblical manuscript JSul.I.04",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "802645",
+      "acronym": "KaraimBible",
+      "title": "A digital edition of the Gözleve Bible (1841)",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "802645",
+      "acronym": "KaraimBible",
+      "title": "A digital edition of the Karaim biblical manuscript JSul.III.01",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "802645",
+      "acronym": "KaraimBible",
+      "title": "A digital edition of the Karaim biblical manuscript TKow.02",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "726195",
+      "acronym": "RE-FASHIONING",
+      "title": "Representing Renaissance textures and colours digitally",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101004949",
+      "acronym": "VAST",
+      "title": "Grimm in Wonderland: Prompt Engineering with Midjourney to Illustrate Fairytales",
+      "url": null,
+      "doi": "10.48550/arxiv.2302.08961",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101019327",
+      "acronym": "DiDip",
+      "title": "Is Text Normalization Relevant for Classifying Medieval Charters?",
+      "url": null,
+      "doi": "10.1007/978-3-031-72440-4_12",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101019327",
+      "acronym": "DiDip",
+      "title": "Value Identification in Multistakeholder Recommender Systems for Humanities and Historical Research: The Case of the Digital Archive Monasterium.net",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101019327",
+      "acronym": "DiDip",
+      "title": "Few Shot Classification for Labeling of Medieval and Early Modern Charter Texts",
+      "url": null,
+      "doi": "10.5281/zenodo.8228459",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101018777",
+      "acronym": "AGRELITA",
+      "title": "La réception des Sept Sages de Grèce dans une chronique française inédite du xve siècle : la Chronique dite de Derval, du Chastel et de Brezé, commentaire et transcription",
+      "url": null,
+      "doi": "10.5771/9783987401466-31",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101000442",
+      "acronym": "DISSINET",
+      "title": "A transcription of the inquisition register of John Galand and William of Saint-Seine, 1283-1302 (fonds Doat, vol. 26, fol. 79r-316v)",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "802645",
+      "acronym": "KaraimBible",
+      "title": "A digital edition of the Karaim biblical manuscript JSul.III.02",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101000442",
+      "acronym": "DISSINET",
+      "title": "A transcription of sentences of Ferrer and William Raymond (fonds Doat, vol. 21, fol. 313r-323v)",
+      "url": null,
+      "doi": "10.5281/zenodo.17902284",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101000442",
+      "acronym": "DISSINET",
+      "title": "A transcription of four inquisition depositions (1301-1305) on beliefs and the way of life of the Autier group (fonds Doat, vol. 34, fol. 93v-103r)",
+      "url": null,
+      "doi": "10.5281/zenodo.17901961",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101000442",
+      "acronym": "DISSINET",
+      "title": "A transcription of sentences of William Arnold and Stephen of Saint-Thibéry (fonds Doat, vol. 21, fol. 143v-185r)",
+      "url": null,
+      "doi": "10.5281/zenodo.17902168",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101020985",
+      "acronym": "PHILIUMM",
+      "title": "Transcribing Western modern manuscripts (1500-2020)",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101002084",
+      "acronym": "MICOLL",
+      "title": "Exploring Historical Routes and Waypoints with MICOLL Digital Map",
+      "url": null,
+      "doi": "10.1007/978-3-031-72440-4_14",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101001197",
+      "acronym": "PAPA",
+      "title": "Transcription des ordres donnés par le Lieutenant général de police de Paris Antoine de Sartine à l'inspecteur de la librairie Joseph d'Hémery (1765-1774)",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "639008",
+      "acronym": "MindBendingGrammars",
+      "title": "Enabling Annotation of Historical Corpora in an Asynchronous Collaborative Environment",
+      "url": null,
+      "doi": "10.1145/3078081.3078089",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "788986",
+      "acronym": "DIDONE",
+      "title": "Preventing conversion failure across encoding formats: A transcription protocol and representation scheme considerations",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "726195",
+      "acronym": "RE-FASHIONING",
+      "title": "Daily Life and Material Culture in early modern Europe",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "770299",
+      "acronym": "NewsEye",
+      "title": "Assessing and Minimizing the Impact of OCR Quality on Named Entity Recognition",
+      "url": null,
+      "doi": "10.1007/978-3-030-54956-5_7",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "770299",
+      "acronym": "NewsEye",
+      "title": "Impact of OCR Quality on Named Entity Linking",
+      "url": null,
+      "doi": "10.1007/978-3-030-34058-2_11",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "770299",
+      "acronym": "NewsEye",
+      "title": "Neural Machine Translation with BERT for Post-OCR Error Detection and Correction",
+      "url": null,
+      "doi": "10.1145/3383583.3398605",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "770299",
+      "acronym": "NewsEye",
+      "title": "Linking Named Entities across Languages using Multilingual Word Embeddings",
+      "url": null,
+      "doi": "10.1145/3383583.3398597",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "770299",
+      "acronym": "NewsEye",
+      "title": "Entity Linking for Historical Documents: Challenges and Solutions",
+      "url": null,
+      "doi": "10.1007/978-3-030-64452-9_19",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "770299",
+      "acronym": "NewsEye",
+      "title": "Word Clustering for Historical Newspapers Analysis",
+      "url": null,
+      "doi": "10.26615/978-954-452-059-5_002",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "770299",
+      "acronym": "NewsEye",
+      "title": "A Comprehensive Extraction of Relevant Real-World-Event Qualifiers for Semantic Search Engines",
+      "url": null,
+      "doi": "10.1007/978-3-030-86324-1_19",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "770299",
+      "acronym": "NewsEye",
+      "title": "Evaluating the Robustness of Embedding-Based Topic Models to OCR Noise",
+      "url": null,
+      "doi": "10.1007/978-3-030-91669-5_30",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "770299",
+      "acronym": "NewsEye",
+      "title": "Token-Level Multilingual Epidemic Dataset for Event Extraction",
+      "url": null,
+      "doi": "10.5281/zenodo.5780019",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "770299",
+      "acronym": "NewsEye",
+      "title": "Multilingual Epidemic Event Extraction",
+      "url": null,
+      "doi": "10.5281/zenodo.5779966",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "839351",
+      "acronym": "VIR MAXIMUS",
+      "title": "Para un mapa georeferenciado de las traducciones del “Oráculo manual y arte de prudencia” (1647) de B. Gracián: algunas reflexiones metodológicas",
+      "url": null,
+      "doi": "",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "786379",
+      "acronym": "ArsNova",
+      "title": "Tools and Perspectives for a Digital Critical Edition of Fourteenth-Century Polyphonic Music",
+      "url": null,
+      "doi": "10.17613/mnk2-yd48",
+      "attachment": null
+    },
+    {
+      "archive": "cordis-h2020projectPublications-csv.zip",
+      "project_id": "101019327",
+      "acronym": "DiDip",
+      "title": "A TEI/IIIF Structure for Standardizing Palaeographic Examples",
+      "url": null,
+      "doi": "10.5281/zenodo.7100862",
+      "attachment": null
+    }
+  ],
+  "findings": [
+    {
+      "project_id": "833438",
+      "acronym": "RUTTER",
+      "resource": "RUTTER Digital Library",
+      "status": "candidate",
+      "url": "https://rutter-project.org/digital-library-shelf-main/",
+      "format": "tei",
+      "evidence": [
+        "https://rutter-project.org/digital-editions/",
+        "https://rutter-project.org/rutter_reader/assets/files/tei/rutter_eso.xml"
+      ],
+      "note": "Public curated editions include Esmeraldo (c. 1505–1508) and dated sixteenth-/seventeenth-century rutters. The sample XML is TEI and declares CC-BY-4.0. Some titles extend past 1700 or lack dates; filter by source dates and verify licences across files before a collection-wide statement. No catalogue count established.",
+      "funding_source": "https://cordis.europa.eu/project/id/833438"
+    },
+    {
+      "project_id": "794074",
+      "acronym": "ITALART",
+      "resource": "ItalArt",
+      "status": "candidate",
+      "url": "http://italart.ovi.cnr.it/",
+      "format": "html",
+      "evidence": [
+        "http://italart.ovi.cnr.it/premessa",
+        "http://italart.ovi.cnr.it/testo/AMP"
+      ],
+      "note": "Public editorial reading and semidiplomatic versions of Italian art documents. The AMP letter is dated 28 February 1544. The publisher reports 367 texts across a broader date range; this is not a 1450–1700 count. A text reuse licence was not established; the HTTP site works while HTTPS fails.",
+      "funding_source": "https://cordis.europa.eu/project/id/794074"
+    },
+    {
+      "project_id": "839195",
+      "acronym": "FORPRAL",
+      "resource": "Forbidden Prayers Digital Library",
+      "status": "candidate",
+      "url": "https://forpral.uab.cat/en/prayer-library/",
+      "format": "html",
+      "evidence": [
+        "https://forpral.uab.cat/en/prayer/oracion-de-santa-margarita/"
+      ],
+      "note": "Freely readable edited prayer texts, including an Italian witness of 1581. Spanish, Portuguese and Italian material; witnesses span late fifteenth to early nineteenth centuries. Source dates must be separated from dates of bans. A reuse licence and in-scope counts were not established.",
+      "funding_source": "https://cordis.europa.eu/project/id/839195"
+    },
+    {
+      "project_id": "639008",
+      "acronym": "MindBendingGrammars",
+      "resource": "EMMA Corpus",
+      "status": "access_and_date_review",
+      "url": "https://www.uantwerpen.be/en/projects/mind-bending-grammars/emma-corpus/",
+      "evidence": [
+        "https://forms.uantwerpen.be/en/projects/mind-bending-grammars/emma-corpus"
+      ],
+      "note": "Current registration form specifies CC-BY-SA-4.0 and no payment. No form was submitted. Older documentation mentions institutional EEBO access; current delivery conditions need reconciliation. Authors born in the seventeenth century wrote into the eighteenth; the reported 90 million words cannot be used as a period-filtered count.",
+      "funding_source": "https://cordis.europa.eu/project/id/639008"
+    },
+    {
+      "project_id": "681415",
+      "acronym": "PERFORMART",
+      "resource": "PerformArt Database",
+      "status": "date_and_licence_review",
+      "url": "https://performart.huma-num.fr/",
+      "evidence": [
+        "https://cordis.europa.eu/project/id/681415/reporting",
+        "https://umanisticadigitale.unibo.it/article/view/12624"
+      ],
+      "note": "Public database shell and search categories verified. Project report says publicly released in November 2022; editorial account describes full archival transcriptions for Rome, 1644–1740. Verify individual full-text records, the pre-1701 subset and text rights; event totals are not text counts.",
+      "funding_source": "https://cordis.europa.eu/project/id/681415"
+    },
+    {
+      "project_id": "835193",
+      "acronym": "PuppetPlays",
+      "resource": "PuppetPlays anthology: Jonas (1582)",
+      "status": "edition_access_review",
+      "url": "https://puppetplays.eu/anthologie",
+      "evidence": [
+        "https://cordis.europa.eu/project/id/835193/reporting"
+      ],
+      "note": "Project reports digital recovery of Balthasar Klein’s Jonas (1582), with TEI anthology editions. Verify the specific current edition and download. The overall predominantly later puppet repertoire is not a Renaissance text count.",
+      "funding_source": "https://cordis.europa.eu/project/id/835193"
+    },
+    {
+      "project_id": "230261",
+      "acronym": "ILM",
+      "resource": "CALD — Comparing Arabic Legal Documents",
+      "status": "date_and_geographical_review",
+      "url": "https://cald.irht.cnrs.fr/",
+      "evidence": [
+        "https://www.irht.cnrs.fr/fr/ressources/base-de-donnees/cald"
+      ],
+      "note": "Published Arabic legal texts are publicly accessible, distinct from the private work-in-progress corpus. Most material predates 1450. Identify dated relevant documents and their European/Mediterranean connections before proposing the subset.",
+      "funding_source": "https://cordis.europa.eu/project/id/230261"
+    },
+    {
+      "project_id": "801653",
+      "acronym": "NaturalPhilosophy",
+      "resource": "Early modern natural philosophy corpus",
+      "status": "quality_and_date_review",
+      "url": "https://zenodo.org/records/8351598",
+      "doi": "10.5281/zenodo.8351598",
+      "evidence": [
+        "https://cordis.europa.eu/project/id/801653/reporting"
+      ],
+      "note": "Actual text dataset, distinct from bibliographic inventory DOI 10.5281/zenodo.5566681. Reported 600 books/20 million words span the seventeenth and eighteenth centuries. Establish editorial correction of OCR and period-filtered coverage; large ZIPs were not downloaded.",
+      "funding_source": "https://cordis.europa.eu/project/id/801653"
+    },
+    {
+      "project_id": "819953",
+      "acronym": "TEXTCOURT",
+      "resource": "TEXTCOURT",
+      "status": "geographical_and_date_review",
+      "url": "https://textcourt.ames.ox.ac.uk/database/",
+      "evidence": [
+        "https://textcourt.ames.ox.ac.uk/database/scripts/M0001_01_A/",
+        "https://textcourt.ames.ox.ac.uk/database/scripts/M0002_01_A/"
+      ],
+      "note": "Full Chinese court-play texts and XML downloads with CC-BY-SA-4.0 verified. Most corpus is later Qing material; Ming-labelled witnesses are broadly dated 1368–1644. A precise in-period witness and documented European-contact relevance remain to establish. Chronology alone does not qualify under the clarified policy.",
+      "funding_source": "https://cordis.europa.eu/project/id/819953"
+    },
+    {
+      "project_id": "802645",
+      "acronym": "KaraimBIBLE",
+      "resource": "A Database of Middle Turkic",
+      "status": "watch_period_release",
+      "url": "https://middleturkic.lingfil.uu.se/",
+      "evidence": [
+        "https://middleturkic.lingfil.uu.se/"
+      ],
+      "note": "Public EpiDoc transcription corpus under CC-BY-4.0. The first released source identified on the official page is ADub.III.73 (1720), outside scope. Planned source dates of fifteenth–twentieth centuries do not establish a released in-scope text.",
+      "funding_source": "https://cordis.europa.eu/project/id/802645"
+    },
+    {
+      "project_id": "726195",
+      "acronym": "REFASHIONING",
+      "resource": "Refashioning the Renaissance database",
+      "status": "full_text_review",
+      "url": "https://refashioningrenaissance.eu/database/",
+      "evidence": [
+        "https://refashioningdata.eu/home"
+      ],
+      "note": "Italian and Danish archival inventory data of 1550–1650. Verify publication of complete source transcriptions, rather than structured clothing-item records or excerpts, before inclusion.",
+      "funding_source": "https://cordis.europa.eu/project/id/726195"
+    },
+    {
+      "project_id": "207182",
+      "acronym": "AFDMATS",
+      "resource": "Doni digital archive",
+      "status": "unavailable",
+      "url": "http://www.ctl.sns.it/doni",
+      "evidence": [
+        "https://cordis.europa.eu/project/id/207182/reporting"
+      ],
+      "note": "Historically relevant edited TEI texts, but the old host is unavailable. A recent institutional publication describes the archive as inaccessible; seek a replacement or deposit.",
+      "funding_source": "https://cordis.europa.eu/project/id/207182"
+    },
+    {
+      "project_id": "323761",
+      "acronym": "LEXART",
+      "resource": "LexArt",
+      "status": "excerpt_scope_review",
+      "url": "https://www.lexart.fr/",
+      "evidence": [
+        "https://tcdh.uni-trier.de/en/projekt/lexart-project-words-art"
+      ],
+      "note": "Art vocabulary database with edited quotations from approximately 100 books (1600–1750). Quotations and linked facsimiles do not establish publication of 100 full texts.",
+      "funding_source": "https://cordis.europa.eu/project/id/323761"
+    },
+    {
+      "project_id": "101064348",
+      "acronym": "THEQUEENSPOST",
+      "resource": "Queens’ correspondence",
+      "status": "watch_release",
+      "url": "https://cordis.europa.eu/project/id/101064348/reporting",
+      "note": "Report describes a planned Oxford Text Archive corpus deposit; no released corpus identified.",
+      "funding_source": "https://cordis.europa.eu/project/id/101064348"
+    },
+    {
+      "project_id": "101039572",
+      "acronym": "ARITHMETIC",
+      "resource": "German arithmetic treatises",
+      "status": "watch_release",
+      "url": "https://cordis.europa.eu/project/id/101039572/reporting",
+      "note": "Digital edition of 1400–1522 treatises under development; verify released corrected texts.",
+      "funding_source": "https://cordis.europa.eu/project/id/101039572"
+    },
+    {
+      "project_id": "101054750",
+      "acronym": "LAUDARE",
+      "resource": "Italian lauda database",
+      "status": "watch_release",
+      "url": "https://laudare.eu/about/",
+      "note": "Relevant early-sixteenth-century overlap, but no public full-text database release identified.",
+      "funding_source": "https://cordis.europa.eu/project/id/101054750"
+    },
+    {
+      "project_id": "724972",
+      "acronym": "SKILLNET",
+      "resource": "EMLO correspondence catalogue",
+      "status": "metadata_only",
+      "url": "https://cordis.europa.eu/project/id/724972/reporting",
+      "note": "Correspondence metadata is not a full-text release.",
+      "funding_source": "https://cordis.europa.eu/project/id/724972"
+    },
+    {
+      "project_id": "101031720",
+      "acronym": "Rethinking Mary",
+      "resource": "Marian texts bibliography",
+      "status": "metadata_only",
+      "url": "https://cordis.europa.eu/project/id/101031720/reporting",
+      "note": "Zotero bibliography with links; no separate edited text corpus identified.",
+      "funding_source": "https://cordis.europa.eu/project/id/101031720"
+    },
+    {
+      "project_id": "648718",
+      "acronym": "ARTECHNE",
+      "resource": "Making and Knowing — BnF Ms. Fr. 640",
+      "status": "already_catalogued",
+      "url": "https://edition640.makingandknowing.org/",
+      "catalogue_id": "edition-640",
+      "funding_source": "https://cordis.europa.eu/project/id/648718"
+    },
+    {
+      "project_id": "741374",
+      "acronym": "NOSCEMUS",
+      "resource": "NOSCEMUS",
+      "status": "already_catalogued",
+      "url": "https://wiki.uibk.ac.at/noscemus/",
+      "catalogue_id": "noscemus",
+      "funding_source": "https://cordis.europa.eu/project/id/741374"
+    },
+    {
+      "project_id": "295562",
+      "acronym": "POST SCRIPTUM",
+      "resource": "Post Scriptum",
+      "status": "already_catalogued",
+      "url": "http://teitok.clul.ul.pt/postscriptum/",
+      "catalogue_id": "postscriptum",
+      "funding_source": "https://cordis.europa.eu/project/id/295562"
+    },
+    {
+      "project_id": "101088528",
+      "acronym": "COGY",
+      "resource": "General relativity project",
+      "status": "out_of_scope",
+      "url": "https://cordis.europa.eu/project/id/101088528",
+      "note": "Renaissance is used metaphorically for modern physics; false positive.",
+      "funding_source": "https://cordis.europa.eu/project/id/101088528"
+    },
+    {
+      "project_id": "101171427",
+      "acronym": "DIACHRONY",
+      "resource": "Musical corpus",
+      "status": "out_of_scope",
+      "url": "https://cordis.europa.eu/project/id/101171427",
+      "note": "1700 is a quantity of musical works, not an eligible publication date; music notation alone is not a written-text corpus.",
+      "funding_source": "https://cordis.europa.eu/project/id/101171427"
+    }
+  ]
+}
