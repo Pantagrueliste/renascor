@@ -25,6 +25,8 @@ Use the links above to suggest a collection or report an error. You can also edi
 
 Every addition is reviewed by a human. Weekly searches use [Mistral Large 4](https://mistral.ai/news/mistral-large-4/), chosen for its multilingual capabilities and planned open-weight release.
 
+[Code of Conduct](https://www.gutenberg.org/files/67799/67799-h/67799-h.htm)
+
 ## Reuse and cite
 
 [![Download CSV](https://img.shields.io/badge/Download_CSV-1a56db?style=for-the-badge)](https://pantagrueliste.github.io/renascor/renascor.csv) [![Download JSON](https://img.shields.io/badge/Download_JSON-1a56db?style=for-the-badge)](https://pantagrueliste.github.io/renascor/renascor.json)
@@ -57,4 +59,4 @@ Open [localhost:8000](http://localhost:8000). See [maintenance instructions](doc
 
 ---
 
-Maintained by **Clément Godbarge**, Lecturer in Digital Humanities, University of St Andrews. [Behave well.](CODE_OF_CONDUCT.md)
+Maintained by **Clément Godbarge**, Lecturer in Digital Humanities, University of St Andrews.
