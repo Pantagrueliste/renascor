@@ -13,6 +13,14 @@
   "words": 14669,
   "texts": 2,
   "period": "1584-1695",
-  "notes": "IMP is the diachronic corpus of historical Slovene (1567-1899, TEI P5, msd-annotated) integrated from nine sub-corpora incl. the ZRC SAZU digitisation of old Slovenian printings (DACP); the harvested files ('CLARIN.SI IMP ZRC_00001-1584-ana.xml: Dalmatin, Jurij (1584)', 'CLARIN.SI IMP ZRC_00002-1695-ana.xml: Janez Svetokriški (1695)') are the -ana (analytic/annotation) TEI files of the IMP distribution hosted on CLARIN.SI (hdl 11356/1255, also a texts-only version hdl 11356/1423). Licence: CLARIN.SI terms, varying per subcorpus. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Jozef Stefan Institute (CLARIN.SI) with ZRC SAZU Institute of Slovene Literature / Fran Ramovs Library and NUK"
+  "notes": "IMP is the diachronic corpus of historical Slovene (1567-1899, TEI P5, msd-annotated) integrated from nine sub-corpora incl. the ZRC SAZU digitisation of old Slovenian printings (DACP); the harvested files ('CLARIN.SI IMP ZRC_00001-1584-ana.xml: Dalmatin, Jurij (1584)', 'CLARIN.SI IMP ZRC_00002-1695-ana.xml: Janez Svetokriški (1695)') are the -ana (analytic/annotation) TEI files of the IMP distribution hosted on CLARIN.SI (hdl 11356/1255, also a texts-only version hdl 11356/1423). Licence: CLARIN.SI terms, varying per subcorpus. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "Jozef Stefan Institute (CLARIN.SI) with ZRC SAZU Institute of Slovene Literature / Fran Ramovs Library and NUK",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 14669,
+    "texts": 2
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
 }

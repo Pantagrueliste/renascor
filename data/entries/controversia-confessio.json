@@ -14,5 +14,14 @@
   "words": 1075246,
   "texts": 138,
   "period": "1548-1575",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.controversia-et-confessio.de/; rebuild/controversia_confessio_source_selection_2026-06-24.tsv; data/raw/Controversia_Confessio/Controversia_Confessio.jsonl; rebuild/rawtree_full_lock_2026-"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://www.controversia-et-confessio.de/; rebuild/controversia_confessio_source_selection_2026-06-24.tsv; data/raw/Controversia_Confessio/Controversia_Confessio.jsonl; rebuild/rawtree_full_lock_2026-",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 1075246,
+    "texts": 138
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://exist.ulb.tu-darmstadt.de/2/v/data/pa000002/wdbmeta.xml",
+  "license_note": "Includes CC-BY-4.0, CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

@@ -13,6 +13,15 @@
   "words": 152215,
   "texts": 5,
   "period": "1520-1646",
-  "notes": "CLARIN:EL publishes a resource family of Medieval and Early Modern Greek resources (featured at clarin.gr/en/resource-of-the-month/greek-middle-ages-clarinel, 200), including 11 complete 16th-c. notarial registers of Cretan and Ionian notaries; the notarial-deeds corpus behind the handle above (resolves to inventory.clarin.gr/corpus/902, live) covers deeds by Katoimeris, Varagas, Farmakis, Alexakis, Vranianitis, Maras, Patsidiotis and Ioannis Olokalos — matching the harvested documents '(Alexakis)' and 'Olokalos notary documents (Crete, 1496-1543)'; sibling corpora contain Montselese's Evgena (1646) and Kapianos/Visvizis deed editions, matching the other origin strings of this 20-text cluster ('CLARIN:EL 1210' is the RQ harvest's internal resource id; corpora are TEI-compliant XML). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "University of the Aegean / Greek Language Centre / ILSP 'Athena' (CLARIN:EL infrastructure)"
+  "notes": "CLARIN:EL publishes a resource family of Medieval and Early Modern Greek resources (featured at clarin.gr/en/resource-of-the-month/greek-middle-ages-clarinel, 200), including 11 complete 16th-c. notarial registers of Cretan and Ionian notaries; the notarial-deeds corpus behind the handle above (resolves to inventory.clarin.gr/corpus/902, live) covers deeds by Katoimeris, Varagas, Farmakis, Alexakis, Vranianitis, Maras, Patsidiotis and Ioannis Olokalos — matching the harvested documents '(Alexakis)' and 'Olokalos notary documents (Crete, 1496-1543)'; sibling corpora contain Montselese's Evgena (1646) and Kapianos/Visvizis deed editions, matching the other origin strings of this 20-text cluster ('CLARIN:EL 1210' is the RQ harvest's internal resource id; corpora are TEI-compliant XML). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "University of the Aegean / Greek Language Centre / ILSP 'Athena' (CLARIN:EL infrastructure)",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 152215,
+    "texts": 5
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

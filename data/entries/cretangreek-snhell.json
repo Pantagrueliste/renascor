@@ -11,6 +11,14 @@
   "words": 1736,
   "texts": 3,
   "period": "1590-1655",
-  "notes": "Three Cretan poems from the online anthologies of the Spoudastirion Neou Ellinismou (snhell.gr; ed. Kritiki Lyriki Poiisi, Ermis 1999), which RQ harvested through the Wayback Machine. The host snhell.gr no longer resolves; the entry points to a verified archived snapshot (the whole domain is archived, see also http://web.archive.org/web/19981111191619/http://www.snhell.gr:80/). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine"
+  "notes": "Three Cretan poems from the online anthologies of the Spoudastirion Neou Ellinismou (snhell.gr; ed. Kritiki Lyriki Poiisi, Ermis 1999), which RQ harvested through the Wayback Machine. The host snhell.gr no longer resolves; the entry points to a verified archived snapshot (the whole domain is archived, see also http://web.archive.org/web/19981111191619/http://www.snhell.gr:80/). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 1736,
+    "texts": 3
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

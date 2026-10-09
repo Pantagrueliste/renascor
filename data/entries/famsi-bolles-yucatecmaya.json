@@ -13,5 +13,14 @@
   "words": 73544,
   "texts": 24,
   "period": "1557-1580",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://www.famsi.org/reports/96072/; rebuild/famsi_bolles_yucatecmaya_source_selection_2026-06-24.tsv; data/raw/FAMSI_Bolles_YucatecMaya/FAMSI_Bolles_YucatecMaya.jsonl; rebuild/rawtree_full_lock_2026-"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). http://www.famsi.org/reports/96072/; rebuild/famsi_bolles_yucatecmaya_source_selection_2026-06-24.tsv; data/raw/FAMSI_Bolles_YucatecMaya/FAMSI_Bolles_YucatecMaya.jsonl; rebuild/rawtree_full_lock_2026-",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 73544,
+    "texts": 24
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_url": "http://www.famsi.org/research/copyright.htm",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

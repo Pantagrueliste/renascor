@@ -22,5 +22,7 @@
     "start": 2006,
     "end": "ongoing"
   },
-  "notes": "A digital repository for the humanities offering TEI-encoded texts, images, and structured data. Includes many scholarly editions of German literature. Free registration for some features; texts are openly licensed."
+  "notes": "A digital repository for the humanities offering TEI-encoded texts, images, and structured data. Includes many scholarly editions of German literature. Free registration for some features; texts are openly licensed.",
+  "license": "CC-BY-3.0-DE",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/de/legalcode"
 }

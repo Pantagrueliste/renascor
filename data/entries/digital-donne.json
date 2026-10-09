@@ -10,9 +10,18 @@
     "English"
   ],
   "encoding": "tei",
-  "words": 74553,
-  "texts": 183,
+  "words": 74746,
+  "texts": 195,
   "period": "1611-1611",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 74553,
+    "texts": 183
+  },
+  "count_basis": "rq-retained-rows-and-staging",
+  "license": "Copyright",
+  "license_url": "https://web.archive.org/web/20260417175707/https://digitaldonne.tamu.edu/index.html",
+  "license_note": "Copyright restrictions apply; no standard open reuse licence established."
 }

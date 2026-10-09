@@ -10,8 +10,16 @@
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
-  "words": 36506,
-  "texts": 94,
+  "words": 36543,
+  "texts": 96,
   "period": "1559-1695",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.history.ucsb.edu/; rebuild/nahuatl_depth_source_selection_2026-06-24.tsv; data/raw/Nahuatl_depth/Nahuatl_depth.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://www.history.ucsb.edu/; rebuild/nahuatl_depth_source_selection_2026-06-24.tsv; data/raw/Nahuatl_depth/Nahuatl_depth.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 36506,
+    "texts": 94
+  },
+  "count_basis": "rq-retained-rows-and-staging",
+  "license": "Not stated",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

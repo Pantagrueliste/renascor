@@ -27,6 +27,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 ENCODING_MAP = {
     "tei xml": "tei",
     "other xml": "xml",
+    "json": "json",
     "html": "html",
     "plain text": "plain-text",
     "wiki markup": "wikitext",
@@ -110,6 +111,11 @@ def fields_to_entry(fields: dict, submitted_by: str = "") -> dict:
     }
 
     # Optional fields.
+    entry["license"] = fields.get("text licence") or "Not stated"
+    if fields.get("licence source url"):
+        entry["license_url"] = fields["licence source url"]
+    if fields.get("api documentation url"):
+        entry["api_url"] = fields["api documentation url"]
     if fields.get("files url"):
         # The form does not ask for the files' format: assume the edition's
         # encoding; the maintainer checks it during review.

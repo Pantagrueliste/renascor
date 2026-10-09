@@ -13,6 +13,15 @@
   "words": 1058858,
   "texts": 7,
   "period": "1500-1644",
-  "notes": "SSRQ is Switzerland's critical edition series of medieval/early modern legal sources, published in XML/TEI online since 2019 (Omeka S) and now also on the new 'editio' platform; the harvested origins are Zurich volumes of the Neue Folge (e.g. 'SSRQ ZH_NF_I_2_1 (1452-1637, 222 docs)', 'SSRQ ZH_NF_II_11 (1458-1696, 124 docs)'). The old domain ssrq-sdsr.ch has been renamed to ssrq-sds-fds.ch (the .sdsr URLs no longer resolve); TEI data is published on Zenodo (DOI 10.5281/zenodo.10878757) and by the GitHub org SSRQ-SDS-FDS. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Law Sources Foundation of the Swiss Jurists' Society (SSRQ), editorial office at the Universität Zürich (Historisches Seminar)"
+  "notes": "SSRQ is Switzerland's critical edition series of medieval/early modern legal sources, published in XML/TEI online since 2019 (Omeka S) and now also on the new 'editio' platform; the harvested origins are Zurich volumes of the Neue Folge (e.g. 'SSRQ ZH_NF_I_2_1 (1452-1637, 222 docs)', 'SSRQ ZH_NF_II_11 (1458-1696, 124 docs)'). The old domain ssrq-sdsr.ch has been renamed to ssrq-sds-fds.ch (the .sdsr URLs no longer resolve); TEI data is published on Zenodo (DOI 10.5281/zenodo.10878757) and by the GitHub org SSRQ-SDS-FDS. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "Law Sources Foundation of the Swiss Jurists' Society (SSRQ), editorial office at the Universität Zürich (Historisches Seminar)",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 1058858,
+    "texts": 7
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

@@ -63,7 +63,7 @@ def load_existing_entries(entries_dir: Path) -> list[dict]:
 
 
 def load_rejected(path: Path = REJECTED_PATH) -> list[dict]:
-    """Resources reviewed and rejected (title, url, reason), never to be proposed again."""
+    """Active rejections only; review_pending records remain eligible for reconsideration."""
     if not path.exists():
         return []
     return json.loads(path.read_text(encoding="utf-8")).get("rejected", [])
@@ -454,9 +454,11 @@ def build_pr_body(entries: list[dict], cost: float, usage: dict) -> str:
         "- [ ] The project provides digital editions (not just page images)",
         "- [ ] The source material is roughly 1450-1700",
         "- [ ] The entry is not a duplicate of an existing catalogue entry",
-        "- [ ] Inclusion rule: the words it adds can be counted exactly (count them and "
-        "fill `words` and `texts`), and its texts are not already in the catalogue "
-        "(not a portal, aggregator, mirror or re-harvest of catalogued projects)",
+        "- [ ] The resource provides an identifiable text collection; overlap with "
+        "other collections is allowed",
+        "- [ ] `words` and `texts`, where established, count the resource within "
+        "1450–1700 before content deduplication, with source, method and coverage; "
+        "unknown counts are omitted and corpus contributions remain separate",
         "- [ ] The metadata (languages, encoding, status) is accurate",
         "- [ ] The encoding was checked against the files the project publishes, "
         "and any TEI/XML files are linked in data_url",

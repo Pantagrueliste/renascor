@@ -10,6 +10,7 @@ const MIN = 1450, MAX = 1700, SPAN = MAX - MIN, NBINS = 25, LANG_TOP = 8;
 const ENC = {
 	tei: ['TEI XML', 'XML following the Text Encoding Initiative guidelines.'],
 	xml: ['Other XML', 'XML in a project-specific schema, not TEI.'],
+	json: ['JSON', 'Structured text data in JSON files.'],
 	html: ['HTML', 'Texts published as web pages.'],
 	wikitext: ['Wikitext', 'Wiki markup, as used by Wikisource.'],
 	'plain-text': ['Plain text', 'Text files without structural markup.'],
@@ -18,7 +19,7 @@ const ENC = {
 };
 const ENC_ORDER = Object.keys(ENC);
 const FILE_LABEL = {
-	tei: 'TEI XML files', xml: 'Other XML files', html: 'HTML files', wikitext: 'Wikitext files',
+	tei: 'TEI XML files', xml: 'Other XML files', json: 'JSON files', html: 'HTML files', wikitext: 'Wikitext files',
 	'plain-text': 'Plain-text files', markdown: 'Markdown files', other: 'Other files', none: 'No files recorded'
 };
 const STATUS = {
@@ -37,7 +38,7 @@ const LIST_KEYS = ['lang', 'encoding', 'status', 'size', 'files', 'area', 'count
 const FACET_LABEL = { lang: 'Language', encoding: 'Encoding', status: 'Status', size: 'Size', files: 'Files', area: 'Area', country: 'Country', period: 'Period' };
 const FACET_VALUES = {
 	lang: r => r.labels, encoding: r => [r.e.encoding], status: r => [r.e.status], size: r => [r.d.size_band || 'none'],
-	files: r => [r.fileKey], area: r => r.areas, country: r => r.countries
+	files: r => r.fileKeys, area: r => r.areas, country: r => r.countries
 };
 const DECADES = Array.from({ length: NBINS }, (_, i) => MIN + 10 * i);
 const binEnd = i => (i === NBINS - 1 ? MAX : DECADES[i] + 9);
@@ -104,8 +105,11 @@ const tog = (r, attrs) => `<button type="button" class="tog"${attrs} aria-expand
 const filesLink = (r, inner, cls) => extLink(r.e.data_url, inner, `${cls} aria-label="${esc(filesLinkLabel(r))}"`);
 const extLink = (url, inner, attrs = '') => `<a href="${esc(safeURL(url))}" target="_blank" rel="noopener"${attrs}>${inner}</a>`;
 const countryName = code => { const c = (meta.countries || {})[code]; return c ? c.name : code; };
-const filesNoun = f => ({ tei: 'TEI XML files', xml: 'XML files', 'plain-text': 'text files' })[f] || 'files';
-const filesLinkLabel = r => `Download the ${filesNoun(r.e.data_format)} of ${r.e.title} (opens in a new tab)`;
+const filesNoun = f => ({ tei: 'TEI XML files', xml: 'XML files', json: 'JSON files', 'plain-text': 'text files' })[f] || 'files';
+const dataFormats = e => e.data_formats || [e.data_format];
+const formatsLabel = e => dataFormats(e).map(encLabel).join(' / ');
+const downloadNoun = e => dataFormats(e).length > 1 ? formatsLabel(e) + ' files' : filesNoun(e.data_format);
+const filesLinkLabel = r => `Download the ${downloadNoun(r.e)} of ${r.e.title} (opens in a new tab)`;
 const anyFilter = () => LIST_KEYS.some(k => state[k].length) || periodActive();
 // A search of punctuation only folds to no term and narrows nothing.
 const narrowed = () => terms.length > 0 || anyFilter();
@@ -164,11 +168,11 @@ function buildRecord(e, d, i) {
 	const r = {
 		id, e, d, labels, real: real.length ? real : labels.slice(), countries: codes, countryNames, areas,
 		p: d.period && hasNum(d.period.start) && hasNum(d.period.end) ? d.period : null,
-		fileKey: e.data_url ? (has(ENC, e.data_format) ? e.data_format : 'other') : 'none'
+		fileKeys: e.data_url ? dataFormats(e).map(f => has(ENC, f) ? f : 'other') : ['none']
 	};
 	r.hay = fold([e.title, e.institution, labels.join(' '), d.notes_display, e.region, countryNames.join(' '), areas.join(' '),
 		e.author, e.date, d.period && d.period.label, e.period, encLabel(e.encoding), e.encoding,
-		e.data_url ? encLabel(e.data_format) : '', statusLabel(e.status), d.host, d.url_display, d.data_display, id
+		e.data_url ? formatsLabel(e) : '', e.license, e.license_note, statusLabel(e.status), d.host, d.url_display, d.data_display, id
 	].filter(Boolean).join(' '));
 	return r;
 }
@@ -197,7 +201,7 @@ function buildFacets() {
 	html += facetHTML('status', 'Status', optList('status', STATUS_ORDER, k => `<span class="st ${k}">${STATUS[k][0]}</span>`));
 	html += facetHTML('size', 'Size', optList('size', SIZES.map(s => s[0]).filter(k => present(k, r => r.d.size_band || 'none')), k => SIZE_LABEL[k]));
 	if (hasFiles) {
-		html += facetHTML('files', 'Files', optList('files', ENC_ORDER.concat('none').filter(k => present(k, r => r.fileKey)), k => FILE_LABEL[k]),
+		html += facetHTML('files', 'Files', optList('files', ENC_ORDER.concat('none').filter(k => records.some(r => r.fileKeys.includes(k))), k => FILE_LABEL[k]),
 			'The format of the files that can be downloaded for each edition: repository, download page or dataset record.');
 	}
 	if (meta.countries && records.some(r => r.countries.length)) {
@@ -514,7 +518,7 @@ function matches(r, skip) {
 	if (skip !== 'encoding' && S.encoding.length && !S.encoding.includes(e.encoding)) return false;
 	if (skip !== 'status' && S.status.length && !S.status.includes(e.status)) return false;
 	if (skip !== 'size' && S.size.length && !S.size.includes(r.d.size_band || 'none')) return false;
-	if (skip !== 'files' && S.files.length && !S.files.includes(r.fileKey)) return false;
+	if (skip !== 'files' && S.files.length && !S.files.some(f => r.fileKeys.includes(f))) return false;
 	if (skip !== 'area' && (S.area.length || S.country.length) &&
 		!r.areas.some(a => S.area.includes(a)) && !r.countries.some(c => S.country.includes(c))) return false;
 	if (skip !== 'period' && periodActive() && (!r.p || r.p.start > S.to || r.p.end < S.from)) return false;
@@ -574,6 +578,7 @@ function mobileMeta(r) {
 	const line1 = [[langSummary(r), r.real.length > 1]];
 	if (p) line1.push([esc(p.label), p.kind === 'century' || p.kind === 'text']);
 	line1.push([esc(encLabel(e.encoding))]);
+	line1.push([licenseHTML(e)]);
 	if (e.data_url) line1.push([filesLink(r, 'files' + ICON.ext, ' class="files"')]);
 	const line2 = [[hasNum(e.words) ? plural(e.words, 'word') : 'No word count']];
 	if (hasNum(e.texts)) line2.push([plural(e.texts, 'text')]);
@@ -620,7 +625,9 @@ function cardFor(r) {
 	const visit = d.archived_copy ? ['Archived copy', 'Visit the archived copy: '] : ['Visit', 'Visit the edition: '];
 	el.innerHTML = tog(r, ` id="ct-${esc(r.id)}" aria-controls="cpanel-${esc(r.id)}"`) + `<dl class="card-dl"><dt>Languages</dt><dd class="c-langs"></dd><dt>Period</dt><dd>${p ? esc(p.label) + coverageBar(r.p) : NOT_RECORDED}</dd>` +
 		`<dt>Size</dt><dd>${size}</dd><dt>Encoding</dt><dd>${esc(encLabel(e.encoding))}</dd>` +
-		(e.data_url ? `<dt>Files</dt><dd>${filesLink(r, ICON.down + esc(encLabel(e.data_format)), '')}</dd>` : '') +
+		`<dt>Licence</dt><dd>${licenseHTML(e)}</dd>` +
+		(e.data_url ? `<dt>Files</dt><dd>${filesLink(r, ICON.down + esc(formatsLabel(e)), '')}</dd>` : '') +
+		(e.api_url ? `<dt>API</dt><dd>${extLink(e.api_url, 'API documentation')}</dd>` : '') +
 		`</dl><div class="card-foot">${statusHTML(e.status)}<span class="host">${esc(d.host || '')}</span>` +
 		extLink(e.url, visit[0] + ICON.ext, ` class="visit" aria-label="${esc(visit[1] + e.title)} (opens in a new tab)"`) + '</div>';
 	r.card = el;
@@ -713,12 +720,27 @@ function sizeFull(r) {
 
 function figuresText(r) {
 	const d = r.d;
+	if (r.e.resource_statistics) {
+		const s = r.e.resource_statistics;
+		return esc(s.note) + ' ' + extLink(s.url, 'Count audit') + muted('· ' + esc(s.date));
+	}
 	if (d.figures === 'other') return 'Recorded from another source; not counted in the corpus snapshot.';
 	if (d.figures !== 'rq') return 'No word or text count recorded.';
 	const snap = (meta.snapshots || {})[d.snapshot];
 	const month = (snap && snap.month) || (meta.display && meta.display.snapshot_month) || '';
+	if (r.e.count_basis) {
+		const recovered = r.e.count_basis === 'rq-retained-rows-and-staging';
+		return 'Resource counts include retained duplicates' + (recovered ? ' and additional texts recovered from the saved source harvest' : '') +
+			'. They cover harvested texts within 1450–1700; texts excluded before the saved harvest may be missing. ' +
+			'<a href="#figures">How the figures are made</a>';
+	}
 	return `Texts, words, languages and period counted in the corpus snapshot${month ? ' of ' + esc(month) : ''}; ` +
 		'they may cover only part of the edition. <a href="#figures">How the figures are made</a>';
+}
+
+function licenseHTML(e) {
+	const label = e.license === 'Copyright' ? '© Copyright' : (e.license || 'Not stated');
+	return e.license_url ? extLink(e.license_url, esc(label)) : esc(label);
 }
 
 const dl = rows => '<dl class="rec-dl">' + rows.map(x => `<dt>${x[0]}</dt><dd>${x[1]}</dd>`).join('') + '</dl>';
@@ -728,7 +750,8 @@ function recordHTML(r) {
 	if (r.recHTML) return r.recHTML;
 	const e = r.e, d = r.d, arch = d.archived_copy;
 	const left = [['Edition', extLink(e.url, esc(d.url_display || e.url) + NEW_TAB) + (arch ? muted('(Wayback Machine)') : '')]];
-	if (e.data_url) left.push(['Files', extLink(e.data_url, esc(d.data_display || e.data_url) + NEW_TAB) + ` <span class="q nw">· ${esc(encLabel(e.data_format))}</span>`]);
+	if (e.data_url) left.push(['Files', extLink(e.data_url, esc(d.data_display || e.data_url) + NEW_TAB) + ` <span class="q nw">· ${esc(formatsLabel(e))}</span>`]);
+	if (e.api_url) left.push(['API', extLink(e.api_url, 'API documentation' + NEW_TAB)]);
 	left.push(['Institution', e.institution ? esc(e.institution) : 'Not recorded'], ['Languages', languagesFull(r)], ['Period', periodFull(r)], ['Size', sizeFull(r)]);
 	if (e.region) left.push(['Region', esc(e.region)]);
 	if (r.countries.length) left.push(['Countries', esc(r.countryNames.join(', ')) + (r.areas.length ? muted('· ' + esc(r.areas.join(', '))) : '')]);
@@ -737,17 +760,19 @@ function recordHTML(r) {
 	if (e.years_active && hasNum(e.years_active.start)) left.push(['Years active', esc(yearsActive(e.years_active))]);
 	const right = [
 		['Encoding', esc(encLabel(e.encoding)) + (has(ENC, e.encoding) ? muted('— ' + esc(ENC[e.encoding][1])) : '')],
+		['Licence', licenseHTML(e) + (e.license_note ? muted('— ' + esc(e.license_note)) : '')],
 		['Status', statusHTML(e.status) + (has(STATUS, e.status) ? muted('— ' + esc(STATUS[e.status][1])) : '')]
 	];
+	if (e.corpus_statistics) right.push(['Renascor Corpus', plural(e.corpus_statistics.words, 'word') +
+		' in ' + plural(e.corpus_statistics.texts, 'text') + muted('· after corpus deduplication')]);
 	if (e.last_modified) right.push(['Last change', esc(e.last_modified) + muted('· reported by the host')]);
 	right.push(['Figures', figuresText(r)],
 		['Added', esc(e.date_added || '') + muted('· ' + (e.provenance === 'discovered' ? 'proposed by the automated search' : 'submitted by a contributor'))]);
 	let h = `<div class="record" id="rec-${esc(r.id)}" role="region" aria-label="Record: ${esc(e.title)}">` + dl(left) + dl(right);
 	if (d.notes_display) h += `<div class="rec-notes"><p class="rec-notes-h">Notes</p><p class="rec-notes-t">${esc(d.notes_display)}</p></div>`;
-	if (e.notes) h += `<details class="rec-raw"><summary>Original note, as recorded</summary><div class="raw-note">${esc(e.notes)}</div></details>`;
 	const correction = `${REPO}/issues/new?template=correction.yml&title=${encodeURIComponent('[correction] ' + e.title)}&entry=${encodeURIComponent(e.title + ' (' + r.id + '.json)')}`;
 	h += '<div class="rec-foot">' + extLink(e.url, (arch ? 'Open the archived copy' : 'Open the edition') + ICON.ext + NEW_TAB, ' class="btn primary"') +
-		(e.data_url ? extLink(e.data_url, 'Get the ' + esc(filesNoun(e.data_format)) + ICON.ext + NEW_TAB, ' class="btn"') : '') +
+		(e.data_url ? extLink(e.data_url, 'Get the ' + esc(downloadNoun(e)) + ICON.ext + NEW_TAB, ' class="btn"') : '') +
 		`<button type="button" class="linkbtn copy-link" data-id="${esc(r.id)}">Copy link</button>` +
 		`<a href="${REPO}/blob/main/data/entries/${encodeURIComponent(r.id)}.json">Record file (JSON)</a>` +
 		`<a href="${esc(correction)}">Report a correction</a><span class="rec-id">Record <code>${esc(r.id)}</code></span></div></div>`;

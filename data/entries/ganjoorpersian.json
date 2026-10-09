@@ -13,5 +13,14 @@
   "words": 4810638,
   "texts": 41,
   "period": "1466-1700",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://ganjoor.net/; data/raw/ganjoor/ganjoor.s3db; rebuild/ganjoor_raw_lock_2026-06-13.tsv; rebuild/ganjoor_source_selection_2026-06-13.tsv; rebuild/ganjoor_source_native_audit_2026-06-13.csv; scrip"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://ganjoor.net/; data/raw/ganjoor/ganjoor.s3db; rebuild/ganjoor_raw_lock_2026-06-13.tsv; rebuild/ganjoor_source_selection_2026-06-13.tsv; rebuild/ganjoor_source_native_audit_2026-06-13.csv; scrip",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 4810638,
+    "texts": 41
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_url": "https://ganjoor.net/faq?id=21",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

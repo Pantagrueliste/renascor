@@ -17,5 +17,6 @@
     "start": 2000,
     "end": "ongoing"
   },
-  "notes": "A digital scholarly edition of early modern London, combining a gazetteer, an anthology of TEI-encoded texts, and a map. Includes links between places, people, and texts."
+  "notes": "A digital scholarly edition of early modern London, combining a gazetteer, an anthology of TEI-encoded texts, and a map. Includes links between places, people, and texts.",
+  "license": "Not stated"
 }

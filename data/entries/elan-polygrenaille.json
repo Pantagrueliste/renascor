@@ -13,6 +13,15 @@
   "words": 77536,
   "texts": 1,
   "period": "1642-1642",
-  "notes": "POLY-GRENAILLE (Grenolle ELAN platform, live 200) is a digital critical edition of the 1640s moral works of Francois de Grenaille including his La Mode (Paris 1642), matching the harvest origin 'ELAN polygrenaille: grenaille_la_mode' (39 texts). Published within UMR Litt&Arts' ELAN platform with TEI encoding and critical annotation (never previously modern-edited). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Cecile Lignereux and Bernard Roukhomovsky (project MoREM)"
+  "notes": "POLY-GRENAILLE (Grenolle ELAN platform, live 200) is a digital critical edition of the 1640s moral works of Francois de Grenaille including his La Mode (Paris 1642), matching the harvest origin 'ELAN polygrenaille: grenaille_la_mode' (39 texts). Published within UMR Litt&Arts' ELAN platform with TEI encoding and critical annotation (never previously modern-edited). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Cecile Lignereux and Bernard Roukhomovsky (project MoREM)",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 77536,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr",
+  "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

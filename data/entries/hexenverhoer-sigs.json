@@ -13,6 +13,14 @@
   "words": 85441,
   "texts": 55,
   "period": "1570-1665",
-  "notes": "The SiGS corpus published in LAUDATIO (DOI resolves live 200) contains 18 Early New High German witch-trial interrogation protocols 1570–1665 (Jever, Alme, Bamberg, München, Wernigerode, Osnabrück, Crivitz, Helmstedt, Leonberg, Memmingen...), matching the harvest origins 'Hexenverhörprotokoll Wernigerode1597' etc. one-for-one. Texts derive from Macha et al. (2005) 'Deutsche Kanzleisprache in Hexenverhörprotokollen der Frühen Neuzeit', converted to TEI P5 and further encoded as PAULA XML/relANNIS for ANNIS — hence encoding 'other' (PAULA, TEI-derived). Project page with corpus map: uni-muenster.de/SIGS-Projekt/corpus/index.html (200). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "DFG project SiGS / Universities of Muenster, Cologne and Hamburg (Renata Szczepaniak, Klaus-Michael Koepcke, Fabian Barteld, Stefan Hartmann et al.); published in LAUDATIO (HU Berlin)"
+  "notes": "The SiGS corpus published in LAUDATIO (DOI resolves live 200) contains 18 Early New High German witch-trial interrogation protocols 1570–1665 (Jever, Alme, Bamberg, München, Wernigerode, Osnabrück, Crivitz, Helmstedt, Leonberg, Memmingen...), matching the harvest origins 'Hexenverhörprotokoll Wernigerode1597' etc. one-for-one. Texts derive from Macha et al. (2005) 'Deutsche Kanzleisprache in Hexenverhörprotokollen der Frühen Neuzeit', converted to TEI P5 and further encoded as PAULA XML/relANNIS for ANNIS — hence encoding 'other' (PAULA, TEI-derived). Project page with corpus map: uni-muenster.de/SIGS-Projekt/corpus/index.html (200). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "DFG project SiGS / Universities of Muenster, Cologne and Hamburg (Renata Szczepaniak, Klaus-Michael Koepcke, Fabian Barteld, Stefan Hartmann et al.); published in LAUDATIO (HU Berlin)",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 85441,
+    "texts": 55
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
 }

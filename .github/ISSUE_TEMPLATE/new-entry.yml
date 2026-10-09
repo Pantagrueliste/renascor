@@ -12,7 +12,7 @@ body:
 
         **One distinction matters.** We catalogue projects that provide **digital editions**: transcriptions, editorial text, or corrected OCR/HTR of Renaissance-era documents (roughly 1450 to 1700). We do **not** catalogue page images or facsimiles only, raw uncorrected OCR dumps, or bibliographies with no texts.
 
-        **The inclusion rule.** A resource is added only if the words it contributes can be counted exactly (its full texts can be downloaded or otherwise obtained) **and** its texts are not already in the catalogue. Portals and aggregators that federate other projects' texts are therefore not included.
+        **The inclusion rule.** Collections that provide Renaissance texts are eligible even when their contents overlap with other resources. Each collection’s word and text totals are recorded within 1450–1700, before content deduplication, with their source and coverage. Leave unknown counts blank. Deduplication applies separately to the Renascor Corpus Project; directories and search portals without texts are out of scope.
 
         If you are unsure whether a project qualifies, submit it anyway and say so.
 
@@ -58,6 +58,7 @@ body:
       options:
         - TEI XML
         - Other XML
+        - JSON
         - HTML
         - Plain text
         - Wiki markup
@@ -66,6 +67,24 @@ body:
         - I am not sure
     validations:
       required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: Text licence
+      description: Licence of the edition texts, such as CC-BY-SA-4.0, CC0-1.0, Copyright or Mixed. Leave blank if not stated.
+
+  - type: input
+    id: license_url
+    attributes:
+      label: Licence source URL
+      description: The publisher terms, dataset record or licence file supporting this licence.
+
+  - type: input
+    id: api_url
+    attributes:
+      label: API documentation URL
+      description: Official documentation for accessing the texts through an API, if available.
 
   - type: dropdown
     id: status

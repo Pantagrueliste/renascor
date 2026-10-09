@@ -4,12 +4,20 @@
   "languages": [
     "Slovenian"
   ],
-  "encoding": "tei",
+  "encoding": "html",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 3380332,
   "texts": 45,
   "period": "1550-1595",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://fran.si/korpus16; rebuild/fran_slovenian16c_source_selection_2026-06-24.tsv; data/raw/Fran_Slovenian16c/Fran_Slovenian16c.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://fran.si/korpus16; rebuild/fran_slovenian16c_source_selection_2026-06-24.tsv; data/raw/Fran_Slovenian16c/Fran_Slovenian16c.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 3380332,
+    "texts": 45
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://fran.si/korpus16/o-portalu?page=Colofon"
 }

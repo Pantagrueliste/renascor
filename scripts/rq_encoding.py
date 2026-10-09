@@ -27,6 +27,7 @@ VERIFIED_PATH = REPO_ROOT / "scripts" / "rq_encoding_verified.json"
 FMT_MAP = {
     "tei": "tei",
     "xml": "xml",
+    "json": "json",
     "html": "html",
     "wiki": "wikitext",
     "wikitext": "wikitext",
@@ -34,7 +35,7 @@ FMT_MAP = {
     "txt": "plain-text",
     "md": "markdown",
 }
-PRECEDENCE = ["tei", "xml", "html", "wikitext", "plain-text", "markdown"]
+PRECEDENCE = ["tei", "xml", "json", "html", "wikitext", "plain-text", "markdown"]
 
 # fmt_detected labels plain TEI-XML files as "xml" (extension heuristic). For
 # entries where the TEI nature is verified at the source (file sampled or

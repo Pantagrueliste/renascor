@@ -13,7 +13,15 @@
   "words": 49439,
   "texts": 1,
   "period": "1565-1565",
-  "notes": "A Zenodo-published TEI-XML dataset of the critical digital edition of Porzio's La congiura de' Baroni (first published Naples 1565), encoded and curated by Cristiano Amendola; matches the RQ origin (single text). DOI 10.5281/zenodo.18047915 verified live; license CC BY 4.0. RQ holds the TEI-derived text (~49k words). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "notes": "A Zenodo-published TEI-XML dataset of the critical digital edition of Porzio's La congiura de' Baroni (first published Naples 1565), encoded and curated by Cristiano Amendola; matches the RQ origin (single text). DOI 10.5281/zenodo.18047915 verified live; license CC BY 4.0. RQ holds the TEI-derived text (~49k words). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
   "institution": "Cristiano Amendola (KU Leuven), within PRIN 2022 \"HISTORIALE MARE\" (PI Fulvio Delle Donne, Università di Napoli Federico II)",
-  "last_modified": "2026-03-01"
+  "last_modified": "2026-03-01",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 49439,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

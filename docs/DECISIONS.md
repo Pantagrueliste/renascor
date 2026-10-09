@@ -56,7 +56,7 @@ The period is chosen on a timeline above the list: a bar chart of editions per d
 
 ## Where the figures come from
 
-Most word, text, language and period figures come from the RQ Open Corpus snapshot and may describe only the part of an edition that was harvested. The page says so in the header note, in each record and in the methodology section; it names the snapshot only in that general text and never links to the corpus repository (the build fails if an entry does).
+Most word, text, language and period figures come from the Renascor Corpus Project’s working harvests and may describe only the part of an edition that was harvested. The corpus is ongoing and unreleased. The public page briefly explains the catalogue’s origins, including the role of agentic coding assistants, and its purpose: clarifying which Renaissance texts are available online in digital text form. Counting details belong in individual records and audits. The catalogue never links to the corpus repository (the build fails if an entry does). Historical `rq` script names, paths and audit identifiers are retained for reproducibility.
 
 The page shows no summed totals for a filtered list. The counts belong to whole editions, so a sum under a language or period filter would be misread as the number of words in that language or from those years.
 
@@ -64,7 +64,7 @@ The catalogue counts 73 languages: "Multilingual" and "Romance (other)" are labe
 
 ## Notes are shown in the record only
 
-The `notes` field holds curators' working notes. The page shows them only inside a record, under "Notes", after removing link-check codes ("live 200"), harvest bookkeeping (pipeline paths, "Origin verbatim" labels, the reference list after the RQ sentence) and the discovery agent's reviewer paragraph. The raw note stays one click away ("Original note, as recorded"). The build never modifies `data/entries`; the cleaned text exists only in `data.json`.
+The `notes` field holds curators' working notes. The page shows them only inside a record, under "Notes", after removing link-check codes ("live 200"), harvest bookkeeping (pipeline paths, "Origin verbatim" labels, the reference list after the RQ sentence) and the discovery agent's reviewer paragraph. The duplicate raw-note disclosure was removed at the maintainer's request on 9 October 2026; the source note remains in the JSON record and exports. The build never modifies `data/entries`; the cleaned text exists only in `data.json`.
 
 ## Periods
 
@@ -82,11 +82,13 @@ The export columns follow the schema: `id`, then the schema's properties in a fi
 
 Where an edition's machine-readable files can be obtained (a repository, a download page or a dataset record), `data_url` records the address and `data_format` their format, with the same vocabulary as `encoding`. The table shows a download link beside the encoding, the record links the files, and a Files filter lists editions by the format of their files, with "No files recorded" for the others.
 
-## Inclusion rule: new, countable text only
+## Inclusion rule: text collections (revised 9 October 2026)
 
-A resource is added only if (1) the number of words it contributes can be counted exactly, and (2) its texts are verifiably not already in the catalogue. If either condition fails, the resource is left out, however useful it is.
+A resource must provide an identifiable collection of transcribed or editorially corrected Renaissance texts. Collections and repositories can qualify even when their texts overlap with other catalogued resources. Pure directories and search portals without a text collection remain out of scope. The same resource should receive one catalogue record.
 
-The rule was adopted after a portal (the Digital Latin Library) entered the catalogue through the automated discovery: it federates texts published elsewhere, so it added no text of its own and blurred what the catalogue's figures mean. The catalogue's word and text counts are exact counts of deduplicated texts; a resource whose contribution cannot be counted, or may duplicate texts already listed, would make those figures unreliable. Rejected resources are kept in `data/rejected.json` with the reason, and the discovery run is told never to propose them again.
+Catalogue sizes count each resource within 1450–1700 before content deduplication. The source, method and coverage must be documented; partial harvests are identified and unknown counts omitted. Deduplication belongs to the parallel Renascor Corpus Project. Contributions after its duplicate filter are stored separately in `corpus_statistics`.
+
+This replaces the earlier requirement for new, non-overlapping text and an exact count before inclusion. The Digital Latin Library rejection depended on that earlier rule and is now recorded under `review_pending` in `data/rejected.json`, retaining its history for reassessment. It is not automatically added. Only active `rejected` records are excluded from discovery.
 
 ## Weekly discovery, human review
 
@@ -105,3 +107,11 @@ For navigation, `schema/countries.json` groups the countries into historical are
 The Python dependencies are limited to `jsonschema` (validation) and `requests` (HTTP checks). Everything else uses the standard library. This keeps the project cheap to run and easy to audit.
 
 The GitHub Actions use only official actions (`actions/checkout`, `actions/setup-python`) plus `pip install` for the two dependencies above.
+
+## Resource statistics and rights (9 October 2026)
+
+The catalogue resource size now includes retained duplicates within 1450–1700, plus missing source IDs recovered from checksum-locked staging. The original frozen Renascor Corpus contribution is retained separately in `corpus_statistics`; the corpus and its deduplication are unchanged. Counts remain harvested-subset figures, and their sum includes overlaps between resources.
+
+Each card records the edition text licence separately from the catalogue metadata licence. Publisher-source evidence overrides the legacy corpus rights labels. Mixed and unstated rights are explicit. Public encoding describes the available text format, rather than unpublished internal XML. JSON and multiple download formats are supported, along with links to official API documentation.
+
+Sefaria's resource size has a separate source census from the API inventory and official October exports. It counts individual Hebrew source versions of works whose entire recorded composition-date range falls within 1450–1700, without content deduplication. Generated merged copies and translations are excluded. Undated and boundary-crossing titles are retained in the audit for review. The original June Renascor Corpus contribution remains visible separately. Corpus imports and recounts preserve the newer resource census.

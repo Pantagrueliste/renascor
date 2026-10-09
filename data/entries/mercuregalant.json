@@ -13,6 +13,14 @@
   "words": 4216289,
   "texts": 26,
   "period": "1672-1700",
-  "notes": "The OBVIL/IReMus Mercure galant programme publishes the whole run 1672-1710 in TEI XML (GitHub repo OBVIL/mercure-galant 'MG-1672-01' to 'MG-1721-05'); RQ harvested 1672-1689 issues (4.2M words), matching the origin ('Mercure Galant 1672 (1 issues)' etc.) and the source 'Mercure Galant (OBVIL/IReMus, TEI)'. License per ATTRIBUTIONS: CC BY-NC-ND. The main OBVIL reading site (obtic.huma-num.fr / obvil.sorbonne-universite.fr) refused connections from two networks at check time, so the verified live URL is the GitHub Pages edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "LabEx OBVIL (Sorbonne) & IReMus (CNRS, dir. Anne Piéjus, Nathalie Berton-Blivet), with Huma-Num"
+  "notes": "The OBVIL/IReMus Mercure galant programme publishes the whole run 1672-1710 in TEI XML (GitHub repo OBVIL/mercure-galant 'MG-1672-01' to 'MG-1721-05'); RQ harvested 1672-1689 issues (4.2M words), matching the origin ('Mercure Galant 1672 (1 issues)' etc.) and the source 'Mercure Galant (OBVIL/IReMus, TEI)'. License per ATTRIBUTIONS: CC BY-NC-ND. The main OBVIL reading site (obtic.huma-num.fr / obvil.sorbonne-universite.fr) refused connections from two networks at check time, so the verified live URL is the GitHub Pages edition. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "LabEx OBVIL (Sorbonne) & IReMus (CNRS, dir. Anne Piéjus, Nathalie Berton-Blivet), with Huma-Num",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 4216289,
+    "texts": 26
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC-BY-NC-ND-3.0-FR",
+  "license_url": "https://raw.githubusercontent.com/OBVIL/mercure-galant/gh-pages/xml/MG-1672-01.xml"
 }

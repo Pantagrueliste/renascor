@@ -13,6 +13,14 @@
   "words": 73928,
   "texts": 229,
   "period": "1578-1666",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/HCDigitalScholarship/ticha-xml-tei; rebuild/ticha_zapotec_source_selection_2026-06-24.tsv; data/raw/Ticha_Zapotec/Ticha_Zapotec.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
-  "last_modified": "2022-03-10"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://github.com/HCDigitalScholarship/ticha-xml-tei; rebuild/ticha_zapotec_source_selection_2026-06-24.tsv; data/raw/Ticha_Zapotec/Ticha_Zapotec.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "last_modified": "2022-03-10",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 73928,
+    "texts": 229
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC-BY-NC-SA-4.0",
+  "license_url": "https://ticha.haverford.edu/"
 }

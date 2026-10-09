@@ -27,11 +27,20 @@
   "institution": "Text Creation Partnership (Universities of Oxford, Michigan, and others)",
   "period": "1455-1700",
   "region": "England, Scotland, Ireland",
-  "words": 1342329634,
+  "words": 1348840666,
   "years_active": {
     "start": 2002,
     "end": "ongoing"
   },
-  "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. Access via EEBO (subscription) or open TCP texts. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "texts": 50237
+  "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. Access via EEBO (subscription) or open TCP texts. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "texts": 50486,
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 1342329634,
+    "texts": 50237
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC0-1.0",
+  "license_url": "https://www.textpartnership.net/pages/faq.html",
+  "license_note": "TCP transcriptions are unrestricted, with CC0 declarations in the TEI files. The underlying page images have separate rights."
 }

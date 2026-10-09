@@ -14,5 +14,7 @@
   "encoding": "plain-text",
   "words": 7105392,
   "texts": 10,
-  "period": "1460-1661"
+  "period": "1460-1661",
+  "license": "CC-BY-NC-SA-4.0",
+  "license_url": "https://spraakbanken.gu.se/en/resources/openedges"
 }

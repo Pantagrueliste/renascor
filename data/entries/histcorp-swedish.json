@@ -13,6 +13,15 @@
   "words": 5641945,
   "texts": 49,
   "period": "1450-1700",
-  "notes": "HistCorp is an open platform for historical corpora and tools, distributed via the Swedish CLARIN node; its Swedish section is built on Fornsvenska textbanken (machine-readable Old/Early Modern Swedish texts 1350-1758), all supplied as plain text (RQ fmt_detected: plain). Freely available; ATTRIBUTIONS lists the collection as cc_by. The 20 RQ texts (e.g. 'HistorCorp fornsvenska: Prosaiska kronikan (1450)' -> origin 'HistCorp fornsvenska: Prosaiska krönikan (1450)') are directly from this download bundle. Note: Sprakbanken Text Gothenburg's Korp 'all_hist' mode offers related searchable corpora; HistCorp is the canonical downloadable source. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Eva Pettersson (Uppsala University) & Beata Megyesi (Stockholm University), Swedish CLARIN"
+  "notes": "HistCorp is an open platform for historical corpora and tools, distributed via the Swedish CLARIN node; its Swedish section is built on Fornsvenska textbanken (machine-readable Old/Early Modern Swedish texts 1350-1758), all supplied as plain text (RQ fmt_detected: plain). Freely available; ATTRIBUTIONS lists the collection as cc_by. The 20 RQ texts (e.g. 'HistorCorp fornsvenska: Prosaiska kronikan (1450)' -> origin 'HistCorp fornsvenska: Prosaiska krönikan (1450)') are directly from this download bundle. Note: Sprakbanken Text Gothenburg's Korp 'all_hist' mode offers related searchable corpora; HistCorp is the canonical downloadable source. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "Eva Pettersson (Uppsala University) & Beata Megyesi (Stockholm University), Swedish CLARIN",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 5641945,
+    "texts": 49
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_url": "https://sprakbanken-clarin.lingfil.uu.se/histcorp/readme/swedish-readme-GaW",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

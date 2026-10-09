@@ -18,27 +18,26 @@ A project does **not** qualify if it provides only:
 - Page images or facsimiles with no text layer
 - Raw, uncorrected OCR dumps
 - Catalogues or bibliographies with no texts
-- Portals, aggregators and federated search services that point to, or republish, texts from other projects
+- Directories and federated search services that point to other projects without providing a text collection
 - Individual texts hosted on personal websites with no editorial apparatus
 
 ## Relevance criteria
 
 A candidate is relevant if:
 
-1. It is a **digital edition**: a project that has produced machine-readable text of Renaissance-era documents.
+1. It provides a **digital edition or text collection**: machine-readable, transcribed or editorially corrected text of Renaissance-era documents.
 2. The source material falls within **roughly 1450 to 1700** (partial overlap is acceptable; the majority of the corpus should be in this window).
 3. The URL is **stable and accessible**: a project page, a repository, or a digital library. Not a personal blog post, not a paywalled page with no preview, not a dead link.
-4. The project is **not already in the catalogue** (see the list of existing URLs and titles below).
-5. It adds **new text** (see the inclusion rule below).
+4. The resource is **not already represented by a catalogue record** (see the list of existing URLs and titles below). Textual overlap with another resource is allowed.
+5. It provides an identifiable text collection (see the inclusion rule below).
 
 ## Inclusion rule
 
-A resource is added to the catalogue only if **both** conditions hold:
+A resource must provide an identifiable collection of transcribed or editorially corrected Renaissance texts. Collections, anthologies and repositories may reproduce texts available elsewhere; overlap with another catalogued resource is not grounds for rejection. A directory or search portal without a text collection is out of scope.
 
-1. **The number of words it contributes can be counted exactly.** In practice its full texts must be obtainable (downloadable files, a repository, a dataset record), so that a maintainer can count them. A page that only displays texts one by one, or a figure quoted on a website, is not enough.
-2. **Its texts are verifiably not already in the catalogue.** It must not be a mirror, re-harvest, anthology or aggregation of projects that are already listed, nor a portal that federates other projects' texts.
+Catalogue `words` and `texts` describe the resource within **1450–1700 before content deduplication**. Record a verified count only with its source, counting method and coverage in `notes`; identify partial counts. Omit unknown counts rather than using zero. A missing count does not prevent proposing an otherwise relevant resource.
 
-If either condition fails, do not propose the resource. If you are unsure, say so in `notes` and explain which condition is uncertain.
+Content deduplication applies separately to the Renascor Corpus Project. Do not treat a resource’s contribution after corpus deduplication as its catalogue size. If scope or counting coverage is uncertain, explain it in `notes`.
 
 ## Where to search
 
@@ -52,7 +51,7 @@ Search these sources, plus general web searches:
 
 ## What to avoid
 
-You are given a list of URLs and titles already in the catalogue. **Do not return candidates that match or closely resemble these.** This keeps token costs low and avoids duplicate work.
+You are given a list of URLs and titles already in the catalogue. **Do not return the same resource again.** Similar content or titles alone do not make a distinct collection a duplicate catalogue record.
 
 Also avoid:
 
@@ -69,14 +68,15 @@ Return your findings as a JSON array. Each element must be an object with exactl
   "title": "string, the name of the project or collection",
   "url": "string, the main URL where the edition can be found",
   "data_url": "string, optional, where the machine-readable files can be downloaded (repository, download page, dataset record)",
-  "data_format": "tei | xml | html | plain-text | wikitext | markdown | other, required if data_url is given",
+  "data_format": "tei | xml | json | html | plain-text | wikitext | markdown | other, required if data_url is given",
   "languages": ["array", "of", "human-readable", "language", "names"],
-  "encoding": "tei | xml | html | plain-text | wikitext | markdown | other",
+  "encoding": "tei | xml | json | html | plain-text | wikitext | markdown | other",
   "status": "active | archived | discontinued",
   "institution": "string, optional, the institution or team behind the edition",
   "period": "string, optional, e.g. '16th century' or '1550-1620'",
   "region": "string, optional, e.g. 'Italy' or 'Low Countries'",
-  "words": 0,
+  "words": "integer, optional, verified resource words within 1450–1700 before deduplication",
+  "texts": "integer, optional, text instances counted on the same basis as words",
   "years_active": { "start": 0, "end": "ongoing" },
   "notes": "string, optional, 1-2 sentences on scope and quality",
   "justification": "string, 1-2 sentences on why this is relevant and how you found it",
@@ -87,11 +87,11 @@ Return your findings as a JSON array. Each element must be an object with exactl
 Rules for the output:
 
 - `title`, `url`, `languages`, `encoding`, `status` are **required**.
-- `encoding` must be one of: `tei`, `xml`, `html`, `plain-text`, `wikitext`, `markdown`, `other`. Use `tei` for TEI XML, `xml` for other (non-TEI) XML, `html` for HTML editions, `plain-text` for plain text, `wikitext` for wiki markup, `markdown` for Markdown, `other` for anything else. If the project offers several formats, give the richest one (TEI first, then other XML, HTML, wiki markup, plain text, Markdown). Do not infer the format from how the texts are displayed: check what the project actually publishes (download links, repository files, documentation).
+- `encoding` must be one of: `tei`, `xml`, `json`, `html`, `plain-text`, `wikitext`, `markdown`, `other`. Use `tei` for TEI XML, `xml` for other (non-TEI) XML, `json` for structured JSON exports, `html` for HTML editions, `plain-text` for plain text, `wikitext` for wiki markup, `markdown` for Markdown, `other` for anything else. If the project offers several formats, give the richest one (TEI first, then other XML, JSON, HTML, wiki markup, plain text, Markdown). Do not infer the format from how the texts are displayed: check what the project actually publishes (download links, repository files, documentation).
 - `data_url`: if the texts can be downloaded as files (TEI XML above all, but also other XML or plain text), give the address of the repository, download page or dataset record, and set `data_format` to the format of those files. Omit both fields if no files are available or you could not find them.
 - `status` must be `active`, `archived` (still online but no longer maintained) or `discontinued` (no longer online). Use `active` unless you have evidence the project is no longer maintained.
 - `languages` must be an array of human-readable names (e.g. `["Latin", "French"]`), not ISO codes.
-- `words` is an integer. If you do not know the size, use `0` or omit the field.
+- `words` and `texts` must be integers when supplied. Count resource text instances before content deduplication, within 1450–1700; give source, method and coverage in `notes`. Omit unknown counts.
 - `years_active` is an object with `start` (integer) and `end` (integer or the string `"ongoing"`). If unknown, omit the field.
 - `justification` is **required**. Explain briefly why this candidate is relevant and where you found it.
 - `source_url` is **required**. Give the URL of the page where you found the reference (a catalogue entry, a search result, etc.).
@@ -115,9 +115,9 @@ The following URLs and titles are already in the catalogue. Do not search for or
 
 {EXISTING_ENTRIES}
 
-## Rejected resources (never propose these)
+## Active rejected resources (do not propose these)
 
-These resources were reviewed and rejected. Do not return them, and avoid resources of the same kind:
+These resources remain excluded for the stated reasons. Do not return them. Rejections withdrawn for reconsideration are not included in this list; do not exclude a whole type of resource merely because one resource was rejected:
 
 {REJECTED_ENTRIES}
 
@@ -128,3 +128,6 @@ You are running on a limited budget. Be efficient:
 - Do not search for projects you already know about.
 - Do not return more than **10 candidates** in a single run. Quality over quantity.
 - If you have searched the main sources (Zenodo, DARIAH, re3data, GitHub, general web) and found nothing new, stop and return what you have.
+
+- Record the edition text licence in `license`, using an SPDX identifier where documented, or `Copyright`, `Custom terms`, `Mixed`, `Public domain`, or `Not stated`. Provide `license_url` and scope notes where verified. Do not infer a licence from public access, historical age, code licensing, or the catalogue metadata licence.
+- For several downloadable formats, record all of them in `data_formats` and choose a primary `data_format`. Record official API documentation in `api_url` when available. Encoding describes the richest publicly available text format; internal XML that is not published does not make an HTML resource XML.

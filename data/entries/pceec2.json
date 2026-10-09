@@ -13,6 +13,15 @@
   "words": 2429178,
   "texts": 81,
   "period": "1462-1679",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://github.com/beatrice57/pceec2; https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2510; data/raw/eng_dh/pceec2-main/data/parsed/; rebuild/pceec2_raw_lock_2026-06-13.tsv; rebuild/pce",
-  "last_modified": "2026-10-03"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://github.com/beatrice57/pceec2; https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2510; data/raw/eng_dh/pceec2-main/data/parsed/; rebuild/pceec2_raw_lock_2026-06-13.tsv; rebuild/pce",
+  "last_modified": "2026-10-03",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 2429178,
+    "texts": 81
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/page/licence-ota",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

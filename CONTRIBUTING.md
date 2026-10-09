@@ -45,21 +45,22 @@ We catalogue projects that provide digital editions of Renaissance-era written d
 
 We record the project, not individual texts. A project may contain one text or thousands.
 
-### The inclusion rule: new, countable text
+### The inclusion rule: text collections
 
-A resource is added only if **both** conditions hold:
+A resource must provide an identifiable collection of transcribed or editorially corrected Renaissance texts. Collections, anthologies and repositories can qualify even when they reproduce texts available in other catalogued resources. A directory or search portal without a text collection does not qualify.
 
-1. **The number of words it contributes can be counted exactly.** Its full texts must be obtainable (downloadable files, a repository, a dataset record) so that they can be counted. A figure quoted on a website is not enough.
-2. **Its texts are verifiably not already in the catalogue.** It must not be a mirror, re-harvest, anthology or aggregation of projects that are already listed.
+Record the resource’s own `words` and `texts` within **1450–1700, before content deduplication**. Give the source, counting method and coverage; identify partial harvests explicitly. Omit counts that have not been established rather than guessing or entering zero. A missing count can be completed after the resource has been reviewed.
 
-If either condition fails, the resource is not added, however useful it is. Rejected resources are listed in [`data/rejected.json`](data/rejected.json) with the reason.
+Content deduplication belongs to the parallel **Renascor Corpus Project**. Where available, `corpus_statistics` records a resource’s contribution after that process, separately from its catalogue size. Overlapping text does not justify rejecting a collection, though the same resource should not receive two catalogue records.
+
+Active rejections and resources awaiting reconsideration are recorded separately in [`data/rejected.json`](data/rejected.json), with their reasons.
 
 ## What we do not accept
 
 - Page images or facsimiles only, with no text layer
 - Raw, uncorrected OCR without editorial review
 - Catalogues or bibliographies that contain no texts
-- Portals, aggregators and federated search services that point to, or republish, other projects' texts
+- Directories and federated search services that point to other projects without providing a text collection
 - Projects outside the 1450 to 1700 window, unless the majority of their material falls within it
 
 If you are unsure whether a project qualifies, submit it anyway and say so. Misclassification is easy to fix.

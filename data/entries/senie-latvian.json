@@ -13,5 +13,14 @@
   "words": 2476220,
   "texts": 156,
   "period": "1507-1699",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://hdl.handle.net/20.500.12574/141; data/raw/latvian_senie/SENIE_Unicode_unhyphened.tei.xml; rebuild/senie_raw_lock_2026-06-13.tsv; rebuild/senie_source_selection_2026-06-13.tsv; rebuild/senie_so"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://hdl.handle.net/20.500.12574/141; data/raw/latvian_senie/SENIE_Unicode_unhyphened.tei.xml; rebuild/senie_raw_lock_2026-06-13.tsv; rebuild/senie_source_selection_2026-06-13.tsv; rebuild/senie_so",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 2476220,
+    "texts": 156
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+  "license_note": "Includes CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

@@ -32,9 +32,18 @@
     "Tupi"
   ],
   "encoding": "wikitext",
-  "words": 11451738,
-  "texts": 4664,
+  "words": 11470859,
+  "texts": 4675,
   "period": "1450-1700",
   "status": "active",
-  "notes": "Texts harvested from the language subdomains of Wikisource (de, es, it, ca, cs, el, sv, pl, hr, hu, pt, among others), the multilingual library of openly licensed digitised source texts; the entry points to the portal wikisource.org, whose per-language subdomains host each text. Several RQ collections scope Renaissance-era texts and early Bibles specifically (e.g. Luther NT 1522, Gustav Vasa Bible 1541, Diodati 1607). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+  "notes": "Texts harvested from the language subdomains of Wikisource (de, es, it, ca, cs, el, sv, pl, hr, hu, pt, among others), the multilingual library of openly licensed digitised source texts; the entry points to the portal wikisource.org, whose per-language subdomains host each text. Several RQ collections scope Renaissance-era texts and early Bibles specifically (e.g. Luther NT 1522, Gustav Vasa Bible 1541, Diodati 1607). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 11451738,
+    "texts": 4664
+  },
+  "count_basis": "rq-retained-rows-and-staging",
+  "license": "Mixed",
+  "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+  "license_note": "Includes AGPL-3.0, CC-BY-SA-4.0, GFDL-1.3-no-invariants-or-later. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

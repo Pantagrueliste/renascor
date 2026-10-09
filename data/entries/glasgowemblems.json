@@ -8,12 +8,21 @@
     "Latin",
     "Spanish"
   ],
-  "encoding": "xml",
+  "encoding": "html",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
-  "words": 549460,
-  "texts": 5963,
+  "words": 553323,
+  "texts": 6515,
   "period": "1531-1621",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.emblems.arts.gla.ac.uk/; rebuild/glasgowemblems_source_selection_2026-06-24.tsv; data/raw/GlasgowEmblems/GlasgowEmblems.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://www.emblems.arts.gla.ac.uk/; rebuild/glasgowemblems_source_selection_2026-06-24.tsv; data/raw/GlasgowEmblems/GlasgowEmblems.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 549460,
+    "texts": 5963
+  },
+  "count_basis": "rq-retained-rows-and-staging",
+  "license": "Copyright",
+  "license_url": "https://www.emblems.arts.gla.ac.uk/#copyright",
+  "license_note": "Transcriptions and associated data are copyright University of Glasgow; images have separate rights."
 }

@@ -16,9 +16,18 @@
     "Spanish"
   ],
   "encoding": "tei",
-  "words": 25101629,
-  "texts": 1738,
+  "words": 28488008,
+  "texts": 1906,
   "period": "1451-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 25101629,
+    "texts": 1738
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://creativecommons.o",
+  "license_note": "Includes CC-BY-NC-3.0, CC-BY-NC-SA-4.0, CC0-1.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

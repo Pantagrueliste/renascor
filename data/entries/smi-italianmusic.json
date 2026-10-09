@@ -11,5 +11,14 @@
   "words": 62023,
   "texts": 3,
   "period": "1599-1599",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://chmtl.indiana.edu/smi/; rebuild/smi_italianmusic_source_selection_2026-06-24.tsv; data/raw/SMI_ItalianMusic/SMI_ItalianMusic.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://chmtl.indiana.edu/smi/; rebuild/smi_italianmusic_source_selection_2026-06-24.tsv; data/raw/SMI_ItalianMusic/SMI_ItalianMusic.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 62023,
+    "texts": 3
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://chmtl.indiana.edu/",
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }
