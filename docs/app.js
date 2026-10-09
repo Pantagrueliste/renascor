@@ -278,7 +278,7 @@ function updateLangVisibility() {
 
 // == Period timeline ==
 function buildTimeline() {
-	TL.bars.innerHTML = '<span><i class="estimated"></i></span>'.repeat(NBINS);
+	TL.bars.innerHTML = '<span></span>'.repeat(NBINS);
 	TL.barEls = Array.from(TL.bars.children);
 	let ax = '';
 	for (let i = 0; i <= NBINS; i++) ax += `<i${i % 5 ? '' : ' class="major"'} style="left:${(i / NBINS * 100).toFixed(2)}%"></i>`;
@@ -315,7 +315,6 @@ function renderTimeline() {
 	TL.barEls.forEach((b, i) => {
 		b.style.height = counts[i] ? `max(2px, ${(Math.min(counts[i], decadeScale) / decadeScale * 100).toFixed(2)}%)` : '0px';
 		b.classList.toggle('in', inRange(i));
-		b.firstElementChild.style.height = counts[i] ? (estimated[i] / counts[i] * 100).toFixed(2) + '%' : '0%';
 	});
 	TL.bars.setAttribute('aria-label', known ? 'Corpus words per decade: ' + counts.map((n, i) =>
 		DECADES[i] + '–' + binEnd(i) + ': ' + plural(n, 'word') + (estimated[i] ? ', including ' + plural(estimated[i], 'word') + ' allocated from estimated date ranges' : '')).join('; ') : 'Word counts not recorded for these collections.');
@@ -332,7 +331,7 @@ function renderTimeline() {
 	TL.note.hidden = false;
 	const note = known ? ['Deduplicated corpus words (June 2026); dates include estimates.'] : ['No dated corpus word counts recorded for these collections.'];
 	const estimatedTotal = estimated.reduce((a, b) => a + b, 0);
-	if (estimatedTotal) note.push(`${plural(estimatedTotal, 'word')} allocated from author-lifespan estimates (hatched).`);
+	if (estimatedTotal) note.push(`${plural(estimatedTotal, 'word')} allocated from author-lifespan estimates.`);
 	if (undated) note.push(`${plural(undated, 'word')} without a usable date omitted.`);
 	if (missing && known) note.push('Collections without dated corpus counts are omitted.');
 	TL.note.textContent = note.join(' ');
