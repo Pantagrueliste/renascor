@@ -53,4 +53,6 @@ Encoding describes the richest publicly available text format. Internal XML used
 
 The [weekly discovery agent](../agent/README.md) proposes candidates as pull requests for human review. See [CONTRIBUTING.md](../CONTRIBUTING.md) and the [schema guide](../schema/README.md).
 
+The [CORDIS review](CORDIS_REVIEW.md) records the first search for missing EU-funded text collections. Its [metadata audit](../data/cordis_review_2026-10-09.json) preserves coverage, archive checksums, search expressions and candidate evidence. Review candidates before creating files in `data/entries`; the audit itself does not add catalogue records.
+
 [.github/FUNDING.yml](../.github/FUNDING.yml) configures GitHub’s Sponsor button to link to [Ko-fi](https://ko-fi.com/clementgodbarge).
