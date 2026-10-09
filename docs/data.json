@@ -569,7 +569,6 @@
    "data_commit_short": "ced2ad9",
    "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/ced2ad9650bb740fed747a2e61ff42334507c799",
    "header_note": "Corpus totals exclude duplicate texts (June 2026 working count). Individual collection sizes include overlaps and may be partial.",
-   "timeline_note": "Deduplicated corpus words (June 2026); dates include estimates. 11,379,662 words allocated from author-lifespan estimates. 16,836,387 words without a usable date omitted. Collections without dated corpus counts are omitted.",
    "snapshot_version": "v2026.06",
    "snapshot_frozen_long": "26 June 2026",
    "snapshot_month": "June 2026",

@@ -40,7 +40,7 @@ For missing Gutenberg years, the estimator reads the author lifespan from saved 
 
 For display, estimated words are allocated equally per year across the lifespan, then aggregated by decade. Integer largest-remainder allocation preserves each text's exact word count, including 1700 in the last bin. This is a visual convention, not evidence that production was uniform or a statistical probability model. Estimated words appear in the same solid bars as recorded-year words; the methodology and hover labels explain their contribution. Catalogue coverage derived from these ranges is labelled approximate. Words without usable evidence stay unallocated; the frozen database and corpus totals remain unchanged.
 
-The catalogue-wide estimated and unallocated word totals are generated from the audit in the Origins and figures section. The period controls show a brief message only when the selected collections have no chronological corpus counts.
+Detailed estimated and unallocated word totals remain in the text-free audit; the page gives only a brief explanation that the graph is approximate. The period controls show a brief message only when the selected collections have no chronological corpus counts.
 
 ```bash
 python3 scripts/corpus_timeline.py --db /path/to/corpus_master_FROZEN_2026-06-26.sqlite
