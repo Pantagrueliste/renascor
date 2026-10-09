@@ -627,8 +627,7 @@ def load_period_words(path: Path, corpus: dict | None, derived: list[dict]) -> d
 
 
 def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dict,
-                    snapshot: str | None, areas: list[str] | None, corpus: dict | None = None,
-                    timeline: dict | None = None) -> dict:
+                    snapshot: str | None, areas: list[str] | None, corpus: dict | None = None) -> dict:
     """Every figure and sentence the build writes into index.html (the page never formats these)."""
     s = stats
     n = s["editions"]
@@ -638,17 +637,6 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
     note = (f"Corpus totals exclude duplicate texts ({month_year(corpus['frozen'])} working count). "
             "Individual collection sizes include overlaps and may be partial." if corpus else
             "No deduplicated corpus total recorded. Individual collection sizes include overlaps and may be partial.")
-
-    timeline_bits = []
-    if timeline:
-        timeline_bits.append(f"Deduplicated corpus words ({month_year(timeline['frozen'])}); dates include estimates.")
-        if timeline["estimated_words"]:
-            timeline_bits.append(f"{plural(timeline['estimated_words'], 'word')} allocated from author-lifespan estimates.")
-        if timeline["undated_words"]:
-            timeline_bits.append(f"{plural(timeline['undated_words'], 'word')} without a usable date omitted.")
-        timeline_bits.append("Collections without dated corpus counts are omitted.")
-    else:
-        timeline_bits.append("No chronological corpus word counts recorded for this catalogue.")
 
     other_bits = []
     if s["figures"]["other"]:
@@ -698,7 +686,6 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
         "data_commit_short": sha[:7] if sha else "",
         "data_commit_url": f"{REPO_URL}/commit/{sha}" if sha else REPO_URL,
         "header_note": note,
-        "timeline_note": " ".join(timeline_bits),
         "snapshot_version": snapshot or "",
         "snapshot_frozen_long": long_date(frozen) if frozen else "",
         "snapshot_month": month_year(frozen) if frozen else "",
@@ -855,7 +842,7 @@ def build_payload(entries: list[tuple[str, dict]], schema: dict, entries_dir: Pa
         "timeline": timeline,
         "display": display_strings(stats, updated=updated, sha=sha, citation=citation, snapshot=snapshot,
                                    areas=areas if (countries is not None and has_countries_prop) else None,
-                                   corpus=corpus, timeline=timeline),
+                                   corpus=corpus),
     }
     if countries is not None and has_countries_prop:
         meta["countries"] = countries
