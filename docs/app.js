@@ -299,15 +299,14 @@ function renderTimeline() {
 	tlShown = [state.from, state.to];
 	const counts = new Array(NBINS).fill(0);
 	const estimated = new Array(NBINS).fill(0);
-	let undated = 0, missing = false, known = false;
+	let known = false;
 	records.forEach(r => {
 		if (!matches(r, 'period')) return;
 		const p = r.d.period_words;
-		if (!p) { missing = true; return; }
+		if (!p) return;
 		known = true;
 		p.decades.forEach((words, i) => { counts[i] += words; });
 		(p.estimated || []).forEach((words, i) => { counts[i] += words; estimated[i] += words; });
-		undated += p.undated;
 	});
 	lastCounts = known ? counts : null;
 	lastEstimated = estimated;
@@ -328,13 +327,8 @@ function renderTimeline() {
 	if (!TL.yFrom.dataset.dirty) TL.yFrom.value = state.from;
 	if (!TL.yTo.dataset.dirty) TL.yTo.value = state.to;
 	TL.presets.forEach(b => b.setAttribute('aria-pressed', String(+b.dataset.from === state.from && +b.dataset.to === state.to)));
-	TL.note.hidden = false;
-	const note = known ? ['Deduplicated corpus words (June 2026); dates include estimates.'] : ['No dated corpus word counts recorded for these collections.'];
-	const estimatedTotal = estimated.reduce((a, b) => a + b, 0);
-	if (estimatedTotal) note.push(`${plural(estimatedTotal, 'word')} allocated from author-lifespan estimates.`);
-	if (undated) note.push(`${plural(undated, 'word')} without a usable date omitted.`);
-	if (missing && known) note.push('Collections without dated corpus counts are omitted.');
-	TL.note.textContent = note.join(' ');
+	TL.note.hidden = known;
+	TL.note.textContent = known ? '' : 'No dated corpus word counts recorded for these collections.';
 }
 
 function setHandle(h, left, year) {
