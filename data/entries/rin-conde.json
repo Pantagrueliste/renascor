@@ -13,6 +13,14 @@
   "words": 2539837,
   "texts": 4,
   "period": "1539-1678",
-  "notes": "The ConDE project (RIN = Réseau d'Intérêt Normand funding scheme; the TEI corpus itself is released on GitHub at github.com/RIN-ConDE/editions, which is why the RQ collection carries the 'RIN-ConDE' name) transcribes and TEI-encodes successive editions of the Coutume de Normandie and its commentaries (Le Rouillé 1539, Terrien 1578, Bérault 1614, Basnage 1678...). The project site is hosted by the MRSH / Pôle Document Numérique in Caen with a blog at conde.hypotheses.org; corpus cited as 'corpus ConDE, Caen, CRISCO EA4255'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "CRISCO EA4255 / MRSH, Université de Caen Normandie (Pierre Larrivée, Mathieu Goux; with Université de Rouen), funded by the Région Normandie RIN programme"
+  "notes": "The ConDE project (RIN = Réseau d'Intérêt Normand funding scheme; the TEI corpus itself is released on GitHub at github.com/RIN-ConDE/editions, which is why the RQ collection carries the 'RIN-ConDE' name) transcribes and TEI-encodes successive editions of the Coutume de Normandie and its commentaries (Le Rouillé 1539, Terrien 1578, Bérault 1614, Basnage 1678...). The project site is hosted by the MRSH / Pôle Document Numérique in Caen with a blog at conde.hypotheses.org; corpus cited as 'corpus ConDE, Caen, CRISCO EA4255'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "CRISCO EA4255 / MRSH, Université de Caen Normandie (Pierre Larrivée, Mathieu Goux; with Université de Rouen), funded by the Région Normandie RIN programme",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 2539837,
+    "texts": 4
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC-BY-NC-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.fr"
 }

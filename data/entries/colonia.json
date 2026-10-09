@@ -13,6 +13,14 @@
   "words": 1454490,
   "texts": 20,
   "period": "1500-1691",
-  "notes": "Colonia is the diachronic corpus of classical Portuguese (16th-20th c.) of the AC/DC annotation project at Linguateca (Diana Santos). The live Linguateca author/works list for Colonia enumerates exactly the collected works — Anchieta, Pero Vaz de Caminha, Gandavo, Vieira sermons/letters, Camões, Guerr(a?)e(d)eiro, Melo — matching collection filenames (caminha1500, gandavo1576, vieira1655...). The corpus's own site (corporavm.uni-koeln.de/colonia) is dead; Linguateca's page remains the live official listing. Origin verbatim: 'Colonia (Hist. Portuguese)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Linguateca / CorporaVM, corpus directed by Diana Santos"
+  "notes": "Colonia is the diachronic corpus of classical Portuguese (16th-20th c.) of the AC/DC annotation project at Linguateca (Diana Santos). The live Linguateca author/works list for Colonia enumerates exactly the collected works — Anchieta, Pero Vaz de Caminha, Gandavo, Vieira sermons/letters, Camões, Guerr(a?)e(d)eiro, Melo — matching collection filenames (caminha1500, gandavo1576, vieira1655...). The corpus's own site (corporavm.uni-koeln.de/colonia) is dead; Linguateca's page remains the live official listing. Origin verbatim: 'Colonia (Hist. Portuguese)'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "Linguateca / CorporaVM, corpus directed by Diana Santos",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 1454490,
+    "texts": 20
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

@@ -13,6 +13,14 @@
   "words": 78532,
   "texts": 4,
   "period": "1500-1500",
-  "notes": "FNVR is a Litt&Arts (Grenoble) project building XML-TEI editions of French verse narratives composed or translated 1490-1600, some first modern editions, led by Pascale Mounier; the TEI dataset is openly published on Recherche Data Gouv (DOI 10.57745/SSC5XT). The harvested files (amantDesconforte, chevallier, palamon, rondeaux) match the repo layout of elan/fnvr on the Grenoble GitLab, whose project page is live (200) and matches origin 'ELAN fnvr: amantDesconforte'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Pascale Mounier"
+  "notes": "FNVR is a Litt&Arts (Grenoble) project building XML-TEI editions of French verse narratives composed or translated 1490-1600, some first modern editions, led by Pascale Mounier; the TEI dataset is openly published on Recherche Data Gouv (DOI 10.57745/SSC5XT). The harvested files (amantDesconforte, chevallier, palamon, rondeaux) match the repo layout of elan/fnvr on the Grenoble GitLab, whose project page is live (200) and matches origin 'ELAN fnvr: amantDesconforte'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Pascale Mounier",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 78532,
+    "texts": 4
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC-BY-NC-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"
 }

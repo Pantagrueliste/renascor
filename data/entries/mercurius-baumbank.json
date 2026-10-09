@@ -13,6 +13,15 @@
   "words": 187423,
   "texts": 2,
   "period": "1597-1667",
-  "notes": "The LAUDATIO long-term corpus repository (HU Berlin) hosts a published corpus 'Mercurius-Baumbank (Version 1.1)' edited by Ulrike Demske, an annotated TEI corpus of early German news/Relation publications (the 1597 and 1667 items match the origins verbatim). Listed on the repository's published-corpora index; the corpus browse page verifies. Encoding TEI (LAUDATIO standard); license on the corpus page (RQ ATTRIBUTIONS tags the collection cc_by). LAUDATIO's own search/API endpoints were partly broken at check time, but the published listing and this corpus page are live. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Ulrike Demske; LAUDATIO repository (Humboldt-Universität zu Berlin)"
+  "notes": "The LAUDATIO long-term corpus repository (HU Berlin) hosts a published corpus 'Mercurius-Baumbank (Version 1.1)' edited by Ulrike Demske, an annotated TEI corpus of early German news/Relation publications (the 1597 and 1667 items match the origins verbatim). Listed on the repository's published-corpora index; the corpus browse page verifies. Encoding TEI (LAUDATIO standard); license on the corpus page (RQ ATTRIBUTIONS tags the collection cc_by). LAUDATIO's own search/API endpoints were partly broken at check time, but the published listing and this corpus page are live. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "Ulrike Demske; LAUDATIO repository (Humboldt-Universität zu Berlin)",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 187423,
+    "texts": 2
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_url": "https://www.uni-potsdam.de/de/guvdds/zugang",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

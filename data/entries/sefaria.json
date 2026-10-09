@@ -2,16 +2,35 @@
   "title": "Sefaria",
   "url": "https://www.sefaria.org/",
   "data_url": "https://github.com/Sefaria/Sefaria-Export",
-  "data_format": "plain-text",
+  "data_format": "json",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "languages": [
     "Hebrew"
   ],
-  "encoding": "html",
-  "words": 18955529,
-  "texts": 132,
-  "period": "1495-1690",
+  "encoding": "json",
+  "words": 51508557,
+  "texts": 1043,
+  "period": "1455-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+  "notes": "Official bulk exports provide JSON and TXT downloads; the developer documentation describes the REST API. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, after corpus deduplication).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 18955529,
+    "texts": 132
+  },
+  "count_basis": "sefaria-source-versions",
+  "license": "Mixed",
+  "license_url": "https://github.com/Sefaria/Sefaria-Export/blob/master/LICENSE.md",
+  "license_note": "Each text version carries its own licence in the JSON license field; there is no repository-wide text licence.",
+  "data_formats": [
+    "json",
+    "plain-text"
+  ],
+  "api_url": "https://developers.sefaria.org/reference",
+  "resource_statistics": {
+    "url": "https://github.com/Pantagrueliste/renascor/blob/main/data/sefaria_statistics.json",
+    "date": "2026-10-09",
+    "note": "Counted 1,043 individual Hebrew source versions of 897 works whose entire recorded composition-date range lies within 1450–1700. Includes repeated content across editions; excludes generated merged files and translations. Undated and boundary-crossing works require review. Official export dated 2026-10-02, checked 2026-10-09."
+  }
 }

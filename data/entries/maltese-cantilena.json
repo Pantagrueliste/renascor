@@ -13,5 +13,14 @@
   "words": 135,
   "texts": 1,
   "period": "1470-1470",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://en.wikipedia.org/wiki/Il-Kantilena; rebuild/maltese_cantilena_source_selection_2026-06-24.tsv; data/raw/Maltese_Cantilena/Maltese_Cantilena.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://en.wikipedia.org/wiki/Il-Kantilena; rebuild/maltese_cantilena_source_selection_2026-06-24.tsv; data/raw/Maltese_Cantilena/Maltese_Cantilena.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 135,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Custom terms",
+  "license_url": "https://wikisource.org/wiki/Il-Kantilena",
+  "license_note": "Source-specific reuse conditions; no standard open licence established."
 }

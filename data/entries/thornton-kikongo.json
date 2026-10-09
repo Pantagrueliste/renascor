@@ -13,5 +13,13 @@
   "words": 7024,
   "texts": 2,
   "period": "1624-1649",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://www.bu.edu/afam/people/faculty/john-thornton/; rebuild/thornton_kikongo_source_selection_2026-06-24.tsv; data/raw/Thornton_Kikongo/Thornton_Kikongo.jsonl; rebuild/rawtree_full_lock_2026-07-16."
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://www.bu.edu/afam/people/faculty/john-thornton/; rebuild/thornton_kikongo_source_selection_2026-06-24.tsv; data/raw/Thornton_Kikongo/Thornton_Kikongo.jsonl; rebuild/rawtree_full_lock_2026-07-16.",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 7024,
+    "texts": 2
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

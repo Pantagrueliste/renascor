@@ -14,6 +14,14 @@
   "texts": 3064,
   "period": "1648-1653",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "last_modified": "2026-05-22"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "last_modified": "2026-05-22",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 10122051,
+    "texts": 3064
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC-BY-4.0",
+  "license_url": "https://zenodo.org/records/7443183"
 }

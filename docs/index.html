@@ -265,10 +265,6 @@ button, input, select { font: inherit; color: inherit; }
 .rec-notes { grid-column: 1 / -1; margin-top: 18px; }
 .rec-notes .rec-notes-h { margin: 0 0 4px; font-size: 13px; font-weight: 600; color: var(--fg-2); }
 .rec-notes .rec-notes-t { max-width: 80ch; font-size: 14.5px; line-height: 1.6; white-space: pre-line; overflow-wrap: anywhere; }
-.rec-raw { grid-column: 1 / -1; margin-top: 14px; }
-.rec-raw summary { width: max-content; max-width: 100%; font-size: 13px; color: var(--muted); cursor: pointer; }
-.rec-raw summary:hover { color: var(--fg); }
-.raw-note { margin-top: 8px; padding: 10px 12px; border: 1px solid var(--border); border-radius: 6px; background: var(--bg); font-size: 13px; line-height: 1.55; color: var(--fg-2); white-space: pre-wrap; overflow-wrap: anywhere; }
 .rec-foot { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin-top: 18px; padding-top: 14px; border-top: 1px solid var(--border); font-size: 13.5px; }
 .rec-id { margin-left: auto; font-size: 12.5px; color: var(--muted); }
 .rec-id code { font-size: 12.5px; }
@@ -507,12 +503,12 @@ figure { margin: 0; }
 			<dl class="figs" aria-label="Catalogue figures">
 				<div><dt>editions</dt><dd data-stat="editions">197</dd></div>
 				<div><dt>languages</dt><dd data-stat="languages">73</dd></div>
-				<div><dt>texts</dt><dd data-stat="texts">122,316</dd></div>
-				<div><dt>words</dt><dd data-stat="words_compact">2.19 billion</dd></div>
+				<div><dt>texts</dt><dd data-stat="texts">126,213</dd></div>
+				<div><dt>words</dt><dd data-stat="words_compact">2.40 billion</dd></div>
 			</dl>
-			<p class="fig-meta">Version <span data-stat="version">0.1.0</span> · data of <span data-stat="updated_long">8 October 2026</span><span data-if="data_commit_short"> · commit <a href="https://github.com/Pantagrueliste/renascor/commit/35d811836243c05257d2cc5763909f08000ebcf8" data-href="data_commit_url"><span class="sr-only">Data commit </span><span data-stat="data_commit_short">35d8118</span><span class="sr-only"> on GitHub</span></a></span></p>
+			<p class="fig-meta">Version <span data-stat="version">0.1.0</span> · data of <span data-stat="updated_long">9 October 2026</span><span data-if="data_commit_short"> · commit <a href="https://github.com/Pantagrueliste/renascor/commit/5484f765d869cc6ccf2a05eba3df002d1a4ea830" data-href="data_commit_url"><span class="sr-only">Data commit </span><span data-stat="data_commit_short">5484f76</span><span class="sr-only"> on GitHub</span></a></span></p>
 		</div>
-		<p class="fig-note"><span data-stat="header_note">Counts for 188 of the 197 editions come from the RQ Open Corpus snapshot v2026.06 and may cover only part of an edition; one edition holds 61% of all words.</span> <a href="#figures">How the figures are made</a></p>
+		<p class="fig-note"><span data-stat="header_note">Resource totals include overlaps and may cover only part of a collection.</span> <a href="#figures">How the figures are made</a></p>
 	</div>
 </header>
 
@@ -665,7 +661,7 @@ figure { margin: 0; }
 			<h2>How records are made</h2>
 			<div class="prose">
 				<ul>
-					<li><strong>Inclusion rule.</strong> An edition is added only if the number of words it contributes can be counted exactly and its texts are not already in the catalogue. Portals and aggregators that republish other projects’ texts are therefore left out. Rejected resources are listed, with the reason, in <a href="https://github.com/Pantagrueliste/renascor/blob/main/data/rejected.json">data/rejected.json</a>.</li>
+					<li><strong>Inclusion rule.</strong> Collections that provide Renaissance texts are eligible even when their contents overlap with other resources. Each collection’s size is counted before content deduplication; deduplication applies separately to the Renascor Corpus. Directories and search portals without texts are out of scope.</li>
 					<li><strong>Contributions.</strong> Anyone can propose an edition or a correction through a form on GitHub, or by pull request. Each record is one JSON file in the public repository, checked against a published schema.</li>
 					<li><strong>Review.</strong> The maintainer reviews every record before publication: that the edition exists, that it provides transcribed text from the period, and that it is described accurately.</li>
 					<li><strong>Automated search.</strong> A weekly search using a Mistral language model proposes candidate editions as pull requests; it never adds a record itself. <span data-stat="discovered_sentence">6 of the 197 records were proposed this way</span>; each record says how it was added.</li>
@@ -675,15 +671,16 @@ figure { margin: 0; }
 		</div>
 
 		<div class="about-row" id="figures">
-			<h2>Where the figures come from</h2>
+			<h2>Origins and figures</h2>
 			<div class="prose">
-				<p>For <strong><span data-stat="figures_rq">188</span> of the <span data-stat="editions_label">197 editions</span></strong>, the number of texts and words, the languages and the period were measured on the <strong>RQ Open Corpus snapshot <span data-stat="snapshot_version">v2026.06</span></strong> (frozen on <span data-stat="snapshot_frozen_long">26 June 2026</span>; in-core, deduplicated texts). These figures describe the texts harvested from each edition, which can be only part of what the edition publishes: the period, for example, is the span of the dated texts in the snapshot. <span data-stat="figures_other_sentence">For 3 editions the counts come from other sources: OpenEDGeS, TextGrid Repository and Women Writers Online. 6 editions have no word or text count.</span></p>
-				<p>Sizes are very uneven. Of the <span data-stat="words">2,189,651,998</span> words recorded for <span data-stat="with_words_editions">191 editions</span>, one edition holds <span data-stat="largest_share">61%</span>; the median edition has <span data-stat="median_words">425,831</span> words in <span data-stat="median_texts">27</span> texts.</p>
+				<p>This catalogue grew out of the <strong>Renascor Corpus Project</strong>, which aims to assemble the most complete possible corpus of Renaissance texts for AI training. The corpus is still a work in progress and has not yet been released.</p>
+				<p>The idea of a catalogue arose during that work but would have been shelved for lack of time. Rapid progress in agentic coding assistants made it possible to build within a reasonable time. Its purpose is to make clear which Renaissance texts are available in digital text form on the internet today.</p>
+				<p>Collection sizes count texts within 1450–1700 before content deduplication. Most figures come from the corpus project’s harvests and may cover only part of a collection. Contributions after corpus deduplication are recorded separately where available; totals across collections include overlaps. Each record gives its counting method and text licence.</p>
 				<figure class="share">
 <!-- build:share-chart -->
-<table class="sharet"><caption>Share of all recorded words, by edition</caption><thead><tr><th scope="col">Edition</th><th scope="col"><span class="sr-only">Share, as a bar</span></th><th scope="col" class="num">Share</th><th scope="col" class="num">Words</th></tr></thead><tbody><tr><th scope="row"><a href="#eebo-text-creation-partnership">EEBO Text Creation Partnership</a></th><td class="bar" aria-hidden="true"><span style="width:61.30%"></span></td><td class="num">61.3%</td><td class="num">1,342,329,634</td></tr><tr><th scope="row"><a href="#openiti">OpenITI</a></th><td class="bar" aria-hidden="true"><span style="width:8.85%"></span></td><td class="num">8.9%</td><td class="num">193,859,865</td></tr><tr><th scope="row"><a href="#noscemus">NOSCEMUS</a></th><td class="bar" aria-hidden="true"><span style="width:3.76%"></span></td><td class="num">3.8%</td><td class="num">82,381,900</td></tr><tr><th scope="row"><a href="#textgrid-repository">TextGrid Repository</a></th><td class="bar" aria-hidden="true"><span style="width:2.28%"></span></td><td class="num">2.3%</td><td class="num">50,000,000</td></tr><tr><th scope="row"><a href="#dta">Deutsches Textarchiv (DTA)</a></th><td class="bar" aria-hidden="true"><span style="width:1.90%"></span></td><td class="num">1.9%</td><td class="num">41,616,768</td></tr><tr class="rest"><th scope="row">186 other editions</th><td class="bar" aria-hidden="true"><span style="width:21.90%"></span></td><td class="num">21.9%</td><td class="num">479,463,831</td></tr></tbody></table>
+<table class="sharet"><caption>Share of all recorded words, by edition</caption><thead><tr><th scope="col">Edition</th><th scope="col"><span class="sr-only">Share, as a bar</span></th><th scope="col" class="num">Share</th><th scope="col" class="num">Words</th></tr></thead><tbody><tr><th scope="row"><a href="#eebo-text-creation-partnership">EEBO Text Creation Partnership</a></th><td class="bar" aria-hidden="true"><span style="width:56.31%"></span></td><td class="num">56.3%</td><td class="num">1,348,840,666</td></tr><tr><th scope="row"><a href="#openiti">OpenITI</a></th><td class="bar" aria-hidden="true"><span style="width:14.90%"></span></td><td class="num">14.9%</td><td class="num">356,834,104</td></tr><tr><th scope="row"><a href="#noscemus">NOSCEMUS</a></th><td class="bar" aria-hidden="true"><span style="width:3.44%"></span></td><td class="num">3.4%</td><td class="num">82,381,900</td></tr><tr><th scope="row"><a href="#sefaria">Sefaria</a></th><td class="bar" aria-hidden="true"><span style="width:2.15%"></span></td><td class="num">2.2%</td><td class="num">51,508,557</td></tr><tr><th scope="row"><a href="#textgrid-repository">TextGrid Repository</a></th><td class="bar" aria-hidden="true"><span style="width:2.09%"></span></td><td class="num">2.1%</td><td class="num">50,000,000</td></tr><tr class="rest"><th scope="row">186 other editions</th><td class="bar" aria-hidden="true"><span style="width:21.12%"></span></td><td class="num">21.1%</td><td class="num">505,937,521</td></tr></tbody></table>
 <!-- /build:share-chart -->
-					<p class="chart-note" data-stat="share_note">Shares of the 2,189,651,998 words recorded for 191 editions; 6 editions have no word count.</p>
+					<p class="chart-note" data-stat="share_note">Shares of the 2,395,502,748 words recorded for 191 editions; 6 editions have no word count.</p>
 				</figure>
 				<p>Periods are given as the first and last year of the texts; a single year is written once (1620, not 1620–1620) and “c.” marks an approximate date. The period filter keeps an edition when its period overlaps the years chosen. Periods recorded as centuries count as their hundred years (the 16th century as 1500–1599); periods given only in words are shown as recorded and are not matched by year filters.</p>
 				<p>For <span data-stat="with_last_modified">41 editions</span> the record also gives the date of the last change reported by the host, such as the last push to a GitHub repository or the last update of a Zenodo record.</p>
@@ -715,17 +712,18 @@ figure { margin: 0; }
 					<div>
 						<h3>Encoding</h3>
 						<dl>
-							<dt>TEI XML</dt><dd>XML following the Text Encoding Initiative guidelines. <span class="n" data-stat="encoding_tei">116 editions.</span></dd>
-							<dt>Other XML</dt><dd>XML in a project-specific schema, not TEI. <span class="n" data-stat="encoding_xml">20 editions.</span></dd>
-							<dt>HTML</dt><dd>Texts published as web pages. <span class="n" data-stat="encoding_html">29 editions.</span></dd>
+							<dt>TEI XML</dt><dd>XML following the Text Encoding Initiative guidelines. <span class="n" data-stat="encoding_tei">112 editions.</span></dd>
+							<dt>Other XML</dt><dd>XML in a project-specific schema, not TEI. <span class="n" data-stat="encoding_xml">17 editions.</span></dd>
+							<dt>JSON</dt><dd>Structured text data in JSON files. <span class="n" data-stat="encoding_json">1 edition.</span></dd>
+							<dt>HTML</dt><dd>Texts published as web pages. <span class="n" data-stat="encoding_html">34 editions.</span></dd>
 							<dt>Wikitext</dt><dd>Wiki markup, as used by Wikisource. <span class="n" data-stat="encoding_wikitext">8 editions.</span></dd>
 							<dt>Plain text</dt><dd>Text files without structural markup. <span class="n" data-stat="encoding_plain_text">13 editions.</span></dd>
 							<dt>Markdown</dt><dd>Text with lightweight Markdown markup. <span class="n" data-stat="encoding_markdown">1 edition.</span></dd>
-							<dt>Other</dt><dd>Another format, such as TSV, CoNLL-U or JSON. <span class="n" data-stat="encoding_other">10 editions.</span></dd>
+							<dt>Other</dt><dd>Another format, such as TSV or CoNLL-U. <span class="n" data-stat="encoding_other">11 editions.</span></dd>
 						</dl>
 					</div>
 				</div>
-				<p class="defs-note">The encoding is the richest format in which an edition publishes or documents its text: TEI XML first, then other XML, HTML, wiki markup, plain text and Markdown.<span data-if="with_data_url"> Where an edition’s files can be downloaded (repository, download page or dataset record), the record links them, and the Files filter lists editions by the format of their files.</span></p>
+				<p class="defs-note">The encoding is the richest publicly available text format: TEI XML first, then other XML, JSON, HTML, wiki markup, plain text and Markdown. Internal search or storage formats do not establish a public download format.<span data-if="with_data_url"> Where an edition’s files can be downloaded (repository, download page or dataset record), the record links them, and the Files filter lists editions under every recorded download format.</span></p>
 			</div>
 		</div>
 
@@ -740,7 +738,7 @@ figure { margin: 0; }
 					<a class="btn" href="https://github.com/Pantagrueliste/renascor/blob/main/schema/entry.schema.json">Schema (GitHub)</a>
 				</div>
 				<p class="small" style="margin-top:10px">UTF-8 CSV, one row per edition; lists are separated by semicolons.</p>
-				<p>Data version: <span data-if="data_commit_short">commit <a href="https://github.com/Pantagrueliste/renascor/commit/35d811836243c05257d2cc5763909f08000ebcf8" data-href="data_commit_url"><span class="sr-only">Data commit </span><code data-stat="data_commit_short">35d8118</code><span class="sr-only"> on GitHub</span></a> of </span><span data-stat="updated_long">8 October 2026</span>, catalogue version <span data-stat="version">0.1.0</span>. Please cite the version you used.</p>
+				<p>Data version: <span data-if="data_commit_short">commit <a href="https://github.com/Pantagrueliste/renascor/commit/5484f765d869cc6ccf2a05eba3df002d1a4ea830" data-href="data_commit_url"><span class="sr-only">Data commit </span><code data-stat="data_commit_short">5484f76</code><span class="sr-only"> on GitHub</span></a> of </span><span data-stat="updated_long">9 October 2026</span>, catalogue version <span data-stat="version">0.1.0</span>. Please cite the version you used.</p>
 				<h3>How to cite</h3>
 				<div class="cite-box"><span id="cite-text"><span data-stat="citation_author_year">Godbarge, Clément (2026).</span> <em data-stat="citation_title">Renascor: An open catalogue of digital editions of Renaissance-era written documents</em> <span data-stat="citation_tail">(Version 0.1.0) [Data set]. https://pantagrueliste.github.io/renascor/</span></span><button type="button" class="btn" id="cite-copy">Copy citation</button></div>
 				<p>The data are released under <a href="https://github.com/Pantagrueliste/renascor/blob/main/LICENSE-DATA">CC0 1.0</a>: they can be reused for any purpose without permission or attribution, though a citation is appreciated. The code is released under the <a href="https://github.com/Pantagrueliste/renascor/blob/main/LICENSE">MIT licence</a>. Citation metadata: <a href="https://github.com/Pantagrueliste/renascor/blob/main/CITATION.cff">CITATION.cff</a>.</p>
@@ -763,7 +761,7 @@ figure { margin: 0; }
 
 <footer class="site-foot">
 	<div class="wrap">
-		<span>Renascor <span data-stat="version">0.1.0</span> · data of <span data-stat="updated_long">8 October 2026</span></span>
+		<span>Renascor <span data-stat="version">0.1.0</span> · data of <span data-stat="updated_long">9 October 2026</span></span>
 		<span>Data <a href="https://github.com/Pantagrueliste/renascor/blob/main/LICENSE-DATA">CC0 1.0</a> · Code <a href="https://github.com/Pantagrueliste/renascor/blob/main/LICENSE">MIT</a></span>
 		<span>Maintained by Clément Godbarge, Lecturer in Digital Humanities, University of St Andrews</span>
 		<span class="right"><a href="https://github.com/Pantagrueliste/renascor">github.com/Pantagrueliste/renascor</a></span>

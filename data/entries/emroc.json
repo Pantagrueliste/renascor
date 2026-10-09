@@ -13,5 +13,14 @@
   "texts": 25,
   "period": "1564-1692",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 248907,
+    "texts": 25
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

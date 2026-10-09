@@ -1,5 +1,5 @@
 {
-  "comment": "Encodings verified at the source (files sampled, documentation read) in the audit of 2026-10-08. scripts/rq_encoding.py treats them as authoritative over fmt_detected, which records the format the RQ Open Corpus ingested rather than the format the edition publishes.",
+  "comment": "Source-verified public text formats. Internal edition encoding and RQ harvest format are recorded in the evidence, but do not override the available public format.",
   "checked": "2026-10-08",
   "entries": {
     "abacus-baroque": {
@@ -87,10 +87,10 @@
       "confidence": "high"
     },
     "bibcertxt": {
-      "encoding": "tei",
+      "encoding": "html",
       "public_files": "none",
       "data_url": null,
-      "basis": "BVMC's own record in the TEI Consortium's project list states its books are encoded in TEI-XML and that the HTML is generated from those TEI-XML sources by XSLT. BVMC.Labs (2022) also refers to its theatre 'documentos originales en formato TEI'. The 2022 EPUB of a BibCerTxt work carries the BVMC generator meta 'XML2HTML 20040212'. So the texts are TEI internally, but BVMC publishes only HTML, EPUB and PDF.",
+      "basis": "Public format: HTML transcriptions; internal XML/TEI encoding does not establish publicly available XML files. Previous source audit: BVMC's own record in the TEI Consortium's project list states its books are encoded in TEI-XML and that the HTML is generated from those TEI-XML sources by XSLT. BVMC.Labs (2022) also refers to its theatre 'documentos originales en formato TEI'. The 2022 EPUB of a BibCerTxt work carries the BVMC generator meta 'XML2HTML 20040212'. So the texts are TEI internally, but BVMC publishes only HTML, EPUB and PDF.",
       "confidence": "medium"
     },
     "biblioteca-italiana": {
@@ -353,10 +353,10 @@
       "confidence": "high"
     },
     "dissed-phdeditions": {
-      "encoding": "tei",
+      "encoding": "other",
       "public_files": "none",
       "data_url": null,
-      "basis": "Four of the five source theses (Sjökvist 2007 and 2012, De Carolis 2015, Tondi 2019) publish their edited text only as PDF. The fifth, Salvati 2024 (Ladam, Chronique abrégée, about 39% of the entry's characters), is explicitly documented in its own PDF as a TEI-XML P5 digital edition, so tei ranks highest by precedence. That TEI was never published.",
+      "basis": "Public format: PDF editions; the documented TEI file was not published. Previous source audit: Four of the five source theses (Sjökvist 2007 and 2012, De Carolis 2015, Tondi 2019) publish their edited text only as PDF. The fifth, Salvati 2024 (Ladam, Chronique abrégée, about 39% of the entry's characters), is explicitly documented in its own PDF as a TEI-XML P5 digital edition, so tei ranks highest by precedence. That TEI was never published.",
       "confidence": "medium"
     },
     "doctrinalima1584-quechua": {
@@ -570,10 +570,10 @@
       "confidence": "high"
     },
     "fran-slovenian16c": {
-      "encoding": "tei",
+      "encoding": "html",
       "public_files": "none",
       "data_url": null,
-      "basis": "Korpus 16's own 'Osnovne informacije' page says the simple XML tags of the double-keyed transcriptions were converted to TEI XML, and that the texts were then published on the website. The colophon credits 'Pretvorba v TEI'. That is explicit project documentation of TEI encoding. The plain text in RQ is RQ's own scrape of the HTML reader.",
+      "basis": "Public format: HTML transcriptions; internal XML/TEI encoding does not establish publicly available XML files. Previous source audit: Korpus 16's own 'Osnovne informacije' page says the simple XML tags of the double-keyed transcriptions were converted to TEI XML, and that the texts were then published on the website. The colophon credits 'Pretvorba v TEI'. That is explicit project documentation of TEI encoding. The plain text in RQ is RQ's own scrape of the HTML reader.",
       "confidence": "high"
     },
     "freem": {
@@ -640,11 +640,12 @@
       "confidence": "high"
     },
     "glasgowemblems": {
-      "encoding": "xml",
+      "encoding": "html",
       "public_files": "none",
       "data_url": null,
-      "basis": "The project's own help pages (Alciato at Glasgow and French Emblems at Glasgow) say each emblem was keyed and marked up in XML, used behind the scenes for search. No project page names TEI. A 2022 third-party review (Quaranta, Renaissance and Reformation 45.3) reports the books were transcribed in XML validated against a customised TEI Lite. That would justify 'tei' only if a reviewer's statement is accepted as documentation. The public site itself serves only HTML.",
-      "confidence": "medium"
+      "basis": "The publicly accessible edition publishes transcriptions as HTML pages. Its internal XML search data are not offered as public XML downloads. Encoding here describes the publicly available text; source XML is recorded separately when it can be obtained.",
+      "confidence": "medium",
+      "checked": "2026-10-09"
     },
     "gondomar-galician": {
       "encoding": "tei",
@@ -724,10 +725,10 @@
       "confidence": "high"
     },
     "interregnum-acts": {
-      "encoding": "xml",
+      "encoding": "html",
       "public_files": "none",
       "data_url": null,
-      "basis": "BHO publishes this volume only as HTML pages. The project documents that its double-rekeyed texts are stored in a lightweight custom XML ('BHO syntax', DOCTYPE report SYSTEM 'dtd/report.dtd'), which is not TEI. RQ's 'plain' is its own JSONL scrape of the HTML pages. The value is xml under the 'documented' rule; it would be html if only public formats counted.",
+      "basis": "Public format: HTML transcriptions; internal XML/TEI encoding does not establish publicly available XML files. Previous source audit: BHO publishes this volume only as HTML pages. The project documents that its double-rekeyed texts are stored in a lightweight custom XML ('BHO syntax', DOCTYPE report SYSTEM 'dtd/report.dtd'), which is not TEI. RQ's 'plain' is its own JSONL scrape of the HTML pages. The value is xml under the 'documented' rule; it would be html if only public formats counted.",
       "confidence": "medium"
     },
     "izbornyk-ukrainian": {
@@ -1109,11 +1110,15 @@
       "confidence": "high"
     },
     "sefaria": {
-      "encoding": "html",
-      "public_files": "none",
+      "encoding": "json",
+      "public_files": "json",
       "data_url": "https://github.com/Sefaria/Sefaria-Export",
-      "basis": "Sefaria publishes its texts as HTML reader pages, and its developer docs say the text segments themselves carry inline HTML (<b>, <br>, <small>, footnote <sup>/<i>, <i data-commentator>). Its official bulk export offers only JSON, TXT and CLTK-JSON, and both JSON and TXT keep those HTML tags. No XML or TEI is published anywhere, so by the precedence html > plain-text the encoding is html.",
-      "confidence": "high"
+      "basis": "Official Sefaria-Export README publishes structured JSON, TXT and CLTK JSON. JSON preserves the text structure, even when strings contain inline HTML. The public website is a reader; its HTML is not the primary export container.",
+      "confidence": "high",
+      "other_formats": [
+        "plain-text"
+      ],
+      "checked": "2026-10-09"
     },
     "senie-latvian": {
       "encoding": "tei",
@@ -1151,10 +1156,10 @@
       "confidence": "high"
     },
     "spxvi-polish16c": {
-      "encoding": "tei",
+      "encoding": "html",
       "public_files": "none",
       "data_url": "https://spxvi.edu.pl/korpus/teksty/",
-      "basis": "The project documents TEI P5 XML explicitly in two places. The page spxvi.edu.pl/korpus/ says the corpus was 'opracowanego zgodnie ze specyfikacją TEI (Text Encoding Initiative) w wersji P5'. Opaliński & Potoniec 2020 (DOI 10.33896/PorJ.2020.8.2) say the texts are encoded in XML in a TEI P5 selection and transformed with XSLT/XSL-FO into HTML for spxvi.edu.pl and into PDF. No TEI file was observed; the public output is HTML only.",
+      "basis": "Public format: HTML transcriptions; internal XML/TEI encoding does not establish publicly available XML files. Previous source audit: The project documents TEI P5 XML explicitly in two places. The page spxvi.edu.pl/korpus/ says the corpus was 'opracowanego zgodnie ze specyfikacją TEI (Text Encoding Initiative) w wersji P5'. Opaliński & Potoniec 2020 (DOI 10.33896/PorJ.2020.8.2) say the texts are encoded in XML in a TEI P5 selection and transformed with XSLT/XSL-FO into HTML for spxvi.edu.pl and into PDF. No TEI file was observed; the public output is HTML only.",
       "confidence": "high"
     },
     "ssrq-swisslaw": {
@@ -1165,10 +1170,10 @@
       "confidence": "high"
     },
     "statutes-realm": {
-      "encoding": "xml",
+      "encoding": "html",
       "public_files": "none",
       "data_url": null,
-      "basis": "BHO publishes vols 5-7 only as HTML pages. The project documents that its double-rekeyed texts are stored in a lightweight custom XML ('BHO syntax', report.dtd), which is not TEI. RQ's 'plain' is its own JSONL scrape of those pages. The value is xml under the 'documented' rule; it would be html if only public formats counted.",
+      "basis": "Public format: HTML transcriptions; internal XML/TEI encoding does not establish publicly available XML files. Previous source audit: BHO publishes vols 5-7 only as HTML pages. The project documents that its double-rekeyed texts are stored in a lightweight custom XML ('BHO syntax', report.dtd), which is not TEI. RQ's 'plain' is its own JSONL scrape of those pages. The value is xml under the 'documented' rule; it would be html if only public formats counted.",
       "confidence": "medium"
     },
     "suriano-correspondence": {

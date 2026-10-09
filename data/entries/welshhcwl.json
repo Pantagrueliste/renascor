@@ -13,6 +13,15 @@
   "words": 276280,
   "texts": 18,
   "period": "1487-1700",
-  "notes": "HCWL 1500-1850 is a ~420,000-word TEI-XML corpus of 30 Welsh texts (incl. Y Beibl Cyssegr-lan 1588, A study of three Welsh religious plays, Report on Manuscripts in the Welsh Language...) built at Cambridge c. 2004, hosted at celticstudies.net (which the harvest used as mirror; 'HCWL celticstudies.net mirror -> b1588.xml', bll.xml, cardiff6.xml etc. are the corpus's XML master files); a parsed derivative (PARSHCWL) and a LINDAT/CLARIAH-CZ deposit (LRT-883) also exist. Site copyright 2004, University of Cambridge; effectively archived. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "University of Cambridge, Linguistics Dept. (David Willis)"
+  "notes": "HCWL 1500-1850 is a ~420,000-word TEI-XML corpus of 30 Welsh texts (incl. Y Beibl Cyssegr-lan 1588, A study of three Welsh religious plays, Report on Manuscripts in the Welsh Language...) built at Cambridge c. 2004, hosted at celticstudies.net (which the harvest used as mirror; 'HCWL celticstudies.net mirror -> b1588.xml', bll.xml, cardiff6.xml etc. are the corpus's XML master files); a parsed derivative (PARSHCWL) and a LINDAT/CLARIAH-CZ deposit (LRT-883) also exist. Site copyright 2004, University of Cambridge; effectively archived. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "University of Cambridge, Linguistics Dept. (David Willis)",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 276280,
+    "texts": 18
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Custom terms",
+  "license_url": "https://www.celticstudies.net/footer.htm",
+  "license_note": "Source-specific reuse conditions; no standard open licence established."
 }

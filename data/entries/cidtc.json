@@ -20,6 +20,15 @@
   "words": 1911266,
   "texts": 4614,
   "period": "1500-1549",
-  "notes": "CIDTC is the digital critical edition of the correspondence of Johannes Dantiscus (1485-1548), royal Polish diplomat, published online at the University of Warsaw's editions.al.uw.edu.pl on an eXist-db/TEI-Publisher stack. The root URL shows a bare eXist-db landing page; the edition app itself lives at /exist/apps/dantiscus/ (verified 200, title 'Dantiscus' Correspondence'), serving TEI P5 XML files with IDs of the form IDLxxxxx.xml exactly as the origin indicates. Origin verbatim: 'CIDTC editions.al.uw.edu.pl -> IDL5422.xml'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Faculty of 'Artes Liberales', University of Warsaw (editions.al.uw.edu.pl)"
+  "notes": "CIDTC is the digital critical edition of the correspondence of Johannes Dantiscus (1485-1548), royal Polish diplomat, published online at the University of Warsaw's editions.al.uw.edu.pl on an eXist-db/TEI-Publisher stack. The root URL shows a bare eXist-db landing page; the edition app itself lives at /exist/apps/dantiscus/ (verified 200, title 'Dantiscus' Correspondence'), serving TEI P5 XML files with IDs of the form IDLxxxxx.xml exactly as the origin indicates. Origin verbatim: 'CIDTC editions.al.uw.edu.pl -> IDL5422.xml'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "Faculty of 'Artes Liberales', University of Warsaw (editions.al.uw.edu.pl)",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 1911266,
+    "texts": 4614
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Copyright",
+  "license_url": "http://dantiscus.al.uw.edu.pl/?menu=citation&f=citation&lang=eng",
+  "license_note": "Copyright restrictions apply; no standard open reuse licence established."
 }

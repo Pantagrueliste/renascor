@@ -13,6 +13,15 @@
   "words": 1194918,
   "texts": 9,
   "period": "1529-1573",
-  "notes": "DSL project 'Musik og sprog i reformationstidens danske salmesang' (Carlsberg-funded) digitally published nine Danish hymnals and mass books of the Reformation era, 1529–1573; the four harvested texts (christian-3-bibel 1550, claus-mortensen-messe-1529, dietz-salmebog-1529/1536, jespersen_1573) match the origin ids 'DSL DSL_Salmer: ...' exactly by slug. Texts are served as TEI/XML from DSL's eXist-db (RQ harvest path data/raw/dsl_salmer/eXist-dbs/salmer/xml/), with companion portals melodier.dsl.dk and ordnet.dk/ren; project page at dsl.dk/projekter/musik-og-sprog-i-reformationstidens-danske-salmesang (200). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Det Danske Sprog- og Litteraturselskab (DSL), Copenhagen"
+  "notes": "DSL project 'Musik og sprog i reformationstidens danske salmesang' (Carlsberg-funded) digitally published nine Danish hymnals and mass books of the Reformation era, 1529–1573; the four harvested texts (christian-3-bibel 1550, claus-mortensen-messe-1529, dietz-salmebog-1529/1536, jespersen_1573) match the origin ids 'DSL DSL_Salmer: ...' exactly by slug. Texts are served as TEI/XML from DSL's eXist-db (RQ harvest path data/raw/dsl_salmer/eXist-dbs/salmer/xml/), with companion portals melodier.dsl.dk and ordnet.dk/ren; project page at dsl.dk/projekter/musik-og-sprog-i-reformationstidens-danske-salmesang (200). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "Det Danske Sprog- og Litteraturselskab (DSL), Copenhagen",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 1194918,
+    "texts": 9
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://dsl.dk/om-dsl/copyright",
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

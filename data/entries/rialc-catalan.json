@@ -11,6 +11,15 @@
   "words": 220010,
   "texts": 20,
   "period": "1455-1490",
-  "notes": "RIALC (built 1999-2003 at Naples Federico II, in collaboration with the Universities of Barcelona, UAB and Girona) is the standard digital library of medieval Catalan poetry: ~216 authors and ~1,600 13th-15th c. poems transcribed from critical editions (HTML, not TEI). The harvested texts ('RIALC: Joan de Masdovelles (~1460, 9 poems)', 'RIALC: Joan Berenguer de Masdovelles (~1460, 168 poems)', etc.) are author pages of this repertory. No explicit licence; site is live but the project is no longer actively extended. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Università degli Studi di Napoli Federico II (dir. Costanzo Di Girolamo, with Lola Badia)"
+  "notes": "RIALC (built 1999-2003 at Naples Federico II, in collaboration with the Universities of Barcelona, UAB and Girona) is the standard digital library of medieval Catalan poetry: ~216 authors and ~1,600 13th-15th c. poems transcribed from critical editions (HTML, not TEI). The harvested texts ('RIALC: Joan de Masdovelles (~1460, 9 poems)', 'RIALC: Joan Berenguer de Masdovelles (~1460, 168 poems)', etc.) are author pages of this repertory. No explicit licence; site is live but the project is no longer actively extended. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "Università degli Studi di Napoli Federico II (dir. Costanzo Di Girolamo, with Lola Badia)",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 220010,
+    "texts": 20
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "http://www.rialc.unina.it/_private/presentazione-dreta.htm",
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

@@ -7,10 +7,19 @@
   "languages": [
     "English"
   ],
-  "encoding": "xml",
+  "encoding": "html",
   "words": 1346924,
   "texts": 954,
   "period": "1642-1659",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 1346924,
+    "texts": 954
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_url": "https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

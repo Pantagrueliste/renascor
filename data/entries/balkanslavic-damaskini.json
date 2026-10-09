@@ -13,6 +13,14 @@
   "words": 44047,
   "texts": 1,
   "period": "1650-1650",
-  "notes": "The 23-text Damaskini subcorpus (16th-19th c. Balkan Slavic, Bulgarian/Macedonian/Torlak, ~53k tokens) is exactly the resource published at CLARIN.SI handle 11356/1441 (v1.1, 2021) by the SNSF-funded ZuCoSlaV project of Ivan Simko (University of Zurich, Slavic Seminary). Mirror on UZH GitLab: https://gitlab.uzh.ch/uzh-slavic-corpora/pre-standardized-balkan-slavic-literature. Formats are TSV/CoNLL-U/plain text (not TEI). License: CC BY-SA 4.0. Origin verbatim: 'Damaskini (pre-standard Balkan Slavic), 17th c.'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "ZuCoSlaV project, Ivan Simko, University of Zurich, hosted at CLARIN.SI"
+  "notes": "The 23-text Damaskini subcorpus (16th-19th c. Balkan Slavic, Bulgarian/Macedonian/Torlak, ~53k tokens) is exactly the resource published at CLARIN.SI handle 11356/1441 (v1.1, 2021) by the SNSF-funded ZuCoSlaV project of Ivan Simko (University of Zurich, Slavic Seminary). Mirror on UZH GitLab: https://gitlab.uzh.ch/uzh-slavic-corpora/pre-standardized-balkan-slavic-literature. Formats are TSV/CoNLL-U/plain text (not TEI). License: CC BY-SA 4.0. Origin verbatim: 'Damaskini (pre-standard Balkan Slavic), 17th c.'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "ZuCoSlaV project, Ivan Simko, University of Zurich, hosted at CLARIN.SI",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 44047,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

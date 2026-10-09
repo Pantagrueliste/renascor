@@ -11,5 +11,14 @@
   "words": 2029235,
   "texts": 41,
   "period": "1525-1649",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://tmiweb.science.uu.nl/; rebuild/tmi_smi_italian_source_selection_2026-06-24.tsv; data/raw/TMI_SMI_Italian/TMI_SMI_Italian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://tmiweb.science.uu.nl/; rebuild/tmi_smi_italian_source_selection_2026-06-24.tsv; data/raw/TMI_SMI_Italian/TMI_SMI_Italian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 2029235,
+    "texts": 41
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://web.archive.org/web/20230529094521/https://euromusicology.cs.uu.nl/copyright.html",
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

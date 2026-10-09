@@ -13,6 +13,14 @@
   "words": 230403,
   "texts": 117,
   "period": "1654-1700",
-  "notes": "GerManC is the Leverhulme-funded (2005-2009) manually parsed corpus of German 1650-1800 sampled across nine text types and five 30-year periods; the 'Plays' collection (drama manuscripts and prints 1650-1700 in the harvest: 'GerManC drama 1673', '...1657', '...1699', '...1700') is deposited as a separate Oxford Text Archive record, ota:2544, in TEI-style XML with text and metadata; license CC-BY-NC (free distribution for non-commercial use with acknowledgment). The former project site germanc.lancs.ac.uk no longer responds (checked Oct 2026), so the OTA catalogue record (returning HTTP 200 behind an Anubis anti-bot gate) is the verified link. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "University of Manchester (Silke Regenbogen, Paul Bennett; superv. David Denison / Astrid Erdmann), deposited at the Oxford Text Archive (ota:2544)"
+  "notes": "GerManC is the Leverhulme-funded (2005-2009) manually parsed corpus of German 1650-1800 sampled across nine text types and five 30-year periods; the 'Plays' collection (drama manuscripts and prints 1650-1700 in the harvest: 'GerManC drama 1673', '...1657', '...1699', '...1700') is deposited as a separate Oxford Text Archive record, ota:2544, in TEI-style XML with text and metadata; license CC-BY-NC (free distribution for non-commercial use with acknowledgment). The former project site germanc.lancs.ac.uk no longer responds (checked Oct 2026), so the OTA catalogue record (returning HTTP 200 behind an Anubis anti-bot gate) is the verified link. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "University of Manchester (Silke Regenbogen, Paul Bennett; superv. David Denison / Astrid Erdmann), deposited at the Oxford Text Archive (ota:2544)",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 230403,
+    "texts": 117
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC-BY-NC-SA-3.0",
+  "license_url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2544"
 }

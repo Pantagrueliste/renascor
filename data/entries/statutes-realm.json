@@ -7,10 +7,19 @@
   "languages": [
     "English"
   ],
-  "encoding": "xml",
+  "encoding": "html",
   "words": 1112931,
   "texts": 291,
   "period": "1625-1697",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 1112931,
+    "texts": 291
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_url": "https://www.british-history.ac.uk/statutes-realm/vol5",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

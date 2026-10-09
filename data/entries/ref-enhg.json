@@ -13,6 +13,14 @@
   "words": 2440564,
   "texts": 144,
   "period": "1450-1625",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://zenodo.org/records/5793616; https://doi.org/10.5281/zenodo.5793616; data/raw/ref/ReF-v1.0.2/; rebuild/ref_raw_lock_2026-06-13.tsv; rebuild/ref_source_selection_2026-06-13.tsv; rebuild/ref_sour",
-  "last_modified": "2021-12-21"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://zenodo.org/records/5793616; https://doi.org/10.5281/zenodo.5793616; data/raw/ref/ReF-v1.0.2/; rebuild/ref_raw_lock_2026-06-13.tsv; rebuild/ref_source_selection_2026-06-13.tsv; rebuild/ref_sour",
+  "last_modified": "2021-12-21",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 2440564,
+    "texts": 144
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://linguistics.rub.de/ref/access/index.html"
 }

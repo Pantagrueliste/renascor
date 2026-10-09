@@ -13,5 +13,14 @@
   "words": 818721,
   "texts": 32,
   "period": "1545-1696",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). https://klasikoak.armiarma.eus/; data/raw/basque_kg/KG-tei-0612/; rebuild/basque_kg_raw_lock_2026-06-13.tsv; rebuild/basque_kg_source_selection_2026-06-13.tsv; rebuild/basque_kg_source_native_audit_20"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://klasikoak.armiarma.eus/; data/raw/basque_kg/KG-tei-0612/; rebuild/basque_kg_raw_lock_2026-06-13.tsv; rebuild/basque_kg_source_selection_2026-06-13.tsv; rebuild/basque_kg_source_native_audit_20",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 818721,
+    "texts": 32
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://klasikoak.armiarma.eus/kgriburuz.htm",
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

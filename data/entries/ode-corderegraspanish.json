@@ -13,6 +13,15 @@
   "words": 203336,
   "texts": 138,
   "period": "1509-1700",
-  "notes": "Corpus diacrónico (~500k words) of unpublished archival documents of the Real Chancillería de Granada with facsimile, palaeographic and critical presentations, distributed through the CHARTA network at corpora.uah.es/charta (CORDEREGRA-*.xml); the project's own domain corderegra.es no longer resolves, so the entry points to its working host. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Universidad de Granada (Miguel Calderón Campos & M.ª Teresa García-Godoy); CHARTA network (corpora.uah.es)"
+  "notes": "Corpus diacrónico (~500k words) of unpublished archival documents of the Real Chancillería de Granada with facsimile, palaeographic and critical presentations, distributed through the CHARTA network at corpora.uah.es/charta (CORDEREGRA-*.xml); the project's own domain corderegra.es no longer resolves, so the entry points to its working host. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "Universidad de Granada (Miguel Calderón Campos & M.ª Teresa García-Godoy); CHARTA network (corpora.uah.es)",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 203336,
+    "texts": 138
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "http://corpora.ugr.es/ode/",
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

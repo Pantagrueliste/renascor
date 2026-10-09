@@ -26,7 +26,7 @@ This directory contains the system prompt for the weekly discovery agent.
 Edit `discovery_prompt.md` directly. No code changes are needed. The prompt defines:
 
 - the project context
-- relevance criteria (digital edition, Renaissance-era, stable URL, not already catalogued)
+- relevance criteria (digital edition, Renaissance-era, stable URL, no repeated record of the same resource; overlapping texts are allowed)
 - where to search
 - the output format (exact JSON schema)
 - how to report uncertainty

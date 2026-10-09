@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Import RQ Open Corpus collections into Renascor entries.
+"""Import Renascor Corpus collections into Renascor entries.
 
 Reads the frozen RQ corpus metadata database (SQLite), groups its
 collections into canonical edition projects via scripts/rq_families.json
@@ -36,7 +36,8 @@ FAMILIES_PATH = REPO_ROOT / "scripts" / "rq_families.json"
 
 STATS_NOTE = (
     "Corpus statistics (text, word and language counts, period) derived "
-    "from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+    "from the Renascor Corpus snapshot v2026.06 "
+    "(in-core, including retained duplicates; harvested subset)."
 )
 
 FALLBACK_URL = "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen"
@@ -69,31 +70,56 @@ def canonical_for(collection: str, groups: list[dict]) -> dict | None:
     return None
 
 
-def aggregate(db_path: Path, collections: list[str]) -> dict:
-    """Aggregate in-core, deduplicated texts over a set of RQ collections."""
-    con = sqlite3.connect(db_path)
+def aggregate(db_path: Path, collections: list[str], resource_counts: dict | None = None) -> dict:
+    """Resource sizes include retained duplicates; keep corpus contributions separately."""
+    con = sqlite3.connect(db_path.resolve().as_uri() + "?mode=ro", uri=True)
     placeholders = ",".join("?" * len(collections))
     rows = con.execute(
-        f"SELECT lang_display, year, wordcount, fmt_detected, origin FROM texts "
-        f"WHERE in_core=1 AND is_dup=0 AND collection IN ({placeholders})",
+        f"SELECT lang_display, year, wordcount, fmt_detected, origin, is_dup FROM texts "
+        f"WHERE in_core=1 AND collection IN ({placeholders})",
         collections,
     ).fetchall()
     con.close()
     langs, fmts, origins, years, words = set(), set(), [], [], 0
-    for lang, year, wordcount, fmt, origin in rows:
+    corpus_words, corpus_texts = 0, 0
+    for lang, year, wordcount, fmt, origin, is_dup in rows:
         if lang:
             langs.add(lang)
         if year:
             years.append(int(year))
         if isinstance(wordcount, int):
             words += wordcount
+        if is_dup == 0:
+            corpus_words += wordcount or 0
+            corpus_texts += 1
         if fmt:
             fmts.add(fmt)
         if origin:
             origins.append(origin)
-    return {"langs": langs, "fmts": fmts, "origins": origins,
+    result = {"langs": langs, "fmts": fmts, "origins": origins,
             "period": (min(years), max(years)) if years else None,
-            "words": words, "texts": len(rows)}
+            "words": words, "texts": len(rows), "corpus_words": corpus_words,
+            "corpus_texts": corpus_texts, "restored_texts": 0}
+    if resource_counts and all(c in resource_counts for c in collections):
+        from rq_statistics import aggregate_collections
+        result.update(aggregate_collections(resource_counts, collections))
+    return result
+
+
+def set_statistics(entry: dict, stats: dict) -> None:
+    if entry.get("resource_statistics"):
+        return
+    entry["words"] = stats["words"]
+    entry["texts"] = stats["texts"]
+    entry["corpus_statistics"] = {"snapshot": "v2026.06", "words": stats["corpus_words"],
+                                  "texts": stats["corpus_texts"]}
+    entry["count_basis"] = ("rq-retained-rows-and-staging" if stats.get("restored_texts")
+                            else "rq-retained-rows")
+    note = entry.get("notes", "")
+    pattern = (r"Corpus statistics \(text, word and language counts, period\) derived "
+               r"from the (?:Renascor Corpus|RQ Open Corpus) snapshot v2026\.06 \([^)]*\)\.?")
+    entry["notes"] = (re.sub(pattern, STATS_NOTE, note) if re.search(pattern, note)
+                      else (note + " " + STATS_NOTE).strip())
 
 
 def build_entry(group: dict, stats: dict, existing: dict | None, today: str,
@@ -111,16 +137,20 @@ def build_entry(group: dict, stats: dict, existing: dict | None, today: str,
             entry["notes"] = group["notes"]
         if group.get("status"):
             entry["status"] = group["status"]
+    for field in ("data_url", "data_format", "data_formats", "api_url"):
+        if group.get(field):
+            entry[field] = group[field]
     entry["languages"] = sorted(
         set(entry.get("languages") or []) | {code for code in stats["langs"] if code}
     )
     if merge_stats:
         # an explicit "encoding" on the family group overrides the fmt-derived one
-        entry["encoding"] = group.get("encoding") or primary_encoding(stats["fmts"])
-        if stats["words"]:
-            entry["words"] = stats["words"]
-        entry["texts"] = stats["texts"]
-        if stats["period"]:
+        verified = json.loads((REPO_ROOT / "scripts/rq_encoding_verified.json").read_text())["entries"]
+        entry["encoding"] = ((verified.get(group["slug"]) or {}).get("encoding")
+                             or group.get("encoding") or entry.get("encoding")
+                             or primary_encoding(stats["fmts"]))
+        set_statistics(entry, stats)
+        if stats["period"] and not entry.get("resource_statistics"):
             lo, hi = stats["period"]
             entry["period"] = f"{lo}-{hi}"
     return entry
@@ -128,7 +158,7 @@ def build_entry(group: dict, stats: dict, existing: dict | None, today: str,
 
 FALLBACK_NOTE = (
     "No public project page could be verified for this collection; it is "
-    "documented here as a corpus collection of the RQ Open Corpus snapshot "
+    "documented here as a corpus collection of the Renascor Corpus working snapshot "
     "(v2026.06-frozen). The original harvest reference is given below."
 )
 
@@ -169,13 +199,14 @@ def inventory_entry(collection: str, inv_row: dict, stats: dict, today: str,
         entry["period"] = f"{stats['period'][0]}-{stats['period'][1]}"
     origin_sample = inv_row["source_ref"][:200]
     entry["notes"] = f"{notes} {origin_sample}".strip()
+    set_statistics(entry, stats)
     return entry
 
 
-FMT_MAP = {"tei": "tei", "xml": "xml", "html": "html", "wiki": "wikitext",
+FMT_MAP = {"tei": "tei", "xml": "xml", "json": "json", "html": "html", "wiki": "wikitext",
            "wikitext": "wikitext", "plain": "plain-text", "txt": "plain-text",
            "md": "markdown"}
-ENCODING_PRECEDENCE = ["tei", "xml", "html", "wikitext", "plain-text", "markdown"]
+ENCODING_PRECEDENCE = ["tei", "xml", "json", "html", "wikitext", "plain-text", "markdown"]
 
 
 def primary_encoding(fmts: set) -> str:
@@ -196,16 +227,26 @@ def main() -> int:
     parser.add_argument("--out-dir", type=Path, default=REPO_ROOT / "data" / "entries")
     parser.add_argument("--report", type=Path,
                         default=REPO_ROOT / "data" / "rq_pending.csv")
+    parser.add_argument("--statistics", type=Path, default=REPO_ROOT / "data/rq_statistics.json",
+                        help="Recovered resource counts from rq_statistics.py; used only for the matching DB")
     args = parser.parse_args()
     today = date.today().isoformat()
 
-    groups = json.loads(args.families.read_text(encoding="utf-8"))["groups"]
     fams = json.loads(args.families.read_text(encoding="utf-8"))
     groups = fams["groups"]
     known_all = fams.get("known_collections", {})
+    resource_counts = None
+    if args.statistics.is_file():
+        from rq_statistics import checksum
+        saved = json.loads(args.statistics.read_text())
+        if saved["database_sha256"] == checksum(args.db):
+            resource_counts = saved["collections"]
+        else:
+            print("Resource count audit belongs to a different database; using retained rows only", file=sys.stderr)
+    licenses = json.loads((REPO_ROOT / "scripts/rq_licenses_verified.json").read_text())["entries"]
     con = sqlite3.connect(args.db)
     collections = [r[0] for r in con.execute(
-        "SELECT DISTINCT collection FROM texts WHERE in_core=1 AND is_dup=0 ORDER BY collection"
+        "SELECT DISTINCT collection FROM texts WHERE in_core=1 ORDER BY collection"
     )]
     con.close()
 
@@ -232,7 +273,7 @@ def main() -> int:
         members = [c for c in members if c not in g.get("drop", [])]
         if not members:
             continue
-        stats = aggregate(args.db, members)
+        stats = aggregate(args.db, members, resource_counts)
         out_path = args.out_dir / f"{slug}.json"
         existing = None
         if out_path.exists():
@@ -245,6 +286,8 @@ def main() -> int:
             continue
         entry = build_entry(g, stats, existing, today,
                             merge_stats=g.get("merge_stats", True))
+        licence = licenses.get(slug, {"license": "Not stated"})
+        entry.update({k: v for k, v in licence.items() if k in ("license", "license_url", "license_note")})
         out_path.write_text(
             json.dumps(entry, indent=2, ensure_ascii=False) + "\n",
             encoding="utf-8",
@@ -275,10 +318,15 @@ def main() -> int:
             print(f"Warning: {path.name} exists with a different title; not overwriting",
                   file=sys.stderr)
             continue
-        stats = aggregate(args.db, [c])
+        stats = aggregate(args.db, [c], resource_counts)
         row = inventory.get(c)
         new_entry = inventory_entry(c, row, stats, today, known_all.get(c)) if row else None
         if new_entry:
+            licence = licenses.get(slug, {"license": "Not stated"})
+            new_entry.update({k: v for k, v in licence.items() if k in ("license", "license_url", "license_note")})
+            verified = json.loads((REPO_ROOT / "scripts/rq_encoding_verified.json").read_text())["entries"]
+            if slug in verified:
+                new_entry["encoding"] = verified[slug]["encoding"]
             path.write_text(json.dumps(new_entry, indent=2, ensure_ascii=False) + "\n",
                             encoding="utf-8")
             imported_leftovers.append(slug)
@@ -298,7 +346,7 @@ def main() -> int:
                 "SELECT COUNT(*), COALESCE(SUM(wordcount),0), "
                 "GROUP_CONCAT(DISTINCT lang_display), MIN(year), MAX(year), "
                 "COALESCE(MIN(origin),'') FROM texts "
-                "WHERE in_core=1 AND is_dup=0 AND collection=?", (c,)
+                "WHERE in_core=1 AND collection=?", (c,)
             ).fetchone()
             period = f"{r[3]}-{r[4]}" if r[3] is not None else ""
             w.writerow([c, r[0], r[1], r[2], period, r[5][:120]])

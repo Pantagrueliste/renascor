@@ -1,5 +1,5 @@
 {
-  "comment": "Canonical family map: RQ Open Corpus collections -> Renascor entries (one entry per documented edition project, all languages merged). First matching rule wins. Unmatched collections go to the pending report.",
+  "comment": "Canonical family map: Renascor Corpus collections -> Renascor entries (one entry per documented edition project, all languages merged). First matching rule wins. Unmatched collections go to the pending report.",
   "exclude": {
     "AbsentLangFill": "internal RQ harvest bucket (remaining_missing fill for languages absent from other collections), not a corpus collection",
     "Calvin_Institutio": "personal parallel-text reader (calvin.reformation.nl) with no colophon, editor or licence; not a scholarly edition; Barth-Niesel Latin base and modern translations may be in copyright",
@@ -69,7 +69,15 @@
         "^Sefaria"
       ],
       "title": "Sefaria",
-      "url": "https://www.sefaria.org/"
+      "url": "https://www.sefaria.org/",
+      "encoding": "json",
+      "data_url": "https://github.com/Sefaria/Sefaria-Export",
+      "data_format": "json",
+      "data_formats": [
+        "json",
+        "plain-text"
+      ],
+      "api_url": "https://developers.sefaria.org/reference"
     },
     {
       "slug": "openiti",
@@ -99,7 +107,7 @@
       ],
       "title": "Wikisource",
       "url": "https://wikisource.org/",
-      "notes": "Texts harvested from the language subdomains of Wikisource (de, es, it, ca, cs, el, sv, pl, hr, hu, pt, az, among others), the multilingual library of openly licensed digitised source texts; the entry points to the portal wikisource.org, whose per-language subdomains host each text. Several RQ collections scope Renaissance-era texts and early Bibles specifically (e.g. Luther NT 1522, Gustav Vasa Bible 1541, Diodati 1607). Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+      "notes": "Texts harvested from the language subdomains of Wikisource (de, es, it, ca, cs, el, sv, pl, hr, hu, pt, az, among others), the multilingual library of openly licensed digitised source texts; the entry points to the portal wikisource.org, whose per-language subdomains host each text. Several RQ collections scope Renaissance-era texts and early Bibles specifically (e.g. Luther NT 1522, Gustav Vasa Bible 1541, Diodati 1607). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
       "slug": "project-gutenberg",
@@ -265,8 +273,10 @@
         "^PostScriptum$"
       ],
       "title": "P.S. Post Scriptum (Arquivo Digital de Escrita Quotidiana)",
-      "url": "https://post-scriptum.org/",
-      "institution": "Centro de Linguística da Universidade de Lisboa (CLUL)"
+      "url": "http://teitok.clul.ul.pt/postscriptum/",
+      "institution": "Centro de Linguística da Universidade de Lisboa (CLUL)",
+      "data_url": "http://teitok.clul.ul.pt/postscriptum/index.php?action=downloads",
+      "data_format": "tei"
     },
     {
       "slug": "wolnelektury",
@@ -438,7 +448,7 @@
       "title": "KorBa — Elektroniczny korpus tekstów polskich z XVII i XVIII w.",
       "url": "https://korba.edu.pl/",
       "institution": "Instytut Języka Polskiego, Polska Akademia Nauk (IJP PAN)",
-      "notes": "KorBa (korba.edu.pl) is the largest corpus of historical Polish (1601-1800, ~27M segments), TEI P5 encoded with transcription/transliteration layers and rich metadata; maintained by the Institute of Polish Language, Polish Academy of Sciences (IJP PAN) with IPI PAN, PI Włodzimierz Gruszczyński, National Humanities Programme (2013-2023). The manually annotated subcorpus is downloadable under CC BY-SA (the legacy hostname korba.clarin-pl.eu no longer resolves). The RQ snapshot contains three collections of this project (KorBa_Polish, KorBa_Polish_full17c and KorbaText, the plain-text layer whose titles match KorBa's published text list), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+      "notes": "KorBa (korba.edu.pl) is the largest corpus of historical Polish (1601-1800, ~27M segments), TEI P5 encoded with transcription/transliteration layers and rich metadata; maintained by the Institute of Polish Language, Polish Academy of Sciences (IJP PAN) with IPI PAN, PI Włodzimierz Gruszczyński, National Humanities Programme (2013-2023). The manually annotated subcorpus is downloadable under CC BY-SA (the legacy hostname korba.clarin-pl.eu no longer resolves). The Renascor Corpus working snapshot contains three collections of this project (KorBa_Polish, KorBa_Polish_full17c and KorbaText, the plain-text layer whose titles match KorBa's published text list), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
       "slug": "old-hungarian-corpus",
@@ -449,7 +459,7 @@
       "title": "Old Hungarian Corpus (Régi Magyar Nyelvemlékek)",
       "url": "http://oldhungariancorpus.nytud.hu/",
       "institution": "Research Institute for Linguistics, Hungarian Academy of Sciences (MGTSZ)",
-      "notes": "Old Hungarian Corpus of codices and early printed books (11th-16th c., original orthography betűhű and phonemic levels), maintained by the Hungarian Generative Diachronic Syntax project at the Research Institute for Linguistics. The RQ snapshot contains two collections of this resource (HungarianCorpus and MGTSZ_AporCodex, the Apor Codex file), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+      "notes": "Old Hungarian Corpus of codices and early printed books (11th-16th c., original orthography betűhű and phonemic levels), maintained by the Hungarian Generative Diachronic Syntax project at the Research Institute for Linguistics. The Renascor Corpus working snapshot contains two collections of this resource (HungarianCorpus and MGTSZ_AporCodex, the Apor Codex file), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     },
     {
       "slug": "gongora-soledades",
@@ -459,7 +469,7 @@
       "title": "Soledades. Edición digital (Luis de Góngora, 1613) — ed. Antonio Rojas Castro",
       "url": "https://github.com/arojascastro/soledades",
       "institution": "ed. Antonio Rojas Castro",
-      "notes": "TEI encodings and datasets supporting the digital edition of Góngora's Soledades (1613) in the arojascastro/soledades GitHub repository: an annotated edition (soledades_anotada.xml), a critical edition (soledades_critica.xml) and simple transcriptions. The RQ harvest labelled this set 'GitHubTEI'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+      "notes": "TEI encodings and datasets supporting the digital edition of Góngora's Soledades (1613) in the arojascastro/soledades GitHub repository: an annotated edition (soledades_anotada.xml), a critical edition (soledades_critica.xml) and simple transcriptions. The RQ harvest labelled this set 'GitHubTEI'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, deduplicated texts)."
     }
   ],
   "known_collections": {

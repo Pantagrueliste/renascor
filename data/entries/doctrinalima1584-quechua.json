@@ -11,5 +11,14 @@
   "words": 6649,
   "texts": 17,
   "period": "1600-1600",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts). http://www.runasimi.de/waruchir.htm; rebuild/doctrinalima1584_quechua_source_selection_2026-06-24.tsv; data/raw/DoctrinaLima1584_Quechua/DoctrinaLima1584_Quechua.jsonl; rebuild/rawtree_full_lock_2026-"
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). http://www.runasimi.de/waruchir.htm; rebuild/doctrinalima1584_quechua_source_selection_2026-06-24.tsv; data/raw/DoctrinaLima1584_Quechua/DoctrinaLima1584_Quechua.jsonl; rebuild/rawtree_full_lock_2026-",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 6649,
+    "texts": 17
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_url": "http://www.runasimi.de/waruchir.htm",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

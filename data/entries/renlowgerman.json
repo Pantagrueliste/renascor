@@ -13,6 +13,14 @@
   "words": 1475279,
   "texts": 137,
   "period": "1450-1699",
-  "notes": "The ReN collection is NOT a ReFrame sub-project but the Referenzkorpus Mittelniederdeutsch/Niederrheinisch (ReN, 1200-1650), the DFG reference corpus of Middle Low German/Low Rhenish texts built at the Universities of Hamburg and Münster. The harvested files ('ReN Low German Agneta_Willeken.xml (1535)', 'ReN Low German Lüb._Bibel_1494.xml (1494)') come from the CorA-ReN-XML TEI dump the project distributes (the RQ snapshot used a local CorA-ReN-XML_1.1 dump); corpus metadata is CC-BY via the RefCorG/REDE framework. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Universität Hamburg (DFG project; Prof. Ingrid Schröder / Prof. Robert Langhanke)"
+  "notes": "The ReN collection is NOT a ReFrame sub-project but the Referenzkorpus Mittelniederdeutsch/Niederrheinisch (ReN, 1200-1650), the DFG reference corpus of Middle Low German/Low Rhenish texts built at the Universities of Hamburg and Münster. The harvested files ('ReN Low German Agneta_Willeken.xml (1535)', 'ReN Low German Lüb._Bibel_1494.xml (1494)') come from the CorA-ReN-XML TEI dump the project distributes (the Renascor Corpus working snapshot used a local CorA-ReN-XML_1.1 dump); corpus metadata is CC-BY via the RefCorG/REDE framework. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "Universität Hamburg (DFG project; Prof. Ingrid Schröder / Prof. Robert Langhanke)",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 1475279,
+    "texts": 137
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
 }

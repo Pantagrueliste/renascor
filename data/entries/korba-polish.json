@@ -7,12 +7,21 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Instytut Języka Polskiego, Polska Akademia Nauk (IJP PAN)",
-  "notes": "KorBa (korba.edu.pl) is the largest corpus of historical Polish (1601-1800, ~27M segments), TEI P5 encoded with transcription/transliteration layers and rich metadata; maintained by the Institute of Polish Language, Polish Academy of Sciences (IJP PAN) with IPI PAN, PI Włodzimierz Gruszczyński, National Humanities Programme (2013-2023). The manually annotated subcorpus is downloadable under CC BY-SA (the legacy hostname korba.clarin-pl.eu no longer resolves). The RQ snapshot contains three collections of this project (KorBa_Polish, KorBa_Polish_full17c and KorbaText, the plain-text layer whose titles match KorBa's published text list), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "notes": "KorBa (korba.edu.pl) is the largest corpus of historical Polish (1601-1800, ~27M segments), TEI P5 encoded with transcription/transliteration layers and rich metadata; maintained by the Institute of Polish Language, Polish Academy of Sciences (IJP PAN) with IPI PAN, PI Włodzimierz Gruszczyński, National Humanities Programme (2013-2023). The manually annotated subcorpus is downloadable under CC BY-SA (the legacy hostname korba.clarin-pl.eu no longer resolves). The Renascor Corpus working snapshot contains three collections of this project (KorBa_Polish, KorBa_Polish_full17c and KorbaText, the plain-text layer whose titles match KorBa's published text list), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
   "languages": [
     "Polish"
   ],
   "encoding": "tei",
-  "words": 429778,
-  "texts": 802,
-  "period": "1603-1700"
+  "words": 644572,
+  "texts": 1568,
+  "period": "1601-1700",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 429778,
+    "texts": 802
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://korba.edu.pl/download?lang=en",
+  "license_note": "Includes CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

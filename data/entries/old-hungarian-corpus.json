@@ -7,12 +7,21 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Research Institute for Linguistics, Hungarian Academy of Sciences (MGTSZ)",
-  "notes": "Old Hungarian Corpus of codices and early printed books (11th-16th c., original orthography betűhű and phonemic levels), maintained by the Hungarian Generative Diachronic Syntax project at the Research Institute for Linguistics. The RQ snapshot contains two collections of this resource (HungarianCorpus and MGTSZ_AporCodex, the Apor Codex file), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "notes": "Old Hungarian Corpus of codices and early printed books (11th-16th c., original orthography betűhű and phonemic levels), maintained by the Hungarian Generative Diachronic Syntax project at the Research Institute for Linguistics. The Renascor Corpus working snapshot contains two collections of this resource (HungarianCorpus and MGTSZ_AporCodex, the Apor Codex file), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
   "languages": [
     "Hungarian"
   ],
   "encoding": "plain-text",
   "words": 3046715,
   "texts": 75,
-  "period": "1450-1532"
+  "period": "1450-1532",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 3046715,
+    "texts": 75
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://mek.oszk.hu/html/allando/copyright.htm",
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

@@ -1,11 +1,14 @@
 {
-  "comment": "Resources reviewed and rejected. The weekly discovery run is told never to propose them again, and its candidates are filtered against these URLs. Inclusion rule: a resource is added only if the number of words it contributes can be counted exactly AND its texts are verifiably not already in the catalogue.",
-  "rejected": [
+  "comment": "Only active rejected records are excluded from discovery. Textual overlap is allowed in the catalogue; deduplication applies separately to the Renascor Corpus. Review-pending records preserve earlier decisions for reconsideration and are not excluded from discovery.",
+  "rejected": [],
+  "review_pending": [
     {
       "title": "Digital Latin Library — Library of Digital Latin Texts (LDLT)",
       "url": "https://digitallatin.org/",
-      "reason": "Federates texts published elsewhere: the words it adds cannot be counted exactly, and they cannot be shown not to be in the catalogue already.",
-      "date": "2026-10-08"
+      "previous_reason": "Federates texts published elsewhere: the words it adds cannot be counted exactly, and they cannot be shown not to be in the catalogue already.",
+      "previous_date": "2026-10-08",
+      "reason": "The overlap-based exclusion was withdrawn. Review whether this resource provides its own identifiable text collection and establish its 1450–1700 counts and coverage before adding a record.",
+      "date": "2026-10-09"
     }
   ]
 }

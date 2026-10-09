@@ -10,9 +10,18 @@
     "Arabic"
   ],
   "encoding": "markdown",
-  "words": 193859865,
-  "texts": 799,
+  "words": 356834104,
+  "texts": 1241,
   "period": "1451-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 193859865,
+    "texts": 799
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://zenodo.org/records/17767721",
+  "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

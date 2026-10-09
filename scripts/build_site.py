@@ -47,15 +47,16 @@ SITE_DESCRIPTION = "An open catalogue of digital editions of Renaissance-era wri
 
 SCOPE = (1450, 1700)
 SNAPSHOTS = {"v2026.06": {"frozen": "2026-06-26"}}      # add a line for each new RQ snapshot
-SNAPSHOT_NAME = "RQ Open Corpus"
-SNAPSHOT_SCOPE = "in-core, deduplicated texts"
+SNAPSHOT_NAME = "Renascor Corpus"
+SNAPSHOT_SCOPE = "in-core harvested subsets, including retained duplicates"
 PSEUDO_LANGUAGES = {"Multilingual", "Romance (other)"}
-ENCODING_ORDER = ["tei", "xml", "html", "wikitext", "plain-text", "markdown", "other"]
+ENCODING_ORDER = ["tei", "xml", "json", "html", "wikitext", "plain-text", "markdown", "other"]
 STATUS_ORDER = ["active", "archived", "discontinued"]
 SIZE_BANDS = [(10_000_000, "10m-plus"), (1_000_000, "1m-10m"), (100_000, "100k-1m"),
               (10_000, "10k-100k"), (0, "under-10k")]
-PREFERRED_FIELDS = ["title", "url", "data_url", "data_format", "institution", "languages", "period",
-                    "words", "texts", "encoding", "status", "region", "countries", "years_active",
+PREFERRED_FIELDS = ["title", "url", "data_url", "data_format", "data_formats", "api_url", "institution", "languages", "period",
+                    "words", "texts", "corpus_statistics", "count_basis", "resource_statistics", "encoding", "license",
+                    "license_url", "license_note", "status", "region", "countries", "years_active",
                     "author", "date", "last_modified", "provenance", "date_added", "notes"]
 # Section ids of the page: an entry file may not take one of these names (its permalink #id
 # would point at the section instead of the record).
@@ -184,7 +185,7 @@ def parse_period(value):
 # --- Notes --------------------------------------------------------------------------------
 
 RQ_SENTENCE = re.compile(r"Corpus statistics \(text, word and language counts, period\) derived from the "
-                         r"RQ Open Corpus snapshot (?P<version>v[\w.]+) \((?P<scope>[^)]*)\)\.?")
+                         r"(?:Renascor Corpus|RQ Open Corpus) snapshot (?P<version>v[\w.]+) \((?P<scope>[^)]*)\)\.?")
 DISCOVERY_TAIL = re.compile(r"\n\s*\n\s*(?:Justification:|Found at:)[\s\S]*$")
 CLEANUPS = [
     # 'Origin verbatim' labels are harvest bookkeeping: quoted form first, else to the end.
@@ -289,7 +290,7 @@ def derive_entry(eid: str, entry: dict) -> dict:
         "data_display": url_parts(entry["data_url"])[1] if entry.get("data_url") else None,
         "period": parse_period(entry.get("period")),
         "size_band": size_band(entry.get("words")),
-        "figures": "rq" if version else ("other" if has_counts else "none"),
+        "figures": "rq" if version and not entry.get("resource_statistics") else ("other" if has_counts else "none"),
         "snapshot": version,
         "notes_display": notes_display,
     }
@@ -539,17 +540,7 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
     version = citation.get("version", "")
     frozen = SNAPSHOTS.get(snapshot, {}).get("frozen") if snapshot else None
 
-    if snapshot and s["figures"]["rq"]:
-        note = (f"Counts for {fmt_int(s['figures']['rq'])} of the {plural(n, 'edition')} come from the "
-                f"{SNAPSHOT_NAME} snapshot {snapshot} and may cover only part of an edition")
-    else:
-        counted = s["figures"]["rq"] + s["figures"]["other"]
-        note = (f"Word and text counts are recorded for {fmt_int(counted)} of the {plural(n, 'edition')} "
-                "and may cover only part of an edition")
-    if s["largest"] and s["words"] and Decimal(s["largest"]["words"]) / Decimal(s["words"]) >= Decimal("0.25"):
-        note += f"; one edition holds {pct(s['largest']['words'], s['words'])} of all words."
-    else:
-        note += "."
+    note = "Resource totals include overlaps and may cover only part of a collection."
 
     other_bits = []
     if s["figures"]["other"]:

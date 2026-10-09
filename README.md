@@ -8,7 +8,9 @@ Renascor records projects that have produced digital editions of texts from roug
 
 This is a catalogue of editions, not a corpus of texts. We do not host the texts themselves. We point to them.
 
-A resource is added only if it brings new, countable text: the number of words it contributes can be counted exactly, and its texts are verifiably not already in the catalogue. Portals and aggregators that federate other projects' texts are not included. See [CONTRIBUTING.md](CONTRIBUTING.md#the-inclusion-rule-new-countable-text).
+The catalogue grew out of the Renascor Corpus Project, which aims to assemble the most complete possible corpus of Renaissance texts for AI training. The corpus is still a work in progress and has not yet been released. The catalogue idea arose during that work but would have been shelved for lack of time; rapid progress in agentic coding assistants made it possible to build within a reasonable time. Its purpose is to make clear which Renaissance texts are available in digital text form on the internet today.
+
+Collections are eligible even when their texts overlap with other resources. The catalogue records each collection’s size before content deduplication, within 1450–1700, and keeps its contribution after corpus deduplication separately. See [CONTRIBUTING.md](CONTRIBUTING.md#the-inclusion-rule-text-collections).
 
 ## What is in an entry
 
@@ -17,7 +19,7 @@ Every entry in `data/entries/` is a single JSON file describing one edition proj
 - the title of the project or collection
 - the URL where the edition can be found
 - the language or languages of the texts
-- the encoding format (TEI, other XML, HTML, plain text, wiki markup, Markdown, or other)
+- the encoding format (TEI, other XML, JSON, HTML, plain text, wiki markup, Markdown, or other)
 - whether the project is active, archived, or discontinued (no longer online)
 - how the entry was added (submitted by a contributor, or discovered by automated search)
 - the date the entry was added
@@ -70,6 +72,26 @@ python scripts/build_site.py --entries-dir /path/to/entries --out-dir /tmp/renas
 ```
 
 The unit tests of the build run with `python -m unittest discover -s tests -v`.
+
+Resource sizes include retained duplicates within 1450–1700. The original deduplicated Renascor Corpus contribution is stored separately in `corpus_statistics`. The scripts retain the historical `rq` identifiers and paths. To refresh sizes from the exact frozen June working database, with optional recovery from checksum-locked source staging files:
+
+```bash
+python scripts/rq_statistics.py --db /path/to/corpus_master_FROZEN_2026-06-26.sqlite --rq-root /path/to/RQ
+python scripts/build_site.py
+```
+
+The recount reads the corpus without modifying it and writes the aggregate provenance to `data/rq_statistics.json`. Counts describe harvested subsets: material excluded before the saved harvest remains unknown. Sums across resources include overlapping texts. The import script uses this recount only when its database checksum matches.
+
+Every card shows the edition text’s licence, with source links and scope notes where verified. `scripts/rq_licenses_verified.json` holds the publisher-source evidence; the old RQ `copyright_status` field is not treated as licence evidence. Unestablished licences appear as “Not stated”.
+
+Sefaria has a separate source census, using its API inventory and the composition dates in its official export index records (with API fallback). To reproduce it:
+
+```bash
+python scripts/sefaria_catalogue.py --update-entry
+python scripts/build_site.py
+```
+
+The script caches downloaded JSON locally and writes a text-free, checksum-backed audit to `data/sefaria_statistics.json`. Re-running replays the cached snapshot; add `--refresh` to fetch fresh data. Retrieval dates are recorded for every source. It counts every individual Hebrew source version of a work whose whole recorded composition-date range falls within 1450–1700, without content deduplication. Generated merged copies and translations are excluded. Undated works, dates crossing the scope boundaries, and dated works without a counted source version are listed for review. Composition dates are used rather than the year of a later printing. The original Renascor Corpus contribution remains separately recorded, and a corpus refresh preserves the newer resource census.
 
 ## Licence
 

@@ -94,6 +94,11 @@ class NotesTests(unittest.TestCase):
     def test_only_rq_sentence_leaves_nothing(self):
         self.assertEqual(bs.split_notes(self.RQ + " https://abu.cnam.fr; rebuild/abu.tsv"), ("", "v2026.06"))
 
+    def test_renamed_corpus_preserves_snapshot_and_hides_bookkeeping(self):
+        note = "Letters. " + self.RQ.replace("RQ Open Corpus", "Renascor Corpus")
+        self.assertEqual(bs.split_notes(note + " rebuild/a.tsv"), ("Letters.", "v2026.06"))
+        self.assertEqual(bs.derive_entry("letters", entry(words=10, notes=note))["figures"], "rq")
+
     def test_discovery_tail_removed(self):
         notes = ("TEI files of a travel corpus.\n\nJustification: matches the catalogue scope. "
                  "Verify scope before cataloguing.\n\nFound at: https://example.org")

@@ -13,6 +13,14 @@
   "words": 23824,
   "texts": 1,
   "period": "1568-1568",
-  "notes": "DFG project on the letter corpora of early modern princely women of the central German area (~5,500 letters in 24 correspondences; the published corpus v1.1 has ~250k tokens of 16th-c. princesses' letters), published in the LAUDATIO repository (handle resolves and is live 200) with TEI plus morphological/POS annotation, queryable in ANNIS; matches origin 'Fürstinnenkorrespondenz (early-modern German princely women's letters, 16c)'. Related Anhalt/Thuringia letter materials sit in ThULB Jena 'Digitale Fürstinnenkorrespondenzen' collections; a BBAW reuse experiment by Stefan Dumont confirms the free licence of the TEI data. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "Friedrich-Schiller-Universitaet Jena (Rosemarie Luehr, Vera Fasshauer, Daniela Prutscher, Henry Seidel), published in the LAUDATIO repository"
+  "notes": "DFG project on the letter corpora of early modern princely women of the central German area (~5,500 letters in 24 correspondences; the published corpus v1.1 has ~250k tokens of 16th-c. princesses' letters), published in the LAUDATIO repository (handle resolves and is live 200) with TEI plus morphological/POS annotation, queryable in ANNIS; matches origin 'Fürstinnenkorrespondenz (early-modern German princely women's letters, 16c)'. Related Anhalt/Thuringia letter materials sit in ThULB Jena 'Digitale Fürstinnenkorrespondenzen' collections; a BBAW reuse experiment by Stefan Dumont confirms the free licence of the TEI data. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "Friedrich-Schiller-Universitaet Jena (Rosemarie Luehr, Vera Fasshauer, Daniela Prutscher, Henry Seidel), published in the LAUDATIO repository",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 23824,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "CC-BY-ND-4.0",
+  "license_url": "https://slub.qucosa.de/id/qucosa:90368"
 }

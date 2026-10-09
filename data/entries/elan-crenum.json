@@ -13,6 +13,15 @@
   "words": 192178,
   "texts": 5,
   "period": "1515-1515",
-  "notes": "CreNum is the ELAN (Grenoble) digital XML-TEI edition of Guillaume Crétin's Chronique française (ed. Delaissa Berrada, 2020, CC-BY 3.0 for the TEI at data.elan-numerique.fr/textes/oeuvre15.xml), matching the harvest origin 'ÉLAN crenum: Livre_I..V' (five books, 1515 edition). The edition portal research.elan-numerique.fr (page oeuvres/edition/15) did not respond at check time (000), so the live GitLab repo gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum is given as the verified project URL. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
-  "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes)"
+  "notes": "CreNum is the ELAN (Grenoble) digital XML-TEI edition of Guillaume Crétin's Chronique française (ed. Delaissa Berrada, 2020, CC-BY 3.0 for the TEI at data.elan-numerique.fr/textes/oeuvre15.xml), matching the harvest origin 'ÉLAN crenum: Livre_I..V' (five books, 1515 edition). The edition portal research.elan-numerique.fr (page oeuvres/edition/15) did not respond at check time (000), so the live GitLab repo gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum is given as the verified project URL. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes)",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 192178,
+    "texts": 5
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://crenum.elan-numerique.fr/legal_mentions",
+  "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

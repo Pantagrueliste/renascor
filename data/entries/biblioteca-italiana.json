@@ -14,5 +14,14 @@
   "texts": 974,
   "period": "1460-1650",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts)."
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 29844182,
+    "texts": 974
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated",
+  "license_url": "http://backend.bibliotecaitaliana.it/wp-json/muruca-core/v1/pages",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
 }

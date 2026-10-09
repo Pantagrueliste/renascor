@@ -1,0 +1,1251 @@
+{
+  "comment": "Edition-text licences from the publisher-source RQ licence audit. Legacy copyright_status values are not authoritative. Mixed applies where one licence cannot describe every text or layer. Not stated does not grant reuse rights. Each card uses these values independently of the catalogue metadata CC0 licence.",
+  "entries": {
+    "abacus-baroque": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://raw.githubusercontent.com/Austrian-Baroque-Corpus/abc-data/main/LICENSE.md",
+      "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "abu-french": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://abu.cnam.fr/licence.txt",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "adl-danish": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/publicdomain/mark/1.0/",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "amadiscorpus-gh": {
+      "license": "AGPL-3.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://github.com/ebeshero/Amadis-in-Translation/blob/master/License"
+    },
+    "balkanslavic-damaskini": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "bartoli-correspondence": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://zenodo.org/records/14559525"
+    },
+    "basquekg": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://klasikoak.armiarma.eus/kgriburuz.htm",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "bdpn-novohispano": {
+      "license": "CC-BY-NC-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/"
+    },
+    "belarusian-skaryna": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "bertonio-aymara": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://zenodo.org/record/7120597",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "betamasaheft-geez": {
+      "license": "CC-BY-NC-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://betamasaheft.eu"
+    },
+    "bibaugustana": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.hs-augsburg.de/~harsch/a_impressum.html",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "bibcertxt": {
+      "license": "Custom terms",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.cervantesvirtual.com/marco-legal/",
+      "license_note": "Source-specific reuse conditions; no standard open licence established."
+    },
+    "biblioteca-italiana": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://backend.bibliotecaitaliana.it/wp-json/muruca-core/v1/pages",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "bokselskap": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.bokselskap.no/hjelp_om/om_bokselskap",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "brievenalsbuit": {
+      "license": "Copyright",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://ivdnt.org/gebruiksvoorwaarden/",
+      "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+    },
+    "bullinger-digital": {
+      "license": "CC-BY-NC-ND-3.0-CH",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.bullinger-digital.ch/api/content/disclaimers"
+    },
+    "bvh-epistemon-print": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://www.bvh.univ-tours.fr/mentions.asp",
+      "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "camena": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://mateo.uni-mannheim.de/camenahtdocs/camena_e.html",
+      "license_note": "Includes CC-BY-SA-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "campanella-atc": {
+      "license": "Copyright",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.iliesi.cnr.it/ATC/copyright.php",
+      "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+    },
+    "casebooks": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://raw.githubusercontent.com/CasebooksProject/casebooks-data/master/license.txt",
+      "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "cavriana-correspondence": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://github.com/Pantagrueliste/CavrianaCorr/blob/main/LICENSE"
+    },
+    "celt": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://celt.ucc.ie/faq.html",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "cet-teatro16c-portuguese": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://cet-e-quinhentos.com/info",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "chm-mapudungun": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "cidtc": {
+      "license": "Copyright",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://dantiscus.al.uw.edu.pl/?menu=citation&f=citation&lang=eng",
+      "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+    },
+    "ckcc-epistolarium": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://ssh.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/DANS-XFD-N8Y5",
+      "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "codiaje-judeospanish": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "colonia": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "controversia-confessio": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://exist.ulb.tu-darmstadt.de/2/v/data/pa000002/wdbmeta.xml",
+      "license_note": "Includes CC-BY-4.0, CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "coqalane": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "cornish-gwreansanbys": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://archive.org/details/gwreansbyscreati00stok",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "cornish-tregear": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "corpus-corporum": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://mlat.uzh.ch/",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "corpus17-french": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0",
+      "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "cretangreek-snhell": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "croala": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "czech-kralice1613": {
+      "license": "CC0-1.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://github.com/christos-c/bible-corpus/blob/master/LICENSE"
+    },
+    "czech-tei2019": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://vokabular.ujc.cas.cz/informace.aspx?t=ovokabulari&o=ovokabulari",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "danishpostils": {
+      "license": "MIT",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://github.com/DT-UCPH/early_modern_danish_postils/blob/main/LICENSE.md"
+    },
+    "dbnl": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.dbnl.org/overdbnl/copyright.php",
+      "license_note": "Includes CC0-1.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "diacronia-romanian": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.diacronia.ro/",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "diacu-bulgarian": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://dcl.bas.bg/bulnc/en/diachronic-corpus/"
+    },
+    "diakorp-czech": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "dibilit-german": {
+      "license": "CC-BY-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.de"
+    },
+    "dibiphil-renaissance": {
+      "license": "CC-BY-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.de"
+    },
+    "digilib-armenian": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "digital-donne": {
+      "license": "Copyright",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://web.archive.org/web/20260417175707/https://digitaldonne.tamu.edu/index.html",
+      "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+    },
+    "disco-spanishsonnets": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://github.com/pruizf/disco/blob/master/LICENSE"
+    },
+    "dissed-phdeditions": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://about.hal.science/hal-authorisation-v1/",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "doctrinalima1584-quechua": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://www.runasimi.de/waruchir.htm",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "documenta-catholica-omnia": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.documentacatholicaomnia.eu/a_1200_Copyright",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "dost-olderscots": {
+      "license": "CC-BY-NC-SA-3.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    "dracor": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.o",
+      "license_note": "Includes CC-BY-NC-3.0, CC-BY-NC-SA-4.0, CC0-1.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "drc-romansh": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "dsl-henriksmith": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://dsl.dk/om-dsl/copyright",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "dsl-salmer": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://dsl.dk/om-dsl/copyright",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "dta": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://www.deutschestextarchiv.de/",
+      "license_note": "Includes CC-BY-NC, CC-BY-SA-3.0-DE, CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "earlymoderngreek-clarinel": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "ebba": {
+      "license": "CC-BY-NC-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://ebba.english.ucsb.edu/page/use-policy"
+    },
+    "edition-640": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://api.nakala.fr/collections/10.34847/nkl.1279lie9",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "eebo-text-creation-partnership": {
+      "license": "CC0-1.0",
+      "checked": "2026-10-09",
+      "basis": "TCP publisher FAQ checked 2026-10-09, together with CC0 availability statements for both phases verified in the RQ publisher-source audit.",
+      "license_url": "https://www.textpartnership.net/pages/faq.html",
+      "license_note": "TCP transcriptions are unrestricted, with CC0 declarations in the TEI files. The underlying page images have separate rights."
+    },
+    "elan-crenum": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://crenum.elan-numerique.fr/legal_mentions",
+      "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "elan-fnvr": {
+      "license": "CC-BY-NC-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"
+    },
+    "elan-polygrenaille": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr",
+      "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "emblem-project-utrecht": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://web.archive.org/web/20200503091954/http://emblems.let.uu.nl/project_procedures.html",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "emlap": {
+      "license": "CC-BY-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://zenodo.org/api/records/18662799"
+    },
+    "emmo-folger": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "emothe": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en",
+      "license_note": "Includes CC-BY-NC-ND-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "emroc": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "epistemon": {
+      "license": "CC-BY-NC-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.bvh.univ-tours.fr/mentions.asp"
+    },
+    "estilometria-siglooro": {
+      "license": "CC-BY-3.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://raw.githubusercontent.com/Jero2760/estilometria/master/README.md"
+    },
+    "ethicacomplementoria": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://raw.githubusercontent.com/arockenberger/EthicaComplementoria/master/LICENSE.txt",
+      "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "evans-tcp": {
+      "license": "CC0-1.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata."
+    },
+    "fabulasmitologicas": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://github.com/arojascastro/fabulasmitologicas"
+    },
+    "fallofconstantinople-arranz": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "famsi-bolles-yucatecmaya": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://www.famsi.org/research/copyright.htm",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "filologiasarda-sardinian": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "florentinecodex-nahuatl": {
+      "license": "Copyright",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://florentinecodex.getty.edu/about/3_Citations_and_Permissions",
+      "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+    },
+    "fornsvenska-swedish": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "fran-slovenian16c": {
+      "license": "CC-BY-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://fran.si/korpus16/o-portalu?page=Colofon"
+    },
+    "freem": {
+      "license": "CC-BY-NC-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://zenodo.org/records/6481135"
+    },
+    "fuerstinnenkorrespondenz": {
+      "license": "CC-BY-ND-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://slub.qucosa.de/id/qucosa:90368"
+    },
+    "galileo-opere-favaro": {
+      "license": "CC-BY-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://it.wikisource.org/wiki/Il_Saggiatore"
+    },
+    "gallicorpora-french-htr": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "gams-baselrecords": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "license_note": "Includes CC-BY-NC-SA-4.0, CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "ganjoorpersian": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://ganjoor.net/faq?id=21",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "gemi-midwifery": {
+      "license": "CC-BY-NC-SA-3.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    "germanc": {
+      "license": "CC-BY-NC-SA-3.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/2544"
+    },
+    "gilberti-purepecha": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://zenodo.org/records/10976238",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "glasgowemblems": {
+      "license": "Copyright",
+      "license_url": "https://www.emblems.arts.gla.ac.uk/#copyright",
+      "license_note": "Transcriptions and associated data are copyright University of Glasgow; images have separate rights.",
+      "checked": "2026-10-09",
+      "basis": "Official site Copyright and Reproduction section."
+    },
+    "gondomar-galician": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://ilg.usc.gal/gl/avisos-legais",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "gongora-soledades": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/licenses/by/4.0/"
+    },
+    "gongoraobra-obvil": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/fr/",
+      "license_note": "Includes CC-BY-NC-ND-3.0-FR, CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "gutorglyn-welsh": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://www.gutorglyn.net",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "hexenverhoer-sigs": {
+      "license": "CC-BY-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "histcorp-swedish": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://sprakbanken-clarin.lingfil.uu.se/histcorp/readme/swedish-readme-GaW",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "huarochiri-quechua-full": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://www.runasimi.de/waruchir.htm",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "humanumgitlab": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr",
+      "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "icepahc-icelandic": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://repository.clarin.is/repository/xmlui/handle/20.500.12537/325",
+      "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "imp-slovene": {
+      "license": "CC-BY-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://hdl.handle.net/11356/1031"
+    },
+    "impactes-originalimprint": {
+      "license": "CC-BY-NC-SA-3.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+    },
+    "interregnum-acts": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "izbornyk-ukrainian": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "kirishitan-japanese": {
+      "license": "Copyright",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://clrd.ninjal.ac.jp/chj/subscription.html",
+      "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+    },
+    "korba-polish": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://korba.edu.pl/download?lang=en",
+      "license_note": "Includes CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "kronieken-dutch": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://github.com/chroniclingnovelty/chronicles-datasets/blob/main/Licence",
+      "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "lampeter-english": {
+      "license": "CC-BY-SA-3.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+    },
+    "leme": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata."
+    },
+    "liberliber": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://liberliber.it/opere/libri/licenze/",
+      "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "litteraturbanken-swedish": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://litteraturbanken.se/api/list_all/etext",
+      "license_note": "Includes CC0-1.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "maltese-cantilena": {
+      "license": "Custom terms",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://wikisource.org/wiki/Il-Kantilena",
+      "license_note": "Source-specific reuse conditions; no standard open licence established."
+    },
+    "mambrino": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://zenodo.org/api/records/20445621",
+      "license_note": "Includes CC-BY-NC-ND-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "mazarinades": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://zenodo.org/records/7443183"
+    },
+    "mek": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://mek.oszk.hu/html/allando/copyright.htm",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "mercuregalant": {
+      "license": "CC-BY-NC-ND-3.0-FR",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://raw.githubusercontent.com/OBVIL/mercure-galant/gh-pages/xml/MG-1672-01.xml"
+    },
+    "mercurius-baumbank": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.uni-potsdam.de/de/guvdds/zugang",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "montoya-guarani": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "muysccubun-muisca": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "nahuatl-depth": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "nakala": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://documentation.huma-num.fr/nakala/#choix-dune-licence-obligatoire-et-cadre-de-reutilisation",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "newton-project": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.newtonproject.ox.ac.uk/view/texts/xml/THEM00001",
+      "license_note": "Includes CC-BY-NC-ND-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "norman-musenormande": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "noscemus": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "obvil-french": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/fr/",
+      "license_note": "Includes CC-BY-NC-ND-3.0-FR, CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "obvil-hainetheatre": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/fr/",
+      "license_note": "Includes CC-BY-NC-ND-3.0-FR, CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "occitan-1000ans": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "ode-corderegraspanish": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://corpora.ugr.es/ode/",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "old-bailey-online": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
+      "license_note": "Includes CC-BY-NC-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "old-hungarian-corpus": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://mek.oszk.hu/html/allando/copyright.htm",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "openedges": {
+      "license": "CC-BY-NC-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://spraakbanken.gu.se/en/resources/openedges"
+    },
+    "openiti": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://zenodo.org/records/17767721",
+      "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "osta": {
+      "license": "CC-BY-NC-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode"
+    },
+    "otomi-mission": {
+      "license": "Copyright",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://sup-infor.com/",
+      "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+    },
+    "passiusalmar-icelandic": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://hallgrimurpetursson.is/um-vefinn/",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "pceec2": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/page/licence-ota",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "pepys-diary": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.gutenberg.org/policy/license.html",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "perseus-digital-library": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.perseus.tufts.edu/hopper/opensource/download",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "polemicagongorina-obvil": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/licenses/by-nc-nd/3.0/fr/",
+      "license_note": "Includes CC-BY-NC-ND-3.0-FR, CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "porzio-congiurabaroni": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "postscriptum": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://portulanclarin.net/static/metashare/licences/CC-BYNCNDv3.0.htm",
+      "license_note": "Includes CC-BY-NC-ND-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "ppchy-yiddish": {
+      "license": "CC-BY-NC-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    "project-gutenberg": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.gutenberg.org/policy/license.html",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "qhod": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://zenodo.org/records/14449603"
+    },
+    "reed-english": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "ref-enhg": {
+      "license": "CC-BY-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://linguistics.rub.de/ref/access/index.html"
+    },
+    "renlowgerman": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode"
+    },
+    "rhythmiccorpus-sga": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://zenodo.org/records/17537343"
+    },
+    "rialc-catalan": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://www.rialc.unina.it/_private/presentazione-dreta.htm",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "rin-conde": {
+      "license": "CC-BY-NC-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.fr"
+    },
+    "ropsalt-romanian": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "royal-society-transactions": {
+      "license": "CC-BY-NC-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://fedora.clarin-d.uni-saarland.de/rsc_v6/access.html"
+    },
+    "rup-folger": {
+      "license": "CC-BY-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "russian-national-corpus": {
+      "license": "Custom terms",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://ruscorpora.ru/page/terms",
+      "license_note": "Source-specific reuse conditions; no standard open licence established."
+    },
+    "russian-ulozhenie1649": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ru",
+      "license_note": "Includes CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "salamanca": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/"
+    },
+    "sefaria": {
+      "license": "Mixed",
+      "license_url": "https://github.com/Sefaria/Sefaria-Export/blob/master/LICENSE.md",
+      "license_note": "Each text version carries its own licence in the JSON license field; there is no repository-wide text licence.",
+      "checked": "2026-10-09",
+      "basis": "Official Sefaria-Export/LICENSE.md describes per-text licensing in JSON metadata."
+    },
+    "senie-latvian": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
+      "license_note": "Includes CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "sermo": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "sloveneimp": {
+      "license": "CC-BY-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    },
+    "smi-italianmusic": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://chmtl.indiana.edu/",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "sonetossiglodeoro": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.cervantesvirtual.com/marco-legal/",
+      "license_note": "Includes CC-BY-NC-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "spxvi-polish16c": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://rcin.org.pl/dlibra/publication/82400?language=pl",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "ssrq-swisslaw": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "statutes-realm": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.british-history.ac.uk/statutes-realm/vol5",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "suriano-correspondence": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://zenodo.org/records/13950093",
+      "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "tagalog-doctrina1593": {
+      "license": "Public domain",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.gutenberg.org/ebooks/16119"
+    },
+    "tbso-gh": {
+      "license": "CC-BY-NC-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+    },
+    "textgrid-repository": {
+      "license": "CC-BY-3.0-DE",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://creativecommons.org/licenses/by/3.0/de/legalcode"
+    },
+    "the-latin-library": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.thelatinlibrary.com/about.html",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "theatreclassique": {
+      "license": "CC-BY-NC-ND-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.theatre-classique.fr/pages/droits.html"
+    },
+    "thornton-kikongo": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "ticha-zapotec": {
+      "license": "CC-BY-NC-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://ticha.haverford.edu/"
+    },
+    "titus": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://titus.uni-frankfurt.de/texte/etcs/alban/buzuku/buzuk.htm",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "tmi-smi-italian": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://web.archive.org/web/20230529094521/https://euromusicology.cs.uu.nl/copyright.html",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "tmk": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://nytud.hu/impresszum",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "tml": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://lightseagreen-dog-349934.hostingersite.com/tml/copyright",
+      "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "translatoscope-neolat": {
+      "license": "AGPL-3.0-only",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/translatoscope/-/blob/master/LICENSE"
+    },
+    "tychobrahe-portuguese": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.tycho.iel.unicamp.br/corpus/en/termos.html",
+      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "vakk-estonian": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://metashare.ut.ee/static/licences/CC-BYNCv3.0.htm",
+      "license_note": "Includes CC-BY-NC-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "vespasianoletters": {
+      "license": "CC-BY-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://projects.dharc.unibo.it/vespasiano/"
+    },
+    "vietnamese-derhodes": {
+      "license": "CC-BY-SA-4.0",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://vi.wikisource.org/wiki/Wikisource:Bản_quyền"
+    },
+    "vks-oldliteraryfinnish": {
+      "license": "EUPL-1.2",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.kielipankki.fi/lic/vks-eupl-eng/"
+    },
+    "vokabular": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://vokabular.ujc.cas.cz/moduly/edicni/podminky-uziti",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "welshhcwl": {
+      "license": "Custom terms",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://www.celticstudies.net/footer.htm",
+      "license_note": "Source-specific reuse conditions; no standard open licence established."
+    },
+    "wikisource": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
+      "license_note": "Includes AGPL-3.0, CC-BY-SA-4.0, GFDL-1.3-no-invariants-or-later. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "win-lowgermanincunabula": {
+      "license": "Not stated",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000C-35E3-8",
+      "license_note": "No reuse licence established from the available publisher-source evidence."
+    },
+    "wolfenbuettelpostil-lithuanian": {
+      "license": "Copyright",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "http://seniejirastai.lki.lt/?lang=en",
+      "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+    },
+    "wolnelektury": {
+      "license": "Mixed",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://wolnelektury.pl/info/zasady-wykorzystania/",
+      "license_note": "Includes CC-BY-SA-3.0-PL. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+    },
+    "zlatyfond-slovak": {
+      "license": "CC-BY-NC-ND-2.5",
+      "checked": "2026-08-11",
+      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
+      "license_url": "https://creativecommons.org/licenses/by-nc-nd/2.5/"
+    }
+  }
+}

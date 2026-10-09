@@ -13,7 +13,16 @@
   "words": 149810,
   "texts": 15,
   "period": "1622-1700",
-  "notes": "CORPUS17 is Simon Gabay's open GitHub corpus of 17th-century French texts encoded in diplomatic TEI (e-ditiones/CORPUS17, live 200, description '17th c. French texts corpus'). The 120 collected texts (dates 1624-1687 etc.) mirror its TEI files. No explicit licence in repo metadata listed by the GitHub API. Origin verbatim: 'CORPUS17:  (1624)'. Corpus statistics (text, word and language counts, period) derived from the RQ Open Corpus snapshot v2026.06 (in-core, deduplicated texts).",
+  "notes": "CORPUS17 is Simon Gabay's open GitHub corpus of 17th-century French texts encoded in diplomatic TEI (e-ditiones/CORPUS17, live 200, description '17th c. French texts corpus'). The 120 collected texts (dates 1624-1687 etc.) mirror its TEI files. No explicit licence in repo metadata listed by the GitHub API. Origin verbatim: 'CORPUS17:  (1624)'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
   "institution": "e-ditiones (Simon Gabay), GitHub open repo",
-  "last_modified": "2021-02-26"
+  "last_modified": "2021-02-26",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 149810,
+    "texts": 15
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Mixed",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

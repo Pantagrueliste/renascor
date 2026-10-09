@@ -36,6 +36,7 @@
       "enum": [
         "tei",
         "xml",
+        "json",
         "html",
         "plain-text",
         "wikitext",
@@ -59,13 +60,14 @@
       "enum": [
         "tei",
         "xml",
+        "json",
         "html",
         "plain-text",
         "wikitext",
         "markdown",
         "other"
       ],
-      "description": "Primary encoding format of the digital edition: the richest format in which the project publishes or documents its text (precedence TEI > other XML > HTML > wiki markup > plain text > Markdown). tei = TEI XML; xml = other (non-TEI) XML; html = HTML pages; plain-text; wikitext = wiki markup; markdown; other."
+      "description": "Primary publicly available text format, using the richest published text data rather than internal encoding or the catalogue harvest format (TEI > other XML > JSON > HTML > wiki markup > plain text > Markdown)."
     },
     "status": {
       "type": "string",
@@ -107,12 +109,12 @@
     "words": {
       "type": "integer",
       "minimum": 0,
-      "description": "Approximate size of the corpus in words. Optional. Use null or omit if unknown."
+      "description": "Size of the resource text in words within 1450–1700, before content deduplication. Document source and coverage; harvested counts can cover only a subset. Omit if unknown."
     },
     "texts": {
       "type": "integer",
       "minimum": 0,
-      "description": "Approximate number of transcribed texts in the collection. Optional. Use null or omit if unknown."
+      "description": "Number of resource text instances within 1450–1700, before content deduplication. Not a unique-work count. Document source and coverage; omit if unknown."
     },
     "region": {
       "type": "string",
@@ -174,6 +176,89 @@
       "type": "string",
       "format": "date",
       "description": "Date of the last modification of the resource as reported by its host (GitHub repo last push, Zenodo record update). Optional; host-dependent."
+    },
+    "license": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 300,
+      "description": "Licence of the edition text, preferably an SPDX identifier or expression (e.g. CC-BY-SA-4.0, CC0-1.0). Use Copyright, Custom terms, Mixed, Public domain or Not stated when appropriate. This is separate from the catalogue metadata licence."
+    },
+    "license_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Publisher page, dataset record or licence file supporting the edition-text licence."
+    },
+    "license_note": {
+      "type": "string",
+      "maxLength": 3000,
+      "description": "Scope of the licence or differences between texts, annotation, images and other layers."
+    },
+    "corpus_statistics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "snapshot",
+        "words",
+        "texts"
+      ],
+      "properties": {
+        "snapshot": {
+          "type": "string"
+        },
+        "words": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "texts": {
+          "type": "integer",
+          "minimum": 0
+        }
+      },
+      "description": "Renascor Corpus frozen in-core counts after the corpus duplicate filter. Kept separate from the catalogue resource size."
+    },
+    "count_basis": {
+      "type": "string",
+      "enum": [
+        "rq-retained-rows",
+        "rq-retained-rows-and-staging",
+        "sefaria-source-versions"
+      ],
+      "description": "Historical rq values count all retained in-core Renascor Corpus rows, including duplicates, with optional locked staging recovery. Sefaria counts individual Hebrew source versions of works composed within 1450–1700, excluding generated merged files and translations. See resource_statistics for the source audit."
+    },
+    "resource_statistics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["url", "date", "note"],
+      "properties": {
+        "url": {"type": "string", "format": "uri"},
+        "date": {"type": "string", "format": "date"},
+        "note": {"type": "string", "maxLength": 2000}
+      },
+      "description": "Source, retrieval date and method for a separate resource census. Takes precedence over the Renascor Corpus harvested-subset size while preserving corpus_statistics."
+    },
+    "data_formats": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "tei",
+          "xml",
+          "json",
+          "html",
+          "plain-text",
+          "wikitext",
+          "markdown",
+          "other"
+        ]
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "All available download formats. Include data_format, the primary format. Optional; requires data_url."
+    },
+    "api_url": {
+      "type": "string",
+      "format": "uri",
+      "description": "Official documentation for programmatic access to the edition texts."
     }
   },
   "dependencies": {
@@ -182,6 +267,10 @@
     ],
     "data_format": [
       "data_url"
+    ],
+    "data_formats": [
+      "data_url",
+      "data_format"
     ]
   }
 }
