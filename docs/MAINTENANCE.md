@@ -38,7 +38,9 @@ The graph uses deduplicated words from the same June working corpus. Recorded ha
 
 For missing Gutenberg years, the estimator reads the author lifespan from saved harvest metadata and checks it against the selected author's death-year evidence. A single complete lifespan wholly within 1450–1700 is accepted as a broad proxy for the underlying work. No ebook release dates, modern edition filename dates, arbitrary point dates or collection-wide date spans are substituted. Missing or conflicting lifespans and ranges crossing the scope are retained for review.
 
-For display, estimated words are allocated equally per year across the lifespan, then aggregated by decade. Integer largest-remainder allocation preserves each text's exact word count, including 1700 in the last bin. This is a visual convention, not evidence that production was uniform or a statistical probability model. Estimated words appear in the same solid bars as recorded-year words; the graph note and hover labels explain their contribution. Catalogue coverage derived from these ranges is labelled approximate. Words without usable evidence stay unallocated; the frozen database and corpus totals remain unchanged.
+For display, estimated words are allocated equally per year across the lifespan, then aggregated by decade. Integer largest-remainder allocation preserves each text's exact word count, including 1700 in the last bin. This is a visual convention, not evidence that production was uniform or a statistical probability model. Estimated words appear in the same solid bars as recorded-year words; the methodology and hover labels explain their contribution. Catalogue coverage derived from these ranges is labelled approximate. Words without usable evidence stay unallocated; the frozen database and corpus totals remain unchanged.
+
+The catalogue-wide estimated and unallocated word totals are generated from the audit in the Origins and figures section. The period controls show a brief message only when the selected collections have no chronological corpus counts.
 
 ```bash
 python3 scripts/corpus_timeline.py --db /path/to/corpus_master_FROZEN_2026-06-26.sqlite
