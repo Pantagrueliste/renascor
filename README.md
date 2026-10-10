@@ -18,13 +18,15 @@ Renascor is an open, searchable catalogue that points to freely accessible colle
 - Find text files, APIs and licences, with a permanent link to every record.
 - Download the whole catalogue as CSV or JSON, with citation information.
 
+Renascor aims at being cheap, lean, and sustainable. It does not receive any funding.
+
 ## When: scope and origins
 
 By "Renaissance" we understand a historical period emerging from Europe and the Mediterranean within **1450–1700**. The catalogue also covers texts arising from documented contacts with populations around the world, written by any community involved, in any language. See the website's [scope statement](https://pantagrueliste.github.io/renascor/#about).
 
 Collection sizes count each individual texts within 1450–1700. The **Renascor Corpus total excludes duplicate texts**, and separate corpus contributions, partial harvests and unknown counts are identified as such.
 
-The catalogue grew out of the **Renascor Corpus Project**, which aims to assemble the most complete possible corpus of Renaissance texts for AI training. That corpus is ongoing and unreleased. Rapid progress in agentic coding assistants made a long-postponed catalogue feasible: a way to map which Renaissance texts are available online in digital text form.
+The catalogue grew out of the **Renascor Corpus Project**, which aims to assemble the most complete possible corpus of Renaissance texts for AI training. That corpus is ongoing and unreleased. Rapid progress in agentic coding assistants made this long-postponed side project feasible: a way to map which Renaissance texts are available online in digital text form.
 
 ## How: use, contribute, support, run
 
