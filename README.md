@@ -32,7 +32,7 @@ The catalogue grew out of the **Renascor Corpus Project**, which aims to assembl
 
 ### Use it
 
-- [Browse the catalogue](https://pantagrueliste.github.io/renascor/) — search and filter online.
+- [![Browse the catalogue](https://img.shields.io/badge/Browse_the_catalogue-1a56db?style=for-the-badge&logo=github&logoColor=white)](https://pantagrueliste.github.io/renascor/) — search and filter online.
 - [![Download CSV](https://img.shields.io/badge/Download_CSV-1a56db?style=for-the-badge)](https://pantagrueliste.github.io/renascor/renascor.csv) [![Download JSON](https://img.shields.io/badge/Download_JSON-1a56db?style=for-the-badge)](https://pantagrueliste.github.io/renascor/renascor.json)
 
 | Resource | Terms |
