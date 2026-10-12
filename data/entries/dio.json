@@ -13,6 +13,9 @@
     "Latin",
     "German"
   ],
+  "document_types": [
+    "inscription"
+  ],
   "encoding": "html",
   "status": "active",
   "texts": 26678,

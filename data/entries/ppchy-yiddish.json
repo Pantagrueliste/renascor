@@ -6,6 +6,10 @@
   "languages": [
     "Yiddish"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "other",
   "status": "active",
   "provenance": "submitted",

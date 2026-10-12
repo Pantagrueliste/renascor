@@ -11,6 +11,9 @@
     "Italian",
     "Latin"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "words": 5030220,
   "texts": 12482,

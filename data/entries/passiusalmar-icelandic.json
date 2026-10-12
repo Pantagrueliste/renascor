@@ -4,6 +4,9 @@
   "languages": [
     "Icelandic"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "html",
   "status": "archived",
   "provenance": "submitted",

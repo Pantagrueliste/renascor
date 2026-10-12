@@ -10,6 +10,9 @@
   "languages": [
     "English"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "words": 1710446,
   "texts": 67,

@@ -509,7 +509,7 @@ figure { margin: 0; }
 				<div><dt>corpus texts</dt><dd data-stat="corpus_texts">123,172</dd></div>
 				<div><dt>corpus words</dt><dd data-stat="corpus_words_compact">2.14 billion</dd></div>
 			</dl>
-			<p class="fig-meta"><span class="tag"><span class="tag-k">Version</span><span class="tag-v" data-stat="version">0.1.3</span></span><span class="tag"><span class="tag-k">Data</span><span class="tag-v" data-stat="updated_long">12 October 2026</span></span><a class="tag tag-link" data-if="data_commit_short" href="https://github.com/Pantagrueliste/renascor/commit/e027dcb030d111fe53e472d8f19db80da6a8567e" data-href="data_commit_url" title="View this data commit on GitHub"><span class="tag-k"><svg class="ico" aria-hidden="true"><use href="#i-commit"/></svg><span class="sr-only">Data </span>Commit</span><span class="tag-v"><code data-stat="data_commit_short">e027dcb</code><span class="sr-only"> on GitHub</span></span></a></p>
+			<p class="fig-meta"><span class="tag"><span class="tag-k">Version</span><span class="tag-v" data-stat="version">0.1.4</span></span><span class="tag"><span class="tag-k">Data</span><span class="tag-v" data-stat="updated_long">12 October 2026</span></span><a class="tag tag-link" data-if="data_commit_short" href="https://github.com/Pantagrueliste/renascor/commit/a965cf4bf4ee655cd7ba7644770e579f939c3e95" data-href="data_commit_url" title="View this data commit on GitHub"><span class="tag-k"><svg class="ico" aria-hidden="true"><use href="#i-commit"/></svg><span class="sr-only">Data </span>Commit</span><span class="tag-v"><code data-stat="data_commit_short">a965cf4</code><span class="sr-only"> on GitHub</span></span></a></p>
 		</div>
 		<p class="fig-note"><span data-stat="header_note">Corpus totals exclude duplicate texts (June 2026 working count). Individual collection sizes include overlaps and may be partial.</span> <a href="#figures">How the figures are made</a></p>
 	</div>
@@ -654,7 +654,8 @@ figure { margin: 0; }
 					<li><strong>Contributions.</strong> Anyone can propose an edition or a correction through a form on GitHub, or by pull request. Each record is one JSON file in the public repository, checked against a published schema.</li>
 					<li><strong>Review.</strong> The maintainer reviews every record before publication: that the edition exists, that it provides transcribed text from the period, and that it is described accurately.</li>
 					<li><strong>Automated search.</strong> A weekly search uses <a href="https://mistral.ai/news/mistral-large-4/">Mistral Large 4</a>, chosen for its multilingual capabilities and planned open-weight release, to propose candidate editions as pull requests. Every addition is reviewed by a human.</li>
-					<li data-if="with_countries"><strong>Countries.</strong> Countries are the present-day countries where an edition’s documents were written or printed (ISO 3166 codes; England, Scotland and Wales are kept apart). The Area filter groups them into historical areas: <span data-stat="areas_list">British Isles, France, Low Countries, Holy Roman Empire, Italian Peninsula, Iberian Peninsula, Scandinavia, Central and Eastern Europe, Balkans and Greece, Ottoman Empire and Near East, Americas, Asia and Africa</span>. The grouping is a navigational convenience, defined in <a href="https://github.com/Pantagrueliste/renascor/blob/main/schema/countries.json">schema/countries.json</a>.</li>
+					<li><strong>Document types.</strong> Each edition is classed by the kind of document its texts are: manuscripts (including archival documents and letters), printed works or inscriptions, or several of these when its texts mix them. The Type filter uses this classification.</li>
+					<li data-if="with_countries"><strong>Countries.</strong> Countries are the present-day countries where an edition’s documents were written or printed (ISO 3166 codes; England, Scotland and Wales are kept apart), as defined in <a href="https://github.com/Pantagrueliste/renascor/blob/main/schema/countries.json">schema/countries.json</a>. They appear in each record and can be searched.</li>
 				</ul>
 			</div>
 		</div>
@@ -718,9 +719,9 @@ figure { margin: 0; }
 					<a class="btn" href="https://github.com/Pantagrueliste/renascor/blob/main/schema/entry.schema.json">Schema (GitHub)</a>
 				</div>
 				<p class="small" style="margin-top:10px">UTF-8 CSV, one row per edition; lists are separated by semicolons.</p>
-				<p>Data version: <span data-if="data_commit_short">commit <a href="https://github.com/Pantagrueliste/renascor/commit/e027dcb030d111fe53e472d8f19db80da6a8567e" data-href="data_commit_url"><span class="sr-only">Data commit </span><code data-stat="data_commit_short">e027dcb</code><span class="sr-only"> on GitHub</span></a> of </span><span data-stat="updated_long">12 October 2026</span>, catalogue version <span data-stat="version">0.1.3</span>. Please cite the version you used.</p>
+				<p>Data version: <span data-if="data_commit_short">commit <a href="https://github.com/Pantagrueliste/renascor/commit/a965cf4bf4ee655cd7ba7644770e579f939c3e95" data-href="data_commit_url"><span class="sr-only">Data commit </span><code data-stat="data_commit_short">a965cf4</code><span class="sr-only"> on GitHub</span></a> of </span><span data-stat="updated_long">12 October 2026</span>, catalogue version <span data-stat="version">0.1.4</span>. Please cite the version you used.</p>
 				<h3>How to cite</h3>
-				<div class="cite-box"><span id="cite-text"><span data-stat="citation_author_year">Godbarge, Clément (2026).</span> <em data-stat="citation_title">Renascor: An open catalogue of digital editions of Renaissance-era written documents</em> <span data-stat="citation_tail">(Version 0.1.3) [Data set]. https://pantagrueliste.github.io/renascor/</span></span><button type="button" class="btn" id="cite-copy">Copy citation</button></div>
+				<div class="cite-box"><span id="cite-text"><span data-stat="citation_author_year">Godbarge, Clément (2026).</span> <em data-stat="citation_title">Renascor: An open catalogue of digital editions of Renaissance-era written documents</em> <span data-stat="citation_tail">(Version 0.1.4) [Data set]. https://pantagrueliste.github.io/renascor/</span></span><button type="button" class="btn" id="cite-copy">Copy citation</button></div>
 				<p>The data are released under <a href="https://github.com/Pantagrueliste/renascor/blob/main/LICENSE-DATA">CC0 1.0</a>: they can be reused for any purpose without permission or attribution, though a citation is appreciated. The code is released under the <a href="https://github.com/Pantagrueliste/renascor/blob/main/LICENSE">MIT licence</a>. Citation metadata: <a href="https://github.com/Pantagrueliste/renascor/blob/main/CITATION.cff">CITATION.cff</a>.</p>
 			</div>
 		</div>
@@ -742,7 +743,7 @@ figure { margin: 0; }
 
 <footer class="site-foot">
 	<div class="wrap">
-		<span>Renascor <span data-stat="version">0.1.3</span> · data of <span data-stat="updated_long">12 October 2026</span></span>
+		<span>Renascor <span data-stat="version">0.1.4</span> · data of <span data-stat="updated_long">12 October 2026</span></span>
 		<span>Data <a href="https://github.com/Pantagrueliste/renascor/blob/main/LICENSE-DATA">CC0 1.0</a> · Code <a href="https://github.com/Pantagrueliste/renascor/blob/main/LICENSE">MIT</a></span>
 		<span>Maintained by Clément Godbarge, Lecturer in Digital Humanities, University of St Andrews</span>
 		<span class="right"><a href="https://github.com/Pantagrueliste/renascor">github.com/Pantagrueliste/renascor</a></span>

@@ -7,6 +7,9 @@
     "Latin",
     "Ottoman Turkish"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "status": "active",
   "provenance": "submitted",

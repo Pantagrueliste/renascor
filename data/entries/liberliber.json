@@ -10,6 +10,9 @@
     "Latin",
     "Venetian"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "html",
   "words": 28388618,
   "texts": 310,

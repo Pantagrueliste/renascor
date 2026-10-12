@@ -18,6 +18,9 @@
     "Spanish",
     "Welsh"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "status": "active",
   "provenance": "discovered",

@@ -12,6 +12,9 @@
     "Lithuanian",
     "Old Prussian"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "xml",
   "words": 1746475,
   "texts": 26,

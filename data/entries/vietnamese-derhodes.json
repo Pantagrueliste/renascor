@@ -6,6 +6,9 @@
   "languages": [
     "Vietnamese"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "wikitext",
   "status": "active",
   "provenance": "submitted",

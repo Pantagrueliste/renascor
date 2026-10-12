@@ -6,6 +6,10 @@
   "languages": [
     "Muisca"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "wikitext",
   "status": "active",
   "provenance": "submitted",

@@ -11,6 +11,9 @@
     "Dutch",
     "German"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "plain-text",
   "words": 7105392,
   "texts": 10,

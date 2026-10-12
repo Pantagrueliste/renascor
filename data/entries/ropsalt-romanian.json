@@ -6,6 +6,10 @@
   "languages": [
     "Romanian"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "xml",
   "status": "active",
   "provenance": "submitted",

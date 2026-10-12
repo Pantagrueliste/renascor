@@ -15,6 +15,9 @@
     "Hebrew",
     "German"
   ],
+  "document_types": [
+    "inscription"
+  ],
   "encoding": "tei",
   "status": "active",
   "texts": 1926,

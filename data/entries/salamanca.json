@@ -7,6 +7,9 @@
     "Latin",
     "Spanish"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "status": "active",
   "provenance": "submitted",

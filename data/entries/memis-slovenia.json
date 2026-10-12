@@ -8,6 +8,9 @@
   "languages": [
     "Latin"
   ],
+  "document_types": [
+    "inscription"
+  ],
   "encoding": "tei",
   "status": "archived",
   "texts": 42,

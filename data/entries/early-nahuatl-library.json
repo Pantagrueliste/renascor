@@ -4,6 +4,9 @@
   "languages": [
     "Nahuatl"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "html",
   "status": "archived",
   "provenance": "submitted",

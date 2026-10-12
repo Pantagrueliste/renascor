@@ -11,6 +11,10 @@
   "languages": [
     "Hungarian"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "plain-text",
   "words": 3046715,
   "texts": 75,

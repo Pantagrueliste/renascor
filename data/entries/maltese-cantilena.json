@@ -6,6 +6,9 @@
   "languages": [
     "Maltese"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "wikitext",
   "status": "active",
   "provenance": "submitted",

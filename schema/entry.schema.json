@@ -64,6 +64,13 @@
       "uniqueItems": true,
       "description": "Languages of the texts, as human-readable names (e.g. 'Latin', 'Old French', 'Middle English')."
     },
+    "document_types": {
+      "type": "array",
+      "description": "Kinds of document the edition's texts are: manuscript (handwritten originals, archival documents, letters), print (printed books, pamphlets, broadsides) and inscription (texts on monuments, gravestones, buildings and objects). Optional.",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "enum": ["manuscript", "print", "inscription"]}
+    },
     "encoding": {
       "type": "string",
       "enum": [

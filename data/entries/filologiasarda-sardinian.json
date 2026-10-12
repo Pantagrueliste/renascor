@@ -6,6 +6,10 @@
   "languages": [
     "Sardinian"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "other",
   "status": "active",
   "provenance": "submitted",

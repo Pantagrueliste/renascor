@@ -4,6 +4,9 @@
   "languages": [
     "Hungarian"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "html",
   "status": "active",
   "provenance": "submitted",

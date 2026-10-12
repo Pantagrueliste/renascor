@@ -6,6 +6,9 @@
   "languages": [
     "Ge'ez"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "status": "active",
   "provenance": "submitted",

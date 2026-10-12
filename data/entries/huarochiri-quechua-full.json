@@ -6,6 +6,9 @@
   "languages": [
     "Quechua"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "other",
   "status": "active",
   "provenance": "submitted",

@@ -6,6 +6,9 @@
   "languages": [
     "Hungarian"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "html",
   "words": 418083,
   "texts": 8,

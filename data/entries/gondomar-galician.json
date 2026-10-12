@@ -6,6 +6,10 @@
   "languages": [
     "Galician"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "tei",
   "status": "archived",
   "provenance": "submitted",

@@ -4,6 +4,9 @@
   "languages": [
     "Spanish"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "other",
   "status": "archived",
   "provenance": "discovered",

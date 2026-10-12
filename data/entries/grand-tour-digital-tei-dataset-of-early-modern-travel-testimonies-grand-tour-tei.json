@@ -4,6 +4,9 @@
   "languages": [
     "German"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "status": "active",
   "provenance": "discovered",

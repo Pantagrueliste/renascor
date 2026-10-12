@@ -10,6 +10,9 @@
   "languages": [
     "English"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "status": "archived",
   "provenance": "discovered",

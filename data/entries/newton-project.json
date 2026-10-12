@@ -10,6 +10,9 @@
     "English",
     "Latin"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "words": 2069555,
   "texts": 168,

@@ -31,6 +31,9 @@
     "Swedish",
     "Tupi"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "wikitext",
   "words": 11470859,
   "texts": 4675,

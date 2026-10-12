@@ -11,6 +11,9 @@
   "languages": [
     "Spanish"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "words": 36856,
   "texts": 3,

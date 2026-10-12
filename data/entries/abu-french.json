@@ -6,6 +6,9 @@
   "languages": [
     "French"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "html",
   "status": "archived",
   "provenance": "submitted",

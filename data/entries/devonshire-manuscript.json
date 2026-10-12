@@ -6,6 +6,9 @@
   "languages": [
     "English"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "status": "archived",
   "provenance": "submitted",

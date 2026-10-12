@@ -34,11 +34,13 @@ const SIZES = [
 ];
 const SIZE_LABEL = Object.fromEntries(SIZES);
 const firstDir = key => (key === 'words' || key === 'texts' ? 'desc' : 'asc');
-const LIST_KEYS = ['lang', 'encoding', 'status', 'size', 'files', 'area', 'country'];
-const FACET_LABEL = { lang: 'Language', encoding: 'Encoding', status: 'Status', size: 'Size', files: 'Files', area: 'Area', country: 'Country', period: 'Period' };
+const TYPE = { manuscript: 'Manuscripts', print: 'Printed works', inscription: 'Inscriptions', none: 'Type not recorded' };
+const TYPE_ORDER = Object.keys(TYPE);
+const LIST_KEYS = ['lang', 'type', 'encoding', 'status', 'size', 'files'];
+const FACET_LABEL = { lang: 'Language', type: 'Type', encoding: 'Encoding', status: 'Status', size: 'Size', files: 'Files', period: 'Period' };
 const FACET_VALUES = {
 	lang: r => r.labels, encoding: r => [r.e.encoding], status: r => [r.e.status], size: r => [r.d.size_band || 'none'],
-	files: r => r.fileKeys, area: r => r.areas, country: r => r.countries
+	files: r => r.fileKeys, type: r => r.types
 };
 const DECADES = Array.from({ length: NBINS }, (_, i) => MIN + 10 * i);
 const binEnd = i => (i === NBINS - 1 ? MAX : DECADES[i] + 9);
@@ -166,10 +168,11 @@ function buildRecord(e, d, i) {
 	const countryNames = codes.map(countryName);
 	const r = {
 		id, e, d, labels, real: real.length ? real : labels.slice(), countries: codes, countryNames, areas,
+		types: Array.isArray(e.document_types) && e.document_types.length ? e.document_types : ['none'],
 		p: d.period && hasNum(d.period.start) && hasNum(d.period.end) ? d.period : null,
 		fileKeys: e.data_url ? dataFormats(e).map(f => has(ENC, f) ? f : 'other') : ['none']
 	};
-	r.hay = fold([e.title, e.institution, labels.join(' '), d.notes_display, e.region, countryNames.join(' '), areas.join(' '),
+	r.hay = fold([e.title, e.institution, labels.join(' '), r.types.filter(t => t !== 'none').map(t => TYPE[t]).join(' '), d.notes_display, e.region, countryNames.join(' '), areas.join(' '),
 		e.author, e.date, e.doi, d.period && d.period.label, e.period, encLabel(e.encoding), e.encoding,
 		e.data_url ? formatsLabel(e) : '', e.license, e.license_note, statusLabel(e.status), d.host, d.url_display, d.data_display, id
 	].filter(Boolean).join(' '));
@@ -190,7 +193,8 @@ function buildFacets() {
 	const labels = (stats.language_counts || []).map(x => x[0]);
 	const pseudo = labels.filter(l => PSEUDO.has(l)), realLabels = labels.filter(l => !PSEUDO.has(l));
 	const present = (key, f) => records.some(r => f(r) === key);
-	let html = facetHTML('lang', 'Language',
+	let html = facetHTML('type', 'Type', optList('type', TYPE_ORDER.filter(k => records.some(r => r.types.includes(k))), k => TYPE[k]));
+	html += facetHTML('lang', 'Language',
 		'<input type="search" class="lang-find" id="lang-find" placeholder="Find a language" aria-label="Find a language" autocomplete="off" spellcheck="false" hidden>' +
 		'<div class="lang-list" id="lang-list">' + optList('lang', realLabels, esc) +
 		(pseudo.length ? '<h4 class="opts-h" id="lang-other-h" hidden>Other labels</h4>' + optList('lang', pseudo, esc) : '') + '</div>' +
@@ -202,19 +206,6 @@ function buildFacets() {
 	if (hasFiles) {
 		html += facetHTML('files', 'Files', optList('files', ENC_ORDER.concat('none').filter(k => records.some(r => r.fileKeys.includes(k))), k => FILE_LABEL[k]),
 			'The format of the files that can be downloaded for each edition: repository, download page or dataset record.');
-	}
-	if (meta.countries && records.some(r => r.countries.length)) {
-		const C = meta.countries, n = {};
-		records.forEach(r => r.areas.concat(r.countries).forEach(v => { n[v] = (n[v] || 0) + 1; }));
-		const without = records.filter(r => !r.countries.length).length;
-		html += facetHTML('area', 'Area', '<ul class="opts opts-area">' + (meta.areas || []).filter(a => n[a]).map((a, i) => {
-			const cs = Object.keys(C).filter(c => n[c] && C[c].area === a).sort((x, y) => n[y] - n[x] || cmp(countryName(x), countryName(y)));
-			return `<li class="area-item"><label class="opt"><input type="checkbox" data-facet="area" value="${esc(a)}"><span class="name">${esc(a)}</span>` +
-				`<span class="n"></span></label><button type="button" class="linkbtn area-more" aria-expanded="false" aria-controls="ac-${i}">` +
-				`Show countries<span class="sr-only">: ${esc(a)}</span></button><ul class="opts opts-c" id="ac-${i}" hidden>` +
-				cs.map(c => optHTML('country', c, esc(countryName(c)))).join('') + '</ul></li>';
-		}).join('') + '</ul>', 'Areas group the present-day countries where the documents were written or printed.' +
-			(without ? ` ${plural(without, 'edition')} ${without === 1 ? 'has' : 'have'} no country recorded.` : ''));
 	}
 	els.facetList.innerHTML = html;
 	facetOpts = {};
@@ -230,7 +221,7 @@ function buildFacets() {
 // Disjunctive counts: a facet ignores its own selection.
 function updateFacets() {
 	Object.keys(facetOpts).forEach(key => {
-		const c = Object.create(null), skip = key === 'country' ? 'area' : key;
+		const c = Object.create(null), skip = key;
 		records.forEach(r => { if (matches(r, skip)) FACET_VALUES[key](r).forEach(v => { c[v] = (c[v] || 0) + 1; }); });
 		facetOpts[key].forEach(o => {
 			const n = c[o.value] || 0, checked = state[key].includes(o.value);
@@ -240,24 +231,15 @@ function updateFacets() {
 			o.label.classList.toggle('zero', o.input.disabled);
 		});
 	});
-	LIST_KEYS.slice(0, 6).forEach(key => {
+	LIST_KEYS.forEach(key => {
 		const v = $('fv-' + key);
 		if (!v) return;
-		const n = state[key].length + (key === 'area' ? state.country.length : 0);
+		const n = state[key].length;
 		v.textContent = n ? n + ' selected' : '';
 		els.facetList.querySelector(`[data-clear-facet="${key}"]`).hidden = !n;
 	});
-	// Countries stay shown while one is selected.
-	els.facetList.querySelectorAll('.area-more').forEach(btn => {
-		if ($(btn.getAttribute('aria-controls')).querySelector('input:checked')) showCountries(btn, true);
-	});
 	els.clearFacets.hidden = !facetFilterCount();
 	updateLangVisibility();
-}
-
-function showCountries(btn, exp) {
-	setExp(btn, exp);
-	$(btn.getAttribute('aria-controls')).hidden = !exp;
 }
 
 function updateLangVisibility() {
@@ -517,8 +499,7 @@ function matches(r, skip) {
 	if (skip !== 'status' && S.status.length && !S.status.includes(e.status)) return false;
 	if (skip !== 'size' && S.size.length && !S.size.includes(r.d.size_band || 'none')) return false;
 	if (skip !== 'files' && S.files.length && !S.files.some(f => r.fileKeys.includes(f))) return false;
-	if (skip !== 'area' && (S.area.length || S.country.length) &&
-		!r.areas.some(a => S.area.includes(a)) && !r.countries.some(c => S.country.includes(c))) return false;
+	if (skip !== 'type' && S.type.length && !S.type.some(t => r.types.includes(t))) return false;
 	if (skip !== 'period' && periodActive() && (!r.p || r.p.start > S.to || r.p.end < S.from)) return false;
 	return true;
 }
@@ -753,6 +734,7 @@ function recordHTML(r) {
 	if (e.doi) left.push(['DOI', extLink('https://doi.org/' + e.doi, esc(e.doi) + NEW_TAB)]);
 	if (e.data_url) left.push(['Files', extLink(e.data_url, esc(d.data_display || e.data_url) + NEW_TAB) + ` <span class="q nw">· ${esc(formatsLabel(e))}</span>`]);
 	if (e.api_url) left.push(['API', extLink(e.api_url, 'API documentation' + NEW_TAB)]);
+	if (r.types[0] !== 'none') left.push(['Document type', esc(r.types.map(t => TYPE[t] || t).join(', '))]);
 	left.push(['Institution', e.institution ? esc(e.institution) : 'Not recorded'], ['Languages', languagesFull(r)], ['Period', periodFull(r)], ['Size', sizeFull(r)]);
 	if (e.region) left.push(['Region', esc(e.region)]);
 	if (r.countries.length) left.push(['Countries', esc(r.countryNames.join(', ')) + (r.areas.length ? muted('· ' + esc(r.areas.join(', '))) : '')]);
@@ -868,7 +850,7 @@ function renderEmpty() {
 function renderChips() {
 	const chips = state.lang.map(v => ['lang', v, v]);
 	if (periodActive()) chips.push(['period', '', yearsLabel(state.from, state.to)]);
-	const label = { encoding: encLabel, status: statusLabel, size: v => SIZE_LABEL[v] || v, files: v => FILE_LABEL[v] || v, country: countryName };
+	const label = { encoding: encLabel, status: statusLabel, size: v => SIZE_LABEL[v] || v, files: v => FILE_LABEL[v] || v, type: v => TYPE[v] || v };
 	LIST_KEYS.slice(1).forEach(k => state[k].forEach(v => chips.push([k, v, (label[k] || String)(v)])));
 	els.chips.innerHTML = chips.map(c => {
 		const k = FACET_LABEL[c[0]];
@@ -962,9 +944,9 @@ function openFromHash() {
 
 // == URL state ==
 function readURL() {
-	const p = new URLSearchParams(location.search), C = meta.countries || {};
+	const p = new URLSearchParams(location.search);
 	// Kept once, and only if some edition has it.
-	const valid = (k, v) => (k !== 'files' || hasFiles) && (k !== 'country' || has(C, v)) && records.some(r => FACET_VALUES[k](r).includes(v));
+	const valid = (k, v) => (k !== 'files' || hasFiles) && records.some(r => FACET_VALUES[k](r).includes(v));
 	LIST_KEYS.forEach(k => { state[k] = p.getAll(k).filter((v, i, all) => all.indexOf(v) === i && valid(k, v)); });
 	setQ((p.get('q') || '').slice(0, 200));
 	const year = v => (/^\d{3,4}$/.test(v || '') ? clamp(+v, MIN, MAX) : null);
@@ -1082,11 +1064,10 @@ function wireEvents() {
 		render();
 	});
 	on(els.facets, 'click', ev => {
-		const t = ev.target, clear = t.closest('[data-clear-facet]'), more = t.closest('.area-more');
+		const t = ev.target, clear = t.closest('[data-clear-facet]');
 		if (clear) {
 			const key = clear.dataset.clearFacet;
 			state[key] = [];
-			if (key === 'area') state.country = [];
 			render();
 			const first = $('facet-' + key).querySelector('input:not([disabled])');
 			if (first) first.focus();
@@ -1096,8 +1077,7 @@ function wireEvents() {
 			if (!langExpanded) find.value = '';
 			updateLangVisibility();
 			if (langExpanded) find.focus();
-		} else if (more) showCountries(more, more.getAttribute('aria-expanded') !== 'true');
-		else if (t.closest('#clear-facets')) { resetFacets(); render(); els.q.focus(); }
+		} else if (t.closest('#clear-facets')) { resetFacets(); render(); els.q.focus(); }
 	});
 	on(els.facets, 'input', ev => { if (ev.target.id === 'lang-find') updateLangVisibility(); });
 

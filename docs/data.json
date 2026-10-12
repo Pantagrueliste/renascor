@@ -7,12 +7,12 @@
    "data": "CC0-1.0",
    "code": "MIT"
   },
-  "version": "0.1.3",
+  "version": "0.1.4",
   "released": "2026-10-12",
   "updated": "2026-10-12",
   "data_commit": {
-   "sha": "e027dcb030d111fe53e472d8f19db80da6a8567e",
-   "short": "e027dcb"
+   "sha": "a965cf4bf4ee655cd7ba7644770e579f939c3e95",
+   "short": "a965cf4"
   },
   "scope": {
    "from": 1450,
@@ -60,6 +60,7 @@
    "last_modified",
    "provenance",
    "date_added",
+   "document_types",
    "notes"
   ],
   "csv_columns": [
@@ -93,6 +94,7 @@
    "last_modified",
    "provenance",
    "date_added",
+   "document_types",
    "notes"
   ],
   "stats": {
@@ -579,9 +581,9 @@
    "median_texts": "30",
    "updated_long": "12 October 2026",
    "updated_iso": "2026-10-12",
-   "version": "0.1.3",
-   "data_commit_short": "e027dcb",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/e027dcb030d111fe53e472d8f19db80da6a8567e",
+   "version": "0.1.4",
+   "data_commit_short": "a965cf4",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/a965cf4bf4ee655cd7ba7644770e579f939c3e95",
    "header_note": "Corpus totals exclude duplicate texts (June 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.06",
    "snapshot_frozen_long": "26 June 2026",
@@ -595,7 +597,7 @@
    "areas_list": "British Isles, France, Low Countries, Holy Roman Empire, Italian Peninsula, Iberian Peninsula, Scandinavia, Central and Eastern Europe, Balkans and Greece, Ottoman Empire and Near East, Americas, Asia and Africa",
    "citation_author_year": "Godbarge, Clément (2026).",
    "citation_title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
-   "citation_tail": "(Version 0.1.3) [Data set]. https://pantagrueliste.github.io/renascor/",
+   "citation_tail": "(Version 0.1.4) [Data set]. https://pantagrueliste.github.io/renascor/",
    "status_active": "149 editions.",
    "status_archived": "64 editions.",
    "status_discontinued": "1 edition.",
@@ -1135,6 +1137,9 @@
    "languages": [
     "German"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -1161,6 +1166,9 @@
    "data_format": "plain-text",
    "languages": [
     "French"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "html",
    "status": "archived",
@@ -1189,6 +1197,9 @@
    "languages": [
     "Danish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -1215,6 +1226,9 @@
     "Spanish",
     "Latin"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "html",
    "status": "active",
    "institution": "GITHE, Universidad de Alcalá (project S2015/HUM-3443, Comunidad de Madrid / FSE)",
@@ -1237,6 +1251,9 @@
    "data_format": "tei",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -1266,6 +1283,9 @@
     "Bulgarian",
     "Macedonian"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "plain-text",
    "status": "archived",
    "provenance": "submitted",
@@ -1291,6 +1311,9 @@
    "data_format": "tei",
    "languages": [
     "Italian"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -1319,6 +1342,9 @@
    "languages": [
     "Basque"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -1344,6 +1370,10 @@
    "data_format": "tei",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "manuscript",
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -1372,6 +1402,9 @@
    "languages": [
     "Belarusian"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "html",
    "status": "active",
    "provenance": "submitted",
@@ -1396,6 +1429,9 @@
    "data_format": "other",
    "languages": [
     "Aymara"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "other",
    "status": "archived",
@@ -1425,6 +1461,9 @@
    "languages": [
     "Ge'ez"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -1448,6 +1487,9 @@
    "url": "https://www.tha.de/~harsch/augustana.html",
    "languages": [
     "Latin"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "html",
    "status": "active",
@@ -1473,6 +1515,9 @@
    "url": "https://www.cervantesvirtual.com/",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "html",
    "status": "active",
@@ -1503,6 +1548,9 @@
     "Italian",
     "Latin"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 29844182,
    "texts": 974,
@@ -1532,6 +1580,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "archived",
    "provenance": "discovered",
@@ -1559,6 +1610,9 @@
    "languages": [
     "Norwegian"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 264577,
    "texts": 9,
@@ -1582,6 +1636,9 @@
    "data_format": "tei",
    "languages": [
     "Dutch"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -1614,6 +1671,9 @@
     "Italian",
     "Latin"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "words": 5030220,
    "texts": 12482,
@@ -1637,6 +1697,9 @@
    "data_format": "tei",
    "languages": [
     "French"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -1669,6 +1732,9 @@
    "languages": [
     "Latin"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 40551750,
    "texts": 834,
@@ -1693,6 +1759,9 @@
    "languages": [
     "Italian",
     "Latin"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -1726,6 +1795,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "words": 1710446,
    "texts": 67,
@@ -1748,6 +1820,9 @@
    "data_format": "tei",
    "languages": [
     "Italian"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -1781,6 +1856,9 @@
     "Irish",
     "Latin"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 1831057,
    "texts": 66,
@@ -1802,6 +1880,9 @@
    "url": "http://cet-e-quinhentos.com/",
    "languages": [
     "Portuguese"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "html",
    "status": "archived",
@@ -1828,6 +1909,9 @@
    "languages": [
     "Spanish",
     "Latin"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -1858,6 +1942,9 @@
    "data_format": "tei",
    "languages": [
     "Mapudungun"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -1890,6 +1977,9 @@
     "Latin",
     "Polish",
     "Spanish"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -1924,6 +2014,9 @@
     "Latin",
     "Spanish"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "status": "archived",
    "provenance": "submitted",
@@ -1951,6 +2044,9 @@
    "languages": [
     "Spanish",
     "Latin"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "html",
    "status": "active",
@@ -1984,6 +2080,10 @@
    "languages": [
     "Ladino"
    ],
+   "document_types": [
+    "manuscript",
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -2009,6 +2109,9 @@
    "data_format": "other",
    "languages": [
     "Portuguese"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "other",
    "status": "archived",
@@ -2037,6 +2140,9 @@
     "German",
     "Latin"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -2064,6 +2170,9 @@
    "languages": [
     "French"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -2087,6 +2196,10 @@
    "url": "https://www.cordiam.org/",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "manuscript",
+    "print"
    ],
    "encoding": "html",
    "status": "active",
@@ -2114,6 +2227,9 @@
    "doi": "10.19130/coreecom.clh.2019",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "html",
    "status": "archived",
@@ -2143,6 +2259,9 @@
    "languages": [
     "Cornish"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "plain-text",
    "status": "archived",
    "provenance": "submitted",
@@ -2169,6 +2288,9 @@
    "data_format": "wikitext",
    "languages": [
     "Cornish"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "wikitext",
    "status": "archived",
@@ -2199,6 +2321,9 @@
    "languages": [
     "Latin"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 19091970,
    "texts": 953,
@@ -2221,6 +2346,9 @@
    "languages": [
     "Spanish",
     "Latin"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "html",
    "status": "active",
@@ -2251,6 +2379,9 @@
    "languages": [
     "French"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "archived",
    "provenance": "submitted",
@@ -2279,6 +2410,9 @@
    "languages": [
     "Spanish"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "discovered",
@@ -2304,6 +2438,9 @@
    "url": "http://web.archive.org/web/20250109043553/http://www.snhell.gr/anthology/writer.asp?id=55",
    "languages": [
     "Greek"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "html",
    "status": "discontinued",
@@ -2334,6 +2471,9 @@
    "languages": [
     "Latin"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 3545403,
    "texts": 394,
@@ -2356,6 +2496,9 @@
    "data_format": "tei",
    "languages": [
     "Czech"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -2384,6 +2527,9 @@
    "languages": [
     "Czech"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -2411,6 +2557,9 @@
    "data_format": "plain-text",
    "languages": [
     "Danish"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "plain-text",
    "status": "archived",
@@ -2443,6 +2592,9 @@
     "Dutch",
     "Frisian"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 21440504,
    "texts": 856,
@@ -2468,6 +2620,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "status": "archived",
    "provenance": "submitted",
@@ -2488,6 +2643,9 @@
    "data_format": "wikitext",
    "languages": [
     "Romanian"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "wikitext",
    "status": "active",
@@ -2516,6 +2674,10 @@
    "languages": [
     "Bulgarian"
    ],
+   "document_types": [
+    "manuscript",
+    "print"
+   ],
    "encoding": "other",
    "status": "active",
    "provenance": "submitted",
@@ -2542,6 +2704,10 @@
    "data_format": "other",
    "languages": [
     "Czech"
+   ],
+   "document_types": [
+    "manuscript",
+    "print"
    ],
    "encoding": "other",
    "status": "archived",
@@ -2570,6 +2736,9 @@
    "languages": [
     "German"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -2597,6 +2766,9 @@
    "languages": [
     "German"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -2621,6 +2793,9 @@
    "url": "https://digilib.aua.am/en",
    "languages": [
     "Armenian"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "html",
    "status": "active",
@@ -2650,6 +2825,10 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "manuscript",
+    "print"
+   ],
    "encoding": "tei",
    "words": 74746,
    "texts": 195,
@@ -2673,6 +2852,9 @@
     "Italian",
     "Latin",
     "Greek"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -2700,6 +2882,9 @@
     "Latin",
     "German"
    ],
+   "document_types": [
+    "inscription"
+   ],
    "encoding": "html",
    "status": "active",
    "texts": 26678,
@@ -2723,6 +2908,9 @@
    "data_format": "tei",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -2749,6 +2937,9 @@
    "url": "http://www.runasimi.de/waruchir.htm",
    "languages": [
     "Quechua"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "html",
    "status": "archived",
@@ -2779,6 +2970,9 @@
    "languages": [
     "Latin"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "other",
    "words": 2487100,
    "texts": 40,
@@ -2804,6 +2998,10 @@
    "languages": [
     "Scots"
    ],
+   "document_types": [
+    "manuscript",
+    "print"
+   ],
    "encoding": "plain-text",
    "status": "archived",
    "provenance": "submitted",
@@ -2826,6 +3024,9 @@
    "url": "https://www.kaowarsom.be/fr/memoir_249",
    "languages": [
     "Kikongo"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "other",
    "status": "archived",
@@ -2862,6 +3063,9 @@
     "Latin",
     "Spanish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 28488008,
    "texts": 1906,
@@ -2885,6 +3089,9 @@
    "data_format": "xml",
    "languages": [
     "Romansh"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -2912,6 +3119,9 @@
    "languages": [
     "Danish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -2938,6 +3148,9 @@
    "data_format": "tei",
    "languages": [
     "Danish"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -2969,6 +3182,9 @@
    "languages": [
     "German"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 41616768,
    "texts": 1303,
@@ -2990,6 +3206,9 @@
    "url": "https://enl.wired-humanities.org/",
    "languages": [
     "Nahuatl"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "html",
    "status": "archived",
@@ -3016,6 +3235,10 @@
    "data_format": "other",
    "languages": [
     "Greek"
+   ],
+   "document_types": [
+    "manuscript",
+    "print"
    ],
    "encoding": "plain-text",
    "status": "active",
@@ -3047,6 +3270,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 3971912,
    "texts": 5926,
@@ -3072,6 +3298,9 @@
    "institution": "Making and Knowing Project, Columbia University",
    "languages": [
     "French"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "xml",
    "words": 122621,
@@ -3107,6 +3336,9 @@
     "Spanish",
     "Welsh"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "discovered",
@@ -3139,6 +3371,9 @@
     "Spanish",
     "Latin"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "status": "active",
    "institution": "Universidade de Santiago de Compostela (HERES project; direction Ricardo Pichel, now Universidad de Alcalá) with GITHE, UNED",
@@ -3160,6 +3395,9 @@
    "data_format": "tei",
    "languages": [
     "French"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -3188,6 +3426,9 @@
    "languages": [
     "French"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -3214,6 +3455,9 @@
    "data_format": "tei",
    "languages": [
     "French"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -3251,6 +3495,9 @@
     "Latin",
     "Spanish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 553391,
    "texts": 1948,
@@ -3274,6 +3521,9 @@
    "data_format": "tei",
    "languages": [
     "Latin"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -3302,6 +3552,9 @@
    "data_format": "tei",
    "languages": [
     "English"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -3333,6 +3586,9 @@
     "Portuguese",
     "Spanish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -3361,6 +3617,9 @@
    "date_added": "2026-10-07",
    "languages": [
     "English"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "words": 248907,
@@ -3395,6 +3654,9 @@
     "Hebrew",
     "German"
    ],
+   "document_types": [
+    "inscription"
+   ],
    "encoding": "tei",
    "status": "active",
    "texts": 1926,
@@ -3423,6 +3685,9 @@
    "languages": [
     "French"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -3447,6 +3712,9 @@
    "data_format": "plain-text",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "plain-text",
    "status": "active",
@@ -3473,6 +3741,9 @@
    "data_format": "tei",
    "languages": [
     "German"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -3505,6 +3776,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 7878692,
    "texts": 716,
@@ -3526,6 +3800,9 @@
    "data_format": "tei",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -3554,6 +3831,9 @@
    "languages": [
     "Church Slavonic"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "xml",
    "status": "archived",
    "provenance": "submitted",
@@ -3579,6 +3859,9 @@
    "data_format": "html",
    "languages": [
     "Yucatec Maya"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "html",
    "status": "archived",
@@ -3606,6 +3889,10 @@
    "languages": [
     "Sardinian"
    ],
+   "document_types": [
+    "manuscript",
+    "print"
+   ],
    "encoding": "other",
    "status": "active",
    "provenance": "submitted",
@@ -3631,6 +3918,9 @@
    "data_format": "plain-text",
    "languages": [
     "Nahuatl"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "plain-text",
    "status": "archived",
@@ -3666,6 +3956,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "discovered",
@@ -3691,6 +3984,10 @@
    "languages": [
     "Swedish"
    ],
+   "document_types": [
+    "manuscript",
+    "print"
+   ],
    "encoding": "html",
    "status": "active",
    "provenance": "submitted",
@@ -3714,6 +4011,9 @@
    "url": "https://fran.si/korpus16",
    "languages": [
     "Slovenian"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "html",
    "status": "archived",
@@ -3743,6 +4043,9 @@
    "languages": [
     "French"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 25609193,
    "texts": 1207,
@@ -3766,6 +4069,9 @@
    "data_format": "xml",
    "languages": [
     "German"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "xml",
    "status": "archived",
@@ -3794,6 +4100,10 @@
     "Italian",
     "Latin"
    ],
+   "document_types": [
+    "manuscript",
+    "print"
+   ],
    "encoding": "wikitext",
    "status": "active",
    "provenance": "submitted",
@@ -3818,6 +4128,9 @@
    "data_format": "tei",
    "languages": [
     "German"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -3846,6 +4159,9 @@
    "languages": [
     "Persian"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "html",
    "status": "active",
    "provenance": "submitted",
@@ -3872,6 +4188,9 @@
    "languages": [
     "German"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "archived",
    "provenance": "submitted",
@@ -3897,6 +4216,9 @@
    "data_format": "tei",
    "languages": [
     "German"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -3926,6 +4248,9 @@
     "Latin",
     "Spanish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "html",
    "status": "active",
    "provenance": "submitted",
@@ -3952,6 +4277,10 @@
    "data_format": "tei",
    "languages": [
     "Galician"
+   ],
+   "document_types": [
+    "manuscript",
+    "print"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -3985,6 +4314,9 @@
    "languages": [
     "Spanish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 36856,
    "texts": 3,
@@ -4006,6 +4338,9 @@
    "data_format": "tei",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -4033,6 +4368,9 @@
    "languages": [
     "German"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "discovered",
@@ -4055,6 +4393,9 @@
    "data_format": "tei",
    "languages": [
     "Welsh"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -4082,6 +4423,9 @@
    "data_format": "tei",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -4112,6 +4456,9 @@
    "languages": [
     "German"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "xml",
    "status": "archived",
    "provenance": "submitted",
@@ -4139,6 +4486,10 @@
    "languages": [
     "Swedish"
    ],
+   "document_types": [
+    "manuscript",
+    "print"
+   ],
    "encoding": "plain-text",
    "status": "active",
    "provenance": "submitted",
@@ -4163,6 +4514,9 @@
    "url": "https://theses.hal.science/tel-03700179v1",
    "languages": [
     "Occitan"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "other",
    "status": "archived",
@@ -4191,6 +4545,9 @@
    "languages": [
     "Quechua"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "other",
    "status": "active",
    "provenance": "submitted",
@@ -4217,6 +4574,10 @@
    "data_format": "plain-text",
    "languages": [
     "Icelandic"
+   ],
+   "document_types": [
+    "manuscript",
+    "print"
    ],
    "encoding": "plain-text",
    "status": "active",
@@ -4246,6 +4607,9 @@
    "languages": [
     "Slovenian"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "archived",
    "provenance": "submitted",
@@ -4271,6 +4635,9 @@
    "data_format": "tei",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -4299,6 +4666,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "html",
    "words": 1346924,
    "texts": 954,
@@ -4320,6 +4690,10 @@
    "url": "http://litopys.org.ua",
    "languages": [
     "Ukrainian"
+   ],
+   "document_types": [
+    "manuscript",
+    "print"
    ],
    "encoding": "html",
    "status": "active",
@@ -4345,6 +4719,9 @@
    "data_format": "plain-text",
    "languages": [
     "Japanese"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "plain-text",
    "status": "active",
@@ -4377,6 +4754,9 @@
    "languages": [
     "Polish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 644572,
    "texts": 1568,
@@ -4398,6 +4778,9 @@
    "data_format": "tei",
    "languages": [
     "Dutch"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -4423,6 +4806,9 @@
    "url": "https://theses.hal.science/tel-05137472v1",
    "languages": [
     "French"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "other",
    "status": "active",
@@ -4450,6 +4836,9 @@
    "data_format": "tei",
    "languages": [
     "English"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -4480,6 +4869,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "xml",
    "words": 9780803,
    "texts": 296,
@@ -4499,6 +4891,9 @@
    "url": "https://corpora.uah.es/letradas/",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -4524,6 +4919,10 @@
    "data_format": "tei",
    "languages": [
     "French"
+   ],
+   "document_types": [
+    "manuscript",
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -4556,6 +4955,9 @@
     "Latin",
     "Venetian"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "html",
    "words": 28388618,
    "texts": 310,
@@ -4581,6 +4983,9 @@
    "languages": [
     "Swedish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -4605,6 +5010,9 @@
    "url": "https://amsdottorato.unibo.it/id/eprint/7046/",
    "languages": [
     "Italian"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "other",
    "status": "archived",
@@ -4632,6 +5040,9 @@
    "languages": [
     "Maltese"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "wikitext",
    "status": "active",
    "provenance": "submitted",
@@ -4657,6 +5068,9 @@
    "data_format": "tei",
    "languages": [
     "Italian"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -4687,6 +5101,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "archived",
    "provenance": "submitted",
@@ -4712,6 +5129,9 @@
    "languages": [
     "French"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 10122051,
    "texts": 3064,
@@ -4736,6 +5156,9 @@
    "date_added": "2026-10-07",
    "languages": [
     "Hungarian"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "html",
    "words": 418083,
@@ -4764,6 +5187,9 @@
    "languages": [
     "Latin"
    ],
+   "document_types": [
+    "inscription"
+   ],
    "encoding": "tei",
    "status": "archived",
    "texts": 42,
@@ -4785,6 +5211,9 @@
    "data_format": "tei",
    "languages": [
     "French"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -4812,6 +5241,9 @@
    "languages": [
     "German"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "xml",
    "status": "archived",
    "provenance": "submitted",
@@ -4838,6 +5270,10 @@
    "data_format": "wikitext",
    "languages": [
     "Muisca"
+   ],
+   "document_types": [
+    "manuscript",
+    "print"
    ],
    "encoding": "wikitext",
    "status": "active",
@@ -4869,6 +5305,9 @@
     "English",
     "Latin"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "words": 2069555,
    "texts": 168,
@@ -4896,6 +5335,9 @@
    "languages": [
     "Latin"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "xml",
    "words": 82381900,
    "texts": 678,
@@ -4919,6 +5361,9 @@
    "data_format": "tei",
    "languages": [
     "French"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -4947,6 +5392,9 @@
    "languages": [
     "French"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -4972,6 +5420,9 @@
    "languages": [
     "Occitan"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "html",
    "status": "archived",
    "provenance": "submitted",
@@ -4995,6 +5446,9 @@
    "url": "https://oc.wikisource.org/",
    "languages": [
     "Occitan"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "wikitext",
    "status": "active",
@@ -5021,6 +5475,9 @@
    "data_format": "tei",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -5051,6 +5508,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 924767,
    "texts": 198,
@@ -5080,6 +5540,10 @@
    "languages": [
     "Hungarian"
    ],
+   "document_types": [
+    "manuscript",
+    "print"
+   ],
    "encoding": "plain-text",
    "words": 3046715,
    "texts": 75,
@@ -5107,6 +5571,9 @@
     "Dutch",
     "German"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "plain-text",
    "words": 7105392,
    "texts": 10,
@@ -5124,6 +5591,9 @@
    "institution": "Open Islamicate Texts Initiative",
    "languages": [
     "Arabic"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "markdown",
    "words": 356834104,
@@ -5152,6 +5622,10 @@
     "Latin",
     "Spanish"
    ],
+   "document_types": [
+    "manuscript",
+    "print"
+   ],
    "encoding": "html",
    "status": "active",
    "provenance": "submitted",
@@ -5179,6 +5653,9 @@
    "languages": [
     "Otomí"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "html",
    "status": "active",
    "provenance": "submitted",
@@ -5202,6 +5679,9 @@
    "url": "https://hallgrimurpetursson.is",
    "languages": [
     "Icelandic"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "html",
    "status": "archived",
@@ -5229,6 +5709,9 @@
    "data_format": "other",
    "languages": [
     "English"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "other",
    "status": "active",
@@ -5259,6 +5742,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "html",
    "words": 1277817,
    "texts": 1,
@@ -5286,6 +5772,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 6762346,
    "texts": 81,
@@ -5308,6 +5797,9 @@
    "languages": [
     "German"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "discovered",
@@ -5327,6 +5819,9 @@
    "url": "https://uu.diva-portal.org/smash/record.jsf?pid=diva2:171057",
    "languages": [
     "Latin"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "other",
    "status": "archived",
@@ -5353,6 +5848,9 @@
    "data_format": "tei",
    "languages": [
     "Spanish"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -5381,6 +5879,9 @@
    "data_format": "tei",
    "languages": [
     "Italian"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -5414,6 +5915,9 @@
     "Portuguese",
     "Spanish"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "words": 899841,
    "texts": 1878,
@@ -5437,6 +5941,10 @@
    "data_format": "other",
    "languages": [
     "Yiddish"
+   ],
+   "document_types": [
+    "manuscript",
+    "print"
    ],
    "encoding": "other",
    "status": "active",
@@ -5476,6 +5984,9 @@
     "Portuguese",
     "Spanish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "html",
    "words": 20440559,
    "texts": 280,
@@ -5500,6 +6011,9 @@
    "languages": [
     "Latin",
     "Ottoman Turkish"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -5530,6 +6044,9 @@
     "Italian",
     "Latin"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -5555,6 +6072,9 @@
    "data_format": "xml",
    "languages": [
     "German"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "xml",
    "status": "archived",
@@ -5584,6 +6104,10 @@
    "languages": [
     "German"
    ],
+   "document_types": [
+    "manuscript",
+    "print"
+   ],
    "encoding": "tei",
    "status": "archived",
    "provenance": "submitted",
@@ -5611,6 +6135,9 @@
    "languages": [
     "Spanish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "plain-text",
    "status": "archived",
    "provenance": "submitted",
@@ -5636,6 +6163,9 @@
    "url": "http://www.rialc.unina.it/",
    "languages": [
     "Catalan"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "html",
    "status": "archived",
@@ -5664,6 +6194,9 @@
    "languages": [
     "French"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "archived",
    "provenance": "submitted",
@@ -5687,6 +6220,9 @@
    "url": "https://www.bu.edu/afam/people/faculty/john-thornton/roboredo-kikongo-sermon/",
    "languages": [
     "Kikongo"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "html",
    "status": "archived",
@@ -5713,6 +6249,10 @@
    "data_format": "xml",
    "languages": [
     "Romanian"
+   ],
+   "document_types": [
+    "manuscript",
+    "print"
    ],
    "encoding": "xml",
    "status": "active",
@@ -5743,6 +6283,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "words": 2795758,
    "texts": 1424,
@@ -5765,6 +6308,9 @@
    "data_format": "tei",
    "languages": [
     "English"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -5795,6 +6341,9 @@
    "languages": [
     "Russian"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "html",
    "words": 96174,
    "texts": 13,
@@ -5817,6 +6366,9 @@
    "url": "https://ru.wikisource.org/wiki/%D0%A1%D0%BE%D0%B1%D0%BE%D1%80%D0%BD%D0%BE%D0%B5_%D1%83%D0%BB%D0%BE%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5_1649_%D0%B3%D0%BE%D0%B4%D0%B0",
    "languages": [
     "Russian"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "wikitext",
    "status": "active",
@@ -5846,6 +6398,9 @@
     "Latin",
     "Spanish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -5874,6 +6429,9 @@
    "date_added": "2026-10-07",
    "languages": [
     "Hebrew"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "json",
    "words": 51508557,
@@ -5909,6 +6467,9 @@
    "languages": [
     "Latvian"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -5935,6 +6496,9 @@
    "languages": [
     "French"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "archived",
    "provenance": "submitted",
@@ -5959,6 +6523,9 @@
    "url": "https://chmtl.indiana.edu/smi",
    "languages": [
     "Italian"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "html",
    "status": "active",
@@ -5987,6 +6554,9 @@
    "languages": [
     "Spanish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -6014,6 +6584,9 @@
    "languages": [
     "Polish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "html",
    "status": "active",
    "provenance": "submitted",
@@ -6040,6 +6613,9 @@
    "data_format": "tei",
    "languages": [
     "German"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -6070,6 +6646,9 @@
    "languages": [
     "English"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "html",
    "words": 1112931,
    "texts": 291,
@@ -6093,6 +6672,9 @@
    "data_format": "tei",
    "languages": [
     "Italian"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -6122,6 +6704,9 @@
    "languages": [
     "Tagalog"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "html",
    "status": "active",
    "provenance": "submitted",
@@ -6147,6 +6732,9 @@
    "languages": [
     "Spanish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -6171,6 +6759,9 @@
    "url": "https://www.history.ucsb.edu/wp-content/uploads/testaments_of_culhuacan.pdf",
    "languages": [
     "Nahuatl"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "other",
    "status": "archived",
@@ -6202,6 +6793,9 @@
     "Italian",
     "Latin"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "discovered",
@@ -6228,6 +6822,9 @@
    "languages": [
     "Latin"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "html",
    "words": 673616,
    "texts": 121,
@@ -6251,6 +6848,9 @@
    "data_format": "xml",
    "languages": [
     "French"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "xml",
    "status": "active",
@@ -6276,6 +6876,9 @@
    "data_format": "tei",
    "languages": [
     "Zapotec"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -6310,6 +6913,9 @@
     "Lithuanian",
     "Old Prussian"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "xml",
    "words": 1746475,
    "texts": 26,
@@ -6331,6 +6937,9 @@
    "url": "https://tmiweb.science.uu.nl",
    "languages": [
     "Italian"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -6357,6 +6966,9 @@
    "languages": [
     "Hungarian"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "html",
    "status": "active",
    "provenance": "submitted",
@@ -6382,6 +6994,9 @@
    "data_format": "html",
    "languages": [
     "Latin"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "html",
    "status": "active",
@@ -6411,6 +7026,9 @@
    "languages": [
     "Latin"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "tei",
    "status": "active",
    "provenance": "submitted",
@@ -6437,6 +7055,9 @@
    "languages": [
     "Portuguese"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "xml",
    "status": "active",
    "provenance": "submitted",
@@ -6462,6 +7083,9 @@
    "languages": [
     "Spanish"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "other",
    "status": "archived",
    "provenance": "discovered",
@@ -6485,6 +7109,9 @@
     "Spanish",
     "Basque"
    ],
+   "document_types": [
+    "manuscript"
+   ],
    "encoding": "other",
    "status": "active",
    "provenance": "discovered",
@@ -6505,6 +7132,9 @@
    "url": "https://vakk.ut.ee",
    "languages": [
     "Estonian"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "html",
    "status": "active",
@@ -6530,6 +7160,9 @@
    "url": "https://books.uu.se/uup/catalog/book/18",
    "languages": [
     "Latin"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "other",
    "status": "archived",
@@ -6558,6 +7191,9 @@
    "languages": [
     "Latin"
    ],
+   "document_types": [
+    "inscription"
+   ],
    "encoding": "html",
    "status": "active",
    "texts": 24,
@@ -6579,6 +7215,9 @@
    "data_format": "xml",
    "languages": [
     "Italian"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -6607,6 +7246,9 @@
    "languages": [
     "Vietnamese"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "wikitext",
    "status": "active",
    "provenance": "submitted",
@@ -6632,6 +7274,9 @@
    "data_format": "tei",
    "languages": [
     "Finnish"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -6659,6 +7304,10 @@
    "languages": [
     "Czech"
    ],
+   "document_types": [
+    "manuscript",
+    "print"
+   ],
    "encoding": "tei",
    "words": 4848608,
    "texts": 295,
@@ -6682,6 +7331,9 @@
    "data_format": "tei",
    "languages": [
     "Welsh"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "active",
@@ -6735,6 +7387,9 @@
     "Swedish",
     "Tupi"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "wikitext",
    "words": 11470859,
    "texts": 4675,
@@ -6758,6 +7413,9 @@
    "data_format": "xml",
    "languages": [
     "German"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "tei",
    "status": "archived",
@@ -6785,6 +7443,9 @@
    "data_format": "tei",
    "languages": [
     "Lithuanian"
+   ],
+   "document_types": [
+    "manuscript"
    ],
    "encoding": "tei",
    "status": "active",
@@ -6815,6 +7476,9 @@
    "languages": [
     "Polish"
    ],
+   "document_types": [
+    "print"
+   ],
    "encoding": "xml",
    "words": 583360,
    "texts": 8,
@@ -6836,6 +7500,9 @@
    "url": "https://zlatyfond.sme.sk",
    "languages": [
     "Slovak"
+   ],
+   "document_types": [
+    "print"
    ],
    "encoding": "xml",
    "status": "active",

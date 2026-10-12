@@ -4,6 +4,9 @@
   "languages": [
     "Slovak"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "xml",
   "status": "active",
   "provenance": "submitted",

@@ -8,6 +8,9 @@
   "languages": [
     "Latin"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "other",
   "words": 2487100,
   "texts": 40,

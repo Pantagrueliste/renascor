@@ -72,6 +72,7 @@ Return your findings as a JSON array. Each element must be an object with exactl
   "data_url": "string, optional, where the machine-readable files can be downloaded (repository, download page, dataset record)",
   "data_format": "tei | xml | json | html | plain-text | wikitext | markdown | other, required if data_url is given",
   "languages": ["array", "of", "human-readable", "language", "names"],
+  "document_types": ["manuscript | print | inscription", "one or more"],
   "encoding": "tei | xml | json | html | plain-text | wikitext | markdown | other",
   "status": "active | archived | discontinued",
   "institution": "string, optional, the institution or team behind the edition",

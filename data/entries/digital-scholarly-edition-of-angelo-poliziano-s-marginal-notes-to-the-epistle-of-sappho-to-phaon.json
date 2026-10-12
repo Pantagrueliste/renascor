@@ -6,6 +6,9 @@
     "Latin",
     "Greek"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "status": "active",
   "provenance": "discovered",

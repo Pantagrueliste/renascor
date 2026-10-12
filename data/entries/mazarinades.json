@@ -9,6 +9,9 @@
   "languages": [
     "French"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "words": 10122051,
   "texts": 3064,

@@ -339,7 +339,7 @@ class InjectTests(unittest.TestCase):
             bs.inject('<span data-stat="editions"><b>0</b></span>' + self.PAGE, self.DISPLAY, self.REGIONS)
 
     def test_countries_text_follows_the_data(self):
-        """The About text on countries and the Area filter shows once an edition records countries."""
+        """The About text on countries shows once an edition records countries."""
         if not bs.COUNTRIES_PATH.exists():
             self.skipTest("schema/countries.json not present")
         page = (REPO / "docs" / "index.html").read_text(encoding="utf-8")
@@ -354,7 +354,6 @@ class InjectTests(unittest.TestCase):
             item = re.search(r'<li data-if="with_countries"[^>]*>', out).group(0)
             self.assertEqual(" hidden" in item, not countries)
             self.assertEqual(meta["areas"], areas)
-            self.assertIn(bs.join_and(areas), out)
 
     def test_real_page_has_only_known_keys(self):
         """docs/index.html must only use keys the build produces."""

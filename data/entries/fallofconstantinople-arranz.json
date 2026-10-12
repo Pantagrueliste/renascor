@@ -6,6 +6,9 @@
   "languages": [
     "Church Slavonic"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "xml",
   "status": "archived",
   "provenance": "submitted",

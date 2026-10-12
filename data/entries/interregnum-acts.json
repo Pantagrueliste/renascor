@@ -7,6 +7,9 @@
   "languages": [
     "English"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "html",
   "words": 1346924,
   "texts": 954,

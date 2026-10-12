@@ -8,6 +8,9 @@
   "languages": [
     "Polish"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "xml",
   "words": 583360,
   "texts": 8,

@@ -9,6 +9,9 @@
   "languages": [
     "French"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "xml",
   "words": 122621,
   "texts": 1,

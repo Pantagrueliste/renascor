@@ -6,6 +6,10 @@
   "languages": [
     "Czech"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "other",
   "status": "archived",
   "provenance": "submitted",

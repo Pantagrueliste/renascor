@@ -6,6 +6,9 @@
   "languages": [
     "Latin"
   ],
+  "document_types": [
+    "inscription"
+  ],
   "encoding": "html",
   "status": "active",
   "texts": 24,

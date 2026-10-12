@@ -18,6 +18,9 @@
     "Portuguese",
     "Spanish"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "html",
   "words": 20440559,
   "texts": 280,

@@ -9,6 +9,9 @@
     "Dutch",
     "Frisian"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "words": 21440504,
   "texts": 856,

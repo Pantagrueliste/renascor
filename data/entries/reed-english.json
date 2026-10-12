@@ -8,6 +8,9 @@
     "Italian",
     "Latin"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "status": "active",
   "provenance": "submitted",
