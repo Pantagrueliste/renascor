@@ -1,0 +1,28 @@
+{
+  "title": "COSUIZA — Corpus de documentos hispánicos de Suiza",
+  "url": "https://grafila.unil.ch/cosuiza/",
+  "data_url": "https://grafila.unil.ch/cosuiza/index.php?action=files",
+  "data_format": "tei",
+  "languages": [
+    "Spanish"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "institution": "GRAFILA (Grupo de Análisis Filológico de Lausana), Section d'espagnol, Université de Lausanne; CHARTA network member",
+  "region": "Documents kept in Swiss archives (Basel, Fribourg, Bern, Geneva, Valais, Vaud, Lausanne), written mostly in Spain and Spanish America",
+  "countries": [
+    "ES",
+    "MX",
+    "IT",
+    "BE",
+    "FR",
+    "AR",
+    "CH"
+  ],
+  "period": "1483-1951",
+  "notes": "123 TEITOK documents (stats page 'action=stats', checked 2026-10-12): non-literary manuscripts edited following the CHARTA criteria (palaeographic and critical presentation, TEI XML with lemma/POS). Word and text counts are left out: only 53 of the 123 documents carry a date in their TEI header (1483-1951), of which at least 27 (about 9,400 tokens) fall within 1450-1700; the share of the 70 undated documents is unknown, and the corpus is under construction. Raw TEI XML is served per document. Part of the CHARTA network.",
+  "license": "Not stated",
+  "license_note": "TEI header availability statement only says 'Licencia CREATIVE COMMONS' without naming the variant."
+}

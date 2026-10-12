@@ -1,0 +1,23 @@
+{
+  "title": "Letradas — Corpus de textos escritos por mujeres en España (1400-1900)",
+  "url": "https://corpora.uah.es/letradas/",
+  "languages": [
+    "Spanish"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "institution": "GITHE, Universidad de Alcalá (contact Belén Almeida Cabrejas; project PID2022-141561OB-I00)",
+  "words": 37661,
+  "texts": 105,
+  "region": "Spain",
+  "countries": [
+    "ES",
+    "FR",
+    "IT"
+  ],
+  "period": "1400-1900",
+  "notes": "Manuscript letters and other documents written by women (queens, nobles, nuns, 19th-century writers such as Gertrudis Gómez de Avellaneda), with paleographic, transcribed and critical presentations, metadata on the women involved and map/search tools; TEITOK platform; per-document TEI at corpora.uah.es/letradas/xmlfiles/<id>.xml, no bulk download page. Counts cover the 105 documents dated within or overlapping 1450-1700 (tokens as counted by TEITOK, counted by us from the document headers); the whole corpus has 270 documents (87,985 tokens), and 21 documents carry no date. 'Corpus histórico en desarrollo'.",
+  "license": "Not stated",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

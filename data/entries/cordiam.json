@@ -1,0 +1,26 @@
+{
+  "title": "CORDIAM — Corpus Diacrónico y Diatópico del Español de América",
+  "url": "https://www.cordiam.org/",
+  "languages": [
+    "Spanish"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "institution": "Academia Mexicana de la Lengua (Concepción Company and Virginia Bertolotti, directors; search engine by A. Gelbukh and G. Sidorov)",
+  "region": "Spanish America (19 countries, plus the US South/West, Jamaica, Haiti, Guyana)",
+  "countries": [
+    "MX",
+    "PE",
+    "AR",
+    "CU",
+    "CO",
+    "VE",
+    "CL",
+    "BO"
+  ],
+  "period": "1494-1905",
+  "notes": "Three subcorpora: Documentos (6,851 texts, archival documents from 'corpus de corpus'), Literatura (6,367; 16th-19th c.) and Prensa (16,271; 18th-19th c. only). The project publishes 20,419,049 words in 29,489 texts for all three subcorpora and all centuries (15th-19th); the share within 1450-1700 is not published, so word and text counts are left out (the press subcorpus lies wholly after 1700). The search interface is open without login and full documents can be displayed and saved; there is no bulk download and no TEI. Documents are transcriptions with expanded abbreviations. The countries listed are a selection of the 20+ countries covered.",
+  "license": "Not stated"
+}

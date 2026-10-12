@@ -1,0 +1,29 @@
+{
+  "title": "CHARTA — Corpus hispánico y americano en la red: textos antiguos",
+  "url": "https://corpora.uah.es/charta/index.php?action=corpus",
+  "languages": [
+    "Spanish",
+    "Latin"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "institution": "Red CHARTA, coordinated by GITHE (Universidad de Alcalá; Ricardo Pichel, Víctor Caballero Gómez)",
+  "words": 179400,
+  "texts": 250,
+  "region": "Spain and Spanish America",
+  "countries": [
+    "ES",
+    "VE",
+    "CO",
+    "MX",
+    "EC",
+    "US",
+    "CU",
+    "DO"
+  ],
+  "period": "944-1871",
+  "notes": "Selection of archival documents drawn from the corpora of the member research groups of the CHARTA network (CODCAR, CODEMA, CORHEN, CODEA, CDHM, COREECOM, CODDEC, DGSXIX, DOLEO, CorColombia, CORAPRINA, COHSANRE, COTAGAL, DCEP, CORDEREGRA, CORDINA, COHIECOS), so the texts also exist in those corpora. Each document has facsimile (where available), paleographic and critical presentations; free reading and search without login on the TEITOK platform; per-document TEI XML is served at corpora.uah.es/charta/xmlfiles/<id>.xml but there is no bulk download page. Counts cover the 250 documents dated within or overlapping 1450-1700 (about 179,400 tokens as counted by TEITOK, counted by us from the corpus listing); the whole corpus has 787 documents (492,128 tokens, 944-1871).",
+  "license": "Not stated",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}
