@@ -1,0 +1,30 @@
+{
+  "title": "Ein Sermon von Ablass und Gnade: a digital edition (Taylor Editions, Oxford)",
+  "url": "https://editions.mml.ox.ac.uk/editions/ablassgnade6/",
+  "data_url": "https://editions.mml.ox.ac.uk/texts/ablassgnade6.xml",
+  "data_format": "tei",
+  "languages": [
+    "German"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "author": "Martin Luther",
+  "date": "1518",
+  "institution": "Taylor Institution Library and Faculty of Medieval and Modern Languages, University of Oxford",
+  "words": 1477,
+  "texts": 1,
+  "region": "Leipzig (print) and Wittenberg",
+  "countries": [
+    "DE"
+  ],
+  "period": "1518",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "license_note": "XML files are CC BY-SA 4.0; the images are CC BY-NC-ND 4.0.",
+  "notes": "Transcription of Luther's Sermon von dem Ablass und Gnade (Leipzig print of 1518), with a facsimile, an English translation, linguistic notes and an introduction, and a note on the variant Basel print. Part of the Taylor Editions 'Reformation' pamphlet collection. Count is ours, from the TEI file: about 1,500 words of transcription (notes left out). The edition is dated 2018 (TEI change date 2018-02-14); the Taylor Editions site is online.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

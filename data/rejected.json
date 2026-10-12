@@ -208,6 +208,126 @@
       "reason": "Access requires registration and the texts are PDFs of medieval inscriptions (701-1500), with a negligible share within 1450-1700.",
       "source_url": "http://cem.dissgea.unipd.it/indice.html",
       "date": "2026-10-12"
+    },
+    {
+      "id": "open-source-shakespeare",
+      "title": "Open Source Shakespeare",
+      "url": "https://www.opensourceshakespeare.org/",
+      "reason": "Gives only a modernised text, not a transcription of the early sources; Renascor lists original-spelling transcriptions. The text is the 1864 Globe edition.",
+      "source_url": "https://www.opensourceshakespeare.org/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "mini-lazarillo",
+      "title": "Mini Lazarillo: Edición mínima del Lazarillo de Tormes",
+      "url": "http://minilazarillo.github.io/",
+      "reason": "Gives only a modernised text, not a transcription of the early sources; Renascor lists original-spelling transcriptions.",
+      "source_url": "http://minilazarillo.github.io/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "regi-magyar-exemplumadatbazis",
+      "title": "Régi Magyar Exemplumadatbázis (RMEx)",
+      "url": "https://sermones.elte.hu/exemplumadatbazis/",
+      "reason": "Gives only a modernised text, not a transcription of the early sources; Renascor lists original-spelling transcriptions. The exempla are modernised readings taken from the printed Nyelvemléktár editions.",
+      "source_url": "https://sermones.elte.hu/exemplumadatbazis/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "drama-online",
+      "title": "Drama Online",
+      "url": "http://www.dramaonlinelibrary.com/",
+      "reason": "Texts are behind a paid subscription or purchase.",
+      "source_url": "http://www.dramaonlinelibrary.com/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "oxford-scholarly-editions-online",
+      "title": "Oxford Scholarly Editions Online",
+      "url": "http://www.oxfordscholarlyeditions.com/",
+      "reason": "Texts are behind a paid subscription or purchase.",
+      "source_url": "http://www.oxfordscholarlyeditions.com/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "gale-shakespeare-collection",
+      "title": "The Shakespeare Collection (Gale)",
+      "url": "http://gale.cengage.co.uk/the-shakespeare-collection.aspx",
+      "reason": "Texts are behind a paid subscription or purchase.",
+      "source_url": "http://gale.cengage.co.uk/the-shakespeare-collection.aspx",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "cambridge-ben-jonson-online",
+      "title": "Cambridge Works of Ben Jonson Online",
+      "url": "http://universitypublishingonline.org/cambridge/benjonson/",
+      "reason": "Texts are behind a paid subscription or purchase.",
+      "source_url": "http://universitypublishingonline.org/cambridge/benjonson/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "brepolis-library-of-latin-texts",
+      "title": "Brepolis Library of Latin Texts",
+      "url": "http://apps.brepolis.net/BrepolisPortal/default.aspx",
+      "reason": "Texts are behind a paid subscription or purchase.",
+      "source_url": "http://apps.brepolis.net/BrepolisPortal/default.aspx",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "loeb-classical-library",
+      "title": "Loeb Classical Library Online",
+      "url": "https://www.loebclassics.com/",
+      "reason": "Texts are behind a paid subscription or purchase. The material is also classical.",
+      "source_url": "https://www.loebclassics.com/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "patrologia-latina-database",
+      "title": "Patrologia Latina Database",
+      "url": "http://pld.chadwyck.co.uk/",
+      "reason": "Texts are behind a paid subscription or purchase. The material is also patristic.",
+      "source_url": "http://pld.chadwyck.co.uk/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "digital-temple",
+      "title": "The Digital Temple: A Documentary Edition of George Herbert's English Verse",
+      "url": "https://digitaltemple.upress.virginia.edu/",
+      "reason": "Transcriptions are restricted to purchasers; only the documentation is public.",
+      "source_url": "https://digitaltemple.upress.virginia.edu/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "kircher-correspondence-stanford",
+      "title": "The Athanasius Kircher Correspondence Project (Stanford)",
+      "url": "https://web.stanford.edu/group/kircher/",
+      "reason": "Facsimile images of the correspondence with no transcriptions, and the image links are dead.",
+      "source_url": "https://web.stanford.edu/group/kircher/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "thomas-nashe-project",
+      "title": "The Thomas Nashe Project",
+      "url": "https://research.ncl.ac.uk/thethomasnasheproject/",
+      "reason": "Project page for a forthcoming print edition; no transcribed texts are published.",
+      "source_url": "https://research.ncl.ac.uk/thethomasnasheproject/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "gascon-rolls",
+      "title": "The Gascon Rolls Project",
+      "url": "https://www.gasconrolls.org/",
+      "reason": "English calendars (summaries) of the rolls rather than transcriptions, and only 1450-1467 falls within the period.",
+      "source_url": "https://www.gasconrolls.org/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "heidmann-oratio-bibliotheca-julia",
+      "title": "Christoph Heidmanns Oratio de Bibliotheca Julia",
+      "url": "http://diglib.hab.de/edoc/ed000084/start.htm",
+      "reason": "Publishes only a modern German translation; the Latin transcription is not available.",
+      "source_url": "http://diglib.hab.de/edoc/ed000084/start.htm",
+      "date": "2026-10-13"
     }
   ],
   "review_pending": [

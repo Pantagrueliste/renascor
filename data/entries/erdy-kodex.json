@@ -1,0 +1,25 @@
+{
+  "title": "Érdy-kódex (Sermones Compilati research group, ELTE)",
+  "url": "https://sermones.elte.hu/erdy/",
+  "languages": [
+    "Hungarian"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "institution": "Sermones Compilati research group, ELTE BTK, Budapest",
+  "date": "1526-1527",
+  "period": "1526-1527",
+  "region": "Kingdom of Hungary",
+  "countries": [
+    "HU"
+  ],
+  "words": 63000,
+  "texts": 1,
+  "notes": "The Érdy codex, a Hungarian-language sermon and legend manuscript copied in 1526-1527, set out in a table with photographs of the manuscript pages, a letter-by-letter (diplomatic) transcription and related studies, plus a link to the 19th-century printed edition. At the time of checking, 108 pages are transcribed (pages 001-055 and 103-157); the rest of the critical edition is marked 'in preparation'. Counts are ours: about 63,000 tokens in the transcription tables of those 108 pages (the figure includes line numbers and page headings, so it slightly overstates the words). The codex is counted as one text. The server reports a last modification in 2014 for the page and nothing newer was found, so the resource is listed as archived. The Sermones site is still maintained for other projects such as the exempla database.",
+  "license": "Not stated",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

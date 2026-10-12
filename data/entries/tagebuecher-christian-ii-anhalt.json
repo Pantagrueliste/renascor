@@ -1,0 +1,32 @@
+{
+  "title": "Digitale Edition und Kommentierung der Tagebücher des Fürsten Christian II. von Anhalt-Bernburg (1599-1656)",
+  "url": "http://diglib.hab.de/edoc/ed000228/start.htm",
+  "data_url": "http://diglib.hab.de/edoc/ed000228/",
+  "data_format": "tei",
+  "languages": [
+    "German",
+    "French",
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "author": "Christian II of Anhalt-Bernburg",
+  "institution": "Herzog August Bibliothek Wolfenbüttel, Sachsen-Anhalt project (transcription by Andreas Herz and others)",
+  "region": "Germany, Austria and Bohemia",
+  "countries": [
+    "DE",
+    "AT"
+  ],
+  "period": "1621-1656",
+  "words": 2609000,
+  "texts": 338,
+  "last_modified": "2026-05-13",
+  "notes": "Annotated edition of the diaries Prince Christian II wrote between 1621 and 1656 (about 17,000 manuscript pages, all done), with facsimiles, translations of foreign passages, comments, indexes and a project website (www.tagebuch-christian-ii-anhalt.de). One TEI XML file per month is served on the HAB server. Counts are ours from the 338 monthly files (10,086 diary entries): about 2.6 million words in the diary paragraphs, counting the prince's own marginal notes and leaving out indexes, editorial notes and translations.",
+  "license": "CC-BY-SA-3.0",
+  "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

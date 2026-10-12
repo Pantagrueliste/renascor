@@ -1,0 +1,29 @@
+{
+  "title": "Künstlike Werltspröke und Eyn schön rimbökelin (WSRB): digital edition of 16th-century Middle Low German proverb collections",
+  "url": "https://digibib.uni-rostock.de/wsrb/",
+  "doi": "10.18453/rosdok_id00004899",
+  "data_url": "https://doi.org/10.18453/rosdok_id00004899",
+  "data_format": "tei",
+  "languages": [
+    "Middle Low German"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "institution": "Universität Rostock (Franz-Josef Holznagel, Annika Bostelmann, Doreen Brandt, Hellmut Braun, Anne Gessing; DFG project 287283426)",
+  "date": "c. 1540-1601",
+  "period": "c. 1540-1601",
+  "region": "Northern Germany (Lübeck, Hamburg)",
+  "countries": [
+    "DE"
+  ],
+  "words": 182521,
+  "texts": 8,
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "notes": "Transcriptions and facsimiles of the eight known editions of the 'Künstlike Werltspröke' (seven editions) and the 'Schön rimbökelin', printed in Lübeck and later Hamburg between about 1540 and 1601, and a critical edition of 849 sayings with search and filters. The DOI belongs to the data publication in the RosDok repository (all TEI files plus the software); the TEI of each transcription is also served at /wsrb/xml_raw/. Counts are ours: 8 texts (one per edition) and about 182,500 words, counted in the text element of the eight transcription TEI files. A book edition appeared at the same time.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

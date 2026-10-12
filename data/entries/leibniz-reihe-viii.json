@@ -1,0 +1,38 @@
+{
+  "title": "Leibniz: Sämtliche Schriften und Briefe, Reihe VIII (Naturwissenschaftliche, medizinische und technische Schriften)",
+  "url": "https://www.leibnizedition.de/reihen/reihe-viii/",
+  "data_url": "https://github.com/telota/LeibnizVIII-LaTeX_TEI",
+  "data_format": "tei",
+  "data_formats": [
+    "tei",
+    "other"
+  ],
+  "languages": [
+    "Latin",
+    "French",
+    "German"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "author": "Gottfried Wilhelm Leibniz",
+  "date": "1668-1715",
+  "institution": "Leibniz-Edition Berlin (Berlin-Brandenburgische Akademie der Wissenschaften) and TELOTA",
+  "region": "Germany (Mainz, Paris, Hanover)",
+  "countries": [
+    "DE",
+    "FR"
+  ],
+  "period": "1668-1715",
+  "years_active": {
+    "start": 2001,
+    "end": "ongoing"
+  },
+  "license": "CC-BY-NC-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "notes": "Series VIII of the historical-critical edition of Leibniz: his scientific, medical and technical writings. Volume 1 (1668-1676) and volume 2 (1668-1676) are wholly in the period; volume 3 (mechanics 1, 1671-1705) mostly; volume 4 (1676-1715) later, and is online only as PDF. Free PDFs (same pagination as the print) are on the site and the BBAW repository; LaTeX and TEI data for volumes 1-3 are on GitHub (CC BY-NC 4.0). The TEI files are 3.8, 6.2 and 10.1 MB for volumes 1, 2 and 3. No word or text count is given: the TEI holds editorial apparatus, commentary and German headings together with Leibniz's Latin, French and German texts, and in volumes 3 and 4 many pieces date after 1700. Volume 4 was added in 2024-2025.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

@@ -1,0 +1,30 @@
+{
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "title": "1641 Depositions (Trinity College Dublin)",
+  "url": "https://1641.tcd.ie/",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "institution": "Trinity College Dublin, with the Universities of Aberdeen and Cambridge (funded by the Irish Research Council and the AHRC)",
+  "texts": 6932,
+  "date": "1641-1653",
+  "period": "1641-1653",
+  "region": "Ireland",
+  "countries": [
+    "IE",
+    "GB-NIR"
+  ],
+  "years_active": {
+    "start": 2007,
+    "end": 2010
+  },
+  "notes": "Transcripts, with page images, of the witness statements (depositions and examinations) collected after the Irish rising of October 1641, bound in 32 volumes (TCD MSS 809-840) and kept in Trinity College Library. Every transcript is readable online without login. The project page says the transcribing and online publication ran from 2007 to September 2010 and that the site presents about 8,000 depositions, examinations and associated materials. texts = 6,932 deposition records, our own count of the results the site lists for each of the 32 manuscript volumes on 2026-10-12; all are dated 1641-1653 and so fall within 1450-1700. Words not given: no word count is published. The site's content pages were last changed on 2020-10-16 (WordPress page records), so it is marked archived. Only a TEI-compliant encoding is mentioned on the project pages; no download of the files was found.",
+  "last_modified": "2020-10-16",
+  "license": "Not stated"
+}

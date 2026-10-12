@@ -1,0 +1,31 @@
+{
+  "title": "Briefwisseling van Constantijn Huygens 1607-1687",
+  "url": "https://resources.huygens.knaw.nl/briefwisselingconstantijnhuygens",
+  "languages": [
+    "Dutch",
+    "French",
+    "Latin",
+    "Italian",
+    "English",
+    "German",
+    "Spanish",
+    "Greek"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "author": "Constantijn Huygens and his correspondents",
+  "date": "1607-1687",
+  "institution": "Huygens Institute (KNAW)",
+  "words": 1723423,
+  "region": "Dutch Republic and Europe",
+  "countries": [
+    "NL"
+  ],
+  "period": "1607-1687",
+  "notes": "Database of 9,237 letters to and from Constantijn Huygens (1596-1687), each with metadata and a facsimile of the original, linked to the text of J.A. Worp's edition (6 volumes, 1911-1917) in the Huygens 'retroboeken' viewer, which serves the text of each page as searchable OCR; new letters unpublished by Worp, and transcriptions and translations of selected letters (musical letters, letters of Anna Maria van Schurman and Lucia van Aerssen-Walta) are added. Words are our own count of the OCR text of all 3,491 pages of Worp's six volumes (about 1.72 million words, including his introductions, notes and indexes, with OCR errors), so it is approximate; the number of letters with readable text is not stated, so texts is left out. A metadata export (brieven.xls) is offered. Status active: the project blog has posts up to September 2026.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

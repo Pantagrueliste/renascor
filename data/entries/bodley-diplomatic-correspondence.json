@@ -1,0 +1,28 @@
+{
+  "title": "The Diplomatic Correspondence of Thomas Bodley, 1585-1597",
+  "url": "https://www.livesandletters.ac.uk/bodley/bodley.html",
+  "data_url": "https://github.com/livesandletters/bodley1/tree/master/xml",
+  "data_format": "xml",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "xml",
+  "status": "active",
+  "author": "Thomas Bodley",
+  "institution": "Centre for Editing Lives and Letters (UCL), with the Bodleian Library; editor Robyn Adams",
+  "region": "England and the Low Countries",
+  "countries": [
+    "GB-ENG",
+    "NL"
+  ],
+  "period": "1585-1597",
+  "texts": 990,
+  "notes": "Letters to and from Thomas Bodley during his diplomatic career, with customisable transcripts (abbreviations expanded or shown, as the reader chooses). Texts: 990 XML letter files in the project's GitHub repository (1585-1597). Words are not given because the XML mixes abbreviation and expansion markup so a reliable word count was not possible. The XML uses the project's own markup, not TEI; the repository was last pushed in 2013 but the site pages show 2025 modification dates, so it is treated as still online and maintained.",
+  "license": "CC-BY-SA-3.0",
+  "license_url": "https://www.livesandletters.ac.uk/bodley/copyright.html",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

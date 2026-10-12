@@ -1,0 +1,31 @@
+{
+  "title": "Historische Methode und Arbeitstechnik der Magdeburger Zenturien: edition of selected documents",
+  "url": "http://diglib.hab.de/edoc/ed000086/start.htm",
+  "data_url": "http://diglib.hab.de/edoc/ed000086/mets.xml",
+  "data_format": "tei",
+  "languages": [
+    "Latin",
+    "German"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "date": "1552-1568",
+  "institution": "Herzog August Bibliothek Wolfenbüttel (edited by Harald Bollbuck; Editiones Electronicae Guelferbytanae 11)",
+  "region": "Germany (Magdeburg, Jena, Regensburg) and Central Europe",
+  "countries": [
+    "DE",
+    "AT",
+    "CH"
+  ],
+  "period": "1552-1568",
+  "texts": 153,
+  "words": 94429,
+  "license": "CC-BY-SA-3.0-DE",
+  "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
+  "notes": "Edition of the letters, plans and reports through which Matthias Flacius and his collaborators organised the Magdeburg Centuries, the first Protestant church history. The introduction counts 154 documents from 1552 to 1568, with commentary and summaries. Each document is a separate TEI file linked from the mets.xml listing at data_url. Counts are our own: 153 TEI files could be downloaded (3 listed files return an error), about 94,400 words in total, leaving out footnotes and the hidden alternative readings. The edition was published in 2012 and its files have not changed since (start page last modified 2012-11-21), hence archived.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

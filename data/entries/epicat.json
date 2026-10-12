@@ -1,0 +1,27 @@
+{
+  "title": "EPICAT: Cartes familiars de Catalunya (segles XVI-XIX)",
+  "url": "https://epicat.uab.cat/",
+  "languages": [
+    "Catalan",
+    "Spanish"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "Departament d'Història Moderna i Contemporània, Universitat Autònoma de Barcelona (Javier Antón Pelayo)",
+  "words": 12359,
+  "texts": 40,
+  "region": "Catalonia",
+  "countries": [
+    "ES"
+  ],
+  "period": "1526-1850 (1526-1699 in period)",
+  "license": "CC-BY-NC-ND-4.0",
+  "license_url": "https://epicat.uab.cat/copyright",
+  "license_note": "The copyright page states that all contents are CC BY-NC-ND 4.0, that mass downloading of the data without permission is not allowed, and that the images remain under the licences of the archives.",
+  "notes": "Catalogue and transcriptions of family correspondence in Catalan archives, 1500-1850; about 3,800 letters, mostly of the 18th and 19th centuries. Only 40 letters dated 1526-1699 (all showing a transcription on the page) fall in the period; the earliest is from 1526. Counts are ours, from the letter pages named in the site's own date histogram (api?histograma): about 12,400 words, 39 in Catalan and 1 in Spanish. No bulk download. The site files were updated on 21 September 2026.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

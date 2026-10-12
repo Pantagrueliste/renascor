@@ -1,0 +1,23 @@
+{
+  "title": "MarineLives: transcribed High Court of Admiralty depositions and related records",
+  "url": "https://www.marinelives.org/wiki/MarineLives",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "MarineLives (Colin Greenstreet and volunteer transcribers)",
+  "region": "England (London, Admiralty Court)",
+  "countries": [
+    "GB-ENG"
+  ],
+  "period": "17th century",
+  "license": "CC-BY-3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "notes": "Wiki with page-by-page transcriptions, beside images, of Admiralty Court deposition books (HCA 13) and other records at The National Archives, Kew, such as customs port books (E 190) and Chancery cases (C 5). The wiki lists 102 volume pages, but many are empty or only partly transcribed (for example HCA 13/46 and 13/129 are empty, HCA 13/70, 1654-1656, has 1,506 pages, mostly transcribed 2013-2015). The 17th-century share cannot be counted from public statistics, so texts and words are left out. The front page, last edited 2024-04-10, presents the SOLM-2024 database of 24,000 deponents. Reading is free without login (some deeper pages answer slowly or ask for a browser check). Licence: the wiki footer says CC BY 3.0 unless otherwise noted.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

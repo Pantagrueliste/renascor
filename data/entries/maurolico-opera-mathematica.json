@@ -1,0 +1,26 @@
+{
+  "title": "Francisci Maurolyci Opera Mathematica: electronic edition of the mathematical works of Francesco Maurolico",
+  "url": "https://people.dm.unipi.it/maurolic/",
+  "languages": [
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "author": "Francesco Maurolico",
+  "date": "16th century",
+  "institution": "Dipartimento di Matematica, Università di Pisa (Maurolico research group)",
+  "region": "Sicily",
+  "countries": [
+    "IT"
+  ],
+  "period": "16th century",
+  "license": "Not stated",
+  "license_url": "https://people.dm.unipi.it/maurolic/intro.htm",
+  "notes": "Critical edition, with variant readings from each manuscript or print witness, of the scientific works of Maurolico (1494-1575): Euclid, spherics, arithmetic, Archimedes, conics, music, optics, cosmography, mechanics, letters and methodological writings. The introduction says the full corpus is about 5,000 pages of manuscripts and prints and that works are added as they are ready; pages are frames-based HTML with PDF versions. Source-image sites need a login. Counts are not published, so texts and words are left out. The original Pisa address in the catalogue (www.dm.unipi.it/pages/maurolic, 2008 Wayback copy) now redirects to this one. Archived: pages last modified between April and July 2006.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

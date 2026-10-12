@@ -1,0 +1,29 @@
+{
+  "title": "Internet Shakespeare Editions (University of Victoria)",
+  "url": "https://internetshakespeare.uvic.ca/index.html",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "institution": "Internet Shakespeare Editions Inc., University of Victoria (founder Michael Best)",
+  "author": "William Shakespeare",
+  "date": "c. 1590-1623",
+  "period": "c. 1590-1623",
+  "region": "England",
+  "countries": [
+    "GB-ENG"
+  ],
+  "license": "Copyright",
+  "license_url": "https://internetshakespeare.uvic.ca/Foyer/copyright.html",
+  "license_note": "Free to read; texts are copyright of the editors (or of the ISE for unedited texts) and may be used for educational non-profit purposes.",
+  "years_active": {
+    "start": 1996
+  },
+  "notes": "Open-access site with diplomatic old-spelling transcriptions of all 37 plays and the poems (quarto and folio versions) and, for 22 plays and most poems, modern-spelling editions prepared for the web, with facsimiles, performance and 'Life and Times' sections. Counts of words and texts are not given: the plays exist in several quarto and folio versions and no download or text index was found. The home page was last modified on 8 December 2022 and other pages date from 2015-2018 ('Accessed on 2019-01-11'); the publisher's follow-up work is on the Linked Early Modern Drama Online platform (lemdo.uvic.ca), which is a separate resource. This is the same resource as the old address http://internetshakespeare.uvic.ca/ (candidate 346).",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

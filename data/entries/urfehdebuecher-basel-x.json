@@ -1,0 +1,28 @@
+{
+  "title": "Urfehdebücher der Stadt Basel – digitale Edition (Urfehdebuch X, 1563-1569)",
+  "url": "https://gams.uni-graz.at/context:ufbas",
+  "data_url": "https://gams.uni-graz.at/o:ufbas.1563/TEI_SOURCE",
+  "data_format": "tei",
+  "languages": [
+    "German"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "institution": "Universität Basel (Susanna Burghartz, Sonia Calvi) and Zentrum für Informationsmodellierung, Universität Graz (Georg Vogeler)",
+  "words": 89656,
+  "texts": 626,
+  "region": "Basel",
+  "countries": [
+    "CH"
+  ],
+  "period": "1563-1569",
+  "date": "1563-1569",
+  "license": "CC-BY-NC-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0",
+  "notes": "Digital edition (beta) of one volume of the oaths of truce (Urfehden) sworn before the Basel council: Staatsarchiv Basel-Stadt, Ratsbücher O 10, Urfehdebuch X, January 1563 to December 1569. The site does not cover the other Urfehdebücher. Counts are ours, from the TEI file: about 89,700 words of transcription (entries and marginal notes) in 626 entries, all within the period. The record page shows 'zuletzt verändert am 31.1.2017' (last changed 31 January 2017) and the project belongs to a 2016 teaching exercise, so it is listed as archived. Page images are hosted externally by the Staatsarchiv Basel-Stadt.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

@@ -1,0 +1,31 @@
+{
+  "title": "The Chymistry of Isaac Newton",
+  "url": "https://webapp1.dlib.indiana.edu/newton/index.jsp",
+  "languages": [
+    "Latin",
+    "English"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "author": "Isaac Newton",
+  "date": "c. 1660s-1690s",
+  "institution": "Indiana University (William R. Newman, general editor; John A. Walsh, technical editor)",
+  "region": "England (Cambridge)",
+  "countries": [
+    "GB-ENG"
+  ],
+  "period": "Late 17th century",
+  "texts": 73,
+  "years_active": {
+    "start": 2005,
+    "end": "ongoing"
+  },
+  "license": "Not stated",
+  "license_url": "https://webapp1.dlib.indiana.edu/newton/project/copyright.do",
+  "notes": "Online edition of Newton's alchemical manuscripts from Cambridge and other libraries, each shown in a normalised and a diplomatic transcription (encoded in TEI/XML, but the XML is not offered for download), with English translations of non-English passages, glossary and analysis tools. Newton wrote and copied about one million words on alchemy; the site's browse list holds 73 manuscripts, which is the count given (our own count of the browse pages; some are Newton's copies of older texts). Words not given. The Oxford Newton Project is a separate resource. Pages show an update stamp of 2025-07-03.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

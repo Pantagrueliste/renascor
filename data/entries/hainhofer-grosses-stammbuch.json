@@ -1,0 +1,43 @@
+{
+  "title": "Philipp Hainhofer: Das Große Stammbuch (annotated digital edition)",
+  "url": "https://stammbuch.hab.de/",
+  "data_url": "https://stammbuch.hab.de/informationen-zur-edition/downloads",
+  "data_format": "tei",
+  "data_formats": [
+    "tei",
+    "plain-text",
+    "other"
+  ],
+  "languages": [
+    "German",
+    "Latin",
+    "French",
+    "Italian",
+    "Spanish",
+    "Hebrew"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "author": "Philipp Hainhofer (album owner) and many contributors",
+  "date": "1596-1633",
+  "institution": "Herzog August Bibliothek Wolfenbüttel (edition by Sabine Jagodzinski; Wolfenbütteler Digitale Editionen no. 6)",
+  "words": 4815,
+  "texts": 136,
+  "region": "Augsburg and the courts and cities of Europe",
+  "countries": [
+    "DE",
+    "AT",
+    "CZ",
+    "IT"
+  ],
+  "period": "1596-1633",
+  "license": "CC-BY-SA-3.0-DE",
+  "license_url": "https://stammbuch.hab.de/informationen-zur-edition/nutzungsbedingungen",
+  "license_note": "Text content is CC BY-SA; images supplied by the library are public domain, others carry their own caption terms.",
+  "notes": "Annotated edition of the album amicorum of the Augsburg merchant and art agent Philipp Hainhofer: 228 numbered pages of parchment and paper with entries (signatures, mottoes, dedications, coats of arms) dated 1596-1633, with translations, commentary and indexes. Downloads: TEI P5 XML of the full edition, a plain-text file of the transcription, PDF, and registers. Counts are our own: the TEI has 268 page records, 132 of them marked blank, so texts = 136 non-blank pages; words = 4,815 in the plain-text transcription file (entries are short). The site went online 29 August 2024; the project closed 30 November 2024 and the last small corrections are dated 29 July 2025.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

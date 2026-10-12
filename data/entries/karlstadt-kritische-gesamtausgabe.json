@@ -1,0 +1,29 @@
+{
+  "title": "Kritische Gesamtausgabe der Schriften und Briefe Andreas Bodensteins von Karlstadt",
+  "url": "http://diglib.hab.de/edoc/ed000216/start.htm",
+  "languages": [
+    "Latin",
+    "German"
+  ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "author": "Andreas Bodenstein von Karlstadt",
+  "date": "1507-1518",
+  "institution": "Herzog August Bibliothek Wolfenbüttel; edited by Thomas Kaufmann, Harald Bollbuck and others",
+  "words": 169161,
+  "texts": 74,
+  "region": "Germany (Wittenberg)",
+  "countries": [
+    "DE"
+  ],
+  "period": "1507-1518",
+  "license": "Custom terms",
+  "license_url": "http://diglib.hab.de/rights/copyright.html",
+  "notes": "Critical edition of the writings and letters of the Wittenberg reformer Andreas Karlstadt, with a TEI transcript of each text (from printed works and manuscripts), commentary, German translations and facsimile links. The published part covers 1507 to 1518, 74 transcribed items. Counts are ours: 74 TEI transcripts, about 169,000 words, counted in the text body only (critical apparatus and notes left out). The TEI files are served one by one (for example texts/001/001_transcript.xml) with no bulk download, so no data link is given. The edition's files were last changed in 2017 and its METS record in April 2022. The HAB's terms allow private, scholarly use and forbid commercial use or republication.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

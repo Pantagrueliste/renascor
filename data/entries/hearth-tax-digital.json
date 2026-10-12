@@ -1,0 +1,30 @@
+{
+  "title": "Hearth Tax Digital",
+  "url": "https://gams.uni-graz.at/context:htx",
+  "data_url": "https://gams.uni-graz.at/archive/objects/context:htx/methods/sdef:Context/get?mode=records",
+  "data_format": "tei",
+  "languages": [
+    "English",
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "date": "1662-1674",
+  "institution": "British Academy Hearth Tax Research Project, University of Roehampton (Andrew Wareham) and Universität Graz (Georg Vogeler)",
+  "words": 1160000,
+  "texts": 61,
+  "region": "England and Wales",
+  "countries": [
+    "GB-ENG"
+  ],
+  "period": "1662-1674",
+  "last_modified": "2026-07-22",
+  "license": "CC-BY-NC-4.0",
+  "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
+  "notes": "Transcribed hearth tax returns and assessments from The National Archives and local record offices (Bristol, Cheshire, Essex, Kent, Lancashire, Norfolk, Norwich, Sussex, Warwickshire, Yorkshire and others), encoded in TEI with Latin text translated into English. The records list individuals by name, with hearth numbers, titles and occupations; the site counts 394,123 database entries. Counts are ours: 61 transcribed assessments (each downloadable as TEI from its record page), about 1.16 million tokens (names, numbers and words; the figure is approximate because it counts every text node). Assessment years found in the titles run from 1662 to 1674. New records are still being added (last TEI revision date found: 22 July 2026).",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Justus Lipsius, De Bibliothecis Syntagma (1602): digital edition",
+  "url": "http://diglib.hab.de/edoc/ed000001/start.htm",
+  "doi": "10.15499/edoc/ed000001",
+  "data_url": "http://diglib.hab.de/edoc/ed000001/texts/tei-transcript.xml",
+  "data_format": "tei",
+  "languages": [
+    "Latin"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "author": "Justus Lipsius",
+  "date": "1602",
+  "institution": "Herzog August Bibliothek Wolfenbüttel (edited by Thomas Stäcker; Editiones Electronicae Guelferbytanae 17)",
+  "region": "Southern Netherlands (Antwerp)",
+  "countries": [
+    "BE"
+  ],
+  "period": "1602",
+  "texts": 1,
+  "words": 6311,
+  "license": "CC-BY-SA-3.0-DE",
+  "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
+  "notes": "Transcription of Lipsius' short treatise on libraries from the 1602 Antwerp printing, shown beside facsimiles of the 1602 printing and later editions (1607-1741), with an introduction, a modern German translation and commentary. Frames-based site; the TEI files are served openly. Counts are our own: 1 text, about 6,300 words of Latin in the TEI transcription, leaving out footnotes and the German translation (about 8,900 words). Marked archived because the edition's files date from 2018 (start page last modified 2018-02-12) and nothing newer was found.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "Les Pensées de Blaise Pascal: édition électronique",
+  "url": "https://www.penseesdepascal.fr/",
+  "languages": [
+    "French"
+  ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "author": "Blaise Pascal",
+  "date": "1662-1678",
+  "institution": "Gilles Proust and Dominique Descotes (hosted at Clermont Université, with BnF images)",
+  "region": "France",
+  "countries": [
+    "FR"
+  ],
+  "period": "1662-1678",
+  "license": "Copyright",
+  "license_url": "https://www.penseesdepascal.fr/General/CML.php",
+  "license_note": "Site protected by French intellectual property law; BnF page images need prior permission and a fee.",
+  "notes": "Electronic edition of Pascal's Pensées, online since June 2011. It gives the modernised text with notes together with the diplomatic and scholarly transcriptions of the Recueil des originaux (BnF Ms 9202), the manuscript Copies of 1662-1666, the Port-Royal editions of 1670 and 1678 and later manuscripts, with a glossary and studies of the paper and handwriting. Texts are read on the site; no download was found. Counts of texts and words are left out because the site does not give them and the text sits in many separate pages. The legal-notice page is dated 'Juin 2011-Octobre 2026'.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

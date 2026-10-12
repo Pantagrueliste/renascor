@@ -1,0 +1,24 @@
+{
+  "title": "Mitteldeutsche Selbstzeugnisse der Zeit des Dreißigjährigen Krieges (MDSZ)",
+  "url": "https://web.archive.org/web/20221126133641/http://mdsz.thulb.uni-jena.de/sz/index.php",
+  "languages": [
+    "German"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "discontinued",
+  "institution": "Thüringer Universitäts- und Landesbibliothek Jena, with Hans Medick and Norbert Winnige (Göttingen)",
+  "date": "17th century",
+  "period": "17th century (Thirty Years' War)",
+  "region": "Thuringia, Saxony-Anhalt",
+  "countries": [
+    "DE"
+  ],
+  "texts": 4,
+  "license": "Not stated",
+  "notes": "Electronic edition of four autobiographical texts of the Thirty Years' War, with transcriptions of the originals, digital facsimiles, commentary and indexes: the chronicle of Volkmar Happe (1587-1647/59), the notes of Michael Heubel (1605-1684), Hans Krafft (1589-1665) and Caspar Heinrich Marx (1600-1635). The original address (mdsz.thulb.uni-jena.de) now serves an unrelated Shlink page; the Internet Archive holds copies of the site as it was in 2022. The portal 'Thirty Years War Online' (hosted by the ThULB since 2024) still links to the old address. Word counts were not made because the archived copy does not allow a reliable count.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

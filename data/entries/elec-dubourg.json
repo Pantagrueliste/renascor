@@ -1,0 +1,30 @@
+{
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "title": "La correspondance du chancelier Antoine Du Bourg (1535-1538), École des chartes (ELEC)",
+  "url": "http://elec.enc.sorbonne.fr/dubourg/",
+  "data_url": "http://elec.enc.sorbonne.fr/dubourg/src/dubourg.xml",
+  "data_format": "tei",
+  "languages": [
+    "French"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "institution": "École nationale des chartes (Éditions en ligne de l'École des chartes, ELEC)",
+  "texts": 96,
+  "words": 34069,
+  "period": "1536-1538",
+  "date": "1536-1538",
+  "region": "France",
+  "countries": [
+    "FR"
+  ],
+  "notes": "Letters of Francis I and others to Antoine Du Bourg, chancellor of France, with a short inquiry on the Great Bible of 1536-1537. Each text is readable online without login and the complete TEI XML source is served at the data link. Counts are our own, from that TEI file: 96 separate texts (95 letters plus the Great Bible inquiry), about 34,000 words of text, excluding the editors' notes. All dated 1536-1538. The TEI history ends in March 2012 and the server files date from July 2012; no later change found, so the edition is marked archived.",
+  "last_modified": "2012-07-17",
+  "license": "CC-BY-NC-ND-2.0",
+  "license_url": "http://creativecommons.org/licenses/by-nc-nd/2.0/fr/",
+  "license_note": "Creative Commons Attribution-NonCommercial-NoDerivs 2.0 France licence stated in the TEI header; the school also asks for a link to the permanent address and the date of the source file."
+}

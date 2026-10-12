@@ -1,0 +1,27 @@
+{
+  "title": "Rejestr kontrybucji diecezji poznańskiej z 1561 r. (digital edition)",
+  "url": "https://exist.lhdb.kul.pl/exist/apps/1561/index.html",
+  "data_url": "https://exist.lhdb.kul.pl/exist/apps/1561/api/document/spisy_1561.xml",
+  "data_format": "tei",
+  "languages": [
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "author": "Edition by Bogumił Szady",
+  "date": "1561",
+  "institution": "Lublin Historical Database (LHDB), Catholic University of Lublin; Bogumił Szady, tagging by Łukasz Poznański",
+  "words": 9484,
+  "texts": 2,
+  "region": "Greater Poland (diocese of Poznań)",
+  "countries": [
+    "PL"
+  ],
+  "period": "1561",
+  "notes": "TEI edition of the register of the double contribution imposed on the clergy of the Poznań diocese in 1561, from two copies kept in the Archiwum Główne Akt Dawnych, Warsaw (ASK 91 and a fragment in ASK 3), with page images. The whole TEI file is served at the data link. Counts are our own: 2 manuscripts and about 9,500 words of transcription (body text without the notes section). Status active: the project site is maintained (events listed for 2026) and the app runs a recent TEI Publisher release; no date of last change to the edition itself is given.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

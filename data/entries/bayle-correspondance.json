@@ -1,0 +1,27 @@
+{
+  "title": "Correspondance de Pierre Bayle (édition électronique)",
+  "url": "https://bayle-correspondance.univ-st-etienne.fr/",
+  "languages": [
+    "French",
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "author": "Pierre Bayle",
+  "institution": "Université Jean Monnet Saint-Étienne, IHRIM (directed by Antony McKenna and Fabienne Vial-Bonacci)",
+  "region": "France and the Dutch Republic",
+  "countries": [
+    "FR",
+    "NL"
+  ],
+  "period": "1662-1698",
+  "words": 1250000,
+  "texts": 1402,
+  "notes": "Critical edition of the letters sent and received by Pierre Bayle (1647-1706), with transcriptions, annotations, indexes and translations of Latin letters. The site publishes letters 1-1405 (volumes I-XI of the printed edition, 1662-1698); volumes XII-XIV (letters up to 1791 and 1706) are not online. Counts are ours: 1,402 letters listed on the site, all dated before 1699, and about 1.25 million words counted on each letter page without the editorial notes (approximate). The site mentions TEI/XML output but no files are public. The site was updated in 2025.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

@@ -1,0 +1,27 @@
+{
+  "title": "The Book of Margery Kempe: facsimile and edition (including the Wynkyn de Worde pamphlet)",
+  "url": "https://english.selu.edu/kempe/index.php",
+  "languages": [
+    "Middle English"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "author": "Margery Kempe",
+  "date": "c. 1501",
+  "institution": "Joel Fredell, Southeastern Louisiana University",
+  "region": "England",
+  "countries": [
+    "GB-ENG"
+  ],
+  "period": "c. 1501",
+  "texts": 1,
+  "license": "Mixed",
+  "license_url": "https://english.selu.edu/kempe/legal.php",
+  "license_note": "The legal page says the images of British Library MS Add. 61823 and the transcripts of it are in the public domain under Creative Commons terms; images of the Cambridge University Library de Worde pamphlet are © Cambridge University Library. The licence of the pamphlet transcription is not stated.",
+  "notes": "Only the Wynkyn de Worde pamphlet (Here begynneth a shorte treatyse of contemplacyon..., printed in Fleet Street around 1501) falls in the period: the site gives a diplomatic transcription of it, beside facsimile images, in the Showcase viewer, plus a comparison with the Book. The main text, the manuscript BL MS Add. 61823 (copied around 1440, with later annotating hands), has diplomatic and reader's editions on the site but is counted here only as context. Words not given: the pamphlet is a few thousand words at most (about 1,400 displayed tokens by our rough count, which includes line-break fragments) and no clean figure exists. Active: a project page was edited on 2025-04-03.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

@@ -1,0 +1,25 @@
+{
+  "title": "Alciato's Book of Emblems: The Memorial Web Edition in Latin and English",
+  "url": "https://web.archive.org/web/20221003174128/http://www.mun.ca/alciato/",
+  "languages": [
+    "Latin"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "discontinued",
+  "author": "Andrea Alciato",
+  "institution": "Memorial University of Newfoundland (William Barker, Mark Feltham, Jean Guthrie)",
+  "region": "Italy and Germany (first printed in Augsburg, 1531)",
+  "countries": [
+    "IT",
+    "DE"
+  ],
+  "period": "1531-1621",
+  "words": 9500,
+  "texts": 212,
+  "notes": "Web edition of the 212 emblems of Alciato's Emblematum liber, with the Latin text taken from the 1621 variorum edition and checked against the 1531, 1534 and 1546 editions, an English translation, commentary files and images. The original address (www.mun.ca/alciato) now returns 404, so the URL is the Internet Archive copy of 3 October 2022; the site was last updated in April 2005. Counts are ours: 212 emblems and about 9,500 words in the Latin text file (the English text is a separate file and is not counted). The site also carries images of Whitney's Choice of Emblemes (1586) and a 17th-century jest book, whose texts are not counted.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}
