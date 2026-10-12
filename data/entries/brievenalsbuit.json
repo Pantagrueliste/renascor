@@ -16,7 +16,7 @@
   "words": 421292,
   "texts": 972,
   "period": "1661-1675",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://brievenalsbuit.ivdnt.org/ — text via Wikiscripta Neerlandica transcriptions.",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). — text via Wikiscripta Neerlandica transcriptions.",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 421272,

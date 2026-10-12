@@ -16,7 +16,7 @@
   "words": 1132668,
   "texts": 11,
   "period": "1616-1623",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/HuygensING/suriano; https://doi.org/10.5281/zenodo.13950093. The TEI files are on the GitHub main branch only, not in the Zenodo record.",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/HuygensING/suriano. The TEI files are on the GitHub main branch only, not in the Zenodo record.",
   "last_modified": "2026-03-09",
   "corpus_statistics": {
     "snapshot": "v2026.06",

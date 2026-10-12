@@ -11,8 +11,8 @@
   "released": "2026-10-12",
   "updated": "2026-10-12",
   "data_commit": {
-   "sha": "0bcff6c9fe85941b4827f3ceb44e8a998dbe854c",
-   "short": "0bcff6c"
+   "sha": "140d0d35510c2889a52298bb5a3073d5102f7711",
+   "short": "140d0d3"
   },
   "scope": {
    "from": 1450,
@@ -582,8 +582,8 @@
    "updated_long": "12 October 2026",
    "updated_iso": "2026-10-12",
    "version": "0.1.4",
-   "data_commit_short": "0bcff6c",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/0bcff6c9fe85941b4827f3ceb44e8a998dbe854c",
+   "data_commit_short": "140d0d3",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/140d0d35510c2889a52298bb5a3073d5102f7711",
    "header_note": "Corpus totals exclude duplicate texts (June 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.06",
    "snapshot_frozen_long": "26 June 2026",
@@ -1178,7 +1178,7 @@
    "texts": 33,
    "institution": "Association des Bibliophiles Universels (ABU); hosted by the CEDRIC team (Multimédia et Interaction Homme-Machine) at the Conservatoire national des arts et métiers",
    "period": "1480-1693",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://abu.cnam.fr.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 999019,
@@ -1207,7 +1207,7 @@
    "words": 936123,
    "texts": 14,
    "period": "1543-1681",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/kb-dk/public-adl-text-sources.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2026-08-25",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -1263,7 +1263,7 @@
    "period": "1547-1547",
    "words": 97420,
    "texts": 35,
-   "notes": "Digital study of the transformation of Montalvo's Amadís de Gaula across editions and translations (Spanish, French, English, from the 1500s to the early 1800s). The corpus files are the 35 TEI XML chapters of the 1547 Sevilla printing of Montalvo's Amadís (facsimile source: Biblioteca Virtual de Andalucía), used to align Garci Rodríguez de Montalvo's text with Robert Southey's 1803 translation and study translation shifts. Project team: Stacey Triplette, Elisa Beshero-Bondar, Helena Bermúdez Sabel; maintained by Beshero-Bondar since 2015. Code and TEI data: https://github.com/ebeshero/Amadis-in-Translation (AGPL-3.0); archive DOI: https://doi.org/10.5281/zenodo.10892444. Project documentation and a 1533 frontispiece facsimile on the project site. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Digital study of the transformation of Montalvo's Amadís de Gaula across editions and translations (Spanish, French, English, from the 1500s to the early 1800s). The corpus files are the 35 TEI XML chapters of the 1547 Sevilla printing of Montalvo's Amadís (facsimile source: Biblioteca Virtual de Andalucía), used to align Garci Rodríguez de Montalvo's text with Robert Southey's 1803 translation and study translation shifts. Project team: Stacey Triplette, Elisa Beshero-Bondar, Helena Bermúdez Sabel; maintained by Beshero-Bondar since 2015. Code and TEI data are on GitHub (AGPL-3.0), with an archived release on Zenodo. Project documentation and a 1533 frontispiece facsimile on the project site. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 97420,
@@ -1322,7 +1322,7 @@
    "words": 1371054,
    "texts": 11,
    "period": "1562-1572",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://zenodo.org/records/14559525; https://zenodo.org/records/14559525/files/Cosimo_Bartoli_letters_newsletters_1562-1572_v1.zip?download=1.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://zenodo.org/records/14559525/files/Cosimo_Bartoli_letters_newsletters_1562-1572_v1.zip?download=1.",
    "last_modified": "2024-12-26",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -1352,7 +1352,7 @@
    "words": 818721,
    "texts": 32,
    "period": "1545-1696",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://klasikoak.armiarma.eus/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 818721,
@@ -1382,7 +1382,7 @@
    "words": 53333,
    "texts": 9,
    "period": "1630-1690",
-   "notes": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th century Mexican texts (astrological and astronomical discourse, letters, almanacs). The official site (bdpn.unam.mx) is online and states that the TEI files are distributed in the GitHub repository ficino2021/bdpn (https://github.com/ficino2021/bdpn); the site licence is CC BY-NC 4.0 while the repository carries CC0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th century Mexican texts (astrological and astronomical discourse, letters, almanacs). The official site (bdpn.unam.mx) is online and states that the TEI files are distributed in the GitHub repository ficino2021/bdpn; the site licence is CC BY-NC 4.0 while the repository carries CC0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Universidad Nacional Autónoma de México (UNAM), Biblioteca Digital del Pensamiento Novohispano",
    "last_modified": "2025-05-30",
    "corpus_statistics": {
@@ -1412,7 +1412,7 @@
    "words": 1775,
    "texts": 4,
    "period": "1517-1519",
-   "notes": "Four texts from Francysk Skaryna's Bible printings (https://knihi.com/Francysk_Skaryna/). Only the preface to the whole Bible comes from knihi.com (Belaruskaya Palichka, original orthography, source edition not stated); the other three texts (Judith, Psalter and Proverbs prefaces) come from the Belarusian Wikisource transcription of Harecki's 1922 chrestomathy, because knihi.com gives those in modern Belarusian. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Four texts from Francysk Skaryna's Bible printings. Only the preface to the whole Bible comes from knihi.com (Belaruskaya Palichka, original orthography, source edition not stated); the other three texts (Judith, Psalter and Proverbs prefaces) come from the Belarusian Wikisource transcription of Harecki's 1922 chrestomathy, because knihi.com gives those in modern Belarusian. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 1775,
@@ -1440,7 +1440,7 @@
    "words": 74082,
    "texts": 23,
    "period": "1612-1612",
-   "notes": "Digitised edition of Ludovico Bertonio's Vocabulario de la Lengua Aymara (Juli, 1612), distributed as a StarDict dictionary in the native-dics repository of Amos Batto (https://github.com/amosbatto/native-dics). The text is not a diplomatic transcription: the orthography was modernised by Radio San Gabriel, and the dictionary was digitised by ILLA-A. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Digitised edition of Ludovico Bertonio's Vocabulario de la Lengua Aymara (Juli, 1612), distributed as a StarDict dictionary in the native-dics repository of Amos Batto. The text is not a diplomatic transcription: the orthography was modernised by Radio San Gabriel, and the dictionary was digitised by ILLA-A. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2023-04-23",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -1471,7 +1471,7 @@
    "words": 51400,
    "texts": 5,
    "period": "1555-1555",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/BetaMasaheft/Works.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2026-10-06",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -1647,7 +1647,7 @@
    "words": 421292,
    "texts": 972,
    "period": "1661-1675",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://brievenalsbuit.ivdnt.org/ — text via Wikiscripta Neerlandica transcriptions.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). — text via Wikiscripta Neerlandica transcriptions.",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 421272,
@@ -1708,7 +1708,7 @@
    "words": 1968888,
    "texts": 46,
    "period": "1529-1616",
-   "notes": "Transcriptions of Renaissance printed texts from the Epistemon corpus of the Bibliothèques Virtuelles Humanistes (CESR, Université de Tours). The entry links to the corpus on the BVH site; the TEI files used for the corpus statistics come from a legacy copy kept in Lou Burnard's tei-fr repository on GitHub (https://github.com/lb42/tei-fr; last updated 2015). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Transcriptions of Renaissance printed texts from the Epistemon corpus of the Bibliothèques Virtuelles Humanistes (CESR, Université de Tours). The entry links to the corpus on the BVH site; the TEI files used for the corpus statistics come from a legacy copy kept in Lou Burnard's tei-fr repository on GitHub (last updated 2015). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2023-10-18",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -1770,7 +1770,7 @@
    "words": 703209,
    "texts": 21,
    "period": "1595-1635",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.iliesi.cnr.it/ATC/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 703209,
@@ -2025,7 +2025,7 @@
    "texts": 27,
    "institution": "Huygens ING (KNAW)",
    "period": "1629-1699",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). http://ckcc.huygens.knaw.nl/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 7946427,
@@ -2091,7 +2091,7 @@
    "words": 30953,
    "texts": 6,
    "period": "1564-1679",
-   "notes": "Multi-alphabetic annotated diachronic corpus of Judeo-Spanish (16th–21st c.) built in TEITOK (TEI-XML over CQP); hosted with a live TEITOK interface at LINDAT/CLARIN (https://lindat.mff.cuni.cz/services/teitok-live/codiaje/index.php). Directed by Aldina Quintana (Hebrew University of Jerusalem); described in Scriptum Digital 9 (2020). The project's description page is on Aldina Quintana's HUJI site. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Multi-alphabetic annotated diachronic corpus of Judeo-Spanish (16th–21st c.) built in TEITOK (TEI-XML over CQP); hosted with a live TEITOK interface at LINDAT/CLARIN. Directed by Aldina Quintana (Hebrew University of Jerusalem); described in Scriptum Digital 9 (2020). The project's description page is on Aldina Quintana's HUJI site. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Aldina Quintana, Hebrew University of Jerusalem, with Maarten Janssen (Charles University) and Josep M. Fontana (UPF); ISF grants 473/11, 486/19",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -2150,7 +2150,7 @@
    "words": 1075246,
    "texts": 138,
    "period": "1548-1575",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.controversia-et-confessio.de/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 1075246,
@@ -2180,7 +2180,7 @@
    "words": 83657,
    "texts": 57,
    "period": "1508-1595",
-   "notes": "TEI-XML corpus of the Renaissance coq-a-l'âne epistle genre (poems 1530-1650) by Cyril Cano-Arnedo, one TEI file per poem, reuse under CC BY-NC-SA 4.0, published on GitHub (https://github.com/cyrcan/GIT-Coqalane, ongoing encoding) with an earlier partial copy on Huma-Num GitLab. The 57 texts counted here match the GitLab copy. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "TEI-XML corpus of the Renaissance coq-a-l'âne epistle genre (poems 1530-1650) by Cyril Cano-Arnedo, one TEI file per poem, reuse under CC BY-NC-SA 4.0, published on GitHub (ongoing encoding) with an earlier partial copy on Huma-Num GitLab. The 57 texts counted here match the GitLab copy. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Cyril Cano-Arnedo",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -2299,7 +2299,7 @@
    "words": 38078,
    "texts": 13,
    "period": "1556-1556",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://wikisource.org/wiki/Homelyes_XIII_in_Cornysche.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 38078,
@@ -2537,7 +2537,7 @@
    "words": 69891,
    "texts": 1,
    "period": "1503-1503",
-   "notes": "Lék jádro brněnské ('Knihy lékařské', c. 1502-1503) is one of the digital editions of Old and Middle Czech texts published by the Czech Language Institute (ÚJČ AV ČR) in Vokabulář webový (https://vokabular.ujc.cas.cz/). The TEI file comes from the GitHub repository accompanying Boris Lehečka's TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions', which contains only two converted sample editions. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Lék jádro brněnské ('Knihy lékařské', c. 1502-1503) is one of the digital editions of Old and Middle Czech texts published by the Czech Language Institute (ÚJČ AV ČR) in Vokabulář webový. The TEI file comes from the GitHub repository accompanying Boris Lehečka's TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions', which contains only two converted sample editions. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",
    "last_modified": "2019-09-19",
    "corpus_statistics": {
@@ -2568,7 +2568,7 @@
    "words": 2289816,
    "texts": 13,
    "period": "1540-1635",
-   "notes": "Verified via the Zenodo API: record 7479443 (v0.2.0) is 'Early Modern Danish Postils' by Jonas Kjøller-Rasmussen (University of Copenhagen), concept DOI 10.5281/zenodo.7113232 — the canonical project URL; the specific record cited in the origin is https://zenodo.org/records/7479443 (also live). 13 texts, plain text distribution. License MIT. Origin verbatim: 'Zenodo DOI 10.5281/zenodo.7479443'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Verified via the Zenodo API: record 7479443 (v0.2.0) is 'Early Modern Danish Postils' by Jonas Kjøller-Rasmussen (University of Copenhagen), concept DOI 10.5281/zenodo.7113232 — the canonical project URL; the record used here is version 0.2.0. 13 texts, plain text distribution. License MIT. Origin verbatim: 'Zenodo DOI 10.5281/zenodo.7479443'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)",
    "last_modified": "2022-12-24",
    "corpus_statistics": {
@@ -2716,7 +2716,7 @@
    "words": 425831,
    "texts": 21,
    "period": "1492-1662",
-   "notes": "Diakorp v6 (~3.45M words, 116 documents, 14th-20th c., normalized transcriptions with original spellings) is officially deposited on LINDAT/CLARIAH-CZ with PID http://hdl.handle.net/11234/1-5413 (verified 200 on the LINDAT landing page), distributed in a CQP-vertical format (not TEI). The 7 collected texts (Kabátník's Cesta z Čech..., Komenský's Labyrint...) are among its 116 source documents. Licence CC BY-NC-SA 4.0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Diakorp v6 (~3.45M words, 116 documents, 14th-20th c., normalized transcriptions with original spellings) is officially deposited on LINDAT/CLARIAH-CZ with a persistent identifier, distributed in a CQP-vertical format (not TEI). The 7 collected texts (Kabátník's Cesta z Čech..., Komenský's Labyrint...) are among its 116 source documents. Licence CC BY-NC-SA 4.0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Kučera, Řehořková, Stluka — Institute of the Czech National Corpus (ÚČNK), Charles University, Prague; deposited on LINDAT/CLARIAH-CZ",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -2804,7 +2804,7 @@
    "words": 532046,
    "texts": 18,
    "period": "1619-1699",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://digilib.aua.am/en.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 532046,
@@ -2948,7 +2948,7 @@
    "words": 6649,
    "texts": 17,
    "period": "1600-1600",
-   "notes": "Quechua text of the Huarochirí Manuscript (c. 1600) in the Runasimi.de reworking (http://www.runasimi.de/waruchir.htm), with revised spelling, based on Gerald Taylor's 1976 edition 'Ritos y Tradiciones de Huarochirí'. The same manuscript in Taylor's 1987 edition is catalogued separately as huarochiri-quechua-full. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Quechua text of the Huarochirí Manuscript (c. 1600) in the Runasimi.de reworking, with revised spelling, based on Gerald Taylor's 1976 edition 'Ritos y Tradiciones de Huarochirí'. The same manuscript in Taylor's 1987 edition is catalogued separately as huarochiri-quechua-full. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 6649,
@@ -3009,7 +3009,7 @@
    "words": 788698,
    "texts": 18,
    "period": "1500-1500",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/0701; http://purl.ox.ac.uk/ota/0701.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://ota.bodleian.ox.ac.uk/repository/xmlui/handle/20.500.12024/0701.",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 788698,
@@ -3723,7 +3723,7 @@
    "words": 7188629,
    "texts": 371,
    "period": "c. 1522-1700",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/Jero2760/estilometria.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2025-01-12",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -3870,7 +3870,7 @@
    "words": 73544,
    "texts": 24,
    "period": "1557-1580",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). http://www.famsi.org/reports/96072/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 73544,
@@ -3929,7 +3929,7 @@
    "words": 290869,
    "texts": 12,
    "period": "1577-1577",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://zenodo.org/records/7213020.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2025-06-14",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -3995,7 +3995,7 @@
    "words": 95194,
    "texts": 5,
    "period": "1536-1674",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.nordlund.lu.se/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 95194,
@@ -4022,7 +4022,7 @@
    "words": 3380332,
    "texts": 45,
    "period": "1550-1595",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://fran.si/korpus16.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 3380332,
@@ -4111,7 +4111,7 @@
    "words": 97354,
    "texts": 4,
    "period": "1611-1633",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://it.wikisource.org/wiki/Le_opere_di_Galileo_Galilei_(Favaro)",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 97354,
@@ -4169,7 +4169,7 @@
    "words": 4810638,
    "texts": 41,
    "period": "1466-1700",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://ganjoor.net/; scrip.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 4810638,
@@ -4258,7 +4258,7 @@
    "words": 553323,
    "texts": 6515,
    "period": "1531-1621",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.emblems.arts.gla.ac.uk/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 549460,
@@ -4289,7 +4289,7 @@
    "words": 11031,
    "texts": 31,
    "period": "1594-1697",
-   "notes": "The online corpus holds 84 texts up to 1791 (https://ilg.usc.gal/gondomar/); this entry counts only the 31 texts dated 1594-1697. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "The online corpus holds 84 texts up to 1791; this entry counts only the 31 texts dated 1594-1697. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 11031,
@@ -4350,7 +4350,7 @@
    "texts": 2,
    "institution": "Labex OBVIL (Sorbonne Universite), dir. Mercedes Blanco; TEI files on gongoradigital GitHub",
    "period": "1605-1610",
-   "notes": "The OBVIL GONGORA project digitised Antonio Carreira's edition of Góngora's poetic works and the polémica gongorina in TEI P5 (2013-2016, CC BY-NC-ND). The TEI files are published in the gongoradigital GitHub repository gongoraobra (https://github.com/gongoradigital/gongoraobra), which holds the poetry, the Epistolario and three comedias. The catalogue statistics cover only two of these texts, the Epistolario (1610) and the Comedia venatoria (1605). The original OBVIL portal is no longer reachable. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "The OBVIL GONGORA project digitised Antonio Carreira's edition of Góngora's poetic works and the polémica gongorina in TEI P5 (2013-2016, CC BY-NC-ND). The TEI files are published in the gongoradigital GitHub repository gongoraobra, which holds the poetry, the Epistolario and three comedias. The catalogue statistics cover only two of these texts, the Epistolario (1610) and the Comedia venatoria (1605). The original OBVIL portal is no longer reachable. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2022-04-04",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -4404,7 +4404,7 @@
    "words": 30864,
    "texts": 91,
    "period": "1450-1497",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://gutorglyn.net/gutorglyn/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 30864,
@@ -4646,7 +4646,7 @@
    "words": 1962810,
    "texts": 14,
    "period": "1543-1691",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/impactcentre/groundtruth-spa.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2013-04-15",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -4702,7 +4702,7 @@
    "words": 345998,
    "texts": 155,
    "period": "1575-1697",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). http://litopys.org.ua.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 345998,
@@ -4730,7 +4730,7 @@
    "words": 154229,
    "texts": 4,
    "period": "1592-1603",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www2.ninjal.ac.jp/textdb_dataset/en/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 154229,
@@ -4789,7 +4789,7 @@
    "words": 1431218,
    "texts": 20,
    "period": "1499-1574",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://doi.org/10.5281/zenodo.13332815.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 1431218,
@@ -4847,7 +4847,7 @@
    "words": 723592,
    "texts": 74,
    "period": "1641-1700",
-   "notes": "120 English tracts and pamphlets 1640-1740 (about 1.19M words), TEI, CC BY-SA 3.0. The Oxford Text Archive record ota:3193 is now served by the Oxford Linguistics Data Store at https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/3193; the older ota.ox.ac.uk and ota.bodleian.ox.ac.uk addresses no longer reach the record. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "120 English tracts and pamphlets 1640-1740 (about 1.19M words), TEI, CC BY-SA 3.0. The Oxford Text Archive record ota:3193 is now served by the Oxford Linguistics Data Store; the older ota.ox.ac.uk and ota.bodleian.ox.ac.uk addresses no longer reach the record. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Josef Schmied, Claudia Claridge & Rainer Siemund (Chemnitz University of Technology); Oxford Text Archive",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -5202,7 +5202,7 @@
    "institution": "ZRC SAZU, Inštitut za kulturno zgodovino (Gregor Pobežin); hosted by CLARIN.SI",
    "license": "CC-BY-SA-4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-   "notes": "TEI XML edition (version 1.0, published 2020-12-06; handle http://hdl.handle.net/11356/1376) of 51 Latin inscriptions from the Slovenian coastal towns dated 1222 to the mid-17th century, with expanded transcriptions and Slovenian translations. Counts are our own, from the TEI file: 42 inscriptions dated within or overlapping 1450-1700 (including two 'second half of 15th c.'), 904 words in their transcription divs (approximate); 7 fall outside the period and 2 are undated. Static repository deposit, no later version found."
+   "notes": "TEI XML edition (version 1.0, published 2020-12-06, on CLARIN.SI) of 51 Latin inscriptions from the Slovenian coastal towns dated 1222 to the mid-17th century, with expanded transcriptions and Slovenian translations. Counts are our own, from the TEI file: 42 inscriptions dated within or overlapping 1450-1700 (including two 'second half of 15th c.'), 904 words in their transcription divs (approximate); 7 fall outside the period and 2 are undated. Static repository deposit, no later version found."
   },
   {
    "title": "Mercure galant (OBVIL/IReMus — édition complète 1672-1721)",
@@ -5373,7 +5373,7 @@
    "texts": 3,
    "institution": "LabEx OBVIL, Sorbonne Université",
    "period": "1557-1694",
-   "notes": "Born-digital TEI corpora of early-modern French texts from LabEx OBVIL (Sorbonne Université), encoded with the Teinte toolchain (lauze_apologie-danse_1623, Faceties 1557, La Bruyère 1694, etc.); CC BY-NC-ND. The lab's data platform ObTIC (https://obtic.sorbonne-universite.fr/liste/) lists the freely available OBVIL corpora; the corpus files are on the OBVIL GitHub organisation (https://github.com/OBVIL). The former reading site obvil.sorbonne-universite.fr is no longer reachable. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Born-digital TEI corpora of early-modern French texts from LabEx OBVIL (Sorbonne Université), encoded with the Teinte toolchain (lauze_apologie-danse_1623, Faceties 1557, La Bruyère 1694, etc.); CC BY-NC-ND. The lab's data platform ObTIC lists the freely available OBVIL corpora; the corpus files are on the OBVIL GitHub organisation. The former reading site obvil.sorbonne-universite.fr is no longer reachable. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 73996,
@@ -5662,7 +5662,7 @@
    "date_added": "2026-10-07",
    "words": 4391,
    "texts": 30,
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.sup-infor.com/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 4365,
@@ -5690,7 +5690,7 @@
    "words": 23536,
    "texts": 50,
    "period": "1666-1666",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://hallgrimurpetursson.is/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 23536,
@@ -5720,7 +5720,7 @@
    "words": 2429178,
    "texts": 81,
    "period": "1462-1679",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/beatrice57/pceec2; https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2510.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2510.",
    "last_modified": "2026-10-03",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -5953,7 +5953,7 @@
    "words": 46634,
    "texts": 25,
    "period": "1478-1697",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2026-09-22",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -6054,7 +6054,7 @@
    "words": 364217,
    "texts": 2235,
    "period": "1450-1643",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://ereed.org.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 355821,
@@ -6083,7 +6083,7 @@
    "words": 2440564,
    "texts": 144,
    "period": "1450-1625",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://zenodo.org/records/5793616; https://doi.org/10.5281/zenodo.5793616.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2021-12-21",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -6261,7 +6261,7 @@
    "words": 189045,
    "texts": 925,
    "period": "1510-1589",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/mmoruz/RoPsalt.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2023-12-06",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -6408,7 +6408,7 @@
    "words": 4271105,
    "texts": 18,
    "period": "1522-1648",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/digicademy/svsal-tei.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2025-07-14",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -6477,7 +6477,7 @@
    "words": 2476220,
    "texts": 156,
    "period": "1507-1699",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://hdl.handle.net/20.500.12574/141.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 2476220,
@@ -6506,7 +6506,7 @@
    "words": 521919,
    "texts": 62,
    "period": "1555-1750",
-   "notes": "SERMO is an SNSF project (2015-2018) at Neuchâtel that produced a corpus of 62 French Protestant sermons (about 600,000 tokens, mostly printed in Geneva, 1555-1750). The complete TEI texts are on the project site (http://sermo.unine.ch, served over http only); the Zenodo deposit (DOI 10.5281/zenodo.14620210, CC BY 4.0) is only a partial copy. The annotation (lemmas, parts of speech) is available only through the project's CQPweb interface, which needs a login. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "SERMO is an SNSF project (2015-2018) at Neuchâtel that produced a corpus of 62 French Protestant sermons (about 600,000 tokens, mostly printed in Geneva, 1555-1750). The complete TEI texts are on the project site (served over http only); the Zenodo deposit (DOI 10.5281/zenodo.14620210, CC BY 4.0) is only a partial copy. The annotation (lemmas, parts of speech) is available only through the project's CQPweb interface, which needs a login. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Universite de Neuchatel (Carine Skupien Dekens; SNSF grant 105212_160030)",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -6534,7 +6534,7 @@
    "words": 62023,
    "texts": 3,
    "period": "1599-1599",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://chmtl.indiana.edu/smi/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 62023,
@@ -6683,7 +6683,7 @@
    "words": 1132668,
    "texts": 11,
    "period": "1616-1623",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/HuygensING/suriano; https://doi.org/10.5281/zenodo.13950093. The TEI files are on the GitHub main branch only, not in the Zenodo record.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/HuygensING/suriano. The TEI files are on the GitHub main branch only, not in the Zenodo record.",
    "last_modified": "2026-03-09",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -6714,7 +6714,7 @@
    "words": 2018,
    "texts": 12,
    "period": "1593-1593",
-   "notes": "Tagalog prayers (12 texts) from the 1593 Manila Doctrina Christiana, in Project Gutenberg eBook #16119 (https://www.gutenberg.org/ebooks/16119), a facsimile edition by Edwin Wolf, produced by Jeroen Hellingman, Tamiko I. Camacho and Distributed Proofreaders. The eBook is in English, Spanish and Tagalog; only the Tagalog texts are counted. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Tagalog prayers (12 texts) from the 1593 Manila Doctrina Christiana, in Project Gutenberg eBook #16119, a facsimile edition by Edwin Wolf, produced by Jeroen Hellingman, Tamiko I. Camacho and Distributed Proofreaders. The eBook is in English, Spanish and Tagalog; only the Tagalog texts are counted. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 2018,
@@ -6887,7 +6887,7 @@
    "words": 73928,
    "texts": 229,
    "period": "1578-1666",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/HCDigitalScholarship/ticha-xml-tei.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2022-03-10",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -6948,7 +6948,7 @@
    "words": 2029235,
    "texts": 41,
    "period": "1525-1649",
-   "notes": "Texts of the Thesaurus Musicarum Italicarum (TmiWeb, Utrecht University, https://tmiweb.science.uu.nl/), an electronic corpus of Italian music treatises from the Renaissance and early Baroque, together with the Saggi Musicali Italiani (SMI) texts. The original SMI site at Indiana University is no longer available; those texts were retrieved from the Internet Archive. A TEI P5 deposit exists at DANS (doi:10.17026/dans-zum-ywbw) but its files are restricted. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Texts of the Thesaurus Musicarum Italicarum (TmiWeb, Utrecht University), an electronic corpus of Italian music treatises from the Renaissance and early Baroque, together with the Saggi Musicali Italiani (SMI) texts. The original SMI site at Indiana University is no longer available; those texts were retrieved from the Internet Archive. A TEI P5 deposit exists at DANS (doi:10.17026/dans-zum-ywbw) but its files are restricted. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 2029235,
@@ -6976,7 +6976,7 @@
    "words": 341826,
    "texts": 1183,
    "period": "1532-1700",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). http://tmk.nytud.hu/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 341772,
@@ -7005,7 +7005,7 @@
    "words": 1789274,
    "texts": 219,
    "period": "1475-1650",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/cmm2209/TMLr.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2026-02-23",
    "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -7143,7 +7143,7 @@
    "words": 646479,
    "texts": 87,
    "period": "1490-1700",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://vakk.ut.ee/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 646452,
@@ -7285,7 +7285,7 @@
    "words": 2745991,
    "texts": 56,
    "period": "1543-1700",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.kielipankki.fi/corpora/vks/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 2745991,
@@ -7511,7 +7511,7 @@
    "words": 61219,
    "texts": 14,
    "period": "1636-1636",
-   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://zlatyfond.sme.sk/.",
+   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 61219,
@@ -7806,7 +7806,7 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Digital study of the transformation of Montalvo's Amadís de Gaula across editions and translations (Spanish, French, English, from the 1500s to the early 1800s). The corpus files are the 35 TEI XML chapters of the 1547 Sevilla printing of Montalvo's Amadís (facsimile source: Biblioteca Virtual de Andalucía), used to align Garci Rodríguez de Montalvo's text with Robert Southey's 1803 translation and study translation shifts. Project team: Stacey Triplette, Elisa Beshero-Bondar, Helena Bermúdez Sabel; maintained by Beshero-Bondar since 2015. Code and TEI data: https://github.com/ebeshero/Amadis-in-Translation (AGPL-3.0); archive DOI: https://doi.org/10.5281/zenodo.10892444. Project documentation and a 1533 frontispiece facsimile on the project site.",
+   "notes_display": "Digital study of the transformation of Montalvo's Amadís de Gaula across editions and translations (Spanish, French, English, from the 1500s to the early 1800s). The corpus files are the 35 TEI XML chapters of the 1547 Sevilla printing of Montalvo's Amadís (facsimile source: Biblioteca Virtual de Andalucía), used to align Garci Rodríguez de Montalvo's text with Robert Southey's 1803 translation and study translation shifts. Project team: Stacey Triplette, Elisa Beshero-Bondar, Helena Bermúdez Sabel; maintained by Beshero-Bondar since 2015. Code and TEI data are on GitHub (AGPL-3.0), with an archived release on Zenodo. Project documentation and a 1533 frontispiece facsimile on the project site.",
    "period_words": {
     "decades": [
      0,
@@ -8126,7 +8126,7 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th century Mexican texts (astrological and astronomical discourse, letters, almanacs). The official site (bdpn.unam.mx) is online and states that the TEI files are distributed in the GitHub repository ficino2021/bdpn (https://github.com/ficino2021/bdpn); the site licence is CC BY-NC 4.0 while the repository carries CC0.",
+   "notes_display": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th century Mexican texts (astrological and astronomical discourse, letters, almanacs). The official site (bdpn.unam.mx) is online and states that the TEI files are distributed in the GitHub repository ficino2021/bdpn; the site licence is CC BY-NC 4.0 while the repository carries CC0.",
    "period_words": {
     "decades": [
      0,
@@ -8206,7 +8206,7 @@
    "size_band": "under-10k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Four texts from Francysk Skaryna's Bible printings (https://knihi.com/Francysk_Skaryna/). Only the preface to the whole Bible comes from knihi.com (Belaruskaya Palichka, original orthography, source edition not stated); the other three texts (Judith, Psalter and Proverbs prefaces) come from the Belarusian Wikisource transcription of Harecki's 1922 chrestomathy, because knihi.com gives those in modern Belarusian.",
+   "notes_display": "Four texts from Francysk Skaryna's Bible printings. Only the preface to the whole Bible comes from knihi.com (Belaruskaya Palichka, original orthography, source edition not stated); the other three texts (Judith, Psalter and Proverbs prefaces) come from the Belarusian Wikisource transcription of Harecki's 1922 chrestomathy, because knihi.com gives those in modern Belarusian.",
    "period_words": {
     "decades": [
      0,
@@ -8286,7 +8286,7 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Digitised edition of Ludovico Bertonio's Vocabulario de la Lengua Aymara (Juli, 1612), distributed as a StarDict dictionary in the native-dics repository of Amos Batto (https://github.com/amosbatto/native-dics). The text is not a diplomatic transcription: the orthography was modernised by Radio San Gabriel, and the dictionary was digitised by ILLA-A.",
+   "notes_display": "Digitised edition of Ludovico Bertonio's Vocabulario de la Lengua Aymara (Juli, 1612), distributed as a StarDict dictionary in the native-dics repository of Amos Batto. The text is not a diplomatic transcription: the orthography was modernised by Radio San Gabriel, and the dictionary was digitised by ILLA-A.",
    "period_words": {
     "decades": [
      0,
@@ -8940,7 +8940,7 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Transcriptions of Renaissance printed texts from the Epistemon corpus of the Bibliothèques Virtuelles Humanistes (CESR, Université de Tours). The entry links to the corpus on the BVH site; the TEI files used for the corpus statistics come from a legacy copy kept in Lou Burnard's tei-fr repository on GitHub (https://github.com/lb42/tei-fr; last updated 2015).",
+   "notes_display": "Transcriptions of Renaissance printed texts from the Epistemon corpus of the Bibliothèques Virtuelles Humanistes (CESR, Université de Tours). The entry links to the corpus on the BVH site; the TEI files used for the corpus statistics come from a legacy copy kept in Lou Burnard's tei-fr repository on GitHub (last updated 2015).",
    "period_words": {
     "decades": [
      0,
@@ -9786,7 +9786,7 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Multi-alphabetic annotated diachronic corpus of Judeo-Spanish (16th–21st c.) built in TEITOK (TEI-XML over CQP); hosted with a live TEITOK interface at LINDAT/CLARIN (https://lindat.mff.cuni.cz/services/teitok-live/codiaje/index.php). Directed by Aldina Quintana (Hebrew University of Jerusalem); described in Scriptum Digital 9 (2020). The project's description page is on Aldina Quintana's HUJI site.",
+   "notes_display": "Multi-alphabetic annotated diachronic corpus of Judeo-Spanish (16th–21st c.) built in TEITOK (TEI-XML over CQP); hosted with a live TEITOK interface at LINDAT/CLARIN. Directed by Aldina Quintana (Hebrew University of Jerusalem); described in Scriptum Digital 9 (2020). The project's description page is on Aldina Quintana's HUJI site.",
    "period_words": {
     "decades": [
      0,
@@ -10026,7 +10026,7 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "TEI-XML corpus of the Renaissance coq-a-l'âne epistle genre (poems 1530-1650) by Cyril Cano-Arnedo, one TEI file per poem, reuse under CC BY-NC-SA 4.0, published on GitHub (https://github.com/cyrcan/GIT-Coqalane, ongoing encoding) with an earlier partial copy on Huma-Num GitLab. The 57 texts counted here match the GitLab copy.",
+   "notes_display": "TEI-XML corpus of the Renaissance coq-a-l'âne epistle genre (poems 1530-1650) by Cyril Cano-Arnedo, one TEI file per poem, reuse under CC BY-NC-SA 4.0, published on GitHub (ongoing encoding) with an earlier partial copy on Huma-Num GitLab. The 57 texts counted here match the GitLab copy.",
    "period_words": {
     "decades": [
      0,
@@ -10761,7 +10761,7 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Lék jádro brněnské ('Knihy lékařské', c. 1502-1503) is one of the digital editions of Old and Middle Czech texts published by the Czech Language Institute (ÚJČ AV ČR) in Vokabulář webový (https://vokabular.ujc.cas.cz/). The TEI file comes from the GitHub repository accompanying Boris Lehečka's TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions', which contains only two converted sample editions.",
+   "notes_display": "Lék jádro brněnské ('Knihy lékařské', c. 1502-1503) is one of the digital editions of Old and Middle Czech texts published by the Czech Language Institute (ÚJČ AV ČR) in Vokabulář webový. The TEI file comes from the GitHub repository accompanying Boris Lehečka's TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions', which contains only two converted sample editions.",
    "period_words": {
     "decades": [
      0,
@@ -10841,7 +10841,7 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Verified via the Zenodo API: record 7479443 (v0.2.0) is 'Early Modern Danish Postils' by Jonas Kjøller-Rasmussen (University of Copenhagen), concept DOI 10.5281/zenodo.7113232 — the canonical project URL; the specific record cited in the origin is https://zenodo.org/records/7479443. 13 texts, plain text distribution. License MIT.",
+   "notes_display": "Verified via the Zenodo API: record 7479443 (v0.2.0) is 'Early Modern Danish Postils' by Jonas Kjøller-Rasmussen (University of Copenhagen), concept DOI 10.5281/zenodo.7113232 — the canonical project URL; the record used here is version 0.2.0. 13 texts, plain text distribution. License MIT.",
    "period_words": {
     "decades": [
      0,
@@ -11184,7 +11184,7 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Diakorp v6 (~3.45M words, 116 documents, 14th-20th c., normalized transcriptions with original spellings) is officially deposited on LINDAT/CLARIAH-CZ with PID http://hdl.handle.net/11234/1-5413, distributed in a CQP-vertical format (not TEI). The 7 collected texts (Kabátník's Cesta z Čech..., Komenský's Labyrint...) are among its 116 source documents. Licence CC BY-NC-SA 4.0.",
+   "notes_display": "Diakorp v6 (~3.45M words, 116 documents, 14th-20th c., normalized transcriptions with original spellings) is officially deposited on LINDAT/CLARIAH-CZ with a persistent identifier, distributed in a CQP-vertical format (not TEI). The 7 collected texts (Kabátník's Cesta z Čech..., Komenský's Labyrint...) are among its 116 source documents. Licence CC BY-NC-SA 4.0.",
    "period_words": {
     "decades": [
      0,
@@ -11710,7 +11710,7 @@
    "size_band": "under-10k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Quechua text of the Huarochirí Manuscript (c. 1600) in the Runasimi.de reworking (http://www.runasimi.de/waruchir.htm), with revised spelling, based on Gerald Taylor's 1976 edition 'Ritos y Tradiciones de Huarochirí'. The same manuscript in Taylor's 1987 edition is catalogued separately as huarochiri-quechua-full.",
+   "notes_display": "Quechua text of the Huarochirí Manuscript (c. 1600) in the Runasimi.de reworking, with revised spelling, based on Gerald Taylor's 1976 edition 'Ritos y Tradiciones de Huarochirí'. The same manuscript in Taylor's 1987 edition is catalogued separately as huarochiri-quechua-full.",
    "period_words": {
     "decades": [
      0,
@@ -14927,7 +14927,7 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The online corpus holds 84 texts up to 1791 (https://ilg.usc.gal/gondomar/); this entry counts only the 31 texts dated 1594-1697.",
+   "notes_display": "The online corpus holds 84 texts up to 1791; this entry counts only the 31 texts dated 1594-1697.",
    "period_words": {
     "decades": [
      0,
@@ -15087,7 +15087,7 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "The OBVIL GONGORA project digitised Antonio Carreira's edition of Góngora's poetic works and the polémica gongorina in TEI P5 (2013-2016, CC BY-NC-ND). The TEI files are published in the gongoradigital GitHub repository gongoraobra (https://github.com/gongoradigital/gongoraobra), which holds the poetry, the Epistolario and three comedias. The catalogue statistics cover only two of these texts, the Epistolario (1610) and the Comedia venatoria (1605). The original OBVIL portal is no longer reachable.",
+   "notes_display": "The OBVIL GONGORA project digitised Antonio Carreira's edition of Góngora's poetic works and the polémica gongorina in TEI P5 (2013-2016, CC BY-NC-ND). The TEI files are published in the gongoradigital GitHub repository gongoraobra, which holds the poetry, the Epistolario and three comedias. The catalogue statistics cover only two of these texts, the Epistolario (1610) and the Comedia venatoria (1605). The original OBVIL portal is no longer reachable.",
    "period_words": {
     "decades": [
      0,
@@ -16219,7 +16219,7 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "120 English tracts and pamphlets 1640-1740 (about 1.19M words), TEI, CC BY-SA 3.0. The Oxford Text Archive record ota:3193 is now served by the Oxford Linguistics Data Store at https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/3193; the older ota.ox.ac.uk and ota.bodleian.ox.ac.uk addresses no longer reach the record.",
+   "notes_display": "120 English tracts and pamphlets 1640-1740 (about 1.19M words), TEI, CC BY-SA 3.0. The Oxford Text Archive record ota:3193 is now served by the Oxford Linguistics Data Store; the older ota.ox.ac.uk and ota.bodleian.ox.ac.uk addresses no longer reach the record.",
    "period_words": {
     "decades": [
      0,
@@ -16951,7 +16951,7 @@
    "size_band": "under-10k",
    "figures": "other",
    "snapshot": null,
-   "notes_display": "TEI XML edition (version 1.0, published 2020-12-06; handle http://hdl.handle.net/11356/1376) of 51 Latin inscriptions from the Slovenian coastal towns dated 1222 to the mid-17th century, with expanded transcriptions and Slovenian translations. Counts are our own, from the TEI file: 42 inscriptions dated within or overlapping 1450-1700 (including two 'second half of 15th c.'), 904 words in their transcription divs (approximate); 7 fall outside the period and 2 are undated. Static repository deposit, no later version found.",
+   "notes_display": "TEI XML edition (version 1.0, published 2020-12-06, on CLARIN.SI) of 51 Latin inscriptions from the Slovenian coastal towns dated 1222 to the mid-17th century, with expanded transcriptions and Slovenian translations. Counts are our own, from the TEI file: 42 inscriptions dated within or overlapping 1450-1700 (including two 'second half of 15th c.'), 904 words in their transcription divs (approximate); 7 fall outside the period and 2 are undated. Static repository deposit, no later version found.",
    "period_words": null
   },
   {
@@ -17374,7 +17374,7 @@
    "size_band": "10k-100k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Born-digital TEI corpora of early-modern French texts from LabEx OBVIL (Sorbonne Université), encoded with the Teinte toolchain (lauze_apologie-danse_1623, Faceties 1557, La Bruyère 1694, etc.); CC BY-NC-ND. The lab's data platform ObTIC (https://obtic.sorbonne-universite.fr/liste/) lists the freely available OBVIL corpora; the corpus files are on the OBVIL GitHub organisation (https://github.com/OBVIL). The former reading site obvil.sorbonne-universite.fr is no longer reachable.",
+   "notes_display": "Born-digital TEI corpora of early-modern French texts from LabEx OBVIL (Sorbonne Université), encoded with the Teinte toolchain (lauze_apologie-danse_1623, Faceties 1557, La Bruyère 1694, etc.); CC BY-NC-ND. The lab's data platform ObTIC lists the freely available OBVIL corpora; the corpus files are on the OBVIL GitHub organisation. The former reading site obvil.sorbonne-universite.fr is no longer reachable.",
    "period_words": {
     "decades": [
      0,
@@ -20181,7 +20181,7 @@
    "size_band": "100k-1m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "SERMO is an SNSF project (2015-2018) at Neuchâtel that produced a corpus of 62 French Protestant sermons (about 600,000 tokens, mostly printed in Geneva, 1555-1750). The complete TEI texts are on the project site (http://sermo.unine.ch, served over http only); the Zenodo deposit (DOI 10.5281/zenodo.14620210, CC BY 4.0) is only a partial copy. The annotation (lemmas, parts of speech) is available only through the project's CQPweb interface, which needs a login.",
+   "notes_display": "SERMO is an SNSF project (2015-2018) at Neuchâtel that produced a corpus of 62 French Protestant sermons (about 600,000 tokens, mostly printed in Geneva, 1555-1750). The complete TEI texts are on the project site (served over http only); the Zenodo deposit (DOI 10.5281/zenodo.14620210, CC BY 4.0) is only a partial copy. The annotation (lemmas, parts of speech) is available only through the project's CQPweb interface, which needs a login.",
    "period_words": {
     "decades": [
      0,
@@ -20732,7 +20732,7 @@
    "size_band": "under-10k",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Tagalog prayers (12 texts) from the 1593 Manila Doctrina Christiana, in Project Gutenberg eBook #16119 (https://www.gutenberg.org/ebooks/16119), a facsimile edition by Edwin Wolf, produced by Jeroen Hellingman, Tamiko I. Camacho and Distributed Proofreaders. The eBook is in English, Spanish and Tagalog; only the Tagalog texts are counted.",
+   "notes_display": "Tagalog prayers (12 texts) from the 1593 Manila Doctrina Christiana, in Project Gutenberg eBook #16119, a facsimile edition by Edwin Wolf, produced by Jeroen Hellingman, Tamiko I. Camacho and Distributed Proofreaders. The eBook is in English, Spanish and Tagalog; only the Tagalog texts are counted.",
    "period_words": {
     "decades": [
      0,
@@ -21315,7 +21315,7 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.06",
-   "notes_display": "Texts of the Thesaurus Musicarum Italicarum (TmiWeb, Utrecht University, https://tmiweb.science.uu.nl/), an electronic corpus of Italian music treatises from the Renaissance and early Baroque, together with the Saggi Musicali Italiani (SMI) texts. The original SMI site at Indiana University is no longer available; those texts were retrieved from the Internet Archive. A TEI P5 deposit exists at DANS (doi:10.17026/dans-zum-ywbw) but its files are restricted.",
+   "notes_display": "Texts of the Thesaurus Musicarum Italicarum (TmiWeb, Utrecht University), an electronic corpus of Italian music treatises from the Renaissance and early Baroque, together with the Saggi Musicali Italiani (SMI) texts. The original SMI site at Indiana University is no longer available; those texts were retrieved from the Internet Archive. A TEI P5 deposit exists at DANS (doi:10.17026/dans-zum-ywbw) but its files are restricted.",
    "period_words": {
     "decades": [
      0,

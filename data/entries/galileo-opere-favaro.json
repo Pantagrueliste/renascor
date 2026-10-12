@@ -18,7 +18,7 @@
   "words": 97354,
   "texts": 4,
   "period": "1611-1633",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://it.wikisource.org/wiki/Le_opere_di_Galileo_Galilei_(Favaro)",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 97354,

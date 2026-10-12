@@ -726,6 +726,17 @@ function licenseHTML(e) {
 
 const dl = rows => '<dl class="rec-dl">' + rows.map(x => `<dt>${x[0]}</dt><dd>${x[1]}</dd>`).join('') + '</dl>';
 const muted = s => ` <span class="q">${s}</span>`;
+// Web addresses in notes become links; trailing punctuation stays outside, an unmatched ")" too.
+function linkify(text) {
+	let out = '', last = 0;
+	for (const m of String(text).matchAll(/https?:\/\/[^\s<>"]+/g)) {
+		let url = m[0].replace(/[.,;:!?'’]+$/, '');
+		while (url.endsWith(')') && (url.match(/\(/g) || []).length < (url.match(/\)/g) || []).length) url = url.slice(0, -1);
+		out += esc(text.slice(last, m.index)) + extLink(url, esc(url) + NEW_TAB);
+		last = m.index + url.length;
+	}
+	return out + esc(text.slice(last));
+}
 
 function recordHTML(r) {
 	if (r.recHTML) return r.recHTML;
@@ -752,7 +763,7 @@ function recordHTML(r) {
 	right.push(['Figures', figuresText(r)],
 		['Added', esc(e.date_added || '') + muted('· ' + (e.provenance === 'discovered' ? 'proposed by the automated search' : 'submitted by a contributor'))]);
 	let h = `<div class="record" id="rec-${esc(r.id)}" role="region" aria-label="Record: ${esc(e.title)}">` + dl(left) + dl(right);
-	if (d.notes_display) h += `<div class="rec-notes"><p class="rec-notes-h">Notes</p><p class="rec-notes-t">${esc(d.notes_display)}</p></div>`;
+	if (d.notes_display) h += `<div class="rec-notes"><p class="rec-notes-h">Notes</p><p class="rec-notes-t">${linkify(d.notes_display)}</p></div>`;
 	const correction = `${REPO}/issues/new?template=correction.yml&title=${encodeURIComponent('[correction] ' + e.title)}&entry=${encodeURIComponent(e.title + ' (' + r.id + '.json)')}`;
 	h += '<div class="rec-foot">' + extLink(e.url, (arch ? 'Open the archived copy' : 'Open the edition') + ICON.ext + NEW_TAB, ' class="btn primary"') +
 		(e.data_url ? extLink(e.data_url, 'Get the ' + esc(downloadNoun(e)) + ICON.ext + NEW_TAB, ' class="btn"') : '') +

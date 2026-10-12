@@ -16,7 +16,7 @@
   "words": 51400,
   "texts": 5,
   "period": "1555-1555",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/BetaMasaheft/Works.",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2026-10-06",
   "corpus_statistics": {
     "snapshot": "v2026.06",
