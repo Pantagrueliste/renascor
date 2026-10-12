@@ -51,7 +51,7 @@ const state = { q: '', from: MIN, to: MAX, sort: 'title-asc', view: 'table' };
 let meta = {}, records = [], shown = [], terms = [], PSEUDO = new Set(), facetOpts = {};
 const byId = Object.create(null), open = new Set();
 let langExpanded = false, hasFiles = false, ready = false;
-let decadeScale = 1, lastCounts = new Array(NBINS).fill(0), lastEstimated = new Array(NBINS).fill(0), wordsSorted = [], totalWords = 0;
+let decadeScale = 1, lastCounts = new Array(NBINS).fill(0), wordsSorted = [], totalWords = 0;
 
 const nf = new Intl.NumberFormat('en');
 const $ = id => document.getElementById(id);
@@ -280,7 +280,6 @@ function renderTimeline() {
 	}
 	tlShown = [state.from, state.to];
 	const counts = new Array(NBINS).fill(0);
-	const estimated = new Array(NBINS).fill(0);
 	let known = false;
 	records.forEach(r => {
 		if (!matches(r, 'period')) return;
@@ -288,17 +287,16 @@ function renderTimeline() {
 		if (!p) return;
 		known = true;
 		p.decades.forEach((words, i) => { counts[i] += words; });
-		(p.estimated || []).forEach((words, i) => { counts[i] += words; estimated[i] += words; });
+		(p.estimated || []).forEach((words, i) => { counts[i] += words; });
 	});
 	lastCounts = known ? counts : null;
-	lastEstimated = estimated;
 	const active = periodActive(), inRange = i => active && DECADES[i] <= state.to && binEnd(i) >= state.from;
 	TL.barEls.forEach((b, i) => {
 		b.style.height = counts[i] ? `max(2px, ${(Math.min(counts[i], decadeScale) / decadeScale * 100).toFixed(2)}%)` : '0px';
 		b.classList.toggle('in', inRange(i));
 	});
 	TL.bars.setAttribute('aria-label', known ? 'Corpus words per decade: ' + counts.map((n, i) =>
-		DECADES[i] + '–' + binEnd(i) + ': ' + plural(n, 'word') + (estimated[i] ? ', including ' + plural(estimated[i], 'word') + ' allocated from estimated date ranges' : '')).join('; ') : 'Word counts not recorded for these collections.');
+		DECADES[i] + '–' + binEnd(i) + ': ' + plural(n, 'word')).join('; ') : 'Word counts not recorded for these collections.');
 	const l = frac(state.from) * 100, r = frac(state.to + 1) * 100;
 	TL.band.hidden = !active;
 	TL.band.style.cssText = `left:${l.toFixed(3)}%;width:${Math.max(0, r - l).toFixed(3)}%`;
@@ -445,8 +443,7 @@ function endDrag() {
 function showHover(ev) {
 	if (ev.target.closest('.tl-handle')) { hideHover(); return; }
 	const i = Math.min(NBINS - 1, Math.floor(plotFrac(ev.clientX) * NBINS));
-	TL.hover.textContent = DECADES[i] + '–' + binEnd(i) + ' · ' + (lastCounts ? plural(lastCounts[i], 'word') : 'word count not recorded');
-	if (lastCounts && lastEstimated[i]) TL.hover.textContent += '\n' + plural(lastEstimated[i], 'word') + ' from estimated date ranges';
+	TL.hover.textContent = lastCounts ? plural(lastCounts[i], 'word') : 'No word count';
 	TL.hover.hidden = false;
 	const W = TL.plot.clientWidth, w = TL.hover.offsetWidth;
 	TL.hover.style.left = clamp((i + 0.5) / NBINS * W - w / 2, -8, Math.max(-8, W - w + 8)).toFixed(1) + 'px';
