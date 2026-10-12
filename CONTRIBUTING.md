@@ -48,7 +48,7 @@ We record the project, not individual texts. A project may contain one text or t
 
 ### Geographical and historical scope
 
-“Renaissance” is a historical and cultural framework centred on Europe, particularly Western Europe; **1450–1700** supplies its chronological limits. We also include texts arising from documented contacts between European societies and other populations, including trade, diplomacy, travel, migration, missions and colonial encounters. Texts by any community involved are eligible, wherever written and in any language. Connected traditions are considered in their own historical contexts.
+“Renaissance” is a historical and cultural framework centred on Europe, particularly Western Europe; **1450–1700** supplies its chronological limits. We also include texts arising from Europe’s documented contacts with the rest of the world (trade, diplomacy, travel, migration, missions and colonial encounters), written on either side of these exchanges, in any language, and considered within their own traditions.
 
 For a collection outside the European focus, explain the relevant historical connection and identify the texts concerned. A date within 1450–1700 alone does not establish geographical relevance. Broader repositories may qualify through an identifiable subset; describe that subset and the counting coverage.
 
