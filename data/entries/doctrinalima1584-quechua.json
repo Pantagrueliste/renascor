@@ -14,7 +14,7 @@
   "words": 6649,
   "texts": 17,
   "period": "1600-1600",
-  "notes": "Quechua text of the Huarochirí Manuscript (c. 1600) in the Runasimi.de reworking (http://www.runasimi.de/waruchir.htm), with revised spelling, based on Gerald Taylor's 1976 edition 'Ritos y Tradiciones de Huarochirí'. The same manuscript in Taylor's 1987 edition is catalogued separately as huarochiri-quechua-full. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Quechua text of the Huarochirí Manuscript (c. 1600) in the Runasimi.de reworking, with revised spelling, based on Gerald Taylor's 1976 edition 'Ritos y Tradiciones de Huarochirí'. The same manuscript in Taylor's 1987 edition is catalogued separately as huarochiri-quechua-full. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 6649,

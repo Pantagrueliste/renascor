@@ -16,7 +16,7 @@
   "words": 7188629,
   "texts": 371,
   "period": "c. 1522-1700",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/Jero2760/estilometria.",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2025-01-12",
   "corpus_statistics": {
     "snapshot": "v2026.06",

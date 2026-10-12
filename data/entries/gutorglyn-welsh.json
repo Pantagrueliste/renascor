@@ -16,7 +16,7 @@
   "words": 30864,
   "texts": 91,
   "period": "1450-1497",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://gutorglyn.net/gutorglyn/.",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 30864,

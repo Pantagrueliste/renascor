@@ -16,7 +16,7 @@
   "words": 73928,
   "texts": 229,
   "period": "1578-1666",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/HCDigitalScholarship/ticha-xml-tei.",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2022-03-10",
   "corpus_statistics": {
     "snapshot": "v2026.06",

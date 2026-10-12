@@ -18,7 +18,7 @@
   "words": 553323,
   "texts": 6515,
   "period": "1531-1621",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.emblems.arts.gla.ac.uk/.",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 549460,
