@@ -1,6 +1,6 @@
 {
   "title": "HistCorp — Historical Corpora and Tools (fornsvenska / Fornsvenska textbanken)",
-  "url": "https://sprakbanken-clarin.lingfil.uu.se/histcorp/",
+  "url": "https://zenodo.org/records/10017247",
   "data_url": "https://zenodo.org/records/10017247",
   "data_format": "plain-text",
   "languages": [
@@ -13,7 +13,7 @@
   "words": 5641945,
   "texts": 49,
   "period": "1450-1700",
-  "notes": "HistCorp is an open platform for historical corpora and tools, distributed via the Swedish CLARIN node; its Swedish section is built on Fornsvenska textbanken (machine-readable Old/Early Modern Swedish texts 1350-1758), all supplied as plain text (RQ fmt_detected: plain). Freely available; ATTRIBUTIONS lists the collection as cc_by. The 20 RQ texts (e.g. 'HistorCorp fornsvenska: Prosaiska kronikan (1450)' -> origin 'HistCorp fornsvenska: Prosaiska krönikan (1450)') are directly from this download bundle. Note: Sprakbanken Text Gothenburg's Korp 'all_hist' mode offers related searchable corpora; HistCorp is the canonical downloadable source. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "HistCorp is an open platform for historical corpora and tools, distributed via the Swedish CLARIN node. Its Swedish section draws on Fornsvenska textbanken (machine-readable Old and Early Modern Swedish texts 1350-1758), all supplied as plain text. The source site (project2.sol.lu.se/fornsvenska) no longer resolves; the texts are available through the HistCorp Swedish download (Zenodo). The 5.6 M words exceed Fornsvenska's 44 texts and 1.4 M tokens, so the entry includes other HistCorp Swedish corpora; the texts counted here come from this download bundle. Freely available; the licence is CC BY. Related searchable corpora are offered by Språkbanken Text's Korp ('all_hist' mode). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Eva Pettersson (Uppsala University) & Beata Megyesi (Stockholm University), Swedish CLARIN",
   "corpus_statistics": {
     "snapshot": "v2026.06",

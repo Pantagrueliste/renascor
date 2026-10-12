@@ -1,6 +1,6 @@
 {
   "title": "Emblem Project Utrecht",
-  "url": "http://emblems.let.uu.nl/",
+  "url": "https://emblems.hum.uu.nl/",
   "data_url": "https://emblems.hum.uu.nl/project_procedures.html",
   "data_format": "tei",
   "provenance": "submitted",
@@ -19,7 +19,7 @@
   "words": 553391,
   "texts": 1948,
   "period": "1601-1691",
-  "status": "active",
+  "status": "archived",
   "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",

@@ -1,6 +1,6 @@
 {
-  "title": "SPXVI Polish16c",
-  "url": "https://spxvi.edu.pl",
+  "title": "Korpus polszczyzny XVI wieku (Słownik polszczyzny XVI wieku)",
+  "url": "https://spxvi.edu.pl/korpus/",
   "data_url": "https://spxvi.edu.pl/korpus/teksty/",
   "data_format": "html",
   "languages": [
@@ -13,7 +13,7 @@
   "words": 6962996,
   "texts": 187,
   "period": "1500-1601",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://spxvi.edu.pl/; data/raw/spxvi/; rebuild/spxvi_raw_lock_2026-06-13.tsv; rebuild/spxvi_source_native_audit_2026-06-13.csv; scripts/overnight/polish_spxvi_harvest.py; rebuild/rawtree_full_lock_20",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://spxvi.edu.pl/.",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 6962996,
@@ -22,5 +22,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Not stated",
   "license_url": "https://rcin.org.pl/dlibra/publication/82400?language=pl",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license_note": "No reuse licence established from the available publisher-source evidence.",
+  "institution": "Instytut Badań Literackich PAN, Pracownia Słownika Polszczyzny XVI wieku"
 }

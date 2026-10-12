@@ -1,5 +1,5 @@
 {
-  "title": "SMI ItalianMusic",
+  "title": "Saggi musicali italiani (SMI)",
   "url": "https://chmtl.indiana.edu/smi",
   "languages": [
     "Italian"
@@ -11,7 +11,7 @@
   "words": 62023,
   "texts": 3,
   "period": "1599-1599",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://chmtl.indiana.edu/smi/; rebuild/smi_italianmusic_source_selection_2026-06-24.tsv; data/raw/SMI_ItalianMusic/SMI_ItalianMusic.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://chmtl.indiana.edu/smi/.",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 62023,
@@ -20,5 +20,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://chmtl.indiana.edu/",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "Center for the History of Music Theory and Literature (CHMTL), Indiana University Bloomington"
 }

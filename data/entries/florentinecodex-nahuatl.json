@@ -1,5 +1,5 @@
 {
-  "title": "FlorentineCodex Nahuatl",
+  "title": "Transcript of the Florentine Codex (Nahuatl)",
   "url": "https://zenodo.org/records/7213020",
   "data_url": "https://zenodo.org/records/7213020",
   "data_format": "plain-text",
@@ -7,13 +7,13 @@
     "Nahuatl"
   ],
   "encoding": "plain-text",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 290869,
   "texts": 12,
   "period": "1577-1577",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://zenodo.org/records/7213020; rebuild/florentinecodex_nahuatl_source_selection_2026-06-24.tsv; data/raw/FlorentineCodex_Nahuatl/FlorentineCodex_Nahuatl.jsonl; rebuild/rawtree_full_lock_2026-07-1",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://zenodo.org/records/7213020.",
   "last_modified": "2025-06-14",
   "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -21,8 +21,9 @@
     "texts": 12
   },
   "count_basis": "rq-retained-rows",
-  "license": "Copyright",
+  "license": "CC-BY-4.0",
   "license_url": "https://florentinecodex.getty.edu/about/3_Citations_and_Permissions",
   "license_note": "Copyright restrictions apply; no standard open reuse licence established.",
-  "doi": "10.5281/zenodo.7213020"
+  "doi": "10.5281/zenodo.7213020",
+  "institution": "Valery A. Berthoud F. (editor of the Zenodo deposit)"
 }

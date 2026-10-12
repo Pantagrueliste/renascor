@@ -12,8 +12,8 @@
   "date_added": "2026-10-07",
   "words": 45188,
   "texts": 1,
-  "period": "1580-1580",
-  "notes": "The repository Pantagrueliste/CavrianaCorr (live 200) is a digital TEI edition of Filippo Cavriana's late-16th-century correspondence, described as 'Digital Edition of Filippo Cavriana's Correspondence'; licence CC BY 4.0. Matches the collected 2-text collection exactly. Origin verbatim: 'Cavriana correspondence (late 16th c)'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "period": "1568-1574",
+  "notes": "The repository Pantagrueliste/CavrianaCorr (live 200) is a digital TEI edition of Filippo Cavriana's late-16th-century correspondence, described as 'Digital Edition of Filippo Cavriana's Correspondence'; licence CC BY 4.0. Matches the collected 2-text collection exactly. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Pantagrueliste (research project on Cavriana correspondence), GitHub-hosted TEI edition",
   "last_modified": "2026-09-02",
   "corpus_statistics": {

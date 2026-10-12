@@ -13,7 +13,7 @@
   "words": 1775,
   "texts": 4,
   "period": "1517-1519",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://knihi.com/Francysk_Skaryna/; rebuild/belarusian_skaryna_source_selection_2026-06-24.tsv; data/raw/Belarusian_Skaryna/Belarusian_Skaryna.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "notes": "Four texts from Francysk Skaryna's Bible printings (https://knihi.com/Francysk_Skaryna/). Only the preface to the whole Bible comes from knihi.com (Belaruskaya Palichka, original orthography, source edition not stated); the other three texts (Judith, Psalter and Proverbs prefaces) come from the Belarusian Wikisource transcription of Harecki's 1922 chrestomathy, because knihi.com gives those in modern Belarusian. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 1775,

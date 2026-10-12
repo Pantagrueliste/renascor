@@ -11,9 +11,9 @@
   "encoding": "html",
   "words": 1277817,
   "texts": 1,
-  "period": "1665-1665",
+  "period": "1660-1669",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The diary text published by Phil Gyford's pepysdiary.com is taken from Project Gutenberg. The word and text counts were measured on the Project Gutenberg e-text (one text, including the 19th-century editors' introductions and notes), not on the website itself. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 1277817,

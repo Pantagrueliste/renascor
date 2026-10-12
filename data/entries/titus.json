@@ -17,7 +17,7 @@
   "texts": 26,
   "period": "1545-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "TITUS is the Frankfurt Thesaurus of Indo-European Text and Language Materials; the selection here covers Albanian, Georgian, Lithuanian and Old Prussian texts of 1545–1700. Most are published as HTML pages; only the Old Lithuanian texts of the SLIEKKAS sub-project (linked as the data page) are available as XML, with Toolbox and ELAN files. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 1746475,

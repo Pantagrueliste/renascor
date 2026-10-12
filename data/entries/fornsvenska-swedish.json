@@ -1,5 +1,5 @@
 {
-  "title": "Fornsvenska Swedish",
+  "title": "Fornsvenska textbanken (FsvTB): Nysvenska annexet",
   "url": "https://www.nordlund.lu.se",
   "data_url": "https://www.nordlund.lu.se/texter/nysvenska-annexet/",
   "data_format": "html",
@@ -13,7 +13,7 @@
   "words": 95194,
   "texts": 5,
   "period": "1536-1674",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.nordlund.lu.se/; rebuild/fornsvenska_swedish_source_selection_2026-06-24.tsv; data/raw/Fornsvenska_Swedish/Fornsvenska_Swedish.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.nordlund.lu.se/.",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 95194,
@@ -21,5 +21,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license_note": "No reuse licence established from the available publisher-source evidence.",
+  "institution": "Fornsvenska textbanken, Lund University (Nordlund); compiled by Lars-Olof Delsing"
 }

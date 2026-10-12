@@ -24,5 +24,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-ND-3.0-CH",
-  "license_url": "https://www.bullinger-digital.ch/api/content/disclaimers"
+  "license_url": "https://www.bullinger-digital.ch/api/content/disclaimers",
+  "institution": "Universität Zürich (Institut für Computerlinguistik); Staatsarchiv des Kantons Zürich"
 }

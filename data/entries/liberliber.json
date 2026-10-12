@@ -1,6 +1,6 @@
 {
   "title": "LiberLiber",
-  "url": "https://www.liberliber.eu/",
+  "url": "https://liberliber.it/",
   "data_url": "https://liberliber.it/opere/libri/",
   "data_format": "html",
   "provenance": "submitted",
@@ -24,5 +24,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://liberliber.it/opere/libri/licenze/",
-  "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "Associazione Culturale Liber Liber (Progetto Manuzio)"
 }

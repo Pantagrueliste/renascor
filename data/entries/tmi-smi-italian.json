@@ -1,17 +1,17 @@
 {
-  "title": "TMI SMI Italian",
+  "title": "Thesaurus Musicarum Italicarum (TmiWeb) and Saggi Musicali Italiani",
   "url": "https://tmiweb.science.uu.nl",
   "languages": [
     "Italian"
   ],
   "encoding": "tei",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 2029235,
   "texts": 41,
   "period": "1525-1649",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://tmiweb.science.uu.nl/; rebuild/tmi_smi_italian_source_selection_2026-06-24.tsv; data/raw/TMI_SMI_Italian/TMI_SMI_Italian.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "notes": "Texts of the Thesaurus Musicarum Italicarum (TmiWeb, Utrecht University, https://tmiweb.science.uu.nl/), an electronic corpus of Italian music treatises from the Renaissance and early Baroque, together with the Saggi Musicali Italiani (SMI) texts. The original SMI site at Indiana University is no longer available; those texts were retrieved from the Internet Archive. A TEI P5 deposit exists at DANS (doi:10.17026/dans-zum-ywbw) but its files are restricted. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 2029235,
@@ -20,5 +20,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://web.archive.org/web/20230529094521/https://euromusicology.cs.uu.nl/copyright.html",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "Department of Information and Computing Sciences, Utrecht University (TMI); Center for the History of Music Theory and Literature, Indiana University (SMI)"
 }

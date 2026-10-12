@@ -1,7 +1,7 @@
 {
-  "title": "Litteraturbanken Swedish",
-  "url": "https://spraakbanken.gu.se/en/resources/lb-open",
-  "data_url": "https://litteraturbanken.se/bibliotek?nedladdning=true",
+  "title": "Litteraturbanken (The Swedish Literature Bank) — Swedish texts",
+  "url": "https://litteraturbanken.se/",
+  "data_url": "https://sprakbanken.se/en/resources/lb-open",
   "data_format": "tei",
   "languages": [
     "Swedish"
@@ -13,7 +13,7 @@
   "words": 114226,
   "texts": 7,
   "period": "1611-1649",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://spraakbanken.gu.se/en/resources/lb-open; rebuild/litteraturbanken_swedish_source_selection_2026-06-24.tsv; data/raw/Litteraturbanken_Swedish/Litteraturbanken_Swedish.jsonl; rebuild/rawtree_ful",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://spraakbanken.gu.se/en/resources/lb-open.",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 114226,
@@ -22,5 +22,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://litteraturbanken.se/api/list_all/etext",
-  "license_note": "Includes CC0-1.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes CC0-1.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "Svenska Akademien / Språkbanken Text, University of Gothenburg"
 }

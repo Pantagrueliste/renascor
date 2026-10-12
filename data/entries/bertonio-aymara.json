@@ -1,19 +1,19 @@
 {
   "title": "Bertonio Aymara",
-  "url": "https://github.com/amosbatto/native-dics",
+  "url": "https://github.com/amosbatto/native-dics/tree/main/dics/es_ay-bertonio",
   "data_url": "https://github.com/amosbatto/native-dics/tree/main/dics/es_ay-bertonio",
   "data_format": "other",
   "languages": [
     "Aymara"
   ],
   "encoding": "other",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 74082,
   "texts": 23,
   "period": "1612-1612",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/amosbatto/native-dics; rebuild/bertonio_aymara_source_selection_2026-06-24.tsv; data/raw/Bertonio_Aymara/Bertonio_Aymara.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "notes": "Digitised edition of Ludovico Bertonio's Vocabulario de la Lengua Aymara (Juli, 1612), distributed as a StarDict dictionary in the native-dics repository of Amos Batto (https://github.com/amosbatto/native-dics). The text is not a diplomatic transcription: the orthography was modernised by Radio San Gabriel, and the dictionary was digitised by ILLA-A. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2023-04-23",
   "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -23,5 +23,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Not stated",
   "license_url": "https://zenodo.org/record/7120597",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license_note": "No reuse licence established from the available publisher-source evidence.",
+  "institution": "Ludovico Bertonio (1612); digitised by ILLA-A, orthography updated by Radio San Gabriel; packaged by Amos Batto (native-dics)"
 }

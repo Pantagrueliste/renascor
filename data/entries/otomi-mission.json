@@ -1,6 +1,6 @@
 {
   "title": "Otomi mission",
-  "url": "https://www.sup-infor.com",
+  "url": "https://www.sup-infor.com/sources/liste-otomi.htm",
   "data_url": "https://www.sup-infor.com/sources/liste-otomi.htm",
   "data_format": "other",
   "languages": [
@@ -12,7 +12,7 @@
   "date_added": "2026-10-07",
   "words": 4391,
   "texts": 30,
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.sup-infor.com/; rebuild/otomi_mission_source_selection_2026-06-24.tsv; data/raw/Otomi_mission/Otomi_mission.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.sup-infor.com/.",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 4365,
@@ -21,5 +21,6 @@
   "count_basis": "rq-retained-rows-and-staging",
   "license": "Copyright",
   "license_url": "http://sup-infor.com/",
-  "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+  "license_note": "Copyright restrictions apply; no standard open reuse licence established.",
+  "institution": "Éditions SUP-INFOR (Marc Thouvenot); paleographies by David Charles Wright Carr"
 }

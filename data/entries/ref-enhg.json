@@ -1,5 +1,5 @@
 {
-  "title": "ReF ENHG",
+  "title": "Referenzkorpus Frühneuhochdeutsch (ReF; Reference Corpus of Early New High German)",
   "url": "https://zenodo.org/records/5793616",
   "data_url": "https://zenodo.org/records/5793616",
   "data_format": "xml",
@@ -7,13 +7,13 @@
     "German"
   ],
   "encoding": "xml",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 2440564,
   "texts": 144,
   "period": "1450-1625",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://zenodo.org/records/5793616; https://doi.org/10.5281/zenodo.5793616; data/raw/ref/ReF-v1.0.2/; rebuild/ref_raw_lock_2026-06-13.tsv; rebuild/ref_source_selection_2026-06-13.tsv; rebuild/ref_sour",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://zenodo.org/records/5793616; https://doi.org/10.5281/zenodo.5793616.",
   "last_modified": "2021-12-21",
   "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -23,5 +23,6 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-SA-4.0",
   "license_url": "https://linguistics.rub.de/ref/access/index.html",
-  "doi": "10.5281/zenodo.5793616"
+  "doi": "10.5281/zenodo.5793616",
+  "institution": "Ruhr-Universität Bochum; Martin-Luther-Universität Halle-Wittenberg; Universität Potsdam"
 }

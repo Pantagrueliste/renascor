@@ -13,7 +13,7 @@
   "words": 936123,
   "texts": 14,
   "period": "1543-1681",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/kb-dk/public-adl-text-sources; rebuild/adl_danish_source_selection_2026-06-24.tsv; data/raw/ADL_Danish/ADL_Danish.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/kb-dk/public-adl-text-sources.",
   "last_modified": "2026-08-25",
   "corpus_statistics": {
     "snapshot": "v2026.06",

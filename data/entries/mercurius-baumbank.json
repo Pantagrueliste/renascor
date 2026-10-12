@@ -13,8 +13,8 @@
   "words": 187423,
   "texts": 2,
   "period": "1597-1667",
-  "notes": "The LAUDATIO long-term corpus repository (HU Berlin) hosts a published corpus 'Mercurius-Baumbank (Version 1.1)' edited by Ulrike Demske, an annotated TEI corpus of early German news/Relation publications (the 1597 and 1667 items match the origins verbatim). Listed on the repository's published-corpora index; the corpus browse page verifies. Encoding TEI (LAUDATIO standard); license on the corpus page (RQ ATTRIBUTIONS tags the collection cc_by). LAUDATIO's own search/API endpoints were partly broken at check time, but the published listing and this corpus page are live. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
-  "institution": "Ulrike Demske; LAUDATIO repository (Humboldt-Universität zu Berlin)",
+  "notes": "The Mercurius-Baumbank (version 1.1), edited by Ulrike Demske (University of Potsdam), is a syntactically annotated treebank of early German newspaper (Relation) texts of the 17th century, deposited in the LAUDATIO repository (HU Berlin). The texts are distributed as TIGER-XML, NEGRA and relANNIS; the TEI files in LAUDATIO carry metadata only. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "institution": "Ulrike Demske, Professur Geschichte und Variation der deutschen Sprache, Universität Potsdam; hosted in the LAUDATIO repository (Humboldt-Universität zu Berlin)",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 187423,

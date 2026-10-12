@@ -13,14 +13,14 @@
     "Spanish"
   ],
   "encoding": "tei",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 7946427,
   "texts": 27,
   "institution": "Huygens ING (KNAW)",
   "period": "1629-1699",
-  "notes": "The original harvest reference is given below. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). http://ckcc.huygens.knaw.nl/; data/raw/ckcc/letters.jsonl; rebuild/ckcc_raw_lock_2026-06-13.tsv; rebuild/ckcc_source_native_audit_2026-06-13.csv; scripts/overnight/ckcc_harvest.py; rebuild/rawtree_ful",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). http://ckcc.huygens.knaw.nl/.",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 7946427,

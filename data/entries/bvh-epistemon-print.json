@@ -1,6 +1,6 @@
 {
-  "title": "BVH Epistemon Print",
-  "url": "https://github.com/lb42/tei-fr",
+  "title": "Bibliothèques Virtuelles Humanistes: Epistemon (printed texts)",
+  "url": "https://www.bvh.univ-tours.fr/Epistemon/index.asp",
   "data_url": "https://github.com/lb42/tei-fr/tree/master/Projects/BVH/Corpus",
   "data_format": "tei",
   "languages": [
@@ -13,7 +13,7 @@
   "words": 1968888,
   "texts": 46,
   "period": "1529-1616",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/lb42/tei-fr; rebuild/bvh_epistemon_print_source_selection_2026-06-24.tsv; data/raw/BVH_Epistemon_Print/BVH_Epistemon_Print.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "notes": "Transcriptions of Renaissance printed texts from the Epistemon corpus of the Bibliothèques Virtuelles Humanistes (CESR, Université de Tours). The entry links to the corpus on the BVH site; the TEI files used for the corpus statistics come from a legacy copy kept in Lou Burnard's tei-fr repository on GitHub (https://github.com/lb42/tei-fr; last updated 2015). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2023-10-18",
   "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -23,5 +23,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "http://www.bvh.univ-tours.fr/mentions.asp",
-  "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "Centre d'études supérieures de la Renaissance (CESR), Université de Tours / CNRS (Bibliothèques Virtuelles Humanistes)"
 }

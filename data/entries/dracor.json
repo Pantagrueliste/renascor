@@ -20,7 +20,7 @@
   "texts": 1906,
   "period": "1451-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The Neo-Latin plays (NeoLatDraCor, 21 of the texts) are not on the production platform dracor.org; they are served at staging.dracor.org and in the GitHub repository dracor-org/neolatdracor (https://github.com/dracor-org/neolatdracor). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 25101629,

@@ -1,6 +1,6 @@
 {
-  "title": "Bible-Corpus — multilingual parallel corpus of Bible translations",
-  "url": "https://github.com/christos-c/bible-corpus",
+  "title": "Bible-Corpus, Czech Collection — Czech Bible text (Kralice translation) from the Multilingual Parallel Bible Corpus",
+  "url": "https://textgridrep.org/browse/490rm.0",
   "data_url": "https://textgridrep.org/browse/490rm.0",
   "data_format": "tei",
   "languages": [
@@ -13,8 +13,8 @@
   "words": 597503,
   "texts": 66,
   "period": "1613-1613",
-  "notes": "The 66 collected books of the Kralice Bible 1613 (books GEN, EXO, LEV... 6 texts retained after filtering with in_core/is_dup) were extracted from the Bible Database christos-c/bible-corpus (live 200), which contains bibles/Czech.xml (the Kralice translation) among parallel Bible translations. Corpus licence CC0-1.0 (Bible Database). Origin verbatim: 'Bible kralická 1613: GEN'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
-  "institution": "Christos Christodoulopoulos (christos-c), GitHub open repo",
+  "notes": "The 66 books of the Czech Bible in the Multilingual Parallel Bible Corpus (Christos Christodoulopoulos), now hosted in the TextGrid Repository (TEI P5) and formerly on GitHub (CES XML, CC0-1.0). The text is the Kralice Bible wording in modernised spelling taken from the Bible Database, so 1613 is the date of the translation, not of a diplomatic transcription. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "institution": "Christos Christodoulopoulos; hosted in the TextGrid Repository",
   "last_modified": "2025-05-19",
   "corpus_statistics": {
     "snapshot": "v2026.06",

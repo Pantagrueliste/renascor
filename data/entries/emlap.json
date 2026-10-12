@@ -1,6 +1,6 @@
 {
   "title": "EMLAP",
-  "url": "https://github.com/CCS-ZCU/EMLAP_ETL",
+  "url": "https://emlap.flu.cas.cz/",
   "data_url": "https://ccs-lab.zcu.cz/emlap_corpus_public/emlap_lemmatized_xmls/",
   "data_format": "tei",
   "languages": [
@@ -13,7 +13,7 @@
   "words": 4548087,
   "texts": 94,
   "period": "1518-1644",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/CCS-ZCU/EMLAP_ETL; data/raw/emlap/data/emlap_metadata.csv; data/raw/emlap/data/emlap_corpus_public/emlap_txts/; rebuild/emlap_raw_lock_2026-06-13.tsv; rebuild/emlap_source_selection",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/CCS-ZCU/EMLAP_ETL.",
   "last_modified": "2026-06-10",
   "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -23,5 +23,6 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-SA-4.0",
   "license_url": "https://zenodo.org/api/records/18662799",
-  "doi": "10.5281/zenodo.14765293"
+  "doi": "10.5281/zenodo.14765293",
+  "institution": "Institute of Philosophy of the Czech Academy of Sciences (TOME project) and University of West Bohemia (CCS-ZCU)"
 }

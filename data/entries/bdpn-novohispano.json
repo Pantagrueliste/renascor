@@ -1,6 +1,6 @@
 {
   "title": "Biblioteca Digital del Pensamiento Novohispano (BDPN)",
-  "url": "https://github.com/ficino2021/bdpn",
+  "url": "https://bdpn.unam.mx/es",
   "data_url": "https://github.com/ficino2021/bdpn/tree/main/archivosXMLDocumentos",
   "data_format": "tei",
   "languages": [
@@ -13,8 +13,8 @@
   "words": 53333,
   "texts": 9,
   "period": "1630-1690",
-  "notes": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th c. Mexican texts (scientific/astrological discourse, cartas, lunarios). The GitHub repository ficino2021/bdpn (CC0, live 200) preserved the corpus files after the original UNAM platform went offline; the official site bdpn.unam.mx/es is also live. The collected filenames (Almanaque y Lunario, Discursos astronomicos Bonilla, etc.) match BDPN titles. Origin verbatim: 'BDPN novohispano: Almanaque y Lunario (última revisión) (1) (1685)'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
-  "institution": "UNAM (Mexico); recovered GitHub repository ficino2021/bdpn",
+  "notes": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th century Mexican texts (astrological and astronomical discourse, letters, almanacs). The official site (bdpn.unam.mx) is online and states that the TEI files are distributed in the GitHub repository ficino2021/bdpn (https://github.com/ficino2021/bdpn); the site licence is CC BY-NC 4.0 while the repository carries CC0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "institution": "Universidad Nacional Autónoma de México (UNAM), Biblioteca Digital del Pensamiento Novohispano",
   "last_modified": "2025-05-30",
   "corpus_statistics": {
     "snapshot": "v2026.06",

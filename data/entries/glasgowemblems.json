@@ -1,5 +1,5 @@
 {
-  "title": "GlasgowEmblems",
+  "title": "Glasgow University Emblem Website (Alciato and French Emblems projects)",
   "url": "https://www.emblems.arts.gla.ac.uk",
   "languages": [
     "French",
@@ -15,7 +15,7 @@
   "words": 553323,
   "texts": 6515,
   "period": "1531-1621",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.emblems.arts.gla.ac.uk/; rebuild/glasgowemblems_source_selection_2026-06-24.tsv; data/raw/GlasgowEmblems/GlasgowEmblems.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.emblems.arts.gla.ac.uk/.",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 549460,
@@ -24,5 +24,6 @@
   "count_basis": "rq-retained-rows-and-staging",
   "license": "Copyright",
   "license_url": "https://www.emblems.arts.gla.ac.uk/#copyright",
-  "license_note": "Transcriptions and associated data are copyright University of Glasgow; images have separate rights."
+  "license_note": "Transcriptions and associated data are copyright University of Glasgow; images have separate rights.",
+  "institution": "University of Glasgow (Glasgow University Library, Stirling Maxwell Collection; Stirling Maxwell Centre for Emblem Studies)"
 }

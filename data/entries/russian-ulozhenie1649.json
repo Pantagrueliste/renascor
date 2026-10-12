@@ -11,7 +11,7 @@
   "words": 89869,
   "texts": 1,
   "period": "1649-1649",
-  "notes": "The single text is a user proofread transcription on Russian Wikisource of the 1649 Sobornoe ulozhenie 1649 (Muscovite law code, Введение + 25 chapters); the underlying source (hist.msu.ru) goes back to the Tikhomirov/Epifanov Moscow 1961 edition and is public domain. The harvested origin string ('Sobornoe ulozhenie 1649 1649 goda (Muscovite law code)') matches the Wikisource page title. No scholarly project behind it; it is a community wiki transcription rather than a TEI project. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The single text is a transcription on Russian Wikisource of the 1649 Sobornoe ulozhenie (Muscovite law code, Introduction and 25 chapters). It follows the Polnoe sobranie zakonov Rossiiskoi imperii, Sobranie pervoe, vol. I (St Petersburg, 1830), proofread page by page on Russian Wikisource; the text is public domain (RusGov licence template). No scholarly project stands behind it; it is a community wiki transcription rather than a TEI project. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Russian Wikisource community",
   "corpus_statistics": {
     "snapshot": "v2026.06",
