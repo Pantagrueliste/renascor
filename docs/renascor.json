@@ -5,7 +5,7 @@
     "licence": "CC0-1.0",
     "version": "0.1.1",
     "data_updated": "2026-10-12",
-    "data_commit": "9b81830e6f2a7f90abb4d7a9eae4ed5f2cbb42a8",
+    "data_commit": "06505089c8118c6411d57d7372d8317d9b2de5da",
     "corpus_statistics": {
       "name": "Renascor Corpus",
       "snapshot": "v2026.06",
@@ -20,7 +20,7 @@
       "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
       "database_sha256": "380f7ee3fecb563cef4efc6e80df0f52d765c99a81b5bebc9d73b1d6af1e93cf"
     },
-    "records": 195,
+    "records": 207,
     "fields": [
       "id",
       "title",
@@ -191,6 +191,29 @@
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/kb-dk/public-adl-text-sources."
+    },
+    {
+      "id": "aldicam-cm",
+      "title": "ALDICAM-CM — Atlas lingüístico diacrónico e interactivo de la Comunidad de Madrid",
+      "url": "https://aldicam.corpuscodea.es/",
+      "institution": "GITHE, Universidad de Alcalá (project S2015/HUM-3443, Comunidad de Madrid / FSE)",
+      "languages": [
+        "Spanish",
+        "Latin"
+      ],
+      "period": "1250-1897",
+      "words": 152608,
+      "texts": 429,
+      "encoding": "html",
+      "license": "Not stated",
+      "status": "active",
+      "region": "Comunidad de Madrid (Spain)",
+      "countries": [
+        "ES"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Transcribed archival documents from the 13th to the 19th century from archives of the Comunidad de Madrid (Archivo Regional, Archivo de la Villa, municipal, ecclesiastical and private archives), with paleographic and critical presentation and facsimiles, searchable and mappable without login. Same search engine as CODEA+ 2022; about a third of the regestos coincide with CODEA+ 2022 documents. No bulk download found. About a third of its document summaries coincide with CODEA+ 2022. Counts cover the 429 documents dated within or overlapping 1450-1700 (word forms from the project's inventory, counted by us); the whole corpus has 866 documents (277,675 forms, 1250-1897)."
     },
     {
       "id": "amadiscorpus-gh",
@@ -775,6 +798,36 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
+      "id": "charta-corpus",
+      "title": "CHARTA — Corpus hispánico y americano en la red: textos antiguos",
+      "url": "https://corpora.uah.es/charta/index.php?action=corpus",
+      "institution": "Red CHARTA, coordinated by GITHE (Universidad de Alcalá; Ricardo Pichel, Víctor Caballero Gómez)",
+      "languages": [
+        "Spanish",
+        "Latin"
+      ],
+      "period": "944-1871",
+      "words": 179400,
+      "texts": 250,
+      "encoding": "tei",
+      "license": "Not stated",
+      "status": "active",
+      "region": "Spain and Spanish America",
+      "countries": [
+        "ES",
+        "VE",
+        "CO",
+        "MX",
+        "EC",
+        "US",
+        "CU",
+        "DO"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Selection of archival documents drawn from the corpora of the member research groups of the CHARTA network (CODCAR, CODEMA, CORHEN, CODEA, CDHM, COREECOM, CODDEC, DGSXIX, DOLEO, CorColombia, CORAPRINA, COHSANRE, COTAGAL, DCEP, CORDEREGRA, CORDINA, COHIECOS), so the texts also exist in those corpora. Each document has facsimile (where available), paleographic and critical presentations; free reading and search without login on the TEITOK platform; per-document TEI XML is served at corpora.uah.es/charta/xmlfiles/<id>.xml but there is no bulk download page. Counts cover the 250 documents dated within or overlapping 1450-1700 (about 179,400 tokens as counted by TEITOK, counted by us from the corpus listing); the whole corpus has 787 documents (492,128 tokens, 944-1871)."
+    },
+    {
       "id": "chm-mapudungun",
       "title": "CHM Mapudungun",
       "url": "http://www.amc-resources.lel.ed.ac.uk/CHM/",
@@ -827,6 +880,39 @@
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "notes": "CLARIN:EL resource 'Resources of early modern Greek (16th-17th century)', a set of TEI-compliant XML editions of notarial deeds (Alexakis, Olokalos) and literary and deed editions (Kapianos, Visvizis, Montselese's Evgena, 1646). It is distinct from the CLARIN:EL record of 16th-century notarial deeds (inventory.clarin.gr/corpus/902), which is not what is counted here. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "codea-plus-2022",
+      "title": "CODEA+ 2022 — Corpus de documentos españoles anteriores a 1900",
+      "url": "https://corpuscodea.es/",
+      "doi": "10.37536/CODEA.2015",
+      "institution": "GITHE (Textos para la Historia del Español), Universidad de Alcalá; coordinator Pedro Sánchez-Prieto Borja",
+      "languages": [
+        "Spanish",
+        "Latin"
+      ],
+      "period": "1036-1899",
+      "words": 1031628,
+      "texts": 1498,
+      "encoding": "html",
+      "license": "CC BY-NC-ND (version not stated)",
+      "license_url": "https://corpuscodea.es/",
+      "license_note": "The site's 'Condiciones de uso' state: free consultation and use for teaching and research with citation; no commercial use; no derivative corpora; materials may be cited but not reused (Creative Commons by-nc-nd).",
+      "status": "active",
+      "region": "Spain (Iberian Peninsula), with some documents from Italy, Greece, Austria and elsewhere",
+      "countries": [
+        "ES",
+        "IT",
+        "GR",
+        "AT",
+        "FR",
+        "BE",
+        "PT",
+        "DE"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Archival documents from the origins of Spanish to 1899 (Archivo Histórico Nacional, Simancas, Indias, Corona de Aragón and many local archives), each with facsimile, paleographic and critical transcription; lemmatised and POS-tagged (>90% of the lexicon). Texts are read and searched in the web interface only; no bulk download found (the corpus conditions of use forbid derivative corpora). Counts cover the 1,498 documents dated within or overlapping 1450-1700 (word forms from the corpus's own inventory, counted by us); the whole corpus has 4,023 documents (2,187,791 forms, 1036-1899). The DOI 10.37536/CODEA.2015 is the one given in the project's citation instructions. CODEA+ 2015 remains available separately."
     },
     {
       "id": "codiaje-judeospanish",
@@ -939,6 +1025,61 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.controversia-et-confessio.de/."
     },
     {
+      "id": "cordiam",
+      "title": "CORDIAM — Corpus Diacrónico y Diatópico del Español de América",
+      "url": "https://www.cordiam.org/",
+      "institution": "Academia Mexicana de la Lengua (Concepción Company and Virginia Bertolotti, directors; search engine by A. Gelbukh and G. Sidorov)",
+      "languages": [
+        "Spanish"
+      ],
+      "period": "1494-1905",
+      "encoding": "html",
+      "license": "Not stated",
+      "status": "active",
+      "region": "Spanish America (19 countries, plus the US South/West, Jamaica, Haiti, Guyana)",
+      "countries": [
+        "MX",
+        "PE",
+        "AR",
+        "CU",
+        "CO",
+        "VE",
+        "CL",
+        "BO"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Three subcorpora: Documentos (6,851 texts, archival documents from 'corpus de corpus'), Literatura (6,367; 16th-19th c.) and Prensa (16,271; 18th-19th c. only). The project publishes 20,419,049 words in 29,489 texts for all three subcorpora and all centuries (15th-19th); the share within 1450-1700 is not published, so word and text counts are left out (the press subcorpus lies wholly after 1700). The search interface is open without login and full documents can be displayed and saved; there is no bulk download and no TEI. Documents are transcriptions with expanded abbreviations. The countries listed are a selection of the 20+ countries covered."
+    },
+    {
+      "id": "coreecom",
+      "title": "COREECOM — Corpus Electrónico del Español Colonial Mexicano",
+      "url": "https://www.iifilologicas.unam.mx/coreecom/",
+      "doi": "10.19130/coreecom.clh.2019",
+      "institution": "Centro de Lingüística Hispánica 'Juan M. Lope Blanch', Instituto de Investigaciones Filológicas, UNAM (Beatriz Arias Álvarez, coordinator)",
+      "languages": [
+        "Spanish"
+      ],
+      "period": "1500-1599",
+      "words": 39605,
+      "texts": 119,
+      "encoding": "html",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://www.iifilologicas.unam.mx/coreecom/",
+      "license_note": "Site states a Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 licence, while the footer also says 'todos los derechos reservados 2019' with non-profit reproduction allowed if the source is cited.",
+      "status": "archived",
+      "region": "New Spain, Caribbean (Cuba), Canary Islands and the Iberian Peninsula",
+      "countries": [
+        "MX",
+        "ES",
+        "CU",
+        "GT"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "The 'Corpus documental' list (checked 2026-10-12) contains 119 documents, all with Periodo between 1500 and 1599 (1500-1524: 11; 1525-1549: 31; 1550-1574: 43; 1575-1599: 34), from AGI, AGN México, AHN, Simancas etc. Intro text announces 16th-18th century coverage but only the 16th century is online. Each document page shows a facsimile reference, the paleographic edition and the critical edition side by side. Counts are ours: words of the paleographic edition across the 119 documents, all dated 1500-1599. There is no data download. The site footer gives a last update of 30 August 2019. A member of the CHARTA network."
+    },
+    {
       "id": "corpus-corporum",
       "title": "Corpus Corporum",
       "url": "https://mlat.uzh.ch/",
@@ -965,6 +1106,29 @@
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "ula-corpus-documentos-coloniales-merida",
+      "title": "Corpus de Documentos Coloniales (CDC) de Mérida, Venezuela — Documentos para la Historia Lingüística de Mérida (siglos XVI-XVII)",
+      "url": "https://www.human.ula.ve/linguisticahispanica/investigacion/corpus_cdc.php",
+      "institution": "Grupo de Lingüística Hispánica, Universidad de Los Andes, Mérida (Enrique Obediente Sosa, ed.)",
+      "languages": [
+        "Spanish"
+      ],
+      "period": "1564-1657",
+      "words": 63662,
+      "texts": 37,
+      "encoding": "other",
+      "license": "Not stated",
+      "status": "archived",
+      "region": "Province of Mérida (Venezuela) and Santa Fe de Bogotá",
+      "countries": [
+        "VE",
+        "CO"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "37 public and private documents (testaments, powers of attorney, sales, dowries, petitions) transcribed literally (Proyecto Histórico del Español de América / ALFAL norms), published in 2002 (ISBN 980-11-0652-2), each as a separate PDF with text layer. Counts are ours and approximate: words extracted from the 37 PDFs, including headers, archive references and notes; all documents date from 1564-1657. Probably related to the CDHM documents of the same group in the CHARTA corpus. The page shows no update since 2002."
     },
     {
       "id": "sonetossiglodeoro",
@@ -995,6 +1159,35 @@
       "notes": "The well-known metrical corpus of 5,078 Spanish Golden Age sonnets (matching the catalogue count) in TEI XML with metrical pattern annotation, edited by Borja Navarro-Colorado (Univ. Alicante) from texts of the Biblioteca Virtual Miguel de Cervantes; part of the ADSO project. Licence CC BY-NC 4.0 for the annotations (BVMC terms for the texts); a searchable interface exists at BVMC.Labs (data.cervantesvirtual.com/goldenage). The 'Sonetos del Siglo de Oro' label in the harvest refers to this corpus (texts stem from Ramón García González-type BVMC anthologies). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
+      "id": "corpus-mallorca",
+      "title": "Corpus Mallorca — Documentos castellanos de los archivos mallorquines",
+      "url": "https://www.corpusmallorca.es/",
+      "institution": "HIPERTEXT research group, Universitat de les Illes Balears (director Andrés Enrique-Arias)",
+      "languages": [
+        "Spanish",
+        "Latin"
+      ],
+      "period": "1640-1909",
+      "words": 25500,
+      "texts": 81,
+      "encoding": "html",
+      "license": "Not stated",
+      "status": "active",
+      "region": "Balearic Islands (Spain)",
+      "countries": [
+        "ES",
+        "IT",
+        "MT",
+        "FR",
+        "AT",
+        "BE",
+        "VE"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Unpublished Castilian documents from archives in Mallorca, Menorca and Ibiza (Arxiu del Regne de Mallorca, municipal archives, Epistolario Santacilia, etc.), edited with CHARTA norms (paleographic transcription and critical presentation, facsimiles), searchable by archive, province, type, date; used for the study of Catalan-Spanish contact. Some passages in Latin or Catalan are tagged. Funded by FFI2014-59135-R and FFI2017-83899-P. No download; page last modified 2024-09-22 (index.html). Counts cover the 81 documents dated 1640-1700 (about 25,500 words of the critical presentation, counted by us); the whole corpus has 1,251 documents (about 665,000 words, 1640-1909). Most documents are from the Balearic Islands."
+    },
+    {
       "id": "corpus17-french",
       "title": "CORPUS17 — 17th c. French texts corpus",
       "url": "https://github.com/e-ditiones/CORPUS17",
@@ -1022,6 +1215,35 @@
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "notes": "CORPUS17 is Simon Gabay's open GitHub corpus of 17th-century French texts encoded in diplomatic TEI (e-ditiones/CORPUS17, live 200, description '17th c. French texts corpus'). The 120 collected texts (dates 1624-1687 etc.) mirror its TEI files. No explicit licence in repo metadata listed by the GitHub API. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "cosuiza",
+      "title": "COSUIZA — Corpus de documentos hispánicos de Suiza",
+      "url": "https://grafila.unil.ch/cosuiza/",
+      "data_url": "https://grafila.unil.ch/cosuiza/index.php?action=files",
+      "data_format": "tei",
+      "institution": "GRAFILA (Grupo de Análisis Filológico de Lausana), Section d'espagnol, Université de Lausanne; CHARTA network member",
+      "languages": [
+        "Spanish"
+      ],
+      "period": "1483-1951",
+      "encoding": "tei",
+      "license": "Not stated",
+      "license_note": "TEI header availability statement only says 'Licencia CREATIVE COMMONS' without naming the variant.",
+      "status": "active",
+      "region": "Documents kept in Swiss archives (Basel, Fribourg, Bern, Geneva, Valais, Vaud, Lausanne), written mostly in Spain and Spanish America",
+      "countries": [
+        "ES",
+        "MX",
+        "IT",
+        "BE",
+        "FR",
+        "AR",
+        "CH"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "123 TEITOK documents (stats page 'action=stats', checked 2026-10-12): non-literary manuscripts edited following the CHARTA criteria (palaeographic and critical presentation, TEI XML with lemma/POS). Word and text counts are left out: only 53 of the 123 documents carry a date in their TEI header (1483-1951), of which at least 27 (about 9,400 tokens) fall within 1450-1700; the share of the 70 undated documents is unknown, and the corpus is under construction. Raw TEI XML is served per document. Part of the CHARTA network."
     },
     {
       "id": "elan-crenum",
@@ -1578,6 +1800,29 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
+      "id": "unav-documentos-privados-antiguos",
+      "title": "Documentos privados antiguos (1600-1900), Universidad de Navarra",
+      "url": "https://www.unav.edu/web/facultad-de-filosofia-y-letras/documentos-privados-antiguos",
+      "institution": "Facultad de Filosofía y Letras, Universidad de Navarra (Cristina Tabernero Sala, Concepción Martínez Pasamar et al.); CHARTA network member",
+      "languages": [
+        "Spanish",
+        "Basque"
+      ],
+      "period": "1550-1900",
+      "words": 4500,
+      "texts": 8,
+      "encoding": "other",
+      "license": "Not stated",
+      "status": "active",
+      "region": "Navarre",
+      "countries": [
+        "ES"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Despite the page title (1600-1900), the oldest document is dated 1550. Documents are 105 PDFs (notarial documents and letters), each with metadata, TRANSCRIPCIÓN PALEOGRÁFICA, PRESENTACIÓN CRÍTICA and facsimile; text layer present (pdftotext). Counts cover the 8 documents dated 1550-1697 (about 4,500 words of paleographic transcription, counted by us); the collection has 105 documents dated 1550-1900. Mostly Spanish, some Basque. PDFs only, no machine-readable XML."
+    },
+    {
       "id": "dost-olderscots",
       "title": "DOST OlderScots",
       "url": "http://purl.ox.ac.uk/ota/0701",
@@ -1787,6 +2032,29 @@
       "provenance": "discovered",
       "date_added": "2026-10-07",
       "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. EEBO-TCP Phase I and II texts have been free of restrictions since 1 August 2020 (CC0). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "egpa",
+      "title": "EGPA — Escritório Galego-Português Antigo",
+      "url": "https://corpora.uah.es/egpa/",
+      "institution": "Universidade de Santiago de Compostela (HERES project; direction Ricardo Pichel, now Universidad de Alcalá) with GITHE, UNED",
+      "languages": [
+        "Galician-Portuguese",
+        "Spanish",
+        "Latin"
+      ],
+      "period": "12th-19th century",
+      "encoding": "tei",
+      "license": "Not stated",
+      "status": "active",
+      "region": "Galicia and Portugal",
+      "countries": [
+        "ES",
+        "PT"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Open collaborative platform of transcribed Galician-Portuguese archival documents (EGPAdoc) and literary texts (EGPAlit) from the Middle Ages to the 19th century, with paleographic and critical presentation; freely readable without login; per-document TEI at corpora.uah.es/egpa/xmlfiles/<id>.xml (checked EGPAdoc-0061). Most material is 12th-15th century; only a handful of documents dated 1478-1566 fall within 1450-1700. Word and text counts are left out: the statistics page (146 files, 83,821 tokens, all periods) includes test files and some 19th-century Castilian items, and only a handful of documents fall within 1450-1700."
     },
     {
       "id": "emblem-project-utrecht",
@@ -2433,6 +2701,36 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://gutorglyn.net/gutorglyn/."
     },
     {
+      "id": "h15corpus",
+      "title": "H15corpus (Historia15, Universidad de Sevilla)",
+      "url": "https://historia15.us.es/H15corpus/",
+      "data_url": "https://historia15.us.es/H15corpus/xmlfiles/",
+      "data_format": "tei",
+      "institution": "Universidad de Sevilla, proyecto Historia15 (Lola Pons Rodríguez and Eva Bravo-García, directors)",
+      "languages": [
+        "Spanish"
+      ],
+      "period": "1450-1600",
+      "words": 196829,
+      "texts": 410,
+      "encoding": "tei",
+      "license": "Not stated",
+      "status": "active",
+      "region": "Spain (letters sent from Spanish territory; some from Italy, France and the Low Countries)",
+      "countries": [
+        "ES",
+        "IT",
+        "FR",
+        "AT",
+        "BE",
+        "DE",
+        "PT"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Corpus of letters 'escritas en España ... en el tramo 1450 a 1600' (project description), 'en construcción'; the status page says 394 editions (the TEITOK statistics page lists 410 documents on 2026-10-12). Counts are ours and approximate: tokens in the TEI files of the 410 documents listed on the statistics page (the project page says 394 editions). Dated documents run from c. 1500 to 1598, with one dated 1417; 73 documents of the Bolea collection carry no date. Collections include Bolea, Granvela and Vizcaya. Raw TEI XML is served per document."
+    },
+    {
       "id": "dsl-henriksmith",
       "title": "Henrik Smith: Lægebøger (1577), scholarly online edition (tekstnet.dk / DSL)",
       "url": "https://tekstnet.dk/authors/henrik-smith/",
@@ -3027,6 +3325,30 @@
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "notes": "Lék jádro brněnské ('Knihy lékařské', c. 1502-1503) is one of the digital editions of Old and Middle Czech texts published by the Czech Language Institute (ÚJČ AV ČR) in Vokabulář webový (https://vokabular.ujc.cas.cz/). The TEI file comes from the GitHub repository accompanying Boris Lehečka's TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions', which contains only two converted sample editions. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "letradas",
+      "title": "Letradas — Corpus de textos escritos por mujeres en España (1400-1900)",
+      "url": "https://corpora.uah.es/letradas/",
+      "institution": "GITHE, Universidad de Alcalá (contact Belén Almeida Cabrejas; project PID2022-141561OB-I00)",
+      "languages": [
+        "Spanish"
+      ],
+      "period": "1400-1900",
+      "words": 37661,
+      "texts": 105,
+      "encoding": "tei",
+      "license": "Not stated",
+      "status": "active",
+      "region": "Spain",
+      "countries": [
+        "ES",
+        "FR",
+        "IT"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Manuscript letters and other documents written by women (queens, nobles, nuns, 19th-century writers such as Gertrudis Gómez de Avellaneda), with paleographic, transcribed and critical presentations, metadata on the women involved and map/search tools; TEITOK platform; per-document TEI at corpora.uah.es/letradas/xmlfiles/<id>.xml, no bulk download page. Counts cover the 105 documents dated within or overlapping 1450-1700 (tokens as counted by TEITOK, counted by us from the document headers); the whole corpus has 270 documents (87,985 tokens), and 21 documents carry no date. 'Corpus histórico en desarrollo'."
     },
     {
       "id": "leme",
