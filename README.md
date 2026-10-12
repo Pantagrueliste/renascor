@@ -22,7 +22,7 @@ Renascor aims at being cheap, lean, and sustainable. It does not receive any fun
 
 ## When: scope and origins
 
-By "Renaissance" we understand a historical period emerging from Europe and the Mediterranean within **1450–1700**. The catalogue also covers texts arising from documented contacts with populations around the world, written by any community involved, in any language. See the website's [scope statement](https://pantagrueliste.github.io/renascor/#about).
+By "Renaissance" we understand a historical period emerging from Europe and the Mediterranean within **1450–1700**. The catalogue also covers texts arising from documented contacts with populations around the world, written on either side of these exchanges, in any language. See the website's [scope statement](https://pantagrueliste.github.io/renascor/#about).
 
 Collection sizes count each individual texts within 1450–1700. The **Renascor Corpus total excludes duplicate texts**, and separate corpus contributions, partial harvests and unknown counts are identified as such.
 
