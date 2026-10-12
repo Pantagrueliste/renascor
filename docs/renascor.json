@@ -5,7 +5,7 @@
     "licence": "CC0-1.0",
     "version": "0.1.4",
     "data_updated": "2026-10-12",
-    "data_commit": "3a23eae414e1dec4dbf404b2511bcecad68d01b6",
+    "data_commit": "3a72ed29f818457df99077e47892982310f7782c",
     "corpus_statistics": {
       "name": "Renascor Corpus",
       "snapshot": "v2026.06",
@@ -51,6 +51,7 @@
       "last_modified",
       "provenance",
       "date_added",
+      "language_counts",
       "document_types",
       "notes"
     ],
@@ -352,6 +353,18 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Italian",
+          "texts": 16,
+          "words": 657442
+        },
+        {
+          "language": "Latin",
+          "texts": 5,
+          "words": 45767
+        }
+      ],
       "document_types": [
         "manuscript"
       ],
@@ -569,6 +582,18 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Italian",
+          "texts": 889,
+          "words": 28627510
+        },
+        {
+          "language": "Latin",
+          "texts": 85,
+          "words": 1216672
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -813,6 +838,32 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Latin",
+          "texts": 10075,
+          "words": 3941524
+        },
+        {
+          "language": "German",
+          "texts": 2398,
+          "words": 1086663
+        },
+        {
+          "language": "French",
+          "texts": 7,
+          "words": 1683
+        },
+        {
+          "language": "Italian",
+          "texts": 2,
+          "words": 350,
+          "works": [
+            "letter 2639 (1555)",
+            "letter 8759 (1572)"
+          ]
+        }
+      ],
       "document_types": [
         "manuscript"
       ],
@@ -908,6 +959,27 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Irish",
+          "texts": 59,
+          "words": 1608251
+        },
+        {
+          "language": "English",
+          "texts": 5,
+          "words": 149694
+        },
+        {
+          "language": "Latin",
+          "texts": 2,
+          "words": 73112,
+          "works": [
+            "CELT L100001",
+            "CELT L100012"
+          ]
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -1161,6 +1233,18 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "German",
+          "texts": 96,
+          "words": 739856
+        },
+        {
+          "language": "Latin",
+          "texts": 42,
+          "words": 335390
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -1506,6 +1590,64 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Latin",
+          "texts": 3336,
+          "words": 1382221
+        },
+        {
+          "language": "German",
+          "texts": 1220,
+          "words": 510152
+        },
+        {
+          "language": "Polish",
+          "texts": 34,
+          "words": 10566
+        },
+        {
+          "language": "Spanish",
+          "texts": 16,
+          "words": 6297
+        },
+        {
+          "language": "Dutch",
+          "texts": 3,
+          "words": 752,
+          "works": [
+            "letter IDL 3516",
+            "letter IDL 597",
+            "letter IDL 5838"
+          ]
+        },
+        {
+          "language": "French",
+          "texts": 2,
+          "words": 527,
+          "works": [
+            "letter IDL 3514",
+            "letter IDL 884"
+          ]
+        },
+        {
+          "language": "Italian",
+          "texts": 2,
+          "words": 462,
+          "works": [
+            "letter IDL 274",
+            "letter IDL 3459"
+          ]
+        },
+        {
+          "language": "Czech",
+          "texts": 1,
+          "words": 289,
+          "works": [
+            "letter IDL 3509"
+          ]
+        }
+      ],
       "document_types": [
         "manuscript"
       ],
@@ -1937,6 +2079,21 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Dutch",
+          "texts": 855,
+          "words": 21424489
+        },
+        {
+          "language": "Frisian",
+          "texts": 1,
+          "words": 16015,
+          "works": [
+            "Gysbert Japiks, Friesche Rymlerye"
+          ]
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -2152,6 +2309,52 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "English",
+          "texts": 747,
+          "words": 14622085
+        },
+        {
+          "language": "French",
+          "texts": 660,
+          "words": 7204995
+        },
+        {
+          "language": "Spanish",
+          "texts": 182,
+          "words": 2640246
+        },
+        {
+          "language": "Dutch",
+          "texts": 193,
+          "words": 2259478
+        },
+        {
+          "language": "Italian",
+          "texts": 78,
+          "words": 1222226
+        },
+        {
+          "language": "German",
+          "texts": 23,
+          "words": 400119
+        },
+        {
+          "language": "Latin",
+          "texts": 21,
+          "words": 116843
+        },
+        {
+          "language": "Hungarian",
+          "texts": 2,
+          "words": 22016,
+          "works": [
+            "Balassi, Szép magyar komédia",
+            "Bornemisza, Tragoedia magyar nyelven (Electra)"
+          ]
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -2318,6 +2521,96 @@
       },
       "provenance": "discovered",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "English",
+          "texts": 49482,
+          "words": 1316770075
+        },
+        {
+          "language": "Latin",
+          "texts": 589,
+          "words": 16706385
+        },
+        {
+          "language": "Welsh",
+          "texts": 141,
+          "words": 9324752
+        },
+        {
+          "language": "French",
+          "texts": 146,
+          "words": 2201550
+        },
+        {
+          "language": "Scots",
+          "texts": 45,
+          "words": 1769985
+        },
+        {
+          "language": "Irish",
+          "texts": 1,
+          "words": 841721,
+          "works": [
+            "EEBO-TCP A28067 (1690)"
+          ]
+        },
+        {
+          "language": "Romance (other)",
+          "texts": 10,
+          "words": 451679
+        },
+        {
+          "language": "Italian",
+          "texts": 28,
+          "words": 415049
+        },
+        {
+          "language": "Multilingual",
+          "texts": 4,
+          "words": 230076
+        },
+        {
+          "language": "Spanish",
+          "texts": 11,
+          "words": 70581
+        },
+        {
+          "language": "Dutch",
+          "texts": 20,
+          "words": 27583
+        },
+        {
+          "language": "German",
+          "texts": 4,
+          "words": 21755
+        },
+        {
+          "language": "Portuguese",
+          "texts": 2,
+          "words": 7592,
+          "works": [
+            "EEBO-TCP A39859 (1663)"
+          ]
+        },
+        {
+          "language": "Greek",
+          "texts": 2,
+          "words": 1765,
+          "works": [
+            "EEBO-TCP A39349 (1668)",
+            "EEBO-TCP A46029 (1696)"
+          ]
+        },
+        {
+          "language": "Hebrew",
+          "texts": 1,
+          "words": 118,
+          "works": [
+            "EEBO-TCP A74086 (1660)"
+          ]
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -2381,6 +2674,43 @@
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Dutch",
+          "texts": 830,
+          "words": 364971
+        },
+        {
+          "language": "Latin",
+          "texts": 261,
+          "words": 113045
+        },
+        {
+          "language": "French",
+          "texts": 481,
+          "words": 58200
+        },
+        {
+          "language": "German",
+          "texts": 155,
+          "words": 5779
+        },
+        {
+          "language": "Spanish",
+          "texts": 43,
+          "words": 4039
+        },
+        {
+          "language": "Italian",
+          "texts": 78,
+          "words": 3898
+        },
+        {
+          "language": "English",
+          "texts": 61,
+          "words": 2995
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -2478,6 +2808,36 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Spanish",
+          "texts": 20,
+          "words": 327997
+        },
+        {
+          "language": "English",
+          "texts": 11,
+          "words": 245331
+        },
+        {
+          "language": "French",
+          "texts": 11,
+          "words": 197976
+        },
+        {
+          "language": "Italian",
+          "texts": 4,
+          "words": 66717
+        },
+        {
+          "language": "Portuguese",
+          "texts": 1,
+          "words": 4239,
+          "works": [
+            "Gil Vicente, Auto da Barca do Inferno"
+          ]
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -2587,6 +2947,59 @@
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "French",
+          "texts": 5,
+          "words": 2655352
+        },
+        {
+          "language": "Latin",
+          "texts": 7,
+          "words": 2646904
+        },
+        {
+          "language": "Dutch",
+          "texts": 7,
+          "words": 2419167
+        },
+        {
+          "language": "German",
+          "texts": 2,
+          "words": 103910,
+          "works": [
+            "Grotius, letters",
+            "Huygens, letters"
+          ]
+        },
+        {
+          "language": "English",
+          "texts": 3,
+          "words": 78649,
+          "works": [
+            "Grotius, letters",
+            "Huygens, letters",
+            "Van Leeuwenhoek, letters"
+          ]
+        },
+        {
+          "language": "Italian",
+          "texts": 2,
+          "words": 38696,
+          "works": [
+            "Grotius, letters",
+            "Huygens, letters"
+          ]
+        },
+        {
+          "language": "Spanish",
+          "texts": 1,
+          "words": 3749,
+          "works": [
+            "Grotius, letters"
+          ]
+        }
+      ],
       "document_types": [
         "manuscript"
       ],
@@ -2924,6 +3337,26 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Italian",
+          "texts": 3,
+          "words": 91255,
+          "works": [
+            "Colombe, Contro il moto della terra",
+            "Frammenti attenenti al Dialogo",
+            "Rocco, Esercitazioni filosofiche"
+          ]
+        },
+        {
+          "language": "Latin",
+          "texts": 1,
+          "words": 6099,
+          "works": [
+            "De telluris motu vel quiete"
+          ]
+        }
+      ],
       "document_types": [
         "manuscript",
         "print"
@@ -3048,6 +3481,33 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "French",
+          "texts": 2496,
+          "words": 349459
+        },
+        {
+          "language": "Latin",
+          "texts": 2755,
+          "words": 153971
+        },
+        {
+          "language": "German",
+          "texts": 327,
+          "words": 23181
+        },
+        {
+          "language": "Spanish",
+          "texts": 210,
+          "words": 13316
+        },
+        {
+          "language": "Italian",
+          "texts": 175,
+          "words": 9533
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -3955,6 +4415,36 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Italian",
+          "texts": 302,
+          "words": 28053938
+        },
+        {
+          "language": "Multilingual",
+          "texts": 3,
+          "words": 264976,
+          "works": [
+            "Ariosto, Lettere",
+            "Folengo, Baldus",
+            "Galilei, Istoria e dimostrazioni intorno alle macchie solari"
+          ]
+        },
+        {
+          "language": "Latin",
+          "texts": 4,
+          "words": 64317
+        },
+        {
+          "language": "Venetian",
+          "texts": 1,
+          "words": 5387,
+          "works": [
+            "Ruzante, Bilora"
+          ]
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -4343,6 +4833,18 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "English",
+          "texts": 121,
+          "words": 1655681
+        },
+        {
+          "language": "Latin",
+          "texts": 47,
+          "words": 413874
+        }
+      ],
       "document_types": [
         "manuscript"
       ],
@@ -4674,6 +5176,22 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Dutch",
+          "texts": 8,
+          "words": 6756875
+        },
+        {
+          "language": "German",
+          "texts": 2,
+          "words": 348517,
+          "works": [
+            "Mentelin Bible (1460)",
+            "Mainz Bible (1661)"
+          ]
+        }
+      ],
       "document_types": [
         "print"
       ]
@@ -4738,6 +5256,30 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Spanish",
+          "texts": 372,
+          "words": 21362413
+        },
+        {
+          "language": "Aragonese",
+          "texts": 2,
+          "words": 113750,
+          "works": [
+            "OSTA text ACM",
+            "OSTA text STR"
+          ]
+        },
+        {
+          "language": "Latin",
+          "texts": 1,
+          "words": 43545,
+          "works": [
+            "OSTA text AXE"
+          ]
+        }
+      ],
       "document_types": [
         "manuscript",
         "print"
@@ -4801,6 +5343,18 @@
       "status": "archived",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Portuguese",
+          "texts": 884,
+          "words": 454983
+        },
+        {
+          "language": "Spanish",
+          "texts": 994,
+          "words": 444858
+        }
+      ],
       "document_types": [
         "manuscript"
       ],
@@ -5174,6 +5728,69 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Spanish",
+          "texts": 89,
+          "words": 8634471
+        },
+        {
+          "language": "French",
+          "texts": 83,
+          "words": 5255115
+        },
+        {
+          "language": "English",
+          "texts": 16,
+          "words": 1998956
+        },
+        {
+          "language": "Portuguese",
+          "texts": 33,
+          "words": 1935571
+        },
+        {
+          "language": "Italian",
+          "texts": 21,
+          "words": 1256844
+        },
+        {
+          "language": "German",
+          "texts": 9,
+          "words": 448890
+        },
+        {
+          "language": "Dutch",
+          "texts": 9,
+          "words": 429828
+        },
+        {
+          "language": "Finnish",
+          "texts": 11,
+          "words": 240410
+        },
+        {
+          "language": "Latin",
+          "texts": 7,
+          "words": 214711
+        },
+        {
+          "language": "Catalan",
+          "texts": 1,
+          "words": 21893,
+          "works": [
+            "Shakespeare, La festa dels reis (Catalan translation)"
+          ]
+        },
+        {
+          "language": "Polish",
+          "texts": 1,
+          "words": 3870,
+          "works": [
+            "Kochanowski, Treny"
+          ]
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -5206,6 +5823,21 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Ottoman Turkish",
+          "texts": 16,
+          "words": 16856
+        },
+        {
+          "language": "Latin",
+          "texts": 1,
+          "words": 4440,
+          "works": [
+            "QhoD stand-off annotations"
+          ]
+        }
+      ],
       "document_types": [
         "manuscript"
       ],
@@ -5238,6 +5870,27 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "English",
+          "texts": 1176,
+          "words": 315613
+        },
+        {
+          "language": "Latin",
+          "texts": 360,
+          "words": 39702
+        },
+        {
+          "language": "Italian",
+          "texts": 2,
+          "words": 506,
+          "works": [
+            "Cambridge record (1578)",
+            "Cambridge record (1579)"
+          ]
+        }
+      ],
       "document_types": [
         "manuscript"
       ],
@@ -5639,6 +6292,18 @@
       "last_modified": "2025-07-14",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Spanish",
+          "texts": 9,
+          "words": 2370099
+        },
+        {
+          "language": "Latin",
+          "texts": 9,
+          "words": 1901006
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -6252,6 +6917,38 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Georgian",
+          "texts": 14,
+          "words": 1302569
+        },
+        {
+          "language": "Albanian",
+          "texts": 3,
+          "words": 243167,
+          "works": [
+            "Buzuku, Meshari (1555)",
+            "Matranga, Dottrina Christiana (1592)",
+            "Bogdani, Cuneus prophetarum (1685)"
+          ]
+        },
+        {
+          "language": "Lithuanian",
+          "texts": 6,
+          "words": 192133
+        },
+        {
+          "language": "Old Prussian",
+          "texts": 3,
+          "words": 8606,
+          "works": [
+            "First Catechism (1545)",
+            "Second Catechism (1545)",
+            "Enchiridion (1561)"
+          ]
+        }
+      ],
       "document_types": [
         "print"
       ],
@@ -6571,6 +7268,140 @@
       "status": "active",
       "provenance": "submitted",
       "date_added": "2026-10-07",
+      "language_counts": [
+        {
+          "language": "Latin",
+          "texts": 351,
+          "words": 2637564
+        },
+        {
+          "language": "Hebrew",
+          "texts": 766,
+          "words": 1738574
+        },
+        {
+          "language": "German",
+          "texts": 539,
+          "words": 1592732
+        },
+        {
+          "language": "English",
+          "texts": 394,
+          "words": 1391094
+        },
+        {
+          "language": "French",
+          "texts": 607,
+          "words": 1047901
+        },
+        {
+          "language": "Polish",
+          "texts": 592,
+          "words": 714120
+        },
+        {
+          "language": "Catalan",
+          "texts": 402,
+          "words": 519720
+        },
+        {
+          "language": "Spanish",
+          "texts": 151,
+          "words": 321970
+        },
+        {
+          "language": "Romanian",
+          "texts": 14,
+          "words": 291341
+        },
+        {
+          "language": "Italian",
+          "texts": 179,
+          "words": 237829
+        },
+        {
+          "language": "Croatian",
+          "texts": 107,
+          "words": 198847
+        },
+        {
+          "language": "Czech",
+          "texts": 108,
+          "words": 158407
+        },
+        {
+          "language": "Armenian",
+          "texts": 1,
+          "words": 142243,
+          "works": [
+            "Arakel of Tabriz, History"
+          ]
+        },
+        {
+          "language": "Azerbaijani",
+          "texts": 346,
+          "words": 122211
+        },
+        {
+          "language": "Swedish",
+          "texts": 22,
+          "words": 115743
+        },
+        {
+          "language": "Greek",
+          "texts": 9,
+          "words": 98369
+        },
+        {
+          "language": "Hungarian",
+          "texts": 42,
+          "words": 56611
+        },
+        {
+          "language": "Portuguese",
+          "texts": 25,
+          "words": 31385
+        },
+        {
+          "language": "Dutch",
+          "texts": 1,
+          "words": 17011,
+          "works": [
+            "Jacob Cats, Sinne- en minnebeelden"
+          ]
+        },
+        {
+          "language": "Danish",
+          "texts": 5,
+          "words": 16720
+        },
+        {
+          "language": "Breton",
+          "texts": 1,
+          "words": 12521,
+          "works": [
+            "Buhez Santez Nonn"
+          ]
+        },
+        {
+          "language": "Slovenian",
+          "texts": 5,
+          "words": 4790
+        },
+        {
+          "language": "Tupi",
+          "texts": 5,
+          "words": 2432
+        },
+        {
+          "language": "Icelandic",
+          "texts": 1,
+          "words": 697,
+          "works": [
+            "Stefán Ólafsson, poems"
+          ]
+        }
+      ],
       "document_types": [
         "print"
       ],

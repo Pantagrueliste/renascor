@@ -670,6 +670,11 @@ function rankSentence(words) {
 }
 
 function languagesFull(r) {
+	const lc = r.e.language_counts;
+	if (Array.isArray(lc) && lc.length > 1) {
+		return lc.map(x => `<span class="lang-row">${esc(x.language)}<span class="q"> · ${plural(x.texts, 'text')}` +
+			(x.works && x.works.length ? ': ' + esc(x.works.join('; ')) : '') + '</span></span>').join('');
+	}
 	const pseudo = r.labels.filter(l => PSEUDO.has(l)), real = r.labels.filter(l => !PSEUDO.has(l));
 	if (!real.length) return esc(r.labels.join(', '));
 	if (!pseudo.length) return esc(real.join(', '));
