@@ -25,7 +25,7 @@
 	--chart: #8a9bbd; --chart-track: #eceef1; --chart-dim: #d5dae3; --status-active: #2f8a4c; --status-archived: #80878f;
 	--status-discontinued: #b7791f; --backdrop: rgba(15, 17, 20, .38); --sticky-h: 0px;
 	--panel: #ffffff; --shadow: 0 1px 2px rgba(16, 24, 40, .05), 0 1px 3px rgba(16, 24, 40, .04);
-	--ring: color-mix(in srgb, var(--accent) 22%, transparent);
+	--ring: color-mix(in srgb, var(--accent) 22%, transparent); --art: #bfc7d4;
 	--font: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	--mono: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
 }
@@ -36,7 +36,7 @@
 		--control-border: #6b7380; --accent: #7ea6ff; --accent-hover: #a2bfff; --accent-soft: #19223a;
 		--accent-fg: #0d1017; --focus: #7ea6ff; --chart: #56698f; --chart-track: #23272e; --chart-dim: #2a2f38;
 		--status-active: #5cbf7a; --status-archived: #7d848e; --status-discontinued: #d99a45;
-		--backdrop: rgba(0, 0, 0, .6); --panel: #14171c; --shadow: none;
+		--backdrop: rgba(0, 0, 0, .6); --panel: #14171c; --shadow: none; --art: #2c323c;
 	}
 }
 
@@ -45,7 +45,7 @@
 html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--fg); font: 15px/1.55 var(--font); -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 a { color: var(--accent); text-decoration: none; }
-:where(.fig-note, .list-note, .rec-dl dd, .prose p, .prose li, .defs-note, .facet-note, .state, .site-foot span:not(.right), .m-meta) a { text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
+:where(.list-note, .rec-dl dd, .prose p, .prose li, .defs-note, .facet-note, .state, .site-foot span:not(.right), .m-meta) a { text-decoration: underline; text-decoration-thickness: 1px; text-decoration-color: color-mix(in srgb, currentColor 45%, transparent); }
 a:hover { text-decoration: underline; text-decoration-color: currentColor; }
 a, .linkbtn { text-underline-offset: 2px; }
 :focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
@@ -62,7 +62,14 @@ button, input, select { font: inherit; color: inherit; }
 .linkbtn:hover { text-decoration: underline; }
 .nw { white-space: nowrap; }
 
-.site-head { padding: 28px 0 24px; background: var(--bg-subtle); border-bottom: 1px solid var(--border); }
+.site-head { position: relative; overflow: hidden; padding: 28px 0 24px; background: var(--bg-subtle); border-bottom: 1px solid var(--border); }
+.site-head > .wrap { position: relative; }
+/* Van de Graaf canon: a two-page spread, its diagonals and the text blocks they define. */
+.head-art { position: absolute; top: 50%; left: calc(50% + 8px); width: 248px; height: auto; transform: translateY(-50%); color: var(--art); fill: none; stroke: currentColor; pointer-events: none;
+	-webkit-mask-image: linear-gradient(to right, transparent, #000 35%); mask-image: linear-gradient(to right, transparent, #000 35%); }
+.head-art * { vector-effect: non-scaling-stroke; }
+.head-art .c { stroke-dasharray: 3 3; }
+.head-art .t { opacity: .4; }
 .head-top { display: flex; flex-wrap: wrap; align-items: flex-start; gap: 12px 32px; }
 .brand { display: flex; flex-direction: column; gap: 8px; flex: 1 1 520px; min-width: 0; }
 .brand h1 { font-family: "EB Garamond", Garamond, "Times New Roman", serif; font-size: clamp(42px, 4.4vw, 58px); font-weight: 600; line-height: 1; letter-spacing: -.01em; }
@@ -89,8 +96,6 @@ a.tag .tag-v { color: var(--accent); }
 a.tag:hover { border-color: var(--accent); text-decoration: none; }
 a.tag:hover .tag-v { color: var(--accent); }
 a.tag:hover .tag-k { background: var(--accent-soft); color: var(--accent); }
-.fig-note { max-width: 80ch; margin-top: 12px; font-size: 13px; line-height: 1.5; color: var(--muted); }
-.fig-note a { white-space: nowrap; }
 
 .layout { display: grid; grid-template-columns: 232px minmax(0, 1fr); column-gap: 32px; grid-template-areas: "facets search" "facets time" "facets results"; grid-template-rows: auto auto 1fr; padding-top: 20px; padding-bottom: 56px; }
 #search-row { grid-area: search; display: flex; align-items: center; gap: 8px; min-width: 0; }
@@ -388,6 +393,8 @@ figure { margin: 0; }
 @container results (max-width: 939px) { .reg .c-texts, .reg tbody td.c-texts { width: 0; padding: 0; overflow: hidden; visibility: hidden; font-size: 0; } .reg .c-texts * { display: none; } }
 @container results (max-width: 839px) { .reg .c-enc, .reg tbody td.c-enc { width: 0; padding: 0; overflow: hidden; visibility: hidden; font-size: 0; } .reg .c-enc * { display: none; } }
 
+@media (max-width: 1339px) { .head-art { display: none; } }
+
 @media (max-width: 1279px) {
 	.layout { grid-template-columns: minmax(0, 1fr); grid-template-areas: "search" "time" "results"; grid-template-rows: none; padding-top: 0; }
 	#facets-slot { display: none; }
@@ -488,6 +495,7 @@ figure { margin: 0; }
 <a class="skip" href="#q">Skip to search</a>
 
 <header class="site-head">
+	<svg class="head-art" viewBox="-1 -1 302 227" aria-hidden="true" focusable="false"><rect x="0" y="0" width="300" height="225"/><line x1="150" y1="0" x2="150" y2="225"/><line x1="0" y1="0" x2="300" y2="225" class="c"/><line x1="300" y1="0" x2="0" y2="225" class="c"/><line x1="150" y1="0" x2="0" y2="225" class="c"/><line x1="150" y1="0" x2="300" y2="225" class="c"/><rect x="33.33" y="25.00" width="100.00" height="150.00"/><line x1="37.33" y1="32" x2="129.33" y2="32" class="t"/><line x1="37.33" y1="39" x2="129.33" y2="39" class="t"/><line x1="37.33" y1="46" x2="129.33" y2="46" class="t"/><line x1="37.33" y1="53" x2="129.33" y2="53" class="t"/><line x1="37.33" y1="60" x2="129.33" y2="60" class="t"/><line x1="37.33" y1="67" x2="129.33" y2="67" class="t"/><line x1="37.33" y1="74" x2="129.33" y2="74" class="t"/><line x1="37.33" y1="81" x2="129.33" y2="81" class="t"/><line x1="37.33" y1="88" x2="129.33" y2="88" class="t"/><line x1="37.33" y1="95" x2="129.33" y2="95" class="t"/><line x1="37.33" y1="102" x2="129.33" y2="102" class="t"/><line x1="37.33" y1="109" x2="129.33" y2="109" class="t"/><line x1="37.33" y1="116" x2="129.33" y2="116" class="t"/><line x1="37.33" y1="123" x2="129.33" y2="123" class="t"/><line x1="37.33" y1="130" x2="129.33" y2="130" class="t"/><line x1="37.33" y1="137" x2="129.33" y2="137" class="t"/><line x1="37.33" y1="144" x2="129.33" y2="144" class="t"/><line x1="37.33" y1="151" x2="129.33" y2="151" class="t"/><line x1="37.33" y1="158" x2="129.33" y2="158" class="t"/><line x1="37.33" y1="165" x2="129.33" y2="165" class="t"/><rect x="166.67" y="25.00" width="100.00" height="150.00"/><line x1="170.67" y1="32" x2="262.67" y2="32" class="t"/><line x1="170.67" y1="39" x2="262.67" y2="39" class="t"/><line x1="170.67" y1="46" x2="262.67" y2="46" class="t"/><line x1="170.67" y1="53" x2="262.67" y2="53" class="t"/><line x1="170.67" y1="60" x2="262.67" y2="60" class="t"/><line x1="170.67" y1="67" x2="262.67" y2="67" class="t"/><line x1="170.67" y1="74" x2="262.67" y2="74" class="t"/><line x1="170.67" y1="81" x2="262.67" y2="81" class="t"/><line x1="170.67" y1="88" x2="262.67" y2="88" class="t"/><line x1="170.67" y1="95" x2="262.67" y2="95" class="t"/><line x1="170.67" y1="102" x2="262.67" y2="102" class="t"/><line x1="170.67" y1="109" x2="262.67" y2="109" class="t"/><line x1="170.67" y1="116" x2="262.67" y2="116" class="t"/><line x1="170.67" y1="123" x2="262.67" y2="123" class="t"/><line x1="170.67" y1="130" x2="262.67" y2="130" class="t"/><line x1="170.67" y1="137" x2="262.67" y2="137" class="t"/><line x1="170.67" y1="144" x2="262.67" y2="144" class="t"/><line x1="170.67" y1="151" x2="262.67" y2="151" class="t"/><line x1="170.67" y1="158" x2="262.67" y2="158" class="t"/><line x1="170.67" y1="165" x2="262.67" y2="165" class="t"/></svg>
 	<div class="wrap">
 		<div class="head-top">
 			<div class="brand">
@@ -509,9 +517,8 @@ figure { margin: 0; }
 				<div><dt>corpus texts</dt><dd data-stat="corpus_texts">123,172</dd></div>
 				<div><dt>corpus words</dt><dd data-stat="corpus_words_compact">2.14 billion</dd></div>
 			</dl>
-			<p class="fig-meta"><span class="tag"><span class="tag-k">Version</span><span class="tag-v" data-stat="version">0.1.4</span></span><span class="tag"><span class="tag-k">Data</span><span class="tag-v" data-stat="updated_long">12 October 2026</span></span><a class="tag tag-link" data-if="data_commit_short" href="https://github.com/Pantagrueliste/renascor/commit/a965cf4bf4ee655cd7ba7644770e579f939c3e95" data-href="data_commit_url" title="View this data commit on GitHub"><span class="tag-k"><svg class="ico" aria-hidden="true"><use href="#i-commit"/></svg><span class="sr-only">Data </span>Commit</span><span class="tag-v"><code data-stat="data_commit_short">a965cf4</code><span class="sr-only"> on GitHub</span></span></a></p>
+			<p class="fig-meta"><span class="tag"><span class="tag-k">Version</span><span class="tag-v" data-stat="version">0.1.4</span></span><span class="tag"><span class="tag-k">Data</span><span class="tag-v" data-stat="updated_long">12 October 2026</span></span><a class="tag tag-link" data-if="data_commit_short" href="https://github.com/Pantagrueliste/renascor/commit/0bcff6c9fe85941b4827f3ceb44e8a998dbe854c" data-href="data_commit_url" title="View this data commit on GitHub"><span class="tag-k"><svg class="ico" aria-hidden="true"><use href="#i-commit"/></svg><span class="sr-only">Data </span>Commit</span><span class="tag-v"><code data-stat="data_commit_short">0bcff6c</code><span class="sr-only"> on GitHub</span></span></a></p>
 		</div>
-		<p class="fig-note"><span data-stat="header_note">Corpus totals exclude duplicate texts (June 2026 working count). Individual collection sizes include overlaps and may be partial.</span> <a href="#figures">How the figures are made</a></p>
 	</div>
 </header>
 
@@ -719,7 +726,7 @@ figure { margin: 0; }
 					<a class="btn" href="https://github.com/Pantagrueliste/renascor/blob/main/schema/entry.schema.json">Schema (GitHub)</a>
 				</div>
 				<p class="small" style="margin-top:10px">UTF-8 CSV, one row per edition; lists are separated by semicolons.</p>
-				<p>Data version: <span data-if="data_commit_short">commit <a href="https://github.com/Pantagrueliste/renascor/commit/a965cf4bf4ee655cd7ba7644770e579f939c3e95" data-href="data_commit_url"><span class="sr-only">Data commit </span><code data-stat="data_commit_short">a965cf4</code><span class="sr-only"> on GitHub</span></a> of </span><span data-stat="updated_long">12 October 2026</span>, catalogue version <span data-stat="version">0.1.4</span>. Please cite the version you used.</p>
+				<p>Data version: <span data-if="data_commit_short">commit <a href="https://github.com/Pantagrueliste/renascor/commit/0bcff6c9fe85941b4827f3ceb44e8a998dbe854c" data-href="data_commit_url"><span class="sr-only">Data commit </span><code data-stat="data_commit_short">0bcff6c</code><span class="sr-only"> on GitHub</span></a> of </span><span data-stat="updated_long">12 October 2026</span>, catalogue version <span data-stat="version">0.1.4</span>. Please cite the version you used.</p>
 				<h3>How to cite</h3>
 				<div class="cite-box"><span id="cite-text"><span data-stat="citation_author_year">Godbarge, Clément (2026).</span> <em data-stat="citation_title">Renascor: An open catalogue of digital editions of Renaissance-era written documents</em> <span data-stat="citation_tail">(Version 0.1.4) [Data set]. https://pantagrueliste.github.io/renascor/</span></span><button type="button" class="btn" id="cite-copy">Copy citation</button></div>
 				<p>The data are released under <a href="https://github.com/Pantagrueliste/renascor/blob/main/LICENSE-DATA">CC0 1.0</a>: they can be reused for any purpose without permission or attribution, though a citation is appreciated. The code is released under the <a href="https://github.com/Pantagrueliste/renascor/blob/main/LICENSE">MIT licence</a>. Citation metadata: <a href="https://github.com/Pantagrueliste/renascor/blob/main/CITATION.cff">CITATION.cff</a>.</p>
