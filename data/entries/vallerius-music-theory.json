@@ -1,0 +1,25 @@
+{
+  "title": "The Music Theory of Harald Vallerius: Three Dissertations from 17th-century Sweden (P. Sjökvist)",
+  "url": "https://books.uu.se/uup/catalog/book/18",
+  "languages": [
+    "Latin"
+  ],
+  "encoding": "other",
+  "status": "archived",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 28736,
+  "texts": 3,
+  "period": "1674-1698",
+  "notes": "Edition with translation and commentary of three Latin dissertations on music theory presided over by Harald Vallerius at Uppsala (1674, 1686, 1698), published open access by Uppsala University Press (PDF; also on OAPEN). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 28736,
+    "texts": 3
+  },
+  "count_basis": "rq-retained-rows",
+  "doi": "10.33063/j1deaz91",
+  "institution": "Peter Sjökvist; Uppsala University (Studia Latina Upsaliensia 33, 2012)",
+  "license": "CC-BY-NC-ND-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
+}

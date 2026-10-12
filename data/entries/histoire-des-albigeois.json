@@ -1,0 +1,25 @@
+{
+  "title": "Histoire des Albigeois (2nd half of the 15th century): critical edition (A. Tondi, PhD thesis)",
+  "url": "https://theses.hal.science/tel-03700179v1",
+  "languages": [
+    "Occitan"
+  ],
+  "encoding": "other",
+  "status": "archived",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 66262,
+  "texts": 1,
+  "period": "c. 1450-1500",
+  "notes": "Critical edition of the anonymous Occitan prose chronicle Histoire des Albigeois (Paris BnF witness, ms P), with a linguistic study, published as a doctoral thesis (PDF) in HAL; also listed on theses.fr (2019PSLEP014). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 66262,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows",
+  "institution": "Andrea Tondi; École pratique des hautes études, Université Paris Sciences et Lettres, with the Università di Siena (thesis defended 2019)",
+  "license": "Not stated",
+  "license_url": "https://about.hal.science/hal-authorisation-v1/",
+  "license_note": "Deposited in HAL under its standard authorisation; no open reuse licence is stated."
+}

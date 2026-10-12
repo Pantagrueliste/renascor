@@ -1,0 +1,25 @@
+{
+  "title": "Nicaise Ladam, Chronique abrégée: digital critical edition (B. Salvati, PhD thesis)",
+  "url": "https://theses.hal.science/tel-05137472v1",
+  "languages": [
+    "French"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 100420,
+  "texts": 1,
+  "period": "1488-1546",
+  "notes": "Digital critical edition of the Chronique abrégée and the collected works (1488-1546) of Nicaise Ladam, published as a doctoral thesis in HAL; also listed on theses.fr (2024UPSLN003). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 100420,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows",
+  "institution": "Benedetta Salvati; École nationale des chartes, Université Paris Sciences et Lettres, with the Université de Lausanne (thesis defended 2024)",
+  "license": "Not stated",
+  "license_url": "https://about.hal.science/hal-authorisation-v1/",
+  "license_note": "Deposited in HAL under its standard authorisation; no open reuse licence is stated."
+}
