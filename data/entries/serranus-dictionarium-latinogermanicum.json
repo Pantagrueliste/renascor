@@ -1,0 +1,31 @@
+{
+  "title": "Johannes Serranus' Dictionarium Latinogermanicum (Nuremberg, 1538)",
+  "url": "http://diglib.hab.de/edoc/ed000215/start.htm",
+  "data_url": "http://diglib.hab.de/edoc/ed000215/tei-transcript.xml",
+  "data_format": "tei",
+  "languages": [
+    "Latin",
+    "German"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "institution": "Herzog August Bibliothek Wolfenbüttel (Editiones Electronicae Guelferbytanae 16); transcribed by Jonathan West",
+  "author": "Johannes Serranus",
+  "date": "1538",
+  "period": "1538",
+  "region": "Nuremberg",
+  "countries": [
+    "DE"
+  ],
+  "words": 114000,
+  "texts": 1,
+  "last_modified": "2015-07-15",
+  "license": "CC-BY-SA-3.0",
+  "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
+  "notes": "Transcription of the 428-page Latin-German dictionary printed by Johann Petreius in Nuremberg in 1538 (copy: HAB, P 1084.8° Helmst.), in 23 TEI files (front matter, letters A-Z, back matter) linked to the facsimile. Counts are ours: about 114,000 words counted over the 23 TEI part files (tags removed; headwords included). Published in 2015; no later change was found.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

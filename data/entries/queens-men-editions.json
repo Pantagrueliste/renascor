@@ -1,0 +1,28 @@
+{
+  "title": "Queen's Men Editions (QME)",
+  "url": "https://lemdo.uvic.ca/qme/",
+  "data_url": "https://lemdo.uvic.ca/qme/xml/source/qme_index.xml",
+  "data_format": "tei",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "institution": "Queen's Men Editions (general editors Helen Ostovich and Peter Cockett; text editor Andrew Griffin, from 2026 Janelle Jenstad), published by the University of Victoria's LEMDO platform",
+  "date": "1594-1605 (printed quartos)",
+  "period": "1590s-1605",
+  "region": "England",
+  "countries": [
+    "GB-ENG"
+  ],
+  "words": 120444,
+  "texts": 5,
+  "license": "CC-BY-NC-ND-4.0",
+  "license_url": "https://lemdo.uvic.ca/qme/copyright.html",
+  "notes": "Online editions of plays associated with the Queen's Men: The Famous Victories of Henry V, Friar Bacon and Friar Bungay, King Leir, Selimus and The True Tragedy of Richard III, each in a modern-spelling and an old-spelling text from the early quarto, with introductions, collations, performance materials and videos. The Old Wives' Tale is announced in the menu but its edition page returns an error. The TEI source of each text is downloadable under /qme/xml/source/ (for example emdFV_Q1.xml); the index file is given as data address. Counts are ours: 5 texts and about 120,400 words, counted in the text body of the five old-spelling TEI files (Famous Victories 18,767; Friar Bacon 22,058; King Leir 27,876; Selimus 26,442; Richard III 25,301); the modern-spelling versions are separate files and are not counted. The old address qme.internetshakespeare.uvic.ca redirects here.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

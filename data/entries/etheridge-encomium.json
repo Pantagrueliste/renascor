@@ -1,0 +1,27 @@
+{
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "title": "The Etheridge Project: An Encomium on Henry VIII and Elizabeth I by George Etheridge (BL Royal MS 16 C X)",
+  "url": "http://hellenic-institute.uk/research/Etheridge/",
+  "languages": [
+    "Greek"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "institution": "British Library and the Hellenic Institute, Royal Holloway, University of London",
+  "author": "George Etheridge",
+  "texts": 1,
+  "words": 5889,
+  "date": "c. 1566",
+  "period": "c. 1566",
+  "region": "England",
+  "countries": [
+    "GB-ENG"
+  ],
+  "notes": "Electronic edition of a Greek encomium in Etheridge's own hand, prepared for Elizabeth I's Oxford visit of 1566, with transcription, edited text with apparatus, English translation and manuscript images. Readable without login. words = our own count of the transcription pages for 76 folio sides (f. 1r-38v) as served by the site (visible words, including some editorial markers), so approximate. Built with HTML and JavaScript only, no TEI. The server's file listing shows the most recent edits on 2023-03-20 and the edition page is dated 20 March 2023; no later change found, so it is marked archived.",
+  "last_modified": "2023-03-20",
+  "license": "Not stated"
+}

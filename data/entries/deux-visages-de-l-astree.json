@@ -1,0 +1,26 @@
+{
+  "title": "Deux visages de L'Astrée (first critical edition of Honoré d'Urfé's L'Astrée)",
+  "url": "https://astree.univ-rouen.fr/",
+  "languages": [
+    "French"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "Eglal Henein (Tufts University; died 2021); hosted since 2025 by the Université de Rouen-Normandie (Presses universitaires de Rouen et du Havre)",
+  "author": "Honoré d'Urfé",
+  "date": "1607-1624",
+  "period": "1607-1624",
+  "region": "France",
+  "countries": [
+    "FR"
+  ],
+  "words": 890559,
+  "texts": 4,
+  "notes": "Web edition, begun in 2007, of the four parts of L'Astrée in two versions: a faithful critical text (reference editions of 1621 for parts I-III and of 1624 for part IV) and a 'functional' version in more modern French, with variants, notes, indexes and illustrations; the preliminary editions of 1607, 1610 and 1619 are also online. Figures: 890,559 words is the total given in the project's own word-frequency workbook (dictionnaire.xlsx, derived from Étienne Brunet's Hyperbase) for the four parts: 210,736, 245,178, 302,955 and 131,690 words. The 4 texts are the four parts; the three preliminary editions are not counted. The author died in 2021; the site moved to the University of Rouen in March 2025 and its news page records a change in June 2026. A downloadable Word version of the functional edition is offered.",
+  "license": "Not stated",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

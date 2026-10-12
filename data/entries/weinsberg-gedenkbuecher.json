@@ -1,0 +1,26 @@
+{
+  "title": "Die autobiographischen Aufzeichnungen Hermann Weinsbergs – Digitale Gesamtausgabe",
+  "url": "https://www.weinsberg.uni-bonn.de/",
+  "languages": [
+    "German",
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "author": "Hermann Weinsberg",
+  "date": "1518-1597",
+  "institution": "Abteilung für Geschichte der Frühen Neuzeit und Rheinische Landesgeschichte, Universität Bonn, with the Historisches Archiv der Stadt Köln",
+  "texts": 3,
+  "region": "Cologne",
+  "countries": [
+    "DE"
+  ],
+  "period": "1518-1597",
+  "license": "Not stated",
+  "notes": "Transcription of the three books of the Cologne citizen Hermann Weinsberg (1518-1597): Liber Iuventutis, Liber Senectutis and Liber Decrepitudinis, in Cologne German with Latin passages, each served as a series of long HTML pages (8, 11 and 10 files) with marginal notes. Everything dates from 1518-1597, so all of it is in period. No word count is given because the transcription is split into many words by the markup, so a reliable count could not be made. The pages use an old frameset layout; the site says some functions (editorial notes) no longer work and that a relaunch is being prepared. The home page shows 'Letzte Änderung: 09.04.2024'. A DFG project since 2002.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

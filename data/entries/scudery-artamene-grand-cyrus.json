@@ -1,0 +1,26 @@
+{
+  "title": "Madeleine et Georges de Scudéry: Artamène ou le Grand Cyrus",
+  "url": "https://artamene.othone.org/",
+  "languages": [
+    "French"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "Université de Fribourg (Claude Bourqui, Alexandre Gefen and Barbara Selmeci; original site 2002-2019, Université de Neuchâtel)",
+  "author": "Madeleine and Georges de Scudéry",
+  "date": "1649-1653",
+  "period": "1649-1656",
+  "region": "France",
+  "countries": [
+    "FR"
+  ],
+  "words": 2010000,
+  "texts": 10,
+  "license": "Not stated",
+  "notes": "Complete text of the novel in diplomatic reproduction (edition of Paris, Courbé, 1656), divided into sequences and episodes with summaries, pop-up notes on characters and places, and the engravings of the 1654 edition. Each of the ten parts can be downloaded as a PDF (https://artamene.othone.org/pdfs/cyrus1.pdf to cyrus10.pdf); the site also gives a full-text search through the ARTFL PhiloLogic server and says TEI files are on the project's GitHub, but no repository could be found. Counts are ours: about 2,010,000 words in the ten PDFs (summaries included, so slightly high), 10 parts. The PDFs were last modified on 6 March 2024.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

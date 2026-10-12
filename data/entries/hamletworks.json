@@ -1,0 +1,26 @@
+{
+  "title": "Hamletworks (hamletworks.org): The Enfolded Hamlet and Hamlet textual notes",
+  "url": "http://www.hamletworks.org/",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "Bernice W. Kliman (Nassau Community College, SUNY) and the hamletworks.org editors; webmaster Jeffery Triggs",
+  "author": "William Shakespeare",
+  "date": "1603-1637 (Q1, Q2, F1, Q6 texts)",
+  "period": "1603-1637",
+  "region": "England",
+  "countries": [
+    "GB-ENG"
+  ],
+  "words": 63372,
+  "texts": 2,
+  "license": "Copyright",
+  "notes": "Research site for Shakespeare's Hamlet. It offers the 'Enfolded Hamlet' (Bernice Kliman, 1996) as linked texts of the Second Quarto (1604/5) and the First Folio (1623) in exact original spelling, a modern enfolded text, line-by-line commentary and textual notes, and diplomatic versions of the First Quarto (1603) and Sixth Quarto as PDF/DjVu files, plus later editions and promptbooks. The domain redirects to a different host name (server-66-113-234-189.da.direct). Counts are ours: 2 texts (Q2 and F1) and about 63,400 words, counted in the text pages of the Q2 (33,557) and F1 (29,815) transcriptions; the Q1 and Q6 files are not counted, and the figure includes some line-number and apparatus tokens. The introduction page was last modified in February 2025. Copyright is held by the editors; reading is free.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

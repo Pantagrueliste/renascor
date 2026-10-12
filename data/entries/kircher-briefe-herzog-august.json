@@ -1,0 +1,31 @@
+{
+  "title": "Athanasius Kircher an Herzog August den Jüngeren: Lateinische Briefe der Jahre 1650-1666 (Editiones Electronicae Guelferbytanae 1)",
+  "url": "http://diglib.hab.de/edoc/ed000005/startx.htm",
+  "languages": [
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "author": "Athanasius Kircher",
+  "date": "1650-1666",
+  "institution": "Herzog August Bibliothek Wolfenbüttel (Thomas Stäcker, ed.)",
+  "words": 6901,
+  "texts": 19,
+  "region": "Italy (Rome) to Germany (Wolfenbüttel)",
+  "countries": [
+    "IT",
+    "DE"
+  ],
+  "period": "1650-1666",
+  "years_active": {
+    "start": 2003
+  },
+  "license": "Copyright",
+  "license_url": "http://diglib.hab.de/rights/copyright.html",
+  "notes": "Transcription of the nineteen Latin letters Athanasius Kircher sent to Duke August the Younger of Brunswick-Wolfenbüttel (Herzog August Bibliothek, BA II 351-365 and others), with line numbers, a transcription with apparatus, a German translation, commentary and source images. Counts are ours, from the single transcription page (about 6,900 words, header lines removed). Published in 2003; the revision log shows the last changes in December 2012 and 2018 (link corrections), so the status is archived. HAB terms allow private scholarly use and bar commercial reuse.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

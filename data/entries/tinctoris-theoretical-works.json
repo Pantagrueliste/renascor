@@ -1,0 +1,26 @@
+{
+  "title": "Johannes Tinctoris: Complete Theoretical Works (Early Music Theory)",
+  "url": "http://earlymusictheory.org/Tinctoris/texts/",
+  "languages": [
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "author": "Johannes Tinctoris",
+  "date": "1470s-1480s",
+  "institution": "Early Music Theory (website founded by Ronald Woodley, 2013); funded by the AHRC",
+  "words": 73568,
+  "texts": 11,
+  "region": "Naples and Northern Europe (treatises written at the Aragonese court of Naples)",
+  "countries": [
+    "IT"
+  ],
+  "period": "1470s-1480s",
+  "license": "Not stated",
+  "notes": "New critical edition of the Latin treatises of Johannes Tinctoris (c. 1435-1511) with full English translations and commentary, based on three principal manuscripts (Valencia 835, Bologna 2573, Brussels II 4147). Eleven treatises are online as edited text (with variant readings and music examples); Expositio manus, De natura et proprietate tonorum and the Diffinitorium musice are still listed as placeholders. The site describes itself as in its initial stages of development. Everything is dated 1470s-1480s. Counts are ours: about 73,600 words of edited Latin, counted from the texts loaded by the 11 treatise pages (apparatus and translation left out; the figure is approximate because the text is embedded in script files). The home page says it was last updated on 17 December 2020 and the treatise pages date from 2015; the whole site was re-uploaded to its server in July 2026 (all files carry the same date), so it is listed as active but the content has not changed since 2020.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

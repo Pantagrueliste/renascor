@@ -1,0 +1,28 @@
+{
+  "title": "Rostocker Urgichten des 16. Jahrhunderts in Fällen von Zauberei und Hexerei. Digitale Methoden und Lehrkonzepte auf der Testbank",
+  "url": "https://opendata.uni-halle.de/handle/1981185920/13873",
+  "data_url": "https://opendata.uni-halle.de/handle/1981185920/13873",
+  "data_format": "tei",
+  "languages": [
+    "German"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "institution": "Martin-Luther-Universität Halle-Wittenberg (Katrin Moeller and Andreas Müller); source: Stadtarchiv Rostock",
+  "author": "Katrin Moeller; Andreas Müller (editors)",
+  "date": "1543-1596",
+  "period": "1543-1596",
+  "region": "Mecklenburg (Rostock)",
+  "countries": [
+    "DE"
+  ],
+  "texts": 50,
+  "license": "Mixed",
+  "license_note": "Each item carries its own Creative Commons licence (CC BY-SA 3.0 DE for most, CC BY-NC 3.0 DE, CC BY-ND 4.0 for others).",
+  "notes": "Confessions from magic, sorcery and witchcraft trials before the lower court of the city of Rostock, from the Stadtarchiv Rostock. Each of the 50 items (a person's confession, dated 1543-1596; 20 of them from 1584 and 7 from 1586) is published with the scan (PDF), a TEI-XML transcription and an RTF version; a separate file gives the transcription rules (based on the DTA basic format). The count of items comes from the repository's OAI-PMH listing of the collection; the number of words is not given because the file downloads are protected against automated access (a browser can read them). Deposited in 2019; no later additions were found.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

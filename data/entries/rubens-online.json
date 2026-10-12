@@ -1,0 +1,42 @@
+{
+  "title": "Rubens-online: Quellen und Dokumente zu Leben, Werk und literarischen Bezügen des Malers Peter Paul Rubens (1577-1640)",
+  "url": "http://diglib.hab.de/edoc/ed000083/startx.htm",
+  "data_url": "http://diglib.hab.de/edoc/ed000083/mets.xml",
+  "data_format": "tei",
+  "languages": [
+    "Dutch",
+    "French",
+    "Latin",
+    "Italian",
+    "German",
+    "English",
+    "Spanish"
+  ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "institution": "Herzog August Bibliothek Wolfenbüttel (Editiones Electronicae Guelferbytanae 6); edited by Nils Büttner and Ulrich Heinen, prepared by Agnes Heine",
+  "date": "1564-1699",
+  "period": "1564-1699",
+  "region": "Antwerp, Cologne and Europe",
+  "countries": [
+    "BE",
+    "DE",
+    "NL",
+    "IT",
+    "FR",
+    "ES",
+    "GB-ENG"
+  ],
+  "words": 658000,
+  "texts": 345,
+  "last_modified": "2016-04-14",
+  "license": "Not stated",
+  "license_note": "Page footer: © 2011 Herzog August Bibliothek; the HAB's general terms for the Wolfenbüttel Digital Library (http://diglib.hab.de/copyright.html, marked outdated) name CC BY-SA 3.0 unless otherwise stated.",
+  "notes": "Edition of documents on Rubens: 307 archival records and letters (1564-1682: notarial and city-court acts, payments, Rubens's will), 30 contemporary biographies, poems and mentions up to 1700, and 8 longer printed works (Peacham 1627; de Piles 1677, 1681 and 1699; Asterius 1615; Baudius, Epistolae 1636; Philip Rubens 1608). Counts are ours, from the TEI files listed in mets.xml (served one by one; the data_url is the index of the files): 345 texts and about 658,000 words, leaving out editorial notes and the works dated after 1700 (Houbraken 1718, Dubos 1719, de Piles 1708 and 1766, Orlandi 1733). The six volumes of the Codex diplomaticus Rubenianus (about one million words, a nineteenth-century edition of Rubens's letters) are not counted. Files date from 2011; the index was last changed in April 2016.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

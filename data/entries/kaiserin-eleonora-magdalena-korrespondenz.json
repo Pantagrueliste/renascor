@@ -1,0 +1,32 @@
+{
+  "title": "Familiensache? Die Korrespondenz der Kaiserin Eleonora Magdalena (1655–1720)",
+  "url": "https://kaiserin-eleonora.oeaw.ac.at/",
+  "data_url": "https://github.com/emt-project/emt-working-data/tree/main/data/work-in-progress",
+  "data_format": "tei",
+  "languages": [
+    "German"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "institution": "Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes (IHB) and Austrian Centre for Digital Humanities, Österreichische Akademie der Wissenschaften (FWF project P 34651; ed. Katrin Keller, Ines Peper, Anna Spitzbart, Dorota Vargová)",
+  "author": "Eleonora Magdalena von Pfalz-Neuburg",
+  "date": "1677-1720",
+  "period": "1677-1720 (letters sent by and to the empress)",
+  "region": "Habsburg lands and the Holy Roman Empire",
+  "countries": [
+    "AT",
+    "DE"
+  ],
+  "words": 363027,
+  "texts": 1133,
+  "last_modified": "2026-10-12",
+  "license": "CC-BY-4.0",
+  "license_url": "https://kaiserin-eleonora.oeaw.ac.at/imprint.html",
+  "license_note": "The imprint puts the site and its contents under CC BY 4.0 unless marked otherwise; the licence element in each TEI header only says 'copyright'.",
+  "notes": "Digital edition of the letters of Empress Eleonora Magdalena of Pfalz-Neuburg (wife of Leopold I) with transcriptions, facsimiles, indexes, a calendar and PDF export; the TEI file of each letter is served at the letter's address with .xml instead of .html, and the working files are in the project's GitHub repository. Counts are ours, for the 1,133 letters dated 1700 or earlier (earliest 1677) out of the 1,605 listed in the edition's CMIF file of 24 September 2026: about 363,000 words in the TEI text bodies. The remaining 472 letters date from 1701 to 1716. Language: German in nearly all letters (a few in other languages).",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

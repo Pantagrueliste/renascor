@@ -1,0 +1,31 @@
+{
+  "title": "Die Urkunden und Akten des Klosters und des Oberamts Königsfelden – 1308-1662",
+  "url": "https://koenigsfelden.sources-online.org/start.html",
+  "doi": "10.5281/zenodo.10950031",
+  "data_url": "https://doi.org/10.5281/zenodo.10950031",
+  "data_format": "tei",
+  "languages": [
+    "German",
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "date": "1308-1662",
+  "institution": "Historisches Seminar, Universität Zürich (Simon Teuscher, Colette Halter-Pernet, Tobias Hodel); owner Staatsarchiv Aargau",
+  "words": 335128,
+  "texts": 459,
+  "region": "Aargau (Königsfelden, Switzerland)",
+  "countries": [
+    "CH"
+  ],
+  "period": "1308-1662",
+  "license": "CC-BY-4.0",
+  "license_url": "https://zenodo.org/records/10950031",
+  "license_note": "Editions data are CC BY 4.0; the platform is CC BY-NC-SA; the images are in the public domain.",
+  "notes": "Charters and records of the Königsfelden convent and the later Bernese Hofmeisterei: about 1,000 single documents and three copy books, transcribed and tagged for persons, places and organisations, with a standardised and a diplomatic view. The Zenodo data dump (version of 9 April 2024, 1,557 TEI document files) lists 459 documents dated within or overlapping 1450-1700, in Early New High German (428) and Latin (18 marked; the rest unmarked). Counts are ours, from the dump: about 335,000 words of transcription in those 459 documents (abbreviation expansions and editorial symbols left out); the whole edition has about 836,000 words in 1,557 files, from 1291 to 1662. Moved to the Sources Online server (TEI Publisher) in early 2024.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

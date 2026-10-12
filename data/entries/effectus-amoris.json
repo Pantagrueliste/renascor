@@ -1,0 +1,28 @@
+{
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "title": "Effectus Amoris: network critical edition of a 16th-century Hungarian verse romance",
+  "url": "https://magyar-irodalom.elte.hu/effectus/",
+  "languages": [
+    "Hungarian",
+    "Latin"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "institution": "ELTE BTK Magyar Irodalomtörténeti Intézet (Reneszánszkutatások Posztgraduális Központja), edited by Tóth Tünde and Béla Szegedi; published by Gépeskönyv",
+  "texts": 1,
+  "words": 1846,
+  "date": "1587-1588",
+  "period": "1587-1588",
+  "region": "Hungary",
+  "countries": [
+    "HU"
+  ],
+  "notes": "Hungarian verse romance (széphistória) surviving only as damaged printed leaves from a Debrecen print of 1587-1588. Three free text versions: a letter-faithful critical transcription, a pronunciation-oriented text and a modern-language text, plus photographs. words = our own count of the letter-faithful transcription (the source's own front matter and instructions excluded); counts include the short Latin argument and commonplace. The site is a hand-made 1998-99 HTML publication; the server reports a last modification in 2006 and no later change was found.",
+  "last_modified": "2006-02-28",
+  "license": "Copyright",
+  "license_note": "Copyright statement of the editor and publisher (1998-99); no open licence stated."
+}

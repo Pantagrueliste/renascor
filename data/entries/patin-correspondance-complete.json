@@ -1,0 +1,28 @@
+{
+  "title": "Correspondance complète et autres écrits de Guy Patin",
+  "url": "https://numerabilis.u-paris.fr/editions-critiques/patin/",
+  "languages": [
+    "French",
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "author": "Guy Patin",
+  "date": "1630-1673",
+  "institution": "Bibliothèque interuniversitaire de santé / Université Paris Cité (Numérabilis); edited by Loïc Capron",
+  "region": "France (Paris)",
+  "countries": [
+    "FR"
+  ],
+  "period": "1630-1673",
+  "texts": 1079,
+  "license": "CC-BY-NC-4.0",
+  "license_url": "https://numerabilis.u-paris.fr/editions-critiques/patin/index.las?do=lettre&let=0001",
+  "notes": "Annotated critical edition of the letters of the Paris physician Guy Patin to colleagues in France, Switzerland, Germany and the Low Countries, with indexes of people, places and terms, a full-text search and printing options. Count: 1,079 letters, the sum of the per-year totals on the edition's date index (1630 to 1673); words not given. The site shows '4e édition (mai 2022) revue et augmentée' as its latest update and no later change was found, hence archived. Letters are open without login.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

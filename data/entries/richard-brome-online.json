@@ -1,0 +1,25 @@
+{
+  "title": "Richard Brome Online",
+  "url": "https://www.dhi.ac.uk/brome/",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "author": "Richard Brome",
+  "institution": "Royal Holloway, University of London and Digital Humanities Institute, Sheffield (general editor Richard Cave)",
+  "region": "England",
+  "countries": [
+    "GB-ENG"
+  ],
+  "period": "1630s-1650s",
+  "words": 472000,
+  "texts": 16,
+  "notes": "Edition of the fifteen surviving plays of Richard Brome and The Late Lancashire Witches (with Heywood), with the original quarto or octavo text and an annotated modern-spelling text side by side, essays, a glossary, stage histories and recorded workshop performances. Counts are ours: 16 plays and about 472,000 words in the original-spelling text pages (including title pages and dedications; the modernised version is not counted). Published 2010 (AHRC-funded); no later update seen. Copyright is held by Royal Holloway.",
+  "license": "Copyright",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Narragonien digital: Digitale Textausgaben von europäischen 'Narrenschiffen' des 15. Jahrhunderts",
+  "url": "https://www.narragonien-digital.de/exist/home.html",
+  "data_url": "https://www.narragonien-digital.de/exist/materialien/downloads.html",
+  "data_format": "tei",
+  "languages": [
+    "German",
+    "Low German",
+    "Latin",
+    "French",
+    "Dutch"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "author": "Sebastian Brant, Jakob Locher and adapters",
+  "date": "1494-1500",
+  "institution": "Universität Würzburg (Brigitte Burrichter, Joachim Hamm; project 2014-2021)",
+  "words": 673157,
+  "texts": 12,
+  "region": "Basel, Nuremberg, Strasbourg, Lübeck and Paris",
+  "countries": [
+    "CH",
+    "DE",
+    "FR"
+  ],
+  "period": "1494-1500",
+  "license": "CC-BY-NC-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de",
+  "license_note": "The TEI files are CC BY-NC-SA 4.0; the digitised copies follow the terms of the holding libraries.",
+  "notes": "Twelve editions or adaptations of Sebastian Brant's Narrenschiff printed before 1500: the three Basel editions (1494, 1495, 1499), the Nuremberg (1494) and Strasbourg (1494/5) German versions, three Latin editions by Jakob Locher (Basel 1497, 1498), the French Rivière version (Paris 1497) and its 1499 reprint, the Low German Lübeck version (1497) and the Dutch Paris print (1500). Each has a digital facsimile, transcription and, for eight, a normalised reading text, plus a synoptic view and registers. Counts are ours, from the 12 downloadable TEI files (about 673,000 words; the original-spelling transcription with the first variant reading, so approximate). The home redirect is www.narragonien-digital.de/exist/. The news page shows entries up to June 2025.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

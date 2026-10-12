@@ -1,0 +1,31 @@
+{
+  "title": "The Malory Project: Winchester Manuscript and Caxton's Morte Darthur (1485)",
+  "url": "http://www.maloryproject.com/",
+  "languages": [
+    "Middle English"
+  ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "author": "Sir Thomas Malory",
+  "date": "1469-1485",
+  "institution": "Takako Kato (University of Leicester), Nick Hayward (Loyola University Chicago); Digital Archive Research Centre, Keio University",
+  "region": "England",
+  "countries": [
+    "GB-ENG"
+  ],
+  "period": "c. 1470-1485",
+  "texts": 2,
+  "years_active": {
+    "start": 2005,
+    "end": 2010
+  },
+  "license": "Not stated",
+  "license_url": "http://www.maloryproject.com/citation.php",
+  "notes": "Electronic edition and commentary of Malory's Morte Darthur: facsimiles of the Winchester Manuscript (British Library Add. MS 59678) and the John Rylands copy of Caxton's 1485 edition. Transcriptions (encoded in TEI P5 but not offered for download) are currently online only for parts: the Roman War episode and Caxton's Book V (sig. h7v-k3r), a few other leaves, and the Winchester and Caxton texts shown side by side. Counts: 2 text witnesses (partial); words not given because the transcribed share cannot be isolated from the page layers (corrections, notes). Images may not be reproduced. Marked archived: funded 2005-2010, site assets last changed in 2012 (Last-Modified 2012-05-04), the news page only says 'More information coming soon', and a web-archive capture from 2018-07-20 shows the same text loader.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

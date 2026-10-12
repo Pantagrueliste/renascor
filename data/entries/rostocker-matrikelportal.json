@@ -1,0 +1,29 @@
+{
+  "title": "Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock",
+  "url": "http://matrikel.uni-rostock.de/",
+  "languages": [
+    "Latin",
+    "German"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "Universitätsarchiv Rostock (edited by Kersten Krüger)",
+  "region": "Northern Germany (Rostock)",
+  "countries": [
+    "DE"
+  ],
+  "period": "1419-1831 (older matriculation books)",
+  "texts": 33910,
+  "years_active": {
+    "start": 2008,
+    "end": "ongoing"
+  },
+  "license": "Not stated",
+  "license_url": "http://matrikel.uni-rostock.de/subpage.action?nav=doku_beschreibung_matrikel1419&showTOC=false",
+  "notes": "Searchable entries of the Rostock matriculation books, each with the date, name, origin, status and the editor's notes, with page images of the Hofmeister edition and of the original book. The database for 1419-1831 holds about 51,000 entries and is based on Adolf Hofmeister's printed edition (1899-1922). Records are short, structured entries rather than running text, and the portal also covers 1831 to today (names after 1945 are masked). Count: 33,910 entries, which is our own sum of the per-semester totals shown on the portal's semester lists for winter 1450/51 to 1699/1700 (a further 104 entries from the summer semester of 1450 are left out). Words not given. The portal answers on http only.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

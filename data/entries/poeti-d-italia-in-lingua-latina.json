@@ -1,0 +1,22 @@
+{
+  "title": "Poeti d'Italia in lingua latina (MQDQ)",
+  "url": "https://www.poetiditalia.it/",
+  "languages": [
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "Università Ca' Foscari Venezia, Università di Padova, Università di Trieste, Università di Verona (MQDQ project; PRIN 1999 and 2001)",
+  "period": "c. 1250-1550 (Latin poets of Italy)",
+  "region": "Italy",
+  "countries": [
+    "IT"
+  ],
+  "notes": "Digital library of Latin verse written in Italy from Dante's time to the mid-16th century, with metrical scansion, a search tool, co-occurrence search and indexes of authors, metres and works. The text of each poem is freely readable and is taken from a named modern critical edition (for example L. Capra 1973 for Leonardo Teronda). The chronological index lists 346 authors in three periods: 'Da Dante a Petrarca' (1250-1374, 76 authors), 'Umanisti del Quattrocento' (1374-1494, 172) and 'Prima metà del Cinquecento' (1494-1550, 98). Texts and words are left out because the share dated 1450-1700 could not be separated without counting every work; the site states 'Ultimo aggiornamento: 2026.06.03'. Because the texts reproduce modern critical editions of poems that survive in manuscripts and prints, they are not diplomatic transcriptions.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

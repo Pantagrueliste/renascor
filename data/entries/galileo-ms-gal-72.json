@@ -1,0 +1,28 @@
+{
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "title": "Galileo Galilei, Notes on Motion (Ms. Gal. 72): electronic representation of the manuscript",
+  "url": "https://www.mpiwg-berlin.mpg.de/Galileo_Prototype/MAIN.HTM",
+  "languages": [
+    "Latin",
+    "Italian"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "institution": "Biblioteca Nazionale Centrale, Florence; Istituto e Museo di Storia della Scienza, Florence; Max Planck Institute for the History of Science, Berlin",
+  "author": "Galileo Galilei",
+  "texts": 239,
+  "words": 58443,
+  "date": "c. 1590-1637",
+  "period": "c. 1590-1637",
+  "region": "Italy",
+  "countries": [
+    "IT"
+  ],
+  "notes": "Galileo's working papers on motion and mechanics (folios 33-196 of Ms. Gal. 72): short texts, drafts for the Discorsi, calculations and tables. Each folio side has a transcription of the final text, plus levels showing the genetic apparatus, with indices. Readable without login after clicking a notice that accepts the conditions (images may not be published without the library's permission). texts = 239 folio sides that carry a transcription, words = our own count of the visible text of those overview pages (approximate; includes numbers, formulae and tables). The pages are marked Version 2.2 of 10 May 1999 and no later change was found.",
+  "license": "Custom terms",
+  "license_note": "Notice on the entry page: no part of the electronic representation may be used for publication or commercial purposes without written permission of the Biblioteca Nazionale Centrale, Florence."
+}

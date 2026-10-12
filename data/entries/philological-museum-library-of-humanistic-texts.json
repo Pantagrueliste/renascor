@@ -1,0 +1,24 @@
+{
+  "title": "The Philological Museum: Library of Humanistic Texts (Dana F. Sutton, ed.)",
+  "url": "https://philological.cal.bham.ac.uk/library.html",
+  "languages": [
+    "Latin",
+    "English"
+  ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "The Shakespeare Institute, University of Birmingham (editor Dana F. Sutton, University of California, Irvine)",
+  "period": "c. 1459-1700 (a few later items)",
+  "region": "Great Britain (some continental authors)",
+  "countries": [
+    "GB-ENG",
+    "GB-SCT"
+  ],
+  "notes": "Free hypertext editions of Neo-Latin works, mostly British, with introductions, notes and English translations: poetry, drama (including Jesuit plays), history, letters, treatises and speeches by authors such as Buchanan, Camden, Alabaster, Cowley and Bacon. The library page lists about 265 works. Of these, about 219 carry a date between 1459 and 1700 in their title, 9 are dated after 1700 (for example Addison, Bentley, Anstey), and 37 give no date (mostly 16th-17th-century authors). Texts and words are left out because the undated works and the translations could not be counted reliably. The University of Birmingham states a commitment to keep the site free online. The library page was last modified on 5 August 2025.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

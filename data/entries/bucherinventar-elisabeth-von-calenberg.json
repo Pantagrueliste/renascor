@@ -1,0 +1,28 @@
+{
+  "title": "Das Bücherinventar der Elisabeth von Calenberg (1539): Edition und Anmerkungen",
+  "url": "http://diglib.hab.de/edoc/ed000082/start.htm",
+  "data_url": "http://diglib.hab.de/edoc/ed000082/tei-transcript.xml",
+  "data_format": "tei",
+  "languages": [
+    "German"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "author": "Duchess Elisabeth of Calenberg",
+  "institution": "Herzog August Bibliothek Wolfenbüttel (edited by Eva Schlotheuber and Gabriele Haug-Moritz)",
+  "region": "Lower Saxony",
+  "countries": [
+    "DE"
+  ],
+  "period": "1539",
+  "words": 580,
+  "texts": 1,
+  "notes": "Edition of the list of books in the private rooms of Duchess Elisabeth of Braunschweig-Calenberg, from the inventory handed to her chambermaid at Münden in June 1539, with transcription facsimile links, footnotes and bibliographies (published 2011 as Editiones Electronicae Guelferbytanae 7). Counts are ours from the TEI file: one inventory extract with 69 numbered book entries and about 580 words, leaving out the editorial footnotes. The TEI file was last modified in 2011.",
+  "license": "CC-BY-SA-3.0",
+  "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

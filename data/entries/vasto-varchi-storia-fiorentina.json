@@ -1,0 +1,29 @@
+{
+  "title": "VaSto: Benedetto Varchi, Storia fiorentina (genetic and annotated digital edition)",
+  "url": "https://dharc-org.github.io/progetto-vasto/",
+  "data_url": "https://github.com/dharc-org/progetto-vasto/tree/master/evt2beta2/data/text",
+  "data_format": "tei",
+  "languages": [
+    "Italian"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "author": "Benedetto Varchi",
+  "date": "Composed before 1565 (narrates 1527-1530)",
+  "institution": "DH.ARC, Università di Bologna, with Concordia University (Montréal) and CarisBo",
+  "words": 3900,
+  "texts": 1,
+  "region": "Italy (Florence)",
+  "countries": [
+    "IT"
+  ],
+  "period": "16th century",
+  "license": "CC-BY-NC-ND-3.0",
+  "license_url": "https://dharc-org.github.io/progetto-vasto/",
+  "notes": "Digital genetic and annotated edition (EVT2) of Varchi's unfinished Storia fiorentina, left incomplete at his death in 1565 and printed only in 1721 in a censored form. The site offers diplomatic and critical views with facsimile. Only the Proemio is published so far: the TEI file pilot_proemio.xml in the project's GitHub repository holds about 3,900 words (our own count of the body text); the whole work is not online. Status archived: the repository's last commit is 13 June 2021 and the site has had no update since. The licence is the Creative Commons BY-NC-ND 3.0 link shown on the home page.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

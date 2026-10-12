@@ -1,0 +1,28 @@
+{
+  "title": "Winthrop Papers Digital Edition (Papers of the Winthrop Family)",
+  "url": "https://www.masshist.org/publications/winthrop/",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "author": "John Winthrop, Adam Winthrop and the Winthrop family",
+  "date": "1544-1682",
+  "institution": "Massachusetts Historical Society",
+  "words": 691328,
+  "texts": 1439,
+  "region": "England and Massachusetts Bay colony",
+  "countries": [
+    "GB-ENG",
+    "US"
+  ],
+  "period": "1544-1644",
+  "license": "Copyright",
+  "license_url": "https://www.masshist.org/publications/winthrop/index.php/about",
+  "notes": "Digitised volumes of the Winthrop Papers documentary edition (letters, diaries, memoranda, legal documents and John Winthrop's journal), with the editors' markup of uncertain readings, deletions and gaps. Counts are our own, from the date browse pages and each document page: 1,439 documents dated 1544-1644 (plus 1682) and about 691,000 words of document text (without back matter); the browse list also holds a few items dated outside the period (1265, 1274, 1927) which are not counted. Only volumes 1-4 are online. No licence is stated beyond the MHS copyright line (2026). Status active: the site carries a 2026 copyright notice.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

@@ -1,0 +1,37 @@
+{
+  "title": "Joachim von Sandrart: Teutsche Academie der Bau-, Bild- und Mahlerey-Künste, Nürnberg 1675/1679/1680 (Sandrart.net)",
+  "url": "https://ta.sandrart.net/de/",
+  "data_url": "https://ta.sandrart.net/de/info/technik/tei-download/",
+  "data_format": "tei",
+  "data_formats": [
+    "tei"
+  ],
+  "languages": [
+    "German"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "institution": "Sandrart.net project (Thomas Kirchner, Alessandro Nova, Carsten Blüm, Anna Schreurs and Thorsten Wübbena), Frankfurt, Florence and Heidelberg",
+  "author": "Joachim von Sandrart",
+  "date": "1675-1680",
+  "period": "1675-1680",
+  "region": "Nuremberg",
+  "countries": [
+    "DE"
+  ],
+  "words": 426000,
+  "texts": 3,
+  "last_modified": "2013-07-07",
+  "license": "Not stated",
+  "license_note": "The site's terms restrict the images to teaching and research use; they do not state a licence for the text, whose TEI files are offered for download.",
+  "years_active": {
+    "start": 2008,
+    "end": 2012
+  },
+  "notes": "Online edition of Sandrart's art-historical encyclopaedia and the Iconologia Deorum (published 1675, 1679 and 1680): complete transcription, page images, indexes of persons, places, artworks and bibliography, and commentary. The TEI P5 file can be downloaded in three variants. Counts are ours, from the 'without named entities' TEI file: about 426,000 words in the body including the marginal notes (three printed parts counted as 3 texts). The project ran 2008-2012; the TEI archive is dated July 2013 and no later change was found.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

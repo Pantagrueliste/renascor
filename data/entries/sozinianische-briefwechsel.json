@@ -1,0 +1,37 @@
+{
+  "title": "Die sozinianischen Briefwechsel: Zwischen Theologie, frühmoderner Naturwissenschaft und politischer Korrespondenz",
+  "url": "https://sozinianer.mni.thm.de/",
+  "languages": [
+    "Latin",
+    "French",
+    "German",
+    "Polish",
+    "Dutch",
+    "Italian"
+  ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
+  "encoding": "json",
+  "status": "active",
+  "institution": "Technische Hochschule Mittelhessen (THM); DFG project 324518514",
+  "words": 1368898,
+  "texts": 2259,
+  "region": "Poland, Germany, Netherlands, Sweden, France and elsewhere",
+  "countries": [
+    "DE",
+    "PL",
+    "SE",
+    "FR",
+    "NL",
+    "DK"
+  ],
+  "period": "1545-1700",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_note": "The site's data records name CC BY 4.0 for 2,123 text versions and CC BY-SA 3.0 for 136 printed versions.",
+  "notes": "Letters of and to Socinian (anti-Trinitarian) scholars, including Fausto and Lelio Sozzini, Martin Ruar, Stanislaw Lubieniecki and Samuel Crell; the site holds 2,205 dated letters from 1545 to 1744 and 2,159 of them are dated 1700 or earlier. Each letter has one or more text versions (printed edition, copy, final copy, draft or autograph manuscript). Counts are ours, from the site's own data service: 2,259 transcribed text versions of 1,835 letters dated 1700 or earlier, about 1.37 million words (about 1.23 million in Latin; 474 listed versions have no transcription yet and 37 letters have no date). Words are counted per text version, so a letter with several versions is counted more than once. The text is stored as standoff markup in a public GraphQL service rather than as downloadable files. The site was last deployed on 15 January 2026.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

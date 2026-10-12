@@ -1,0 +1,23 @@
+{
+  "title": "Acta Pacis Westphalicae digital (APW digital)",
+  "url": "https://apw.digitale-sammlungen.de/",
+  "languages": [
+    "German",
+    "French",
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "xml",
+  "status": "active",
+  "institution": "Rheinische Friedrich-Wilhelms-Universität Bonn and Bayerische Staatsbibliothek (Bavarian State Library), Munich",
+  "region": "Westphalia (Münster and Osnabrück congress)",
+  "countries": [
+    "DE"
+  ],
+  "period": "1643-1649",
+  "notes": "Digital edition of the Acta Pacis Westphalicae, the documents of the Westphalian peace congress (instructions, correspondence, minutes, negotiation papers and diaries; the congress ran 1643-1649, with a few earlier or later items). All volumes of the three series are readable online with a document-by-document view, scans of the printed pages, PDF download of the printed volumes and the XML full text of each document. No login is needed. Word and text counts are not given: the site sits behind a bot check and its volume list loads dynamically, so documents could not be counted. The edition text is a digitised critical edition of the archival originals (about 157 archives).",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

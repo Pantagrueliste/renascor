@@ -1,0 +1,48 @@
+{
+  "title": "Religiöse Friedenswahrung und Friedensstiftung in Europa (1500-1800): Digitale Quellenedition frühneuzeitlicher Religionsfrieden",
+  "url": "https://tueditions.ulb.tu-darmstadt.de/v/pa000001",
+  "data_url": "https://tueditions.ulb.tu-darmstadt.de/g/pa000001-0022",
+  "data_format": "tei",
+  "languages": [
+    "German",
+    "French",
+    "Latin",
+    "Czech",
+    "Italian",
+    "English",
+    "Polish",
+    "Dutch"
+  ],
+  "document_types": [
+    "print",
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "institution": "Herzog August Bibliothek Wolfenbüttel and Universitäts- und Landesbibliothek Darmstadt (edited by Irene Dingel)",
+  "date": "1485-1689 (edition runs to 1788)",
+  "period": "1485-1689",
+  "region": "Holy Roman Empire, France, Bohemia, Poland-Lithuania, Savoy, England",
+  "countries": [
+    "DE",
+    "FR",
+    "AT",
+    "CZ",
+    "CH",
+    "IT",
+    "PL",
+    "GB-ENG"
+  ],
+  "words": 263800,
+  "texts": 39,
+  "last_modified": "2022-07-31",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "years_active": {
+    "start": 2014,
+    "end": 2020
+  },
+  "notes": "Critical edition of religious peace treaties, edicts and diets, with diplomatic and modernised transcriptions side by side, links to facsimiles at the HAB and notes. The edition covers 1485-1788; 39 source texts (Quellentexte) are dated 1485-1689. Counts are ours, from the TEI files (served per document at /g/pa000001-00NN; the example data_url is the Speyer Reichsabschied of 1526), counting the original-language source texts only (not the German translations, introductions or the texts of 1712-1788), leaving out editorial notes and the original-spelling alternatives of choice elements: about 263,800 words, of which the Augsburg Religious Peace of 1555 alone is about 102,500. Languages include German, French, Latin, Czech, Italian, English, Polish and Dutch. The edition was published in 2020; the site was last modified on 31 July 2022.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

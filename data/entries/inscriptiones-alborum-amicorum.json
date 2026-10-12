@@ -1,0 +1,32 @@
+{
+  "title": "Inscriptiones Alborum Amicorum (IAA)",
+  "url": "http://iaa.bibl.u-szeged.hu/index.php",
+  "doi": "10.14232/iaa",
+  "languages": [
+    "Latin",
+    "German",
+    "Hungarian",
+    "Greek",
+    "Hebrew",
+    "French",
+    "English"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "University of Szeged, University Library (Miklós Latzkovits, Lajos Adamik, László Bujtás and others)",
+  "region": "Hungary and Central Europe",
+  "countries": [
+    "HU",
+    "DE",
+    "RO",
+    "SK",
+    "AT"
+  ],
+  "period": "16th-18th century",
+  "notes": "Database of entries (inscriptions, mottoes, dedications, signatures, owners' notes) in 16th-18th century alba amicorum with a Hungarian connection: entries by Hungarians or owners from Hungary, entries made in Hungary, and entries mentioning Hungary. Each record separates the date, place, motto, dedication, signature and quoted or composed inscription text, with scans where permitted. Record numbers run to about 17,090 but the number of records dated 1450-1700, and their words, cannot be established from the site, so texts and words are left out; the database covers the 16th to the 18th century. Status active: copyright line 2003-2026 and the database is described as continuously growing.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

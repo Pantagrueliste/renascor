@@ -1,0 +1,24 @@
+{
+  "title": "Die Chronyk van Hollandt, Zeelandt ende Vriesland (Divisiekroniek) of Cornelius Aurelius, 1517",
+  "url": "https://resources.huygens.knaw.nl/retroboeken/divisiekroniek/",
+  "languages": [
+    "Middle Dutch"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "author": "Cornelius Aurelius",
+  "institution": "Huygens Institute (transcribed by A. de Hamer, 2011)",
+  "region": "Holland",
+  "countries": [
+    "NL"
+  ],
+  "period": "1517",
+  "words": 583600,
+  "texts": 1,
+  "notes": "Reader with page images and a transcription of the 1517 Leiden edition (Jan Seversz; copy in the Koninklijke Bibliotheek, The Hague), a history of Holland, Zeeland and Friesland from earliest times to 1517. Counts are ours: one work, about 583,600 whitespace words over the 899 transcription pages, folio labels included. Description page modified February 2026.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

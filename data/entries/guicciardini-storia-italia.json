@@ -1,0 +1,30 @@
+{
+  "title": "Storia d'Italia (Francesco Guicciardini): analytical digital edition of the opening passage",
+  "url": "https://guicciardini-storia-italia.huma-num.fr/",
+  "data_url": "https://guicciardini-storia-italia.huma-num.fr/files/SI_Ms_30_3juillet2019H.xml",
+  "data_format": "tei",
+  "languages": [
+    "Italian"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "author": "Francesco Guicciardini",
+  "date": "1537-1540",
+  "institution": "Paola Moreno (Université de Liège) with Élise Leclerc (Université Grenoble Alpes) and Samantha Saïdi (ENS de Lyon)",
+  "words": 8502,
+  "texts": 14,
+  "region": "Italy (Florence)",
+  "countries": [
+    "IT"
+  ],
+  "period": "1537-1540",
+  "last_modified": "2021-02-16",
+  "license": "CC-BY-NC-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "notes": "Semi-diplomatic transcriptions, beside facsimiles, of the successive drafts of the opening passage (exordium) of Guicciardini's History of Italy in eight manuscripts (family archive and Biblioteca Medicea Laurenziana, Florence). Only the opening is edited so far; the project hopes to extend it. Counts are ours, from the downloadable TEI file: 14 transcribed text sections (several per manuscript) and about 8,500 words, leaving out the 1919 printed edition of the same passage that the file also contains. The site was last changed in 2021 (server dates 2019-2021) and no extension has appeared since.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

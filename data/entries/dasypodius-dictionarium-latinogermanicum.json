@@ -1,0 +1,29 @@
+{
+  "title": "Dasypodius' Dictionarium Latinogermanicum (1535)",
+  "url": "http://diglib.hab.de/edoc/ed000008/start.htm",
+  "data_url": "http://diglib.hab.de/edoc/ed000008/",
+  "data_format": "tei",
+  "languages": [
+    "Latin",
+    "German"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "author": "Petrus Dasypodius",
+  "institution": "Herzog August Bibliothek Wolfenbüttel (transcribed and edited by Jonathan West)",
+  "region": "Alsace",
+  "countries": [
+    "FR"
+  ],
+  "period": "1535",
+  "words": 179000,
+  "texts": 1,
+  "notes": "Transcription of the first edition of Dasypodius' dictionary (Strasbourg: Rihel, 1535, Strasbourg copy) with variant readings of the 1536 edition, in five TEI files (contents and preface, A-B, C-H, I-O, P-Z), revised 30 November 2012. Counts are ours from the TEI files: one dictionary, about 6,600 entries and about 179,000 words in the 1535 text, leaving out the 1536 variant readings (approximate). Last file modified 2012.",
+  "license": "CC-BY-SA-3.0",
+  "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

@@ -1,0 +1,30 @@
+{
+  "title": "Paesi novamente retrovati - Newe unbekanthe landte: digital edition of early reports of discovery",
+  "url": "http://diglib.hab.de/edoc/ed000145/start.htm",
+  "data_url": "http://diglib.hab.de/edoc/ed000145/tei-transcript-pnr.xml",
+  "data_format": "tei",
+  "languages": [
+    "Italian",
+    "German"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "date": "1507-1508",
+  "institution": "Herzog August Bibliothek Wolfenbüttel (edited by Norbert Ankenbauer; Editiones Electronicae Guelferbytanae 10)",
+  "region": "Italy and Germany",
+  "countries": [
+    "IT",
+    "DE"
+  ],
+  "period": "1507-1508",
+  "texts": 2,
+  "words": 163470,
+  "license": "CC-BY-SA-3.0-DE",
+  "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
+  "notes": "Diplomatic and normalised transcription of Paesi novamente retrovati (Vicenza, 1507), the first printed collection of voyage accounts, and of its German translation Newe unbekanthe landte (Nuremberg, 1508), with facsimiles, editorial notes, indexes of persons and places and a modern translation. Both transcriptions are TEI files (data_url shows the Italian one; the German one is tei-transcript-nul.xml in the same folder). Counts are our own: 2 texts and about 163,000 words (75,000 Italian and 88,400 German), counted from the regularised reading, leaving out notes. Archived: files date from 2017-2018 (start page last modified 2017-12-11).",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

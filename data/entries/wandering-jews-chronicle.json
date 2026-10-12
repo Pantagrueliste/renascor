@@ -1,0 +1,30 @@
+{
+  "title": "The Wandering Jew's Chronicle",
+  "url": "http://wjc.bodleian.ox.ac.uk/",
+  "data_url": "https://github.com/gbergel/WJC",
+  "data_format": "tei",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "author": "Martin Parker (ballad); edited by Giles Bergel",
+  "date": "1634-1830 (four copies in period, 17th century)",
+  "institution": "Bodleian Libraries, University of Oxford (editor Giles Bergel; design InfoDev, Oxford IT Services)",
+  "words": 3351,
+  "texts": 4,
+  "region": "England (London)",
+  "countries": [
+    "GB-ENG"
+  ],
+  "period": "1634-1830",
+  "license": "CC-BY-NC-3.0",
+  "license_url": "http://creativecommons.org/licenses/by-nc/3.0/",
+  "license_note": "Text is CC BY-NC 3.0; the images remain the copyright of their holders.",
+  "notes": "Quasi-diplomatic transcriptions with images of 15 copies of an English broadside ballad printed between 1634 and 1830, compared in a Versioning Machine interface, with bibliography and a textual history. Counts are for the four copies printed before 1700: A.2.a (Francis Grove, Charles I version), and C.1.a, C.2.a, C.3.a (Charles II versions, Coles/Vere/Wright and others), about 3,350 words in total (our count from the TEI file WJC/WJC.xml). The other 11 copies are from the 18th and 19th centuries. Status archived: the site and the GitHub repository were last changed in December 2016.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

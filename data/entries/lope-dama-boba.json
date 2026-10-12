@@ -1,0 +1,32 @@
+{
+  "title": "Lope de Vega, La dama boba: edición crítica y archivo digital",
+  "url": "https://damaboba.unibo.it/index.html",
+  "doi": "10.6092/UNIBO/LADAMABOBA",
+  "data_url": "https://damaboba.unibo.it/xml/edicion_critica.xml",
+  "data_format": "tei",
+  "languages": [
+    "Spanish"
+  ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "author": "Lope de Vega",
+  "date": "1613 (autograph); 1617 (print)",
+  "institution": "PROLOPE (Universitat Autònoma de Barcelona) and CRR-MM, Università di Bologna; edited by Marco Presotto",
+  "words": 17422,
+  "texts": 1,
+  "region": "Spain (Madrid)",
+  "countries": [
+    "ES"
+  ],
+  "period": "1613-1617",
+  "license": "CC-BY-NC-SA-4.0",
+  "license_url": "https://damaboba.unibo.it/proyecto",
+  "license_note": "Per the project's 'Recursos y licencias' section: the TEI/XML critical edition is CC BY-NC-SA 4.0; the PDF of the critical edition is CC BY-NC-ND 3.0; the facsimiles from the Biblioteca Nacional de España are CC BY-NC-SA 4.0.",
+  "notes": "Critical edition of one play, La dama boba (autograph dated 1613, first printed 1617), with a variant apparatus and an archive that shows facsimile and transcription of the three witnesses (autograph, a contemporary copy, the 1617 printed Parte XI). The downloadable TEI/XML (edicion_critica.xml) holds the critical text with the apparatus. Counts are ours, from that file: about 17,400 words of base text (apparatus and notes left out). Published 2015 (ISBN 9788898010257, doi 10.6092/UNIBO/LADAMABOBA); the server reports files changed on 10 January 2025.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

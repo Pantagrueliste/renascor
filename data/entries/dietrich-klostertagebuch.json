@@ -1,0 +1,26 @@
+{
+  "title": "Das Kloster-Tagebuch des Einsiedler Paters Joseph Dietrich, 1670-1704 – Kommentierte Online-Edition",
+  "url": "https://www.dietrich-edition.unibe.ch/",
+  "languages": [
+    "German",
+    "Latin"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "author": "Joseph Dietrich",
+  "date": "1670-1704",
+  "institution": "Abteilung für Wirtschafts-, Sozial- und Umweltgeschichte, Historisches Institut, Universität Bern",
+  "texts": 4,
+  "region": "Einsiedeln and Freudenfels (Switzerland)",
+  "countries": [
+    "CH"
+  ],
+  "period": "1687-1698 (online volumes)",
+  "license": "Not stated",
+  "notes": "The diary has 18 volumes and about 12,000 pages; a diplomatic transcription with footnotes, Latin translations, weather observations and registers is published volume by volume. Four volumes are online so far: Band 6 (1687-1688), Band 13 (1688-1690), Band 15 (1693-1694) and Band 17 (1697-1698); all are within the period. The others are transcribed but not yet published. No word count: each scan has its own page mixing transcription, margin notes and translations, so a clean count was not made. Band 17 and a new full-text search were added on 9 October 2026.",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}
