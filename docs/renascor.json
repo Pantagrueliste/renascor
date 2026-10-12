@@ -5,7 +5,7 @@
     "licence": "CC0-1.0",
     "version": "0.1.3",
     "data_updated": "2026-10-12",
-    "data_commit": "d5545d110b577cc7507260c2022b4b60594bee3b",
+    "data_commit": "e027dcb030d111fe53e472d8f19db80da6a8567e",
     "corpus_statistics": {
       "name": "Renascor Corpus",
       "snapshot": "v2026.06",
@@ -20,7 +20,7 @@
       "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
       "database_sha256": "380f7ee3fecb563cef4efc6e80df0f52d765c99a81b5bebc9d73b1d6af1e93cf"
     },
-    "records": 207,
+    "records": 214,
     "fields": [
       "id",
       "title",
@@ -626,6 +626,36 @@
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "notes": "Transcriptions of Renaissance printed texts from the Epistemon corpus of the Bibliothèques Virtuelles Humanistes (CESR, Université de Tours). The entry links to the corpus on the BVH site; the TEI files used for the corpus statistics come from a legacy copy kept in Lou Burnard's tei-fr repository on GitHub (https://github.com/lb42/tei-fr; last updated 2015). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "bodleian-first-folio",
+      "title": "The Bodleian First Folio: digital edition of Shakespeare's Comedies, Histories and Tragedies (1623)",
+      "url": "https://firstfolio.bodleian.ox.ac.uk/",
+      "data_url": "https://firstfolio.bodleian.ox.ac.uk/downloads.html",
+      "data_format": "tei",
+      "data_formats": [
+        "tei",
+        "other"
+      ],
+      "institution": "Bodleian Libraries, University of Oxford",
+      "languages": [
+        "English"
+      ],
+      "period": "1623",
+      "words": 854170,
+      "texts": 36,
+      "encoding": "tei",
+      "license": "CC-BY-3.0",
+      "license_url": "https://firstfolio.bodleian.ox.ac.uk/about.html#licence",
+      "license_note": "The page images and the text are both released under CC BY 3.0.",
+      "status": "archived",
+      "region": "England",
+      "countries": [
+        "GB-ENG"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Diplomatic transcriptions of the 36 plays in the Bodleian Library's copy of the Shakespeare First Folio (1623, shelfmark Arch. G c.7), shown beside the page images and encoded in TEI P5, with published transcription guidelines. Each play can be downloaded as an XML file, as a formatted PDF and with its page images. Counts are our own, from the 36 XML files: 36 plays and about 854,000 words in the text of the volume, excluding footnotes. The site has not changed since 2019 and its blog since April 2020, but it is still online."
     },
     {
       "id": "bokselskap",
@@ -1334,6 +1364,38 @@
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "notes": "CIDTC is the digital critical edition of the correspondence of Johannes Dantiscus (1485-1548), royal Polish diplomat, published online at the University of Warsaw's editions.al.uw.edu.pl on an eXist-db/TEI-Publisher stack. The root URL shows a bare eXist-db landing page; the edition app itself lives at /exist/apps/dantiscus/ (verified 200, title 'Dantiscus' Correspondence'), serving TEI P5 XML files with IDs of the form IDLxxxxx.xml exactly as the origin indicates. Origin verbatim: 'CIDTC editions.al.uw.edu.pl -> IDL5422.xml'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "dio",
+      "title": "Deutsche Inschriften Online (DIO)",
+      "url": "https://www.inschriften.net/",
+      "data_url": "https://epigraf.inschriften.net/pages/dumps",
+      "data_format": "tei",
+      "data_formats": [
+        "tei",
+        "other"
+      ],
+      "institution": "Die Deutschen Inschriften (Akademienunion; academies of Mainz, Göttingen, Düsseldorf, Heidelberg, Leipzig, Munich), with Epigraf (Digitale Akademie, Mainz)",
+      "languages": [
+        "Latin",
+        "German"
+      ],
+      "period": "1450-1650",
+      "texts": 26678,
+      "encoding": "html",
+      "license": "CC-BY-4.0",
+      "license_url": "https://epigraf.inschriften.net/pages/dumps",
+      "license_note": "Data dumps: CC BY 4.0 'where possible' (every article of the CGIF dump carries cc:by/4.0 as licence); images have their own, more restricted copyright. The portal itself shows a two-year moving wall after print publication.",
+      "status": "active",
+      "region": "Germany, Austria, South Tyrol",
+      "countries": [
+        "DE",
+        "AT",
+        "IT"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Edition of the printed series Die Deutschen Inschriften (Latin and German inscriptions up to 1650, some volumes later; whole database 31,197 articles dated 401-2022, of which 80 undated). texts = articles (catalogue entries, which can group several inscriptions) whose date span in the official CGIF dump (epigraf-public-cgif-001, 2025-09-14) overlaps 1450-1700: 26,678 (25,274 lie wholly within 1450-1700); our own count from the dump. Words not given: full transcriptions are published as EpiDoc only for DI 7 Braunschweig, DI 77 Greifswald and DI 102 Stralsund (978 articles); in those, 806 in-period articles hold 26,300 words (about 33 per article), which would extrapolate to roughly 0.9 million words for the whole, a rough estimate only. Other EpiDoc volumes are announced. The portal www.inschriften.net sits behind an Anubis bot check (returns a challenge page to curl), so its content was checked via the Epigraf dumps page, not the portal. Includes Austrian volumes of the Munich/Mainz series; the separate Viennese series (see oeaw-inschriften-wiener-reihe) is not part of it."
     },
     {
       "id": "dta",
@@ -2206,6 +2268,44 @@
       "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
+      "id": "epidat",
+      "title": "epidat – Datenbank zur jüdischen Grabsteinepigraphik",
+      "url": "https://www.steinheim-institut.de/cgi-bin/epidat",
+      "data_url": "https://gitlab.rlp.net/epidat/data",
+      "data_format": "tei",
+      "data_formats": [
+        "tei",
+        "json",
+        "xml",
+        "other"
+      ],
+      "institution": "Salomon Ludwig Steinheim-Institut für deutsch-jüdische Geschichte (Essen), with the Akademie der Wissenschaften und der Literatur | Mainz",
+      "languages": [
+        "Hebrew",
+        "German"
+      ],
+      "period": "1450-1700",
+      "words": 66159,
+      "texts": 1926,
+      "encoding": "tei",
+      "license": "CC-BY-4.0",
+      "license_url": "https://gitlab.rlp.net/epidat/data",
+      "license_note": "Each EpiDoc record states CC BY 4.0; the site footer states CC BY 4.0 as well.",
+      "status": "active",
+      "region": "Germany and neighbouring countries",
+      "countries": [
+        "DE",
+        "LV",
+        "NL",
+        "PL",
+        "ES",
+        "CZ"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Jewish gravestone inscriptions (322 digital editions, 54,243 monuments on the site; monuments after 1956 withheld). EpiDoc TEI per monument (?id=<code>-teip5) and bulk in the public GitLab repository (xml/tei, tsv, json, ttl). texts and words are our own count from tsv/id-year-transcription-translation.tsv (44,300 rows): rows with a parseable year 1450-1700 = 1,926; words = whitespace tokens of the transcription column for those rows (Hebrew transcription, often with a Latin-script rendering; approximate). 2,244 rows have no parseable year and are not counted; the vast majority of the corpus is 18th-20th century (about 82 rows 1450-1499, 72 rows 1500-1549), so the in-period share is about 4 percent, concentrated in Frankfurt (ffb 864), Hamburg-Altona (hha 270) and Worms (wrm 251). The older site interface is no longer developed; a beta interface exists. Repository last activity 2026-08-13."
+    },
+    {
       "id": "ckcc-epistolarium",
       "title": "Epistolarium (CKCC)",
       "url": "https://ckcc.huygens.knaw.nl/",
@@ -2402,6 +2502,37 @@
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "notes": "FNVR is a Litt&Arts (Grenoble) project building XML-TEI editions of French verse narratives composed or translated 1490-1600, some first modern editions, led by Pascale Mounier; the TEI dataset is openly published on Recherche Data Gouv (DOI 10.57745/SSC5XT). The collected texts (amantDesconforte, chevallier, palamon, rondeaux) match the repository layout on the Grenoble GitLab, whose project page is live (200). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "folger-shakespeare",
+      "title": "The Folger Shakespeare (formerly Folger Digital Texts)",
+      "url": "https://www.folger.edu/explore/shakespeares-works/",
+      "data_url": "https://www.folger.edu/explore/shakespeares-works/download/",
+      "data_format": "tei",
+      "data_formats": [
+        "tei",
+        "html",
+        "plain-text"
+      ],
+      "institution": "Folger Shakespeare Library, Washington, DC",
+      "languages": [
+        "English"
+      ],
+      "period": "c. 1590-1613",
+      "words": 957195,
+      "texts": 42,
+      "encoding": "tei",
+      "license": "CC-BY-NC-3.0",
+      "license_url": "https://www.folger.edu/explore/shakespeares-works/download/usage-guidelines/",
+      "license_note": "The TEI headers state Creative Commons Attribution-NonCommercial 3.0 Unported, and the download page says the files are free for all non-commercial uses.",
+      "status": "active",
+      "region": "England",
+      "countries": [
+        "GB-ENG"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "All of Shakespeare's plays, the Sonnets and the narrative poems, read free online and downloadable as XML (TEI), TEI Simple with linguistic annotation (the 37 plays without the Two Noble Kinsmen and the poems), HTML, PDF, Word and plain text. These are the modern-spelling texts of the New Folger Editions (edited by Barbara Mowat and Paul Werstine), not diplomatic transcriptions of the early printings. The old address shakespeare.folger.edu now redirects to the Folger website. Counts are our own, from the downloadable XML: 42 works and about 957,000 words (word elements in the play and poem texts, excluding the introductions); all the works date from the 1590s to 1613. The texts were last revised in 2021."
     },
     {
       "id": "fornsvenska-swedish",
@@ -3351,6 +3482,34 @@
       "notes": "Manuscript letters and other documents written by women (queens, nobles, nuns, 19th-century writers such as Gertrudis Gómez de Avellaneda), with paleographic, transcribed and critical presentations, metadata on the women involved and map/search tools; TEITOK platform; per-document TEI at corpora.uah.es/letradas/xmlfiles/<id>.xml, no bulk download page. Counts cover the 105 documents dated within or overlapping 1450-1700 (tokens as counted by TEITOK, counted by us from the document headers); the whole corpus has 270 documents (87,985 tokens), and 21 documents carry no date. 'Corpus histórico en desarrollo'."
     },
     {
+      "id": "lettres-calvin",
+      "title": "Lettres de Calvin: digital critical edition of the French correspondence of John Calvin",
+      "url": "https://lettres-calvin.netlify.app/",
+      "data_url": "https://github.com/pippaJeanne/lettres-calvin/tree/main/src/lib/xml",
+      "data_format": "tei",
+      "institution": "Yanet Hernández Pedraza (doctoral candidate, Université de Montréal)",
+      "languages": [
+        "French"
+      ],
+      "period": "1538-1554",
+      "words": 35361,
+      "texts": 27,
+      "encoding": "tei",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://lettres-calvin.netlify.app/fr/mentionsLegales",
+      "license_note": "The site's legal notice releases the data under CC BY-SA 4.0 and the source code on GitHub under the MIT licence. The header of each TEI file still names CC BY-SA 3.0.",
+      "status": "active",
+      "region": "France, Switzerland (Geneva, Strasbourg)",
+      "countries": [
+        "FR",
+        "CH"
+      ],
+      "last_modified": "2026-09-18",
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Bilingual critical edition of the letters John Calvin wrote in French between 1538 and 1554, still growing: the site currently publishes 27 of the 120 letters of the planned corpus. Each letter has facsimiles of the manuscript or printed sources, the text of Jules Bonnet's 1854 edition in sixteenth-century French, a modernised and annotated French version, and a Spanish translation; a selection of autograph manuscripts also has diplomatic transcriptions. The TEI XML files of the French letters are in the GitHub repository (the Spanish versions are in a separate folder). Counts are our own: 27 letters and about 35,000 words of the Bonnet base text, counted from the 27 French TEI files and leaving out the footnotes and the modernised readings. The project is the work of one researcher."
+    },
+    {
       "id": "leme",
       "title": "Lexicons of Early Modern English (LEME)",
       "url": "https://leme.library.utoronto.ca/",
@@ -3563,6 +3722,31 @@
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "notes": "Mazarinades (pamphlets of the Fronde, 1648-1653) published by the ANTONOMAZ project at Sorbonne Université. The counts come from the Zenodo release of December 2022 (3,064 files); the project site and its GitHub repository now hold more (3,132 texts). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "memis-slovenia",
+      "title": "MEMIS – Epigraphic corpus of Medieval and Early Modern inscriptions in Slovenia",
+      "url": "https://www.clarin.si/repository/xmlui/handle/11356/1376",
+      "data_url": "https://www.clarin.si/repository/xmlui/bitstream/handle/11356/1376/MEMIS.xml?sequence=3&isAllowed=y",
+      "data_format": "tei",
+      "institution": "ZRC SAZU, Inštitut za kulturno zgodovino (Gregor Pobežin); hosted by CLARIN.SI",
+      "languages": [
+        "Latin"
+      ],
+      "period": "15th-17th century",
+      "words": 904,
+      "texts": 42,
+      "encoding": "tei",
+      "license": "CC-BY-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "status": "archived",
+      "region": "Slovenian coast (Koper, Izola, Piran)",
+      "countries": [
+        "SI"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "TEI XML edition (version 1.0, published 2020-12-06; handle http://hdl.handle.net/11356/1376) of 51 Latin inscriptions from the Slovenian coastal towns dated 1222 to the mid-17th century, with expanded transcriptions and Slovenian translations. Counts are our own, from the TEI file: 42 inscriptions dated within or overlapping 1450-1700 (including two 'second half of 15th c.'), 904 words in their transcription divs (approximate); 7 fall outside the period and 2 are undated. Static repository deposit, no later version found."
     },
     {
       "id": "mercuregalant",
@@ -5555,6 +5739,29 @@
       "provenance": "submitted",
       "date_added": "2026-10-07",
       "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://vakk.ut.ee/."
+    },
+    {
+      "id": "venetian-inscriptions-cyprus",
+      "title": "Venetian Inscriptions in Cyprus (La Lettera e il Leone)",
+      "url": "https://venetianinscriptions.cyi.ac.cy/",
+      "institution": "Ca' Foscari University of Venice (Lorenzo Calvelli) and The Cyprus Institute (STARC)",
+      "languages": [
+        "Latin"
+      ],
+      "period": "1474-1571",
+      "words": 692,
+      "texts": 24,
+      "encoding": "html",
+      "license": "Not stated",
+      "license_note": "Described as an Open Access platform; no licence statement found on the pages (footer: all rights reserved). Image credits are given per image.",
+      "status": "active",
+      "region": "Cyprus",
+      "countries": [
+        "CY"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-12",
+      "notes": "Open access platform of Latin Renaissance inscriptions from Venetian-ruled Cyprus (1474-1571) with interpreted and diplomatic transcriptions, English and Italian translations, apparatus and photos; no login needed (the LogIn link is for editors). 27 inscriptions in total on 17 sites: 24 are dated within or overlapping 1450-1700 (15 with numeric years, 9 with approximate dates such as 'end of the 15th century'), 1 is Janus I's epitaph of 1432, 2 are illegible fragments with 'Uncertain' dates. words = word-like tokens of the interpreted transcriptions of the 24 (our own count by crawling the 27 inscription pages; approximate). No bulk download or TEI export found. Pages modified as late as September 2024. Related: the Titulus/ERC GRAPH-EAST corpus covers Cyprus (575 texts) but is not yet published online."
     },
     {
       "id": "vespasianoletters",

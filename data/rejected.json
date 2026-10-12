@@ -176,6 +176,38 @@
       "reason": "No site of its own: its documents are published only within the CHARTA corpus, which is catalogued (charta-corpus). The group's colonial documents of Mérida are catalogued as ula-corpus-documentos-coloniales-merida.",
       "source_url": "https://corpora.uah.es/charta/index.php?action=grupos",
       "date": "2026-10-12"
+    },
+    {
+      "id": "epihum",
+      "title": "EPIHUM — Epigrafía humanística de España y Portugal",
+      "url": "https://www.epigrafiahumanistica.ulpgc.es/base-de-datos/",
+      "reason": "The database of Renaissance inscriptions (1500-1668) is open only to the project team; the public site offers a project description and a manual. It can be reconsidered if the transcriptions become freely readable.",
+      "source_url": "https://www.epigrafiahumanistica.ulpgc.es/base-de-datos/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "thesaurus-epigraphie-islamique",
+      "title": "Thesaurus d'épigraphie islamique",
+      "url": "https://www.epigraphie-islamique.uliege.be/Thesaurus/",
+      "reason": "A catalogue of Islamic inscriptions: the freely searchable records give metadata (place, type, material, date) but no transcribed text.",
+      "source_url": "https://www.epigraphie-islamique.uliege.be/Thesaurus/User/MainSearch.aspx",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "titulus-cifm",
+      "title": "Titulus / Corpus des inscriptions de la France médiévale",
+      "url": "https://titulus.huma-num.fr/exist/apps/titulus/index.html",
+      "reason": "The inscriptions published online date from the 8th to the 14th century, before the catalogue's 1450-1700 range.",
+      "source_url": "https://titulus.huma-num.fr/exist/apps/titulus/index.html",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "corpus-epigrafi-medievali-padova",
+      "title": "Corpus delle epigrafi medievali di Padova",
+      "url": "http://cem.dissgea.unipd.it/indice.html",
+      "reason": "Access requires registration and the texts are PDFs of medieval inscriptions (701-1500), with a negligible share within 1450-1700.",
+      "source_url": "http://cem.dissgea.unipd.it/indice.html",
+      "date": "2026-10-12"
     }
   ],
   "review_pending": [

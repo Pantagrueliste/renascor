@@ -42,6 +42,7 @@ We catalogue projects that provide digital editions of Renaissance-era written d
 - **Manuscript editions** (transcriptions, diplomatic editions)
 - **Printed works** (editions of early printed books)
 - **Correspondence** (letters, diplomatic documents, archives)
+- **Inscriptions** (epigraphic editions that transcribe inscriptions on monuments, gravestones, buildings and objects)
 
 We record the project, not individual texts. A project may contain one text or thousands.
 
@@ -68,7 +69,7 @@ Active rejections and resources awaiting reconsideration are recorded separately
 ## What we do not accept
 
 - Text collections requiring payment or a subscription
-- Page images or facsimiles only, with no text layer
+- Page images, facsimiles or photographs of inscriptions only, with no transcription
 - Raw, uncorrected OCR without editorial review
 - Catalogues or bibliographies that contain no texts
 - Directories and federated search services that point to other projects without providing a text collection

@@ -1,0 +1,31 @@
+{
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "title": "Deutsche Inschriften Online (DIO)",
+  "url": "https://www.inschriften.net/",
+  "data_url": "https://epigraf.inschriften.net/pages/dumps",
+  "data_format": "tei",
+  "data_formats": [
+    "tei",
+    "other"
+  ],
+  "languages": [
+    "Latin",
+    "German"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "texts": 26678,
+  "period": "1450-1650",
+  "region": "Germany, Austria, South Tyrol",
+  "countries": [
+    "DE",
+    "AT",
+    "IT"
+  ],
+  "institution": "Die Deutschen Inschriften (Akademienunion; academies of Mainz, Göttingen, Düsseldorf, Heidelberg, Leipzig, Munich), with Epigraf (Digitale Akademie, Mainz)",
+  "license": "CC-BY-4.0",
+  "license_url": "https://epigraf.inschriften.net/pages/dumps",
+  "license_note": "Data dumps: CC BY 4.0 'where possible' (every article of the CGIF dump carries cc:by/4.0 as licence); images have their own, more restricted copyright. The portal itself shows a two-year moving wall after print publication.",
+  "notes": "Edition of the printed series Die Deutschen Inschriften (Latin and German inscriptions up to 1650, some volumes later; whole database 31,197 articles dated 401-2022, of which 80 undated). texts = articles (catalogue entries, which can group several inscriptions) whose date span in the official CGIF dump (epigraf-public-cgif-001, 2025-09-14) overlaps 1450-1700: 26,678 (25,274 lie wholly within 1450-1700); our own count from the dump. Words not given: full transcriptions are published as EpiDoc only for DI 7 Braunschweig, DI 77 Greifswald and DI 102 Stralsund (978 articles); in those, 806 in-period articles hold 26,300 words (about 33 per article), which would extrapolate to roughly 0.9 million words for the whole, a rough estimate only. Other EpiDoc volumes are announced. The portal www.inschriften.net sits behind an Anubis bot check (returns a challenge page to curl), so its content was checked via the Epigraf dumps page, not the portal. Includes Austrian volumes of the Munich/Mainz series; the separate Viennese series (see oeaw-inschriften-wiener-reihe) is not part of it."
+}
