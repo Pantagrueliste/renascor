@@ -184,7 +184,7 @@ def refresh_entries(entries_dir: Path, stats: dict, families: dict, licenses: di
                     entry["period"] = "{}-{}".format(*s["period"])
                 entry["notes"] = re.sub(
                     r"(?:Renascor Corpus|RQ Open Corpus) snapshot v2026\.06 \([^)]*\)",
-                    "Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset)",
+                    "Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)",
                     entry.get("notes", ""))
                 refreshed += 1
         verified = licenses.get(path.stem)
