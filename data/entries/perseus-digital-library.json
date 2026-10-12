@@ -1,6 +1,6 @@
 {
-  "title": "Perseus Digital Library",
-  "url": "https://www.perseus.tufts.edu/",
+  "title": "Perseus Digital Library: Renaissance Materials (English)",
+  "url": "https://www.perseus.tufts.edu/hopper/collection?collection=Perseus:collection:Renaissance",
   "data_url": "https://github.com/PerseusDL/canonical-engLit",
   "data_format": "tei",
   "provenance": "submitted",
@@ -14,7 +14,7 @@
   "texts": 81,
   "period": "1590-1610",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 6762346,

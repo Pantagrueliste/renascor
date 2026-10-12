@@ -1,0 +1,28 @@
+{
+  "title": "Corpus Mallorca — Documentos castellanos de los archivos mallorquines",
+  "url": "https://www.corpusmallorca.es/",
+  "languages": [
+    "Spanish",
+    "Latin"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "HIPERTEXT research group, Universitat de les Illes Balears (director Andrés Enrique-Arias)",
+  "words": 25500,
+  "texts": 81,
+  "region": "Balearic Islands (Spain)",
+  "countries": [
+    "ES",
+    "IT",
+    "MT",
+    "FR",
+    "AT",
+    "BE",
+    "VE"
+  ],
+  "period": "1640-1909",
+  "notes": "Unpublished Castilian documents from archives in Mallorca, Menorca and Ibiza (Arxiu del Regne de Mallorca, municipal archives, Epistolario Santacilia, etc.), edited with CHARTA norms (paleographic transcription and critical presentation, facsimiles), searchable by archive, province, type, date; used for the study of Catalan-Spanish contact. Some passages in Latin or Catalan are tagged. Funded by FFI2014-59135-R and FFI2017-83899-P. No download; page last modified 2024-09-22 (index.html). Counts cover the 81 documents dated 1640-1700 (about 25,500 words of the critical presentation, counted by us); the whole corpus has 1,251 documents (about 665,000 words, 1640-1909). Most documents are from the Balearic Islands.",
+  "license": "Not stated",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

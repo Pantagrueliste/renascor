@@ -1,5 +1,5 @@
 {
-  "title": "Gondomar Galician",
+  "title": "Gondomar: Corpus dixital de textos galegos da Idade Moderna",
   "url": "https://ilg.usc.gal/gondomar",
   "data_url": "https://ilg.usc.gal/gondomar/index.php?action=texts",
   "data_format": "tei",
@@ -7,13 +7,13 @@
     "Galician"
   ],
   "encoding": "tei",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 11031,
   "texts": 31,
   "period": "1594-1697",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://ilg.usc.gal/gondomar/; rebuild/gondomar_galician_source_selection_2026-06-24.tsv; data/raw/Gondomar_Galician/Gondomar_Galician.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "notes": "The online corpus holds 84 texts up to 1791 (https://ilg.usc.gal/gondomar/); this entry counts only the 31 texts dated 1594-1697. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 11031,
@@ -22,5 +22,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Not stated",
   "license_url": "https://ilg.usc.gal/gl/avisos-legais",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license_note": "No reuse licence established from the available publisher-source evidence.",
+  "institution": "Instituto da Lingua Galega, Universidade de Santiago de Compostela (ILG-USC)"
 }

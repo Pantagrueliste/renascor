@@ -16,6 +16,166 @@
       "reason": "Access to Frantext Intégral requires a paid institutional or individual subscription. Temporary access to restricted free corpora does not make the full collection freely accessible.",
       "source_url": "https://paiement.frantext.fr/conditions-generales",
       "date": "2026-10-09"
+    },
+    {
+      "id": "gallicorpora-french-htr",
+      "title": "Gallicorpora (French early prints, HTR)",
+      "url": "https://gallicorpora.github.io/",
+      "date": "2026-10-12",
+      "reason": "The Gallicorpora TEI files are uncorrected automatic transcriptions (Kraken HTR converted from ALTO, as their TEI headers state), not edited or corrected texts. The catalogue excludes uncorrected OCR and HTR. The entry also mixed texts from other projects (SETAF Pierre de Vingle, OCR17plus, CREMMA).",
+      "source_url": "https://github.com/Gallicorpora/TEI"
+    },
+    {
+      "id": "montoya-guarani",
+      "title": "Antonio Ruiz de Montoya, Arte, vocabulario y tesoro de la lengua guaraní (Internet Archive scan)",
+      "url": "https://archive.org/details/gramaticaydiccio02ruiz",
+      "date": "2026-10-12",
+      "reason": "The only text is uncorrected machine OCR (DjVu XML, hOCR) of a page scan on the Internet Archive, not a transcribed edition. The catalogue excludes uncorrected OCR.",
+      "source_url": "https://archive.org/details/gramaticaydiccio02ruiz"
+    },
+    {
+      "id": "gilberti-purepecha",
+      "title": "Maturino Gilberti, Vocabulario en lengua de Mechuacan, 1559 (Internet Archive scan)",
+      "url": "https://archive.org/details/vocabularioenlen00gilb",
+      "date": "2026-10-12",
+      "reason": "The only text is uncorrected ABBYY FineReader OCR of a scan of the 1559 print on the Internet Archive, not a transcribed edition. The catalogue excludes uncorrected OCR.",
+      "source_url": "https://archive.org/metadata/vocabularioenlen00gilb"
+    },
+    {
+      "id": "norman-musenormande",
+      "title": "La Muse normande de David Ferrand, 1891 edition (Internet Archive scan)",
+      "url": "https://archive.org/details/lamusenormanded09ferrgoog",
+      "date": "2026-10-12",
+      "reason": "The only text is uncorrected ABBYY FineReader OCR of a Google scan of the 1891 edition on the Internet Archive, not a transcribed edition. The catalogue excludes uncorrected OCR.",
+      "source_url": "https://archive.org/details/lamusenormanded09ferrgoog"
+    },
+    {
+      "id": "humanumgitlab",
+      "title": "GitLab des humanités numériques (Huma-Num)",
+      "url": "https://gitlab.huma-num.fr/",
+      "date": "2026-10-12",
+      "reason": "A hosting platform, not an edition: the record grouped seven unrelated projects found on Huma-Num's GitLab, and more than half of its words came from a 1746 dictionary outside 1450-1700. Individual editions hosted there can be proposed as their own entries.",
+      "source_url": "https://gitlab.huma-num.fr/"
+    },
+    {
+      "id": "nakala",
+      "title": "Nakala (Huma-Num data repository)",
+      "url": "https://nakala.fr/",
+      "date": "2026-10-12",
+      "reason": "A deposit platform, not an edition: the record grouped about twenty unrelated projects deposited on Nakala, and at least 50 of its 109 texts fall outside 1450-1700 (Balzac, Flaubert, recordings of spoken French from 2020). Individual editions deposited there can be proposed as their own entries.",
+      "source_url": "https://nakala.fr/"
+    },
+    {
+      "id": "codcar",
+      "title": "CODCAR — Documentación de Cancillería Castellana del Siglo XIII",
+      "url": "https://h-ueda.sakura.ne.jp/lyneal/codcar-norm.htm",
+      "reason": "All documents date from 1223-1312, before the catalogue's 1450-1700 range.",
+      "source_url": "https://h-ueda.sakura.ne.jp/lyneal/codcar-norm.htm",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "cordex",
+      "title": "CORDEX — Corpus diacrónico de Extremadura",
+      "url": "https://corpora.uah.es/cordex/",
+      "reason": "Reading the corpus requires a login; only a handful of trial files are public. It can be reconsidered if the texts become freely readable.",
+      "source_url": "https://corpora.uah.es/cordex/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "cordina",
+      "title": "CORDINA — Corpus diacrónico del español de Norteamérica",
+      "url": "https://corpora.uah.es/cordina/",
+      "reason": "All 122 documents date from 1733-1895, after the catalogue's 1450-1700 range.",
+      "source_url": "https://corpora.uah.es/cordina/index.php?action=stats",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "zavaldicor",
+      "title": "ZAValDiCor — Corpus digital de correspondencias de la familia Zavala",
+      "url": "https://corpora.uah.es/zavaldicor/",
+      "reason": "The letters date from the late 18th to the 20th century, after the catalogue's 1450-1700 range.",
+      "source_url": "https://corpora.uah.es/zavaldicor/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "corhiber",
+      "title": "CORHIBER — Portal de Corpus Históricos Iberorrománicos",
+      "url": "http://www.corhiber.org/",
+      "reason": "A directory of historical Ibero-Romance corpora, not a collection of texts. Corpora it lists can be proposed individually.",
+      "source_url": "https://portal-corhiber.wixsite.com/portal-corhiber",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "codema",
+      "title": "CODEMA — Corpus de documentos malagueños del siglo XIX",
+      "url": "http://teitok.uma.es/teitok/codema/",
+      "reason": "A corpus of 19th-century documents from Málaga, after the catalogue's 1450-1700 range.",
+      "source_url": "http://teitok.uma.es/teitok/codema/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "corhen",
+      "title": "CORHEN — Corpus histórico del español norteño",
+      "url": "http://corhen.es/",
+      "reason": "Medieval private documents of the 10th-13th centuries, before the catalogue's 1450-1700 range.",
+      "source_url": "https://corhen.es/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "corcolombia",
+      "title": "CorColombia",
+      "url": "https://grafila.unil.ch/corcolombia/",
+      "reason": "The corpus currently contains only 19th-century letters, after the catalogue's 1450-1700 range.",
+      "source_url": "https://grafila.unil.ch/corcolombia/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "cmir-miranda-de-ebro",
+      "title": "CMIR — Documentos medievales de Miranda de Ebro",
+      "url": "https://campus.usal.es/~gedhytas/index.php/txt/doc/cmir",
+      "reason": "Documents dated 1262-1301, before the catalogue's 1450-1700 range.",
+      "source_url": "https://campus.usal.es/~gedhytas/index.php/txt/doc/cmir",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "cuba19-codhecun",
+      "title": "CODHECUN — Corpus de documentos históricos de Cuba (cuba19)",
+      "url": "http://cuba19.us.es/",
+      "reason": "Cuban documents of 1868-1898, after the catalogue's 1450-1700 range.",
+      "source_url": "https://cuba19.us.es/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "historia15-cenefa",
+      "title": "CenEFA — Corpus epistolar de mujeres andaluzas (Historia15)",
+      "url": "https://historia15.us.es/CenEFA/",
+      "reason": "All 257 documents date from 1708-1830, after the catalogue's 1450-1700 range.",
+      "source_url": "https://historia15.us.es/CenEFA/index.php?action=stats",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "intexta-cohsanre",
+      "title": "Intexta / COHSANRE (Jaén)",
+      "url": "https://seminariodelexicografiahispanica.webnode.es/intexta/",
+      "reason": "A project description only: no corpus or texts are online yet. It can be reconsidered once texts are published.",
+      "source_url": "https://seminariodelexicografiahispanica.webnode.es/intexta/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "cohiecos-costa-rica",
+      "title": "COHIECOS — Corpus histórico del español de Costa Rica",
+      "url": "https://teitok.ucr.ac.cr/",
+      "reason": "The corpus covers 1700-1821, essentially after the catalogue's 1450-1700 range.",
+      "source_url": "https://teitok.ucr.ac.cr/",
+      "date": "2026-10-12"
+    },
+    {
+      "id": "cdhm-merida",
+      "title": "CDHM — Corpus de documentos históricos de Mérida (Venezuela)",
+      "url": "https://corpora.uah.es/charta/index.php?action=grupos",
+      "reason": "No site of its own: its documents are published only within the CHARTA corpus, which is catalogued (charta-corpus). The group's colonial documents of Mérida are catalogued as ula-corpus-documentos-coloniales-merida.",
+      "source_url": "https://corpora.uah.es/charta/index.php?action=grupos",
+      "date": "2026-10-12"
     }
   ],
   "review_pending": [

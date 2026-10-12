@@ -1,11 +1,11 @@
 {
   "title": "Mazarinades",
-  "url": "https://zenodo.org/records/7443183",
+  "url": "https://antonomaz.huma-num.fr/",
   "data_url": "https://github.com/Antonomaz/Corpus",
   "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
-  "institution": "Bibliothèques patrimoniales de la Ville de Paris",
+  "institution": "Projet ANTONOMAZ, Sorbonne Université (Karine Abiven)",
   "languages": [
     "French"
   ],
@@ -14,7 +14,7 @@
   "texts": 3064,
   "period": "1648-1653",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "Mazarinades (pamphlets of the Fronde, 1648-1653) published by the ANTONOMAZ project at Sorbonne Université. The counts come from the Zenodo release of December 2022 (3,064 files); the project site and its GitHub repository now hold more (3,132 texts). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2026-05-22",
   "corpus_statistics": {
     "snapshot": "v2026.06",

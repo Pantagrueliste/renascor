@@ -1,6 +1,6 @@
 {
   "title": "EEBO Text Creation Partnership",
-  "url": "https://www.textcreationpartnership.org/",
+  "url": "https://www.textpartnership.net/tcp-texts/eebo-tcp-early-english-books-online/",
   "data_url": "https://github.com/textcreationpartnership",
   "data_format": "tei",
   "languages": [
@@ -30,7 +30,7 @@
     "start": 2002,
     "end": "ongoing"
   },
-  "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. Access via EEBO (subscription) or open TCP texts. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. EEBO-TCP Phase I and II texts have been free of restrictions since 1 August 2020 (CC0). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "texts": 50486,
   "corpus_statistics": {
     "snapshot": "v2026.06",

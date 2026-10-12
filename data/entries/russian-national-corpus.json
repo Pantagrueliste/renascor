@@ -1,6 +1,6 @@
 {
-  "title": "Russian National Corpus",
-  "url": "https://ruscorpora.ru/",
+  "title": "Middle Russian (Old East Slavic) treebank sample from the Russian National Corpus (UD_Old_East_Slavic-RNC)",
+  "url": "https://github.com/UniversalDependencies/UD_Old_East_Slavic-RNC",
   "data_url": "https://github.com/UniversalDependencies/UD_Old_East_Slavic-RNC",
   "data_format": "other",
   "provenance": "submitted",
@@ -13,14 +13,15 @@
   "texts": 13,
   "period": "1474-1698",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "Thirteen Middle Russian texts (documents, letters, chronicle passages and charms, c. 1300-1700) from the UD_Old_East_Slavic-RNC treebank, a sample of the Middle Russian Corpus of the Russian National Corpus. The RNC site itself offers no download of its Middle Russian corpus. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 96174,
     "texts": 13
   },
   "count_basis": "rq-retained-rows",
-  "license": "Custom terms",
-  "license_url": "https://ruscorpora.ru/page/terms",
-  "license_note": "Source-specific reuse conditions; no standard open licence established."
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://github.com/UniversalDependencies/UD_Old_East_Slavic-RNC/blob/dev/LICENSE.txt",
+  "license_note": "Source-specific reuse conditions; no standard open licence established.",
+  "institution": "Vinogradov Institute of the Russian Language, RAS (Russian National Corpus), with HSE University and Lomonosov Moscow State University"
 }

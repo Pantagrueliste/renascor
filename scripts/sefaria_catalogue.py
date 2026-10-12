@@ -216,7 +216,7 @@ def update_entry(path: Path, audit: dict) -> None:
     entry["notes"] = ("Official bulk exports provide JSON and TXT downloads; the developer documentation "
                       "describes the REST API. "
                       "Corpus statistics (text, word and language counts, period) derived from the "
-                      "Renascor Corpus snapshot v2026.06 (in-core, after corpus deduplication).")
+                      "Renascor Corpus snapshot v2026.06 (after removal of duplicate texts).")
     # The original corpus_statistics object is preserved; never import into the RQ database.
     path.write_text(json.dumps(entry, ensure_ascii=False, indent=2) + "\n")
 

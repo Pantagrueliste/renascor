@@ -14,7 +14,7 @@
   "texts": 195,
   "period": "1611-1611",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "The site presents the electronic texts of the Donne Variorum Edition of the Poetry of John Donne (version 2.0, prepared 2025) as web pages, with plain-text transcriptions of the source texts at drc.usask.ca/archive/transcriptions/. The TEI file at the data link is an unlinked working draft of the poems based on the 1633 text, not the edited texts of version 2.0; the XML of those texts is not publicly retrievable. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 74553,

@@ -1,6 +1,6 @@
 {
   "title": "LiberLiber",
-  "url": "https://www.liberliber.eu/",
+  "url": "https://liberliber.it/",
   "data_url": "https://liberliber.it/opere/libri/",
   "data_format": "html",
   "provenance": "submitted",
@@ -15,7 +15,7 @@
   "texts": 310,
   "period": "1450-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 28388618,
@@ -24,5 +24,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://liberliber.it/opere/libri/licenze/",
-  "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "Associazione Culturale Liber Liber (Progetto Manuzio)"
 }

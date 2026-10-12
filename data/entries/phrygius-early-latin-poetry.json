@@ -1,0 +1,24 @@
+{
+  "title": "The Early Latin Poetry of Sylvester Johannis Phrygius (P. Sjökvist, PhD thesis)",
+  "url": "https://uu.diva-portal.org/smash/record.jsf?pid=diva2:171057",
+  "languages": [
+    "Latin"
+  ],
+  "encoding": "other",
+  "status": "archived",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 6043,
+  "texts": 3,
+  "period": "1599-1602",
+  "notes": "Edition with introduction, translation and commentary of three major portions of the early Latin poetry of the Swedish theologian Sylvester Johannis Phrygius (1572-1628), published as a doctoral thesis with full text (PDF) in DiVA. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 6043,
+    "texts": 3
+  },
+  "count_basis": "rq-retained-rows",
+  "institution": "Peter Sjökvist; Uppsala University (Studia Latina Upsaliensia 31, 2007)",
+  "license": "Not stated",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
+}

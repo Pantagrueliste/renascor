@@ -1,0 +1,22 @@
+{
+  "title": "Documentos privados antiguos (1600-1900), Universidad de Navarra",
+  "url": "https://www.unav.edu/web/facultad-de-filosofia-y-letras/documentos-privados-antiguos",
+  "languages": [
+    "Spanish",
+    "Basque"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "institution": "Facultad de Filosofía y Letras, Universidad de Navarra (Cristina Tabernero Sala, Concepción Martínez Pasamar et al.); CHARTA network member",
+  "words": 4500,
+  "texts": 8,
+  "region": "Navarre",
+  "countries": [
+    "ES"
+  ],
+  "period": "1550-1900",
+  "notes": "Despite the page title (1600-1900), the oldest document is dated 1550. Documents are 105 PDFs (notarial documents and letters), each with metadata, TRANSCRIPCIÓN PALEOGRÁFICA, PRESENTACIÓN CRÍTICA and facsimile; text layer present (pdftotext). Counts cover the 8 documents dated 1550-1697 (about 4,500 words of paleographic transcription, counted by us); the collection has 105 documents dated 1550-1900. Mostly Spanish, some Basque. PDFs only, no machine-readable XML.",
+  "license": "Not stated"
+}

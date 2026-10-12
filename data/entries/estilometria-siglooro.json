@@ -12,8 +12,8 @@
   "date_added": "2026-10-07",
   "words": 7188629,
   "texts": 371,
-  "period": "1600-1645",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://github.com/Jero2760/estilometria; data/raw/estilometria/Siglo_de_Oro/; rebuild/estilometria_raw_lock_2026-06-13.tsv; rebuild/estilometria_source_selection_2026-06-13.tsv; rebuild/estilometria_",
+  "period": "c. 1522-1700",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/Jero2760/estilometria.",
   "last_modified": "2025-01-12",
   "corpus_statistics": {
     "snapshot": "v2026.06",

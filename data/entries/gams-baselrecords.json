@@ -1,20 +1,20 @@
 {
-  "title": "GAMS — Basel Records",
-  "url": "https://gams.uni-graz.at/",
+  "title": "Jahrrechnungen der Stadt Basel 1535–1610 (Basel Records) — digital edition",
+  "url": "https://gams.uni-graz.at/srbas",
   "data_url": "https://gams.uni-graz.at/context:depcha.srbas",
   "data_format": "tei",
   "languages": [
     "German"
   ],
   "encoding": "tei",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 926956,
   "texts": 76,
-  "institution": "Universität Graz (GAMS)",
+  "institution": "Universität Basel (Departement Geschichte) and Universität Graz (ZIM-ACDH); edited by Susanna Burghartz",
   "period": "1535-1610",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). rebuild/remaining_missing_collections_2026-06-13.txt; rebuild/remaining_missing_source_selection_2026-06-13.tsv; rebuild/remaining_missing_source_blocked_audit_2026-06-13.csv; rebuild/remaining_missin",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 926956,

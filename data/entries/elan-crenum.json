@@ -1,19 +1,19 @@
 {
   "title": "CreNum - Edition numerique de la Chronique francaise de Guillaume Cretin",
-  "url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum",
+  "url": "https://crenum.elan-numerique.fr/",
   "data_url": "https://gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum/-/tree/main/data/xml",
   "data_format": "tei",
   "languages": [
     "French"
   ],
   "encoding": "tei",
-  "status": "archived",
+  "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 192178,
   "texts": 5,
   "period": "1515-1515",
-  "notes": "CreNum is the ELAN (Grenoble) digital XML-TEI edition of Guillaume Crétin's Chronique française (ed. Delaissa Berrada, 2020, CC-BY 3.0 for the TEI at data.elan-numerique.fr/textes/oeuvre15.xml), matching the harvest origin 'ÉLAN crenum: Livre_I..V' (five books, 1515 edition). The edition portal research.elan-numerique.fr (page oeuvres/edition/15) did not respond at check time (000), so the live GitLab repo gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum is given as the verified project URL. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "CreNum is the ELAN (Grenoble) digital XML-TEI edition of Guillaume Crétin's Chronique française (five books, 1515 edition), edited by Antoine Brix and Ellen Delvallée with the ELAN team. The edition is published at crenum.elan-numerique.fr; the TEI sources are in the project's GitLab repository (gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum), which shows a bot-check page to browsers. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes)",
   "corpus_statistics": {
     "snapshot": "v2026.06",

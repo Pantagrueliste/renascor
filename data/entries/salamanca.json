@@ -1,5 +1,5 @@
 {
-  "title": "Salamanca",
+  "title": "The School of Salamanca: Digital Collection of Sources (TEI)",
   "url": "https://github.com/digicademy/svsal-tei",
   "data_url": "https://github.com/digicademy/svsal-tei",
   "data_format": "tei",
@@ -14,7 +14,7 @@
   "words": 4271105,
   "texts": 18,
   "period": "1522-1648",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://github.com/digicademy/svsal-tei; data/raw/salamanca/svsal-tei-master/; rebuild/salamanca_raw_lock_2026-06-13.tsv; rebuild/salamanca_source_selection_2026-06-13.tsv; rebuild/salamanca_source_na",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/digicademy/svsal-tei.",
   "last_modified": "2025-07-14",
   "corpus_statistics": {
     "snapshot": "v2026.06",
@@ -23,5 +23,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "institution": "Academy of Sciences and Literature | Mainz; Max Planck Institute for Legal History and Legal Theory (Frankfurt); Goethe University Frankfurt"
 }

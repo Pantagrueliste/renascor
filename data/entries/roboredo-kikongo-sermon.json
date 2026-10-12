@@ -1,0 +1,24 @@
+{
+  "title": "Kikongo sermon attributed to Manuel Roboredo, c. 1649 (ed. J. Thornton)",
+  "url": "https://www.bu.edu/afam/people/faculty/john-thornton/roboredo-kikongo-sermon/",
+  "languages": [
+    "Kikongo"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 408,
+  "texts": 1,
+  "period": "c. 1649",
+  "notes": "Kikongo sermon of about 1649 attributed to Manuel Roboredo (Francisco de São Salvador), from a manuscript in the Biblioteca Nazionale Centrale, Rome, edited on John Thornton's African Texts pages. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 408,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows",
+  "institution": "John Thornton, Boston University (African Texts)",
+  "license": "Not stated",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
+}

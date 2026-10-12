@@ -1,6 +1,6 @@
 {
   "title": "TychoBrahe Portuguese",
-  "url": "https://www.tycho.iel.unicamp.br/corpus/texts/txt.zip",
+  "url": "https://www.tycho.iel.unicamp.br/corpus/en/",
   "data_url": "https://www.tycho.iel.unicamp.br/corpus/texts/xml/",
   "data_format": "xml",
   "languages": [
@@ -13,7 +13,7 @@
   "words": 616264,
   "texts": 16,
   "period": "1524-1696",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://www.tycho.iel.unicamp.br/corpus/texts/txt.zip; rebuild/tychobrahe_portuguese_source_selection_2026-06-24.tsv; data/raw/TychoBrahe_Portuguese/TychoBrahe_Portuguese.jsonl; rebuild/rawtree_full_l",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.tycho.iel.unicamp.br/corpus/texts/txt.zip.",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 616264,
@@ -22,5 +22,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://www.tycho.iel.unicamp.br/corpus/en/termos.html",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "Instituto de Estudos da Linguagem (IEL), Universidade Estadual de Campinas (UNICAMP), with IME-USP"
 }

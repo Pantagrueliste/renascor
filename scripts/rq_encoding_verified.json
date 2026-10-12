@@ -352,13 +352,6 @@
       "basis": "The live GitHub files under tei/ are TEI P5 (root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, with <lg type=\"sonnet\"> and <l met rhyme>). The README states the corpus is published in XML-TEI P5 and in plain text, so TEI is the richest published format.",
       "confidence": "high"
     },
-    "dissed-phdeditions": {
-      "encoding": "other",
-      "public_files": "none",
-      "data_url": null,
-      "basis": "Public format: PDF editions; the documented TEI file was not published. Previous source audit: Four of the five source theses (Sjökvist 2007 and 2012, De Carolis 2015, Tondi 2019) publish their edited text only as PDF. The fifth, Salvati 2024 (Ladam, Chronique abrégée, about 39% of the entry's characters), is explicitly documented in its own PDF as a TEI-XML P5 digital edition, so tei ranks highest by precedence. That TEI was never published.",
-      "confidence": "medium"
-    },
     "doctrinalima1584-quechua": {
       "encoding": "html",
       "public_files": "none",
@@ -597,13 +590,6 @@
       "basis": "The edition is it.wikisource's proofread transcription of Favaro's Edizione Nazionale. Its text lives in ProofreadPage wikitext pages (e.g. Pagina:Le opere di Galileo Galilei III.djvu/255: <pagequality level=\"3\">, {{Pt}}, {{AutoreCitato}}, <ref>), which ns0 pages transclude with <pages index=…/>. No TEI or XML edition exists. RQ's plain text is its own derivation.",
       "confidence": "high"
     },
-    "gallicorpora-french-htr": {
-      "encoding": "tei",
-      "public_files": "tei",
-      "data_url": "https://github.com/Gallicorpora/TEI/tree/main/Corpus_print_16-18",
-      "basis": "Every source in this bundle publishes the transcriptions as ALTO v4 XML (String CONTENT observed). TEI P5 for the same documents is also published by Gallicorpora itself (Gallicorpora/TEI, root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, 22 of its 25 texts) and by SETAF (TEI-SETAF, all 19 Pierre de Vingle texts), so the precedence rule gives tei. 'plain-text' was RQ's own JSONL derivation. One caveat: Gallicorpora's TEI is an uncorrected Kraken transcription, not the ground truth (see flags). If the entry should describe only the ground-truth text, 'xml' is the stricter value.",
-      "confidence": "medium"
-    },
     "gams-baselrecords": {
       "encoding": "tei",
       "public_files": "tei",
@@ -630,13 +616,6 @@
       "public_files": "tei",
       "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2544",
       "basis": "The project documentation, shipped inside the OTA zip, describes a 'TEI-annotated corpus (TEI)' encoded in 'TEI lite P5'. The OTA/LLDS 2544.zip is byte-identical to the local harvest (MD5 ca757d121bbda2ecbfea1ff81d06d053). It contains TEI/ with 336 files, all with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">.",
-      "confidence": "high"
-    },
-    "gilberti-purepecha": {
-      "encoding": "xml",
-      "public_files": "xml",
-      "data_url": "https://archive.org/download/vocabularioenlen00gilb",
-      "basis": "The Internet Archive item (John Carter Brown Library copy of the 1559 Juan Pablos print, OCR by ABBYY FineReader 8.0) publishes its OCR as XML: vocabularioenlen00gilb_djvu.xml (root <DjVuXML>, 546 pages, 92,035 <WORD coords> elements, including the headwords RQ extracted) and _abbyy.gz (ABBYY FineReader XML). It also offers hOCR HTML and _djvu.txt. These are OCR layout formats that carry the full text, but the text is uncorrected machine OCR, not an edited or TEI encoding. 'plain-text' only reflects RQ's own JSONL extraction.",
       "confidence": "high"
     },
     "glasgowemblems": {
@@ -695,13 +674,6 @@
       "data_url": "https://www.etnolinguistica.org/biblio:taylor-1987-ritos",
       "basis": "The Biblioteca Digital Curt Nimuendajú record offers a single file: a 10.5 MB PDF of Taylor's printed 1987 edition, made of page images with an OCR text layer. RQ's plain text is its own extraction from that PDF, and the OCR spacing artefacts survive in it. No XML, HTML or plain-text release of the edition exists.",
       "confidence": "high"
-    },
-    "humanumgitlab": {
-      "encoding": "tei",
-      "public_files": "tei",
-      "data_url": "https://gitlab.huma-num.fr/crh/factums-metiers/factums-ancien-regime",
-      "basis": "All 77 in-core texts come from 7 public Huma-Num GitLab repositories. I opened one file from each at the live source, and every one has a TEI P5 root (<TEI xmlns=\"http://www.tei-c.org/ns/1.0\">). RQ's fmt_detected is tei for all 248 texts in the collection.",
-      "confidence": "medium"
     },
     "icepahc-icelandic": {
       "encoding": "plain-text",
@@ -836,13 +808,6 @@
       "basis": "LAUDATIO publishes the text only as TIGER-XML (root <corpus xsi:noNamespaceSchemaLocation=\"./schema/TigerXML.xsd\">, tokens as <t word= pos= morph=>), NEGRA export and relANNIS. Its 'TEI Metadata' download holds TEI headers only, with an empty <text />, so the text itself is non-TEI XML.",
       "confidence": "high"
     },
-    "montoya-guarani": {
-      "encoding": "xml",
-      "public_files": "xml",
-      "data_url": "https://archive.org/download/gramaticaydiccio02ruiz",
-      "basis": "The Internet Archive item (JCB copy of Varnhagen's 1876 Vienna/Paris edition of Ruiz de Montoya's Arte, Vocabulario y Tesoro) publishes its OCR as XML: gramaticaydiccio02ruiz_djvu.xml (root <DjVuXML>, 426 pages, 213,507 <WORD> elements, including the Guarani phrases RQ extracted) and _abbyy.gz (ABBYY FineReader XML). It also offers hOCR HTML and _djvu.txt. These are OCR layout formats that carry the text, but the text is uncorrected machine OCR, not an edited or TEI encoding.",
-      "confidence": "high"
-    },
     "muysccubun-muisca": {
       "encoding": "wikitext",
       "public_files": "none",
@@ -850,32 +815,11 @@
       "basis": "muysca.cubun.org runs MediaWiki 1.35.14 and its transcriptions are written in wiki markup. action=raw on Manuscrito_158_BNC/Gramática/fol_1r returns template-based wikitext ({{trascripcion_158 |seccion=Gramática |foto=...}}, with <br>, {{an1|-}} and a diplomatic plus a 'texto' layer). The HTML pages are only MediaWiki's rendering of that wikitext. No TEI or XML edition exists. The 'plain-text' value came from RQ's own JSONL derivation. This follows the catalogue's convention for MediaWiki sources (the Wikisource entry is 'wikitext').",
       "confidence": "high"
     },
-    "nahuatl-depth": {
-      "encoding": "other",
-      "public_files": "none",
-      "data_url": "https://www.history.ucsb.edu/wp-content/uploads/testaments_of_culhuacan.pdf",
-      "basis": "The entry's url and 80 of RQ's 96 texts point to the UCSB-hosted provisional edition of The Testaments of Culhuacan (Cline & León-Portilla). It is published only as a 143-page PDF with the Nahuatl transcription and the English translation in two columns; RQ's plain text is its own extraction of the Nahuatl column. The other 16 texts come from a different project, the Early Nahuatl Library, which publishes HTML pages and offers TEI XML of its database only on e-mail request.",
-      "confidence": "medium"
-    },
-    "nakala": {
-      "encoding": "tei",
-      "public_files": "tei",
-      "data_url": "https://nakala.fr/",
-      "basis": "All 120 RQ 'Nakala' files (109 in-core) in the local raw copy /Volumes/Pollux/Downloads/nakala_renaissance have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. Five datasets opened live from Nakala are served as application/tei+xml with the same TEI P5 root. The 'xml' value reflects only RQ's fmt_detected.",
-      "confidence": "high"
-    },
     "newton-project": {
       "encoding": "tei",
       "public_files": "tei",
       "data_url": "https://www.newtonproject.ox.ac.uk/texts/browse-all-texts/by-category",
       "basis": "Every Newton Project text page offers 'Download <ID>.xml and schema (advanced users only)'. /view/texts/xml/NATP00001 and NATP00089 return text/xml with root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:np=\"...\" type=\"transcription\">. The revision history reads 'Updated to Newton V3.0 (TEI P5 Schema)', and the About page documents 'MathML and TEI-P5 encoding'. The 'plain-text' value came from RQ's own JSONL derivation.",
-      "confidence": "high"
-    },
-    "norman-musenormande": {
-      "encoding": "xml",
-      "public_files": "xml",
-      "data_url": "https://archive.org/download/lamusenormanded09ferrgoog",
-      "basis": "The Internet Archive item (Google scan of the NYPL copy of Héron's edition of La Muse normande, Tome II, Rouen 1891, OCR by ABBYY FineReader 8.0) publishes its OCR as XML: lamusenormanded09ferrgoog_djvu.xml (root <DjVuXML>, 457 pages, 93,966 <WORD> elements) and _abbyy.gz (ABBYY FineReader6 XML with character-level charParams), alongside _djvu.txt. These are OCR layout formats that carry the text, but the text is uncorrected machine OCR, not an edited or TEI encoding.",
       "confidence": "high"
     },
     "noscemus": {
@@ -1134,13 +1078,6 @@
       "basis": "I downloaded all 62 sermons from the project's own endpoint (/SERMO/collection/downloadXML). Every file is well-formed TEI P5, with the root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, a teiHeader and the xml-model tei_sermo.rnc, and every file is byte-identical to one of RQ's 62 source files.",
       "confidence": "high"
     },
-    "sloveneimp": {
-      "encoding": "tei",
-      "public_files": "tei",
-      "data_url": "https://www.clarin.si/repository/xmlui/handle/11356/1031",
-      "basis": "I read the live IMP-corpus-tei.zip at CLARIN.SI hdl 11356/1031 with an HTTP range request. ZRC_00002-1695-ana.xml has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\"> and records a 'Conversion to TEI P5' change. The record's subjects include 'TEI', and the IMP site says all resources follow a TEI P5-based schema. The local harvest is byte-identical to the live zip.",
-      "confidence": "high"
-    },
     "smi-italianmusic": {
       "encoding": "html",
       "public_files": "none",
@@ -1216,13 +1153,6 @@
       "public_files": "xml",
       "data_url": "http://www.theatre-classique.fr/pages/programmes/PageEdition.php",
       "basis": "The project publishes one XML file per play (pages/documents/<ID>.xml, linked as 'XML' for each play on PageEdition.php). These are TEI-like but not conformant TEI: root <TEI xml:lang=\"fr\"> with no TEI namespace and no DTD, plus non-TEI elements such as <SourceDesc>, <genre>, <periode>, <permalien> and author@born. The site says only that it was 'inspired by a lightened TEI.2 DTD'; namespaced TEI P5 exists only in the third-party dramacode/tcp5 conversion that RQ used.",
-      "confidence": "medium"
-    },
-    "thornton-kikongo": {
-      "encoding": "html",
-      "public_files": "none",
-      "data_url": "https://www.kaowarsom.be/fr/memoir_249",
-      "basis": "Thornton's only part, the Roboredo sermon (c.1649), is published as a WordPress HTML page: a diplomatic transcription with '/' line breaks, bracketed expansions, 74 notes and an English translation. No files are attached. The Cardoso 1624 Doutrina Christãa text comes from Bontinck & Ndembe Nsasi's 1978 critical edition, which ARSOM offers only as a scanned PDF with an OCR layer. There is no XML or TEI anywhere, and RQ's 'plain' is its own JSONL.",
       "confidence": "medium"
     },
     "ticha-zapotec": {

@@ -42,7 +42,7 @@ FAMILIES_PATH = REPO_ROOT / "scripts" / "rq_families.json"
 STATS_NOTE = (
     "Corpus statistics (text, word and language counts, period) derived "
     "from the Renascor Corpus snapshot v2026.06 "
-    "(in-core, including retained duplicates; harvested subset)."
+    "(texts harvested from this edition, duplicates included; they may cover only part of it)."
 )
 
 FALLBACK_URL = "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen"

@@ -1,11 +1,11 @@
 {
-  "title": "Philosophical Transactions (pre-1750 archive)",
-  "url": "https://royalsocietypublishing.org/",
+  "title": "Royal Society Corpus 6.0 Open - Philosophical Transactions (1665-1700)",
+  "url": "https://fedora.clarin-d.uni-saarland.de/rsc_v6/",
   "data_url": "https://fedora.clarin-d.uni-saarland.de/rsc_v6/access.html",
   "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
-  "institution": "The Royal Society",
+  "institution": "Saarland University (SFB 1102, Project B1 'Information Density and Scientific Literacy in English'; Fischer, Knappen, Menzel, Teich)",
   "languages": [
     "English"
   ],
@@ -14,7 +14,7 @@
   "texts": 1424,
   "period": "1665-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "The Royal Society Corpus 6.0 Open, built at Saarland University from the Philosophical Transactions of the Royal Society of London (texts from JSTOR and the Royal Society); the full corpus covers 1665-1920 and this entry covers the texts up to 1700. Licence CC BY-NC-SA 4.0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 2795758,

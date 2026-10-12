@@ -14,7 +14,7 @@
   "texts": 1303,
   "period": "1453-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "Texts of the Deutsches Textarchiv, plus the Luther Bible (1545, last hand; 76 texts), which is not a DTA text: it comes from an OSIS edition (2012) published at lutherbibel.net, a site that now returns HTTP 410 (gone). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 41616768,

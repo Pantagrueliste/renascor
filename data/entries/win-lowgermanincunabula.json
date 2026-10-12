@@ -13,7 +13,7 @@
   "words": 27584,
   "texts": 6,
   "period": "1480-1480",
-  "notes": "The WiN project (Goettingen GCDH, funded by Niedersächsisches Vorab) built a parallel corpus of Early New High German short narratives and their Middle Low German versions from late 15th c. incunabula (Dracole, Griseldis, Juden, Graf, Kaufleute...), published as WiN-Korpus v1.0 (2022) in the LAUDATIO repository (HU Berlin), TEI-annotated, with the transcription handbook on DARIAH-DE; the project page is uni-goettingen.de/de/wiedererzählen+im+norden./607371.html. The harvested origins ('WiN Low German incunable: Dracole (c.1480)' etc.) are the corpus's individual texts. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "The WiN project (Goettingen GCDH, funded by Niedersächsisches Vorab) built a parallel corpus of Early New High German short narratives and their Middle Low German versions from late 15th c. incunabula (Dracole, Griseldis, Juden, Graf, Kaufleute...), published as WiN-Korpus v1.0 (2022) in the LAUDATIO repository (HU Berlin), TEI-annotated, with the transcription handbook on DARIAH-DE; the project page is uni-goettingen.de/de/wiedererzählen+im+norden./607371.html. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Georg-August-Universität Göttingen (Heike Sahm, Marco Coniglio, Chiara De Bastiani, Anabel Recker, Jan Christian Schaffert; PRO*Niedersachsen)",
   "corpus_statistics": {
     "snapshot": "v2026.06",

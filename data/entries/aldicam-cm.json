@@ -1,0 +1,22 @@
+{
+  "title": "ALDICAM-CM — Atlas lingüístico diacrónico e interactivo de la Comunidad de Madrid",
+  "url": "https://aldicam.corpuscodea.es/",
+  "languages": [
+    "Spanish",
+    "Latin"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "GITHE, Universidad de Alcalá (project S2015/HUM-3443, Comunidad de Madrid / FSE)",
+  "words": 152608,
+  "texts": 429,
+  "region": "Comunidad de Madrid (Spain)",
+  "countries": [
+    "ES"
+  ],
+  "period": "1250-1897",
+  "notes": "Transcribed archival documents from the 13th to the 19th century from archives of the Comunidad de Madrid (Archivo Regional, Archivo de la Villa, municipal, ecclesiastical and private archives), with paleographic and critical presentation and facsimiles, searchable and mappable without login. Same search engine as CODEA+ 2022; about a third of the regestos coincide with CODEA+ 2022 documents. No bulk download found. About a third of its document summaries coincide with CODEA+ 2022. Counts cover the 429 documents dated within or overlapping 1450-1700 (word forms from the project's inventory, counted by us); the whole corpus has 866 documents (277,675 forms, 1250-1897).",
+  "license": "Not stated",
+  "provenance": "discovered",
+  "date_added": "2026-10-12"
+}

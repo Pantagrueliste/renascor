@@ -1,0 +1,24 @@
+{
+  "title": "Occitan Wikisource: Renaissance texts (Godolin, Gailhard, Esquerrier, Garros)",
+  "url": "https://oc.wikisource.org/",
+  "languages": [
+    "Occitan"
+  ],
+  "encoding": "wikitext",
+  "status": "active",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 21007,
+  "texts": 49,
+  "period": "1456-1617",
+  "notes": "Transcriptions on Occitan Wikisource of Arnaud Esquerrier's chronicle of the counts of Foix, Pèire Godolin's Ramelet Moundi, Augièr Gailhard's Lou Banquet and Pèir de Garròs's Poesias gasconas. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 21007,
+    "texts": 49
+  },
+  "count_basis": "rq-retained-rows",
+  "institution": "Occitan Wikisource community (Wikimedia)",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/"
+}

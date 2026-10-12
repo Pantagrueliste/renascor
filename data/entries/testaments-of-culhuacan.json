@@ -1,0 +1,24 @@
+{
+  "title": "The Testaments of Culhuacan (S. L. Cline & M. León-Portilla)",
+  "url": "https://www.history.ucsb.edu/wp-content/uploads/testaments_of_culhuacan.pdf",
+  "languages": [
+    "Nahuatl"
+  ],
+  "encoding": "other",
+  "status": "archived",
+  "provenance": "submitted",
+  "date_added": "2026-10-07",
+  "words": 25121,
+  "texts": 78,
+  "period": "1572-1599",
+  "notes": "Nahuatl testaments from Culhuacan with English translation, from the 1984 edition, made available as a PDF by the UCSB Department of History. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "corpus_statistics": {
+    "snapshot": "v2026.06",
+    "words": 25121,
+    "texts": 78
+  },
+  "count_basis": "rq-retained-rows",
+  "institution": "Sarah L. Cline and Miguel León-Portilla; UCLA Latin American Center Publications (Nahuatl Studies Series 1, 1984); PDF hosted by the UCSB Department of History",
+  "license": "Not stated",
+  "license_note": "No reuse licence established from the available publisher-source evidence."
+}

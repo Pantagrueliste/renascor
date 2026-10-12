@@ -1,19 +1,19 @@
 {
-  "title": "tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový)",
-  "url": "https://github.com/CzechLanguageInstitute/tei2019",
+  "title": "Lék jádro brněnské (Knihy lékařské) — Vokabulář webový",
+  "url": "https://vokabular.ujc.cas.cz/edice/LekJadroBrn/",
   "data_url": "https://github.com/CzechLanguageInstitute/tei2019/tree/master/Conversion/Output",
   "data_format": "tei",
   "languages": [
     "Czech"
   ],
   "encoding": "tei",
-  "status": "archived",
+  "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 69891,
   "texts": 1,
   "period": "1503-1503",
-  "notes": "Repository accompanying the TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions' (Boris Lehečka, ÚJČ AV ČR), containing ~240 digital editions of Old/Middle Czech texts (1300-1800) published in Vokabulář webový (https://vokabular.ujc.cas.cz/, live 200). 'LekJadroBrn' = the edition of 'Lék jádro brněnské' (Knihy lékařské, 1502-1503), matching the collected file cz_lekjadrobrn_1503.txt. Origin verbatim: 'LekJadroBrn (Knihy lékařské, 1502-1503)'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "Lék jádro brněnské ('Knihy lékařské', c. 1502-1503) is one of the digital editions of Old and Middle Czech texts published by the Czech Language Institute (ÚJČ AV ČR) in Vokabulář webový (https://vokabular.ujc.cas.cz/). The TEI file comes from the GitHub repository accompanying Boris Lehečka's TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions', which contains only two converted sample editions. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",
   "last_modified": "2019-09-19",
   "corpus_statistics": {

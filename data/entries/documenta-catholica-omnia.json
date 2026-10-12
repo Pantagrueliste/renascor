@@ -12,8 +12,8 @@
   "words": 2487100,
   "texts": 40,
   "period": "1457-1668",
-  "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "status": "archived",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 2487100,
@@ -21,6 +21,7 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
-  "license_url": "https://www.documentacatholicaomnia.eu/a_1200_Copyright",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_url": "https://www.documentacatholicaomnia.eu/a_1000_About_Us.html",
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "Cooperatorum Veritatis Societas"
 }

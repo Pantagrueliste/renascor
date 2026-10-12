@@ -7,14 +7,14 @@
     "French"
   ],
   "encoding": "html",
-  "status": "active",
+  "status": "archived",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 999019,
   "texts": 33,
-  "institution": "Conservatoire national des arts et métiers",
+  "institution": "Association des Bibliophiles Universels (ABU); hosted by the CEDRIC team (Multimédia et Interaction Homme-Machine) at the Conservatoire national des arts et métiers",
   "period": "1480-1693",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset). https://abu.cnam.fr; rebuild/abu_french_source_selection_2026-06-24.tsv; data/raw/ABU_French/ABU_French.jsonl; rebuild/rawtree_full_lock_2026-07-16.tsv",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it). https://abu.cnam.fr.",
   "corpus_statistics": {
     "snapshot": "v2026.06",
     "words": 999019,

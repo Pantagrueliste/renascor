@@ -1,6 +1,6 @@
 {
   "title": "The Nottingham Corpus of Early Modern German Midwifery and Women's Medicine, ca. 1500–1700 (GeMi, OTA 2562)",
-  "url": "https://ota.ox.ac.uk/desc/2562",
+  "url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2562",
   "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/2562",
   "data_format": "tei",
   "languages": [
@@ -13,7 +13,7 @@
   "words": 105188,
   "texts": 12,
   "period": "1500-1690",
-  "notes": "Whitt's GeMi corpus (OTA 2562, published 2016) holds 12 German midwifery and women's-medicine texts ca. 1500–1700 (Rösslin's Rosengarten, the anonymous Frauenbüchlein ca. 1500, Rüff's Trostbüchlein, HoffWeheMutter, HebammenBuch...) in paired RAW plain-text and TEI XML files plus a manual — the RAW/TEI file pairs with dates match the harvest origins one-for-one ('GeMi: FrauenbüchleinRAW (1500)', 'GeMi: RosengartenRAW (1513)', 'GeMi: JungfrawenRAW (1624)'; 12 distinct origin files = the 12 corpus texts). Transcriptions derive mostly from the Würzburg 'Digitale Volltexte' Gynäkologie collection; CC BY-NC-SA 3.0. Caveat: OTA pages sit behind an Anubis anti-bot proof-of-work gate (HTTP 200 but challenge page to crawlers); open the URL in a browser. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "Whitt's GeMi corpus (Oxford Text Archive 2562, published 2016) holds 12 German midwifery and women's-medicine texts ca. 1500–1700 (Rösslin's Rosengarten, the anonymous Frauenbüchlein ca. 1500, Rüff's Trostbüchlein, HoffWeheMutter, HebammenBuch...) as paired plain-text and TEI XML files plus a manual. Transcriptions derive mostly from the Würzburg 'Digitale Volltexte' Gynäkologie collection; CC BY-NC-SA 3.0. The record is now held on the Oxford Text Archive's repository server (llds.ling-phil.ox.ac.uk); the older ota.ox.ac.uk/desc/2562 address no longer works, and the repository shows a bot-check page before the record in a browser. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "University of Nottingham (Richard J. Whitt), deposited at the Oxford Text Archive (ota:2562)",
   "corpus_statistics": {
     "snapshot": "v2026.06",

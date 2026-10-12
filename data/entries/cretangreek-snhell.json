@@ -1,6 +1,6 @@
 {
   "title": "Anthologies of the Spoudastirion Neou Ellinismou (snhell.gr) — Cretan Greek lyric poetry",
-  "url": "http://web.archive.org/web/20010623201249/http://www.snhell.gr:80/a_anth_text.asp",
+  "url": "http://web.archive.org/web/20250109043553/http://www.snhell.gr/anthology/writer.asp?id=55",
   "languages": [
     "Greek"
   ],
@@ -11,7 +11,7 @@
   "words": 1736,
   "texts": 3,
   "period": "1590-1655",
-  "notes": "Three Cretan poems from the online anthologies of the Spoudastirion Neou Ellinismou (snhell.gr; ed. Kritiki Lyriki Poiisi, Ermis 1999), which RQ harvested through the Wayback Machine. The host snhell.gr no longer resolves; the entry points to a verified archived snapshot (the whole domain is archived, see also http://web.archive.org/web/19981111191619/http://www.snhell.gr:80/). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (in-core, including retained duplicates; harvested subset).",
+  "notes": "Three Cretan poems (dedications to Chortatsis' Erofili and Panoria and Foskolos' Fortounatos) from the online anthology of the Spoudastirion Neou Ellinismou (snhell.gr; text from Kritiki Lyriki Poiisi, Ermis 1999), harvested through the Wayback Machine. The host snhell.gr no longer resolves; the entry points to an archived snapshot of Chortatsis' page (2025), and the Foskolos text is at https://web.archive.org/web/20250809221230/http://www.snhell.gr/anthology/content.asp?id=46&author_id=54. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine",
   "corpus_statistics": {
     "snapshot": "v2026.06",
