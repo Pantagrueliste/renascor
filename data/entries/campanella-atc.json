@@ -28,5 +28,17 @@
   "license_url": "https://www.iliesi.cnr.it/ATC/copyright.php",
   "license_note": "Copyright restrictions apply; no standard open reuse licence established.",
   "institution": "ILIESI-CNR (Istituto per il Lessico Intellettuale Europeo e Storia delle Idee), Rome",
-  "doi": "10.26335/atc"
+  "doi": "10.26335/atc",
+  "language_counts": [
+    {
+      "language": "Italian",
+      "texts": 16,
+      "words": 657442
+    },
+    {
+      "language": "Latin",
+      "texts": 5,
+      "words": 45767
+    }
+  ]
 }

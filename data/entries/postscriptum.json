@@ -27,5 +27,17 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://portulanclarin.net/static/metashare/licences/CC-BYNCNDv3.0.htm",
-  "license_note": "Includes CC-BY-NC-ND-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes CC-BY-NC-ND-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "language_counts": [
+    {
+      "language": "Portuguese",
+      "texts": 884,
+      "words": 454983
+    },
+    {
+      "language": "Spanish",
+      "texts": 994,
+      "words": 444858
+    }
+  ]
 }

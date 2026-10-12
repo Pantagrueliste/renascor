@@ -27,5 +27,17 @@
   "license": "Not stated",
   "license_url": "http://backend.bibliotecaitaliana.it/wp-json/muruca-core/v1/pages",
   "license_note": "No reuse licence established from the available publisher-source evidence.",
-  "institution": "Sapienza Università di Roma, Dipartimento di Lettere e Culture Moderne (Biblioteca Italiana, dir. Beatrice Alfonzetti and Stefano Asperti)"
+  "institution": "Sapienza Università di Roma, Dipartimento di Lettere e Culture Moderne (Biblioteca Italiana, dir. Beatrice Alfonzetti and Stefano Asperti)",
+  "language_counts": [
+    {
+      "language": "Italian",
+      "texts": 889,
+      "words": 28627510
+    },
+    {
+      "language": "Latin",
+      "texts": 85,
+      "words": 1216672
+    }
+  ]
 }

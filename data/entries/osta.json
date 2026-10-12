@@ -29,5 +29,29 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-SA-4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
-  "doi": "10.5281/zenodo.18931376"
+  "doi": "10.5281/zenodo.18931376",
+  "language_counts": [
+    {
+      "language": "Spanish",
+      "texts": 372,
+      "words": 21362413
+    },
+    {
+      "language": "Aragonese",
+      "texts": 2,
+      "words": 113750,
+      "works": [
+        "OSTA text ACM",
+        "OSTA text STR"
+      ]
+    },
+    {
+      "language": "Latin",
+      "texts": 1,
+      "words": 43545,
+      "works": [
+        "OSTA text AXE"
+      ]
+    }
+  ]
 }

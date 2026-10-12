@@ -26,5 +26,25 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-SA-4.0",
-  "license_url": "https://it.wikisource.org/wiki/Il_Saggiatore"
+  "license_url": "https://it.wikisource.org/wiki/Il_Saggiatore",
+  "language_counts": [
+    {
+      "language": "Italian",
+      "texts": 3,
+      "words": 91255,
+      "works": [
+        "Colombe, Contro il moto della terra",
+        "Frammenti attenenti al Dialogo",
+        "Rocco, Esercitazioni filosofiche"
+      ]
+    },
+    {
+      "language": "Latin",
+      "texts": 1,
+      "words": 6099,
+      "works": [
+        "De telluris motu vel quiete"
+      ]
+    }
+  ]
 }

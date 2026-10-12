@@ -28,5 +28,26 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://celt.ucc.ie/faq.html",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "language_counts": [
+    {
+      "language": "Irish",
+      "texts": 59,
+      "words": 1608251
+    },
+    {
+      "language": "English",
+      "texts": 5,
+      "words": 149694
+    },
+    {
+      "language": "Latin",
+      "texts": 2,
+      "words": 73112,
+      "works": [
+        "CELT L100001",
+        "CELT L100012"
+      ]
+    }
+  ]
 }

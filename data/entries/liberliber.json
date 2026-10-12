@@ -28,5 +28,35 @@
   "license": "Mixed",
   "license_url": "https://liberliber.it/opere/libri/licenze/",
   "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "institution": "Associazione Culturale Liber Liber (Progetto Manuzio)"
+  "institution": "Associazione Culturale Liber Liber (Progetto Manuzio)",
+  "language_counts": [
+    {
+      "language": "Italian",
+      "texts": 302,
+      "words": 28053938
+    },
+    {
+      "language": "Multilingual",
+      "texts": 3,
+      "words": 264976,
+      "works": [
+        "Ariosto, Lettere",
+        "Folengo, Baldus",
+        "Galilei, Istoria e dimostrazioni intorno alle macchie solari"
+      ]
+    },
+    {
+      "language": "Latin",
+      "texts": 4,
+      "words": 64317
+    },
+    {
+      "language": "Venetian",
+      "texts": 1,
+      "words": 5387,
+      "works": [
+        "Ruzante, Bilora"
+      ]
+    }
+  ]
 }

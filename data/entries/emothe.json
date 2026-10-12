@@ -30,5 +30,35 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en",
-  "license_note": "Includes CC-BY-NC-ND-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes CC-BY-NC-ND-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "language_counts": [
+    {
+      "language": "Spanish",
+      "texts": 20,
+      "words": 327997
+    },
+    {
+      "language": "English",
+      "texts": 11,
+      "words": 245331
+    },
+    {
+      "language": "French",
+      "texts": 11,
+      "words": 197976
+    },
+    {
+      "language": "Italian",
+      "texts": 4,
+      "words": 66717
+    },
+    {
+      "language": "Portuguese",
+      "texts": 1,
+      "words": 4239,
+      "works": [
+        "Gil Vicente, Auto da Barca do Inferno"
+      ]
+    }
+  ]
 }
