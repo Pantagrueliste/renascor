@@ -49,7 +49,7 @@ SITE_DESCRIPTION = "An open catalogue of digital editions of Renaissance-era wri
 SCOPE = (1450, 1700)
 SNAPSHOTS = {"v2026.06": {"frozen": "2026-06-26"}}      # add a line for each new RQ snapshot
 SNAPSHOT_NAME = "Renascor Corpus"
-SNAPSHOT_SCOPE = "texts harvested from each edition, duplicates included"
+SNAPSHOT_SCOPE = "texts harvested from each resource, duplicates included"
 PSEUDO_LANGUAGES = {"Multilingual", "Romance (other)"}
 ENCODING_ORDER = ["tei", "xml", "json", "html", "wikitext", "plain-text", "markdown", "other"]
 STATUS_ORDER = ["active", "archived", "discontinued"]
@@ -641,18 +641,18 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
     other_bits = []
     if s["figures"]["other"]:
         names = join_and([chart_label(t) for t in s["figures"]["other_titles"]])
-        other_bits.append(f"For {plural(s['figures']['other'], 'edition')} the counts come from "
+        other_bits.append(f"For {plural(s['figures']['other'], 'resource')} the counts come from "
                           f"other sources: {names}.")
     if s["figures"]["none"]:
         k = s["figures"]["none"]
-        other_bits.append(f"{plural(k, 'edition')} {'has' if k == 1 else 'have'} no word or text count.")
+        other_bits.append(f"{plural(k, 'resource')} {'has' if k == 1 else 'have'} no word or text count.")
 
     missing = n - s["with_words"]
     if missing:
-        share_note = (f"Shares of the {fmt_int(s['words'])} words recorded for {plural(s['with_words'], 'edition')}; "
-                      f"{plural(missing, 'edition')} {'has' if missing == 1 else 'have'} no word count.")
+        share_note = (f"Shares of the {fmt_int(s['words'])} words recorded for {plural(s['with_words'], 'resource')}; "
+                      f"{plural(missing, 'resource')} {'has' if missing == 1 else 'have'} no word count.")
     else:
-        share_note = f"Shares of the {fmt_int(s['words'])} words recorded for all {plural(n, 'edition')}."
+        share_note = f"Shares of the {fmt_int(s['words'])} words recorded for all {plural(n, 'resource')}."
 
     share_note += " Collection totals include overlapping texts."
     disc = s["provenance"].get("discovered", 0)
@@ -662,7 +662,7 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
     year = (citation.get("date-released") or updated or "")[:4]
     display = {
         "editions": fmt_int(n),
-        "editions_label": plural(n, "edition"),
+        "editions_label": plural(n, 'resource'),
         "languages": fmt_int(s["languages"]),
         "language_labels": fmt_int(s["language_labels"]),
         "texts": fmt_int(s["texts"]),
@@ -672,7 +672,7 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
         "corpus_words": fmt_int(corpus["words"]) if corpus else "—",
         "corpus_words_compact": compact_words(corpus["words"]) if corpus else "—",
         "with_words": fmt_int(s["with_words"]),
-        "with_words_editions": plural(s["with_words"], "edition"),
+        "with_words_editions": plural(s["with_words"], 'resource'),
         "without_words": fmt_int(missing),
         "figures_rq": fmt_int(s["figures"]["rq"]),
         "discovered": fmt_int(disc),
@@ -692,9 +692,9 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
         "figures_other_sentence": " ".join(other_bits),
         "largest_share": pct(s["largest"]["words"], s["words"]) if s["largest"] and s["words"] else "0%",
         "share_note": share_note,
-        "with_last_modified": plural(s["with_last_modified"], "edition"),
-        "with_data_url": plural(s["with_data_url"], "edition") if s["with_data_url"] else "",
-        "with_countries": plural(s["with_countries"], "edition") if s["with_countries"] else "",
+        "with_last_modified": plural(s["with_last_modified"], 'resource'),
+        "with_data_url": plural(s["with_data_url"], 'resource') if s["with_data_url"] else "",
+        "with_countries": plural(s["with_countries"], 'resource') if s["with_countries"] else "",
         "areas_list": join_and(areas or []),
         "citation_author_year": f"{citation.get('author', '')} ({year}).",
         "citation_title": citation.get("title", ""),
@@ -702,10 +702,10 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
     }
     for k in STATUS_ORDER:
         c = s["status"][k]
-        display[f"status_{k}"] = plural(c, "edition") + "." if c else "None at present."
+        display[f"status_{k}"] = plural(c, 'resource') + "." if c else "None at present."
     for k in ENCODING_ORDER:
         c = s["encoding"][k]
-        display[f"encoding_{k.replace('-', '_')}"] = plural(c, "edition") + "." if c else "None at present."
+        display[f"encoding_{k.replace('-', '_')}"] = plural(c, 'resource') + "." if c else "None at present."
     return display
 
 
@@ -728,9 +728,9 @@ def share_chart(stats: dict) -> str:
     rest_words = total - sum(t["words"] for t in s["top_by_words"])
     rest_n = s["with_words"] - len(s["top_by_words"])
     if rest_n > 0:
-        rows.append(row(html.escape(plural(rest_n, "other edition")), rest_words, ' class="rest"'))
+        rows.append(row(html.escape(plural(rest_n, "other resource")), rest_words, ' class="rest"'))
     return ('<table class="sharet"><caption>Share of recorded collection words, including overlaps</caption>'
-            '<thead><tr><th scope="col">Edition</th><th scope="col"><span class="sr-only">Share, as a bar</span></th>'
+            '<thead><tr><th scope="col">Resource</th><th scope="col"><span class="sr-only">Share, as a bar</span></th>'
             '<th scope="col" class="num">Share</th><th scope="col" class="num">Words</th></tr></thead>'
             '<tbody>' + "".join(rows) + '</tbody></table>')
 

@@ -131,7 +131,7 @@ function load() {
 			els.viewTable.hidden = els.viewCards.hidden = true;
 			els.state.innerHTML = `<div class="state"><p class="state-text">The catalogue data could not be loaded (${esc(err.message)}). ` +
 				'Try reloading the page. The full catalogue is also available as <a href="renascor.csv">renascor.csv</a> and ' +
-				`<a href="renascor.json">renascor.json</a>, or as one JSON file per edition on <a href="${REPO}/tree/main/data/entries">GitHub</a>.</p></div>`;
+				`<a href="renascor.json">renascor.json</a>, or as one JSON file per resource on <a href="${REPO}/tree/main/data/entries">GitHub</a>.</p></div>`;
 		});
 }
 
@@ -205,7 +205,7 @@ function buildFacets() {
 	html += facetHTML('size', 'Size', optList('size', SIZES.map(s => s[0]).filter(k => present(k, r => r.d.size_band || 'none')), k => SIZE_LABEL[k]));
 	if (hasFiles) {
 		html += facetHTML('files', 'Files', optList('files', ENC_ORDER.concat('none').filter(k => records.some(r => r.fileKeys.includes(k))), k => FILE_LABEL[k]),
-			'The format of the files that can be downloaded for each edition: repository, download page or dataset record.');
+			'The format of the files that can be downloaded for each resource: repository, download page or dataset record.');
 	}
 	els.facetList.innerHTML = html;
 	facetOpts = {};
@@ -573,7 +573,7 @@ function rowFor(r) {
 		`<td class="c-period">${periodCell(r)}</td><td class="c-words num">${numCell(e.words)}</td><td class="c-texts num">${numCell(e.texts)}</td>` +
 		`<td class="c-enc">${esc(encLabel(e.encoding))}${e.data_url ? filesLink(r, ICON.down, ' class="dl"') : ''}</td>` +
 		`<td class="c-status">${statusHTML(e.status)}</td>` +
-		`<td class="c-link">${extLink(e.url, ICON.ext, ` class="ext" aria-label="${esc((r.d.archived_copy ? 'Open the archived copy of ' : 'Open the edition ') + e.title)} (opens in a new tab)"`)}</td>`;
+		`<td class="c-link">${extLink(e.url, ICON.ext, ` class="ext" aria-label="${esc((r.d.archived_copy ? 'Open the archived copy of ' : 'Open the resource ') + e.title)} (opens in a new tab)"`)}</td>`;
 	r.tr = tr;
 	r.trLang = tr.querySelector('.c-lang');
 	r.trMeta = tr.querySelector('.m-meta');
@@ -598,7 +598,7 @@ function cardFor(r) {
 	el.setAttribute('aria-labelledby', 'ct-' + r.id);
 	const size = hasNum(e.words) ? plural(e.words, 'word') + (hasNum(e.texts) ? ' · ' + plural(e.texts, 'text') : '')
 		: hasNum(e.texts) ? 'No word count · ' + plural(e.texts, 'text') : NOT_RECORDED;
-	const visit = d.archived_copy ? ['Archived copy', 'Visit the archived copy: '] : ['Visit', 'Visit the edition: '];
+	const visit = d.archived_copy ? ['Archived copy', 'Visit the archived copy: '] : ['Visit', 'Visit the resource: '];
 	el.innerHTML = tog(r, ` id="ct-${esc(r.id)}" aria-controls="cpanel-${esc(r.id)}"`) + `<dl class="card-dl"><dt>Languages</dt><dd class="c-langs"></dd><dt>Period</dt><dd>${p ? esc(p.label) + coverageBar(r.p) : NOT_RECORDED}</dd>` +
 		`<dt>Size</dt><dd>${size}</dd><dt>Encoding</dt><dd>${esc(encLabel(e.encoding))}</dd>` +
 		`<dt>Licence</dt><dd>${licenseHTML(e)}</dd>` +
@@ -656,12 +656,12 @@ function sizeStrip(words) {
 function rankSentence(words) {
 	const n = wordsSorted.length;
 	let s;
-	if (words >= wordsSorted[n - 1]) s = 'The largest edition in the catalogue';
-	else if (words <= wordsSorted[0]) s = 'The smallest edition in the catalogue';
+	if (words >= wordsSorted[n - 1]) s = 'The largest resource in the catalogue';
+	else if (words <= wordsSorted[0]) s = 'The smallest resource in the catalogue';
 	else {
 		let below = 0;
 		while (below < n && wordsSorted[below] < words) below++;
-		s = `Larger than ${Math.round(below / (n - 1) * 100)}% of the ${plural(n, 'edition')} with a word count`;
+		s = `Larger than ${Math.round(below / (n - 1) * 100)}% of the ${plural(n, 'resource')} with a word count`;
 	}
 	const share = totalWords ? words / totalWords * 100 : 0;
 	if (share >= 10) s += ` · ${Math.round(share)}% of recorded collection words`;
@@ -729,7 +729,7 @@ function linkify(text) {
 function recordHTML(r) {
 	if (r.recHTML) return r.recHTML;
 	const e = r.e, d = r.d, arch = d.archived_copy;
-	const left = [['Edition', extLink(e.url, esc(d.url_display || e.url) + NEW_TAB) + (arch ? muted('(Wayback Machine)') : '')]];
+	const left = [['Resource', extLink(e.url, esc(d.url_display || e.url) + NEW_TAB) + (arch ? muted('(Wayback Machine)') : '')]];
 	if (e.doi) left.push(['DOI', extLink('https://doi.org/' + e.doi, esc(e.doi) + NEW_TAB)]);
 	if (e.data_url) left.push(['Files', extLink(e.data_url, esc(d.data_display || e.data_url) + NEW_TAB) + ` <span class="q nw">· ${esc(formatsLabel(e))}</span>`]);
 	if (e.api_url) left.push(['API', extLink(e.api_url, 'API documentation' + NEW_TAB)]);
@@ -753,7 +753,7 @@ function recordHTML(r) {
 	let h = `<div class="record" id="rec-${esc(r.id)}" role="region" aria-label="Record: ${esc(e.title)}">` + dl(left) + dl(right);
 	if (d.notes_display) h += `<div class="rec-notes"><p class="rec-notes-h">Notes</p><p class="rec-notes-t">${linkify(d.notes_display)}</p></div>`;
 	const correction = `${REPO}/issues/new?template=correction.yml&title=${encodeURIComponent('[correction] ' + e.title)}&entry=${encodeURIComponent(e.title + ' (' + r.id + '.json)')}`;
-	h += '<div class="rec-foot">' + extLink(e.url, (arch ? 'Open the archived copy' : 'Open the edition') + ICON.ext + NEW_TAB, ' class="btn primary"') +
+	h += '<div class="rec-foot">' + extLink(e.url, (arch ? 'Open the archived copy' : 'Open the resource') + ICON.ext + NEW_TAB, ' class="btn primary"') +
 		(e.data_url ? extLink(e.data_url, 'Get the ' + esc(downloadNoun(e)) + ICON.ext + NEW_TAB, ' class="btn"') : '') +
 		`<button type="button" class="linkbtn copy-link" data-id="${esc(r.id)}">Copy link</button>` +
 		`<a href="${REPO}/blob/main/data/entries/${encodeURIComponent(r.id)}.json">Record file (JSON)</a>` +
@@ -826,24 +826,24 @@ function render() {
 
 function renderCount() {
 	const N = records.length, n = shown.length;
-	if (!n) els.catalogue.textContent = 'No edition matches';
-	else if (n === N && !narrowed()) els.catalogue.textContent = plural(N, 'edition');
-	else els.catalogue.innerHTML = `${fmt(n)} <span class="of">of ${plural(N, 'edition')}</span>`;
+	if (!n) els.catalogue.textContent = 'No resource matches';
+	else if (n === N && !narrowed()) els.catalogue.textContent = plural(N, 'resource');
+	else els.catalogue.innerHTML = `${fmt(n)} <span class="of">of ${plural(N, 'resource')}</span>`;
 }
 
 const announce = debounce(() => {
 	const N = records.length, n = shown.length;
-	els.live.textContent = !n ? 'No edition matches.'
-		: n === N && !narrowed() ? `Showing all ${plural(N, 'edition')}.`
-			: `${fmt(n)} of ${plural(N, 'edition')} ${n === 1 ? 'matches' : 'match'}.`;
+	els.live.textContent = !n ? 'No resource matches.'
+		: n === N && !narrowed() ? `Showing all ${plural(N, 'resource')}.`
+			: `${fmt(n)} of ${plural(N, 'resource')} ${n === 1 ? 'matches' : 'match'}.`;
 }, 600);
 
 function renderEmpty() {
-	els.state.innerHTML = shown.length ? '' : '<div class="state"><p class="state-title">No edition matches</p>' +
+	els.state.innerHTML = shown.length ? '' : '<div class="state"><p class="state-title">No resource matches</p>' +
 		'<p class="state-text">Try removing a filter, widening the period or checking the spelling. The catalogue lists ' +
-		plural(records.length, 'edition') + ' and may not include the one you are looking for yet.</p>' +
+		plural(records.length, 'resource') + ' and may not include the one you are looking for yet.</p>' +
 		'<div class="actions"><button type="button" class="linkbtn" data-clear-all>Clear the search and all filters</button>' +
-		`<a href="${REPO}/issues/new?template=new-entry.yml">Suggest an edition</a></div></div>`;
+		`<a href="${REPO}/issues/new?template=new-entry.yml">Suggest a resource</a></div></div>`;
 }
 
 function renderChips() {
@@ -873,7 +873,7 @@ function syncControls() {
 	els.filterBadge.textContent = f;
 	if (f) els.filterToggle.setAttribute('aria-label', `Filters, ${f} active`);
 	else els.filterToggle.removeAttribute('aria-label');
-	els.sheetDone.textContent = n ? 'Show ' + plural(n, 'edition') : 'No edition matches';
+	els.sheetDone.textContent = n ? 'Show ' + plural(n, 'resource') : 'No resource matches';
 }
 
 // == Records: open, close, permalinks ==
@@ -929,7 +929,7 @@ function openFromHash() {
 	const cleared = !shown.includes(r);
 	if (cleared) resetAll();
 	if (!open.has(id)) setOpen(r, true);
-	if (cleared) showNotice('Filters were cleared to show the linked edition.');
+	if (cleared) showNotice('Filters were cleared to show the linked resource.');
 	const el = effectiveView() === 'table' ? r.tr : r.card;
 	if (!el) return;
 	requestAnimationFrame(() => {
@@ -944,7 +944,7 @@ function openFromHash() {
 // == URL state ==
 function readURL() {
 	const p = new URLSearchParams(location.search);
-	// Kept once, and only if some edition has it.
+	// Kept once, and only if some resource has it.
 	const valid = (k, v) => (k !== 'files' || hasFiles) && records.some(r => FACET_VALUES[k](r).includes(v));
 	LIST_KEYS.forEach(k => { state[k] = p.getAll(k).filter((v, i, all) => all.indexOf(v) === i && valid(k, v)); });
 	setQ((p.get('q') || '').slice(0, 200));

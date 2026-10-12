@@ -512,12 +512,12 @@ figure { margin: 0; }
 		</div>
 		<div class="figs-row">
 			<dl class="figs" aria-label="Catalogue figures">
-				<div><dt>editions</dt><dd data-stat="editions">214</dd></div>
+				<div><dt>resources</dt><dd data-stat="editions">214</dd></div>
 				<div><dt>languages</dt><dd data-stat="languages">71</dd></div>
 				<div><dt>corpus texts</dt><dd data-stat="corpus_texts">123,172</dd></div>
 				<div><dt>corpus words</dt><dd data-stat="corpus_words_compact">2.14 billion</dd></div>
 			</dl>
-			<p class="fig-meta"><span class="tag"><span class="tag-k">Version</span><span class="tag-v" data-stat="version">0.1.4</span></span><span class="tag"><span class="tag-k">Data</span><span class="tag-v" data-stat="updated_long">12 October 2026</span></span><a class="tag tag-link" data-if="data_commit_short" href="https://github.com/Pantagrueliste/renascor/commit/174ac601d00f75386c2e86472a6eb7741037def0" data-href="data_commit_url" title="View this data commit on GitHub"><span class="tag-k"><svg class="ico" aria-hidden="true"><use href="#i-commit"/></svg><span class="sr-only">Data </span>Commit</span><span class="tag-v"><code data-stat="data_commit_short">174ac60</code><span class="sr-only"> on GitHub</span></span></a></p>
+			<p class="fig-meta"><span class="tag"><span class="tag-k">Version</span><span class="tag-v" data-stat="version">0.1.4</span></span><span class="tag"><span class="tag-k">Data</span><span class="tag-v" data-stat="updated_long">12 October 2026</span></span><a class="tag tag-link" data-if="data_commit_short" href="https://github.com/Pantagrueliste/renascor/commit/80f4f5c538abe8693ef1a53c1691683d42dcdc65" data-href="data_commit_url" title="View this data commit on GitHub"><span class="tag-k"><svg class="ico" aria-hidden="true"><use href="#i-commit"/></svg><span class="sr-only">Data </span>Commit</span><span class="tag-v"><code data-stat="data_commit_short">80f4f5c</code><span class="sr-only"> on GitHub</span></span></a></p>
 		</div>
 	</div>
 </header>
@@ -609,10 +609,10 @@ figure { margin: 0; }
 
 		<div class="view" id="view-table">
 			<table class="reg" id="table">
-				<caption>Words, texts, languages and periods are those recorded for each edition; for most editions they come from a corpus snapshot and may cover only part of the edition.</caption>
+				<caption>Words, texts, languages and periods are those recorded for each resource; for most resources they come from a corpus snapshot and may cover only part of the resource.</caption>
 				<thead>
 					<tr>
-						<th scope="col" class="c-title" data-sort="title"><button type="button" tabindex="-1">Edition</button></th>
+						<th scope="col" class="c-title" data-sort="title"><button type="button" tabindex="-1">Resource</button></th>
 						<th scope="col" class="c-lang">Languages</th>
 						<th scope="col" class="c-period">Period</th>
 						<th scope="col" class="c-words num" data-sort="words"><button type="button" tabindex="-1">Words</button></th>
@@ -631,7 +631,7 @@ figure { margin: 0; }
 		<noscript>
 			<div class="state">
 				<p class="state-title">The searchable list needs JavaScript</p>
-				<p class="state-text">JavaScript is turned off or unavailable. You can still download the full catalogue as <a href="renascor.csv">CSV</a> or <a href="renascor.json">JSON</a>, or browse one JSON file per edition on <a href="https://github.com/Pantagrueliste/renascor/tree/main/data/entries">GitHub</a>.</p>
+				<p class="state-text">JavaScript is turned off or unavailable. You can still download the full catalogue as <a href="renascor.csv">CSV</a> or <a href="renascor.json">JSON</a>, or browse one JSON file per resource on <a href="https://github.com/Pantagrueliste/renascor/tree/main/data/entries">GitHub</a>.</p>
 			</div>
 		</noscript>
 	</section>
@@ -642,10 +642,10 @@ figure { margin: 0; }
 		<div class="about-row" id="about">
 			<h2>About Renascor</h2>
 			<div class="prose">
-				<p>Renascor is an open catalogue of digital editions of written documents from about 1450 to 1700: manuscripts, printed works, correspondence and inscriptions. Each record states who made the edition, which languages and years its texts cover, how large it is, how it is encoded and where to find it.</p>
+				<p>Renascor is an open catalogue of digital editions of written documents from about 1450 to 1700: manuscripts, printed works, correspondence and inscriptions. Each record states who made the resource, which languages and years its texts cover, how large it is, how it is encoded and where to find it.</p>
 				<p><strong>Scope.</strong> “Renaissance” is used here as a historical and cultural framework centred on Europe, particularly Western Europe, between 1450 and 1700. The catalogue also includes texts arising from Europe’s contacts with the rest of the world (trade, diplomacy, travel, migration, missions and colonial encounters), written on either side of these exchanges, in any language, and considered within their own traditions.</p>
-				<p>The catalogue points to editions and hosts no texts. It lists only editions that give a transcribed text, epigraphic editions included. Page images or photographs without transcription, uncorrected OCR and bibliographies are left out.</p>
-				<p><strong>Why no paywalled editions?</strong> A digital text is most useful when it can be shared, checked, analysed and mined. Paywalls restrict that use and put scholars without institutional means at a disadvantage.</p>
+				<p>The catalogue points to resources and hosts no texts. It lists only resources that give a transcribed text, epigraphic editions included. Page images or photographs without transcription, uncorrected OCR and bibliographies are left out.</p>
+				<p><strong>Why no paywalled resources?</strong> A digital text is most useful when it can be shared, checked, analysed and mined. Paywalls restrict that use and put scholars without institutional means at a disadvantage.</p>
 			</div>
 		</div>
 
@@ -654,11 +654,11 @@ figure { margin: 0; }
 			<div class="prose">
 				<ul>
 					<li><strong>Inclusion rule.</strong> Collections that provide freely accessible Renaissance texts are eligible even when their contents overlap. Each collection’s size is counted before content deduplication; deduplication applies separately to the Renascor Corpus. Subscription collections and directories without texts are excluded; <a href="https://github.com/Pantagrueliste/renascor/blob/main/data/rejected.json">exclusions are recorded with their reasons</a>.</li>
-					<li><strong>Contributions.</strong> Anyone can propose an edition or a correction through a form on GitHub, or by pull request. Each record is one JSON file in the public repository, checked against a published schema.</li>
-					<li><strong>Review.</strong> The maintainer reviews every record before publication: that the edition exists, that it provides transcribed text from the period, and that it is described accurately.</li>
-					<li><strong>Automated search.</strong> A weekly search uses <a href="https://mistral.ai/news/mistral-large-4/">Mistral Large 4</a>, chosen for its multilingual capabilities and planned open-weight release, to propose candidate editions as pull requests. Every addition is reviewed by a human.</li>
-					<li><strong>Document types.</strong> Each edition is classed by the kind of document its texts are: manuscripts (including archival documents and letters), printed works or inscriptions, or several of these when its texts mix them. The Type filter uses this classification.</li>
-					<li data-if="with_countries"><strong>Countries.</strong> Countries are the present-day countries where an edition’s documents were written or printed (ISO 3166 codes; England, Scotland and Wales are kept apart), as defined in <a href="https://github.com/Pantagrueliste/renascor/blob/main/schema/countries.json">schema/countries.json</a>. They appear in each record and can be searched.</li>
+					<li><strong>Contributions.</strong> Anyone can propose a resource or a correction through a form on GitHub, or by pull request. Each record is one JSON file in the public repository, checked against a published schema.</li>
+					<li><strong>Review.</strong> The maintainer reviews every record before publication: that the resource exists, that it provides transcribed text from the period, and that it is described accurately.</li>
+					<li><strong>Automated search.</strong> A weekly search uses <a href="https://mistral.ai/news/mistral-large-4/">Mistral Large 4</a>, chosen for its multilingual capabilities and planned open-weight release, to propose candidate resources as pull requests. Every addition is reviewed by a human.</li>
+					<li><strong>Document types.</strong> Each resource is classed by the kind of document its texts are: manuscripts (including archival documents and letters), printed works or inscriptions, or several of these when its texts mix them. The Type filter uses this classification.</li>
+					<li data-if="with_countries"><strong>Countries.</strong> Countries are the present-day countries where a resource’s documents were written or printed (ISO 3166 codes; England, Scotland and Wales are kept apart), as defined in <a href="https://github.com/Pantagrueliste/renascor/blob/main/schema/countries.json">schema/countries.json</a>. They appear in each record and can be searched.</li>
 				</ul>
 			</div>
 		</div>
@@ -670,11 +670,11 @@ figure { margin: 0; }
 				<p>A collection’s word count covers its texts dated 1450–1700, including those also found in other collections. The <strong>Renascor Corpus total</strong> counts each text once (June 2026). Each record explains how its figures were obtained.</p>
 				<figure class="share">
 <!-- build:share-chart -->
-<table class="sharet"><caption>Share of recorded collection words, including overlaps</caption><thead><tr><th scope="col">Edition</th><th scope="col"><span class="sr-only">Share, as a bar</span></th><th scope="col" class="num">Share</th><th scope="col" class="num">Words</th></tr></thead><tbody><tr><th scope="row"><a href="#eebo-text-creation-partnership">EEBO Text Creation Partnership</a></th><td class="bar" aria-hidden="true"><span style="width:56.64%"></span></td><td class="num">56.6%</td><td class="num">1,348,840,666</td></tr><tr><th scope="row"><a href="#openiti">OpenITI</a></th><td class="bar" aria-hidden="true"><span style="width:14.98%"></span></td><td class="num">15.0%</td><td class="num">356,834,104</td></tr><tr><th scope="row"><a href="#noscemus">NOSCEMUS</a></th><td class="bar" aria-hidden="true"><span style="width:3.46%"></span></td><td class="num">3.5%</td><td class="num">82,381,900</td></tr><tr><th scope="row"><a href="#sefaria">Sefaria</a></th><td class="bar" aria-hidden="true"><span style="width:2.16%"></span></td><td class="num">2.2%</td><td class="num">51,508,557</td></tr><tr><th scope="row"><a href="#textgrid-repository">TextGrid Repository</a></th><td class="bar" aria-hidden="true"><span style="width:2.10%"></span></td><td class="num">2.1%</td><td class="num">50,000,000</td></tr><tr class="rest"><th scope="row">200 other editions</th><td class="bar" aria-hidden="true"><span style="width:20.66%"></span></td><td class="num">20.7%</td><td class="num">492,036,804</td></tr></tbody></table>
+<table class="sharet"><caption>Share of recorded collection words, including overlaps</caption><thead><tr><th scope="col">Resource</th><th scope="col"><span class="sr-only">Share, as a bar</span></th><th scope="col" class="num">Share</th><th scope="col" class="num">Words</th></tr></thead><tbody><tr><th scope="row"><a href="#eebo-text-creation-partnership">EEBO Text Creation Partnership</a></th><td class="bar" aria-hidden="true"><span style="width:56.64%"></span></td><td class="num">56.6%</td><td class="num">1,348,840,666</td></tr><tr><th scope="row"><a href="#openiti">OpenITI</a></th><td class="bar" aria-hidden="true"><span style="width:14.98%"></span></td><td class="num">15.0%</td><td class="num">356,834,104</td></tr><tr><th scope="row"><a href="#noscemus">NOSCEMUS</a></th><td class="bar" aria-hidden="true"><span style="width:3.46%"></span></td><td class="num">3.5%</td><td class="num">82,381,900</td></tr><tr><th scope="row"><a href="#sefaria">Sefaria</a></th><td class="bar" aria-hidden="true"><span style="width:2.16%"></span></td><td class="num">2.2%</td><td class="num">51,508,557</td></tr><tr><th scope="row"><a href="#textgrid-repository">TextGrid Repository</a></th><td class="bar" aria-hidden="true"><span style="width:2.10%"></span></td><td class="num">2.1%</td><td class="num">50,000,000</td></tr><tr class="rest"><th scope="row">200 other resources</th><td class="bar" aria-hidden="true"><span style="width:20.66%"></span></td><td class="num">20.7%</td><td class="num">492,036,804</td></tr></tbody></table>
 <!-- /build:share-chart -->
-					<p class="chart-note" data-stat="share_note">Shares of the 2,381,602,031 words recorded for 205 editions; 9 editions have no word count. Collection totals include overlapping texts.</p>
+					<p class="chart-note" data-stat="share_note">Shares of the 2,381,602,031 words recorded for 205 resources; 9 resources have no word count. Collection totals include overlapping texts.</p>
 				</figure>
-				<p>Periods give the first and last year of the texts: a single year when they coincide, “c.” for an approximate date, and a century counted as its hundred years (16th century = 1500–1599). The period filter keeps any edition whose period overlaps the chosen years; periods given only in words are not matched. The period graph is approximate and includes dates estimated from author lifespans. For <span data-stat="with_last_modified">41 editions</span>, the record also gives the host’s last update, such as a GitHub push or a new Zenodo version.</p>
+				<p>Periods give the first and last year of the texts: a single year when they coincide, “c.” for an approximate date, and a century counted as its hundred years (16th century = 1500–1599). The period filter keeps any resource whose period overlaps the chosen years; periods given only in words are not matched. The period graph is approximate and includes dates estimated from author lifespans. For <span data-stat="with_last_modified">41 resources</span>, the record also gives the host’s last update, such as a GitHub push or a new Zenodo version.</p>
 			</div>
 		</div>
 
@@ -685,41 +685,41 @@ figure { margin: 0; }
 					<div>
 						<h3>Status</h3>
 						<dl>
-							<dt><span class="st active">Active</span></dt><dd>Online and maintained. <span class="n" data-stat="status_active">149 editions.</span></dd>
-							<dt><span class="st archived">Archived</span></dt><dd>Still online, but no longer maintained. <span class="n" data-stat="status_archived">64 editions.</span></dd>
-							<dt><span class="st discontinued">Discontinued</span></dt><dd>No longer online; the link may lead to an archived copy. <span class="n" data-stat="status_discontinued">1 edition.</span></dd>
+							<dt><span class="st active">Active</span></dt><dd>Online and maintained. <span class="n" data-stat="status_active">149 resources.</span></dd>
+							<dt><span class="st archived">Archived</span></dt><dd>Still online, but no longer maintained. <span class="n" data-stat="status_archived">64 resources.</span></dd>
+							<dt><span class="st discontinued">Discontinued</span></dt><dd>No longer online; the link may lead to an archived copy. <span class="n" data-stat="status_discontinued">1 resource.</span></dd>
 						</dl>
 					</div>
 					<div>
 						<h3>Encoding</h3>
 						<dl>
-							<dt>TEI XML</dt><dd>XML following the Text Encoding Initiative guidelines. <span class="n" data-stat="encoding_tei">116 editions.</span></dd>
-							<dt>Other XML</dt><dd>XML in a project-specific schema, not TEI. <span class="n" data-stat="encoding_xml">14 editions.</span></dd>
-							<dt>JSON</dt><dd>Structured text data in JSON files. <span class="n" data-stat="encoding_json">1 edition.</span></dd>
-							<dt>HTML</dt><dd>Texts published as web pages. <span class="n" data-stat="encoding_html">42 editions.</span></dd>
-							<dt>Wikitext</dt><dd>Wiki markup, as used by Wikisource. <span class="n" data-stat="encoding_wikitext">9 editions.</span></dd>
-							<dt>Plain text</dt><dd>Text files without structural markup. <span class="n" data-stat="encoding_plain_text">13 editions.</span></dd>
-							<dt>Markdown</dt><dd>Text with lightweight Markdown markup. <span class="n" data-stat="encoding_markdown">1 edition.</span></dd>
-							<dt>Other</dt><dd>Another format, such as TSV or CoNLL-U. <span class="n" data-stat="encoding_other">18 editions.</span></dd>
+							<dt>TEI XML</dt><dd>XML following the Text Encoding Initiative guidelines. <span class="n" data-stat="encoding_tei">116 resources.</span></dd>
+							<dt>Other XML</dt><dd>XML in a project-specific schema, not TEI. <span class="n" data-stat="encoding_xml">14 resources.</span></dd>
+							<dt>JSON</dt><dd>Structured text data in JSON files. <span class="n" data-stat="encoding_json">1 resource.</span></dd>
+							<dt>HTML</dt><dd>Texts published as web pages. <span class="n" data-stat="encoding_html">42 resources.</span></dd>
+							<dt>Wikitext</dt><dd>Wiki markup, as used by Wikisource. <span class="n" data-stat="encoding_wikitext">9 resources.</span></dd>
+							<dt>Plain text</dt><dd>Text files without structural markup. <span class="n" data-stat="encoding_plain_text">13 resources.</span></dd>
+							<dt>Markdown</dt><dd>Text with lightweight Markdown markup. <span class="n" data-stat="encoding_markdown">1 resource.</span></dd>
+							<dt>Other</dt><dd>Another format, such as TSV or CoNLL-U. <span class="n" data-stat="encoding_other">18 resources.</span></dd>
 						</dl>
 					</div>
 				</div>
-				<p class="defs-note">The encoding is the richest publicly available text format: TEI XML first, then other XML, JSON, HTML, wiki markup, plain text and Markdown. Internal search or storage formats do not establish a public download format.<span data-if="with_data_url"> Where an edition’s files can be downloaded (repository, download page or dataset record), the record links them, and the Files filter lists editions under every recorded download format.</span></p>
+				<p class="defs-note">The encoding is the richest publicly available text format: TEI XML first, then other XML, JSON, HTML, wiki markup, plain text and Markdown. Internal search or storage formats do not establish a public download format.<span data-if="with_data_url"> Where a resource’s files can be downloaded (repository, download page or dataset record), the record links them, and the Files filter lists resources under every recorded download format.</span></p>
 			</div>
 		</div>
 
 		<div class="about-row" id="download">
 			<h2>Download and cite</h2>
 			<div class="prose">
-				<p>Download the whole catalogue with every field of every edition. Please cite the catalogue when you use its data; a suggested citation is provided below.</p>
+				<p>Download the whole catalogue with every field of every resource. Please cite the catalogue when you use its data; a suggested citation is provided below.</p>
 				<div class="actions-list" style="margin-top:14px">
 					<a class="btn" href="renascor.csv" download><svg class="ico" aria-hidden="true"><use href="#i-down"/></svg>Full catalogue (CSV)</a>
 					<a class="btn" href="renascor.json" download><svg class="ico" aria-hidden="true"><use href="#i-down"/></svg>Full catalogue (JSON)</a>
-					<a class="btn" href="https://github.com/Pantagrueliste/renascor/tree/main/data/entries">One JSON file per edition (GitHub)</a>
+					<a class="btn" href="https://github.com/Pantagrueliste/renascor/tree/main/data/entries">One JSON file per resource (GitHub)</a>
 					<a class="btn" href="https://github.com/Pantagrueliste/renascor/blob/main/schema/entry.schema.json">Schema (GitHub)</a>
 				</div>
-				<p class="small" style="margin-top:10px">UTF-8 CSV, one row per edition; lists are separated by semicolons.</p>
-				<p>Data version: <span data-if="data_commit_short">commit <a href="https://github.com/Pantagrueliste/renascor/commit/174ac601d00f75386c2e86472a6eb7741037def0" data-href="data_commit_url"><span class="sr-only">Data commit </span><code data-stat="data_commit_short">174ac60</code><span class="sr-only"> on GitHub</span></a> of </span><span data-stat="updated_long">12 October 2026</span>, catalogue version <span data-stat="version">0.1.4</span>. Please cite the version you used.</p>
+				<p class="small" style="margin-top:10px">UTF-8 CSV, one row per resource; lists are separated by semicolons.</p>
+				<p>Data version: <span data-if="data_commit_short">commit <a href="https://github.com/Pantagrueliste/renascor/commit/80f4f5c538abe8693ef1a53c1691683d42dcdc65" data-href="data_commit_url"><span class="sr-only">Data commit </span><code data-stat="data_commit_short">80f4f5c</code><span class="sr-only"> on GitHub</span></a> of </span><span data-stat="updated_long">12 October 2026</span>, catalogue version <span data-stat="version">0.1.4</span>. Please cite the version you used.</p>
 				<h3>How to cite</h3>
 				<div class="cite-box"><span id="cite-text"><span data-stat="citation_author_year">Godbarge, Clément (2026).</span> <em data-stat="citation_title">Renascor: An open catalogue of digital editions of Renaissance-era written documents</em> <span data-stat="citation_tail">(Version 0.1.4) [Data set]. https://pantagrueliste.github.io/renascor/</span></span><button type="button" class="btn" id="cite-copy">Copy citation</button></div>
 				<p>The data are released under <a href="https://github.com/Pantagrueliste/renascor/blob/main/LICENSE-DATA">CC0 1.0</a>: they can be reused for any purpose without permission or attribution, though a citation is appreciated. The code is released under the <a href="https://github.com/Pantagrueliste/renascor/blob/main/LICENSE">MIT licence</a>. Citation metadata: <a href="https://github.com/Pantagrueliste/renascor/blob/main/CITATION.cff">CITATION.cff</a>.</p>
@@ -729,9 +729,9 @@ figure { margin: 0; }
 		<div class="about-row" id="contribute">
 			<h2>Contribute</h2>
 			<div class="prose">
-				<p>Missing an edition, or found an error? The forms open an issue on GitHub (a free GitHub account is needed); no knowledge of Git or JSON is required. The maintainer reviews every proposal before it enters the catalogue.</p>
+				<p>Missing a resource, or found an error? The forms open an issue on GitHub (a free GitHub account is needed); no knowledge of Git or JSON is required. The maintainer reviews every proposal before it enters the catalogue.</p>
 				<div class="actions-list" style="margin-top:14px">
-					<a class="btn primary" href="https://github.com/Pantagrueliste/renascor/issues/new?template=new-entry.yml">Suggest an edition</a>
+					<a class="btn primary" href="https://github.com/Pantagrueliste/renascor/issues/new?template=new-entry.yml">Suggest a resource</a>
 					<a class="btn" href="https://github.com/Pantagrueliste/renascor/issues/new?template=correction.yml">Report a correction</a>
 					<a class="btn" href="https://github.com/Pantagrueliste/renascor">View the repository</a>
 					<a class="btn" href="https://ko-fi.com/clementgodbarge">Buy me a coffee</a>
@@ -753,7 +753,7 @@ figure { margin: 0; }
 <dialog id="filters-dialog" class="sheet" aria-labelledby="sheet-title">
 	<div class="sheet-head"><h2 id="sheet-title">Filters</h2><button type="button" class="btn quiet" id="sheet-close">Close</button></div>
 	<div class="sheet-body" id="sheet-body"></div>
-	<div class="sheet-foot"><button type="button" class="btn" id="sheet-clear">Clear all</button><button type="button" class="btn primary" id="sheet-done">Show editions</button></div>
+	<div class="sheet-foot"><button type="button" class="btn" id="sheet-clear">Clear all</button><button type="button" class="btn primary" id="sheet-done">Show resources</button></div>
 </dialog>
 
 <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
