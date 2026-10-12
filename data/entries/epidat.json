@@ -1,0 +1,37 @@
+{
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "title": "epidat – Datenbank zur jüdischen Grabsteinepigraphik",
+  "url": "https://www.steinheim-institut.de/cgi-bin/epidat",
+  "data_url": "https://gitlab.rlp.net/epidat/data",
+  "data_format": "tei",
+  "data_formats": [
+    "tei",
+    "json",
+    "xml",
+    "other"
+  ],
+  "languages": [
+    "Hebrew",
+    "German"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "texts": 1926,
+  "words": 66159,
+  "period": "1450-1700",
+  "region": "Germany and neighbouring countries",
+  "countries": [
+    "DE",
+    "LV",
+    "NL",
+    "PL",
+    "ES",
+    "CZ"
+  ],
+  "institution": "Salomon Ludwig Steinheim-Institut für deutsch-jüdische Geschichte (Essen), with the Akademie der Wissenschaften und der Literatur | Mainz",
+  "license": "CC-BY-4.0",
+  "license_url": "https://gitlab.rlp.net/epidat/data",
+  "license_note": "Each EpiDoc record states CC BY 4.0; the site footer states CC BY 4.0 as well.",
+  "notes": "Jewish gravestone inscriptions (322 digital editions, 54,243 monuments on the site; monuments after 1956 withheld). EpiDoc TEI per monument (?id=<code>-teip5) and bulk in the public GitLab repository (xml/tei, tsv, json, ttl). texts and words are our own count from tsv/id-year-transcription-translation.tsv (44,300 rows): rows with a parseable year 1450-1700 = 1,926; words = whitespace tokens of the transcription column for those rows (Hebrew transcription, often with a Latin-script rendering; approximate). 2,244 rows have no parseable year and are not counted; the vast majority of the corpus is 18th-20th century (about 82 rows 1450-1499, 72 rows 1500-1549), so the in-period share is about 4 percent, concentrated in Frankfurt (ffb 864), Hamburg-Altona (hha 270) and Worms (wrm 251). The older site interface is no longer developed; a beta interface exists. Repository last activity 2026-08-13."
+}
