@@ -1,0 +1,17 @@
+{
+  "title": "The Bodleian First Folio — diplomatic digital edition of the Bodleian First Folio (Arch. G c.7)",
+  "url": "https://firstfolio.bodleian.ox.ac.uk/",
+  "languages": [
+    "English"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "institution": "Bodleian Libraries, University of Oxford",
+  "period": "1623",
+  "region": "England",
+  "notes": "Diplomatic transcriptions of the plays in the Bodleian Library's copy of the Shakespeare First Folio (Arch. G c.7), encoded in TEI P5-conformant XML with published transcription guidelines; page images and TEI XML downloadable under CC BY 3.0 (the specific download page was not verified in this run). Single-work edition, but a significant scholarly diplomatic edition from a major research library (project since 2013).\n\nJustification: Found via the Folgerpedia list of digital editions of English Renaissance drama. A significant, freely accessible TEI diplomatic edition of a key 1623 printed work within the 1450–1700 window; not in the catalogue.\nFound at: https://folgerpedia.folger.edu/Digital_editions_of_English_Renaissance_drama",
+  "data_url": "https://firstfolio.bodleian.ox.ac.uk/",
+  "data_format": "tei"
+}

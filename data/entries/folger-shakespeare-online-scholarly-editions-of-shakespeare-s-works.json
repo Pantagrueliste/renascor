@@ -1,0 +1,17 @@
+{
+  "title": "Folger Shakespeare (online scholarly editions of Shakespeare's works)",
+  "url": "https://shakespeare.folger.edu/",
+  "languages": [
+    "English"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "institution": "Folger Shakespeare Library, Washington, DC",
+  "period": "c. 1590–1613",
+  "region": "England",
+  "notes": "Free online editions of all of Shakespeare's plays, sonnets and poems presenting the modern-spelling texts of the Folger Shakespeare Library print editions, downloadable in PDF, DOC, HTML, TXT, XML and TEI Simple (MorphAdorner-annotated) at no cost for noncommercial use; print-edition essays and notes are not included online. Single-author project, but a major scholarly edition series (cf. the Digital Donne Project already in the catalogue).\n\nJustification: Found via the Folgerpedia list of digital editions of English Renaissance drama and the Folger download pages. A significant, freely accessible scholarly edition collection of English Renaissance drama (c. 1590–1613) with downloadable TEI Simple source; not in the catalogue (REED English and DraCor are listed, the Folger Shakespeare is not).\nFound at: https://folgerpedia.folger.edu/Digital_editions_of_English_Renaissance_drama",
+  "data_url": "https://shakespeare.folger.edu/download/",
+  "data_format": "tei"
+}

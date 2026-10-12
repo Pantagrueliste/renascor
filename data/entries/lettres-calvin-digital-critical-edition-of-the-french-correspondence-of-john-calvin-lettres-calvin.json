@@ -1,0 +1,17 @@
+{
+  "title": "Lettres Calvin — digital critical edition of the French correspondence of John Calvin (lettres-calvin)",
+  "url": "https://github.com/pippaJeanne/lettres-calvin",
+  "languages": [
+    "French"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-12",
+  "institution": "Independent project (individual researcher; no institutional affiliation stated)",
+  "period": "16th century (c. 1530–1564)",
+  "region": "France, Switzerland (Geneva)",
+  "notes": "TEI critical edition of Calvin's French correspondence offering manuscript/print facsimiles, a diplomatic base text (Jules Bonnet's 1854 edition), a modernized French version and a Spanish translation, encoded with a custom TEI ODD schema (msDesc, bibl, ARK/IIIF links) plus an API over the TEI XML files. Independent, non-institutional project: scholarly standing, completeness and letter counts are not stated on the repository and need human review.\n\nJustification: Found via a GitHub web search for TEI critical editions of Renaissance correspondence. A freely accessible, TEI-encoded critical edition of a major 16th-century correspondence corpus (Calvin, c. 1530–1564), squarely within 1450–1700; not in the catalogue (Bullinger Digital is catalogued, Calvin's correspondence is not).\nFound at: https://github.com/pippaJeanne/lettres-calvin",
+  "data_url": "https://github.com/pippaJeanne/lettres-calvin",
+  "data_format": "tei"
+}
