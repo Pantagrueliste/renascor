@@ -15,6 +15,9 @@
     "Latin",
     "Spanish"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "words": 28488008,
   "texts": 1906,

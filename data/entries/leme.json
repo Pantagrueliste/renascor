@@ -9,6 +9,9 @@
   "languages": [
     "English"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "xml",
   "words": 9780803,
   "texts": 296,

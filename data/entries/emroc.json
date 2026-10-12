@@ -8,6 +8,9 @@
   "languages": [
     "English"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "words": 248907,
   "texts": 25,

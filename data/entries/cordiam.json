@@ -4,6 +4,10 @@
   "languages": [
     "Spanish"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "html",
   "status": "active",
   "provenance": "discovered",

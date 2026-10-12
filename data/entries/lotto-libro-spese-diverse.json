@@ -4,6 +4,9 @@
   "languages": [
     "Italian"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "other",
   "status": "archived",
   "provenance": "submitted",

@@ -9,6 +9,10 @@
   "languages": [
     "English"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "tei",
   "words": 74746,
   "texts": 195,

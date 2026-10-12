@@ -9,6 +9,9 @@
   "languages": [
     "Arabic"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "markdown",
   "words": 356834104,
   "texts": 1241,

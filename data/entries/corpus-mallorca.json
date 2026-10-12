@@ -5,6 +5,9 @@
     "Spanish",
     "Latin"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "html",
   "status": "active",
   "institution": "HIPERTEXT research group, Universitat de les Illes Balears (director Andrés Enrique-Arias)",

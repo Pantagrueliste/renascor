@@ -6,6 +6,9 @@
   "languages": [
     "Cornish"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "plain-text",
   "status": "archived",
   "provenance": "submitted",

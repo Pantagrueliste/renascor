@@ -4,6 +4,9 @@
   "languages": [
     "Spanish"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "status": "active",
   "institution": "GITHE, Universidad de Alcalá (contact Belén Almeida Cabrejas; project PID2022-141561OB-I00)",

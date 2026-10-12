@@ -6,6 +6,9 @@
   "languages": [
     "Spanish"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "plain-text",
   "status": "active",
   "provenance": "submitted",

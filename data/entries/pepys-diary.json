@@ -8,6 +8,9 @@
   "languages": [
     "English"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "html",
   "words": 1277817,
   "texts": 1,

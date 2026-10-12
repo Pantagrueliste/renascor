@@ -9,6 +9,9 @@
     "Italian",
     "Latin"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "words": 29844182,
   "texts": 974,

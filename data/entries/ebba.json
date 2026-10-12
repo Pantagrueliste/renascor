@@ -9,6 +9,9 @@
   "languages": [
     "English"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "words": 3971912,
   "texts": 5926,

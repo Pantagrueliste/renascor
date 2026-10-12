@@ -6,6 +6,10 @@
   "languages": [
     "French"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "tei",
   "status": "active",
   "provenance": "discovered",

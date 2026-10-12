@@ -9,6 +9,9 @@
   "languages": [
     "Latin"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "xml",
   "words": 82381900,
   "texts": 678,

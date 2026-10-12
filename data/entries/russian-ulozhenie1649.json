@@ -4,6 +4,9 @@
   "languages": [
     "Russian"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "wikitext",
   "status": "active",
   "provenance": "submitted",

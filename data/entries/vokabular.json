@@ -6,6 +6,10 @@
   "languages": [
     "Czech"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "tei",
   "words": 4848608,
   "texts": 295,

@@ -10,6 +10,9 @@
     "Portuguese",
     "Spanish"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "words": 899841,
   "texts": 1878,

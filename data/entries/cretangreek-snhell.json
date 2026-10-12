@@ -4,6 +4,9 @@
   "languages": [
     "Greek"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "html",
   "status": "discontinued",
   "provenance": "submitted",

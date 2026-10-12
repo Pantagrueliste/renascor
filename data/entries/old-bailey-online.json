@@ -8,6 +8,9 @@
   "languages": [
     "English"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "words": 924767,
   "texts": 198,

@@ -6,6 +6,9 @@
     "Spanish",
     "Latin"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "html",
   "status": "active",
   "institution": "GITHE (Textos para la Historia del Español), Universidad de Alcalá; coordinator Pedro Sánchez-Prieto Borja",

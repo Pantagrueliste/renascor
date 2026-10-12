@@ -4,6 +4,9 @@
   "languages": [
     "Latin"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "html",
   "status": "active",
   "provenance": "submitted",

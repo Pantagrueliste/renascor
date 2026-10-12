@@ -6,6 +6,10 @@
   "languages": [
     "Ladino"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "tei",
   "status": "active",
   "provenance": "submitted",

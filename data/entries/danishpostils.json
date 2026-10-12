@@ -6,6 +6,9 @@
   "languages": [
     "Danish"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "plain-text",
   "status": "archived",
   "provenance": "submitted",

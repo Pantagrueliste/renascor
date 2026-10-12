@@ -11,6 +11,9 @@
     "Irish",
     "Latin"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "words": 1831057,
   "texts": 66,

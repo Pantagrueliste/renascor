@@ -8,6 +8,9 @@
   "languages": [
     "Russian"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "html",
   "words": 96174,
   "texts": 13,

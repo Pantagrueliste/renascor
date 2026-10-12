@@ -6,6 +6,10 @@
   "languages": [
     "Icelandic"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "plain-text",
   "status": "active",
   "provenance": "submitted",

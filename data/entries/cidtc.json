@@ -13,6 +13,9 @@
     "Polish",
     "Spanish"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "tei",
   "status": "active",
   "provenance": "submitted",

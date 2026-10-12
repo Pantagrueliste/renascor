@@ -6,6 +6,9 @@
   "languages": [
     "German"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "xml",
   "status": "archived",
   "provenance": "submitted",

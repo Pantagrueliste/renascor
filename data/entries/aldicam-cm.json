@@ -5,6 +5,9 @@
     "Spanish",
     "Latin"
   ],
+  "document_types": [
+    "manuscript"
+  ],
   "encoding": "html",
   "status": "active",
   "institution": "GITHE, Universidad de Alcalá (project S2015/HUM-3443, Comunidad de Madrid / FSE)",

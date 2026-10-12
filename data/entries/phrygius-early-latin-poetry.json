@@ -4,6 +4,9 @@
   "languages": [
     "Latin"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "other",
   "status": "archived",
   "provenance": "submitted",

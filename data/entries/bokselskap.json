@@ -8,6 +8,9 @@
   "languages": [
     "Norwegian"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "words": 264577,
   "texts": 9,

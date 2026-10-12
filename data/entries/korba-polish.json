@@ -11,6 +11,9 @@
   "languages": [
     "Polish"
   ],
+  "document_types": [
+    "print"
+  ],
   "encoding": "tei",
   "words": 644572,
   "texts": 1568,

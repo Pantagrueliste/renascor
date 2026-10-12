@@ -6,6 +6,10 @@
   "languages": [
     "Scots"
   ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
   "encoding": "plain-text",
   "status": "archived",
   "provenance": "submitted",
