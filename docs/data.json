@@ -11,8 +11,8 @@
   "released": "2026-10-12",
   "updated": "2026-10-12",
   "data_commit": {
-   "sha": "174ac601d00f75386c2e86472a6eb7741037def0",
-   "short": "174ac60"
+   "sha": "80f4f5c538abe8693ef1a53c1691683d42dcdc65",
+   "short": "80f4f5c"
   },
   "scope": {
    "from": 1450,
@@ -22,7 +22,7 @@
    "name": "Renascor Corpus",
    "version": "v2026.06",
    "frozen": "2026-06-26",
-   "scope": "texts harvested from each edition, duplicates included"
+   "scope": "texts harvested from each resource, duplicates included"
   },
   "snapshots": {
    "v2026.06": {
@@ -563,7 +563,7 @@
   },
   "display": {
    "editions": "214",
-   "editions_label": "214 editions",
+   "editions_label": "214 resources",
    "languages": "71",
    "language_labels": "71",
    "texts": "157,691",
@@ -573,7 +573,7 @@
    "corpus_words": "2,141,439,302",
    "corpus_words_compact": "2.14 billion",
    "with_words": "205",
-   "with_words_editions": "205 editions",
+   "with_words_editions": "205 resources",
    "without_words": "9",
    "figures_rq": "187",
    "discovered": "24",
@@ -584,33 +584,33 @@
    "updated_long": "12 October 2026",
    "updated_iso": "2026-10-12",
    "version": "0.1.4",
-   "data_commit_short": "174ac60",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/174ac601d00f75386c2e86472a6eb7741037def0",
+   "data_commit_short": "80f4f5c",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/80f4f5c538abe8693ef1a53c1691683d42dcdc65",
    "header_note": "Corpus totals exclude duplicate texts (June 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.06",
    "snapshot_frozen_long": "26 June 2026",
    "snapshot_month": "June 2026",
-   "figures_other_sentence": "For 19 editions the counts come from other sources: ALDICAM-CM, The Bodleian First Folio: digital edition of Shakespeare's Comedies, Histories and Tragedies, CHARTA, CODEA+ 2022, COREECOM, Corpus Mallorca, Deutsche Inschriften Online, epidat – Datenbank zur jüdischen Grabsteinepigraphik, The Folger Shakespeare, H15corpus, Letradas, Lettres de Calvin: digital critical edition of the French correspondence of John Calvin, MEMIS – Epigraphic corpus of Medieval and Early Modern inscriptions in Slovenia, OpenEDGeS, Sefaria, TextGrid Repository, Corpus de Documentos Coloniales (CDC) de Mérida, Venezuela, Documentos privados antiguos and Venetian Inscriptions in Cyprus. 8 editions have no word or text count.",
+   "figures_other_sentence": "For 19 resources the counts come from other sources: ALDICAM-CM, The Bodleian First Folio: digital edition of Shakespeare's Comedies, Histories and Tragedies, CHARTA, CODEA+ 2022, COREECOM, Corpus Mallorca, Deutsche Inschriften Online, epidat – Datenbank zur jüdischen Grabsteinepigraphik, The Folger Shakespeare, H15corpus, Letradas, Lettres de Calvin: digital critical edition of the French correspondence of John Calvin, MEMIS – Epigraphic corpus of Medieval and Early Modern inscriptions in Slovenia, OpenEDGeS, Sefaria, TextGrid Repository, Corpus de Documentos Coloniales (CDC) de Mérida, Venezuela, Documentos privados antiguos and Venetian Inscriptions in Cyprus. 8 resources have no word or text count.",
    "largest_share": "57%",
-   "share_note": "Shares of the 2,381,602,031 words recorded for 205 editions; 9 editions have no word count. Collection totals include overlapping texts.",
-   "with_last_modified": "41 editions",
-   "with_data_url": "168 editions",
-   "with_countries": "19 editions",
+   "share_note": "Shares of the 2,381,602,031 words recorded for 205 resources; 9 resources have no word count. Collection totals include overlapping texts.",
+   "with_last_modified": "41 resources",
+   "with_data_url": "168 resources",
+   "with_countries": "19 resources",
    "areas_list": "British Isles, France, Low Countries, Holy Roman Empire, Italian Peninsula, Iberian Peninsula, Scandinavia, Central and Eastern Europe, Balkans and Greece, Ottoman Empire and Near East, Americas, Asia and Africa",
    "citation_author_year": "Godbarge, Clément (2026).",
    "citation_title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
    "citation_tail": "(Version 0.1.4) [Data set]. https://pantagrueliste.github.io/renascor/",
-   "status_active": "149 editions.",
-   "status_archived": "64 editions.",
-   "status_discontinued": "1 edition.",
-   "encoding_tei": "116 editions.",
-   "encoding_xml": "14 editions.",
-   "encoding_json": "1 edition.",
-   "encoding_html": "42 editions.",
-   "encoding_wikitext": "9 editions.",
-   "encoding_plain_text": "13 editions.",
-   "encoding_markdown": "1 edition.",
-   "encoding_other": "18 editions."
+   "status_active": "149 resources.",
+   "status_archived": "64 resources.",
+   "status_discontinued": "1 resource.",
+   "encoding_tei": "116 resources.",
+   "encoding_xml": "14 resources.",
+   "encoding_json": "1 resource.",
+   "encoding_html": "42 resources.",
+   "encoding_wikitext": "9 resources.",
+   "encoding_plain_text": "13 resources.",
+   "encoding_markdown": "1 resource.",
+   "encoding_other": "18 resources."
   },
   "countries": {
    "GB-ENG": {
