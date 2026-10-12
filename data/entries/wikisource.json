@@ -48,5 +48,139 @@
   "count_basis": "rq-retained-rows-and-staging",
   "license": "Mixed",
   "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-  "license_note": "Includes AGPL-3.0, CC-BY-SA-4.0, GFDL-1.3-no-invariants-or-later. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes AGPL-3.0, CC-BY-SA-4.0, GFDL-1.3-no-invariants-or-later. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "language_counts": [
+    {
+      "language": "Latin",
+      "texts": 351,
+      "words": 2637564
+    },
+    {
+      "language": "Hebrew",
+      "texts": 766,
+      "words": 1738574
+    },
+    {
+      "language": "German",
+      "texts": 539,
+      "words": 1592732
+    },
+    {
+      "language": "English",
+      "texts": 394,
+      "words": 1391094
+    },
+    {
+      "language": "French",
+      "texts": 607,
+      "words": 1047901
+    },
+    {
+      "language": "Polish",
+      "texts": 592,
+      "words": 714120
+    },
+    {
+      "language": "Catalan",
+      "texts": 402,
+      "words": 519720
+    },
+    {
+      "language": "Spanish",
+      "texts": 151,
+      "words": 321970
+    },
+    {
+      "language": "Romanian",
+      "texts": 14,
+      "words": 291341
+    },
+    {
+      "language": "Italian",
+      "texts": 179,
+      "words": 237829
+    },
+    {
+      "language": "Croatian",
+      "texts": 107,
+      "words": 198847
+    },
+    {
+      "language": "Czech",
+      "texts": 108,
+      "words": 158407
+    },
+    {
+      "language": "Armenian",
+      "texts": 1,
+      "words": 142243,
+      "works": [
+        "Arakel of Tabriz, History"
+      ]
+    },
+    {
+      "language": "Azerbaijani",
+      "texts": 346,
+      "words": 122211
+    },
+    {
+      "language": "Swedish",
+      "texts": 22,
+      "words": 115743
+    },
+    {
+      "language": "Greek",
+      "texts": 9,
+      "words": 98369
+    },
+    {
+      "language": "Hungarian",
+      "texts": 42,
+      "words": 56611
+    },
+    {
+      "language": "Portuguese",
+      "texts": 25,
+      "words": 31385
+    },
+    {
+      "language": "Dutch",
+      "texts": 1,
+      "words": 17011,
+      "works": [
+        "Jacob Cats, Sinne- en minnebeelden"
+      ]
+    },
+    {
+      "language": "Danish",
+      "texts": 5,
+      "words": 16720
+    },
+    {
+      "language": "Breton",
+      "texts": 1,
+      "words": 12521,
+      "works": [
+        "Buhez Santez Nonn"
+      ]
+    },
+    {
+      "language": "Slovenian",
+      "texts": 5,
+      "words": 4790
+    },
+    {
+      "language": "Tupi",
+      "texts": 5,
+      "words": 2432
+    },
+    {
+      "language": "Icelandic",
+      "texts": 1,
+      "words": 697,
+      "works": [
+        "Stefán Ólafsson, poems"
+      ]
+    }
+  ]
 }

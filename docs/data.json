@@ -11,8 +11,8 @@
   "released": "2026-10-12",
   "updated": "2026-10-12",
   "data_commit": {
-   "sha": "3a23eae414e1dec4dbf404b2511bcecad68d01b6",
-   "short": "3a23eae"
+   "sha": "3a72ed29f818457df99077e47892982310f7782c",
+   "short": "3a72ed2"
   },
   "scope": {
    "from": 1450,
@@ -60,6 +60,7 @@
    "last_modified",
    "provenance",
    "date_added",
+   "language_counts",
    "document_types",
    "notes"
   ],
@@ -94,6 +95,7 @@
    "last_modified",
    "provenance",
    "date_added",
+   "language_counts",
    "document_types",
    "notes"
   ],
@@ -582,8 +584,8 @@
    "updated_long": "12 October 2026",
    "updated_iso": "2026-10-12",
    "version": "0.1.4",
-   "data_commit_short": "3a23eae",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/3a23eae414e1dec4dbf404b2511bcecad68d01b6",
+   "data_commit_short": "3a72ed2",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/3a72ed29f818457df99077e47892982310f7782c",
    "header_note": "Corpus totals exclude duplicate texts (June 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.06",
    "snapshot_frozen_long": "26 June 2026",
@@ -1566,7 +1568,19 @@
    "license": "Not stated",
    "license_url": "http://backend.bibliotecaitaliana.it/wp-json/muruca-core/v1/pages",
    "license_note": "No reuse licence established from the available publisher-source evidence.",
-   "institution": "Sapienza Università di Roma, Dipartimento di Lettere e Culture Moderne (Biblioteca Italiana, dir. Beatrice Alfonzetti and Stefano Asperti)"
+   "institution": "Sapienza Università di Roma, Dipartimento di Lettere e Culture Moderne (Biblioteca Italiana, dir. Beatrice Alfonzetti and Stefano Asperti)",
+   "language_counts": [
+    {
+     "language": "Italian",
+     "texts": 889,
+     "words": 28627510
+    },
+    {
+     "language": "Latin",
+     "texts": 85,
+     "words": 1216672
+    }
+   ]
   },
   {
    "title": "The Bodleian First Folio: digital edition of Shakespeare's Comedies, Histories and Tragedies (1623)",
@@ -1688,7 +1702,33 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-NC-ND-3.0-CH",
    "license_url": "https://www.bullinger-digital.ch/api/content/disclaimers",
-   "institution": "Universität Zürich (Institut für Computerlinguistik); Staatsarchiv des Kantons Zürich"
+   "institution": "Universität Zürich (Institut für Computerlinguistik); Staatsarchiv des Kantons Zürich",
+   "language_counts": [
+    {
+     "language": "Latin",
+     "texts": 10075,
+     "words": 3941524
+    },
+    {
+     "language": "German",
+     "texts": 2398,
+     "words": 1086663
+    },
+    {
+     "language": "French",
+     "texts": 7,
+     "words": 1683
+    },
+    {
+     "language": "Italian",
+     "texts": 2,
+     "words": 350,
+     "works": [
+      "letter 2639 (1555)",
+      "letter 8759 (1572)"
+     ]
+    }
+   ]
   },
   {
    "title": "Bibliothèques Virtuelles Humanistes: Epistemon (printed texts)",
@@ -1781,7 +1821,19 @@
    "license_url": "https://www.iliesi.cnr.it/ATC/copyright.php",
    "license_note": "Copyright restrictions apply; no standard open reuse licence established.",
    "institution": "ILIESI-CNR (Istituto per il Lessico Intellettuale Europeo e Storia delle Idee), Rome",
-   "doi": "10.26335/atc"
+   "doi": "10.26335/atc",
+   "language_counts": [
+    {
+     "language": "Italian",
+     "texts": 16,
+     "words": 657442
+    },
+    {
+     "language": "Latin",
+     "texts": 5,
+     "words": 45767
+    }
+   ]
   },
   {
    "title": "The Casebooks Project",
@@ -1873,7 +1925,28 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://celt.ucc.ie/faq.html",
-   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "language_counts": [
+    {
+     "language": "Irish",
+     "texts": 59,
+     "words": 1608251
+    },
+    {
+     "language": "English",
+     "texts": 5,
+     "words": 149694
+    },
+    {
+     "language": "Latin",
+     "texts": 2,
+     "words": 73112,
+     "works": [
+      "CELT L100001",
+      "CELT L100012"
+     ]
+    }
+   ]
   },
   {
    "title": "Teatro de Autores Portugueses do Séc. XVI",
@@ -1998,7 +2071,65 @@
    "count_basis": "rq-retained-rows",
    "license": "Copyright",
    "license_url": "http://dantiscus.al.uw.edu.pl/?menu=citation&f=citation&lang=eng",
-   "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+   "license_note": "Copyright restrictions apply; no standard open reuse licence established.",
+   "language_counts": [
+    {
+     "language": "Latin",
+     "texts": 3336,
+     "words": 1382221
+    },
+    {
+     "language": "German",
+     "texts": 1220,
+     "words": 510152
+    },
+    {
+     "language": "Polish",
+     "texts": 34,
+     "words": 10566
+    },
+    {
+     "language": "Spanish",
+     "texts": 16,
+     "words": 6297
+    },
+    {
+     "language": "Dutch",
+     "texts": 3,
+     "words": 752,
+     "works": [
+      "letter IDL 3516",
+      "letter IDL 597",
+      "letter IDL 5838"
+     ]
+    },
+    {
+     "language": "French",
+     "texts": 2,
+     "words": 527,
+     "works": [
+      "letter IDL 3514",
+      "letter IDL 884"
+     ]
+    },
+    {
+     "language": "Italian",
+     "texts": 2,
+     "words": 462,
+     "works": [
+      "letter IDL 274",
+      "letter IDL 3459"
+     ]
+    },
+    {
+     "language": "Czech",
+     "texts": 1,
+     "words": 289,
+     "works": [
+      "letter IDL 3509"
+     ]
+    }
+   ]
   },
   {
    "title": "Epistolarium (CKCC)",
@@ -2035,7 +2166,60 @@
    "license": "Mixed",
    "license_url": "https://ssh.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/DANS-XFD-N8Y5",
    "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "doi": "10.17026/DANS-XFD-N8Y5"
+   "doi": "10.17026/DANS-XFD-N8Y5",
+   "language_counts": [
+    {
+     "language": "French",
+     "texts": 5,
+     "words": 2655352
+    },
+    {
+     "language": "Latin",
+     "texts": 7,
+     "words": 2646904
+    },
+    {
+     "language": "Dutch",
+     "texts": 7,
+     "words": 2419167
+    },
+    {
+     "language": "German",
+     "texts": 2,
+     "words": 103910,
+     "works": [
+      "Grotius, letters",
+      "Huygens, letters"
+     ]
+    },
+    {
+     "language": "English",
+     "texts": 3,
+     "words": 78649,
+     "works": [
+      "Grotius, letters",
+      "Huygens, letters",
+      "Van Leeuwenhoek, letters"
+     ]
+    },
+    {
+     "language": "Italian",
+     "texts": 2,
+     "words": 38696,
+     "works": [
+      "Grotius, letters",
+      "Huygens, letters"
+     ]
+    },
+    {
+     "language": "Spanish",
+     "texts": 1,
+     "words": 3749,
+     "works": [
+      "Grotius, letters"
+     ]
+    }
+   ]
   },
   {
    "title": "CODEA+ 2022 — Corpus de documentos españoles anteriores a 1900",
@@ -2160,7 +2344,19 @@
    "license": "Mixed",
    "license_url": "https://exist.ulb.tu-darmstadt.de/2/v/data/pa000002/wdbmeta.xml",
    "license_note": "Includes CC-BY-4.0, CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "institution": "Akademie der Wissenschaften und der Literatur Mainz (Irene Dingel, project lead); digital edition with Herzog August Bibliothek Wolfenbüttel and Universitäts- und Landesbibliothek Darmstadt"
+   "institution": "Akademie der Wissenschaften und der Literatur Mainz (Irene Dingel, project lead); digital edition with Herzog August Bibliothek Wolfenbüttel and Universitäts- und Landesbibliothek Darmstadt",
+   "language_counts": [
+    {
+     "language": "German",
+     "texts": 96,
+     "words": 739856
+    },
+    {
+     "language": "Latin",
+     "texts": 42,
+     "words": 335390
+    }
+   ]
   },
   {
    "title": "GIT-Coqalane — Corpus TEI-XML des coq-à-l'âne",
@@ -2610,7 +2806,22 @@
    "license": "Mixed",
    "license_url": "https://www.dbnl.org/overdbnl/copyright.php",
    "license_note": "Includes CC0-1.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "institution": "Koninklijke Bibliotheek (KB, National Library of the Netherlands); partners Taalunie and Bibliothecair Erfgoed Vlaanderen"
+   "institution": "Koninklijke Bibliotheek (KB, National Library of the Netherlands); partners Taalunie and Bibliothecair Erfgoed Vlaanderen",
+   "language_counts": [
+    {
+     "language": "Dutch",
+     "texts": 855,
+     "words": 21424489
+    },
+    {
+     "language": "Frisian",
+     "texts": 1,
+     "words": 16015,
+     "works": [
+      "Gysbert Japiks, Friesche Rymlerye"
+     ]
+    }
+   ]
   },
   {
    "title": "A Social Edition of the Devonshire MS (BL Add. MS 17492)",
@@ -3080,7 +3291,53 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://creativecommons.o",
-   "license_note": "Includes CC-BY-NC-3.0, CC-BY-NC-SA-4.0, CC0-1.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-NC-3.0, CC-BY-NC-SA-4.0, CC0-1.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "language_counts": [
+    {
+     "language": "English",
+     "texts": 747,
+     "words": 14622085
+    },
+    {
+     "language": "French",
+     "texts": 660,
+     "words": 7204995
+    },
+    {
+     "language": "Spanish",
+     "texts": 182,
+     "words": 2640246
+    },
+    {
+     "language": "Dutch",
+     "texts": 193,
+     "words": 2259478
+    },
+    {
+     "language": "Italian",
+     "texts": 78,
+     "words": 1222226
+    },
+    {
+     "language": "German",
+     "texts": 23,
+     "words": 400119
+    },
+    {
+     "language": "Latin",
+     "texts": 21,
+     "words": 116843
+    },
+    {
+     "language": "Hungarian",
+     "texts": 2,
+     "words": 22016,
+     "works": [
+      "Balassi, Szép magyar komédia",
+      "Bornemisza, Tragoedia magyar nyelven (Electra)"
+     ]
+    }
+   ]
   },
   {
    "title": "Digitale Rätoromanische Chrestomathie (Biblioteca Digitala)",
@@ -3361,7 +3618,97 @@
    "count_basis": "rq-retained-rows",
    "license": "CC0-1.0",
    "license_url": "https://www.textpartnership.net/pages/faq.html",
-   "license_note": "TCP transcriptions are unrestricted, with CC0 declarations in the TEI files. The underlying page images have separate rights."
+   "license_note": "TCP transcriptions are unrestricted, with CC0 declarations in the TEI files. The underlying page images have separate rights.",
+   "language_counts": [
+    {
+     "language": "English",
+     "texts": 49482,
+     "words": 1316770075
+    },
+    {
+     "language": "Latin",
+     "texts": 589,
+     "words": 16706385
+    },
+    {
+     "language": "Welsh",
+     "texts": 141,
+     "words": 9324752
+    },
+    {
+     "language": "French",
+     "texts": 146,
+     "words": 2201550
+    },
+    {
+     "language": "Scots",
+     "texts": 45,
+     "words": 1769985
+    },
+    {
+     "language": "Irish",
+     "texts": 1,
+     "words": 841721,
+     "works": [
+      "EEBO-TCP A28067 (1690)"
+     ]
+    },
+    {
+     "language": "Romance (other)",
+     "texts": 10,
+     "words": 451679
+    },
+    {
+     "language": "Italian",
+     "texts": 28,
+     "words": 415049
+    },
+    {
+     "language": "Multilingual",
+     "texts": 4,
+     "words": 230076
+    },
+    {
+     "language": "Spanish",
+     "texts": 11,
+     "words": 70581
+    },
+    {
+     "language": "Dutch",
+     "texts": 20,
+     "words": 27583
+    },
+    {
+     "language": "German",
+     "texts": 4,
+     "words": 21755
+    },
+    {
+     "language": "Portuguese",
+     "texts": 2,
+     "words": 7592,
+     "works": [
+      "EEBO-TCP A39859 (1663)"
+     ]
+    },
+    {
+     "language": "Greek",
+     "texts": 2,
+     "words": 1765,
+     "works": [
+      "EEBO-TCP A39349 (1668)",
+      "EEBO-TCP A46029 (1696)"
+     ]
+    },
+    {
+     "language": "Hebrew",
+     "texts": 1,
+     "words": 118,
+     "works": [
+      "EEBO-TCP A74086 (1660)"
+     ]
+    }
+   ]
   },
   {
    "title": "EGPA — Escritório Galego-Português Antigo",
@@ -3512,7 +3859,44 @@
    "count_basis": "rq-retained-rows-and-staging",
    "license": "Mixed",
    "license_url": "https://web.archive.org/web/20200503091954/http://emblems.let.uu.nl/project_procedures.html",
-   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "language_counts": [
+    {
+     "language": "Dutch",
+     "texts": 830,
+     "words": 364971
+    },
+    {
+     "language": "Latin",
+     "texts": 261,
+     "words": 113045
+    },
+    {
+     "language": "French",
+     "texts": 481,
+     "words": 58200
+    },
+    {
+     "language": "German",
+     "texts": 155,
+     "words": 5779
+    },
+    {
+     "language": "Spanish",
+     "texts": 43,
+     "words": 4039
+    },
+    {
+     "language": "Italian",
+     "texts": 78,
+     "words": 3898
+    },
+    {
+     "language": "English",
+     "texts": 61,
+     "words": 2995
+    }
+   ]
   },
   {
    "title": "EMLAP",
@@ -3606,7 +3990,37 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en",
-   "license_note": "Includes CC-BY-NC-ND-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-NC-ND-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "language_counts": [
+    {
+     "language": "Spanish",
+     "texts": 20,
+     "words": 327997
+    },
+    {
+     "language": "English",
+     "texts": 11,
+     "words": 245331
+    },
+    {
+     "language": "French",
+     "texts": 11,
+     "words": 197976
+    },
+    {
+     "language": "Italian",
+     "texts": 4,
+     "words": 66717
+    },
+    {
+     "language": "Portuguese",
+     "texts": 1,
+     "words": 4239,
+     "works": [
+      "Gil Vicente, Auto da Barca do Inferno"
+     ]
+    }
+   ]
   },
   {
    "title": "Early Modern Recipes Online Collective (EMROC)",
@@ -4119,7 +4533,27 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-SA-4.0",
-   "license_url": "https://it.wikisource.org/wiki/Il_Saggiatore"
+   "license_url": "https://it.wikisource.org/wiki/Il_Saggiatore",
+   "language_counts": [
+    {
+     "language": "Italian",
+     "texts": 3,
+     "words": 91255,
+     "works": [
+      "Colombe, Contro il moto della terra",
+      "Frammenti attenenti al Dialogo",
+      "Rocco, Esercitazioni filosofiche"
+     ]
+    },
+    {
+     "language": "Latin",
+     "texts": 1,
+     "words": 6099,
+     "works": [
+      "De telluris motu vel quiete"
+     ]
+    }
+   ]
   },
   {
    "title": "Jahrrechnungen der Stadt Basel 1535–1610 (Basel Records) — digital edition",
@@ -4268,7 +4702,34 @@
    "license": "Copyright",
    "license_url": "https://www.emblems.arts.gla.ac.uk/#copyright",
    "license_note": "Transcriptions and associated data are copyright University of Glasgow; images have separate rights.",
-   "institution": "University of Glasgow (Glasgow University Library, Stirling Maxwell Collection; Stirling Maxwell Centre for Emblem Studies)"
+   "institution": "University of Glasgow (Glasgow University Library, Stirling Maxwell Collection; Stirling Maxwell Centre for Emblem Studies)",
+   "language_counts": [
+    {
+     "language": "French",
+     "texts": 2496,
+     "words": 349459
+    },
+    {
+     "language": "Latin",
+     "texts": 2755,
+     "words": 153971
+    },
+    {
+     "language": "German",
+     "texts": 327,
+     "words": 23181
+    },
+    {
+     "language": "Spanish",
+     "texts": 210,
+     "words": 13316
+    },
+    {
+     "language": "Italian",
+     "texts": 175,
+     "words": 9533
+    }
+   ]
   },
   {
    "title": "Gondomar: Corpus dixital de textos galegos da Idade Moderna",
@@ -4973,7 +5434,37 @@
    "license": "Mixed",
    "license_url": "https://liberliber.it/opere/libri/licenze/",
    "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "institution": "Associazione Culturale Liber Liber (Progetto Manuzio)"
+   "institution": "Associazione Culturale Liber Liber (Progetto Manuzio)",
+   "language_counts": [
+    {
+     "language": "Italian",
+     "texts": 302,
+     "words": 28053938
+    },
+    {
+     "language": "Multilingual",
+     "texts": 3,
+     "words": 264976,
+     "works": [
+      "Ariosto, Lettere",
+      "Folengo, Baldus",
+      "Galilei, Istoria e dimostrazioni intorno alle macchie solari"
+     ]
+    },
+    {
+     "language": "Latin",
+     "texts": 4,
+     "words": 64317
+    },
+    {
+     "language": "Venetian",
+     "texts": 1,
+     "words": 5387,
+     "works": [
+      "Ruzante, Bilora"
+     ]
+    }
+   ]
   },
   {
    "title": "Litteraturbanken (The Swedish Literature Bank) — Swedish texts",
@@ -5322,7 +5813,19 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://www.newtonproject.ox.ac.uk/view/texts/xml/THEM00001",
-   "license_note": "Includes CC-BY-NC-ND-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-NC-ND-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "language_counts": [
+    {
+     "language": "English",
+     "texts": 121,
+     "words": 1655681
+    },
+    {
+     "language": "Latin",
+     "texts": 47,
+     "words": 413874
+    }
+   ]
   },
   {
    "title": "NOSCEMUS — Nova Scientia: Early Modern Scientific Literature and Latin",
@@ -5579,7 +6082,23 @@
    "texts": 10,
    "period": "1460-1661",
    "license": "CC-BY-NC-SA-4.0",
-   "license_url": "https://spraakbanken.gu.se/en/resources/openedges"
+   "license_url": "https://spraakbanken.gu.se/en/resources/openedges",
+   "language_counts": [
+    {
+     "language": "Dutch",
+     "texts": 8,
+     "words": 6756875
+    },
+    {
+     "language": "German",
+     "texts": 2,
+     "words": 348517,
+     "works": [
+      "Mentelin Bible (1460)",
+      "Mainz Bible (1661)"
+     ]
+    }
+   ]
   },
   {
    "title": "OpenITI",
@@ -5643,7 +6162,31 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-NC-SA-4.0",
    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
-   "doi": "10.5281/zenodo.18931376"
+   "doi": "10.5281/zenodo.18931376",
+   "language_counts": [
+    {
+     "language": "Spanish",
+     "texts": 372,
+     "words": 21362413
+    },
+    {
+     "language": "Aragonese",
+     "texts": 2,
+     "words": 113750,
+     "works": [
+      "OSTA text ACM",
+      "OSTA text STR"
+     ]
+    },
+    {
+     "language": "Latin",
+     "texts": 1,
+     "words": 43545,
+     "works": [
+      "OSTA text AXE"
+     ]
+    }
+   ]
   },
   {
    "title": "Otomi mission",
@@ -5932,7 +6475,19 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://portulanclarin.net/static/metashare/licences/CC-BYNCNDv3.0.htm",
-   "license_note": "Includes CC-BY-NC-ND-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-NC-ND-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "language_counts": [
+    {
+     "language": "Portuguese",
+     "texts": 884,
+     "words": 454983
+    },
+    {
+     "language": "Spanish",
+     "texts": 994,
+     "words": 444858
+    }
+   ]
   },
   {
    "title": "PPCHY Yiddish",
@@ -6001,7 +6556,70 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://www.gutenberg.org/policy/license.html",
-   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "language_counts": [
+    {
+     "language": "Spanish",
+     "texts": 89,
+     "words": 8634471
+    },
+    {
+     "language": "French",
+     "texts": 83,
+     "words": 5255115
+    },
+    {
+     "language": "English",
+     "texts": 16,
+     "words": 1998956
+    },
+    {
+     "language": "Portuguese",
+     "texts": 33,
+     "words": 1935571
+    },
+    {
+     "language": "Italian",
+     "texts": 21,
+     "words": 1256844
+    },
+    {
+     "language": "German",
+     "texts": 9,
+     "words": 448890
+    },
+    {
+     "language": "Dutch",
+     "texts": 9,
+     "words": 429828
+    },
+    {
+     "language": "Finnish",
+     "texts": 11,
+     "words": 240410
+    },
+    {
+     "language": "Latin",
+     "texts": 7,
+     "words": 214711
+    },
+    {
+     "language": "Catalan",
+     "texts": 1,
+     "words": 21893,
+     "works": [
+      "Shakespeare, La festa dels reis (Catalan translation)"
+     ]
+    },
+    {
+     "language": "Polish",
+     "texts": 1,
+     "words": 3870,
+     "works": [
+      "Kochanowski, Treny"
+     ]
+    }
+   ]
   },
   {
    "title": "QhoD — Quellen zur habsburgisch-osmanischen Diplomatie (Digital Scholarly Edition of Habsburg-Ottoman Diplomatic Sources 1500-1918) — edition-data release 2.0",
@@ -6032,7 +6650,22 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
    "license_url": "https://zenodo.org/records/14449603",
-   "doi": "10.5281/zenodo.14449603"
+   "doi": "10.5281/zenodo.14449603",
+   "language_counts": [
+    {
+     "language": "Ottoman Turkish",
+     "texts": 16,
+     "words": 16856
+    },
+    {
+     "language": "Latin",
+     "texts": 1,
+     "words": 4440,
+     "works": [
+      "QhoD stand-off annotations"
+     ]
+    }
+   ]
   },
   {
    "title": "REED English",
@@ -6063,7 +6696,28 @@
    "count_basis": "rq-retained-rows-and-staging",
    "license": "Mixed",
    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-   "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "language_counts": [
+    {
+     "language": "English",
+     "texts": 1176,
+     "words": 315613
+    },
+    {
+     "language": "Latin",
+     "texts": 360,
+     "words": 39702
+    },
+    {
+     "language": "Italian",
+     "texts": 2,
+     "words": 506,
+     "works": [
+      "Cambridge record (1578)",
+      "Cambridge record (1579)"
+     ]
+    }
+   ]
   },
   {
    "title": "Referenzkorpus Frühneuhochdeutsch (ReF; Reference Corpus of Early New High German)",
@@ -6418,7 +7072,19 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
-   "institution": "Academy of Sciences and Literature | Mainz; Max Planck Institute for Legal History and Legal Theory (Frankfurt); Goethe University Frankfurt"
+   "institution": "Academy of Sciences and Literature | Mainz; Max Planck Institute for Legal History and Legal Theory (Frankfurt); Goethe University Frankfurt",
+   "language_counts": [
+    {
+     "language": "Spanish",
+     "texts": 9,
+     "words": 2370099
+    },
+    {
+     "language": "Latin",
+     "texts": 9,
+     "words": 1901006
+    }
+   ]
   },
   {
    "title": "Sefaria",
@@ -6930,7 +7596,39 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://titus.uni-frankfurt.de/texte/etcs/alban/buzuku/buzuk.htm",
-   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "language_counts": [
+    {
+     "language": "Georgian",
+     "texts": 14,
+     "words": 1302569
+    },
+    {
+     "language": "Albanian",
+     "texts": 3,
+     "words": 243167,
+     "works": [
+      "Buzuku, Meshari (1555)",
+      "Matranga, Dottrina Christiana (1592)",
+      "Bogdani, Cuneus prophetarum (1685)"
+     ]
+    },
+    {
+     "language": "Lithuanian",
+     "texts": 6,
+     "words": 192133
+    },
+    {
+     "language": "Old Prussian",
+     "texts": 3,
+     "words": 8606,
+     "works": [
+      "First Catechism (1545)",
+      "Second Catechism (1545)",
+      "Enchiridion (1561)"
+     ]
+    }
+   ]
   },
   {
    "title": "Thesaurus Musicarum Italicarum (TmiWeb) and Saggi Musicali Italiani",
@@ -7404,7 +8102,141 @@
    "count_basis": "rq-retained-rows-and-staging",
    "license": "Mixed",
    "license_url": "https://foundation.wikimedia.org/wiki/Policy:Terms_of_Use",
-   "license_note": "Includes AGPL-3.0, CC-BY-SA-4.0, GFDL-1.3-no-invariants-or-later. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes AGPL-3.0, CC-BY-SA-4.0, GFDL-1.3-no-invariants-or-later. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "language_counts": [
+    {
+     "language": "Latin",
+     "texts": 351,
+     "words": 2637564
+    },
+    {
+     "language": "Hebrew",
+     "texts": 766,
+     "words": 1738574
+    },
+    {
+     "language": "German",
+     "texts": 539,
+     "words": 1592732
+    },
+    {
+     "language": "English",
+     "texts": 394,
+     "words": 1391094
+    },
+    {
+     "language": "French",
+     "texts": 607,
+     "words": 1047901
+    },
+    {
+     "language": "Polish",
+     "texts": 592,
+     "words": 714120
+    },
+    {
+     "language": "Catalan",
+     "texts": 402,
+     "words": 519720
+    },
+    {
+     "language": "Spanish",
+     "texts": 151,
+     "words": 321970
+    },
+    {
+     "language": "Romanian",
+     "texts": 14,
+     "words": 291341
+    },
+    {
+     "language": "Italian",
+     "texts": 179,
+     "words": 237829
+    },
+    {
+     "language": "Croatian",
+     "texts": 107,
+     "words": 198847
+    },
+    {
+     "language": "Czech",
+     "texts": 108,
+     "words": 158407
+    },
+    {
+     "language": "Armenian",
+     "texts": 1,
+     "words": 142243,
+     "works": [
+      "Arakel of Tabriz, History"
+     ]
+    },
+    {
+     "language": "Azerbaijani",
+     "texts": 346,
+     "words": 122211
+    },
+    {
+     "language": "Swedish",
+     "texts": 22,
+     "words": 115743
+    },
+    {
+     "language": "Greek",
+     "texts": 9,
+     "words": 98369
+    },
+    {
+     "language": "Hungarian",
+     "texts": 42,
+     "words": 56611
+    },
+    {
+     "language": "Portuguese",
+     "texts": 25,
+     "words": 31385
+    },
+    {
+     "language": "Dutch",
+     "texts": 1,
+     "words": 17011,
+     "works": [
+      "Jacob Cats, Sinne- en minnebeelden"
+     ]
+    },
+    {
+     "language": "Danish",
+     "texts": 5,
+     "words": 16720
+    },
+    {
+     "language": "Breton",
+     "texts": 1,
+     "words": 12521,
+     "works": [
+      "Buhez Santez Nonn"
+     ]
+    },
+    {
+     "language": "Slovenian",
+     "texts": 5,
+     "words": 4790
+    },
+    {
+     "language": "Tupi",
+     "texts": 5,
+     "words": 2432
+    },
+    {
+     "language": "Icelandic",
+     "texts": 1,
+     "words": 697,
+     "works": [
+      "Stefán Ólafsson, poems"
+     ]
+    }
+   ]
   },
   {
    "title": "WiN — Wiedererzählen im Norden. Digitale Analyse weltlicher Erzählungen in niederdeutschen Inkunabeln (WiN-Korpus v1.0)",

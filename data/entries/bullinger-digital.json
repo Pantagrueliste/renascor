@@ -28,5 +28,31 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-ND-3.0-CH",
   "license_url": "https://www.bullinger-digital.ch/api/content/disclaimers",
-  "institution": "Universität Zürich (Institut für Computerlinguistik); Staatsarchiv des Kantons Zürich"
+  "institution": "Universität Zürich (Institut für Computerlinguistik); Staatsarchiv des Kantons Zürich",
+  "language_counts": [
+    {
+      "language": "Latin",
+      "texts": 10075,
+      "words": 3941524
+    },
+    {
+      "language": "German",
+      "texts": 2398,
+      "words": 1086663
+    },
+    {
+      "language": "French",
+      "texts": 7,
+      "words": 1683
+    },
+    {
+      "language": "Italian",
+      "texts": 2,
+      "words": 350,
+      "works": [
+        "letter 2639 (1555)",
+        "letter 8759 (1572)"
+      ]
+    }
+  ]
 }

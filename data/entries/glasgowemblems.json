@@ -28,5 +28,32 @@
   "license": "Copyright",
   "license_url": "https://www.emblems.arts.gla.ac.uk/#copyright",
   "license_note": "Transcriptions and associated data are copyright University of Glasgow; images have separate rights.",
-  "institution": "University of Glasgow (Glasgow University Library, Stirling Maxwell Collection; Stirling Maxwell Centre for Emblem Studies)"
+  "institution": "University of Glasgow (Glasgow University Library, Stirling Maxwell Collection; Stirling Maxwell Centre for Emblem Studies)",
+  "language_counts": [
+    {
+      "language": "French",
+      "texts": 2496,
+      "words": 349459
+    },
+    {
+      "language": "Latin",
+      "texts": 2755,
+      "words": 153971
+    },
+    {
+      "language": "German",
+      "texts": 327,
+      "words": 23181
+    },
+    {
+      "language": "Spanish",
+      "texts": 210,
+      "words": 13316
+    },
+    {
+      "language": "Italian",
+      "texts": 175,
+      "words": 9533
+    }
+  ]
 }

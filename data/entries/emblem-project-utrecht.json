@@ -32,5 +32,42 @@
   "count_basis": "rq-retained-rows-and-staging",
   "license": "Mixed",
   "license_url": "https://web.archive.org/web/20200503091954/http://emblems.let.uu.nl/project_procedures.html",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "language_counts": [
+    {
+      "language": "Dutch",
+      "texts": 830,
+      "words": 364971
+    },
+    {
+      "language": "Latin",
+      "texts": 261,
+      "words": 113045
+    },
+    {
+      "language": "French",
+      "texts": 481,
+      "words": 58200
+    },
+    {
+      "language": "German",
+      "texts": 155,
+      "words": 5779
+    },
+    {
+      "language": "Spanish",
+      "texts": 43,
+      "words": 4039
+    },
+    {
+      "language": "Italian",
+      "texts": 78,
+      "words": 3898
+    },
+    {
+      "language": "English",
+      "texts": 61,
+      "words": 2995
+    }
+  ]
 }

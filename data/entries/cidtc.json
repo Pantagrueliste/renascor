@@ -33,5 +33,63 @@
   "count_basis": "rq-retained-rows",
   "license": "Copyright",
   "license_url": "http://dantiscus.al.uw.edu.pl/?menu=citation&f=citation&lang=eng",
-  "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+  "license_note": "Copyright restrictions apply; no standard open reuse licence established.",
+  "language_counts": [
+    {
+      "language": "Latin",
+      "texts": 3336,
+      "words": 1382221
+    },
+    {
+      "language": "German",
+      "texts": 1220,
+      "words": 510152
+    },
+    {
+      "language": "Polish",
+      "texts": 34,
+      "words": 10566
+    },
+    {
+      "language": "Spanish",
+      "texts": 16,
+      "words": 6297
+    },
+    {
+      "language": "Dutch",
+      "texts": 3,
+      "words": 752,
+      "works": [
+        "letter IDL 3516",
+        "letter IDL 597",
+        "letter IDL 5838"
+      ]
+    },
+    {
+      "language": "French",
+      "texts": 2,
+      "words": 527,
+      "works": [
+        "letter IDL 3514",
+        "letter IDL 884"
+      ]
+    },
+    {
+      "language": "Italian",
+      "texts": 2,
+      "words": 462,
+      "works": [
+        "letter IDL 274",
+        "letter IDL 3459"
+      ]
+    },
+    {
+      "language": "Czech",
+      "texts": 1,
+      "words": 289,
+      "works": [
+        "letter IDL 3509"
+      ]
+    }
+  ]
 }

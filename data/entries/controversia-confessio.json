@@ -27,5 +27,17 @@
   "license": "Mixed",
   "license_url": "https://exist.ulb.tu-darmstadt.de/2/v/data/pa000002/wdbmeta.xml",
   "license_note": "Includes CC-BY-4.0, CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "institution": "Akademie der Wissenschaften und der Literatur Mainz (Irene Dingel, project lead); digital edition with Herzog August Bibliothek Wolfenbüttel and Universitäts- und Landesbibliothek Darmstadt"
+  "institution": "Akademie der Wissenschaften und der Literatur Mainz (Irene Dingel, project lead); digital edition with Herzog August Bibliothek Wolfenbüttel and Universitäts- und Landesbibliothek Darmstadt",
+  "language_counts": [
+    {
+      "language": "German",
+      "texts": 96,
+      "words": 739856
+    },
+    {
+      "language": "Latin",
+      "texts": 42,
+      "words": 335390
+    }
+  ]
 }

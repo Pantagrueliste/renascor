@@ -27,5 +27,20 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-4.0",
   "license_url": "https://zenodo.org/records/14449603",
-  "doi": "10.5281/zenodo.14449603"
+  "doi": "10.5281/zenodo.14449603",
+  "language_counts": [
+    {
+      "language": "Ottoman Turkish",
+      "texts": 16,
+      "words": 16856
+    },
+    {
+      "language": "Latin",
+      "texts": 1,
+      "words": 4440,
+      "works": [
+        "QhoD stand-off annotations"
+      ]
+    }
+  ]
 }

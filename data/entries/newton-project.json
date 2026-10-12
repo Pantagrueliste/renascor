@@ -27,5 +27,17 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://www.newtonproject.ox.ac.uk/view/texts/xml/THEM00001",
-  "license_note": "Includes CC-BY-NC-ND-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes CC-BY-NC-ND-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "language_counts": [
+    {
+      "language": "English",
+      "texts": 121,
+      "words": 1655681
+    },
+    {
+      "language": "Latin",
+      "texts": 47,
+      "words": 413874
+    }
+  ]
 }

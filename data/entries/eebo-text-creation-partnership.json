@@ -43,5 +43,95 @@
   "count_basis": "rq-retained-rows",
   "license": "CC0-1.0",
   "license_url": "https://www.textpartnership.net/pages/faq.html",
-  "license_note": "TCP transcriptions are unrestricted, with CC0 declarations in the TEI files. The underlying page images have separate rights."
+  "license_note": "TCP transcriptions are unrestricted, with CC0 declarations in the TEI files. The underlying page images have separate rights.",
+  "language_counts": [
+    {
+      "language": "English",
+      "texts": 49482,
+      "words": 1316770075
+    },
+    {
+      "language": "Latin",
+      "texts": 589,
+      "words": 16706385
+    },
+    {
+      "language": "Welsh",
+      "texts": 141,
+      "words": 9324752
+    },
+    {
+      "language": "French",
+      "texts": 146,
+      "words": 2201550
+    },
+    {
+      "language": "Scots",
+      "texts": 45,
+      "words": 1769985
+    },
+    {
+      "language": "Irish",
+      "texts": 1,
+      "words": 841721,
+      "works": [
+        "EEBO-TCP A28067 (1690)"
+      ]
+    },
+    {
+      "language": "Romance (other)",
+      "texts": 10,
+      "words": 451679
+    },
+    {
+      "language": "Italian",
+      "texts": 28,
+      "words": 415049
+    },
+    {
+      "language": "Multilingual",
+      "texts": 4,
+      "words": 230076
+    },
+    {
+      "language": "Spanish",
+      "texts": 11,
+      "words": 70581
+    },
+    {
+      "language": "Dutch",
+      "texts": 20,
+      "words": 27583
+    },
+    {
+      "language": "German",
+      "texts": 4,
+      "words": 21755
+    },
+    {
+      "language": "Portuguese",
+      "texts": 2,
+      "words": 7592,
+      "works": [
+        "EEBO-TCP A39859 (1663)"
+      ]
+    },
+    {
+      "language": "Greek",
+      "texts": 2,
+      "words": 1765,
+      "works": [
+        "EEBO-TCP A39349 (1668)",
+        "EEBO-TCP A46029 (1696)"
+      ]
+    },
+    {
+      "language": "Hebrew",
+      "texts": 1,
+      "words": 118,
+      "works": [
+        "EEBO-TCP A74086 (1660)"
+      ]
+    }
+  ]
 }

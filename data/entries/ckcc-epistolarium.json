@@ -33,5 +33,58 @@
   "license": "Mixed",
   "license_url": "https://ssh.datastations.nl/dataset.xhtml?persistentId=doi:10.17026/DANS-XFD-N8Y5",
   "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "doi": "10.17026/DANS-XFD-N8Y5"
+  "doi": "10.17026/DANS-XFD-N8Y5",
+  "language_counts": [
+    {
+      "language": "French",
+      "texts": 5,
+      "words": 2655352
+    },
+    {
+      "language": "Latin",
+      "texts": 7,
+      "words": 2646904
+    },
+    {
+      "language": "Dutch",
+      "texts": 7,
+      "words": 2419167
+    },
+    {
+      "language": "German",
+      "texts": 2,
+      "words": 103910,
+      "works": [
+        "Grotius, letters",
+        "Huygens, letters"
+      ]
+    },
+    {
+      "language": "English",
+      "texts": 3,
+      "words": 78649,
+      "works": [
+        "Grotius, letters",
+        "Huygens, letters",
+        "Van Leeuwenhoek, letters"
+      ]
+    },
+    {
+      "language": "Italian",
+      "texts": 2,
+      "words": 38696,
+      "works": [
+        "Grotius, letters",
+        "Huygens, letters"
+      ]
+    },
+    {
+      "language": "Spanish",
+      "texts": 1,
+      "words": 3749,
+      "works": [
+        "Grotius, letters"
+      ]
+    }
+  ]
 }

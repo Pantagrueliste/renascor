@@ -73,3 +73,12 @@ The [weekly discovery agent](../agent/README.md) proposes candidates as pull req
 The [CORDIS review](CORDIS_REVIEW.md) records the first search for missing EU-funded text collections. Its [metadata audit](../data/cordis_review_2026-10-09.json) preserves coverage, archive checksums, search expressions and candidate evidence. Review candidates before creating files in `data/entries`; the audit itself does not add catalogue records.
 
 [.github/FUNDING.yml](../.github/FUNDING.yml) configures GitHub’s Sponsor button to link to [Ko-fi](https://ko-fi.com/clementgodbarge).
+
+## Languages per entry
+
+Multilingual entries harvested into the Renascor Corpus record how many texts and words each language contributes (`language_counts`); a language with three texts or fewer names them, from `scripts/isolated_titles.json`. Regenerate after changing `scripts/rq_families.json` or the titles file:
+
+```
+python3 scripts/language_breakdown.py --db /path/to/corpus_master.sqlite
+python3 scripts/build_site.py
+```

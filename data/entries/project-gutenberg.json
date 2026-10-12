@@ -35,5 +35,68 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://www.gutenberg.org/policy/license.html",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "language_counts": [
+    {
+      "language": "Spanish",
+      "texts": 89,
+      "words": 8634471
+    },
+    {
+      "language": "French",
+      "texts": 83,
+      "words": 5255115
+    },
+    {
+      "language": "English",
+      "texts": 16,
+      "words": 1998956
+    },
+    {
+      "language": "Portuguese",
+      "texts": 33,
+      "words": 1935571
+    },
+    {
+      "language": "Italian",
+      "texts": 21,
+      "words": 1256844
+    },
+    {
+      "language": "German",
+      "texts": 9,
+      "words": 448890
+    },
+    {
+      "language": "Dutch",
+      "texts": 9,
+      "words": 429828
+    },
+    {
+      "language": "Finnish",
+      "texts": 11,
+      "words": 240410
+    },
+    {
+      "language": "Latin",
+      "texts": 7,
+      "words": 214711
+    },
+    {
+      "language": "Catalan",
+      "texts": 1,
+      "words": 21893,
+      "works": [
+        "Shakespeare, La festa dels reis (Catalan translation)"
+      ]
+    },
+    {
+      "language": "Polish",
+      "texts": 1,
+      "words": 3870,
+      "works": [
+        "Kochanowski, Treny"
+      ]
+    }
+  ]
 }

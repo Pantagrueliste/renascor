@@ -19,5 +19,21 @@
   "texts": 10,
   "period": "1460-1661",
   "license": "CC-BY-NC-SA-4.0",
-  "license_url": "https://spraakbanken.gu.se/en/resources/openedges"
+  "license_url": "https://spraakbanken.gu.se/en/resources/openedges",
+  "language_counts": [
+    {
+      "language": "Dutch",
+      "texts": 8,
+      "words": 6756875
+    },
+    {
+      "language": "German",
+      "texts": 2,
+      "words": 348517,
+      "works": [
+        "Mentelin Bible (1460)",
+        "Mainz Bible (1661)"
+      ]
+    }
+  ]
 }

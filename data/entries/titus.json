@@ -29,5 +29,37 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://titus.uni-frankfurt.de/texte/etcs/alban/buzuku/buzuk.htm",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "language_counts": [
+    {
+      "language": "Georgian",
+      "texts": 14,
+      "words": 1302569
+    },
+    {
+      "language": "Albanian",
+      "texts": 3,
+      "words": 243167,
+      "works": [
+        "Buzuku, Meshari (1555)",
+        "Matranga, Dottrina Christiana (1592)",
+        "Bogdani, Cuneus prophetarum (1685)"
+      ]
+    },
+    {
+      "language": "Lithuanian",
+      "texts": 6,
+      "words": 192133
+    },
+    {
+      "language": "Old Prussian",
+      "texts": 3,
+      "words": 8606,
+      "works": [
+        "First Catechism (1545)",
+        "Second Catechism (1545)",
+        "Enchiridion (1561)"
+      ]
+    }
+  ]
 }

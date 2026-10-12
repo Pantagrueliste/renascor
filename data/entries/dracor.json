@@ -32,5 +32,51 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://creativecommons.o",
-  "license_note": "Includes CC-BY-NC-3.0, CC-BY-NC-SA-4.0, CC0-1.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes CC-BY-NC-3.0, CC-BY-NC-SA-4.0, CC0-1.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "language_counts": [
+    {
+      "language": "English",
+      "texts": 747,
+      "words": 14622085
+    },
+    {
+      "language": "French",
+      "texts": 660,
+      "words": 7204995
+    },
+    {
+      "language": "Spanish",
+      "texts": 182,
+      "words": 2640246
+    },
+    {
+      "language": "Dutch",
+      "texts": 193,
+      "words": 2259478
+    },
+    {
+      "language": "Italian",
+      "texts": 78,
+      "words": 1222226
+    },
+    {
+      "language": "German",
+      "texts": 23,
+      "words": 400119
+    },
+    {
+      "language": "Latin",
+      "texts": 21,
+      "words": 116843
+    },
+    {
+      "language": "Hungarian",
+      "texts": 2,
+      "words": 22016,
+      "works": [
+        "Balassi, Szép magyar komédia",
+        "Bornemisza, Tragoedia magyar nyelven (Electra)"
+      ]
+    }
+  ]
 }
