@@ -699,24 +699,10 @@ function sizeFull(r) {
 	return plural(w, 'word') + (hasNum(t) ? ' in ' + plural(t, 'text') : '') + sizeStrip(w) + `<span class="line">${esc(rankSentence(w))}</span>`;
 }
 
-function figuresText(r) {
-	const d = r.d;
-	if (r.e.resource_statistics) {
-		const s = r.e.resource_statistics;
-		return esc(s.note) + ' ' + extLink(s.url, 'Count audit') + muted('· ' + esc(s.date));
-	}
-	if (d.figures === 'other') return 'Recorded from another source; not counted in the corpus snapshot.';
-	if (d.figures !== 'rq') return 'No word or text count recorded.';
-	const snap = (meta.snapshots || {})[d.snapshot];
-	const month = (snap && snap.month) || (meta.display && meta.display.snapshot_month) || '';
-	if (r.e.count_basis) {
-		const recovered = r.e.count_basis === 'rq-retained-rows-and-staging';
-		return 'Resource counts include retained duplicates' + (recovered ? ' and additional texts recovered from the saved source harvest' : '') +
-			'. They cover harvested texts within 1450–1700; texts excluded before the saved harvest may be missing. ' +
-			'<a href="#figures">How the figures are made</a>';
-	}
-	return `Texts, words, languages and period counted in the corpus snapshot${month ? ' of ' + esc(month) : ''}; ` +
-		'they may cover only part of the edition. <a href="#figures">How the figures are made</a>';
+// Only a separately audited source count needs a word of explanation in the record.
+function countSourceHTML(e) {
+	const s = e.resource_statistics;
+	return esc(s.note) + ' ' + extLink(s.url, 'Count audit') + muted('· ' + esc(s.date));
 }
 
 function licenseHTML(e) {
@@ -760,8 +746,8 @@ function recordHTML(r) {
 	if (e.corpus_statistics) right.push(['Renascor Corpus', plural(e.corpus_statistics.words, 'word') +
 		' in ' + plural(e.corpus_statistics.texts, 'text') + muted('· after corpus deduplication')]);
 	if (e.last_modified) right.push(['Last change', esc(e.last_modified) + muted('· reported by the host')]);
-	right.push(['Figures', figuresText(r)],
-		['Added', esc(e.date_added || '') + muted('· ' + (e.provenance === 'discovered' ? 'proposed by the automated search' : 'submitted by a contributor'))]);
+	if (e.resource_statistics) right.push(['Count source', countSourceHTML(e)]);
+	right.push(['Added', esc(e.date_added || '') + muted('· ' + (e.provenance === 'discovered' ? 'proposed by the automated search' : 'submitted by a contributor'))]);
 	let h = `<div class="record" id="rec-${esc(r.id)}" role="region" aria-label="Record: ${esc(e.title)}">` + dl(left) + dl(right);
 	if (d.notes_display) h += `<div class="rec-notes"><p class="rec-notes-h">Notes</p><p class="rec-notes-t">${linkify(d.notes_display)}</p></div>`;
 	const correction = `${REPO}/issues/new?template=correction.yml&title=${encodeURIComponent('[correction] ' + e.title)}&entry=${encodeURIComponent(e.title + ' (' + r.id + '.json)')}`;
