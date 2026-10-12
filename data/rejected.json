@@ -16,6 +16,54 @@
       "reason": "Access to Frantext Intégral requires a paid institutional or individual subscription. Temporary access to restricted free corpora does not make the full collection freely accessible.",
       "source_url": "https://paiement.frantext.fr/conditions-generales",
       "date": "2026-10-09"
+    },
+    {
+      "id": "gallicorpora-french-htr",
+      "title": "Gallicorpora (French early prints, HTR)",
+      "url": "https://gallicorpora.github.io/",
+      "date": "2026-10-12",
+      "reason": "The Gallicorpora TEI files are uncorrected automatic transcriptions (Kraken HTR converted from ALTO, as their TEI headers state), not edited or corrected texts. The catalogue excludes uncorrected OCR and HTR. The entry also mixed texts from other projects (SETAF Pierre de Vingle, OCR17plus, CREMMA).",
+      "source_url": "https://github.com/Gallicorpora/TEI"
+    },
+    {
+      "id": "montoya-guarani",
+      "title": "Antonio Ruiz de Montoya, Arte, vocabulario y tesoro de la lengua guaraní (Internet Archive scan)",
+      "url": "https://archive.org/details/gramaticaydiccio02ruiz",
+      "date": "2026-10-12",
+      "reason": "The only text is uncorrected machine OCR (DjVu XML, hOCR) of a page scan on the Internet Archive, not a transcribed edition. The catalogue excludes uncorrected OCR.",
+      "source_url": "https://archive.org/details/gramaticaydiccio02ruiz"
+    },
+    {
+      "id": "gilberti-purepecha",
+      "title": "Maturino Gilberti, Vocabulario en lengua de Mechuacan, 1559 (Internet Archive scan)",
+      "url": "https://archive.org/details/vocabularioenlen00gilb",
+      "date": "2026-10-12",
+      "reason": "The only text is uncorrected ABBYY FineReader OCR of a scan of the 1559 print on the Internet Archive, not a transcribed edition. The catalogue excludes uncorrected OCR.",
+      "source_url": "https://archive.org/metadata/vocabularioenlen00gilb"
+    },
+    {
+      "id": "norman-musenormande",
+      "title": "La Muse normande de David Ferrand, 1891 edition (Internet Archive scan)",
+      "url": "https://archive.org/details/lamusenormanded09ferrgoog",
+      "date": "2026-10-12",
+      "reason": "The only text is uncorrected ABBYY FineReader OCR of a Google scan of the 1891 edition on the Internet Archive, not a transcribed edition. The catalogue excludes uncorrected OCR.",
+      "source_url": "https://archive.org/details/lamusenormanded09ferrgoog"
+    },
+    {
+      "id": "humanumgitlab",
+      "title": "GitLab des humanités numériques (Huma-Num)",
+      "url": "https://gitlab.huma-num.fr/",
+      "date": "2026-10-12",
+      "reason": "A hosting platform, not an edition: the record grouped seven unrelated projects found on Huma-Num's GitLab, and more than half of its words came from a 1746 dictionary outside 1450-1700. Individual editions hosted there can be proposed as their own entries.",
+      "source_url": "https://gitlab.huma-num.fr/"
+    },
+    {
+      "id": "nakala",
+      "title": "Nakala (Huma-Num data repository)",
+      "url": "https://nakala.fr/",
+      "date": "2026-10-12",
+      "reason": "A deposit platform, not an edition: the record grouped about twenty unrelated projects deposited on Nakala, and at least 50 of its 109 texts fall outside 1450-1700 (Balzac, Flaubert, recordings of spoken French from 2020). Individual editions deposited there can be proposed as their own entries.",
+      "source_url": "https://nakala.fr/"
     }
   ],
   "review_pending": [
