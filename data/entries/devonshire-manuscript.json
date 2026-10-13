@@ -20,7 +20,7 @@
     "start": 2004
   },
   "notes": "A digital edition of a mid-sixteenth-century miscellany of verse and prose, compiled in the court circle of Margaret Douglas and later the Rutland household, with contributions by Thomas Wyatt, Mary Shelton and others. Diplomatic transcription, modernised text and scholarly apparatus, encoded in TEI P5. The original dedicated site (devonshire.unb.ca) is offline; the social edition now lives on Wikibooks, and the ~200 TEI XML transcriptions and witnesses (CC BY-SA 4.0) are archived at Oxford LLDS: https://llds.phon.ox.ac.uk/llds/xmlui/handle/20.500.14106/2587\n\nThe counts cover the 186 poem and item files of the manuscript, not the 288 witness files. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
-  "license": "Not stated",
+  "license": "Mixed",
   "words": 29880,
   "texts": 186,
   "corpus_statistics": {
@@ -28,5 +28,7 @@
     "words": 29880,
     "texts": 186
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://en.wikibooks.org/wiki/The_Devonshire_Manuscript",
+  "license_note": "Wikibooks page footer: 'Text is available under the Creative Commons Attribution-ShareAlike License' (CC BY-SA 4.0), covering the social edition hosted there; the catalogue note says the archived TEI files at Oxford LLDS are CC BY-SA 4.0 (that record is bot-walled and was not verified). Caution: the TEI headers in the GitHub archive (etcluvic/devonshire-ms) state 'Available upon request for teaching and academic purposes only', and the repository has no LICENSE file."
 }

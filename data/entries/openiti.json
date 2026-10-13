@@ -17,7 +17,7 @@
   "texts": 1241,
   "period": "1451-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Open Islamicate Texts Initiative: a corpus of Arabic (and other Islamicate-language) texts, published openly on GitHub in the mARkdown format, organised by author death date, with releases archived on Zenodo (DOI 10.5281/zenodo.4075046) and tools such as a Python library. It is a multi-institutional effort led by researchers at the Aga Khan University (Institute for the Study of Muslim Civilisations, London), the Roshan Institute for Persian Studies (University of Maryland) and Universität Hamburg. The catalogue entry covers authors of 1451-1700. The organisation is active, with repository updates in 2026. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 193859865,

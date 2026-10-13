@@ -18,7 +18,7 @@
   "words": 364217,
   "texts": 2235,
   "period": "1450-1643",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "REED Online: the TEI-XML collections of Records of Early English Drama, documents about drama, secular music and other entertainment in England before 1642, published by county or playhouse (Berkshire, Cambridgeshire, Hampshire, Staffordshire, Suffolk, Yorkshire North Riding, and the Bear Garden, Newington Butts, Rose and Swan playhouses). It is an international research collaboration associated with the University of Toronto (reed.utoronto.ca), with support credited to bodies including the British Academy, NEH and SSHRC; the site is powered by Kiln and EATS and is copyrighted 2016-25, with the Swan Playhouse collection (ed. Sally-Beth MacLean) added in June 2026. The TEI source files are also on GitHub (REEDProject/Collections). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 355821,
@@ -48,5 +48,6 @@
         "Cambridge record (1579)"
       ]
     }
-  ]
+  ],
+  "institution": "Records of Early English Drama (REED), University of Toronto"
 }

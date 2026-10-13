@@ -16,7 +16,7 @@
   "texts": 198,
   "period": "1674-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Online edition of the Proceedings of the Old Bailey, the trial accounts of London's central criminal court, 1674-1913 (the catalogue covers the 1674-1700 part), with the Ordinary of Newgate's Accounts (1676-1772). It was created by the Universities of Hertfordshire and Sheffield and the Open University; the project directors were Tim Hitchcock, Robert Shoemaker and Clive Emsley, with Sharon Howard as project manager, and the funders were the Big Lottery Fund and the AHRC. The texts were double-rekeyed (to 1834) and marked up in XML for names, crimes, verdicts and punishments; the site is run by the Digital Humanities Institute, Sheffield, which also provides the data download (dhi.ac.uk/data/oldbailey). The site is active. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 924767,
@@ -25,5 +25,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://creativecommons.org/licenses/by-nc/4.0",
-  "license_note": "Includes CC-BY-NC-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes CC-BY-NC-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "Digital Humanities Institute, University of Sheffield (with the Universities of Hertfordshire and Sheffield and the Open University)"
 }

@@ -26,5 +26,7 @@
   },
   "notes": "Transcripts, with page images, of the witness statements (depositions and examinations) collected after the Irish rising of October 1641, bound in 32 volumes (TCD MSS 809-840) and kept in Trinity College Library. Every transcript is readable online without login. The project page says the transcribing and online publication ran from 2007 to September 2010 and that the site presents about 8,000 depositions, examinations and associated materials. All the depositions are dated 1641-1653, within 1450-1700. The site's content pages were last changed on 2020-10-16 (WordPress page records), so it is marked archived. Only a TEI-compliant encoding is mentioned on the project pages; no download of the files was found. The counts rest on the site's own listing of 6,932 deposition records, and the texts themselves could not be read: the site answers automated requests with a reCAPTCHA challenge.",
   "last_modified": "2020-10-16",
-  "license": "Not stated"
+  "license": "Copyright",
+  "license_url": "https://web.archive.org/web/2023/https://1641.tcd.ie/index.php/using-faq/",
+  "license_note": "FAQ (archived copy; live site is behind a CAPTCHA): \"The copyright for the transcriptions belongs to the 1641 Depositions Project/the Library of TCD and the transcriptions may not be published without permission\"; image copyright belongs to the Board of the Library of TCD and images cannot be downloaded."
 }

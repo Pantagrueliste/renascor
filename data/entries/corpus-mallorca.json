@@ -33,5 +33,6 @@
     "words": 31007,
     "texts": 84
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_note": "No licence or copyright statement on the home, research-team, document-consultation, bibliography or editing-norms pages (checked 2026-10-13); the site only mentions its funding (projects FFI2014-59135-R and FFI2017-83899-P) and membership of the CHARTA network, whose own terms are CC BY-NC-ND but are not extended to this site."
 }

@@ -24,7 +24,7 @@
     "texts": 17
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "http://www.runasimi.de/waruchir.htm",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "CC-BY-3.0",
+  "license_url": "http://creativecommons.org/licenses/by/3.0/",
+  "license_note": "The site footer says 'Except where otherwise noted, content on this site is licensed under a Creative Commons Attribution 3.0 License'; the file is a PDF of Taylor's 1987 print edition (IEP / IFEA) and the page notes no separate licence for it, so the site-wide statement may not reflect the rights holders' position."
 }

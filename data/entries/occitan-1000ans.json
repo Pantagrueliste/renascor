@@ -21,7 +21,8 @@
     "texts": 8
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence.",
-  "institution": "Université Paul-Valéry Montpellier 3 (Université Ouverte des Humanités; SUN / DSIN)"
+  "license": "CC-BY-NC-SA-2.0-FR",
+  "license_note": "The Mentions légales page states the site is under a 'Licence Creative Commons Attribution – Pas d'Utilisation Commerciale – Partage dans les Mêmes Conditions 2.0 France' (CC BY-NC-SA 2.0 FR). The same page also says that, quotations aside, the content may not be reproduced or reused without the editors' agreement, and that some images carry their own licences; the CC statement is therefore the best available text licence but the page is ambiguous.",
+  "institution": "Université Paul-Valéry Montpellier 3 (Université Ouverte des Humanités; SUN / DSIN)",
+  "license_url": "https://uoh.univ-montp3.fr/1000ans/?page_id=2225"
 }

@@ -16,7 +16,7 @@
   "words": 4810638,
   "texts": 41,
   "period": "1466-1700",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Ganjoor is a Persian poetry website and database of classical Persian poets and their poems; the Renascor record covers the part of the content dated 1466-1700. It was started by an individual hobbyist and moved to ganjoor.net in 2007/8; it is not tied to any institution or commercial body. Poems are typed by volunteers mostly from free sources, with sources listed on the Sources page. The data is exported periodically as a database and, as of 2026-10-13, as a public git-tracked JSON repository (about 240 poets and 135,000 poems) on GitHub. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 4810638,
@@ -24,6 +24,7 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "Not stated",
-  "license_url": "https://ganjoor.net/faq?id=21",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license_url": "https://ganjoor.net/about",
+  "license_note": "No licence statement on the site (home, About, FAQ, Sources), nor a LICENSE file or licence line in the ganjoor-data GitHub repository; the About page only says most texts come from freely available sources and the FAQ says most modern works are under copyright and cannot be published (checked 2026-10-13).",
+  "institution": "Ganjoor project (independent, volunteer-run)"
 }

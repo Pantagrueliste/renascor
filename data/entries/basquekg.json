@@ -16,7 +16,7 @@
   "words": 818721,
   "texts": 32,
   "period": "1545-1696",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Klasikoen Gordailua (Repository of Classics), run by armiarma.eus since 2005, which aims to gather nearly all classic Basque texts up to the twentieth century; its search tool, the Corpus Arakatzailea, dates from 2007. The Basque Classics Corpus (Euskal Klasikoen Corpusa) of the UPV/EHU Institute of the Basque Language republishes this material (published there on 2013-12-05; author Joseba Ezeiza): 496 books from the 16th century to 1975, searchable by author, period, dialect and genre. The whole corpus can be downloaded as a single file in TEI or RTF. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 818721,
@@ -25,5 +25,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://klasikoak.armiarma.eus/kgriburuz.htm",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "armiarma.eus (Klasikoen Gordailua); Euskara Institutua, University of the Basque Country (UPV/EHU); corpus by Joseba Ezeiza"
 }

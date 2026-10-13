@@ -28,5 +28,6 @@
     "words": 46508,
     "texts": 11
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_note": "No licence or copyright statement on the site (home page, project, team, funding, notes on presentation, help and treatise pages), in the GitHub repository EarlyMusicTheory/REF2021 (no LICENSE file, no licence set) or in the page sources. The site only calls itself an 'open-access edition' (checked 2026-10-13)."
 }

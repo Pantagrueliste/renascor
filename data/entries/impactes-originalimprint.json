@@ -16,7 +16,7 @@
   "words": 1962810,
   "texts": 14,
   "period": "1543-1691",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "IMPACT-es is a diachronic corpus of historical Spanish with over one hundred books (about 8 million words) from the Biblioteca Virtual Miguel de Cervantes and ground-truth pages from the Spanish national libraries, with a complementary lexicon of more than 10,000 lemmas linked to variant forms; about 7% of the words carry lemma, part of speech and modern equivalent. It was produced by the Universidad de Alicante and the Fundacion Biblioteca Virtual Miguel de Cervantes within the IMPACT project, described by Sanchez-Martinez, Martinez-Sempere, Ivars-Ribes and Carrasco in Language Resources and Evaluation. The ground-truth files (works by Cervantes, Lope, Calderon, Garcilaso, Quevedo and others, in 16 folders) are on GitHub (impactcentre/groundtruth-spa) and the corpus is offered as zipped XML with DTDs; no later changes were found. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2013-04-15",
   "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -25,5 +25,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-SA-3.0",
-  "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/"
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "institution": "Universidad de Alicante and Fundación Biblioteca Virtual Miguel de Cervantes (IMPACT project)"
 }

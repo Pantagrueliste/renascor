@@ -17,7 +17,7 @@
   "words": 703209,
   "texts": 21,
   "period": "1595-1635",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Archivio Tommaso Campanella (ATC), part of the ILIESI 'Archivio dei filosofi del Rinascimento' (with the Bruno and Vanini archives). It gathers the writings of Tommaso Campanella (1568-1639) in text-with-facsimile form, mostly following modern critical editions (for example by Luigi Firpo and Germana Ernst), together with a detailed chronology, a census of early Campanella prints in Italian and foreign libraries, documents, bibliographic notes, studies, images and an ethical-political lexicon. The texts are also available as TEI XML files. Run by ILIESI-CNR (Rome) under the scientific direction of Eugenio Canone; the site is dedicated to Germana Ernst and its pages carry copyright dates 2009-2020. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 703209,
@@ -26,7 +26,7 @@
   "count_basis": "rq-retained-rows",
   "license": "Copyright",
   "license_url": "https://www.iliesi.cnr.it/ATC/copyright.php",
-  "license_note": "Copyright restrictions apply; no standard open reuse licence established.",
+  "license_note": "Copyright page: all materials (texts, images, code) are the exclusive property of ILIESI; reproduction or distribution needs explicit authorisation, but contents may be saved or copied unmodified for personal or study use with the credit \"copyright ILIESI, Italia\".",
   "institution": "ILIESI-CNR (Istituto per il Lessico Intellettuale Europeo e Storia delle Idee), Rome",
   "doi": "10.26335/atc",
   "language_counts": [

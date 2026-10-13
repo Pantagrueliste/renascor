@@ -24,6 +24,7 @@
     "texts": 2
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "CC-BY-NC-SA-3.0",
+  "license_note": "The site header carries the badge 'Creative Commons BY-NC-SA 3.0 Unported License' linking to the licence deed; it is a site-wide statement (the page has no separate footer), so it covers the edition pages and XML, not the manuscript images held by Hilandar.",
+  "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
 }

@@ -23,7 +23,7 @@
     "texts": 1
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://www.gutenberg.org/policy/license.html",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "Public domain",
+  "license_url": "https://www.pepysdiary.com/about/text/",
+  "license_note": "The site states its diary text is the 1893 Wheatley edition, 'available copyright free from Project Gutenberg'. Added passages from Latham & Matthews are marked and quoted from a copyrighted edition; annotations and site design are by users and Phil Gyford, with no licence statement found on the about, FAQ, formats or API pages."
 }

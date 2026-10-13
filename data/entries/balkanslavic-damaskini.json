@@ -25,6 +25,7 @@
     "texts": 1
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "CC-BY-SA-4.0",
+  "license_note": "CLARIN.SI record: \"publicly available and licensed under Creative Commons - Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)\"; covers the whole deposited corpus (CoNLL-U, TSV, plain text). Publisher: Slavic Seminary, University of Zurich; SNSF 176378.",
+  "license_url": "https://www.clarin.si/repository/xmlui/handle/11356/1441"
 }

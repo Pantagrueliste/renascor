@@ -14,7 +14,7 @@
   "words": 3380332,
   "texts": 45,
   "period": "1550-1595",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Corpus of the texts of 16th-century Slovenian Protestant writers (Trubar, Dalmatin, Krelj, Juricic and others): transcriptions of 45 printed books on 12,945 pages, from catechisms, psalters and postils to Dalmatin's Bible of 1584. The texts were double-keyed by CyberData India, checked against the sources and converted to TEI XML. Edited by Kozma Ahacic for the Institut za slovenski jezik Frana Ramovsa ZRC SAZU and published by Zalozba ZRC in 2019 as version 1.0 in the Fran collection, with funding from the Slovenian ministries and ARRS projects. The corpus is searchable and readable page by page online, and the colophon announces deposit in CLARIN.SI. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 3380332,
@@ -23,5 +23,6 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-SA-4.0",
   "license_url": "https://fran.si/korpus16/o-portalu?page=Colofon",
-  "institution": "Inštitut za slovenski jezik Frana Ramovša ZRC SAZU (ISJFR ZRC SAZU); ed. Kozma Ahačič; Založba ZRC"
+  "institution": "Inštitut za slovenski jezik Frana Ramovša ZRC SAZU (ISJFR ZRC SAZU); ed. Kozma Ahačič; Založba ZRC",
+  "license_note": "The colophon states that the work is available under Creative Commons Attribution-ShareAlike 4.0 ('Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0')."
 }

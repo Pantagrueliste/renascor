@@ -28,5 +28,6 @@
     "words": 1985666,
     "texts": 10
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_note": "No licence on the site (home, 'Edition' page, footer), in the TEI header of cyrus1.xml (publicationStmt gives only 'Projet Cyrus', Neuchatel), in the GitHub repository cschuwey/othone (artamene/cyrus*.xml; no LICENSE or README) or in the PDFs (checked 2026-10-13). Note: the TEI files are in github.com/cschuwey/othone/tree/main/artamene, and the new edition was designed by Christophe Schuwey (Universite Bretagne Sud) with Claude Bourqui."
 }

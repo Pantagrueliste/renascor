@@ -23,7 +23,7 @@
   "words": 7468,
   "texts": 30,
   "notes": "Network critical edition (demo 1999, full version 2001-2004) of the early poems of the Hungarian poet János Rimay, edited by Tünde Tóth. The site gives the critical text of the poems (30 poem pages), a repertory of first lines, and the sources: the Fanchali Jób codex (1596-1608), the Balassa codex (after 1656) and further 16th-17th-century manuscripts and prints, which can be compared with the edition. The pages show a last-modified date of 2006 and no later activity, so the resource is listed as archived. The text opens in nested frames. The counts cover the 30 critical-text pages only, not the source transcriptions of each witness. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
-  "license": "Not stated",
+  "license": "Copyright",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
@@ -31,5 +31,7 @@
     "words": 7468,
     "texts": 30
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://magyar-irodalom.elte.hu/gepesk/rimay/",
+  "license_note": "The edition's title page carries '(C) 2001' and '(c) Gépeskönyv, 2001-2004'; no reuse licence is given on the cover, credits (nevjegy.htm) or help pages."
 }

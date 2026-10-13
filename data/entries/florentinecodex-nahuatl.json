@@ -16,7 +16,7 @@
   "words": 290869,
   "texts": 12,
   "period": "1577-1577",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Plain-text transcription of the Nahuatl text of Bernardino de Sahagun's Florentine Codex (General History of the Things of New Spain, Biblioteca Medicea Laurenziana, Florence), edited and deposited on Zenodo by Valery A. Berthoud F. The deposit has twelve text files, one per book, plus a readme; some special characters, such as the tilde, are missing. Version 1.0 was published on 16 October 2022 and the record was last modified in June 2025. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2025-06-14",
   "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -24,9 +24,9 @@
     "texts": 12
   },
   "count_basis": "rq-retained-rows",
-  "license": "Copyright",
-  "license_url": "https://florentinecodex.getty.edu/about/3_Citations_and_Permissions",
-  "license_note": "Copyright restrictions apply; no standard open reuse licence established.",
+  "license": "CC-BY-4.0",
+  "license_url": "https://zenodo.org/records/7213020",
+  "license_note": "The Zenodo record gives Creative Commons Attribution 4.0 International for the deposited transcript.",
   "doi": "10.5281/zenodo.7213020",
   "institution": "Valery A. Berthoud F. (editor of the Zenodo deposit)"
 }

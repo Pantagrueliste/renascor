@@ -24,7 +24,7 @@
     "texts": 6
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://repository.de.dariah.eu/1.0/dhcrud/21.11113/0000-000C-35E3-8",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://www.laudatio-repository.org/api/elasticapi/v1/corpora/latest/0/100",
+  "license_note": "The LAUDATIO repository metadata for the corpus (id XnU19IIBa2XDdNuCXFx-, version 1.0, published 2022 by the University of Göttingen) gives corpus_publication_license https://creativecommons.org/licenses/by-sa/4.0/. This is the corpus-level licence; the underlying incunabula are public domain, and the browse page itself is rendered by script, so the URL is the API record that states it."
 }

@@ -16,7 +16,7 @@
   "texts": 40,
   "period": "1457-1668",
   "status": "archived",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Multilingual online collection of writings of popes, councils, Church Fathers, doctors and other Catholic authors from the apostolic age to the present, arranged by topic, author and period (the catalogue uses the section for 1500-1599 and 1600-1699). It is run by the Cooperatorum Veritatis Societas, a non-profit association of lay Catholics. Each work is offered as a single downloadable *.doc or *.pdf file, drawn from public-domain printed versions, checked against the originals and re-typeset by the site; Latin, Greek and vernacular texts are kept in their original language. The site is still being extended. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 2487100,

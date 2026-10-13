@@ -17,14 +17,14 @@
   "texts": 33,
   "institution": "Association des Bibliophiles Universels (ABU); hosted by the CEDRIC team (Multimédia et Interaction Homme-Machine) at the Conservatoire national des arts et métiers",
   "period": "1480-1693",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Free-access collection of French-language public-domain texts, in the catalogue's early-modern part including works such as the Lettres de la religieuse portugaise, Argens's Lettres juives and Corneille's plays. It is produced and distributed by volunteer members of the Association des Bibliophiles Universels (ABU, a 1901-law association founded in April 1993) and hosted by the CEDRIC multimedia and human-computer interaction team at the Conservatoire national des arts et metiers, Paris. The texts are plain HTML pages for reading online; the catalogue lists 288 texts by 101 authors (January 2002), and the site has had no visible additions since then. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 999019,
     "texts": 33
   },
   "count_basis": "rq-retained-rows",
-  "license": "Mixed",
-  "license_url": "http://abu.cnam.fr/licence.txt",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license": "Custom terms",
+  "license_url": "http://abu.cnam.fr/cgi-bin/donner_licence",
+  "license_note": "The ABU licence (v1.1, August 1999) covers the compilation: copying for private use, teaching or research is allowed; redistribution must carry the licence, the file header and producer credits and flag modifications."
 }

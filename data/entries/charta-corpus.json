@@ -26,7 +26,7 @@
   ],
   "period": "944-1871",
   "notes": "Selection of archival documents drawn from the corpora of the member research groups of the CHARTA network (CODCAR, CODEMA, CORHEN, CODEA, CDHM, COREECOM, CODDEC, DGSXIX, DOLEO, CorColombia, CORAPRINA, COHSANRE, COTAGAL, DCEP, CORDEREGRA, CORDINA, COHIECOS), so the texts also exist in those corpora. Each document has facsimile (where available), paleographic and critical presentations; free reading and search without login on the TEITOK platform; per-document TEI XML is served at corpora.uah.es/charta/xmlfiles/<id>.xml but there is no bulk download page. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
-  "license": "Not stated",
+  "license": "CC-BY-NC-ND-4.0",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
@@ -34,5 +34,7 @@
     "words": 199396,
     "texts": 248
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://corpora.uah.es/charta/index.php?action=citar",
+  "license_note": "'Cómo citar' page, section 'Condiciones de uso': 'CHARTA se publica con la licencia Creative Commons by-nc-nd'; free consultation and use for teaching and research, no commercial use, no derivative corpora; materials may be cited but not reused. Licence version not given (4.0 assumed). Site footer also says '© 2025 CHARTA. Todos los derechos reservados'."
 }

@@ -16,15 +16,15 @@
   "words": 6962996,
   "texts": 187,
   "period": "1500-1601",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it). https://spxvi.edu.pl/.",
+  "notes": "Corpus of sixteenth-century Polish texts built for the Slownik polszczyzny XVI wieku (Dictionary of 16th-century Polish): about 198 texts of the dictionary's source canon (works such as Rej, Kochanowski, Bielski, Gornicki and Orzechowski, plus letters and documents), shown as transliterated text that keeps almost all features of the original. The corpus was prepared in 2012-2017 under National Programme for the Development of the Humanities project no. 0138/FNiTP/H11/80/2011, in TEI P5, as the first stage of a planned fuller corpus; part of the texts were tagged on a trial basis. It is published by the Pracownia Slownika Polszczyzny XVI wieku (Torun) of the Institute of Literary Research of the Polish Academy of Sciences (IBL PAN). Texts are read page by page on the site as HTML with numbered lines; no download of the TEI files was found, and the site was still maintained in 2026. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it). https://spxvi.edu.pl/.",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 6962996,
     "texts": 187
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://rcin.org.pl/dlibra/publication/82400?language=pl",
-  "license_note": "No reuse licence established from the available publisher-source evidence.",
+  "license": "Copyright",
+  "license_url": "https://spxvi.edu.pl/korpus/",
+  "license_note": "Every page carries only '(c) 2010-2026 Instytut Badan Literackich PAN - Pracownia Slownika Polszczyzny XVI wieku'; no reuse licence appears on the corpus, text, 'o slowniku', 'dodatki' or accessibility pages (checked 2026-10-13).",
   "institution": "Instytut Badań Literackich PAN, Pracownia Słownika Polszczyzny XVI wieku"
 }

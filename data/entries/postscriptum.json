@@ -18,7 +18,7 @@
   "texts": 1878,
   "period": "1500-1699",
   "status": "archived",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Digital archive of private letters from early modern Portugal and Spain (the catalogue covers the 16th and 17th centuries), built in the P.S. Post Scriptum project at CLUL, Lisbon, with an ERC Advanced Grant (7FP, GA 295562); the project ran 2012-2017 and the researchers include Rita Marquilhas. It is both a scholarly edition and an annotated corpus: transcriptions expand abbreviations and standardise word boundaries and i/j/u/v, and a standardised (modernised) layer carries part-of-speech tags and syntactic parsing. The corpus is searchable in TEITOK and downloadable as ZIP files by language and century (original text, standardised text, POS, parsed). Letters mostly survive in Inquisition and court files. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 899841,

@@ -25,6 +25,7 @@
     "texts": 13
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "Custom terms",
+  "license_note": "No Creative Commons or copyright line in the footer, but the 'Cómo citar' page says the contents may be used 'como desee pero deberá citarlos adecuadamente' while its 'Uso de datos' paragraph says all documents and data 'son propiedad de sus creadores' and permission must be requested for use in any project; the two statements are not reconciled. Read through WebFetch only (curl is blocked by the host).",
+  "license_url": "https://muysca.cubun.org/Muysccubun_-_Lengua_Muisca:Citas"
 }

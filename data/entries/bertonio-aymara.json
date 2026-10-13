@@ -26,7 +26,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "Not stated",
-  "license_url": "https://zenodo.org/record/7120597",
-  "license_note": "No reuse licence established from the available publisher-source evidence.",
+  "license_note": "No LICENSE file in the repository (GitHub API: no licence), none in the README (it only gives GPL 3.0 for the Nusimi app, not for the dictionaries), and none in the dictionary .ifo file (which credits Amos B. Batto and says the orthography was updated by Radio San Gabriel and digitised by lenguandina.org/ILLA-A). Checked 2026-10-13.",
   "institution": "Ludovico Bertonio (1612); digitised by ILLA-A, orthography updated by Radio San Gabriel; packaged by Amos Batto (native-dics)"
 }

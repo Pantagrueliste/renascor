@@ -16,15 +16,15 @@
   "words": 30864,
   "texts": 91,
   "period": "1450-1497",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Gutorglyn is the digital edition of the poems of Guto'r Glyn (c. 1435-c. 1493), edited at the Centre for Advanced Welsh and Celtic Studies (University of Wales) by a team led by Ann Parry Owen, with editors Iestyn Daniel, Alaw Mai Edwards, Dafydd Johnston, Barry Lewis and Eurig Salisbury, encoding editor Jenny Day and web officer Alexander L. Roberts (Swansea University). It was funded over five years by the AHRC and the University of Wales, in partnership with the National Library of Wales and the Royal Commission on the Ancient and Historical Monuments of Wales, which supplied manuscript images. The site presents each poem with its editor named, lists of patrons, names, places and manuscripts, and audio performances; a GitHub repository holds the site code and its XML text files. Copyright year of the site: 2013. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 30864,
     "texts": 91
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "http://www.gutorglyn.net",
-  "license_note": "No reuse licence established from the available publisher-source evidence.",
+  "license": "Copyright",
+  "license_url": "https://gutorglyn.net/gutorglyn/about",
+  "license_note": "The site footer reads '(c)2013 Canolfan Uwchefrydiau Cymreig a Cheltaidd'; no reuse licence on the site, and none in the casglur/django-gutorglyn-2 repository or the sample XML header (checked 2026-10-13).",
   "institution": "Canolfan Uwchefrydiau Cymreig a Cheltaidd (University of Wales Centre for Advanced Welsh and Celtic Studies)"
 }

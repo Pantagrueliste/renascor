@@ -28,5 +28,7 @@
     "words": 19867,
     "texts": 107
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://www.unicaen.fr/puc/sources/depiscibus/",
+  "license_note": "No licence, copyright line or mentions legales on the home, presentation, research, conventions, user-guide and contact pages (checked 2026-10-13); the print edition is published by the Presses universitaires de Caen."
 }

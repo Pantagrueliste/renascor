@@ -24,7 +24,7 @@
     "texts": 6
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://dsl.dk/om-dsl/copyright",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "Copyright",
+  "license_url": "https://tekstnet.dk/about/license/",
+  "license_note": "Tekstnet's copyright page says all material is protected and DSL reserves all rights (including text and data mining under DSM Art. 4); only single private copies are allowed. The TEI headers on GitHub mark availability 'restricted' ('Tekst copyright 2017 DSL'); the GitHub repository has no LICENSE file."
 }

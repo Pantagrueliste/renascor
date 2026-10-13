@@ -19,7 +19,7 @@
     "DE"
   ],
   "period": "1518-1597",
-  "license": "Not stated",
+  "license": "Copyright",
   "notes": "Transcription of the three books of the Cologne citizen Hermann Weinsberg (1518-1597): Liber Iuventutis, Liber Senectutis and Liber Decrepitudinis, in Cologne German with Latin passages, each served as a series of long HTML pages (8, 11 and 10 files) with marginal notes. Everything dates from 1518-1597, so all of it is in period. The pages use an old frameset layout; the site says some functions (editorial notes) no longer work and that a relaunch is being prepared. The home page shows 'Letzte Änderung: 09.04.2024'. A DFG project since 2002. The counts cover the three books without the author's marginal notes. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
@@ -29,5 +29,7 @@
     "words": 1829120,
     "texts": 3
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://www.weinsberg.uni-bonn.de/",
+  "license_note": "The only rights notice is the home-page footer '(c) 2003, Institut für geschichtliche Landeskunde der Rheinlande (heute: Abteilung für Geschichte der Frühen Neuzeit und Rheinische Landesgeschichte)'; the project, research and manuscript pages give only a recommended citation form. No open licence or terms of use found (checked 2026-10-13)."
 }

@@ -17,7 +17,7 @@
   "words": 95194,
   "texts": 5,
   "period": "1536-1674",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Nysvenska annexet of Fornsvenska textbanken (Lund University): 26 machine-readable Swedish texts from 1526 onwards, such as Olaus Petri's chronicle, Peder Swart's chronicle, Gustav Vasa's Bible (1541), Anna Vasa's letters and Agneta Horn's memoir, most from the project 'Bidrag till en nysvensk textbank pa data'. Mats Thelander and Carin Ostman gave permission to publish them. The texts are keyed or scanned from printed editions and proofread unevenly, so the site advises against quoting them and recommends them for word, phrase and statistical searches. The page was last updated on 2 September 2026. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 95194,
@@ -25,6 +25,7 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence.",
-  "institution": "Fornsvenska textbanken, Lund University (Nordlund); compiled by Lars-Olof Delsing"
+  "license_note": "No licence: the page only says that Mats Thelander and Carin Ostman gave permission to publish the texts ('har beredvilligt gett tillstand till att publicera texterna'); the 'Principer for maskintexterna' and 'Om webbplatsen' pages contain no licence or reuse terms (checked 2026-10-13).",
+  "institution": "Fornsvenska textbanken, Lund University (Nordlund); compiled by Lars-Olof Delsing",
+  "license_url": "https://www.nordlund.lu.se/texter/nysvenska-annexet/"
 }

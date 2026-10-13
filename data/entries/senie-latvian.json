@@ -16,14 +16,15 @@
   "words": 2476220,
   "texts": 156,
   "period": "1507-1699",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The Corpus of Early Written Latvian (SENIE) gives access to texts and facsimiles of written Latvian of the 16th to 18th centuries (102 sources in the 2025 release, including catechisms, postils, Gospels and Epistles, psalters, hymnals, dictionaries and Bible books). It is run by the Artificial Intelligence Laboratory of the Institute of Mathematics and Computer Science, University of Latvia (AiLab IMCS UL), with the Latvian Language Institute of the Faculty of Humanities, University of Latvia; the site opened in 2003 and was converted to Unicode in 2017. The site (updated 2026-10-08) is a library of full source texts and facsimiles, and the corpus is also searchable in the National Corpora Collection (korpuss.lv). The CLARIN.LV repository item (issued 2025-11-27) offers TEI XML (hyphenated and unhyphenated) and plain-text DSL downloads, with state research programmes and the Language Technology Initiative named as funders. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 2476220,
     "texts": 156
   },
   "count_basis": "rq-retained-rows",
-  "license": "Mixed",
-  "license_url": "http://creativecommons.org/licenses/by-sa/4.0/",
-  "license_note": "Includes CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://repository.clarin.lv/repository/xmlui/handle/20.500.12574/141",
+  "license_note": "The CLARIN.LV record says 'This item is Publicly Available and licensed under: Creative Commons - Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)'; it covers the downloadable corpus files (TEI XML and plain text). The senie.korpuss.lv site itself states no separate licence.",
+  "institution": "AiLab IMCS UL (Artificial Intelligence Laboratory, Institute of Mathematics and Computer Science, University of Latvia) and Latvian Language Institute, University of Latvia"
 }

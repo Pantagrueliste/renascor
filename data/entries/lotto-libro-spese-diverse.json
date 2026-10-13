@@ -22,6 +22,7 @@
   },
   "count_basis": "rq-retained-rows",
   "institution": "Francesco De Carolis; Università di Bologna (doctoral thesis, 2015)",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "Copyright",
+  "license_note": "The thesis PDF is open access (rights: info:eu-repo/semantics/openAccess) but no Creative Commons licence is attached to the record or to the PDF's front matter. The AlmaDL terms of use say all content is protected by copyright under the licence set by the rights holder, forbid unauthorised extraction or reuse, and give only the metadata a CC0 licence.",
+  "license_url": "https://sba.unibo.it/it/almadl/it/allegati/allegati-almadl/condizioni-sito-almadl"
 }

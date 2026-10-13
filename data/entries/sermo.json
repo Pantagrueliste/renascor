@@ -24,7 +24,8 @@
     "texts": 62
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence.",
-  "doi": "10.5281/zenodo.14620210"
+  "license": "CC-BY-4.0",
+  "license_note": "The Zenodo record 'Corpus SERMO: un corpus annote de 62 sermons protestants en francais' (deposited by project lead Carine Skupien Dekens, which links back to sermo.unine.ch) is licensed CC BY 4.0 for the TEI files. The SERMO site and the TEI headers carry no licence of their own, so this is the only explicit statement and is applied by inference to the same texts.",
+  "doi": "10.5281/zenodo.14620210",
+  "license_url": "https://zenodo.org/records/14620210"
 }

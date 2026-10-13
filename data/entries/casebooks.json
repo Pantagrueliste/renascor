@@ -17,7 +17,7 @@
   "words": 1710446,
   "texts": 67,
   "period": "1596-1640",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Digital edition of the medical casebooks of the astrologers Simon Forman and Richard Napier (1596-1634), whose consultation records are held by the Bodleian Library, Oxford. Each case is transcribed in XML and published with page images, name, place and treatment directories, critical introductions and selected cases in full. It was produced by the Casebooks Project, a team at the University of Cambridge led by Professor Lauren Kassell, with Wellcome Trust funding from 2008 (pilot, programme and strategic awards, 2008-2019); since 2019 the project is in an archiving and preservation phase. The raw XML transcriptions and authority lists are published in the CasebooksProject/casebooks-data GitHub repository, and the images are at the Cambridge Digital Library. The site's pages returned errors when checked on 2026-10-13, so the details come from archived copies. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 1710446,

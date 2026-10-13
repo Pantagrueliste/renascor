@@ -25,7 +25,7 @@
     "texts": 49
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://sprakbanken-clarin.lingfil.uu.se/histcorp/readme/swedish-readme-GaW",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "CC-BY-4.0",
+  "license_url": "https://zenodo.org/records/10017247",
+  "license_note": "The Zenodo record 'The HistCorp Collection of Historical Corpora and Resources - Part III' (28 ZIP files; published 9 March 2018) is licensed CC BY 4.0; individual source corpora inside may have their own conditions."
 }

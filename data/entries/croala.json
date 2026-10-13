@@ -17,7 +17,7 @@
   "texts": 394,
   "period": "1450-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Peer-reviewed, freely available digital collection of Latin texts by Croatian authors and others connected with Croatia, from the epitaph of Queen Jelena (976) to Ivan Golub's Latin poems (first published 1984), of which the part before 1700 is relevant here. Published by the Faculty of Humanities and Social Sciences of the University of Zagreb from the research project 'Digitalizacija hrvatskih latinista', with an editorial board led by Neven Jovanovic (Zagreb) with Yasmin Haskell, Nella Lonza, Bratislav Lucin, Elia Marinova, Darko Novakovic and Terence O. Tunberg. The texts are TEI-XML, openly downloadable from a GitHub repository (with Zenodo DOI) and searchable through PhiloLogic4 and a BaseX database; the online edition is dated 2024 and the repository was last updated in April 2026. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 3545403,
@@ -25,5 +25,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0/"
+  "license_url": "https://croala.ffzg.unizg.hr/",
+  "license_note": "Site Impressum ('Notitia legalis (CC-BY)'): the work is released under Creative Commons Attribution 4.0 International; the GitHub repository carries a CC-BY-4.0 LICENSE and its README says the TEI texts are 'freely available under a CC-BY license'."
 }

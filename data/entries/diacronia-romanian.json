@@ -23,8 +23,8 @@
     "texts": 4
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://www.diacronia.ro/",
-  "license_note": "No reuse licence established from the available publisher-source evidence.",
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://ro.wikisource.org/wiki/Codex_Sturdzanus",
+  "license_note": "Romanian Wikisource page footer: 'Acest text este disponibil sub licența Creative Commons cu atribuire și distribuire în condiții identice' (links to CC BY-SA 4.0). This is the platform licence for the transcriptions; the underlying manuscripts are 16th-17th century.",
   "institution": "Romanian Wikisource community"
 }

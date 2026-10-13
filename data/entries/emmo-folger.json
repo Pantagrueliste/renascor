@@ -24,6 +24,7 @@
     "texts": 1
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "CC-BY-SA-4.0",
+  "license_note": "Each transcription page carries 'Terms of Use: Transcriptions are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License' (link to creativecommons.org/licenses/by-sa/4.0/); this covers the transcriptions, not the images, which are served from the Folger's Luna repository.",
+  "license_url": "https://emmo.folger.edu/view/La2/diplomatic"
 }

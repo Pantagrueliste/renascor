@@ -16,14 +16,15 @@
   "words": 73544,
   "texts": 24,
   "period": "1557-1580",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Texts, documents, rituals, recipes, songs and other material in Colonial Yucatec Maya (including sections from the Books of Chilam Balam and the Ritual of the Bacabs, with H-Men chants) typed by David Bolles for his Combined Dictionary-Concordance of the Yucatecan Mayan Language. The report was prepared in 1997 for the Foundation for the Advancement of Mesoamerican Studies (FAMSI) and published online as HTML pages and PDF files, with some items available as MP3. The texts are plain transcriptions copied as closely as possible from the sources, some reworked with footnotes; the last update noted on the index page is November 2004. FAMSI is now stewarded by the Los Angeles County Museum of Art. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 73544,
     "texts": 24
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "http://www.famsi.org/research/copyright.htm",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "Copyright",
+  "license_url": "http://www.famsi.org/reports/96072/",
+  "license_note": "Pages are marked 'FAMSI (c) 2001: David Bolles'; no reuse licence or terms-of-use page was found on the report, the text index or the FAMSI home page.",
+  "institution": "David Bolles for the Foundation for the Advancement of Mesoamerican Studies (FAMSI)"
 }

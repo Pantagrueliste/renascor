@@ -16,7 +16,7 @@
   "texts": 8,
   "period": "1555-1680",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Wolne Lektury is a Polish online library of free e-books and audiobooks run by the Fundacja Wolne Lektury, aimed especially at schoolchildren and offering many set school readings. Works that are in the public domain or released under free licences are annotated (footnotes, literary motifs, links to Wikimedia) and offered in HTML, TXT, PDF, EPUB, MOBI and FB2; a public API and an OAI-PMH interface are provided. The library describes holdings of several thousand works (7332 on its about page) and over a thousand audiobooks, among them older Polish texts relevant to the 1450-1700 range. The site is active and publishes news in October 2026. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 583360,
@@ -25,5 +25,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://wolnelektury.pl/info/zasady-wykorzystania/",
-  "license_note": "Includes CC-BY-SA-3.0-PL. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Includes CC-BY-SA-3.0-PL. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "Fundacja Wolne Lektury"
 }

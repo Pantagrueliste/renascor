@@ -25,12 +25,13 @@
   ],
   "notes": "Annotated edition of the Dutch epic poem Ystroom, on the Amsterdam first edition of 1671, with a diplomatic transcription, a modern Dutch translation, three earlier editors' notes and facsimiles. Readable without login. The reading interface (Elaborate) is fed by JSON files, listed in config.json (177 entries). The edition's publication date in its data is 2015-10-28 and the newest site file is dated 2023-09-12, so it is marked archived. The poem is counted as one text. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "last_modified": "2023-09-12",
-  "license": "Not stated",
-  "license_note": "Facsimile images are published with ProQuest's permission; further reproduction is prohibited without it.",
+  "license": "CC-BY-NC-SA-4.0",
+  "license_note": "The edition site and its JSON files state no licence of their own; the Huygens Institute disclaimer says its website 'and the sources and datasets we make available online are subject to the Creative Commons BY-NC-SA 4.0 licence ... unless otherwise indicated'. The Van Mourik manuscript notes are used by permission of his heirs and the facsimiles are ProQuest (Early European Books) images, so those layers are not necessarily covered.",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 46965,
     "texts": 1
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://www.huygens.knaw.nl/en/disclaimer/"
 }

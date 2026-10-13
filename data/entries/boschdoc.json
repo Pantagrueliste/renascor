@@ -35,5 +35,7 @@
     "texts": 687
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated"
+  "license": "Custom terms",
+  "license_url": "https://boschdoc.huygens.knaw.nl/boschdoc/citation-copyright/",
+  "license_note": "\"Citation & Copyright\" page: image material remains property of the Bosch Research and Conservation Project and/or the holding institutions and may not be distributed or reprinted; the \"Comments and References\" tab is copyrighted (cite database and author, LS/RvG); quotations should cite the repository and the database. No open licence is stated for the transcriptions or translations."
 }

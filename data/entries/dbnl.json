@@ -17,7 +17,7 @@
   "texts": 856,
   "period": "1477-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Digital library of Dutch-language literature, linguistics and cultural history from the Middle Ages to the present, covering the whole Dutch-speaking area; the 1550-1700 period has its own section, and there are regional collections (Limburg, Friesland, Suriname, South Africa), a children's literature selection, reference works, e-books and a public-domain collection. It is run in cooperation between the Taalunie, BibliothecairErfgoed.be and the KB (National Library of the Netherlands), which owns the database rights. Works can be read online and downloaded for private use; the site was still updated in October 2026. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 21440504,

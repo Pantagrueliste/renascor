@@ -21,8 +21,8 @@
   "words": 7562,
   "texts": 1,
   "last_modified": "2006-05-07",
-  "license": "Not stated",
-  "license_note": "Page footer: © 2006 Herzog August Bibliothek; the HAB's general terms for the Wolfenbüttel Digital Library (http://diglib.hab.de/copyright.html, marked outdated) name CC BY-SA 3.0 unless otherwise stated.",
+  "license": "Copyright",
+  "license_note": "The edition (Editiones Electronicae Guelferbytanae 2, 2006) carries only the notice '© 2006 Herzog August Bibliothek'; the TEI file has <availability status=\"free\"> with a '(c) Herzog August Bibliothek Wolfenbüttel' note but no open licence (checked 2026-10-13).",
   "notes": "Transcription of the minutes of the religious colloquy held in Vilnius on 14 June 1585, from a manuscript in the HAB, with a German translation, introduction, manuscript description and digital facsimile. The TEI file was last modified on 7 May 2006 and there is no sign of later changes. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
@@ -31,5 +31,6 @@
     "words": 7562,
     "texts": 1
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "http://diglib.hab.de/edoc/ed000004/startx.htm"
 }

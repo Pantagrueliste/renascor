@@ -27,5 +27,6 @@
     "words": 59427,
     "texts": 1
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_note": "No licence or rights statement on the Érdy codex page, its transcription pages, or the Sermones Compilati home and group pages (the only footer-type text is ELTE's generic error page 'All rights reserved'); no repository or TEI headers found for this edition (checked 2026-10-13)."
 }

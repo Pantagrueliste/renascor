@@ -17,7 +17,7 @@
   "words": 46634,
   "texts": 25,
   "period": "1478-1697",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Penn Parsed Corpus of Historical Yiddish: a syntactically parsed corpus of about 200,000 words of Yiddish, begun as examples collected for research on the syntax of subordinate clauses. Most of the text comes from two 20th-century works; the repository also holds reference material (Olsvanger's 1947 glossary, transliterated chapters of Zaretski's 1929 grammar). It is maintained by Beatrice Santorini (University of Pennsylvania) and published on GitHub as version 1.0 (2021) for use with CorpusSearch; it is not a diplomatic edition of early modern documents. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2026-09-22",
   "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -26,5 +26,7 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-SA-4.0",
-  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+  "license_url": "https://github.com/beatrice57/penn-parsed-corpus-of-historical-yiddish",
+  "institution": "Beatrice Santorini (Penn Parsed Corpora of Historical Yiddish)",
+  "license_note": "README: files 'distributed under Creative Commons License Attribution-NonCommercial-ShareAlike 4.0' (LICENSE.rst)."
 }

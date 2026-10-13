@@ -24,7 +24,7 @@
     "texts": 1
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://archive.org/details/gwreansbyscreati00stok",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "Copyright",
+  "license_url": "https://github.com/davidtreth/taklow-kernewek/blob/master/README.txt",
+  "license_note": "Repository README: the source code is under the GNU GPL, 'except for the corpus where the copyright belongs to the original authors and translators'. The Gwreans an Bys file (kernewek_corpus/cwkdlms.txt) is Stokes's 1864 transcription digitised by Keith Syed from the KDL edition (2000), used with thanks to Ray Edwards. No reuse licence for the text."
 }

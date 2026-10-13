@@ -16,13 +16,15 @@
   "words": 25494,
   "texts": 7,
   "period": "1606-1643",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it). https://benmolineaux.github.io/.",
+  "notes": "Digital, linguistically tagged collection of early writings in Mapudungun (Mapuche), covering materials from 1606 to 1930, mostly by missionaries but also explorers, military men and ethnographers. Texts are shown as web versions that often follow the source's layout with a parallel Spanish or Latin translation, and are parsed by hand and semi-automatically for lemma, part of speech and morpheme, searchable in original spelling, in the Alfabeto Mapuche Unificado or by English gloss. Version 1.0 was compiled by Benjamin Molineaux (Angus McIntosh Centre for Historical Linguistics, University of Edinburgh) under a Leverhulme Early Career Fellowship (April 2018 to March 2021); the search interface was built by Vasilis Karaiskos. The texts are also available as TEI-XML files. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it). https://benmolineaux.github.io/.",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 25494,
     "texts": 7
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "Copyright",
+  "license_note": "Acknowledgements page gives the citation as '(c) The University of Edinburgh'; no open licence is stated on the site pages or in the TEI header (publicationStmt is empty), checked 2026-10-13.",
+  "institution": "Angus McIntosh Centre for Historical Linguistics, University of Edinburgh (Benjamin Molineaux, Vasilis Karaiskos)",
+  "license_url": "http://www.amc-resources.lel.ed.ac.uk/CHM/divs/ref-english"
 }

@@ -17,14 +17,14 @@
   "texts": 81,
   "period": "1590-1610",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The Renaissance (early modern English) collection of the Perseus Digital Library, Tufts University. Its public GitHub repository (PerseusDL/canonical-engLit, last pushed June 2026) holds the collection's texts in folders by author or work, among them Shakespeare, Marlowe, Sidney, Bacon, Hakluyt, Holinshed, James I and Lanyer, alongside reference works such as Schmidt's Shakespeare Lexicon. The Perseus site presents the texts for online reading and searching. Individual editors and encoding details were not established. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 6762346,
     "texts": 81
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://www.perseus.tufts.edu/hopper/opensource/download",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "CC-BY-SA-3.0",
+  "license_url": "https://www.perseus.tufts.edu/hopper/help",
+  "license_note": "The Perseus help page carries the statement 'This work is licensed under a Creative Commons Attribution-ShareAlike 3.0 United States License' and points to a 'Copyright & Warranty' page (/hopper/help/copyright), which could not be loaded (503/timeout). The GitHub repository has no LICENSE file. The licence may differ for individual texts or for third-party source editions."
 }

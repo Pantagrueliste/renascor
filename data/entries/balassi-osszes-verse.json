@@ -29,5 +29,7 @@
     "texts": 110
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated"
+  "license": "Custom terms",
+  "license_url": "https://magyar-irodalom.elte.hu/gepesk/bbom/nevjegy.htm",
+  "license_note": "The credits page (Nevjegy) says the compilation is \"not public property but subject to the GNU Public Licence\" and gives a notice: anyone may copy and distribute it, free or for sale, provided the copyright and permission notice are kept; unauthorised modified versions may not be made (translations are allowed). Copyright Horvath Ivan, Toth Tunde, Gepeskonyv 1993-2002."
 }

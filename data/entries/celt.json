@@ -19,16 +19,16 @@
   "texts": 66,
   "period": "1454-1698",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Online textbase of Irish history, literature and politics from University College Cork, comprising texts in Irish, Latin, Anglo-Norman French and English, with English translations where possible; a large part dates from before 1700. Texts are taken from the best printed editions, scanned, proofread and encoded in TEI-conformant SGML or XML, with HTML versions and introductions and bibliographies, and can be read, searched and downloaded. CELT was founded in 1992 by Professor Donnchadh O Corrain, who directed it until his retirement; it was funded by the American Ireland Funds, the Irish Higher Education Authority and the Irish Research Council for the Humanities and Social Sciences, among others. The site is still online but its copyright line reads 1997-2010 and the FAQ counts 1638 texts as of 24 February 2021. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 1831057,
     "texts": 66
   },
   "count_basis": "rq-retained-rows",
-  "license": "Mixed",
+  "license": "Custom terms",
   "license_url": "https://celt.ucc.ie/faq.html",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "license_note": "FAQ Q5 and Q19: texts may be read, downloaded and printed for private use, teaching and research with credit; not for commercial use without written permission; many texts are used under licence from print-edition rights holders and the XML encoding and added material are CELT copyright. No open licence.",
   "language_counts": [
     {
       "language": "Irish",

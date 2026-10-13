@@ -16,7 +16,7 @@
   "texts": 25,
   "period": "1564-1692",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Early modern recipe books is a FromThePage collection of digitised manuscript recipe books from the 16th to 18th centuries (45 works at the time of checking), a collaboration between the Folger Shakespeare Library (Washington, DC) and the Wellcome Collection (London), with volumes from other repositories such as the College of Physicians of Philadelphia. It was funded by a grant to the Folger from the University of Sheffield as part of the AHRC-funded US-UK Food Digital Scholarship Network, and aims to give repositories a free platform for crowdsourced transcription. The transcriptions are made page by page by volunteers and reviewed, and the works are exposed through IIIF manifests; completion varies from volume to volume and work is ongoing. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 248907,
@@ -24,6 +24,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "Not stated",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license_note": "No licence on the collection overview, work pages or IIIF collection/manifests (the Wellcome manifest only says 'Attribution and usage: Wellcome Collection'); the FromThePage footer says only '(c) 2026 FromThePage. All rights reserved' (platform). Terms page not readable (checked 2026-10-13).",
+  "institution": "Folger Shakespeare Library, in collaboration with the Wellcome Collection (hosted on FromThePage)"
 }

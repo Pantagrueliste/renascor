@@ -17,16 +17,16 @@
   "texts": 974,
   "period": "1460-1650",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Digital library of texts of Italian literary and cultural tradition from the Middle Ages to the twentieth century, promoted since 1996 by the Centro Interuniversitario Biblioteca Italiana Telematica (CIBIT) and run from the Department of Italianistica e Spettacolo at Sapienza University of Rome; the BIBIT section was started under Amedeo Quondam in 2003. BIBIT holds more than 1,600 works in full-text editions based on scholarly reference editions, encoded in XML/TEI (the TEI header records each text's history), which can be read, searched with concordances and downloaded; the site also holds scanned incunabula and the Scrittori d'Italia series as images. The portal's content pages were last edited in 2019. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 29844182,
     "texts": 974
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "http://backend.bibliotecaitaliana.it/wp-json/muruca-core/v1/pages",
-  "license_note": "No reuse licence established from the available publisher-source evidence.",
+  "license": "Custom terms",
+  "license_url": "http://backend.bibliotecaitaliana.it/wp-json/wp/v2/pages/735",
+  "license_note": "FAQ page (served by the WordPress back end of the site): texts may be downloaded freely but \"sono coperti da copyright\"; public reuse must cite Biblioteca Italiana as source and \"e vietata ogni forma di riutilizzo a scopo commerciale\".",
   "institution": "Sapienza Università di Roma, Dipartimento di Lettere e Culture Moderne (Biblioteca Italiana, dir. Beatrice Alfonzetti and Stefano Asperti)",
   "language_counts": [
     {

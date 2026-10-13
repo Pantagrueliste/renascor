@@ -25,7 +25,8 @@
     "texts": 1
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence.",
-  "doi": "10.5281/zenodo.18047915"
+  "license": "CC-BY-4.0",
+  "license_note": "The Zenodo record (DOI 10.5281/zenodo.18047915) gives Creative Commons Attribution 4.0 International for the TEI-XML files (ara73.zip).",
+  "doi": "10.5281/zenodo.18047915",
+  "license_url": "https://zenodo.org/records/18047915"
 }

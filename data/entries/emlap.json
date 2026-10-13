@@ -16,7 +16,7 @@
   "words": 4548087,
   "texts": 94,
   "period": "1518-1644",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/CCS-ZCU/EMLAP_ETL.",
+  "notes": "EMLAP (Early Modern Latin Alchemical Prints) is a text-based corpus of 100 Latin alchemical and Paracelsian volumes printed between 1500 and 1650. The texts were transcribed with Transkribus (first with the Noscemus GM6 model, then a project-trained model) and edited by hand, then tokenised, lemmatised and POS-tagged and exported as TEI P5 XML and plain text. The corpus was created in the TOME project (PI Petr Pavlas, Institute of Philosophy, Czech Academy of Sciences; Digital-Philological group led by Georgiana Hedesan), funded by the Czech Ministry of Education, Youth and Sports (September 2023 to August 2025). It can be searched on the website and is released on Zenodo (record from February 2026); the lemmatised XML files are also served from the University of West Bohemia. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it). https://github.com/CCS-ZCU/EMLAP_ETL.",
   "last_modified": "2026-06-10",
   "corpus_statistics": {
     "snapshot": "v2026.10",

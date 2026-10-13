@@ -28,5 +28,7 @@
     "texts": 1
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated"
+  "license": "Copyright",
+  "license_url": "https://entretenida.outofthewings.org/index.html",
+  "license_note": "Site footer states only '© 2018 King's College London'; no Creative Commons or other reuse licence appears on the home page, About the Project or About the Text pages (checked 2026-10-13). Treated as all rights reserved."
 }

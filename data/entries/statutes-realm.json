@@ -15,14 +15,14 @@
   "texts": 291,
   "period": "1625-1697",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Three volumes (5 to 7, covering 1625 to 1701) of the Statutes of the Realm, the authoritative collection of Acts of the Parliament of England, in British History Online. The volumes are the printed edition by John Raithby (1819-1820), from Charles I and Charles II to the Bill of Rights, the Triennial Act, the Civil List Act and the Act of Settlement under William III, with each act as a page and the tables and prefaces. British History Online is a not-for-profit digital library at the Institute of Historical Research, University of London (editor John Levin), run with the History of Parliament Trust. The text was digitised by double rekeying and is offered as HTML pages; no bulk download was found. The site footer shows version 6.0 (2024). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 1112931,
     "texts": 291
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
+  "license": "Public domain",
   "license_url": "https://www.british-history.ac.uk/statutes-realm/vol5",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license_note": "Each volume page says 'This free content was digitised by double rekeying. Public Domain.' The site-wide terms of use (british-history.ac.uk/terms) reserve rights in other material (non-commercial use, citation, no modification), but the Statutes volumes are marked public domain."
 }

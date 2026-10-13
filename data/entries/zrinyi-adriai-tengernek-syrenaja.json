@@ -22,7 +22,7 @@
   "words": 91568,
   "texts": 2,
   "notes": "Parallel edition (published 1998 in the Gépeskönyv series of the Old Hungarian Literature Department, ELTE) of Miklós Zrínyi's epic cycle 'Adriai tengernek syrénája': the text of the so-called Syrena manuscript beside the 1651 Vienna print (printed by Kosmerovi Máte), with the idylls, the 15 parts of the Obsidio Szigetiana, and the shorter poems. Both witnesses are old-spelling transcriptions in plain HTML pages. The site's files date from 2006 and show no later change, so it is listed as archived. The text opens in a frameset; the page at this address links to it. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
-  "license": "Not stated",
+  "license": "Copyright",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
@@ -30,5 +30,7 @@
     "words": 91568,
     "texts": 2
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://magyar-irodalom.elte.hu/gepesk/zrinyi/",
+  "license_note": "The title page of the edition reads '(c) Orlovszky Géza, (c) Gépeskönyv' (Budapest 1998, ELTE BTK Department of Old Hungarian Literature, supported by the OMFB); no open licence or terms of use are given. The series index also marks this edition 'Jelszavas' (password-protected)."
 }

@@ -30,5 +30,7 @@
     "texts": 2
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated"
+  "license": "CC-BY-NC-SA-4.0",
+  "license_url": "https://wiki.kul.pl/lhdb/Rejestr_kontrybucji_diecezji_pozna%C5%84skiej_z_1561_r.",
+  "license_note": "The TEI file's publicationStmt points to this LHDB wiki page ('Opis i dane badawcze'), whose footer states Creative Commons Attribution-NonCommercial-ShareAlike (link to by-nc-sa/4.0). The TEI Publisher app and the TEI header themselves carry no licence, so the licence is inferred from the linked research-data page."
 }
