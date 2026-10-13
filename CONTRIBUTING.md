@@ -71,6 +71,7 @@ Active rejections and resources awaiting reconsideration are recorded separately
 - Text collections requiring payment or a subscription
 - Page images, facsimiles or photographs of inscriptions only, with no transcription
 - Raw, uncorrected OCR without editorial review
+- Modern-language versions: translations, or texts rewritten in a modern form of their language (old French turned into modern French, early English into modern English). Editions that only normalise the spelling, expand abbreviations or modernise punctuation are accepted and marked as normalised.
 - Catalogues or bibliographies that contain no texts
 - Directories and federated search services that point to other projects without providing a text collection
 - Projects outside the 1450 to 1700 window, unless the majority of their material falls within it

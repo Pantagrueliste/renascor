@@ -11,6 +11,7 @@ import glob
 import json
 import os
 import shutil
+import sqlite3
 import sys
 
 import os as _os
@@ -28,6 +29,12 @@ SAME_SOURCE = {
 }
 
 
+# Frozen collections whose resource is now excluded from the catalogue (data/rejected.json): their rows stay in
+# the copy but are taken out of scope (in_core=0), so the snapshot counts catalogued resources only.
+EXCLUDED_FROZEN: dict[str, str] = {}  # {"Collection": "record-id"}
+REJECTED = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "rejected.json")
+
+
 def is_policy_dup(rid, d):
     a = d["against"]
     return (d["kind"] == "exact" or a.split("/")[0] == rid
@@ -39,9 +46,18 @@ def main(dedup_path, out):
         raise SystemExit(f"{out} exists")
     dedup = json.load(open(dedup_path))
     shutil.copyfile(FROZEN, out)
+    rejected = {r["id"] for r in json.load(open(REJECTED))["rejected"]}
+    con = sqlite3.connect(out)
+    for coll, rid in EXCLUDED_FROZEN.items():
+        assert rid in rejected, rid
+        con.execute("UPDATE texts SET in_core = 0, in_sens = 0 WHERE collection = ?", (coll,))
+    con.commit()
+    con.close()
     summary = {}
     for p in sorted(glob.glob(HARVEST + "/*/staging.jsonl")):
         rid = os.path.basename(os.path.dirname(p))
+        if rid in rejected:  # harvested before the resource was excluded
+            continue
         dups = {d["filename"] for d in dedup.get(rid, {}).get("dups", []) if is_policy_dup(rid, d)}
         recs = []
         for line in open(p, encoding="utf-8"):

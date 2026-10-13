@@ -1,0 +1,36 @@
+{
+  "title": "Representative Poetry Online (University of Toronto)",
+  "url": "https://rpo.library.utoronto.ca/",
+  "languages": [
+    "English",
+    "Middle English",
+    "Scots"
+  ],
+  "document_types": [
+    "print",
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "Department of English and Library, University of Toronto (Ian Lancashire, editor)",
+  "region": "British Isles",
+  "countries": [
+    "GB-ENG",
+    "GB-SCT",
+    "IE"
+  ],
+  "period": "Old English to the 20th century",
+  "notes": "Anthology of English-language poems (version 3.0 states about 4,700 poems by 723 poets from Caedmon to the 20th century). The part dating from 1450-1700 is the Renaissance and seventeenth-century sections (poets such as Skelton, Wyatt, Surrey, Sidney, Spenser, Shakespeare, Donne, Jonson, Herbert, Milton, Marvell). Spelling is mixed: the editors' introduction says the texts of the printed editions were generally normalised, while texts added only online are transcribed from original editions mainly without altered spelling, and Spenser is not modernised. The site is therefore not marked as modernised-only. Free to read; the copyright page says most poems are public domain and the collection as a whole is copyright. No bulk download. robots.txt blocks only admin and search paths. Site shows current daily content (checked 2026-10-13). The counts cover the poems of the poets who lived within 1450-1700; anonymous poems and poets who died after 1701 are not counted. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "license": "Mixed",
+  "license_url": "https://rpo.library.utoronto.ca/content/copyright",
+  "provenance": "discovered",
+  "date_added": "2026-10-13",
+  "words": 454246,
+  "texts": 941,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 453690,
+    "texts": 936
+  },
+  "count_basis": "rq-retained-rows"
+}

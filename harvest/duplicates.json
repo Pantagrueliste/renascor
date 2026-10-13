@@ -15115,6 +15115,563 @@
    }
   ]
  },
+ "renascence-editions": {
+  "texts": 360,
+  "words": 4238340,
+  "dup_texts": 90,
+  "dup_words": 831564,
+  "against": {
+   "RQ:EEBO_TCP_fill": 56,
+   "RQ:EEBOphase2": 16,
+   "folger-shakespeare": 4,
+   "RQ:DraCorEnglish": 1,
+   "RQ:LEME_English": 13
+  },
+  "unique_texts": 270,
+  "unique_words": 3406776,
+  "dups": [
+   {
+    "filename": "actors1.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 2031
+   },
+   {
+    "filename": "jest.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 8651
+   },
+   {
+    "filename": "triall.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 5302
+   },
+   {
+    "filename": "phoenix.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 27407
+   },
+   {
+    "filename": "fbeaumont1.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 8208
+   },
+   {
+    "filename": "tobacco.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 1838
+   },
+   {
+    "filename": "davies1.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 7462
+   },
+   {
+    "filename": "drayton1.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 7940
+   },
+   {
+    "filename": "dryden1.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 1764
+   },
+   {
+    "filename": "eliz2.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 748
+   },
+   {
+    "filename": "eliz1.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 1251
+   },
+   {
+    "filename": "foxep.htm.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 8174
+   },
+   {
+    "filename": "waspes.htm.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 8436
+   },
+   {
+    "filename": "jane.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 1760
+   },
+   {
+    "filename": "heywood1.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3613
+   },
+   {
+    "filename": "locke2.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3393
+   },
+   {
+    "filename": "lycidas.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 13337
+   },
+   {
+    "filename": "psalms.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 5380
+   },
+   {
+    "filename": "samson.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 14248
+   },
+   {
+    "filename": "ape.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 10243
+   },
+   {
+    "filename": "rerum.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 8765
+   },
+   {
+    "filename": "spain.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 2768
+   },
+   {
+    "filename": "shake_pt.html.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/PhT.xml",
+    "words": 368
+   },
+   {
+    "filename": "shake_rl.html.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Luc.xml",
+    "words": 15026
+   },
+   {
+    "filename": "shake_wssonnets.html.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 17745
+   },
+   {
+    "filename": "shake_va.html.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Ven.xml",
+    "words": 9891
+   },
+   {
+    "filename": "antonie.html.txt",
+    "kind": "near",
+    "against": "RQ:DraCorEnglish",
+    "words": 15288
+   },
+   {
+    "filename": "smith1.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 6063
+   },
+   {
+    "filename": "amoretti.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 14646
+   },
+   {
+    "filename": "astrophel.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 8416
+   },
+   {
+    "filename": "colin.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 7813
+   },
+   {
+    "filename": "daphna.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 4850
+   },
+   {
+    "filename": "hymnes.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 9620
+   },
+   {
+    "filename": "digger.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 7833
+   },
+   {
+    "filename": "dryden_book1.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 8398
+   },
+   {
+    "filename": "dryden_book2.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 8689
+   },
+   {
+    "filename": "dryden_book3.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 7460
+   },
+   {
+    "filename": "dryden_book4.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 8028
+   },
+   {
+    "filename": "dryden_book5.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 8995
+   },
+   {
+    "filename": "dryden_book6.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 9747
+   },
+   {
+    "filename": "dryden_book7.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 8669
+   },
+   {
+    "filename": "dryden_book8.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 7633
+   },
+   {
+    "filename": "dryden_book9.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 8781
+   },
+   {
+    "filename": "dryden_book10.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 10289
+   },
+   {
+    "filename": "dryden_book11.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 10475
+   },
+   {
+    "filename": "dryden_book12.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 10872
+   },
+   {
+    "filename": "island_pisc.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 12379
+   },
+   {
+    "filename": "island_misc.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 9097
+   },
+   {
+    "filename": "island_elisa.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 6906
+   },
+   {
+    "filename": "lost_pl1.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 6139
+   },
+   {
+    "filename": "lost_pl2.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 8146
+   },
+   {
+    "filename": "lost_pl3.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 5741
+   },
+   {
+    "filename": "lost_pl4.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 7973
+   },
+   {
+    "filename": "lost_pl5.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 6982
+   },
+   {
+    "filename": "lost_pl6.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 6953
+   },
+   {
+    "filename": "lost_pl7.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 9906
+   },
+   {
+    "filename": "lost_pl8.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 9245
+   },
+   {
+    "filename": "lost_pl9.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 8554
+   },
+   {
+    "filename": "lost_pl10.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 12011
+   },
+   {
+    "filename": "montaigne_1iv.htm.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 977
+   },
+   {
+    "filename": "montaigne_1viii.htm.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 463
+   },
+   {
+    "filename": "montaigne_1xvii.htm.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 1214
+   },
+   {
+    "filename": "montaigne_1xviii.htm.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 1158
+   },
+   {
+    "filename": "montaigne_1xxxv.htm.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 1506
+   },
+   {
+    "filename": "ruines.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 5779
+   },
+   {
+    "filename": "muses.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4837
+   },
+   {
+    "filename": "gnat.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 5418
+   },
+   {
+    "filename": "hubberd.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 11244
+   },
+   {
+    "filename": "rome.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3706
+   },
+   {
+    "filename": "vanitie.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 1362
+   },
+   {
+    "filename": "petrarch1.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 795
+   },
+   {
+    "filename": "queene1.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 44946
+   },
+   {
+    "filename": "queene2.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 48921
+   },
+   {
+    "filename": "queene3.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 48897
+   },
+   {
+    "filename": "queene4.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 43929
+   },
+   {
+    "filename": "queene5.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 42152
+   },
+   {
+    "filename": "queene6.html.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 41132
+   },
+   {
+    "filename": "sfront.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 3655
+   },
+   {
+    "filename": "januarye.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 1332
+   },
+   {
+    "filename": "februarie.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 3006
+   },
+   {
+    "filename": "march.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 1788
+   },
+   {
+    "filename": "aprill.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 3188
+   },
+   {
+    "filename": "maye.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 4259
+   },
+   {
+    "filename": "june.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 2019
+   },
+   {
+    "filename": "julye.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 2729
+   },
+   {
+    "filename": "august.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 1958
+   },
+   {
+    "filename": "september.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 2890
+   },
+   {
+    "filename": "october.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 2976
+   },
+   {
+    "filename": "november.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 2608
+   },
+   {
+    "filename": "december.html.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 2374
+   }
+  ]
+ },
  "grotius-correspondence-huygens": {
   "texts": 7801,
   "words": 3552730,
@@ -18257,6 +18814,309 @@
    }
   ]
  },
+ "london-lives-1690-1800": {
+  "texts": 7303,
+  "words": 1583936,
+  "dup_texts": 48,
+  "dup_words": 12494,
+  "against": {
+   "london-lives-1690-1800": 48
+  },
+  "junk_texts": 1475,
+  "junk_words": 14095,
+  "unique_texts": 7255,
+  "unique_words": 1571442,
+  "dups": [
+   {
+    "filename": "BBBRMG20201_BBBRMG202010490.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/BBBRMG20201_BBBRMG202010252.txt",
+    "words": 252
+   },
+   {
+    "filename": "BBBRMG20202_BBBRMG202020034.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/BBBRMG20201_BBBRMG202010370.txt",
+    "words": 169
+   },
+   {
+    "filename": "WCCDMV36216_WCCDMV362160086.txt",
+    "kind": "exact",
+    "against": "london-lives-1690-1800/WCCDMV36216_WCCDMV362160084.txt",
+    "words": 184
+   },
+   {
+    "filename": "WCCDMV36216_WCCDMV362160087.txt",
+    "kind": "exact",
+    "against": "london-lives-1690-1800/WCCDMV36216_WCCDMV362160085.txt",
+    "words": 223
+   },
+   {
+    "filename": "WCCDMV36216_WCCDMV362160104.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/WCCDMV36216_WCCDMV362160102.txt",
+    "words": 235
+   },
+   {
+    "filename": "WCCDMV36216_WCCDMV362160105.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/WCCDMV36216_WCCDMV362160103.txt",
+    "words": 165
+   },
+   {
+    "filename": "WCCDMV36216_WCCDMV362160116.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/WCCDMV36216_WCCDMV362160114.txt",
+    "words": 296
+   },
+   {
+    "filename": "WCCDMV36216_WCCDMV362160140.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/WCCDMV36216_WCCDMV362160138.txt",
+    "words": 178
+   },
+   {
+    "filename": "WCCDMV36216_WCCDMV362160141.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/WCCDMV36216_WCCDMV362160139.txt",
+    "words": 186
+   },
+   {
+    "filename": "WCCDMV36216_WCCDMV362160168.txt",
+    "kind": "exact",
+    "against": "london-lives-1690-1800/WCCDMV36216_WCCDMV362160166.txt",
+    "words": 182
+   },
+   {
+    "filename": "WCCDMV36216_WCCDMV362160172.txt",
+    "kind": "exact",
+    "against": "london-lives-1690-1800/WCCDMV36216_WCCDMV362160170.txt",
+    "words": 239
+   },
+   {
+    "filename": "WCCDMV36216_WCCDMV362160173.txt",
+    "kind": "exact",
+    "against": "london-lives-1690-1800/WCCDMV36216_WCCDMV362160171.txt",
+    "words": 172
+   },
+   {
+    "filename": "WCCDMV36216_WCCDMV362160227.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/WCCDMV36216_WCCDMV362160225.txt",
+    "words": 186
+   },
+   {
+    "filename": "WCCDPA36400_WCCDPA364000076.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/WCCDPA36400_WCCDPA364000060.txt",
+    "words": 461
+   },
+   {
+    "filename": "WCCDPA36400_WCCDPA364000090.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/WCCDPA36400_WCCDPA364000074.txt",
+    "words": 443
+   },
+   {
+    "filename": "WCCDPA36400_WCCDPA364000096.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/WCCDPA36400_WCCDPA364000074.txt",
+    "words": 459
+   },
+   {
+    "filename": "WCCDPA36400_WCCDPA364000098.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/WCCDPA36400_WCCDPA364000078.txt",
+    "words": 429
+   },
+   {
+    "filename": "WCCDPA36400_WCCDPA364000124.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/WCCDPA36400_WCCDPA364000100.txt",
+    "words": 466
+   },
+   {
+    "filename": "WCCDPA36400_WCCDPA364000140.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/WCCDPA36400_WCCDPA364000112.txt",
+    "words": 421
+   },
+   {
+    "filename": "GLDBMV30500_GLDBMV305000217.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/GLDBMV30500_GLDBMV305000215.txt",
+    "words": 376
+   },
+   {
+    "filename": "GLDBMV30500_GLDBMV305000218.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/GLDBMV30500_GLDBMV305000216.txt",
+    "words": 313
+   },
+   {
+    "filename": "LMSLPS15003_LMSLPS150030079.txt",
+    "kind": "exact",
+    "against": "london-lives-1690-1800/LMSLPS15003_LMSLPS150030078.txt",
+    "words": 197
+   },
+   {
+    "filename": "LMSLPS15004_LMSLPS150040203.txt",
+    "kind": "exact",
+    "against": "london-lives-1690-1800/LMSLPS15004_LMSLPS150040201.txt",
+    "words": 86
+   },
+   {
+    "filename": "LMSLPS15004_LMSLPS150040226.txt",
+    "kind": "exact",
+    "against": "london-lives-1690-1800/LMSLPS15004_LMSLPS150040225.txt",
+    "words": 62
+   },
+   {
+    "filename": "LMSLPS15007_LMSLPS150070153.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSLPS15007_LMSLPS150070152.txt",
+    "words": 201
+   },
+   {
+    "filename": "LMSLPS15007_LMSLPS150070224.txt",
+    "kind": "exact",
+    "against": "london-lives-1690-1800/LMSLPS15007_LMSLPS150070223.txt",
+    "words": 320
+   },
+   {
+    "filename": "LMSLPS15008_LMSLPS150080059.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSLPS15008_LMSLPS150080058.txt",
+    "words": 149
+   },
+   {
+    "filename": "LMSLPS15009_LMSLPS150090007.txt",
+    "kind": "exact",
+    "against": "london-lives-1690-1800/LMSLPS15009_LMSLPS150090006.txt",
+    "words": 150
+   },
+   {
+    "filename": "LMSLPS15009_LMSLPS150090033.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSLPS15008_LMSLPS150080067.txt",
+    "words": 288
+   },
+   {
+    "filename": "LMSLPS15010_LMSLPS150100111.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSLPS15010_LMSLPS150100110.txt",
+    "words": 447
+   },
+   {
+    "filename": "LMSLPS15010_LMSLPS150100153.txt",
+    "kind": "exact",
+    "against": "london-lives-1690-1800/LMSLPS15010_LMSLPS150100152.txt",
+    "words": 506
+   },
+   {
+    "filename": "LMSLPS15011_LMSLPS150110038.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSLPS15011_LMSLPS150110021.txt",
+    "words": 368
+   },
+   {
+    "filename": "LMSLPS15011_LMSLPS150110053.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSLPS15011_LMSLPS150110015.txt",
+    "words": 311
+   },
+   {
+    "filename": "LMSLPS15011_LMSLPS150110054.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSLPS15011_LMSLPS150110052.txt",
+    "words": 340
+   },
+   {
+    "filename": "LMSMPS50000_LMSMPS500000033.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSMPS50000_LMSMPS500000031.txt",
+    "words": 287
+   },
+   {
+    "filename": "LMSMPS50014_LMSMPS500140070.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSMPS50014_LMSMPS500140069.txt",
+    "words": 117
+   },
+   {
+    "filename": "LMSMPS50018_LMSMPS500180022.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSMPS50000_LMSMPS500000031.txt",
+    "words": 252
+   },
+   {
+    "filename": "LMSMPS50022_LMSMPS500220021.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSMPS50014_LMSMPS500140019.txt",
+    "words": 131
+   },
+   {
+    "filename": "LMSMPS50045_LMSMPS500450058.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSMPS50010_LMSMPS500100084.txt",
+    "words": 147
+   },
+   {
+    "filename": "LMSMPS50050_LMSMPS500500016.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSMPS50045_LMSMPS500450055.txt",
+    "words": 344
+   },
+   {
+    "filename": "LMSMPS50051_LMSMPS500510061.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSMPS50044_LMSMPS500440004.txt",
+    "words": 129
+   },
+   {
+    "filename": "LMSMPS50058_LMSMPS500580006.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSMPS50014_LMSMPS500140019.txt",
+    "words": 128
+   },
+   {
+    "filename": "LMSMPS50066_LMSMPS500660025.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSMPS50060_LMSMPS500600006.txt",
+    "words": 323
+   },
+   {
+    "filename": "LMSMPS50066_LMSMPS500660038.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSMPS50037_LMSMPS500370009.txt",
+    "words": 336
+   },
+   {
+    "filename": "LMSMPS50068_LMSMPS500680008.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMSMPS50035_LMSMPS500350015.txt",
+    "words": 279
+   },
+   {
+    "filename": "LMSMPS50068_LMSMPS500680013.txt",
+    "kind": "exact",
+    "against": "london-lives-1690-1800/LMSMPS50068_LMSMPS500680012.txt",
+    "words": 76
+   },
+   {
+    "filename": "LMWJPS65306_LMWJPS653060005.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMWJPS65306_LMWJPS653060003.txt",
+    "words": 132
+   },
+   {
+    "filename": "LMWJPS65318_LMWJPS653180002.txt",
+    "kind": "near",
+    "against": "london-lives-1690-1800/LMWJPS65318_LMWJPS653180001.txt",
+    "words": 353
+   }
+  ]
+ },
  "charta-corpus": {
   "texts": 250,
   "words": 203534,
@@ -20811,6 +21671,684 @@
   "unique_words": 371757,
   "dups": []
  },
+ "open-source-shakespeare": {
+  "texts": 43,
+  "words": 930853,
+  "dup_texts": 31,
+  "dup_words": 681466,
+  "against": {
+   "renascence-editions": 29,
+   "folger-shakespeare": 2
+  },
+  "unique_texts": 12,
+  "unique_words": 249387,
+  "dups": [
+   {
+    "filename": "12night.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_tn.html.txt",
+    "words": 21230
+   },
+   {
+    "filename": "allswell.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_awtw.html.txt",
+    "words": 24256
+   },
+   {
+    "filename": "antonycleo.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_ac.html.txt",
+    "words": 26217
+   },
+   {
+    "filename": "asyoulikeit.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_ayli.html.txt",
+    "words": 22592
+   },
+   {
+    "filename": "comedyerrors.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_errors.html.txt",
+    "words": 15984
+   },
+   {
+    "filename": "cymbeline.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_cymbeline.html.txt",
+    "words": 28516
+   },
+   {
+    "filename": "hamlet.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_hamlet.html.txt",
+    "words": 31774
+   },
+   {
+    "filename": "henry4p2.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_hiv2.html.txt",
+    "words": 27213
+   },
+   {
+    "filename": "henry5.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_hv.html.txt",
+    "words": 27470
+   },
+   {
+    "filename": "henry8.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_khe.html.txt",
+    "words": 26052
+   },
+   {
+    "filename": "juliuscaesar.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_jc.html.txt",
+    "words": 20605
+   },
+   {
+    "filename": "kingjohn.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_kj.html.txt",
+    "words": 21804
+   },
+   {
+    "filename": "kinglear.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_lear.html.txt",
+    "words": 27937
+   },
+   {
+    "filename": "loveslabours.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_lll.html.txt",
+    "words": 22990
+   },
+   {
+    "filename": "macbeth.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_macbeth.html.txt",
+    "words": 17922
+   },
+   {
+    "filename": "measure.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_mfm.html.txt",
+    "words": 22701
+   },
+   {
+    "filename": "merchantvenice.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_mv.html.txt",
+    "words": 22008
+   },
+   {
+    "filename": "merrywives.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_mww.html.txt",
+    "words": 23403
+   },
+   {
+    "filename": "midsummer.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_mnd.html.txt",
+    "words": 16990
+   },
+   {
+    "filename": "othello.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_othello.html.txt",
+    "words": 27622
+   },
+   {
+    "filename": "passionatepilgrim.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_pp.html.txt",
+    "words": 3169
+   },
+   {
+    "filename": "pericles.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_pericles.html.txt",
+    "words": 19232
+   },
+   {
+    "filename": "rapelucrece.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Luc.xml",
+    "words": 15270
+   },
+   {
+    "filename": "sonnets.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 17671
+   },
+   {
+    "filename": "tamingshrew.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_ts.html.txt",
+    "words": 22059
+   },
+   {
+    "filename": "tempest.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_tempest.html.txt",
+    "words": 17233
+   },
+   {
+    "filename": "timonathens.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_ta.html.txt",
+    "words": 19101
+   },
+   {
+    "filename": "titus.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_titus.html.txt",
+    "words": 21467
+   },
+   {
+    "filename": "troilus.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_tc.html.txt",
+    "words": 27189
+   },
+   {
+    "filename": "twogents.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_2gent.html.txt",
+    "words": 18097
+   },
+   {
+    "filename": "winterstale.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_wt.html.txt",
+    "words": 25692
+   }
+  ]
+ },
+ "shakespeare-mit": {
+  "texts": 198,
+  "words": 934523,
+  "dup_texts": 77,
+  "dup_words": 856756,
+  "against": {
+   "open-source-shakespeare": 10,
+   "renascence-editions": 29,
+   "folger-shakespeare": 37,
+   "RQ:EEBO_TCP_fill": 1
+  },
+  "unique_texts": 121,
+  "unique_words": 77767,
+  "dups": [
+   {
+    "filename": "1henryiv.txt",
+    "kind": "near",
+    "against": "open-source-shakespeare/henry4p1.txt",
+    "words": 25883
+   },
+   {
+    "filename": "2henryiv.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_hiv2.html.txt",
+    "words": 27683
+   },
+   {
+    "filename": "henryv.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_hv.html.txt",
+    "words": 27345
+   },
+   {
+    "filename": "1henryvi.txt",
+    "kind": "near",
+    "against": "open-source-shakespeare/henry6p1.txt",
+    "words": 22732
+   },
+   {
+    "filename": "2henryvi.txt",
+    "kind": "near",
+    "against": "open-source-shakespeare/henry6p2.txt",
+    "words": 26657
+   },
+   {
+    "filename": "3henryvi.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_hvi3.html.txt",
+    "words": 25794
+   },
+   {
+    "filename": "henryviii.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_khe.html.txt",
+    "words": 25830
+   },
+   {
+    "filename": "john.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_kj.html.txt",
+    "words": 21634
+   },
+   {
+    "filename": "richardii.txt",
+    "kind": "near",
+    "against": "open-source-shakespeare/richard2.txt",
+    "words": 23775
+   },
+   {
+    "filename": "richardiii.txt",
+    "kind": "near",
+    "against": "open-source-shakespeare/richard3.txt",
+    "words": 31225
+   },
+   {
+    "filename": "allswell.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_awtw.html.txt",
+    "words": 24235
+   },
+   {
+    "filename": "asyoulikeit.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_ayli.html.txt",
+    "words": 22701
+   },
+   {
+    "filename": "comedy_errors.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_errors.html.txt",
+    "words": 16087
+   },
+   {
+    "filename": "cymbeline.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_cymbeline.html.txt",
+    "words": 28706
+   },
+   {
+    "filename": "lll.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_lll.html.txt",
+    "words": 22813
+   },
+   {
+    "filename": "measure.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_mfm.html.txt",
+    "words": 23018
+   },
+   {
+    "filename": "merry_wives.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_mww.html.txt",
+    "words": 23502
+   },
+   {
+    "filename": "merchant.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_mv.html.txt",
+    "words": 22073
+   },
+   {
+    "filename": "midsummer.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_mnd.html.txt",
+    "words": 17036
+   },
+   {
+    "filename": "much_ado.txt",
+    "kind": "near",
+    "against": "open-source-shakespeare/muchado.txt",
+    "words": 22419
+   },
+   {
+    "filename": "pericles.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_pericles.html.txt",
+    "words": 19421
+   },
+   {
+    "filename": "taming_shrew.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_ts.html.txt",
+    "words": 21972
+   },
+   {
+    "filename": "tempest.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_tempest.html.txt",
+    "words": 17308
+   },
+   {
+    "filename": "troilus_cressida.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_tc.html.txt",
+    "words": 27371
+   },
+   {
+    "filename": "twelfth_night.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_tn.html.txt",
+    "words": 21308
+   },
+   {
+    "filename": "two_gentlemen.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_2gent.html.txt",
+    "words": 18139
+   },
+   {
+    "filename": "winters_tale.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_wt.html.txt",
+    "words": 25755
+   },
+   {
+    "filename": "cleopatra.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_ac.html.txt",
+    "words": 26791
+   },
+   {
+    "filename": "coriolanus.txt",
+    "kind": "near",
+    "against": "open-source-shakespeare/coriolanus.txt",
+    "words": 29069
+   },
+   {
+    "filename": "julius_caesar.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_jc.html.txt",
+    "words": 20728
+   },
+   {
+    "filename": "macbeth.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_macbeth.html.txt",
+    "words": 18088
+   },
+   {
+    "filename": "othello.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_othello.html.txt",
+    "words": 27733
+   },
+   {
+    "filename": "romeo_juliet.txt",
+    "kind": "near",
+    "against": "open-source-shakespeare/romeojuliet.txt",
+    "words": 25640
+   },
+   {
+    "filename": "timon.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_ta.html.txt",
+    "words": 19518
+   },
+   {
+    "filename": "titus.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_titus.html.txt",
+    "words": 21609
+   },
+   {
+    "filename": "sonnet-102.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 119
+   },
+   {
+    "filename": "sonnet-152.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 126
+   },
+   {
+    "filename": "sonnet-108.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 117
+   },
+   {
+    "filename": "sonnet-112.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 118
+   },
+   {
+    "filename": "sonnet-113.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 120
+   },
+   {
+    "filename": "sonnet-144.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 115
+   },
+   {
+    "filename": "sonnet-145.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 99
+   },
+   {
+    "filename": "sonnet-148.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 125
+   },
+   {
+    "filename": "sonnet-121.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 117
+   },
+   {
+    "filename": "sonnet-135.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 118
+   },
+   {
+    "filename": "sonnet-137.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 126
+   },
+   {
+    "filename": "sonnet-138.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 120
+   },
+   {
+    "filename": "sonnet-003.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 117
+   },
+   {
+    "filename": "sonnet-009.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 119
+   },
+   {
+    "filename": "sonnet-053.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 109
+   },
+   {
+    "filename": "sonnet-061.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 123
+   },
+   {
+    "filename": "sonnet-067.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 108
+   },
+   {
+    "filename": "sonnet-068.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 110
+   },
+   {
+    "filename": "sonnet-071.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 125
+   },
+   {
+    "filename": "sonnet-073.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 123
+   },
+   {
+    "filename": "sonnet-074.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 115
+   },
+   {
+    "filename": "sonnet-079.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 118
+   },
+   {
+    "filename": "sonnet-076.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 116
+   },
+   {
+    "filename": "sonnet-078.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 112
+   },
+   {
+    "filename": "sonnet-006.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 110
+   },
+   {
+    "filename": "sonnet-007.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 102
+   },
+   {
+    "filename": "sonnet-008.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 112
+   },
+   {
+    "filename": "sonnet-010.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 114
+   },
+   {
+    "filename": "sonnet-093.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 116
+   },
+   {
+    "filename": "sonnet-096.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 122
+   },
+   {
+    "filename": "sonnet-012.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 120
+   },
+   {
+    "filename": "sonnet-043.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 124
+   },
+   {
+    "filename": "sonnet-044.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 119
+   },
+   {
+    "filename": "sonnet-048.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 120
+   },
+   {
+    "filename": "sonnet-015.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 113
+   },
+   {
+    "filename": "sonnet-024.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 122
+   },
+   {
+    "filename": "venus-and-adonis.txt",
+    "kind": "near",
+    "against": "open-source-shakespeare/venusadonis.txt",
+    "words": 9867
+   },
+   {
+    "filename": "rape-of-lucrece.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Luc.xml",
+    "words": 15008
+   },
+   {
+    "filename": "lovers-complaint.txt",
+    "kind": "near",
+    "against": "open-source-shakespeare/loverscomplaint.txt",
+    "words": 2560
+   },
+   {
+    "filename": "passionate-pilgrim.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_pp.html.txt",
+    "words": 1797
+   },
+   {
+    "filename": "sonnets-to-sundry-notes-of-music.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_pp.html.txt",
+    "words": 1359
+   },
+   {
+    "filename": "phoenix-and-turtle.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/PhT.xml",
+    "words": 358
+   }
+  ]
+ },
  "deux-visages-de-l-astree": {
   "texts": 4,
   "words": 863243,
@@ -20870,17 +22408,18 @@
  "milton-reading-room": {
   "texts": 174,
   "words": 675531,
-  "dup_texts": 73,
-  "dup_words": 385171,
+  "dup_texts": 74,
+  "dup_words": 386068,
   "against": {
    "RQ:EEBOphase2": 13,
-   "RQ:EEBO_TCP_fill": 58,
+   "RQ:EEBO_TCP_fill": 57,
+   "renascence-editions": 2,
    "RQ:LatinWikisource": 2
   },
   "junk_texts": 7,
   "junk_words": 65,
-  "unique_texts": 101,
-  "unique_words": 290360,
+  "unique_texts": 100,
+  "unique_words": 289463,
   "dups": [
    {
     "filename": "pl_book_1.txt",
@@ -20975,7 +22514,7 @@
    {
     "filename": "comus.txt",
     "kind": "near",
-    "against": "RQ:EEBO_TCP_fill",
+    "against": "renascence-editions/comus.html.txt",
     "words": 7835
    },
    {
@@ -21267,6 +22806,12 @@
     "words": 121
    },
    {
+    "filename": "comus_front_matter.txt",
+    "kind": "near",
+    "against": "renascence-editions/comus.html.txt",
+    "words": 897
+   },
+   {
     "filename": "elegiarum_elegy_5.txt",
     "kind": "near",
     "against": "RQ:EEBO_TCP_fill",
@@ -21486,6 +23031,100 @@
   "unique_words": 176091,
   "dups": []
  },
+ "early-americas-digital-archive": {
+  "texts": 49,
+  "words": 515178,
+  "dup_texts": 13,
+  "dup_words": 40269,
+  "against": {
+   "RQ:Hakluyt_English": 1,
+   "RQ:EvansTCP_American": 7,
+   "RQ:EEBO_TCP_fill": 4,
+   "RQ:EEBOphase2": 1
+  },
+  "unique_texts": 36,
+  "unique_words": 474909,
+  "dups": [
+   {
+    "filename": "barlowe_voyage.txt",
+    "kind": "near",
+    "against": "RQ:Hakluyt_English",
+    "words": 4829
+   },
+   {
+    "filename": "bradstreet_anotheri.txt",
+    "kind": "near",
+    "against": "RQ:EvansTCP_American",
+    "words": 341
+   },
+   {
+    "filename": "bradstreet_anotherii.txt",
+    "kind": "near",
+    "against": "RQ:EvansTCP_American",
+    "words": 277
+   },
+   {
+    "filename": "bradstreet_author.txt",
+    "kind": "near",
+    "against": "RQ:EvansTCP_American",
+    "words": 211
+   },
+   {
+    "filename": "bradstreet_beforethebirth.txt",
+    "kind": "near",
+    "against": "RQ:EvansTCP_American",
+    "words": 245
+   },
+   {
+    "filename": "bradstreet_contemplations.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 1936
+   },
+   {
+    "filename": "bradstreet_dialogue.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 2347
+   },
+   {
+    "filename": "bradstreet_fourages.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3610
+   },
+   {
+    "filename": "bradstreet_inhonor.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 972
+   },
+   {
+    "filename": "bradstreet_inmemory.txt",
+    "kind": "near",
+    "against": "RQ:EvansTCP_American",
+    "words": 168
+   },
+   {
+    "filename": "bradstreet_prologue.txt",
+    "kind": "near",
+    "against": "RQ:EvansTCP_American",
+    "words": 394
+   },
+   {
+    "filename": "horne_briefcarolina.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 2328
+   },
+   {
+    "filename": "rowlandson_narrative.txt",
+    "kind": "near",
+    "against": "RQ:EvansTCP_American",
+    "words": 22611
+   }
+  ]
+ },
  "maurolico-opera-mathematica": {
   "texts": 58,
   "words": 428880,
@@ -21513,6 +23152,1057 @@
   "against": {},
   "unique_texts": 1,
   "unique_words": 172925,
+  "dups": []
+ },
+ "representative-poetry-online": {
+  "texts": 941,
+  "words": 454246,
+  "dup_texts": 169,
+  "dup_words": 215417,
+  "against": {
+   "RQ:EEBO_TCP_fill": 77,
+   "RQ:WikisourceFR_Renaissance": 1,
+   "RQ:GutenbergFR": 1,
+   "RQ:EEBOphase2": 19,
+   "representative-poetry-online": 5,
+   "RQ:DigitalDonne_Manuscripts": 1,
+   "renascence-editions": 22,
+   "milton-reading-room": 1,
+   "RQ:EBBA_Ballads": 1,
+   "shakespeare-mit": 4,
+   "open-source-shakespeare": 1,
+   "folger-shakespeare": 35,
+   "RQ:LEME_English": 1
+  },
+  "junk_texts": 17,
+  "junk_words": 282,
+  "unique_texts": 772,
+  "unique_words": 238829,
+  "dups": [
+   {
+    "filename": "behn-aphra__disappointment.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 914
+   },
+   {
+    "filename": "bunyan-john__upon-disobedient-child.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 335
+   },
+   {
+    "filename": "cherbury-edward-lord-herbert__elegy-over-tomb.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 239
+   },
+   {
+    "filename": "cleveland-john__memory-mr-edward-king-drownd-irish-seas.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 410
+   },
+   {
+    "filename": "cowley-abraham__given-heart.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 144
+   },
+   {
+    "filename": "cowley-abraham__wish.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 259
+   },
+   {
+    "filename": "de-la-fontaine-jean__lalouette-et-ses-petits-avec-le-maitre-dun-champ.txt",
+    "kind": "near",
+    "against": "RQ:WikisourceFR_Renaissance",
+    "words": 474
+   },
+   {
+    "filename": "de-la-fontaine-jean__le-loup-et-lagneau.txt",
+    "kind": "near",
+    "against": "RQ:GutenbergFR",
+    "words": 194
+   },
+   {
+    "filename": "denham-sir-john__coopers-hill-1655.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 2837
+   },
+   {
+    "filename": "donne-john__hymn-god-father-1.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 144
+   },
+   {
+    "filename": "donne-john__hymne-christ-authors-last-going-germany.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 246
+   },
+   {
+    "filename": "donne-john__community.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 170
+   },
+   {
+    "filename": "donne-john__good-friday-1613-riding-westward.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 349
+   },
+   {
+    "filename": "donne-john__his-picture.txt",
+    "kind": "near",
+    "against": "representative-poetry-online/donne-john__elegy-v-his-picture.txt",
+    "words": 180
+   },
+   {
+    "filename": "donne-john__bait.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 183
+   },
+   {
+    "filename": "donne-john__indifferent.txt",
+    "kind": "near",
+    "against": "RQ:DigitalDonne_Manuscripts",
+    "words": 233
+   },
+   {
+    "filename": "donne-john__legacy.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 195
+   },
+   {
+    "filename": "donne-john__undertaking.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 169
+   },
+   {
+    "filename": "dryden-john__absalom-and-achitophel-second-part.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 442
+   },
+   {
+    "filename": "dryden-john__alexanders-feast.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 1055
+   },
+   {
+    "filename": "dryden-john__calm-was-even-and-clear-was-sky.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 195
+   },
+   {
+    "filename": "dryden-john__troilus-and-cressida.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 108
+   },
+   {
+    "filename": "dryden-john__secular-masque.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 582
+   },
+   {
+    "filename": "dryden-john__memory-mr-oldham.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 202
+   },
+   {
+    "filename": "dryden-john__veni-creator-spiritus.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 231
+   },
+   {
+    "filename": "fletcher-john__lay-garland-my-hearse.txt",
+    "kind": "exact",
+    "against": "representative-poetry-online/beaumont-francis__lay-garland-my-hearse.txt",
+    "words": 39
+   },
+   {
+    "filename": "greville-baron-brooke-fulke__caelica-sonnet-22.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 252
+   },
+   {
+    "filename": "greville-baron-brooke-fulke__chorus-sacerdotum-mustapha.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 177
+   },
+   {
+    "filename": "harvey-gabriel__writers-postscript-or-frendly-caueat-second-shakerley-powles.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 283
+   },
+   {
+    "filename": "herbert-george__elixir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 136
+   },
+   {
+    "filename": "herbert-george__love-i-3.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 113
+   },
+   {
+    "filename": "herbert-george__affliction-i.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 481
+   },
+   {
+    "filename": "herbert-george__pulley.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 137
+   },
+   {
+    "filename": "herrick-robert__his-return-london.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 151
+   },
+   {
+    "filename": "herrick-robert__anthea-who-may-command-him-anything.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 154
+   },
+   {
+    "filename": "jonson-ben__epicoene-or-silent-woman-still-be-neat-still-be-drest.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 81
+   },
+   {
+    "filename": "killigrew-anne__death.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 257
+   },
+   {
+    "filename": "killigrew-anne__discontent.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 885
+   },
+   {
+    "filename": "killigrew-anne__miseries-man.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 1778
+   },
+   {
+    "filename": "lanyer-_milia__salve-deus-rex-iudaeorum.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 1606
+   },
+   {
+    "filename": "marlowe-christopher__tamburlaine-great-part-one-what-beauty-saith-my-sufferings-then.txt",
+    "kind": "near",
+    "against": "renascence-editions/marlowe3.html.txt",
+    "words": 101
+   },
+   {
+    "filename": "marlowe-christopher__passionate-shepherd-his-love-3.txt",
+    "kind": "near",
+    "against": "renascence-editions/walton_walton2.html.txt",
+    "words": 157
+   },
+   {
+    "filename": "marvell-andrew__horatian-ode-upon-cromwells-return-ireland.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 657
+   },
+   {
+    "filename": "marvell-andrew__garden-0.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 446
+   },
+   {
+    "filename": "marvell-andrew__mower.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 281
+   },
+   {
+    "filename": "marvell-andrew__nymph-complaining-death-her-fawn.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 812
+   },
+   {
+    "filename": "marvell-andrew__upon-appleton-house-my-lord-fairfax.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 472
+   },
+   {
+    "filename": "milton-john__lycidas.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 1501
+   },
+   {
+    "filename": "milton-john__paradise-lost-book-i-1674.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 6533
+   },
+   {
+    "filename": "milton-john__paradise-lost-book-ii-1674.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 8132
+   },
+   {
+    "filename": "milton-john__paradise-lost-book-iii-1674.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 5927
+   },
+   {
+    "filename": "milton-john__paradise-lost-book-iv-1674.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 7806
+   },
+   {
+    "filename": "milton-john__paradise-lost-book-ix-1674.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 9333
+   },
+   {
+    "filename": "milton-john__paradise-lost-book-v-1674.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 7045
+   },
+   {
+    "filename": "milton-john__paradise-lost-book-vi-1674.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 6961
+   },
+   {
+    "filename": "milton-john__paradise-lost-book-vii-1674.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 4876
+   },
+   {
+    "filename": "milton-john__paradise-lost-book-viii-1674.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 5006
+   },
+   {
+    "filename": "milton-john__paradise-lost-book-x-1674.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 8716
+   },
+   {
+    "filename": "milton-john__paradise-lost-book-xi-1674.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 7010
+   },
+   {
+    "filename": "milton-john__paradise-lost-book-xii-1674.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 5054
+   },
+   {
+    "filename": "milton-john__paradise-regaind-book-i-1671.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3889
+   },
+   {
+    "filename": "milton-john__paradise-regaind-book-ii-1671.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3682
+   },
+   {
+    "filename": "milton-john__paradise-regaind-book-iii-1671.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3316
+   },
+   {
+    "filename": "milton-john__paradise-regaind-book-iv-1671.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4865
+   },
+   {
+    "filename": "milton-john__sonnet-xix-when-i-consider-how-my-light-spent-2.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 113
+   },
+   {
+    "filename": "milton-john__sonnet-xviii-late-massacre-piemont.txt",
+    "kind": "near",
+    "against": "milton-reading-room/sonnets_sonnet_18.txt",
+    "words": 111
+   },
+   {
+    "filename": "milton-john__sonnet-xxiii-methought-i-saw-my-late-espoused-saint.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 119
+   },
+   {
+    "filename": "oldham-john__careless-good-fellow.txt",
+    "kind": "near",
+    "against": "RQ:EBBA_Ballads",
+    "words": 388
+   },
+   {
+    "filename": "philips-katherine__friendships-mystery-my-dearest-lucasia.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 184
+   },
+   {
+    "filename": "philips-katherine__orinda-upon-little-hector-philips.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 158
+   },
+   {
+    "filename": "philips-katherine__mrs-m-parting.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 362
+   },
+   {
+    "filename": "ralegh-sir-walter__nymphs-reply-3.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 166
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-against-my-love-shall-be-i-am-now.txt",
+    "kind": "near",
+    "against": "shakespeare-mit/sonnet-063.txt",
+    "words": 110
+   },
+   {
+    "filename": "shakespeare-william__fear-no-more-heat-o-sun.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 150
+   },
+   {
+    "filename": "shakespeare-william__richard-ii-excerpts-i-have-been-studying-how-compare.txt",
+    "kind": "near",
+    "against": "open-source-shakespeare/richard2.txt",
+    "words": 489
+   },
+   {
+    "filename": "shakespeare-william__richard-ii-excerpts-lets-talk-graves-worms-and-epitaphs.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/R2.xml",
+    "words": 261
+   },
+   {
+    "filename": "shakespeare-william__richard-ii-excerpts-royal-throne-kings-sceptred-isle.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/R2.xml",
+    "words": 209
+   },
+   {
+    "filename": "shakespeare-william__romeo-and-juliet-excerpts-o-then-i-see-queen-mab-hath-been-you.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_rj.html.txt",
+    "words": 326
+   },
+   {
+    "filename": "shakespeare-william__romeo-and-juliet-excerpts-earth-thats-natures-mother-her-tomb.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Rom.xml",
+    "words": 173
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-unperfect-actor-stage.txt",
+    "kind": "near",
+    "against": "shakespeare-mit/sonnet-023.txt",
+    "words": 114
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-be-contented-when-fell-arrest.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 113
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-do-thy-worst-steal-thy-self-away-2.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 122
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-cupid-laid-his-brand-and-fell-asleep.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 110
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-fairest-creatures-we-desire-increase-6.txt",
+    "kind": "exact",
+    "against": "representative-poetry-online/shakespeare-william__shakespeares-sonnets-fairest-creatures-we-desire-increase-5.txt",
+    "words": 106
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-how-careful-was-i-when-i-took-my-way.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 117
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-if-dull-substance-my-flesh-were-thought.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 117
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-loving-thee-thou-knowst-i-am-forsworn.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 124
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-old-age-black-was-not-counted-fair.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 111
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-it-fear-wet-widows-eye.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 118
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-it-thy-will-thy-image-should-keep-opn.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 121
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-make-our-appetites-more-keen.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 112
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-lo-orient-when-gracious-light-1.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 100
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-mine-eye-hath-playd-painter-and-hath-stelld.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 119
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-music-hear-why-hearst-thou-music-sadly-1.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 109
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-no-longer-mourn-me-when-i-am-dead.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 123
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-o-me-what-eyes-hath-love-put-my-head.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 125
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-i-left-you-mine-eye-my-mind.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 117
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-so-oft-have-i-invokd-thee-my-muse.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 110
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-some-glory-their-birth-some-their-skill-2.txt",
+    "kind": "near",
+    "against": "shakespeare-mit/sonnet-091.txt",
+    "words": 114
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-some-say-thy-fault-youth-some-wantonness-2.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 120
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-those-lips-loves-own-hand-did-make.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 97
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-thus-his-cheek-map-days-out-worn.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 110
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-what-your-substance-whereof-are-you-made.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 107
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-whats-brain-ink-may-character.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 115
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-when-i-consider-every-thing-grows.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 111
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-when-i-do-count-clock-tells-time-5.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 118
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-when-disgrace-fortune-and-mens-eyes.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 116
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-when-most-i-wink-then-do-mine-eyes-best-see.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 122
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-whilst-i-alone-did-call-upon-thy-aid.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 118
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-who-will-believe-my-verse-time-come.txt",
+    "kind": "near",
+    "against": "shakespeare-mit/sonnet-017.txt",
+    "words": 124
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-why-my-verse-so-barren-new-pride.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 114
+   },
+   {
+    "filename": "shakespeare-william__sonnet-cxxix-thexpense-spirit-waste-shame.txt",
+    "kind": "near",
+    "against": "representative-poetry-online/shakespeare-william__shakespeares-sonnets-th-expense-spirit-waste-shame-3.txt",
+    "words": 110
+   },
+   {
+    "filename": "shakespeare-william__sonnet-lxxi-no-longer-mourn-me-when-i-am-dead.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 123
+   },
+   {
+    "filename": "shakespeare-william__sonnet-lxxiii-time-year-thou-mayst-me-behold.txt",
+    "kind": "near",
+    "against": "representative-poetry-online/shakespeare-william__shakespeares-sonnets-time-year-thou-mayst-me-behold.txt",
+    "words": 121
+   },
+   {
+    "filename": "shakespeare-william__sonnet-xv-when-i-consider-everything-grows.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 110
+   },
+   {
+    "filename": "shakespeare-william__merchant-venice-excerpts-how-sweet-moonlight-sleeps-upon-bank.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/MV.xml",
+    "words": 285
+   },
+   {
+    "filename": "shakespeare-william__phoenix-and-turtle-1.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/PhT.xml",
+    "words": 353
+   },
+   {
+    "filename": "shakespeare-william__shakespeares-sonnets-tis-better-be-vile-vile-esteemed.txt",
+    "kind": "near",
+    "against": "folger-shakespeare/Son.xml",
+    "words": 115
+   },
+   {
+    "filename": "shakespeare-william__troilus-and-cressida-excerpts-heavens-themselves-planets-and-centre.txt",
+    "kind": "near",
+    "against": "renascence-editions/shake_tc.html.txt",
+    "words": 279
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-19.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 121
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-28.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 110
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-45.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 112
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-51.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 109
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-58.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 115
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-67.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 111
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-71-1.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 118
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-74.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 121
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-75.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 117
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-76.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 143
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-79.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 115
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-85.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 113
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-95.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 121
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-103.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 113
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-105.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 123
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-eleuenth-song.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 266
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-second-song.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 168
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-sixt-song.txt",
+    "kind": "near",
+    "against": "renascence-editions/stella.html.txt",
+    "words": 250
+   },
+   {
+    "filename": "sidney-sir-philip__astrophel-and-stella-third-song.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 176
+   },
+   {
+    "filename": "sidney-sir-philip__you-gote-heard-gods.txt",
+    "kind": "near",
+    "against": "renascence-editions/arcadia1.html.txt",
+    "words": 643
+   },
+   {
+    "filename": "skelton-john__book-phillip-sparrow.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 660
+   },
+   {
+    "filename": "spenser-edmund__epithalamion-0.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3244
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-1-canto-1-1596.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4549
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-1-canto-10.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4917
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-1-canto-11.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3973
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-1-canto-2.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3281
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-1-canto-2-1596.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3415
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-1-canto-3-1596.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3319
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-1-canto-4.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 2570
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-1-canto-4-1596.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3705
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-1-canto-9.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3871
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-i-canto-10-1596.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 5007
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-i-canto-11-1596.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4040
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-i-canto-12-1596.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3048
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-i-canto-5-1596.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3786
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-i-canto-6-1596.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3497
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-i-canto-8-1596.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3673
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-i-canto-9-1596.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4003
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-ii-canto-12.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3201
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-iii-canto-6.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3568
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-vi-canto-10.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 2134
+   },
+   {
+    "filename": "spenser-edmund__faerie-queene-book-i-canto-i.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4332
+   },
+   {
+    "filename": "spenser-edmund__shepheardes-calender-april.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 1042
+   },
+   {
+    "filename": "spenser-edmund__shepheardes-calender-october.txt",
+    "kind": "near",
+    "against": "RQ:LEME_English",
+    "words": 991
+   },
+   {
+    "filename": "suckling-sir-john__song-i-prithee-spare-me-gentle-boy.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 146
+   },
+   {
+    "filename": "tichborne-chidiock__my-prime-youth-frost-cares.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 180
+   },
+   {
+    "filename": "vaughan-henry__morning-watch.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 169
+   },
+   {
+    "filename": "waller-edmund__upon-his-majestys-repairing-pauls.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 488
+   },
+   {
+    "filename": "whitney-isabella__will-and-testament.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 2211
+   },
+   {
+    "filename": "wilmot-earl-rochester-john__ramble-st-jamess-park.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 1045
+   }
+  ]
+ },
+ "zwingli-briefe": {
+  "texts": 800,
+  "words": 351291,
+  "dup_texts": 0,
+  "dup_words": 0,
+  "against": {},
+  "unique_texts": 800,
+  "unique_words": 351291,
   "dups": []
  },
  "magdeburger-zenturien-methode-hab": {
@@ -21665,6 +24355,27 @@
   "unique_words": 42739,
   "dups": []
  },
+ "henslowe-alleyn-digitisation-project": {
+  "texts": 7,
+  "words": 10831,
+  "dup_texts": 1,
+  "dup_words": 2402,
+  "against": {
+   "RQ:REED_English": 1
+  },
+  "junk_texts": 1,
+  "junk_words": 88551,
+  "unique_texts": 6,
+  "unique_words": 8429,
+  "dups": [
+   {
+    "filename": "mss1-article-16.txt",
+    "kind": "near",
+    "against": "RQ:REED_English",
+    "words": 2402
+   }
+  ]
+ },
  "inscriptiones-alborum-amicorum": {
   "texts": 3981,
   "words": 178912,
@@ -21753,6 +24464,3569 @@
   "unique_words": 0,
   "dups": []
  },
+ "verse-miscellanies-online": {
+  "texts": 888,
+  "words": 212502,
+  "dup_texts": 591,
+  "dup_words": 148774,
+  "against": {
+   "RQ:EEBO_TCP_fill": 460,
+   "RQ:EEBOphase2": 130,
+   "verse-miscellanies-online": 1
+  },
+  "junk_texts": 3,
+  "junk_words": 34,
+  "unique_texts": 297,
+  "unique_words": 63728,
+  "dups": [
+   {
+    "filename": "tottels-miscellany__tottel-eeiiiv-2.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 391
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-_ddiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 385
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-aaiiiiv-2.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 292
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-aaiiir-2.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 279
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-aair.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 304
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-aaiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 298
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-aiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 234
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-aiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 454
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-aiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 299
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-aiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 313
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-bbiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 233
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-bbiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 266
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-bbiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 271
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-bbiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 267
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-bbiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 284
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-biiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 355
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-biiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 250
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-biiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 266
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-bir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 257
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-cciiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 290
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-cciiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 264
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-cciiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 277
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-cciir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 376
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-cciiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 500
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ccir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 295
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ciiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 210
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ciiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 218
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ciiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 333
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ciiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 189
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ciir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 360
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ciiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 226
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-cir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 464
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-civ.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 416
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ddiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 267
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-diiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 253
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-diiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 378
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-diiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 407
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-diir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 376
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-diiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 474
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-dir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 365
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-div.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 341
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-eeiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 350
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-eeiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 192
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-eeiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 285
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-eeiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 223
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-eeir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 260
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-eeiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 257
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-eiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 253
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-eiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 254
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-eiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 244
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-eiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 241
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ffiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 324
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ffiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 282
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ffiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 253
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ffiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 315
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ffiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 403
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ffiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 268
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-fiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 272
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-fiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 246
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-fiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 228
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-fiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 251
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-fiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 263
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-fiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 275
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-fir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 247
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-fiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 289
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-giir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 332
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-giiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 381
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-gir-b.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 331
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-gir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 270
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-giv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 287
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-hiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 226
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-hiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 202
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-hir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 265
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-hiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 213
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-iiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 264
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-iiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 282
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-iiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 256
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-kiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 259
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-kiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 209
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-kiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 446
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-kiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 296
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-kiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 306
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-kiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 463
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-kir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 274
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-kiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 296
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-liiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 235
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-liiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 229
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-liiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 271
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-lir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 345
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-liv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 238
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-miiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 386
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-miiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 307
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-miir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 371
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-miiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 337
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-miv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 369
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-niiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 353
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-niiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 368
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-niir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 405
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-niiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 427
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-nir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 410
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-niv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 459
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-oiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 252
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-oiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 246
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-oiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 432
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-oiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 264
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-oiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 255
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-oiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 295
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-piiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 291
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-piiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 277
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-piiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 290
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-piir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 254
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-piv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 467
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-qiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 234
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-qiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 268
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-qiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 291
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-qiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 272
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-qiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 374
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-qiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 255
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-riiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 375
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-riiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 237
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-riiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 261
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-riir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 299
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-riv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 426
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-siiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 234
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-siiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 240
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-siiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 229
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-siiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 247
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-siiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 355
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-sir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 320
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-tiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 296
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-tiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 373
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-tiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 205
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-tiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 275
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-tir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 233
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-tiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 220
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-uiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 266
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-uiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 264
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-uir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 374
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-uiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 301
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-xiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 348
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-xiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 491
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-xiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 266
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-xiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 320
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-xiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 313
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-xiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 322
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-xir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 281
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-xiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 303
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-yiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 220
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-yiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 256
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-yiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 295
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-yir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 305
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-yiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 288
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ziiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 299
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ziiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 301
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ziiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 288
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ziiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 306
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ziir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 329
+   },
+   {
+    "filename": "tottels-miscellany__tottel-sig-ziiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 295
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-aiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 233
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-aiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 178
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-aiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 162
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-aviiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 218
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-aviiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 175
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-aviir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 158
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-aviiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 177
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-aviv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 163
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-avv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 167
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-biiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 200
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-bir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 166
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-bviir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 180
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-bviiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 215
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-bvir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 156
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-bviv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 157
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-ciiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 212
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-ciiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 160
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-ciiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 158
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-civ.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 190
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-cviiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 170
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-cviir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 222
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-cvir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 176
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-cvr.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 190
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-cvv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 187
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-dir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 178
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-div.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 198
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-dviiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 174
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-dviv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 200
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-dvr.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 174
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-eiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 198
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-eiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 165
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-eiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 176
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-eiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 197
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-eiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 192
+   },
+   {
+    "filename": "handful-of-pleasant-delights__handful-sig-eiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 203
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-aiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 407
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-aiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 345
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-aiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 361
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-biiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 286
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-biiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 278
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-biiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 293
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-biir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 347
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-biiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 250
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-bir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 303
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-biv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 365
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-ciiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 240
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-ciiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 271
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-ciiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 270
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-cir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 240
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-diiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 362
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-diiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 381
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-diir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 295
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-diiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 350
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-dir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 287
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-div.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 284
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-eiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 309
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-eiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 275
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-eiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 336
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-eiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 340
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-eiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 439
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-eir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 349
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-eiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 364
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-fiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 329
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-fiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 293
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-fiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 325
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-fiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 343
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-fiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 306
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-fir.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 287
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-fiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 333
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-giiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 222
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-giiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 315
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-giiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 330
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-giir.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 266
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-gir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 301
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-giv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 271
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-hiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 395
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-hiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 466
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-hiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 416
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-hiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 392
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-hiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 397
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-iiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 284
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-iiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 345
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-iir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 350
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-iiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 330
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-kiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 243
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-kiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 294
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-kiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 276
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-liiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 340
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-liiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 297
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-miiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 310
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-miiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 352
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-miiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 365
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-miir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 240
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-miiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 300
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-mir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 243
+   },
+   {
+    "filename": "paradise-of-dainty-devises__paradise-sig-miv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 256
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-aiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 373
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-biiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 407
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-biiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 355
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-biiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 389
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-biir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 407
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-biiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 401
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-bir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 383
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-biv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 398
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-ciiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 271
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-ciiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 204
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-ciiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 323
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-ciiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 268
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-cir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 397
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-civ.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 397
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-diiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 215
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-diiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 308
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-diir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 271
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-dir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 262
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-div.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 227
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-eiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 180
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-eiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 280
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-eiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 146
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-eiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 292
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-eiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 306
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-eiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 313
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-fiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 298
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-fiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 276
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-fiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 215
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-fiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 190
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-fiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 206
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-fiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 171
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-giiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 291
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-giiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 254
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-giiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 258
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-giir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 204
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-giiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 281
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-gir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 173
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-giv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 173
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-hiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 328
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-hiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 362
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-hiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 326
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-hiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 229
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-iiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 207
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-iiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 196
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-iiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 211
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-kiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 258
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-kiiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 203
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-kiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 358
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-kiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 334
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-kiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 417
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-kiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 301
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-kir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 162
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-liiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 273
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-liir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 218
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-liiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 225
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-lir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 291
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-liv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 279
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-miiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 209
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-miiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 263
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-miir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 247
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-miiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 236
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-mir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 284
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-niiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 364
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-niiiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 412
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-oiiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 470
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-oiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 306
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-oiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 408
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-oir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 316
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-oiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 365
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-piiiir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 305
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-piiiv.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 303
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-piir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 433
+   },
+   {
+    "filename": "gorgeous-gallery__gorgeousgallery-sig-pir.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 272
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-a3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 365
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-a4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 368
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-a4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 294
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-b1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 179
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-b1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 203
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-b2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 208
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-b2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 199
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-b3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 197
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-b4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 206
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-b4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 218
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-c1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 257
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-c2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 319
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-c2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 203
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-c3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 229
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-c3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 230
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-d2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 724
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-d3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 301
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-d3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 321
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-d4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 263
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-d4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 256
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-e1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 345
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-e1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 304
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-e2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 270
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-e3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 199
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-e4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 225
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-e4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 242
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-f1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 215
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-f2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 243
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-f3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 259
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-f4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 255
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-g1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 245
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-g1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 251
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-g2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 243
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-g3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 209
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-h1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 239
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-h2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 237
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-h4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 186
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-i1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 263
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-i2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 204
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-i3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 165
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-i4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 188
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-i4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 280
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-k3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 242
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-k3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 231
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-k4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 226
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-k4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 161
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-l1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 245
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-l4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 211
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-m1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 245
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-m2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 232
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-m3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 250
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-m4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 218
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-m4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 253
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-n1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 234
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-n3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 235
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-n3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 292
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-n4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 249
+   },
+   {
+    "filename": "phoenix-nest__phoenixnest-sig-o1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 249
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-aa2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 195
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-aa3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 203
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-aa4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 194
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-b2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 203
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-b2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 209
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-b3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 214
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-bb1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 198
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-bb1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 173
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-bb2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 202
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-bb3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 207
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-bb4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 172
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-bb4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 100
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-c2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 178
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-c2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 207
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-c4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 174
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-c4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 204
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-d1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 178
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-d1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 181
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-d2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 166
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-d2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 189
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-d3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 185
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-d4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 243
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-d4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 279
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-e1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 236
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-e1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 222
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-e2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 196
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-e3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 158
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-e4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 144
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-e4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 179
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-f2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 225
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-f2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 224
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-g1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 191
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-g2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 213
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-g4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 185
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-g4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 234
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-h1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 227
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-h2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 208
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-i1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 172
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-i2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 182
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-k1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 256
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-k2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 264
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-k2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 221
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-k3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 268
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-k3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 206
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-k4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 220
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-l1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 168
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-l4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 211
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-m1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 182
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-m2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 208
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-m4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 226
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-m4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 199
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-n1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 188
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-n2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 183
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-n2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 173
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-n3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 178
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-n4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 218
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-o1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 164
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-o2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 301
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-o3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 227
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-p1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 200
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-p1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 177
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-p4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 206
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-p4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 453
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-q1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 184
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-q2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 172
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-q2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 188
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-q3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 226
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-q3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 197
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-q4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 263
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-r3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 222
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-r3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 186
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-r4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 235
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-r4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 235
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-s1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 169
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-s1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 255
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-s2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 117
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-s3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 141
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-s4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 213
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-t2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 214
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-t3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 240
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-t3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 211
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-t4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 187
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-t4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 182
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-v1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 199
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-v2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 209
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-v2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 172
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-v3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 198
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-x1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 167
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-x2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 216
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-x2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 177
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-x3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 174
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-x4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 194
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-y1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 207
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-y3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 171
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-y4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 160
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-z1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 170
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-z1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 177
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-z2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 162
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-z3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 201
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-z4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 223
+   },
+   {
+    "filename": "englands-helicon__englandshelicon-z4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 205
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-b2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 185
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-b3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 187
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-b3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 188
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-b4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 154
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-b5r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 164
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-b5v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 167
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-b7r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 150
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-b7v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 176
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-b8r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 170
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-c1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 147
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-c2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 171
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-c2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 178
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-c3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 158
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-c3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 145
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-c5v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 147
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-c6r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 246
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-c7v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 189
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-c8r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 164
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-d2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 147
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-d4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 168
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-d5r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 191
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-d5v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 187
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-d6r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 143
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-d7r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 162
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-d8v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 163
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-e1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 184
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-e2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 331
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-e3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 148
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-e4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 196
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-e5r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 151
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-e6r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 171
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-f7r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 218
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-f7v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 218
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-f8r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 180
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-f8v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 223
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-g1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 169
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-g2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 177
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-g5r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 196
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-g7v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 169
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-h2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 175
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-h3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 177
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-h4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 184
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-h6r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 148
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-h8v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 153
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-i1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 147
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-i2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 174
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-i3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 236
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-i3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 247
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-i4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 188
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-i8v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 161
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-k2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 330
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-k2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 499
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-k4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 187
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-k6r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 186
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-k6v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 237
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-k7r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 238
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-k8r.txt",
+    "kind": "near",
+    "against": "verse-miscellanies-online/englands-helicon__englandshelicon-r1v.txt",
+    "words": 210
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-k8v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 149
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-l2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 181
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-l3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 207
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-l3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 186
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-l4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 163
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-l5r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 412
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-l7r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 131
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-l8v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 171
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-m1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 185
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-m2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 229
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-m3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 182
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-m3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 190
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-m4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 168
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-m4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 180
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-m5r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 139
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-m5v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 151
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-n2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 152
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-n6r.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 135
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-n6v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 169
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-n8r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 177
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-n8v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 180
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-o1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 171
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-o3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 153
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-o3v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 142
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-o4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 117
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-o5v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 152
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-o6v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 153
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-o7v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 155
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-o8r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 184
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-o8v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 187
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-p1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 178
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-p1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 152
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-p4r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 132
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-p7r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 173
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-p7v.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 179
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-p8r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 176
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-q1r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 185
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-q1v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 228
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-q2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 188
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-q2v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 153
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-q4v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 128
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-q5r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 153
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-q5v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 161
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-q6v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 217
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-q7r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 131
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-q7v.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 132
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-r2r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 199
+   },
+   {
+    "filename": "englands-helicon-1614__englandshelicon2-r3r.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 166
+   }
+  ]
+ },
  "dio": {
   "texts": 376,
   "words": 25012,
@@ -21782,6 +28056,18 @@
   "against": {},
   "unique_texts": 234,
   "unique_words": 100764,
+  "dups": []
+ },
+ "regi-magyar-exemplumadatbazis": {
+  "texts": 461,
+  "words": 130280,
+  "dup_texts": 0,
+  "dup_words": 0,
+  "against": {},
+  "junk_texts": 1,
+  "junk_words": 19,
+  "unique_texts": 461,
+  "unique_words": 130280,
   "dups": []
  },
  "rostocker-urgichten": {
@@ -21819,6 +28105,193 @@
     "kind": "exact",
     "against": "aldicam-cm/ALDICAM-0680.txt",
     "words": 1431
+   }
+  ]
+ },
+ "poly-olbion-project": {
+  "texts": 30,
+  "words": 142903,
+  "dup_texts": 29,
+  "dup_words": 139382,
+  "against": {
+   "RQ:EEBO_TCP_fill": 29
+  },
+  "unique_texts": 1,
+  "unique_words": 3521,
+  "dups": [
+   {
+    "filename": "song-1.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 5354
+   },
+   {
+    "filename": "song-2.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4782
+   },
+   {
+    "filename": "song-3.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4410
+   },
+   {
+    "filename": "song-4.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4680
+   },
+   {
+    "filename": "song-5.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3370
+   },
+   {
+    "filename": "song-6.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3565
+   },
+   {
+    "filename": "song-7.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3005
+   },
+   {
+    "filename": "song-8.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4394
+   },
+   {
+    "filename": "song-9.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4414
+   },
+   {
+    "filename": "song-10.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3225
+   },
+   {
+    "filename": "song-11.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4049
+   },
+   {
+    "filename": "song-12.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 5798
+   },
+   {
+    "filename": "song-13.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4232
+   },
+   {
+    "filename": "song-14.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3170
+   },
+   {
+    "filename": "song-15.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3234
+   },
+   {
+    "filename": "song-16.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3588
+   },
+   {
+    "filename": "song-17.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4363
+   },
+   {
+    "filename": "song-18.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 7314
+   },
+   {
+    "filename": "song-19.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4077
+   },
+   {
+    "filename": "song-20.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 2955
+   },
+   {
+    "filename": "song-21.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 2724
+   },
+   {
+    "filename": "song-22.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 15727
+   },
+   {
+    "filename": "song-23.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3495
+   },
+   {
+    "filename": "song-24.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 12114
+   },
+   {
+    "filename": "song-25.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3588
+   },
+   {
+    "filename": "song-26.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 5182
+   },
+   {
+    "filename": "song-28.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 5152
+   },
+   {
+    "filename": "song-29.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 4081
+   },
+   {
+    "filename": "song-30.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 3340
    }
   ]
  },
@@ -22038,20 +28511,27 @@
  "digital-renaissance-editions": {
   "texts": 16,
   "words": 113845,
-  "dup_texts": 2,
-  "dup_words": 20485,
+  "dup_texts": 3,
+  "dup_words": 22392,
   "against": {
    "RQ:EEBO_TCP_fill": 1,
+   "renascence-editions": 1,
    "digital-renaissance-editions": 1
   },
-  "unique_texts": 14,
-  "unique_words": 93360,
+  "unique_texts": 13,
+  "unique_words": 91453,
   "dups": [
    {
     "filename": "FairEm_Q1.txt",
     "kind": "near",
     "against": "RQ:EEBO_TCP_fill",
     "words": 6698
+   },
+   {
+    "filename": "KNDW_Q1.txt",
+    "kind": "near",
+    "against": "renascence-editions/kemp.html.txt",
+    "words": 1907
    },
    {
     "filename": "1HW_Q2.txt",
@@ -22258,16 +28738,6 @@
   "against": {},
   "unique_texts": 37,
   "unique_words": 44734,
-  "dups": []
- },
- "zwingli-briefe": {
-  "texts": 85,
-  "words": 42516,
-  "dup_texts": 0,
-  "dup_words": 0,
-  "against": {},
-  "unique_texts": 85,
-  "unique_words": 42516,
   "dups": []
  },
  "van-der-goes-ystroom": {
@@ -22732,6 +29202,62 @@
   "unique_texts": 1,
   "unique_words": 18850,
   "dups": []
+ },
+ "mini-lazarillo": {
+  "texts": 8,
+  "words": 18473,
+  "dup_texts": 7,
+  "dup_words": 18357,
+  "against": {
+   "RQ:Estilometria_SigloOro": 6,
+   "RQ:GutenbergESr": 1
+  },
+  "unique_texts": 1,
+  "unique_words": 116,
+  "dups": [
+   {
+    "filename": "prologo.txt",
+    "kind": "near",
+    "against": "RQ:Estilometria_SigloOro",
+    "words": 446
+   },
+   {
+    "filename": "tratado1.txt",
+    "kind": "near",
+    "against": "RQ:Estilometria_SigloOro",
+    "words": 4448
+   },
+   {
+    "filename": "tratado2.txt",
+    "kind": "near",
+    "against": "RQ:Estilometria_SigloOro",
+    "words": 4018
+   },
+   {
+    "filename": "tratado3.txt",
+    "kind": "near",
+    "against": "RQ:Estilometria_SigloOro",
+    "words": 6331
+   },
+   {
+    "filename": "tratado5.txt",
+    "kind": "near",
+    "against": "RQ:Estilometria_SigloOro",
+    "words": 1975
+   },
+   {
+    "filename": "tratado6.txt",
+    "kind": "near",
+    "against": "RQ:GutenbergESr",
+    "words": 210
+   },
+   {
+    "filename": "tratado7.txt",
+    "kind": "near",
+    "against": "RQ:Estilometria_SigloOro",
+    "words": 929
+   }
+  ]
  },
  "hainhofer-grosses-stammbuch": {
   "texts": 52,

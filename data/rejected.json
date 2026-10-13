@@ -210,30 +210,6 @@
       "date": "2026-10-12"
     },
     {
-      "id": "open-source-shakespeare",
-      "title": "Open Source Shakespeare",
-      "url": "https://www.opensourceshakespeare.org/",
-      "reason": "Gives only a modernised text, not a transcription of the early sources; Renascor lists original-spelling transcriptions. The text is the 1864 Globe edition.",
-      "source_url": "https://www.opensourceshakespeare.org/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "mini-lazarillo",
-      "title": "Mini Lazarillo: Edición mínima del Lazarillo de Tormes",
-      "url": "http://minilazarillo.github.io/",
-      "reason": "Gives only a modernised text, not a transcription of the early sources; Renascor lists original-spelling transcriptions.",
-      "source_url": "http://minilazarillo.github.io/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "regi-magyar-exemplumadatbazis",
-      "title": "Régi Magyar Exemplumadatbázis (RMEx)",
-      "url": "https://sermones.elte.hu/exemplumadatbazis/",
-      "reason": "Gives only a modernised text, not a transcription of the early sources; Renascor lists original-spelling transcriptions. The exempla are modernised readings taken from the printed Nyelvemléktár editions.",
-      "source_url": "https://sermones.elte.hu/exemplumadatbazis/",
-      "date": "2026-10-13"
-    },
-    {
       "id": "drama-online",
       "title": "Drama Online",
       "url": "http://www.dramaonlinelibrary.com/",
@@ -327,6 +303,110 @@
       "url": "http://diglib.hab.de/edoc/ed000084/start.htm",
       "reason": "Publishes only a modern German translation; the Latin transcription is not available.",
       "source_url": "http://diglib.hab.de/edoc/ed000084/start.htm",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "artfl-project",
+      "title": "ARTFL Project (free collections)",
+      "url": "https://artfl-project.uchicago.edu/",
+      "reason": "Portal and subscription service for ARTFL-FRANTEXT and other databases (membership required); the free sub-collections (Dictionnaires d'autrefois, Bibliothèque bleue de Troyes, Encyclopédie) would each need their own record, and the Encyclopédie and Bibliothèque bleue are mostly after 1700.",
+      "source_url": "https://artfl-project.uchicago.edu/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "down-survey-of-ireland",
+      "title": "The Down Survey of Ireland",
+      "url": "http://downsurvey.tcd.ie/index.html",
+      "reason": "Maps and survey data (Down Survey maps 1656-58, historical GIS, Books of Survey and Distribution) shown as an interactive application; no transcribed text found.",
+      "source_url": "https://www.downsurvey.ie/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "oxford-text-archive",
+      "title": "Oxford Text Archive",
+      "url": "https://ota.bodleian.ox.ac.uk/",
+      "reason": "A repository of many separate texts (not one resource) that has moved to the LLDS; the Bodleian address is legacy and timed out, and relevant individual collections are catalogued on their own pages (e.g. gemi-midwifery).",
+      "source_url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "digiberichte",
+      "title": "Digitale Reiseberichte (digiberichte.de)",
+      "url": "http://www.digiberichte.de/",
+      "reason": "Bibliographical database of about 375 European travel accounts with links to editions and literature, not a collection of transcribed texts.",
+      "source_url": "https://digiberichte.adw-goe.de/home",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "medici-archive-project",
+      "title": "Medici Archive Project (BIA)",
+      "url": "https://www.medici.org/",
+      "reason": "The documents database (MIA) and the Falconieri letters database (1655-75) both open on a login page (username and password, with registration approved by staff); no free access.",
+      "source_url": "https://mia.medici.org/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "emblematica-online",
+      "title": "Emblematica Online",
+      "url": "http://emblematica.grainger.illinois.edu/",
+      "reason": "Portal of emblem-book facsimiles (images) and descriptive emblem-level metadata drawn from partner libraries, not transcribed text.",
+      "source_url": "http://emblematica.grainger.illinois.edu/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "virtual-pauls-cross",
+      "title": "Virtual Paul's Cross Project",
+      "url": "https://vpcp.chass.ncsu.edu/",
+      "reason": "Acoustic and visual simulation of one 1622 sermon; the sermon witnesses are shown only as a manuscript image (PDF) and a link to another site, not as transcribed text.",
+      "source_url": "https://vpcross.chass.ncsu.edu/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "early-modern-london-theatres",
+      "title": "Early Modern London Theatres",
+      "url": "https://www.emlot.kcl.ac.uk/",
+      "reason": "Database that records where pre-1642 theatre documents were later transcribed, not the transcriptions themselves; the host emlot.kcl.ac.uk no longer resolves.",
+      "source_url": "https://www.emlot.kcl.ac.uk/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "broadside-ballads-online",
+      "title": "Broadside Ballads Online (Bodleian)",
+      "url": "http://ballads.bodleian.ox.ac.uk/",
+      "reason": "The standalone Bodleian database was taken offline at the end of 2024; its records (catalogue entries with images, titles and first lines) now live in SOLO and no transcribed ballad texts are offered.",
+      "source_url": "https://www.bodleian.ox.ac.uk/collections-and-resources/special-collections/finding-aids-and-catalogues/ballads",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "tudor-texts-otago",
+      "title": "Tudor texts (hlm.co.nz)",
+      "url": "http://www.hlm.co.nz/tudortexts/",
+      "reason": "Textbase of early Tudor verse (1485-1550) required registration approved by staff, and it is offline; the domain hlm.co.nz now hosts a land-management business.",
+      "source_url": "https://web.archive.org/web/20081015174052/http://www.hlm.co.nz/tudortexts/register.asp",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "scriptorium-cambridge",
+      "title": "Scriptorium: Medieval and Early Modern Manuscripts Online",
+      "url": "https://scriptorium.english.cam.ac.uk/",
+      "reason": "Images and descriptions of about 20 manuscript miscellanies; the standalone site is gone (images moved to Cambridge Digital Library, which returns 403 to scripted requests), and no transcriptions were found.",
+      "source_url": "https://scriptorium.english.cam.ac.uk/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "shakespeare-database-muenster",
+      "title": "Shakespeare database (Münster)",
+      "url": "http://www.shkspr.uni-muenster.de/",
+      "reason": "Project page and bibliography of the Münster Shakespeare Database (concordance work, all rights reserved); the site is offline and carries no texts.",
+      "source_url": "http://www.shkspr.uni-muenster.de/",
+      "date": "2026-10-13"
+    },
+    {
+      "id": "eprosed-indiana",
+      "title": "Early Modern English prose (eProsed, Indiana)",
+      "url": "http://www.letrs.indiana.edu/eprosed/index.html",
+      "reason": "English Prose Drama Database was a licensed Chadwyck-Healey product searched through Indiana's LETRS server; the server no longer resolves and the search pages are not archived.",
+      "source_url": "http://www.letrs.indiana.edu/eprosed/index.html",
       "date": "2026-10-13"
     }
   ],

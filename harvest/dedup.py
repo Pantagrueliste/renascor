@@ -43,8 +43,12 @@ def main(index, out):
     for doc, coll, ex in rq.execute("SELECT doc, collection, exact FROM docs WHERE nwords > 0"):
         rq_exact.setdefault(ex, coll)
     res = {}
+    rejected = {r["id"] for r in json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)),
+                                                         "..", "data", "rejected.json")))["rejected"]}
     for d in sorted(glob.glob(str(OUT / "*" / "staging.jsonl"))):
         rid = os.path.basename(os.path.dirname(d))
+        if rid in rejected:  # excluded from the catalogue after the harvest
+            continue
         recs = [json.loads(l) for l in open(d, encoding="utf-8") if l.strip()]
         res[rid] = [r for r in recs if in_window(r)]
     order = sorted(res, key=lambda k: -sum(len(r["raw"]) for r in res[k]))

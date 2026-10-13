@@ -1,0 +1,32 @@
+{
+  "title": "The Poly-Olbion Project (Michael Drayton, Poly-Olbion)",
+  "url": "https://poly-olbion.exeter.ac.uk/",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "University of Exeter (AHRC-funded Poly-Olbion Project)",
+  "author": "Michael Drayton",
+  "region": "England and Wales",
+  "countries": [
+    "GB-ENG",
+    "GB-WLS"
+  ],
+  "period": "1612-1622",
+  "notes": "Full, unmodernised electronic copy of Drayton's 15,000-line topographical poem in the two parts published in 1612 and 1622 (songs 1-18 and 19-30), plus modernised extracts and a word list; John Selden's Illustrations are not included. All the text dates from 1450-1700. The site announces a forthcoming scholarly edition. Status: latest blog post is January 2019 but the site feed was rebuilt on 2024-04-11, so it is kept as active. No licence stated for the text; the CC BY-NC 3.0 mention on the home page concerns images. robots.txt blocks only /wp-admin/. The counts cover the thirty songs; the modernised extracts are not counted. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "provenance": "discovered",
+  "date_added": "2026-10-13",
+  "words": 142903,
+  "texts": 30,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 142903,
+    "texts": 30
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
+}

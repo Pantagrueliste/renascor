@@ -1,0 +1,30 @@
+{
+  "title": "Verse Miscellanies Online",
+  "url": "https://web.archive.org/web/20250730120155/https://versemiscellaniesonline.bodleian.ox.ac.uk/",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "discontinued",
+  "institution": "University of Reading and University of Oxford (hosted by the Bodleian Libraries)",
+  "region": "England",
+  "countries": [
+    "GB-ENG"
+  ],
+  "period": "1557-1614",
+  "notes": "Critical edition of seven printed verse miscellanies: Tottel's Miscellany (1557), A Handful of Pleasant Delights (1566), The Paradise of Dainty Devices (1576 and later), The Gorgeous Gallery of Gallant Inventions (1578), The Phoenix Nest (1593), England's Helicon (1600, 1614) and The Poetical Rhapsody. Everything dates from 1450-1700 (all the texts are sixteenth- or early seventeenth-century prints); the annotations and indexes are modern. Texts come from the EEBO-TCP transcriptions (original spelling), with added notes. The Bodleian withdrew the live site (holding page: 'no longer available ... technologies ... reached end-of-life'); the url points to the Wayback Machine copy of 2025-07-30, which the Bodleian itself names as the archived static version. No data download found. The counts cover the leaf pages captured by the Wayback Machine (1,099 of 1,108). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "provenance": "discovered",
+  "date_added": "2026-10-13",
+  "words": 212502,
+  "texts": 888,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 212292,
+    "texts": 887
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
+}

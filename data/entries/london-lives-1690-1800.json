@@ -1,0 +1,31 @@
+{
+  "title": "London Lives 1690-1800",
+  "url": "https://www.londonlives.org/",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "manuscript",
+    "print"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "Universities of Hertfordshire and Sheffield (Digital Humanities Institute)",
+  "region": "England (London)",
+  "countries": [
+    "GB-ENG"
+  ],
+  "period": "1690-1800",
+  "notes": "Searchable transcriptions of over 240,000 manuscript and printed pages from eight London archives (criminal justice, poor relief, parish, hospital and guild records), with linked datasets, covering 1690 to 1800. The part dating from 1450-1700 is limited to the first decade, 1690-1700; the rest is eighteenth-century. The in-period share was not established. Free, no login. The site is now a JavaScript application (assets rebuilt 2026-05-08). The project's XML transcriptions are downloadable from figshare under CC BY-NC 4.0; the licensing guide permits non-commercial and linguistic analysis but not the training of generative AI. The counts cover the pages dated 1690-1700 in that download (8,778 pages from 144 files). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "provenance": "discovered",
+  "date_added": "2026-10-13",
+  "words": 1583936,
+  "texts": 7303,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 1571442,
+    "texts": 7255
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
+}

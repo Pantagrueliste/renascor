@@ -279,6 +279,14 @@
   "skipped_dup": 0,
   "policy_dups": 0
  },
+ "early-americas-digital-archive": {
+  "inserted": 99,
+  "in_core": 49,
+  "in_core_words": 515178,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
  "effectus-amoris": {
   "inserted": 1,
   "in_core": 1,
@@ -447,6 +455,14 @@
   "skipped_dup": 0,
   "policy_dups": 0
  },
+ "henslowe-alleyn-digitisation-project": {
+  "inserted": 7,
+  "in_core": 7,
+  "in_core_words": 10831,
+  "junk": 1,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
  "hooke-folio-online": {
   "inserted": 561,
   "in_core": 561,
@@ -575,6 +591,14 @@
   "skipped_dup": 0,
   "policy_dups": 0
  },
+ "london-lives-1690-1800": {
+  "inserted": 7303,
+  "in_core": 7303,
+  "in_core_words": 1583936,
+  "junk": 1475,
+  "skipped_dup": 0,
+  "policy_dups": 48
+ },
  "lope-dama-boba": {
   "inserted": 1,
   "in_core": 1,
@@ -663,6 +687,14 @@
   "skipped_dup": 0,
   "policy_dups": 0
  },
+ "mini-lazarillo": {
+  "inserted": 8,
+  "in_core": 8,
+  "in_core_words": 18473,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
  "mitteldeutsche-selbstzeugnisse": {
   "inserted": 6,
   "in_core": 6,
@@ -686,6 +718,14 @@
   "junk": 0,
   "skipped_dup": 0,
   "policy_dups": 2
+ },
+ "open-source-shakespeare": {
+  "inserted": 43,
+  "in_core": 43,
+  "in_core_words": 930853,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
  },
  "openedges": {
   "inserted": 19,
@@ -743,6 +783,14 @@
   "skipped_dup": 0,
   "policy_dups": 342
  },
+ "poly-olbion-project": {
+  "inserted": 30,
+  "in_core": 30,
+  "in_core_words": 142903,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
  "progetto-pico": {
   "inserted": 1,
   "in_core": 1,
@@ -775,6 +823,14 @@
   "skipped_dup": 0,
   "policy_dups": 0
  },
+ "regi-magyar-exemplumadatbazis": {
+  "inserted": 461,
+  "in_core": 461,
+  "in_core_words": 130280,
+  "junk": 1,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
  "rejestr-kontrybucji-poznan-1561": {
   "inserted": 2,
   "in_core": 2,
@@ -798,6 +854,22 @@
   "junk": 0,
   "skipped_dup": 0,
   "policy_dups": 0
+ },
+ "renascence-editions": {
+  "inserted": 428,
+  "in_core": 360,
+  "in_core_words": 4238340,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "representative-poetry-online": {
+  "inserted": 941,
+  "in_core": 941,
+  "in_core_words": 454246,
+  "junk": 17,
+  "skipped_dup": 0,
+  "policy_dups": 5
  },
  "richard-brome-online": {
   "inserted": 16,
@@ -867,6 +939,14 @@
   "inserted": 1,
   "in_core": 1,
   "in_core_words": 106476,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "shakespeare-mit": {
+  "inserted": 198,
+  "in_core": 198,
+  "in_core_words": 934523,
   "junk": 0,
   "skipped_dup": 0,
   "policy_dups": 0
@@ -983,6 +1063,14 @@
   "skipped_dup": 0,
   "policy_dups": 0
  },
+ "verse-miscellanies-online": {
+  "inserted": 888,
+  "in_core": 888,
+  "in_core_words": 212502,
+  "junk": 3,
+  "skipped_dup": 0,
+  "policy_dups": 1
+ },
  "wandering-jews-chronicle": {
   "inserted": 15,
   "in_core": 4,
@@ -1032,9 +1120,9 @@
   "policy_dups": 0
  },
  "zwingli-briefe": {
-  "inserted": 85,
-  "in_core": 85,
-  "in_core_words": 42516,
+  "inserted": 804,
+  "in_core": 800,
+  "in_core_words": 351291,
   "junk": 0,
   "skipped_dup": 0,
   "policy_dups": 0

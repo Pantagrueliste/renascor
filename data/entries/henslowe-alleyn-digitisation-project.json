@@ -1,0 +1,30 @@
+{
+  "title": "The Henslowe-Alleyn Digitisation Project",
+  "url": "https://henslowe-alleyn.org.uk/",
+  "languages": [
+    "English"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "other",
+  "status": "active",
+  "institution": "Dulwich College, with King's Digital Lab, King's College London",
+  "region": "England (London)",
+  "countries": [
+    "GB-ENG"
+  ],
+  "period": "1587-1626",
+  "notes": "Digitised manuscripts of the Henslowe-Alleyn papers at Dulwich College (Philip Henslowe's diary and account book 1592-1609, the Rose and Fortune playhouse contracts, letters, deeds, Edward Alleyn's papers 1612-1626), with essays and a set of transcriptions. All the documents date from 1450-1700 (about 1587-1626). The transcriptions are PDF documents. Although the catalogue says the diary and account book is transcribed, Henslowe's diary (MSS 7) is given only as images; the transcribed items are seven documents and Alleyn's diary (MSS 9, 116 page transcripts). The counts cover the seven documents; Alleyn's diary, mostly sums of money, falls under the corpus filter for text with too few letters. The old address henslowe-alleyn.org.uk/index.html returns HTTP 500 but the root address works. Site footer reads 2026, maintained by King's Digital Lab. robots.txt asks for a 10-second crawl delay. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "provenance": "discovered",
+  "date_added": "2026-10-13",
+  "words": 10831,
+  "texts": 7,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 10831,
+    "texts": 7
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
+}
