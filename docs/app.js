@@ -183,10 +183,10 @@ function buildRecord(e, d, i) {
 const optHTML = (key, value, label) => `<li><label class="opt"><input type="checkbox" data-facet="${key}" value="${esc(value)}">` +
 	`<span class="name">${label}</span><span class="n"></span></label></li>`;
 const optList = (key, values, label) => '<ul class="opts">' + values.map(v => optHTML(key, v, label(v))).join('') + '</ul>';
-const facetHTML = (key, title, body, note) => `<div class="facet" id="facet-${key}" role="group" aria-labelledby="fh-${key}">` +
-	`<div class="facet-h"><h3 id="fh-${key}">${title}</h3><span class="facet-v" id="fv-${key}"></span>` +
-	`<button type="button" class="linkbtn" data-clear-facet="${key}" hidden>Clear<span class="sr-only"> ${title}</span></button></div>` +
-	body + (note ? `<p class="facet-note">${note}</p>` : '') + '</div>';
+const facetHTML = (key, title, body, note) => `<details class="facet" id="facet-${key}">` +
+	`<summary class="facet-h"><h3 id="fh-${key}">${title}</h3><span class="facet-v" id="fv-${key}"></span></summary>` +
+	`<div class="facet-b"><button type="button" class="linkbtn facet-clear" data-clear-facet="${key}" hidden>Clear<span class="sr-only"> ${title}</span></button>` +
+	body + (note ? `<p class="facet-note">${note}</p>` : '') + '</div></details>';
 
 function buildFacets() {
 	const stats = meta.stats || {};
@@ -237,6 +237,7 @@ function updateFacets() {
 		const n = state[key].length;
 		v.textContent = n ? n + ' selected' : '';
 		els.facetList.querySelector(`[data-clear-facet="${key}"]`).hidden = !n;
+		if (n) $('facet-' + key).open = true;
 	});
 	els.clearFacets.hidden = !facetFilterCount();
 	updateLangVisibility();
