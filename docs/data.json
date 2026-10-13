@@ -7,7 +7,7 @@
    "data": "CC0-1.0",
    "code": "MIT"
   },
-  "version": "0.2.0",
+  "version": "1.0.0",
   "released": "2026-10-13",
   "updated": "2026-10-13",
   "data_commit": {
@@ -585,7 +585,7 @@
    "median_texts": "36",
    "updated_long": "13 October 2026",
    "updated_iso": "2026-10-13",
-   "version": "0.2.0",
+   "version": "1.0.0",
    "data_commit_short": "eee4b5b",
    "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/eee4b5bf8af287fed0d17a60390ebc4da4e93ddd",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
@@ -601,7 +601,7 @@
    "areas_list": "British Isles, France, Low Countries, Holy Roman Empire, Italian Peninsula, Iberian Peninsula, Scandinavia, Central and Eastern Europe, Balkans and Greece, Ottoman Empire and Near East, Americas, Asia and Africa",
    "citation_author_year": "Godbarge, Clément (2026).",
    "citation_title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
-   "citation_tail": "(Version 0.2.0) [Data set]. https://pantagrueliste.github.io/renascor/",
+   "citation_tail": "(Version 1.0.0) [Data set]. https://pantagrueliste.github.io/renascor/",
    "status_active": "203 resources.",
    "status_archived": "120 resources.",
    "status_discontinued": "7 resources.",
