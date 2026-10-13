@@ -11,8 +11,8 @@
   "released": "2026-10-13",
   "updated": "2026-10-13",
   "data_commit": {
-   "sha": "f469fd9bba79e3f32cf7a1e91252802f25d34008",
-   "short": "f469fd9"
+   "sha": "6b5f78476e2968d581d695fcf6557364acbe19fd",
+   "short": "6b5f784"
   },
   "scope": {
    "from": 1450,
@@ -40,6 +40,8 @@
    "data_formats",
    "api_url",
    "institution",
+   "editors",
+   "published",
    "languages",
    "period",
    "words",
@@ -75,6 +77,8 @@
    "data_formats",
    "api_url",
    "institution",
+   "editors",
+   "published",
    "languages",
    "period",
    "words",
@@ -586,8 +590,8 @@
    "updated_long": "13 October 2026",
    "updated_iso": "2026-10-13",
    "version": "1.0.0",
-   "data_commit_short": "f469fd9",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/f469fd9bba79e3f32cf7a1e91252802f25d34008",
+   "data_commit_short": "6b5f784",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/6b5f78476e2968d581d695fcf6557364acbe19fd",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.10",
    "snapshot_frozen_long": "13 October 2026",
@@ -1181,6 +1185,11 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "Austrian Academy of Sciences (ÖAW), Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH)",
+   "editors": [
+    "Claudia Resch",
+    "Ulrike Czeitschner"
+   ],
+   "published": 2015,
    "period": "1680-1693",
    "words": 119281,
    "texts": 4,
@@ -1269,6 +1278,12 @@
    "status": "discontinued",
    "author": "Andrea Alciato",
    "institution": "Memorial University of Newfoundland (William Barker, Mark Feltham, Jean Guthrie)",
+   "editors": [
+    "William Barker",
+    "Mark Feltham",
+    "Jean Guthrie"
+   ],
+   "published": 1995,
    "region": "Italy and Germany (first printed in Augsburg, 1531)",
    "countries": [
     "IT",
@@ -1337,6 +1352,13 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "University of Pittsburgh at Greensburg (Stacey Triplette, Elisa Beshero-Bondar) and Universidade de Santiago de Compostela (Helena Bermúdez Sabel)",
+   "editors": [
+    "Elisa Beshero-Bondar",
+    "Helena Bermúdez Sabel",
+    "Stacey Triplette",
+    "Madison Bredice",
+    "Syd Bauman"
+   ],
    "period": "1547-1547",
    "words": 97420,
    "texts": 35,
@@ -1365,6 +1387,13 @@
    "encoding": "xml",
    "status": "active",
    "institution": "Rheinische Friedrich-Wilhelms-Universität Bonn and Bayerische Staatsbibliothek (Bavarian State Library), Munich",
+   "editors": [
+    "Maximilian Lanzinner",
+    "Guido Braun",
+    "Tobias Schröter-Karin",
+    "Tobias Tenhaef"
+   ],
+   "published": 2014,
    "region": "Westphalia (Münster and Osnabrück congress)",
    "countries": [
     "DE"
@@ -1433,6 +1462,11 @@
    "status": "archived",
    "author": "Bálint Balassi",
    "institution": "Eötvös Loránd University, Budapest (edited by Iván Horváth and Tünde Tóth; published by Gépeskönyv)",
+   "editors": [
+    "Iván Horváth",
+    "Tünde Tóth"
+   ],
+   "published": 1998,
    "region": "Hungary",
    "countries": [
     "HU"
@@ -1468,6 +1502,11 @@
    "encoding": "html",
    "status": "active",
    "institution": "University of Zurich, Institute of Slavic Studies (SNSF project 176378, Barbara Sonnenhauser) and Czech Academy of Sciences; hosted at LMU Munich (Ivan Šimko, Anastasia Escher)",
+   "editors": [
+    "Ivan Šimko",
+    "Anastasia Escher"
+   ],
+   "published": 2021,
    "region": "Bulgaria, Balkans and Wallachia",
    "countries": [
     "BG",
@@ -1511,6 +1550,10 @@
    "period": "15th-19th century",
    "notes": "The 23-text Damaskini subcorpus (16th-19th c. Balkan Slavic, Bulgarian/Macedonian/Torlak, ~53k tokens) is exactly the resource published at CLARIN.SI handle 11356/1441 (v1.1, 2021) by the SNSF-funded ZuCoSlaV project of Ivan Simko (University of Zurich, Slavic Seminary). The UZH GitLab project (https://gitlab.uzh.ch/uzh-slavic-corpora/pre-standardized-balkan-slavic-literature) only holds a README, so the CLARIN.SI record is the only place with the data. Formats are TSV/CoNLL-U/plain text (not TEI). License: CC BY-SA 4.0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "ZuCoSlaV project, Ivan Simko, University of Zurich, hosted at CLARIN.SI",
+   "editors": [
+    "Ivan Šimko"
+   ],
+   "published": 2021,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 44047,
@@ -1526,6 +1569,10 @@
    "url": "https://smansutti.github.io/cosimobartoli/",
    "data_url": "https://zenodo.org/records/14559525",
    "data_format": "tei",
+   "editors": [
+    "Sara Mansutti"
+   ],
+   "published": 2024,
    "languages": [
     "Italian"
    ],
@@ -1549,7 +1596,7 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
    "license_url": "https://zenodo.org/records/14559525",
-   "doi": "10.5281/zenodo.14559525"
+   "doi": "10.5281/zenodo.14559524"
   },
   {
    "title": "Klasikoen Gordailua (Euskal Klasikoen Corpusa, UPV/EHU)",
@@ -1724,6 +1771,14 @@
    "author": "Elizabeth Talbot, Countess of Shrewsbury (Bess of Hardwick), and correspondents",
    "date": "1550-1608",
    "institution": "University of Glasgow (Alison Wiggins, ed.), with technical development by the Digital Humanities Institute, Sheffield",
+   "editors": [
+    "Alison Wiggins",
+    "Alan Bryson",
+    "Daniel Starza Smith",
+    "Anke Timmermann",
+    "Graham Williams"
+   ],
+   "published": 2013,
    "words": 100764,
    "texts": 234,
    "region": "England",
@@ -1772,7 +1827,12 @@
    "license": "CC-BY-NC-SA-4.0",
    "license_url": "https://betamasaheft.eu",
    "institution": "Beta masahaft project, Hiob Ludolf Centre for Ethiopian and Eritrean Studies, Universitaet Hamburg / Akademie der Wissenschaften in Hamburg (director Alessandro Bausi)",
-   "license_note": "The project site says all its data are licensed CC BY-NC-SA 4.0, but the TEI headers of the Works files state CC BY-SA 4.0 (\"This file is licensed under the Creative Commons Attribution-ShareAlike 4.0\"); the repository has no LICENSE file. Discrepancy to be noted; the site value is kept."
+   "editors": [
+    "Alessandro Bausi"
+   ],
+   "published": 2016,
+   "license_note": "The project site says all its data are licensed CC BY-NC-SA 4.0, but the TEI headers of the Works files state CC BY-SA 4.0 (\"This file is licensed under the Creative Commons Attribution-ShareAlike 4.0\"); the repository has no LICENSE file. Discrepancy to be noted; the site value is kept.",
+   "doi": "10.25592/BetaMasaheft"
   },
   {
    "title": "Bibliotheca Augustana",
@@ -1790,6 +1850,9 @@
    "words": 195974,
    "texts": 50,
    "institution": "Technische Hochschule Augsburg (Prof. emer. Ulrich Harsch)",
+   "editors": [
+    "Ulrich Harsch"
+   ],
    "period": "1480-1650",
    "notes": "Bibliotheca Augustana, a collection of electronic texts in Latin and in Greek, German, English, French, Italian, Spanish, Polish, Russian, Portuguese, Czech and Yiddish, with a chronological and an alphabetical index for each language section. It is the personal project of Ulrich Harsch (professor emeritus, Augsburg University of Applied Sciences), online since 1 March 1996 and still hosted on the university's web space. Texts are plain HTML pages for reading online; the imprint states that images from other sources are either below the threshold of protection or released by their authors. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
@@ -1860,6 +1923,7 @@
    "license_url": "http://backend.bibliotecaitaliana.it/wp-json/wp/v2/pages/735",
    "license_note": "FAQ page (served by the WordPress back end of the site): texts may be downloaded freely but \"sono coperti da copyright\"; public reuse must cite Biblioteca Italiana as source and \"e vietata ogni forma di riutilizzo a scopo commerciale\".",
    "institution": "Sapienza Università di Roma, Dipartimento di Lettere e Culture Moderne (Biblioteca Italiana, dir. Beatrice Alfonzetti and Stefano Asperti)",
+   "published": 1996,
    "language_counts": [
     {
      "language": "Italian",
@@ -1889,6 +1953,11 @@
    "author": "Hugo Blotius",
    "date": "1576",
    "institution": "Österreichische Nationalbibliothek (Martin Krickl, Katharina Kaska)",
+   "editors": [
+    "Martin Krickl",
+    "Katharina Kaska"
+   ],
+   "published": 2019,
    "words": 10018,
    "texts": 1,
    "region": "Vienna",
@@ -1962,6 +2031,10 @@
    "status": "active",
    "author": "Thomas Bodley",
    "institution": "Centre for Editing Lives and Letters (UCL), with the Bodleian Library; editor Robyn Adams",
+   "editors": [
+    "Robyn Adams"
+   ],
+   "published": 2011,
    "region": "England and the Low Countries",
    "countries": [
     "GB-ENG",
@@ -2025,6 +2098,9 @@
    "author": "Margery Kempe",
    "date": "c. 1501",
    "institution": "Joel Fredell, Southeastern Louisiana University",
+   "editors": [
+    "Joel Fredell"
+   ],
    "region": "England",
    "countries": [
     "GB-ENG"
@@ -2101,6 +2177,9 @@
    "status": "active",
    "author": "Robert Boyle",
    "institution": "Centre for Editing Lives and Letters (UCL), with Birkbeck, University of London and the Royal Society",
+   "editors": [
+    "Michael Hunter"
+   ],
    "region": "England",
    "countries": [
     "GB-ENG"
@@ -2278,6 +2357,14 @@
    "license": "CC-BY-NC-ND-3.0-CH",
    "license_url": "https://github.com/stazh/bullinger-korpus-tei",
    "institution": "Universität Zürich (Institut für Computerlinguistik); Staatsarchiv des Kantons Zürich",
+   "editors": [
+    "Patricia Scheurer",
+    "Raphael Müller",
+    "Bernard Schroffenegger",
+    "Phillip B. Ströbel",
+    "Martin Volk"
+   ],
+   "published": 2025,
    "language_counts": [
     {
      "language": "Latin",
@@ -2335,7 +2422,8 @@
    "license": "Mixed",
    "license_url": "http://www.bvh.univ-tours.fr/mentions.asp",
    "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "institution": "Centre d'études supérieures de la Renaissance (CESR), Université de Tours / CNRS (Bibliothèques Virtuelles Humanistes)"
+   "institution": "Centre d'études supérieures de la Renaissance (CESR), Université de Tours / CNRS (Bibliothèques Virtuelles Humanistes)",
+   "published": 1998
   },
   {
    "title": "CAMENA",
@@ -2419,6 +2507,12 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "University of Cambridge",
+   "editors": [
+    "Lauren Kassell",
+    "Michael Hawkins",
+    "Robert Ralley",
+    "John Young"
+   ],
    "status": "archived",
    "languages": [
     "English"
@@ -2461,6 +2555,10 @@
    "period": "1568-1574",
    "notes": "The repository Pantagrueliste/CavrianaCorr (live 200) is a digital TEI edition of Filippo Cavriana's late-16th-century correspondence, described as 'Digital Edition of Filippo Cavriana's Correspondence'; licence CC BY 4.0. Matches the collected 2-text collection exactly. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Pantagrueliste (research project on Cavriana correspondence), GitHub-hosted TEI edition",
+   "editors": [
+    "Clément Godbarge"
+   ],
+   "published": 2023,
    "last_modified": "2026-09-02",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -2469,7 +2567,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
-   "license_url": "https://github.com/Pantagrueliste/CavrianaCorr/blob/main/LICENSE"
+   "license_url": "https://github.com/Pantagrueliste/CavrianaCorr/blob/main/LICENSE",
+   "doi": "10.5281/zenodo.8224585"
   },
   {
    "title": "CELT Corpus of Electronic Texts",
@@ -2599,6 +2698,7 @@
    "encoding": "tei",
    "status": "active",
    "institution": "Red CHARTA, coordinated by GITHE (Universidad de Alcalá; Ricardo Pichel, Víctor Caballero Gómez)",
+   "published": 2015,
    "words": 203534,
    "texts": 250,
    "region": "Spain and Spanish America",
@@ -2671,6 +2771,11 @@
    "author": "Isaac Newton",
    "date": "c. 1660s-1690s",
    "institution": "Indiana University (William R. Newman, general editor; John A. Walsh, technical editor)",
+   "editors": [
+    "William R. Newman",
+    "John A. Walsh"
+   ],
+   "published": 2005,
    "region": "England (Cambridge)",
    "countries": [
     "GB-ENG"
@@ -2807,6 +2912,7 @@
    "words": 7946427,
    "texts": 27,
    "institution": "Huygens ING (KNAW)",
+   "published": 2011,
    "period": "1629-1699",
    "notes": "Web application and corpus of about 20,000 letters written by and to scholars of the 17th-century Dutch Republic (among them Grotius, Constantijn and Christiaan Huygens, Descartes, Leeuwenhoek and Swammerdam), with faceted search and geographic, time-based, social-network and co-citation visualisations. The project Circulation of Knowledge and Learned Practices in the 17th-century Dutch Republic was run by Huygens ING with DANS, the University of Amsterdam, the Descartes Centre and the Koninklijke Bibliotheek, funded by NWO and CLARIN-NL; the letters were converted to TEI XML. Version 1.0 appeared in June 2013 and the ePistolarium was launched on 14 June 2013; an archived version of the project data (dated 23 July 2013) is deposited at DANS. The data are a snapshot of 2013 and no later additions were found. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
@@ -2929,6 +3035,9 @@
    "period": "1564-1679",
    "notes": "Multi-alphabetic annotated diachronic corpus of Judeo-Spanish (16th–21st c.) built in TEITOK (TEI-XML over CQP); hosted with a live TEITOK interface at LINDAT/CLARIN. Directed by Aldina Quintana (Hebrew University of Jerusalem); described in Scriptum Digital 9 (2020). The project's description page is on Aldina Quintana's HUJI site. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Aldina Quintana, Hebrew University of Jerusalem, with Maarten Janssen (Charles University) and Josep M. Fontana (UPF); ISF grants 473/11, 486/19",
+   "editors": [
+    "Aldina Quintana"
+   ],
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 30953,
@@ -3264,6 +3373,11 @@
    "period": "1622-1700",
    "notes": "CORPUS17 is Simon Gabay's open GitHub corpus of 17th-century French texts encoded in diplomatic TEI (e-ditiones/CORPUS17, live 200, description '17th c. French texts corpus'). The 120 collected texts (dates 1624-1687 etc.) mirror its TEI files. No explicit licence in repo metadata listed by the GitHub API. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "e-ditiones (Simon Gabay), GitHub open repo",
+   "editors": [
+    "Alexandre Bartz",
+    "Simon Gabay"
+   ],
+   "published": 2020,
    "last_modified": "2021-02-26",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -3351,6 +3465,16 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "University of Zagreb",
+   "editors": [
+    "Neven Jovanović",
+    "Yasmin Haskell",
+    "Nella Lonza",
+    "Bratislav Lučin",
+    "Elia Marinova",
+    "Darko Novaković",
+    "Terence O. Tunberg"
+   ],
+   "published": 2009,
    "languages": [
     "Latin"
    ],
@@ -3394,6 +3518,10 @@
    "period": "1613-1613",
    "notes": "The 66 books of the Czech Bible in the Multilingual Parallel Bible Corpus (Christos Christodoulopoulos), now hosted in the TextGrid Repository (TEI P5) and formerly on GitHub (CES XML, CC0-1.0). The text is the Kralice Bible wording in modernised spelling taken from the Bible Database, so 1613 is the date of the translation, not of a diplomatic transcription. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Christos Christodoulopoulos; hosted in the TextGrid Repository",
+   "editors": [
+    "Christos Christodoulopoulos"
+   ],
+   "published": 2025,
    "last_modified": "2025-05-19",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -3424,6 +3552,10 @@
    "period": "1503-1503",
    "notes": "Lék jádro brněnské ('Knihy lékařské', c. 1502-1503) is one of the digital editions of Old and Middle Czech texts published by the Czech Language Institute (ÚJČ AV ČR) in Vokabulář webový. The TEI file comes from the GitHub repository accompanying Boris Lehečka's TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions', which contains only two converted sample editions. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",
+   "editors": [
+    "Alena M. Černá"
+   ],
+   "published": 2019,
    "last_modified": "2019-09-19",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -3455,6 +3587,10 @@
    "period": "1540-1635",
    "notes": "Verified via the Zenodo API: record 7479443 (v0.2.0) is 'Early Modern Danish Postils' by Jonas Kjøller-Rasmussen (University of Copenhagen), concept DOI 10.5281/zenodo.7113232 — the canonical project URL; the record used here is version 0.2.0. 13 texts, plain text distribution. License MIT. Origin verbatim: 'Zenodo DOI 10.5281/zenodo.7479443'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Jonas Kjøller-Rasmussen, University of Copenhagen (Zenodo)",
+   "editors": [
+    "Jonas Kjøller-Rasmussen"
+   ],
+   "published": 2022,
    "last_modified": "2022-12-24",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -3464,7 +3600,7 @@
    "count_basis": "rq-retained-rows",
    "license": "MIT",
    "license_url": "https://github.com/DT-UCPH/early_modern_danish_postils/blob/main/LICENSE.md",
-   "doi": "10.5281/zenodo.7479443"
+   "doi": "10.5281/zenodo.7113232"
   },
   {
    "title": "Dasypodius' Dictionarium Latinogermanicum (1535)",
@@ -3482,6 +3618,10 @@
    "status": "archived",
    "author": "Petrus Dasypodius",
    "institution": "Herzog August Bibliothek Wolfenbüttel (transcribed and edited by Jonathan West)",
+   "editors": [
+    "Jonathan West"
+   ],
+   "published": 2007,
    "region": "Alsace",
    "countries": [
     "FR"
@@ -3559,6 +3699,10 @@
    "encoding": "html",
    "status": "active",
    "institution": "Eglal Henein (Tufts University; died 2021); hosted since 2025 by the Université de Rouen-Normandie (Presses universitaires de Rouen et du Havre)",
+   "editors": [
+    "Eglal Henein"
+   ],
+   "published": 2007,
    "author": "Honoré d'Urfé",
    "date": "1607-1624",
    "period": "1607-1624",
@@ -3697,6 +3841,12 @@
    "period": "1492-1662",
    "notes": "Diakorp v6 (~3.45M words, 116 documents, 14th-20th c., normalized transcriptions with original spellings) is officially deposited on LINDAT/CLARIAH-CZ with a persistent identifier, distributed in a CQP-vertical format (not TEI). The 7 collected texts (Kabátník's Cesta z Čech..., Komenský's Labyrint...) are among its 116 source documents. Licence CC BY-NC-SA 4.0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Kučera, Řehořková, Stluka — Institute of the Czech National Corpus (ÚČNK), Charles University, Prague; deposited on LINDAT/CLARIAH-CZ",
+   "editors": [
+    "Karel Kučera",
+    "Anna Řehořková",
+    "Martin Stluka"
+   ],
+   "published": 2015,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 425831,
@@ -3782,6 +3932,13 @@
    "author": "Joseph Dietrich",
    "date": "1670-1704",
    "institution": "Abteilung für Wirtschafts-, Sozial- und Umweltgeschichte, Historisches Institut, Universität Bern",
+   "editors": [
+    "Christian Rohr",
+    "Gabriela Schwarz-Zanetti",
+    "Raphael Schwitter",
+    "Salome Egloff"
+   ],
+   "published": 2018,
    "texts": 4,
    "region": "Einsiedeln and Freudenfels (Switzerland)",
    "countries": [
@@ -3826,7 +3983,8 @@
    "count_basis": "rq-retained-rows",
    "license": "Not stated",
    "license_note": "No licence found on the home page (footer shows only 'American University of Armenia, Digital Library of Armenian Literature, 1999-2021'); the About/site subpages returned no readable content or timed out when fetched (checked 2026-10-13), so reuse terms remain unverified.",
-   "institution": "American University of Armenia (AUA), Digital Library of Armenian Literature"
+   "institution": "American University of Armenia (AUA), Digital Library of Armenian Literature",
+   "published": 1999
   },
   {
    "title": "The Digital Donne Project",
@@ -3836,6 +3994,12 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "Variorum Edition of the Poetry of John Donne (Texas A&M / University of Saskatchewan)",
+   "editors": [
+    "Gary A. Stringer",
+    "Jeffrey S. Johnson",
+    "Brent Nelson",
+    "Gregory Kneidel"
+   ],
    "languages": [
     "English"
    ],
@@ -3908,6 +4072,10 @@
    "provenance": "discovered",
    "date_added": "2026-10-08",
    "institution": "Università di Salerno, Sapienza Università di Roma, Università di Napoli Federico II, Università di Torino, CNR-ILC",
+   "editors": [
+    "Andrea La Veglia"
+   ],
+   "published": 2025,
    "period": "15th century (Angelo Poliziano, 1454–1494)",
    "region": "Italy",
    "notes": "EVT 2-based digital scholarly edition encoding multiple edition levels of Poliziano's manuscript annotations on the Epistle of Sappho to Phaon, with Wikidata items and CTS URNs; the dataset is also deposited on Zenodo (doi:10.5281/zenodo.17315766). It is a single-work edition, but carries a full scholarly apparatus (diplomatic and critical layers, apparatus of marks), so it is included despite the single-author caveat. The edition (238 marginal notes) is counted as one text.\n\nJustification: A peer-reviewed (Journal of Open Humanities Data, 2025) TEI digital scholarly edition of a 15th-century Renaissance manuscript annotation corpus. Found via Zenodo and Journal of Open Humanities Data search results. Not in the catalogue.\nFound at: https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.493 Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
@@ -3953,6 +4121,7 @@
     "IT"
    ],
    "institution": "Die Deutschen Inschriften (Akademienunion; academies of Mainz, Göttingen, Düsseldorf, Heidelberg, Leipzig, Munich), with Epigraf (Digitale Akademie, Mainz)",
+   "published": 2025,
    "license": "CC-BY-4.0",
    "license_url": "https://epigraf.inschriften.net/pages/dumps",
    "license_note": "Data dumps: CC BY 4.0 'where possible' (every article of the CGIF dump carries cc:by/4.0 as licence); images have their own, more restricted copyright. The portal itself shows a two-year moving wall after print publication.",
@@ -3981,6 +4150,11 @@
    "author": "Johann Georg Metzger and Johann Rudolf Schmid zum Schwarzenhorn",
    "date": "1648-1649",
    "institution": "Universität Salzburg (Arno Strohmeyer) and Zentrum für Informationsmodellierung, Universität Graz (Georg Vogeler); FWF project P30091-G28",
+   "editors": [
+    "Arno Strohmeyer",
+    "Georg Vogeler"
+   ],
+   "published": 2019,
    "words": 133610,
    "texts": 30,
    "region": "Vienna, the Balkans and Constantinople",
@@ -4021,6 +4195,13 @@
    "period": "15th-17th century",
    "notes": "DISCO is the Diachronic Spanish Sonnet Corpus of ~4,500 Spanish sonnets 15th–20th c. in XML-TEI with metrical annotation and VIAF-linked metadata; the Golden Age subcorpus (15th–17th c.) deliberately includes minor/non-canonical authors, exactly matching the harvest reference 'DISCO Golden Age minor-author sonnets' (150 texts). Distributed under CC-BY 4.0 via GitHub and Zenodo (zenodo.org/records/7604914). The former project site editionsdisco.com no longer resolves (checked Oct 2026), but the project site is mirrored at prf1.org/disco/about.html (200). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "UNED Madrid (Pablo Ruiz Fabo, Helena Bermudez Sabel, Clara Martinez Canton, Jose Calvo Tello)",
+   "editors": [
+    "Pablo Ruiz Fabo",
+    "Helena Bermúdez Sabel",
+    "Clara Martínez Cantón",
+    "José Calvo Tello"
+   ],
+   "published": 2017,
    "last_modified": "2026-04-26",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -4030,7 +4211,7 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
    "license_url": "https://github.com/pruizf/disco/blob/master/LICENSE",
-   "doi": "10.5281/zenodo.7604914"
+   "doi": "10.5281/zenodo.1012567"
   },
   {
    "title": "Die Chronyk van Hollandt, Zeelandt ende Vriesland (Divisiekroniek) of Cornelius Aurelius, 1517",
@@ -4045,6 +4226,9 @@
    "status": "active",
    "author": "Cornelius Aurelius",
    "institution": "Huygens Institute (transcribed by A. de Hamer, 2011)",
+   "editors": [
+    "Aarnoud de Hamer"
+   ],
    "region": "Holland",
    "countries": [
     "NL"
@@ -4121,6 +4305,12 @@
    "url": "http://purl.ox.ac.uk/ota/0701",
    "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/0701",
    "data_format": "plain-text",
+   "editors": [
+    "A.J. Aitken",
+    "Paul Bratley",
+    "Neil Hamilton-Smith"
+   ],
+   "published": 1984,
    "languages": [
     "Scots"
    ],
@@ -4169,6 +4359,11 @@
    },
    "count_basis": "rq-retained-rows",
    "institution": "Académie royale des Sciences d'Outre-Mer, Brussels (Mémoires, T. XLIV-5, 1978)",
+   "editors": [
+    "F. Bontinck",
+    "N. Ndembe Nsasi"
+   ],
+   "published": 1978,
    "license": "Not stated",
    "license_note": "No licence on the Academy's record page for the 1978 memoir (Bontinck and Ndembe Nsasi, PDF) beyond the footer 'Copyright (c) KAOW'; the 'Dispositions légales' page covers only a privacy charter (checked 2026-10-13)."
   },
@@ -4179,6 +4374,10 @@
    "data_format": "tei",
    "provenance": "submitted",
    "date_added": "2026-10-07",
+   "editors": [
+    "Julia Jennifer Beine",
+    "Carsten Milling"
+   ],
    "languages": [
     "Dutch",
     "English",
@@ -4303,6 +4502,11 @@
    "period": "1577-1577",
    "notes": "The collection is DSL/tekstnet.dk's scientific online edition of Henrik Smid's six medical books (the posthumous 1577 edition), edited by Simon Skovgaard Boeck with Anne Mette Hansen and Ebba Hjorth; text transcribed from digital photographs in cooperation with the Universität Trier. The three harvested texts correspond word-for-word to the origin ids 'smith-h_1-laegebog-top-til-taa (1577)' etc., verified live (200) at tekstnet.dk/books/smith-h_1-laegebog-top-til-taa/. tekstnet.dk is DSL's portal for Old Danish text editions. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Det Danske Sprog- og Litteraturselskab (DSL), Copenhagen",
+   "editors": [
+    "Simon Skovgaard Boeck",
+    "Marita Akhøj Nielsen"
+   ],
+   "published": 2020,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 256557,
@@ -4333,6 +4537,12 @@
    "period": "1529-1573",
    "notes": "DSL project 'Musik og sprog i reformationstidens danske salmesang' (Carlsberg-funded) digitally published nine Danish hymnals and mass books of the Reformation era, 1529–1573; the four texts (christian-3-bibel 1550, claus-mortensen-messe-1529, dietz-salmebog-1529/1536, jespersen_1573) match the source slugs exactly. Texts are served as TEI/XML from DSL's eXist-db, with companion portals melodier.dsl.dk and ordnet.dk/ren; project page at dsl.dk/projekter/musik-og-sprog-i-reformationstidens-danske-salmesang (200). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Det Danske Sprog- og Litteraturselskab (DSL), Copenhagen",
+   "editors": [
+    "Marita Akhøj Nielsen",
+    "Simon Skovgaard Boeck",
+    "Bjarke Moe",
+    "Mette-Marie Møller Svendsen"
+   ],
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 1194918,
@@ -4388,6 +4598,9 @@
    "encoding": "html",
    "status": "discontinued",
    "institution": "Maryland Institute for Technology in the Humanities (MITH), University of Maryland; general editor Ralph Bauer",
+   "editors": [
+    "Ralph Bauer"
+   ],
    "region": "The Americas (texts written in or about the Americas)",
    "countries": [
     "US"
@@ -4432,6 +4645,9 @@
    },
    "count_basis": "rq-retained-rows",
    "institution": "Wired Humanities Projects, University of Oregon (ed. Stephanie Wood)",
+   "editors": [
+    "Stephanie Wood"
+   ],
    "license": "Copyright",
    "license_note": "The site footer reads '(c) 2000-2018. Early Nahuatl Library, Stephanie Wood, editor'; no open licence or terms-of-use page was found on the home, About, Introduction or Contact pages (checked 2026-10-13). Contributors donate transcriptions and translations, but no reuse terms are stated.",
    "license_url": "https://enl.wired-humanities.org/content/about"
@@ -4475,6 +4691,9 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "University of California, Santa Barbara",
+   "editors": [
+    "Patricia Fumerton"
+   ],
    "languages": [
     "English"
    ],
@@ -4505,6 +4724,20 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "Making and Knowing Project, Columbia University",
+   "editors": [
+    "Pamela H. Smith",
+    "Naomi Rosenkranz",
+    "Tianna Helena Uchacz",
+    "Tillmann Taape",
+    "Clément Godbarge",
+    "Sophie Pitman",
+    "Jenny Boulboullé",
+    "Joel Klein",
+    "Donna Bilak",
+    "Marc Smith",
+    "Terry Catapano"
+   ],
+   "published": 2020,
    "languages": [
     "French"
    ],
@@ -4525,7 +4758,8 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-NC-SA-4.0",
    "license_note": "The data repository's export scripts (lib/branding.py) attach the licence URL https://creativecommons.org/licenses/by-nc-sa/4.0/ and the 'Creative Commons BY-NC-SA 4.0' icons to the edition's generated files. The GitHub repository has no separate LICENSE file and Zenodo lists 'other-open'; the site is a JavaScript app whose footer could not be read directly. Images come from Gallica (BnF).",
-   "license_url": "https://github.com/cu-mkp/m-k-manuscript-data/blob/master/lib/branding.py"
+   "license_url": "https://github.com/cu-mkp/m-k-manuscript-data/blob/master/lib/branding.py",
+   "doi": "10.7916/78yt-2v41"
   },
   {
    "title": "EEBO Text Creation Partnership",
@@ -4679,6 +4913,11 @@
    "encoding": "html",
    "status": "archived",
    "institution": "ELTE BTK Magyar Irodalomtörténeti Intézet (Reneszánszkutatások Posztgraduális Központja), edited by Tóth Tünde and Béla Szegedi; published by Gépeskönyv",
+   "editors": [
+    "Tünde Tóth",
+    "Béla Szegedi"
+   ],
+   "published": 1998,
    "texts": 1,
    "words": 1656,
    "date": "1587-1588",
@@ -4712,6 +4951,10 @@
    "encoding": "tei",
    "status": "active",
    "institution": "Universidade de Santiago de Compostela (HERES project; direction Ricardo Pichel, now Universidad de Alcalá) with GITHE, UNED",
+   "editors": [
+    "Ricardo Pichel",
+    "Miguel García-Fernández"
+   ],
    "region": "Galicia and Portugal",
    "countries": [
     "ES",
@@ -4753,6 +4996,10 @@
    "period": "1515-1515",
    "notes": "CreNum is the ELAN (Grenoble) digital XML-TEI edition of Guillaume Crétin's Chronique française (five books, 1515 edition), edited by Antoine Brix and Ellen Delvallée with the ELAN team. The edition is published at crenum.elan-numerique.fr; the TEI sources are in the project's GitLab repository (gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum), which shows a bot-check page to browsers. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes)",
+   "editors": [
+    "Ellen Delvallée",
+    "Antoine Brix"
+   ],
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 192178,
@@ -4783,6 +5030,10 @@
    "period": "1490-1600",
    "notes": "FNVR is a Litt&Arts (Grenoble) project building XML-TEI editions of French verse narratives composed or translated 1490-1600, some first modern editions, led by Pascale Mounier; the TEI dataset is openly published on Recherche Data Gouv (DOI 10.57745/SSC5XT). The collected texts (amantDesconforte, chevallier, palamon, rondeaux) match the repository layout on the Grenoble GitLab, whose project page is live (200). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Pascale Mounier",
+   "editors": [
+    "Pascale Mounier"
+   ],
+   "published": 2022,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 78532,
@@ -4813,6 +5064,10 @@
    "period": "1642-1642",
    "notes": "POLY-GRENAILLE is the digital critical edition of the moral works of François de Grenaille, published on the ELAN platform (UMR Litt&Arts, Grenoble) with TEI encoding and critical annotation. The edition is in progress: so far one work is edited in TEI, La Mode (Paris 1642); the site menu already lists about ten further works (Le bon esprit, L'honnête fille, L'honnête mariage, L'honnête veuve...). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Cecile Lignereux and Bernard Roukhomovsky (project MoREM)",
+   "editors": [
+    "Cécile Lignereux",
+    "Bernard Roukhomovsky"
+   ],
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 77536,
@@ -4839,6 +5094,11 @@
    "encoding": "tei",
    "status": "archived",
    "institution": "École nationale des chartes (Éditions en ligne de l'École des chartes, ELEC)",
+   "editors": [
+    "Olivier Poncet",
+    "Camille Desenclos"
+   ],
+   "published": 2011,
    "texts": 96,
    "words": 20548,
    "period": "1536-1538",
@@ -4875,6 +5135,33 @@
    "encoding": "tei",
    "status": "archived",
    "institution": "École nationale des chartes (Éditions en ligne de l'École des chartes, ELEC), edited by students under Bernard Barbiche",
+   "editors": [
+    "Bernard Barbiche",
+    "Basile Baudez",
+    "Pierre-Marie Berthe",
+    "Laure Chabanne",
+    "Françoise Delfour",
+    "Cécile Fabris",
+    "Julie Fontanel",
+    "Sébastien Gaudelus",
+    "Christophe Gauthier",
+    "Étienne Hamon",
+    "Jean-Paul Hermant",
+    "Claude Jeay",
+    "Anne-Claire Josse",
+    "Julie Ladant",
+    "Olivier Legendre",
+    "Évelyne Lohr",
+    "Luc Ménapace",
+    "Pauline Moirez",
+    "Olivier Muth",
+    "Guillaume Ratel",
+    "Julien Roche",
+    "Amable Sablon du Corail",
+    "Édouard Vasseur",
+    "Marion Veyssière"
+   ],
+   "published": 2005,
    "texts": 15,
    "words": 60119,
    "period": "1562-1598",
@@ -4996,7 +5283,17 @@
    "license": "CC-BY-SA-4.0",
    "license_url": "https://zenodo.org/api/records/18662799",
    "doi": "10.5281/zenodo.14765293",
-   "institution": "Institute of Philosophy of the Czech Academy of Sciences (TOME project) and University of West Bohemia (CCS-ZCU)"
+   "institution": "Institute of Philosophy of the Czech Academy of Sciences (TOME project) and University of West Bohemia (CCS-ZCU)",
+   "editors": [
+    "Delia Georgiana Hedesan",
+    "Alexander Huber",
+    "Jana Ředinová",
+    "Ondřej Kříž",
+    "Jindra Kubíčková",
+    "Vojtěch Kaše",
+    "Petr Pavlas"
+   ],
+   "published": 2025
   },
   {
    "title": "EMMO: Early Modern Manuscripts Online",
@@ -5018,6 +5315,9 @@
    "period": "1552-1697",
    "notes": "EMMO is the Folger Shakespeare Library's IMLS-funded project giving web access to TEI P5 transcriptions, images and metadata of 16th- and 17th-century English manuscripts, with diplomatic/semi-diplomatic/regularized text flavors and a downloadable XML corpus; the site (live 200) documents exactly '100 transcribed documents'. Crowdsourced transcription ran on Dromio (transcribe.folger.edu); the IMLS grant concluded, leaving the site a preserved static resource. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Folger Shakespeare Library (project lead Heather Wolfe)",
+   "editors": [
+    "Heather Wolfe"
+   ],
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 40606,
@@ -5052,6 +5352,10 @@
    "period": "1517-1656",
    "notes": "EMOTHE at the Universitat de València (site live 200) studies and edits the canon of early modern European theatre (Italian, English, French, Portuguese, Spanish, 16th–17th c.); its digital library has ~350 TEI-XML editions (originales y traducciones) with ids like EMOTHE0357, EMOTHE0382. TEI files (TEI-All validated) are openly distributed via GitLab (gitlab.com/emothe/emothe-research-project) and the Zenodo community zenodo.org/communities/emothe; workflow is FileMaker + oXygen, not TEITOK. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it). The GitLab repository holds 57 XML files; the full set of about 374 texts is not linked from the site.",
    "institution": "Universitat de Valencia (proyecto ARTELOPE; founders Joan Oleza, current PI Jesus Tronch Perez)",
+   "editors": [
+    "Joan Oleza Simó",
+    "Jesús Tronch Pérez"
+   ],
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 842260,
@@ -5134,6 +5438,9 @@
    "encoding": "html",
    "status": "active",
    "institution": "Departament d'Història Moderna i Contemporània, Universitat Autònoma de Barcelona (Javier Antón Pelayo)",
+   "editors": [
+    "Javier Antón Pelayo"
+   ],
    "words": 9299,
    "texts": 39,
    "region": "Catalonia",
@@ -5346,6 +5653,10 @@
    "period": "1643-1665",
    "notes": "Annika Rockenberger's GitHub project holds the TEI P5 transcriptions and analysis code for her digital scholarly edition of the 17th-c. German etiquette prints of the Ethica Complementoria tradition, part of the Greflinger digital edition project (https://greflinger.hypotheses.org/). The texts counted here are A3 (1648), C3 (1665), Complementierbüchlein (B6, 1660), Cochleatio Novissima (1656) and Klag und Trost (1652). The Herzog August Bibliothek Wolfenbüttel published the accompanying bibliographical study (2017); the edition of the 1643 print is published at the Deutsches Textarchiv (https://www.deutschestextarchiv.de/nn_ethica_1643). The project has moved to the companion repository https://github.com/greflinger-dse/EthicaComplementoria; data on GitHub under CC-BY. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Annika Rockenberger (Herzog August Bibliothek Wolfenbüttel / University of Oslo)",
+   "editors": [
+    "Annika Rockenberger"
+   ],
+   "published": 2018,
    "last_modified": "2019-09-05",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -5355,7 +5666,8 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://raw.githubusercontent.com/arockenberger/EthicaComplementoria/master/LICENSE.txt",
-   "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "doi": "10.5281/zenodo.1308671"
   },
   {
    "title": "Evans Early American Imprints (Evans-TCP)",
@@ -5405,6 +5717,10 @@
    "period": "1538-1664",
    "notes": "Antonio Rojas Castro's 2016 TEI-XML corpus of 26 Spanish Golden Age mythological fables (~150k words, CC BY 4.0), included here with witnesses Barahona de Soto's Acteón and Vértumno, Bermúdez's Narciso, Bocángel's Leandro, Carrillo's Acis; the repo (live 200) is the canonical public source, with a companion publication in Studia Aurea (2017) and stylometry workshops built on this corpus. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Antonio Rojas Castro (Freie Universitaet Berlin / UNED)",
+   "editors": [
+    "Antonio Rojas Castro"
+   ],
+   "published": 2016,
    "last_modified": "2025-08-05",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -5435,6 +5751,10 @@
    "period": "1561-1585",
    "notes": "arranz.obdurodon.org (live 200) hosts the interlinear collation digital edition of the East Slavic 'Povest' o vzjatii Car'grada' (Tale of the capture of Constantinople), developed by Isabel Arranz del Riego from her 2013 UCM dissertation and maintained by David J. Birnbaum with XML/RelaxNG files and the three Hilandar Monastery witnesses 281 (1561), 280 (1585) and 282 (1826) - the first two are exactly the harvested witnesses ('witness HM281 (1561)', 'witness HM280 (1585)'). Released under CC BY-NC-SA 3.0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Isabel Arranz del Riego (Universidad Complutense de Madrid); maintained by David J. Birnbaum (University of Pittsburgh, obdurodon.org)",
+   "editors": [
+    "Isabel Arranz del Riego",
+    "David J. Birnbaum"
+   ],
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 29847,
@@ -5473,7 +5793,10 @@
    "license": "Copyright",
    "license_url": "http://www.famsi.org/reports/96072/",
    "license_note": "Pages are marked 'FAMSI (c) 2001: David Bolles'; no reuse licence or terms-of-use page was found on the report, the text index or the FAMSI home page.",
-   "institution": "David Bolles for the Foundation for the Advancement of Mesoamerican Studies (FAMSI)"
+   "institution": "David Bolles for the Foundation for the Advancement of Mesoamerican Studies (FAMSI)",
+   "editors": [
+    "David Bolles"
+   ]
   },
   {
    "title": "Edition der Familienkorrespondenz Ferdinands I. (Family correspondence of Ferdinand I)",
@@ -5494,6 +5817,10 @@
    "author": "Ferdinand I and his family (Charles V, Margaret, Mary of Hungary and others)",
    "date": "1514-1526",
    "institution": "Commission for Modern Austrian History, Universität Salzburg (Christopher F. Laferl) and ACDH-CH (Austrian Academy of Sciences)",
+   "editors": [
+    "Christopher F. Laferl"
+   ],
+   "published": 2015,
    "words": 109577,
    "texts": 200,
    "region": "Habsburg lands, Spain and the Low Countries",
@@ -5546,6 +5873,9 @@
    "license": "Not stated",
    "license_note": "No licence on the book page, the portal home page, the Credits page or the privacy notice; no copyright line or Creative Commons mark either (checked 2026-10-13). Only the journal Bollettino di Studi Sardi is stated to be open access (on UniCa Open Journals).",
    "institution": "Centro di Studi Filologici Sardi (Cagliari)",
+   "editors": [
+    "Maurizio Virdis"
+   ],
    "license_url": "https://www.filologiasarda.eu/pubblicazioni/libro.php?sez=34&id=770"
   },
   {
@@ -5577,8 +5907,12 @@
    "license": "CC-BY-4.0",
    "license_url": "https://zenodo.org/records/7213020",
    "license_note": "The Zenodo record gives Creative Commons Attribution 4.0 International for the deposited transcript.",
-   "doi": "10.5281/zenodo.7213020",
-   "institution": "Valery A. Berthoud F. (editor of the Zenodo deposit)"
+   "doi": "10.5281/zenodo.7213019",
+   "institution": "Valery A. Berthoud F. (editor of the Zenodo deposit)",
+   "editors": [
+    "Valery A. Berthoud F."
+   ],
+   "published": 2022
   },
   {
    "title": "The Folger Shakespeare (formerly Folger Digital Texts)",
@@ -5601,6 +5935,10 @@
    "provenance": "discovered",
    "date_added": "2026-10-12",
    "institution": "Folger Shakespeare Library, Washington, DC",
+   "editors": [
+    "Barbara A. Mowat",
+    "Paul Werstine"
+   ],
    "period": "c. 1590-1613",
    "region": "England",
    "countries": [
@@ -5636,6 +5974,10 @@
    "encoding": "tei",
    "status": "archived",
    "institution": "Herzog August Bibliothek Wolfenbüttel; transcription and commentary by Gerhard F. Strasser",
+   "editors": [
+    "Gerhard F. Strasser"
+   ],
+   "published": 2012,
    "author": "Jacques de Fonteny",
    "texts": 1,
    "words": 3308,
@@ -5686,6 +6028,9 @@
    "license": "Not stated",
    "license_note": "No licence: the page only says that Mats Thelander and Carin Ostman gave permission to publish the texts ('har beredvilligt gett tillstand till att publicera texterna'); the 'Principer for maskintexterna' and 'Om webbplatsen' pages contain no licence or reuse terms (checked 2026-10-13).",
    "institution": "Fornsvenska textbanken, Lund University (Nordlund); compiled by Lars-Olof Delsing",
+   "editors": [
+    "Lars-Olof Delsing"
+   ],
    "license_url": "https://www.nordlund.lu.se/texter/nysvenska-annexet/"
   },
   {
@@ -5714,6 +6059,12 @@
    "license": "CC-BY-SA-4.0",
    "license_url": "https://fran.si/korpus16/o-portalu?page=Colofon",
    "institution": "Inštitut za slovenski jezik Frana Ramovša ZRC SAZU (ISJFR ZRC SAZU); ed. Kozma Ahačič; Založba ZRC",
+   "editors": [
+    "Kozma Ahačič",
+    "Andreja Legan Ravnikar",
+    "Alenka Jelovšek"
+   ],
+   "published": 2019,
    "license_note": "The colophon states that the work is available under Creative Commons Attribution-ShareAlike 4.0 ('Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0')."
   },
   {
@@ -5743,8 +6094,15 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-NC-4.0",
    "license_url": "https://zenodo.org/records/6481135",
-   "doi": "10.5281/zenodo.6481135",
-   "institution": "Simon Gabay (University of Geneva) with Inria Paris (ALMAnaCH)"
+   "doi": "10.5281/zenodo.6481134",
+   "institution": "Simon Gabay (University of Geneva) with Inria Paris (ALMAnaCH)",
+   "editors": [
+    "Simon Gabay",
+    "Alexandre Bartz",
+    "Philippe Gambette",
+    "Alix Chagué"
+   ],
+   "published": 2022
   },
   {
    "provenance": "discovered",
@@ -5762,6 +6120,11 @@
    "encoding": "tei",
    "status": "archived",
    "institution": "Herzog August Bibliothek Wolfenbüttel, with the Sächsische Akademie der Wissenschaften zu Leipzig; edition by Klaus Conermann and Dieter Merzbacher",
+   "editors": [
+    "Klaus Conermann",
+    "Dieter Merzbacher"
+   ],
+   "published": 2014,
    "texts": 91,
    "words": 48046,
    "date": "1617-1626",
@@ -5914,6 +6277,14 @@
    "words": 926956,
    "texts": 76,
    "institution": "Universität Basel (Departement Geschichte) and Universität Graz (ZIM-ACDH); edited by Susanna Burghartz",
+   "editors": [
+    "Susanna Burghartz",
+    "Sonia Calvi",
+    "Lukas Meili",
+    "Jonas Sagelsdorff",
+    "Georg Vogeler"
+   ],
+   "published": 2015,
    "period": "1535-1610",
    "notes": "Jahrrechnungen der Stadt Basel 1535-1610: a digital edition of the annual city accounts of Basel, 76 objects (one per year from 1535/36 to 1609/10; 1584/85 is missing), from the Staatsarchiv Basel-Stadt (series Finanz H). Edited by Susanna Burghartz with Sonia Calvi, Lukas Meili, Jonas Sagelsdorff and Georg Vogeler; part of DEPCHA (Digital Edition Publishing Cooperative for Historical Accounts), hosted on GAMS at the University of Graz (ZIM-ACDH) with the Mellon-funded DEPCHA partners. Each year is published as an HTML edition with TEI-XML and RDF, and bulk downloads of all TEI and RDF files are offered; objects are dated 30 March 2023. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
@@ -5976,6 +6347,10 @@
    "period": "1500-1690",
    "notes": "Whitt's GeMi corpus (Oxford Text Archive 2562, published 2016) holds 12 German midwifery and women's-medicine texts ca. 1500–1700 (Rösslin's Rosengarten, the anonymous Frauenbüchlein ca. 1500, Rüff's Trostbüchlein, HoffWeheMutter, HebammenBuch...) as paired plain-text and TEI XML files plus a manual. Transcriptions derive mostly from the Würzburg 'Digitale Volltexte' Gynäkologie collection; CC BY-NC-SA 3.0. The record is now held on the Oxford Text Archive's repository server (llds.ling-phil.ox.ac.uk); the older ota.ox.ac.uk/desc/2562 address no longer works, and the repository shows a bot-check page before the record in a browser. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "University of Nottingham (Richard J. Whitt), deposited at the Oxford Text Archive (ota:2562)",
+   "editors": [
+    "Richard J. Whitt"
+   ],
+   "published": 2016,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 105188,
@@ -6005,6 +6380,13 @@
    "period": "1654-1700",
    "notes": "GerManC is a manually annotated, genre-balanced corpus of Early Modern German (1650-1800), built at the University of Manchester and distributed through the Oxford Text Archive (record ota:2544) under CC BY-NC-SA 3.0. The catalogue entry covers the texts of 1654-1700 (drama, humanities, legal, narrative, newspapers, scientific and sermon texts). The former project site no longer responds, and the Oxford Text Archive pages sit behind an anti-bot check, so they may need a browser. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "University of Manchester (Martin Durrell, Paul Bennett, Silke Scheible, Richard J. Whitt; Astrid Ensslin for the newspaper pilot), deposited at the Oxford Text Archive (ota:2544)",
+   "editors": [
+    "Martin Durrell",
+    "Paul Bennett",
+    "Silke Scheible",
+    "Richard J. Whitt"
+   ],
+   "published": 2012,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 230403,
@@ -6102,7 +6484,12 @@
    "license": "Copyright",
    "license_url": "http://ilg.usc.gal/gondomar/",
    "license_note": "The footer reads '(c) 2017 Instituto da Lingua Galega'; no Creative Commons or other reuse licence was found on the home, texts and project pages (the corpus is on TEITOK and the TEI sample file I tried did not load), so the text is treated as copyrighted (checked 2026-10-13).",
-   "institution": "Instituto da Lingua Galega, Universidade de Santiago de Compostela (ILG-USC)"
+   "institution": "Instituto da Lingua Galega, Universidade de Santiago de Compostela (ILG-USC)",
+   "editors": [
+    "Rosario Álvarez",
+    "Ernesto González Seoane"
+   ],
+   "published": 2017
   },
   {
    "title": "Soledades. Edición digital (Luis de Góngora, 1613) — ed. Antonio Rojas Castro",
@@ -6113,6 +6500,10 @@
    "provenance": "submitted",
    "date_added": "2026-10-08",
    "institution": "Antonio Rojas Castro (ed.); Cologne Center for eHumanities (CCeH), Universität zu Köln",
+   "editors": [
+    "Antonio Rojas Castro"
+   ],
+   "published": 2015,
    "notes": "TEI encodings and datasets supporting the digital edition of Góngora's Soledades (1613) in the arojascastro/soledades GitHub repository: an annotated edition (soledades_anotada.xml), a critical edition (soledades_critica.xml) and simple transcriptions. The Renascor Corpus harvest labelled this set 'GitHubTEI'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "languages": [
     "Spanish"
@@ -6132,7 +6523,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
-   "license_url": "http://creativecommons.org/licenses/by/4.0/"
+   "license_url": "http://creativecommons.org/licenses/by/4.0/",
+   "doi": "10.5281/zenodo.592777"
   },
   {
    "title": "Obras de Góngora (obra poética, ed. Antonio Carreira) — Labex OBVIL GONGORA project",
@@ -6152,6 +6544,10 @@
    "words": 59121,
    "texts": 2,
    "institution": "Labex OBVIL (Sorbonne Universite), dir. Mercedes Blanco; TEI files on gongoradigital GitHub",
+   "editors": [
+    "Antonio Carreira"
+   ],
+   "published": 2016,
    "period": "1605-1610",
    "notes": "The OBVIL GONGORA project digitised Antonio Carreira's edition of Góngora's poetic works and the polémica gongorina in TEI P5 (2013-2016, CC BY-NC-ND). The TEI files are published in the gongoradigital GitHub repository gongoraobra, which holds the poetry, the Epistolario and three comedias. The catalogue statistics cover only two of these texts, the Epistolario (1610) and the Comedia venatoria (1605). The original OBVIL portal is no longer reachable. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "last_modified": "2022-04-04",
@@ -6179,6 +6575,11 @@
    "provenance": "discovered",
    "date_added": "2026-10-08",
    "institution": "Herzog August Bibliothek Wolfenbüttel",
+   "editors": [
+    "Maximilian Görmar",
+    "Angela Göbel"
+   ],
+   "published": 2026,
    "period": "16th–18th century (partial overlap with 1450–1700)",
    "region": "Germany / Europe",
    "years_active": {
@@ -6187,7 +6588,7 @@
    },
    "notes": "TEI-XML files underlying the digital edition of a corpus of early modern travel testimonies (Reiseselbstzeugnisse). Full text was created with Transkribus HTR plus NER, i.e. project-released corrected machine text, published as an open dataset (CC BY-SA 4.0) on 30 September 2026. The corpus spans the 16th–18th centuries, so only part falls within the catalogue window; the dedicated edition website was not located, so the Zenodo deposit (and the git.hab.de repository it points to) is the stable access point. The counts cover the four travel journals in the deposit, of which three are dated within 1450-1700 (the fourth is dated 1701-1702).\n\nJustification: A brand-new (September 2026) Zenodo deposit of corrected HTR/TEI full text of early modern travel accounts produced by a DFG-funded project (2022–2025, project no. 469982284) at the Herzog August Bibliothek. Found via a Zenodo search for recent early modern TEI editions. Not in the catalogue.\nFound at: https://zenodo.org/records/23055358 Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
    "license": "CC-BY-SA-4.0",
-   "doi": "10.5281/zenodo.23055358",
+   "doi": "10.5281/zenodo.23055357",
    "words": 93954,
    "texts": 3,
    "corpus_statistics": {
@@ -6215,6 +6616,14 @@
    "encoding": "html",
    "status": "archived",
    "institution": "Huygens Instituut (KNAW); edition of P.C. Molhuysen, B.L. Meulenbroek, P.P. Witkam, H.J.M. Nellen and C.M. Ridderikhoff",
+   "editors": [
+    "P.C. Molhuysen",
+    "B.L. Meulenbroek",
+    "P.P. Witkam",
+    "H.J.M. Nellen",
+    "C.M. Ridderikhoff"
+   ],
+   "published": 2009,
    "author": "Hugo Grotius",
    "texts": 7801,
    "words": 3552730,
@@ -6254,6 +6663,11 @@
    "author": "Francesco Guicciardini",
    "date": "1537-1540",
    "institution": "Paola Moreno (Université de Liège) with Élise Leclerc (Université Grenoble Alpes) and Samantha Saïdi (ENS de Lyon)",
+   "editors": [
+    "Paola Moreno",
+    "Elise Leclerc"
+   ],
+   "published": 2019,
    "words": 7867,
    "texts": 14,
    "region": "Italy (Florence)",
@@ -6302,7 +6716,16 @@
    "license": "Copyright",
    "license_url": "https://gutorglyn.net/gutorglyn/about",
    "license_note": "The site footer reads '(c)2013 Canolfan Uwchefrydiau Cymreig a Cheltaidd'; no reuse licence on the site, and none in the casglur/django-gutorglyn-2 repository or the sample XML header (checked 2026-10-13).",
-   "institution": "Canolfan Uwchefrydiau Cymreig a Cheltaidd (University of Wales Centre for Advanced Welsh and Celtic Studies)"
+   "institution": "Canolfan Uwchefrydiau Cymreig a Cheltaidd (University of Wales Centre for Advanced Welsh and Celtic Studies)",
+   "editors": [
+    "Ann Parry Owen",
+    "Iestyn Daniel",
+    "Alaw Mai Edwards",
+    "Dafydd Johnston",
+    "Barry Lewis",
+    "Eurig Salisbury"
+   ],
+   "published": 2012
   },
   {
    "title": "H15corpus (Historia15, Universidad de Sevilla)",
@@ -6320,6 +6743,10 @@
    "provenance": "discovered",
    "date_added": "2026-10-12",
    "institution": "Universidad de Sevilla, proyecto Historia15 (Lola Pons Rodríguez and Eva Bravo-García, directors)",
+   "editors": [
+    "Lola Pons",
+    "Eva Bravo-García"
+   ],
    "words": 172397,
    "texts": 356,
    "region": "Spain (letters sent from Spanish territory; some from Italy, France and the Low Countries)",
@@ -6370,6 +6797,10 @@
    "author": "Philipp Hainhofer (album owner) and many contributors",
    "date": "1596-1633",
    "institution": "Herzog August Bibliothek Wolfenbüttel (edition by Sabine Jagodzinski; Wolfenbütteler Digitale Editionen no. 6)",
+   "editors": [
+    "Sabine Jagodzinski"
+   ],
+   "published": 2024,
    "words": 4354,
    "texts": 52,
    "region": "Augsburg and the courts and cities of Europe",
@@ -6447,6 +6878,12 @@
    "author": "Samuel Hartlib and correspondents",
    "date": "c. 1630-1662",
    "institution": "University of Sheffield, Digital Humanities Institute (Mark Greengrass, Michael Leslie and others)",
+   "editors": [
+    "Mark Greengrass",
+    "Michael Leslie",
+    "Michael Hannon"
+   ],
+   "published": 2013,
    "words": 5864428,
    "texts": 5682,
    "region": "England, with letters from across Europe",
@@ -6486,6 +6923,11 @@
    "status": "active",
    "date": "1662-1674",
    "institution": "British Academy Hearth Tax Research Project, University of Roehampton (Andrew Wareham) and Universität Graz (Georg Vogeler)",
+   "editors": [
+    "Andrew Wareham",
+    "Georg Vogeler"
+   ],
+   "published": 2019,
    "words": 1087045,
    "texts": 61,
    "region": "England and Wales",
@@ -6518,6 +6960,10 @@
    "encoding": "other",
    "status": "active",
    "institution": "Dulwich College, with King's Digital Lab, King's College London",
+   "editors": [
+    "Grace Ioppolo"
+   ],
+   "published": 2009,
    "region": "England (London)",
    "countries": [
     "GB-ENG"
@@ -6589,6 +7035,11 @@
    "period": "1450-1700",
    "notes": "HistCorp is an open platform for historical corpora and tools, distributed via the Swedish CLARIN node. Its Swedish section draws on Fornsvenska textbanken (machine-readable Old and Early Modern Swedish texts 1350-1758), all supplied as plain text. The source site (project2.sol.lu.se/fornsvenska) no longer resolves; the texts are available through the HistCorp Swedish download (Zenodo). The 5.6 M words exceed Fornsvenska's 44 texts and 1.4 M tokens, so the entry includes other HistCorp Swedish corpora; the texts counted here come from this download bundle. Freely available; the licence is CC BY. Related searchable corpora are offered by Språkbanken Text's Korp ('all_hist' mode). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Eva Pettersson (Uppsala University) & Beata Megyesi (Stockholm University), Swedish CLARIN",
+   "editors": [
+    "Eva Pettersson",
+    "Beáta Megyesi"
+   ],
+   "published": 2018,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 5641945,
@@ -6597,7 +7048,8 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
    "license_url": "https://zenodo.org/records/10017247",
-   "license_note": "The Zenodo record 'The HistCorp Collection of Historical Corpora and Resources - Part III' (28 ZIP files; published 9 March 2018) is licensed CC BY 4.0; individual source corpora inside may have their own conditions."
+   "license_note": "The Zenodo record 'The HistCorp Collection of Historical Corpora and Resources - Part III' (28 ZIP files; published 9 March 2018) is licensed CC BY 4.0; individual source corpora inside may have their own conditions.",
+   "doi": "10.5281/zenodo.10017246"
   },
   {
    "title": "Histoire des Albigeois (2nd half of the 15th century): critical edition (A. Tondi, PhD thesis)",
@@ -6623,9 +7075,14 @@
    },
    "count_basis": "rq-retained-rows",
    "institution": "Andrea Tondi; École pratique des hautes études, Université Paris Sciences et Lettres, with the Università di Siena (thesis defended 2019)",
+   "editors": [
+    "Andrea Tondi"
+   ],
+   "published": 2019,
    "license": "Custom terms",
    "license_url": "https://about.hal.science/hal-authorisation-v1/",
-   "license_note": "The thesis (Andrea Tondi, 2019, PSL/Siena; HAL tel-03700179) is deposited under HAL's standard distribution authorisation, which is not a Creative Commons licence (HAL API field licence_s); the edition text is accessible in the PDF but reuse is not otherwise licensed."
+   "license_note": "The thesis (Andrea Tondi, 2019, PSL/Siena; HAL tel-03700179) is deposited under HAL's standard distribution authorisation, which is not a Creative Commons licence (HAL API field licence_s); the edition text is accessible in the PDF but reuse is not otherwise licensed.",
+   "doi": "10.70675/9be74b1fzd8e0z4264zbf62zdbec0bc13aa3"
   },
   {
    "title": "The Hooke Folio Online",
@@ -6641,6 +7098,10 @@
    "author": "Robert Hooke (Royal Society secretary)",
    "date": "1661-1691",
    "institution": "AHRC Centre for Editing Lives and Letters, Queen Mary University of London (Robyn Adams, project leader)",
+   "editors": [
+    "Robyn Adams"
+   ],
+   "published": 2007,
    "words": 256070,
    "region": "England (London)",
    "countries": [
@@ -6674,6 +7135,11 @@
    "status": "archived",
    "date": "1491",
    "institution": "Université de Caen Normandie (Catherine Jacquemard, Brigitte Gauvin, Marie-Agnès Lucas-Avenel), Presses universitaires de Caen",
+   "editors": [
+    "Catherine Jacquemard",
+    "Brigitte Gauvin",
+    "Marie-Agnès Lucas-Avenel"
+   ],
    "words": 19867,
    "texts": 107,
    "region": "Mainz (printed 1491)",
@@ -6745,6 +7211,12 @@
    "period": "1450-1680",
    "notes": "IcePaHC is the Iceland Parsed Historical Corpus treebank (Old/Norse-to-modern Icelandic span, texts 1350-1750+ for pre-1700), distributed on GitHub as .psd/.tagged/.txt files. The 21 Renascor Corpus files (bandamenn, ectorssaga, judit, vilhjalmur etc.) match the corpus .txt files exactly. Free public release; the linguist.is wiki site returned HTTP 511 from two networks, so the verified live canonical entry point is the GitHub repo. The Renascor Corpus collected from the raw txt layer (word-level parses dropped). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Joel C. Wallenberg (York), Anton Karl Ingason & Einar Freyr Sigurðsson (Árni Magnússon Institute/HI, Iceland), Eiríkur Rögnvaldsson; version 2024.03",
+   "editors": [
+    "Joel C. Wallenberg",
+    "Anton Karl Ingason",
+    "Einar Freyr Sigurðsson",
+    "Eiríkur Rögnvaldsson"
+   ],
    "last_modified": "2025-12-11",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -6776,6 +7248,10 @@
    "period": "1584-1695",
    "notes": "IMP is the IMPACT-project digital library/corpus of historical Slovene (658 texts, 1584-1919), published as hand-corrected TEI P5 transcriptions with facsimile links and lemma/MTE morphology. CLARIN.SI handle 11356/1031 (verified live) is exactly the Renascor Corpus source: it contains filenames such as 'ZRC_00001-1584-ana.xml' (Jurij Dalmatin's 1584 Bible) and 'ZRC_00002-1695-ana.xml' (Janez Svetokrski), matching the origin verbatim. License CC BY-SA 4.0 (CLARIN.SI); the site nl.ijs.si/imp is still online though the project completed in 2014. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Tomaž Erjavec, Jožef Stefan Institute (IJS), Ljubljana; funded by EU FP7 IMPACT",
+   "editors": [
+    "Tomaž Erjavec"
+   ],
+   "published": 2014,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 27084,
@@ -6813,7 +7289,13 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-NC-SA-3.0",
    "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-   "institution": "Universidad de Alicante and Fundación Biblioteca Virtual Miguel de Cervantes (IMPACT project)"
+   "institution": "Universidad de Alicante and Fundación Biblioteca Virtual Miguel de Cervantes (IMPACT project)",
+   "editors": [
+    "F. Sánchez-Martínez",
+    "I. Martínez-Sempere",
+    "X. Ivars-Ribes",
+    "R.C. Carrasco"
+   ]
   },
   {
    "title": "Inscriptiones Alborum Amicorum (IAA)",
@@ -6834,6 +7316,11 @@
    "encoding": "html",
    "status": "active",
    "institution": "University of Szeged, University Library (Miklós Latzkovits, Lajos Adamik, László Bujtás and others)",
+   "editors": [
+    "Miklós Latzkovits",
+    "Lajos Adamik",
+    "László Zsigmond Bujtás"
+   ],
    "region": "Hungary and Central Europe",
    "countries": [
     "HU",
@@ -6901,6 +7388,10 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "Institute of Historical Research (British History Online)",
+   "editors": [
+    "C H Firth",
+    "R S Rait"
+   ],
    "languages": [
     "English"
    ],
@@ -6966,6 +7457,13 @@
    "encoding": "tei",
    "status": "active",
    "institution": "Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes (IHB) and Austrian Centre for Digital Humanities, Österreichische Akademie der Wissenschaften (FWF project P 34651; ed. Katrin Keller, Ines Peper, Anna Spitzbart, Dorota Vargová)",
+   "editors": [
+    "Katrin Keller",
+    "Ines Peper",
+    "Anna Spitzbart",
+    "Dorota Vargová"
+   ],
+   "published": 2024,
    "author": "Eleonora Magdalena von Pfalz-Neuburg",
    "date": "1677-1720",
    "period": "1677-1720 (letters sent by and to the empress)",
@@ -7006,6 +7504,18 @@
    "author": "Andreas Bodenstein von Karlstadt",
    "date": "1507-1518",
    "institution": "Herzog August Bibliothek Wolfenbüttel; edited by Thomas Kaufmann, Harald Bollbuck and others",
+   "editors": [
+    "Thomas Kaufmann",
+    "Harald Bollbuck",
+    "Ulrich Bubenheimer",
+    "Stefanie Fraedrich-Nowag",
+    "Wolfgang Huber",
+    "Martin Kessler",
+    "Stefania Salvadori",
+    "Christian Speer",
+    "Alejandro Zorzin"
+   ],
+   "published": 2012,
    "words": 158382,
    "texts": 74,
    "region": "Germany (Wittenberg)",
@@ -7039,6 +7549,7 @@
    "status": "archived",
    "date": "1578-1769",
    "institution": "Evangelische Kirchengemeinde Gröben (EKBO)",
+   "published": 2009,
    "words": 71108,
    "texts": 246,
    "region": "Brandenburg, south-west of Berlin",
@@ -7072,6 +7583,10 @@
    "author": "Athanasius Kircher",
    "date": "1650-1666",
    "institution": "Herzog August Bibliothek Wolfenbüttel (Thomas Stäcker, ed.)",
+   "editors": [
+    "Thomas Stäcker"
+   ],
+   "published": 2003,
    "words": 6794,
    "texts": 21,
    "region": "Italy (Rome) to Germany (Wolfenbüttel)",
@@ -7123,7 +7638,8 @@
    "license": "CC-BY-4.0",
    "license_url": "https://www2.ninjal.ac.jp/textdb_dataset/en/amhk/",
    "license_note": "The Amakusa Heike page states 'The transcribed text (txt) on this site is licensed under a Creative Commons Attribution 4.0 International License'; the Esopo, Contemptus Mundi and Nippojisho pages say the same. The BL facsimile images are separately marked public domain.",
-   "institution": "National Institute for Japanese Language and Linguistics (NINJAL)"
+   "institution": "National Institute for Japanese Language and Linguistics (NINJAL)",
+   "published": 2019
   },
   {
    "title": "Die Urkunden und Akten des Klosters und des Oberamts Königsfelden – 1308-1662",
@@ -7142,6 +7658,12 @@
    "status": "active",
    "date": "1308-1662",
    "institution": "Historisches Seminar, Universität Zürich (Simon Teuscher, Colette Halter-Pernet, Tobias Hodel); owner Staatsarchiv Aargau",
+   "editors": [
+    "Colette Halter-Pernet",
+    "Tobias Hodel",
+    "Simon Teuscher"
+   ],
+   "published": 2021,
    "words": 312611,
    "texts": 446,
    "region": "Aargau (Königsfelden, Switzerland)",
@@ -7221,7 +7743,16 @@
    "license_url": "https://github.com/chroniclingnovelty/chronicles-datasets",
    "license_note": "The repository README states 'Attribution 4.0 International CC BY 4.0' and holds the full licence text; the Zenodo record lists cc-by-4.0.",
    "doi": "10.5281/zenodo.13332815",
-   "institution": "Chronicling Novelty project (Leiden University and Vrije Universiteit Amsterdam; NWO-funded)"
+   "institution": "Chronicling Novelty project (Leiden University and Vrije Universiteit Amsterdam; NWO-funded)",
+   "editors": [
+    "Judith Pollmann",
+    "Erika Kuijpers",
+    "Carolina Lenarduzzi",
+    "Theo Dekker",
+    "Alie Lassche",
+    "Roser Morante"
+   ],
+   "published": 2024
   },
   {
    "title": "Nicaise Ladam, Chronique abrégée: digital critical edition (B. Salvati, PhD thesis)",
@@ -7247,9 +7778,14 @@
    },
    "count_basis": "rq-retained-rows",
    "institution": "Benedetta Salvati; École nationale des chartes, Université Paris Sciences et Lettres, with the Université de Lausanne (thesis defended 2024)",
+   "editors": [
+    "Benedetta Salvati"
+   ],
+   "published": 2024,
    "license": "Custom terms",
    "license_url": "https://about.hal.science/hal-authorisation-v1/",
-   "license_note": "The HAL record (tel-05137472) gives its licence as the standard 'HAL authorisation v1' (not a Creative Commons licence): the thesis is deposited with the author's non-exclusive authorisation for HAL to distribute it. No separate licence for the edition text was found; the record's metadata also shows the edition covers 1488-1525 from KBR MS 14964-65."
+   "license_note": "The HAL record (tel-05137472) gives its licence as the standard 'HAL authorisation v1' (not a Creative Commons licence): the thesis is deposited with the author's non-exclusive authorisation for HAL to distribute it. No separate licence for the edition text was found; the record's metadata also shows the edition covers 1488-1525 from KBR MS 14964-65.",
+   "doi": "10.70675/50fb6519z354dz4e84zb4a9z9daab0ca0a24"
   },
   {
    "title": "The Lampeter Corpus of Early Modern English Tracts (OTA ota:3193)",
@@ -7271,6 +7807,11 @@
    "period": "1641-1700",
    "notes": "120 English tracts and pamphlets 1640-1740 (about 1.19M words), TEI, CC BY-SA 3.0. The Oxford Text Archive record ota:3193 is now served by the Oxford Linguistics Data Store; the older ota.ox.ac.uk and ota.bodleian.ox.ac.uk addresses no longer reach the record. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Josef Schmied, Claudia Claridge & Rainer Siemund (Chemnitz University of Technology); Oxford Text Archive",
+   "editors": [
+    "Josef Schmied",
+    "Claudia Claridge",
+    "Rainer Siemund"
+   ],
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 723592,
@@ -7295,6 +7836,15 @@
    "author": "Joan Perez Lazarraga",
    "date": "c. 1564-1602",
    "institution": "Monumenta Linguae Vasconum research group, UPV/EHU (Gidor Bilbao, Joseba A. Lakarra and others)",
+   "editors": [
+    "Gidor Bilbao",
+    "Ricardo Gómez",
+    "Joseba A. Lakarra",
+    "Julen Manterola",
+    "Céline Mounole",
+    "Blanca Urgell"
+   ],
+   "published": 2011,
    "texts": 58,
    "region": "Álava, Basque Country (Spain)",
    "countries": [
@@ -7409,6 +7959,10 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "University of Toronto",
+   "editors": [
+    "Ian Lancashire"
+   ],
+   "published": 1996,
    "languages": [
     "English"
    ],
@@ -7479,6 +8033,10 @@
    "author": "William Herle",
    "date": "1559-1588",
    "institution": "AHRC Centre for Editing Lives and Letters, Queen Mary University of London (Robyn Adams, editor; Alison Wiggins, director)",
+   "editors": [
+    "Robyn Adams"
+   ],
+   "published": 2005,
    "words": 318567,
    "texts": 302,
    "region": "England; letters also sent from the Low Countries and Germany",
@@ -7518,6 +8076,10 @@
    "provenance": "discovered",
    "date_added": "2026-10-12",
    "institution": "Yanet Hernández Pedraza (doctoral candidate, Université de Montréal)",
+   "editors": [
+    "Yanet Hernández Pedraza"
+   ],
+   "published": 2024,
    "period": "1538-1554",
    "region": "France, Switzerland (Geneva, Strasbourg)",
    "countries": [
@@ -7536,7 +8098,8 @@
     "words": 34056,
     "texts": 27
    },
-   "count_basis": "rq-retained-rows"
+   "count_basis": "rq-retained-rows",
+   "doi": "10.5281/zenodo.21684207"
   },
   {
    "title": "LiberLiber",
@@ -7617,6 +8180,10 @@
    "author": "Justus Lipsius",
    "date": "1602",
    "institution": "Herzog August Bibliothek Wolfenbüttel (edited by Thomas Stäcker; Editiones Electronicae Guelferbytanae 17)",
+   "editors": [
+    "Thomas Stäcker"
+   ],
+   "published": 2006,
    "region": "Southern Netherlands (Antwerp)",
    "countries": [
     "BE"
@@ -7679,6 +8246,13 @@
    "encoding": "html",
    "status": "active",
    "institution": "Universities of Hertfordshire and Sheffield (Digital Humanities Institute)",
+   "editors": [
+    "Tim Hitchcock",
+    "Robert Shoemaker",
+    "Sharon Howard",
+    "Jamie McLaughlin"
+   ],
+   "published": 2010,
    "region": "England (London)",
    "countries": [
     "GB-ENG"
@@ -7697,7 +8271,8 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-NC-4.0",
    "license_url": "https://figshare.shef.ac.uk/articles/dataset/London_Lives_XML_Data/4797829",
-   "license_note": "The figshare record 'London Lives XML Data' (1624 XML files, DOI 10.15131/shef.data.4797829.v1, 2017) lists the licence CC BY-NC 4.0 (confirmed via the figshare API). The live site is a JavaScript application with no readable legal page; the licence applies to the XML transcriptions, not to the archives' original images."
+   "license_note": "The figshare record 'London Lives XML Data' (1624 XML files, DOI 10.15131/shef.data.4797829.v1, 2017) lists the licence CC BY-NC 4.0 (confirmed via the figshare API). The live site is a JavaScript application with no readable legal page; the licence applies to the XML transcriptions, not to the archives' original images.",
+   "doi": "10.15131/shef.data.4797829"
   },
   {
    "title": "Lope de Vega, La dama boba: edición crítica y archivo digital",
@@ -7717,6 +8292,13 @@
    "author": "Lope de Vega",
    "date": "1613 (autograph); 1617 (print)",
    "institution": "PROLOPE (Universitat Autònoma de Barcelona) and CRR-MM, Università di Bologna; edited by Marco Presotto",
+   "editors": [
+    "Marco Presotto",
+    "Sònia Boadas",
+    "Eugenio Maggi",
+    "Aurèlia Pessarrodona"
+   ],
+   "published": 2015,
    "words": 16545,
    "texts": 1,
    "region": "Spain (Madrid)",
@@ -7761,9 +8343,14 @@
    },
    "count_basis": "rq-retained-rows",
    "institution": "Francesco De Carolis; Università di Bologna (doctoral thesis, 2015)",
+   "editors": [
+    "Francesco De Carolis"
+   ],
+   "published": 2015,
    "license": "Copyright",
    "license_note": "The thesis PDF is open access (rights: info:eu-repo/semantics/openAccess) but no Creative Commons licence is attached to the record or to the PDF's front matter. The AlmaDL terms of use say all content is protected by copyright under the licence set by the rights holder, forbid unauthorised extraction or reuse, and give only the metadata a CC0 licence.",
-   "license_url": "https://sba.unibo.it/it/almadl/it/allegati/allegati-almadl/condizioni-sito-almadl"
+   "license_url": "https://sba.unibo.it/it/almadl/it/allegati/allegati-almadl/condizioni-sito-almadl",
+   "doi": "10.6092/unibo/amsdottorato/7046"
   },
   {
    "title": "Netzwerke der Nonnen. Edition und Erschließung der Briefsammlung aus Kloster Lüne (ca. 1460-1555)",
@@ -7781,6 +8368,18 @@
    "status": "active",
    "date": "c. 1460-1555",
    "institution": "Herzog August Bibliothek Wolfenbüttel, with Universität Düsseldorf (Eva Schlotheuber), University of Oxford (Henrike Lähnemann) and Universität Bonn",
+   "editors": [
+    "Eva Schlotheuber",
+    "Henrike Lähnemann",
+    "Philipp Trettin",
+    "Lena Vosding",
+    "Philipp Stenzig",
+    "Torsten Schaßan",
+    "Simone Schultz-Balluff",
+    "Wolfgang Seifert",
+    "Edmund Wareham Wanitzek"
+   ],
+   "published": 2016,
    "words": 176634,
    "texts": 407,
    "region": "Lüneburg (Lower Saxony)",
@@ -7817,6 +8416,11 @@
    "author": "Martin Luther",
    "date": "1518",
    "institution": "Taylor Institution Library and Faculty of Medieval and Modern Languages, University of Oxford",
+   "editors": [
+    "Christiane Rehagen",
+    "Emma Huber"
+   ],
+   "published": 2018,
    "words": 1780,
    "texts": 1,
    "region": "Leipzig (print) and Wittenberg",
@@ -7850,6 +8454,12 @@
    "status": "archived",
    "author": "Henry Machyn",
    "institution": "University of Michigan Library / Michigan Publishing (editors Richard W. Bailey, Marilyn Miller and Colette Moore)",
+   "editors": [
+    "Richard W. Bailey",
+    "Marilyn Miller",
+    "Colette Moore"
+   ],
+   "published": 2006,
    "region": "London",
    "countries": [
     "GB-ENG"
@@ -7886,6 +8496,10 @@
    "status": "archived",
    "date": "1552-1568",
    "institution": "Herzog August Bibliothek Wolfenbüttel (edited by Harald Bollbuck; Editiones Electronicae Guelferbytanae 11)",
+   "editors": [
+    "Harald Bollbuck"
+   ],
+   "published": 2012,
    "region": "Germany (Magdeburg, Jena, Regensburg) and Central Europe",
    "countries": [
     "DE",
@@ -7995,6 +8609,10 @@
    "period": "1530-1565",
    "notes": "Mambrino Digital Library is the digital library of Spanish-inspired Italian chivalric romances (named after Mambrino Roseo da Fabriano). Each the Renascor Corpus text is a separate Zenodo dataset of a digital scholarly edition of 16th-century Sferamundi di Grecia books: 10.5281/zenodo.14235252 (Sferamundi 1), 11398260 (2), 11400259 (3), 11400335 (4), 11400513 (5), 11400584 (6) — each containing TEI XML transcription and commentary files. License CC BY-SA 4.0 (checked for record 14235252; per-record). All Zenodo records verified live. The collection also includes Il secondo libro di Palmerino d'Oliva (Zenodo 20445621). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Stefano Bazzaco et al., University of Verona (PRIN 2017 'Mapping Chivalry'; 'Inclusive Humanities' Dept. of Foreign Languages, University of Verona)",
+   "editors": [
+    "Stefano Bazzaco"
+   ],
+   "published": 2024,
    "last_modified": "2024-11-28",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -8023,6 +8641,10 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "University of Victoria",
+   "editors": [
+    "Janelle Jenstad"
+   ],
+   "published": 2006,
    "period": "1550-1700",
    "region": "London, England",
    "years_active": {
@@ -8115,6 +8737,10 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "Projet ANTONOMAZ, Sorbonne Université (Karine Abiven)",
+   "editors": [
+    "Karine Abiven"
+   ],
+   "published": 2022,
    "languages": [
     "French"
    ],
@@ -8136,7 +8762,7 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
    "license_url": "https://zenodo.org/records/7443183",
-   "doi": "10.5281/zenodo.7443183"
+   "doi": "10.5281/zenodo.7443102"
   },
   {
    "title": "Magyar Elektronikus Könyvtár (MEK)",
@@ -8189,6 +8815,10 @@
     "SI"
    ],
    "institution": "ZRC SAZU, Inštitut za kulturno zgodovino (Gregor Pobežin); hosted by CLARIN.SI",
+   "editors": [
+    "Gregor Pobežin"
+   ],
+   "published": 2020,
    "license": "CC-BY-SA-4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "notes": "TEI XML edition (version 1.0, published 2020-12-06, on CLARIN.SI) of 51 Latin inscriptions from the Slovenian coastal towns dated 1222 to the mid-17th century, with expanded transcriptions and Slovenian translations. Static repository deposit, no later version found. Some inscriptions carry only an approximate date (for example 'second half of the 15th century'), and four are undated. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
@@ -8219,6 +8849,13 @@
    "period": "1672-1700",
    "notes": "The OBVIL/IReMus Mercure galant programme publishes the whole run 1672-1710 in TEI XML (GitHub repo OBVIL/mercure-galant, 'MG-1672-01' to 'MG-1721-05'). The catalogue statistics cover 26 issues of 1672-1700 (4.2M words). Licence: CC BY-NC-ND. The former reading site (obvil.sorbonne-universite.fr/corpus/mercure-galant/) is offline (HTTP 404); the GitHub Pages edition is the live access point. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "LabEx OBVIL (Sorbonne) & IReMus (CNRS, dir. Anne Piéjus, Nathalie Berton-Blivet), with Huma-Num",
+   "editors": [
+    "Anne Piéjus",
+    "Nathalie Berton-Blivet",
+    "Alexandre De Craim",
+    "Vincent Jolivet"
+   ],
+   "published": 2014,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 4216289,
@@ -8273,6 +8910,10 @@
    "author": "John Milton",
    "date": "1630-1674",
    "institution": "Dartmouth College (Thomas H. Luxon, general editor)",
+   "editors": [
+    "Thomas H. Luxon"
+   ],
+   "published": 1997,
    "region": "England",
    "countries": [
     "GB-ENG"
@@ -8314,6 +8955,7 @@
    "author": "Anonymous",
    "date": "1554",
    "institution": "Department of Latin American and Iberian Cultures, Columbia University (Susanna Allés Torrent and students)",
+   "published": 2016,
    "region": "Spain",
    "countries": [
     "ES"
@@ -8387,6 +9029,12 @@
    "period": "1612-1619",
    "notes": "muysca.cubun.org is a MediaWiki-based research site (since 2008/2009) on the Muisca (Chibcha) language: dictionary, and transcriptions of colonial manuscripts including Manuscrito 158 (Biblioteca Nacional de Colombia) and Lugo's 1619 gramatica, exactly matching the origins ('keyed transcription'). The site loaded successfully via WebFetch (curl from this network is blocked by the host's TLS/firewall; HTTPS handshake hangs, so treat liveness as verified-by-fetch). Companion site coleccionmutis.cubun.org holds Manuscrito 2922 BPRM cited in a third origin. Non-TEI (wiki 'keyed transcriptions'). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Muysc cubun research group, founded and maintained by Diego F. Gómez, with Muisca communities (Suba, Chía), Colombia",
+   "editors": [
+    "G. E. Dueñas Luna",
+    "D. F. Gómez Aldana",
+    "L. Melo"
+   ],
+   "published": 2009,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 42662,
@@ -8453,6 +9101,11 @@
    "author": "Sebastian Brant, Jakob Locher and adapters",
    "date": "1494-1500",
    "institution": "Universität Würzburg (Brigitte Burrichter, Joachim Hamm; project 2014-2021)",
+   "editors": [
+    "Brigitte Burrichter",
+    "Joachim Hamm"
+   ],
+   "published": 2021,
    "words": 673114,
    "texts": 12,
    "region": "Basel, Nuremberg, Strasbourg, Lübeck and Paris",
@@ -8526,6 +9179,10 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "Universität Innsbruck",
+   "editors": [
+    "Stefan Zathammer"
+   ],
+   "published": 2025,
    "languages": [
     "Latin"
    ],
@@ -8546,7 +9203,7 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
    "license_url": "https://zenodo.org/records/15040256",
-   "doi": "10.5281/zenodo.15040256",
+   "doi": "10.5281/zenodo.15040255",
    "license_note": "The Zenodo record 'Noscemus Digital Sourcebook' (2025-03-17) is licensed CC BY 4.0, as shown by the Zenodo API; this covers the text-recognition output, not the source scans held by libraries."
   },
   {
@@ -8597,6 +9254,11 @@
    "words": 1162096,
    "texts": 85,
    "institution": "LabEx OBVIL (Sorbonne Université)",
+   "editors": [
+    "François Lecercle",
+    "Clotilde Thouret"
+   ],
+   "published": 2014,
    "period": "1541-1698",
    "notes": "'La Haine du theatre / querelle du theatre' is an OBVIL corpus of the 17th-century French anti-theatre controversy (1541-1698 texts), TEI encoded (repo OBVIL/haine-theatre, GitHub Pages edition verified live); the 14 the Renascor Corpus texts match its file namespace exactly. License: CC BY-NC-ND. The main OBVIL site was unreachable at check time; the GitHub Pages edition is the verified entry point. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
@@ -8684,6 +9346,11 @@
    "period": "1509-1700",
    "notes": "Corpus of unpublished archival documents (inventories, trial testimonies, surgeon reports) of the Real Chancillería de Granada and other Spanish archives, published by the ODE project (Oralia Diacrónica del Español, Universidad de Granada). The original CORDEREGRA site (corderegra.es) no longer resolves, and ODE is its working host; the ODE site is available only over http. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Universidad de Granada (Miguel Calderón Campos & M.ª Teresa García-Godoy)",
+   "editors": [
+    "Miguel Calderón Campos",
+    "María Teresa García-Godoy"
+   ],
+   "published": 2019,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 203336,
@@ -8733,6 +9400,9 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "Research Institute for Linguistics, Hungarian Academy of Sciences (MGTSZ)",
+   "editors": [
+    "Eszter Simon"
+   ],
    "notes": "Old Hungarian Corpus of codices and early printed books (11th-16th c., original orthography betűhű and phonemic levels), maintained by the Hungarian Generative Diachronic Syntax project at the Research Institute for Linguistics. The Renascor Corpus working snapshot contains two collections of this resource (HungarianCorpus and MGTSZ_AporCodex, the Apor Codex file), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "languages": [
     "Hungarian"
@@ -8805,6 +9475,13 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "University of Gothenburg (Språkbanken)",
+   "editors": [
+    "Gerlof Bouma",
+    "Evie Coussé",
+    "Trude Dijkstra",
+    "Nicoline van der Sijs"
+   ],
+   "published": 2024,
    "languages": [
     "Dutch",
     "German"
@@ -8840,7 +9517,8 @@
     "texts": 15
    },
    "count_basis": "rq-retained-rows",
-   "notes": "The counts cover the Dutch and German Bibles of the public subset (12 within 1450-1700), not the English and Swedish Bibles in the archive. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+   "notes": "The counts cover the Dutch and German Bibles of the public subset (12 within 1450-1700), not the English and Swedish Bibles in the archive. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+   "doi": "10.23695/fhat-dd64"
   },
   {
    "title": "OpenITI",
@@ -8850,6 +9528,14 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "Open Islamicate Texts Initiative",
+   "editors": [
+    "Lorenz Nigst",
+    "Maxim Romanov",
+    "Sarah Bowen Savant",
+    "Masoumeh Seydi",
+    "Peter Verkinderen"
+   ],
+   "published": 2019,
    "languages": [
     "Arabic"
    ],
@@ -8871,7 +9557,7 @@
    "license": "Mixed",
    "license_url": "https://zenodo.org/records/17767721",
    "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "doi": "10.5281/zenodo.17767721"
+   "doi": "10.5281/zenodo.3082463"
   },
   {
    "title": "OSTA — Old Spanish Textual Archive",
@@ -8896,6 +9582,11 @@
    "period": "1450-1674",
    "notes": "OSTA is the lemmatized/morphologically tagged ~35M-word corpus of 400+ semi-paleographic transcriptions of Old Spanish (including Asturleonese/Navarro-Aragonese) texts, begun 2015 by HSMS; the transcriptions and metadata are on GitHub (hispanicseminary/OSTA) and Zenodo 10.5281/zenodo.18931376 (CC BY-NC-SA 4.0, verified live), which is exactly the Renascor Corpus source (Cortes' Cartas de relación, Libro de albeiteria, Libro del abad don Juan etc.). Main search interface v2.0 verified live. The Renascor Corpus keeps the semi-paleographic text layer (not the lemmatized one). The GitHub repository now holds 670 transcriptions, against 644 in this Zenodo version. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Hispanic Seminary of Medieval Studies (HSMS); Francisco Gago Jover (College of the Holy Cross) & F. Javier Pueyo Mena",
+   "editors": [
+    "Francisco Gago Jover",
+    "F. Javier Pueyo Mena"
+   ],
+   "published": 2026,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 21519708,
@@ -8904,7 +9595,7 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-NC-SA-4.0",
    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
-   "doi": "10.5281/zenodo.18931376",
+   "doi": "10.5281/zenodo.18931375",
    "language_counts": [
     {
      "language": "Spanish",
@@ -8976,6 +9667,10 @@
    "status": "archived",
    "date": "1507-1508",
    "institution": "Herzog August Bibliothek Wolfenbüttel (edited by Norbert Ankenbauer; Editiones Electronicae Guelferbytanae 10)",
+   "editors": [
+    "Norbert Ankenbauer"
+   ],
+   "published": 2018,
    "region": "Italy and Germany",
    "countries": [
     "IT",
@@ -9022,7 +9717,12 @@
    "license": "Copyright",
    "license_url": "https://hallgrimurpetursson.is/um-vefinn/",
    "license_note": "The 'Um vefinn' page carries the notice '©RÚV 2014'; no open licence is stated and third-party recordings are used with permission. The text is in modern spelling.",
-   "institution": "RÚV (Ríkisútvarpið); Stofnun Árna Magnússonar á Íslandi; Landsbókasafn Íslands – Háskólabókasafn"
+   "institution": "RÚV (Ríkisútvarpið); Stofnun Árna Magnússonar á Íslandi; Landsbókasafn Íslands – Háskólabókasafn",
+   "editors": [
+    "Anna S. Melsteð",
+    "Jón Karl Helgason"
+   ],
+   "published": 1998
   },
   {
    "title": "Correspondance complète et autres écrits de Guy Patin",
@@ -9040,6 +9740,9 @@
    "author": "Guy Patin",
    "date": "1630-1673",
    "institution": "Bibliothèque interuniversitaire de santé / Université Paris Cité (Numérabilis); edited by Loïc Capron",
+   "editors": [
+    "Loïc Capron"
+   ],
    "region": "France (Paris)",
    "countries": [
     "FR"
@@ -9104,6 +9807,11 @@
    "author": "Blaise Pascal",
    "date": "1662-1678",
    "institution": "Gilles Proust and Dominique Descotes (hosted at Clermont Université, with BnF images)",
+   "editors": [
+    "Gilles Proust",
+    "Dominique Descotes"
+   ],
+   "published": 2011,
    "region": "France",
    "countries": [
     "FR"
@@ -9197,6 +9905,10 @@
    "provenance": "discovered",
    "date_added": "2026-10-08",
    "institution": "Herzog August Bibliothek Wolfenbüttel (DFG long-term project; research data archived at arthistoricum.net@heiDATA, Universität Heidelberg)",
+   "editors": [
+    "Martin de la Iglesia",
+    "Michael Wenzel"
+   ],
    "period": "1594–1636 (17th century)",
    "region": "Germany (Augsburg and the courts of southern Germany)",
    "years_active": {
@@ -9214,7 +9926,8 @@
    },
    "count_basis": "rq-retained-rows",
    "license_url": "https://hainhofer.hab.de/informationen-zur-edition/nutzungsbedingungen",
-   "license_note": "The Nutzungsbedingungen page says the text content is available under a Creative Commons licence (CC BY-SA, version not given on the page); the heiDATA/B2FIND record for the research data (DOI 10.11588/data/DVU14P) specifies CC BY-SA 4.0. HAB images are public domain; other images carry their own licences and may not be reproduced."
+   "license_note": "The Nutzungsbedingungen page says the text content is available under a Creative Commons licence (CC BY-SA, version not given on the page); the heiDATA/B2FIND record for the research data (DOI 10.11588/data/DVU14P) specifies CC BY-SA 4.0. HAB images are public domain; other images carry their own licences and may not be reproduced.",
+   "doi": "10.11588/data/DVU14P"
   },
   {
    "title": "The Philological Museum: Library of Humanistic Texts (Dana F. Sutton, ed.)",
@@ -9230,6 +9943,10 @@
    "encoding": "html",
    "status": "active",
    "institution": "The Shakespeare Institute, University of Birmingham (editor Dana F. Sutton, University of California, Irvine)",
+   "editors": [
+    "Dana F. Sutton",
+    "Martin Wiggins"
+   ],
    "period": "c. 1459-1700 (a few later items)",
    "region": "Great Britain (some continental authors)",
    "countries": [
@@ -9394,6 +10111,10 @@
    "period": "1565-1565",
    "notes": "A Zenodo-published TEI-XML dataset of the critical digital edition of Porzio's La congiura de' Baroni (first published Naples 1565), encoded and curated by Cristiano Amendola; matches the Renascor Corpus origin (single text). DOI 10.5281/zenodo.18047915 verified live; license CC BY 4.0. The Renascor Corpus holds the TEI-derived text (~49k words). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Cristiano Amendola (KU Leuven), within PRIN 2022 \"HISTORIALE MARE\" (PI Fulvio Delle Donne, Università di Napoli Federico II)",
+   "editors": [
+    "Cristiano Amendola"
+   ],
+   "published": 2025,
    "last_modified": "2026-03-01",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -9631,6 +10352,10 @@
    "encoding": "tei",
    "status": "archived",
    "institution": "Herzog August Bibliothek Wolfenbüttel (Editiones Electronicae Guelferbytanae 2; transcribed by Jolanta Gelumbeckaite)",
+   "editors": [
+    "Jolanta Gelumbeckaite"
+   ],
+   "published": 2006,
    "date": "1585",
    "period": "1585",
    "region": "Lithuania",
@@ -9674,6 +10399,10 @@
    "period": "1570-1600",
    "notes": "QhoD is the born-digital critical edition of Habsburg-Ottoman diplomatic sources (diplomatic correspondence, instructions, minutes...), TEI encoded, CC BY 4.0, published via qhod.net (verified live) with TEI/image data released on GitHub (QHOD/qhod-edition-data) and Zenodo (10.5281/zenodo.14449603, release 2.0 by Stephan Kurz, verified live) — exactly the Renascor Corpus source. The Renascor Corpus's 219 texts (1570-1600 era) come from that Zenodo/GitHub TEI edition-data bundle (Habsburg-Ottoman diplomatic texts in Latin etc.). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "QhoD project (PI Arno Strohmeyer), Institute for Habsburg and Balkan Studies (IHB), Austrian Academy of Sciences (OEAW); technical editor Stephan Kurz; TEI publishing via ACDH-CH/ZIM Graz (GAMS)",
+   "editors": [
+    "Stephan Kurz"
+   ],
+   "published": 2024,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 21296,
@@ -9713,6 +10442,12 @@
    "encoding": "tei",
    "status": "active",
    "institution": "Queen's Men Editions (general editors Helen Ostovich and Peter Cockett; text editor Andrew Griffin, from 2026 Janelle Jenstad), published by the University of Victoria's LEMDO platform",
+   "editors": [
+    "Helen Ostovich",
+    "Peter Cockett",
+    "Andrew Griffin",
+    "Janelle Jenstad"
+   ],
    "date": "1594-1605 (printed quartos)",
    "period": "1590s-1605",
    "region": "England",
@@ -9747,6 +10482,13 @@
    "encoding": "html",
    "status": "active",
    "institution": "Scottish Parliament Project, School of History, University of St Andrews",
+   "editors": [
+    "Keith M. Brown",
+    "Gillian H. MacIntosh",
+    "Alastair J. Mann",
+    "Pamela E. Ritchie",
+    "Roland J. Tanner"
+   ],
    "region": "Scotland",
    "countries": [
     "GB-SCT"
@@ -9842,6 +10584,13 @@
    "license_url": "https://zenodo.org/records/5793616",
    "doi": "10.5281/zenodo.5793616",
    "institution": "Ruhr-Universität Bochum; Martin-Luther-Universität Halle-Wittenberg; Universität Potsdam",
+   "editors": [
+    "Klaus-Peter Wegera",
+    "Hans-Joachim Solms",
+    "Ulrike Demske",
+    "Stefanie Dipper"
+   ],
+   "published": 2021,
    "license_note": "The Zenodo record states Creative Commons Attribution 4.0 International (the catalogue's earlier value, CC-BY-SA-4.0, did not match the record)."
   },
   {
@@ -9895,6 +10644,10 @@
    "encoding": "html",
    "status": "active",
    "institution": "ELTE BTK Magyar Irodalomtörténeti Intézet, Régi Magyar Irodalom Tanszék (edited by Bartók Zsófia Ágnes; OTKA PD 137996)",
+   "editors": [
+    "Zsófia Ágnes Bartók"
+   ],
+   "published": 2014,
    "period": "16th century (Hungarian codices)",
    "region": "Kingdom of Hungary",
    "countries": [
@@ -9931,6 +10684,10 @@
    "author": "Edition by Bogumił Szady",
    "date": "1561",
    "institution": "Lublin Historical Database (LHDB), Catholic University of Lublin; Bogumił Szady, tagging by Łukasz Poznański",
+   "editors": [
+    "Bogumił Szady"
+   ],
+   "published": 2025,
    "words": 9484,
    "texts": 2,
    "region": "Greater Poland (diocese of Poznań)",
@@ -9949,7 +10706,8 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-NC-SA-4.0",
    "license_url": "https://wiki.kul.pl/lhdb/Rejestr_kontrybucji_diecezji_pozna%C5%84skiej_z_1561_r.",
-   "license_note": "The TEI file's publicationStmt points to this LHDB wiki page ('Opis i dane badawcze'), whose footer states Creative Commons Attribution-NonCommercial-ShareAlike (link to by-nc-sa/4.0). The TEI Publisher app and the TEI header themselves carry no licence, so the licence is inferred from the linked research-data page."
+   "license_note": "The TEI file's publicationStmt points to this LHDB wiki page ('Opis i dane badawcze'), whose footer states Creative Commons Attribution-NonCommercial-ShareAlike (link to by-nc-sa/4.0). The TEI Publisher app and the TEI header themselves carry no licence, so the licence is inferred from the linked research-data page.",
+   "doi": "10.5281/zenodo.13840882"
   },
   {
    "title": "Relationen vom russischen Hof: Berichte europäischer Diplomaten, 1690-1730",
@@ -9963,6 +10721,11 @@
    "encoding": "html",
    "status": "archived",
    "institution": "Deutsches Historisches Institut Moskau (editors Lorenz Erren and Franziska Schedewie)",
+   "editors": [
+    "Lorenz Erren",
+    "Franziska Schedewie"
+   ],
+   "published": 2016,
    "period": "1690-1696 (edition covers 1690-1730)",
    "region": "Russia, Holy Roman Empire",
    "countries": [
@@ -10011,6 +10774,10 @@
    "encoding": "tei",
    "status": "archived",
    "institution": "Herzog August Bibliothek Wolfenbüttel and Universitäts- und Landesbibliothek Darmstadt (edited by Irene Dingel)",
+   "editors": [
+    "Irene Dingel"
+   ],
+   "published": 2020,
    "date": "1485-1689 (edition runs to 1788)",
    "period": "1485-1689",
    "region": "Holy Roman Empire, France, Bohemia, Poland-Lithuania, Savoy, England",
@@ -10100,6 +10867,7 @@
    "period": "1450-1699",
    "notes": "The ReN collection is NOT a ReFrame sub-project but the Referenzkorpus Mittelniederdeutsch/Niederrheinisch (ReN, 1200-1650), the DFG reference corpus of Middle Low German/Low Rhenish texts built at the Universities of Hamburg and Münster. The texts come from the CorA-ReN-XML TEI dump the project distributes; corpus metadata is CC-BY via the RefCorG/REDE framework. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Universität Hamburg (DFG project; Prof. Ingrid Schröder / Prof. Robert Langhanke)",
+   "published": 2018,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 1475279,
@@ -10125,6 +10893,10 @@
    "encoding": "html",
    "status": "active",
    "institution": "Department of English and Library, University of Toronto (Ian Lancashire, editor)",
+   "editors": [
+    "Ian Lancashire"
+   ],
+   "published": 1994,
    "region": "British Isles",
    "countries": [
     "GB-ENG",
@@ -10166,6 +10938,10 @@
    "period": "c. 1580-1680",
    "notes": "Zenodo dataset DOI 10.5281/zenodo.17537343 (all-versions DOI 10.5281/zenodo.17537048 family): 100 securely attributed comedias by nine Golden Age playwrights (Cervantes, Lope, Tirso, Calderon, etc.), each in original and rhythmic-scansion versions, produced with Fernando Sanz-Lázaro's libEscansión and revised by hand. It accompanies Álvaro Cuéllar's article 'From Atoms to Waves: Rhythmic Stylometry for Authorship Studies of Early Modern Spanish Theatre' (Janus 14, 2025). Licence CC BY 4.0. The record is the exact source string cited by the harvest ('Cuéllar Rhythmic Corpus 100 SGA Plays'). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Universitat Autònoma de Barcelona (Álvaro Cuéllar)",
+   "editors": [
+    "Álvaro Cuéllar"
+   ],
+   "published": 2025,
    "last_modified": "2025-11-05",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -10175,7 +10951,7 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
    "license_url": "https://zenodo.org/records/17537343",
-   "doi": "10.5281/zenodo.17537343"
+   "doi": "10.5281/zenodo.17537048"
   },
   {
    "title": "RIALC - Repertorio informatizzato dell'antica letteratura catalana",
@@ -10195,6 +10971,21 @@
    "period": "1455-1490",
    "notes": "RIALC (built 1999-2003 at Naples Federico II, in collaboration with the Universities of Barcelona, UAB and Girona) is the standard digital library of medieval Catalan poetry: ~216 authors and ~1,600 13th-15th c. poems transcribed from critical editions (HTML, not TEI). The texts include Joan de Masdovelles (~1460, 9 poems) and Joan Berenguer de Masdovelles (~1460, 168 poems); they are author pages of this repertory. No explicit licence; site is live but the project is no longer actively extended. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Università degli Studi di Napoli Federico II (dir. Costanzo Di Girolamo, with Lola Badia)",
+   "editors": [
+    "Costanzo Di Girolamo",
+    "Lola Badia",
+    "Lluís Cabré",
+    "Miriam Cabré",
+    "Sadurní Martí",
+    "Gemma Navarro",
+    "Josep Pujol",
+    "Xavier Renedo",
+    "Jaume Turró",
+    "Massimiliano Andreoli",
+    "Anna Maria Compagna",
+    "Claudio Franchi",
+    "Aniello Fratta"
+   ],
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 220010,
@@ -10249,6 +11040,10 @@
    "encoding": "html",
    "status": "archived",
    "institution": "ELTE BTK Magyar Irodalomtörténeti Intézet, Reneszánszkutatások Posztgraduális Központja (CHER) and BÖIP Tartalomipari Laboratórium; edited by Tóth Tünde",
+   "editors": [
+    "Tünde Tóth"
+   ],
+   "published": 2001,
    "author": "Rimay János",
    "date": "c. 1590-1610 (sources 1596-1677)",
    "period": "late 16th and 17th centuries",
@@ -10293,6 +11088,11 @@
    "period": "1539-1678",
    "notes": "The ConDE project (RIN = Réseau d'Intérêt Normand funding scheme; the TEI corpus itself is released on GitHub at github.com/RIN-ConDE/editions, which is why the Renascor Corpus collection carries the 'RIN-ConDE' name) transcribes and TEI-encodes successive editions of the Coutume de Normandie and its commentaries (Le Rouillé 1539, Terrien 1578, Bérault 1614, Basnage 1678...). The project site is hosted by the MRSH / Pôle Document Numérique in Caen with a blog at conde.hypotheses.org; corpus cited as 'corpus ConDE, Caen, CRISCO EA4255'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "CRISCO EA4255 / MRSH, Université de Caen Normandie (Pierre Larrivée, Mathieu Goux; with Université de Rouen), funded by the Région Normandie RIN programme",
+   "editors": [
+    "Pierre Larrivée",
+    "Mathieu Goux"
+   ],
+   "published": 2021,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 2539837,
@@ -10326,6 +11126,9 @@
    },
    "count_basis": "rq-retained-rows",
    "institution": "John Thornton, Boston University (African Texts)",
+   "editors": [
+    "John Thornton"
+   ],
    "license": "Copyright",
    "license_note": "The page (edition, translation and commentary by John Thornton) carries only the Boston University footer '(c) Boston University. All rights reserved.'; no reuse licence is stated on the page or the faculty page.",
    "license_url": "https://www.bu.edu/afam/people/faculty/john-thornton/roboredo-kikongo-sermon/"
@@ -10374,6 +11177,10 @@
    "encoding": "html",
    "status": "active",
    "institution": "Universitätsarchiv Rostock (edited by Kersten Krüger)",
+   "editors": [
+    "Kersten Krüger"
+   ],
+   "published": 2010,
    "region": "Northern Germany (Rostock)",
    "countries": [
     "DE"
@@ -10405,6 +11212,11 @@
    "encoding": "tei",
    "status": "archived",
    "institution": "Martin-Luther-Universität Halle-Wittenberg (Katrin Moeller and Andreas Müller); source: Stadtarchiv Rostock",
+   "editors": [
+    "Katrin Moeller",
+    "Andreas Müller"
+   ],
+   "published": 2019,
    "author": "Katrin Moeller; Andreas Müller (editors)",
    "date": "1543-1596",
    "period": "1543-1596",
@@ -10434,6 +11246,13 @@
    "provenance": "submitted",
    "date_added": "2026-10-07",
    "institution": "Saarland University (SFB 1102, Project B1 'Information Density and Scientific Literacy in English'; Fischer, Knappen, Menzel, Teich)",
+   "editors": [
+    "Stefan Fischer",
+    "Jörg Knappen",
+    "Katrin Menzel",
+    "Elke Teich"
+   ],
+   "published": 2016,
    "languages": [
     "English"
    ],
@@ -10476,6 +11295,11 @@
    "encoding": "tei",
    "status": "archived",
    "institution": "Herzog August Bibliothek Wolfenbüttel (Editiones Electronicae Guelferbytanae 6); edited by Nils Büttner and Ulrich Heinen, prepared by Agnes Heine",
+   "editors": [
+    "Nils Büttner",
+    "Ulrich Heinen"
+   ],
+   "published": 2011,
    "date": "1564-1699",
    "period": "1564-1699",
    "region": "Antwerp, Cologne and Europe",
@@ -10562,7 +11386,12 @@
    "license": "Custom terms",
    "license_url": "https://ruscorpora.ru/page/terms",
    "license_note": "Source-specific reuse conditions; no standard open licence established.",
-   "institution": "Vinogradov Institute of the Russian Language, RAS (Russian National Corpus), with HSE University and Lomonosov Moscow State University"
+   "institution": "Vinogradov Institute of the Russian Language, RAS (Russian National Corpus), with HSE University and Lomonosov Moscow State University",
+   "editors": [
+    "Olga Lyashevskaya",
+    "Dmitri Sitchinava"
+   ],
+   "published": 2019
   },
   {
    "title": "Sobornoe ulozhenie 1649 goda (Russian Wikisource transcription)",
@@ -10653,6 +11482,14 @@
    "encoding": "tei",
    "status": "archived",
    "institution": "Sandrart.net project (Thomas Kirchner, Alessandro Nova, Carsten Blüm, Anna Schreurs and Thorsten Wübbena), Frankfurt, Florence and Heidelberg",
+   "editors": [
+    "Thomas Kirchner",
+    "Alessandro Nova",
+    "Carsten Blüm",
+    "Anna Schreurs",
+    "Thorsten Wübbena"
+   ],
+   "published": 2012,
    "author": "Joachim von Sandrart",
    "date": "1675-1680",
    "period": "1675-1680",
@@ -10692,6 +11529,11 @@
    "encoding": "html",
    "status": "active",
    "institution": "Université de Fribourg (Claude Bourqui, Alexandre Gefen and Barbara Selmeci; original site 2002-2019, Université de Neuchâtel)",
+   "editors": [
+    "Christophe Schuwey",
+    "Claude Bourqui"
+   ],
+   "published": 2002,
    "author": "Madeleine and Georges de Scudéry",
    "date": "1649-1653",
    "period": "1649-1656",
@@ -10770,6 +11612,14 @@
    "encoding": "tei",
    "status": "active",
    "institution": "Herzog August Bibliothek Wolfenbüttel",
+   "editors": [
+    "Inga Hanna Ralle",
+    "Alexander Zirr",
+    "Andreas Herz",
+    "Jan-Hendrik Hütten",
+    "Miriam Mulzer"
+   ],
+   "published": 2017,
    "date": "1594-1635; 1698-1699",
    "period": "1594-1635 and 1698-1699 (portal also holds diaries of 1701-1724)",
    "region": "Brunswick-Wolfenbüttel",
@@ -10822,7 +11672,25 @@
    "license": "CC-BY-SA-4.0",
    "license_url": "https://repository.clarin.lv/repository/xmlui/handle/20.500.12574/141",
    "license_note": "The CLARIN.LV record says 'This item is Publicly Available and licensed under: Creative Commons - Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)'; it covers the downloadable corpus files (TEI XML and plain text). The senie.korpuss.lv site itself states no separate licence.",
-   "institution": "AiLab IMCS UL (Artificial Intelligence Laboratory, Institute of Mathematics and Computer Science, University of Latvia) and Latvian Language Institute, University of Latvia"
+   "institution": "AiLab IMCS UL (Artificial Intelligence Laboratory, Institute of Mathematics and Computer Science, University of Latvia) and Latvian Language Institute, University of Latvia",
+   "editors": [
+    "Everita Andronova",
+    "Maija Baltiņa",
+    "Anna Frīdenberga",
+    "Normunds Grūzītis",
+    "Sintija Ķauķīte",
+    "Kristīne Pokratniece",
+    "Lauma Pretkalniņa",
+    "Renāte Siliņa-Piņķe",
+    "Elga Skrūzmane",
+    "Andrejs Spektors",
+    "Mārtiņš Spektors",
+    "Ilze Štrausa",
+    "Anta Trumpa",
+    "Edmunds Trumpa",
+    "Pēteris Vanags"
+   ],
+   "published": 2003
   },
   {
    "title": "SERMO - Corpus de sermons protestants 1550-1750",
@@ -10844,6 +11712,10 @@
    "period": "1555-1750",
    "notes": "SERMO is an SNSF project (2015-2018) at Neuchâtel that produced a corpus of 62 French Protestant sermons (about 600,000 tokens, mostly printed in Geneva, 1555-1750). The complete TEI texts are on the project site (served over http only); the Zenodo deposit (DOI 10.5281/zenodo.14620210, CC BY 4.0) is only a partial copy. The annotation (lemmas, parts of speech) is available only through the project's CQPweb interface, which needs a login. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Universite de Neuchatel (Carine Skupien Dekens; SNSF grant 105212_160030)",
+   "editors": [
+    "Carine Skupien Dekens"
+   ],
+   "published": 2018,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 521919,
@@ -10852,7 +11724,7 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-4.0",
    "license_note": "The Zenodo record 'Corpus SERMO: un corpus annote de 62 sermons protestants en francais' (deposited by project lead Carine Skupien Dekens, which links back to sermo.unine.ch) is licensed CC BY 4.0 for the TEI files. The SERMO site and the TEI headers carry no licence of their own, so this is the only explicit statement and is applied by inference to the same texts.",
-   "doi": "10.5281/zenodo.14620210",
+   "doi": "10.5281/zenodo.14620209",
    "license_url": "https://zenodo.org/records/14620210"
   },
   {
@@ -10870,6 +11742,9 @@
    "encoding": "tei",
    "status": "archived",
    "institution": "Herzog August Bibliothek Wolfenbüttel (Editiones Electronicae Guelferbytanae 16); transcribed by Jonathan West",
+   "editors": [
+    "Jonathan West"
+   ],
    "author": "Johannes Serranus",
    "date": "1538",
    "period": "1538",
@@ -10907,6 +11782,10 @@
    "encoding": "html",
    "status": "archived",
    "institution": "Jeremy Hylton; operated by The Tech (MIT), hosted by MIT IS&T",
+   "editors": [
+    "Jeremy Hylton"
+   ],
+   "published": 1993,
    "author": "William Shakespeare",
    "region": "England",
    "countries": [
@@ -10954,7 +11833,11 @@
    "license": "Mixed",
    "license_url": "https://chmtl.indiana.edu/",
    "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "institution": "Center for the History of Music Theory and Literature (CHMTL), Indiana University Bloomington"
+   "institution": "Center for the History of Music Theory and Literature (CHMTL), Indiana University Bloomington",
+   "editors": [
+    "Andreas Giger"
+   ],
+   "published": 1997
   },
   {
    "title": "Corpus de sonetos del Siglo de Oro (ADSO)",
@@ -10976,6 +11859,12 @@
    "texts": 5078,
    "notes": "The well-known metrical corpus of 5,078 Spanish Golden Age sonnets (matching the catalogue count) in TEI XML with metrical pattern annotation, edited by Borja Navarro-Colorado (Univ. Alicante) from texts of the Biblioteca Virtual Miguel de Cervantes; part of the ADSO project. Licence CC BY-NC 4.0 for the annotations (BVMC terms for the texts); a searchable interface exists at BVMC.Labs (data.cervantesvirtual.com/goldenage). The 'Sonetos del Siglo de Oro' label in the harvest refers to this corpus (texts stem from Ramón García González-type BVMC anthologies). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Universidad de Alicante (Borja Navarro-Colorado; ADSO project, Fundacion BBVA)",
+   "editors": [
+    "Borja Navarro-Colorado",
+    "María Ribes Lafoz",
+    "Noelia Sánchez"
+   ],
+   "published": 2016,
    "last_modified": "2026-02-19",
    "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -10985,7 +11874,8 @@
    "count_basis": "rq-retained-rows",
    "license": "Mixed",
    "license_url": "https://www.cervantesvirtual.com/marco-legal/",
-   "license_note": "Includes CC-BY-NC-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+   "license_note": "Includes CC-BY-NC-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+   "doi": "10.5281/zenodo.3634441"
   },
   {
    "title": "Die sozinianischen Briefwechsel: Zwischen Theologie, frühmoderner Naturwissenschaft und politischer Korrespondenz",
@@ -11080,6 +11970,29 @@
    "period": "1500-1644",
    "notes": "SSRQ is Switzerland's critical edition series of medieval/early modern legal sources, published in XML/TEI online since 2019 (Omeka S) and now also on the new 'editio' platform; the harvested origins are Zurich volumes of the Neue Folge (e.g. 'SSRQ ZH_NF_I_2_1 (1452-1637, 222 docs)', 'SSRQ ZH_NF_II_11 (1458-1696, 124 docs)'). The old domain ssrq-sdsr.ch has been renamed to ssrq-sds-fds.ch (the .sdsr URLs no longer resolve); TEI data is published on Zenodo (DOI 10.5281/zenodo.10878757) and by the GitHub org SSRQ-SDS-FDS. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Law Sources Foundation of the Swiss Jurists' Society (SSRQ), editorial office at the Universität Zürich (Historisches Seminar)",
+   "editors": [
+    "Arnaud Besson",
+    "Rita Binz-Wohlhauser",
+    "Pau Castell Granados",
+    "Maurice de Tribolet",
+    "Lionel Dorthe",
+    "Dominique Favarger",
+    "Ariane Huber Hernándzes",
+    "Rainer Hugener",
+    "Lionel Lüthi",
+    "Sibylle Malamud",
+    "Michael Nadig",
+    "Gwendolin Ortega",
+    "Martine Ostorero",
+    "Grégoire Oguey",
+    "Bastian Politycki",
+    "Sandra Reisinger",
+    "Michael Schaffner",
+    "Christian Sonder",
+    "Pascale Sutter",
+    "Adrien Wyssbrod"
+   ],
+   "published": 2018,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 1058858,
@@ -11089,7 +12002,7 @@
    "license": "Mixed",
    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
    "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "doi": "10.5281/zenodo.10878757"
+   "doi": "10.5281/zenodo.10876640"
   },
   {
    "title": "Briefverkehr der Stadt St. Gallen 1400-1650: Digitale Missivenedition",
@@ -11107,6 +12020,7 @@
    "author": "Correspondents of the city of St. Gall",
    "date": "1417-1651",
    "institution": "Stadtarchiv und Vadianische Sammlung der Ortsbürgergemeinde St. Gallen",
+   "published": 2024,
    "words": 176091,
    "texts": 542,
    "region": "St. Gall and Eastern Switzerland",
@@ -11205,6 +12119,11 @@
    "status": "discontinued",
    "date": "late 15th century (approved 1487-1490)",
    "institution": "Archivio di Stato di Grosseto and Pro Loco di Paganico (edited by Silvia Cappelli and Franca Doccini; introduction by Mario Ascheri)",
+   "editors": [
+    "Silvia Cappelli",
+    "Franca Doccini"
+   ],
+   "published": 1997,
    "region": "Tuscany (Maremma)",
    "countries": [
     "IT"
@@ -11229,6 +12148,11 @@
    "url": "https://suriano.huygens.knaw.nl/",
    "data_url": "https://github.com/HuygensING/suriano/tree/main/datasource/tei",
    "data_format": "tei",
+   "editors": [
+    "Helmer Helmers",
+    "Nina Lamal"
+   ],
+   "published": 2024,
    "languages": [
     "Italian"
    ],
@@ -11253,7 +12177,7 @@
    "license": "Mixed",
    "license_url": "https://zenodo.org/records/13950093",
    "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "doi": "10.5281/zenodo.13950093"
+   "doi": "10.5281/zenodo.13950092"
   },
   {
    "title": "SVEA-Pommern: Maps and texts of the Swedish land survey of Pomerania north of the Peene (1692-1709)",
@@ -11292,6 +12216,7 @@
    "url": "https://www.gutenberg.org/ebooks/16119",
    "data_url": "https://www.gutenberg.org/ebooks/16119",
    "data_format": "html",
+   "published": 2005,
    "languages": [
     "Tagalog"
    ],
@@ -11332,6 +12257,13 @@
    "status": "active",
    "author": "Christian II of Anhalt-Bernburg",
    "institution": "Herzog August Bibliothek Wolfenbüttel, Sachsen-Anhalt project (transcription by Andreas Herz and others)",
+   "editors": [
+    "Ronald G. Asch",
+    "Arndt Schreiber",
+    "Antoine Odier",
+    "Alexander Zirr",
+    "Andreas Herz"
+   ],
    "region": "Germany, Austria and Bohemia",
    "countries": [
     "DE",
@@ -11407,6 +12339,10 @@
    },
    "count_basis": "rq-retained-rows",
    "institution": "Sarah L. Cline and Miguel León-Portilla; UCLA Latin American Center Publications (Nahuatl Studies Series 1, 1984); PDF hosted by the UCSB Department of History",
+   "editors": [
+    "S. L. Cline",
+    "Miguel León-Portilla"
+   ],
    "license": "Not stated",
    "license_note": "The PDF (a 'provisionally modified first edition' posted for open reading, PDF dated January 2010, series editor James Lockhart) has no copyright, licence or permission statement in its front matter or text, and no hosting page on history.ucsb.edu gives terms (checked 2026-10-13). The 1984 print edition was published by the UCLA Latin American Center; a revised trilingual edition was issued in 2023 by Universidad Iberoamericana."
   },
@@ -11534,7 +12470,16 @@
    "license": "CC-BY-NC-SA-4.0",
    "license_url": "https://ticha.haverford.edu/",
    "license_note": "The Ticha website states CC BY-NC-SA 4.0 (applied here); the data repository's license.txt states CC BY-SA 4.0.",
-   "institution": "Haverford College (Brook Danielle Lillehaugen, project lead), with the University of Florida and UNAM; Zapotec Advisory Board"
+   "institution": "Haverford College (Brook Danielle Lillehaugen, project lead), with the University of Florida and UNAM; Zapotec Advisory Board",
+   "editors": [
+    "Brook Danielle Lillehaugen",
+    "George Aaron Broadwell",
+    "Michel R. Oudijk",
+    "Laurie Allen",
+    "May Plumb",
+    "Mike Zarafonetis"
+   ],
+   "published": 2016
   },
   {
    "title": "Johannes Tinctoris: Complete Theoretical Works (Early Music Theory)",
@@ -11660,7 +12605,12 @@
    "license": "Mixed",
    "license_url": "https://web.archive.org/web/20230529094521/https://euromusicology.cs.uu.nl/copyright.html",
    "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "institution": "Department of Information and Computing Sciences, Utrecht University (TMI); Center for the History of Music Theory and Literature, Indiana University (SMI)"
+   "institution": "Department of Information and Computing Sciences, Utrecht University (TMI); Center for the History of Music Theory and Literature, Indiana University (SMI)",
+   "editors": [
+    "F. Wiering"
+   ],
+   "published": 2000,
+   "doi": "10.17026/dans-zum-ywbw"
   },
   {
    "title": "TMK",
@@ -11688,7 +12638,13 @@
    "license": "Mixed",
    "license_url": "https://nytud.hu/impresszum",
    "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "institution": "Research Institute for Linguistics, Budapest (Novák, Gugán, Varga, Dömötör)"
+   "institution": "Research Institute for Linguistics, Budapest (Novák, Gugán, Varga, Dömötör)",
+   "editors": [
+    "Attila Novák",
+    "Katalin Gugán",
+    "Mónika Varga",
+    "Adrienne Dömötör"
+   ]
   },
   {
    "title": "Thesaurus Musicarum Latinarum Revivificatus (TMLr) - adaptation of the TML",
@@ -11719,7 +12675,10 @@
    "license": "CC-BY-4.0",
    "license_url": "https://cmm2209.github.io/TMLr/terms/",
    "license_note": "The terms page says the TMLr is 'licensed under CC BY 4.0 by Caleb Mutch' and adapted from the TML, which is itself used under CC BY 4.0; copyrighted materials of the original TML are excluded. The GitHub repository carries no separate LICENSE file.",
-   "institution": "Center for the History of Music Theory and Literature, Indiana University (original TML); adapted as TMLr by Caleb Mutch"
+   "institution": "Center for the History of Music Theory and Literature, Indiana University (original TML); adapted as TMLr by Caleb Mutch",
+   "editors": [
+    "Caleb Mutch"
+   ]
   },
   {
    "title": "RenArD — Renaissance Aristophanes Digital (Translatoscope / ELAN)",
@@ -11741,6 +12700,11 @@
    "period": "1460-1580",
    "notes": "RenArD is the Renaissance branch of the Translatoscope project (ELAN, Litt&Arts Grenoble), offering the first XML-TEI editions of the Latin humanist translations of Aristophanes — Ploutos and Les Nuees (Clouds) translated by Alessandro da Otranto (1470), Johannes Cuno, Beatus Rhenanus, Lorenzo Giacomini etc. — presented alongside the manuscript facsimile via EVT. The harvested origins ('Translatoscope: Les Nuees / Alessandro da Otranto (1470)', 'Translatoscope: Ploutos / Beatus Rhenanus (1520)') map directly onto these translations; TEI data is deposited on Nakala. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "UMR Litt&Arts, Universite Grenoble Alpes (Malika Bastin-Hammou; ELAN project)",
+   "editors": [
+    "Malika Bastin-Hammou",
+    "Micol Muttini"
+   ],
+   "published": 2024,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 46329,
@@ -11778,7 +12742,12 @@
    "license": "Mixed",
    "license_url": "https://www.tycho.iel.unicamp.br/corpus/en/termos.html",
    "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "institution": "Instituto de Estudos da Linguagem (IEL), Universidade Estadual de Campinas (UNICAMP), with IME-USP"
+   "institution": "Instituto de Estudos da Linguagem (IEL), Universidade Estadual de Campinas (UNICAMP), with IME-USP",
+   "editors": [
+    "Charlotte Galves",
+    "Pablo Faria"
+   ],
+   "published": 2017
   },
   {
    "title": "Corpus de Documentos Coloniales (CDC) de Mérida, Venezuela — Documentos para la Historia Lingüística de Mérida (siglos XVI-XVII)",
@@ -11794,6 +12763,10 @@
    "provenance": "discovered",
    "date_added": "2026-10-12",
    "institution": "Grupo de Lingüística Hispánica, Universidad de Los Andes, Mérida (Enrique Obediente Sosa, ed.)",
+   "editors": [
+    "Enrique Obediente Sosa"
+   ],
+   "published": 2002,
    "words": 58764,
    "texts": 37,
    "region": "Province of Mérida (Venezuela) and Santa Fe de Bogotá",
@@ -11859,6 +12832,12 @@
    "encoding": "tei",
    "status": "archived",
    "institution": "Universität Basel (Susanna Burghartz, Sonia Calvi) and Zentrum für Informationsmodellierung, Universität Graz (Georg Vogeler)",
+   "editors": [
+    "Susanna Burghartz",
+    "Sonia Calvi",
+    "Georg Vogeler"
+   ],
+   "published": 2016,
    "words": 85455,
    "texts": 621,
    "region": "Basel",
@@ -11905,7 +12884,15 @@
    "license": "CC-BY-NC",
    "license_url": "https://metashare.ut.ee/repository/browse/corpus-of-old-written-estonian/53973be2a0d411eebb4773db10791bcf0d15f5f74b8c4044bd3088073242f4a4/",
    "license_note": "The META-SHARE record (DOI 10.15155/1-00-0000-0000-0000-00075L) gives licence 'CC - BY - NC', restricted to academic non-commercial use, without stating a version, so the SPDX id is approximate. The vakk.ut.ee site itself shows no licence. The catalogue value 'Mixed' may be kept if the court protocols differ.",
-   "institution": "University of Tartu (research group on Old Literary Estonian, Chair of Estonian)"
+   "institution": "University of Tartu (research group on Old Literary Estonian, Chair of Estonian)",
+   "editors": [
+    "Külli Prillop",
+    "Külli Habicht",
+    "Epp Ehasalu",
+    "Valve-Liivi Kingisepp",
+    "Jaak Peebo"
+   ],
+   "doi": "10.15155/1-00-0000-0000-0000-00075l"
   },
   {
    "title": "The Music Theory of Harald Vallerius: Three Dissertations from 17th-century Sweden (P. Sjökvist)",
@@ -11932,6 +12919,10 @@
    "count_basis": "rq-retained-rows",
    "doi": "10.33063/j1deaz91",
    "institution": "Peter Sjökvist; Uppsala University (Studia Latina Upsaliensia 33, 2012)",
+   "editors": [
+    "Peter Sjökvist"
+   ],
+   "published": 2012,
    "license": "CC-BY-NC-ND-4.0",
    "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
   },
@@ -11951,6 +12942,10 @@
    "encoding": "json",
    "status": "archived",
    "institution": "Huygens ING (KNAW), edited by Jan Bloemendal with Boukje Thijs and student contributors",
+   "editors": [
+    "Jan Bloemendal",
+    "Boukje Thijs"
+   ],
    "author": "Joannes Antonides van der Goes",
    "texts": 1,
    "words": 46965,
@@ -11988,6 +12983,10 @@
    "author": "Benedetto Varchi",
    "date": "Composed before 1565 (narrates 1527-1530)",
    "institution": "DH.ARC, Università di Bologna, with Concordia University (Montréal) and CarisBo",
+   "editors": [
+    "Dario Brancato"
+   ],
+   "published": 2020,
    "words": 3045,
    "texts": 1,
    "region": "Italy (Florence)",
@@ -12089,6 +13088,12 @@
    "period": "1480-1480",
    "notes": "Digital edition (Knowledge Site 3.0, 2020) of the letters of Vespasiano da Bisticci (Florentine book dealer, 1444-1497), a semantic/RDF-based faceted edition with philological apparatus (nota filologica, authorities, tavola sinottica), built at /DH.arc Bologna. The harvested origin 'Vespasiano da Bisticci, Letters (15th c.)' with source '(DHARC, digital edition)' refers to this site; the edition is stable but no longer actively developed. Site code CC BY 4.0 on GitHub (dharc-org/vespasiano-da-bisticci-letters-de). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Digital Humanities Advanced Research Centre (/DH.arc), Università di Bologna (Francesca Tomasi)",
+   "editors": [
+    "Francesca Tomasi",
+    "Marilena Daquino",
+    "Sebastian Barzaghi"
+   ],
+   "published": 2013,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 33623,
@@ -12184,7 +13189,8 @@
    "license": "Custom terms",
    "license_url": "https://vokabular.ujc.cas.cz/informace.aspx?t=ovokabulari&o=ovokabulari",
    "license_note": "The 'Co je VW' page states that Vokabulář webový is 'autorské dílo chráněné ve smyslu zákona č. 121/2000 Sb.' and is 'určen pouze k nekomerčním účelům' (a copyrighted work for non-commercial use only); the footer reads 'Copyright 2006-2025, oddělení vývoje jazyka, ÚJČ AV ČR'. No open licence is given.",
-   "institution": "Institute of the Czech Language, Czech Academy of Sciences, Department of Language Development"
+   "institution": "Institute of the Czech Language, Czech Academy of Sciences, Department of Language Development",
+   "published": 2006
   },
   {
    "title": "The Wandering Jew's Chronicle",
@@ -12202,6 +13208,10 @@
    "author": "Martin Parker (ballad); edited by Giles Bergel",
    "date": "1634-1830 (four copies in period, 17th century)",
    "institution": "Bodleian Libraries, University of Oxford (editor Giles Bergel; design InfoDev, Oxford IT Services)",
+   "editors": [
+    "Giles Bergel"
+   ],
+   "published": 2013,
    "words": 3351,
    "texts": 4,
    "region": "England (London)",
@@ -12310,6 +13320,11 @@
    "period": "1487-1700",
    "notes": "Historical Corpus of the Welsh Language 1500-1850: about 420,000 words of Welsh in TEI XML (30 texts, including the 1588 Welsh Bible), built at the University of Cambridge (Department of Linguistics, David Willis) from c. 2004. celticstudies.net is the corpus's official site (published from the GitHub repository dwew2/hcwl); a parsed derivative (PARSHCWL) is included in the repository. A LINDAT/CLARIAH-CZ record (LRT-883) exists but is metadata-only and points to the old Cambridge address. Site copyright 2004, University of Cambridge. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "University of Cambridge, Linguistics Dept. (David Willis)",
+   "editors": [
+    "David Willis",
+    "Ingo Mittendorf"
+   ],
+   "published": 2004,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 276280,
@@ -12526,6 +13541,14 @@
    "period": "1480-1480",
    "notes": "The WiN project (Goettingen GCDH, funded by Niedersächsisches Vorab) built a parallel corpus of Early New High German short narratives and their Middle Low German versions from late 15th c. incunabula (Dracole, Griseldis, Juden, Graf, Kaufleute...), published as WiN-Korpus v1.0 (2022) in the LAUDATIO repository (HU Berlin), TEI-annotated, with the transcription handbook on DARIAH-DE; the project page is uni-goettingen.de/de/wiedererzählen+im+norden./607371.html. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Georg-August-Universität Göttingen (Heike Sahm, Marco Coniglio, Chiara De Bastiani, Anabel Recker, Jan Christian Schaffert; PRO*Niedersachsen)",
+   "editors": [
+    "Marco Coniglio",
+    "Chiara De Bastiani",
+    "Anabel Recker",
+    "Heike Sahm",
+    "Jan Christian Schaffert"
+   ],
+   "published": 2022,
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 27584,
@@ -12534,7 +13557,8 @@
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-SA-4.0",
    "license_url": "https://www.laudatio-repository.org/api/elasticapi/v1/corpora/latest/0/100",
-   "license_note": "The LAUDATIO repository metadata for the corpus (id XnU19IIBa2XDdNuCXFx-, version 1.0, published 2022 by the University of Göttingen) gives corpus_publication_license https://creativecommons.org/licenses/by-sa/4.0/. This is the corpus-level licence; the underlying incunabula are public domain, and the browse page itself is rendered by script, so the URL is the API record that states it."
+   "license_note": "The LAUDATIO repository metadata for the corpus (id XnU19IIBa2XDdNuCXFx-, version 1.0, published 2022 by the University of Göttingen) gives corpus_publication_license https://creativecommons.org/licenses/by-sa/4.0/. This is the corpus-level licence; the underlying incunabula are public domain, and the browse page itself is rendered by script, so the URL is the API record that states it.",
+   "doi": "10.34644/laudatio-dev-XnU19IIBa2XDdNuCXFx-"
   },
   {
    "title": "Winthrop Papers Digital Edition (Papers of the Winthrop Family)",
@@ -12645,6 +13669,14 @@
    "encoding": "tei",
    "status": "active",
    "institution": "Universität Rostock (Franz-Josef Holznagel, Annika Bostelmann, Doreen Brandt, Hellmut Braun, Anne Gessing; DFG project 287283426)",
+   "editors": [
+    "Franz-Josef Holznagel",
+    "Annika Bostelmann",
+    "Doreen Brandt",
+    "Hellmut Braun",
+    "Anne Gessing"
+   ],
+   "published": 2025,
    "date": "c. 1540-1601",
    "period": "c. 1540-1601",
    "region": "Northern Germany (Lübeck, Hamburg)",
@@ -12706,6 +13738,10 @@
    "encoding": "html",
    "status": "archived",
    "institution": "ELTE BTK Régi Magyar Irodalomtörténeti Tanszék (Gépeskönyv series); edited by Orlovszky Géza, Budapest 1998",
+   "editors": [
+    "Géza Orlovszky"
+   ],
+   "published": 1998,
    "author": "Zrínyi Miklós",
    "date": "1651",
    "period": "17th century (1651)",
