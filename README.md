@@ -47,11 +47,9 @@ Please cite the catalogue when using it in research. Every release is archived o
 
 [![Suggest a collection](https://img.shields.io/badge/Suggest_a_collection-4b5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pantagrueliste/renascor/issues/new?template=new-entry.yml) [![Report a correction](https://img.shields.io/badge/Report_a_correction-4b5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pantagrueliste/renascor/issues/new?template=correction.yml) [![Buy me a coffee](https://img.shields.io/badge/Buy_me_a_coffee-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/clementgodbarge)
 
-Use the buttons above to suggest a collection or report a correction. You can also edit a JSON file in [data/entries](data/entries) and open a pull request — [CONTRIBUTING.md](CONTRIBUTING.md) explains how, and the [schema guide](schema/README.md) describes the fields.
+Use the buttons above to suggest a collection or report a correction. You can also edit a JSON file in [data/entries](data/entries) and open a pull request — [CONTRIBUTING.md](CONTRIBUTING.md) explains how, and the [schema guide](schema/README.md) describes the fields. Make sure also to read our [Code of Conduct](https://www.gutenberg.org/files/67799/67799-h/67799-h.htm)
 
 Every addition is reviewed by a human. Weekly automated searches use [Mistral Large 4](https://mistral.ai/news/mistral-large-4/), chosen for its multilingual capabilities and planned open-weight release.
-
-[Code of Conduct](https://www.gutenberg.org/files/67799/67799-h/67799-h.htm)
 
 ### Support the project
 
