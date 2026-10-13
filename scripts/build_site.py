@@ -64,7 +64,7 @@ PREFERRED_FIELDS = ["title", "url", "doi", "data_url", "data_format", "data_form
 # Section ids of the page: an entry file may not take one of these names (its permalink #id
 # would point at the section instead of the record).
 RESERVED_IDS = {"main", "catalogue", "results", "search", "q", "filters", "facets", "about", "method",
-                "figures", "languages", "definitions", "download", "cite", "contribute", "top", "making",
+                "figures", "languages", "definitions", "download", "cite", "contribute", "top", "making", "accessibility",
                 "timeline"}
 ID_RE = re.compile(r"^[a-z0-9-]+$")
 MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August",
