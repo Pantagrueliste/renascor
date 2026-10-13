@@ -57,12 +57,12 @@
         "type": "string",
         "minLength": 1,
         "not": {
-          "enum": ["Ancient Greek", "Modern Greek", "Multilingual", "Romance", "Romance (other)"]
+          "enum": ["Ancient Greek", "Modern Greek", "Multilingual", "Romance", "Romance (other)", "Middle English", "Early Modern English", "Old French", "Middle French", "Middle High German", "Early New High German", "Low German", "Middle Low German", "Middle Dutch", "Old Spanish"]
         }
       },
       "minItems": 1,
       "uniqueItems": true,
-      "description": "Languages of the texts, as human-readable names (e.g. 'Latin', 'Old French', 'Middle English')."
+      "description": "Languages of the texts, as human-readable names (e.g. 'Latin', 'French', 'English'). Historical stages and varieties are given under the modern language: Middle English as English, Middle Low German as German, Middle Dutch as Dutch."
     },
     "language_counts": {
       "type": "array",
