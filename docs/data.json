@@ -11,8 +11,8 @@
   "released": "2026-10-13",
   "updated": "2026-10-13",
   "data_commit": {
-   "sha": "be0504d41105094c71b30fbfb2c91a13fedd8b7a",
-   "short": "be0504d"
+   "sha": "85c3fdb57ab8570f4b6ff90ec94e7a9e5191f0cd",
+   "short": "85c3fdb"
   },
   "scope": {
    "from": 1450,
@@ -410,10 +410,10 @@
     ]
    ],
    "texts": 243001,
-   "words": 2403259320,
+   "words": 2403329050,
    "with_texts": 317,
-   "with_words": 314,
-   "median_words": 177773,
+   "with_words": 315,
+   "median_words": 176634,
    "median_texts": 32,
    "period": {
     "numeric": 305,
@@ -421,8 +421,8 @@
     "missing": 5
    },
    "figures": {
-    "rq": 307,
-    "other": 11,
+    "rq": 308,
+    "other": 10,
     "none": 0,
     "other_titles": [
      "1641 Depositions (Trinity College Dublin)",
@@ -434,7 +434,6 @@
      "Grand Tour digital — TEI dataset of early modern travel testimonies (Grand Tour TEI)",
      "Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636 (annotated digital edition)",
      "Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock",
-     "Rostocker Urgichten des 16. Jahrhunderts in Fällen von Zauberei und Hexerei. Digitale Methoden und Lehrkonzepte auf der Testbank",
      "Sefaria"
     ],
     "none_titles": []
@@ -443,14 +442,14 @@
     "id": "eebo-text-creation-partnership",
     "title": "EEBO Text Creation Partnership",
     "words": 1348840666,
-    "share": 0.5613
+    "share": 0.5612
    },
    "top_by_words": [
     {
      "id": "eebo-text-creation-partnership",
      "label": "EEBO Text Creation Partnership",
      "words": 1348840666,
-     "share": 0.5613
+     "share": 0.5612
     },
     {
      "id": "openiti",
@@ -519,11 +518,11 @@
     1450,
     1700
    ],
-   "words": 2208749509,
-   "texts": 195553,
+   "words": 2208819239,
+   "texts": 195603,
    "basis": "After the corpus duplicate filter; complete working snapshot, before catalogue grouping",
    "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
-   "database_sha256": "dee999ae020d8d12f1fd5193cd580f8596a84a50b8857b69bebda717a29fd6fa"
+   "database_sha256": "1beb1afb8ac2c1522503ae2e6d034e536d5010d1c2dc4bf1d2b4bb2cf52e8908"
   },
   "timeline": {
    "snapshot": "v2026.10",
@@ -538,11 +537,11 @@
     17576133,
     24228739,
     30313524,
-    41863832,
-    79450562,
-    59170367,
-    65073460,
-    71258750,
+    41867183,
+    79451625,
+    59176067,
+    65086349,
+    71305477,
     69102073,
     95746218,
     114864255,
@@ -568,32 +567,32 @@
    "languages": "75",
    "language_labels": "75",
    "texts": "243,001",
-   "words": "2,403,259,320",
+   "words": "2,403,329,050",
    "words_compact": "2.40 billion",
-   "corpus_texts": "195,553",
-   "corpus_words": "2,208,749,509",
+   "corpus_texts": "195,603",
+   "corpus_words": "2,208,819,239",
    "corpus_words_compact": "2.21 billion",
-   "with_words": "314",
-   "with_words_editions": "314 resources",
-   "without_words": "4",
-   "figures_rq": "307",
+   "with_words": "315",
+   "with_words_editions": "315 resources",
+   "without_words": "3",
+   "figures_rq": "308",
    "discovered": "128",
    "discovered_sentence": "128 of the 318 records were proposed this way",
    "single_language": "239",
-   "median_words": "177,773",
+   "median_words": "176,634",
    "median_texts": "32",
    "updated_long": "13 October 2026",
    "updated_iso": "2026-10-13",
    "version": "0.2.0",
-   "data_commit_short": "be0504d",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/be0504d41105094c71b30fbfb2c91a13fedd8b7a",
+   "data_commit_short": "85c3fdb",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/85c3fdb57ab8570f4b6ff90ec94e7a9e5191f0cd",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.10",
    "snapshot_frozen_long": "13 October 2026",
    "snapshot_month": "October 2026",
-   "figures_other_sentence": "For 11 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Grand Tour digital, Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock, Rostocker Urgichten des 16. Jahrhunderts in Fällen von Zauberei und Hexerei. Digitale Methoden und Lehrkonzepte auf der Testbank and Sefaria.",
+   "figures_other_sentence": "For 10 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Grand Tour digital, Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock and Sefaria.",
    "largest_share": "56%",
-   "share_note": "Shares of the 2,403,259,320 words recorded for 314 resources; 4 resources have no word count. Collection totals include overlapping texts.",
+   "share_note": "Shares of the 2,403,329,050 words recorded for 315 resources; 3 resources have no word count. Collection totals include overlapping texts.",
    "with_last_modified": "63 resources",
    "with_data_url": "213 resources",
    "with_countries": "123 resources",
@@ -9953,9 +9952,16 @@
    "texts": 50,
    "license": "Mixed",
    "license_note": "Each item carries its own Creative Commons licence (CC BY-SA 3.0 DE for most, CC BY-NC 3.0 DE, CC BY-ND 4.0 for others).",
-   "notes": "Confessions from magic, sorcery and witchcraft trials before the lower court of the city of Rostock, from the Stadtarchiv Rostock. Each of the 50 items (a person's confession, dated 1543-1596; 20 of them from 1584 and 7 from 1586) is published with the scan (PDF), a TEI-XML transcription and an RTF version; a separate file gives the transcription rules (based on the DTA basic format). The count of items comes from the repository's OAI-PMH listing of the collection. Deposited in 2019; no later additions were found. Its words could not be counted: the file downloads are protected against automated access.",
+   "notes": "Confessions from magic, sorcery and witchcraft trials before the lower court of the city of Rostock, from the Stadtarchiv Rostock. Each of the 50 items (a person's confession, dated 1543-1596; 20 of them from 1584 and 7 from 1586) is published with the scan (PDF), a TEI-XML transcription and an RTF version; a separate file gives the transcription rules (based on the DTA basic format). Deposited in 2019; no later additions were found. The counts cover all 50 TEI transcriptions, downloaded once in a browser because the file downloads are protected against automated access. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
    "provenance": "discovered",
-   "date_added": "2026-10-12"
+   "date_added": "2026-10-12",
+   "words": 69730,
+   "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 69730,
+    "texts": 50
+   },
+   "count_basis": "rq-retained-rows"
   },
   {
    "title": "Royal Society Corpus 6.0 Open - Philosophical Transactions (1665-1700)",
@@ -31644,11 +31650,68 @@
     "note": null,
     "beyond_scope": false
    },
-   "size_band": null,
-   "figures": "other",
-   "snapshot": null,
-   "notes_display": "Confessions from magic, sorcery and witchcraft trials before the lower court of the city of Rostock, from the Stadtarchiv Rostock. Each of the 50 items (a person's confession, dated 1543-1596; 20 of them from 1584 and 7 from 1586) is published with the scan (PDF), a TEI-XML transcription and an RTF version; a separate file gives the transcription rules (based on the DTA basic format). The count of items comes from the repository's OAI-PMH listing of the collection. Deposited in 2019; no later additions were found. Its words could not be counted: the file downloads are protected against automated access.",
-   "period_words": null
+   "size_band": "10k-100k",
+   "figures": "rq",
+   "snapshot": "v2026.10",
+   "notes_display": "Confessions from magic, sorcery and witchcraft trials before the lower court of the city of Rostock, from the Stadtarchiv Rostock. Each of the 50 items (a person's confession, dated 1543-1596; 20 of them from 1584 and 7 from 1586) is published with the scan (PDF), a TEI-XML transcription and an RTF version; a separate file gives the transcription rules (based on the DTA basic format). Deposited in 2019; no later additions were found. The counts cover all 50 TEI transcriptions, downloaded once in a browser because the file downloads are protected against automated access.",
+   "period_words": {
+    "decades": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     3351,
+     1063,
+     5700,
+     12889,
+     46727,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "estimated": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0,
+    "estimated_range": null
+   }
   },
   {
    "id": "royal-society-transactions",
