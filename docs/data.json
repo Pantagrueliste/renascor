@@ -11,8 +11,8 @@
   "released": "2026-10-13",
   "updated": "2026-10-13",
   "data_commit": {
-   "sha": "87bf9d7ef20faccad40aa5efaa08ff946865be0c",
-   "short": "87bf9d7"
+   "sha": "cab2ddd54865c885991b69869a566a456054b1d4",
+   "short": "cab2ddd"
   },
   "scope": {
    "from": 1450,
@@ -107,10 +107,10 @@
   ],
   "stats": {
    "editions": 330,
-   "language_labels": 75,
-   "languages": 75,
+   "language_labels": 71,
+   "languages": 71,
    "pseudo_languages": [],
-   "single_language": 247,
+   "single_language": 248,
    "language_counts": [
     [
      "Latin",
@@ -118,11 +118,11 @@
     ],
     [
      "German",
-     70
+     72
     ],
     [
      "English",
-     65
+     67
     ],
     [
      "French",
@@ -138,7 +138,7 @@
     ],
     [
      "Dutch",
-     20
+     22
     ],
     [
      "Hungarian",
@@ -174,10 +174,6 @@
     ],
     [
      "Catalan",
-     4
-    ],
-    [
-     "Middle English",
      4
     ],
     [
@@ -242,14 +238,6 @@
     ],
     [
      "Lithuanian",
-     2
-    ],
-    [
-     "Low German",
-     2
-    ],
-    [
-     "Middle Dutch",
      2
     ],
     [
@@ -338,10 +326,6 @@
     ],
     [
      "Mapudungun",
-     1
-    ],
-    [
-     "Middle Low German",
      1
     ],
     [
@@ -570,8 +554,8 @@
   "display": {
    "editions": "330",
    "editions_label": "330 resources",
-   "languages": "75",
-   "language_labels": "75",
+   "languages": "71",
+   "language_labels": "71",
    "texts": "254,004",
    "words": "2,412,809,890",
    "words_compact": "2.41 billion",
@@ -584,14 +568,14 @@
    "figures_rq": "319",
    "discovered": "140",
    "discovered_sentence": "140 of the 330 records were proposed this way",
-   "single_language": "247",
+   "single_language": "248",
    "median_words": "181,492",
    "median_texts": "36",
    "updated_long": "13 October 2026",
    "updated_iso": "2026-10-13",
    "version": "1.0.0",
-   "data_commit_short": "87bf9d7",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/87bf9d7ef20faccad40aa5efaa08ff946865be0c",
+   "data_commit_short": "cab2ddd",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/cab2ddd54865c885991b69869a566a456054b1d4",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.10",
    "snapshot_frozen_long": "13 October 2026",
@@ -2088,7 +2072,7 @@
    "title": "The Book of Margery Kempe: facsimile and edition (including the Wynkyn de Worde pamphlet)",
    "url": "https://english.selu.edu/kempe/index.php",
    "languages": [
-    "Middle English"
+    "English"
    ],
    "document_types": [
     "print"
@@ -2128,7 +2112,7 @@
    "data_format": "json",
    "languages": [
     "Latin",
-    "Middle Dutch",
+    "Dutch",
     "Spanish",
     "French"
    ],
@@ -4217,7 +4201,7 @@
    "title": "Die Chronyk van Hollandt, Zeelandt ende Vriesland (Divisiekroniek) of Cornelius Aurelius, 1517",
    "url": "https://resources.huygens.knaw.nl/retroboeken/divisiekroniek/",
    "languages": [
-    "Middle Dutch"
+    "Dutch"
    ],
    "document_types": [
     "print"
@@ -8358,7 +8342,7 @@
    "data_url": "http://diglib.hab.de/edoc/ed000248/mets.xml",
    "data_format": "tei",
    "languages": [
-    "Low German",
+    "German",
     "Latin"
    ],
    "document_types": [
@@ -8525,7 +8509,7 @@
    "title": "The Malory Project: Winchester Manuscript and Caxton's Morte Darthur (1485)",
    "url": "http://www.maloryproject.com/",
    "languages": [
-    "Middle English"
+    "English"
    ],
    "document_types": [
     "manuscript",
@@ -9088,7 +9072,6 @@
    "data_format": "tei",
    "languages": [
     "German",
-    "Low German",
     "Latin",
     "French",
     "Dutch"
@@ -10814,8 +10797,7 @@
    "title": "Renascence Editions (University of Oregon / Luminarium mirror)",
    "url": "https://www.luminarium.org/renascence-editions/",
    "languages": [
-    "English",
-    "Middle English"
+    "English"
    ],
    "document_types": [
     "print"
@@ -10883,7 +10865,6 @@
    "url": "https://rpo.library.utoronto.ca/",
    "languages": [
     "English",
-    "Middle English",
     "Scots"
    ],
    "document_types": [
@@ -13661,7 +13642,7 @@
    "data_url": "https://doi.org/10.18453/rosdok_id00004899",
    "data_format": "tei",
    "languages": [
-    "Middle Low German"
+    "German"
    ],
    "document_types": [
     "print"
