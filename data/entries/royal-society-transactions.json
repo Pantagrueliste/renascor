@@ -17,9 +17,9 @@
   "texts": 1424,
   "period": "1665-1700",
   "status": "active",
-  "notes": "The Royal Society Corpus 6.0 Open, built at Saarland University from the Philosophical Transactions of the Royal Society of London (texts from JSTOR and the Royal Society); the full corpus covers 1665-1920 and this entry covers the texts up to 1700. Licence CC BY-NC-SA 4.0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The Royal Society Corpus 6.0 Open, built at Saarland University from the Philosophical Transactions of the Royal Society of London (texts from JSTOR and the Royal Society); the full corpus covers 1665-1920 and this entry covers the texts up to 1700. Licence CC BY-NC-SA 4.0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 2795758,
     "texts": 1424
   },

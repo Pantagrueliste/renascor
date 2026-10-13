@@ -18,11 +18,17 @@
     "DE"
   ],
   "period": "1539",
-  "words": 580,
+  "words": 567,
   "texts": 1,
-  "notes": "Edition of the list of books in the private rooms of Duchess Elisabeth of Braunschweig-Calenberg, from the inventory handed to her chambermaid at Münden in June 1539, with transcription facsimile links, footnotes and bibliographies (published 2011 as Editiones Electronicae Guelferbytanae 7). Counts are ours from the TEI file: one inventory extract with 69 numbered book entries and about 580 words, leaving out the editorial footnotes. The TEI file was last modified in 2011.",
+  "notes": "Edition of the list of books in the private rooms of Duchess Elisabeth of Braunschweig-Calenberg, from the inventory handed to her chambermaid at Münden in June 1539, with transcription facsimile links, footnotes and bibliographies (published 2011 as Editiones Electronicae Guelferbytanae 7). The TEI file holds one inventory extract with 69 numbered book entries. The TEI file was last modified in 2011. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "CC-BY-SA-3.0",
   "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 567,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows"
 }

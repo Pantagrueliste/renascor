@@ -14,9 +14,9 @@
   "texts": 8,
   "period": "1554-1693",
   "status": "active",
-  "notes": "Hungarian Electronic Library (MEK), the digital library of the National Széchényi Library. Most of the texts come from MEK; three poems (Gyöngyösi's Murányi Vénus and Phoenix, Esterházy's Egy csudálatos ének) were taken from the Syrena site of the Department of Old Hungarian Literature, ELTE (magyar-irodalom.elte.hu/syrena). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Hungarian Electronic Library (MEK), the digital library of the National Széchényi Library. Most of the texts come from MEK; three poems (Gyöngyösi's Murányi Vénus and Phoenix, Esterházy's Egy csudálatos ének) were taken from the Syrena site of the Department of Old Hungarian Literature, ELTE (magyar-irodalom.elte.hu/syrena). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 418083,
     "texts": 8
   },

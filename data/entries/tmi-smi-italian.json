@@ -14,9 +14,9 @@
   "words": 2029235,
   "texts": 41,
   "period": "1525-1649",
-  "notes": "Texts of the Thesaurus Musicarum Italicarum (TmiWeb, Utrecht University), an electronic corpus of Italian music treatises from the Renaissance and early Baroque, together with the Saggi Musicali Italiani (SMI) texts. The original SMI site at Indiana University is no longer available; those texts were retrieved from the Internet Archive. A TEI P5 deposit exists at DANS (doi:10.17026/dans-zum-ywbw) but its files are restricted. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Texts of the Thesaurus Musicarum Italicarum (TmiWeb, Utrecht University), an electronic corpus of Italian music treatises from the Renaissance and early Baroque, together with the Saggi Musicali Italiani (SMI) texts. The original SMI site at Indiana University is no longer available; those texts were retrieved from the Internet Archive. A TEI P5 deposit exists at DANS (doi:10.17026/dans-zum-ywbw) but its files are restricted. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 2029235,
     "texts": 41
   },

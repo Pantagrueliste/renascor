@@ -14,7 +14,7 @@
   "author": "Correspondents of the city of St. Gall",
   "date": "1417-1651",
   "institution": "Stadtarchiv und Vadianische Sammlung der Ortsbürgergemeinde St. Gallen",
-  "words": 174940,
+  "words": 176091,
   "texts": 542,
   "region": "St. Gall and Eastern Switzerland",
   "countries": [
@@ -23,7 +23,13 @@
   "period": "1400-1650",
   "license": "CC-BY-NC-SA-4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "notes": "Full text and images of incoming letters (Missiven) to the imperial city of St. Gall, published in stages. The site lists 760 dated letters (1417-1651, 228,746 words); 218 are before 1450. Counts are our own, from the TEI of each letter (served at /api/document/<id>, e.g. stasg_missiv_00300): 542 letters dated 1450-1651 and about 175,000 words of letter text. The letter list is at the data link. Status active: the site presents a 'Missive des Monats' every first Friday of the month.",
+  "notes": "Full text and images of incoming letters (Missiven) to the imperial city of St. Gall, published in stages. The site lists 760 dated letters (1417-1651, 228,746 words); 218 are before 1450. The TEI of each letter is served at /api/document/<id> (for example stasg_missiv_00300). The letter list is at the data link. Status active: the site presents a 'Missive des Monats' every first Friday of the month. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 176091,
+    "texts": 542
+  },
+  "count_basis": "rq-retained-rows"
 }

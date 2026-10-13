@@ -13,8 +13,8 @@
   "author": "Huldrych Zwingli and his correspondents",
   "date": "1510-1528",
   "institution": "Institut für Schweizerische Reformationsgeschichte, Universität Zürich",
-  "words": 355189,
-  "texts": 804,
+  "words": 42516,
+  "texts": 85,
   "region": "Zurich and Switzerland, with letters to and from Basel, Vienna, Cologne and elsewhere",
   "countries": [
     "CH",
@@ -24,7 +24,13 @@
   "period": "1510-1528",
   "license": "Copyright",
   "license_note": "The imprint states: original data © Huldreich Zwinglis sämtliche Werke, Theologischer Verlag Zürich; digital presentation © Institut für Schweizerische Reformationsgeschichte, Universität Zürich. Free to read online.",
-  "notes": "Each letter is its own page (n=Brief.1 to Brief.790, 804 pages) with the running text of the critical edition Huldreich Zwinglis sämtliche Werke vol. 7-9 (Corpus Reformatorum 94-96, 1911-1925), without the apparatus; letters from 1510 to 1528. Letters 790-1292 (vols. 10-11, 1528-1531) are not online. Counts are ours: about 355,000 words in the 804 letter pages, counted after the header. Searchable by full text, sender, recipient and place. The wiki's change log shows the letters last edited in 2011 and the last change of any page on 1 July 2021, and the site still runs on old PHP, so it is listed as archived.",
+  "notes": "Each letter is its own page (n=Brief.1 to Brief.790, 804 pages) with the running text of the critical edition Huldreich Zwinglis sämtliche Werke vol. 7-9 (Corpus Reformatorum 94-96, 1911-1925), without the apparatus; letters from 1510 to 1528. Letters 790-1292 (vols. 10-11, 1528-1531) are not online. Searchable by full text, sender, recipient and place. The wiki's change log shows the letters last edited in 2011 and the last change of any page on 1 July 2021, and the site still runs on old PHP, so it is listed as archived. The counts cover the 85 of 804 letters readable in Internet Archive copies; the live site blocks automated access. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 42516,
+    "texts": 85
+  },
+  "count_basis": "rq-retained-rows"
 }

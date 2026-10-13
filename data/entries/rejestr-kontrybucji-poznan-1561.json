@@ -21,7 +21,14 @@
     "PL"
   ],
   "period": "1561",
-  "notes": "TEI edition of the register of the double contribution imposed on the clergy of the Poznań diocese in 1561, from two copies kept in the Archiwum Główne Akt Dawnych, Warsaw (ASK 91 and a fragment in ASK 3), with page images. The whole TEI file is served at the data link. Counts are our own: 2 manuscripts and about 9,500 words of transcription (body text without the notes section). Status active: the project site is maintained (events listed for 2026) and the app runs a recent TEI Publisher release; no date of last change to the edition itself is given.",
+  "notes": "TEI edition of the register of the double contribution imposed on the clergy of the Poznań diocese in 1561, from two copies kept in the Archiwum Główne Akt Dawnych, Warsaw (ASK 91 and a fragment in ASK 3), with page images. The whole TEI file is served at the data link. Status active: the project site is maintained (events listed for 2026) and the app runs a recent TEI Publisher release; no date of last change to the edition itself is given. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 9484,
+    "texts": 2
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
 }

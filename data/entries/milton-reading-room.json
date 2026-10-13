@@ -25,7 +25,15 @@
   "license": "CC-BY-ND-3.0-US",
   "license_url": "https://www.milton.host.dartmouth.edu/reading_room/copyrights/text.shtml",
   "license_note": "The site is licensed under Creative Commons Attribution-No Derivative Works 3.0 US; the copyright page also says the XHTML-coded versions of Milton's texts and all editorial material are copyrighted.",
-  "notes": "Complete poetry (Paradise Lost, Paradise Regain'd, Samson Agonistes, the 1645 and 1673 volumes, sonnets and the Latin and Italian poems) and about 20 prose works from Of Reformation (1641) to Prolusions (1674), in the original spelling of the seventeenth-century printings, with introductions and hyperlinked annotations. Editing is stated to be still in progress for some prose works. Texts and words are not given: the figures cannot be separated reliably from the editorial layers on each page. Treated as active because the site is maintained and still carries a copyright line up to 2026; no dated changelog was found.",
+  "notes": "Complete poetry (Paradise Lost, Paradise Regain'd, Samson Agonistes, the 1645 and 1673 volumes, sonnets and the Latin and Italian poems) and about 20 prose works from Of Reformation (1641) to Prolusions (1674), in the original spelling of the seventeenth-century printings, with introductions and hyperlinked annotations. Editing is stated to be still in progress for some prose works. Treated as active because the site is maintained and still carries a copyright line up to 2026; no dated changelog was found. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 675531,
+  "texts": 174,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 675531,
+    "texts": 174
+  },
+  "count_basis": "rq-retained-rows"
 }

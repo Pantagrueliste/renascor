@@ -12,7 +12,7 @@
   "author": "William Herle",
   "date": "1559-1588",
   "institution": "AHRC Centre for Editing Lives and Letters, Queen Mary University of London (Robyn Adams, editor; Alison Wiggins, director)",
-  "words": 332783,
+  "words": 318567,
   "texts": 302,
   "region": "England; letters also sent from the Low Countries and Germany",
   "countries": [
@@ -24,7 +24,13 @@
   "period": "1559-1588",
   "license": "Copyright",
   "license_url": "https://www.livesandletters.ac.uk/herle/copyright.html",
-  "notes": "Hypertext edition of the letters of Elizabethan intelligencer and diplomat William Herle, with a transcript of each (web page and PDF), a catalogue entry, indexes by date, sender, recipient, place and first line, a word search, and sample images. 302 letters, dated 1559 to 1588, so the whole resource lies in the period. Word count is ours, from the 302 web transcripts (about 333,000 words, including the editorial headings and notes at the head of each transcript). Edition 2 was released in March 2006 and the content shows no change since; the server's file dates (2025) reflect migration only. Free for personal use; commercial use needs permission (all rights reserved).",
+  "notes": "Hypertext edition of the letters of Elizabethan intelligencer and diplomat William Herle, with a transcript of each (web page and PDF), a catalogue entry, indexes by date, sender, recipient, place and first line, a word search, and sample images. 302 letters, dated 1559 to 1588, so the whole resource lies in the period. Edition 2 was released in March 2006 and the content shows no change since; the server's file dates (2025) reflect migration only. Free for personal use; commercial use needs permission (all rights reserved). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 316815,
+    "texts": 301
+  },
+  "count_basis": "rq-retained-rows"
 }

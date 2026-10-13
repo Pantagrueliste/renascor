@@ -11,8 +11,8 @@
   "encoding": "html",
   "status": "active",
   "institution": "HIPERTEXT research group, Universitat de les Illes Balears (director Andrés Enrique-Arias)",
-  "words": 25500,
-  "texts": 81,
+  "words": 31007,
+  "texts": 84,
   "region": "Balearic Islands (Spain)",
   "countries": [
     "ES",
@@ -24,8 +24,14 @@
     "VE"
   ],
   "period": "1640-1909",
-  "notes": "Unpublished Castilian documents from archives in Mallorca, Menorca and Ibiza (Arxiu del Regne de Mallorca, municipal archives, Epistolario Santacilia, etc.), edited with CHARTA norms (paleographic transcription and critical presentation, facsimiles), searchable by archive, province, type, date; used for the study of Catalan-Spanish contact. Some passages in Latin or Catalan are tagged. Funded by FFI2014-59135-R and FFI2017-83899-P. No download; page last modified 2024-09-22 (index.html). Counts cover the 81 documents dated 1640-1700 (about 25,500 words of the critical presentation, counted by us); the whole corpus has 1,251 documents (about 665,000 words, 1640-1909). Most documents are from the Balearic Islands.",
+  "notes": "Unpublished Castilian documents from archives in Mallorca, Menorca and Ibiza (Arxiu del Regne de Mallorca, municipal archives, Epistolario Santacilia, etc.), edited with CHARTA norms (paleographic transcription and critical presentation, facsimiles), searchable by archive, province, type, date; used for the study of Catalan-Spanish contact. Some passages in Latin or Catalan are tagged. Funded by FFI2014-59135-R and FFI2017-83899-P. No download; page last modified 2024-09-22 (index.html). The corpus has 1,251 documents dated 1640-1909. Most documents are from the Balearic Islands. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "Not stated",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 31007,
+    "texts": 84
+  },
+  "count_basis": "rq-retained-rows"
 }

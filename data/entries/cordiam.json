@@ -25,6 +25,14 @@
     "BO"
   ],
   "period": "1494-1905",
-  "notes": "Three subcorpora: Documentos (6,851 texts, archival documents from 'corpus de corpus'), Literatura (6,367; 16th-19th c.) and Prensa (16,271; 18th-19th c. only). The project publishes 20,419,049 words in 29,489 texts for all three subcorpora and all centuries (15th-19th); the share within 1450-1700 is not published, so word and text counts are left out (the press subcorpus lies wholly after 1700). The search interface is open without login and full documents can be displayed and saved; there is no bulk download and no TEI. Documents are transcriptions with expanded abbreviations. The countries listed are a selection of the 20+ countries covered.",
-  "license": "Not stated"
+  "notes": "Three subcorpora: Documentos (6,851 texts, archival documents from 'corpus de corpus'), Literatura (6,367; 16th-19th c.) and Prensa (16,271; 18th-19th c. only). The search interface is open without login and full documents can be displayed and saved; there is no bulk download and no TEI. Documents are transcriptions with expanded abbreviations. The countries listed are a selection of the 20+ countries covered. The counts cover the 7,334 documents with a year between 1494 and 1700, and documents dated only by century are not included. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "license": "Not stated",
+  "words": 8083708,
+  "texts": 7334,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 8068251,
+    "texts": 7311
+  },
+  "count_basis": "rq-retained-rows"
 }

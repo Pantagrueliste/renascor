@@ -11,8 +11,8 @@
   ],
   "encoding": "html",
   "status": "active",
-  "texts": 24,
-  "words": 692,
+  "texts": 6,
+  "words": 244,
   "period": "1474-1571",
   "region": "Cyprus",
   "countries": [
@@ -21,5 +21,11 @@
   "institution": "Ca' Foscari University of Venice (Lorenzo Calvelli) and The Cyprus Institute (STARC)",
   "license": "Not stated",
   "license_note": "Described as an Open Access platform; no licence statement found on the pages (footer: all rights reserved). Image credits are given per image.",
-  "notes": "Open access platform of Latin Renaissance inscriptions from Venetian-ruled Cyprus (1474-1571) with interpreted and diplomatic transcriptions, English and Italian translations, apparatus and photos; no login needed (the LogIn link is for editors). 27 inscriptions in total on 17 sites: 24 are dated within or overlapping 1450-1700 (15 with numeric years, 9 with approximate dates such as 'end of the 15th century'), 1 is Janus I's epitaph of 1432, 2 are illegible fragments with 'Uncertain' dates. words = word-like tokens of the interpreted transcriptions of the 24 (our own count by crawling the 27 inscription pages; approximate). No bulk download or TEI export found. Pages modified as late as September 2024. Related: the Titulus/ERC GRAPH-EAST corpus covers Cyprus (575 texts) but is not yet published online."
+  "notes": "Open access platform of Latin Renaissance inscriptions from Venetian-ruled Cyprus (1474-1571) with interpreted and diplomatic transcriptions, English and Italian translations, apparatus and photos; no login needed (the LogIn link is for editors). 27 inscriptions in total on 17 sites: 24 are dated within or overlapping 1450-1700 (15 with numeric years, 9 with approximate dates such as 'end of the 15th century'), 1 is Janus I's epitaph of 1432, 2 are illegible fragments with 'Uncertain' dates. No bulk download or TEI export found. Pages modified as late as September 2024. Related: the Titulus/ERC GRAPH-EAST corpus covers Cyprus (575 texts) but is not yet published online. Verbal dates such as 'end of the 15th century' are converted to approximate years, so the share within 1450-1700 is approximate. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 244,
+    "texts": 6
+  },
+  "count_basis": "rq-retained-rows"
 }

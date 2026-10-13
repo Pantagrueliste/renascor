@@ -47,7 +47,8 @@ SITE_TITLE = "Renascor"
 SITE_DESCRIPTION = "An open catalogue of digital editions of Renaissance-era written documents"
 
 SCOPE = (1450, 1700)
-SNAPSHOTS = {"v2026.06": {"frozen": "2026-06-26"}}      # add a line for each new RQ snapshot
+SNAPSHOTS = {"v2026.06": {"frozen": "2026-06-26"},      # add a line for each new RQ snapshot
+             "v2026.10": {"frozen": "2026-10-13"}}
 SNAPSHOT_NAME = "Renascor Corpus"
 SNAPSHOT_SCOPE = "texts harvested from each resource, duplicates included"
 PSEUDO_LANGUAGES = {"Multilingual", "Romance (other)"}
@@ -184,7 +185,7 @@ def parse_period(value):
 
 # --- Notes --------------------------------------------------------------------------------
 
-RQ_SENTENCE = re.compile(r"Corpus statistics \(text, word and language counts, period\) derived from the "
+RQ_SENTENCE = re.compile(r"Corpus statistics \([^)]*\) derived from the "
                          r"(?:Renascor Corpus|RQ Open Corpus) snapshot (?P<version>v[\w.]+) \((?P<scope>[^)]*)\)\.?")
 DISCOVERY_TAIL = re.compile(r"\n\s*\n\s*(?:Justification:|Found at:)[\s\S]*$")
 CLEANUPS = [

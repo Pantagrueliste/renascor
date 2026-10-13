@@ -17,11 +17,11 @@
   "words": 53333,
   "texts": 9,
   "period": "1630-1690",
-  "notes": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th century Mexican texts (astrological and astronomical discourse, letters, almanacs). The official site (bdpn.unam.mx) is online and states that the TEI files are distributed in the GitHub repository ficino2021/bdpn; the site licence is CC BY-NC 4.0 while the repository carries CC0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "BDPN is the UNAM 'Biblioteca Digital del Pensamiento Novohispano' of 16th-17th century Mexican texts (astrological and astronomical discourse, letters, almanacs). The official site (bdpn.unam.mx) is online and states that the TEI files are distributed in the GitHub repository ficino2021/bdpn; the site licence is CC BY-NC 4.0 while the repository carries CC0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Universidad Nacional Autónoma de México (UNAM), Biblioteca Digital del Pensamiento Novohispano",
   "last_modified": "2025-05-30",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 53333,
     "texts": 9
   },

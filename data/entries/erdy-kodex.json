@@ -16,10 +16,16 @@
   "countries": [
     "HU"
   ],
-  "words": 63000,
+  "words": 59427,
   "texts": 1,
-  "notes": "The Érdy codex, a Hungarian-language sermon and legend manuscript copied in 1526-1527, set out in a table with photographs of the manuscript pages, a letter-by-letter (diplomatic) transcription and related studies, plus a link to the 19th-century printed edition. At the time of checking, 108 pages are transcribed (pages 001-055 and 103-157); the rest of the critical edition is marked 'in preparation'. Counts are ours: about 63,000 tokens in the transcription tables of those 108 pages (the figure includes line numbers and page headings, so it slightly overstates the words). The codex is counted as one text. The server reports a last modification in 2014 for the page and nothing newer was found, so the resource is listed as archived. The Sermones site is still maintained for other projects such as the exempla database.",
+  "notes": "The Érdy codex, a Hungarian-language sermon and legend manuscript copied in 1526-1527, set out in a table with photographs of the manuscript pages, a letter-by-letter (diplomatic) transcription and related studies, plus a link to the 19th-century printed edition. At the time of checking, 108 pages are transcribed (pages 001-055 and 103-157); the rest of the critical edition is marked 'in preparation'. The server reports a last modification in 2014 for the page and nothing newer was found, so the resource is listed as archived. The Sermones site is still maintained for other projects such as the exempla database. The counts cover the 108 transcribed pages only, and the codex is counted as one text. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "Not stated",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 59427,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows"
 }

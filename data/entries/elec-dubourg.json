@@ -15,16 +15,22 @@
   "status": "archived",
   "institution": "École nationale des chartes (Éditions en ligne de l'École des chartes, ELEC)",
   "texts": 96,
-  "words": 34069,
+  "words": 20548,
   "period": "1536-1538",
   "date": "1536-1538",
   "region": "France",
   "countries": [
     "FR"
   ],
-  "notes": "Letters of Francis I and others to Antoine Du Bourg, chancellor of France, with a short inquiry on the Great Bible of 1536-1537. Each text is readable online without login and the complete TEI XML source is served at the data link. Counts are our own, from that TEI file: 96 separate texts (95 letters plus the Great Bible inquiry), about 34,000 words of text, excluding the editors' notes. All dated 1536-1538. The TEI history ends in March 2012 and the server files date from July 2012; no later change found, so the edition is marked archived.",
+  "notes": "Letters of Francis I and others to Antoine Du Bourg, chancellor of France, with a short inquiry on the Great Bible of 1536-1537. Each text is readable online without login and the complete TEI XML source is served at the data link. The edition has 95 letters plus the Great Bible inquiry, all dated 1536-1538. The TEI history ends in March 2012 and the server files date from July 2012; no later change found, so the edition is marked archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "last_modified": "2012-07-17",
   "license": "CC-BY-NC-ND-2.0",
   "license_url": "http://creativecommons.org/licenses/by-nc-nd/2.0/fr/",
-  "license_note": "Creative Commons Attribution-NonCommercial-NoDerivs 2.0 France licence stated in the TEI header; the school also asks for a link to the permanent address and the date of the source file."
+  "license_note": "Creative Commons Attribution-NonCommercial-NoDerivs 2.0 France licence stated in the TEI header; the school also asks for a link to the permanent address and the date of the source file.",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 20548,
+    "texts": 96
+  },
+  "count_basis": "rq-retained-rows"
 }

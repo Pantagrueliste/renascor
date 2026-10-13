@@ -18,8 +18,16 @@
     "GB-ENG"
   ],
   "period": "c. 1470-1650",
-  "notes": "Scholarly editions of early English plays and interludes, each with a diplomatic (old-spelling) transcription of the early printed or manuscript witness next to a modern-spelling text. Three peer-reviewed editions are complete (The Honest Whore, Parts 1 and 2, and An Humorous Day's Mirth); the Annex adds about 18 further proofread, unreviewed old-spelling play texts (for example Cambyses, Arden of Faversham, Fair Em, Mankind-era interludes). Everything is readable online without login. No text or word count is given: the site publishes none, and the plays are not individually dated in a list that could be counted reliably. The content pages record 'Last Modified' dates of 2014-2015 and the Annex text folders on the server date from 2021-07-14, with nothing newer found, so it is marked archived. Copyright policy: free for educational, non-profit use. The same site is also listed under its http:// address.",
+  "notes": "Scholarly editions of early English plays and interludes, each with a diplomatic (old-spelling) transcription of the early printed or manuscript witness next to a modern-spelling text. Three peer-reviewed editions are complete (The Honest Whore, Parts 1 and 2, and An Humorous Day's Mirth); the Annex adds about 18 further proofread, unreviewed old-spelling play texts (for example Cambyses, Arden of Faversham, Fair Em, Mankind-era interludes). Everything is readable online without login. The content pages record 'Last Modified' dates of 2014-2015 and the Annex text folders on the server date from 2021-07-14, with nothing newer found, so it is marked archived. Copyright policy: free for educational, non-profit use. The same site is also listed under its http:// address. The counts cover the old-spelling documents whose text is served on the live site (18 of the 19 found), and those whose title gives no year are not counted in the period. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "last_modified": "2021-07-14",
   "license": "Custom terms",
-  "license_url": "https://digitalrenaissance.uvic.ca/Foyer/copyright.html"
+  "license_url": "https://digitalrenaissance.uvic.ca/Foyer/copyright.html",
+  "words": 113845,
+  "texts": 16,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 100058,
+    "texts": 15
+  },
+  "count_basis": "rq-retained-rows"
 }

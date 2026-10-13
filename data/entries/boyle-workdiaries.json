@@ -18,11 +18,17 @@
     "GB-ENG"
   ],
   "period": "1647-1691",
-  "words": 286000,
+  "words": 274260,
   "texts": 40,
-  "notes": "Editorial and diplomatic transcripts, with images, of Robert Boyle's workdiaries (records of experiments, recipes, reading notes) from the Royal Society and the British Library, with indexes of people, places and books. Counts are ours: 40 workdiaries and about 286,000 words on the 40 editorial text pages (whitespace tokens, including editorial annotations and headings). The site dates from about 2007; its pages show 2025 modification dates (static re-hosting), so it is listed as active, though no new content is evident. Copyright: the site states materials are copyrighted and for personal use.",
+  "notes": "Editorial and diplomatic transcripts, with images, of Robert Boyle's workdiaries (records of experiments, recipes, reading notes) from the Royal Society and the British Library, with indexes of people, places and books. The site dates from about 2007; its pages show 2025 modification dates (static re-hosting), so it is listed as active, though no new content is evident. Copyright: the site states materials are copyrighted and for personal use. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "Copyright",
   "license_url": "https://www.livesandletters.ac.uk/wd/foot/copyright.html",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 274260,
+    "texts": 40
+  },
+  "count_basis": "rq-retained-rows"
 }

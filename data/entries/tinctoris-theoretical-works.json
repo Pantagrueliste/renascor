@@ -12,7 +12,7 @@
   "author": "Johannes Tinctoris",
   "date": "1470s-1480s",
   "institution": "Early Music Theory (website founded by Ronald Woodley, 2013); funded by the AHRC",
-  "words": 73568,
+  "words": 46508,
   "texts": 11,
   "region": "Naples and Northern Europe (treatises written at the Aragonese court of Naples)",
   "countries": [
@@ -20,7 +20,13 @@
   ],
   "period": "1470s-1480s",
   "license": "Not stated",
-  "notes": "New critical edition of the Latin treatises of Johannes Tinctoris (c. 1435-1511) with full English translations and commentary, based on three principal manuscripts (Valencia 835, Bologna 2573, Brussels II 4147). Eleven treatises are online as edited text (with variant readings and music examples); Expositio manus, De natura et proprietate tonorum and the Diffinitorium musice are still listed as placeholders. The site describes itself as in its initial stages of development. Everything is dated 1470s-1480s. Counts are ours: about 73,600 words of edited Latin, counted from the texts loaded by the 11 treatise pages (apparatus and translation left out; the figure is approximate because the text is embedded in script files). The home page says it was last updated on 17 December 2020 and the treatise pages date from 2015; the whole site was re-uploaded to its server in July 2026 (all files carry the same date), so it is listed as active but the content has not changed since 2020.",
+  "notes": "New critical edition of the Latin treatises of Johannes Tinctoris (c. 1435-1511) with full English translations and commentary, based on three principal manuscripts (Valencia 835, Bologna 2573, Brussels II 4147). Eleven treatises are online as edited text (with variant readings and music examples); Expositio manus, De natura et proprietate tonorum and the Diffinitorium musice are still listed as placeholders. The site describes itself as in its initial stages of development. Everything is dated 1470s-1480s. The home page says it was last updated on 17 December 2020 and the treatise pages date from 2015; the whole site was re-uploaded to its server in July 2026 (all files carry the same date), so it is listed as active but the content has not changed since 2020. The counts cover the 11 treatises online, which are not dated individually (the site dates all to the 1470s-1480s). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 46508,
+    "texts": 11
+  },
+  "count_basis": "rq-retained-rows"
 }

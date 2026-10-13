@@ -17,10 +17,10 @@
   "texts": 2,
   "institution": "Labex OBVIL (Sorbonne Universite), dir. Mercedes Blanco; TEI files on gongoradigital GitHub",
   "period": "1605-1610",
-  "notes": "The OBVIL GONGORA project digitised Antonio Carreira's edition of Góngora's poetic works and the polémica gongorina in TEI P5 (2013-2016, CC BY-NC-ND). The TEI files are published in the gongoradigital GitHub repository gongoraobra, which holds the poetry, the Epistolario and three comedias. The catalogue statistics cover only two of these texts, the Epistolario (1610) and the Comedia venatoria (1605). The original OBVIL portal is no longer reachable. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The OBVIL GONGORA project digitised Antonio Carreira's edition of Góngora's poetic works and the polémica gongorina in TEI P5 (2013-2016, CC BY-NC-ND). The TEI files are published in the gongoradigital GitHub repository gongoraobra, which holds the poetry, the Epistolario and three comedias. The catalogue statistics cover only two of these texts, the Epistolario (1610) and the Comedia venatoria (1605). The original OBVIL portal is no longer reachable. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2022-04-04",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 59121,
     "texts": 2
   },

@@ -24,9 +24,16 @@
     "FR"
   ],
   "period": "1410-1700s",
-  "words": 122800,
-  "texts": 713,
-  "notes": "Database of 939 entries (the home page says almost 1,000) about Bosch, his family, patrons and works: mostly handwritten court records, accounts and inventories of 's-Hertogenbosch, plus some early printed works and Spanish manuscripts, each with facsimile, transcription, remarks and translation. Counts are ours, from the public JSON file of each entry: entries that have a transcription and whose date (or accounting year) starts between 1450 and 1700 number 713, with about 122,800 words in the transcription layer (whitespace tokens, folio markers included); 57 entries have no transcription yet, 140 entries start before 1450 and 43 after 1700, and 10 are undated. The site was published for the 2016 Bosch anniversary and its data files date from 2021, with no later change seen.",
+  "words": 122668,
+  "texts": 706,
+  "notes": "Database of 939 entries (the home page says almost 1,000) about Bosch, his family, patrons and works: mostly handwritten court records, accounts and inventories of 's-Hertogenbosch, plus some early printed works and Spanish manuscripts, each with facsimile, transcription, remarks and translation. The site was published for the 2016 Bosch anniversary and its data files date from 2021, with no later change seen. The counts cover the entries that have a transcription, and the 56 entries without one are left out. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 117956,
+    "texts": 687
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
 }

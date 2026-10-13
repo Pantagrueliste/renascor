@@ -16,15 +16,15 @@
   "words": 290869,
   "texts": 12,
   "period": "1577-1577",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2025-06-14",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 290869,
     "texts": 12
   },
   "count_basis": "rq-retained-rows",
-  "license": "CC-BY-4.0",
+  "license": "Copyright",
   "license_url": "https://florentinecodex.getty.edu/about/3_Citations_and_Permissions",
   "license_note": "Copyright restrictions apply; no standard open reuse licence established.",
   "doi": "10.5281/zenodo.7213020",

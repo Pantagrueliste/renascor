@@ -16,7 +16,16 @@
   "countries": [
     "IT"
   ],
-  "notes": "Digital library of Latin verse written in Italy from Dante's time to the mid-16th century, with metrical scansion, a search tool, co-occurrence search and indexes of authors, metres and works. The text of each poem is freely readable and is taken from a named modern critical edition (for example L. Capra 1973 for Leonardo Teronda). The chronological index lists 346 authors in three periods: 'Da Dante a Petrarca' (1250-1374, 76 authors), 'Umanisti del Quattrocento' (1374-1494, 172) and 'Prima metà del Cinquecento' (1494-1550, 98). Texts and words are left out because the share dated 1450-1700 could not be separated without counting every work; the site states 'Ultimo aggiornamento: 2026.06.03'. Because the texts reproduce modern critical editions of poems that survive in manuscripts and prints, they are not diplomatic transcriptions.",
+  "notes": "Digital library of Latin verse written in Italy from Dante's time to the mid-16th century, with metrical scansion, a search tool, co-occurrence search and indexes of authors, metres and works. The text of each poem is freely readable and is taken from a named modern critical edition (for example L. Capra 1973 for Leonardo Teronda). The chronological index lists 346 authors in three periods: 'Da Dante a Petrarca' (1250-1374, 76 authors), 'Umanisti del Quattrocento' (1374-1494, 172) and 'Prima metà del Cinquecento' (1494-1550, 98). The site states 'Ultimo aggiornamento: 2026.06.03'. Because the texts reproduce modern critical editions of poems that survive in manuscripts and prints, they are not diplomatic transcriptions. Dates of individual works are approximate (author life spans), so the share within 1450-1700 is approximate. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 1096721,
+  "texts": 639,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 122375,
+    "texts": 297
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
 }

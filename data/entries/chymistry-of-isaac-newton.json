@@ -25,7 +25,7 @@
   },
   "license": "Not stated",
   "license_url": "https://webapp1.dlib.indiana.edu/newton/project/copyright.do",
-  "notes": "Online edition of Newton's alchemical manuscripts from Cambridge and other libraries, each shown in a normalised and a diplomatic transcription (encoded in TEI/XML, but the XML is not offered for download), with English translations of non-English passages, glossary and analysis tools. Newton wrote and copied about one million words on alchemy; the site's browse list holds 73 manuscripts, which is the count given (our own count of the browse pages; some are Newton's copies of older texts). Words not given. The Oxford Newton Project is a separate resource. Pages show an update stamp of 2025-07-03.",
+  "notes": "Online edition of Newton's alchemical manuscripts from Cambridge and other libraries, each shown in a normalised and a diplomatic transcription (encoded in TEI/XML, but the XML is not offered for download), with English translations of non-English passages, glossary and analysis tools. Newton wrote and copied about one million words on alchemy; the site's browse list holds 73 manuscripts, which is the count given, some of them Newton's copies of older texts. The Oxford Newton Project is a separate resource. Pages show an update stamp of 2025-07-03. The count of 73 manuscripts comes from the browse list, and the texts themselves could not be read to count words: the site does not allow automated access to the transcriptions, and the TEI files are not published.",
   "provenance": "discovered",
   "date_added": "2026-10-12"
 }

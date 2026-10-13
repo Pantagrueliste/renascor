@@ -14,8 +14,8 @@
   "author": "Johann Georg Metzger and Johann Rudolf Schmid zum Schwarzenhorn",
   "date": "1648-1649",
   "institution": "Universität Salzburg (Arno Strohmeyer) and Zentrum für Informationsmodellierung, Universität Graz (Georg Vogeler); FWF project P30091-G28",
-  "words": 135254,
-  "texts": 31,
+  "words": 133610,
+  "texts": 30,
   "region": "Vienna, the Balkans and Constantinople",
   "countries": [
     "AT",
@@ -24,7 +24,13 @@
   "period": "1648-1649",
   "license": "CC-BY-4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
-  "notes": "Edition of the diary (Reisebericht) of Johann Georg Metzger, who accompanied the imperial internuncio Schmid zum Schwarzenhorn to Constantinople from December 1648 to September 1649, together with the instruction and secondary instruction, 26 letters to Emperor Ferdinand III, a final report and a secret report, with registers and commentary. Counts are ours, from the TEI files (31 texts: the travel diary plus 30 documents; about 135,000 words, notes left out). The TEI for each object is served at /o:dipko.<id>/TEI_SOURCE (travel diary: o:dipko.rb). The site states a project term of 2017-2021 and shows nothing newer, so it is listed as archived.",
+  "notes": "Edition of the diary (Reisebericht) of Johann Georg Metzger, who accompanied the imperial internuncio Schmid zum Schwarzenhorn to Constantinople from December 1648 to September 1649, together with the instruction and secondary instruction, 26 letters to Emperor Ferdinand III, a final report and a secret report, with registers and commentary. The TEI for each object is served at /o:dipko.<id>/TEI_SOURCE (travel diary: o:dipko.rb). The site states a project term of 2017-2021 and shows nothing newer, so it is listed as archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 133610,
+    "texts": 30
+  },
+  "count_basis": "rq-retained-rows"
 }

@@ -19,11 +19,17 @@
     "FR"
   ],
   "period": "1535",
-  "words": 179000,
+  "words": 172925,
   "texts": 1,
-  "notes": "Transcription of the first edition of Dasypodius' dictionary (Strasbourg: Rihel, 1535, Strasbourg copy) with variant readings of the 1536 edition, in five TEI files (contents and preface, A-B, C-H, I-O, P-Z), revised 30 November 2012. Counts are ours from the TEI files: one dictionary, about 6,600 entries and about 179,000 words in the 1535 text, leaving out the 1536 variant readings (approximate). Last file modified 2012.",
+  "notes": "Transcription of the first edition of Dasypodius' dictionary (Strasbourg: Rihel, 1535, Strasbourg copy) with variant readings of the 1536 edition, in five TEI files (contents and preface, A-B, C-H, I-O, P-Z), revised 30 November 2012. Last file modified 2012. The dictionary (about 6,600 entries) is counted as one text, without the 1536 variant readings. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "CC-BY-SA-3.0",
   "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 172925,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows"
 }

@@ -18,11 +18,17 @@
   "countries": [
     "GB-ENG"
   ],
-  "words": 120444,
+  "words": 104402,
   "texts": 5,
   "license": "CC-BY-NC-ND-4.0",
   "license_url": "https://lemdo.uvic.ca/qme/copyright.html",
-  "notes": "Online editions of plays associated with the Queen's Men: The Famous Victories of Henry V, Friar Bacon and Friar Bungay, King Leir, Selimus and The True Tragedy of Richard III, each in a modern-spelling and an old-spelling text from the early quarto, with introductions, collations, performance materials and videos. The Old Wives' Tale is announced in the menu but its edition page returns an error. The TEI source of each text is downloadable under /qme/xml/source/ (for example emdFV_Q1.xml); the index file is given as data address. Counts are ours: 5 texts and about 120,400 words, counted in the text body of the five old-spelling TEI files (Famous Victories 18,767; Friar Bacon 22,058; King Leir 27,876; Selimus 26,442; Richard III 25,301); the modern-spelling versions are separate files and are not counted. The old address qme.internetshakespeare.uvic.ca redirects here.",
+  "notes": "Online editions of plays associated with the Queen's Men: The Famous Victories of Henry V, Friar Bacon and Friar Bungay, King Leir, Selimus and The True Tragedy of Richard III, each in a modern-spelling and an old-spelling text from the early quarto, with introductions, collations, performance materials and videos. The Old Wives' Tale is announced in the menu but its edition page returns an error. The TEI source of each text is downloadable under /qme/xml/source/ (for example emdFV_Q1.xml); the index file is given as data address. The old address qme.internetshakespeare.uvic.ca redirects here. The counts cover the five old-spelling texts only, not the modern-spelling versions or The Old Wives' Tale. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 104402,
+    "texts": 5
+  },
+  "count_basis": "rq-retained-rows"
 }

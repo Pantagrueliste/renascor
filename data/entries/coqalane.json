@@ -16,10 +16,10 @@
   "words": 83657,
   "texts": 57,
   "period": "1508-1595",
-  "notes": "TEI-XML corpus of the Renaissance coq-a-l'âne epistle genre (poems 1530-1650) by Cyril Cano-Arnedo, one TEI file per poem, reuse under CC BY-NC-SA 4.0, published on GitHub (ongoing encoding) with an earlier partial copy on Huma-Num GitLab. The 57 texts counted here match the GitLab copy. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "TEI-XML corpus of the Renaissance coq-a-l'âne epistle genre (poems 1530-1650) by Cyril Cano-Arnedo, one TEI file per poem, reuse under CC BY-NC-SA 4.0, published on GitHub (ongoing encoding) with an earlier partial copy on Huma-Num GitLab. The 57 texts counted here match the GitLab copy. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Cyril Cano-Arnedo",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 83657,
     "texts": 57
   },

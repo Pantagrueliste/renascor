@@ -16,10 +16,10 @@
   "words": 192178,
   "texts": 5,
   "period": "1515-1515",
-  "notes": "CreNum is the ELAN (Grenoble) digital XML-TEI edition of Guillaume Crétin's Chronique française (five books, 1515 edition), edited by Antoine Brix and Ellen Delvallée with the ELAN team. The edition is published at crenum.elan-numerique.fr; the TEI sources are in the project's GitLab repository (gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum), which shows a bot-check page to browsers. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "CreNum is the ELAN (Grenoble) digital XML-TEI edition of Guillaume Crétin's Chronique française (five books, 1515 edition), edited by Antoine Brix and Ellen Delvallée with the ELAN team. The edition is published at crenum.elan-numerique.fr; the TEI sources are in the project's GitLab repository (gricad-gitlab.univ-grenoble-alpes.fr/elan/crenum), which shows a bot-check page to browsers. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes)",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 192178,
     "texts": 5
   },

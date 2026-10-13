@@ -21,7 +21,14 @@
   "license": "Mixed",
   "license_url": "https://english.selu.edu/kempe/legal.php",
   "license_note": "The legal page says the images of British Library MS Add. 61823 and the transcripts of it are in the public domain under Creative Commons terms; images of the Cambridge University Library de Worde pamphlet are © Cambridge University Library. The licence of the pamphlet transcription is not stated.",
-  "notes": "Only the Wynkyn de Worde pamphlet (Here begynneth a shorte treatyse of contemplacyon..., printed in Fleet Street around 1501) falls in the period: the site gives a diplomatic transcription of it, beside facsimile images, in the Showcase viewer, plus a comparison with the Book. The main text, the manuscript BL MS Add. 61823 (copied around 1440, with later annotating hands), has diplomatic and reader's editions on the site but is counted here only as context. Words not given: the pamphlet is a few thousand words at most (about 1,400 displayed tokens by our rough count, which includes line-break fragments) and no clean figure exists. Active: a project page was edited on 2025-04-03.",
+  "notes": "Only the Wynkyn de Worde pamphlet (Here begynneth a shorte treatyse of contemplacyon..., printed in Fleet Street around 1501) falls in the period: the site gives a diplomatic transcription of it, beside facsimile images, in the Showcase viewer, plus a comparison with the Book. The main text, the manuscript BL MS Add. 61823 (copied around 1440, with later annotating hands), has diplomatic and reader's editions on the site. Active: a project page was edited on 2025-04-03. The counts cover the pamphlet only, since the manuscript lies outside 1450-1700. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 1981,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 1981,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows"
 }

@@ -14,9 +14,9 @@
   "words": 100420,
   "texts": 1,
   "period": "1488-1546",
-  "notes": "Digital critical edition of the Chronique abrégée and the collected works (1488-1546) of Nicaise Ladam, published as a doctoral thesis in HAL; also listed on theses.fr (2024UPSLN003). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Digital critical edition of the Chronique abrégée and the collected works (1488-1546) of Nicaise Ladam, published as a doctoral thesis in HAL; also listed on theses.fr (2024UPSLN003). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 100420,
     "texts": 1
   },

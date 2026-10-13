@@ -17,10 +17,10 @@
   "texts": 30,
   "institution": "La Polémica Gongorina project (Mercedes Blanco et al.), LabEx OBVIL, Sorbonne Université; TEI encoding under gongoradigital",
   "period": "1613-1662",
-  "notes": "Polemos is the XML-TEI encoding of the 17th-century polémica gongorina (Jáuregui, Espinosa, Díez de Revenga texts, 1613-1630s), edited for the Labex OBVIL by the Polémica Gongorina project (Mercedes Blanco et al.) and published on GitHub in the gongoradigital organisation (polemos, polemos-naked). The 31 texts in the catalogue (carta-amigo_1613, anti-jauregui, apologetico_1662, censura-lope...) belong to this edition. The reading edition and its download menu are now at https://obtic.huma-num.fr/obvil-web/corpus/gongora/ (the former obvil.sorbonne-universite.fr address no longer works). Licence: CC BY-NC-ND. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Polemos is the XML-TEI encoding of the 17th-century polémica gongorina (Jáuregui, Espinosa, Díez de Revenga texts, 1613-1630s), edited for the Labex OBVIL by the Polémica Gongorina project (Mercedes Blanco et al.) and published on GitHub in the gongoradigital organisation (polemos, polemos-naked). The 31 texts in the catalogue (carta-amigo_1613, anti-jauregui, apologetico_1662, censura-lope...) belong to this edition. The reading edition and its download menu are now at https://obtic.huma-num.fr/obvil-web/corpus/gongora/ (the former obvil.sorbonne-universite.fr address no longer works). Licence: CC BY-NC-ND. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2025-05-27",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 263434,
     "texts": 30
   },

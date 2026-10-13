@@ -15,8 +15,8 @@
   "status": "active",
   "date": "1308-1662",
   "institution": "Historisches Seminar, Universität Zürich (Simon Teuscher, Colette Halter-Pernet, Tobias Hodel); owner Staatsarchiv Aargau",
-  "words": 335128,
-  "texts": 459,
+  "words": 312611,
+  "texts": 446,
   "region": "Aargau (Königsfelden, Switzerland)",
   "countries": [
     "CH"
@@ -25,7 +25,13 @@
   "license": "CC-BY-4.0",
   "license_url": "https://zenodo.org/records/10950031",
   "license_note": "Editions data are CC BY 4.0; the platform is CC BY-NC-SA; the images are in the public domain.",
-  "notes": "Charters and records of the Königsfelden convent and the later Bernese Hofmeisterei: about 1,000 single documents and three copy books, transcribed and tagged for persons, places and organisations, with a standardised and a diplomatic view. The Zenodo data dump (version of 9 April 2024, 1,557 TEI document files) lists 459 documents dated within or overlapping 1450-1700, in Early New High German (428) and Latin (18 marked; the rest unmarked). Counts are ours, from the dump: about 335,000 words of transcription in those 459 documents (abbreviation expansions and editorial symbols left out); the whole edition has about 836,000 words in 1,557 files, from 1291 to 1662. Moved to the Sources Online server (TEI Publisher) in early 2024.",
+  "notes": "Charters and records of the Königsfelden convent and the later Bernese Hofmeisterei: about 1,000 single documents and three copy books, transcribed and tagged for persons, places and organisations, with a standardised and a diplomatic view. The Zenodo data dump (version of 9 April 2024, 1,557 TEI document files) lists 459 documents dated within or overlapping 1450-1700, in Early New High German (428) and Latin (18 marked; the rest unmarked). Moved to the Sources Online server (TEI Publisher) in early 2024. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 312417,
+    "texts": 443
+  },
+  "count_basis": "rq-retained-rows"
 }

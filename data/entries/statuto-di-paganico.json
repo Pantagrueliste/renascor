@@ -17,7 +17,15 @@
   ],
   "period": "1487-1490",
   "texts": 1,
-  "notes": "Edition of a single statute book, the only known copy, with an introduction, historical and codicological chapters, an index of rubrics and the full text of the rubrics (page 'Edizione'). The original site (www.gol.grosseto.it) no longer answers; the link points to the Internet Archive capture of 17 February 2005, which loads fully. Statutes were approved by Siena in 1487, 1489 and 1490. Words not given: the edition page holds about 25,000 words in the archived copy, but that includes the apparatus.",
+  "notes": "Edition of a single statute book, the only known copy, with an introduction, historical and codicological chapters, an index of rubrics and the full text of the rubrics (page 'Edizione'). The original site (www.gol.grosseto.it) no longer answers; the link points to the Internet Archive capture of 17 February 2005, which loads fully. Statutes were approved by Siena in 1487, 1489 and 1490. The counts cover the full statute text of the archived copy, not the introduction or the historical and codicological chapters. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 23143,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 23143,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
 }

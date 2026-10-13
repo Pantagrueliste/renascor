@@ -19,10 +19,16 @@
     "AT",
     "HR"
   ],
-  "words": 92023,
+  "words": 91568,
   "texts": 2,
-  "notes": "Parallel edition (published 1998 in the Gépeskönyv series of the Old Hungarian Literature Department, ELTE) of Miklós Zrínyi's epic cycle 'Adriai tengernek syrénája': the text of the so-called Syrena manuscript beside the 1651 Vienna print (printed by Kosmerovi Máte), with the idylls, the 15 parts of the Obsidio Szigetiana, and the shorter poems. Both witnesses are old-spelling transcriptions in plain HTML pages. Counts are ours: 2 texts and about 92,000 words, counted from the 22 pages of the manuscript text and the 21 pages of the print text (letter-only tokens, page and folio marks left out). The site's files date from 2006 and show no later change, so it is listed as archived. The text opens in a frameset; the page at this address links to it.",
+  "notes": "Parallel edition (published 1998 in the Gépeskönyv series of the Old Hungarian Literature Department, ELTE) of Miklós Zrínyi's epic cycle 'Adriai tengernek syrénája': the text of the so-called Syrena manuscript beside the 1651 Vienna print (printed by Kosmerovi Máte), with the idylls, the 15 parts of the Obsidio Szigetiana, and the shorter poems. Both witnesses are old-spelling transcriptions in plain HTML pages. The site's files date from 2006 and show no later change, so it is listed as archived. The text opens in a frameset; the page at this address links to it. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "Not stated",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 91568,
+    "texts": 2
+  },
+  "count_basis": "rq-retained-rows"
 }

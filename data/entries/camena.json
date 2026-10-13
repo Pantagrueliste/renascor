@@ -17,9 +17,9 @@
   "texts": 834,
   "period": "1500-1699",
   "status": "archived",
-  "notes": "Texts are taken from a republication of the project's XML files on GitHub (Neven Jovanović, University of Zagreb, snapshot 2016), licensed CC-BY-SA; the CAMENA site at the Universität Mannheim serves the same material work by work. The project has had no news since 2017. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Texts are taken from a republication of the project's XML files on GitHub (Neven Jovanović, University of Zagreb, snapshot 2016), licensed CC-BY-SA; the CAMENA site at the Universität Mannheim serves the same material work by work. The project has had no news since 2017. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 40551750,
     "texts": 834
   },

@@ -22,15 +22,21 @@
   "countries": [
     "DE"
   ],
-  "words": 67900,
-  "texts": 2,
+  "words": 42739,
+  "texts": 492,
   "license": "CC-BY-SA-4.0",
   "license_url": "http://selbstzeugnisse.hab.de/dienste",
   "years_active": {
     "start": 2014,
     "end": "ongoing"
   },
-  "notes": "Portal of the HAB with a register of manuscript self-testimonies in the library, the edition of the diary (Ephemerides sive Diarium) of Duke August the Younger of Brunswick-Wolfenbüttel for 1594-1635 (1,656 dated entries), the edition of four diaries of Duke Ludwig Rudolph and Duchess Christine Luise (1698-1724) and, since 2022, the 'Grand Tour digital' project (separate entry in the catalogue). TEI P5 files are available for download (the diary as one XML file, the 1698-1724 diaries as sz2.zip, both in the HAB GitLab). Counts are ours, from the TEI: about 50,300 words in the 1594-1635 diary and about 17,650 in Christine Luise's diary of 1698/99, leaving out editorial notes and indexes; Ludwig Rudolph's diaries (1701, 1707, 1712-13, 1724) are after the period and are not counted. The data are under CC BY-SA 4.0 unless stated otherwise.",
+  "notes": "Portal of the HAB with a register of manuscript self-testimonies in the library, the edition of the diary (Ephemerides sive Diarium) of Duke August the Younger of Brunswick-Wolfenbüttel for 1594-1635 (1,656 dated entries), the edition of four diaries of Duke Ludwig Rudolph and Duchess Christine Luise (1698-1724) and, since 2022, the 'Grand Tour digital' project (separate entry in the catalogue). TEI P5 files are available for download (the diary as one XML file, the 1698-1724 diaries as sz2.zip, both in the HAB GitLab). The data are under CC BY-SA 4.0 unless stated otherwise. The counts cover the 1594-1635 diary of August the Younger and Christine Luise's diary of 1698/99, since the diaries of Ludwig Rudolph (1701 to 1724) fall after the period. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 42739,
+    "texts": 492
+  },
+  "count_basis": "rq-retained-rows"
 }

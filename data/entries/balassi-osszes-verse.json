@@ -17,9 +17,17 @@
     "HU"
   ],
   "period": "1570s-1594",
-  "words": 21800,
+  "words": 20988,
   "texts": 110,
-  "notes": "Critical edition of Balassi's poems, first published online in 1998 (version 1.0), revised as 1.1 (1999) and 2.0 (2002), with facsimiles, apparatus, notes and a repertory. The site is a set of HTML frames. Counts are ours: about 110 poem pages and 21,800 words in the critical-text frame of the 116 pages linked from the contents list, leaving out line numbers, notes and apparatus; figures are approximate. Newest file seen was modified in 2006.",
+  "modernised": true,
+  "notes": "Critical edition of Balassi's poems, first published online in 1998 (version 1.0), revised as 1.1 (1999) and 2.0 (2002), with facsimiles, apparatus, notes and a repertory. The site is a set of HTML frames. Newest file seen was modified in 2006. The poems carry no individual dates, so their place within 1450-1700 rests on the author's life span (he died in 1594). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 20988,
+    "texts": 110
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
 }

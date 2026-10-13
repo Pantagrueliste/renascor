@@ -16,16 +16,22 @@
   "institution": "Herzog August Bibliothek Wolfenbüttel; transcription and commentary by Gerhard F. Strasser",
   "author": "Jacques de Fonteny",
   "texts": 1,
-  "words": 3286,
+  "words": 3308,
   "date": "c. 1600",
   "period": "c. 1600",
   "region": "France",
   "countries": [
     "FR"
   ],
-  "notes": "Manuscript (HAB Cod. Guelf. 117.5 Extrav.) of sonnet riddles, each with an engraving; the edition gives an original-spelling transcription with variants, a regularised version, introduction, commentary and facsimile. Readable and downloadable without login: the TEI files tei-transcript-fr-or.xml (original spelling) and tei-transcript-fr.xml are served from the HAB server. words = our own count of the verse lines of the original-spelling TEI (excluding notes, deleted words and figure descriptions); the edition is dated 2012 and the TEI file was last modified on 2012-08-21, so it is marked archived.",
+  "notes": "Manuscript (HAB Cod. Guelf. 117.5 Extrav.) of sonnet riddles, each with an engraving; the edition gives an original-spelling transcription with variants, a regularised version, introduction, commentary and facsimile. Readable and downloadable without login: the TEI files tei-transcript-fr-or.xml (original spelling) and tei-transcript-fr.xml are served from the HAB server. The edition is dated 2012 and the TEI file was last modified on 2012-08-21, so it is marked archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "last_modified": "2012-08-21",
   "license": "CC-BY-SA-3.0-DE",
   "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
-  "license_note": "The METS record links the HAB's CC BY-SA 3.0 Germany notice; the TEI header itself only says 'Herzog August Bibliothek Wolfenbüttel'. Images and other layers may have separate terms."
+  "license_note": "The METS record links the HAB's CC BY-SA 3.0 Germany notice; the TEI header itself only says 'Herzog August Bibliothek Wolfenbüttel'. Images and other layers may have separate terms.",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 3308,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows"
 }

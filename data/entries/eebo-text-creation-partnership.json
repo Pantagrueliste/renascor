@@ -33,10 +33,10 @@
     "start": 2002,
     "end": "ongoing"
   },
-  "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. EEBO-TCP Phase I and II texts have been free of restrictions since 1 August 2020 (CC0). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Keyed and corrected TEI XML transcriptions of Early English Books Online (EEBO) texts. Produces scholarly digital editions of early printed books. EEBO-TCP Phase I and II texts have been free of restrictions since 1 August 2020 (CC0). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "texts": 50486,
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 1342329634,
     "texts": 50237
   },

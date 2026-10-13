@@ -18,7 +18,16 @@
     "GB-ENG",
     "GB-SCT"
   ],
-  "notes": "Free hypertext editions of Neo-Latin works, mostly British, with introductions, notes and English translations: poetry, drama (including Jesuit plays), history, letters, treatises and speeches by authors such as Buchanan, Camden, Alabaster, Cowley and Bacon. The library page lists about 265 works. Of these, about 219 carry a date between 1459 and 1700 in their title, 9 are dated after 1700 (for example Addison, Bentley, Anstey), and 37 give no date (mostly 16th-17th-century authors). Texts and words are left out because the undated works and the translations could not be counted reliably. The University of Birmingham states a commitment to keep the site free online. The library page was last modified on 5 August 2025.",
+  "notes": "Free hypertext editions of Neo-Latin works, mostly British, with introductions, notes and English translations: poetry, drama (including Jesuit plays), history, letters, treatises and speeches by authors such as Buchanan, Camden, Alabaster, Cowley and Bacon. The library page lists about 265 works. Of these, about 219 carry a date between 1459 and 1700 in their title, 9 are dated after 1700 (for example Addison, Bentley, Anstey), and 37 give no date (mostly 16th-17th-century authors). The University of Birmingham states a commitment to keep the site free online. The library page was last modified on 5 August 2025. The counts cover 187 of the 258 linked works, those whose Latin text could be identified, and works without a year in their title are not counted in the period. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 2903307,
+  "texts": 152,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 2903307,
+    "texts": 152
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
 }

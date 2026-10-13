@@ -16,10 +16,10 @@
   "words": 1968888,
   "texts": 46,
   "period": "1529-1616",
-  "notes": "Transcriptions of Renaissance printed texts from the Epistemon corpus of the Bibliothèques Virtuelles Humanistes (CESR, Université de Tours). The entry links to the corpus on the BVH site; the TEI files used for the corpus statistics come from a legacy copy kept in Lou Burnard's tei-fr repository on GitHub (last updated 2015). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Transcriptions of Renaissance printed texts from the Epistemon corpus of the Bibliothèques Virtuelles Humanistes (CESR, Université de Tours). The entry links to the corpus on the BVH site; the TEI files used for the corpus statistics come from a legacy copy kept in Lou Burnard's tei-fr repository on GitHub (last updated 2015). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2023-10-18",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 1968888,
     "texts": 46
   },

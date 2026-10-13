@@ -14,8 +14,8 @@
   "status": "active",
   "date": "c. 1460-1555",
   "institution": "Herzog August Bibliothek Wolfenbüttel, with Universität Düsseldorf (Eva Schlotheuber), University of Oxford (Henrike Lähnemann) and Universität Bonn",
-  "words": 209151,
-  "texts": 413,
+  "words": 176634,
+  "texts": 407,
   "region": "Lüneburg (Lower Saxony)",
   "countries": [
     "DE"
@@ -24,7 +24,13 @@
   "license": "CC-BY-SA-3.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/",
   "license_note": "Each TEI file states CC BY-SA 3.0 Germany.",
-  "notes": "Edition (work in progress, 2016-) of the letters in manuscript Hs. 15 of Kloster Lüne, Lower Saxony, written to and by the nuns, in Low German and Latin, with facsimiles, registers and an introduction. The METS file at data_url lists the 413 TEI transcription files (texts/BriefNNN-D/L/LD_tei-transcript.xml). Counts are ours, from those files: about 209,000 words in 413 letters. The project dates the collection c. 1460-1555; the titles of 3 letters mention years before 1450 (1423, 1432, 1438), which are probably years referred to in the text, and 212 letters have no date, so all letters are counted. Files on the server changed in October 2025.",
+  "notes": "Edition (work in progress, 2016-) of the letters in manuscript Hs. 15 of Kloster Lüne, Lower Saxony, written to and by the nuns, in Low German and Latin, with facsimiles, registers and an introduction. The METS file at data_url lists the 413 TEI transcription files (texts/BriefNNN-D/L/LD_tei-transcript.xml). The project dates the collection c. 1460-1555; the titles of 3 letters mention years before 1450 (1423, 1432, 1438), which are probably years referred to in the text, and 212 letters have no date. Files on the server changed in October 2025. All 413 letters are counted within 1450-1700 on the strength of the project's dating of the collection. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 176634,
+    "texts": 407
+  },
+  "count_basis": "rq-retained-rows"
 }

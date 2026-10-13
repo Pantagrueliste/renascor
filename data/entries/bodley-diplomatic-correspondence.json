@@ -19,10 +19,17 @@
     "NL"
   ],
   "period": "1585-1597",
-  "texts": 990,
-  "notes": "Letters to and from Thomas Bodley during his diplomatic career, with customisable transcripts (abbreviations expanded or shown, as the reader chooses). Texts: 990 XML letter files in the project's GitHub repository (1585-1597). Words are not given because the XML mixes abbreviation and expansion markup so a reliable word count was not possible. The XML uses the project's own markup, not TEI; the repository was last pushed in 2013 but the site pages show 2025 modification dates, so it is treated as still online and maintained.",
+  "texts": 981,
+  "notes": "Letters to and from Thomas Bodley during his diplomatic career, with customisable transcripts (abbreviations expanded or shown, as the reader chooses). Texts: 990 XML letter files in the project's GitHub repository (1585-1597). The XML uses the project's own markup, not TEI; the repository was last pushed in 2013 but the site pages show 2025 modification dates, so it is treated as still online and maintained. The counts cover the 982 files with transcribed letter text; six files without letter text were left out. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "CC-BY-SA-3.0",
   "license_url": "https://www.livesandletters.ac.uk/bodley/copyright.html",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 671995,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 659068,
+    "texts": 963
+  },
+  "count_basis": "rq-retained-rows"
 }

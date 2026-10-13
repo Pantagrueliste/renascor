@@ -23,7 +23,15 @@
   "years_active": {
     "start": 1996
   },
-  "notes": "Open-access site with diplomatic old-spelling transcriptions of all 37 plays and the poems (quarto and folio versions) and, for 22 plays and most poems, modern-spelling editions prepared for the web, with facsimiles, performance and 'Life and Times' sections. Counts of words and texts are not given: the plays exist in several quarto and folio versions and no download or text index was found. The home page was last modified on 8 December 2022 and other pages date from 2015-2018 ('Accessed on 2019-01-11'); the publisher's follow-up work is on the Linked Early Modern Drama Online platform (lemdo.uvic.ca), which is a separate resource. This is the same resource as the old address http://internetshakespeare.uvic.ca/ (candidate 346).",
+  "notes": "Open-access site with diplomatic old-spelling transcriptions of all 37 plays and the poems (quarto and folio versions) and, for 22 plays and most poems, modern-spelling editions prepared for the web, with facsimiles, performance and 'Life and Times' sections. The home page was last modified on 8 December 2022 and other pages date from 2015-2018 ('Accessed on 2019-01-11'); the publisher's follow-up work is on the Linked Early Modern Drama Online platform (lemdo.uvic.ca), which is a separate resource. This is the same resource as the old address http://internetshakespeare.uvic.ca/ (candidate 346). The counts cover the 67 old-spelling quarto and folio witnesses listed on the Texts index, not the modern-spelling editions. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 1438925,
+  "texts": 67,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 1438925,
+    "texts": 67
+  },
+  "count_basis": "rq-retained-rows"
 }

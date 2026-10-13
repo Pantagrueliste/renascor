@@ -20,12 +20,18 @@
   "countries": [
     "DE"
   ],
-  "words": 114000,
+  "words": 106476,
   "texts": 1,
   "last_modified": "2015-07-15",
   "license": "CC-BY-SA-3.0",
   "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
-  "notes": "Transcription of the 428-page Latin-German dictionary printed by Johann Petreius in Nuremberg in 1538 (copy: HAB, P 1084.8° Helmst.), in 23 TEI files (front matter, letters A-Z, back matter) linked to the facsimile. Counts are ours: about 114,000 words counted over the 23 TEI part files (tags removed; headwords included). Published in 2015; no later change was found.",
+  "notes": "Transcription of the 428-page Latin-German dictionary printed by Johann Petreius in Nuremberg in 1538 (copy: HAB, P 1084.8° Helmst.), in 23 TEI files (front matter, letters A-Z, back matter) linked to the facsimile. Published in 2015; no later change was found. The dictionary is counted as one text. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 106476,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows"
 }

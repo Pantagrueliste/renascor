@@ -17,7 +17,15 @@
   ],
   "period": "1550-1563",
   "texts": 1,
-  "notes": "Edition of the diary of the London merchant tailor Henry Machyn (British Library Cotton Vitellius F.v), 1550 to 1563, with manuscript images, a diplomatic transcript and a modern English rendering, browsable by year. Words are not given: the live site is behind a bot check for scripts and the Wayback copy returns the text in fragments. The edition dates from 2006 and no update is evident.",
+  "notes": "Edition of the diary of the London merchant tailor Henry Machyn (British Library Cotton Vitellius F.v), 1550 to 1563, with manuscript images, a diplomatic transcript and a modern English rendering, browsable by year. The edition dates from 2006 and no update is evident. The counts treat the diary as one text, read from Internet Archive copies of the fulltext pages because the live site blocks automated access. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 75230,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 75230,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
 }

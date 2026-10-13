@@ -15,14 +15,14 @@
   "texts": 50,
   "institution": "Technische Hochschule Augsburg (Prof. emer. Ulrich Harsch)",
   "period": "1480-1650",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 195974,
     "texts": 50
   },
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
-  "license_url": "https://www.tha.de/~harsch/a_impressum.html",
+  "license_url": "https://www.hs-augsburg.de/~harsch/a_impressum.html",
   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
 }

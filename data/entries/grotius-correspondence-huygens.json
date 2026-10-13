@@ -15,8 +15,8 @@
   "status": "archived",
   "institution": "Huygens Instituut (KNAW); edition of P.C. Molhuysen, B.L. Meulenbroek, P.P. Witkam, H.J.M. Nellen and C.M. Ridderikhoff",
   "author": "Hugo Grotius",
-  "texts": 7763,
-  "words": 3576412,
+  "texts": 7801,
+  "words": 3552730,
   "date": "1597-1645",
   "period": "1597-1645",
   "region": "Low Countries, France and elsewhere in Europe",
@@ -26,8 +26,14 @@
     "DE",
     "SE"
   ],
-  "notes": "Digital version of the printed Briefwisseling van Hugo de Groot (letters written and received by Grotius from 1597 to 1645), with an introduction, name and quotation indices and the editors' Dutch notes. Every letter is readable online without login and can be browsed by year, sender or recipient. Counts are our own: 7,763 letter pages listed in the 49 year lists (1597-1645, including 'A' supplementary letters), and about 3.58 million visible words of the letter pages, fetched on 2026-10-12 and excluding the footnotes; the figure includes headings and page markers, so it is approximate. The site states 'basic digital version, October 2009'; its newest style file is dated 2023-07-04 and nothing newer was found, so it is marked archived.",
+  "notes": "Digital version of the printed Briefwisseling van Hugo de Groot (letters written and received by Grotius from 1597 to 1645), with an introduction, name and quotation indices and the editors' Dutch notes. Every letter is readable online without login and can be browsed by year, sender or recipient. The site states 'basic digital version, October 2009'; its newest style file is dated 2023-07-04 and nothing newer was found, so it is marked archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "last_modified": "2023-07-04",
   "license": "Copyright",
-  "license_note": "Site footer: © Huygens Instituut – KNAW 2009."
+  "license_note": "Site footer: © Huygens Instituut – KNAW 2009.",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 3549906,
+    "texts": 7790
+  },
+  "count_basis": "rq-retained-rows"
 }

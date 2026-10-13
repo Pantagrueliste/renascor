@@ -12,7 +12,7 @@
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "institution": "Grupo de Lingüística Hispánica, Universidad de Los Andes, Mérida (Enrique Obediente Sosa, ed.)",
-  "words": 63662,
+  "words": 58764,
   "texts": 37,
   "region": "Province of Mérida (Venezuela) and Santa Fe de Bogotá",
   "countries": [
@@ -20,6 +20,12 @@
     "CO"
   ],
   "period": "1564-1657",
-  "notes": "37 public and private documents (testaments, powers of attorney, sales, dowries, petitions) transcribed literally (Proyecto Histórico del Español de América / ALFAL norms), published in 2002 (ISBN 980-11-0652-2), each as a separate PDF with text layer. Counts are ours and approximate: words extracted from the 37 PDFs, including headers, archive references and notes; all documents date from 1564-1657. Probably related to the CDHM documents of the same group in the CHARTA corpus. The page shows no update since 2002.",
-  "license": "Not stated"
+  "notes": "37 public and private documents (testaments, powers of attorney, sales, dowries, petitions) transcribed literally (Proyecto Histórico del Español de América / ALFAL norms), published in 2002 (ISBN 980-11-0652-2), each as a separate PDF with text layer. All documents date from 1564-1657. Probably related to the CDHM documents of the same group in the CHARTA corpus. The page shows no update since 2002. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "license": "Not stated",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 58764,
+    "texts": 37
+  },
+  "count_basis": "rq-retained-rows"
 }

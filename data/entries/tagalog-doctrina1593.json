@@ -16,9 +16,9 @@
   "words": 2018,
   "texts": 12,
   "period": "1593-1593",
-  "notes": "Tagalog prayers (12 texts) from the 1593 Manila Doctrina Christiana, in Project Gutenberg eBook #16119, a facsimile edition by Edwin Wolf, produced by Jeroen Hellingman, Tamiko I. Camacho and Distributed Proofreaders. The eBook is in English, Spanish and Tagalog; only the Tagalog texts are counted. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Tagalog prayers (12 texts) from the 1593 Manila Doctrina Christiana, in Project Gutenberg eBook #16119, a facsimile edition by Edwin Wolf, produced by Jeroen Hellingman, Tamiko I. Camacho and Distributed Proofreaders. The eBook is in English, Spanish and Tagalog; only the Tagalog texts are counted. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 2018,
     "texts": 12
   },

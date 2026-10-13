@@ -14,9 +14,9 @@
   "words": 6616,
   "texts": 1,
   "period": "1624",
-  "notes": "Critical reissue of the Kikongo text of Mateus Cardoso's Doutrina Christãa (Lisbon, 1624), the first printed book in a Bantu language, by François Bontinck and Ndembe Nsasi, published by the Royal Academy for Overseas Sciences. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Critical reissue of the Kikongo text of Mateus Cardoso's Doutrina Christãa (Lisbon, 1624), the first printed book in a Bantu language, by François Bontinck and Ndembe Nsasi, published by the Royal Academy for Overseas Sciences. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 6616,
     "texts": 1
   },

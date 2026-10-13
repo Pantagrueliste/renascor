@@ -24,8 +24,8 @@
   "author": "Philipp Hainhofer (album owner) and many contributors",
   "date": "1596-1633",
   "institution": "Herzog August Bibliothek Wolfenbüttel (edition by Sabine Jagodzinski; Wolfenbütteler Digitale Editionen no. 6)",
-  "words": 4815,
-  "texts": 136,
+  "words": 4354,
+  "texts": 52,
   "region": "Augsburg and the courts and cities of Europe",
   "countries": [
     "DE",
@@ -37,7 +37,13 @@
   "license": "CC-BY-SA-3.0-DE",
   "license_url": "https://stammbuch.hab.de/informationen-zur-edition/nutzungsbedingungen",
   "license_note": "Text content is CC BY-SA; images supplied by the library are public domain, others carry their own caption terms.",
-  "notes": "Annotated edition of the album amicorum of the Augsburg merchant and art agent Philipp Hainhofer: 228 numbered pages of parchment and paper with entries (signatures, mottoes, dedications, coats of arms) dated 1596-1633, with translations, commentary and indexes. Downloads: TEI P5 XML of the full edition, a plain-text file of the transcription, PDF, and registers. Counts are our own: the TEI has 268 page records, 132 of them marked blank, so texts = 136 non-blank pages; words = 4,815 in the plain-text transcription file (entries are short). The site went online 29 August 2024; the project closed 30 November 2024 and the last small corrections are dated 29 July 2025.",
+  "notes": "Annotated edition of the album amicorum of the Augsburg merchant and art agent Philipp Hainhofer: 228 numbered pages of parchment and paper with entries (signatures, mottoes, dedications, coats of arms) dated 1596-1633, with translations, commentary and indexes. Downloads: TEI P5 XML of the full edition, a plain-text file of the transcription, PDF, and registers. The site went online 29 August 2024; the project closed 30 November 2024 and the last small corrections are dated 29 July 2025. The counts cover the 96 pages that carry a transcription, and the others are blank or only picture descriptions. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 4298,
+    "texts": 51
+  },
+  "count_basis": "rq-retained-rows"
 }

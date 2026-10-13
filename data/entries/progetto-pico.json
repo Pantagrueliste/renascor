@@ -17,10 +17,16 @@
   "countries": [
     "IT"
   ],
-  "words": 7715,
+  "words": 7702,
   "texts": 1,
   "license": "Not stated",
-  "notes": "Hypertext edition of Pico's Oratio (the 'Discourse on the Dignity of Man'), with a transcription of the Latin text of the first printed edition (Bologna, 1496) divided into paragraphs 1-47, an annotated text with commentary by seven scholars, and introductions in Latin, Italian and English. The incunable copies (Exemplar Brunense, Exemplar Bononiense, editio princeps) and the Apologia (1487) are shown as page images only. The original address (brown.edu/Departments/Italian_Studies/pico/) now returns a 404 error, so the link goes to the Internet Archive copy of 13 September 2025. Counts are ours: about 7,700 words of Latin text on the Wayback copy of oratio.html (section numbers included), one work.",
+  "notes": "Hypertext edition of Pico's Oratio (the 'Discourse on the Dignity of Man'), with a transcription of the Latin text of the first printed edition (Bologna, 1496) divided into paragraphs 1-47, an annotated text with commentary by seven scholars, and introductions in Latin, Italian and English. The incunable copies (Exemplar Brunense, Exemplar Bononiense, editio princeps) and the Apologia (1487) are shown as page images only. The original address (brown.edu/Departments/Italian_Studies/pico/) now returns a 404 error, so the link goes to the Internet Archive copy of 13 September 2025. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 7702,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows"
 }

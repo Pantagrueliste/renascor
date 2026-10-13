@@ -11,8 +11,8 @@
   "encoding": "html",
   "status": "active",
   "institution": "Departament d'Història Moderna i Contemporània, Universitat Autònoma de Barcelona (Javier Antón Pelayo)",
-  "words": 12359,
-  "texts": 40,
+  "words": 9299,
+  "texts": 39,
   "region": "Catalonia",
   "countries": [
     "ES"
@@ -21,7 +21,13 @@
   "license": "CC-BY-NC-ND-4.0",
   "license_url": "https://epicat.uab.cat/copyright",
   "license_note": "The copyright page states that all contents are CC BY-NC-ND 4.0, that mass downloading of the data without permission is not allowed, and that the images remain under the licences of the archives.",
-  "notes": "Catalogue and transcriptions of family correspondence in Catalan archives, 1500-1850; about 3,800 letters, mostly of the 18th and 19th centuries. Only 40 letters dated 1526-1699 (all showing a transcription on the page) fall in the period; the earliest is from 1526. Counts are ours, from the letter pages named in the site's own date histogram (api?histograma): about 12,400 words, 39 in Catalan and 1 in Spanish. No bulk download. The site files were updated on 21 September 2026.",
+  "notes": "Catalogue and transcriptions of family correspondence in Catalan archives, 1500-1850; about 3,800 letters, mostly of the 18th and 19th centuries. Only 40 letters dated 1526-1699 (all showing a transcription on the page) fall in the period; the earliest is from 1526. Of these, 39 are in Catalan and 1 in Spanish. No bulk download. The site files were updated on 21 September 2026. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 9299,
+    "texts": 39
+  },
+  "count_basis": "rq-retained-rows"
 }

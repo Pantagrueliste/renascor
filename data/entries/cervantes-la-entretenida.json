@@ -16,9 +16,17 @@
     "ES"
   ],
   "period": "1615",
-  "words": 19200,
+  "words": 18850,
   "texts": 1,
-  "notes": "Edition of Cervantes's play from the 1615 first edition (Ocho comedias y ocho entremeses), in several versions: facsimile, modern-spelling transcription, edited text and unpunctuated text, with an English translation, indices, a map and performance information. Counts are ours: one play, about 19,200 words in the first-edition (modern-spelling) text pages including front matter, without line numbers. Site marked 2018; its newest file is from May 2023, so nothing changed in the last three years.",
+  "modernised": true,
+  "notes": "Edition of Cervantes's play from the 1615 first edition (Ocho comedias y ocho entremeses), in several versions: facsimile, modern-spelling transcription, edited text and unpunctuated text, with an English translation, indices, a map and performance information. Site marked 2018; its newest file is from May 2023, so nothing changed in the last three years. The counts cover the first-edition text only, not the other versions or the English translation. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 18850,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
 }

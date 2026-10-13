@@ -17,10 +17,10 @@ from pathlib import Path
 
 try:
     from .languages import catalogue_languages
-    from .rq_statistics import project_collections
+    from .rq_statistics import HARVEST_PREFIX, project_collections
 except ImportError:
     from languages import catalogue_languages
-    from rq_statistics import project_collections
+    from rq_statistics import HARVEST_PREFIX, project_collections
 
 ROOT = Path(__file__).resolve().parents[1]
 ISOLATED = 3
@@ -36,7 +36,8 @@ def breakdown(db: Path) -> dict:
     out: dict = {}
     for coll, lang, filename, words in rows:
         entry = entry_of.get(coll)
-        if not entry:
+        # Harvested collections carry heuristic language labels: keep them out of the breakdown.
+        if not entry or coll.startswith(HARVEST_PREFIX):
             continue
         label = next(iter(sorted(catalogue_languages([lang]))), lang)
         d = out.setdefault(entry, {}).setdefault(label, {"texts": 0, "words": 0, "files": []})

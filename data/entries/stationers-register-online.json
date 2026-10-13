@@ -21,10 +21,16 @@
   "countries": [
     "GB-ENG"
   ],
-  "words": 418000,
-  "texts": 10453,
+  "words": 379559,
+  "texts": 9575,
   "license": "Not stated",
-  "notes": "Database of the copy-entries (permissions to print) recorded in the Stationers' Company Register, 1554-1640, from Arber's transcript corrected against the Register's images, with original spelling, cancelled text, marginalia and Arber's notes, and indexes of stationers and titles. Counts are ours, from the full TEI XML delivered by the site's /api/allEntries service: 10,453 entries and about 418,000 words of entry text. The sibling series by Eyre and Rivington (1640-1708) is described by the project but was not found in the data. The site works as of October 2026; the web application dates from about 2018 and no dated update was found, so the status 'active' is a cautious reading.",
+  "notes": "Database of the copy-entries (permissions to print) recorded in the Stationers' Company Register, 1554-1640, from Arber's transcript corrected against the Register's images, with original spelling, cancelled text, marginalia and Arber's notes, and indexes of stationers and titles. The full TEI XML is delivered by the site's /api/allEntries service (10,453 entries). The sibling series by Eyre and Rivington (1640-1708) is described by the project but was not found in the data. The site works as of October 2026; the web application dates from about 2018 and no dated update was found, so the status 'active' is a cautious reading. Most entries (9,792) carry no date of their own, so their year is carried forward from the preceding entry and is approximate. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 379464,
+    "texts": 9571
+  },
+  "count_basis": "rq-retained-rows"
 }

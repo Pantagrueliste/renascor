@@ -136,6 +136,42 @@ class ResourceStatisticsTests(unittest.TestCase):
                       "license_note", "data_formats", "api_url"):
             self.assertIn(field, fields)
 
+    def test_later_snapshot_relabels_frozen_records_and_counts_harvested_ones(self):
+        con = sqlite3.connect(self.db)
+        con.executemany("INSERT INTO texts VALUES (?,?,?,?,?,?,?,?,?,?)", [
+            ("Renascor_harvested", "a", "German", 1600, 400, 1, 0, "tei", "site", 0),
+            ("Renascor_harvested", "b", "German", 1610, 100, 1, 1, "tei", "site", 0),
+        ])
+        con.commit()
+        con.close()
+        counts, _ = rs.read_database(self.db)
+        families = {"groups": [{"slug": "split-share", "match": ["^Example$"]}]}
+        projects = rs.project_collections(counts, families)
+        self.assertEqual(projects["harvested"], ["Renascor_harvested"])
+        folder = self.root / "entries"
+        folder.mkdir()
+        # A hand-split share of a frozen collection: relabelled, never recounted.
+        share = {"title": "Share", "words": 20, "texts": 1, "languages": ["Latin"], "license": "Not stated",
+                 "corpus_statistics": {"snapshot": "v2026.06", "words": 20, "texts": 1},
+                 "notes": "Short excerpts. " + rq_import.STATS_NOTE}
+        harvested = {"title": "Harvested", "words": 9, "languages": ["German", "Latin"], "period": "1590-1620",
+                     "license": "Not stated", "notes": "Letters. Counts are ours."}
+        (folder / "split-share.json").write_text(json.dumps(share))
+        (folder / "harvested.json").write_text(json.dumps(harvested))
+        rs.refresh_entries(folder, counts, families, {}, snapshot="v2026.10")
+        share_after = json.loads((folder / "split-share.json").read_text())
+        self.assertEqual((share_after["words"], share_after["corpus_statistics"]),
+                         (20, {"snapshot": "v2026.10", "words": 20, "texts": 1}))
+        self.assertIn("snapshot v2026.10", share_after["notes"])
+        after = json.loads((folder / "harvested.json").read_text())
+        self.assertEqual((after["words"], after["texts"]), (500, 2))
+        self.assertEqual(after["corpus_statistics"], {"snapshot": "v2026.10", "words": 400, "texts": 1})
+        self.assertEqual((after["languages"], after["period"]), (["German", "Latin"], "1590-1620"))
+        self.assertTrue(after["notes"].endswith(
+            f"derived from the Renascor Corpus snapshot v2026.10 ({rs.HARVEST_SCOPE})."))
+        rs.refresh_entries(folder, counts, families, {}, snapshot="v2026.10")
+        self.assertEqual(json.loads((folder / "harvested.json").read_text()), after)
+
 
 if __name__ == "__main__":
     unittest.main()
