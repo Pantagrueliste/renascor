@@ -1054,6 +1054,8 @@ function onSheetClosed() {
 function wireEvents() {
 	const onSearch = debounce(() => { state.q = els.q.value.trim(); render(); }, 150);
 	const clearSearch = () => { onSearch.cancel(); setQ(''); render(); };
+	// The search applies as you type; pressing Enter must not reload the page.
+	on($('search-form'), 'submit', ev => ev.preventDefault());
 	on(els.q, 'input', () => { els.qClear.hidden = !els.q.value; onSearch(); });
 	on(els.q, 'keydown', ev => {
 		if (ev.key === 'Enter') { ev.preventDefault(); onSearch.cancel(); state.q = els.q.value.trim(); render(); }
