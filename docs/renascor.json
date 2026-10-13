@@ -5,7 +5,7 @@
     "licence": "CC0-1.0",
     "version": "1.0.0",
     "data_updated": "2026-10-13",
-    "data_commit": "87bf9d7ef20faccad40aa5efaa08ff946865be0c",
+    "data_commit": "cab2ddd54865c885991b69869a566a456054b1d4",
     "corpus_statistics": {
       "name": "Renascor Corpus",
       "snapshot": "v2026.10",
@@ -1180,7 +1180,7 @@
         "Joel Fredell"
       ],
       "languages": [
-        "Middle English"
+        "English"
       ],
       "period": "c. 1501",
       "words": 1981,
@@ -1218,7 +1218,7 @@
       "institution": "Huygens Institute, Radboud University Nijmegen and Stadsarchief 's-Hertogenbosch (Bosch Research and Conservation Project)",
       "languages": [
         "Latin",
-        "Middle Dutch",
+        "Dutch",
         "Spanish",
         "French"
       ],
@@ -3204,7 +3204,7 @@
         "Aarnoud de Hamer"
       ],
       "languages": [
-        "Middle Dutch"
+        "Dutch"
       ],
       "period": "1517",
       "words": 583600,
@@ -7173,7 +7173,7 @@
       ],
       "published": 2025,
       "languages": [
-        "Middle Low German"
+        "German"
       ],
       "period": "c. 1540-1601",
       "words": 180964,
@@ -8130,7 +8130,7 @@
       "url": "http://www.maloryproject.com/",
       "institution": "Takako Kato (University of Leicester), Nick Hayward (Loyola University Chicago); Digital Archive Research Centre, Keio University",
       "languages": [
-        "Middle English"
+        "English"
       ],
       "period": "c. 1470-1485",
       "words": 27445,
@@ -8601,7 +8601,6 @@
       "published": 2021,
       "languages": [
         "German",
-        "Low German",
         "Latin",
         "French",
         "Dutch"
@@ -8655,7 +8654,7 @@
       ],
       "published": 2016,
       "languages": [
-        "Low German",
+        "German",
         "Latin"
       ],
       "period": "c. 1460-1555",
@@ -10638,8 +10637,7 @@
       "url": "https://www.luminarium.org/renascence-editions/",
       "institution": "Risa Stephanie Bear, University of Oregon (hosted by Luminarium)",
       "languages": [
-        "English",
-        "Middle English"
+        "English"
       ],
       "period": "1477-1799",
       "words": 4238340,
@@ -10711,7 +10709,6 @@
       "published": 1994,
       "languages": [
         "English",
-        "Middle English",
         "Scots"
       ],
       "period": "Old English to the 20th century",

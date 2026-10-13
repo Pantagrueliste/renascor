@@ -74,10 +74,13 @@ Pamela H. Smith; Clément Godbarge;
         for value in ["https://doi.org/10.5281/zenodo.1", "10.5281/contains spaces", "not-a-doi"]:
             with self.assertRaises(jsonschema.ValidationError):
                 jsonschema.validate(dict(entry, doi=value), SCHEMA)
-        for label in ["Ancient Greek", "Modern Greek", "Multilingual", "Romance", "Romance (other)"]:
+        for label in ["Ancient Greek", "Modern Greek", "Multilingual", "Romance", "Romance (other)",
+                      "Middle English", "Middle Low German", "Middle Dutch"]:
             with self.assertRaises(jsonschema.ValidationError):
                 jsonschema.validate(dict(entry, languages=[label]), SCHEMA)
         self.assertEqual(catalogue_languages(["Greek", "Modern Greek", "Romance", "Latin"]), ["Greek", "Latin"])
+        self.assertEqual(catalogue_languages(["German", "Middle Low German", "Low German", "Middle Dutch"]),
+                         ["German", "Dutch"])
 
     def test_only_active_rejections_block_discovery(self):
         with tempfile.TemporaryDirectory() as temp:
