@@ -18,6 +18,11 @@
   "period": "1460-1580",
   "notes": "RenArD is the Renaissance branch of the Translatoscope project (ELAN, Litt&Arts Grenoble), offering the first XML-TEI editions of the Latin humanist translations of Aristophanes — Ploutos and Les Nuees (Clouds) translated by Alessandro da Otranto (1470), Johannes Cuno, Beatus Rhenanus, Lorenzo Giacomini etc. — presented alongside the manuscript facsimile via EVT. The harvested origins ('Translatoscope: Les Nuees / Alessandro da Otranto (1470)', 'Translatoscope: Ploutos / Beatus Rhenanus (1520)') map directly onto these translations; TEI data is deposited on Nakala. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "UMR Litt&Arts, Universite Grenoble Alpes (Malika Bastin-Hammou; ELAN project)",
+  "editors": [
+    "Malika Bastin-Hammou",
+    "Micol Muttini"
+  ],
+  "published": 2024,
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 46329,

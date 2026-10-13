@@ -13,6 +13,9 @@
   "status": "active",
   "author": "Robert Boyle",
   "institution": "Centre for Editing Lives and Letters (UCL), with Birkbeck, University of London and the Royal Society",
+  "editors": [
+    "Michael Hunter"
+  ],
   "region": "England",
   "countries": [
     "GB-ENG"

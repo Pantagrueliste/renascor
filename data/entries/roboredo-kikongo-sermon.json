@@ -22,6 +22,9 @@
   },
   "count_basis": "rq-retained-rows",
   "institution": "John Thornton, Boston University (African Texts)",
+  "editors": [
+    "John Thornton"
+  ],
   "license": "Copyright",
   "license_note": "The page (edition, translation and commentary by John Thornton) carries only the Boston University footer '(c) Boston University. All rights reserved.'; no reuse licence is stated on the page or the faculty page.",
   "license_url": "https://www.bu.edu/afam/people/faculty/john-thornton/roboredo-kikongo-sermon/"

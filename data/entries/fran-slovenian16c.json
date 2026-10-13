@@ -24,5 +24,11 @@
   "license": "CC-BY-SA-4.0",
   "license_url": "https://fran.si/korpus16/o-portalu?page=Colofon",
   "institution": "Inštitut za slovenski jezik Frana Ramovša ZRC SAZU (ISJFR ZRC SAZU); ed. Kozma Ahačič; Založba ZRC",
+  "editors": [
+    "Kozma Ahačič",
+    "Andreja Legan Ravnikar",
+    "Alenka Jelovšek"
+  ],
+  "published": 2019,
   "license_note": "The colophon states that the work is available under Creative Commons Attribution-ShareAlike 4.0 ('Priznanje avtorstva-Deljenje pod enakimi pogoji 4.0')."
 }

@@ -7,6 +7,13 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "University of Gothenburg (Språkbanken)",
+  "editors": [
+    "Gerlof Bouma",
+    "Evie Coussé",
+    "Trude Dijkstra",
+    "Nicoline van der Sijs"
+  ],
+  "published": 2024,
   "languages": [
     "Dutch",
     "German"
@@ -42,5 +49,6 @@
     "texts": 15
   },
   "count_basis": "rq-retained-rows",
-  "notes": "The counts cover the Dutch and German Bibles of the public subset (12 within 1450-1700), not the English and Swedish Bibles in the archive. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+  "notes": "The counts cover the Dutch and German Bibles of the public subset (12 within 1450-1700), not the English and Swedish Bibles in the archive. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "doi": "10.23695/fhat-dd64"
 }

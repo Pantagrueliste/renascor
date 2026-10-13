@@ -28,5 +28,12 @@
   "license_url": "https://zenodo.org/records/5793616",
   "doi": "10.5281/zenodo.5793616",
   "institution": "Ruhr-Universität Bochum; Martin-Luther-Universität Halle-Wittenberg; Universität Potsdam",
+  "editors": [
+    "Klaus-Peter Wegera",
+    "Hans-Joachim Solms",
+    "Ulrike Demske",
+    "Stefanie Dipper"
+  ],
+  "published": 2021,
   "license_note": "The Zenodo record states Creative Commons Attribution 4.0 International (the catalogue's earlier value, CC-BY-SA-4.0, did not match the record)."
 }

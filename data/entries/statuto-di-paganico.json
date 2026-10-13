@@ -11,6 +11,11 @@
   "status": "discontinued",
   "date": "late 15th century (approved 1487-1490)",
   "institution": "Archivio di Stato di Grosseto and Pro Loco di Paganico (edited by Silvia Cappelli and Franca Doccini; introduction by Mario Ascheri)",
+  "editors": [
+    "Silvia Cappelli",
+    "Franca Doccini"
+  ],
+  "published": 1997,
   "region": "Tuscany (Maremma)",
   "countries": [
     "IT"

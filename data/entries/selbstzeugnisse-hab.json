@@ -16,6 +16,14 @@
   "encoding": "tei",
   "status": "active",
   "institution": "Herzog August Bibliothek Wolfenbüttel",
+  "editors": [
+    "Inga Hanna Ralle",
+    "Alexander Zirr",
+    "Andreas Herz",
+    "Jan-Hendrik Hütten",
+    "Miriam Mulzer"
+  ],
+  "published": 2017,
   "date": "1594-1635; 1698-1699",
   "period": "1594-1635 and 1698-1699 (portal also holds diaries of 1701-1724)",
   "region": "Brunswick-Wolfenbüttel",

@@ -22,7 +22,12 @@
   },
   "count_basis": "rq-retained-rows",
   "institution": "Benedetta Salvati; École nationale des chartes, Université Paris Sciences et Lettres, with the Université de Lausanne (thesis defended 2024)",
+  "editors": [
+    "Benedetta Salvati"
+  ],
+  "published": 2024,
   "license": "Custom terms",
   "license_url": "https://about.hal.science/hal-authorisation-v1/",
-  "license_note": "The HAL record (tel-05137472) gives its licence as the standard 'HAL authorisation v1' (not a Creative Commons licence): the thesis is deposited with the author's non-exclusive authorisation for HAL to distribute it. No separate licence for the edition text was found; the record's metadata also shows the edition covers 1488-1525 from KBR MS 14964-65."
+  "license_note": "The HAL record (tel-05137472) gives its licence as the standard 'HAL authorisation v1' (not a Creative Commons licence): the thesis is deposited with the author's non-exclusive authorisation for HAL to distribute it. No separate licence for the edition text was found; the record's metadata also shows the edition covers 1488-1525 from KBR MS 14964-65.",
+  "doi": "10.70675/50fb6519z354dz4e84zb4a9z9daab0ca0a24"
 }

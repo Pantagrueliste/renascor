@@ -14,6 +14,9 @@
   "words": 195974,
   "texts": 50,
   "institution": "Technische Hochschule Augsburg (Prof. emer. Ulrich Harsch)",
+  "editors": [
+    "Ulrich Harsch"
+  ],
   "period": "1480-1650",
   "notes": "Bibliotheca Augustana, a collection of electronic texts in Latin and in Greek, German, English, French, Italian, Spanish, Polish, Russian, Portuguese, Czech and Yiddish, with a chronological and an alphabetical index for each language section. It is the personal project of Ulrich Harsch (professor emeritus, Augsburg University of Applied Sciences), online since 1 March 1996 and still hosted on the university's web space. Texts are plain HTML pages for reading online; the imprint states that images from other sources are either below the threshold of protection or released by their authors. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {

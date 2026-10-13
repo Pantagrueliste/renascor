@@ -24,5 +24,10 @@
   "license": "Copyright",
   "license_url": "https://hallgrimurpetursson.is/um-vefinn/",
   "license_note": "The 'Um vefinn' page carries the notice '©RÚV 2014'; no open licence is stated and third-party recordings are used with permission. The text is in modern spelling.",
-  "institution": "RÚV (Ríkisútvarpið); Stofnun Árna Magnússonar á Íslandi; Landsbókasafn Íslands – Háskólabókasafn"
+  "institution": "RÚV (Ríkisútvarpið); Stofnun Árna Magnússonar á Íslandi; Landsbókasafn Íslands – Háskólabókasafn",
+  "editors": [
+    "Anna S. Melsteð",
+    "Jón Karl Helgason"
+  ],
+  "published": 1998
 }

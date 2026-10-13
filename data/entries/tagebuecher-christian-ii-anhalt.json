@@ -15,6 +15,13 @@
   "status": "active",
   "author": "Christian II of Anhalt-Bernburg",
   "institution": "Herzog August Bibliothek Wolfenbüttel, Sachsen-Anhalt project (transcription by Andreas Herz and others)",
+  "editors": [
+    "Ronald G. Asch",
+    "Arndt Schreiber",
+    "Antoine Odier",
+    "Alexander Zirr",
+    "Andreas Herz"
+  ],
   "region": "Germany, Austria and Bohemia",
   "countries": [
     "DE",

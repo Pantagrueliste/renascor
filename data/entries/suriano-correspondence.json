@@ -3,6 +3,11 @@
   "url": "https://suriano.huygens.knaw.nl/",
   "data_url": "https://github.com/HuygensING/suriano/tree/main/datasource/tei",
   "data_format": "tei",
+  "editors": [
+    "Helmer Helmers",
+    "Nina Lamal"
+  ],
+  "published": 2024,
   "languages": [
     "Italian"
   ],
@@ -27,5 +32,5 @@
   "license": "Mixed",
   "license_url": "https://zenodo.org/records/13950093",
   "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "doi": "10.5281/zenodo.13950093"
+  "doi": "10.5281/zenodo.13950092"
 }

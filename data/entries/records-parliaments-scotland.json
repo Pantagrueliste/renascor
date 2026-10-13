@@ -12,6 +12,13 @@
   "encoding": "html",
   "status": "active",
   "institution": "Scottish Parliament Project, School of History, University of St Andrews",
+  "editors": [
+    "Keith M. Brown",
+    "Gillian H. MacIntosh",
+    "Alastair J. Mann",
+    "Pamela E. Ritchie",
+    "Roland J. Tanner"
+  ],
   "region": "Scotland",
   "countries": [
     "GB-SCT"

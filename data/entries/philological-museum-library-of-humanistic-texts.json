@@ -12,6 +12,10 @@
   "encoding": "html",
   "status": "active",
   "institution": "The Shakespeare Institute, University of Birmingham (editor Dana F. Sutton, University of California, Irvine)",
+  "editors": [
+    "Dana F. Sutton",
+    "Martin Wiggins"
+  ],
   "period": "c. 1459-1700 (a few later items)",
   "region": "Great Britain (some continental authors)",
   "countries": [

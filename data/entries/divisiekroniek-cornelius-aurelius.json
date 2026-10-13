@@ -11,6 +11,9 @@
   "status": "active",
   "author": "Cornelius Aurelius",
   "institution": "Huygens Institute (transcribed by A. de Hamer, 2011)",
+  "editors": [
+    "Aarnoud de Hamer"
+  ],
   "region": "Holland",
   "countries": [
     "NL"

@@ -22,6 +22,7 @@
   "words": 7946427,
   "texts": 27,
   "institution": "Huygens ING (KNAW)",
+  "published": 2011,
   "period": "1629-1699",
   "notes": "Web application and corpus of about 20,000 letters written by and to scholars of the 17th-century Dutch Republic (among them Grotius, Constantijn and Christiaan Huygens, Descartes, Leeuwenhoek and Swammerdam), with faceted search and geographic, time-based, social-network and co-citation visualisations. The project Circulation of Knowledge and Learned Practices in the 17th-century Dutch Republic was run by Huygens ING with DANS, the University of Amsterdam, the Descartes Centre and the Koninklijke Bibliotheek, funded by NWO and CLARIN-NL; the letters were converted to TEI XML. Version 1.0 appeared in June 2013 and the ePistolarium was launched on 14 June 2013; an archived version of the project data (dated 23 July 2013) is deposited at DANS. The data are a snapshot of 2013 and no later additions were found. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {

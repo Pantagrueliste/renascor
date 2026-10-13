@@ -13,6 +13,10 @@
   "status": "active",
   "author": "Thomas Bodley",
   "institution": "Centre for Editing Lives and Letters (UCL), with the Bodleian Library; editor Robyn Adams",
+  "editors": [
+    "Robyn Adams"
+  ],
+  "published": 2011,
   "region": "England and the Low Countries",
   "countries": [
     "GB-ENG",

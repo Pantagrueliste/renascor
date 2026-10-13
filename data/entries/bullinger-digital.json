@@ -29,6 +29,14 @@
   "license": "CC-BY-NC-ND-3.0-CH",
   "license_url": "https://github.com/stazh/bullinger-korpus-tei",
   "institution": "Universität Zürich (Institut für Computerlinguistik); Staatsarchiv des Kantons Zürich",
+  "editors": [
+    "Patricia Scheurer",
+    "Raphael Müller",
+    "Bernard Schroffenegger",
+    "Phillip B. Ströbel",
+    "Martin Volk"
+  ],
+  "published": 2025,
   "language_counts": [
     {
       "language": "Latin",

@@ -24,5 +24,13 @@
   "license": "CC-BY-NC",
   "license_url": "https://metashare.ut.ee/repository/browse/corpus-of-old-written-estonian/53973be2a0d411eebb4773db10791bcf0d15f5f74b8c4044bd3088073242f4a4/",
   "license_note": "The META-SHARE record (DOI 10.15155/1-00-0000-0000-0000-00075L) gives licence 'CC - BY - NC', restricted to academic non-commercial use, without stating a version, so the SPDX id is approximate. The vakk.ut.ee site itself shows no licence. The catalogue value 'Mixed' may be kept if the court protocols differ.",
-  "institution": "University of Tartu (research group on Old Literary Estonian, Chair of Estonian)"
+  "institution": "University of Tartu (research group on Old Literary Estonian, Chair of Estonian)",
+  "editors": [
+    "Külli Prillop",
+    "Külli Habicht",
+    "Epp Ehasalu",
+    "Valve-Liivi Kingisepp",
+    "Jaak Peebo"
+  ],
+  "doi": "10.15155/1-00-0000-0000-0000-00075l"
 }

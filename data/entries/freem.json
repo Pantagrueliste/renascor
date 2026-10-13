@@ -25,6 +25,13 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-4.0",
   "license_url": "https://zenodo.org/records/6481135",
-  "doi": "10.5281/zenodo.6481135",
-  "institution": "Simon Gabay (University of Geneva) with Inria Paris (ALMAnaCH)"
+  "doi": "10.5281/zenodo.6481134",
+  "institution": "Simon Gabay (University of Geneva) with Inria Paris (ALMAnaCH)",
+  "editors": [
+    "Simon Gabay",
+    "Alexandre Bartz",
+    "Philippe Gambette",
+    "Alix Chagué"
+  ],
+  "published": 2022
 }

@@ -13,6 +13,9 @@
   "encoding": "html",
   "status": "discontinued",
   "institution": "Maryland Institute for Technology in the Humanities (MITH), University of Maryland; general editor Ralph Bauer",
+  "editors": [
+    "Ralph Bauer"
+  ],
   "region": "The Americas (texts written in or about the Americas)",
   "countries": [
     "US"

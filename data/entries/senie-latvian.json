@@ -26,5 +26,23 @@
   "license": "CC-BY-SA-4.0",
   "license_url": "https://repository.clarin.lv/repository/xmlui/handle/20.500.12574/141",
   "license_note": "The CLARIN.LV record says 'This item is Publicly Available and licensed under: Creative Commons - Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)'; it covers the downloadable corpus files (TEI XML and plain text). The senie.korpuss.lv site itself states no separate licence.",
-  "institution": "AiLab IMCS UL (Artificial Intelligence Laboratory, Institute of Mathematics and Computer Science, University of Latvia) and Latvian Language Institute, University of Latvia"
+  "institution": "AiLab IMCS UL (Artificial Intelligence Laboratory, Institute of Mathematics and Computer Science, University of Latvia) and Latvian Language Institute, University of Latvia",
+  "editors": [
+    "Everita Andronova",
+    "Maija Baltiņa",
+    "Anna Frīdenberga",
+    "Normunds Grūzītis",
+    "Sintija Ķauķīte",
+    "Kristīne Pokratniece",
+    "Lauma Pretkalniņa",
+    "Renāte Siliņa-Piņķe",
+    "Elga Skrūzmane",
+    "Andrejs Spektors",
+    "Mārtiņš Spektors",
+    "Ilze Štrausa",
+    "Anta Trumpa",
+    "Edmunds Trumpa",
+    "Pēteris Vanags"
+  ],
+  "published": 2003
 }

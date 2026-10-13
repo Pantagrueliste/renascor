@@ -12,6 +12,11 @@
   "status": "archived",
   "author": "Bálint Balassi",
   "institution": "Eötvös Loránd University, Budapest (edited by Iván Horváth and Tünde Tóth; published by Gépeskönyv)",
+  "editors": [
+    "Iván Horváth",
+    "Tünde Tóth"
+  ],
+  "published": 1998,
   "region": "Hungary",
   "countries": [
     "HU"

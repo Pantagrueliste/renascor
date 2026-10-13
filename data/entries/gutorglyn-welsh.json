@@ -26,5 +26,14 @@
   "license": "Copyright",
   "license_url": "https://gutorglyn.net/gutorglyn/about",
   "license_note": "The site footer reads '(c)2013 Canolfan Uwchefrydiau Cymreig a Cheltaidd'; no reuse licence on the site, and none in the casglur/django-gutorglyn-2 repository or the sample XML header (checked 2026-10-13).",
-  "institution": "Canolfan Uwchefrydiau Cymreig a Cheltaidd (University of Wales Centre for Advanced Welsh and Celtic Studies)"
+  "institution": "Canolfan Uwchefrydiau Cymreig a Cheltaidd (University of Wales Centre for Advanced Welsh and Celtic Studies)",
+  "editors": [
+    "Ann Parry Owen",
+    "Iestyn Daniel",
+    "Alaw Mai Edwards",
+    "Dafydd Johnston",
+    "Barry Lewis",
+    "Eurig Salisbury"
+  ],
+  "published": 2012
 }

@@ -13,6 +13,11 @@
   "author": "Blaise Pascal",
   "date": "1662-1678",
   "institution": "Gilles Proust and Dominique Descotes (hosted at Clermont Université, with BnF images)",
+  "editors": [
+    "Gilles Proust",
+    "Dominique Descotes"
+  ],
+  "published": 2011,
   "region": "France",
   "countries": [
     "FR"

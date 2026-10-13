@@ -27,5 +27,15 @@
   "license": "CC-BY-SA-4.0",
   "license_url": "https://zenodo.org/api/records/18662799",
   "doi": "10.5281/zenodo.14765293",
-  "institution": "Institute of Philosophy of the Czech Academy of Sciences (TOME project) and University of West Bohemia (CCS-ZCU)"
+  "institution": "Institute of Philosophy of the Czech Academy of Sciences (TOME project) and University of West Bohemia (CCS-ZCU)",
+  "editors": [
+    "Delia Georgiana Hedesan",
+    "Alexander Huber",
+    "Jana Ředinová",
+    "Ondřej Kříž",
+    "Jindra Kubíčková",
+    "Vojtěch Kaše",
+    "Petr Pavlas"
+  ],
+  "published": 2025
 }

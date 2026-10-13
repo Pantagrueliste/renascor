@@ -18,6 +18,14 @@
   "period": "1480-1480",
   "notes": "The WiN project (Goettingen GCDH, funded by Niedersächsisches Vorab) built a parallel corpus of Early New High German short narratives and their Middle Low German versions from late 15th c. incunabula (Dracole, Griseldis, Juden, Graf, Kaufleute...), published as WiN-Korpus v1.0 (2022) in the LAUDATIO repository (HU Berlin), TEI-annotated, with the transcription handbook on DARIAH-DE; the project page is uni-goettingen.de/de/wiedererzählen+im+norden./607371.html. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Georg-August-Universität Göttingen (Heike Sahm, Marco Coniglio, Chiara De Bastiani, Anabel Recker, Jan Christian Schaffert; PRO*Niedersachsen)",
+  "editors": [
+    "Marco Coniglio",
+    "Chiara De Bastiani",
+    "Anabel Recker",
+    "Heike Sahm",
+    "Jan Christian Schaffert"
+  ],
+  "published": 2022,
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 27584,
@@ -26,5 +34,6 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-SA-4.0",
   "license_url": "https://www.laudatio-repository.org/api/elasticapi/v1/corpora/latest/0/100",
-  "license_note": "The LAUDATIO repository metadata for the corpus (id XnU19IIBa2XDdNuCXFx-, version 1.0, published 2022 by the University of Göttingen) gives corpus_publication_license https://creativecommons.org/licenses/by-sa/4.0/. This is the corpus-level licence; the underlying incunabula are public domain, and the browse page itself is rendered by script, so the URL is the API record that states it."
+  "license_note": "The LAUDATIO repository metadata for the corpus (id XnU19IIBa2XDdNuCXFx-, version 1.0, published 2022 by the University of Göttingen) gives corpus_publication_license https://creativecommons.org/licenses/by-sa/4.0/. This is the corpus-level licence; the underlying incunabula are public domain, and the browse page itself is rendered by script, so the URL is the API record that states it.",
+  "doi": "10.34644/laudatio-dev-XnU19IIBa2XDdNuCXFx-"
 }

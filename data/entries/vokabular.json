@@ -25,5 +25,6 @@
   "license": "Custom terms",
   "license_url": "https://vokabular.ujc.cas.cz/informace.aspx?t=ovokabulari&o=ovokabulari",
   "license_note": "The 'Co je VW' page states that Vokabulář webový is 'autorské dílo chráněné ve smyslu zákona č. 121/2000 Sb.' and is 'určen pouze k nekomerčním účelům' (a copyrighted work for non-commercial use only); the footer reads 'Copyright 2006-2025, oddělení vývoje jazyka, ÚJČ AV ČR'. No open licence is given.",
-  "institution": "Institute of the Czech Language, Czech Academy of Sciences, Department of Language Development"
+  "institution": "Institute of the Czech Language, Czech Academy of Sciences, Department of Language Development",
+  "published": 2006
 }

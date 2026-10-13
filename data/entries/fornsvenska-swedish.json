@@ -27,5 +27,8 @@
   "license": "Not stated",
   "license_note": "No licence: the page only says that Mats Thelander and Carin Ostman gave permission to publish the texts ('har beredvilligt gett tillstand till att publicera texterna'); the 'Principer for maskintexterna' and 'Om webbplatsen' pages contain no licence or reuse terms (checked 2026-10-13).",
   "institution": "Fornsvenska textbanken, Lund University (Nordlund); compiled by Lars-Olof Delsing",
+  "editors": [
+    "Lars-Olof Delsing"
+  ],
   "license_url": "https://www.nordlund.lu.se/texter/nysvenska-annexet/"
 }

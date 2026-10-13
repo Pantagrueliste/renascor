@@ -12,6 +12,10 @@
   "encoding": "html",
   "status": "active",
   "institution": "ELTE BTK Magyar Irodalomtörténeti Intézet, Régi Magyar Irodalom Tanszék (edited by Bartók Zsófia Ágnes; OTKA PD 137996)",
+  "editors": [
+    "Zsófia Ágnes Bartók"
+  ],
+  "published": 2014,
   "period": "16th century (Hungarian codices)",
   "region": "Kingdom of Hungary",
   "countries": [

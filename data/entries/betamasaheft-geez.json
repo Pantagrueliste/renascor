@@ -27,5 +27,10 @@
   "license": "CC-BY-NC-SA-4.0",
   "license_url": "https://betamasaheft.eu",
   "institution": "Beta masahaft project, Hiob Ludolf Centre for Ethiopian and Eritrean Studies, Universitaet Hamburg / Akademie der Wissenschaften in Hamburg (director Alessandro Bausi)",
-  "license_note": "The project site says all its data are licensed CC BY-NC-SA 4.0, but the TEI headers of the Works files state CC BY-SA 4.0 (\"This file is licensed under the Creative Commons Attribution-ShareAlike 4.0\"); the repository has no LICENSE file. Discrepancy to be noted; the site value is kept."
+  "editors": [
+    "Alessandro Bausi"
+  ],
+  "published": 2016,
+  "license_note": "The project site says all its data are licensed CC BY-NC-SA 4.0, but the TEI headers of the Works files state CC BY-SA 4.0 (\"This file is licensed under the Creative Commons Attribution-ShareAlike 4.0\"); the repository has no LICENSE file. Discrepancy to be noted; the site value is kept.",
+  "doi": "10.25592/BetaMasaheft"
 }

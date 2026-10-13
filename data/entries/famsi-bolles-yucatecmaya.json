@@ -26,5 +26,8 @@
   "license": "Copyright",
   "license_url": "http://www.famsi.org/reports/96072/",
   "license_note": "Pages are marked 'FAMSI (c) 2001: David Bolles'; no reuse licence or terms-of-use page was found on the report, the text index or the FAMSI home page.",
-  "institution": "David Bolles for the Foundation for the Advancement of Mesoamerican Studies (FAMSI)"
+  "institution": "David Bolles for the Foundation for the Advancement of Mesoamerican Studies (FAMSI)",
+  "editors": [
+    "David Bolles"
+  ]
 }

@@ -14,6 +14,14 @@
   "encoding": "html",
   "status": "archived",
   "institution": "Huygens Instituut (KNAW); edition of P.C. Molhuysen, B.L. Meulenbroek, P.P. Witkam, H.J.M. Nellen and C.M. Ridderikhoff",
+  "editors": [
+    "P.C. Molhuysen",
+    "B.L. Meulenbroek",
+    "P.P. Witkam",
+    "H.J.M. Nellen",
+    "C.M. Ridderikhoff"
+  ],
+  "published": 2009,
   "author": "Hugo Grotius",
   "texts": 7801,
   "words": 3552730,

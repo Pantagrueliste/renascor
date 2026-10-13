@@ -12,6 +12,10 @@
   "encoding": "tei",
   "status": "active",
   "institution": "Universidade de Santiago de Compostela (HERES project; direction Ricardo Pichel, now Universidad de Alcalá) with GITHE, UNED",
+  "editors": [
+    "Ricardo Pichel",
+    "Miguel García-Fernández"
+  ],
   "region": "Galicia and Portugal",
   "countries": [
     "ES",

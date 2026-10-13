@@ -24,5 +24,10 @@
   "license": "Mixed",
   "license_url": "https://web.archive.org/web/20230529094521/https://euromusicology.cs.uu.nl/copyright.html",
   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "institution": "Department of Information and Computing Sciences, Utrecht University (TMI); Center for the History of Music Theory and Literature, Indiana University (SMI)"
+  "institution": "Department of Information and Computing Sciences, Utrecht University (TMI); Center for the History of Music Theory and Literature, Indiana University (SMI)",
+  "editors": [
+    "F. Wiering"
+  ],
+  "published": 2000,
+  "doi": "10.17026/dans-zum-ywbw"
 }

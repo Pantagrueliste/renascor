@@ -22,6 +22,9 @@
   },
   "count_basis": "rq-retained-rows",
   "institution": "Wired Humanities Projects, University of Oregon (ed. Stephanie Wood)",
+  "editors": [
+    "Stephanie Wood"
+  ],
   "license": "Copyright",
   "license_note": "The site footer reads '(c) 2000-2018. Early Nahuatl Library, Stephanie Wood, editor'; no open licence or terms-of-use page was found on the home, About, Introduction or Contact pages (checked 2026-10-13). Contributors donate transcriptions and translations, but no reuse terms are stated.",
   "license_url": "https://enl.wired-humanities.org/content/about"

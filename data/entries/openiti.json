@@ -6,6 +6,14 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Open Islamicate Texts Initiative",
+  "editors": [
+    "Lorenz Nigst",
+    "Maxim Romanov",
+    "Sarah Bowen Savant",
+    "Masoumeh Seydi",
+    "Peter Verkinderen"
+  ],
+  "published": 2019,
   "languages": [
     "Arabic"
   ],
@@ -27,5 +35,5 @@
   "license": "Mixed",
   "license_url": "https://zenodo.org/records/17767721",
   "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "doi": "10.5281/zenodo.17767721"
+  "doi": "10.5281/zenodo.3082463"
 }

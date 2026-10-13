@@ -14,6 +14,10 @@
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "institution": "Universidad de Sevilla, proyecto Historia15 (Lola Pons Rodríguez and Eva Bravo-García, directors)",
+  "editors": [
+    "Lola Pons",
+    "Eva Bravo-García"
+  ],
   "words": 172397,
   "texts": 356,
   "region": "Spain (letters sent from Spanish territory; some from Italy, France and the Low Countries)",

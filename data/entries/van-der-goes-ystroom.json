@@ -14,6 +14,10 @@
   "encoding": "json",
   "status": "archived",
   "institution": "Huygens ING (KNAW), edited by Jan Bloemendal with Boukje Thijs and student contributors",
+  "editors": [
+    "Jan Bloemendal",
+    "Boukje Thijs"
+  ],
   "author": "Joannes Antonides van der Goes",
   "texts": 1,
   "words": 46965,

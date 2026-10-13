@@ -19,6 +19,11 @@
   "encoding": "tei",
   "status": "archived",
   "institution": "Herzog August Bibliothek Wolfenbüttel (Editiones Electronicae Guelferbytanae 6); edited by Nils Büttner and Ulrich Heinen, prepared by Agnes Heine",
+  "editors": [
+    "Nils Büttner",
+    "Ulrich Heinen"
+  ],
+  "published": 2011,
   "date": "1564-1699",
   "period": "1564-1699",
   "region": "Antwerp, Cologne and Europe",

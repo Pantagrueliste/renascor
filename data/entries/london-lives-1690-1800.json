@@ -11,6 +11,13 @@
   "encoding": "html",
   "status": "active",
   "institution": "Universities of Hertfordshire and Sheffield (Digital Humanities Institute)",
+  "editors": [
+    "Tim Hitchcock",
+    "Robert Shoemaker",
+    "Sharon Howard",
+    "Jamie McLaughlin"
+  ],
+  "published": 2010,
   "region": "England (London)",
   "countries": [
     "GB-ENG"
@@ -29,5 +36,6 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-4.0",
   "license_url": "https://figshare.shef.ac.uk/articles/dataset/London_Lives_XML_Data/4797829",
-  "license_note": "The figshare record 'London Lives XML Data' (1624 XML files, DOI 10.15131/shef.data.4797829.v1, 2017) lists the licence CC BY-NC 4.0 (confirmed via the figshare API). The live site is a JavaScript application with no readable legal page; the licence applies to the XML transcriptions, not to the archives' original images."
+  "license_note": "The figshare record 'London Lives XML Data' (1624 XML files, DOI 10.15131/shef.data.4797829.v1, 2017) lists the licence CC BY-NC 4.0 (confirmed via the figshare API). The live site is a JavaScript application with no readable legal page; the licence applies to the XML transcriptions, not to the archives' original images.",
+  "doi": "10.15131/shef.data.4797829"
 }

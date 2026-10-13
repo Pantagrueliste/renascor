@@ -15,6 +15,12 @@
   "status": "active",
   "date": "1308-1662",
   "institution": "Historisches Seminar, Universität Zürich (Simon Teuscher, Colette Halter-Pernet, Tobias Hodel); owner Staatsarchiv Aargau",
+  "editors": [
+    "Colette Halter-Pernet",
+    "Tobias Hodel",
+    "Simon Teuscher"
+  ],
+  "published": 2021,
   "words": 312611,
   "texts": 446,
   "region": "Aargau (Königsfelden, Switzerland)",

@@ -24,5 +24,9 @@
   "license": "Mixed",
   "license_url": "https://chmtl.indiana.edu/",
   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "institution": "Center for the History of Music Theory and Literature (CHMTL), Indiana University Bloomington"
+  "institution": "Center for the History of Music Theory and Literature (CHMTL), Indiana University Bloomington",
+  "editors": [
+    "Andreas Giger"
+  ],
+  "published": 1997
 }

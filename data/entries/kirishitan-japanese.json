@@ -26,5 +26,6 @@
   "license": "CC-BY-4.0",
   "license_url": "https://www2.ninjal.ac.jp/textdb_dataset/en/amhk/",
   "license_note": "The Amakusa Heike page states 'The transcribed text (txt) on this site is licensed under a Creative Commons Attribution 4.0 International License'; the Esopo, Contemptus Mundi and Nippojisho pages say the same. The BL facsimile images are separately marked public domain.",
-  "institution": "National Institute for Japanese Language and Linguistics (NINJAL)"
+  "institution": "National Institute for Japanese Language and Linguistics (NINJAL)",
+  "published": 2019
 }

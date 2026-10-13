@@ -12,6 +12,10 @@
   "provenance": "discovered",
   "date_added": "2026-10-08",
   "institution": "Herzog August Bibliothek Wolfenbüttel (DFG long-term project; research data archived at arthistoricum.net@heiDATA, Universität Heidelberg)",
+  "editors": [
+    "Martin de la Iglesia",
+    "Michael Wenzel"
+  ],
   "period": "1594–1636 (17th century)",
   "region": "Germany (Augsburg and the courts of southern Germany)",
   "years_active": {
@@ -29,5 +33,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license_url": "https://hainhofer.hab.de/informationen-zur-edition/nutzungsbedingungen",
-  "license_note": "The Nutzungsbedingungen page says the text content is available under a Creative Commons licence (CC BY-SA, version not given on the page); the heiDATA/B2FIND record for the research data (DOI 10.11588/data/DVU14P) specifies CC BY-SA 4.0. HAB images are public domain; other images carry their own licences and may not be reproduced."
+  "license_note": "The Nutzungsbedingungen page says the text content is available under a Creative Commons licence (CC BY-SA, version not given on the page); the heiDATA/B2FIND record for the research data (DOI 10.11588/data/DVU14P) specifies CC BY-SA 4.0. HAB images are public domain; other images carry their own licences and may not be reproduced.",
+  "doi": "10.11588/data/DVU14P"
 }

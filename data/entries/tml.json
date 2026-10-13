@@ -27,5 +27,8 @@
   "license": "CC-BY-4.0",
   "license_url": "https://cmm2209.github.io/TMLr/terms/",
   "license_note": "The terms page says the TMLr is 'licensed under CC BY 4.0 by Caleb Mutch' and adapted from the TML, which is itself used under CC BY 4.0; copyrighted materials of the original TML are excluded. The GitHub repository carries no separate LICENSE file.",
-  "institution": "Center for the History of Music Theory and Literature, Indiana University (original TML); adapted as TMLr by Caleb Mutch"
+  "institution": "Center for the History of Music Theory and Literature, Indiana University (original TML); adapted as TMLr by Caleb Mutch",
+  "editors": [
+    "Caleb Mutch"
+  ]
 }

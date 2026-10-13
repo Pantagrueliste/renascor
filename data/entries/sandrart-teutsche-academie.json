@@ -15,6 +15,14 @@
   "encoding": "tei",
   "status": "archived",
   "institution": "Sandrart.net project (Thomas Kirchner, Alessandro Nova, Carsten Blüm, Anna Schreurs and Thorsten Wübbena), Frankfurt, Florence and Heidelberg",
+  "editors": [
+    "Thomas Kirchner",
+    "Alessandro Nova",
+    "Carsten Blüm",
+    "Anna Schreurs",
+    "Thorsten Wübbena"
+  ],
+  "published": 2012,
   "author": "Joachim von Sandrart",
   "date": "1675-1680",
   "period": "1675-1680",

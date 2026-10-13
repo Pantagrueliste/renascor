@@ -12,6 +12,11 @@
   "encoding": "html",
   "status": "active",
   "institution": "University of Zurich, Institute of Slavic Studies (SNSF project 176378, Barbara Sonnenhauser) and Czech Academy of Sciences; hosted at LMU Munich (Ivan Šimko, Anastasia Escher)",
+  "editors": [
+    "Ivan Šimko",
+    "Anastasia Escher"
+  ],
+  "published": 2021,
   "region": "Bulgaria, Balkans and Wallachia",
   "countries": [
     "BG",

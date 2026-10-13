@@ -18,6 +18,9 @@
   "period": "1552-1697",
   "notes": "EMMO is the Folger Shakespeare Library's IMLS-funded project giving web access to TEI P5 transcriptions, images and metadata of 16th- and 17th-century English manuscripts, with diplomatic/semi-diplomatic/regularized text flavors and a downloadable XML corpus; the site (live 200) documents exactly '100 transcribed documents'. Crowdsourced transcription ran on Dromio (transcribe.folger.edu); the IMLS grant concluded, leaving the site a preserved static resource. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Folger Shakespeare Library (project lead Heather Wolfe)",
+  "editors": [
+    "Heather Wolfe"
+  ],
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 40606,

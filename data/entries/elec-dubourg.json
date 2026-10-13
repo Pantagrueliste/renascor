@@ -14,6 +14,11 @@
   "encoding": "tei",
   "status": "archived",
   "institution": "École nationale des chartes (Éditions en ligne de l'École des chartes, ELEC)",
+  "editors": [
+    "Olivier Poncet",
+    "Camille Desenclos"
+  ],
+  "published": 2011,
   "texts": 96,
   "words": 20548,
   "period": "1536-1538",

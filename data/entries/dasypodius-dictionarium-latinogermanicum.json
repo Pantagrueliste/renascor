@@ -14,6 +14,10 @@
   "status": "archived",
   "author": "Petrus Dasypodius",
   "institution": "Herzog August Bibliothek Wolfenbüttel (transcribed and edited by Jonathan West)",
+  "editors": [
+    "Jonathan West"
+  ],
+  "published": 2007,
   "region": "Alsace",
   "countries": [
     "FR"

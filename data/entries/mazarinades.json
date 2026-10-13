@@ -6,6 +6,10 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Projet ANTONOMAZ, Sorbonne Université (Karine Abiven)",
+  "editors": [
+    "Karine Abiven"
+  ],
+  "published": 2022,
   "languages": [
     "French"
   ],
@@ -27,5 +31,5 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-4.0",
   "license_url": "https://zenodo.org/records/7443183",
-  "doi": "10.5281/zenodo.7443183"
+  "doi": "10.5281/zenodo.7443102"
 }

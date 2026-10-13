@@ -26,5 +26,11 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-SA-3.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/",
-  "institution": "Universidad de Alicante and Fundación Biblioteca Virtual Miguel de Cervantes (IMPACT project)"
+  "institution": "Universidad de Alicante and Fundación Biblioteca Virtual Miguel de Cervantes (IMPACT project)",
+  "editors": [
+    "F. Sánchez-Martínez",
+    "I. Martínez-Sempere",
+    "X. Ivars-Ribes",
+    "R.C. Carrasco"
+  ]
 }

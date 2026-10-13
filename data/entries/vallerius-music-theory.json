@@ -23,6 +23,10 @@
   "count_basis": "rq-retained-rows",
   "doi": "10.33063/j1deaz91",
   "institution": "Peter Sjökvist; Uppsala University (Studia Latina Upsaliensia 33, 2012)",
+  "editors": [
+    "Peter Sjökvist"
+  ],
+  "published": 2012,
   "license": "CC-BY-NC-ND-4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-nd/4.0/"
 }

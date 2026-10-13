@@ -14,6 +14,10 @@
   "status": "archived",
   "date": "1552-1568",
   "institution": "Herzog August Bibliothek Wolfenbüttel (edited by Harald Bollbuck; Editiones Electronicae Guelferbytanae 11)",
+  "editors": [
+    "Harald Bollbuck"
+  ],
+  "published": 2012,
   "region": "Germany (Magdeburg, Jena, Regensburg) and Central Europe",
   "countries": [
     "DE",

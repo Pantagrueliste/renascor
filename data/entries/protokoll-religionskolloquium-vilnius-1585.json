@@ -12,6 +12,10 @@
   "encoding": "tei",
   "status": "archived",
   "institution": "Herzog August Bibliothek Wolfenbüttel (Editiones Electronicae Guelferbytanae 2; transcribed by Jolanta Gelumbeckaite)",
+  "editors": [
+    "Jolanta Gelumbeckaite"
+  ],
+  "published": 2006,
   "date": "1585",
   "period": "1585",
   "region": "Lithuania",

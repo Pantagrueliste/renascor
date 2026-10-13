@@ -5,6 +5,10 @@
   "data_format": "tei",
   "provenance": "submitted",
   "date_added": "2026-10-07",
+  "editors": [
+    "Julia Jennifer Beine",
+    "Carsten Milling"
+  ],
   "languages": [
     "Dutch",
     "English",

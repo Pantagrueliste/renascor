@@ -24,6 +24,10 @@
   "author": "Philipp Hainhofer (album owner) and many contributors",
   "date": "1596-1633",
   "institution": "Herzog August Bibliothek Wolfenbüttel (edition by Sabine Jagodzinski; Wolfenbütteler Digitale Editionen no. 6)",
+  "editors": [
+    "Sabine Jagodzinski"
+  ],
+  "published": 2024,
   "words": 4354,
   "texts": 52,
   "region": "Augsburg and the courts and cities of Europe",

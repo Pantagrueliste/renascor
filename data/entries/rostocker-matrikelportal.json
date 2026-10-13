@@ -11,6 +11,10 @@
   "encoding": "html",
   "status": "active",
   "institution": "Universitätsarchiv Rostock (edited by Kersten Krüger)",
+  "editors": [
+    "Kersten Krüger"
+  ],
+  "published": 2010,
   "region": "Northern Germany (Rostock)",
   "countries": [
     "DE"

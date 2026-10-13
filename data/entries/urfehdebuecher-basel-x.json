@@ -12,6 +12,12 @@
   "encoding": "tei",
   "status": "archived",
   "institution": "Universität Basel (Susanna Burghartz, Sonia Calvi) and Zentrum für Informationsmodellierung, Universität Graz (Georg Vogeler)",
+  "editors": [
+    "Susanna Burghartz",
+    "Sonia Calvi",
+    "Georg Vogeler"
+  ],
+  "published": 2016,
   "words": 85455,
   "texts": 621,
   "region": "Basel",

@@ -27,5 +27,14 @@
   "license_url": "https://github.com/chroniclingnovelty/chronicles-datasets",
   "license_note": "The repository README states 'Attribution 4.0 International CC BY 4.0' and holds the full licence text; the Zenodo record lists cc-by-4.0.",
   "doi": "10.5281/zenodo.13332815",
-  "institution": "Chronicling Novelty project (Leiden University and Vrije Universiteit Amsterdam; NWO-funded)"
+  "institution": "Chronicling Novelty project (Leiden University and Vrije Universiteit Amsterdam; NWO-funded)",
+  "editors": [
+    "Judith Pollmann",
+    "Erika Kuijpers",
+    "Carolina Lenarduzzi",
+    "Theo Dekker",
+    "Alie Lassche",
+    "Roser Morante"
+  ],
+  "published": 2024
 }

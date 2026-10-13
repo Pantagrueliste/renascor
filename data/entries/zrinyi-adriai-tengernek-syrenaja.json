@@ -11,6 +11,10 @@
   "encoding": "html",
   "status": "archived",
   "institution": "ELTE BTK Régi Magyar Irodalomtörténeti Tanszék (Gépeskönyv series); edited by Orlovszky Géza, Budapest 1998",
+  "editors": [
+    "Géza Orlovszky"
+  ],
+  "published": 1998,
   "author": "Zrínyi Miklós",
   "date": "1651",
   "period": "17th century (1651)",

@@ -14,6 +14,11 @@
   "author": "Johann Georg Metzger and Johann Rudolf Schmid zum Schwarzenhorn",
   "date": "1648-1649",
   "institution": "Universität Salzburg (Arno Strohmeyer) and Zentrum für Informationsmodellierung, Universität Graz (Georg Vogeler); FWF project P30091-G28",
+  "editors": [
+    "Arno Strohmeyer",
+    "Georg Vogeler"
+  ],
+  "published": 2019,
   "words": 133610,
   "texts": 30,
   "region": "Vienna, the Balkans and Constantinople",

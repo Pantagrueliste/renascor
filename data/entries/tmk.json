@@ -24,5 +24,11 @@
   "license": "Mixed",
   "license_url": "https://nytud.hu/impresszum",
   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "institution": "Research Institute for Linguistics, Budapest (Novák, Gugán, Varga, Dömötör)"
+  "institution": "Research Institute for Linguistics, Budapest (Novák, Gugán, Varga, Dömötör)",
+  "editors": [
+    "Attila Novák",
+    "Katalin Gugán",
+    "Mónika Varga",
+    "Adrienne Dömötör"
+  ]
 }

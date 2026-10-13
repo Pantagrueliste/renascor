@@ -17,6 +17,11 @@
   "encoding": "html",
   "status": "active",
   "institution": "University of Szeged, University Library (Miklós Latzkovits, Lajos Adamik, László Bujtás and others)",
+  "editors": [
+    "Miklós Latzkovits",
+    "Lajos Adamik",
+    "László Zsigmond Bujtás"
+  ],
   "region": "Hungary and Central Europe",
   "countries": [
     "HU",

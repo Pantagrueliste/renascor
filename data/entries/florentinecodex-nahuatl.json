@@ -27,6 +27,10 @@
   "license": "CC-BY-4.0",
   "license_url": "https://zenodo.org/records/7213020",
   "license_note": "The Zenodo record gives Creative Commons Attribution 4.0 International for the deposited transcript.",
-  "doi": "10.5281/zenodo.7213020",
-  "institution": "Valery A. Berthoud F. (editor of the Zenodo deposit)"
+  "doi": "10.5281/zenodo.7213019",
+  "institution": "Valery A. Berthoud F. (editor of the Zenodo deposit)",
+  "editors": [
+    "Valery A. Berthoud F."
+  ],
+  "published": 2022
 }

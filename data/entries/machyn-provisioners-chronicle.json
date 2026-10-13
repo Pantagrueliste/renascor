@@ -11,6 +11,12 @@
   "status": "archived",
   "author": "Henry Machyn",
   "institution": "University of Michigan Library / Michigan Publishing (editors Richard W. Bailey, Marilyn Miller and Colette Moore)",
+  "editors": [
+    "Richard W. Bailey",
+    "Marilyn Miller",
+    "Colette Moore"
+  ],
+  "published": 2006,
   "region": "London",
   "countries": [
     "GB-ENG"
