@@ -124,9 +124,15 @@ a.tag:hover .tag-k { background: var(--accent-soft); color: var(--accent); }
 .facets-head { display: flex; align-items: center; justify-content: space-between; height: 46px; border-bottom: 1px solid var(--border-strong); }
 .facets-head h2 { font-size: 16px; font-weight: 650; }
 .facets-head .linkbtn, .facet-h .linkbtn, .tl-clear { font-size: 13px; }
-.facet { padding: 16px 0 18px; border-bottom: 1px solid var(--border); }
+.facet { border-bottom: 1px solid var(--border); }
 .facet:last-child { border-bottom: 0; }
-.facet-h { display: flex; align-items: baseline; gap: 4px 10px; margin-bottom: 8px; }
+.facet-h { display: flex; align-items: center; gap: 4px 10px; min-height: 44px; padding: 8px 0; cursor: pointer; list-style: none; }
+.facet-h::-webkit-details-marker { display: none; }
+.facet-h::after { content: ""; flex: none; width: 6px; height: 6px; margin: 0 4px 3px 2px; border-right: 1.5px solid var(--muted); border-bottom: 1.5px solid var(--muted); transform: rotate(45deg); transition: transform .15s; }
+.facet[open] > .facet-h::after { margin: 3px 4px 0 2px; transform: rotate(-135deg); }
+.facet-h:hover h3 { color: var(--accent); }
+.facet-b { padding: 0 0 16px; }
+.facet-clear { display: block; margin: -4px 0 8px; }
 .facet-h h3 { font-size: 12px; font-weight: 650; margin-right: auto; text-transform: uppercase; letter-spacing: .06em; color: var(--fg-2); }
 .facet-v { font-size: 13px; color: var(--muted); font-variant-numeric: tabular-nums; }
 .opts { list-style: none; margin: 0; padding: 0; }
@@ -185,6 +191,14 @@ a.tag:hover .tag-k { background: var(--accent-soft); color: var(--accent); }
 .tl-axis span { position: absolute; top: 4px; transform: translateX(-50%); }
 :is(.tl-axis, .strip-axis) span.first { transform: none; }
 :is(.tl-axis, .strip-axis) span.last { transform: translateX(-100%); }
+.tl-data { margin-top: 2px; font-size: 12.5px; }
+.tl-data > summary { display: inline-flex; align-items: center; min-height: 24px; cursor: pointer; list-style: none; color: var(--muted); }
+.tl-data > summary::-webkit-details-marker { display: none; }
+.tl-data > summary:hover { color: var(--accent); text-decoration: underline; }
+.tl-table { margin: 4px 0 8px; border-collapse: collapse; font-size: 13px; font-variant-numeric: tabular-nums; }
+.tl-table th, .tl-table td { padding: 2px 24px 2px 0; text-align: left; font-weight: 400; }
+.tl-table thead th { color: var(--muted); font-weight: 600; }
+.tl-table td { text-align: right; padding-right: 0; }
 .tl-note { margin-top: 2px; color: var(--muted); font-size: 12.5px; line-height: 18px; }
 
 .resbar { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 20px; min-height: 34px; margin-top: 22px; }
@@ -249,6 +263,7 @@ a.tag:hover .tag-k { background: var(--accent-soft); color: var(--accent); }
 .reg tr.flash > *, .card.flash { animation: flash 1.6s ease; }
 @keyframes flash { 0%, 35% { background: var(--accent-soft); } 100% { background: var(--bg-open); } }
 .tog { display: inline-flex; align-items: flex-start; gap: 8px; margin: 0; padding: 0; border: 0; background: none; text-align: left; font-weight: 600; color: var(--fg); line-height: 1.4; cursor: pointer; overflow-wrap: anywhere; }
+.tog-h { display: block; }
 .tog .chev { width: 12px; height: 12px; margin-top: 3px; color: var(--muted); stroke-width: 2; transition: transform .15s ease; }
 .tog[aria-expanded="true"] .chev { transform: rotate(90deg); color: var(--fg); }
 .tog:hover .ti { color: var(--accent); }
@@ -399,7 +414,7 @@ figure { margin: 0; }
 .sheet-foot .btn { height: 44px; font-size: 15px; }
 .sheet-foot .primary { flex: 1 1 auto; justify-content: center; }
 .sheet .facets-head, .sheet .skip-inline { display: none; }
-.sheet .facet:last-child { padding-bottom: 24px; }
+.sheet .facet:last-child { margin-bottom: 24px; }
 
 /* Hidden columns keep a zero-width slot, so colspan="8" adds no column. */
 @container results (max-width: 939px) { .reg .c-texts, .reg tbody td.c-texts { width: 0; padding: 0; overflow: hidden; visibility: hidden; font-size: 0; } .reg .c-texts * { display: none; } }
@@ -579,13 +594,13 @@ figure { margin: 0; }
 		<div class="tl-plot" id="tl-plot">
 			<div class="tl-band" id="tl-band" hidden></div>
 			<div class="tl-bars" id="tl-bars" aria-hidden="true"></div>
-			<table class="sr-only" id="tl-table"><caption>Corpus words per decade</caption><thead><tr><th scope="col">Decade</th><th scope="col">Words</th></tr></thead><tbody></tbody></table>
 			<div class="tl-handle" id="tl-h0" role="slider" tabindex="0" aria-label="Start of period" aria-valuemin="1450" aria-valuemax="1700" aria-valuenow="1450" aria-valuetext="1450" style="left:0%"><span class="tl-tip" aria-hidden="true">1450</span></div>
 			<div class="tl-handle" id="tl-h1" role="slider" tabindex="0" aria-label="End of period" aria-valuemin="1450" aria-valuemax="1700" aria-valuenow="1700" aria-valuetext="1700" style="left:100%"><span class="tl-tip" aria-hidden="true">1700</span></div>
 			<span class="tl-hover" id="tl-hover" aria-hidden="true" hidden></span>
 		</div>
 		<div class="tl-axis" id="tl-axis" aria-hidden="true"></div>
 		<p class="tl-note" id="tl-note" hidden></p>
+		<details class="tl-data"><summary>Words per decade as a table</summary><table class="tl-table" id="tl-table"><caption class="sr-only">Corpus words per decade</caption><thead><tr><th scope="col">Decade</th><th scope="col">Words</th></tr></thead><tbody></tbody></table></details>
 	</section>
 
 	<section class="results" id="results" aria-labelledby="catalogue" aria-busy="true">
