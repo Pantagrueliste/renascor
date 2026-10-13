@@ -6,6 +6,9 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "University of California, Santa Barbara",
+  "editors": [
+    "Patricia Fumerton"
+  ],
   "languages": [
     "English"
   ],
@@ -17,7 +20,7 @@
   "texts": 5926,
   "period": "1530-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "English Broadside Ballad Archive, a collection of English broadside ballads of the 16th to 18th centuries gathered from libraries such as the British Library, the National Library of Scotland, the Pepys collection at Magdalene College, the Beinecke, Houghton and Huntington libraries and others. Each ballad is offered as a sheet facsimile, a facsimile transcription (preserving the original layout), a plain text transcription and, where available, a recording of the tune, with detailed catalogue headings. A TEI-XML file with the transcription and metadata can be downloaded from the transcription view of each ballad. The project began in 2003 under director Patricia Fumerton at the University of California, Santa Barbara (associate director Carl Stahmer), and has received repeated National Endowment for the Humanities grants (NEH 1 to NEH 8, the latest for 2020-22). It is still described as a continuing project. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 3971912,
@@ -25,5 +28,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-4.0",
-  "license_url": "https://ebba.english.ucsb.edu/page/use-policy"
+  "license_url": "https://ebba.english.ucsb.edu/page/use-policy",
+  "license_note": "The Use Policy states: 'EBBA is open access, licensed under a Creative Commons Attribution-NonCommercial 4.0 International License'; attribution is required. EBBA grants no rights to commercial or publication reproduction of its images, which must be cleared with the holding libraries."
 }

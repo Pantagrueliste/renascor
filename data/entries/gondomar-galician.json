@@ -24,8 +24,13 @@
     "texts": 31
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://ilg.usc.gal/gl/avisos-legais",
-  "license_note": "No reuse licence established from the available publisher-source evidence.",
-  "institution": "Instituto da Lingua Galega, Universidade de Santiago de Compostela (ILG-USC)"
+  "license": "Copyright",
+  "license_url": "http://ilg.usc.gal/gondomar/",
+  "license_note": "The footer reads '(c) 2017 Instituto da Lingua Galega'; no Creative Commons or other reuse licence was found on the home, texts and project pages (the corpus is on TEITOK and the TEI sample file I tried did not load), so the text is treated as copyrighted (checked 2026-10-13).",
+  "institution": "Instituto da Lingua Galega, Universidade de Santiago de Compostela (ILG-USC)",
+  "editors": [
+    "Rosario Álvarez",
+    "Ernesto González Seoane"
+  ],
+  "published": 2017
 }

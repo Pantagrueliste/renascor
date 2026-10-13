@@ -13,6 +13,10 @@
   "encoding": "html",
   "status": "archived",
   "institution": "Jeremy Hylton; operated by The Tech (MIT), hosted by MIT IS&T",
+  "editors": [
+    "Jeremy Hylton"
+  ],
+  "published": 1993,
   "author": "William Shakespeare",
   "region": "England",
   "countries": [

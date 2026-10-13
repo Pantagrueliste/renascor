@@ -27,5 +27,6 @@
     "words": 143843,
     "texts": 310
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_note": "No licence or terms on the ALDICAM-CM query page, its help/info tabs or the project blog. The sister corpus CODEA+ 2022 on corpuscodea.es has \"Condiciones de uso\" allowing free consultation and use for teaching and research but forbidding commercial use; this is not stated for ALDICAM itself (checked 2026-10-13)."
 }

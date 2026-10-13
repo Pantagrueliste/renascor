@@ -12,6 +12,7 @@
   "status": "archived",
   "date": "1578-1769",
   "institution": "Evangelische Kirchengemeinde Gröben (EKBO)",
+  "published": 2009,
   "words": 71108,
   "texts": 246,
   "region": "Brandenburg, south-west of Berlin",
@@ -28,5 +29,6 @@
     "words": 71108,
     "texts": 246
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_note": "No licence on the site (footer '© 2009 EKBO', Impressum, Hilfe page) or in its pages; the Impressum names the Gemeindekirchenrat Gröben as publisher and credits the page photographs to the Evangelisches Zentralarchiv Berlin (checked 2026-10-13)."
 }

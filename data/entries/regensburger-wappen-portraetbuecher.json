@@ -22,7 +22,7 @@
     "DE"
   ],
   "period": "1537-1787",
-  "license": "Not stated",
+  "license": "Copyright",
   "notes": "Twelve Regensburg office books of the 16th to early 19th century are shown as page images in the DFG-Viewer; only Band 06 (Wappen- und Porträtbuch des Vormundamtes, StAR I Aa 6) also has an edited text. It contains a preface (1649), the founding decree of 1537 and a list of directors, assessors and clerks from 1537 to 1787, with 64 portraits dated 1649 to c. 1751. The project dates from 2012 (TEI file dated 2012-03-29, site copyright 2012) and has no later update, so it is listed as archived. The counts cover Band 06 only, the one volume with an edited text, and the part of it dated 1700 or earlier. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
@@ -31,5 +31,7 @@
     "words": 9917,
     "texts": 1
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://gams.uni-graz.at/archive/objects/context:rpb/methods/sdef:Context/get?mode=imprint",
+  "license_note": "The project imprint says the design and contents of the site are protected by copyright and any use, commercial or private, even of extracts, needs prior written permission. The TEI file of Band 06 carries no licence or availability statement."
 }

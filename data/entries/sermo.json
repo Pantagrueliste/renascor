@@ -18,13 +18,18 @@
   "period": "1555-1750",
   "notes": "SERMO is an SNSF project (2015-2018) at Neuchâtel that produced a corpus of 62 French Protestant sermons (about 600,000 tokens, mostly printed in Geneva, 1555-1750). The complete TEI texts are on the project site (served over http only); the Zenodo deposit (DOI 10.5281/zenodo.14620210, CC BY 4.0) is only a partial copy. The annotation (lemmas, parts of speech) is available only through the project's CQPweb interface, which needs a login. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Universite de Neuchatel (Carine Skupien Dekens; SNSF grant 105212_160030)",
+  "editors": [
+    "Carine Skupien Dekens"
+  ],
+  "published": 2018,
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 521919,
     "texts": 62
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence.",
-  "doi": "10.5281/zenodo.14620210"
+  "license": "CC-BY-4.0",
+  "license_note": "The Zenodo record 'Corpus SERMO: un corpus annote de 62 sermons protestants en francais' (deposited by project lead Carine Skupien Dekens, which links back to sermo.unine.ch) is licensed CC BY 4.0 for the TEI files. The SERMO site and the TEI headers carry no licence of their own, so this is the only explicit statement and is applied by inference to the same texts.",
+  "doi": "10.5281/zenodo.14620209",
+  "license_url": "https://zenodo.org/records/14620210"
 }

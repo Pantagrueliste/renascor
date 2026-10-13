@@ -15,13 +15,15 @@
   "words": 345998,
   "texts": 155,
   "period": "1575-1697",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Izbornyk (litopys.org.ua), 'History of Ukraine, 9th-18th centuries: primary sources and interpretations', an electronic library of early Ukrainian writing. It gathers chronicles, historical documents, lives of saints, grammars, lexicons, memoir prose and translated and poetic works, plus scholarly literature,. The project was started and is run by a single editor who signs as Maksym (Kyiv), with the main site opened on 1 October 2003 and a mirror at izbornyk.org.ua opened in 2008. The site is still online and carries visit statistics for 2016. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 345998,
     "texts": 155
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "Copyright",
+  "license_note": "No site-wide licence. Text pages carry a reservation such as '© Scanning and processing: Maksym, Izbornyk (http://litopys.kiev.ua), 21.VIII.2001'; the underlying old texts are of course old, but the digitised versions are claimed as copyright.",
+  "institution": "Izbornyk project (site author 'Maksym', Kyiv)",
+  "license_url": "http://litopys.org.ua/litop/lit.htm"
 }

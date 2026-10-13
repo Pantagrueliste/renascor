@@ -12,6 +12,12 @@
   "encoding": "tei",
   "status": "active",
   "institution": "Queen's Men Editions (general editors Helen Ostovich and Peter Cockett; text editor Andrew Griffin, from 2026 Janelle Jenstad), published by the University of Victoria's LEMDO platform",
+  "editors": [
+    "Helen Ostovich",
+    "Peter Cockett",
+    "Andrew Griffin",
+    "Janelle Jenstad"
+  ],
   "date": "1594-1605 (printed quartos)",
   "period": "1590s-1605",
   "region": "England",

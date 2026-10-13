@@ -14,7 +14,7 @@
   "words": 532046,
   "texts": 18,
   "period": "1619-1699",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Digital Library of Armenian Literature (DIGILIB) of the American University of Armenia, a web library of Armenian-language texts arranged by theme (historiography, philosophy, theology, law, sciences, travel, epistles and others) and by author. It has been operating since 1999 and describes its aim as collecting, digitizing, preserving and presenting material from Armenian national repositories. The texts are shown as HTML pages in the reader; the 17th-century printed works in the catalogue are among them. The About, site and staff subpages could not be retrieved in detail on 2026-10-13. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 532046,
@@ -22,5 +22,7 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license_note": "No licence found on the home page (footer shows only 'American University of Armenia, Digital Library of Armenian Literature, 1999-2021'); the About/site subpages returned no readable content or timed out when fetched (checked 2026-10-13), so reuse terms remain unverified.",
+  "institution": "American University of Armenia (AUA), Digital Library of Armenian Literature",
+  "published": 1999
 }

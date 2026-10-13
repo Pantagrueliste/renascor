@@ -19,12 +19,19 @@
   "period": "1612-1619",
   "notes": "muysca.cubun.org is a MediaWiki-based research site (since 2008/2009) on the Muisca (Chibcha) language: dictionary, and transcriptions of colonial manuscripts including Manuscrito 158 (Biblioteca Nacional de Colombia) and Lugo's 1619 gramatica, exactly matching the origins ('keyed transcription'). The site loaded successfully via WebFetch (curl from this network is blocked by the host's TLS/firewall; HTTPS handshake hangs, so treat liveness as verified-by-fetch). Companion site coleccionmutis.cubun.org holds Manuscrito 2922 BPRM cited in a third origin. Non-TEI (wiki 'keyed transcriptions'). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Muysc cubun research group, founded and maintained by Diego F. Gómez, with Muisca communities (Suba, Chía), Colombia",
+  "editors": [
+    "G. E. Dueñas Luna",
+    "D. F. Gómez Aldana",
+    "L. Melo"
+  ],
+  "published": 2009,
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 42662,
     "texts": 13
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "Custom terms",
+  "license_note": "No Creative Commons or copyright line in the footer, but the 'Cómo citar' page says the contents may be used 'como desee pero deberá citarlos adecuadamente' while its 'Uso de datos' paragraph says all documents and data 'son propiedad de sus creadores' and permission must be requested for use in any project; the two statements are not reconciled. Read through WebFetch only (curl is blocked by the host).",
+  "license_url": "https://muysca.cubun.org/Muysccubun_-_Lengua_Muisca:Citas"
 }

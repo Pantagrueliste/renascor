@@ -17,7 +17,7 @@
   "words": 4271105,
   "texts": 18,
   "period": "1522-1648",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "TEI XML files of full-text editions of 16th- and early 17th-century legal, theological and economic works by authors of the School of Salamanca and of reference works they used, from the project 'The School of Salamanca: a digital collection of sources and a dictionary of its juridical-political language'. The GitHub repository holds 18 works (Azpilcueta, Banez, Mercado, Soto, Vitoria, Las Casas, Solorzano Pereira, Sepulveda and others, in Latin and Spanish), generally from the first printed edition; the digitised editions are dated 2018 to 2021. The project is a cooperation of the Academy of Sciences and Literature | Mainz, the Max Planck Institute for Legal History and Legal Theory and Goethe University Frankfurt, with the team based in Frankfurt. Files are released under CC BY 4.0 and are forwarded automatically to Zenodo; the full texts are also searchable and downloadable (PDF and other formats) on salamanca.school. The repository was last updated in October 2024. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2025-07-14",
   "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -26,7 +26,7 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "license_url": "https://github.com/digicademy/svsal-tei/blob/master/README.md",
   "institution": "Academy of Sciences and Literature | Mainz; Max Planck Institute for Legal History and Legal Theory (Frankfurt); Goethe University Frankfurt",
   "language_counts": [
     {
@@ -39,5 +39,6 @@
       "texts": 9,
       "words": 1901006
     }
-  ]
+  ],
+  "license_note": "The README states 'All the files ... are licensed under the terms of the Creative Commons Attribution licence (CC-BY 4.0) except where stated differently' in the file's own licence element; the TEI headers of W0002 and W0113 confirm cc-by 4.0."
 }

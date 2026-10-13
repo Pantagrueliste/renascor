@@ -6,6 +6,7 @@
   "languages": [
     "Otomí"
   ],
+  "period": "1632",
   "document_types": [
     "manuscript"
   ],
@@ -15,7 +16,7 @@
   "date_added": "2026-10-07",
   "words": 4391,
   "texts": 30,
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Transcriptions and Spanish translations of Otomi-language mission texts: the García and Martín manuscripts (Otomi and Spanish, held in the Archivo General de la Nación, Mexico) and the Codices of Jilotepec and Huichapan, with a table of Otomi phonemes as an aid. The paleographies are by David Charles Wright Carr, published by Éditions SUP-INFOR (Marc Thouvenot); the García and Martín files date from 2000, the codices and phoneme table from 2002. Each text has an excerpt viewer, an information page and a downloadable ZIP. Each download entry is marked with a copyright sign; no further licence terms are given. Corpus statistics (text, word and language counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 4365,

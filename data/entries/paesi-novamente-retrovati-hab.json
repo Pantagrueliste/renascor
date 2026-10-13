@@ -14,6 +14,10 @@
   "status": "archived",
   "date": "1507-1508",
   "institution": "Herzog August Bibliothek Wolfenbüttel (edited by Norbert Ankenbauer; Editiones Electronicae Guelferbytanae 10)",
+  "editors": [
+    "Norbert Ankenbauer"
+  ],
+  "published": 2018,
   "region": "Italy and Germany",
   "countries": [
     "IT",

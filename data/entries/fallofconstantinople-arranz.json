@@ -18,12 +18,17 @@
   "period": "1561-1585",
   "notes": "arranz.obdurodon.org (live 200) hosts the interlinear collation digital edition of the East Slavic 'Povest' o vzjatii Car'grada' (Tale of the capture of Constantinople), developed by Isabel Arranz del Riego from her 2013 UCM dissertation and maintained by David J. Birnbaum with XML/RelaxNG files and the three Hilandar Monastery witnesses 281 (1561), 280 (1585) and 282 (1826) - the first two are exactly the harvested witnesses ('witness HM281 (1561)', 'witness HM280 (1585)'). Released under CC BY-NC-SA 3.0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Isabel Arranz del Riego (Universidad Complutense de Madrid); maintained by David J. Birnbaum (University of Pittsburgh, obdurodon.org)",
+  "editors": [
+    "Isabel Arranz del Riego",
+    "David J. Birnbaum"
+  ],
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 29847,
     "texts": 2
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "CC-BY-NC-SA-3.0",
+  "license_note": "The site header carries the badge 'Creative Commons BY-NC-SA 3.0 Unported License' linking to the licence deed; it is a site-wide statement (the page has no separate footer), so it covers the edition pages and XML, not the manuscript images held by Hilandar.",
+  "license_url": "http://creativecommons.org/licenses/by-nc-sa/3.0/"
 }

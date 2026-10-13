@@ -13,6 +13,13 @@
   "author": "Joseph Dietrich",
   "date": "1670-1704",
   "institution": "Abteilung für Wirtschafts-, Sozial- und Umweltgeschichte, Historisches Institut, Universität Bern",
+  "editors": [
+    "Christian Rohr",
+    "Gabriela Schwarz-Zanetti",
+    "Raphael Schwitter",
+    "Salome Egloff"
+  ],
+  "published": 2018,
   "texts": 4,
   "region": "Einsiedeln and Freudenfels (Switzerland)",
   "countries": [
@@ -29,5 +36,6 @@
     "words": 564464,
     "texts": 4
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_note": "No licence on the site (home, project, edition-principles and volume pages, volume footer shows only a citation suggestion), no public repository found (checked 2026-10-13). The site says unpublished transcriptions are available on request."
 }

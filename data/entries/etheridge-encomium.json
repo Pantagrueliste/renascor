@@ -29,5 +29,6 @@
     "words": 4809,
     "texts": 1
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_note": "No licence or copyright statement on the home, project, acknowledgements, technical, user-guide or contact pages (checked 2026-10-13). The acknowledgements only say the British Library gave permission to reproduce its images in the edition; no repository or downloadable TEI found."
 }

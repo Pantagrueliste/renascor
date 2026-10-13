@@ -78,6 +78,8 @@ Return your findings as a JSON array. Each element must be an object with exactl
   "encoding": "tei | xml | json | html | plain-text | wikitext | markdown | other",
   "status": "active | archived | discontinued",
   "institution": "string, optional, the institution or team behind the edition",
+  "editors": ["optional: people named as editors or authors in the edition's own suggested citation, in order, as 'Given Family'"],
+  "published": "integer, optional, year the edition was first published online",
   "period": "string, optional, e.g. '16th century' or '1550-1620'",
   "region": "string, optional, e.g. 'Italy' or 'Low Countries'",
   "words": "integer, optional, verified resource words within 1450–1700 before deduplication",

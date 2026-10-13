@@ -15,14 +15,16 @@
   "texts": 295,
   "period": "1450-1696",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Vokabulář webový is the web portal of the Department of Language Development of the Institute of the Czech Language (Czech Academy of Sciences), online since November 2006, which gathers text, image and audio sources for historical Czech. It includes the Old Czech and Middle Czech text banks (with a KonText corpus search), critical editions, grammars, digitised dictionaries and secondary literature. Its operation is supported by the Ministry of Education project LINDAT/CLARIAH-CZ (LM2023062) and earlier national grants. The site shows a data version dated 2026-06-19. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 4848608,
     "texts": 295
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://vokabular.ujc.cas.cz/moduly/edicni/podminky-uziti",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "Custom terms",
+  "license_url": "https://vokabular.ujc.cas.cz/informace.aspx?t=ovokabulari&o=ovokabulari",
+  "license_note": "The 'Co je VW' page states that Vokabulář webový is 'autorské dílo chráněné ve smyslu zákona č. 121/2000 Sb.' and is 'určen pouze k nekomerčním účelům' (a copyrighted work for non-commercial use only); the footer reads 'Copyright 2006-2025, oddělení vývoje jazyka, ÚJČ AV ČR'. No open licence is given.",
+  "institution": "Institute of the Czech Language, Czech Academy of Sciences, Department of Language Development",
+  "published": 2006
 }

@@ -34,5 +34,7 @@
     "words": 182019,
     "texts": 150
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://leibniz-briefportal.adw-goe.de/adw_goettingen_leibniz_briefportal.xml",
+  "license_note": "Only the downloadable TEI metadata file states a licence ('licensed under the terms of the Creative Commons Licence CC BY 4.0'); it holds no letter text. No licence for the letter texts was found in the portal (a JavaScript app with no legal page of its own; it links to the Academy's Impressum, which has only a general copyright paragraph), the Academy's Leibniz-Edition page or the interface strings (checked 2026-10-13)."
 }

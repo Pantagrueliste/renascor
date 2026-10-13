@@ -11,6 +11,12 @@
   "status": "discontinued",
   "author": "Andrea Alciato",
   "institution": "Memorial University of Newfoundland (William Barker, Mark Feltham, Jean Guthrie)",
+  "editors": [
+    "William Barker",
+    "Mark Feltham",
+    "Jean Guthrie"
+  ],
+  "published": 1995,
   "region": "Italy and Germany (first printed in Augsburg, 1531)",
   "countries": [
     "IT",
@@ -28,5 +34,6 @@
     "texts": 153
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated"
+  "license": "Not stated",
+  "license_note": "No licence or copyright statement on the archived home page (capture of 2022-10-03), the project description page or the footer; no data repository. Checked 2026-10-13 via the Wayback Machine (live site not re-tested)."
 }

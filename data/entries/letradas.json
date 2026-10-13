@@ -20,7 +20,7 @@
   ],
   "period": "1400-1900",
   "notes": "Manuscript letters and other documents written by women (queens, nobles, nuns, 19th-century writers such as Gertrudis Gómez de Avellaneda), with paleographic, transcribed and critical presentations, metadata on the women involved and map/search tools; TEITOK platform; per-document TEI at corpora.uah.es/letradas/xmlfiles/<id>.xml, no bulk download page. The whole corpus has 270 documents, and 21 of them carry no date. 'Corpus histórico en desarrollo'. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
-  "license": "Not stated",
+  "license": "Copyright",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
@@ -28,5 +28,7 @@
     "words": 34938,
     "texts": 109
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://corpora.uah.es/letradas/",
+  "license_note": "Every page footer reads '© 2026 Letradas. Todos los derechos reservados.' No open licence appears on the About, Archivos or Difusión pages or in the TEI header of sample file LETRADAS-0001.xml, which names GITHE as publisher without an availability statement (checked 2026-10-13)."
 }

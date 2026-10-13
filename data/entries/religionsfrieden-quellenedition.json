@@ -20,6 +20,10 @@
   "encoding": "tei",
   "status": "archived",
   "institution": "Herzog August Bibliothek Wolfenbüttel and Universitäts- und Landesbibliothek Darmstadt (edited by Irene Dingel)",
+  "editors": [
+    "Irene Dingel"
+  ],
+  "published": 2020,
   "date": "1485-1689 (edition runs to 1788)",
   "period": "1485-1689",
   "region": "Holy Roman Empire, France, Bohemia, Poland-Lithuania, Savoy, England",

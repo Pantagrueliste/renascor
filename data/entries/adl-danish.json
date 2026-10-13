@@ -16,7 +16,7 @@
   "words": 936123,
   "texts": 14,
   "period": "1543-1681",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Texts of the Archive for Danish Literature (ADL), a collaboration between the Det Danske Sprog- og Litteraturselskab (DSL) and the Royal Danish Library (KB), published in the public GitHub repository kb-dk/public-adl-text-sources. The corpus comprises 498 volumes (165,512 pages) of Danish literature, all encoded in TEI; the repository contains the roughly two-thirds of pages that have been OCR'd and encoded, one TEI-XML file per volume under texts/. The repository also documents the encoding practices, offers XSLT scripts to extract single works, and accepts contributions by pull request; it was last pushed to in August 2026. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2026-08-25",
   "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -26,5 +26,6 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "http://creativecommons.org/publicdomain/mark/1.0/",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "Det Danske Sprog- og Litteraturselskab (DSL) and the Royal Danish Library (KB)"
 }

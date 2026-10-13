@@ -18,6 +18,12 @@
   "period": "1529-1573",
   "notes": "DSL project 'Musik og sprog i reformationstidens danske salmesang' (Carlsberg-funded) digitally published nine Danish hymnals and mass books of the Reformation era, 1529–1573; the four texts (christian-3-bibel 1550, claus-mortensen-messe-1529, dietz-salmebog-1529/1536, jespersen_1573) match the source slugs exactly. Texts are served as TEI/XML from DSL's eXist-db, with companion portals melodier.dsl.dk and ordnet.dk/ren; project page at dsl.dk/projekter/musik-og-sprog-i-reformationstidens-danske-salmesang (200). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Det Danske Sprog- og Litteraturselskab (DSL), Copenhagen",
+  "editors": [
+    "Marita Akhøj Nielsen",
+    "Simon Skovgaard Boeck",
+    "Bjarke Moe",
+    "Mette-Marie Møller Svendsen"
+  ],
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 1194918,

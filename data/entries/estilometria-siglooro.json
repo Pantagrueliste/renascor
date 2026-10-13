@@ -16,7 +16,7 @@
   "words": 7188629,
   "texts": 371,
   "period": "c. 1522-1700",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Open GitHub corpus of Spanish Golden Age literature as plain-text (.txt) files for stylometry, in the Siglo_de_Oro folder: about 345 comedias, 66 novelas and 22 entremeses, plus a file of ballads by one author. The texts were harvested from public-domain sites: TC/12 (Red del Patrimonio Teatral Clásico Español), Teatro de los Siglos de Oro, the AHCT comedias.org text list, José Manuel Fradejas Rueda's NovelaBarroca repository (Universidad de Valladolid) and the Biblioteca Virtual Miguel de Cervantes. The repository also holds a separate set of novels from 1880-1940, outside the period. The README is dated September 2020 and the last commit in the repository is from January 2025; the contact is the company Publiconsulting. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2025-01-12",
   "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -25,5 +25,6 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-3.0",
-  "license_url": "https://raw.githubusercontent.com/Jero2760/estilometria/master/README.md"
+  "license_url": "https://raw.githubusercontent.com/Jero2760/estilometria/master/README.md",
+  "institution": "Jero2760 (GitHub), contact Publiconsulting"
 }

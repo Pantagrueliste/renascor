@@ -15,6 +15,14 @@
   "encoding": "tei",
   "status": "archived",
   "institution": "Sandrart.net project (Thomas Kirchner, Alessandro Nova, Carsten Blüm, Anna Schreurs and Thorsten Wübbena), Frankfurt, Florence and Heidelberg",
+  "editors": [
+    "Thomas Kirchner",
+    "Alessandro Nova",
+    "Carsten Blüm",
+    "Anna Schreurs",
+    "Thorsten Wübbena"
+  ],
+  "published": 2012,
   "author": "Joachim von Sandrart",
   "date": "1675-1680",
   "period": "1675-1680",
@@ -25,8 +33,8 @@
   "words": 648260,
   "texts": 3,
   "last_modified": "2013-07-07",
-  "license": "Not stated",
-  "license_note": "The site's terms restrict the images to teaching and research use; they do not state a licence for the text, whose TEI files are offered for download.",
+  "license": "CC-BY-NC-3.0",
+  "license_note": "The TEI header (publicationStmt) of the downloadable file says 'This file is distributed under the Creative Commons Attribution-NonCommercial 3.0 Unported License' (link to the by-nc/3.0/de page). It covers the TEI text with its annotations; the site's terms of use (nutzungsbedingungen) separately restrict copyrighted images to teaching and research.",
   "years_active": {
     "start": 2008,
     "end": 2012
@@ -39,5 +47,6 @@
     "words": 648260,
     "texts": 3
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://ta.sandrart.net/data/tei-noentities.tgz"
 }

@@ -13,6 +13,9 @@
   "encoding": "tei",
   "status": "archived",
   "institution": "Herzog August Bibliothek Wolfenbüttel (Editiones Electronicae Guelferbytanae 16); transcribed by Jonathan West",
+  "editors": [
+    "Jonathan West"
+  ],
   "author": "Johannes Serranus",
   "date": "1538",
   "period": "1538",

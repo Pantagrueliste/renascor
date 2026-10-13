@@ -22,7 +22,12 @@
   },
   "count_basis": "rq-retained-rows",
   "institution": "Andrea Tondi; École pratique des hautes études, Université Paris Sciences et Lettres, with the Università di Siena (thesis defended 2019)",
-  "license": "Not stated",
+  "editors": [
+    "Andrea Tondi"
+  ],
+  "published": 2019,
+  "license": "Custom terms",
   "license_url": "https://about.hal.science/hal-authorisation-v1/",
-  "license_note": "Deposited in HAL under its standard authorisation; no open reuse licence is stated."
+  "license_note": "The thesis (Andrea Tondi, 2019, PSL/Siena; HAL tel-03700179) is deposited under HAL's standard distribution authorisation, which is not a Creative Commons licence (HAL API field licence_s); the edition text is accessible in the PDF but reuse is not otherwise licensed.",
+  "doi": "10.70675/9be74b1fzd8e0z4264zbf62zdbec0bc13aa3"
 }

@@ -35,6 +35,28 @@ https://doi.org/10.5281/zenodo.14559525
             entry = issue_to_entry.fields_to_entry({"collection doi": value})
             self.assertEqual(entry["doi"], "10.5281/zenodo.14559525")
 
+    def test_form_editors_and_publication_year(self):
+        body = """### Project name
+Letters
+
+### URL
+https://example.org/letters
+
+### Language(s)
+Latin
+
+### Editors
+Pamela H. Smith; Clément Godbarge;
+
+### Year first published online
+2020
+"""
+        entry = issue_to_entry.fields_to_entry(issue_to_entry.parse_issue_body(body))
+        self.assertEqual(entry["editors"], ["Pamela H. Smith", "Clément Godbarge"])
+        self.assertEqual(entry["published"], 2020)
+        jsonschema.validate(entry, SCHEMA)
+        self.assertNotIn("published", issue_to_entry.fields_to_entry({"year first published online": "c. 2020"}))
+
     def test_discovery_preserves_identifiers_rights_and_access_metadata(self):
         candidate = {"title": "Letters", "url": "https://example.org/letters", "languages": ["Modern Greek"],
                      "encoding": "tei", "doi": "10.5281/zenodo.14559525", "texts": 10,

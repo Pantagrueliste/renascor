@@ -19,13 +19,19 @@
   "period": "1450-1700",
   "notes": "HistCorp is an open platform for historical corpora and tools, distributed via the Swedish CLARIN node. Its Swedish section draws on Fornsvenska textbanken (machine-readable Old and Early Modern Swedish texts 1350-1758), all supplied as plain text. The source site (project2.sol.lu.se/fornsvenska) no longer resolves; the texts are available through the HistCorp Swedish download (Zenodo). The 5.6 M words exceed Fornsvenska's 44 texts and 1.4 M tokens, so the entry includes other HistCorp Swedish corpora; the texts counted here come from this download bundle. Freely available; the licence is CC BY. Related searchable corpora are offered by Språkbanken Text's Korp ('all_hist' mode). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Eva Pettersson (Uppsala University) & Beata Megyesi (Stockholm University), Swedish CLARIN",
+  "editors": [
+    "Eva Pettersson",
+    "Beáta Megyesi"
+  ],
+  "published": 2018,
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 5641945,
     "texts": 49
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://sprakbanken-clarin.lingfil.uu.se/histcorp/readme/swedish-readme-GaW",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "CC-BY-4.0",
+  "license_url": "https://zenodo.org/records/10017247",
+  "license_note": "The Zenodo record 'The HistCorp Collection of Historical Corpora and Resources - Part III' (28 ZIP files; published 9 March 2018) is licensed CC BY 4.0; individual source corpora inside may have their own conditions.",
+  "doi": "10.5281/zenodo.10017246"
 }

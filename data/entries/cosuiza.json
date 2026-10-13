@@ -26,8 +26,8 @@
   ],
   "period": "1483-1951",
   "notes": "123 TEITOK documents (stats page 'action=stats', checked 2026-10-12): non-literary manuscripts edited following the CHARTA criteria (palaeographic and critical presentation, TEI XML with lemma/POS). Raw TEI XML is served per document. Part of the CHARTA network. The counts cover the 27 documents dated within 1450-1700, but 70 of the 123 documents have no date in their TEI header, so the period share is understated, and the corpus is under construction. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
-  "license": "Not stated",
-  "license_note": "TEI header availability statement only says 'Licencia CREATIVE COMMONS' without naming the variant.",
+  "license": "Custom terms",
+  "license_note": "The TEI headers of sample files (COSUIZA-0001, -0025, coll_ed_favre_35_f101r) say only '<availability><p>Licencia CREATIVE COMMONS</p>' with no licence variant or URL; the site home page shows '© GRAFILA, Université de Lausanne' and no terms. A Creative Commons licence is therefore claimed, but its conditions cannot be determined.",
   "words": 8892,
   "texts": 27,
   "corpus_statistics": {
@@ -35,5 +35,6 @@
     "words": 8892,
     "texts": 27
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://grafila.unil.ch/cosuiza/xmlfiles/COSUIZA-0025.xml"
 }

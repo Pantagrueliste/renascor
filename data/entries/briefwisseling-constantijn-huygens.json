@@ -28,5 +28,6 @@
   "notes": "Database of 9,237 letters to and from Constantijn Huygens (1596-1687), each with metadata and a facsimile of the original, linked to the text of J.A. Worp's edition (6 volumes, 1911-1917) in the Huygens 'retroboeken' viewer, which serves the text of each page as searchable OCR; new letters unpublished by Worp, and transcriptions and translations of selected letters (musical letters, letters of Anna Maria van Schurman and Lucia van Aerssen-Walta) are added. A metadata export (brieven.xls) is offered. Status active: the project blog has posts up to September 2026. Its texts could not be counted: the site refuses automated requests, and the text is OCR of Worp's printed edition with his introductions, notes and indexes mixed in.",
   "provenance": "discovered",
   "date_added": "2026-10-12",
-  "license": "Not stated"
+  "license": "Not stated",
+  "license_note": "No licence or copyright statement on the home page or the colofon (credits only) of the Huygens resources site, nor a link to a terms page; the transcriptions and translations are not licensed there (checked 2026-10-13). No separate data repository found."
 }

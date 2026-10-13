@@ -14,15 +14,23 @@
   "words": 646479,
   "texts": 87,
   "period": "1490-1700",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Corpus of Old Written Estonian (VAKK) of the University of Tartu, with texts from the 15th to the 19th century. It holds all known surviving Estonian texts of the 15th and 16th centuries (manuscripts and prints, name lists excepted), most surviving 17th-century prints and known manuscript sermons, and a selection of 18th- and 19th-century prints; it also hosts 19th-century parish court protocols. Older texts are lemmatised and morphologically tagged, partly by hand and partly with Külli Prillop's Vakker software, and the corpus is searched and filtered online, with CSV or Excel export of results. The work began in 1995 in the Old Written Language research group of the Chair of Estonian (led by Valve-Liivi Kingisepp) and is funded by Estonian national programmes; the corpus has a DOI and is listed in META-SHARE. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 646452,
     "texts": 83
   },
   "count_basis": "rq-retained-rows-and-staging",
-  "license": "Mixed",
-  "license_url": "https://metashare.ut.ee/static/licences/CC-BYNCv3.0.htm",
-  "license_note": "Includes CC-BY-NC-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "institution": "University of Tartu (research group on Old Literary Estonian, Chair of Estonian)"
+  "license": "CC-BY-NC",
+  "license_url": "https://metashare.ut.ee/repository/browse/corpus-of-old-written-estonian/53973be2a0d411eebb4773db10791bcf0d15f5f74b8c4044bd3088073242f4a4/",
+  "license_note": "The META-SHARE record (DOI 10.15155/1-00-0000-0000-0000-00075L) gives licence 'CC - BY - NC', restricted to academic non-commercial use, without stating a version, so the SPDX id is approximate. The vakk.ut.ee site itself shows no licence. The catalogue value 'Mixed' may be kept if the court protocols differ.",
+  "institution": "University of Tartu (research group on Old Literary Estonian, Chair of Estonian)",
+  "editors": [
+    "Külli Prillop",
+    "Külli Habicht",
+    "Epp Ehasalu",
+    "Valve-Liivi Kingisepp",
+    "Jaak Peebo"
+  ],
+  "doi": "10.15155/1-00-0000-0000-0000-00075l"
 }

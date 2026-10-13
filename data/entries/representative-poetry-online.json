@@ -13,6 +13,10 @@
   "encoding": "html",
   "status": "active",
   "institution": "Department of English and Library, University of Toronto (Ian Lancashire, editor)",
+  "editors": [
+    "Ian Lancashire"
+  ],
+  "published": 1994,
   "region": "British Isles",
   "countries": [
     "GB-ENG",

@@ -30,5 +30,7 @@
     "texts": 1393
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated"
+  "license": "Copyright",
+  "license_url": "https://bayle-correspondance.univ-st-etienne.fr/spip.php?page=mentions-legales",
+  "license_note": "Mentions legales: \"Tous les droits de reproduction sont reserves, y compris pour les documents telechargeables\"; reproduction of any part of the site on an electronic medium is forbidden without the express authorisation of the publication director (Universite Jean Monnet, Saint-Etienne)."
 }

@@ -9,7 +9,7 @@ python3 -m unittest discover -s tests -v
 python3 -m http.server 8000 --directory docs
 ```
 
-The build validates every entry and generates `docs/data.json`, `docs/renascor.csv` and `docs/renascor.json`. It also updates the figures and charts in `docs/index.html`. Rebuilding unchanged data is deterministic.
+The build validates every entry and generates `docs/data.json`, `docs/renascor.csv`, `docs/renascor.json` and `docs/renascor.bib`. It also updates the figures and charts in `docs/index.html`. Rebuilding unchanged data is deterministic.
 
 For a scratch build:
 

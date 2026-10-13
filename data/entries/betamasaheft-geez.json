@@ -16,7 +16,7 @@
   "words": 51400,
   "texts": 5,
   "period": "1555-1555",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "TEI-XML records of Ethiopian and Eritrean literary works (Ge'ez and other languages of the Christian written tradition) kept in the BetaMasaheft/Works GitHub repository, the data layer of the Beta masahaft project 'Manuscripts of Ethiopia and Eritrea'. The records are served through the project's eXist-db application at betamasaheft.eu, which links works to manuscripts, persons and places and is built on a Clavis Aethiopica numbering of works. The project is a long-term programme of the Academy of Sciences and Humanities in Hamburg (2016-2040), directed by Alessandro Bausi and hosted by the Hiob Ludolf Centre for Ethiopian and Eritrean Studies, University of Hamburg; it follows an ERC project led by Denis Nosnitsin (2009-2015). The repository is under active development (last push October 2026). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2026-10-06",
   "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -25,5 +25,12 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-SA-4.0",
-  "license_url": "https://betamasaheft.eu"
+  "license_url": "https://betamasaheft.eu",
+  "institution": "Beta masahaft project, Hiob Ludolf Centre for Ethiopian and Eritrean Studies, Universitaet Hamburg / Akademie der Wissenschaften in Hamburg (director Alessandro Bausi)",
+  "editors": [
+    "Alessandro Bausi"
+  ],
+  "published": 2016,
+  "license_note": "The project site says all its data are licensed CC BY-NC-SA 4.0, but the TEI headers of the Works files state CC BY-SA 4.0 (\"This file is licensed under the Creative Commons Attribution-ShareAlike 4.0\"); the repository has no LICENSE file. Discrepancy to be noted; the site value is kept.",
+  "doi": "10.25592/BetaMasaheft"
 }

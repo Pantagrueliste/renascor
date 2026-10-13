@@ -14,7 +14,7 @@
   "words": 341826,
   "texts": 1183,
   "period": "1532-1700",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Corpus of private letters and witness testimonies from trial records in Old and Middle Hungarian (before 1772), in roughly equal parts. The texts are normalised, morphologically annotated and given sociolinguistic metadata, and are searched through an online query interface with lexical maps. They are taken from printed source editions (e.g. Schram's Magyarországi boszorkányperek, the Kolozsvár witch trials, the Nádasdy, Zrínyi and Batthyány letters), listed on the site's source page. Made by Attila Novák, Katalin Gugán, Mónika Varga and Adrienne Dömötör (Research Institute for Linguistics, Budapest) with OTKA K 81189 and NKFI-OTKA K 116217 funding; it belongs to the Hungarian National Corpus Portal. The latest size statement on the site dates from September 2020, when the material was said to be still growing. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 341772,
@@ -23,5 +23,12 @@
   "count_basis": "rq-retained-rows-and-staging",
   "license": "Mixed",
   "license_url": "https://nytud.hu/impresszum",
-  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "institution": "Research Institute for Linguistics, Budapest (Novák, Gugán, Varga, Dömötör)",
+  "editors": [
+    "Attila Novák",
+    "Katalin Gugán",
+    "Mónika Varga",
+    "Adrienne Dömötör"
+  ]
 }

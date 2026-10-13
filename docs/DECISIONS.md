@@ -48,7 +48,7 @@ The public site is a single HTML page with vanilla JavaScript. We chose this ove
 - Vanilla JS has no build step and no dependency tree; the page loads no external script, stylesheet or font.
 - Accessibility is easier to control when the HTML is hand-written.
 
-`scripts/build_site.py` validates the entries and writes `docs/data.json` (the entries exactly as stored, plus a parallel array of display-only fields such as parsed periods and cleaned notes), `docs/renascor.csv` and `docs/renascor.json`. It also writes the catalogue figures, the numbers of the methodology section and its two small charts into `docs/index.html`, so these parts are correct without JavaScript.
+`scripts/build_site.py` validates the entries and writes `docs/data.json` (the entries exactly as stored, plus a parallel array of display-only fields such as parsed periods and cleaned notes), `docs/renascor.csv`, `docs/renascor.json` and `docs/renascor.bib`. It also writes the catalogue figures, the numbers of the methodology section and its two small charts into `docs/index.html`, so these parts are correct without JavaScript.
 
 The searchable list is rendered in the browser from `data.json`. Without JavaScript the page shows the figures, the methodology and links to the CSV, the JSON and the entry files on GitHub; it does not show the list.
 

@@ -11,6 +11,10 @@
   "encoding": "html",
   "status": "active",
   "institution": "Universitätsarchiv Rostock (edited by Kersten Krüger)",
+  "editors": [
+    "Kersten Krüger"
+  ],
+  "published": 2010,
   "region": "Northern Germany (Rostock)",
   "countries": [
     "DE"
@@ -22,8 +26,9 @@
     "end": "ongoing"
   },
   "license": "Not stated",
-  "license_url": "http://matrikel.uni-rostock.de/subpage.action?nav=doku_beschreibung_matrikel1419&showTOC=false",
+  "license_url": "http://matrikel.uni-rostock.de/subpage.action?nav=top_kontakt&showTOC=false",
   "notes": "Searchable entries of the Rostock matriculation books, each with the date, name, origin, status and the editor's notes, with page images of the Hofmeister edition and of the original book. The database for 1419-1831 holds about 51,000 entries and is based on Adolf Hofmeister's printed edition (1899-1922). Records are short, structured entries rather than running text, and the portal also covers 1831 to today (names after 1945 are masked). The portal answers on http only. The counts treat each matriculation entry as a text, but the entries are short name entries (forename, surname, origin), not running text.",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "license_note": "The imprint page has only a liability disclaimer and a general copyright clause ('Der Autor ist bestrebt ... die Urheberrechte ... zu beachten'); no licence for the database entries appears on the home, project, release-of-data or imprint pages (checked 2026-10-13). Post-1945 names are withheld for data protection, not licensing."
 }

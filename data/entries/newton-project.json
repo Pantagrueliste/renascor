@@ -18,16 +18,16 @@
   "texts": 168,
   "period": "1659-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Online edition of the writings of Isaac Newton (1642-1727), printed and unprinted, covering his alchemical, mathematical, Mint, optical, religious and scientific papers, notebooks and correspondence. Most documents are transcribed from manuscript sources in a diplomatic rendition that records Newton's amendments, alongside a normalised, more readable version, with TEI-P5 and MathML XML viewable for each text, plus catalogue records and, for some items, translations from Latin and links to images of the originals. The project was formed in 1998 under the general editorship of Rob Iliffe and Scott Mandelbrote; it is based at the Faculty of History, University of Oxford (hosted there since autumn 2016), and was funded 2008-2014 by two AHRC grants and two JISC awards plus private donors. It is a non-profit and the site is still maintained (copyright line 2026). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 2069555,
     "texts": 168
   },
   "count_basis": "rq-retained-rows",
-  "license": "Mixed",
-  "license_url": "https://www.newtonproject.ox.ac.uk/view/texts/xml/THEM00001",
-  "license_note": "Includes CC-BY-NC-ND-3.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "license": "CC-BY-NC-ND-3.0",
+  "license_url": "https://www.newtonproject.ox.ac.uk/view/texts/xml/THEM00009",
+  "license_note": "The TEI header of each text (e.g. THEM00009, NATP00001, OTHE00001) has an availability element 'lic-text': 'This text is licensed under a Creative Commons Attribution-NonCommercial-NoDerivs 3.0 Unported License'. The images of the manuscripts are separate ('lic-images', status restricted), with rights reserved to the holding library, e.g. King's College, Cambridge. Several texts sampled had no lic-text element in the first lines read, so the licence was confirmed on a sample only.",
   "language_counts": [
     {
       "language": "English",

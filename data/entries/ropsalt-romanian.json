@@ -17,7 +17,7 @@
   "words": 189045,
   "texts": 925,
   "period": "1510-1589",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Verse-aligned XML corpus of the sixteenth-century Romanian Psalters, produced by the roPSALT project (4 January 2021 to 31 December 2023), 'Re-evaluating the Sixteenth Century Romanian Psalters', hosted by the Alexandru Ioan Cuza University of Iasi and funded by UEFISCDI (PN-III-P4-ID-PCE-2020-2939). Each psalm (1 to 151) is one XML file that sets the Romanian witnesses (the Hurmuzaki, Scheian, Voronet and Ciobanu manuscripts and Coresi's printed psalters) beside the Church Slavonic and Latin (Vulgate and other) variants, with Cyrillic passages marked by language. The project is led by Ana-Maria Ginsac; Alex Moruz, a team member, uploaded the files to GitHub in December 2023, with a stylesheet and an XSD schema for viewing them in a browser. The repository has had no change since that upload. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2023-12-06",
   "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -26,5 +26,6 @@
   },
   "count_basis": "rq-retained-rows-and-staging",
   "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license_note": "No licence in the GitHub repository (no LICENSE file; GitHub reports none; README only gives viewing instructions), in the XML files (no availability/licence element), or on the project page at scriptadacoromanica.ro (checked 2026-10-13).",
+  "institution": "roPSALT project, Alexandru Ioan Cuza University of Iasi (Ana-Maria Ginsac, project lead; files published by Alex Moruz); funded by UEFISCDI"
 }

@@ -19,6 +19,11 @@
   "encoding": "tei",
   "status": "archived",
   "institution": "Herzog August Bibliothek Wolfenbüttel (Editiones Electronicae Guelferbytanae 6); edited by Nils Büttner and Ulrich Heinen, prepared by Agnes Heine",
+  "editors": [
+    "Nils Büttner",
+    "Ulrich Heinen"
+  ],
+  "published": 2011,
   "date": "1564-1699",
   "period": "1564-1699",
   "region": "Antwerp, Cologne and Europe",
@@ -34,8 +39,8 @@
   "words": 688895,
   "texts": 331,
   "last_modified": "2016-04-14",
-  "license": "Not stated",
-  "license_note": "Page footer: © 2011 Herzog August Bibliothek; the HAB's general terms for the Wolfenbüttel Digital Library (http://diglib.hab.de/copyright.html, marked outdated) name CC BY-SA 3.0 unless otherwise stated.",
+  "license": "CC-BY-SA-4.0",
+  "license_note": "The edition page footer says '(c) 2011 Herzog August Bibliothek' and links the older terms (copyright.html, CC BY-SA 3.0 DE, marked outdated). The HAB's current usage notes say that data other than page images and structural files are copyrighted but, unless marked otherwise, licensed CC BY-SA (current version, legalcode 4.0); page images are public domain. Licence applied to the edition text by the library-wide rule, not by a statement on the edition itself.",
   "notes": "Edition of documents on Rubens: 307 archival records and letters (1564-1682: notarial and city-court acts, payments, Rubens's will), 30 contemporary biographies, poems and mentions up to 1700, and 8 longer printed works (Peacham 1627; de Piles 1677, 1681 and 1699; Asterius 1615; Baudius, Epistolae 1636; Philip Rubens 1608). The TEI files are listed in mets.xml (served one by one; the data_url is the index of the files). Files date from 2011; the index was last changed in April 2016. The counts leave out the works dated after 1700 (Houbraken 1718, Dubos 1719, de Piles 1708 and 1766, Orlandi 1733) and the six volumes of the Codex diplomaticus Rubenianus, a nineteenth-century edition of Rubens's letters. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
@@ -44,5 +49,6 @@
     "words": 688588,
     "texts": 329
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "http://diglib.hab.de/nutzungshinweise.html"
 }

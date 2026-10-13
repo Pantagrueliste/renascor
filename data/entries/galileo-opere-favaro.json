@@ -18,7 +18,7 @@
   "words": 97354,
   "texts": 4,
   "period": "1611-1633",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Italian Wikisource project transcribing Antonio Favaro's Edizione Nazionale of Galileo's works (Le opere di Galileo Galilei, 20 volumes, Florence, Barbera, 1890-1909). It is incomplete: the index page is tagged at 25% proofreading, only volume I is linked to its scanned source and volumes X-XX have no pages yet. Texts are wiki transcriptions proofread by volunteers against the scans and are available through Wikisource and its Wikimedia dumps. The page was last edited in May 2026. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 97354,
@@ -46,5 +46,6 @@
         "De telluris motu vel quiete"
       ]
     }
-  ]
+  ],
+  "institution": "Italian Wikisource community (Wikimedia Foundation)"
 }

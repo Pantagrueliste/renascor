@@ -14,6 +14,11 @@
   "encoding": "tei",
   "status": "archived",
   "institution": "Herzog August Bibliothek Wolfenbüttel, with the Sächsische Akademie der Wissenschaften zu Leipzig; edition by Klaus Conermann and Dieter Merzbacher",
+  "editors": [
+    "Klaus Conermann",
+    "Dieter Merzbacher"
+  ],
+  "published": 2014,
   "texts": 91,
   "words": 48046,
   "date": "1617-1626",

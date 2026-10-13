@@ -16,7 +16,7 @@
   "texts": 1207,
   "period": "1529-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "FreEM (Early Modern French corpora) is a project led by Simon Gabay (University of Geneva) with Inria Paris colleagues, building corpora and NLP models for French of the 16th-18th centuries. The text corpus is FreEMmax, a large collection of historical French texts assembled to train language models (it underlies D'AlemBERT, presented at LREC 2022); the open-access version, FreEMmax_OA, was published on GitHub and Zenodo in April 2022 (v1.0.0, later 1.0.2). It contains source documents in mixed formats plus minimal TEI/XML transcriptions and cleaned plain text built by a script, with teiHeaders carrying metadata. A non-open version exists that cannot be distributed. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 25609193,
@@ -25,5 +25,13 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-4.0",
   "license_url": "https://zenodo.org/records/6481135",
-  "doi": "10.5281/zenodo.6481135"
+  "doi": "10.5281/zenodo.6481134",
+  "institution": "Simon Gabay (University of Geneva) with Inria Paris (ALMAnaCH)",
+  "editors": [
+    "Simon Gabay",
+    "Alexandre Bartz",
+    "Philippe Gambette",
+    "Alix Chagué"
+  ],
+  "published": 2022
 }

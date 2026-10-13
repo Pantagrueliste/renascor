@@ -18,6 +18,13 @@
   "period": "1654-1700",
   "notes": "GerManC is a manually annotated, genre-balanced corpus of Early Modern German (1650-1800), built at the University of Manchester and distributed through the Oxford Text Archive (record ota:2544) under CC BY-NC-SA 3.0. The catalogue entry covers the texts of 1654-1700 (drama, humanities, legal, narrative, newspapers, scientific and sermon texts). The former project site no longer responds, and the Oxford Text Archive pages sit behind an anti-bot check, so they may need a browser. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "University of Manchester (Martin Durrell, Paul Bennett, Silke Scheible, Richard J. Whitt; Astrid Ensslin for the newspaper pilot), deposited at the Oxford Text Archive (ota:2544)",
+  "editors": [
+    "Martin Durrell",
+    "Paul Bennett",
+    "Silke Scheible",
+    "Richard J. Whitt"
+  ],
+  "published": 2012,
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 230403,

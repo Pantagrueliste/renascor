@@ -12,6 +12,13 @@
   "encoding": "tei",
   "status": "active",
   "institution": "Institut für die Erforschung der Habsburgermonarchie und des Balkanraumes (IHB) and Austrian Centre for Digital Humanities, Österreichische Akademie der Wissenschaften (FWF project P 34651; ed. Katrin Keller, Ines Peper, Anna Spitzbart, Dorota Vargová)",
+  "editors": [
+    "Katrin Keller",
+    "Ines Peper",
+    "Anna Spitzbart",
+    "Dorota Vargová"
+  ],
+  "published": 2024,
   "author": "Eleonora Magdalena von Pfalz-Neuburg",
   "date": "1677-1720",
   "period": "1677-1720 (letters sent by and to the empress)",

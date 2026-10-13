@@ -16,7 +16,7 @@
   "words": 73928,
   "texts": 229,
   "period": "1578-1666",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Ticha is a digital text explorer for Colonial Valley Zapotec, with images of the original documents, transcriptions, English and modern Spanish translations, morphological interlinear glossing and commentary, on a corpus of manuscripts (mainly 17th- and 18th-century testaments and legal documents from Oaxaca archives) and printed works such as Cordova's Arte (1578), Feria's Doctrina and Levanto's Arte and Cathecismo. At the time of checking, 31 of 204 listed manuscripts had transcriptions. The project was led by Brook Danielle Lillehaugen (Haverford College) with George Aaron Broadwell (University of Florida), Michel R. Oudijk (UNAM), Laurie Allen, May Plumb and Mike Zarafonetis, supported by ACLS, NEH, the American Philosophical Society and Haverford College; the first edition dates from 2016. TEI versions of the texts are in the project's GitHub repository (HCDigitalScholarship/ticha-xml-tei); the news page has no entry after September 2021. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2022-03-10",
   "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -26,5 +26,15 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-SA-4.0",
   "license_url": "https://ticha.haverford.edu/",
-  "license_note": "The Ticha website states CC BY-NC-SA 4.0 (applied here); the data repository's license.txt states CC BY-SA 4.0."
+  "license_note": "The Ticha website states CC BY-NC-SA 4.0 (applied here); the data repository's license.txt states CC BY-SA 4.0.",
+  "institution": "Haverford College (Brook Danielle Lillehaugen, project lead), with the University of Florida and UNAM; Zapotec Advisory Board",
+  "editors": [
+    "Brook Danielle Lillehaugen",
+    "George Aaron Broadwell",
+    "Michel R. Oudijk",
+    "Laurie Allen",
+    "May Plumb",
+    "Mike Zarafonetis"
+  ],
+  "published": 2016
 }

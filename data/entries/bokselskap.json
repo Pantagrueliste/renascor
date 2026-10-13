@@ -23,7 +23,7 @@
     "texts": 9
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://www.bokselskap.no/hjelp_om/om_bokselskap",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "Mixed",
+  "license_url": "https://www.nb.no/sprakbanken/ressurskatalog/oai-nb-no-sbr-81/",
+  "license_note": "The National Library of Norway Sprakbanken record for the downloadable bokselskap.no 2023 corpus (TEI, about 380 texts) gives \"Lisens: CC Zero (fri bruk)\" for its downloadable corpus. The website itself (hjelp_om/om_bokselskap) is stricter: material may be used freely for private non-commercial purposes, other use by written agreement, and editors keep rights in introductions and philological editions."
 }

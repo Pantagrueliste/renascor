@@ -24,6 +24,7 @@
     "texts": 57
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "CC-BY-NC-SA-4.0",
+  "license_note": "README: 'Les fichiers sont réutilisables sous licence CC BY-NC-SA 4.0'; the repository LICENSE file is the CC BY-NC-SA 4.0 legal text (GitHub shows it as 'Other'). Covers the TEI files of the corpus.",
+  "license_url": "https://github.com/cyrcan/GIT-Coqalane/blob/main/LICENSE"
 }

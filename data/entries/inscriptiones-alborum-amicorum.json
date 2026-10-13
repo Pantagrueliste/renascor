@@ -17,6 +17,11 @@
   "encoding": "html",
   "status": "active",
   "institution": "University of Szeged, University Library (Miklós Latzkovits, Lajos Adamik, László Bujtás and others)",
+  "editors": [
+    "Miklós Latzkovits",
+    "Lajos Adamik",
+    "László Zsigmond Bujtás"
+  ],
   "region": "Hungary and Central Europe",
   "countries": [
     "HU",
@@ -37,5 +42,7 @@
     "texts": 3981
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated"
+  "license": "Copyright",
+  "license_url": "http://iaa.bibl.u-szeged.hu/index.php?page=about",
+  "license_note": "The site shows '© Latzkovits, Miklós 2003-2026' and no open licence. The about page says any further use of the entry photographs is allowed only with permission of the album's current owner or holding collection."
 }

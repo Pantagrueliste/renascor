@@ -13,6 +13,14 @@
   "encoding": "tei",
   "status": "active",
   "institution": "Universität Rostock (Franz-Josef Holznagel, Annika Bostelmann, Doreen Brandt, Hellmut Braun, Anne Gessing; DFG project 287283426)",
+  "editors": [
+    "Franz-Josef Holznagel",
+    "Annika Bostelmann",
+    "Doreen Brandt",
+    "Hellmut Braun",
+    "Anne Gessing"
+  ],
+  "published": 2025,
   "date": "c. 1540-1601",
   "period": "c. 1540-1601",
   "region": "Northern Germany (Lübeck, Hamburg)",

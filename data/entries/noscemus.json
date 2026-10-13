@@ -6,6 +6,10 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Universität Innsbruck",
+  "editors": [
+    "Stefan Zathammer"
+  ],
+  "published": 2025,
   "languages": [
     "Latin"
   ],
@@ -17,7 +21,7 @@
   "texts": 678,
   "period": "1472-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The Digital Sourcebook of NOSCEMUS (Nova Scientia: Early Modern Scientific Literature and Latin), an ERC Advanced Grant project (no. 741374) led by Martin Korenjak at the University of Innsbruck, running 10/2017 to 09/2022 (prolonged to 04/2023). The dataset holds plain text of the Latin scientific works catalogued in the Noscemus Wiki, produced from digital copies of the printed books by automatic text recognition in Transkribus, with models trained for early modern Latin prints; the transcriptions were not manually corrected. The texts are linked to the database through their Transkribus IDs and the source of each digital copy is recorded. It was deposited in Zenodo on 17 March 2025 (Stefan Zathammer) as a single zip file. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 82381900,
@@ -25,6 +29,7 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0/",
-  "doi": "10.5281/zenodo.15040256"
+  "license_url": "https://zenodo.org/records/15040256",
+  "doi": "10.5281/zenodo.15040255",
+  "license_note": "The Zenodo record 'Noscemus Digital Sourcebook' (2025-03-17) is licensed CC BY 4.0, as shown by the Zenodo API; this covers the text-recognition output, not the source scans held by libraries."
 }

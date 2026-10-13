@@ -18,7 +18,7 @@
   "texts": 310,
   "period": "1450-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The digital library of the Italian association Liber Liber, run since 1993 (formally constituted on 28 November 1994) through its Progetto Manuzio. It offers free electronic texts of Italian and other literature, including Renaissance and Baroque authors in Italian, Latin and Venetian, as HTML pages and downloadable ePub files, made by volunteers and distributed at no cost. The library is still active, with new texts announced in October 2026. Liber Liber is supported by donations, the sponsor E-text and partnerships. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 28388618,
@@ -27,7 +27,7 @@
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
   "license_url": "https://liberliber.it/opere/libri/licenze/",
-  "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
+  "license_note": "Per the licence page, works in the public domain are free to use, while the parts of the Liber Liber editions that are protected (layout, cover and so on) are distributed 'salvo diversa indicazione' under CC BY-NC-SA 4.0; texts still under copyright are published with permission and carry their own terms.",
   "institution": "Associazione Culturale Liber Liber (Progetto Manuzio)",
   "language_counts": [
     {

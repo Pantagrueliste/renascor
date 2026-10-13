@@ -19,6 +19,9 @@
   "period": "1564-1679",
   "notes": "Multi-alphabetic annotated diachronic corpus of Judeo-Spanish (16th–21st c.) built in TEITOK (TEI-XML over CQP); hosted with a live TEITOK interface at LINDAT/CLARIN. Directed by Aldina Quintana (Hebrew University of Jerusalem); described in Scriptum Digital 9 (2020). The project's description page is on Aldina Quintana's HUJI site. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Aldina Quintana, Hebrew University of Jerusalem, with Maarten Janssen (Charles University) and Josep M. Fontana (UPF); ISF grants 473/11, 486/19",
+  "editors": [
+    "Aldina Quintana"
+  ],
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 30953,
@@ -26,5 +29,5 @@
   },
   "count_basis": "rq-retained-rows",
   "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license_note": "No licence on the home, Team or document-browser pages of the TEITOK site, nor in the TEI header of a sample file (lad118.xml, publicationStmt only says 'unknown'); no repository record found (checked 2026-10-13)."
 }

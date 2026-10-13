@@ -12,6 +12,10 @@
   "encoding": "html",
   "status": "active",
   "institution": "The Shakespeare Institute, University of Birmingham (editor Dana F. Sutton, University of California, Irvine)",
+  "editors": [
+    "Dana F. Sutton",
+    "Martin Wiggins"
+  ],
   "period": "c. 1459-1700 (a few later items)",
   "region": "Great Britain (some continental authors)",
   "countries": [
@@ -29,5 +33,7 @@
     "texts": 152
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated"
+  "license": "Copyright",
+  "license_url": "https://philological.cal.bham.ac.uk/copyright.html",
+  "license_note": "The site's Copyright statement says copyright in all material is held by the University of Birmingham unless otherwise indicated, allows browsing and one personal copy of a page, and requires 'the express permission of the Copyright holder' for other use. No open licence found."
 }

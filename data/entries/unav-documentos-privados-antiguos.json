@@ -21,11 +21,13 @@
   ],
   "period": "1550-1900",
   "notes": "Despite the page title (1600-1900), the oldest document is dated 1550. Documents are 105 PDFs (notarial documents and letters), each with metadata, TRANSCRIPCIÓN PALEOGRÁFICA, PRESENTACIÓN CRÍTICA and facsimile; text layer present (pdftotext). The collection has 105 documents dated 1550-1900. Mostly Spanish, some Basque. PDFs only, no machine-readable XML. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
-  "license": "Not stated",
+  "license": "Copyright",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 4192,
     "texts": 8
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://www.unav.edu/propiedad-intelectual",
+  "license_note": "No licence is given on the collection page. The university's general intellectual-property page says the University of Navarra holds the rights in its websites' contents and that browsing implies no licence or transfer; licences must be requested from webmaster@unav.edu. This is a general site rule, not a statement about the transcriptions in particular."
 }

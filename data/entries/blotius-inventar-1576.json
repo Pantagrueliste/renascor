@@ -14,6 +14,11 @@
   "author": "Hugo Blotius",
   "date": "1576",
   "institution": "Österreichische Nationalbibliothek (Martin Krickl, Katharina Kaska)",
+  "editors": [
+    "Martin Krickl",
+    "Katharina Kaska"
+  ],
+  "published": 2019,
   "words": 10018,
   "texts": 1,
   "region": "Vienna",

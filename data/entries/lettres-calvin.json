@@ -15,6 +15,10 @@
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "institution": "Yanet Hernández Pedraza (doctoral candidate, Université de Montréal)",
+  "editors": [
+    "Yanet Hernández Pedraza"
+  ],
+  "published": 2024,
   "period": "1538-1554",
   "region": "France, Switzerland (Geneva, Strasbourg)",
   "countries": [
@@ -33,5 +37,6 @@
     "words": 34056,
     "texts": 27
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "doi": "10.5281/zenodo.21684207"
 }

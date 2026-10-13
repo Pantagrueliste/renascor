@@ -16,14 +16,16 @@
   "words": 154229,
   "texts": 4,
   "period": "1592-1603",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Transcriptions of Jesuit mission press books printed in Japanese in romanised or Japanese script, from the 'Text Data Sets for Research on the History of Japanese' of the National Institute for Japanese Language and Linguistics (NINJAL). They include the Amakusa edition of Feiqe no monogatari (1592) and Esopo no fabulas (1593) after the British Library copy (Or.59.aa.1), the 1596 Contemptus Mundi after the Herzog August Bibliothek copy, and the 1603 Nippojisho dictionary as entry-word data. Each text is offered as downloadable plain text (txt), in original romanisation and, for some, a Japanese-script transliteration; the transcriptions were published from 2019 (Contemptus Mundi 2023, revised 2025; Nippojisho entry words 2025-10). The Contemptus Mundi transcription was made with Transkribus by Sven Osterkamp, Sophie Neutzler and So Miyagawa; the site is maintained and still updated (news of July 2026). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 154229,
     "texts": 4
   },
   "count_basis": "rq-retained-rows",
-  "license": "Copyright",
-  "license_url": "https://clrd.ninjal.ac.jp/chj/subscription.html",
-  "license_note": "Copyright restrictions apply; no standard open reuse licence established."
+  "license": "CC-BY-4.0",
+  "license_url": "https://www2.ninjal.ac.jp/textdb_dataset/en/amhk/",
+  "license_note": "The Amakusa Heike page states 'The transcribed text (txt) on this site is licensed under a Creative Commons Attribution 4.0 International License'; the Esopo, Contemptus Mundi and Nippojisho pages say the same. The BL facsimile images are separately marked public domain.",
+  "institution": "National Institute for Japanese Language and Linguistics (NINJAL)",
+  "published": 2019
 }

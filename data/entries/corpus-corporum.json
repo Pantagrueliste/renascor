@@ -17,7 +17,7 @@
   "texts": 953,
   "period": "1450-1696",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Repository of Latin texts (with some Greek) from antiquity to the early modern period, run by the Institute for Greek and Latin Philology of the University of Zurich, directed by Philipp Roelli. It holds the Patrologia Latina, the Vulgate and many other corpora, stored as standardised TEI-XML and searchable by full text, Boolean, proximity and lemma (Latin), with period limits (about 83 percent of texts carry a date tag), dictionaries, a synoptic Bible view and metrical analysis; texts can be downloaded for non-commercial use. The present interface was rebuilt around 2019 and the site is still maintained. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 19091970,

@@ -408,7 +408,7 @@ class BuildTests(unittest.TestCase):
         code, out, err = self.run_build()
         self.assertEqual(code, 0, err)
         self.assertIn("Built site: 3 entries", out)
-        for name in ("data.json", "renascor.csv", "renascor.json", "index.html", "app.js"):
+        for name in ("data.json", "renascor.csv", "renascor.json", "renascor.bib", "index.html", "app.js"):
             self.assertTrue((self.out / name).exists(), name)
         before = {p.name: p.read_bytes() for p in self.out.iterdir()}
         code, out, _ = self.run_build()
@@ -469,6 +469,32 @@ class BuildTests(unittest.TestCase):
         code, _, err = self.run_build()
         self.assertEqual(code, 1)
         self.assertIn("bad.json", err)
+
+
+class BibtexTests(unittest.TestCase):
+    def test_entry_escapes_specials_and_keeps_institution_whole(self):
+        text = bs.bibtex_entry("ex", {"title": "Smith & Sons_1", "url": "https://ex.org/a%20b#c",
+                                      "institution": "A {B}", "period": "1500-1600",
+                                      "languages": ["Latin", "French"], "license": "CC0-1.0"})
+        self.assertTrue(text.startswith("@misc{ex,\n"))
+        self.assertIn("author = {{A \\{B\\}}}", text)
+        self.assertIn("title = {{Smith \\& Sons\\_1}}", text)
+        self.assertIn("howpublished = {\\url{https://ex.org/a\\%20b\\#c}}", text)
+        self.assertIn("url = {https://ex.org/a%20b#c}", text)
+        self.assertIn("period 1500-1600; languages: Latin, French; licence: CC0-1.0", text)
+
+    def test_entry_lists_editors_year_and_doi(self):
+        text = bs.bibtex_entry("ex", {"title": "T", "url": "https://ex.org", "institution": "P",
+                                      "editors": ["Pamela H. Smith", "Clément Godbarge"],
+                                      "published": 2020, "doi": "10.7916/78yt-2v41"})
+        self.assertIn("editor = {Pamela H. Smith and Clément Godbarge}", text)
+        self.assertIn("year = {2020}", text)
+        self.assertIn("doi = {10.7916/78yt-2v41}", text)
+
+    def test_entry_without_institution_gets_a_sort_key(self):
+        text = bs.bibtex_entry("ex", {"title": "T", "url": "https://ex.org"})
+        self.assertIn("key = {T}", text)
+        self.assertNotIn("author", text)
 
 
 if __name__ == "__main__":

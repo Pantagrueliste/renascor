@@ -10,6 +10,11 @@
   "encoding": "html",
   "status": "archived",
   "institution": "Deutsches Historisches Institut Moskau (editors Lorenz Erren and Franziska Schedewie)",
+  "editors": [
+    "Lorenz Erren",
+    "Franziska Schedewie"
+  ],
+  "published": 2016,
   "period": "1690-1696 (edition covers 1690-1730)",
   "region": "Russia, Holy Roman Empire",
   "countries": [

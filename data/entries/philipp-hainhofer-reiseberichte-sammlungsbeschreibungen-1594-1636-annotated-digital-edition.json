@@ -12,6 +12,10 @@
   "provenance": "discovered",
   "date_added": "2026-10-08",
   "institution": "Herzog August Bibliothek Wolfenbüttel (DFG long-term project; research data archived at arthistoricum.net@heiDATA, Universität Heidelberg)",
+  "editors": [
+    "Martin de la Iglesia",
+    "Michael Wenzel"
+  ],
   "period": "1594–1636 (17th century)",
   "region": "Germany (Augsburg and the courts of southern Germany)",
   "years_active": {
@@ -19,7 +23,7 @@
     "end": "ongoing"
   },
   "notes": "Annotated digital edition presenting the travel accounts and collection descriptions of the Augsburg merchant and cultural broker Philipp Hainhofer (1578–1647) for the first time in full, with manuscript facsimiles, full text, critical apparatus and text/image commentaries. TEI/XML transcriptions and registers are archived on arthistoricum.net@heiDATA. Edition website went online in 2020 (first DFG phase, Munich journeys 1603–1636); further phases are scheduled until 2029, so the project is ongoing. The counts cover the 16 journey and collection-description files published so far.\n\nJustification: A DFG-funded scholarly digital edition of 17th-century travel manuscripts with TEI/XML full text and critical apparatus, squarely inside the 1450–1700 window. Found via the DARIAH-DE partner projects page and the TEI Consortium projects list; the URL was verified live. Not in the catalogue.\nFound at: https://de.dariah.eu/en/mitmachen/partnerprojekte/ Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
-  "license": "Not stated",
+  "license": "CC-BY-SA-4.0",
   "words": 579168,
   "texts": 16,
   "corpus_statistics": {
@@ -27,5 +31,8 @@
     "words": 579168,
     "texts": 16
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://hainhofer.hab.de/informationen-zur-edition/nutzungsbedingungen",
+  "license_note": "The Nutzungsbedingungen page says the text content is available under a Creative Commons licence (CC BY-SA, version not given on the page); the heiDATA/B2FIND record for the research data (DOI 10.11588/data/DVU14P) specifies CC BY-SA 4.0. HAB images are public domain; other images carry their own licences and may not be reproduced.",
+  "doi": "10.11588/data/DVU14P"
 }

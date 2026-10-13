@@ -6,6 +6,10 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "University of Toronto",
+  "editors": [
+    "Ian Lancashire"
+  ],
+  "published": 1996,
   "languages": [
     "English"
   ],
@@ -17,12 +21,14 @@
   "texts": 296,
   "period": "1477-1699",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Lexicons of Early Modern English (LEME), a historical database of monolingual, bilingual and polyglot dictionaries, lexical encyclopedias, hard-word glossaries, spelling lists and other lexically valuable treatises in print or manuscript from about 1475 to 1755 (the catalogue covers 1477-1699). Edited by Ian Lancashire at the University of Toronto, it was first co-published by University of Toronto Press and University of Toronto Libraries (2018 edition) and is now maintained by Lancashire with Isabelle Zhu and a team of programmers. The texts are read on the site as entry-structured pages and are also deposited as TEI-based XML in the University of Toronto's TSpace repository; the site was last revised in 2024 and the collection is still being added to. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 9780803,
     "texts": 296
   },
   "count_basis": "rq-retained-rows",
-  "license": "CC-BY-4.0"
+  "license": "CC-BY-4.0",
+  "license_url": "https://leme.library.utoronto.ca/help/termsofuse",
+  "license_note": "Terms of Use: 'All files provided on the LEME website ... and the XML encoded texts of lexical works, made available through the TSpace institutional repository' are licensed under CC BY 4.0; the editor is to be credited as 'Lexicons of Early Modern English, ed. Ian Lancashire (Toronto: University of Toronto Press, 2018)'."
 }

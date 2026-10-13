@@ -16,8 +16,16 @@
   "words": 926956,
   "texts": 76,
   "institution": "Universität Basel (Departement Geschichte) and Universität Graz (ZIM-ACDH); edited by Susanna Burghartz",
+  "editors": [
+    "Susanna Burghartz",
+    "Sonia Calvi",
+    "Lukas Meili",
+    "Jonas Sagelsdorff",
+    "Georg Vogeler"
+  ],
+  "published": 2015,
   "period": "1535-1610",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Jahrrechnungen der Stadt Basel 1535-1610: a digital edition of the annual city accounts of Basel, 76 objects (one per year from 1535/36 to 1609/10; 1584/85 is missing), from the Staatsarchiv Basel-Stadt (series Finanz H). Edited by Susanna Burghartz with Sonia Calvi, Lukas Meili, Jonas Sagelsdorff and Georg Vogeler; part of DEPCHA (Digital Edition Publishing Cooperative for Historical Accounts), hosted on GAMS at the University of Graz (ZIM-ACDH) with the Mellon-funded DEPCHA partners. Each year is published as an HTML edition with TEI-XML and RDF, and bulk downloads of all TEI and RDF files are offered; objects are dated 30 March 2023. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 926956,

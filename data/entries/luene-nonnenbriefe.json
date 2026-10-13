@@ -14,6 +14,18 @@
   "status": "active",
   "date": "c. 1460-1555",
   "institution": "Herzog August Bibliothek Wolfenbüttel, with Universität Düsseldorf (Eva Schlotheuber), University of Oxford (Henrike Lähnemann) and Universität Bonn",
+  "editors": [
+    "Eva Schlotheuber",
+    "Henrike Lähnemann",
+    "Philipp Trettin",
+    "Lena Vosding",
+    "Philipp Stenzig",
+    "Torsten Schaßan",
+    "Simone Schultz-Balluff",
+    "Wolfgang Seifert",
+    "Edmund Wareham Wanitzek"
+  ],
+  "published": 2016,
   "words": 176634,
   "texts": 407,
   "region": "Lüneburg (Lower Saxony)",

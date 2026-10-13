@@ -10,6 +10,10 @@
   "encoding": "html",
   "status": "active",
   "institution": "Eglal Henein (Tufts University; died 2021); hosted since 2025 by the Université de Rouen-Normandie (Presses universitaires de Rouen et du Havre)",
+  "editors": [
+    "Eglal Henein"
+  ],
+  "published": 2007,
   "author": "Honoré d'Urfé",
   "date": "1607-1624",
   "period": "1607-1624",
@@ -20,7 +24,7 @@
   "words": 863243,
   "texts": 4,
   "notes": "Web edition, begun in 2007, of the four parts of L'Astrée in two versions: a faithful critical text (reference editions of 1621 for parts I-III and of 1624 for part IV) and a 'functional' version in more modern French, with variants, notes, indexes and illustrations; the preliminary editions of 1607, 1610 and 1619 are also online. The author died in 2021; the site moved to the University of Rouen in March 2025 and its news page records a change in June 2026. A downloadable Word version of the functional edition is offered. The counts cover the four parts of the reference edition, without the preliminary editions of 1607, 1610 and 1619. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
-  "license": "Not stated",
+  "license": "CC-BY-NC-ND-4.0",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
@@ -28,5 +32,7 @@
     "words": 863243,
     "texts": 4
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://astree.univ-rouen.fr/_analyse/accueil.html",
+  "license_note": "Home page: contents 'sont protégées par une licence Creative Commons 4.0 : Diffusion et reproduction libres avec l'obligation de nommer Eglal Henein ... Interdiction de toute modification et de toute utilisation commerciale sans autorisation préalable. Interdiction de reproduire musique et images.' The variant is inferred from these conditions (BY-NC-ND); the page does not name it. Footer: © 2005-2020 E. Henein."
 }

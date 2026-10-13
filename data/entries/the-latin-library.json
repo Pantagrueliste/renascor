@@ -16,7 +16,7 @@
   "texts": 121,
   "period": "1450-1700",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Online collection of Latin texts from antiquity to the modern period, kept by a single webmaster (contact latinlibrary@mac.com) as plain HTML pages, with no translations, morphological help or apparatus. The Neo-Latin section lists about 60 authors and works (for example Erasmus, Melanchthon, Buchanan, Kepler, Galileo, Newton, Milton, Spinoza, Pontano, Sannazaro and Vida), only part of it dated 1450-1700. Texts were scanned from public-domain editions, taken from other websites or submitted by contributors; a Credits page names the edition and submitter where known, and many are from unidentified editions. The site says the texts are not meant for research or as substitutes for critical editions and may contain scanner errors. The Neo-Latin index page was last changed in January 2022 and the home page in August 2025. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 673616,

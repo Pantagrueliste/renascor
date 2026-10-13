@@ -22,6 +22,10 @@
   },
   "count_basis": "rq-retained-rows",
   "institution": "Sarah L. Cline and Miguel León-Portilla; UCLA Latin American Center Publications (Nahuatl Studies Series 1, 1984); PDF hosted by the UCSB Department of History",
+  "editors": [
+    "S. L. Cline",
+    "Miguel León-Portilla"
+  ],
   "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license_note": "The PDF (a 'provisionally modified first edition' posted for open reading, PDF dated January 2010, series editor James Lockhart) has no copyright, licence or permission statement in its front matter or text, and no hosting page on history.ucsb.edu gives terms (checked 2026-10-13). The 1984 print edition was published by the UCLA Latin American Center; a revised trilingual edition was issued in 2023 by Universidad Iberoamericana."
 }

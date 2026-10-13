@@ -6,9 +6,24 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Making and Knowing Project, Columbia University",
+  "editors": [
+    "Pamela H. Smith",
+    "Naomi Rosenkranz",
+    "Tianna Helena Uchacz",
+    "Tillmann Taape",
+    "Clément Godbarge",
+    "Sophie Pitman",
+    "Jenny Boulboullé",
+    "Joel Klein",
+    "Donna Bilak",
+    "Marc Smith",
+    "Terry Catapano"
+  ],
+  "published": 2020,
   "languages": [
     "French"
   ],
+  "period": "1580-1600",
   "document_types": [
     "manuscript"
   ],
@@ -16,13 +31,15 @@
   "words": 122621,
   "texts": 1,
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Secrets of Craft and Nature in Renaissance France, the digital critical edition and English translation of BnF Ms. Fr. 640, a late 16th-century French artisanal manuscript held at the Bibliothèque nationale de France. The edition offers three versions of the text for each folio (transcription, normalised transcription and English translation) with commentary, glossary and manuscript images from Gallica. It was published in 2020 (DOI 10.7916/78yt-2v41) by the Making and Knowing Project at the Center for Science and Society, Columbia University, directed by Pamela H. Smith; the editors named in the edition's citation are Pamela H. Smith, Naomi Rosenkranz, Tianna Helena Uchacz, Tillmann Taape, Clément Godbarge, Sophie Pitman, Jenny Boulboullé, Joel Klein, Donna Bilak, Marc Smith and Terry Catapano. The edition's XML sources and derived files are on GitHub, with a Zenodo release. Corpus statistics (text, word and language counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 122621,
     "texts": 1
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "CC-BY-NC-SA-4.0",
+  "license_note": "The data repository's export scripts (lib/branding.py) attach the licence URL https://creativecommons.org/licenses/by-nc-sa/4.0/ and the 'Creative Commons BY-NC-SA 4.0' icons to the edition's generated files. The GitHub repository has no separate LICENSE file and Zenodo lists 'other-open'; the site is a JavaScript app whose footer could not be read directly. Images come from Gallica (BnF).",
+  "license_url": "https://github.com/cu-mkp/m-k-manuscript-data/blob/master/lib/branding.py",
+  "doi": "10.7916/78yt-2v41"
 }

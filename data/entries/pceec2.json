@@ -24,7 +24,7 @@
     "texts": 81
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/page/licence-ota",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "Custom terms",
+  "license_url": "https://github.com/beatrice57/pceec2",
+  "license_note": "The repository's LICENSE.rst says the files 'are distributed under the same license as the 2006 release' (Oxford Text Archive/LLDS handle 20.500.14106/2510), i.e. the terms of the original PCEEC deposit; the OTA page could not be read (bot wall, not bypassed), so the exact terms are unverified. GitHub detects the licence as 'Other'."
 }

@@ -12,6 +12,11 @@
   "encoding": "tei",
   "status": "archived",
   "institution": "Martin-Luther-Universität Halle-Wittenberg (Katrin Moeller and Andreas Müller); source: Stadtarchiv Rostock",
+  "editors": [
+    "Katrin Moeller",
+    "Andreas Müller"
+  ],
+  "published": 2019,
   "author": "Katrin Moeller; Andreas Müller (editors)",
   "date": "1543-1596",
   "period": "1543-1596",

@@ -3,6 +3,12 @@
   "url": "http://purl.ox.ac.uk/ota/0701",
   "data_url": "https://llds.ling-phil.ox.ac.uk/llds/xmlui/handle/20.500.14106/0701",
   "data_format": "plain-text",
+  "editors": [
+    "A.J. Aitken",
+    "Paul Bratley",
+    "Neil Hamilton-Smith"
+  ],
+  "published": 1984,
   "languages": [
     "Scots"
   ],

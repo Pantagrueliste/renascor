@@ -26,5 +26,10 @@
   "license": "Mixed",
   "license_url": "https://www.tycho.iel.unicamp.br/corpus/en/termos.html",
   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "institution": "Instituto de Estudos da Linguagem (IEL), Universidade Estadual de Campinas (UNICAMP), with IME-USP"
+  "institution": "Instituto de Estudos da Linguagem (IEL), Universidade Estadual de Campinas (UNICAMP), with IME-USP",
+  "editors": [
+    "Charlotte Galves",
+    "Pablo Faria"
+  ],
+  "published": 2017
 }

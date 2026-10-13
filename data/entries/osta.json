@@ -21,6 +21,11 @@
   "period": "1450-1674",
   "notes": "OSTA is the lemmatized/morphologically tagged ~35M-word corpus of 400+ semi-paleographic transcriptions of Old Spanish (including Asturleonese/Navarro-Aragonese) texts, begun 2015 by HSMS; the transcriptions and metadata are on GitHub (hispanicseminary/OSTA) and Zenodo 10.5281/zenodo.18931376 (CC BY-NC-SA 4.0, verified live), which is exactly the Renascor Corpus source (Cortes' Cartas de relación, Libro de albeiteria, Libro del abad don Juan etc.). Main search interface v2.0 verified live. The Renascor Corpus keeps the semi-paleographic text layer (not the lemmatized one). The GitHub repository now holds 670 transcriptions, against 644 in this Zenodo version. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Hispanic Seminary of Medieval Studies (HSMS); Francisco Gago Jover (College of the Holy Cross) & F. Javier Pueyo Mena",
+  "editors": [
+    "Francisco Gago Jover",
+    "F. Javier Pueyo Mena"
+  ],
+  "published": 2026,
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 21519708,
@@ -29,7 +34,7 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-SA-4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
-  "doi": "10.5281/zenodo.18931376",
+  "doi": "10.5281/zenodo.18931375",
   "language_counts": [
     {
       "language": "Spanish",

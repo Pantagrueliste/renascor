@@ -14,6 +14,10 @@
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "institution": "Universidad de Sevilla, proyecto Historia15 (Lola Pons Rodríguez and Eva Bravo-García, directors)",
+  "editors": [
+    "Lola Pons",
+    "Eva Bravo-García"
+  ],
   "words": 172397,
   "texts": 356,
   "region": "Spain (letters sent from Spanish territory; some from Italy, France and the Low Countries)",
@@ -34,5 +38,7 @@
     "words": 171765,
     "texts": 355
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://historia15.us.es/H15corpus/",
+  "license_note": "No licence on the home, 'Como citar', 'Recursos digitales' or 'Criterios de edicion' pages, nor in the teiHeader of a sample file (BOLEA-0001.xml, which has publisher Historia15 / Universidad de Sevilla but no availability element); only a citation line (checked 2026-10-13)."
 }

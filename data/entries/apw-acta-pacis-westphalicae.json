@@ -12,6 +12,13 @@
   "encoding": "xml",
   "status": "active",
   "institution": "Rheinische Friedrich-Wilhelms-Universität Bonn and Bayerische Staatsbibliothek (Bavarian State Library), Munich",
+  "editors": [
+    "Maximilian Lanzinner",
+    "Guido Braun",
+    "Tobias Schröter-Karin",
+    "Tobias Tenhaef"
+  ],
+  "published": 2014,
   "region": "Westphalia (Münster and Osnabrück congress)",
   "countries": [
     "DE"
@@ -28,5 +35,7 @@
     "texts": 3185
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated"
+  "license": "CC-BY-SA-4.0",
+  "license_url": "https://apw.digitale-sammlungen.de/apweinf/static.html",
+  "license_note": "Page \"APW digital\" (live version reached only through search because the site sits behind an Anubis bot wall): \"Die xml-Dateien auf APW digital stehen unter der Lizenz CC BY-SA 4.0\"; credit the Zentrum fuer Historische Friedensforschung, Bonn. The edition is published with permission of the Aschendorff publishing house; the licence is stated for the XML files."
 }

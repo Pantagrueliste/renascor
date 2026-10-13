@@ -14,7 +14,7 @@
   "words": 62023,
   "texts": 3,
   "period": "1599-1599",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Saggi musicali italiani (SMI) is an archive of Italian-language texts on music theory and aesthetics, modelled on the Thesaurus Musicarum Latinarum, with transcriptions and page graphics for treatises from the fifteenth to the nineteenth century. The sixteenth- and early seventeenth-century part includes Pietro Aaron, Zarlino, Bocchi, Bottrigari (printed and manuscript), Artusi, Bonini, Doni and Cerreto. Texts are transcribed in plain ASCII, following the source's spelling except for expanded abbreviations, spaced apostrophes and normalised accents. The project was started in 1998 at Indiana University by Andreas Giger (director until 2018) at the Center for the History of Music Theory and Literature (CHMTL), Jacobs School of Music; Giuliano Di Bacco has directed it since 2019, when redevelopment into a wider archive of vernacular music-theory texts began. The search utility was shut down after a cyberattack in 2015 and restored in 2017; in 2026 the original address redirects to a CHMTL page saying the digital thesauri are unavailable after a university-wide outage and are being moved to a new server. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 62023,
@@ -24,5 +24,9 @@
   "license": "Mixed",
   "license_url": "https://chmtl.indiana.edu/",
   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "institution": "Center for the History of Music Theory and Literature (CHMTL), Indiana University Bloomington"
+  "institution": "Center for the History of Music Theory and Literature (CHMTL), Indiana University Bloomington",
+  "editors": [
+    "Andreas Giger"
+  ],
+  "published": 1997
 }

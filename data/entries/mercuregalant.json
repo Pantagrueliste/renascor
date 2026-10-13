@@ -18,6 +18,13 @@
   "period": "1672-1700",
   "notes": "The OBVIL/IReMus Mercure galant programme publishes the whole run 1672-1710 in TEI XML (GitHub repo OBVIL/mercure-galant, 'MG-1672-01' to 'MG-1721-05'). The catalogue statistics cover 26 issues of 1672-1700 (4.2M words). Licence: CC BY-NC-ND. The former reading site (obvil.sorbonne-universite.fr/corpus/mercure-galant/) is offline (HTTP 404); the GitHub Pages edition is the live access point. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "LabEx OBVIL (Sorbonne) & IReMus (CNRS, dir. Anne Piéjus, Nathalie Berton-Blivet), with Huma-Num",
+  "editors": [
+    "Anne Piéjus",
+    "Nathalie Berton-Blivet",
+    "Alexandre De Craim",
+    "Vincent Jolivet"
+  ],
+  "published": 2014,
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 4216289,

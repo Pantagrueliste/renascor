@@ -14,6 +14,10 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "University of Victoria",
+  "editors": [
+    "Janelle Jenstad"
+  ],
+  "published": 2006,
   "period": "1550-1700",
   "region": "London, England",
   "years_active": {
@@ -21,7 +25,7 @@
     "end": 2022
   },
   "notes": "A digital scholarly edition of early modern London, combining a gazetteer, an anthology of TEI-encoded texts, and a map. Includes links between places, people, and texts. The site is a static release (version 7.0, May 2022); the mayoral shows strand continues separately in LEMDO. The counts cover the primary-source documents, not the gazetteer, personography or encyclopedia entries, and a few very small primary texts may be missed. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
-  "license": "Not stated",
+  "license": "CC-BY-SA-4.0",
   "words": 1025054,
   "texts": 191,
   "corpus_statistics": {
@@ -29,5 +33,7 @@
     "words": 1025054,
     "texts": 191
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_url": "https://mapoflondon.uvic.ca/",
+  "license_note": "The site footer states 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License'. The Legal page (https://mapoflondon.uvic.ca/legal.htm) lists exceptions: the Agas map scans (London Metropolitan Archives) and Blome ward maps (British Library) are used by permission and not freely licensed."
 }

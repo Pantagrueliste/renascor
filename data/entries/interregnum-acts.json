@@ -4,6 +4,10 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Institute of Historical Research (British History Online)",
+  "editors": [
+    "C H Firth",
+    "R S Rait"
+  ],
   "languages": [
     "English"
   ],
@@ -15,14 +19,14 @@
   "texts": 954,
   "period": "1642-1659",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The full text of the legislation passed into law during the Interregnum (1642-1660), over 900 acts and ordinances, from the edition by C. H. Firth and R. S. Rait (London, 1911, three volumes). British History Online presents the three volumes together, with tables of acts for each year and the editors' introduction. The text was digitised by double rekeying and is free to read on the site. British History Online is a not-for-profit digital library run by the Institute of Historical Research, University of London. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 1346924,
     "texts": 954
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
+  "license": "Public domain",
   "license_url": "https://www.british-history.ac.uk/no-series/acts-ordinances-interregnum",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license_note": "The BHO record for this item states 'This free content was digitised by double rekeying. Public Domain.' This covers the 1911 edition text only; BHO's general terms reserve rights in the site layout and images, and BHO says it is a content provider rather than owner for other material."
 }

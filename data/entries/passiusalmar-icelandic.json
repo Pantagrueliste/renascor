@@ -14,15 +14,20 @@
   "words": 23536,
   "texts": 50,
   "period": "1666-1666",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Web edition of the Passíusálmar (Passion Hymns) of Hallgrímur Pétursson (1614-1674) with the poet's works, biography, bibliography and images and excerpts of the autograph manuscript (JS 337 4to), plus audio of radio readings and hymn singing. The text is given in modern spelling, from an edition of the National and University Library of Iceland. It was made by the Icelandic broadcaster RÚV with the Árni Magnússon Institute for Icelandic Studies and the National and University Library; the first version appeared on 9 February 1998 and the site was last updated in April 2014. Editing and web design were by Anna S. Melsteð and Jón Karl Helgason (1998). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 23536,
     "texts": 50
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
+  "license": "Copyright",
   "license_url": "https://hallgrimurpetursson.is/um-vefinn/",
-  "license_note": "No reuse licence established from the available publisher-source evidence.",
-  "institution": "RÚV (Ríkisútvarpið); Stofnun Árna Magnússonar á Íslandi; Landsbókasafn Íslands – Háskólabókasafn"
+  "license_note": "The 'Um vefinn' page carries the notice '©RÚV 2014'; no open licence is stated and third-party recordings are used with permission. The text is in modern spelling.",
+  "institution": "RÚV (Ríkisútvarpið); Stofnun Árna Magnússonar á Íslandi; Landsbókasafn Íslands – Háskólabókasafn",
+  "editors": [
+    "Anna S. Melsteð",
+    "Jón Karl Helgason"
+  ],
+  "published": 1998
 }

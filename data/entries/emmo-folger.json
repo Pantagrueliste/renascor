@@ -18,12 +18,16 @@
   "period": "1552-1697",
   "notes": "EMMO is the Folger Shakespeare Library's IMLS-funded project giving web access to TEI P5 transcriptions, images and metadata of 16th- and 17th-century English manuscripts, with diplomatic/semi-diplomatic/regularized text flavors and a downloadable XML corpus; the site (live 200) documents exactly '100 transcribed documents'. Crowdsourced transcription ran on Dromio (transcribe.folger.edu); the IMLS grant concluded, leaving the site a preserved static resource. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Folger Shakespeare Library (project lead Heather Wolfe)",
+  "editors": [
+    "Heather Wolfe"
+  ],
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 40606,
     "texts": 1
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated",
-  "license_note": "No reuse licence established from the available publisher-source evidence."
+  "license": "CC-BY-SA-4.0",
+  "license_note": "Each transcription page carries 'Terms of Use: Transcriptions are licensed under a Creative Commons Attribution-ShareAlike 4.0 International License' (link to creativecommons.org/licenses/by-sa/4.0/); this covers the transcriptions, not the images, which are served from the Folger's Luna repository.",
+  "license_url": "https://emmo.folger.edu/view/La2/diplomatic"
 }

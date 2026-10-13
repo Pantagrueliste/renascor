@@ -7,6 +7,9 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Research Institute for Linguistics, Hungarian Academy of Sciences (MGTSZ)",
+  "editors": [
+    "Eszter Simon"
+  ],
   "notes": "Old Hungarian Corpus of codices and early printed books (11th-16th c., original orthography betűhű and phonemic levels), maintained by the Hungarian Generative Diachronic Syntax project at the Research Institute for Linguistics. The Renascor Corpus working snapshot contains two collections of this resource (HungarianCorpus and MGTSZ_AporCodex, the Apor Codex file), merged here as one edition. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "languages": [
     "Hungarian"

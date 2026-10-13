@@ -16,7 +16,7 @@
   "words": 1789274,
   "texts": 219,
   "period": "1475-1650",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Thesaurus Musicarum Latinarum Revivificatus (TMLr) is a static-site rebuild of the Thesaurus Musicarum Latinarum, the collection of Latin music-theory treatises from late antiquity to the seventeenth century begun in 1990 under Thomas Mathiesen at the Center for the History of Music Theory and Literature, Indiana University. The adaptation is by Caleb Mutch; its GitHub repository was created in January 2026 and last updated in February 2026. Texts are HTML pages that can be browsed by century, incipit, source and title and searched, with concordances to Grove and other lists. Only public-domain material is reproduced: copyrighted items of the original TML are left out and linked externally where possible. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2026-02-23",
   "corpus_statistics": {
     "snapshot": "v2026.10",
@@ -24,8 +24,11 @@
     "texts": 219
   },
   "count_basis": "rq-retained-rows",
-  "license": "Mixed",
-  "license_url": "https://lightseagreen-dog-349934.hostingersite.com/tml/copyright",
-  "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "institution": "Center for the History of Music Theory and Literature, Indiana University (original TML); adapted as TMLr by Caleb Mutch"
+  "license": "CC-BY-4.0",
+  "license_url": "https://cmm2209.github.io/TMLr/terms/",
+  "license_note": "The terms page says the TMLr is 'licensed under CC BY 4.0 by Caleb Mutch' and adapted from the TML, which is itself used under CC BY 4.0; copyrighted materials of the original TML are excluded. The GitHub repository carries no separate LICENSE file.",
+  "institution": "Center for the History of Music Theory and Literature, Indiana University (original TML); adapted as TMLr by Caleb Mutch",
+  "editors": [
+    "Caleb Mutch"
+  ]
 }

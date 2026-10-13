@@ -113,6 +113,20 @@ body:
       placeholder: "e.g. University of St Andrews, or a research project name"
 
   - type: input
+    id: editors
+    attributes:
+      label: Editors
+      description: Optional. The people named as editors or authors in the edition's own suggested citation, in that order, separated by semicolons.
+      placeholder: "e.g. Pamela H. Smith; Naomi Rosenkranz"
+
+  - type: input
+    id: published
+    attributes:
+      label: Year first published online
+      description: Optional. As given in the edition's suggested citation or release record.
+      placeholder: "e.g. 2020"
+
+  - type: input
     id: period
     attributes:
       label: Period covered

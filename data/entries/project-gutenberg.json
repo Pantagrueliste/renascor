@@ -26,7 +26,7 @@
   "texts": 280,
   "period": "1519-1697",
   "status": "active",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Project Gutenberg, a volunteer-produced library of free eBooks in HTML, plain text and e-reader formats, run by the Project Gutenberg Literary Archive Foundation. The catalogue entry covers its transcribed early modern texts (1450-1700) in many languages, harvested from the site. Most eBooks are out of copyright in the United States; each file carries a licence notice and the 'Project Gutenberg' trademark is subject to separate rules. The robot-access policy page governs bulk harvesting. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 20440559,
@@ -98,5 +98,6 @@
         "Kochanowski, Treny"
       ]
     }
-  ]
+  ],
+  "institution": "Project Gutenberg Literary Archive Foundation"
 }

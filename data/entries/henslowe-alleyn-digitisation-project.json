@@ -10,6 +10,10 @@
   "encoding": "other",
   "status": "active",
   "institution": "Dulwich College, with King's Digital Lab, King's College London",
+  "editors": [
+    "Grace Ioppolo"
+  ],
+  "published": 2009,
   "region": "England (London)",
   "countries": [
     "GB-ENG"
@@ -26,5 +30,7 @@
     "texts": 7
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated"
+  "license": "Copyright",
+  "license_url": "https://henslowe-alleyn.org.uk/about/copyrights-reproductions-and-permissions/",
+  "license_note": "The site is 'designed for research purposes only': images and content are not downloadable and 'no material [may] be used, copied, circulated or reproduced in any format without permission and acknowledgement'; the manuscripts' copyright belongs to the Governors of Dulwich College (footer: (c) 2026 The Henslowe-Alleyn Digitisation Project)."
 }

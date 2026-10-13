@@ -13,6 +13,9 @@
   "encoding": "html",
   "status": "discontinued",
   "institution": "Maryland Institute for Technology in the Humanities (MITH), University of Maryland; general editor Ralph Bauer",
+  "editors": [
+    "Ralph Bauer"
+  ],
   "region": "The Americas (texts written in or about the Americas)",
   "countries": [
     "US"
@@ -29,5 +32,7 @@
     "texts": 49
   },
   "count_basis": "rq-retained-rows",
-  "license": "Not stated"
+  "license": "Mixed",
+  "license_url": "https://web.archive.org/web/2013/http://mith.umd.edu/eada/intro.php",
+  "license_note": "EADA's policy statement says all texts 'have either been scanned from sources in the public domain or obtained in digital version as plain text by permission from other internet sites'; where no public-domain source existed, permission came from the copyright owner. Rights are given per text in the TEI header colophon; no blanket licence. Archived 2013 copy; the live site is gone."
 }

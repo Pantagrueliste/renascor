@@ -16,15 +16,25 @@
   "words": 1431218,
   "texts": 20,
   "period": "1499-1574",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The Kronieken corpus of Dutch and Flemish chronicles of 1500-1850, written by lay people, made in the NWO project 'Chronicling Novelty: New knowledge in the Netherlands, 1500-1850' (2018-2024). The project team was led by Judith Pollmann (Leiden University) and Erika Kuijpers (Vrije Universiteit Amsterdam), with Theo Dekker, Alie Lassche, Carolina Lenarduzzi and Roser Morante, helped by students and volunteers. The transcriptions were made in Transkribus and are deposited on GitHub and Zenodo (August 2024, DOI 10.5281/zenodo.13332815) as annotated XML files in three variants (without tags, with tags for dates, places, persons, margin text and so on, and with source tags), with metadata tables; scans and transcriptions can also be searched at kronieken.transkribus.eu. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 1431218,
     "texts": 20
   },
   "count_basis": "rq-retained-rows",
-  "license": "Mixed",
-  "license_url": "https://github.com/chroniclingnovelty/chronicles-datasets/blob/main/Licence",
-  "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-  "doi": "10.5281/zenodo.13332815"
+  "license": "CC-BY-4.0",
+  "license_url": "https://github.com/chroniclingnovelty/chronicles-datasets",
+  "license_note": "The repository README states 'Attribution 4.0 International CC BY 4.0' and holds the full licence text; the Zenodo record lists cc-by-4.0.",
+  "doi": "10.5281/zenodo.13332815",
+  "institution": "Chronicling Novelty project (Leiden University and Vrije Universiteit Amsterdam; NWO-funded)",
+  "editors": [
+    "Judith Pollmann",
+    "Erika Kuijpers",
+    "Carolina Lenarduzzi",
+    "Theo Dekker",
+    "Alie Lassche",
+    "Roser Morante"
+  ],
+  "published": 2024
 }

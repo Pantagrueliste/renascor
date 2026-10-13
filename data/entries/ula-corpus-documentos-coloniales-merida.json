@@ -12,6 +12,10 @@
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "institution": "Grupo de Lingüística Hispánica, Universidad de Los Andes, Mérida (Enrique Obediente Sosa, ed.)",
+  "editors": [
+    "Enrique Obediente Sosa"
+  ],
+  "published": 2002,
   "words": 58764,
   "texts": 37,
   "region": "Province of Mérida (Venezuela) and Santa Fe de Bogotá",
@@ -27,5 +31,6 @@
     "words": 58764,
     "texts": 37
   },
-  "count_basis": "rq-retained-rows"
+  "count_basis": "rq-retained-rows",
+  "license_note": "No licence or rights statement on the corpus page, in the front matter of the compilation PDF (only acknowledgements, 2002, legal deposit and ISBN 980-11-0652-2) or in a sample document PDF; the group's pages carry no footer or terms. Checked 2026-10-13."
 }
