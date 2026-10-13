@@ -88,4 +88,5 @@ jobs:
             docs/data.json
             docs/renascor.csv
             docs/renascor.json
+            docs/renascor.bib
           retention-days: 7

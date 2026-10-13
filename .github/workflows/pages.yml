@@ -2,7 +2,7 @@ name: Deploy site to GitHub Pages
 
 # Builds the static site from data/entries/ and deploys it to GitHub Pages.
 # The site is a single HTML page with vanilla JS. scripts/build_site.py writes
-# the data payload (data.json), the downloads (renascor.csv, renascor.json) and
+# the data payload (data.json), the downloads (renascor.csv, renascor.json, renascor.bib) and
 # the figures of the page (index.html).
 
 on:

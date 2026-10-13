@@ -8,6 +8,7 @@ Reads every JSON file in data/entries/, validates it against the schema and writ
                       cleaned notes, link labels...), and the catalogue metadata and figures.
   docs/renascor.csv   the whole catalogue, one row per edition, every field (UTF-8, CRLF).
   docs/renascor.json  the whole catalogue as JSON, every field.
+  docs/renascor.bib   the whole catalogue as BibTeX, one @misc record per edition.
   docs/index.html     the catalogue figures, the numbers of the methodology section and its
                       share chart are written into the page (data-stat, data-href and data-if
                       attributes, and the build: regions), so they are right without JavaScript.
@@ -460,6 +461,43 @@ def csv_text(columns: list[str], rows: list[list[str]]) -> str:
     return "".join(",".join(csv_cell(v) for v in row) + "\r\n" for row in [columns] + rows)
 
 
+BIBTEX_SPECIAL = {"\\": r"\textbackslash{}", "&": r"\&", "%": r"\%", "$": r"\$", "#": r"\#",
+                  "_": r"\_", "{": r"\{", "}": r"\}", "~": r"\textasciitilde{}", "^": r"\textasciicircum{}"}
+
+
+def bibtex_escape(value: str) -> str:
+    return "".join(BIBTEX_SPECIAL.get(c, c) for c in value)
+
+
+def bibtex_entry(eid: str, entry: dict) -> str:
+    """One @misc record per resource; braces keep the institution whole and the title's case."""
+    fields = []
+    if entry.get("institution"):
+        fields.append(("author", "{" + bibtex_escape(entry["institution"]) + "}"))
+    else:
+        fields.append(("key", bibtex_escape(entry["title"])))  # sorting key for styles that need an author
+    fields.append(("title", "{" + bibtex_escape(entry["title"]) + "}"))
+    fields.append(("howpublished", r"\url{" + entry["url"].replace("%", r"\%").replace("#", r"\#") + "}"))
+    fields.append(("url", entry["url"]))
+    note = ["Digital edition"]
+    if entry.get("period"):
+        note.append(f"period {entry['period']}")
+    if entry.get("languages"):
+        note.append("languages: " + ", ".join(entry["languages"]))
+    if entry.get("license"):
+        note.append(f"licence: {entry['license']}")
+    fields.append(("note", bibtex_escape("; ".join(note) + f". Renascor record {eid}.")))
+    if entry.get("languages"):
+        fields.append(("keywords", bibtex_escape(", ".join(entry["languages"]))))
+    body = ",\n".join(f"  {k} = {{{v}}}" for k, v in fields)
+    return f"@misc{{{eid},\n{body}\n}}\n"
+
+
+def bibtex_text(entries, derived) -> str:
+    """The whole catalogue as BibTeX (UTF-8), in the page's default order."""
+    return "\n".join(bibtex_entry(derived[i]["id"], entries[i][1]) for i in default_order(derived))
+
+
 def default_order(derived: list[dict]) -> list[int]:
     """Indices in the page's default sort (title A to Z): sort_title, then id, by code point."""
     return sorted(range(len(derived)), key=lambda i: (derived[i]["sort_title"], derived[i]["id"]))
@@ -880,7 +918,7 @@ def public_json(entries, derived, meta) -> dict:
 
 
 def write_outputs(entries, derived, meta, out_dir: Path, index_template: Path) -> list[str]:
-    """Write the four outputs; returns the names of the files that changed."""
+    """Write the five outputs; returns the names of the files that changed."""
     changed = []
     out_dir.mkdir(parents=True, exist_ok=True)
     payload = {"meta": meta, "entries": [e for _, e in entries], "derived": derived}
@@ -890,6 +928,7 @@ def write_outputs(entries, derived, meta, out_dir: Path, index_template: Path) -
                                  [csv_row(derived[i]["id"], entries[i][1], meta["fields"])
                                   for i in default_order(derived)]),
         "renascor.json": json.dumps(public_json(entries, derived, meta), ensure_ascii=False, indent=2) + "\n",
+        "renascor.bib": bibtex_text(entries, derived),
     }
     for name, text in files.items():
         if write_if_changed(out_dir / name, text.encode("utf-8")):

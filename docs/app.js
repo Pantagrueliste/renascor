@@ -130,8 +130,8 @@ function load() {
 			els.catalogue.textContent = 'The catalogue could not be loaded';
 			els.viewTable.hidden = els.viewCards.hidden = true;
 			els.state.innerHTML = `<div class="state"><p class="state-text">The catalogue data could not be loaded (${esc(err.message)}). ` +
-				'Try reloading the page. The full catalogue is also available as <a href="renascor.csv">renascor.csv</a> and ' +
-				`<a href="renascor.json">renascor.json</a>, or as one JSON file per resource on <a href="${REPO}/tree/main/data/entries">GitHub</a>.</p></div>`;
+				'Try reloading the page. The full catalogue is also available as <a href="renascor.csv">renascor.csv</a>, ' +
+				`<a href="renascor.json">renascor.json</a> and <a href="renascor.bib">renascor.bib</a>, or as one JSON file per resource on <a href="${REPO}/tree/main/data/entries">GitHub</a>.</p></div>`;
 		});
 }
 
