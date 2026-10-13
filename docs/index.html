@@ -550,12 +550,12 @@ figure { margin: 0; }
 
 <main class="wrap layout" id="main">
 	<div id="search-row">
-		<div class="search">
+		<form class="search" id="search-form" role="search" aria-label="Catalogue">
 			<svg class="ico" aria-hidden="true"><use href="#i-search"/></svg>
 			<label for="q" class="sr-only">Search the catalogue</label>
 			<input type="search" id="q" placeholder="Search titles, institutions, languages and notes" maxlength="200" autocomplete="off" spellcheck="false" aria-keyshortcuts="/">
 			<button type="button" class="search-clear" id="q-clear" aria-label="Clear the search" hidden><svg class="ico" aria-hidden="true"><use href="#i-x"/></svg></button>
-		</div>
+		</form>
 		<button type="button" class="filter-toggle" id="filter-toggle" aria-haspopup="dialog" aria-controls="filters-dialog">
 			<svg class="ico" aria-hidden="true"><use href="#i-filter"/></svg>Filters<span class="badge" id="filter-badge" hidden>0</span>
 		</button>
