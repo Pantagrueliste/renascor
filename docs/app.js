@@ -64,7 +64,7 @@ function grab(ids, prefix) {
 const els = grab('q q-clear search-row catalogue live notice chips sort results tbody view-table view-cards state ' +
 	'view-table-btn view-cards-btn facets facet-list facets-slot clear-facets filter-toggle filter-badge ' +
 	'filters-dialog sheet-body sheet-close sheet-clear sheet-done cite-copy cite-text', '');
-const TL = grab('tl-state tl-clear y-from y-to tl-plot tl-band tl-bars tl-h0 tl-h1 tl-hover tl-axis tl-note', 'tl-');
+const TL = grab('tl-state tl-clear y-from y-to tl-plot tl-band tl-bars tl-table tl-h0 tl-h1 tl-hover tl-axis tl-note', 'tl-');
 TL.presets = Array.from(document.querySelectorAll('.tl-presets button'));
 const SORTS = Array.from(els.sort.options, o => o.value);
 const narrowMQ = matchMedia('(max-width: 799px)'), wideMQ = matchMedia('(min-width: 1280px)');
@@ -295,8 +295,9 @@ function renderTimeline() {
 		b.style.height = counts[i] ? `max(2px, ${(Math.min(counts[i], decadeScale) / decadeScale * 100).toFixed(2)}%)` : '0px';
 		b.classList.toggle('in', inRange(i));
 	});
-	TL.bars.setAttribute('aria-label', known ? 'Corpus words per decade: ' + counts.map((n, i) =>
-		DECADES[i] + '–' + binEnd(i) + ': ' + plural(n, 'word')).join('; ') : 'Word counts not recorded for these collections.');
+	TL.table.tBodies[0].innerHTML = known
+		? counts.map((n, i) => `<tr><th scope="row">${DECADES[i]}–${binEnd(i)}</th><td>${fmt(n)}</td></tr>`).join('')
+		: '<tr><td colspan="2">Word counts not recorded for these collections.</td></tr>';
 	const l = frac(state.from) * 100, r = frac(state.to + 1) * 100;
 	TL.band.hidden = !active;
 	TL.band.style.cssText = `left:${l.toFixed(3)}%;width:${Math.max(0, r - l).toFixed(3)}%`;

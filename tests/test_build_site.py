@@ -351,7 +351,7 @@ class InjectTests(unittest.TestCase):
                 meta, _ = bs.build_payload([("a-test.json", e)], schema, Path(tempfile.gettempdir()))
             regions = {"share-chart": bs.share_chart(meta["stats"])}
             out = bs.inject(page, meta["display"], regions)
-            item = re.search(r'<li data-if="with_countries"[^>]*>', out).group(0)
+            item = re.search(r'<details class="fold" data-if="with_countries"[^>]*>', out).group(0)
             self.assertEqual(" hidden" in item, not countries)
             self.assertEqual(meta["areas"], areas)
 
