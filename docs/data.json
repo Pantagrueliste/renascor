@@ -11,8 +11,8 @@
   "released": "2026-10-13",
   "updated": "2026-10-13",
   "data_commit": {
-   "sha": "366b8f4fb055bb979f84586a80a54a86a3e0a80a",
-   "short": "366b8f4"
+   "sha": "943dc1ad560961e774e798dad6d1c46f2f52bc38",
+   "short": "943dc1a"
   },
   "scope": {
    "from": 1450,
@@ -106,11 +106,11 @@
    "notes"
   ],
   "stats": {
-   "editions": 329,
+   "editions": 328,
    "language_labels": 71,
    "languages": 71,
    "pseudo_languages": [],
-   "single_language": 247,
+   "single_language": 246,
    "language_counts": [
     [
      "Latin",
@@ -158,7 +158,7 @@
     ],
     [
      "Czech",
-     7
+     6
     ],
     [
      "Hebrew",
@@ -397,19 +397,19 @@
      1
     ]
    ],
-   "texts": 254004,
-   "words": 2412809890,
-   "with_texts": 327,
-   "with_words": 325,
-   "median_words": 180964,
-   "median_texts": 35,
+   "texts": 254003,
+   "words": 2412739999,
+   "with_texts": 326,
+   "with_words": 324,
+   "median_words": 181492,
+   "median_texts": 36,
    "period": {
-    "numeric": 319,
+    "numeric": 318,
     "in_words": 10,
     "missing": 0
    },
    "figures": {
-    "rq": 318,
+    "rq": 317,
     "other": 10,
     "none": 1,
     "other_titles": [
@@ -467,12 +467,12 @@
     }
    ],
    "status": {
-    "active": 202,
+    "active": 201,
     "archived": 120,
     "discontinued": 7
    },
    "encoding": {
-    "tei": 156,
+    "tei": 155,
     "xml": 17,
     "json": 4,
     "html": 109,
@@ -482,7 +482,7 @@
     "other": 19
    },
    "data_format": {
-    "tei": 145,
+    "tei": 144,
     "xml": 17,
     "json": 3,
     "html": 11,
@@ -493,10 +493,10 @@
    },
    "provenance": {
     "discovered": 140,
-    "submitted": 189
+    "submitted": 188
    },
-   "with_last_modified": 64,
-   "with_data_url": 215,
+   "with_last_modified": 63,
+   "with_data_url": 214,
    "with_region": 142,
    "with_countries": 135
   },
@@ -523,7 +523,7 @@
     18521210,
     19031769,
     19687370,
-    30931293,
+    30861402,
     17653981,
     24560149,
     30453463,
@@ -546,54 +546,54 @@
    ],
    "estimated_words": 11379662,
    "undated_words": 21377152,
-   "unlisted_words": 10886392,
+   "unlisted_words": 10956283,
    "basis": "Retained in-core texts after the corpus duplicate filter. Each text is counted once.",
    "date_basis": "Recorded harvest years, including inferred dates and author-lifespan proxies; not a uniform chronology of composition or publication. Missing years with a complete in-scope Gutenberg author lifespan use a separate estimated distribution, weighted equally per year across that lifespan. This is a display convention, not evidence of equal production. Other missing years remain unallocated.",
    "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/period_word_counts.json"
   },
   "display": {
-   "editions": "329",
-   "editions_label": "329 resources",
+   "editions": "328",
+   "editions_label": "328 resources",
    "languages": "71",
    "language_labels": "71",
-   "texts": "254,004",
-   "words": "2,412,809,890",
+   "texts": "254,003",
+   "words": "2,412,739,999",
    "words_compact": "2.41 billion",
    "corpus_texts": "206,552",
    "corpus_words": "2,218,286,819",
    "corpus_words_compact": "2.22 billion",
-   "with_words": "325",
-   "with_words_editions": "325 resources",
+   "with_words": "324",
+   "with_words_editions": "324 resources",
    "without_words": "4",
-   "figures_rq": "318",
+   "figures_rq": "317",
    "discovered": "140",
-   "discovered_sentence": "140 of the 329 records were proposed this way",
-   "single_language": "247",
-   "median_words": "180,964",
-   "median_texts": "35",
+   "discovered_sentence": "140 of the 328 records were proposed this way",
+   "single_language": "246",
+   "median_words": "181,492",
+   "median_texts": "36",
    "updated_long": "13 October 2026",
    "updated_iso": "2026-10-13",
    "version": "1.0.1",
-   "data_commit_short": "366b8f4",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/366b8f4fb055bb979f84586a80a54a86a3e0a80a",
+   "data_commit_short": "943dc1a",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/943dc1ad560961e774e798dad6d1c46f2f52bc38",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.10",
    "snapshot_frozen_long": "13 October 2026",
    "snapshot_month": "October 2026",
    "figures_other_sentence": "For 10 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Grand Tour digital, Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock and Sefaria. 1 resource has no word or text count.",
    "largest_share": "56%",
-   "share_note": "Shares of the 2,412,809,890 words recorded for 325 resources; 4 resources have no word count. Collection totals include overlapping texts.",
-   "with_last_modified": "64 resources",
-   "with_data_url": "215 resources",
+   "share_note": "Shares of the 2,412,739,999 words recorded for 324 resources; 4 resources have no word count. Collection totals include overlapping texts.",
+   "with_last_modified": "63 resources",
+   "with_data_url": "214 resources",
    "with_countries": "135 resources",
    "areas_list": "British Isles, France, Low Countries, Holy Roman Empire, Italian Peninsula, Iberian Peninsula, Scandinavia, Central and Eastern Europe, Balkans and Greece, Ottoman Empire and Near East, Americas, Asia and Africa",
    "citation_author_year": "Godbarge, Clément (2026).",
    "citation_title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
    "citation_tail": "(Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23345610",
-   "status_active": "202 resources.",
+   "status_active": "201 resources.",
    "status_archived": "120 resources.",
    "status_discontinued": "7 resources.",
-   "encoding_tei": "156 resources.",
+   "encoding_tei": "155 resources.",
    "encoding_xml": "17 resources.",
    "encoding_json": "4 resources.",
    "encoding_html": "109 resources.",
@@ -3483,41 +3483,6 @@
    "count_basis": "rq-retained-rows",
    "license": "CC0-1.0",
    "license_url": "https://github.com/christos-c/bible-corpus/blob/master/LICENSE"
-  },
-  {
-   "title": "Lék jádro brněnské (Knihy lékařské) — Vokabulář webový",
-   "url": "https://vokabular.ujc.cas.cz/edice/LekJadroBrn/",
-   "data_url": "https://github.com/CzechLanguageInstitute/tei2019/tree/master/Conversion/Output",
-   "data_format": "tei",
-   "languages": [
-    "Czech"
-   ],
-   "document_types": [
-    "manuscript"
-   ],
-   "encoding": "tei",
-   "status": "active",
-   "provenance": "submitted",
-   "date_added": "2026-10-07",
-   "words": 69891,
-   "texts": 1,
-   "period": "1503-1503",
-   "notes": "Lék jádro brněnské ('Knihy lékařské', c. 1502-1503) is one of the digital editions of Old and Middle Czech texts published by the Czech Language Institute (ÚJČ AV ČR) in Vokabulář webový. The TEI file comes from the GitHub repository accompanying Boris Lehečka's TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions', which contains only two converted sample editions. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
-   "institution": "Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",
-   "editors": [
-    "Alena M. Černá"
-   ],
-   "published": 2019,
-   "last_modified": "2019-09-19",
-   "corpus_statistics": {
-    "snapshot": "v2026.10",
-    "words": 69891,
-    "texts": 1
-   },
-   "count_basis": "rq-retained-rows",
-   "license": "Mixed",
-   "license_url": "https://vokabular.ujc.cas.cz/informace.aspx?t=ovokabulari&o=ovokabulari",
-   "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
   },
   {
    "title": "Early Modern Danish Postils v0.2.0",
@@ -13129,7 +13094,7 @@
    "texts": 295,
    "period": "1450-1696",
    "status": "active",
-   "notes": "Vokabulář webový is the web portal of the Department of Language Development of the Institute of the Czech Language (Czech Academy of Sciences), online since November 2006, which gathers text, image and audio sources for historical Czech. It includes the Old Czech and Middle Czech text banks (with a KonText corpus search), critical editions, grammars, digitised dictionaries and secondary literature. Its operation is supported by the Ministry of Education project LINDAT/CLARIAH-CZ (LM2023062) and earlier national grants. The site shows a data version dated 2026-06-19. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Vokabulář webový is the web portal of the Department of Language Development of the Institute of the Czech Language (Czech Academy of Sciences), online since November 2006, which gathers text, image and audio sources for historical Czech. It includes the Old Czech and Middle Czech text banks (with a KonText corpus search), critical editions, grammars, digitised dictionaries and secondary literature. Its operation is supported by the Ministry of Education project LINDAT/CLARIAH-CZ (LM2023062) and earlier national grants. The site shows a data version dated 2026-06-19. A TEI version of one of its editions, Lék jádro brněnské (Knihy lékařské, 1502-1503), is published on GitHub (CzechLanguageInstitute/tei2019). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 4848608,
@@ -18531,86 +18496,6 @@
      0,
      0,
      597503,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "estimated": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "undated": 0,
-    "estimated_range": null
-   }
-  },
-  {
-   "id": "czech-tei2019",
-   "sort_title": "lek jadro brnenske (knihy lekarske) — vokabular webovy",
-   "host": "vokabular.ujc.cas.cz",
-   "url_display": "vokabular.ujc.cas.cz/edice/LekJadroBrn",
-   "archived_copy": null,
-   "data_display": "github.com/CzechLanguageInstitute/tei2019/tree/master/Conversion/Output",
-   "period": {
-    "raw": "1503-1503",
-    "label": "1503",
-    "start": 1503,
-    "end": 1503,
-    "approx": false,
-    "kind": "year",
-    "note": null,
-    "beyond_scope": false
-   },
-   "size_band": "10k-100k",
-   "figures": "rq",
-   "snapshot": "v2026.10",
-   "notes_display": "Lék jádro brněnské ('Knihy lékařské', c. 1502-1503) is one of the digital editions of Old and Middle Czech texts published by the Czech Language Institute (ÚJČ AV ČR) in Vokabulář webový. The TEI file comes from the GitHub repository accompanying Boris Lehečka's TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions', which contains only two converted sample editions.",
-   "period_words": {
-    "decades": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     69891,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
      0,
      0,
      0,
@@ -38026,7 +37911,7 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.10",
-   "notes_display": "Vokabulář webový is the web portal of the Department of Language Development of the Institute of the Czech Language (Czech Academy of Sciences), online since November 2006, which gathers text, image and audio sources for historical Czech. It includes the Old Czech and Middle Czech text banks (with a KonText corpus search), critical editions, grammars, digitised dictionaries and secondary literature. Its operation is supported by the Ministry of Education project LINDAT/CLARIAH-CZ (LM2023062) and earlier national grants. The site shows a data version dated 2026-06-19.",
+   "notes_display": "Vokabulář webový is the web portal of the Department of Language Development of the Institute of the Czech Language (Czech Academy of Sciences), online since November 2006, which gathers text, image and audio sources for historical Czech. It includes the Old Czech and Middle Czech text banks (with a KonText corpus search), critical editions, grammars, digitised dictionaries and secondary literature. Its operation is supported by the Ministry of Education project LINDAT/CLARIAH-CZ (LM2023062) and earlier national grants. The site shows a data version dated 2026-06-19. A TEI version of one of its editions, Lék jádro brněnské (Knihy lékařské, 1502-1503), is published on GitHub (CzechLanguageInstitute/tei2019).",
    "period_words": {
     "decades": [
      93481,
