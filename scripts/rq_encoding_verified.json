@@ -261,13 +261,6 @@
       "basis": "The project now publishes the corpus as TEI P5 in the TextGrid Repository, per the GitHub README's May 2025 update. The TextGrid Czech Genesis object (textgrid:490ht.0) has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, and the collection's TEI-Corpus export has root <teiCorpus>. The original GitHub bibles/Czech.xml is non-TEI CES XML (<cesDoc version=\"4\">), so 'plain-text' is wrong either way.",
       "confidence": "high"
     },
-    "czech-tei2019": {
-      "encoding": "tei",
-      "public_files": "tei",
-      "data_url": "https://github.com/CzechLanguageInstitute/tei2019/tree/master/Conversion/Output",
-      "basis": "The repo's final outputs are TEI P5. Live raw Conversion/Output/LekJadroBrn.xml has root <TEI xml:lang=\"cs\" xmlns=\"http://www.tei-c.org/ns/1.0\">, and ÚJČ's methodology says the editions are produced 've formátu XML TEI P5 pro publikaci'. The entry's 'tei' is correct.",
-      "confidence": "high"
-    },
     "danishpostils": {
       "encoding": "plain-text",
       "public_files": "none",

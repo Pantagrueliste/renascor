@@ -5,7 +5,7 @@
     "licence": "CC0-1.0",
     "version": "1.0.1",
     "data_updated": "2026-10-13",
-    "data_commit": "366b8f4fb055bb979f84586a80a54a86a3e0a80a",
+    "data_commit": "943dc1ad560961e774e798dad6d1c46f2f52bc38",
     "corpus_statistics": {
       "name": "Renascor Corpus",
       "snapshot": "v2026.10",
@@ -20,7 +20,7 @@
       "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
       "database_sha256": "cc8ac445f23e4ff258a8e1b93fa10497275e7af0c0a94aa16790537a43dd7fdb"
     },
-    "records": 329,
+    "records": 328,
     "fields": [
       "id",
       "title",
@@ -7436,42 +7436,6 @@
       "notes": "Series VIII of the historical-critical edition of Leibniz: his scientific, medical and technical writings. Volume 1 (1668-1676) and volume 2 (1668-1676) are wholly in the period; volume 3 (mechanics 1, 1671-1705) mostly; volume 4 (1676-1715) later, and is online only as PDF. Free PDFs (same pagination as the print) are on the site and the BBAW repository; LaTeX and TEI data for volumes 1-3 are on GitHub (CC BY-NC 4.0). The TEI files are 3.8, 6.2 and 10.1 MB for volumes 1, 2 and 3. Volume 4 was added in 2024-2025. The counts cover volumes 1 to 3 (TEI) and leave out volume 4, which is online only as PDF, and pieces dated after 1700. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
-      "id": "czech-tei2019",
-      "title": "Lék jádro brněnské (Knihy lékařské) — Vokabulář webový",
-      "url": "https://vokabular.ujc.cas.cz/edice/LekJadroBrn/",
-      "data_url": "https://github.com/CzechLanguageInstitute/tei2019/tree/master/Conversion/Output",
-      "data_format": "tei",
-      "institution": "Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka",
-      "editors": [
-        "Alena M. Černá"
-      ],
-      "published": 2019,
-      "languages": [
-        "Czech"
-      ],
-      "period": "1503-1503",
-      "words": 69891,
-      "texts": 1,
-      "corpus_statistics": {
-        "snapshot": "v2026.10",
-        "words": 69891,
-        "texts": 1
-      },
-      "count_basis": "rq-retained-rows",
-      "encoding": "tei",
-      "license": "Mixed",
-      "license_url": "https://vokabular.ujc.cas.cz/informace.aspx?t=ovokabulari&o=ovokabulari",
-      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-      "status": "active",
-      "last_modified": "2019-09-19",
-      "provenance": "submitted",
-      "date_added": "2026-10-07",
-      "document_types": [
-        "manuscript"
-      ],
-      "notes": "Lék jádro brněnské ('Knihy lékařské', c. 1502-1503) is one of the digital editions of Old and Middle Czech texts published by the Czech Language Institute (ÚJČ AV ČR) in Vokabulář webový. The TEI file comes from the GitHub repository accompanying Boris Lehečka's TEI 2019 conference paper 'Using Microsoft Word for preparing XML TEI-compliant digital editions', which contains only two converted sample editions. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
-    },
-    {
       "id": "elec-edits-de-pacification",
       "title": "Les édits de pacification et l'édit de Nantes (1562-1598), École des chartes (ELEC)",
       "url": "http://elec.enc.sorbonne.fr/editsdepacification/",
@@ -12514,7 +12478,7 @@
         "manuscript",
         "print"
       ],
-      "notes": "Vokabulář webový is the web portal of the Department of Language Development of the Institute of the Czech Language (Czech Academy of Sciences), online since November 2006, which gathers text, image and audio sources for historical Czech. It includes the Old Czech and Middle Czech text banks (with a KonText corpus search), critical editions, grammars, digitised dictionaries and secondary literature. Its operation is supported by the Ministry of Education project LINDAT/CLARIAH-CZ (LM2023062) and earlier national grants. The site shows a data version dated 2026-06-19. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+      "notes": "Vokabulář webový is the web portal of the Department of Language Development of the Institute of the Czech Language (Czech Academy of Sciences), online since November 2006, which gathers text, image and audio sources for historical Czech. It includes the Old Czech and Middle Czech text banks (with a KonText corpus search), critical editions, grammars, digitised dictionaries and secondary literature. Its operation is supported by the Ministry of Education project LINDAT/CLARIAH-CZ (LM2023062) and earlier national grants. The site shows a data version dated 2026-06-19. A TEI version of one of its editions, Lék jádro brněnské (Knihy lékařské, 1502-1503), is published on GitHub (CzechLanguageInstitute/tei2019). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
       "id": "wandering-jews-chronicle",
