@@ -102,7 +102,8 @@ function debounce(fn, ms) {
 	return d;
 }
 const sub = e => (e.institution ? `<span class="sub">${esc(e.institution)}</span>` : '');
-const tog = (r, attrs) => `<button type="button" class="tog"${attrs} aria-expanded="false">${ICON.chev}<span class="ti">${esc(r.e.title)}</span></button>${sub(r.e)}`;
+// Each resource name is a level-3 heading under the result count, so screen readers can jump between resources.
+const tog = (r, attrs) => `<span class="tog-h" role="heading" aria-level="3"><button type="button" class="tog"${attrs} aria-expanded="false">${ICON.chev}<span class="ti">${esc(r.e.title)}</span></button></span>${sub(r.e)}`;
 const filesLink = (r, inner, cls) => extLink(r.e.data_url, inner, `${cls} aria-label="${esc(filesLinkLabel(r))}"`);
 const extLink = (url, inner, attrs = '') => `<a href="${esc(safeURL(url))}" target="_blank" rel="noopener"${attrs}>${inner}</a>`;
 const countryName = code => { const c = (meta.countries || {})[code]; return c ? c.name : code; };
