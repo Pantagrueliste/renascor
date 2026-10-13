@@ -1,6 +1,6 @@
 # Renascor
 
-[![Browse the catalogue](https://img.shields.io/badge/Browse_the_catalogue-1a56db?style=for-the-badge&logo=github&logoColor=white)](https://pantagrueliste.github.io/renascor/) [![Suggest a collection](https://img.shields.io/badge/Suggest_a_collection-4b5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pantagrueliste/renascor/issues/new?template=new-entry.yml) [![Report a correction](https://img.shields.io/badge/Report_a_correction-4b5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pantagrueliste/renascor/issues/new?template=correction.yml) [![Buy me a coffee](https://img.shields.io/badge/Buy_me_a_coffee-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/clementgodbarge)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23345610.svg)](https://doi.org/10.5281/zenodo.23345610) [![Browse the catalogue](https://img.shields.io/badge/Browse_the_catalogue-1a56db?style=for-the-badge&logo=github&logoColor=white)](https://pantagrueliste.github.io/renascor/) [![Suggest a collection](https://img.shields.io/badge/Suggest_a_collection-4b5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pantagrueliste/renascor/issues/new?template=new-entry.yml) [![Report a correction](https://img.shields.io/badge/Report_a_correction-4b5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pantagrueliste/renascor/issues/new?template=correction.yml) [![Buy me a coffee](https://img.shields.io/badge/Buy_me_a_coffee-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/clementgodbarge)
 
 An open catalogue of digital editions from **1450–1700**.
 
@@ -41,7 +41,7 @@ The catalogue grew out of the **Renascor Corpus Project**, which aims to assembl
 | Code | [MIT](LICENSE) |
 | Edition texts | Each record gives the source's licence |
 
-Please cite the catalogue when using it in research: [citation details](CITATION.cff).
+Please cite the catalogue when using it in research. Every release is archived on Zenodo under the DOI [10.5281/zenodo.23345610](https://doi.org/10.5281/zenodo.23345610), which always resolves to the latest version; see the [citation details](CITATION.cff).
 
 ### Contribute
 

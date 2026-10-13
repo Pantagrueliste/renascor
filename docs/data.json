@@ -11,8 +11,8 @@
   "released": "2026-10-13",
   "updated": "2026-10-13",
   "data_commit": {
-   "sha": "6b5f78476e2968d581d695fcf6557364acbe19fd",
-   "short": "6b5f784"
+   "sha": "87bf9d7ef20faccad40aa5efaa08ff946865be0c",
+   "short": "87bf9d7"
   },
   "scope": {
    "from": 1450,
@@ -590,8 +590,8 @@
    "updated_long": "13 October 2026",
    "updated_iso": "2026-10-13",
    "version": "1.0.0",
-   "data_commit_short": "6b5f784",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/6b5f78476e2968d581d695fcf6557364acbe19fd",
+   "data_commit_short": "87bf9d7",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/87bf9d7ef20faccad40aa5efaa08ff946865be0c",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.10",
    "snapshot_frozen_long": "13 October 2026",
@@ -605,7 +605,7 @@
    "areas_list": "British Isles, France, Low Countries, Holy Roman Empire, Italian Peninsula, Iberian Peninsula, Scandinavia, Central and Eastern Europe, Balkans and Greece, Ottoman Empire and Near East, Americas, Asia and Africa",
    "citation_author_year": "Godbarge, Clément (2026).",
    "citation_title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
-   "citation_tail": "(Version 1.0.0) [Data set]. https://pantagrueliste.github.io/renascor/",
+   "citation_tail": "(Version 1.0.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23345610",
    "status_active": "203 resources.",
    "status_archived": "120 resources.",
    "status_discontinued": "7 resources.",
