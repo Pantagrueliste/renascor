@@ -88,7 +88,7 @@
     },
     "modernised": {
       "type": "boolean",
-      "description": "True when the resource gives its texts only in modernised spelling, not as transcriptions of the original spelling. Optional; omit otherwise."
+      "description": "True when the resource gives its texts only with normalised spelling (orthography, abbreviations or punctuation regularised by the editor), the language itself unchanged. Resources that rewrite the language in a modern form (translations or modernisations of the language) are out of scope. Optional; omit otherwise."
     },
     "encoding": {
       "type": "string",

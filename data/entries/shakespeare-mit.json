@@ -1,0 +1,36 @@
+{
+  "title": "The Complete Works of William Shakespeare (MIT)",
+  "url": "https://shakespeare.mit.edu/",
+  "data_url": "https://github.com/TheMITTech/shakespeare",
+  "data_format": "html",
+  "languages": [
+    "English"
+  ],
+  "modernised": true,
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "institution": "Jeremy Hylton; operated by The Tech (MIT), hosted by MIT IS&T",
+  "author": "William Shakespeare",
+  "region": "England",
+  "countries": [
+    "GB-ENG"
+  ],
+  "period": "c. 1590-1613",
+  "notes": "Online since 1993. HTML pages for the 37 plays, the Sonnets, Venus and Adonis, The Rape of Lucrece, A Lover's Complaint and A Funeral Elegy. All of it dates from 1450-1700. The text comes from the Moby Shakespeare, a modernised-spelling text, not a transcription of the early prints. HTML public domain according to the site. Status: the home page says 'Current copy taken from GitHub and hosted by MIT IS&T in a static location' (5/10/23) and the repository's last push is 2023-09-19; nothing newer was found. The counts cover the GitHub repository's plays, sonnets and poems, including The Passionate Pilgrim and The Phoenix and the Turtle from its plain-text poetry file. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "license": "Public domain",
+  "license_url": "https://shakespeare.mit.edu/",
+  "last_modified": "2023-09-19",
+  "provenance": "discovered",
+  "date_added": "2026-10-13",
+  "words": 934523,
+  "texts": 198,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 934523,
+    "texts": 198
+  },
+  "count_basis": "rq-retained-rows"
+}

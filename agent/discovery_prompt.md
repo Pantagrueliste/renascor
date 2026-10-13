@@ -17,6 +17,7 @@ A project does **not** qualify if it provides only:
 
 - Page images, facsimiles or photographs of inscriptions with no transcription
 - Raw, uncorrected OCR dumps
+- Modern-language versions: translations, or texts rewritten in a modern form of their language. Normalised spelling (orthography, abbreviations or punctuation regularised by the editor, language unchanged) is acceptable; set `modernised` to true for such a resource
 - Catalogues or bibliographies with no texts
 - Directories and federated search services that point to other projects without providing a text collection
 - Individual texts hosted on personal websites with no editorial apparatus
@@ -73,6 +74,7 @@ Return your findings as a JSON array. Each element must be an object with exactl
   "data_format": "tei | xml | json | html | plain-text | wikitext | markdown | other, required if data_url is given",
   "languages": ["array", "of", "human-readable", "language", "names"],
   "document_types": ["manuscript | print | inscription", "one or more"],
+  "modernised": "boolean, optional, true only when the texts are given with normalised spelling only (language unchanged)",
   "encoding": "tei | xml | json | html | plain-text | wikitext | markdown | other",
   "status": "active | archived | discontinued",
   "institution": "string, optional, the institution or team behind the edition",

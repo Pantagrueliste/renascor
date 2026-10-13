@@ -1,0 +1,33 @@
+{
+  "title": "Early Americas Digital Archive (EADA)",
+  "url": "https://web.archive.org/web/2013/http://mith.umd.edu/eada/",
+  "languages": [
+    "English",
+    "Spanish",
+    "Dutch"
+  ],
+  "document_types": [
+    "print",
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "discontinued",
+  "institution": "Maryland Institute for Technology in the Humanities (MITH), University of Maryland; general editor Ralph Bauer",
+  "region": "The Americas (texts written in or about the Americas)",
+  "countries": [
+    "US"
+  ],
+  "period": "1492-c.1820",
+  "notes": "Collection of electronic texts originally written in or about the Americas from 1492 to about 1820, stored as TEI and shown as HTML pages; about 134 text pages are preserved in the Wayback Machine. The part dating from 1450-1700 is the texts of the colonial period up to 1700 (for example the Plymouth Plantation history of William Bradford, written c. 1630-1650); later items such as Barlow's poems and Banneker's letter are eighteenth-century. The exact in-period share was not established. The live site is gone (eada.lib.umd.edu returns 400 Bad Request, checked 2026-10-13; last Wayback captures of the site are 2013-2015); the url is the Wayback copy. The TEI files are not downloadable from the archive. The counts cover the in-period texts among the 114 text pages captured by the Wayback Machine, in their original language; 27 modern English translations of Spanish and Dutch texts are not counted. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "provenance": "discovered",
+  "date_added": "2026-10-13",
+  "words": 515178,
+  "texts": 49,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 515178,
+    "texts": 49
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
+}

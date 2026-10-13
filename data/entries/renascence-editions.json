@@ -1,0 +1,34 @@
+{
+  "title": "Renascence Editions (University of Oregon / Luminarium mirror)",
+  "url": "https://www.luminarium.org/renascence-editions/",
+  "languages": [
+    "English",
+    "Middle English"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "html",
+  "status": "archived",
+  "institution": "Risa Stephanie Bear, University of Oregon (hosted by Luminarium)",
+  "region": "England, with some Scotland, Wales and North America",
+  "countries": [
+    "GB-ENG",
+    "GB-SCT",
+    "GB-WLS",
+    "US"
+  ],
+  "period": "1477-1799",
+  "notes": "Online repository of works printed in English between 1477 and 1799, sorted by author (222 titles in all). The part dating from 1450-1700 is the large majority: sixteenth- and seventeenth-century poetry, drama, prose, proclamations and pamphlets (for example Bacon, Spenser, Dekker, Elizabeth I's proclamations, 1640s-50s pamphlets). Later items (Defoe, Fielding, Gay, Goldsmith, Gray, American colonial documents of 1775-76) fall outside the period. Texts are keyed from the original or later facsimile editions in original spelling; each is a plain HTML page, with PDF copies at the University of Oregon Scholars Bank. No bulk download. The counts cover the in-period HTML texts of the index, one record per page or part. Status: the site states '222 titles; updated November 21, 2009', and nothing newer was found (page checked 2026-10-13); the host's robots.txt allows crawling except /cgi-bin. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "license": "Not stated",
+  "provenance": "discovered",
+  "date_added": "2026-10-13",
+  "words": 4238340,
+  "texts": 360,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 4238340,
+    "texts": 360
+  },
+  "count_basis": "rq-retained-rows"
+}

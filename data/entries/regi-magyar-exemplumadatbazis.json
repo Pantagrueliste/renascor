@@ -1,0 +1,32 @@
+{
+  "title": "Régi Magyar Exemplumadatbázis / Database of Old Hungarian Exempla (RMEx)",
+  "url": "https://sermones.elte.hu/exemplumadatbazis/",
+  "doi": "10.21862/Exemplum_2014",
+  "languages": [
+    "Hungarian"
+  ],
+  "modernised": true,
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "institution": "ELTE BTK Magyar Irodalomtörténeti Intézet, Régi Magyar Irodalom Tanszék (edited by Bartók Zsófia Ágnes; OTKA PD 137996)",
+  "period": "16th century (Hungarian codices)",
+  "region": "Kingdom of Hungary",
+  "countries": [
+    "HU"
+  ],
+  "notes": "Searchable database of the exempla (short moral stories) found in the old Hungarian-language codices, including the Domonkos, Margit-legenda, Érdy, Cornides, Székelyudvarhelyi, Érsekújvári and Teleki codices. Each record gives the exemplum text (a modernised reading taken from the printed Nyelvemléktár editions), a summary, keywords, the source codex and folio, and Latin sources and parallels. Version 1.0 appeared in 2014 and version 2.0 has been in progress since 2021; records were uploaded as recently as 2024. The counts cover the 'exemplum text' field of the record pages 0001 to 0386 and their lettered variants (for example 0016a); the codices named on the site are Hungarian-language manuscripts of the early 16th century (for example the Debreceni codex of 1519, the Érdy codex of 1526-1527 and the Érsekújvári codex of 1529-1531). The text is edited and modernised, not a diplomatic transcription. Searches use a web form; no bulk download was found. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "license": "Not stated",
+  "provenance": "discovered",
+  "date_added": "2026-10-13",
+  "words": 130280,
+  "texts": 461,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 130280,
+    "texts": 461
+  },
+  "count_basis": "rq-retained-rows"
+}

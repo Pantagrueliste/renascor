@@ -610,6 +610,29 @@
    "resources.huygens.knaw.nl answers HTTP 403 Forbidden to the identified harvest user agent (including robots.txt and the start page); it serves pages only to browser-like agents. Spoofing a browser agent would circumvent the server's bot filtering, so no pages were fetched. No bulk export or alternative route found. Could be done with the publisher's permission or a whitelisted agent."
   ]
  },
+ "early-americas-digital-archive": {
+  "id": "early-americas-digital-archive",
+  "texts_total": 99,
+  "words_total": 1597779,
+  "texts_in_window": 49,
+  "words_in_window": 515178,
+  "undated": 4,
+  "language_words": {
+   "English": 389582,
+   "Spanish": 124993,
+   "Dutch": 603
+  },
+  "method": "Listed captures of the original MITH site (mith.umd.edu/eada) with the Wayback CDX API, picked the latest 200 capture of each text page html/display.php?docs=<id>.xml, and downloaded the raw capture (id_ form) at 1.5 s intervals. Extracted the text after the colophon header, dropping navigation, search form and line-number marks. One record per EADA text (poem, letter, narrative). Years are set by hand from the work's date of composition/first publication (the page gives only author dates and the source edition).",
+  "coverage": "99 texts stored from 131 captured text pages; the author gateway pages captured by the Wayback Machine link to 115 text ids, 114 of which have a captured text page (99%). The later eada.lib.umd.edu WordPress site (161 text-entries pages, mostly eighteenth-century with modern introductions) was not harvested. Skipped: 27 texts that are modern English translations of Spanish/French/Dutch/Swedish originals, 2 placeholder pages, 3 exact duplicates (lascasas_sepulveda_disputa.xml ~ lascasas_sepulveda.xml (near-identical); raleigh_discovery1.xml = raleigh_discovery.xml; titucusi_instruccion1.xml ~ titucusi_instruccion.xml (near-identical)).",
+  "problems": [
+   "Skipped as modern-English translations (rewritten language, not original/normalised text): acrelius_founding.xml, bello_agriculture.xml, biedma_relation.xml, cabeza_eng.xml, castaneda_account.xml, champlain_founding.xml, columbus_4thvoyage.xml, columbus_journal.xml, columbus_santangel.xml, cortez_letter2.xml, dominguez_journal.xml, elvas_narrative.xml, erauso_autobiography.xml, garcilaso_florida.xml, heredia_niagara_eng.xml, lopez_de_mendoza_staugustine.xml, manzano_life.xml, ranjel_relation.xml, siguanza_mercurio.xml, siguenza_mercurio.xml, sorjuana_arraignment.xml, sorjuana_caprice.xml, sorjuana_lostlove.xml, sorjuana_tarry.xml, sorjuana_toherportrait.xml, steendam_complaint.xml, vespucci_letters.xml",
+   "Texts are modern editions in normalised or original spelling (Bradford, Taylor, Hariot, Smith, Raleigh, Rowlandson in original spelling; Penn, Hayes, Berkeley etc. from early-twentieth-century editions with possible modernisation); not all spelling regimes could be verified.",
+   "Most of the archive is eighteenth- or nineteenth-century (Franklin, Freneau, Wheatley, Barlow ...): these are kept in staging with their years so that they are counted out.",
+   "Occom (2 sermons), Revel and Wilson have no year (undated eighteenth/early nineteenth century): year=None, dateless_in_window=False.",
+   "Years for Bradstreet (publication 1650/1678) and Taylor (c. 1682-1690) are approximate; Taylor's Meditation 60 date is uncertain.",
+   "The TEI sources are not available from the Wayback Machine; text taken from rendered HTML, so notes/apparatus rendered in the page may be mixed into the text."
+  ]
+ },
  "effectus-amoris": {
   "id": "effectus-amoris",
   "texts_total": 1,
@@ -976,6 +999,25 @@
   "coverage": "all linked TEI assessments",
   "problems": []
  },
+ "henslowe-alleyn-digitisation-project": {
+  "id": "henslowe-alleyn-digitisation-project",
+  "texts_total": 8,
+  "words_total": 99382,
+  "texts_in_window": 8,
+  "words_in_window": 99382,
+  "undated": 0,
+  "language_words": {
+   "English": 99382
+  },
+  "method": "Read /transcriptions/ and each transcription page (10 s crawl-delay observed); downloaded the transcript PDFs and extracted the text layer with pdftotext -layout. Alleyn's diary (MSS 9) has one PDF per page image, linked from the catalogue listing; its pages were concatenated into one record. Introduction and glossary PDFs by Ioppolo (modern) and the site essays were excluded.",
+  "coverage": "All 7 individually transcribed documents plus the 116 page transcripts of MSS 9 (Alleyn's diary). Everything else in the catalogue (including Henslowe's own diary, MSS 7) is images only, with no transcription on the site.",
+  "problems": [
+   "Henslowe's Diary (MSS 7) is NOT transcribed on the site, despite the catalogue note; only Alleyn's diary (MSS 9) has page transcripts.",
+   "PDF text is editorial transcription with possible modern editorial apparatus (square brackets, folio markers, headers) that could not be fully separated.",
+   "The editorial footnotes of the Ioppolo transcripts are mixed into the PDF text layer and could not be separated. The Platt (MSS 19) is dated c. 1590 (the catalogue dates the paper 1612-1626).",
+   "Diary year is set to 1617 (start of Alleyn's diary, 1617-1622); individual year given where documents are dated."
+  ]
+ },
  "hooke-folio-online": {
   "id": "hooke-folio-online",
   "texts_total": 578,
@@ -1284,6 +1326,26 @@
   "coverage": "all: the single Latin TEI transcript.",
   "problems": []
  },
+ "london-lives-1690-1800": {
+  "id": "london-lives-1690-1800",
+  "texts_total": 8778,
+  "words_total": 1598031,
+  "texts_in_window": 8778,
+  "words_in_window": 1598031,
+  "undated": 0,
+  "language_words": {
+   "English": 1598031
+  },
+  "method": "Downloaded the project's own bulk XML (figshare 4797829, LL_XML_1-1.zip, CC BY-NC 4.0, 1,624 files), referenced from the Licensing and Citation Guide of the site (non-commercial/linguistic analysis is explicitly permitted; no generative-AI training use). Read the zip in place, skipped files whose elementDate range lies outside 1690-1700, split the others into pages at the <img> facsimile markers, dated each page by its first <date modern=...> (otherwise the previous page's date, otherwise the file's start date) and kept pages dated 1690-1700. Tags were stripped; names, places and marginalia kept as part of the manuscript text.",
+  "coverage": "Pages dated 1690-1700 from 144 of 1624 XML files whose date range overlaps 1690-1700; 8778 pages kept out of 12930 pages in the overlapping files. Per series (page counts): {'BA': 238, 'BR': 943, 'CC': 199, 'CD': 262, 'DB': 192, 'SL': 1677, 'SM': 4621, 'TH': 487, 'WJ': 159}. Source is the 2017 XML release (version 1), not the 2025 site version 3.0, so later additions are missing.",
+  "problems": [
+   "Page dates are inferred (first dated entry on the page, else carried forward from the previous page); a minority of pages in long volumes spanning many years may be mis-dated, and undated items are lost.",
+   "Mixed old/new style and 00.00.yyyy partial dates were read by year only.",
+   "The XML contains diplomatic transcriptions, with some printed material (Old Bailey Proceedings, Ordinary's Accounts) transcribed normally; tabular records (poll tax, registers) are mostly names and figures.",
+   "Terms of use: CC BY-NC 4.0; the site forbids use for training generative AI, so the staging text must be used for counting/analysis only.",
+   "The 2025 site (version 3.0) has more material than the 2017 XML release."
+  ]
+ },
  "lope-dama-boba": {
   "id": "lope-dama-boba",
   "texts_total": 1,
@@ -1492,6 +1554,23 @@
    "Language guessed from function words per page (Latin/Italian/Greek poems, Latin letters/prolusions); mixed pages may be mislabelled. Site licence CC BY-ND 3.0; copyright page reserves the XHTML coding and editorial material (only the period text is kept here). The 'Editing still in progress' note applies to the Defence."
   ]
  },
+ "mini-lazarillo": {
+  "id": "mini-lazarillo",
+  "texts_total": 8,
+  "words_total": 18473,
+  "texts_in_window": 8,
+  "words_in_window": 18473,
+  "undated": 0,
+  "language_words": {
+   "Spanish": 18473
+  },
+  "method": "Downloaded the GitHub repository tarball once (codeload) and parsed xml/lazarillo-master.xml with lxml; one record per top-level <div> of the body (prologue and tratados 1-7), plain text with notes and apparatus removed.",
+  "coverage": "All of the TEI master text (prologue, 7 tratados, colophon). The annotated HTML edition and facsimile images were not used.",
+  "problems": [
+   "Text is the editors' modernised-spelling reading of the 1554 Medina del Campo print (accepted). Where the TEI encodes <choice><orig>/<reg> pairs the original (orig) reading was kept, the regularised form dropped; the other silent modernisations (accents, i/y, v/b) cannot be recovered. <sic> readings kept.",
+   "Back matter (list of persons, places with commentary notes) excluded; page-break markers dropped. Prologue and seven tratados are separate records; the colophon is inside tratado 7."
+  ]
+ },
  "mitteldeutsche-selbstzeugnisse": {
   "id": "mitteldeutsche-selbstzeugnisse",
   "texts_total": 6,
@@ -1544,6 +1623,23 @@
   "method": "Downloads page parsed for the 12 TEI files; per file the <text><body>, with <choice> reduced to diplomatic <orig> (normalised <reg> dropped) and <app> to its first reading <lem>.",
   "coverage": "all 12 downloadable TEI files",
   "problems": []
+ },
+ "open-source-shakespeare": {
+  "id": "open-source-shakespeare",
+  "texts_total": 43,
+  "words_total": 930853,
+  "texts_in_window": 43,
+  "words_in_window": 930853,
+  "undated": 0,
+  "language_words": {
+   "English": 930853
+  },
+  "method": "Downloaded the site's own oss-textdb.zip (delimited text tables, CC BY-NC 4.0, one request, robots.txt Crawl-delay 10 respected) and rebuilt each work from Paragraphs.txt in paragraph order, with HTML entities decoded and [p] line markers turned into line breaks. One record per work.",
+  "coverage": "All works in the database (plays, sonnets and poems); concordance, word forms and statistics tables were not used.",
+  "problems": [
+   "Year = the site's approximate composition date (Works.Date) for each work, not a publication date; The Passionate Pilgrim (1598/1599) and A Lover's Complaint (1609) are included as the site lists them. Texts are modernised spelling (Globe edition, via Moby/Gutenberg), kept as accepted. Speaker names (from Characters table) are prefixed to speeches and counted as words.",
+   "Site lists 43 works; the database holds 43 works."
+  ]
  },
  "openedges": {
   "id": "openedges",
@@ -1671,6 +1767,22 @@
    "Only the sections 'Umanisti del Quattrocento' and 'Prima meta del Cinquecento' of the chronological index were harvested (270 of 346 index entries); 'Da Dante a Petrarca' (1250-1374) skipped as pre-window."
   ]
  },
+ "poly-olbion-project": {
+  "id": "poly-olbion-project",
+  "texts_total": 30,
+  "words_total": 142903,
+  "texts_in_window": 30,
+  "words_in_window": 142903,
+  "undated": 0,
+  "language_words": {
+   "English": 142903
+  },
+  "method": "Fetched the 30 full-text song pages (WordPress HTML, original spelling) at 1 s intervals; extracted verse, argument, headings and printed marginal notes with BeautifulSoup; dropped page numbers, running headers, note-reference letters and navigation. One record per song; songs 1-18 dated 1612, 19-30 dated 1622.",
+  "coverage": "All 30 songs of Poly-Olbion (both parts, 1612 and 1622). Selden's Illustrations, the modernised extracts and the word list are not on the full-text pages and were not harvested.",
+  "problems": [
+   "Marginal notes (printed glosses by Drayton) are kept inline after the verse of their row; some editorial marginal marks may remain."
+  ]
+ },
  "progetto-pico": {
   "id": "progetto-pico",
   "texts_total": 1,
@@ -1733,6 +1845,24 @@
   "coverage": "The whole edited text of Band 06; the other eleven volumes have only page images (no text).",
   "problems": [
    "The volume is one text; it was split in two records only so that the post-1700 continuation is counted out. Year of part 1 set to 1649 (date of the preface); the list entries within it start 1537."
+  ]
+ },
+ "regi-magyar-exemplumadatbazis": {
+  "id": "regi-magyar-exemplumadatbazis",
+  "texts_total": 462,
+  "words_total": 130299,
+  "texts_in_window": 462,
+  "words_in_window": 130299,
+  "undated": 0,
+  "language_words": {
+   "Hungarian": 130299
+  },
+  "method": "One POST search on the site's search form (word 'és') plus one search per source codex listed in the form to list record ids, then one GET of each record page display.php/<id> at 1 s intervals (no robots.txt exists, only a redirect to an error page); extracted the exemplum text field.",
+  "coverage": "All records returned by the search interface (ids 0001-0386 and lettered variants); records without text excluded.",
+  "problems": [
+   "4 record ids found only through the per-codex searches (not by word search 'és').",
+   "The site gives no codex dates; year = approximate date of the codex copy (midpoint where a range) from standard dating of the Old Hungarian codices, set per codex by me; all 16th century (Guary-kódex 1495). Kazinczy-kódex set to 1534 (parts finished 1526, 1527, 1541); Bod-kódex, Könyvecse az szent apostoloknak méltóságokról and Lázár Zelma-kódex dates are least certain.",
+   "Text field 'Exemplum szövege' only (modernised reading from the Nyelvemléktár editions, accepted); summaries, keywords, Latin sources and parallels excluded. The search list has 475 hits for 462 distinct ids (4 found only via codex searches), matching the 462 records and about 130,000 words in the catalogue notes."
   ]
  },
  "rejestr-kontrybucji-poznan-1561": {
@@ -1800,6 +1930,94 @@
    "pa000001-0049: no language in header; set to Latin from the document id/content",
    "pa000001-0059: no language in header; set to Dutch from the document id/content",
    "pa000001-0084 (French/German parallel version of 0083, Toleranzedikt Ludwigs XVI) skipped as duplicate of 0083 containing a German translation"
+  ]
+ },
+ "renascence-editions": {
+  "id": "renascence-editions",
+  "texts_total": 428,
+  "words_total": 5859680,
+  "texts_in_window": 360,
+  "words_in_window": 4238340,
+  "undated": 3,
+  "language_words": {
+   "English": 4215537,
+   "Middle English": 22803
+  },
+  "method": "Read the Luminarium mirror index (ren.htm / root), followed every HTML link to a text (crawl delay 1 s, robots.txt allows all except /cgi-bin), and for works divided into parts/chapters followed the links to the part pages (2 levels for Montaigne). Extracted body text with BeautifulSoup after removing site header/footer, links to the index and the publisher's e-text note. One record per HTML page (a play, poem, tract or a book/part of a longer work). Year = year of the original printing/composition of the work, set from a table made from the page headers (not the date of the e-text or of the source edition).",
+  "coverage": "All 225 listed HTML targets of the index and the part pages of divided works were fetched (pages cached in files/). PDF-only items (e.g. Spenser Faerie Queene complete PDF, the Scholars Bank PDFs) were not used as the HTML versions are the same texts. Modern essays by Bear/Renchler, introductions and the reader essay were excluded. Out-of-period works (after 1700) are kept in staging with their years for counting out.",
+  "problems": [
+   "skipped page outside /renascence-editions/ (duplicate of a listed text): https://www.luminarium.org/%7Erbear/defoe2.html",
+   "skipped page outside /renascence-editions/ (duplicate of a listed text): https://www.luminarium.org/editions/oberon.htm",
+   "year taken from page head for shake/awtw.html: 1603",
+   "year taken from page head for shake/ac.html: 1607",
+   "year taken from page head for shake/ayli.html: 1601",
+   "year taken from page head for shake/errors.html: 1593",
+   "year taken from page head for shake/coriolanus.html: 1608",
+   "year taken from page head for shake/cymbeline.html: 1609",
+   "year taken from page head for shake/hamlet.html: 1604",
+   "year taken from page head for shake/hiv1.html: 1598",
+   "year taken from page head for shake/hiv2.html: 1598",
+   "year taken from page head for shake/hv.html: 1599",
+   "year taken from page head for shake/hvi1.html: 1592",
+   "year taken from page head for shake/hvi2.html: 1591",
+   "year taken from page head for shake/hvi3.html: 1591",
+   "year taken from page head for shake/khe.html: 1611",
+   "year taken from page head for shake/jc.html: 1599",
+   "year taken from page head for shake/kj.html: 1597",
+   "year taken from page head for shake/lear.html: 1606",
+   "year taken from page head for shake/lll.html: 1595",
+   "year taken from page head for shake/macbeth.html: 1606",
+   "year taken from page head for shake/mfm.html: 1605",
+   "year taken from page head for shake/mv.html: 1597",
+   "year taken from page head for shake/mww.html: 1601",
+   "year taken from page head for shake/mnd.html: 1596",
+   "year taken from page head for shake/maan.html: 1599",
+   "year taken from page head for shake/othello.html: 1605",
+   "year taken from page head for shake/pericles.html: 1608",
+   "year taken from page head for shake/rii.html: 1596",
+   "year taken from page head for shake/riii.html: 1593",
+   "year taken from page head for shake/rj.html: 1595",
+   "year taken from page head for shake/ts.html: 1594",
+   "year taken from page head for shake/tempest.html: 1612",
+   "year taken from page head for shake/ta.html: 1608",
+   "year taken from page head for shake/titus.html: 1594",
+   "year taken from page head for shake/tc.html: 1602",
+   "year taken from page head for shake/tn.html: 1602",
+   "year taken from page head for shake/2gent.html: 1595",
+   "year taken from page head for shake/wt.html: 1611",
+   "year taken from page head for shake/lc.html: 1609",
+   "year taken from page head for shake/pp.html: 1609",
+   "year taken from page head for shake/pt.html: 1609",
+   "year taken from page head for shake/rl.html: 1594",
+   "year taken from page head for shake/wssonnets.html: 1609",
+   "year taken from page head for shake/va.html: 1593",
+   "year taken from page head for may/mayframe.html: None",
+   "may/mayframe.html: frame/empty page, no text (Sidney's Lady of May frameset)",
+   "year taken from page head for webster2.html: 1613",
+   "Several texts (Shakespeare plays from the ERIS/Adelaide plain-text edition, Hobbes, Hume, Smith, Fielding, Swift, Paine etc.) are modern editorial texts with normalised spelling; kept since only the spelling is normalised, not the language.",
+   "Publisher's e-text notes and editorial comments were removed by heuristic and may remain in some pages; some pages are lightly glossed by the editor (Glossed notes).",
+   "Fox Selected Epistles, Penington Some Considerations and Sidney's Psalmes are undated; flagged dateless_in_window because their authors died before 1700 (Fox's epistles are 1650s-1690s, Penington d. 1679, Sidney d. 1586).",
+   "Years of composition/publication come from a hand-made table; some (Raleigh, Roper, Spenser View, Sidney psalms) are the date of first printing, not composition."
+  ]
+ },
+ "representative-poetry-online": {
+  "id": "representative-poetry-online",
+  "texts_total": 958,
+  "words_total": 454528,
+  "texts_in_window": 958,
+  "words_in_window": 454528,
+  "undated": 0,
+  "language_words": {
+   "English": 446953,
+   "French": 4138,
+   "Scots": 3437
+  },
+  "method": "Listed the 749 poets from /poets?page=N (50 per page), selected those with author dates in 1450-1700 (see problems), fetched each poet's poem index and every poem page at 1 s intervals (robots.txt blocks only admin/search paths), extracted the poem lines with BeautifulSoup. One record per poem.",
+  "coverage": "All poems of the selected poets listed on RPO; Anonymous and poets dying after 1701 not harvested; poets with no usable dates not harvested.",
+  "problems": [
+   "Poets selected by author dates shown on the site: born 1420-1680 and died 1460-1701 (poets dying after 1701 are excluded because their poems cannot be dated by the site; borderline ones left out: Brown, Tom (1663-1704); Chudleigh, Lady Mary (1656-1710); Defoe, Daniel (1660-1731); Dennis, John (1657-1734); Finch, Countess of Winchilsea, Anne (1661-1720); Pope, Walter (1628-1714); Prior, Matthew (1664-1721); Sackville, earl of Dorset, Charles (1638-1706); Sprat, Thomas (1635-1713); Tate, Nahum (1652-1715); Taylor, Edward (1642-1729)). Anonymous (1100-2010), Mother Goose and poets with blank or 0-0 dates are excluded, except four 16th-century poets dated by hand (Isabella Whitney 1570, R. Wever 1550, Humphrey Gifford 1580, William Gray of Reading 1545).",
+   "The site gives no date for individual poems (only the poet's birth and death years), so year = floruit midpoint: (birth + 25 + min(death, 1700)) / 2 for dated poets; fixed hand-set values for the four dateless 16th-century poets. Not first publication dates.",
+   "Spelling is mixed on the site (normalised in most printed-edition texts, original spelling for some web-only texts); not distinguishable per poem, all kept. Line-number toggles, 'Original Text' citations, editor credits and rhyme/form metadata dropped. French poems (Ronsard, Du Bellay, Belleau, Villon, La Fontaine, Saint-Amant, L'Hermite) are in French."
   ]
  },
  "richard-brome-online": {
@@ -1972,6 +2190,25 @@
   "problems": [
    "one record for the whole dictionary (letter part files combined); Latin headwords with German glosses, main language recorded as Latin",
    "part_front.xml and part_back.xml (owner's marginal notes, blank pages) not taken: not part of the printed text"
+  ]
+ },
+ "shakespeare-mit": {
+  "id": "shakespeare-mit",
+  "texts_total": 198,
+  "words_total": 934523,
+  "texts_in_window": 198,
+  "words_in_window": 934523,
+  "undated": 0,
+  "language_words": {
+   "English": 934523
+  },
+  "method": "Downloaded the GitHub repository TheMITTech/shakespeare once as a tarball (codeload), parsed the HTML in memory with BeautifulSoup, removed navigation tables and kept scene headings, stage directions, speakers and speeches. One record per play, per sonnet and per poem.",
+  "coverage": "All of the repository's period text: 37 plays, 154 sonnets, Venus and Adonis, Lucrece, Lover's Complaint, Funeral Elegy and the Poetry/various file. Nothing omitted apart from site chrome.",
+  "problems": [
+   "Passionate Pilgrim, Sonnets to Sundry Notes of Music and Phoenix and the Turtle come from the plain-text file Poetry/various in the repository, which is not linked from the site's catalogue pages (the site lists only plays, Sonnets, V&A, Lucrece, Lover's Complaint, Funeral Elegy); they can be removed if out of scope.",
+   "The site gives no dates. Year = approximate composition date of the plays (standard chronology, +-1-2 years) and first publication date for the poems (Venus 1593, Lucrece 1594, Sonnets and Lover's Complaint 1609, Passionate Pilgrim 1599, Phoenix 1601, Funeral Elegy 1612). Text is the modernised Moby text, accepted.",
+   "Sonnets treated as 154 separate texts (one page each); play texts include speaker names, stage directions and scene headings.",
+   "Plays are taken from each play's full.html (entire play); individual scene files in the repository are duplicates and not used. The 'Funeral Elegy' attribution to Shakespeare is contested; included as the site lists it."
   ]
  },
  "sozinianische-briefwechsel": {
@@ -2228,6 +2465,25 @@
    "Diplomatic transcription (upper case, line numbers, column labels, 'Inscription N' labels and source-attribution lines dropped) used; interpreted transcription, translations, apparatus and descriptions excluded. Year = Year From; verbal dates ('End of 15th century') converted to an approximate year within the century."
   ]
  },
+ "verse-miscellanies-online": {
+  "id": "verse-miscellanies-online",
+  "texts_total": 891,
+  "words_total": 212536,
+  "texts_in_window": 891,
+  "words_in_window": 212536,
+  "undated": 0,
+  "language_words": {
+   "English": 212536
+  },
+  "method": "Listed captures with the Wayback CDX API (prefix query on the host, status 200, text/html), kept the latest capture of each leaf page /texts/<edition>/<leaf>/, fetched the raw capture (id_ form, no Wayback toolbar) at 1.5 s intervals and extracted the div.text of each leaf (original-spelling text with editor's regularisation of abbreviations); the site's editorial notes, glosses, abbreviation-expansion notes and line numbers were removed. One record per leaf page (signature) of each edition.",
+  "coverage": "Captured share of the leaf pages of the editions (denominator = captured leaves plus leaves named by Previous/Next links; the capture of the tables of contents was unusable): 99% (1099 of 1108). Per edition: tottels-miscellany: 240 leaf pages captured, 247 in the page chain (captured pages plus the leaves they link to as Previous/Next) (240 captured), 196 with text, 44 empty/non-text; handful-of-pleasant-delights: 73 leaf pages captured, 73 in the page chain (captured pages plus the leaves they link to as Previous/Next) (73 captured), 68 with text, 5 empty/non-text; paradise-of-dainty-devises: 101 leaf pages captured, 102 in the page chain (captured pages plus the leaves they link to as Previous/Next) (101 captured), 81 with text, 20 empty/non-text; gorgeous-gallery: 120 leaf pages captured, 120 in the page chain (captured pages plus the leaves they link to as Previous/Next) (120 captured), 94 with text, 26 empty/non-text; phoenix-nest: 111 leaf pages captured, 112 in the page chain (captured pages plus the leaves they link to as Previous/Next) (111 captured), 79 with text, 32 empty/non-text; englands-helicon: 199 leaf pages captured, 199 in the page chain (captured pages plus the leaves they link to as Previous/Next) (199 captured), 162 with text, 37 empty/non-text; englands-helicon-1614: 254 leaf pages captured, 254 in the page chain (captured pages plus the leaves they link to as Previous/Next) (254 captured), 211 with text, 43 empty/non-text; poetical-rhapsody: 1 leaf pages captured, 1 in the page chain (captured pages plus the leaves they link to as Previous/Next) (1 captured), 0 with text, 1 empty/non-text. Contexts, glossary, index and working-paper pages excluded (modern).",
+  "problems": [
+   "Records are leaves (signatures), not poems: poems running across a leaf break are split between records.",
+   "The text is the EEBO-TCP transcription with light regularisation by the editors (normalised spelling/abbreviations, accepted).",
+   "Poetical Rhapsody is barely captured by the Wayback Machine.",
+   "Paradise of Dainty Devices is a collated edition of 1576-1580 (dated 1576)."
+  ]
+ },
  "wandering-jews-chronicle": {
   "id": "wandering-jews-chronicle",
   "texts_total": 15,
@@ -2330,20 +2586,19 @@
  },
  "zwingli-briefe": {
   "id": "zwingli-briefe",
-  "texts_total": 85,
-  "words_total": 42516,
-  "texts_in_window": 85,
-  "words_in_window": 42516,
-  "undated": 0,
+  "texts_total": 804,
+  "words_total": 352430,
+  "texts_in_window": 800,
+  "words_in_window": 351291,
+  "undated": 4,
   "language_words": {
-   "Latin": 36018,
-   "German": 6498
+   "Latin": 297737,
+   "German": 53554
   },
-  "method": "Overview list from Wayback copy, each letter page read from Wayback (id_ raw), letter text taken after the header block, page markers/markup removed, apparatus is absent on the site. Language by stopword heuristic.",
-  "coverage": "85 of 804 letter pages (Brief.1-790 range, vols 7-9, 1510-1528).",
+  "method": "Overview list from the Wayback copy; letter pages from the live site, fetched once in a browser (Wayback copies as fallback); letter text taken after the header block, page markers/markup removed, apparatus is absent on the site. Language by stopword heuristic.",
+  "coverage": "804 of 804 letter pages (Brief.1-790 range, vols 7-9, 1510-1528).",
   "problems": [
-   "Only a fraction of the letter pages was captured by the Internet Archive; the rest could not be read (not guessed). Live site (irg.uzh.ch) answers 403 Forbidden to scripted requests; pages were read from the Internet Archive copies (2011 snapshots) instead.",
-   "719 of 804 letter pages have no usable Wayback capture / not parsable (letters not harvested)"
+   "The live site (irg.uzh.ch) answers 403 Forbidden to scripted requests although its robots.txt allows everything; the letter pages were fetched once in a browser (zwingli-briefe.download.js)."
   ]
  }
 }
