@@ -121,13 +121,6 @@
       "basis": "Every letter file of the official GitHub distribution (13,114 files in data/letters) has root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">. I saw this live in 1.xml and 10000.xml, and in 300 of 300 sampled local raw files. The README is titled 'Bullinger Digital (Korpus in TEI-XML)'.",
       "confidence": "high"
     },
-    "bvh-epistemon-print": {
-      "encoding": "tei",
-      "public_files": "tei",
-      "data_url": "https://github.com/lb42/tei-fr/tree/master/Projects/BVH/Corpus",
-      "basis": "Actual files from the source are TEI P5. The lb42/tei-fr Projects/BVH/Corpus/*_tei.xml files and the 88 files in BVH's official SourceForge zip all have root <TEI xmlns=\"http://www.tei-c.org/ns/1.0\">, and the BVH Epistemon page says the texts are encoded in XML-TEI ('TEI-Renaissance'). RQ's 'plain' only describes its own JSONL derivation.",
-      "confidence": "high"
-    },
     "camena": {
       "encoding": "tei",
       "public_files": "tei",

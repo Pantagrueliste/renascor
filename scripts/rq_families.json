@@ -7,6 +7,16 @@
   },
   "groups": [
     {
+      "slug": "epistemon",
+      "existing": true,
+      "match": [
+        "^Epistemon$",
+        "^BVH_Epistemon_Print$"
+      ],
+      "title": "Bibliothèques Virtuelles Humanistes — Épistémon",
+      "url": "https://www.bvh.univ-tours.fr/"
+    },
+    {
       "slug": "eebo-text-creation-partnership",
       "existing": true,
       "match": [
