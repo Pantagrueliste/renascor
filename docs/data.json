@@ -11,8 +11,8 @@
   "released": "2026-10-13",
   "updated": "2026-10-13",
   "data_commit": {
-   "sha": "21d27b9234fb1756ef6e573bb35e9be0a8a05511",
-   "short": "21d27b9"
+   "sha": "875fb848e2d2460d9bbcd7af2508cb5a9e6354b7",
+   "short": "875fb84"
   },
   "scope": {
    "from": 1450,
@@ -106,11 +106,11 @@
    "notes"
   ],
   "stats": {
-   "editions": 330,
+   "editions": 329,
    "language_labels": 71,
    "languages": 71,
    "pseudo_languages": [],
-   "single_language": 248,
+   "single_language": 247,
    "language_counts": [
     [
      "Latin",
@@ -126,7 +126,7 @@
     ],
     [
      "French",
-     55
+     54
     ],
     [
      "Spanish",
@@ -399,17 +399,17 @@
    ],
    "texts": 254004,
    "words": 2412809890,
-   "with_texts": 328,
-   "with_words": 326,
-   "median_words": 181492,
-   "median_texts": 36,
+   "with_texts": 327,
+   "with_words": 325,
+   "median_words": 180964,
+   "median_texts": 35,
    "period": {
-    "numeric": 320,
+    "numeric": 319,
     "in_words": 10,
     "missing": 0
    },
    "figures": {
-    "rq": 319,
+    "rq": 318,
     "other": 10,
     "none": 1,
     "other_titles": [
@@ -467,12 +467,12 @@
     }
    ],
    "status": {
-    "active": 203,
+    "active": 202,
     "archived": 120,
     "discontinued": 7
    },
    "encoding": {
-    "tei": 157,
+    "tei": 156,
     "xml": 17,
     "json": 4,
     "html": 109,
@@ -482,7 +482,7 @@
     "other": 19
    },
    "data_format": {
-    "tei": 146,
+    "tei": 145,
     "xml": 17,
     "json": 3,
     "html": 11,
@@ -493,10 +493,10 @@
    },
    "provenance": {
     "discovered": 140,
-    "submitted": 190
+    "submitted": 189
    },
-   "with_last_modified": 65,
-   "with_data_url": 216,
+   "with_last_modified": 64,
+   "with_data_url": 215,
    "with_region": 142,
    "with_countries": 135
   },
@@ -552,8 +552,8 @@
    "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/period_word_counts.json"
   },
   "display": {
-   "editions": "330",
-   "editions_label": "330 resources",
+   "editions": "329",
+   "editions_label": "329 resources",
    "languages": "71",
    "language_labels": "71",
    "texts": "254,004",
@@ -562,38 +562,38 @@
    "corpus_texts": "206,552",
    "corpus_words": "2,218,286,819",
    "corpus_words_compact": "2.22 billion",
-   "with_words": "326",
-   "with_words_editions": "326 resources",
+   "with_words": "325",
+   "with_words_editions": "325 resources",
    "without_words": "4",
-   "figures_rq": "319",
+   "figures_rq": "318",
    "discovered": "140",
-   "discovered_sentence": "140 of the 330 records were proposed this way",
-   "single_language": "248",
-   "median_words": "181,492",
-   "median_texts": "36",
+   "discovered_sentence": "140 of the 329 records were proposed this way",
+   "single_language": "247",
+   "median_words": "180,964",
+   "median_texts": "35",
    "updated_long": "13 October 2026",
    "updated_iso": "2026-10-13",
    "version": "1.0.1",
-   "data_commit_short": "21d27b9",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/21d27b9234fb1756ef6e573bb35e9be0a8a05511",
+   "data_commit_short": "875fb84",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/875fb848e2d2460d9bbcd7af2508cb5a9e6354b7",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.10",
    "snapshot_frozen_long": "13 October 2026",
    "snapshot_month": "October 2026",
    "figures_other_sentence": "For 10 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Grand Tour digital, Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock and Sefaria. 1 resource has no word or text count.",
    "largest_share": "56%",
-   "share_note": "Shares of the 2,412,809,890 words recorded for 326 resources; 4 resources have no word count. Collection totals include overlapping texts.",
-   "with_last_modified": "65 resources",
-   "with_data_url": "216 resources",
+   "share_note": "Shares of the 2,412,809,890 words recorded for 325 resources; 4 resources have no word count. Collection totals include overlapping texts.",
+   "with_last_modified": "64 resources",
+   "with_data_url": "215 resources",
    "with_countries": "135 resources",
    "areas_list": "British Isles, France, Low Countries, Holy Roman Empire, Italian Peninsula, Iberian Peninsula, Scandinavia, Central and Eastern Europe, Balkans and Greece, Ottoman Empire and Near East, Americas, Asia and Africa",
    "citation_author_year": "Godbarge, Clément (2026).",
    "citation_title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
    "citation_tail": "(Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23345610",
-   "status_active": "203 resources.",
+   "status_active": "202 resources.",
    "status_archived": "120 resources.",
    "status_discontinued": "7 resources.",
-   "encoding_tei": "157 resources.",
+   "encoding_tei": "156 resources.",
    "encoding_xml": "17 resources.",
    "encoding_json": "4 resources.",
    "encoding_html": "109 resources.",
@@ -2376,38 +2376,6 @@
     }
    ],
    "license_note": "README, section Urheberrecht: texts are under \"Creative Commons BY-NC-ND 3.0 CH\"; the facsimiles are separately under CC BY-SA 4.0."
-  },
-  {
-   "title": "Bibliothèques Virtuelles Humanistes: Epistemon (printed texts)",
-   "url": "https://www.bvh.univ-tours.fr/Epistemon/index.asp",
-   "data_url": "https://github.com/lb42/tei-fr/tree/master/Projects/BVH/Corpus",
-   "data_format": "tei",
-   "languages": [
-    "French"
-   ],
-   "document_types": [
-    "print"
-   ],
-   "encoding": "tei",
-   "status": "active",
-   "provenance": "submitted",
-   "date_added": "2026-10-07",
-   "words": 1968888,
-   "texts": 46,
-   "period": "1529-1616",
-   "notes": "Transcriptions of Renaissance printed texts from the Epistemon corpus of the Bibliothèques Virtuelles Humanistes (CESR, Université de Tours). The entry links to the corpus on the BVH site; the TEI files used for the corpus statistics come from a legacy copy kept in Lou Burnard's tei-fr repository on GitHub (last updated 2015). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
-   "last_modified": "2023-10-18",
-   "corpus_statistics": {
-    "snapshot": "v2026.10",
-    "words": 1968888,
-    "texts": 46
-   },
-   "count_basis": "rq-retained-rows",
-   "license": "Mixed",
-   "license_url": "http://www.bvh.univ-tours.fr/mentions.asp",
-   "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
-   "institution": "Centre d'études supérieures de la Renaissance (CESR), Université de Tours / CNRS (Bibliothèques Virtuelles Humanistes)",
-   "published": 1998
   },
   {
    "title": "CAMENA",
@@ -5499,7 +5467,7 @@
    "languages": [
     "French"
    ],
-   "period": "1521-1605",
+   "period": "1521-1616",
    "document_types": [
     "print"
    ],
@@ -5507,19 +5475,20 @@
    "status": "active",
    "provenance": "submitted",
    "date_added": "2026-10-07",
-   "words": 3061651,
-   "texts": 70,
-   "institution": "CESR (CNRS / Université de Tours)",
-   "notes": "Epistemon is the text database of the Bibliothèques Virtuelles Humanistes (BVH) programme at the Centre d'Études Supérieures de la Renaissance, Université de Tours (head: Rémi Jimenes). It offers Renaissance texts (literature and author corpora, literary manuscripts and 16th-century archival documents) transcribed in a 'patrimonial' manner that respects layout, spelling and punctuation, encoded in XML-TEI following the project's TEI-Renaissance guidelines. The first texts went online in 1998 at the University of Poitiers and moved to Tours in 2001; TEI encoding has been used since 2007. Texts are read and searched through XTF, PhiloLogic and TXM, with facsimiles shown alongside where available. Fidelity levels of older transcriptions are heterogeneous, and the base is still being extended and revised. Corpus statistics (text, word and language counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "words": 5030539,
+   "texts": 116,
+   "institution": "Centre d'études supérieures de la Renaissance (CESR), Université de Tours / CNRS (Bibliothèques Virtuelles Humanistes)",
+   "notes": "Epistemon is the text database of the Bibliothèques Virtuelles Humanistes (BVH) programme at the Centre d'Études Supérieures de la Renaissance, Université de Tours (head: Rémi Jimenes). It offers Renaissance texts (literature and author corpora, literary manuscripts and 16th-century archival documents) transcribed in a 'patrimonial' manner that respects layout, spelling and punctuation, encoded in XML-TEI following the project's TEI-Renaissance guidelines. The first texts went online in 1998 at the University of Poitiers and moved to Tours in 2001; TEI encoding has been used since 2007. Texts are read and searched through XTF, PhiloLogic and TXM, with facsimiles shown alongside where available. Fidelity levels of older transcriptions are heterogeneous, and the base is still being extended and revised. The counts combine two harvests that share no text: 70 texts from the BVH site and 46 printed texts from a legacy TEI copy in Lou Burnard's tei-fr repository on GitHub (last updated 2015). Corpus statistics (text, word and language counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.10",
-    "words": 3061651,
-    "texts": 70
+    "words": 5030539,
+    "texts": 116
    },
    "count_basis": "rq-retained-rows",
    "license": "CC-BY-NC-SA-4.0",
    "license_url": "https://www.bvh.univ-tours.fr/Epistemon/principeseditoriaux.asp",
-   "license_note": "The Epistemon editorial principles and the BVH legal notice (mentions.asp) place the texts under 'Creative Commons Attribution - NonCommercial - ShareAlike 4.0 International'. Library-owned originals and images remain under the holding institutions' rights; the site footer still links an older CC BY-NC-ND 2.0 FR badge."
+   "license_note": "The Epistemon editorial principles and the BVH legal notice (mentions.asp) place the texts under 'Creative Commons Attribution - NonCommercial - ShareAlike 4.0 International'. Library-owned originals and images remain under the holding institutions' rights; the site footer still links an older CC BY-NC-ND 2.0 FR badge.",
+   "published": 1998
   },
   {
    "title": "Érdy-kódex (Sermones Compilati research group, ELTE)",
@@ -16474,86 +16443,6 @@
    }
   },
   {
-   "id": "bvh-epistemon-print",
-   "sort_title": "bibliotheques virtuelles humanistes: epistemon (printed texts)",
-   "host": "bvh.univ-tours.fr",
-   "url_display": "bvh.univ-tours.fr/Epistemon/index.asp",
-   "archived_copy": null,
-   "data_display": "github.com/lb42/tei-fr/tree/master/Projects/BVH/Corpus",
-   "period": {
-    "raw": "1529-1616",
-    "label": "1529–1616",
-    "start": 1529,
-    "end": 1616,
-    "approx": false,
-    "kind": "range",
-    "note": null,
-    "beyond_scope": false
-   },
-   "size_band": "1m-10m",
-   "figures": "rq",
-   "snapshot": "v2026.10",
-   "notes_display": "Transcriptions of Renaissance printed texts from the Epistemon corpus of the Bibliothèques Virtuelles Humanistes (CESR, Université de Tours). The entry links to the corpus on the BVH site; the TEI files used for the corpus statistics come from a legacy copy kept in Lou Burnard's tei-fr repository on GitHub (last updated 2015).",
-   "period_words": {
-    "decades": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     57866,
-     270823,
-     234434,
-     564502,
-     217951,
-     100417,
-     61454,
-     0,
-     119952,
-     341489,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "estimated": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "undated": 0,
-    "estimated_range": null
-   }
-  },
-  {
    "id": "camena",
    "sort_title": "camena",
    "host": "mateo.uni-mannheim.de",
@@ -22439,10 +22328,10 @@
    "archived_copy": null,
    "data_display": "bvh.univ-tours.fr/Epistemon/index.asp",
    "period": {
-    "raw": "1521-1605",
-    "label": "1521–1605",
+    "raw": "1521-1616",
+    "label": "1521–1616",
     "start": 1521,
-    "end": 1605,
+    "end": 1616,
     "approx": false,
     "kind": "range",
     "note": null,
@@ -22451,7 +22340,7 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.10",
-   "notes_display": "Epistemon is the text database of the Bibliothèques Virtuelles Humanistes (BVH) programme at the Centre d'Études Supérieures de la Renaissance, Université de Tours (head: Rémi Jimenes). It offers Renaissance texts (literature and author corpora, literary manuscripts and 16th-century archival documents) transcribed in a 'patrimonial' manner that respects layout, spelling and punctuation, encoded in XML-TEI following the project's TEI-Renaissance guidelines. The first texts went online in 1998 at the University of Poitiers and moved to Tours in 2001; TEI encoding has been used since 2007. Texts are read and searched through XTF, PhiloLogic and TXM, with facsimiles shown alongside where available. Fidelity levels of older transcriptions are heterogeneous, and the base is still being extended and revised.",
+   "notes_display": "Epistemon is the text database of the Bibliothèques Virtuelles Humanistes (BVH) programme at the Centre d'Études Supérieures de la Renaissance, Université de Tours (head: Rémi Jimenes). It offers Renaissance texts (literature and author corpora, literary manuscripts and 16th-century archival documents) transcribed in a 'patrimonial' manner that respects layout, spelling and punctuation, encoded in XML-TEI following the project's TEI-Renaissance guidelines. The first texts went online in 1998 at the University of Poitiers and moved to Tours in 2001; TEI encoding has been used since 2007. Texts are read and searched through XTF, PhiloLogic and TXM, with facsimiles shown alongside where available. Fidelity levels of older transcriptions are heterogeneous, and the base is still being extended and revised. The counts combine two harvests that share no text: 70 texts from the BVH site and 46 printed texts from a legacy TEI copy in Lou Burnard's tei-fr repository on GitHub (last updated 2015).",
    "period_words": {
     "decades": [
      0,
@@ -22461,16 +22350,16 @@
      0,
      0,
      0,
+     57866,
+     270823,
+     234434,
+     564502,
+     217951,
+     100417,
+     61454,
      0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
+     119952,
+     341489,
      0,
      0,
      0,
