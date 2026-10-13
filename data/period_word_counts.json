@@ -1341,7 +1341,7 @@
       ],
       "undated_words": 0,
       "date_estimates": [],
-      "entry": "bvh-epistemon-print"
+      "entry": "epistemon"
     },
     "BalkanSlavic_Damaskini": {
       "words": 44047,
@@ -28256,5 +28256,5 @@
       "entry": "wikisource"
     }
   },
-  "families_sha256": "cd73e483d9926086d82f5f175e65bc3abe24a16e05003b4da36c062c2c83f08e"
+  "families_sha256": "b24b3fbf402076ca3c82b5031b56ee4c614fc9514f110a39633cbf2c59399368"
 }

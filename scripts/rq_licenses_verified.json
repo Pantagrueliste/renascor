@@ -115,13 +115,6 @@
       "license_url": "https://github.com/stazh/bullinger-korpus-tei",
       "license_note": "README, section Urheberrecht: texts are under \"Creative Commons BY-NC-ND 3.0 CH\"; the facsimiles are separately under CC BY-SA 4.0."
     },
-    "bvh-epistemon-print": {
-      "license": "Mixed",
-      "checked": "2026-08-11",
-      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
-      "license_url": "http://www.bvh.univ-tours.fr/mentions.asp",
-      "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
-    },
     "camena": {
       "license": "Mixed",
       "checked": "2026-08-11",
