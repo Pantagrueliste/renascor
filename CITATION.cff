@@ -2,24 +2,35 @@ cff-version: 1.2.0
 title: "Renascor: An open catalogue of digital editions of Renaissance-era written documents"
 message: "If you use this catalogue in your research, please cite it as below."
 type: dataset
+doi: 10.5281/zenodo.23345610
 authors:
   - family-names: Godbarge
     given-names: Clément
     affiliation: "University of St Andrews"
     orcid: "https://orcid.org/0000-0001-8699-7582"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23345610
+    description: "Concept DOI for all versions, archived on Zenodo"
 repository-code: "https://github.com/Pantagrueliste/renascor"
 url: "https://pantagrueliste.github.io/renascor/"
 abstract: >-
-  Renascor is an open catalogue of projects that have produced digital
-  editions of Renaissance-era written documents (manuscripts, printed works,
-  correspondence) from roughly 1450 to 1700. Each entry records the project
-  title, URL, language, encoding format, status, and provenance.
+  Renascor is an open catalogue of freely accessible digital editions and text
+  collections of written documents from 1450 to 1700 (manuscripts, printed
+  works, correspondence, inscriptions). Each record describes the project behind
+  a collection: scope, period, languages, countries, text format, licence,
+  editors, access links and DOI where available, with text and word counts
+  derived from the Renascor Corpus. The catalogue can be browsed online and
+  downloaded as CSV, JSON or BibTeX.
 keywords:
   - digital humanities
   - renaissance
   - digital editions
   - catalogue
   - TEI
+  - early modern
+  - text corpora
+  - open data
 license: CC0-1.0
 version: 1.0.0
 date-released: 2026-10-13

@@ -1,0 +1,38 @@
+{
+  "upload_type": "dataset",
+  "title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
+  "creators": [
+    {
+      "name": "Godbarge, Clément",
+      "affiliation": "University of St Andrews",
+      "orcid": "0000-0001-8699-7582"
+    }
+  ],
+  "description": "<p>Renascor is an open catalogue of freely accessible digital editions and text collections of written documents from 1450 to 1700 (manuscripts, printed works, correspondence, inscriptions). Each record describes the project behind a collection: scope, period, languages, countries, text format, licence, editors, access links and DOI where available, with text and word counts derived from the Renascor Corpus.</p><p>This archive contains the catalogue records (<code>data/entries/*.json</code>), their JSON schema, the scripts that validate them and build the public site, and the site itself with CSV, JSON and BibTeX exports. Browse the catalogue at <a href=\"https://pantagrueliste.github.io/renascor/\">https://pantagrueliste.github.io/renascor/</a>.</p>",
+  "access_right": "open",
+  "license": "cc-zero",
+  "keywords": [
+    "digital humanities",
+    "renaissance",
+    "early modern",
+    "digital editions",
+    "catalogue",
+    "TEI",
+    "text corpora",
+    "open data"
+  ],
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "https://pantagrueliste.github.io/renascor/",
+      "relation": "isDocumentedBy",
+      "resource_type": "other"
+    },
+    {
+      "identifier": "https://github.com/Pantagrueliste/renascor",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ],
+  "notes": "Catalogue metadata are released under CC0 1.0; the code under the MIT licence. Edition texts are not included; each record gives the source's own licence."
+}

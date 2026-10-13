@@ -371,12 +371,12 @@ def git_data_commit(entries_dir: Path):
 
 
 def read_citation(path: Path = CITATION_PATH) -> dict:
-    """title, version, date-released, url and the first author from CITATION.cff (no YAML library)."""
+    """title, version, date-released, url, doi and the first author from CITATION.cff (no YAML library)."""
     out = {}
     if not path.exists():
         return out
     text = path.read_text(encoding="utf-8")
-    for key in ("title", "version", "date-released", "url"):
+    for key in ("title", "version", "date-released", "url", "doi"):
         m = re.search(rf"^{key}:\s*[\"']?(.*?)[\"']?\s*$", text, re.M)
         if m:
             out[key] = m.group(1)
@@ -744,7 +744,9 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
         "areas_list": join_and(areas or []),
         "citation_author_year": f"{citation.get('author', '')} ({year}).",
         "citation_title": citation.get("title", ""),
-        "citation_tail": f"(Version {version}) [Data set]. {citation.get('url', '')}".rstrip(),
+        "citation_tail": (f"(Version {version}) [Data set]. Zenodo. https://doi.org/{citation['doi']}"
+                          if citation.get("doi") else
+                          f"(Version {version}) [Data set]. {citation.get('url', '')}".rstrip()),
     }
     for k in STATUS_ORDER:
         c = s["status"][k]
