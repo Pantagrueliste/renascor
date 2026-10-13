@@ -824,9 +824,9 @@
   "policy_dups": 0
  },
  "rostocker-urgichten": {
-  "inserted": 0,
-  "in_core": 0,
-  "in_core_words": 0,
+  "inserted": 50,
+  "in_core": 50,
+  "in_core_words": 69730,
   "junk": 0,
   "skipped_dup": 0,
   "policy_dups": 0

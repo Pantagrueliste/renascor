@@ -1,7 +1,7 @@
 {
   "snapshot": "v2026.10",
   "source": "https://github.com/Pantagrueliste/renascor/blob/main/docs/MAINTENANCE.md#snapshot-v202610",
-  "database_sha256": "dee999ae020d8d12f1fd5193cd580f8596a84a50b8857b69bebda717a29fd6fa",
+  "database_sha256": "1beb1afb8ac2c1522503ae2e6d034e536d5010d1c2dc4bf1d2b4bb2cf52e8908",
   "scope": [
     1450,
     1700
@@ -12236,6 +12236,34 @@
         "Hungarian"
       ],
       "years": [],
+      "restored_texts": 0,
+      "restored_words": 0
+    },
+    "Renascor_rostocker-urgichten": {
+      "texts": 50,
+      "words": 69730,
+      "corpus_texts": 50,
+      "corpus_words": 69730,
+      "languages": [
+        "German"
+      ],
+      "years": [
+        1543,
+        1545,
+        1556,
+        1560,
+        1568,
+        1569,
+        1570,
+        1574,
+        1576,
+        1577,
+        1582,
+        1583,
+        1584,
+        1586,
+        1587
+      ],
       "restored_texts": 0,
       "restored_words": 0
     },

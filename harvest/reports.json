@@ -1860,16 +1860,18 @@
  },
  "rostocker-urgichten": {
   "id": "rostocker-urgichten",
-  "texts_total": 0,
-  "words_total": 0,
-  "texts_in_window": 0,
-  "words_in_window": 0,
+  "texts_total": 50,
+  "words_total": 69730,
+  "texts_in_window": 50,
+  "words_in_window": 69730,
   "undated": 0,
-  "language_words": {},
-  "method": "Attempted https://opendata.uni-halle.de/handle/1981185920/13873: the server answers every HTML/file request with an Anubis proof-of-work bot challenge; OAI-PMH serves only Dublin Core metadata (no file links, mets not supported). Challenge was not circumvented.",
-  "coverage": "Nothing harvested (0 of 50 items).",
+  "language_words": {
+   "German": 69730
+  },
+  "method": "50 TEI files listed by OAI-PMH (ORE records of collection 1981185920/13873), downloaded once in a browser because file downloads sit behind a bot check; year from the file name",
+  "coverage": "All 50 transcribed Urgichten (one of the 51 items has no TEI file).",
   "problems": [
-   "Item and bitstream downloads are protected against automated access (Anubis bot wall); needs manual browser download of the TEI files."
+   "Editorial notes inside <note> are dropped by the counter."
   ]
  },
  "rubens-online": {

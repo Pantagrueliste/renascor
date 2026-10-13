@@ -21784,6 +21784,16 @@
   "unique_words": 100764,
   "dups": []
  },
+ "rostocker-urgichten": {
+  "texts": 50,
+  "words": 69730,
+  "dup_texts": 0,
+  "dup_words": 0,
+  "against": {},
+  "unique_texts": 50,
+  "unique_words": 69730,
+  "dups": []
+ },
  "aldicam-cm": {
   "texts": 311,
   "words": 145274,
@@ -23320,16 +23330,6 @@
   "dups": []
  },
  "divisiekroniek-cornelius-aurelius": {
-  "texts": 0,
-  "words": 0,
-  "dup_texts": 0,
-  "dup_words": 0,
-  "against": {},
-  "unique_texts": 0,
-  "unique_words": 0,
-  "dups": []
- },
- "rostocker-urgichten": {
   "texts": 0,
   "words": 0,
   "dup_texts": 0,
