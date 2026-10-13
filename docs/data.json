@@ -11,8 +11,8 @@
   "released": "2026-10-13",
   "updated": "2026-10-13",
   "data_commit": {
-   "sha": "943dc1ad560961e774e798dad6d1c46f2f52bc38",
-   "short": "943dc1a"
+   "sha": "0e34d308d52d532689e1b4715ff4e3d5ebba2624",
+   "short": "0e34d30"
   },
   "scope": {
    "from": 1450,
@@ -574,8 +574,8 @@
    "updated_long": "13 October 2026",
    "updated_iso": "2026-10-13",
    "version": "1.0.1",
-   "data_commit_short": "943dc1a",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/943dc1ad560961e774e798dad6d1c46f2f52bc38",
+   "data_commit_short": "0e34d30",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/0e34d308d52d532689e1b4715ff4e3d5ebba2624",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.10",
    "snapshot_frozen_long": "13 October 2026",
