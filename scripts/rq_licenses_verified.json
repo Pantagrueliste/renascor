@@ -251,13 +251,6 @@
       "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
       "license_url": "https://github.com/christos-c/bible-corpus/blob/master/LICENSE"
     },
-    "czech-tei2019": {
-      "license": "Mixed",
-      "checked": "2026-08-11",
-      "basis": "Publisher-source audit in RQ release/LICENCE_VERIFICATION.tsv; scoped to text editions, not catalogue metadata.",
-      "license_url": "https://vokabular.ujc.cas.cz/informace.aspx?t=ovokabulari&o=ovokabulari",
-      "license_note": "Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
-    },
     "danishpostils": {
       "license": "MIT",
       "checked": "2026-08-11",

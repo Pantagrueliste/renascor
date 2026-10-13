@@ -69,7 +69,7 @@ OVERRIDES = {
 TEI_VERIFIED = [
     "abacus-baroque", "amadiscorpus-gh", "biblioteca-italiana", "bullinger-digital",
     "cavriana-correspondence", "cidtc", "codiaje-judeospanish", "corpus17-french",
-    "czech-tei2019", "devonshire-manuscript", "dibilit-german", "dibiphil-renaissance",
+    "devonshire-manuscript", "dibilit-german", "dibiphil-renaissance",
     "disco-spanishsonnets", "dracor", "dsl-henriksmith", "dsl-salmer",
     "earlymoderngreek-clarinel", "eebo-text-creation-partnership", "elan-crenum",
     "elan-fnvr", "elan-polygrenaille", "emmo-folger", "ethicacomplementoria",

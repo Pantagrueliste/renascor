@@ -3,7 +3,8 @@
   "exclude": {
     "AbsentLangFill": "internal RQ harvest bucket (remaining_missing fill for languages absent from other collections), not a corpus collection",
     "Calvin_Institutio": "personal parallel-text reader (calvin.reformation.nl) with no colophon, editor or licence; not a scholarly edition; Barth-Niesel Latin base and modern translations may be in copyright",
-    "SpanishGitHubGoldenAge": "re-harvest of the fabulasmitologicas repo (arojascastro/fabulasmitologicas, same 26 texts, wordcounts identical to within 0.2%) — not a distinct edition; excluded to avoid double counting, already covered by the fabulasmitologicas entry"
+    "SpanishGitHubGoldenAge": "re-harvest of the fabulasmitologicas repo (arojascastro/fabulasmitologicas, same 26 texts, wordcounts identical to within 0.2%) — not a distinct edition; excluded to avoid double counting, already covered by the fabulasmitologicas entry",
+    "Czech_tei2019": "one TEI sample edition (LekJadroBrn, Knihy lékařské 1502-1503) from a conference repository; the same text is already counted in Vokabular_Czech as Knihy_lekarske; excluded to avoid double counting, covered by the vokabular entry"
   },
   "groups": [
     {
@@ -701,11 +702,6 @@
       "title": "Bible-Corpus — multilingual parallel corpus of Bible translations",
       "url": "https://github.com/christos-c/bible-corpus",
       "institution": "Christos Christodoulopoulos (christos-c), GitHub open repo"
-    },
-    "Czech_tei2019": {
-      "title": "tei2019 — TEI scholarly digital editions of the Czech Language Institute (Vokabulář webový)",
-      "url": "https://github.com/CzechLanguageInstitute/tei2019",
-      "institution": "Ústav pro jazyk český AV ČR (Czech Language Institute, CAS); Boris Lehečka"
     },
     "DanishPostils": {
       "title": "Early Modern Danish Postils v0.2.0",

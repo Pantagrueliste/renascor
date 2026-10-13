@@ -3720,7 +3720,7 @@
       ],
       "undated_words": 0,
       "date_estimates": [],
-      "entry": "czech-tei2019"
+      "entry": null
     },
     "DBNL": {
       "words": 15557890,
@@ -28256,5 +28256,5 @@
       "entry": "wikisource"
     }
   },
-  "families_sha256": "b24b3fbf402076ca3c82b5031b56ee4c614fc9514f110a39633cbf2c59399368"
+  "families_sha256": "42623dee86ccee4a8ec2fa239fa13c0334282aa3b7b7b58cc95d824a0c530679"
 }
