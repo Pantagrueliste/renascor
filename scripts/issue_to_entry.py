@@ -131,6 +131,10 @@ def fields_to_entry(fields: dict, submitted_by: str = "") -> dict:
         entry["data_format"] = encoding
     if fields.get("institution or team"):
         entry["institution"] = fields["institution or team"]
+    if fields.get("editors"):
+        entry["editors"] = [n.strip() for n in fields["editors"].split(";") if n.strip()]
+    if re.fullmatch(r"\s*\d{4}\s*", fields.get("year first published online") or ""):
+        entry["published"] = int(fields["year first published online"])
     if fields.get("period covered"):
         entry["period"] = fields["period covered"]
     if fields.get("geographic area"):

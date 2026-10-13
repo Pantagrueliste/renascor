@@ -57,7 +57,7 @@ ENCODING_ORDER = ["tei", "xml", "json", "html", "wikitext", "plain-text", "markd
 STATUS_ORDER = ["active", "archived", "discontinued"]
 SIZE_BANDS = [(10_000_000, "10m-plus"), (1_000_000, "1m-10m"), (100_000, "100k-1m"),
               (10_000, "10k-100k"), (0, "under-10k")]
-PREFERRED_FIELDS = ["title", "url", "doi", "data_url", "data_format", "data_formats", "api_url", "institution", "languages", "period",
+PREFERRED_FIELDS = ["title", "url", "doi", "data_url", "data_format", "data_formats", "api_url", "institution", "editors", "published", "languages", "period",
                     "words", "texts", "corpus_statistics", "count_basis", "resource_statistics", "encoding", "license",
                     "license_url", "license_note", "status", "region", "countries", "years_active",
                     "author", "date", "last_modified", "provenance", "date_added", "notes"]
@@ -470,15 +470,22 @@ def bibtex_escape(value: str) -> str:
 
 
 def bibtex_entry(eid: str, entry: dict) -> str:
-    """One @misc record per resource; braces keep the institution whole and the title's case."""
+    """One @misc record per resource: the institution as a corporate author (braced, so it stays whole),
+    the people named in the edition's own citation as editors, and the year of first publication."""
     fields = []
     if entry.get("institution"):
         fields.append(("author", "{" + bibtex_escape(entry["institution"]) + "}"))
     else:
         fields.append(("key", bibtex_escape(entry["title"])))  # sorting key for styles that need an author
+    if entry.get("editors"):
+        fields.append(("editor", " and ".join(bibtex_escape(n) for n in entry["editors"])))
     fields.append(("title", "{" + bibtex_escape(entry["title"]) + "}"))
+    if entry.get("published"):
+        fields.append(("year", str(entry["published"])))
     fields.append(("howpublished", r"\url{" + entry["url"].replace("%", r"\%").replace("#", r"\#") + "}"))
     fields.append(("url", entry["url"]))
+    if entry.get("doi"):
+        fields.append(("doi", entry["doi"]))
     note = ["Digital edition"]
     if entry.get("period"):
         note.append(f"period {entry['period']}")

@@ -141,6 +141,19 @@
       "maxLength": 300,
       "description": "Institution, project team, or individual responsible for the edition. Optional."
     },
+    "editors": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {"type": "string", "minLength": 2, "maxLength": 200},
+      "description": "People named as editors or authors of the digital edition in its own suggested citation (or its title page), in that order, each as 'Given Family' (e.g. 'Pamela H. Smith'). Not the authors of the source documents. Optional."
+    },
+    "published": {
+      "type": "integer",
+      "minimum": 1971,
+      "maximum": 2100,
+      "description": "Year the edition was first published online, as given in its suggested citation or release record. Optional."
+    },
     "words": {
       "type": "integer",
       "minimum": 0,

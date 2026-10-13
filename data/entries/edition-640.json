@@ -6,6 +6,20 @@
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "institution": "Making and Knowing Project, Columbia University",
+  "editors": [
+    "Pamela H. Smith",
+    "Naomi Rosenkranz",
+    "Tianna Helena Uchacz",
+    "Tillmann Taape",
+    "Clément Godbarge",
+    "Sophie Pitman",
+    "Jenny Boulboullé",
+    "Joel Klein",
+    "Donna Bilak",
+    "Marc Smith",
+    "Terry Catapano"
+  ],
+  "published": 2020,
   "languages": [
     "French"
   ],
@@ -26,5 +40,6 @@
   "count_basis": "rq-retained-rows",
   "license": "CC-BY-NC-SA-4.0",
   "license_note": "The data repository's export scripts (lib/branding.py) attach the licence URL https://creativecommons.org/licenses/by-nc-sa/4.0/ and the 'Creative Commons BY-NC-SA 4.0' icons to the edition's generated files. The GitHub repository has no separate LICENSE file and Zenodo lists 'other-open'; the site is a JavaScript app whose footer could not be read directly. Images come from Gallica (BnF).",
-  "license_url": "https://github.com/cu-mkp/m-k-manuscript-data/blob/master/lib/branding.py"
+  "license_url": "https://github.com/cu-mkp/m-k-manuscript-data/blob/master/lib/branding.py",
+  "doi": "10.7916/78yt-2v41"
 }

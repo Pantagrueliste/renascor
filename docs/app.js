@@ -172,7 +172,7 @@ function buildRecord(e, d, i) {
 		p: d.period && hasNum(d.period.start) && hasNum(d.period.end) ? d.period : null,
 		fileKeys: e.data_url ? dataFormats(e).map(f => has(ENC, f) ? f : 'other') : ['none']
 	};
-	r.hay = fold([e.title, e.institution, labels.join(' '), r.types.filter(t => t !== 'none').map(t => TYPE[t]).join(' '), d.notes_display, e.region, countryNames.join(' '), areas.join(' '),
+	r.hay = fold([e.title, e.institution, (e.editors || []).join(' '), labels.join(' '), r.types.filter(t => t !== 'none').map(t => TYPE[t]).join(' '), d.notes_display, e.region, countryNames.join(' '), areas.join(' '),
 		e.author, e.date, e.doi, d.period && d.period.label, e.period, encLabel(e.encoding), e.encoding,
 		e.data_url ? formatsLabel(e) : '', e.license, e.license_note, statusLabel(e.status), d.host, d.url_display, d.data_display, id
 	].filter(Boolean).join(' '));
@@ -734,7 +734,10 @@ function recordHTML(r) {
 	if (e.data_url) left.push(['Files', extLink(e.data_url, esc(d.data_display || e.data_url) + NEW_TAB) + ` <span class="q nw">· ${esc(formatsLabel(e))}</span>`]);
 	if (e.api_url) left.push(['API', extLink(e.api_url, 'API documentation' + NEW_TAB)]);
 	if (r.types[0] !== 'none') left.push(['Document type', esc(r.types.map(t => TYPE[t] || t).join(', '))]);
-	left.push(['Institution', e.institution ? esc(e.institution) : 'Not recorded'], ['Languages', languagesFull(r)], ['Period', periodFull(r)], ['Size', sizeFull(r)]);
+	left.push(['Institution', e.institution ? esc(e.institution) : 'Not recorded']);
+	if (e.editors) left.push([e.editors.length > 1 ? 'Editors' : 'Editor', esc(e.editors.join(', '))]);
+	if (hasNum(e.published)) left.push(['Published', esc(String(e.published))]);
+	left.push(['Languages', languagesFull(r)], ['Period', periodFull(r)], ['Size', sizeFull(r)]);
 	if (e.modernised) left.push(['Spelling', 'Normalised' + muted('— spelling regularised by the editor; the language is unchanged')]);
 	if (e.region) left.push(['Region', esc(e.region)]);
 	if (r.countries.length) left.push(['Countries', esc(r.countryNames.join(', ')) + (r.areas.length ? muted('· ' + esc(r.areas.join(', '))) : '')]);

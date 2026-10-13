@@ -483,6 +483,14 @@ class BibtexTests(unittest.TestCase):
         self.assertIn("url = {https://ex.org/a%20b#c}", text)
         self.assertIn("period 1500-1600; languages: Latin, French; licence: CC0-1.0", text)
 
+    def test_entry_lists_editors_year_and_doi(self):
+        text = bs.bibtex_entry("ex", {"title": "T", "url": "https://ex.org", "institution": "P",
+                                      "editors": ["Pamela H. Smith", "Clément Godbarge"],
+                                      "published": 2020, "doi": "10.7916/78yt-2v41"})
+        self.assertIn("editor = {Pamela H. Smith and Clément Godbarge}", text)
+        self.assertIn("year = {2020}", text)
+        self.assertIn("doi = {10.7916/78yt-2v41}", text)
+
     def test_entry_without_institution_gets_a_sort_key(self):
         text = bs.bibtex_entry("ex", {"title": "T", "url": "https://ex.org"})
         self.assertIn("key = {T}", text)
