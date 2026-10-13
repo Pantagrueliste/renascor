@@ -15,8 +15,8 @@
   "author": "Gottfried Wilhelm Leibniz and correspondents",
   "date": "1692-1701",
   "institution": "Akademie der Wissenschaften zu Göttingen with the Gottfried Wilhelm Leibniz Bibliothek Hannover (Leibniz-Archiv)",
-  "words": 179899,
-  "texts": 148,
+  "words": 182019,
+  "texts": 150,
   "region": "Germany (Hanover) and the Low Countries, Switzerland",
   "countries": [
     "DE",
@@ -26,7 +26,13 @@
   "period": "1692-1701",
   "last_modified": "2025-03-19",
   "license": "Not stated",
-  "notes": "Selected letters from the Akademie edition of Leibniz's correspondence (series III, volumes 5-8): 188 letters in the database, mostly the exchange with Johann Bernoulli, 1692-1701, with variant readings and graphics. Counts are ours, from the portal's search index: 148 letters dated 1692-1700 with about 180,000 words of edited text (maths markup and variants left out); 28 letters date from 1701 and 12 are undated. The metadata can be downloaded as TEI (adw_goettingen_leibniz_briefportal.xml, CC BY 4.0), but that file holds no letter text; the letters themselves are read in the portal.",
+  "notes": "Selected letters from the Akademie edition of Leibniz's correspondence (series III, volumes 5-8): 188 letters in the database, mostly the exchange with Johann Bernoulli, 1692-1701, with variant readings and graphics. Of the 188 letters, 148 are dated 1692-1700, 28 date from 1701 and 12 are undated. The metadata can be downloaded as TEI (adw_goettingen_leibniz_briefportal.xml, CC BY 4.0), but that file holds no letter text; the letters themselves are read in the portal. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 182019,
+    "texts": 150
+  },
+  "count_basis": "rq-retained-rows"
 }

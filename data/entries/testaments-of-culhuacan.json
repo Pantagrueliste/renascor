@@ -14,9 +14,9 @@
   "words": 25121,
   "texts": 78,
   "period": "1572-1599",
-  "notes": "Nahuatl testaments from Culhuacan with English translation, from the 1984 edition, made available as a PDF by the UCSB Department of History. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Nahuatl testaments from Culhuacan with English translation, from the 1984 edition, made available as a PDF by the UCSB Department of History. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 25121,
     "texts": 78
   },

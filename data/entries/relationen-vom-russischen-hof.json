@@ -17,7 +17,7 @@
     "AT",
     "PL"
   ],
-  "words": 48800,
+  "words": 44734,
   "texts": 37,
   "last_modified": "2018-07-05",
   "license": "CC-BY-SA-4.0",
@@ -26,7 +26,13 @@
     "start": 2012,
     "end": 2015
   },
-  "notes": "Transcriptions of reports and letters from the Russian court sent to the imperial court in Vienna and to Berlin. Of 660 transcribed documents, 34 date from 1690-95 (per the introduction); the rest are from 1726-1728 and fall outside the period. Our count from the document index (indices/index_of_documents.json) and the page of each document: 37 transcribed documents dated or filed 1690-1696, about 48,800 words (page text after the metadata block, so editorial notes may be included). The whole edition lists 1,242 items, of which 660 have transcripts. The document index was last modified on 5 July 2018 and the introduction is dated 2016; the project (funded 2012-2015) is a pilot that was not continued. Texts are served as HTML with RDFa; no download of the texts was found.",
+  "notes": "Transcriptions of reports and letters from the Russian court sent to the imperial court in Vienna and to Berlin. Of 660 transcribed documents, 34 date from 1690-95 (per the introduction); the rest are from 1726-1728 and fall outside the period. 37 transcribed documents are dated or filed 1690-1696. The whole edition lists 1,242 items, of which 660 have transcripts. The document index was last modified on 5 July 2018 and the introduction is dated 2016; the project (funded 2012-2015) is a pilot that was not continued. Texts are served as HTML with RDFa; no download of the texts was found. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 44734,
+    "texts": 37
+  },
+  "count_basis": "rq-retained-rows"
 }

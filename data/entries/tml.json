@@ -16,16 +16,16 @@
   "words": 1789274,
   "texts": 219,
   "period": "1475-1650",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2026-02-23",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 1789274,
     "texts": 219
   },
   "count_basis": "rq-retained-rows",
   "license": "Mixed",
-  "license_url": "https://raw.githubusercontent.com/cmm2209/TMLr/main/terms/index.html",
+  "license_url": "https://lightseagreen-dog-349934.hostingersite.com/tml/copyright",
   "license_note": "Includes CC-BY-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
   "institution": "Center for the History of Music Theory and Literature, Indiana University (original TML); adapted as TMLr by Caleb Mutch"
 }

@@ -21,10 +21,16 @@
   ],
   "period": "1507-1508",
   "texts": 2,
-  "words": 163470,
+  "words": 159407,
   "license": "CC-BY-SA-3.0-DE",
   "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
-  "notes": "Diplomatic and normalised transcription of Paesi novamente retrovati (Vicenza, 1507), the first printed collection of voyage accounts, and of its German translation Newe unbekanthe landte (Nuremberg, 1508), with facsimiles, editorial notes, indexes of persons and places and a modern translation. Both transcriptions are TEI files (data_url shows the Italian one; the German one is tei-transcript-nul.xml in the same folder). Counts are our own: 2 texts and about 163,000 words (75,000 Italian and 88,400 German), counted from the regularised reading, leaving out notes. Archived: files date from 2017-2018 (start page last modified 2017-12-11).",
+  "notes": "Diplomatic and normalised transcription of Paesi novamente retrovati (Vicenza, 1507), the first printed collection of voyage accounts, and of its German translation Newe unbekanthe landte (Nuremberg, 1508), with facsimiles, editorial notes, indexes of persons and places and a modern translation. Both transcriptions are TEI files (data_url shows the Italian one; the German one is tei-transcript-nul.xml in the same folder). Archived: files date from 2017-2018 (start page last modified 2017-12-11). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 159407,
+    "texts": 2
+  },
+  "count_basis": "rq-retained-rows"
 }

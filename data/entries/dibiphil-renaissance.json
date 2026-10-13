@@ -16,11 +16,11 @@
   "words": 175616,
   "texts": 3,
   "period": "1530-1612",
-  "notes": "Companion corpus of the Deutsches Textarchiv (BBAW), curated from the philosophical writings of Directmedia's Digitale Bibliothek on Zeno.org and encoded in DTABf/TEI; licence CC BY-SA 4.0. The whole corpus covers the 15th to 20th centuries; this entry covers its early modern texts, e.g. Böhme's 'Aurora oder Morgenröte im Aufgang' (1612) and Paracelsus treatises. The corpus can be searched at https://ddc.dwds.de/dstar/dibiphil/. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Companion corpus of the Deutsches Textarchiv (BBAW), curated from the philosophical writings of Directmedia's Digitale Bibliothek on Zeno.org and encoded in DTABf/TEI; licence CC BY-SA 4.0. The whole corpus covers the 15th to 20th centuries; this entry covers its early modern texts, e.g. Böhme's 'Aurora oder Morgenröte im Aufgang' (1612) and Paracelsus treatises. The corpus can be searched at https://ddc.dwds.de/dstar/dibiphil/. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Deutsches Textarchiv (BBAW); source texts from Zeno.org's Digitale Bibliothek",
   "last_modified": "2023-11-22",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 175616,
     "texts": 3
   },

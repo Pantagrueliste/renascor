@@ -12,7 +12,7 @@
   "author": "Robert Hooke (Royal Society secretary)",
   "date": "1661-1691",
   "institution": "AHRC Centre for Editing Lives and Letters, Queen Mary University of London (Robyn Adams, project leader)",
-  "words": 262856,
+  "words": 256070,
   "region": "England (London)",
   "countries": [
     "GB-ENG"
@@ -20,7 +20,14 @@
   "period": "1661-1691",
   "license": "Copyright",
   "license_url": "https://www.livesandletters.ac.uk/cell/Hooke/grey_matter.html",
-  "notes": "Transcription, beside images, of the Hooke Folio, a manuscript volume of the Royal Society holding extracts from the Journal Books (April 1661 to June 1677) and the rough minutes made while Robert Hooke was secretary (1677-1691), plus supplementary papers and contemporary indexes. The text is on 573 transcribed pages (folios). Word count is ours, from those pages, with the markup removed. Transcriptions were released in September 2007, with corrections and new images in April 2008, and no later project change is recorded. Free for personal use; the Royal Society images and the project's materials are copyright.",
+  "notes": "Transcription, beside images, of the Hooke Folio, a manuscript volume of the Royal Society holding extracts from the Journal Books (April 1661 to June 1677) and the rough minutes made while Robert Hooke was secretary (1677-1691), plus supplementary papers and contemporary indexes. The text is on 573 transcribed pages (folios). Transcriptions were released in September 2007, with corrections and new images in April 2008, and no later project change is recorded. Free for personal use; the Royal Society images and the project's materials are copyright. The counts cover the pages that carry transcribed text, and 101 of the 679 pages requested had none. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "texts": 561,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 256070,
+    "texts": 561
+  },
+  "count_basis": "rq-retained-rows"
 }

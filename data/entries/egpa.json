@@ -18,8 +18,16 @@
     "PT"
   ],
   "period": "12th-19th century",
-  "notes": "Open collaborative platform of transcribed Galician-Portuguese archival documents (EGPAdoc) and literary texts (EGPAlit) from the Middle Ages to the 19th century, with paleographic and critical presentation; freely readable without login; per-document TEI at corpora.uah.es/egpa/xmlfiles/<id>.xml (checked EGPAdoc-0061). Most material is 12th-15th century; only a handful of documents dated 1478-1566 fall within 1450-1700. Word and text counts are left out: the statistics page (146 files, 83,821 tokens, all periods) includes test files and some 19th-century Castilian items, and only a handful of documents fall within 1450-1700.",
+  "notes": "Open collaborative platform of transcribed Galician-Portuguese archival documents (EGPAdoc) and literary texts (EGPAlit) from the Middle Ages to the 19th century, with paleographic and critical presentation; freely readable without login; per-document TEI at corpora.uah.es/egpa/xmlfiles/<id>.xml (checked EGPAdoc-0061). Most material is 12th-15th century; only a handful of documents dated 1478-1566 fall within 1450-1700. The counts cover the 5 documents dated within 1450-1700, and 20 documents without a date in the header are not counted. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "Not stated",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 3805,
+  "texts": 5,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 3805,
+    "texts": 5
+  },
+  "count_basis": "rq-retained-rows"
 }

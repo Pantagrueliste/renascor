@@ -16,10 +16,10 @@
   "words": 143335,
   "texts": 5,
   "period": "1527-1565",
-  "notes": "DFG project (2009–2011) at the Universität zu Köln that digitized and deep-indexed Caspar Decurtins' 'Rätoromanische Chrestomathie' (~7,500 pages of Romansh texts), published as the 'Biblioteca Digitala' full-text corpus; data preservation is now with the Data Center for the Humanities (dch.phil-fak.uni-koeln.de, 200). The harvest covers Decurtins vol. V (Engadine 16th-c. authors Travers, Bifrun, Chiampell, Planta, Papa). Caveat: the crestomazia server deliberately answers HTTP 418 (anti-crawler 'teapot') to non-browser clients so verify interactively in a browser. Text units are OCR'd chapters, not TEI. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "DFG project (2009–2011) at the Universität zu Köln that digitized and deep-indexed Caspar Decurtins' 'Rätoromanische Chrestomathie' (~7,500 pages of Romansh texts), published as the 'Biblioteca Digitala' full-text corpus; data preservation is now with the Data Center for the Humanities (dch.phil-fak.uni-koeln.de, 200). The harvest covers Decurtins vol. V (Engadine 16th-c. authors Travers, Bifrun, Chiampell, Planta, Papa). Caveat: the crestomazia server deliberately answers HTTP 418 (anti-crawler 'teapot') to non-browser clients so verify interactively in a browser. Text units are OCR'd chapters, not TEI. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Universitaet zu Koeln (Sprachliche Informationsverarbeitung / Universitaets- und Stadtbibliothek / Data Center for the Humanities)",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 143335,
     "texts": 5
   },

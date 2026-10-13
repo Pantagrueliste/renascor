@@ -17,9 +17,16 @@
     "DE"
   ],
   "period": "1531-1621",
-  "words": 9500,
-  "texts": 212,
-  "notes": "Web edition of the 212 emblems of Alciato's Emblematum liber, with the Latin text taken from the 1621 variorum edition and checked against the 1531, 1534 and 1546 editions, an English translation, commentary files and images. The original address (www.mun.ca/alciato) now returns 404, so the URL is the Internet Archive copy of 3 October 2022; the site was last updated in April 2005. Counts are ours: 212 emblems and about 9,500 words in the Latin text file (the English text is a separate file and is not counted). The site also carries images of Whitney's Choice of Emblemes (1586) and a 17th-century jest book, whose texts are not counted.",
+  "words": 8864,
+  "texts": 198,
+  "notes": "Web edition of the 212 emblems of Alciato's Emblematum liber, with the Latin text taken from the 1621 variorum edition and checked against the 1531, 1534 and 1546 editions, an English translation, commentary files and images. The original address (www.mun.ca/alciato) now returns 404, so the URL is the Internet Archive copy of 3 October 2022; the site was last updated in April 2005. The site also carries images of Whitney's Choice of Emblemes (1586) and a 17th-century jest book. The counts cover the Latin text file only, not the English text, the commentaries or those two other works. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 7310,
+    "texts": 153
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
 }

@@ -20,6 +20,14 @@
     "start": 2000,
     "end": 2022
   },
-  "notes": "A digital scholarly edition of early modern London, combining a gazetteer, an anthology of TEI-encoded texts, and a map. Includes links between places, people, and texts. The site is a static release (version 7.0, May 2022); the mayoral shows strand continues separately in LEMDO.",
-  "license": "Not stated"
+  "notes": "A digital scholarly edition of early modern London, combining a gazetteer, an anthology of TEI-encoded texts, and a map. Includes links between places, people, and texts. The site is a static release (version 7.0, May 2022); the mayoral shows strand continues separately in LEMDO. The counts cover the primary-source documents, not the gazetteer, personography or encyclopedia entries, and a few very small primary texts may be missed. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "license": "Not stated",
+  "words": 1025054,
+  "texts": 191,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 1025054,
+    "texts": 191
+  },
+  "count_basis": "rq-retained-rows"
 }

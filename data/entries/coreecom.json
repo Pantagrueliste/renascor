@@ -13,8 +13,8 @@
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "institution": "Centro de Lingüística Hispánica 'Juan M. Lope Blanch', Instituto de Investigaciones Filológicas, UNAM (Beatriz Arias Álvarez, coordinator)",
-  "words": 39605,
-  "texts": 119,
+  "words": 38151,
+  "texts": 117,
   "region": "New Spain, Caribbean (Cuba), Canary Islands and the Iberian Peninsula",
   "countries": [
     "MX",
@@ -23,8 +23,14 @@
     "GT"
   ],
   "period": "1500-1599",
-  "notes": "The 'Corpus documental' list (checked 2026-10-12) contains 119 documents, all with Periodo between 1500 and 1599 (1500-1524: 11; 1525-1549: 31; 1550-1574: 43; 1575-1599: 34), from AGI, AGN México, AHN, Simancas etc. Intro text announces 16th-18th century coverage but only the 16th century is online. Each document page shows a facsimile reference, the paleographic edition and the critical edition side by side. Counts are ours: words of the paleographic edition across the 119 documents, all dated 1500-1599. There is no data download. The site footer gives a last update of 30 August 2019. A member of the CHARTA network.",
+  "notes": "The 'Corpus documental' list (checked 2026-10-12) contains 119 documents, all with Periodo between 1500 and 1599 (1500-1524: 11; 1525-1549: 31; 1550-1574: 43; 1575-1599: 34), from AGI, AGN México, AHN, Simancas etc. Intro text announces 16th-18th century coverage but only the 16th century is online. Each document page shows a facsimile reference, the paleographic edition and the critical edition side by side. There is no data download. The site footer gives a last update of 30 August 2019. A member of the CHARTA network. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "CC-BY-NC-SA-4.0",
   "license_url": "https://www.iifilologicas.unam.mx/coreecom/",
-  "license_note": "Site states a Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 licence, while the footer also says 'todos los derechos reservados 2019' with non-profit reproduction allowed if the source is cited."
+  "license_note": "Site states a Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 licence, while the footer also says 'todos los derechos reservados 2019' with non-profit reproduction allowed if the source is cited.",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 38151,
+    "texts": 117
+  },
+  "count_basis": "rq-retained-rows"
 }

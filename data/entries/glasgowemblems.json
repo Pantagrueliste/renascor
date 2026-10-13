@@ -18,9 +18,9 @@
   "words": 553323,
   "texts": 6515,
   "period": "1531-1621",
-  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 549460,
     "texts": 5963
   },

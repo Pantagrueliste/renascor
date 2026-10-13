@@ -25,9 +25,16 @@
     "GB-ENG"
   ],
   "texts": 42,
-  "words": 957195,
+  "modernised": true,
+  "words": 1107569,
   "license": "CC-BY-NC-3.0",
   "license_url": "https://www.folger.edu/explore/shakespeares-works/download/usage-guidelines/",
   "license_note": "The TEI headers state Creative Commons Attribution-NonCommercial 3.0 Unported, and the download page says the files are free for all non-commercial uses.",
-  "notes": "All of Shakespeare's plays, the Sonnets and the narrative poems, read free online and downloadable as XML (TEI), TEI Simple with linguistic annotation (the 37 plays without the Two Noble Kinsmen and the poems), HTML, PDF, Word and plain text. These are the modern-spelling texts of the New Folger Editions (edited by Barbara Mowat and Paul Werstine), not diplomatic transcriptions of the early printings. The old address shakespeare.folger.edu now redirects to the Folger website. Counts are our own, from the downloadable XML: 42 works and about 957,000 words (word elements in the play and poem texts, excluding the introductions); all the works date from the 1590s to 1613. The texts were last revised in 2021."
+  "notes": "All of Shakespeare's plays, the Sonnets and the narrative poems, read free online and downloadable as XML (TEI), TEI Simple with linguistic annotation (the 37 plays without the Two Noble Kinsmen and the poems), HTML, PDF, Word and plain text. These are the modern-spelling texts of the New Folger Editions (edited by Barbara Mowat and Paul Werstine), not diplomatic transcriptions of the early printings. The old address shakespeare.folger.edu now redirects to the Folger website. All the works date from the 1590s to 1613. The texts were last revised in 2021. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 1107569,
+    "texts": 42
+  },
+  "count_basis": "rq-retained-rows"
 }

@@ -31,12 +31,18 @@
     "ES",
     "GB-ENG"
   ],
-  "words": 658000,
-  "texts": 345,
+  "words": 688895,
+  "texts": 331,
   "last_modified": "2016-04-14",
   "license": "Not stated",
   "license_note": "Page footer: © 2011 Herzog August Bibliothek; the HAB's general terms for the Wolfenbüttel Digital Library (http://diglib.hab.de/copyright.html, marked outdated) name CC BY-SA 3.0 unless otherwise stated.",
-  "notes": "Edition of documents on Rubens: 307 archival records and letters (1564-1682: notarial and city-court acts, payments, Rubens's will), 30 contemporary biographies, poems and mentions up to 1700, and 8 longer printed works (Peacham 1627; de Piles 1677, 1681 and 1699; Asterius 1615; Baudius, Epistolae 1636; Philip Rubens 1608). Counts are ours, from the TEI files listed in mets.xml (served one by one; the data_url is the index of the files): 345 texts and about 658,000 words, leaving out editorial notes and the works dated after 1700 (Houbraken 1718, Dubos 1719, de Piles 1708 and 1766, Orlandi 1733). The six volumes of the Codex diplomaticus Rubenianus (about one million words, a nineteenth-century edition of Rubens's letters) are not counted. Files date from 2011; the index was last changed in April 2016.",
+  "notes": "Edition of documents on Rubens: 307 archival records and letters (1564-1682: notarial and city-court acts, payments, Rubens's will), 30 contemporary biographies, poems and mentions up to 1700, and 8 longer printed works (Peacham 1627; de Piles 1677, 1681 and 1699; Asterius 1615; Baudius, Epistolae 1636; Philip Rubens 1608). The TEI files are listed in mets.xml (served one by one; the data_url is the index of the files). Files date from 2011; the index was last changed in April 2016. The counts leave out the works dated after 1700 (Houbraken 1718, Dubos 1719, de Piles 1708 and 1766, Orlandi 1733) and the six volumes of the Codex diplomaticus Rubenianus, a nineteenth-century edition of Rubens's letters. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 688588,
+    "texts": 329
+  },
+  "count_basis": "rq-retained-rows"
 }

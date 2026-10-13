@@ -25,7 +25,14 @@
   },
   "license": "Not stated",
   "license_url": "http://www.maloryproject.com/citation.php",
-  "notes": "Electronic edition and commentary of Malory's Morte Darthur: facsimiles of the Winchester Manuscript (British Library Add. MS 59678) and the John Rylands copy of Caxton's 1485 edition. Transcriptions (encoded in TEI P5 but not offered for download) are currently online only for parts: the Roman War episode and Caxton's Book V (sig. h7v-k3r), a few other leaves, and the Winchester and Caxton texts shown side by side. Counts: 2 text witnesses (partial); words not given because the transcribed share cannot be isolated from the page layers (corrections, notes). Images may not be reproduced. Marked archived: funded 2005-2010, site assets last changed in 2012 (Last-Modified 2012-05-04), the news page only says 'More information coming soon', and a web-archive capture from 2018-07-20 shows the same text loader.",
+  "notes": "Electronic edition and commentary of Malory's Morte Darthur: facsimiles of the Winchester Manuscript (British Library Add. MS 59678) and the John Rylands copy of Caxton's 1485 edition. Transcriptions (encoded in TEI P5 but not offered for download) are currently online only for parts: the Roman War episode and Caxton's Book V (sig. h7v-k3r), a few other leaves, and the Winchester and Caxton texts shown side by side. Images may not be reproduced. Marked archived: funded 2005-2010, site assets last changed in 2012 (Last-Modified 2012-05-04), the news page only says 'More information coming soon', and a web-archive capture from 2018-07-20 shows the same text loader. The counts cover the two transcribed witnesses only (the Winchester Roman War episode and the transcribed parts of Caxton), not the whole Morte Darthur. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 27445,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 27445,
+    "texts": 2
+  },
+  "count_basis": "rq-retained-rows"
 }

@@ -20,8 +20,8 @@
   "author": "Samuel Hartlib and correspondents",
   "date": "c. 1630-1662",
   "institution": "University of Sheffield, Digital Humanities Institute (Mark Greengrass, Michael Leslie and others)",
-  "words": 6580892,
-  "texts": 5740,
+  "words": 5864428,
+  "texts": 5682,
   "region": "England, with letters from across Europe",
   "countries": [
     "GB-ENG"
@@ -33,7 +33,13 @@
   },
   "license": "CC-BY-NC-4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
-  "notes": "Correspondence, diaries and papers of the 'intelligencer' Samuel Hartlib (Sheffield University Library MS 61), with full-text transcriptions and facsimiles of over 25,000 folios; the open online edition dates from 2013. The site opens with a short automatic browser check. Counts are ours, from the downloadable plain-text transcriptions (hartlib-txt.zip, 5,740 files: 5,234 main documents, 442 additional items, 64 pamphlets) with the markup stripped: about 6.6 million words. Dated documents run from the 1630s to the 1660s (a handful earlier or later); about 1,600 files carry no date but belong to the same papers. The data service also offers a cleaned and lemmatised version (TXT and XML) made by the Alan Turing Institute, and the page images (1.8 GB).",
+  "notes": "Correspondence, diaries and papers of the 'intelligencer' Samuel Hartlib (Sheffield University Library MS 61), with full-text transcriptions and facsimiles of over 25,000 folios; the open online edition dates from 2013. The site opens with a short automatic browser check. The plain-text transcriptions are downloadable as hartlib-txt.zip (5,740 files: 5,234 main documents, 442 additional items, 64 pamphlets). Dated documents run from the 1630s to the 1660s (a handful earlier or later); about 1,600 files carry no date but belong to the same papers. The data service also offers a cleaned and lemmatised version (TXT and XML) made by the Alan Turing Institute, and the page images (1.8 GB). Undated files are not counted in the period. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 5775351,
+    "texts": 5595
+  },
+  "count_basis": "rq-retained-rows"
 }

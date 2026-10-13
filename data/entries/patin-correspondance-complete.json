@@ -19,10 +19,17 @@
     "FR"
   ],
   "period": "1630-1673",
-  "texts": 1079,
+  "texts": 1611,
   "license": "CC-BY-NC-4.0",
   "license_url": "https://numerabilis.u-paris.fr/editions-critiques/patin/index.las?do=lettre&let=0001",
-  "notes": "Annotated critical edition of the letters of the Paris physician Guy Patin to colleagues in France, Switzerland, Germany and the Low Countries, with indexes of people, places and terms, a full-text search and printing options. Count: 1,079 letters, the sum of the per-year totals on the edition's date index (1630 to 1673); words not given. The site shows '4e édition (mai 2022) revue et augmentée' as its latest update and no later change was found, hence archived. Letters are open without login.",
+  "notes": "Annotated critical edition of the letters of the Paris physician Guy Patin to colleagues in France, Switzerland, Germany and the Low Countries, with indexes of people, places and terms, a full-text search and printing options. The site shows '4e édition (mai 2022) revue et augmentée' as its latest update and no later change was found, hence archived. Letters are open without login. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 1315763,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 1315763,
+    "texts": 1611
+  },
+  "count_basis": "rq-retained-rows"
 }

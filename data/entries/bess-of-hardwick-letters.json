@@ -14,7 +14,7 @@
   "author": "Elizabeth Talbot, Countess of Shrewsbury (Bess of Hardwick), and correspondents",
   "date": "1550-1608",
   "institution": "University of Glasgow (Alison Wiggins, ed.), with technical development by the Digital Humanities Institute, Sheffield",
-  "words": 83001,
+  "words": 100764,
   "texts": 234,
   "region": "England",
   "countries": [
@@ -23,7 +23,13 @@
   "period": "1550-1608",
   "license": "CC-BY-NC-4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
-  "notes": "Complete correspondence of Bess of Hardwick (c. 1521/7-1608): 234 letters to and from her, each with diplomatic and normalised transcripts, colour images of 185 of them, and commentary. All letters fall within 1550-1608 (1550s: 7; 1560s: 31; 1570s: 74; 1580s: 52; 1590s: 18; 1600s: 52). The letters are served as XML (a project-specific format, not TEI), and the whole set, with a metadata database, can be downloaded from the Digital Humanities Institute data service. Word count is ours, from the diplomatic transcriptions in those XML files (about 83,000 words). Version 1.0 was released in September 2013 and the data was deposited on 13 July 2021; no later change is visible, so the status is archived.",
+  "notes": "Complete correspondence of Bess of Hardwick (c. 1521/7-1608): 234 letters to and from her, each with diplomatic and normalised transcripts, colour images of 185 of them, and commentary. All letters fall within 1550-1608 (1550s: 7; 1560s: 31; 1570s: 74; 1580s: 52; 1590s: 18; 1600s: 52). The letters are served as XML (a project-specific format, not TEI), and the whole set, with a metadata database, can be downloaded from the Digital Humanities Institute data service. Version 1.0 was released in September 2013 and the data was deposited on 13 July 2021; no later change is visible, so the status is archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 100764,
+    "texts": 234
+  },
+  "count_basis": "rq-retained-rows"
 }

@@ -22,10 +22,16 @@
     "CH"
   ],
   "texts": 27,
-  "words": 35361,
+  "words": 34056,
   "last_modified": "2026-09-18",
   "license": "CC-BY-SA-4.0",
   "license_url": "https://lettres-calvin.netlify.app/fr/mentionsLegales",
   "license_note": "The site's legal notice releases the data under CC BY-SA 4.0 and the source code on GitHub under the MIT licence. The header of each TEI file still names CC BY-SA 3.0.",
-  "notes": "Bilingual critical edition of the letters John Calvin wrote in French between 1538 and 1554, still growing: the site currently publishes 27 of the 120 letters of the planned corpus. Each letter has facsimiles of the manuscript or printed sources, the text of Jules Bonnet's 1854 edition in sixteenth-century French, a modernised and annotated French version, and a Spanish translation; a selection of autograph manuscripts also has diplomatic transcriptions. The TEI XML files of the French letters are in the GitHub repository (the Spanish versions are in a separate folder). Counts are our own: 27 letters and about 35,000 words of the Bonnet base text, counted from the 27 French TEI files and leaving out the footnotes and the modernised readings. The project is the work of one researcher."
+  "notes": "Bilingual critical edition of the letters John Calvin wrote in French between 1538 and 1554, still growing: the site currently publishes 27 of the 120 letters of the planned corpus. Each letter has facsimiles of the manuscript or printed sources, the text of Jules Bonnet's 1854 edition in sixteenth-century French, a modernised and annotated French version, and a Spanish translation; a selection of autograph manuscripts also has diplomatic transcriptions. The TEI XML files of the French letters are in the GitHub repository (the Spanish versions are in a separate folder). The project is the work of one researcher. The counts cover the 27 letters published so far, from the Bonnet base text. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 34056,
+    "texts": 27
+  },
+  "count_basis": "rq-retained-rows"
 }

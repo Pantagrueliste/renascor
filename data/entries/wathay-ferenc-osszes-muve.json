@@ -12,15 +12,21 @@
   "author": "Ferenc Wathay",
   "date": "1603-1606",
   "institution": "Eötvös Loránd University (ELTE), Budapest; edited by Csilla Tóth and Tünde Tóth",
-  "words": 21706,
-  "texts": 1,
+  "words": 21618,
+  "texts": 30,
   "region": "Hungary (written in Ottoman captivity at Constantinople)",
   "countries": [
     "HU"
   ],
   "period": "1603-1606",
   "license": "Not stated",
-  "notes": "Network critical edition of the songbook ('Enekes könyv') of Ferenc Wathay, written while he was held in the Black Tower at Constantinople: title page, preface and 28 songs in a letter-faithful transcription, with facsimile pages and an afterword. Count is our own: about 21,700 words in the 'bhu' transcription pages (title, preface, songs 1-28). Status archived: pages date from 1999-2000 and the site's files show no change after September 2023.",
+  "notes": "Network critical edition of the songbook ('Enekes könyv') of Ferenc Wathay, written while he was held in the Black Tower at Constantinople: title page, preface and 28 songs in a letter-faithful transcription, with facsimile pages and an afterword. Status archived: pages date from 1999-2000 and the site's files show no change after September 2023. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 21618,
+    "texts": 30
+  },
+  "count_basis": "rq-retained-rows"
 }

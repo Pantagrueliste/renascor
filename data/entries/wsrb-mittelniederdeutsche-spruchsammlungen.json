@@ -19,11 +19,17 @@
   "countries": [
     "DE"
   ],
-  "words": 182521,
+  "words": 180964,
   "texts": 8,
   "license": "CC-BY-SA-4.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "notes": "Transcriptions and facsimiles of the eight known editions of the 'Künstlike Werltspröke' (seven editions) and the 'Schön rimbökelin', printed in Lübeck and later Hamburg between about 1540 and 1601, and a critical edition of 849 sayings with search and filters. The DOI belongs to the data publication in the RosDok repository (all TEI files plus the software); the TEI of each transcription is also served at /wsrb/xml_raw/. Counts are ours: 8 texts (one per edition) and about 182,500 words, counted in the text element of the eight transcription TEI files. A book edition appeared at the same time.",
+  "notes": "Transcriptions and facsimiles of the eight known editions of the 'Künstlike Werltspröke' (seven editions) and the 'Schön rimbökelin', printed in Lübeck and later Hamburg between about 1540 and 1601, and a critical edition of 849 sayings with search and filters. The DOI belongs to the data publication in the RosDok repository (all TEI files plus the software); the TEI of each transcription is also served at /wsrb/xml_raw/. A book edition appeared at the same time. The counts cover the eight transcriptions, not the critical edition of the sayings. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 159935,
+    "texts": 7
+  },
+  "count_basis": "rq-retained-rows"
 }

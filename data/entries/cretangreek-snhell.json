@@ -14,10 +14,10 @@
   "words": 1736,
   "texts": 3,
   "period": "1590-1655",
-  "notes": "Three Cretan poems (dedications to Chortatsis' Erofili and Panoria and Foskolos' Fortounatos) from the online anthology of the Spoudastirion Neou Ellinismou (snhell.gr; text from Kritiki Lyriki Poiisi, Ermis 1999), harvested through the Wayback Machine. The host snhell.gr no longer resolves; the entry points to an archived snapshot of Chortatsis' page (2025), and the Foskolos text is at https://web.archive.org/web/20250809221230/http://www.snhell.gr/anthology/content.asp?id=46&author_id=54. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Three Cretan poems (dedications to Chortatsis' Erofili and Panoria and Foskolos' Fortounatos) from the online anthology of the Spoudastirion Neou Ellinismou (snhell.gr; text from Kritiki Lyriki Poiisi, Ermis 1999), harvested through the Wayback Machine. The host snhell.gr no longer resolves; the entry points to an archived snapshot of Chortatsis' page (2025), and the Foskolos text is at https://web.archive.org/web/20250809221230/http://www.snhell.gr/anthology/content.asp?id=46&author_id=54. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Spoudastirion Neou Ellinismou (Athens); site no longer online, archived at the Wayback Machine",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 1736,
     "texts": 3
   },

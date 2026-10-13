@@ -10,8 +10,8 @@
   "encoding": "tei",
   "status": "active",
   "institution": "GITHE, Universidad de Alcalá (contact Belén Almeida Cabrejas; project PID2022-141561OB-I00)",
-  "words": 37661,
-  "texts": 105,
+  "words": 34938,
+  "texts": 109,
   "region": "Spain",
   "countries": [
     "ES",
@@ -19,8 +19,14 @@
     "IT"
   ],
   "period": "1400-1900",
-  "notes": "Manuscript letters and other documents written by women (queens, nobles, nuns, 19th-century writers such as Gertrudis Gómez de Avellaneda), with paleographic, transcribed and critical presentations, metadata on the women involved and map/search tools; TEITOK platform; per-document TEI at corpora.uah.es/letradas/xmlfiles/<id>.xml, no bulk download page. Counts cover the 105 documents dated within or overlapping 1450-1700 (tokens as counted by TEITOK, counted by us from the document headers); the whole corpus has 270 documents (87,985 tokens), and 21 documents carry no date. 'Corpus histórico en desarrollo'.",
+  "notes": "Manuscript letters and other documents written by women (queens, nobles, nuns, 19th-century writers such as Gertrudis Gómez de Avellaneda), with paleographic, transcribed and critical presentations, metadata on the women involved and map/search tools; TEITOK platform; per-document TEI at corpora.uah.es/letradas/xmlfiles/<id>.xml, no bulk download page. The whole corpus has 270 documents, and 21 of them carry no date. 'Corpus histórico en desarrollo'. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "Not stated",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 34938,
+    "texts": 109
+  },
+  "count_basis": "rq-retained-rows"
 }

@@ -18,7 +18,8 @@
   "period": "1517",
   "words": 583600,
   "texts": 1,
-  "notes": "Reader with page images and a transcription of the 1517 Leiden edition (Jan Seversz; copy in the Koninklijke Bibliotheek, The Hague), a history of Holland, Zeeland and Friesland from earliest times to 1517. Counts are ours: one work, about 583,600 whitespace words over the 899 transcription pages, folio labels included. Description page modified February 2026.",
+  "notes": "Reader with page images and a transcription of the 1517 Leiden edition (Jan Seversz; copy in the Koninklijke Bibliotheek, The Hague), a history of Holland, Zeeland and Friesland from earliest times to 1517. Description page modified February 2026. Its words could not be counted: the site refuses automated requests.",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "license": "Not stated"
 }

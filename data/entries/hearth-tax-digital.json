@@ -14,7 +14,7 @@
   "status": "active",
   "date": "1662-1674",
   "institution": "British Academy Hearth Tax Research Project, University of Roehampton (Andrew Wareham) and Universität Graz (Georg Vogeler)",
-  "words": 1160000,
+  "words": 1087045,
   "texts": 61,
   "region": "England and Wales",
   "countries": [
@@ -24,7 +24,13 @@
   "last_modified": "2026-07-22",
   "license": "CC-BY-NC-4.0",
   "license_url": "http://creativecommons.org/licenses/by-nc/4.0/",
-  "notes": "Transcribed hearth tax returns and assessments from The National Archives and local record offices (Bristol, Cheshire, Essex, Kent, Lancashire, Norfolk, Norwich, Sussex, Warwickshire, Yorkshire and others), encoded in TEI with Latin text translated into English. The records list individuals by name, with hearth numbers, titles and occupations; the site counts 394,123 database entries. Counts are ours: 61 transcribed assessments (each downloadable as TEI from its record page), about 1.16 million tokens (names, numbers and words; the figure is approximate because it counts every text node). Assessment years found in the titles run from 1662 to 1674. New records are still being added (last TEI revision date found: 22 July 2026).",
+  "notes": "Transcribed hearth tax returns and assessments from The National Archives and local record offices (Bristol, Cheshire, Essex, Kent, Lancashire, Norfolk, Norwich, Sussex, Warwickshire, Yorkshire and others), encoded in TEI with Latin text translated into English. The records list individuals by name, with hearth numbers, titles and occupations; the site counts 394,123 database entries. The 61 transcribed assessments are each downloadable as TEI from their record pages. Assessment years found in the titles run from 1662 to 1674. New records are still being added (last TEI revision date found: 22 July 2026). The counts cover the 61 assessments available as TEI, not the individual database entries. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 1087045,
+    "texts": 61
+  },
+  "count_basis": "rq-retained-rows"
 }

@@ -22,7 +22,14 @@
   "texts": 50,
   "license": "Mixed",
   "license_note": "Each item carries its own Creative Commons licence (CC BY-SA 3.0 DE for most, CC BY-NC 3.0 DE, CC BY-ND 4.0 for others).",
-  "notes": "Confessions from magic, sorcery and witchcraft trials before the lower court of the city of Rostock, from the Stadtarchiv Rostock. Each of the 50 items (a person's confession, dated 1543-1596; 20 of them from 1584 and 7 from 1586) is published with the scan (PDF), a TEI-XML transcription and an RTF version; a separate file gives the transcription rules (based on the DTA basic format). The count of items comes from the repository's OAI-PMH listing of the collection; the number of words is not given because the file downloads are protected against automated access (a browser can read them). Deposited in 2019; no later additions were found.",
+  "notes": "Confessions from magic, sorcery and witchcraft trials before the lower court of the city of Rostock, from the Stadtarchiv Rostock. Each of the 50 items (a person's confession, dated 1543-1596; 20 of them from 1584 and 7 from 1586) is published with the scan (PDF), a TEI-XML transcription and an RTF version; a separate file gives the transcription rules (based on the DTA basic format). Deposited in 2019; no later additions were found. The counts cover all 50 TEI transcriptions, downloaded once in a browser because the file downloads are protected against automated access. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 69730,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 69730,
+    "texts": 50
+  },
+  "count_basis": "rq-retained-rows"
 }

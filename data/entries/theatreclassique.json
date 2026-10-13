@@ -16,9 +16,9 @@
   "words": 29912,
   "texts": 2,
   "period": "1659-1697",
-  "notes": "The two texts in the catalogue statistics were taken from the dramacode/tcp5 GitHub conversion of the Théâtre classique XML sources (https://github.com/dramacode/tcp5, TEI P5); one of them (Dorimond, Le Festin de Pierre) is credited in its header to Molière 21 / Université Paris-Sorbonne (Marc Douguet, 2016) rather than to the site. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The two texts in the catalogue statistics were taken from the dramacode/tcp5 GitHub conversion of the Théâtre classique XML sources (https://github.com/dramacode/tcp5, TEI P5); one of them (Dorimond, Le Festin de Pierre) is credited in its header to Molière 21 / Université Paris-Sorbonne (Marc Douguet, 2016) rather than to the site. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 29912,
     "texts": 2
   },

@@ -21,10 +21,16 @@
   ],
   "period": "1602",
   "texts": 1,
-  "words": 6311,
+  "words": 5740,
   "license": "CC-BY-SA-3.0-DE",
   "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
-  "notes": "Transcription of Lipsius' short treatise on libraries from the 1602 Antwerp printing, shown beside facsimiles of the 1602 printing and later editions (1607-1741), with an introduction, a modern German translation and commentary. Frames-based site; the TEI files are served openly. Counts are our own: 1 text, about 6,300 words of Latin in the TEI transcription, leaving out footnotes and the German translation (about 8,900 words). Marked archived because the edition's files date from 2018 (start page last modified 2018-02-12) and nothing newer was found.",
+  "notes": "Transcription of Lipsius' short treatise on libraries from the 1602 Antwerp printing, shown beside facsimiles of the 1602 printing and later editions (1607-1741), with an introduction, a modern German translation and commentary. Frames-based site; the TEI files are served openly. Marked archived because the edition's files date from 2018 (start page last modified 2018-02-12) and nothing newer was found. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 5740,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows"
 }

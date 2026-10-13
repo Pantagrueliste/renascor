@@ -20,13 +20,19 @@
     "AT",
     "DE"
   ],
-  "words": 363027,
-  "texts": 1133,
+  "words": 371757,
+  "texts": 980,
   "last_modified": "2026-10-12",
   "license": "CC-BY-4.0",
   "license_url": "https://kaiserin-eleonora.oeaw.ac.at/imprint.html",
   "license_note": "The imprint puts the site and its contents under CC BY 4.0 unless marked otherwise; the licence element in each TEI header only says 'copyright'.",
-  "notes": "Digital edition of the letters of Empress Eleonora Magdalena of Pfalz-Neuburg (wife of Leopold I) with transcriptions, facsimiles, indexes, a calendar and PDF export; the TEI file of each letter is served at the letter's address with .xml instead of .html, and the working files are in the project's GitHub repository. Counts are ours, for the 1,133 letters dated 1700 or earlier (earliest 1677) out of the 1,605 listed in the edition's CMIF file of 24 September 2026: about 363,000 words in the TEI text bodies. The remaining 472 letters date from 1701 to 1716. Language: German in nearly all letters (a few in other languages).",
+  "notes": "Digital edition of the letters of Empress Eleonora Magdalena of Pfalz-Neuburg (wife of Leopold I) with transcriptions, facsimiles, indexes, a calendar and PDF export; the TEI file of each letter is served at the letter's address with .xml instead of .html, and the working files are in the project's GitHub repository. Of the 1,605 letters listed in the edition's CMIF file of 24 September 2026, 472 date from 1701 to 1716. Language: German in nearly all letters (a few in other languages). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 371757,
+    "texts": 980
+  },
+  "count_basis": "rq-retained-rows"
 }

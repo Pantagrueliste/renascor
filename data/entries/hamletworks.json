@@ -17,10 +17,16 @@
   "countries": [
     "GB-ENG"
   ],
-  "words": 63372,
+  "words": 59439,
   "texts": 2,
   "license": "Copyright",
-  "notes": "Research site for Shakespeare's Hamlet. It offers the 'Enfolded Hamlet' (Bernice Kliman, 1996) as linked texts of the Second Quarto (1604/5) and the First Folio (1623) in exact original spelling, a modern enfolded text, line-by-line commentary and textual notes, and diplomatic versions of the First Quarto (1603) and Sixth Quarto as PDF/DjVu files, plus later editions and promptbooks. The domain redirects to a different host name (server-66-113-234-189.da.direct). Counts are ours: 2 texts (Q2 and F1) and about 63,400 words, counted in the text pages of the Q2 (33,557) and F1 (29,815) transcriptions; the Q1 and Q6 files are not counted, and the figure includes some line-number and apparatus tokens. The introduction page was last modified in February 2025. Copyright is held by the editors; reading is free.",
+  "notes": "Research site for Shakespeare's Hamlet. It offers the 'Enfolded Hamlet' (Bernice Kliman, 1996) as linked texts of the Second Quarto (1604/5) and the First Folio (1623) in exact original spelling, a modern enfolded text, line-by-line commentary and textual notes, and diplomatic versions of the First Quarto (1603) and Sixth Quarto as PDF/DjVu files, plus later editions and promptbooks. The domain redirects to a different host name (server-66-113-234-189.da.direct). The introduction page was last modified in February 2025. Copyright is held by the editors; reading is free. The counts cover the Q2 and F1 transcriptions only, since the Q1 and Q6 versions exist only as PDF or DjVu images. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 59439,
+    "texts": 2
+  },
+  "count_basis": "rq-retained-rows"
 }

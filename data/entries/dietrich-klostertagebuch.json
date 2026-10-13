@@ -20,7 +20,14 @@
   ],
   "period": "1687-1698 (online volumes)",
   "license": "Not stated",
-  "notes": "The diary has 18 volumes and about 12,000 pages; a diplomatic transcription with footnotes, Latin translations, weather observations and registers is published volume by volume. Four volumes are online so far: Band 6 (1687-1688), Band 13 (1688-1690), Band 15 (1693-1694) and Band 17 (1697-1698); all are within the period. The others are transcribed but not yet published. No word count: each scan has its own page mixing transcription, margin notes and translations, so a clean count was not made. Band 17 and a new full-text search were added on 9 October 2026.",
+  "notes": "The diary has 18 volumes and about 12,000 pages; a diplomatic transcription with footnotes, Latin translations, weather observations and registers is published volume by volume. Four volumes are online so far: Band 6 (1687-1688), Band 13 (1688-1690), Band 15 (1693-1694) and Band 17 (1697-1698); all are within the period. The others are transcribed but not yet published. Band 17 and a new full-text search were added on 9 October 2026. The counts cover the four published volumes of 18, each counted as one text. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 564464,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 564464,
+    "texts": 4
+  },
+  "count_basis": "rq-retained-rows"
 }

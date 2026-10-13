@@ -20,7 +20,15 @@
   "period": "16th century",
   "license": "Not stated",
   "license_url": "https://people.dm.unipi.it/maurolic/intro.htm",
-  "notes": "Critical edition, with variant readings from each manuscript or print witness, of the scientific works of Maurolico (1494-1575): Euclid, spherics, arithmetic, Archimedes, conics, music, optics, cosmography, mechanics, letters and methodological writings. The introduction says the full corpus is about 5,000 pages of manuscripts and prints and that works are added as they are ready; pages are frames-based HTML with PDF versions. Source-image sites need a login. Counts are not published, so texts and words are left out. The original Pisa address in the catalogue (www.dm.unipi.it/pages/maurolic, 2008 Wayback copy) now redirects to this one. Archived: pages last modified between April and July 2006.",
+  "notes": "Critical edition, with variant readings from each manuscript or print witness, of the scientific works of Maurolico (1494-1575): Euclid, spherics, arithmetic, Archimedes, conics, music, optics, cosmography, mechanics, letters and methodological writings. The introduction says the full corpus is about 5,000 pages of manuscripts and prints and that works are added as they are ready; pages are frames-based HTML with PDF versions. Source-image sites need a login. The original Pisa address in the catalogue (www.dm.unipi.it/pages/maurolic, 2008 Wayback copy) now redirects to this one. Archived: pages last modified between April and July 2006. The counts cover 58 works or sections, which are undated and counted as falling within 1450-1700 because Maurolico lived from 1494 to 1575. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 428880,
+  "texts": 58,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 428880,
+    "texts": 58
+  },
+  "count_basis": "rq-retained-rows"
 }

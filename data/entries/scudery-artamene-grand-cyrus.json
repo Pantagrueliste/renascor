@@ -17,10 +17,16 @@
   "countries": [
     "FR"
   ],
-  "words": 2010000,
+  "words": 1985666,
   "texts": 10,
   "license": "Not stated",
-  "notes": "Complete text of the novel in diplomatic reproduction (edition of Paris, Courbé, 1656), divided into sequences and episodes with summaries, pop-up notes on characters and places, and the engravings of the 1654 edition. Each of the ten parts can be downloaded as a PDF (https://artamene.othone.org/pdfs/cyrus1.pdf to cyrus10.pdf); the site also gives a full-text search through the ARTFL PhiloLogic server and says TEI files are on the project's GitHub, but no repository could be found. Counts are ours: about 2,010,000 words in the ten PDFs (summaries included, so slightly high), 10 parts. The PDFs were last modified on 6 March 2024.",
+  "notes": "Complete text of the novel in diplomatic reproduction (edition of Paris, Courbé, 1656), divided into sequences and episodes with summaries, pop-up notes on characters and places, and the engravings of the 1654 edition. Each of the ten parts can be downloaded as a PDF (https://artamene.othone.org/pdfs/cyrus1.pdf to cyrus10.pdf); the site also gives a full-text search through the ARTFL PhiloLogic server and says TEI files are on the project's GitHub, but no repository could be found. The PDFs were last modified on 6 March 2024. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 1985666,
+    "texts": 10
+  },
+  "count_basis": "rq-retained-rows"
 }

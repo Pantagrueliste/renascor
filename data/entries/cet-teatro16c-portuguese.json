@@ -14,10 +14,10 @@
   "words": 676876,
   "texts": 83,
   "period": "1502-1598",
-  "notes": "Textual database of critical editions of 16th-century Portuguese theatre by the Centro de Estudos de Teatro (ULisboa). The live obras page (ver http://cet-e-quinhentos.com/obras, 200) lists the exact collected autos, including 'Auto de Santiago' by Afonso Álvares and 'Auto das Padeiras' (Anónimo). HTML site with critical apparatus/glossary/facsimiles (not TEI). Licence not stated. Origin verbatim: 'CET 16c PT theatre: Afonso Álvares — Auto de Santiago'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Textual database of critical editions of 16th-century Portuguese theatre by the Centro de Estudos de Teatro (ULisboa). The live obras page (ver http://cet-e-quinhentos.com/obras, 200) lists the exact collected autos, including 'Auto de Santiago' by Afonso Álvares and 'Auto das Padeiras' (Anónimo). HTML site with critical apparatus/glossary/facsimiles (not TEI). Licence not stated. Origin verbatim: 'CET 16c PT theatre: Afonso Álvares — Auto de Santiago'. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Centro de Estudos de Teatro (CET), Faculdade de Letras da Universidade de Lisboa, dir. José Camões (FCT project POCTI/ELT/33464/2000)",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 676876,
     "texts": 83
   },

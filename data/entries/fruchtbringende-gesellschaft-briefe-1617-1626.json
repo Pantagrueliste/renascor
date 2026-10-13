@@ -15,16 +15,22 @@
   "status": "archived",
   "institution": "Herzog August Bibliothek Wolfenbüttel, with the Sächsische Akademie der Wissenschaften zu Leipzig; edition by Klaus Conermann and Dieter Merzbacher",
   "texts": 91,
-  "words": 101097,
+  "words": 48046,
   "date": "1617-1626",
   "period": "1617-1626",
   "region": "Germany (Köthen, Anhalt)",
   "countries": [
     "DE"
   ],
-  "notes": "Electronic TEI P5 edition of the first volume of the letters and enclosures of the Fruchtbringende Gesellschaft (Fruitbearing Society), a German literary and linguistic society, from the printed edition of 1992. Readable and downloadable without login: the METS file lists each letter's TEI file (briefe/*.xml). Counts are our own from those files: 91 letter files dated 1617-1626 and about 101,000 words of text (editorial notes excluded). The online edition is dated 2014 and the files were last modified between 2015 and 2018, so it is marked archived. Later volumes (1627-1650) are not part of this record.",
+  "notes": "Electronic TEI P5 edition of the first volume of the letters and enclosures of the Fruchtbringende Gesellschaft (Fruitbearing Society), a German literary and linguistic society, from the printed edition of 1992. Readable and downloadable without login: the METS file lists each letter's TEI file (briefe/*.xml). The 91 letter files are dated 1617-1626. The online edition is dated 2014 and the files were last modified between 2015 and 2018, so it is marked archived. Later volumes (1627-1650) are not part of this record. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "last_modified": "2018-11-06",
   "license": "CC-BY-SA-3.0-DE",
   "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
-  "license_note": "The METS record links the HAB CC BY-SA 3.0 Germany notice as the work's rights statement; the TEI headers only carry the HAB copyright line."
+  "license_note": "The METS record links the HAB CC BY-SA 3.0 Germany notice as the work's rights statement; the TEI headers only carry the HAB copyright line.",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 48046,
+    "texts": 91
+  },
+  "count_basis": "rq-retained-rows"
 }

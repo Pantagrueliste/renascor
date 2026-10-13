@@ -13,7 +13,7 @@
   "author": "Joan Perez Lazarraga",
   "date": "c. 1564-1602",
   "institution": "Monumenta Linguae Vasconum research group, UPV/EHU (Gidor Bilbao, Joseba A. Lakarra and others)",
-  "texts": 65,
+  "texts": 58,
   "region": "Álava, Basque Country (Spain)",
   "countries": [
     "ES"
@@ -22,7 +22,14 @@
   "last_modified": "2017-05-19",
   "license": "CC-BY-SA-4.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "notes": "Edition of a Basque-Spanish manuscript of poems and prose by Joan Perez Lazarraga (c. 1547-1605), found in 2004. Transcriptions (diplomatic Basque or Spanish text), modernised spelling and Spanish translations are given for each piece, with commentary, grammar and glossary. Text A (the 'Artzain-liburua' pastoral and 29 poems) is shown as web pages; text B (34 pieces) and text C are offered as PDF transcriptions. The count of 65 texts is ours (30 + 34 + 1). The first palaeographic study dates the hand to 1564-1567, and a poem refers to events of 1564; the manuscript is generally dated before 1602. No word count is given because the web pages mix text with commentary. Pages were last modified on 19 May 2017 (version 1.2 of the edition).",
+  "notes": "Edition of a Basque-Spanish manuscript of poems and prose by Joan Perez Lazarraga (c. 1547-1605), found in 2004. Transcriptions (diplomatic Basque or Spanish text), modernised spelling and Spanish translations are given for each piece, with commentary, grammar and glossary. Text A (the 'Artzain-liburua' pastoral and 29 poems) is shown as web pages; text B (34 pieces) and text C are offered as PDF transcriptions. The first palaeographic study dates the hand to 1564-1567, and a poem refers to events of 1564; the manuscript is generally dated before 1602. Pages were last modified on 19 May 2017 (version 1.2 of the edition). The counts cover 64 of the 65 pieces, since the PDF of text C is no longer available on the site. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 15923,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 15923,
+    "texts": 58
+  },
+  "count_basis": "rq-retained-rows"
 }

@@ -24,9 +24,15 @@
     "GB-ENG"
   ],
   "texts": 36,
-  "words": 854170,
+  "words": 822450,
   "license": "CC-BY-3.0",
   "license_url": "https://firstfolio.bodleian.ox.ac.uk/about.html#licence",
   "license_note": "The page images and the text are both released under CC BY 3.0.",
-  "notes": "Diplomatic transcriptions of the 36 plays in the Bodleian Library's copy of the Shakespeare First Folio (1623, shelfmark Arch. G c.7), shown beside the page images and encoded in TEI P5, with published transcription guidelines. Each play can be downloaded as an XML file, as a formatted PDF and with its page images. Counts are our own, from the 36 XML files: 36 plays and about 854,000 words in the text of the volume, excluding footnotes. The site has not changed since 2019 and its blog since April 2020, but it is still online."
+  "notes": "Diplomatic transcriptions of the 36 plays in the Bodleian Library's copy of the Shakespeare First Folio (1623, shelfmark Arch. G c.7), shown beside the page images and encoded in TEI P5, with published transcription guidelines. Each play can be downloaded as an XML file, as a formatted PDF and with its page images. The site has not changed since 2019 and its blog since April 2020, but it is still online. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 822450,
+    "texts": 36
+  },
+  "count_basis": "rq-retained-rows"
 }

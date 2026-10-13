@@ -14,9 +14,9 @@
   "words": 11385,
   "texts": 16,
   "period": "1559-1695",
-  "notes": "Online library of colonial Nahuatl manuscripts with transcriptions and analytic translations; this entry counts a selection of 16 documents. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Online library of colonial Nahuatl manuscripts with transcriptions and analytic translations; this entry counts a selection of 16 documents. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 11385,
     "texts": 16
   },

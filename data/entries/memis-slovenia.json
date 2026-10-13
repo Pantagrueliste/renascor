@@ -13,8 +13,8 @@
   ],
   "encoding": "tei",
   "status": "archived",
-  "texts": 42,
-  "words": 904,
+  "texts": 26,
+  "words": 1140,
   "period": "15th-17th century",
   "region": "Slovenian coast (Koper, Izola, Piran)",
   "countries": [
@@ -23,5 +23,11 @@
   "institution": "ZRC SAZU, Inštitut za kulturno zgodovino (Gregor Pobežin); hosted by CLARIN.SI",
   "license": "CC-BY-SA-4.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
-  "notes": "TEI XML edition (version 1.0, published 2020-12-06, on CLARIN.SI) of 51 Latin inscriptions from the Slovenian coastal towns dated 1222 to the mid-17th century, with expanded transcriptions and Slovenian translations. Counts are our own, from the TEI file: 42 inscriptions dated within or overlapping 1450-1700 (including two 'second half of 15th c.'), 904 words in their transcription divs (approximate); 7 fall outside the period and 2 are undated. Static repository deposit, no later version found."
+  "notes": "TEI XML edition (version 1.0, published 2020-12-06, on CLARIN.SI) of 51 Latin inscriptions from the Slovenian coastal towns dated 1222 to the mid-17th century, with expanded transcriptions and Slovenian translations. Static repository deposit, no later version found. Some inscriptions carry only an approximate date (for example 'second half of the 15th century'), and four are undated. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 1140,
+    "texts": 26
+  },
+  "count_basis": "rq-retained-rows"
 }

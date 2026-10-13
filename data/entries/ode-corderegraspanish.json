@@ -16,10 +16,10 @@
   "words": 203336,
   "texts": 138,
   "period": "1509-1700",
-  "notes": "Corpus of unpublished archival documents (inventories, trial testimonies, surgeon reports) of the Real Chancillería de Granada and other Spanish archives, published by the ODE project (Oralia Diacrónica del Español, Universidad de Granada). The original CORDEREGRA site (corderegra.es) no longer resolves, and ODE is its working host; the ODE site is available only over http. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Corpus of unpublished archival documents (inventories, trial testimonies, surgeon reports) of the Real Chancillería de Granada and other Spanish archives, published by the ODE project (Oralia Diacrónica del Español, Universidad de Granada). The original CORDEREGRA site (corderegra.es) no longer resolves, and ODE is its working host; the ODE site is available only over http. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Universidad de Granada (Miguel Calderón Campos & M.ª Teresa García-Godoy)",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 203336,
     "texts": 138
   },

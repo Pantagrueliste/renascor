@@ -16,10 +16,10 @@
   "words": 276280,
   "texts": 18,
   "period": "1487-1700",
-  "notes": "Historical Corpus of the Welsh Language 1500-1850: about 420,000 words of Welsh in TEI XML (30 texts, including the 1588 Welsh Bible), built at the University of Cambridge (Department of Linguistics, David Willis) from c. 2004. celticstudies.net is the corpus's official site (published from the GitHub repository dwew2/hcwl); a parsed derivative (PARSHCWL) is included in the repository. A LINDAT/CLARIAH-CZ record (LRT-883) exists but is metadata-only and points to the old Cambridge address. Site copyright 2004, University of Cambridge. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Historical Corpus of the Welsh Language 1500-1850: about 420,000 words of Welsh in TEI XML (30 texts, including the 1588 Welsh Bible), built at the University of Cambridge (Department of Linguistics, David Willis) from c. 2004. celticstudies.net is the corpus's official site (published from the GitHub repository dwew2/hcwl); a parsed derivative (PARSHCWL) is included in the repository. A LINDAT/CLARIAH-CZ record (LRT-883) exists but is metadata-only and points to the old Cambridge address. Site copyright 2004, University of Cambridge. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "University of Cambridge, Linguistics Dept. (David Willis)",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 276280,
     "texts": 18
   },

@@ -15,9 +15,16 @@
     "AT"
   ],
   "period": "1494-1678",
-  "words": 52000,
-  "texts": 258,
-  "notes": "Letters of Austrian noblewomen from family archives (Schallenberg, Starhemberg and others), with transcriptions and short summaries, plus lists of the wider holdings (about 2,900 letters, 16th-18th century). Counts are ours from the \"Alle Briefe\" page: 258 letters marked as individual letters and about 52,000 words on that page, which includes the summaries and headings; the letters transcribed there are dated 1494 to 1678, none after 1700. The site dates from 1999-2004 (last modified November 2004).",
+  "words": 38397,
+  "texts": 161,
+  "notes": "Letters of Austrian noblewomen from family archives (Schallenberg, Starhemberg and others), with transcriptions and short summaries, plus lists of the wider holdings (about 2,900 letters, 16th-18th century). The letters transcribed on the site are dated 1494 to 1678, none after 1700. The site dates from 1999-2004 (last modified November 2004). The counts cover the letters with period text, and entries with only a modern summary are not included. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 37183,
+    "texts": 157
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
 }

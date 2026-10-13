@@ -1,0 +1,1042 @@
+{
+ "1641-depositions": {
+  "inserted": 0,
+  "in_core": 0,
+  "in_core_words": 0,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "alciato-memorial-web-edition": {
+  "inserted": 198,
+  "in_core": 198,
+  "in_core_words": 8864,
+  "junk": 15,
+  "skipped_dup": 0,
+  "policy_dups": 45
+ },
+ "aldicam-cm": {
+  "inserted": 744,
+  "in_core": 311,
+  "in_core_words": 145274,
+  "junk": 119,
+  "skipped_dup": 0,
+  "policy_dups": 1
+ },
+ "apw-acta-pacis-westphalicae": {
+  "inserted": 3185,
+  "in_core": 3185,
+  "in_core_words": 2789605,
+  "junk": 25,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "bakfj-friedrich-johann": {
+  "inserted": 301,
+  "in_core": 301,
+  "in_core_words": 122554,
+  "junk": 1,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "balassi-osszes-verse": {
+  "inserted": 110,
+  "in_core": 110,
+  "in_core_words": 20988,
+  "junk": 4,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "balkan-slavic-digital-editions": {
+  "inserted": 127,
+  "in_core": 13,
+  "in_core_words": 24058,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "bayle-correspondance": {
+  "inserted": 1412,
+  "in_core": 1412,
+  "in_core_words": 1251286,
+  "junk": 8,
+  "skipped_dup": 0,
+  "policy_dups": 19
+ },
+ "bess-of-hardwick-letters": {
+  "inserted": 234,
+  "in_core": 234,
+  "in_core_words": 100764,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "blotius-inventar-1576": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 10018,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "bodleian-first-folio": {
+  "inserted": 36,
+  "in_core": 36,
+  "in_core_words": 822450,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "bodley-diplomatic-correspondence": {
+  "inserted": 981,
+  "in_core": 981,
+  "in_core_words": 671995,
+  "junk": 1,
+  "skipped_dup": 0,
+  "policy_dups": 18
+ },
+ "book-of-margery-kempe-selu": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 1981,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "boschdoc": {
+  "inserted": 870,
+  "in_core": 706,
+  "in_core_words": 122668,
+  "junk": 13,
+  "skipped_dup": 0,
+  "policy_dups": 19
+ },
+ "boyle-workdiaries": {
+  "inserted": 40,
+  "in_core": 40,
+  "in_core_words": 274260,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "briefe-adeliger-frauen": {
+  "inserted": 162,
+  "in_core": 161,
+  "in_core_words": 38397,
+  "junk": 23,
+  "skipped_dup": 0,
+  "policy_dups": 4
+ },
+ "briefwisseling-constantijn-huygens": {
+  "inserted": 0,
+  "in_core": 0,
+  "in_core_words": 0,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "bucherinventar-elisabeth-von-calenberg": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 567,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "cervantes-la-entretenida": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 18850,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "charta-corpus": {
+  "inserted": 787,
+  "in_core": 250,
+  "in_core_words": 203534,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 2
+ },
+ "chymistry-of-isaac-newton": {
+  "inserted": 0,
+  "in_core": 0,
+  "in_core_words": 0,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "codea-plus-2022": {
+  "inserted": 0,
+  "in_core": 0,
+  "in_core_words": 0,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "cordiam": {
+  "inserted": 7334,
+  "in_core": 7334,
+  "in_core_words": 8083708,
+  "junk": 6,
+  "skipped_dup": 0,
+  "policy_dups": 23
+ },
+ "coreecom": {
+  "inserted": 117,
+  "in_core": 117,
+  "in_core_words": 38151,
+  "junk": 2,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "corpus-mallorca": {
+  "inserted": 1250,
+  "in_core": 84,
+  "in_core_words": 31007,
+  "junk": 1,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "cosuiza": {
+  "inserted": 122,
+  "in_core": 27,
+  "in_core_words": 8892,
+  "junk": 1,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "dasypodius-dictionarium-latinogermanicum": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 172925,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "deux-visages-de-l-astree": {
+  "inserted": 4,
+  "in_core": 4,
+  "in_core_words": 863243,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "devonshire-manuscript": {
+  "inserted": 186,
+  "in_core": 186,
+  "in_core_words": 29880,
+  "junk": 12,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "dietrich-klostertagebuch": {
+  "inserted": 4,
+  "in_core": 4,
+  "in_core_words": 564464,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "digital-renaissance-editions": {
+  "inserted": 18,
+  "in_core": 16,
+  "in_core_words": 113845,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 1
+ },
+ "digital-scholarly-edition-of-angelo-poliziano-s-marginal-notes-to-the-epistle-of-sappho-to-phaon": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 2466,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "dio": {
+  "inserted": 552,
+  "in_core": 376,
+  "in_core_words": 25012,
+  "junk": 426,
+  "skipped_dup": 0,
+  "policy_dups": 1
+ },
+ "dipko-schwarzenhorn-1649": {
+  "inserted": 30,
+  "in_core": 30,
+  "in_core_words": 133610,
+  "junk": 1,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "divisiekroniek-cornelius-aurelius": {
+  "inserted": 0,
+  "in_core": 0,
+  "in_core_words": 0,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "effectus-amoris": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 1656,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "egpa": {
+  "inserted": 129,
+  "in_core": 5,
+  "in_core_words": 3805,
+  "junk": 15,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "elec-dubourg": {
+  "inserted": 96,
+  "in_core": 96,
+  "in_core_words": 20548,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "elec-edits-de-pacification": {
+  "inserted": 15,
+  "in_core": 15,
+  "in_core_words": 60119,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "epicat": {
+  "inserted": 39,
+  "in_core": 39,
+  "in_core_words": 9299,
+  "junk": 1,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "epidat": {
+  "inserted": 30816,
+  "in_core": 1661,
+  "in_core_words": 61915,
+  "junk": 13469,
+  "skipped_dup": 0,
+  "policy_dups": 2
+ },
+ "erdy-kodex": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 59427,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "etheridge-encomium": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 4809,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "ferdinand-i-familienkorrespondenz": {
+  "inserted": 200,
+  "in_core": 200,
+  "in_core_words": 109577,
+  "junk": 1,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "folger-shakespeare": {
+  "inserted": 42,
+  "in_core": 42,
+  "in_core_words": 1107569,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "fonteny-livre-d-enigmes": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 3308,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "fruchtbringende-gesellschaft-briefe-1617-1626": {
+  "inserted": 91,
+  "in_core": 91,
+  "in_core_words": 48046,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "galileo-ms-gal-72": {
+  "inserted": 158,
+  "in_core": 158,
+  "in_core_words": 39106,
+  "junk": 79,
+  "skipped_dup": 0,
+  "policy_dups": 8
+ },
+ "grand-tour-digital-tei-dataset-of-early-modern-travel-testimonies-grand-tour-tei": {
+  "inserted": 4,
+  "in_core": 3,
+  "in_core_words": 93954,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "grotius-correspondence-huygens": {
+  "inserted": 7801,
+  "in_core": 7801,
+  "in_core_words": 3552730,
+  "junk": 67,
+  "skipped_dup": 0,
+  "policy_dups": 11
+ },
+ "guicciardini-storia-italia": {
+  "inserted": 14,
+  "in_core": 14,
+  "in_core_words": 7867,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "h15corpus": {
+  "inserted": 402,
+  "in_core": 356,
+  "in_core_words": 172397,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 1
+ },
+ "hainhofer-grosses-stammbuch": {
+  "inserted": 52,
+  "in_core": 52,
+  "in_core_words": 4354,
+  "junk": 44,
+  "skipped_dup": 0,
+  "policy_dups": 1
+ },
+ "hamletworks": {
+  "inserted": 2,
+  "in_core": 2,
+  "in_core_words": 59439,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "hartlib-papers": {
+  "inserted": 5682,
+  "in_core": 5682,
+  "in_core_words": 5864428,
+  "junk": 58,
+  "skipped_dup": 0,
+  "policy_dups": 87
+ },
+ "hearth-tax-digital": {
+  "inserted": 61,
+  "in_core": 61,
+  "in_core_words": 1087045,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "hooke-folio-online": {
+  "inserted": 561,
+  "in_core": 561,
+  "in_core_words": 256070,
+  "junk": 17,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "hortus-sanitatis-de-piscibus": {
+  "inserted": 107,
+  "in_core": 107,
+  "in_core_words": 19867,
+  "junk": 1,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "inscriptiones-alborum-amicorum": {
+  "inserted": 12877,
+  "in_core": 3981,
+  "in_core_words": 178912,
+  "junk": 3886,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "internet-shakespeare-editions": {
+  "inserted": 67,
+  "in_core": 67,
+  "in_core_words": 1438925,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "kaiserin-eleonora-magdalena-korrespondenz": {
+  "inserted": 1208,
+  "in_core": 980,
+  "in_core_words": 371757,
+  "junk": 397,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "karlstadt-kritische-gesamtausgabe": {
+  "inserted": 74,
+  "in_core": 74,
+  "in_core_words": 158382,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "kirchenbuch-groeben": {
+  "inserted": 330,
+  "in_core": 246,
+  "in_core_words": 71108,
+  "junk": 1,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "kircher-briefe-herzog-august": {
+  "inserted": 21,
+  "in_core": 21,
+  "in_core_words": 6794,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "koenigsfelden-urkunden-akten": {
+  "inserted": 1444,
+  "in_core": 446,
+  "in_core_words": 312611,
+  "junk": 113,
+  "skipped_dup": 0,
+  "policy_dups": 3
+ },
+ "lazarraga-manuscript": {
+  "inserted": 58,
+  "in_core": 58,
+  "in_core_words": 15923,
+  "junk": 6,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "leibniz-briefportal": {
+  "inserted": 188,
+  "in_core": 150,
+  "in_core_words": 182019,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "leibniz-reihe-viii": {
+  "inserted": 265,
+  "in_core": 263,
+  "in_core_words": 88419,
+  "junk": 58,
+  "skipped_dup": 0,
+  "policy_dups": 2
+ },
+ "letradas": {
+  "inserted": 260,
+  "in_core": 109,
+  "in_core_words": 34938,
+  "junk": 10,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "letters-of-william-herle": {
+  "inserted": 302,
+  "in_core": 302,
+  "in_core_words": 318567,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 1
+ },
+ "lettres-calvin": {
+  "inserted": 27,
+  "in_core": 27,
+  "in_core_words": 34056,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "lipsius-de-bibliothecis-syntagma-hab": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 5740,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "lope-dama-boba": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 16545,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "luene-nonnenbriefe": {
+  "inserted": 410,
+  "in_core": 407,
+  "in_core_words": 176634,
+  "junk": 3,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "luther-sermon-ablass-gnade-taylor": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 1780,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "machyn-provisioners-chronicle": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 75230,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "magdeburger-zenturien-methode-hab": {
+  "inserted": 153,
+  "in_core": 153,
+  "in_core_words": 93012,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "malory-project": {
+  "inserted": 2,
+  "in_core": 2,
+  "in_core_words": 27445,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "map-of-early-modern-london": {
+  "inserted": 193,
+  "in_core": 191,
+  "in_core_words": 1025054,
+  "junk": 3,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "marinelives": {
+  "inserted": 55,
+  "in_core": 46,
+  "in_core_words": 3505787,
+  "junk": 1,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "maurolico-opera-mathematica": {
+  "inserted": 58,
+  "in_core": 58,
+  "in_core_words": 428880,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "memis-slovenia": {
+  "inserted": 32,
+  "in_core": 26,
+  "in_core_words": 1140,
+  "junk": 19,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "milton-reading-room": {
+  "inserted": 174,
+  "in_core": 174,
+  "in_core_words": 675531,
+  "junk": 7,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "mitteldeutsche-selbstzeugnisse": {
+  "inserted": 6,
+  "in_core": 6,
+  "in_core_words": 76604,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "nachlassinventar-ferdinand-ii-1596": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 103067,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "narragonien-digital": {
+  "inserted": 12,
+  "in_core": 12,
+  "in_core_words": 673114,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 2
+ },
+ "openedges": {
+  "inserted": 19,
+  "in_core": 12,
+  "in_core_words": 8189741,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 7
+ },
+ "paesi-novamente-retrovati-hab": {
+  "inserted": 2,
+  "in_core": 2,
+  "in_core_words": 159407,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "patin-correspondance-complete": {
+  "inserted": 1611,
+  "in_core": 1611,
+  "in_core_words": 1315763,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "pensees-de-pascal-edition": {
+  "inserted": 535,
+  "in_core": 535,
+  "in_core_words": 46890,
+  "junk": 166,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "philipp-hainhofer-reiseberichte-sammlungsbeschreibungen-1594-1636-annotated-digital-edition": {
+  "inserted": 16,
+  "in_core": 16,
+  "in_core_words": 579168,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "philological-museum-library-of-humanistic-texts": {
+  "inserted": 187,
+  "in_core": 152,
+  "in_core_words": 2903307,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "poeti-d-italia-in-lingua-latina": {
+  "inserted": 720,
+  "in_core": 639,
+  "in_core_words": 1096721,
+  "junk": 7,
+  "skipped_dup": 0,
+  "policy_dups": 342
+ },
+ "progetto-pico": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 7702,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "protokoll-religionskolloquium-vilnius-1585": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 7562,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "queens-men-editions": {
+  "inserted": 5,
+  "in_core": 5,
+  "in_core_words": 104402,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "regensburger-wappen-portraetbuecher": {
+  "inserted": 2,
+  "in_core": 1,
+  "in_core_words": 9917,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "rejestr-kontrybucji-poznan-1561": {
+  "inserted": 2,
+  "in_core": 2,
+  "in_core_words": 9484,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "relationen-vom-russischen-hof": {
+  "inserted": 651,
+  "in_core": 37,
+  "in_core_words": 44734,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "religionsfrieden-quellenedition": {
+  "inserted": 43,
+  "in_core": 39,
+  "in_core_words": 262293,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "richard-brome-online": {
+  "inserted": 16,
+  "in_core": 16,
+  "in_core_words": 394925,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "rimay-janos-ifjukori-versgyujtemenye": {
+  "inserted": 30,
+  "in_core": 30,
+  "in_core_words": 7468,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "rostocker-matrikelportal": {
+  "inserted": 0,
+  "in_core": 0,
+  "in_core_words": 0,
+  "junk": 38317,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "rostocker-urgichten": {
+  "inserted": 50,
+  "in_core": 50,
+  "in_core_words": 69730,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "rubens-online": {
+  "inserted": 340,
+  "in_core": 331,
+  "in_core_words": 688895,
+  "junk": 13,
+  "skipped_dup": 0,
+  "policy_dups": 2
+ },
+ "sandrart-teutsche-academie": {
+  "inserted": 3,
+  "in_core": 3,
+  "in_core_words": 648260,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "scudery-artamene-grand-cyrus": {
+  "inserted": 10,
+  "in_core": 10,
+  "in_core_words": 1985666,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "selbstzeugnisse-hab": {
+  "inserted": 498,
+  "in_core": 492,
+  "in_core_words": 42739,
+  "junk": 1158,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "serranus-dictionarium-latinogermanicum": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 106476,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "sozinianische-briefwechsel": {
+  "inserted": 2281,
+  "in_core": 2226,
+  "in_core_words": 1356281,
+  "junk": 5,
+  "skipped_dup": 0,
+  "policy_dups": 211
+ },
+ "st-galler-missiven": {
+  "inserted": 760,
+  "in_core": 542,
+  "in_core_words": 176091,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "stationers-register-online": {
+  "inserted": 9575,
+  "in_core": 9575,
+  "in_core_words": 379559,
+  "junk": 878,
+  "skipped_dup": 0,
+  "policy_dups": 4
+ },
+ "statuto-di-paganico": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 23143,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "svea-pommern": {
+  "inserted": 426,
+  "in_core": 255,
+  "in_core_words": 288551,
+  "junk": 74,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "tagebuecher-christian-ii-anhalt": {
+  "inserted": 338,
+  "in_core": 338,
+  "in_core_words": 2643525,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "textgrid-repository": {
+  "inserted": 14576,
+  "in_core": 14576,
+  "in_core_words": 13060849,
+  "junk": 717,
+  "skipped_dup": 0,
+  "policy_dups": 1368
+ },
+ "tinctoris-theoretical-works": {
+  "inserted": 11,
+  "in_core": 11,
+  "in_core_words": 46508,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "ula-corpus-documentos-coloniales-merida": {
+  "inserted": 37,
+  "in_core": 37,
+  "in_core_words": 58764,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "unav-documentos-privados-antiguos": {
+  "inserted": 105,
+  "in_core": 8,
+  "in_core_words": 4192,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "urfehdebuecher-basel-x": {
+  "inserted": 621,
+  "in_core": 621,
+  "in_core_words": 85455,
+  "junk": 3,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "van-der-goes-ystroom": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 46965,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "vasto-varchi-storia-fiorentina": {
+  "inserted": 1,
+  "in_core": 1,
+  "in_core_words": 3045,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "venetian-inscriptions-cyprus": {
+  "inserted": 7,
+  "in_core": 6,
+  "in_core_words": 244,
+  "junk": 20,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "wandering-jews-chronicle": {
+  "inserted": 15,
+  "in_core": 4,
+  "in_core_words": 3351,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "wathay-ferenc-osszes-muve": {
+  "inserted": 30,
+  "in_core": 30,
+  "in_core_words": 21618,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "weinsberg-gedenkbuecher": {
+  "inserted": 3,
+  "in_core": 3,
+  "in_core_words": 1829120,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "winthrop-papers-digital-edition": {
+  "inserted": 1427,
+  "in_core": 1426,
+  "in_core_words": 675450,
+  "junk": 13,
+  "skipped_dup": 0,
+  "policy_dups": 1
+ },
+ "wsrb-mittelniederdeutsche-spruchsammlungen": {
+  "inserted": 8,
+  "in_core": 8,
+  "in_core_words": 180964,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 1
+ },
+ "zrinyi-adriai-tengernek-syrenaja": {
+  "inserted": 2,
+  "in_core": 2,
+  "in_core_words": 91568,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ },
+ "zwingli-briefe": {
+  "inserted": 85,
+  "in_core": 85,
+  "in_core_words": 42516,
+  "junk": 0,
+  "skipped_dup": 0,
+  "policy_dups": 0
+ }
+}

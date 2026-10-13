@@ -26,7 +26,16 @@
     "AT"
   ],
   "period": "16th-18th century",
-  "notes": "Database of entries (inscriptions, mottoes, dedications, signatures, owners' notes) in 16th-18th century alba amicorum with a Hungarian connection: entries by Hungarians or owners from Hungary, entries made in Hungary, and entries mentioning Hungary. Each record separates the date, place, motto, dedication, signature and quoted or composed inscription text, with scans where permitted. Record numbers run to about 17,090 but the number of records dated 1450-1700, and their words, cannot be established from the site, so texts and words are left out; the database covers the 16th to the 18th century. Status active: copyright line 2003-2026 and the database is described as continuously growing.",
+  "notes": "Database of entries (inscriptions, mottoes, dedications, signatures, owners' notes) in 16th-18th century alba amicorum with a Hungarian connection: entries by Hungarians or owners from Hungary, entries made in Hungary, and entries mentioning Hungary. Each record separates the date, place, motto, dedication, signature and quoted or composed inscription text, with scans where permitted. Record numbers run to about 17,090, and the database covers the 16th to the 18th century. Status active: copyright line 2003-2026 and the database is described as continuously growing. The counts cover the entries dated 1450-1700 that have transcribed text, and 327 entries with only metadata or notes are left out. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 178912,
+  "texts": 3981,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 178912,
+    "texts": 3981
+  },
+  "count_basis": "rq-retained-rows",
+  "license": "Not stated"
 }

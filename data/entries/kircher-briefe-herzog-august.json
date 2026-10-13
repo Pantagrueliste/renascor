@@ -12,8 +12,8 @@
   "author": "Athanasius Kircher",
   "date": "1650-1666",
   "institution": "Herzog August Bibliothek Wolfenbüttel (Thomas Stäcker, ed.)",
-  "words": 6901,
-  "texts": 19,
+  "words": 6794,
+  "texts": 21,
   "region": "Italy (Rome) to Germany (Wolfenbüttel)",
   "countries": [
     "IT",
@@ -25,7 +25,13 @@
   },
   "license": "Copyright",
   "license_url": "http://diglib.hab.de/rights/copyright.html",
-  "notes": "Transcription of the nineteen Latin letters Athanasius Kircher sent to Duke August the Younger of Brunswick-Wolfenbüttel (Herzog August Bibliothek, BA II 351-365 and others), with line numbers, a transcription with apparatus, a German translation, commentary and source images. Counts are ours, from the single transcription page (about 6,900 words, header lines removed). Published in 2003; the revision log shows the last changes in December 2012 and 2018 (link corrections), so the status is archived. HAB terms allow private scholarly use and bar commercial reuse.",
+  "notes": "Transcription of the nineteen Latin letters Athanasius Kircher sent to Duke August the Younger of Brunswick-Wolfenbüttel (Herzog August Bibliothek, BA II 351-365 and others), with line numbers, a transcription with apparatus, a German translation, commentary and source images. Published in 2003; the revision log shows the last changes in December 2012 and 2018 (link corrections), so the status is archived. HAB terms allow private scholarly use and bar commercial reuse. The counts cover the 21 letters found on the transcription page. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 6794,
+    "texts": 21
+  },
+  "count_basis": "rq-retained-rows"
 }

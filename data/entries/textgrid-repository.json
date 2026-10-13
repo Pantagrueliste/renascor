@@ -20,12 +20,19 @@
   "institution": "TextGrid Consortium (German universities and research institutions)",
   "period": "800-1900",
   "region": "German-speaking Europe",
-  "words": 50000000,
+  "words": 13060849,
   "years_active": {
     "start": 2006,
     "end": "ongoing"
   },
-  "notes": "A digital repository for the humanities offering TEI-encoded texts, images, and structured data. Includes many scholarly editions of German literature. Free registration for some features; texts are openly licensed.",
+  "notes": "A digital repository for the humanities offering TEI-encoded texts, images, and structured data. Includes many scholarly editions of German literature. Free registration for some features; texts are openly licensed. The counts cover works from the Digitale Bibliothek and a few other projects, dated by the author's active span, so dates are approximate and works straddling 1450 or 1700 are left out. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "CC-BY-3.0-DE",
-  "license_url": "http://creativecommons.org/licenses/by/3.0/de/legalcode"
+  "license_url": "http://creativecommons.org/licenses/by/3.0/de/legalcode",
+  "texts": 14576,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 7509814,
+    "texts": 13208
+  },
+  "count_basis": "rq-retained-rows"
 }

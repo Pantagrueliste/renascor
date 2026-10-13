@@ -14,7 +14,7 @@
   "author": "Hugo Blotius",
   "date": "1576",
   "institution": "Österreichische Nationalbibliothek (Martin Krickl, Katharina Kaska)",
-  "words": 10221,
+  "words": 10018,
   "texts": 1,
   "region": "Vienna",
   "countries": [
@@ -24,7 +24,13 @@
   "license": "CC-BY-SA-4.0",
   "license_url": "https://edition.onb.ac.at/blotius/o:blo.licences/methods/sdef:TEI/get?mode=info",
   "license_note": "Transcriptions, registers and editorial texts are CC BY-SA 4.0; the digital facsimiles follow the ONB terms of use.",
-  "notes": "Edition of the first surviving catalogue of the imperial court library (ÖNB Cod. 13525, 'pars posterior', M-Z, compiled 1575/76), shown beside the facsimile with registers of places, persons and works. Only part is transcribed: the page states that letters N to U are not transcribed at the moment. Counts are ours, from the downloadable TEI file (656 entries; about 10,200 words of body text). Published 2019 (TEI header 'lastChanged 2019-04-29'); no later update found, so it is listed as archived.",
+  "notes": "Edition of the first surviving catalogue of the imperial court library (ÖNB Cod. 13525, 'pars posterior', M-Z, compiled 1575/76), shown beside the facsimile with registers of places, persons and works. Only part is transcribed: the page states that letters N to U are not transcribed at the moment. Published 2019 (TEI header 'lastChanged 2019-04-29'); no later update found, so it is listed as archived. The inventory (656 entries) is counted as one text, and only the transcribed part is included. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 10018,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows"
 }

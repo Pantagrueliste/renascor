@@ -16,9 +16,9 @@
   "words": 135,
   "texts": 1,
   "period": "1470-1470",
-  "notes": "The poem Il-Kantilena by Pietru Caxaro (15th century), the oldest known literary text in Maltese, as transcribed on Wikisource (original-orthography column, 135 words; https://en.wikipedia.org/wiki/Il-Kantilena). The Wikisource page cites no source edition. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The poem Il-Kantilena by Pietru Caxaro (15th century), the oldest known literary text in Maltese, as transcribed on Wikisource (original-orthography column, 135 words; https://en.wikipedia.org/wiki/Il-Kantilena). The Wikisource page cites no source edition. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 135,
     "texts": 1
   },

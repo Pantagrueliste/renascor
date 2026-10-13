@@ -16,10 +16,10 @@
   "words": 187423,
   "texts": 2,
   "period": "1597-1667",
-  "notes": "The Mercurius-Baumbank (version 1.1), edited by Ulrike Demske (University of Potsdam), is a syntactically annotated treebank of early German newspaper (Relation) texts of the 17th century, deposited in the LAUDATIO repository (HU Berlin). The texts are distributed as TIGER-XML, NEGRA and relANNIS; the TEI files in LAUDATIO carry metadata only. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The Mercurius-Baumbank (version 1.1), edited by Ulrike Demske (University of Potsdam), is a syntactically annotated treebank of early German newspaper (Relation) texts of the 17th century, deposited in the LAUDATIO repository (HU Berlin). The texts are distributed as TIGER-XML, NEGRA and relANNIS; the TEI files in LAUDATIO carry metadata only. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Ulrike Demske, Professur Geschichte und Variation der deutschen Sprache, Universität Potsdam; hosted in the LAUDATIO repository (Humboldt-Universität zu Berlin)",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 187423,
     "texts": 2
   },

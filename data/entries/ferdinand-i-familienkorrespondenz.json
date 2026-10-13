@@ -17,8 +17,8 @@
   "author": "Ferdinand I and his family (Charles V, Margaret, Mary of Hungary and others)",
   "date": "1514-1526",
   "institution": "Commission for Modern Austrian History, Universität Salzburg (Christopher F. Laferl) and ACDH-CH (Austrian Academy of Sciences)",
-  "words": 150503,
-  "texts": 201,
+  "words": 109577,
+  "texts": 200,
   "region": "Habsburg lands, Spain and the Low Countries",
   "countries": [
     "AT",
@@ -30,7 +30,13 @@
   "period": "1514-1526",
   "license": "CC-BY-3.0",
   "license_url": "https://creativecommons.org/licenses/by/3.0/",
-  "notes": "Digital version of the first volume (1912, edited by Wilhelm Bauer) of the family correspondence of Ferdinand I, letters A1-A261 of 1514-1526; the later printed volumes (to 1536) and the letter lists for 1537-1564 are announced, not yet online. Each letter page gives the transcription with German and English summaries, notes and indexes, and a link to the TEI file (data/dtabf_id/band_001/A###.xml). The index lists 262 letter records; 201 carry transcribed text and 61 are asterisked entries with a summary or cross-reference only. Counts are our own: words are those of the transcription of the 201 letters, without summaries or notes. The TEI headers state CC BY 3.0; the TEI files were last modified 1 October 2024.",
+  "notes": "Digital version of the first volume (1912, edited by Wilhelm Bauer) of the family correspondence of Ferdinand I, letters A1-A261 of 1514-1526; the later printed volumes (to 1536) and the letter lists for 1537-1564 are announced, not yet online. Each letter page gives the transcription with German and English summaries, notes and indexes, and a link to the TEI file (data/dtabf_id/band_001/A###.xml). The index lists 262 letter records; 201 carry transcribed text and 61 are asterisked entries with a summary or cross-reference only. The TEI headers state CC BY 3.0; the TEI files were last modified 1 October 2024. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 109577,
+    "texts": 200
+  },
+  "count_basis": "rq-retained-rows"
 }

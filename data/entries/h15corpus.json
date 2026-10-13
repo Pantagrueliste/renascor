@@ -14,8 +14,8 @@
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "institution": "Universidad de Sevilla, proyecto Historia15 (Lola Pons Rodríguez and Eva Bravo-García, directors)",
-  "words": 196829,
-  "texts": 410,
+  "words": 172397,
+  "texts": 356,
   "region": "Spain (letters sent from Spanish territory; some from Italy, France and the Low Countries)",
   "countries": [
     "ES",
@@ -27,6 +27,12 @@
     "PT"
   ],
   "period": "1450-1600",
-  "notes": "Corpus of letters 'escritas en España ... en el tramo 1450 a 1600' (project description), 'en construcción'; the status page says 394 editions (the TEITOK statistics page lists 410 documents on 2026-10-12). Counts are ours and approximate: tokens in the TEI files of the 410 documents listed on the statistics page (the project page says 394 editions). Dated documents run from c. 1500 to 1598, with one dated 1417; 73 documents of the Bolea collection carry no date. Collections include Bolea, Granvela and Vizcaya. Raw TEI XML is served per document.",
-  "license": "Not stated"
+  "notes": "Corpus of letters 'escritas en España ... en el tramo 1450 a 1600' (project description), 'en construcción'; the status page says 394 editions (the TEITOK statistics page lists 410 documents on 2026-10-12). Dated documents run from c. 1500 to 1598, with one dated 1417; 73 documents of the Bolea collection carry no date. Collections include Bolea, Granvela and Vizcaya. Raw TEI XML is served per document. The counts cover the 402 files of the directory, leaving out 12 test files, and documents without a date are not counted in the period. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "license": "Not stated",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 171765,
+    "texts": 355
+  },
+  "count_basis": "rq-retained-rows"
 }

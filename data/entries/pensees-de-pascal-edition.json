@@ -21,7 +21,15 @@
   "license": "Copyright",
   "license_url": "https://www.penseesdepascal.fr/General/CML.php",
   "license_note": "Site protected by French intellectual property law; BnF page images need prior permission and a fee.",
-  "notes": "Electronic edition of Pascal's Pensées, online since June 2011. It gives the modernised text with notes together with the diplomatic and scholarly transcriptions of the Recueil des originaux (BnF Ms 9202), the manuscript Copies of 1662-1666, the Port-Royal editions of 1670 and 1678 and later manuscripts, with a glossary and studies of the paper and handwriting. Texts are read on the site; no download was found. Counts of texts and words are left out because the site does not give them and the text sits in many separate pages. The legal-notice page is dated 'Juin 2011-Octobre 2026'.",
+  "notes": "Electronic edition of Pascal's Pensées, online since June 2011. It gives the modernised text with notes together with the diplomatic and scholarly transcriptions of the Recueil des originaux (BnF Ms 9202), the manuscript Copies of 1662-1666, the Port-Royal editions of 1670 and 1678 and later manuscripts, with a glossary and studies of the paper and handwriting. Texts are read on the site; no download was found. The legal-notice page is dated 'Juin 2011-Octobre 2026'. The counts cover the fragments with an extractable transcription, and 87 pages without one are left out. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "words": 46890,
+  "texts": 535,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 46890,
+    "texts": 535
+  },
+  "count_basis": "rq-retained-rows"
 }

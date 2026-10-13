@@ -16,10 +16,10 @@
   "words": 723592,
   "texts": 74,
   "period": "1641-1700",
-  "notes": "120 English tracts and pamphlets 1640-1740 (about 1.19M words), TEI, CC BY-SA 3.0. The Oxford Text Archive record ota:3193 is now served by the Oxford Linguistics Data Store; the older ota.ox.ac.uk and ota.bodleian.ox.ac.uk addresses no longer reach the record. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "120 English tracts and pamphlets 1640-1740 (about 1.19M words), TEI, CC BY-SA 3.0. The Oxford Text Archive record ota:3193 is now served by the Oxford Linguistics Data Store; the older ota.ox.ac.uk and ota.bodleian.ox.ac.uk addresses no longer reach the record. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Josef Schmied, Claudia Claridge & Rainer Siemund (Chemnitz University of Technology); Oxford Text Archive",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 723592,
     "texts": 74
   },

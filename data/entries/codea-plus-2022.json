@@ -26,7 +26,7 @@
     "DE"
   ],
   "period": "1036-1899",
-  "notes": "Archival documents from the origins of Spanish to 1899 (Archivo Histórico Nacional, Simancas, Indias, Corona de Aragón and many local archives), each with facsimile, paleographic and critical transcription; lemmatised and POS-tagged (>90% of the lexicon). Texts are read and searched in the web interface only; no bulk download found (the corpus conditions of use forbid derivative corpora). Counts cover the 1,498 documents dated within or overlapping 1450-1700 (word forms from the corpus's own inventory, counted by us); the whole corpus has 4,023 documents (2,187,791 forms, 1036-1899). The DOI 10.37536/CODEA.2015 is the one given in the project's citation instructions. CODEA+ 2015 remains available separately.",
+  "notes": "Archival documents from the origins of Spanish to 1899 (Archivo Histórico Nacional, Simancas, Indias, Corona de Aragón and many local archives), each with facsimile, paleographic and critical transcription; lemmatised and POS-tagged (>90% of the lexicon). Texts are read and searched in the web interface only; no bulk download found (the corpus conditions of use forbid derivative corpora). The DOI 10.37536/CODEA.2015 is the one given in the project's citation instructions. CODEA+ 2015 remains available separately. The documents themselves were not downloaded because the licence (CC BY-NC-ND) does not allow reuse of the documents in a corpus.",
   "license": "CC BY-NC-ND (version not stated)",
   "license_url": "https://corpuscodea.es/",
   "license_note": "The site's 'Condiciones de uso' state: free consultation and use for teaching and research with citation; no commercial use; no derivative corpora; materials may be cited but not reused (Creative Commons by-nc-nd).",

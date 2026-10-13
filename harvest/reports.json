@@ -1,0 +1,2349 @@
+{
+ "1641-depositions": {
+  "id": "1641-depositions",
+  "texts_total": 0,
+  "words_total": 0,
+  "texts_in_window": 0,
+  "words_in_window": 0,
+  "undated": 0,
+  "language_words": {},
+  "method": "Checked https://1641.tcd.ie/ (home page, robots.txt, sitemap.xml) and searched for a bulk deposit (GitHub/Zenodo/Dataverse/OAI): none found.",
+  "coverage": "Nothing harvested (0 of 6,932 depositions).",
+  "problems": [
+   "The site answers every request, including the home page, robots.txt and sitemap.xml, with a Google reCAPTCHA challenge page; per the harvest rules no attempt was made to get past it.",
+   "No public bulk download (TEI/XML, SQL, PDF) or repository deposit located.",
+   "A TCD/library contact would be needed for the TEI files."
+  ]
+ },
+ "alciato-memorial-web-edition": {
+  "id": "alciato-memorial-web-edition",
+  "texts_total": 213,
+  "words_total": 9067,
+  "texts_in_window": 213,
+  "words_in_window": 9067,
+  "undated": 0,
+  "language_words": {
+   "Latin": 9067
+  },
+  "method": "Archived ltext.html (complete Latin text) split at 'Emblema N' headings",
+  "coverage": "all: preface + 212 emblems from the complete Latin text file",
+  "problems": [
+   "heading Emblema CVIII occurs 2 times in the source; later one suffixed",
+   "Wayback copy of 3 Oct 2022; year=1621 is the edition the Latin text is taken from (emblems first printed from 1531). Includes mottos and titles; English text and commentaries not used. Preface counted as one extra text."
+  ]
+ },
+ "aldicam-cm": {
+  "id": "aldicam-cm",
+  "texts_total": 863,
+  "words_total": 274458,
+  "texts_in_window": 428,
+  "words_in_window": 146393,
+  "undated": 12,
+  "language_words": {
+   "Spanish": 146393
+  },
+  "method": "Inventory JSON (inventario2.php, all 866 documents) then documento.php per document, paleographic column only.",
+  "coverage": "All 866 documents of the corpus (13th-19th c.); those outside 1450-1700 kept in staging with their year.",
+  "problems": [
+   "3 documents without paleographic text, skipped: ['ALDICAM-0701', 'ALDICAM-0549', 'ALDICAM-0547']",
+   "12 documents without a year: year=None, dateless_in_window=False",
+   "2 documents dated from the document header (inventory gave no year)",
+   "Language not in the metadata: Spanish assumed, Latin guessed by function-word frequency for 0 documents.",
+   "Paleographic transcription kept (critical text dropped); editorial brackets/marginal remarks and expanded-abbreviation italics stay inside the text; line numbers and facsimile labels removed."
+  ]
+ },
+ "apw-acta-pacis-westphalicae": {
+  "id": "apw-acta-pacis-westphalicae",
+  "texts_total": 3210,
+  "words_total": 2789779,
+  "texts_in_window": 3210,
+  "words_in_window": 2789779,
+  "undated": 0,
+  "language_words": {
+   "French": 1471765,
+   "Swedish": 46425,
+   "German": 1271589
+  },
+  "method": "Search listing per volume (/search/query.html?titleAPW_str=<vol>&rows=100) to enumerate all 'dok' records, then per-document TEI XML (/ObjectComponent/project.getObject?id=<id>); removed modern editorial parts (headings, dating/transmission/docNum description divs, foot notes of type edd, expansions of abbreviations); kept the document text (original abbreviations as printed in the edition).",
+  "coverage": "Partial: 3210 of 14,545 listed document records (22%) harvested, from 19 of 41 volumes (APW I 1: 39, APW II A 1: 390, APW II A 2: 253, APW II A 3: 149, APW II A 4: 302, APW II A 5: 293, APW II A 7: 31, APW II A 8: 90, APW II B 1: 257, APW II B 2: 176, APW II B 3,1: 132, APW II B 3,2: 105, APW II B 4: 188, APW II B 5,1: 74, APW II B 5,2: 97, APW II B 6: 125, APW II C 1: 310, APW II C 2: 156, APW II C 3: 43). The crawl stopped at a self-imposed 4-hour budget because the BSB server answered intermittently with 502/504 and timeouts (about 8-12 documents per minute); documents that failed once were not retried. Within Series I and II A-C the volumes are only partly covered (documents that failed once were skipped, and the crawl went volume by volume); Series II C 4, and all of Series III (protocols, negotiation papers, diaries, varia) are unharvested; they can be resumed with scripts/apw-acta-pacis-westphalicae.py (files are cached). Excluded by design: introductions, prefaces, source lists, registers, headings, archival descriptions and footnotes of the edition.",
+  "problems": [
+   "Partial harvest only (see coverage); the site was unstable (502 Bad Gateway, maintenance page, timeouts).",
+   "The edition is a modern critical edition of period documents; the German text in Series I-III is the archival original (German, French, Latin, Swedish), but editorial insertions in square brackets and the line-break hyphenation of the printed edition remain in the text.",
+   "Year from the document's dateline (date@when); documents without date fall back to a year in the title."
+  ]
+ },
+ "bakfj-friedrich-johann": {
+  "id": "bakfj-friedrich-johann",
+  "texts_total": 302,
+  "words_total": 122564,
+  "texts_in_window": 302,
+  "words_in_window": 122564,
+  "undated": 0,
+  "language_words": {
+   "German": 112086,
+   "Latin": 10478
+  },
+  "method": "Listing pages /doc/search?page=1..170 (session cookie) to get all 3385 document numbers and the 'Editing completed' flag; then /print/<Nr> for each completed document; kept the part of #text after the German summary (the edited source text), dropped the Regest, metadata, indices and apparatus tabs",
+  "coverage": "302 documents with an edited source text staged (catalogue says about 330). Method: all 3,385 listing entries read; the 1,759 numbered documents flagged 'Editing completed' fetched via /print/<Nr>; 1,470 of them show only the German summary and were not staged. Not fetched: the 1,367 metadata-only entries (a sample of 13 had no source text) and 4 flagged-completed entries whose number has a letter suffix or no number (e.g. 185a, 198a, 603a); 'Kabinettstuecke' (12 documents) not included.",
+  "problems": [
+   "Catalogue figure (330 texts) is higher than the 302 found: the difference is probably the 4 unfetched entries, the 'Kabinettstuecke' and texts added since the catalogue count.",
+   "Years from the metadata line; undated pieces ('zwischen 1510 und 1517') take the first year."
+  ]
+ },
+ "balassi-osszes-verse": {
+  "id": "balassi-osszes-verse",
+  "texts_total": 114,
+  "words_total": 21016,
+  "texts_in_window": 114,
+  "words_in_window": 21016,
+  "undated": 114,
+  "language_words": {
+   "Hungarian": 21016
+  },
+  "method": "No bulk export. Site is a set of HTML frames: poem list from kr98.htm / abc.htm, text frame of each poem (krit/r<nnnn>.htm), decoded as ISO-8859-2; kept only the critical-text frame (stripped verse and footnote numbers, apparatus/notes frames r*j/m/s/a not fetched).",
+  "coverage": "All 114 pages linked from the contents lists (poems, fragments, prose note).",
+  "problems": [
+   "Text is the editor's critical text in modernised Hungarian spelling (original-spelling witnesses BC/FJK appear only in the apparatus, not harvested).",
+   "No dates per poem on the site; year=None with dateless_in_window=True because all Balassi poems are from the 1570s-1594 (he died in 1594).",
+   "A few prose notes/headings by the editor (e.g. dedication lines, melody indications) are part of the poem frame and kept."
+  ]
+ },
+ "balkan-slavic-digital-editions": {
+  "id": "balkan-slavic-digital-editions",
+  "texts_total": 127,
+  "words_total": 216705,
+  "texts_in_window": 13,
+  "words_in_window": 24058,
+  "undated": 7,
+  "language_words": {
+   "Church Slavonic": 13192,
+   "Bulgarian": 9010,
+   "Romanian": 1856
+  },
+  "method": "Found the portal's data JSON files by reading search_engine.php; downloaded 6 JSON files (lt, petka, sva, data_1, data_2) and rebuilt each text from the 'dipl' tokens.",
+  "coverage": "All texts in the portal's corpora (Excerpts 22, Life of St Petka 16, Tale of Alexander 5, Pop Puncov Sbornik 85 chapters); only part falls within 1450-1700 (the Sbornik, 1796, is entirely outside).",
+  "problems": [
+   "punco-073: several data blocks merged into one text",
+   "Texts rebuilt from the portal's own token-level JSON files (lt_data.json, petka_data.json, sva_data.json, data_1/2.json, linked from search_engine.php); diplomatic Latin transliteration column 'dipl' only (Cyrillic, lemmas, tags, English translations dropped). Editorial symbols alone as tokens (===, club, dagger) removed; critical-edition markers like [...] and *folio* numbers remain inside the text.",
+   "Dates are not in the data files: taken from the site's description pages and CLARIN.SI deposit 11356/1441 headers; those marked 'approximate' in the source field are estimates (century midpoints or decades). Texts known only by century that lies wholly in 1450-1700 (16th/17th c.) are year=None with dateless_in_window=True: Sofia Alexander edition, CIAI 1161 Satanael text, NBKM 709, BAR Ms.slav 287. Veles (15th c.), Odessa and Petersburg Alexander editions have no year on the site (undated, not counted in window).",
+   "Letters of Wallachian princes are three letters (1456-1481) in one record (the data has no letter boundary), year 1479.",
+   "Joseph-Volokolamsk 1537 manuscript is mentioned on the site but has no text in the data files; not harvested. Excerpts and Petka sources of 1450-1700 present: Vukovic 1536, Kozicic 1531, Letters, Rostovski 1689, Varlaam 1643, Tixonravov, Ljubljana, Kiev damaskin.",
+   "Same texts partly overlap the CLARIN.SI deposit 11356/1441 (23 texts), which was not harvested separately to avoid duplicates. License CC BY-SA 4.0 (site)."
+  ]
+ },
+ "bayle-correspondance": {
+  "id": "bayle-correspondance",
+  "texts_total": 1420,
+  "words_total": 1251400,
+  "texts_in_window": 1420,
+  "words_in_window": 1251400,
+  "undated": 5,
+  "language_words": {
+   "French": 1195910,
+   "Latin": 55490
+  },
+  "method": "Sitemap.xml lists all letter pages (SPIP); fetched each, extracted div.texte_lettre (letter text), dropped notes, tags and footnote markers, title kept",
+  "coverage": "1420 letters (pages 1567 in sitemap minus 147 translation pages): letters 1-1405 of the online edition",
+  "problems": [
+   "https://bayle-correspondance.univ-st-etienne.fr/?Lettre-634-Guy-Mesmin-a-Pierre: flagged [ Latin ] on the site but text is mostly French; labelled French",
+   "https://bayle-correspondance.univ-st-etienne.fr/?Lettre-1261-Pierre-Bayle-a-Jean: flagged [ Latin ] on the site but text is mostly French; labelled French",
+   "https://bayle-correspondance.univ-st-etienne.fr/?Lettre-1131-Pierre-Bayle-a-Theodor: flagged [ Latin ] on the site but text is mostly French; labelled French",
+   "77 letters without a date on the page got the year of their two neighbours in the chronological numbering (both equal)",
+   "5 letters without a parsable or interpolated year: year=None with dateless_in_window=True (the edition covers letters 1-1405, all dated 1662-1698 per the catalogue record)",
+   "147 pages that are modern French translations of Latin letters (link 'Texte latin') excluded",
+   "Letter pages include the letter text only (notes and footnote markers removed); the title line (letter number, sender, recipient) is kept as the first line."
+  ]
+ },
+ "bess-of-hardwick-letters": {
+  "id": "bess-of-hardwick-letters",
+  "texts_total": 234,
+  "words_total": 100764,
+  "texts_in_window": 234,
+  "words_in_window": 100764,
+  "undated": 0,
+  "language_words": {
+   "English": 100764
+  },
+  "method": "Downloaded the DHI data-service zip (XML letters + SQL metadata); year from letters.sort_date in the SQL dump.",
+  "coverage": "All 234 letters, diplomatic transcription (the XML is the single diplomatic version, with abbreviation expansions as inline tags). Normalised transcripts are not in the download.",
+  "problems": [
+   "Some dates are conjectural (e.g. '[1600?]'); year taken from sort_date.",
+   "0 letters without date.",
+   "Not TEI: wrapped in <TEI><text><body> so RQ's counter works; copyright block, change history and archivist notes removed."
+  ]
+ },
+ "blotius-inventar-1576": {
+  "id": "blotius-inventar-1576",
+  "texts_total": 1,
+  "words_total": 10018,
+  "texts_in_window": 1,
+  "words_in_window": 10018,
+  "undated": 0,
+  "language_words": {
+   "Latin": 10018
+  },
+  "method": "Downloaded the TEI_SOURCE file; kept <text> with original-spelling readings (removed <reg>/<expan>).",
+  "coverage": "The whole transcribed volume (letters M-Z as far as transcribed; the site says N-U are not transcribed).",
+  "problems": [
+   "<note> elements (e.g. 'in libro compactae') removed as annotation; they may be partly period text, so word count is slightly low.",
+   "Single record for the whole inventory (656 entries)."
+  ]
+ },
+ "bodleian-first-folio": {
+  "id": "bodleian-first-folio",
+  "texts_total": 36,
+  "words_total": 822450,
+  "texts_in_window": 36,
+  "words_in_window": 822450,
+  "undated": 0,
+  "language_words": {
+   "English": 822450
+  },
+  "method": "Downloaded the per-play TEI XML files linked from the downloads page.",
+  "coverage": "All 36 plays of the First Folio transcription.",
+  "problems": [
+   "Year set to 1623 (date of the printed volume), not composition date.",
+   "Footnotes/editorial notes in XML are not stripped; RQ counter keeps only <text>/<body>."
+  ]
+ },
+ "bodley-diplomatic-correspondence": {
+  "id": "bodley-diplomatic-correspondence",
+  "texts_total": 982,
+  "words_total": 672006,
+  "texts_in_window": 982,
+  "words_in_window": 672006,
+  "undated": 0,
+  "language_words": {
+   "English": 672006
+  },
+  "method": "GitHub tarball (codeload) of livesandletters/bodley1 master; xml/<year>/*.xml (project-specific, non-TEI markup). Converted to plain text: contractions shown in the source as <super>/<overline>/<abbreviation>/<scharfes_s> with replace= were expanded using the replace value (as the edition's 'expanded' view); folio refs, catchwords, editorial notes, endorsements/docket notes and later additions removed; line-end hyphenation rejoined; deleted words (<deletion>) kept.",
+  "coverage": "All 982 letter files with transcribed letter text of the 988 XML files in the repository (1585-1597); 6 files with no letter text (address leaf only or empty) skipped: DCB_0806.xml, DCB_0297.xml, DCB_0308.xml, DCB_1114.xml, DCB_0016.xml, DCB_0434.xml.",
+  "problems": [
+   "Year taken from the repository's year directory (1585-1597), not parsed from each letter's date; a few letters may be misfiled by a year.",
+   "Project markup is not TEI; text reconstruction is heuristic (whitespace in the XML is formatting only).",
+   "Letters are by Bodley and correspondents; some contain foreign-language phrases, counted as English.",
+   "The 990 in the catalogue vs 988 XML files in the repo (the repo has year folders 1585-1597)."
+  ]
+ },
+ "book-of-margery-kempe-selu": {
+  "id": "book-of-margery-kempe-selu",
+  "texts_total": 1,
+  "words_total": 1981,
+  "texts_in_window": 1,
+  "words_in_window": 1981,
+  "undated": 0,
+  "language_words": {
+   "Middle English": 1981
+  },
+  "method": "Showcase viewer page for the Wynkyn de Worde pamphlet (webapp_wynkyn.php) fetched once; folio divs parsed, diplomatic abbreviated forms kept (<span class=abbr>), expansions (<span class=expan>) and added marginal folio numbers dropped.",
+  "coverage": "The Wynkyn de Worde pamphlet only (the one in-period text). The manuscript Book of Margery Kempe (BL Add. 61823, c. 1440) is out of window and was not harvested.",
+  "problems": [
+   "Abbreviation marks are Unicode combining characters from the site's Andron/MUFI encoding; word counts depend on spacing of line-end splits (words broken across lines are kept as split).",
+   "Year 1501 is the printed date 'c. 1501'."
+  ]
+ },
+ "boschdoc": {
+  "id": "boschdoc",
+  "texts_total": 883,
+  "words_total": 144255,
+  "texts_in_window": 714,
+  "words_in_window": 122777,
+  "undated": 6,
+  "language_words": {
+   "Spanish": 12612,
+   "Latin": 45131,
+   "Middle Dutch": 61183,
+   "French": 3851
+  },
+  "method": "Read config.json (939 entries) and each entry's JSON data file; one record per entry = plain text of the Transcription layer (Dutch/Spanish/English-labelled copies are identical; translations, comments and bibliographic notes excluded). Year = metadata Datum, else Boekjaar, else Jaar van publicatie. Language guessed by stopword counts per entry.",
+  "coverage": "All entries with a transcription; entries lacking one are skipped (counted in problems).",
+  "problems": [
+   "56 entries have no transcription and were skipped.",
+   "6 transcribed entries have no usable date (year=None, dateless_in_window=False).",
+   "Language per entry is a heuristic (metadata gives none); Latin/Middle Dutch/French/Spanish confusion possible in short texts. Folio markers kept in text."
+  ]
+ },
+ "boyle-workdiaries": {
+  "id": "boyle-workdiaries",
+  "texts_total": 40,
+  "words_total": 274260,
+  "texts_in_window": 40,
+  "words_in_window": 274260,
+  "undated": 0,
+  "language_words": {
+   "English": 274260
+  },
+  "method": "Crawled the 'text-only diplomatic transcript' page of each workdiary linked from /wd/view/view.html (robots.txt allows /wd/, Crawl-delay 10 respected). Only div.entry text kept; headnotes, folio markers, buttons stripped. Diplomatic version kept, editorial version skipped.",
+  "coverage": "All workdiaries listed on the view page (diplomatic text-only pages).",
+  "problems": [
+   "Mixed English/French/Latin: language set to English (main language)",
+   "year taken from the workdiary title or first 164x-169x year in text; if none, year=None and dateless_in_window=True because the whole resource spans 1647-1691",
+   "Diplomatic transcript includes editorial brackets such as [unclear]"
+  ]
+ },
+ "briefe-adeliger-frauen": {
+  "id": "briefe-adeliger-frauen",
+  "texts_total": 185,
+  "words_total": 38858,
+  "texts_in_window": 184,
+  "words_in_window": 38680,
+  "undated": 1,
+  "language_words": {
+   "German": 38680
+  },
+  "method": "Letter list page briefliste2.htm -> 17 letter pages; split at 'Einzelbrief:N'; italic text (transcription/quotations) kept, modern regests/headers dropped; blueml pages are transcription-only.",
+  "coverage": "185 letters with period text from 17 pages; letter inventories beyond these pages (c. 2,900 letters listed) are not transcribed on the site.",
+  "problems": [
+   "196 letter entries have only a modern summary (no transcription or quoted original) and were skipped",
+   "1 letters without a parsable year (year=None, not in window)",
+   "Letters with a transcription are kept as the transcribed (italic) original text; where only quoted fragments exist (italic quotations inside a regest) only those fragments are kept. Some letters (e.g. Judith Sabina von Starhemberg, Helena von Schallenberg) appear both in the regest pages and in the Bluemelhuber transcription pages (blueml1/3) and may be partly duplicated."
+  ]
+ },
+ "briefwisseling-constantijn-huygens": {
+  "id": "briefwisseling-constantijn-huygens",
+  "texts_total": 0,
+  "words_total": 0,
+  "texts_in_window": 0,
+  "words_in_window": 0,
+  "undated": 0,
+  "language_words": {},
+  "method": "Not harvested. Probed robots.txt and the start page only.",
+  "coverage": "Nothing harvested (0 of the 9,237 letters).",
+  "problems": [
+   "resources.huygens.knaw.nl returns 403 Forbidden to a non-browser user agent (including this project's identified UA), and its robots.txt disallows /retro/* and /retroboeken/* (the OCR viewer that serves the text of Worp's edition), the metadata exports (*.xls/*.csv) and all search URLs. Only the start page and robots.txt were read (once, with a generic UA, to learn the rules); no crawling or workaround was attempted.",
+   "Even if reachable, the text is OCR of Worp's 1911-1917 printed edition with his introductions, notes and indexes mixed in, so period text could not be isolated cleanly. Possible alternative route: the public-domain Worp volumes on archive.org/DBNL (not tried, would be a different source)."
+  ]
+ },
+ "bucherinventar-elisabeth-von-calenberg": {
+  "id": "bucherinventar-elisabeth-von-calenberg",
+  "texts_total": 1,
+  "words_total": 567,
+  "texts_in_window": 1,
+  "words_in_window": 567,
+  "undated": 0,
+  "language_words": {
+   "German": 567
+  },
+  "method": "Direct download of the single TEI transcript (diglib.hab.de); inventory entries (listBibl/bibl) renamed to seg so that they count as text; variant readings (app/rdg) dropped; footnotes and bibliographies are left out by RQ's counter.",
+  "coverage": "all: the single TEI file (69 book entries, inventory of 1539).",
+  "problems": []
+ },
+ "cervantes-la-entretenida": {
+  "id": "cervantes-la-entretenida",
+  "texts_total": 1,
+  "words_total": 18850,
+  "texts_in_window": 1,
+  "words_in_window": 18850,
+  "undated": 0,
+  "language_words": {
+   "Spanish": 18850
+  },
+  "method": "Crawled the 'princeps' (1st edition, modern spelling) HTML pages linked from the scene selector (front matter + 20 scenes), extracted the .text.entretenida div only",
+  "coverage": "All of the Spanish first-edition text (front matter, prologue, dedication, cast, three acts). Not included: ed. O'Neill and unpunctuated duplicates, facsimile, English translation, indices.",
+  "problems": [
+   "Only the modern-spelling transcription of the 1615 edition is online as text (the facsimile is images), so it stands as the original-spelling text. Check line numbers/speaker tags in raw."
+  ]
+ },
+ "charta-corpus": {
+  "id": "charta-corpus",
+  "texts_total": 787,
+  "words_total": 592960,
+  "texts_in_window": 250,
+  "words_in_window": 203534,
+  "undated": 2,
+  "language_words": {
+   "Spanish": 203534
+  },
+  "method": "Per-document TEI XML served at corpora.uah.es/charta/xmlfiles/<id>.xml (no bulk download); ids and years taken from the corpus listing page (all 787 documents).",
+  "coverage": "All documents of the corpus listing (944-1871), out-of-window ones kept in staging with their year.",
+  "problems": [
+   "Files are TEITOK-tokenised paleographic transcriptions (one version only); language chosen by a Spanish/Latin stopword heuristic, so some Latin or Catalan passages are labelled with the dominant language only.",
+   "Year from listing 'Año' (first year of a range)."
+  ]
+ },
+ "chymistry-of-isaac-newton": {
+  "id": "chymistry-of-isaac-newton",
+  "texts_total": 0,
+  "words_total": 0,
+  "texts_in_window": 0,
+  "words_in_window": 0,
+  "undated": 0,
+  "language_words": {},
+  "method": "Not harvested. Looked for a bulk route: no XML/TEI download link on the site; GitHub repos IUBLibTech/newton_chymistry and IUBLibTech/newton_lsa checked via the API tree listing: they hold only site code (XProc, XSLT, Solr config, DTDs, fonts, figures), no manuscript TEI; no Zenodo deposit found.",
+  "coverage": "Nothing harvested (0 of 73 manuscripts).",
+  "problems": [
+   "webapp1.dlib.indiana.edu/robots.txt (User-agent: *) disallows /newton/mss (the manuscript text pages) and /newton/search (the browse pager), so crawling the transcriptions is not permitted; stopped there.",
+   "The TEI XML is not published (neither on the site nor in the project's GitHub repositories). Permission or a data copy from the project team would be needed."
+  ]
+ },
+ "codea-plus-2022": {
+  "id": "codea-plus-2022",
+  "texts_total": 0,
+  "words_total": 0,
+  "texts_in_window": 0,
+  "words_in_window": 0,
+  "undated": 0,
+  "language_words": {},
+  "method": "Not harvested. Home page read (corpuscodea.es, no robots.txt); no bulk export/API/OAI found, documents are viewable only one by one through the web interface (corpus/documento.php).",
+  "coverage": "Nothing harvested (0 of 1,498 in-window documents).",
+  "problems": [
+   "The site's own 'Condiciones de uso' (CC BY-NC-ND) state: 'No está permitida la elaboración de obras derivadas (nuevos corpus, compilaciones, recopilaciones, proyectos) que reproduzcan en formato digital o en papel documentos del corpus CODEA+ 2022. Los materiales de CODEA podrán ser citados, pero no reutilizados.' Copying the documents into a staging corpus would be exactly that, so no text was downloaded. Needs the owners' (GITHE, Univ. de Alcalá) permission; to be decided by the project."
+  ]
+ },
+ "cordiam": {
+  "id": "cordiam",
+  "texts_total": 7340,
+  "words_total": 8083814,
+  "texts_in_window": 7340,
+  "words_in_window": 8083814,
+  "undated": 0,
+  "language_words": {
+   "Spanish": 8083814
+  },
+  "method": "Document list via the site's subcorpus function, then PDF per document (1 s between requests); editorial <tags> in the PDF text such as <cit: ...> or <tach: ...> have their angle brackets replaced by square brackets so that the text is not mistaken for markup.",
+  "coverage": "All documents with a year 1494-1700 in CORDIAM (Documentos and Literatura subcorpora).",
+  "problems": [
+   "Document list obtained from the site's own 'Cantidad de palabras' function (POST 20-22/2022.1001?15), queried year by year 1494-1700 (7,340 documents, 8.11M words; the three sub-corpora Documentos and Literatura; Prensa is 18th-19th c. only). Texts downloaded as the per-document PDFs offered by the site ('Mostrar el documento'), page 1 (metadata sheet) dropped, line-break slashes, line numbers and {folio} markers removed. Semi-diplomatic transcriptions with abbreviations expanded (italic in PDF, kept as plain text).",
+   "Documents without a year in the metadata (century only) cannot be selected through the year filter and are not included. Language set to Spanish for all (indigenous-language or Latin passages possible)."
+  ]
+ },
+ "coreecom": {
+  "id": "coreecom",
+  "texts_total": 119,
+  "words_total": 38172,
+  "texts_in_window": 119,
+  "words_in_window": 38172,
+  "undated": 0,
+  "language_words": {
+   "Spanish": 38172
+  },
+  "method": "Document list page -> each documento1 page; extracted only the paleographic edition (first column); critical edition, summary, description skipped.",
+  "coverage": "119 documents listed; 119 harvested.",
+  "problems": [
+   "Year from 'Fecha' field, else from 'Periodo' (start year); all documents are within 1500-1599 per the catalogue"
+  ]
+ },
+ "corpus-mallorca": {
+  "id": "corpus-mallorca",
+  "texts_total": 1251,
+  "words_total": 675989,
+  "texts_in_window": 84,
+  "words_in_window": 31007,
+  "undated": 26,
+  "language_words": {
+   "Spanish": 31007
+  },
+  "method": "No bulk download. Document list from the site's ajax_documentos.php (all ids), then each documento.php page; kept only the 'transcripcion paleografica' column (diplomatic), dropping facsimile links, line numbers, header block, regesto and the critical presentation.",
+  "coverage": "All 1251 documents in the corpus (1640-1909 per catalogue); out-of-window years kept in staging.",
+  "problems": [
+   "Language tagged 'Spanish' for all; passages in Latin or Catalan inside documents are included, editorial language tags like [lat.:] were stripped to a bracket.",
+   "Year = first year in the document's date line; apparatus-free text but word splits at line ends follow the transcription."
+  ]
+ },
+ "cosuiza": {
+  "id": "cosuiza",
+  "texts_total": 123,
+  "words_total": 51790,
+  "texts_in_window": 27,
+  "words_in_window": 8892,
+  "undated": 70,
+  "language_words": {
+   "Spanish": 8892
+  },
+  "method": "Document ids from the stats pages (action=stats&start=...), raw TEITOK XML from /cosuiza/xmlfiles/<id>.xml; plain text built from <tok> contents (transcription with expansions), without facsimile coordinates, lemmas or annotations; year from origDate.",
+  "coverage": "All 123 documents listed on the statistics pages (catalogue: 123).",
+  "problems": [
+   "70 of 123 documents have no date in the TEI header: year=None, dateless_in_window=False, so not counted in window (the corpus covers 1483-1951; some undated ones may be in window).",
+   "Text reconstructed from the TEITOK <tok> elements (abbreviation expansions <ex> included); some documents may be in languages other than Spanish (not checked)."
+  ]
+ },
+ "dasypodius-dictionarium-latinogermanicum": {
+  "id": "dasypodius-dictionarium-latinogermanicum",
+  "texts_total": 1,
+  "words_total": 172925,
+  "texts_in_window": 1,
+  "words_in_window": 172925,
+  "undated": 0,
+  "language_words": {
+   "Latin": 172925
+  },
+  "method": "Downloaded the five TEI part files listed in mets.xml (the master tei-transcript.xml returns 404) and combined their text into one record; 1536 variant readings (app/rdg) dropped, notes dropped by RQ's counter.",
+  "coverage": "all: contents/preface and A-Z (1535 text).",
+  "problems": [
+   "one record for the whole dictionary (5 TEI part files combined); entries are Latin headwords with German glosses, main language recorded as Latin"
+  ]
+ },
+ "deux-visages-de-l-astree": {
+  "id": "deux-visages-de-l-astree",
+  "texts_total": 4,
+  "words_total": 863243,
+  "texts_in_window": 4,
+  "words_in_window": 863243,
+  "undated": 0,
+  "language_words": {
+   "French": 863243
+  },
+  "method": "HTML crawl of the 'reference' version (1621 parts I-III, 1624 part IV; faithful text), livre_N pages only; removed variant spans of the 1607 edition (varp), note markers, page markers, glossary/character links kept as plain text; modernised 'fonctionnelle' and preliminary 1607/1610/1619 versions not fetched",
+  "coverage": "All 12 (or so) books of each of the four parts of the reference edition. Liminaires pages (title pages, dedications, privileges, mixed with editorial commentary) and tables (contents) excluded.",
+  "problems": [
+   "Liminary period texts (dedications, privileges, poems) omitted because they are interleaved with editorial notes",
+   "Text uses 1621 readings ('var21'/'var21nouveau'); 1607 readings dropped",
+   "No robots.txt on server (404)"
+  ]
+ },
+ "devonshire-manuscript": {
+  "id": "devonshire-manuscript",
+  "texts_total": 198,
+  "words_total": 30009,
+  "texts_in_window": 198,
+  "words_in_window": 30009,
+  "undated": 0,
+  "language_words": {
+   "English": 30009
+  },
+  "method": "Downloaded the GitHub tarball of etcluvic/devonshire-ms (main); one record per file in 'Devonshire Manuscript poems' (the diplomatic machine-readable transcription of the manuscript, one poem/item per file); raw = <text> with headnotes (<head>), intro/context/editorial notes and <abbr> (expansion kept) removed.",
+  "coverage": "All poem/item files of the manuscript transcription (frontmatter file LDev000 excluded). The 288 'witnesses' files (copies of the same poems in other manuscripts and prints, e.g. STC prints, Egerton MS) were not harvested: they are other sources, with their own dates, and belong to other collections.",
+  "problems": [
+   "No per-item date: year set to 1540 for all (manuscript compiled c. 1532-1547; catalogue c. 1539-1547).",
+   "Some editorial matter within <note type=annotation> may remain (marginalia are period text)."
+  ]
+ },
+ "dietrich-klostertagebuch": {
+  "id": "dietrich-klostertagebuch",
+  "texts_total": 4,
+  "words_total": 564464,
+  "texts_in_window": 4,
+  "words_in_window": 564464,
+  "undated": 0,
+  "language_words": {
+   "German": 564464
+  },
+  "method": "Crawled every scan page (einsiedeln_NNN.html, page list from the page selector) of the four published volumes; kept the diplomatic transcription (#main-text lines) and the author's marginalia text (#pf-marginalia), dropped navigation, Latin translations (tooltip attributes / marginalia translation boxes), registers and covers",
+  "coverage": "All four published volumes (Band 6, 13, 15, 17), one record per volume; 3039 pages fetched, 0 without text. The other 14 volumes are unpublished.",
+  "problems": [
+   "Text is mixed German/Latin; labelled German (main language). Year = earliest year seen in the volume's page headers; volumes span two to three years."
+  ]
+ },
+ "digital-renaissance-editions": {
+  "id": "digital-renaissance-editions",
+  "texts_total": 18,
+  "words_total": 116731,
+  "texts_in_window": 16,
+  "words_in_window": 113845,
+  "undated": 2,
+  "language_words": {
+   "English": 113845
+  },
+  "method": "Foyer/plays page -> each work page (Library/Annex) -> old-spelling/diplomatic document ids (/m/doc/<id>/) -> each scene page; kept only div.line text of #text-body (line-number milestones removed). Modern-spelling editions, introductions, notes skipped. robots.txt disallows /exist/ only (not used).",
+  "coverage": "20 work pages, 19 old-spelling documents found; 18 harvested with text; the rest show 'Text forthcoming' (text database no longer served): [('Weathercock_Q1', '404')]",
+  "problems": [
+   "Many Annex documents have no text served on the live site (Text forthcoming)",
+   "Documents whose title has no year get year=None and dateless_in_window=False",
+   "Documents may include stage directions and speaker prefixes"
+  ]
+ },
+ "digital-scholarly-edition-of-angelo-poliziano-s-marginal-notes-to-the-epistle-of-sappho-to-phaon": {
+  "id": "digital-scholarly-edition-of-angelo-poliziano-s-marginal-notes-to-the-epistle-of-sappho-to-phaon",
+  "texts_total": 1,
+  "words_total": 2466,
+  "texts_in_window": 1,
+  "words_in_window": 2466,
+  "undated": 0,
+  "language_words": {
+   "Latin": 2466
+  },
+  "method": "GitHub codeload tarball of the repository; extracted the TEI file and rebuilt the text of <text xml:id=edizione_multilivello> as plain text (orig/sic/abbr readings kept, deletions, heads, notes and bibliography dropped)",
+  "coverage": "all: the single TEI edition of Poliziano's 238 marginal notes (one record for the whole edition); only the 'postilla' divs of the body are kept; front matter (modern introduction), back matter (loci paralleli), the printed-Ovid 'typis' divs and the second <text> (ipertesto_fonti) excluded",
+  "problems": [
+   "Year 1477 = start of the <creation> date range 1477-1481 for the annotations (copy printed Parma 1477).",
+   "Notes quote ancient Latin and Greek authors (Ovid, Strabo...) because Poliziano copied them in the margins; language given as Latin (mixed with Greek).",
+   "Licence on the TEI: CC BY-NC-SA 4.0."
+  ]
+ },
+ "dio": {
+  "id": "dio",
+  "texts_total": 978,
+  "words_total": 39219,
+  "texts_in_window": 700,
+  "words_in_window": 28071,
+  "undated": 0,
+  "language_words": {
+   "Latin": 15045,
+   "Low German": 3960,
+   "German": 9050,
+   "Hebrew": 16
+  },
+  "method": "Epigraf dumps page: downloaded the three EpiDoc zips (di7, di77, di102); one record per article, keeping only <div type=edition> (the inscription transcription), dropping modern translation, commentary and bibliography. CGIF dump downloaded and inspected (metadata only, not ingested).",
+  "coverage": "Partial: 978 of 31,197 articles (3 volumes with EpiDoc transcriptions); remaining volumes only exist as printed/portal text (portal behind bot check) or announced future dumps",
+  "problems": [
+   "316 dates were century/part-century expressions (e.g. '15.Jh.', 'M.16.Jh.') converted to a mid-point year",
+   "Only 3 volumes (DI 7 Braunschweig, DI 77 Greifswald, DI 102 Stralsund; 978 articles) have inscription transcriptions as EpiDoc; the full CGIF dump (31,197 articles) holds only titles/dates/keywords, no texts, so the other ~25,900 in-period articles cannot be harvested"
+  ]
+ },
+ "dipko-schwarzenhorn-1649": {
+  "id": "dipko-schwarzenhorn-1649",
+  "texts_total": 31,
+  "words_total": 136267,
+  "texts_in_window": 31,
+  "words_in_window": 136267,
+  "undated": 0,
+  "language_words": {
+   "German": 136267
+  },
+  "method": "Fetched /o:dipko.<id>/TEI_SOURCE for the 31 objects (travel diary rb, instruction i, secondary instruction ni, 26 letters l.*, final report fr, secret report gb), listed from the context pages; raw = <text> with notes and figure descriptions removed. Year from origDate (diary: date of the 1650 fair copy) else first body date else the yymmdd in the object id.",
+  "coverage": "All 31 texts (registers, introductions and commentary objects excluded).",
+  "problems": [
+   "Ids of fr/gb identified from the navigation (o:dipko.fr, o:dipko.gb); check that they are the final and the secret report."
+  ]
+ },
+ "divisiekroniek-cornelius-aurelius": {
+  "id": "divisiekroniek-cornelius-aurelius",
+  "texts_total": 0,
+  "words_total": 0,
+  "texts_in_window": 0,
+  "words_in_window": 0,
+  "undated": 0,
+  "language_words": {},
+  "method": "Not harvested.",
+  "coverage": "None (0 of 899 transcription pages).",
+  "problems": [
+   "resources.huygens.knaw.nl answers HTTP 403 Forbidden to the identified harvest user agent (including robots.txt and the start page); it serves pages only to browser-like agents. Spoofing a browser agent would circumvent the server's bot filtering, so no pages were fetched. No bulk export or alternative route found. Could be done with the publisher's permission or a whitelisted agent."
+  ]
+ },
+ "effectus-amoris": {
+  "id": "effectus-amoris",
+  "texts_total": 1,
+  "words_total": 1656,
+  "texts_in_window": 1,
+  "words_in_window": 1656,
+  "undated": 0,
+  "language_words": {
+   "Hungarian": 1656
+  },
+  "method": "Frame chain index -> 2almenu -> 2atirfr -> 3atir.htm (Betuhiv kritikai szoveg, cp1250). Kept only the letter-faithful transcription; dropped the pronunciation-oriented and modern-language versions, the editorial note, footnote markers and line numbers.",
+  "coverage": "Whole poem (letter-faithful version) harvested; footnotes (3atirj.htm), other versions and photographs excluded.",
+  "problems": [
+   "Year 1588 = imprint date on the print (title page 1587, colophon Debrecen 1588); both in window.",
+   "Text contains a short Latin argument and commonplace (main language Hungarian)."
+  ]
+ },
+ "egpa": {
+  "id": "egpa",
+  "texts_total": 144,
+  "words_total": 141295,
+  "texts_in_window": 8,
+  "words_in_window": 3841,
+  "undated": 20,
+  "language_words": {
+   "Galician-Portuguese": 3841
+  },
+  "method": "TEITOK file lists (index.php?action=files, root + folders) -> every TEI file fetched from corpora.uah.es/egpa/xmlfiles/; year from origDate in msDesc (fallback: year in <title>).",
+  "coverage": "144 TEI files of 191 listed (rest are test files); full platform content at harvest date.",
+  "problems": [
+   "47 files skipped (test/trial/course files or no <text>): ['7PartidasDigital/Partidas_prueba.xml', 'Curso01.xml', 'EGPAdoc-0128_proba.xml', 'EGPAdoc-0226.xml (placeholder)', 'EGPAdoc-0227.xml (placeholder)', 'EGPAdoc-0228.xml (placeholder)', 'EGPAdoc-0229.xml (placeholder)', 'EGPAdoc-0230.xml (placeholder)', 'EdNoa-provaLLisboa.xml', 'LendasCSM_proba.xml', 'LendasCSM_proba2.xml', 'PRUEBA_EGPAlit_retoken1.xml']",
+   "20 texts without a date in the header (year=None, not counted): ['CARTERAS_001.xml', 'CARTERAS_002.xml', 'CARTERAS_004.xml', 'EGPAdoc-0044.xml', 'EGPAdoc-0057.xml', 'EGPAdoc-0123.xml', 'EGPAdoc-0124.xml', 'EGPAdoc-0125.xml', 'EGPAdoc_EGPAdoc-0013.xml', 'EGPAdoc_EGPAdoc-0014.xml', 'EGPAdoc_EGPAdoc-0018.xml', 'EGPAdoc_EGPAdoc-0021.xml', 'EGPAdoc_EGPAdoc-0037.xml', 'EGPAlit_EGPAlit-G-MSan.xml', 'EGPAlit_EGPAlit-G-Rec-01.xml']",
+   "Texts labelled Galician-Portuguese except CARTERAS_* (Spanish); a few other documents may be Castilian or Latin. Raw is the TEITOK tokenised TEI (tok/note markup incl. editorial footnotes inside <note>; RQ counter keeps <text>). Most texts are medieval and fall outside 1450-1700."
+  ]
+ },
+ "elec-dubourg": {
+  "id": "elec-dubourg",
+  "texts_total": 96,
+  "words_total": 20548,
+  "texts_in_window": 96,
+  "words_in_window": 20548,
+  "undated": 0,
+  "language_words": {
+   "French": 20548
+  },
+  "method": "Downloaded the complete TEI file and split it into its <text> units (letters + Great Bible inquiry); body only, front matter (summary, tradition) excluded.",
+  "coverage": "all",
+  "problems": []
+ },
+ "elec-edits-de-pacification": {
+  "id": "elec-edits-de-pacification",
+  "texts_total": 15,
+  "words_total": 60119,
+  "texts_in_window": 15,
+  "words_in_window": 60119,
+  "undated": 0,
+  "language_words": {
+   "French": 60119
+  },
+  "method": "Downloaded the complete TEI (src/editsdepacification.xml); one record per <text> (15 edicts/treaties); body only; <app> collapsed to the edited <lem> reading (variants dropped); notes removed by the counter.",
+  "coverage": "all",
+  "problems": []
+ },
+ "epicat": {
+  "id": "epicat",
+  "texts_total": 40,
+  "words_total": 9315,
+  "texts_in_window": 40,
+  "words_in_window": 9315,
+  "undated": 0,
+  "language_words": {
+   "Catalan": 8992,
+   "Spanish": 323
+  },
+  "method": "Year histogram endpoint (api?histograma) lists every letter id with its year; fetched each letter page dated 1450-1700 and kept the transcription box (div.alert-warning) only; metadata, summaries and apparatus dropped.",
+  "coverage": "All 40 letters dated 1526-1699 listed by the site histogram; letters after 1700 not fetched.",
+  "problems": []
+ },
+ "epidat": {
+  "id": "epidat",
+  "texts_total": 44285,
+  "words_total": 1369973,
+  "texts_in_window": 1925,
+  "words_in_window": 66099,
+  "undated": 2236,
+  "language_words": {
+   "Hebrew": 66099
+  },
+  "method": "Downloaded tsv/id-year-transcription-translation.tsv from the public GitLab repo epidat/data (main); one record per inscription (id), raw = transcription column only (the German translation column is excluded). Year = year column.",
+  "coverage": "All inscriptions with a transcription in the TSV (the repository's bulk export of 322 editions); the per-monument TEI XML was not fetched because the TSV carries the same transcription and the catalogue counts on it. Out-of-window rows kept in staging.",
+  "problems": [
+   "417 rows had a stray tab (more than 4 columns): transcription taken from column 3 only.",
+   "2236 rows without a parseable year (year=None, dateless_in_window=False).",
+   "Transcription is Hebrew, often followed by a German-language rendering of the stone's own text; language set to Hebrew when Hebrew letters dominate, else German."
+  ]
+ },
+ "erdy-kodex": {
+  "id": "erdy-kodex",
+  "texts_total": 1,
+  "words_total": 59427,
+  "texts_in_window": 1,
+  "words_in_window": 59427,
+  "undated": 0,
+  "language_words": {
+   "Hungarian": 59427
+  },
+  "method": "Per-spread HTML pages (html/NNN.html) listed in the index table; line-number column, footnote markers and footnotes (editorial notes, in Hungarian) removed; left then right page column joined.",
+  "coverage": "Transcribed pages available online only: 106 page files covering pages 001-055 and 103-157; the rest of the critical edition is 'in preparation'.",
+  "problems": [
+   "Dated 1526-1527 (copied); year 1527 used. Transcription uses ASCII markup for special letters (e.g. /y:/, /o'/), left as is."
+  ]
+ },
+ "etheridge-encomium": {
+  "id": "etheridge-encomium",
+  "texts_total": 1,
+  "words_total": 4809,
+  "texts_in_window": 1,
+  "words_in_window": 4809,
+  "undated": 0,
+  "language_words": {
+   "Greek": 4809
+  },
+  "method": "Per-folio HTML transcription fragments (Resources/Texts/Transcriptions/), discovered from the folio selector of the edition page; tags stripped, concatenated into one text. Edited text, translation and apparatus not used.",
+  "coverage": "76 of 76 folio sides.",
+  "problems": [
+   "Folio-side headings absent; word count may include editorial characters such as '/' used as overlays in the markup; 'c. 1566' given as 1566."
+  ]
+ },
+ "ferdinand-i-familienkorrespondenz": {
+  "id": "ferdinand-i-familienkorrespondenz",
+  "texts_total": 201,
+  "words_total": 109594,
+  "texts_in_window": 201,
+  "words_in_window": 109594,
+  "undated": 0,
+  "language_words": {
+   "Latin": 19499,
+   "Spanish": 4729,
+   "French": 85166,
+   "German": 200
+  },
+  "method": "Letter list from letters.html; TEI file per letter from data/dtabf_id/band_001/<id>.xml (cached). Only the div[@type=letter] (transcription) kept; German/English summaries, archive notes, commentary and footnotes dropped. Year from correspAction[sent]/date; language by stopword heuristic.",
+  "coverage": "All letter records listed (262); 201 have transcribed text and were harvested; 61 without transcription/XML skipped: A009, A013, A017, A019, A020, A022, A024, A027, A028, A030, A031, A040, A043, A044, A045, A049, A052, A055, A057, A058, A059, A061, A063, A064, A068, A077, A084, A086, A093, A095, A098, A099, A108, A110, A113, A115, A126, A135, A155, A160, A161, A163, A176, A177, A179, A180, A181, A186, A194, A196, A197, A201, A203, A204, A208, A213, A219, A229, A230, A235, A236",
+  "problems": [
+   "Language assigned by heuristic (Latin/German/French/Spanish/Italian mix).",
+   "0 letters without usable year."
+  ]
+ },
+ "folger-shakespeare": {
+  "id": "folger-shakespeare",
+  "texts_total": 42,
+  "words_total": 1107569,
+  "texts_in_window": 42,
+  "words_in_window": 1107569,
+  "undated": 0,
+  "language_words": {
+   "English": 1107569
+  },
+  "method": "Downloaded the all-plays XML bundle (flgr.sh/txtfssAllxml, nested per-work zips) and took each work's TEI file. Years are approximate composition dates from scholarly chronology (TEI header only has modern edition dates).",
+  "coverage": "All works in the bundle (plays, Sonnets, narrative poems). Modern-spelling Folger editions; the only version offered as XML.",
+  "problems": [
+   "Texts are modern-spelling editions, not diplomatic; no original-spelling version is offered.",
+   "year = approximate composition date (c. 1591-1613), not from TEI header; editorial introductions are not in the XML."
+  ]
+ },
+ "fonteny-livre-d-enigmes": {
+  "id": "fonteny-livre-d-enigmes",
+  "texts_total": 1,
+  "words_total": 3308,
+  "texts_in_window": 1,
+  "words_in_window": 3308,
+  "undated": 0,
+  "language_words": {
+   "French": 3308
+  },
+  "method": "Direct download of the original-spelling TEI transcript (tei-transcript-fr-or.xml); regularised version tei-transcript-fr.xml, introduction and commentary not taken; deleted words and regularisations dropped.",
+  "coverage": "all: the single original-spelling TEI file.",
+  "problems": [
+   "year is approximate: the manuscript is dated c. 1600 (early 17th century) in the catalogue; 1600 used"
+  ]
+ },
+ "fruchtbringende-gesellschaft-briefe-1617-1626": {
+  "id": "fruchtbringende-gesellschaft-briefe-1617-1626",
+  "texts_total": 91,
+  "words_total": 48046,
+  "texts_in_window": 91,
+  "words_in_window": 48046,
+  "undated": 0,
+  "language_words": {
+   "German": 48046
+  },
+  "method": "Letter files (briefe/*.xml) listed in mets.xml, fetched one by one; only the letter text (div type=content) is kept: editorial summary, source description, address block and commentary dropped. Year = 1600 + the two leading digits of the file name (YYMMDD).",
+  "coverage": "all: 91 letter files listed in mets.xml of Band 1 (1617-1626).",
+  "problems": [
+   "briefe/210401.xml: no div type=content, whole body kept",
+   "catalogue estimate of 101,000 words evidently includes the editorial summaries, source descriptions and commentary; only the letter text itself is staged (about 48,000 words)"
+  ]
+ },
+ "galileo-ms-gal-72": {
+  "id": "galileo-ms-gal-72",
+  "texts_total": 237,
+  "words_total": 54947,
+  "texts_in_window": 237,
+  "words_in_window": 54947,
+  "undated": 237,
+  "language_words": {
+   "Latin": 50361,
+   "Italian": 4586
+  },
+  "method": "HTML crawl of each folio overview page listed in MAIN/LIST.HTM (folios 33-196); took only the 'final text' transcription table; text-block detail pages, indices, apparatus and images not fetched",
+  "coverage": "All folio sides with a final-text transcription; empty pages skipped.",
+  "problems": [
+   "Texts are undated: Ms. Gal. 72 documents work c. 1590-1637, treated as dateless_in_window",
+   "Language assigned per folio side by a word-list heuristic (Latin/Italian mixed within pages)",
+   "Entry page requires clicking an 'I accept' notice (copyright notice on images/publication); no login, no bot challenge; pages are plain static HTML",
+   "Licence note: no use for publication or commercial purposes without BNCF permission; staging for counting only",
+   "Includes numbers, formulae and tables as transcribed"
+  ]
+ },
+ "grand-tour-digital-tei-dataset-of-early-modern-travel-testimonies-grand-tour-tei": {
+  "id": "grand-tour-digital-tei-dataset-of-early-modern-travel-testimonies-grand-tour-tei",
+  "texts_total": 4,
+  "words_total": 127448,
+  "texts_in_window": 3,
+  "words_in_window": 93954,
+  "undated": 0,
+  "language_words": {
+   "German": 93954
+  },
+  "method": "Zenodo record 23055358 zip (TEI-XML repository); only transcribed travel journals under Reiseberichte/ taken, introductions, registers and index excluded; year = first <date when> in the body",
+  "coverage": "All 4 travel-journal TEI files in the deposit (the deposit holds no other primary texts; introduction/ files are modern editorial text). Corpus is 1652-1701.",
+  "problems": [
+   "Cod. Guelf. 149.14 Extrav. is dated 1701-1702, outside window",
+   "Texts are Transkribus HTR with manual correction; TEI header says TEI conversion with LLM help",
+   "Year is that of first dated entry, not a header field"
+  ]
+ },
+ "grotius-correspondence-huygens": {
+  "id": "grotius-correspondence-huygens",
+  "texts_total": 7868,
+  "words_total": 3553066,
+  "texts_in_window": 7868,
+  "words_in_window": 3553066,
+  "undated": 147,
+  "language_words": {
+   "Latin": 1865696,
+   "Dutch": 1176875,
+   "French": 395471,
+   "German": 101717,
+   "Italian": 13307
+  },
+  "method": "No bulk export or API (site has no sitemap/robots); read the 49 year lists plus the undated list, then fetched each letter page (/letters/<n>/) and kept only the letter_panel text (Notes panel, editor's heading and page markers removed).",
+  "coverage": "All letters listed on the year lists. Letter text only; Dutch editorial notes, introductions and indices excluded.",
+  "problems": [
+   "Language assigned by stopword heuristic (Latin/French/Dutch/German/Italian); mixed letters get their dominant language.",
+   "Year taken from the editor's bracketed year in the letter heading ([1597]); appendices ('Bijlage ... Bij no. N') take the year of letter N; undated letters get year=None with dateless_in_window=True (the edition covers only 1597-1645)."
+  ]
+ },
+ "guicciardini-storia-italia": {
+  "id": "guicciardini-storia-italia",
+  "texts_total": 14,
+  "words_total": 7867,
+  "texts_in_window": 14,
+  "words_in_window": 7867,
+  "undated": 14,
+  "language_words": {
+   "Italian": 7867
+  },
+  "method": "Downloaded the TEI file; one record per transcribed section (div[@subtype=edition_text]) of the manuscripts (Ms01-Ms08); editorial <reg> and insertion marks removed, cancelled words (<del>) and additions both kept as in a diplomatic transcription; the Gherardi 1919 printed edition (Ed01) excluded.",
+  "coverage": "All 14 manuscript transcription sections in the TEI file.",
+  "problems": [
+   "The file carries no dates for the manuscripts; year=None with dateless_in_window=True because the catalogue documents the drafts as 1537-1540 (exordium of the Storia d'Italia, written c.1537-1540).",
+   "Successive drafts of the same opening passage overlap heavily (not duplicates in the strict sense: different redactions)."
+  ]
+ },
+ "h15corpus": {
+  "id": "h15corpus",
+  "texts_total": 402,
+  "words_total": 241878,
+  "texts_in_window": 356,
+  "words_in_window": 172397,
+  "undated": 45,
+  "language_words": {
+   "Spanish": 172397
+  },
+  "method": "Listed the Apache index of xmlfiles/ and downloaded each TEI XML file; year from origDate/date in the TEI header.",
+  "coverage": "All 402 non-test files of the directory (414 listed; skipped 12 files named prueba/test).",
+  "problems": [
+   "45 documents without a date (year=None, dateless_in_window=False), mostly Bolea collection.",
+   "Skipped test files: NUEVA_GALICIA-003_PRUEBA.xml, PRUEBA_VIZCAYA2.xml, PRUEBA_VIZCAYA_.xml, Prueba_Elena.xml, Prueba_María.xml, VILLENA-prueba.xml, nueva_Galicia_3_prueba.xml, nuevagalicia_prueba3.xml, prueba_FG.xml, prueba_Lucía.xml, prueba_aljamir.xml, testpos.xml",
+   "Catalogue says 410 documents; directory index lists 414 xml files."
+  ]
+ },
+ "hainhofer-grosses-stammbuch": {
+  "id": "hainhofer-grosses-stammbuch",
+  "texts_total": 96,
+  "words_total": 4912,
+  "texts_in_window": 96,
+  "words_in_window": 4912,
+  "undated": 0,
+  "language_words": {
+   "German": 3775,
+   "Latin": 977,
+   "Italian": 22,
+   "French": 138
+  },
+  "method": "Downloaded the TEI P5 export stammbuch-18.xml from the edition's downloads page; one record per page entry (div type=Eintrag) that has a <div type=Transkription>; raw = that transcription with editorial notes (Anmerkung, Übersetzung, Textfeldbeschreibung) and index terms removed. Year from the entry's Datierung.",
+  "coverage": "96 non-empty transcriptions (97 transcription divs, one empty) out of 268 page records (132 blank pages, others only image descriptions: bindings, illustrations).",
+  "problems": [
+   "0 transcribed entries without usable year.",
+   "Catalogue counted 136 non-blank pages; only 96 carry a transcription, the rest are pictorial/empty and were not recorded.",
+   "Language per entry: main language by <foreign> word share, German by default."
+  ]
+ },
+ "hamletworks": {
+  "id": "hamletworks",
+  "texts_total": 2,
+  "words_total": 59439,
+  "texts_in_window": 2,
+  "words_in_window": 59439,
+  "undated": 0,
+  "language_words": {
+   "English": 59439
+  },
+  "method": "Full-text 'Q2' and 'F1' views of the Enfolded Hamlet (enhamp.php?type=Q2 / F1) on the redirected host server-66-113-234-189.da.direct; line numbers, hidden HTML comments (cross-version line references) and modern scene references removed. The 'Q2 Only'/'F1 Only' views (variant readings), the modern enfolded text, commentary, textual notes and the DjVu/PDF Q1 and Q6 files not used.",
+  "coverage": "Q2 and F1 texts of Hamlet in full (2 texts). Q1 (1603) and Q6 diplomatic versions exist only as PDF/DjVu images and were not harvested.",
+  "problems": [
+   "F1 view has irregular markup (unclosed <i>/<l>); page signatures and a few act/scene headings may be mixed in. Server hamletworks.org redirects to server-66-113-234-189.da.direct (no robots.txt there). Q1 1603 out of scope (PDF scans)."
+  ]
+ },
+ "hartlib-papers": {
+  "id": "hartlib-papers",
+  "texts_total": 5740,
+  "words_total": 5868859,
+  "texts_in_window": 4128,
+  "words_in_window": 3930242,
+  "undated": 1612,
+  "language_words": {
+   "English": 2637818,
+   "Latin": 728298,
+   "German": 471885,
+   "Dutch": 5090,
+   "French": 87151
+  },
+  "method": "DHI Data Service zip hartlib-txt.zip (found via data service API /api/data/project?project=hartlib); the file-level headers parsed; only <TRANSCRIPTION> kept as plain text, editorial <EDITOR>/<REND>/<IMAGE> markers removed, entities unescaped; year = first year of <DATING>; language by stopword heuristic.",
+  "coverage": "All 5,740 text files (main 5,234, additional 442, pamphlets 64) of hartlib-txt.zip. The cleaned/lemmatised Turing version and page images were not downloaded.",
+  "problems": [
+   "1612 files have no usable year in DATING (UNDATED etc.): year=None, dateless_in_window=False, so not counted in window.",
+   "The /hartlib/ site sits behind a proof-of-work browser check; the data service download (no gate) was used instead.",
+   "Language is assigned per file by a stopword heuristic (English default); Latin/German/French items may be misassigned. 'additional' includes some later printed editions of Hartlib letters (e.g. Boyle's Works, 1772) whose transcribed letter text is dated by the letter."
+  ]
+ },
+ "hearth-tax-digital": {
+  "id": "hearth-tax-digital",
+  "texts_total": 61,
+  "words_total": 1087045,
+  "texts_in_window": 61,
+  "words_in_window": 1087045,
+  "undated": 0,
+  "language_words": {
+   "English": 1087045
+  },
+  "method": "Records page of context:htx parsed for all TEI_SOURCE links (one TEI per assessment); body kept with <choice> reduced to the original-text <orig> (editorial <reg> translation/regularisation dropped); notes dropped by the counter.",
+  "coverage": "all linked TEI assessments",
+  "problems": []
+ },
+ "hooke-folio-online": {
+  "id": "hooke-folio-online",
+  "texts_total": 578,
+  "words_total": 256274,
+  "texts_in_window": 578,
+  "words_in_window": 256274,
+  "undated": 0,
+  "language_words": {
+   "English": 256274
+  },
+  "method": "Crawled hooke_folio.php?id=1..679&option=transcript (one transcribed page per record), honouring robots.txt Crawl-delay 10; stripped markup, folio number, copyright line, images",
+  "coverage": "All 679 page ids requested; 101 had no text. One record per transcribed page (folio side).",
+  "problems": [
+   "Year = first year (165x-169x) mentioned on the page, carried forward from the previous page when absent (the volume covers only 1661-1691); approximate. Deleted passages in the manuscript are kept in the text."
+  ]
+ },
+ "hortus-sanitatis-de-piscibus": {
+  "id": "hortus-sanitatis-de-piscibus",
+  "texts_total": 108,
+  "words_total": 19871,
+  "texts_in_window": 108,
+  "words_in_window": 19871,
+  "undated": 0,
+  "language_words": {
+   "Latin": 19871
+  },
+  "method": "No bulk export (the 'sourcesXML' link returns 404); crawled the 108 chapter pages listed in tdm.html.",
+  "coverage": "All pages of the table of contents (prologue and chapters of Book IV).",
+  "problems": [
+   "Latin text only (paragraphe-latin and Latin headings); French translation, notes, apparatus popups and bibliographic source labels/quotations removed. Chapter headings: the Latin heading may contain a list of names. Online edition is a modern critical text of the 1491 print (editorial variants resolved in apparatus, which was dropped)."
+  ]
+ },
+ "inscriptiones-alborum-amicorum": {
+  "id": "inscriptiones-alborum-amicorum",
+  "texts_total": 16763,
+  "words_total": 590666,
+  "texts_in_window": 4964,
+  "words_in_window": 191664,
+  "undated": 6,
+  "language_words": {
+   "Latin": 144936,
+   "German": 8737,
+   "Greek": 21392,
+   "Italian": 1589,
+   "French": 1477,
+   "Hungarian": 854,
+   "Hebrew": 11120,
+   "Swedish": 153,
+   "English": 367,
+   "Dutch": 240,
+   "Czech": 142,
+   "Persian": 52,
+   "Arabic": 375,
+   "Turkish": 85,
+   "Aramaic": 83,
+   "Spanish": 62
+  },
+  "method": "Record-by-record crawl of index.php?page=browse&entry_id=1..17090 (no export, API or OAI found; the search form returned HTTP 500 for scripted queries and each browse page is ~750 KB uncompressed because of the full entry selector). Extracted per entry: motto text, place/date as written, dedication, signature, inscription text and owner's later notes; each entry is one text.",
+  "coverage": "17090 of 17090 entries fetched (0 missing). All dates 16th-18th c.; only entries dated 1450-1700 count in the window.",
+  "problems": [
+   "327 entries without transcribed text fields (only metadata/notes) were skipped; 6 kept entries have no parseable year (year=None, dateless_in_window=False).",
+   "Language = language of the inscription (fallback dedication/signature/motto; 'Latin' if none declared). Texts are short (mottoes, dedications, signatures, verses); Jegyzet (editorial note), Szerző/Cím/Pontos hely (source references) and normalised names were excluded."
+  ]
+ },
+ "internet-shakespeare-editions": {
+  "id": "internet-shakespeare-editions",
+  "texts_total": 67,
+  "words_total": 1438925,
+  "texts_in_window": 67,
+  "words_in_window": 1438925,
+  "undated": 0,
+  "language_words": {
+   "English": 1438925
+  },
+  "method": "Per-witness old-spelling transcriptions found via the play index pages (Foyer/Texts/index.html -> play page -> 'Old-spelling transcription' links); the 'complete' view (doc/<id>/complete/index.html) was parsed for div.line elements, dropping through-line-number milestones. Modern-spelling editions (_M), introductions, notes, apparatus and facsimiles not used. No XML/bulk export found; /sitemap.xml is 404; /exist/ is disallowed by robots.txt and not touched.",
+  "coverage": "67 old-spelling witnesses (quartos/folio) of 45 plays and poems listed on the Texts index.",
+  "problems": [
+   "Per_Q1: title has no year; set to 1609 (Pericles Q1, known imprint date)"
+  ]
+ },
+ "kaiserin-eleonora-magdalena-korrespondenz": {
+  "id": "kaiserin-eleonora-magdalena-korrespondenz",
+  "texts_total": 1605,
+  "words_total": 477515,
+  "texts_in_window": 1133,
+  "words_in_window": 371828,
+  "undated": 0,
+  "language_words": {
+   "German": 371828
+  },
+  "method": "Downloaded the GitHub tarball of emt-project/emt-working-data (main); one record per letter TEI file (1605); raw = <text> element with <abbr> removed where an <expan> is given. Year = origDate@when-iso, else correspAction[sent] date, else first date in body.",
+  "coverage": "All 1,605 letters of the edition (letters after 1700 kept in staging with their year and counted out).",
+  "problems": [
+   "0 letters without any usable date (year=None, dateless_in_window=False).",
+   "Language set to German for all (header: 11 'und', 1 Latin; a few passages in other languages).",
+   "Working data, not necessarily identical to published site versions."
+  ]
+ },
+ "karlstadt-kritische-gesamtausgabe": {
+  "id": "karlstadt-kritische-gesamtausgabe",
+  "texts_total": 74,
+  "words_total": 158382,
+  "texts_in_window": 74,
+  "words_in_window": 158382,
+  "undated": 0,
+  "language_words": {
+   "Latin": 147799,
+   "German": 10583
+  },
+  "method": "Per-text TEI transcripts fetched one by one (texts/<id>/<id>_transcript.xml; list from mets.xml, plus probing 001-089); no bulk export exists. Kept <text> without <back>; removed editorial footnotes, critical-apparatus notes and comments, and <corr>/<reg> (original spellings and marginal notes kept); header, introductions, translations and registers not fetched.",
+  "coverage": "All 74 transcript files found (METS lists 75; catalogue says 74). Failed: [('071A', '404 Client Error: Not Found for url: http://diglib.hab.de/edoc/ed000216/texts/071A/071A_transcript.xml')]",
+  "problems": [
+   "Language chosen per text by Latin/German stopword heuristic (many items mix Latin and German).",
+   "Year from the date in the title (first year when a span, e.g. 'zwischen 1516 ... 1517').",
+   "A few 'Verschollen' (lost) letters are only stubs with little or no text.",
+   "HAB terms allow private scholarly use, forbid commercial use or republication."
+  ]
+ },
+ "kirchenbuch-groeben": {
+  "id": "kirchenbuch-groeben",
+  "texts_total": 331,
+  "words_total": 96407,
+  "texts_in_window": 247,
+  "words_in_window": 71127,
+  "undated": 1,
+  "language_words": {
+   "German": 71127
+  },
+  "method": "Followed 'Weiterblättern' links from the first page; text block (#textbereich) of each spread extracted, headings/navigation/images dropped.",
+  "coverage": "331 spreads of 331 pages fetched, whole site 1578-1769 (out-of-window years kept in staging). Year = first year in page title (e.g. 'Jahr 1599/1601'). Language labelled German (register mixes German and Latin).",
+  "problems": []
+ },
+ "kircher-briefe-herzog-august": {
+  "id": "kircher-briefe-herzog-august",
+  "texts_total": 21,
+  "words_total": 6794,
+  "texts_in_window": 21,
+  "words_in_window": 6794,
+  "undated": 0,
+  "language_words": {
+   "Latin": 6794
+  },
+  "method": "HTML transcription page transcription.htm (original text only; line numbers removed; apparatus, translation, commentary pages not used), split per letter.",
+  "coverage": "All 21 letters on the transcription page (catalogue says 19).",
+  "problems": []
+ },
+ "koenigsfelden-urkunden-akten": {
+  "id": "koenigsfelden-urkunden-akten",
+  "texts_total": 1557,
+  "words_total": 779320,
+  "texts_in_window": 458,
+  "words_in_window": 312705,
+  "undated": 7,
+  "language_words": {
+   "German": 293299,
+   "Latin": 19406
+  },
+  "method": "Zenodo 10950031 data dump (v2024-04-09); every TEI file in data/docs. Year = first origDate in sourceDesc; language from msItem/textLang (Frühneuhochdeutsch->German, Latein->Latin). Removed <abbr> (kept <expan>), editorial <reg> punctuation/stars, <comment>, <corr> (kept <sic>), facsimile.",
+  "coverage": "All 1,557 document files (1291-1662); out-of-window ones stay in staging with their year. Registers (people, places, organisations, keywords) not included.",
+  "problems": [
+   "27 files without textLang: defaulted to German (Latin possible).",
+   "7 files without a usable origDate: year=None, not counted.",
+   "Copybook entries (AA_*, 455 files) whose original also exists (U-17_*) are not transcribed (they only link to the original); other copybook entries may duplicate texts of originals."
+  ]
+ },
+ "lazarraga-manuscript": {
+  "id": "lazarraga-manuscript",
+  "texts_total": 64,
+  "words_total": 16013,
+  "texts_in_window": 64,
+  "words_in_window": 16013,
+  "undated": 64,
+  "language_words": {
+   "Basque": 16013
+  },
+  "method": "Text A (Artzain-liburua + A1-A29): HTML poem pages (testua/poema_NNNN.html), keeping only the transcription cell (original spelling 'eu'), removing intro, footnote call-outs, line numbers and folio markers. Text B (B1-B34): the 'eu' PDF per piece (pdftotext -layout), keeping the indented poem lines after the first folio marker and dropping introductions, footnotes, line numbers and note numbers. Modernised-spelling (gg) and Spanish (es) versions not fetched.",
+  "coverage": "64 of 65 catalogued items: AL, A1-A29, B1-B34. Text C (signatures, monograms, loose words) has no working link on the site (C_testua_osorik_2.0.pdf returns 404), so it is missing.",
+  "problems": [
+   "Text C not harvested: PDF link is broken (404)",
+   "B pieces extracted from PDF layout by heuristics; stray footnote fragments or lost digits possible",
+   "Undated: manuscript c. 1564-1602, treated as dateless_in_window",
+   "Text AL pages contain lacunae brackets (e.g. 'bero e[') kept as in the edition",
+   "robots.txt of www.ehu.eus does not disallow /monumenta/"
+  ]
+ },
+ "leibniz-briefportal": {
+  "id": "leibniz-briefportal",
+  "texts_total": 188,
+  "words_total": 210916,
+  "texts_in_window": 150,
+  "words_in_window": 182019,
+  "undated": 10,
+  "language_words": {
+   "German": 1157,
+   "Latin": 178271,
+   "Dutch": 927,
+   "French": 1664
+  },
+  "method": "Portal is an Ember app; its public Solr endpoint (found in the page config) queried once for type:brief (188 documents).",
+  "coverage": "All 188 letters of the portal (series III vol. 5-8), including those from 1701 and undated ones (out of window or undated, kept in staging).",
+  "problems": [
+   "10 letters without a usable date: year=None, dateless_in_window=False",
+   "Letters taken from the portal's public Solr index (solr.leibniz.sub.uni-goettingen.de), field volltext (edited text; variants/graphics are separate index documents and left out; maths markup preamble stripped). Footnote/apparatus inside volltext not separately verified."
+  ]
+ },
+ "leibniz-reihe-viii": {
+  "id": "leibniz-reihe-viii",
+  "texts_total": 323,
+  "words_total": 89408,
+  "texts_in_window": 320,
+  "words_in_window": 88981,
+  "undated": 0,
+  "language_words": {
+   "Latin": 68187,
+   "French": 16469,
+   "German": 4325
+  },
+  "method": "Fetched the TEI Einzeldateien (L_chapter_N / L_section_N, one file per Stück, XInclude-split) of volumes 1-3 from raw.githubusercontent.com; for each Stück only the <div type=text> (Leibniz's text) is kept, with the critical apparatus (rdg), editorial notes, index entries, formulas, folio markers and bibliographic items removed (lemma text kept). Year = first year in the bracketed date line under the Stück's title (for section files, the date of the parent chapter). Language per Stück from stopword counts.",
+  "coverage": "Volumes VIII,1, VIII,2 and VIII,3 (TEI); volume VIII,4 only exists as PDF and was not harvested. All Stücke with an edited text; front matter, introductions, indexes, bibliographies, registers excluded.",
+  "problems": [
+   "0 Stücke without a parseable date (year=None, dateless_in_window=False).",
+   "27 chapter/section files without a text division (containers or intros) skipped.",
+   "Texts dated after 1700 in vol. 3 (kept in staging with year, counted out). Date ranges taken at their first year. Mixed-language Stücke (Latin with French or German) get one main language; mathematical formulas (MathML) dropped, so words in formula-heavy pieces are understated. Stücke with date straddling 1700 are classed by first year."
+  ]
+ },
+ "letradas": {
+  "id": "letradas",
+  "texts_total": 270,
+  "words_total": 74722,
+  "texts_in_window": 115,
+  "words_in_window": 34972,
+  "undated": 4,
+  "language_words": {
+   "Spanish": 34972
+  },
+  "method": "Listing page /letradas/documentos -> per-document TEITOK XML (xmlfiles/<id>.xml); kept diplomatic seg type=f (token surface form, expansions kept as written), dropped normalised forms (nform/mform) and seg type=m; year from msDesc origDate",
+  "coverage": "All 270 documents of the corpus (1400-1900) staged; those outside 1450-1700 or overlapping are dated by first year of origDate and counted by year.",
+  "problems": [
+   "LETRADAS-0036: no seg f, used whole text",
+   "LETRADAS-0037: no seg f, used whole text",
+   "LETRADAS-0038: no seg f, used whole text",
+   "LETRADAS-0039: no seg f, used whole text",
+   "LETRADAS-0105: no seg f, used whole text",
+   "LETRADAS-0125: no seg f, used whole text",
+   "LETRADAS-0126: no seg f, used whole text",
+   "LETRADAS-0128: no seg f, used whole text",
+   "LETRADAS-0129: no seg f, used whole text",
+   "LETRADAS-0130: no seg f, used whole text",
+   "LETRADAS-0251: no seg f, used whole text",
+   "LETRADAS-0251: undated",
+   "LETRADAS-0276: no seg f, used whole text",
+   "LETRADAS-0362: no seg f, used whole text",
+   "LETRADAS-0426: no seg f, used whole text",
+   "LETRADAS-0444: no seg f, used whole text",
+   "LETRADAS-0445: no seg f, used whole text",
+   "LETRADAS-0471: undated",
+   "LETRADAS-0472: undated",
+   "LETRADAS-0479: no seg f, used whole text",
+   "LETRADAS-0967: undated"
+  ]
+ },
+ "letters-of-william-herle": {
+  "id": "letters-of-william-herle",
+  "texts_total": 302,
+  "words_total": 318567,
+  "texts_in_window": 302,
+  "words_in_window": 318567,
+  "undated": 1,
+  "language_words": {
+   "English": 318567
+  },
+  "method": "date.html index lists all transcripts; fetched letters/NNN.html (crawl-delay 10 s per robots.txt); kept div.letter + div.endorse",
+  "coverage": "302 of 302 listed transcripts",
+  "problems": [
+   "no year for letters/090.html (30 January 15[73]); dateless_in_window=True because edition covers 1559-1588 only",
+   "302 transcripts listed in date index; endorsements/address leaf included, editorial comments excluded; year = first year in index date (some marked uncertain)"
+  ]
+ },
+ "lettres-calvin": {
+  "id": "lettres-calvin",
+  "texts_total": 27,
+  "words_total": 34056,
+  "texts_in_window": 27,
+  "words_in_window": 34056,
+  "undated": 0,
+  "language_words": {
+   "French": 34056
+  },
+  "method": "GitHub tarball (codeload) of pippaJeanne/lettres-calvin main; src/lib/xml/*.xml; <reg> removed, <orig> kept; year from correspAction[sent]/date.",
+  "coverage": "All 27 French TEI letters in the repository (the planned corpus has 120).",
+  "problems": [
+   "Spanish translations (src/lib/xmles) and the modernised French (<reg> readings) excluded; footnotes are <note> and dropped by the counter. The base text is Bonnet's 1854 edition of 16th-century letters (spelling as in Bonnet)."
+  ]
+ },
+ "lipsius-de-bibliothecis-syntagma-hab": {
+  "id": "lipsius-de-bibliothecis-syntagma-hab",
+  "texts_total": 1,
+  "words_total": 5740,
+  "texts_in_window": 1,
+  "words_in_window": 5740,
+  "undated": 0,
+  "language_words": {
+   "Latin": 5740
+  },
+  "method": "Direct download of the Latin TEI transcript (texts/tei-transcript.xml); apparatus variants (later editions) dropped, footnotes left out by RQ's counter; German translation not taken.",
+  "coverage": "all: the single Latin TEI transcript.",
+  "problems": []
+ },
+ "lope-dama-boba": {
+  "id": "lope-dama-boba",
+  "texts_total": 1,
+  "words_total": 16545,
+  "texts_in_window": 1,
+  "words_in_window": 16545,
+  "undated": 0,
+  "language_words": {
+   "Spanish": 16545
+  },
+  "method": "Downloaded edicion_critica.xml; kept <text>, removed <app> apparatus and <note> commentary.",
+  "coverage": "All of the critical text (1 play).",
+  "problems": [
+   "Year 1613 = date of the autograph (printed 1617); critical text, not a diplomatic transcription of one witness."
+  ]
+ },
+ "luene-nonnenbriefe": {
+  "id": "luene-nonnenbriefe",
+  "texts_total": 413,
+  "words_total": 178617,
+  "texts_in_window": 413,
+  "words_in_window": 178617,
+  "undated": 215,
+  "language_words": {
+   "Low German": 79730,
+   "Latin": 98887
+  },
+  "method": "Letter transcription files (texts/BriefNNN-*_tei-transcript.xml) listed in mets.xml, fetched one by one; original-spelling reading kept (orig), regularisation (reg) and critical-apparatus notes dropped; introduction, bibliography and register not taken.",
+  "coverage": "all: 413 letter files listed in mets.xml (work in progress edition, files as of harvest date).",
+  "problems": [
+   "year outside 1450-1700 in header/title, treated as undated (project dates the collection c. 1460-1555): Brief122-L_tei-transcript.xml=1432, Brief123-L_tei-transcript.xml=1438, Brief395-LD_tei-transcript.xml=1423",
+   "215 of 413 letters undated: year=None with dateless_in_window=True, since the project dates the whole collection c. 1460-1555; languages by textLang mainLang: {'Low German': 144, 'Latin': 269}"
+  ]
+ },
+ "luther-sermon-ablass-gnade-taylor": {
+  "id": "luther-sermon-ablass-gnade-taylor",
+  "texts_total": 1,
+  "words_total": 1780,
+  "texts_in_window": 1,
+  "words_in_window": 1780,
+  "undated": 0,
+  "language_words": {
+   "German": 1780
+  },
+  "method": "Downloaded the TEI file; kept <text>, removed editorial footnotes.",
+  "coverage": "All (1 text).",
+  "problems": [
+   "Year 1518 from the print; TEI file dates (2018) are of the edition."
+  ]
+ },
+ "machyn-provisioners-chronicle": {
+  "id": "machyn-provisioners-chronicle",
+  "texts_total": 1,
+  "words_total": 75230,
+  "texts_in_window": 1,
+  "words_in_window": 75230,
+  "undated": 0,
+  "language_words": {
+   "English": 75230
+  },
+  "method": "CDX listing of Internet Archive captures -> latest capture of each year section (1:8.1-1:8.14, rgn=div2;view=fulltext); from each dated entry only the first paragraph (diplomatic transcription) kept, modern rendering and editorial notes dropped.",
+  "coverage": "1389 dated entries from 14 year sections of the diary (1550-1563); sections missing: none.",
+  "problems": [
+   "Live site (quod.lib.umich.edu) is behind a Cloudflare bot challenge for scripts; not attempted. Text read from Internet Archive captures of the fulltext pages (2025 captures) instead.",
+   "One record for the whole diary; year = 1550 (start of the diary, entries run 1550-1563)."
+  ]
+ },
+ "magdeburger-zenturien-methode-hab": {
+  "id": "magdeburger-zenturien-methode-hab",
+  "texts_total": 153,
+  "words_total": 93012,
+  "texts_in_window": 153,
+  "words_in_window": 93012,
+  "undated": 0,
+  "language_words": {
+   "Latin": 84550,
+   "German": 8462
+  },
+  "method": "Document files (Ort/Archiv/YYMMDD_*.xml) listed in mets.xml, fetched one by one; sic kept / corr dropped, apparatus variants dropped, footnotes dropped by RQ's counter; regests, introduction and registers not taken.",
+  "coverage": "156 document files listed in mets.xml (the introduction counts 154 documents); see problems for files that could not be downloaded.",
+  "problems": [
+   "Wagner/570606A_Haintzel_an_Wagner.xml: HTTPError 404 Client Error: Not Found for url: http://diglib.hab.de/edoc/ed000086/Wagner/5",
+   "Wien/OeNB/531012_Nidbruck_an_Flacius.xml: HTTPError 404 Client Error: Not Found for url: http://diglib.hab.de/edoc/ed000086/Wien/OeN",
+   "Wien/OeNB/550900A_Hyperius_Consilium.xml: HTTPError 404 Client Error: Not Found for url: http://diglib.hab.de/edoc/ed000086/Wien/OeN",
+   "1 files without origDate: year taken from the YYMMDD file-name prefix (15YY)",
+   "language by xml:lang where marked, else by a stop-word count (Latin/German)"
+  ]
+ },
+ "malory-project": {
+  "id": "malory-project",
+  "texts_total": 2,
+  "words_total": 27445,
+  "texts_in_window": 2,
+  "words_in_window": 27445,
+  "undated": 0,
+  "language_words": {
+   "Middle English": 27445
+  },
+  "method": "Site's own full-text endpoints fetched (2 requests); HTML cleaned with BeautifulSoup",
+  "coverage": "all transcribed text online: 2 witnesses (Winchester Roman War episode; Caxton transcribed parts); not the whole Morte Darthur",
+  "problems": [
+   "Text taken from the full-text loaders used by the site's own 'Full Text' buttons (includes/win_xml_loader.php, caxton_xml_loader.php); regularised readings, deleted text, notes, milestone/div titles and page-break labels dropped; original (orig/sic) readings kept; line-end '//' joins merged; scribal punctuation marks U+0375/U+02B9 removed.",
+   "Year of Winchester set to 1470 (MS written c. 1470-83; Malory completed the work 1469-70); Caxton 1485 (printed).",
+   "Only the transcribed parts are online (Roman War episode in Winchester; Caxton Book V and some other leaves); the rest of the Morte Darthur is not transcribed. Div/headings given in the page navigation (editorial) are excluded."
+  ]
+ },
+ "map-of-early-modern-london": {
+  "id": "map-of-early-modern-london",
+  "texts_total": 196,
+  "words_total": 1027444,
+  "texts_in_window": 193,
+  "words_in_window": 1025064,
+  "undated": 3,
+  "language_words": {
+   "English": 1025064
+  },
+  "method": "Directory index of /xml/original/ (no bulk file exists) -> TEI of candidate files fetched one by one; filtered on <catRef target=mdt:mdtPrimarySource*>; body only, <ref>/<label> renamed so the place names and marginalia are counted.",
+  "coverage": "All primary-source documents found among the fetched files; see problems for the selection rule",
+  "problems": [
+   "DIXI2: sourceDesc year 1976 is modern, ignored",
+   "SIRT1: sourceDesc year 1911 is modern, ignored",
+   "SIRT1: no year found",
+   "STOW36: no year found",
+   "TRAN1: no year found",
+   "Selection: documents tagged mdtPrimarySource* (Stow's Survey 1598/1633 sections, mayoral shows, library of royal entries, dramatic extracts, proclamations, broadsides, other texts); gazetteer, personography, bibliography and born-digital encyclopedia entries (modern prose) excluded. Only files >=15 KB in /xml/original/ (plus all stow_* sections) were fetched and tested: a 50-file random sample of the 7-15 KB files contained no primary sources, so a few very small primary texts may be missed.",
+   "Stow's Survey is split into section files; the concatenated stow_1598_full (3.7 MB) was not used, to avoid double counting. Front matter, running heads (fw), editorial notes, <corr>/<reg> readings removed; <sic> original readings kept. stow_1603 and stow_1618 are only chapter listings in the release (no text files)."
+  ]
+ },
+ "marinelives": {
+  "id": "marinelives",
+  "texts_total": 56,
+  "words_total": 3534789,
+  "texts_in_window": 46,
+  "words_in_window": 3505787,
+  "undated": 10,
+  "language_words": {
+   "English": 3505787
+  },
+  "method": "MediaWiki api.php (allowed by robots.txt): bulk generator=allpages with prop=revisions content, 50 pages per request, namespace 0. For each page with a PageTranscription template the Transcription field was taken, grouped by Parent volume (one record per volume, folios in order). Wiki markup, editorial capitalised notes, templates stripped. Year = volume page 'Start date'.",
+  "coverage": "All 14657 main-namespace pages fetched; 8427 transcribed folio pages in 56 volumes/records.",
+  "problems": [
+   "Language set to English; some depositions are partly Latin, Spanish, Dutch or French",
+   "Volumes whose page lacks Start/End date get year=None, dateless_in_window=False: ['C 10', 'C 5', 'C 6', 'HCA 13/69 Silver 15', 'HCA 30/225', 'NEHA Jan Bollart & Adrian Goldsmith', 'Nummer Toegang: 1.01.02; Archievbloknummer: 5549', 'Nummer Toegang: 1.01.02; Archievbloknummer: 5550', 'PROB 11', 'PROB 5']",
+   "Texts are transcriptions of manuscripts with the transcribers' editorial conventions; includes some non-deposition series (E 190, C 5 etc.)"
+  ]
+ },
+ "maurolico-opera-mathematica": {
+  "id": "maurolico-opera-mathematica",
+  "texts_total": 58,
+  "words_total": 428880,
+  "texts_in_window": 58,
+  "words_in_window": 428880,
+  "undated": 58,
+  "language_words": {
+   "Latin": 365589,
+   "Italian": 63291
+  },
+  "method": "Site map (pianta.htm) -> every edizioni/**/intro.htm -> text pages (<work>-N.htm, edition text 'livello 0'); extracted the <!-- corps --> block, removing paragraph numbers, folio markers, variant-reading superscripts, figure captions, images. Variant (-Nv.htm) and apparatus (-Nf.htm) pages and the Italian/French/English introductions skipped. One record per work directory.",
+  "coverage": "1201 text pages fetched, grouped into 58 works/sections. Not included: 'Instrumenta Maurolyciana' (catalogues, bibliography, biography), source-image sites (login), apparatus pages.",
+  "problems": [
+   "edizioni/euclide/compendi/comp10/c10.htm: 404 Client Error: Not Found for url: https://people.dm.unipi.it/maurolic/edizioni/euclide/compendi/comp10/c10.htm",
+   "edizioni/cosmogra/dialoghi/cosit1: detected as Italian (10.2% Italian marker words)",
+   "edizioni/cosmogra/dialoghi/cosit2: detected as Italian (10.8% Italian marker words)",
+   "edizioni/cosmogra/dialoghi/cosit3: detected as Italian (12.2% Italian marker words)",
+   "edizioni/epistola/aliae: detected as Italian (9.4% Italian marker words)",
+   "No per-text dates online: all works are by Maurolico (1494-1575), so year=None with dateless_in_window=True. Some sections are Maurolico's Latin versions/restorations of ancient mathematicians (Euclid, Archimedes, Apollonius, Menelaus, Theodosius, Serenus) which still count as his 16th-century Latin text; the sections of the site are frames-based HTML so a few cross-listed pages may belong to a different work group."
+  ]
+ },
+ "memis-slovenia": {
+  "id": "memis-slovenia",
+  "texts_total": 51,
+  "words_total": 1795,
+  "texts_in_window": 42,
+  "words_in_window": 1294,
+  "undated": 4,
+  "language_words": {
+   "Latin": 1294
+  },
+  "method": "Downloaded MEMIS.xml; one record per <div type=inscription>, keeping only the transcription div(s) (expanded Latin text); description, bibliography and Slovenian translation excluded.",
+  "coverage": "All 51 inscriptions; out-of-window ones kept with their year.",
+  "problems": [
+   "Inscriptions dated '2. pol. 15. stol.' given year 1475; '1. stol. po Kr.' etc. given 100.",
+   "Undated inscriptions (year=None, dateless_in_window=False): nos. 1, 2, 37, 46",
+   "Inscription 1 is a pseudo-inscription quoted from a printed statute."
+  ]
+ },
+ "milton-reading-room": {
+  "id": "milton-reading-room",
+  "texts_total": 181,
+  "words_total": 675596,
+  "texts_in_window": 181,
+  "words_in_window": 675596,
+  "undated": 0,
+  "language_words": {
+   "English": 590291,
+   "Italian": 1442,
+   "Latin": 83304,
+   "Greek": 559
+  },
+  "method": "Crawled the contents page and the sidebar navigation of each work (about 1 request per page, 1 s apart); no bulk export exists.",
+  "coverage": "All text pages reachable from the contents page (whole poetry, prose works, letters, prolusions); introductions and apparatus excluded.",
+  "problems": [
+   "4 pages without a text body skipped: ['1673/text.shtml', 'poemata/title.shtml', 'poemata/title_1673.shtml', 'areopagitica/title/text.shtml']",
+   "Text taken from div#content of each page (original spelling of the 17th-c. printings; hover glosses are title attributes and not included; line-number markers removed). Editorial introductions, 'Note on the text', bibliographies, links and the separate annotation layer (div#annotation) excluded.",
+   "Years are by volume/work as stated in the table of contents (1641-1674 for prose, 1645/1673 for the shorter poems, sonnets split at no. 12, 1671 for Paradise Regain'd/Samson, 1674 for Paradise Lost) and approximate; all fall inside 1450-1700 anyway. 'A Defence of the English People' is the Latin Defensio (site gives 1658; first edition 1651).",
+   "Language guessed from function words per page (Latin/Italian/Greek poems, Latin letters/prolusions); mixed pages may be mislabelled. Site licence CC BY-ND 3.0; copyright page reserves the XHTML coding and editorial material (only the period text is kept here). The 'Editing still in progress' note applies to the Defence."
+  ]
+ },
+ "mitteldeutsche-selbstzeugnisse": {
+  "id": "mitteldeutsche-selbstzeugnisse",
+  "texts_total": 6,
+  "words_total": 76604,
+  "texts_in_window": 6,
+  "words_in_window": 76604,
+  "undated": 1,
+  "language_words": {
+   "German": 76604
+  },
+  "method": "The original site is offline (domain serves an unrelated page). Used the Internet Archive: listed captured transcription pages (show_search_seite.php / show_sz.php with szid and page number nr) via the CDX API, fetched the newest usable capture of each page as raw id_ copy, kept only the transcription column (heading, page-date tag, footnote block and navigation removed; tooltip links flattened to text).",
+  "coverage": "PARTIAL: 735 manuscript pages recovered (of roughly 1,785 for Happe, 368 Heubel, 245 Krafft, 205 Marx plus unknown others per catalogue); only pages captured by the Wayback Machine, and ~40% of captures are 'Time out' session error pages and were discarded. Recovered pages are concatenated per author (one record each).",
+  "problems": [
+   "Partial coverage as stated; counts are a lower bound.",
+   "Page captures come from 2019-2023; the site's session timeouts made many captures empty.",
+   "One record per manuscript author (szid): 10 Happe, 20 Heubel, 30 Krafft, 40 Marx; szid 25 and 45 are other items on the site if present.",
+   "year = median of the page-date tags of the recovered pages (a few typos such as 1509 for Krafft appear in the page tags); all four authors wrote 1587-1684, inside the window, so dateless_in_window=True where no date was found."
+  ]
+ },
+ "nachlassinventar-ferdinand-ii-1596": {
+  "id": "nachlassinventar-ferdinand-ii-1596",
+  "texts_total": 1,
+  "words_total": 103067,
+  "texts_in_window": 1,
+  "words_in_window": 103067,
+  "undated": 0,
+  "language_words": {
+   "German": 103067
+  },
+  "method": "Repository plain-text API (record 92663) returns the whole transcription as HTML fragments; tags stripped, entities decoded, standalone folio labels (e.g. '1r') removed.",
+  "coverage": "all (single inventory manuscript)",
+  "problems": [
+   "1443 standalone folio labels removed; original-spelling German with Latin/Italian item names mixed in"
+  ]
+ },
+ "narragonien-digital": {
+  "id": "narragonien-digital",
+  "texts_total": 12,
+  "words_total": 673114,
+  "texts_in_window": 12,
+  "words_in_window": 673114,
+  "undated": 0,
+  "language_words": {
+   "German": 243521,
+   "Low German": 55305,
+   "Latin": 137290,
+   "French": 199562,
+   "Dutch": 37436
+  },
+  "method": "Downloads page parsed for the 12 TEI files; per file the <text><body>, with <choice> reduced to diplomatic <orig> (normalised <reg> dropped) and <app> to its first reading <lem>.",
+  "coverage": "all 12 downloadable TEI files",
+  "problems": []
+ },
+ "openedges": {
+  "id": "openedges",
+  "texts_total": 19,
+  "words_total": 11442239,
+  "texts_in_window": 12,
+  "words_in_window": 8189741,
+  "undated": 0,
+  "language_words": {
+   "Dutch": 6756874,
+   "German": 1432867
+  },
+  "method": "Downloaded OpenEDGeS_v1.01.zip from Språkbanken; used the one-verse-per-line *-allverses.txt of each Dutch and German Bible (one record per Bible edition, year from the file name = publication year); braces (expansion markers) stripped.",
+  "coverage": "All 19 Dutch and German Bibles of the public subset (8 Dutch + 4 German in window). English and Swedish Bibles in the archive were not harvested (outside the catalogued Dutch/German scope). Pivot NBV not included (copyright).",
+  "problems": [
+   "Catalogue says 10 texts/7.1M words; archive has 12 in-window Dutch/German Bibles (nl 1477,1528,1542,1548,1560,1562,1637,1648; de 1460,1478,1545,1661).",
+   "nl_1360_Hernse, nl_1399_NNNT, 1790+ are out of window (kept in staging)."
+  ]
+ },
+ "paesi-novamente-retrovati-hab": {
+  "id": "paesi-novamente-retrovati-hab",
+  "texts_total": 2,
+  "words_total": 159407,
+  "texts_in_window": 2,
+  "words_in_window": 159407,
+  "undated": 0,
+  "language_words": {
+   "Italian": 71427,
+   "German": 87980
+  },
+  "method": "Direct download of the two TEI transcriptions; in each, the diplomatic reading (choice/orig, abbr) is kept and the regularised reading (reg, expan) dropped; editorial notes, indexes and the modern translation are not taken.",
+  "coverage": "all: both transcriptions (Italian 1507 and German 1508).",
+  "problems": []
+ },
+ "patin-correspondance-complete": {
+  "id": "patin-correspondance-complete",
+  "texts_total": 1611,
+  "words_total": 1315763,
+  "texts_in_window": 1611,
+  "words_in_window": 1315763,
+  "undated": 1,
+  "language_words": {
+   "French": 1315763
+  },
+  "method": "No bulk export (no sitemap, no download). Read the 44 per-year lists (?annee=YYYY) for the letter ids, then fetched each letter's text frame (index.las?let=NNNN) and kept only the letter body (td.let) without note, index and source-note markers; heading kept out of the text, used for the date.",
+  "coverage": "All 1611 letters listed in the year indexes (catalogue count: 1,079; the year indexes list 1,611 ids for 1630-1673).",
+  "problems": [
+   "Language assigned by French/Latin stopword heuristic (letters are in French with Latin passages; a few letters are entirely Latin).",
+   "Year = first year in the heading date (letters sent between 1630 and 1673).",
+   "The year indexes list more letters than the catalogue count (1,079): they include Latin letters and letters received by Patin; all listed ids were harvested. Writings outside the year indexes, if any, were not harvested."
+  ]
+ },
+ "pensees-de-pascal-edition": {
+  "id": "pensees-de-pascal-edition",
+  "texts_total": 701,
+  "words_total": 48799,
+  "texts_in_window": 701,
+  "words_in_window": 48799,
+  "undated": 11,
+  "language_words": {
+   "French": 48799
+  },
+  "method": "No bulk export; crawled the 38 liasse/dossier index pages and each fragment's -savante.php page (1 s between requests), probing numbers not linked from the indexes.",
+  "coverage": "All fragments reachable by number in each series; text = one diplomatic transcription per fragment.",
+  "problems": [
+   "87 savante pages with no extractable transcription (skipped): ['Conclusion6', 'Divertissement2', 'Grandeur11', 'Hors2', 'Hors9', 'Hors13', 'Hors14', 'Hors37', 'Hors53', 'Hors64', 'Hors76', 'Hors77', 'Hors10', 'Hors11', 'Hors12', 'Hors15', 'Hors16', 'Hors17', 'Hors18', 'Hors19', 'Hors20', 'Hors21', 'Hors22', 'Hors23', 'Hors24', 'Hors25', 'Hors26', 'Hors27', 'Hors28', 'Hors29', 'Hors30', 'Hors31', 'Hors32', 'Hors33', 'Hors34', 'Hors35', 'Hors36', 'Hors38', 'Hors39', 'Hors40']",
+   "One record per fragment (liasse/dossier item): the 'Transcription savante' table of the fragment's -savante.php page (diplomatic transcription of the earliest witness: Recueil des originaux for most, Copies C1/C2, or Port-Royal 1670/1678 editions for fragments whose original is lost). Modernised text (-moderne.php), 'approfondir' commentary, notes column and the other witnesses (Copies, Port-Royal editions as separate transcriptions) were left out to avoid duplicating the same fragments.",
+   "Year is the date of the witness: 1660 for Recueil des originaux (Pascal's papers, c. 1656-1662), 1664 for Copies C1/C2 (1662-1666), 1670/1678 for the Port-Royal editions, per the 'origine' line; approximate. Deleted words, insertions and manuscript layout are kept as in the transcription; superscript note numbers removed.",
+   "Fragments are found through the liasse/dossier index pages plus probing of unlisted numbers of each series (pages not linked from the indexes exist, e.g. XXIII2); the Mémorial (Hors1) page has a different layout and is taken from its first table. Site copyright: all rights reserved (legal notice); used for counting only.",
+   "Source pages classified by 'origine': {\"Transcription savante\": 8, \"Transcription savante (origine : Recueil des originaux)\": 520, \"Transcription savante (origine : Copies C1 et C2)\": 69, \"Transcription savante (origine : Recueil des originaux - Cor\": 1, \"Transcription savante (origine : Recueil des originaux et le\": 5, \"Transcription savante (origine : Recueil des originaux et Co\": 12, \"Transcription savante (origine : Recueil des originaux) (la \": 1, \"Transcription savante (origine : Recueil des originaux, Copi\": 2, \"Transcription savante (origine : Recueil des originaux - Les\": 2, \"Différences constatées entre la copie du parchemin (E) et l’\": 1, \"Transcription savante (origine : Copie C1)\": 1, \"Transcription savante (origine : Copie C2)\": 1, \"Transcription savante (origine : Recueil RC2)\": 1, \"Transcription savante (origine : éditions de Port-Royal 1669\": 1, \"Transcription savante (origine : édition de Port-Royal 1678,\": 2, \"Transcription savante (origine : Recueil des originaux, corr\": 2, \"Transcription savante (origine : Recueil des originaux - nou\": 33, \"Transcription savante (origine : Recueil des originaux (copi\": 1, \"Transcription savante (origine : Recueil des originaux - Nou\": 16, \"Transcription savante (origine : Recueil des originaux - C’e\": 1, \"Transcription savante (origine : Recueil des originaux - Fau\": 1, \"Transcription savante (origine : Recueil des originaux. Erre\": 1, \"Transcription savante (origine : Recueil des originaux) (le \": 1, \"Transcription savante (origine : Recueil des originaux) (nou\": 2, \"Transcription savante (origine : Recueil des originaux. Nous\": 10, \"Transcription savante (origine : Recueil des originaux.)\": 6}"
+  ]
+ },
+ "philipp-hainhofer-reiseberichte-sammlungsbeschreibungen-1594-1636-annotated-digital-edition": {
+  "id": "philipp-hainhofer-reiseberichte-sammlungsbeschreibungen-1594-1636-annotated-digital-edition",
+  "texts_total": 16,
+  "words_total": 579168,
+  "texts_in_window": 16,
+  "words_in_window": 579168,
+  "undated": 0,
+  "language_words": {
+   "German": 579168
+  },
+  "method": "heiDATA dataset doi:10.11588/DATA/DVU14P (TEI/XML per journey, CC BY-SA 4.0); editorial note[type=annotation] (gloss, translation, commentary) and <expan> removed; year = journey year from filename",
+  "coverage": "All TEI journey/collection-description files in the published dataset (one text per journey); further phases of the project are not yet published. hainhofer-lod.xml and registers excluded.",
+  "problems": [
+   "Text dated by the journey year in the file name; Hainhofer's Reiseberichte were written c. same year."
+  ]
+ },
+ "philological-museum-library-of-humanistic-texts": {
+  "id": "philological-museum-library-of-humanistic-texts",
+  "texts_total": 187,
+  "words_total": 3255779,
+  "texts_in_window": 152,
+  "words_in_window": 2903307,
+  "undated": 27,
+  "language_words": {
+   "Latin": 2903307
+  },
+  "method": "Parsed library.html for ~265 work entries, fetched each work's index/contents pages (robots.txt absent, 404), then every local HTML page except those named like introduction/translation/commentary/notes/bibliography/apparatus; pages whose text is predominantly English (stop-word test) were also dropped as translations/commentary. One record per work (pages concatenated). Year = first year in the library-page title (printed/composition date).",
+  "coverage": "258 link targets in the library page; 187 works harvested; 69 had no Latin/period page recognised; 1 failed to load.",
+  "problems": [
+   "Heuristic page selection: Latin text of some works may be missing, and some commentary pages may remain if named unusually or if mostly Latin",
+   "Works without a year in the title have year=None and dateless_in_window=False",
+   "Works with only English period text (some 17th-century English prose) are included only if the page is not predominantly English-by-stopwords: they are likely missing",
+   "no period page recognised: ['https://philological.cal.bham.ac.uk/alabconv/', 'https://philological.cal.bham.ac.uk/alabletter', 'https://philological.cal.bham.ac.uk/andreannals/', 'https://philological.cal.bham.ac.uk/andreas/', 'https://philological.cal.bham.ac.uk/essays', 'https://philological.cal.bham.ac.uk/benlowes', 'https://philological.cal.bham.ac.uk/bentley/', 'https://philological.cal.bham.ac.uk/boece', 'https://philological.cal.bham.ac.uk/bourbon/', 'https://philological.cal.bham.ac.uk/adelphe', 'https://philological.cal.bham.ac.uk/admon/', 'https://philological.cal.bham.ac.uk/bapt', 'https://philological.cal.bham.ac.uk/buchbiog/', 'https://philological.cal.bham.ac.uk/camden/', 'https://philological.cal.bham.ac.uk/cambrit/', 'https://philological.cal.bham.ac.uk/diary/', 'https://philological.cal.bham.ac.uk/campoems/', 'https://philological.cal.bham.ac.uk/campion', 'https://philological.cal.bham.ac.uk/rider', 'https://philological.cal.bham.ac.uk/music3/', 'https://philological.cal.bham.ac.uk/cheke4', 'https://philological.cal.bham.ac.uk/cheke5', 'https://philological.cal.bham.ac.uk/cheke', 'https://philological.cal.bham.ac.uk/chrestien', 'https://philological.cal.bham.ac.uk/cowleypoems', 'https://philological.cal.bham.ac.uk/david', 'https://philological.cal.bham.ac.uk/plants', 'https://philological.cal.bham.ac.uk/cowley', 'https://philological.cal.bham.ac.uk/cruso', 'https://philological.cal.bham.ac.uk/anagrams', 'https://philological.cal.bham.ac.uk/dowland/', 'https://philological.cal.bham.ac.uk/estienne/', 'https://philological.cal.bham.ac.uk/drake/', 'https://philological.cal.bham.ac.uk/forsett', 'https://philological.cal.bham.ac.uk/gager/', 'https://philological.cal.bham.ac.uk/gamage', 'https://philological.cal.bham.ac.uk/mach2/', 'https://philological.cal.bham.ac.uk/psalms', 'https://philological.cal.bham.ac.uk/aschamlife/', 'https://philological.cal.bham.ac.uk/Nero', 'https://philological.cal.bham.ac.uk/sibyls', 'https://philological.cal.bham.ac.uk/holland', 'https://philological.cal.bham.ac.uk/jackson', 'https://philological.cal.bham.ac.uk/deloco', 'https://philological.cal.bham.ac.uk/johnston', 'https://philological.cal.bham.ac.uk/kendall', 'https://philological.cal.bham.ac.uk/ruggle', 'https://philological.cal.bham.ac.uk/corn', 'https://philological.cal.bham.ac.uk/periander/', 'https://philological.cal.bham.ac.uk/smith', 'https://philological.cal.bham.ac.uk/smith2/', 'https://philological.cal.bham.ac.uk/stephens/', 'https://philological.cal.bham.ac.uk/strad2/', 'https://philological.cal.bham.ac.uk/lingua', 'https://philological.cal.bham.ac.uk/boleyn', 'https://philological.cal.bham.ac.uk/polyadag', 'https://philological.cal.bham.ac.uk/polverg', 'https://philological.cal.bham.ac.uk/paria', 'https://philological.cal.bham.ac.uk/watson/', 'https://philological.cal.bham.ac.uk/blamenot']",
+   "failed to load: ['https://philological.cal.bham.ac.uk/anne/']"
+  ]
+ },
+ "poeti-d-italia-in-lingua-latina": {
+  "id": "poeti-d-italia-in-lingua-latina",
+  "texts_total": 727,
+  "words_total": 1254779,
+  "texts_in_window": 646,
+  "words_in_window": 1096817,
+  "undated": 5,
+  "language_words": {
+   "Latin": 1096817
+  },
+  "method": "Chronological author index; per-author work list obtained by the site's own POST (indici/autori/idautori/N); text pages /testo/testo/codice/<code> parsed from div#div-text-MQDQ",
+  "coverage": "727 works by 270 index entries of the Quattrocento and early Cinquecento sections (all works listed)",
+  "problems": [
+   "5 texts have no date in the author record (year=None, not counted)",
+   "Resource gives no per-work dates except print years in the edition notes of the 'carmina libraria' (book paratexts), which are used for those; for all others the year is an approximation from the author's dates (midpoint of birth+20..death, or century). Texts of authors who lived mostly before 1450 may be miscounted as in-window and vice versa; treat counts as approximate.",
+   "Texts are modern critical editions (edition named on each text page) of poems that survive in manuscripts and prints, not diplomatic transcriptions. Verse numbers, poem numbers/titles (c_t) and editorial elements dropped.",
+   "Only the sections 'Umanisti del Quattrocento' and 'Prima meta del Cinquecento' of the chronological index were harvested (270 of 346 index entries); 'Da Dante a Petrarca' (1250-1374) skipped as pre-window."
+  ]
+ },
+ "progetto-pico": {
+  "id": "progetto-pico",
+  "texts_total": 1,
+  "words_total": 7702,
+  "texts_in_window": 1,
+  "words_in_window": 7702,
+  "undated": 0,
+  "language_words": {
+   "Latin": 7702
+  },
+  "method": "Read the Wayback copy (13 Sept 2025, raw id_) of oratio.html; Latin transcription of the editio princeps (paras 1-47); tags and section numbers symbols removed.",
+  "coverage": "The one work (Oratio) harvested in full; commentary, annotated text, introductions and the Apologia (images only) not included.",
+  "problems": [
+   "Original brown.edu address returns 404; read from the Internet Archive copy.",
+   "Year 1496 = date of the printed edition transcribed (composed 1486)."
+  ]
+ },
+ "protokoll-religionskolloquium-vilnius-1585": {
+  "id": "protokoll-religionskolloquium-vilnius-1585",
+  "texts_total": 1,
+  "words_total": 7562,
+  "texts_in_window": 1,
+  "words_in_window": 7562,
+  "undated": 0,
+  "language_words": {
+   "Latin": 7562
+  },
+  "method": "Direct download of the Latin TEI transcript; regularised name forms (reg) and deletions dropped; German translation and introduction not taken.",
+  "coverage": "all: the single Latin TEI transcript.",
+  "problems": []
+ },
+ "queens-men-editions": {
+  "id": "queens-men-editions",
+  "texts_total": 5,
+  "words_total": 104402,
+  "texts_in_window": 5,
+  "words_in_window": 104402,
+  "undated": 0,
+  "language_words": {
+   "English": 104402
+  },
+  "method": "Old-spelling TEI source files of the early quartos from lemdo.uvic.ca/qme/xml/source/; year from titlePage docDate; end-of-line hyphenation pc/lb removed so split words count once.",
+  "coverage": "All 5 available plays (Famous Victories, Friar Bacon, King Leir, Selimus, True Tragedy of Richard III) in old spelling.",
+  "problems": [
+   "The Old Wives' Tale (emdOWT) has no TEI source online (edition page not available at harvest); not harvested.",
+   "Modern-spelling versions (emd*_M.xml) not harvested (old-spelling quarto kept)."
+  ]
+ },
+ "regensburger-wappen-portraetbuecher": {
+  "id": "regensburger-wappen-portraetbuecher",
+  "texts_total": 2,
+  "words_total": 14446,
+  "texts_in_window": 1,
+  "words_in_window": 9917,
+  "undated": 0,
+  "language_words": {
+   "German": 9917
+  },
+  "method": "Fetched the TEI source of o:rpb-06-text; split the single text at folio 087r into the part up to the folio dated 1700 (preface of 1649, decree of 1537, list of officials 1537-1700) and the later continuation (1701-1787), following the catalogue's in-period rule (folios whose first year is 1700 or earlier).",
+  "coverage": "The whole edited text of Band 06; the other eleven volumes have only page images (no text).",
+  "problems": [
+   "The volume is one text; it was split in two records only so that the post-1700 continuation is counted out. Year of part 1 set to 1649 (date of the preface); the list entries within it start 1537."
+  ]
+ },
+ "rejestr-kontrybucji-poznan-1561": {
+  "id": "rejestr-kontrybucji-poznan-1561",
+  "texts_total": 2,
+  "words_total": 9484,
+  "texts_in_window": 2,
+  "words_in_window": 9484,
+  "undated": 0,
+  "language_words": {
+   "Latin": 9484
+  },
+  "method": "Downloaded the single TEI file; one record per manuscript div (ASK91, ASK3); the 'notes' div (modern editorial) excluded.",
+  "coverage": "all",
+  "problems": [
+   "Year 1561 set from the register's date (resource-level), not a per-text header date."
+  ]
+ },
+ "relationen-vom-russischen-hof": {
+  "id": "relationen-vom-russischen-hof",
+  "texts_total": 651,
+  "words_total": 540048,
+  "texts_in_window": 37,
+  "words_in_window": 44734,
+  "undated": 2,
+  "language_words": {
+   "German": 44734
+  },
+  "method": "index_of_documents.json lists items with 'Transkript verfügbar? = Ja'; fetched each document page; kept article.source text minus notes/meta",
+  "coverage": "651 of 651 transcribed documents (whole edition, 1690-1728); the in-window share is 1690-1696",
+  "problems": [
+   "0087: year 1692 taken from Fundort (no date)",
+   "0142: year 1695 taken from Fundort (no date)",
+   "0195: year 1726 taken from Fundort (no date)",
+   "0197: year 1726 taken from Fundort (no date)",
+   "0211: year 1726 taken from Fundort (no date)",
+   "0455: no year found",
+   "1074: year 1412 taken from Fundort (no date)",
+   "1102: no year found",
+   "Transcripts include editorial expansions (<ins>) of abbreviations as text; editorial notes and metadata table dropped. Most documents (1725-1728) are outside the window and kept in staging with their year."
+  ]
+ },
+ "religionsfrieden-quellenedition": {
+  "id": "religionsfrieden-quellenedition",
+  "texts_total": 43,
+  "words_total": 282861,
+  "texts_in_window": 39,
+  "words_in_window": 262293,
+  "undated": 0,
+  "language_words": {
+   "Czech": 5889,
+   "German": 164185,
+   "Latin": 5272,
+   "Italian": 5080,
+   "French": 65719,
+   "Polish": 958,
+   "Dutch": 5367,
+   "English": 9823
+  },
+  "method": "Index page /v/pa000001 parsed for all source-text pages (labels Quellentext / Deutscher Text / Franzoesischer Text; introductions and translations skipped); each TEI from /g/pa000001-NNNN; <choice> reduced to the diplomatic <orig> (modernised <reg> dropped); notes removed by counter.",
+  "coverage": "all source texts listed in the index (some are dated after 1700 and will count out)",
+  "problems": [
+   "pa000001-0035: no language in header; set to Italian from the document id/content",
+   "pa000001-0041: no language in header; set to Latin from the document id/content",
+   "pa000001-0049: no language in header; set to Latin from the document id/content",
+   "pa000001-0059: no language in header; set to Dutch from the document id/content",
+   "pa000001-0084 (French/German parallel version of 0083, Toleranzedikt Ludwigs XVI) skipped as duplicate of 0083 containing a German translation"
+  ]
+ },
+ "richard-brome-online": {
+  "id": "richard-brome-online",
+  "texts_total": 16,
+  "words_total": 394925,
+  "texts_in_window": 16,
+  "words_in_window": 394925,
+  "undated": 0,
+  "language_words": {
+   "English": 394925
+  },
+  "method": "HTML crawl of viewInFrame.jsp (original-spelling frame, one request per act; modern-spelling frame, notes, essays, glossary not fetched); removed line numbers, signatures and catchwords, '[Link]' markers; robots.txt Crawl-delay 2 respected; year = last year in the imprint on the title page",
+  "coverage": "All 16 plays, all acts, original quarto/octavo text including title page, dedications, prologues/epilogues and dramatis personae.",
+  "problems": [
+   "A Mad Couple Well Matched has no transcribed imprint: year 1653 (Five New Playes) set by hand",
+   "Original long-s kept as in source",
+   "Year is the printing date from the transcribed imprint (plays composed earlier)"
+  ]
+ },
+ "rimay-janos-ifjukori-versgyujtemenye": {
+  "id": "rimay-janos-ifjukori-versgyujtemenye",
+  "texts_total": 30,
+  "words_total": 7468,
+  "texts_in_window": 30,
+  "words_in_window": 7468,
+  "undated": 30,
+  "language_words": {
+   "Hungarian": 7468
+  },
+  "method": "HTML crawl of the 30 critical-text pages linked from kr99.htm (each in a nested frameset: frame 'r<N>.htm' holds the poem); removed line numbers and footnote markers; commentary frames (r<N>j.htm), source transcriptions and repertory not fetched",
+  "coverage": "All 30 critical-text pages (poems and the title page of the cycle).",
+  "problems": [
+   "Undated: edition of poems composed c. 1590-1610 (catalogue notes), treated as dateless_in_window",
+   "The page for the opening title/heading (ir0) may be a title rather than a poem",
+   "Critical text, edited by Tóth Tünde, not a witness transcription",
+   "Space-separated words/encoding: pages declared UTF-8 but numeric entities used; decoded via requests"
+  ]
+ },
+ "rostocker-matrikelportal": {
+  "id": "rostocker-matrikelportal",
+  "texts_total": 38317,
+  "words_total": 137845,
+  "texts_in_window": 38317,
+  "words_in_window": 137845,
+  "undated": 0,
+  "language_words": {
+   "Latin": 137845
+  },
+  "method": "Semester list pages (semlist.action blocks 1419-1650 -> /periode/<year><Ost|Mich>); one record per matriculation row, columns Vorname/Nachname/Herkunft (transcription) kept.",
+  "coverage": "38317 entries from 501 semesters, summer 1450 to winter 1699/1700 of the Immatrikulationen 1419-1831 database.",
+  "problems": [
+   "26 semester pages without entries (e.g. semesters with 0 matriculations): ['1487Mich', '1526Mich', '1528Mich', '1529Ost', '1531Mich', '1540Mich', '1542Mich', '1543Ost', '1544Ost', '1545Ost']",
+   "Each record is a short matriculation entry (forename, surname, origin in the original Latin/Latinised spelling; editor's bracketed normalised forms removed), not running text; only the 3 transcription columns on the semester list pages were taken (the per-entry pages, 33,000+ requests, exceed the request cap and add only date, number and user comments).",
+   "Entries are labelled Latin although some names/origins are German or Low German; year = year of the semester start (Easter/Michaelis).",
+   "Faculty books (Dekanbuecher, c. 7,500 entries), the Buetzow matriculation and years after 1700 were not harvested."
+  ]
+ },
+ "rostocker-urgichten": {
+  "id": "rostocker-urgichten",
+  "texts_total": 50,
+  "words_total": 69730,
+  "texts_in_window": 50,
+  "words_in_window": 69730,
+  "undated": 0,
+  "language_words": {
+   "German": 69730
+  },
+  "method": "50 TEI files listed by OAI-PMH (ORE records of collection 1981185920/13873), downloaded once in a browser because file downloads sit behind a bot check; year from the file name",
+  "coverage": "All 50 transcribed Urgichten (one of the 51 items has no TEI file).",
+  "problems": [
+   "Editorial notes inside <note> are dropped by the counter."
+  ]
+ },
+ "rubens-online": {
+  "id": "rubens-online",
+  "texts_total": 353,
+  "words_total": 1384083,
+  "texts_in_window": 344,
+  "words_in_window": 689051,
+  "undated": 0,
+  "language_words": {
+   "Dutch": 91194,
+   "French": 206528,
+   "German": 73549,
+   "Latin": 233911,
+   "Spanish": 2971,
+   "Italian": 10373,
+   "English": 70525
+  },
+  "method": "TEI files under archivalien/ and viten/ listed in mets.xml, fetched one by one; year from origDate, else bibliographic data, else file name; language from xml:lang on the text divisions.",
+  "coverage": "all archival records, letters and printed texts listed in mets.xml (353 files); cdr/ (Codex diplomaticus) excluded.",
+  "problems": [
+   "viten/Marino-la-Galleria-1620.xml: no xml:lang in text, language guessed",
+   "viten/de-Piles-Dialogue-sur-le-Coloris-1699.xml: no xml:lang in text, language guessed",
+   "year source: {'origDate': 307, 'bibl': 46}; div types seen: {None: 1056, 'note': 4, 'title_page': 28, 'chapter': 535, 'preface': 17, 'contents': 13, 'dedication': 8, 'table': 27, 'index': 4, 'corrigenda': 3, 'letter': 349, 'poem': 68, 'introduction': 2, 'privileges': 4, 'imprint': 1, 'book': 13, 'engraved_titlepage': 2, 'epilog': 1, 'sermon': 5, 'censorship': 4, 'speech': 17, 'verse': 3, 'colophon': 2, 'front_matter': 1, 'inventory': 1}",
+   "Codex diplomaticus Rubenianus (cdr/), registers, translation and metadata files not taken; texts dated after 1700 are in staging with their year and fall outside the window"
+  ]
+ },
+ "sandrart-teutsche-academie": {
+  "id": "sandrart-teutsche-academie",
+  "texts_total": 3,
+  "words_total": 648260,
+  "texts_in_window": 3,
+  "words_in_window": 648260,
+  "undated": 0,
+  "language_words": {
+   "German": 648260
+  },
+  "method": "Downloaded the TEI P5 'without named entities' archive (tei-noentities.tgz, 2013); split the group of three <text> elements into one record each (Teutsche Academie 1675 Part I, 1679 Part II, Iconologia Deorum 1680).",
+  "coverage": "All of the TEI file (three printed parts). Scholarly annotations/commentary are not in this file variant.",
+  "problems": [
+   "Years taken from the xml:id/project description of the three parts (1675, 1679, 1680); check filenames.",
+   "Licence not stated on the site.",
+   "RQ counter gives 648,260 words in <body> (notes dropped) against the catalogue figure of about 426,000; the catalogue count may have used a different method."
+  ]
+ },
+ "scudery-artamene-grand-cyrus": {
+  "id": "scudery-artamene-grand-cyrus",
+  "texts_total": 10,
+  "words_total": 1985666,
+  "texts_in_window": 10,
+  "words_in_window": 1985666,
+  "undated": 0,
+  "language_words": {
+   "French": 1985666
+  },
+  "method": "Downloaded the ten official PDFs (cyrus1-10.pdf) of the text from artamene.othone.org, extracted with pdftotext; cut the table of contents (sommaire) and the page headers/footers.",
+  "coverage": "All: ten parts of the novel, whole text (sequence titles kept as short headings).",
+  "problems": [
+   "PDFs derive from a 2003 HTML version of the text; year set to 1656 (edition reproduced, Courbé), the parts first appeared 1649-1653; all inside window.",
+   "No robots.txt (404). TEI on GitHub mentioned by the site but not found."
+  ]
+ },
+ "selbstzeugnisse-hab": {
+  "id": "selbstzeugnisse-hab",
+  "texts_total": 1656,
+  "words_total": 118380,
+  "texts_in_window": 1650,
+  "words_in_window": 56727,
+  "undated": 0,
+  "language_words": {
+   "German": 56727
+  },
+  "method": "August diary: TEI download http://selbstzeugnisse.hab.de/edition/diarium/download (parsed with lxml recover because of duplicate xml:ids). Other diaries: http://selbstzeugnisse.hab.de/downloads/sz2.zip, sz2/tagebuecher/*.xml.",
+  "coverage": "Complete diary of August the Younger 1594-1635 (all dated entries) and all seven TEI files of the sz2 diaries (Ludwig Rudolph 1701 incl. appendices, 1707, 1712-13; Christine Luise 1698-99).",
+  "problems": [
+   "cod_guelf_28_blank_teil2: no dated element, year set from manuscript (1701)",
+   "cod_guelf_28_blank_teil3: no dated element, year set from manuscript (1701)",
+   "cod_guelf_28_blank_teil4: no dated element, year set from manuscript (1701)",
+   "0 August entries without year.",
+   "August diary split per dated entry (E-divs, as the edition does); the 1594 title page/front list and year headings outside the entries not included. Diaries of Ludwig Rudolph/Christine Luise kept one record per manuscript (the edition does not divide them into entries).",
+   "Ludwig Rudolph manuscripts (1701, 1707, 1712-13, 1724) are after 1700 and stay out of window; Christine Luise's 1698/99 diary is in window.",
+   "Passages in Latin and other languages inside the diaries counted as German.",
+   "Editorial translations/annotations sit in <note> elements, which the RQ counter drops. Grand Tour digital (separate entry) not harvested."
+  ]
+ },
+ "serranus-dictionarium-latinogermanicum": {
+  "id": "serranus-dictionarium-latinogermanicum",
+  "texts_total": 1,
+  "words_total": 106476,
+  "texts_in_window": 1,
+  "words_in_window": 106476,
+  "undated": 0,
+  "language_words": {
+   "Latin": 106476
+  },
+  "method": "Downloaded the letter part files (part_a ... part_z) listed in mets.xml (the master tei-transcript.xml only holds XInclude references) and combined their text into one record.",
+  "coverage": "all letter parts A-Z (22 files); front and back matter parts left out.",
+  "problems": [
+   "one record for the whole dictionary (letter part files combined); Latin headwords with German glosses, main language recorded as Latin",
+   "part_front.xml and part_back.xml (owner's marginal notes, blank pages) not taken: not part of the printed text"
+  ]
+ },
+ "sozinianische-briefwechsel": {
+  "id": "sozinianische-briefwechsel",
+  "texts_total": 2286,
+  "words_total": 1388722,
+  "texts_in_window": 2231,
+  "words_in_window": 1356355,
+  "undated": 20,
+  "language_words": {
+   "Latin": 1243653,
+   "German": 44060,
+   "French": 47040,
+   "Polish": 17340,
+   "Italian": 1057,
+   "Dutch": 3205
+  },
+  "method": "Public GraphQL service of the site (https://sozinianer.mni.thm.de/graphql): list of communications, then letter variants with plain text, 25 per request. The GitLab csv-data-dump repository was not used because its robots.txt disallows archive/raw/API downloads.",
+  "coverage": "All transcribed text versions (variants) of all communications returned by the service, one record per version; dates from dateStart; out-of-window (post-1700 or pre-1450) kept with year.",
+  "problems": [
+   "Letters without date have year=None and dateless_in_window=False",
+   "Letters with several versions are counted once per version"
+  ]
+ },
+ "st-galler-missiven": {
+  "id": "st-galler-missiven",
+  "texts_total": 760,
+  "words_total": 229311,
+  "texts_in_window": 542,
+  "words_in_window": 176091,
+  "undated": 0,
+  "language_words": {
+   "German": 176091
+  },
+  "method": "Collection listing (api/collection?per-page=1000, all 808 on one page) parsed for ids; each TEI fetched from /api/document/<id>; year from correspAction type=sent date, fallback listing date.",
+  "coverage": "all documents in the listing",
+  "problems": []
+ },
+ "stationers-register-online": {
+  "id": "stationers-register-online",
+  "texts_total": 10453,
+  "words_total": 393517,
+  "texts_in_window": 10453,
+  "words_in_window": 393517,
+  "undated": 0,
+  "language_words": {
+   "English": 393517
+  },
+  "method": "Downloaded the full TEI XML from /api/allEntries (33 MB, 10,453 entries); one record per entry (docid SRO<n>), raw = entry <items> text only (people metadata and Arber's editorial notes removed). Year = first dated element in the entry consistent with the running chronology, else carried forward from the previous entry (entries are in chronological order by docid).",
+  "coverage": "All 10,453 entries (Registers A, B, C and Arber vol. 4 transcript; 1554-1640).",
+  "problems": [
+   "4 entries have empty <items> (kept as empty records). ",
+   "9792 entries have no usable own date: year carried forward from the preceding entry (approximate; all fall in 1554-1640 anyway).",
+   "Dates inside titles of printed works (not the entry date) may occasionally mislead; guarded by a non-decreasing-chronology check (-1..+10 years vs the running year).",
+   "Eyre and Rivington series (1640-1708) not present in the API data."
+  ]
+ },
+ "statuto-di-paganico": {
+  "id": "statuto-di-paganico",
+  "texts_total": 1,
+  "words_total": 23143,
+  "texts_in_window": 1,
+  "words_in_window": 23143,
+  "undated": 0,
+  "language_words": {
+   "Italian": 23143
+  },
+  "method": "Internet Archive capture (2004/2005) of the 'Edizione' page pagedi.htm, fetched raw (id_ flavour) over http; kept the statute text from the first distinctio to the end of the fifth, removed HTML, index tags, folio markers (C.XIr.), rubric numbers (<I,21>) and footnote call letters; the codex's own table of rubrics at the end of the page (Rubriche de la prima distinctione ...) excluded as an index",
+  "coverage": "Full statute text (five distinctiones, rubrics included as in the edition). Introduction, chapters I-II, hand table and index of rubrics pages not fetched.",
+  "problems": [
+   "Original site is gone; text taken from the Wayback Machine (capture of 2004-10-30 served for the 2005-02-17 request)",
+   "Year 1487 is the first Sienese approval date given in the catalogue (approvals 1487, 1489, 1490); the text itself contains earlier inserted material (e.g. 1440-41 Sienese decrees)",
+   "The edition's footnote apparatus is not in the page, only call letters, which were removed",
+   "web.archive.org over https refused connections from this host; plain http worked"
+  ]
+ },
+ "svea-pommern": {
+  "id": "svea-pommern",
+  "texts_total": 500,
+  "words_total": 320563,
+  "texts_in_window": 255,
+  "words_in_window": 288551,
+  "undated": 68,
+  "language_words": {
+   "Swedish": 288551
+  },
+  "method": "Place list (files/xhtml-edition/auswahl.html) -> one HTML transcription page per place (shared pages deduplicated). Kept the fair-copy (Reinschrift) transcription column plus the adjacent column of contemporary marginal additions; footnote markers and the footnotes, the German translation (uebers) and the draft-copy (Urschrift) folio markers dropped. Each page split into the main survey and the 1704/05 revision at the revision section anchor.",
+  "coverage": "500 texts from 260 of 260 unique transcription pages (276 place entries).",
+  "problems": [
+   "The pages show the Reinschrift transcription only (the Urschrift/draft folios are mapped by markers in the same table, not separately transcribed), so no draft/fair duplicates. Main-survey year taken from the first 169x year in the opening lines; where none, year=None with dateless_in_window=True because the main survey is documented as 1692-1698. Revision texts (1704/05) fall after 1700 and are kept with their year (out of window)."
+  ]
+ },
+ "tagebuecher-christian-ii-anhalt": {
+  "id": "tagebuecher-christian-ii-anhalt",
+  "texts_total": 338,
+  "words_total": 2643525,
+  "texts_in_window": 338,
+  "words_in_window": 2643525,
+  "undated": 0,
+  "language_words": {
+   "German": 2643525
+  },
+  "method": "Monthly TEI files (YYYY_MM.xml) listed in mets.xml, fetched one by one; index, register and note elements (translations, comments) dropped by RQ's counter; year from the file name.",
+  "coverage": "all: 338 monthly files listed in mets.xml (1621-1656).",
+  "problems": [
+   "one record per monthly file (the resource's own division; about 10,000 diary entries inside); main language German with French and Latin passages"
+  ]
+ },
+ "textgrid-repository": {
+  "id": "textgrid-repository",
+  "texts_total": 15293,
+  "words_total": 13074753,
+  "texts_in_window": 15293,
+  "words_in_window": 13074753,
+  "undated": 0,
+  "language_words": {
+   "German": 11334615,
+   "Spanish": 227648,
+   "French": 1512490
+  },
+  "method": "TextGrid tgsearch-public: all 93,675 works of the Digitale Bibliothek project listed (5000/page) with dateOfCreation; in-window works joined to editions; XML object ids found via search path=true per author, TEI downloaded from tgcrud-public (/rest/<uri>/data), 0.5 s between requests. aggregator/teicorpus was too slow and /zip is blocked. Then appended three further public TextGrid projects (adso, textbox_32, second Digitale Bibliothek) with the same procedure (works list -> editions -> search path=true -> tgcrud data).",
+  "coverage": "Digitale Bibliothek TGPR-372fe6dc (main part), plus in-window works of adso, textbox_32 and the second Digitale Bibliothek project TGPR-e4123902: 13220 in-window works selected from 93,675 (by work dateOfCreation, translations excluded); 13070 fetched (after removing the Shakespeare translation). Not harvested: Kolimo+, ELTeC, Bible Corpus, gretil, American Drama, Farbenlehre (no period material) and any project too small to appear in the top-10 facet.",
+  "problems": [
+   "Years: work metadata dateOfCreation is, for most authors, the author's active/life span rather than the date of the individual text; year = midpoint of a range lying entirely within 1450-1700 (e.g. Logau 1605-1655 -> 1630). Texts are mostly modern scholarly editions of period texts (Eitner 1872, Szyrocki, Milch, etc.); each poem/epigram/play is its own record; some editorial apparatus may remain inside <text>.",
+   "4816 works whose date range straddles 1450 or 1700 (mostly authors of c.1690-1770 such as Tersteegen, Wernicke, Zinzendorf, Guenther, Hunold, Brockes, Stieler, Weise) were excluded as not wholly in-window and not fetched.",
+   "235 in-window works excluded as modern translations into German (Shakespeare/Schloesser, La Fontaine/Etzel, Montaigne/Bode, Navarra/Foerster, Moliere, Corneille, Cervantes, Calderon, Ariosto, etc.).",
+   "About 5,200 Digitale Bibliothek works carry no usable date; ~30 of them (Wickram, Gengenbach, Pauli, Schmeltzl, Reuter, Lalebuch 1597, Faustbuch 1587, Fortunatus 1509, Ambraser Liederbuch 1582, Karsthans 1521, etc.) were dated by hand from edition titles/known publication dates, and Johannes Plavius (197 poems) set to approximate 1630. Remaining undated works (Kuhn, Grimm, Schambach, Arent, 18th-19th c. anonymous anthologies, ancient authors in translation) are not period texts and were not harvested; a few undated 16th-17th c. items (Pickelherings Spiel, Muenchner Spiel vom sterbenden Menschen, Kraeutlein Toback) were left out.",
+   "Because tgsearch work-level dates are author spans, the 1450-1700 selection is approximate: some later-printed texts by in-window authors may be included and some in-window texts by authors with wider spans are excluded.",
+   "Other public TextGrid projects (work counts from tgsearch-public; facet shows only the 10 largest projects, so smaller ones may be missing): adso (TGPR-45581d1b-1326-48e5-e607-69d5da02b3f3, Spanish Golden Age poetry): 2,321 works dated wholly 1450-1700 (+102 straddling), e.g. Herrera 320, Cetina 248, Villamediana 203, Argensola 158; textbox_32 (TGPR-4b8bf6c0-e82e-285f-9f69-66bee06b5e2f, French theatre, Corneille/Scarron/Moliere): 98 in-window works (+290 later); a second project also named Digitale Bibliothek (TGPR-e4123902-183d-2f76-9b8f-2abbc96391d9): 9 in-window (Heinrich Julius, Grimmelshausen, Ziegler), 440 later, 334 undated; Kolimo+ (41,298 works, 19th-20th c., none in window), Multilingual Bible Corpus (4,912, out of window), ELTeC (1,262, 19th c.), gretil (1,171, Sanskrit), Goethe Farbenlehre reception (1,340), American Drama Corpus (771, 19th-20th c.): 0 in-window",
+   "150 selected editions could not be mapped to an XML object; 0 fetch failures.",
+   "Post-filter: 196 Shakespeare records (Schlegel-Tieck/Schloesser German translation, edition title lacks a translation marker) removed from staging; their TEI files remain in tei/ but are not in staging.jsonl.",
+   "Appended projects (same dating rule: work dateOfCreation range wholly within 1450-1700, year = midpoint; translations excluded by edition title): adso: 2321 in-window works, 2321 editions, 2321 texts added, 0 translations skipped; textbox32: 98 in-window works, 98 editions, 98 texts added, 0 translations skipped; digbib2: 9 in-window works, 0 editions, 0 texts added, 0 translations skipped. adso years are author spans (e.g. Herrera), so approximate; textbox32 and the second Digitale Bibliothek project likewise.",
+   "Second Digitale Bibliothek project TGPR-e4123902: its 9 in-window works (Heinrich Julius, Grimmelshausen, Ziegler) are indexed as work objects only; tgsearch-public returns 0 public editions and 0 text/xml objects for that project, so no text could be fetched (0 added)."
+  ]
+ },
+ "tinctoris-theoretical-works": {
+  "id": "tinctoris-theoretical-works",
+  "texts_total": 11,
+  "words_total": 46508,
+  "texts_in_window": 11,
+  "words_in_window": 46508,
+  "undated": 11,
+  "language_words": {
+   "Latin": 46508
+  },
+  "method": "Per-treatise combined.js (text embedded in script) fetched; edited text extracted and apparatus resolved with the site's own parser rules",
+  "coverage": "11 of 11 online treatise pages (all edited texts online)",
+  "problems": [
+   "Year left None with dateless_in_window=True: site dates everything to the 1470s-1480s (not per treatise).",
+   "Text is the critical edited text (Latin, manuscript spellings, MS punctuation) rebuilt from the site's combined.js: apparatus {var=...} resolved to the first (base) reading, music examples/labels, tags and **editorial footnotes** removed. Per-manuscript diplomatic transcriptions (V, BU, Br1, G) and the English translation in the same files are NOT used.",
+   "Expositio manus, De natura et proprietate tonorum, Diffinitorium musice are placeholders on the site (not online)."
+  ]
+ },
+ "ula-corpus-documentos-coloniales-merida": {
+  "id": "ula-corpus-documentos-coloniales-merida",
+  "texts_total": 37,
+  "words_total": 58764,
+  "texts_in_window": 37,
+  "words_in_window": 58764,
+  "undated": 0,
+  "language_words": {
+   "Spanish": 58764
+  },
+  "method": "Downloaded the 37 per-document PDFs listed on corpus_cdc.php and extracted the text layer with pdftotext -layout; removed title/archive-reference header, margin line numbers, page numbers, folio markers and bracketed editorial notes ([sic], [en blanco], [rúbrica]...); year = last year in the document title/date line",
+  "coverage": "All 37 documents (1564-1657 per catalogue). Combined corpus PDF and historical survey (resena_historica.pdf) not taken.",
+  "problems": [
+   "Header stripping is heuristic; some editorial footnotes may remain",
+   "Documents with two dates use the first (e.g. doc 19: 1621 and 1622)"
+  ]
+ },
+ "unav-documentos-privados-antiguos": {
+  "id": "unav-documentos-privados-antiguos",
+  "texts_total": 105,
+  "words_total": 29022,
+  "texts_in_window": 8,
+  "words_in_window": 4192,
+  "undated": 0,
+  "language_words": {
+   "Spanish": 4192
+  },
+  "method": "Downloaded all PDFs linked from the collection page (105) and extracted the 'TRANSCRIPCIÓN PALEOGRÁFICA' section with pdftotext; dropped the metadata header, the 'PRESENTACIÓN CRÍTICA' version, {folio/line} markers and bracketed editorial notes; year from the date line of the header",
+  "coverage": "All 105 documents of the page (1550-1900); about 8 fall in 1450-1700, the rest are kept in staging with their year. robots.txt does not disallow /documents/29062.",
+  "problems": [
+   "Paleographic transcription keeps scribal abbreviations in <...> expansions, as transcribed",
+   "Language is a heuristic (Spanish unless Basque function words are frequent)"
+  ]
+ },
+ "urfehdebuecher-basel-x": {
+  "id": "urfehdebuecher-basel-x",
+  "texts_total": 624,
+  "words_total": 85482,
+  "texts_in_window": 624,
+  "words_in_window": 85482,
+  "undated": 0,
+  "language_words": {
+   "German": 85482
+  },
+  "method": "Downloaded the single TEI_SOURCE file from GAMS and split it into one record per Urfehde entry (div ana=#uf_Eintrag); year from the entry's Urfehde date, else the year heading.",
+  "coverage": "All entries of Urfehdebuch X (1563-1569).",
+  "problems": [
+   "Entry count 624 (catalogue says 626; the file has 625 uf_Eintrag ids, one being a p nested in another entry); year-heading fallback used where an entry has no dated Urfehde.",
+   "Record raw includes entry text and marginal notes; page-break/year headings outside entries are not included."
+  ]
+ },
+ "van-der-goes-ystroom": {
+  "id": "van-der-goes-ystroom",
+  "texts_total": 1,
+  "words_total": 46965,
+  "texts_in_window": 1,
+  "words_in_window": 46965,
+  "undated": 0,
+  "language_words": {
+   "Dutch": 46965
+  },
+  "method": "Read config.json (177 entries) and each entry's JSON file via curl (Python's TLS stack is rejected by the server); concatenated the 'Diplomatic' layer in 'Volgorde' order, stripped annotation markers and footnote numbers; modern Dutch translation and editors' notes excluded.",
+  "coverage": "All 177 entries (preliminaries and the poem), as one record for the one 1671 edition.",
+  "problems": [
+   "Entries sorted by the Volgorde metadata field; entries with empty diplomatic layer skipped."
+  ]
+ },
+ "vasto-varchi-storia-fiorentina": {
+  "id": "vasto-varchi-storia-fiorentina",
+  "texts_total": 1,
+  "words_total": 3045,
+  "texts_in_window": 1,
+  "words_in_window": 3045,
+  "undated": 1,
+  "language_words": {
+   "Italian": 3045
+  },
+  "method": "raw.githubusercontent.com pilot_proemio.xml (single TEI file); body only; diplomatic layer kept (<orig>, <sic>, <lem>, additions), critical/normalised layer (<corr>, <reg>, <rdg>) removed; deleted/struck passages (<del>) kept as part of the diplomatic transcription.",
+  "coverage": "All that is published: the Proemio (cc. 8r-13r of Cors. 1352).",
+  "problems": [
+   "No date of composition in the file; year=None with dateless_in_window=True because the catalogue documents it as a 16th-century text (Varchi died 1565).",
+   "Word count (3.0k) is below the catalogue figure (3.9k): the RQ counter drops some editorial elements and the apparatus is reduced to its lemma.",
+   "Diplomatic and critical layers share one file; only the diplomatic one was kept."
+  ]
+ },
+ "venetian-inscriptions-cyprus": {
+  "id": "venetian-inscriptions-cyprus",
+  "texts_total": 27,
+  "words_total": 463,
+  "texts_in_window": 24,
+  "words_in_window": 368,
+  "undated": 2,
+  "language_words": {
+   "Latin": 368
+  },
+  "method": "Place pages /place/N/ list inscription pages /place/epigraphy/N/; fetched each and extracted the diplomatic transcription block",
+  "coverage": "27 of 27 inscription pages on 17 places",
+  "problems": [
+   "FAM_PP_01: date 'Uncertain' on the site; year=None, not counted (the resource does not say all texts fall in 1450-1700)",
+   "FAM_PP_02: date 'Uncertain' on the site; year=None, not counted (the resource does not say all texts fall in 1450-1700)",
+   "Diplomatic transcription (upper case, line numbers, column labels, 'Inscription N' labels and source-attribution lines dropped) used; interpreted transcription, translations, apparatus and descriptions excluded. Year = Year From; verbal dates ('End of 15th century') converted to an approximate year within the century."
+  ]
+ },
+ "wandering-jews-chronicle": {
+  "id": "wandering-jews-chronicle",
+  "texts_total": 15,
+  "words_total": 16565,
+  "texts_in_window": 4,
+  "words_in_window": 3351,
+  "undated": 0,
+  "language_words": {
+   "English": 3351
+  },
+  "method": "GitHub tarball of gbergel/WJC; parallel-segmentation TEI (WJC/WJC.xml) reduced to one plain-text reading per witness by selecting the <rdg> of each witness in every <app>; bibliographic header/front excluded.",
+  "coverage": "all 15 copies reconstructed (4 pre-1700 witnesses A.2.a, C.1.a, C.2.a, C.3.a are the in-window ones)",
+  "problems": [
+   "Witness dates are not in the TEI: years are approximate placeholders (A.2.a=1634 per resource period start; C.1-3=1680 'Charles II versions, before 1700'; 18th-century copies=1750; J.1.2.a=1830 19th century) taken from the resource description, not exact imprint dates."
+  ]
+ },
+ "wathay-ferenc-osszes-muve": {
+  "id": "wathay-ferenc-osszes-muve",
+  "texts_total": 30,
+  "words_total": 21618,
+  "texts_in_window": 30,
+  "words_in_window": 21618,
+  "undated": 0,
+  "language_words": {
+   "Hungarian": 21618
+  },
+  "method": "Crawled tart.htm and the 30 transcription pages versek/bhu/*.htm (windows-1250 HTML).",
+  "coverage": "All: title page, preface and songs 1-28.",
+  "problems": [
+   "Year 1604 (date on the title page 'Anno 1604'); the catalogue gives writing years 1603-1606. Records are title page, preface and 28 songs (catalogue counts the songbook as 1 text). Only the letter-faithful transcription pages (bhu) kept; afterword (utoszo) and facsimile pages left out. robots.txt returns an error page (none)."
+  ]
+ },
+ "weinsberg-gedenkbuecher": {
+  "id": "weinsberg-gedenkbuecher",
+  "texts_total": 3,
+  "words_total": 1829120,
+  "texts_in_window": 3,
+  "words_in_window": 1829120,
+  "undated": 3,
+  "language_words": {
+   "German": 1829120
+  },
+  "method": "Per-book HTML text pages (liN/lsN/ldN.htm, the 'Text' frame of each frameset), concatenated per book; reference links, markup and navigation removed. Marginal notes (marg*.htm), indexes and introductions not included.",
+  "coverage": "All three books (files li1-8, ls1-11, ld1-10) as listed on the frameset pages.",
+  "problems": [
+   "Per-book year is not in the markup: set year=None with dateless_in_window=True because the whole work dates from 1518-1597 (per catalogue). Main language German with Latin passages and grey-font editorial reconstructions of damaged text left in. Marginal notes (author's original marginalia) were not harvested."
+  ]
+ },
+ "winthrop-papers-digital-edition": {
+  "id": "winthrop-papers-digital-edition",
+  "texts_total": 1440,
+  "words_total": 675859,
+  "texts_in_window": 1439,
+  "words_in_window": 675609,
+  "undated": 0,
+  "language_words": {
+   "Latin": 9704,
+   "English": 665905
+  },
+  "method": "Document pages (/view/<id>) enumerated through the browse-by-date pages; only the document body (div2/div3 type=docbody: address, salutation, text, closing) was kept; editorial header, footnote markers and back-matter notes (docback) removed. No bulk export, API or TEI download found; /sitemap.xml is a routing error.",
+  "coverage": "1440 of 1442 documents listed in the browse-by-date pages (volumes 1-4 only are online).",
+  "problems": [
+   "PWF02d231: no docbody",
+   "PWF02d233: no docbody"
+  ]
+ },
+ "wsrb-mittelniederdeutsche-spruchsammlungen": {
+  "id": "wsrb-mittelniederdeutsche-spruchsammlungen",
+  "texts_total": 8,
+  "words_total": 180964,
+  "texts_in_window": 8,
+  "words_in_window": 180964,
+  "undated": 0,
+  "language_words": {
+   "Middle Low German": 180964
+  },
+  "method": "Fetched the eight transcription TEI files from /wsrb/xml_raw/<id>.tei.xml (links on the Daten/TEI page).",
+  "coverage": "All 8 transcriptions (7 Werltspröke editions + Rimbökelin). The critical edition TEI (wsrb_edition) was not harvested, to avoid duplicating the sayings.",
+  "problems": [
+   "Year from sourceDesc dates of each print (check)."
+  ]
+ },
+ "zrinyi-adriai-tengernek-syrenaja": {
+  "id": "zrinyi-adriai-tengernek-syrenaja",
+  "texts_total": 2,
+  "words_total": 91568,
+  "texts_in_window": 2,
+  "words_in_window": 91568,
+  "undated": 0,
+  "language_words": {
+   "Hungarian": 91568
+  },
+  "method": "Crawled the two content lists (syrena/tartalom.htm, 1651/tartalom.htm) and every linked old-spelling HTML page (cp1250); text of the pages concatenated into one record per witness.",
+  "coverage": "All 22 manuscript pages and 21 print pages.",
+  "problems": [
+   "No robots.txt on the host (returns an error page)",
+   "Syrena manuscript is not separately dated on the site: year set to 1651 (date of the print / work), as in the catalogue period",
+   "Pages may include a few editorial page/folio marks"
+  ]
+ },
+ "zwingli-briefe": {
+  "id": "zwingli-briefe",
+  "texts_total": 85,
+  "words_total": 42516,
+  "texts_in_window": 85,
+  "words_in_window": 42516,
+  "undated": 0,
+  "language_words": {
+   "Latin": 36018,
+   "German": 6498
+  },
+  "method": "Overview list from Wayback copy, each letter page read from Wayback (id_ raw), letter text taken after the header block, page markers/markup removed, apparatus is absent on the site. Language by stopword heuristic.",
+  "coverage": "85 of 804 letter pages (Brief.1-790 range, vols 7-9, 1510-1528).",
+  "problems": [
+   "Only a fraction of the letter pages was captured by the Internet Archive; the rest could not be read (not guessed). Live site (irg.uzh.ch) answers 403 Forbidden to scripted requests; pages were read from the Internet Archive copies (2011 snapshots) instead.",
+   "719 of 804 letter pages have no usable Wayback capture / not parsable (letters not harvested)"
+  ]
+ }
+}

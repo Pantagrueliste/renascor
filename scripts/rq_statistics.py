@@ -25,6 +25,9 @@ except ImportError:
 ROOT = Path(__file__).resolve().parents[1]
 SNAPSHOT = "v2026.06"
 SOURCE = "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen"
+# Collections added by the catalogue harvest (RQ/data/raw/renascor_2026-10): Renascor_<record id>.
+HARVEST_PREFIX = "Renascor_"
+HARVEST_SCOPE = "texts harvested from this resource in October 2026, duplicates included; they may cover only part of it"
 
 
 def checksum(path: Path) -> str:
@@ -136,6 +139,9 @@ def recover_staging(stats: dict, seen: dict, rq_root: Path, extract_text=None,
 def project_collections(stats: dict, families: dict) -> dict:
     projects = {}
     for coll in sorted(stats):
+        if coll.startswith(HARVEST_PREFIX):  # catalogue harvest: one collection per record
+            projects.setdefault(coll[len(HARVEST_PREFIX):], []).append(coll)
+            continue
         if coll in families.get("exclude", {}):
             continue
         group = next((g for g in families["groups"]
@@ -157,7 +163,8 @@ def aggregate_collections(stats: dict, members: list[str]) -> dict:
     return out
 
 
-def refresh_entries(entries_dir: Path, stats: dict, families: dict, licenses: dict) -> dict:
+def refresh_entries(entries_dir: Path, stats: dict, families: dict, licenses: dict,
+                    snapshot: str = SNAPSHOT) -> dict:
     projects = project_collections(stats, families)
     changed, refreshed, increased = 0, 0, 0
     updates = []
@@ -165,28 +172,53 @@ def refresh_entries(entries_dir: Path, stats: dict, families: dict, licenses: di
         entry = json.loads(path.read_text())
         before = dict(entry)
         members = projects.get(path.stem)
+        harvest = [m for m in members or [] if m.startswith(HARVEST_PREFIX)]
+        if snapshot != SNAPSHOT and not harvest:
+            # A later snapshot copies the frozen collections unchanged: relabel, never recount
+            # (some records hold hand-split shares of one frozen collection).
+            if entry.get("corpus_statistics"):
+                entry["corpus_statistics"] = {**entry["corpus_statistics"], "snapshot": snapshot}
+            if entry.get("notes"):
+                entry["notes"] = re.sub(r"((?:Renascor Corpus|RQ Open Corpus) snapshot )v[\w.]+",
+                                        rf"\g<1>{snapshot}", entry["notes"])
+            members = None
         if members and (re.search(r"(?:Renascor Corpus|RQ Open Corpus) snapshot ", entry.get("notes", ""))
-                        or entry.get("corpus_statistics")):
+                        or entry.get("corpus_statistics") or harvest):
             s = aggregate_collections(stats, members)
-            # Refuse to silently mix the June snapshot with a later recount.
-            previous = entry.get("corpus_statistics", entry)
-            if (previous.get("words"), previous.get("texts")) != (s["corpus_words"], s["corpus_texts"]):
-                raise ValueError(f"{path.stem}: frozen counts do not match the catalogue; use its exact snapshot")
+            if harvest:
+                # The record's size comes from its own harvest; frozen collections holding copies of
+                # the same files add only to the deduplicated corpus count.
+                h = aggregate_collections(stats, harvest)
+                s.update(words=h["words"], texts=h["texts"], restored_texts=0)
+            else:
+                # Refuse to silently mix the June snapshot with a later recount.
+                previous = entry.get("corpus_statistics", entry)
+                if (previous.get("words"), previous.get("texts")) != (s["corpus_words"], s["corpus_texts"]):
+                    raise ValueError(f"{path.stem}: frozen counts do not match the catalogue; use its exact snapshot")
+            corpus = {"snapshot": snapshot, "words": s["corpus_words"], "texts": s["corpus_texts"]}
             # A newer source census takes precedence over the frozen harvested subset.
             if not entry.get("resource_statistics"):
                 increased += s["words"] > s["corpus_words"] or s["texts"] > s["corpus_texts"]
-                entry.update(words=s["words"], texts=s["texts"], languages=sorted(catalogue_languages(s["langs"])),
-                             corpus_statistics={"snapshot": SNAPSHOT, "words": s["corpus_words"],
-                                                "texts": s["corpus_texts"]},
+                entry.update(words=s["words"], texts=s["texts"], corpus_statistics=corpus,
                              count_basis=("rq-retained-rows-and-staging" if s["restored_texts"]
                                           else "rq-retained-rows"))
-                if s["period"]:
-                    entry["period"] = "{}-{}".format(*s["period"])
-                entry["notes"] = re.sub(
-                    r"(?:Renascor Corpus|RQ Open Corpus) snapshot v2026\.06 \([^)]*\)",
-                    "Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it)",
-                    entry.get("notes", ""))
+                # Harvested records keep their curated languages and period: the harvest assigns
+                # languages by heuristics and dates some texts by author lifespans.
+                if not harvest:
+                    entry["languages"] = sorted(catalogue_languages(s["langs"]))
+                    if s["period"]:
+                        entry["period"] = "{}-{}".format(*s["period"])
                 refreshed += 1
+            else:
+                entry["corpus_statistics"] = corpus
+            notes = entry.get("notes", "")
+            if re.search(r"(?:Renascor Corpus|RQ Open Corpus) snapshot v[\w.]+", notes):
+                notes = re.sub(r"((?:Renascor Corpus|RQ Open Corpus) snapshot )v[\w.]+", rf"\g<1>{snapshot}", notes)
+            elif harvest and not entry.get("resource_statistics"):
+                notes = (notes.rstrip() + " " if notes.strip() else "") + \
+                    f"Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot {snapshot} ({HARVEST_SCOPE})."
+            if notes:
+                entry["notes"] = notes
         verified = licenses.get(path.stem)
         if verified:
             entry.update({k: v for k, v in verified.items() if k in
@@ -208,6 +240,8 @@ def main() -> int:
     parser.add_argument("--families", type=Path, default=ROOT / "scripts/rq_families.json")
     parser.add_argument("--entries-dir", type=Path, default=ROOT / "data/entries")
     parser.add_argument("--out", type=Path, default=ROOT / "data/rq_statistics.json")
+    parser.add_argument("--snapshot", default=SNAPSHOT, help="Snapshot version of --db, e.g. v2026.10")
+    parser.add_argument("--source", default=SOURCE, help="Where the snapshot is documented")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
     stats, seen = read_database(args.db)
@@ -215,14 +249,14 @@ def main() -> int:
     for s in stats.values():
         s["languages"] = sorted(s["languages"])
         s["years"] = sorted(s["years"])
-    payload = {"snapshot": SNAPSHOT, "source": SOURCE, "database_sha256": checksum(args.db),
+    payload = {"snapshot": args.snapshot, "source": args.source, "database_sha256": checksum(args.db),
                "scope": [1450, 1700],
                "coverage": "Harvested subsets. Pre-harvest exclusions and unstaged pre-ingest exclusions remain unknown.",
                "collections": dict(sorted(stats.items())), "staging": audits}
     if not args.dry_run:
         families = json.loads(args.families.read_text())
         licenses = json.loads((ROOT / "scripts/rq_licenses_verified.json").read_text())["entries"]
-        print(json.dumps(refresh_entries(args.entries_dir, stats, families, licenses)))
+        print(json.dumps(refresh_entries(args.entries_dir, stats, families, licenses, args.snapshot)))
         args.out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
     print(f"Recovered {sum(a['restored_texts'] for a in audits):,} texts / "
           f"{sum(a['restored_words'] for a in audits):,} words from {len(audits)} locked staging files")

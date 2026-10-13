@@ -15,16 +15,22 @@
   "status": "archived",
   "institution": "École nationale des chartes (Éditions en ligne de l'École des chartes, ELEC), edited by students under Bernard Barbiche",
   "texts": 15,
-  "words": 82806,
+  "words": 60119,
   "period": "1562-1598",
   "date": "1562-1598",
   "region": "France",
   "countries": [
     "FR"
   ],
-  "notes": "Critical edition of the main edicts and treaties that ended the French Wars of Religion, from the Edict of January 1562 to the Edict of Nantes of 1598, set out article by article from the registers of the Parlement of Paris and the two sealed originals of the Edict of Nantes. Readable online without login; the TEI XML is offered on the downloads page. Counts are our own, from the TEI file: 15 texts (edicts, treaties and conference articles) and about 82,800 words, excluding apparatus and notes. The TEI history ends in 2009 and the server file dates from June 2012, so the edition is marked archived.",
+  "notes": "Critical edition of the main edicts and treaties that ended the French Wars of Religion, from the Edict of January 1562 to the Edict of Nantes of 1598, set out article by article from the registers of the Parlement of Paris and the two sealed originals of the Edict of Nantes. Readable online without login; the TEI XML is offered on the downloads page. The 15 texts are edicts, treaties and conference articles. The TEI history ends in 2009 and the server file dates from June 2012, so the edition is marked archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "last_modified": "2012-06-29",
   "license": "CC-BY-NC-ND-2.0",
   "license_url": "http://creativecommons.org/licenses/by-nc-nd/2.0/fr/",
-  "license_note": "Creative Commons Attribution-NonCommercial-NoDerivs 2.0 France licence stated on the downloads page and in the TEI header."
+  "license_note": "Creative Commons Attribution-NonCommercial-NoDerivs 2.0 France licence stated on the downloads page and in the TEI header.",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 60119,
+    "texts": 15
+  },
+  "count_basis": "rq-retained-rows"
 }

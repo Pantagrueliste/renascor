@@ -16,10 +16,10 @@
   "words": 12560,
   "texts": 1,
   "period": "1611-1611",
-  "notes": "Taklow Kernewek, a personal site by David Trethewey, hosts digitised Cornish texts including 'Gwreans an Bys' (The Creation of the World, Cornish mystery play, MS 1611) in plain text. The text used is the Kernewek Kemmyn respelling (Keith Syed and Ray Edwards, KDL edition 2000) of Whitley Stokes's edition (1864); the manuscript-spelling text is kernewek_corpus/cwkdlms.txt in the GitHub repository. Licence not stated on the site. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Taklow Kernewek, a personal site by David Trethewey, hosts digitised Cornish texts including 'Gwreans an Bys' (The Creation of the World, Cornish mystery play, MS 1611) in plain text. The text used is the Kernewek Kemmyn respelling (Keith Syed and Ray Edwards, KDL edition 2000) of Whitley Stokes's edition (1864); the manuscript-spelling text is kernewek_corpus/cwkdlms.txt in the GitHub repository. Licence not stated on the site. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Taklow Kernewek (David Trethewey), personal project; text from the Kernewek Kemmyn respelling of Stokes's edition (Keith Syed and Ray Edwards, KDL 2000)",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 12560,
     "texts": 1
   },

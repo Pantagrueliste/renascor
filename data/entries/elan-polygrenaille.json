@@ -16,10 +16,10 @@
   "words": 77536,
   "texts": 1,
   "period": "1642-1642",
-  "notes": "POLY-GRENAILLE is the digital critical edition of the moral works of François de Grenaille, published on the ELAN platform (UMR Litt&Arts, Grenoble) with TEI encoding and critical annotation. The edition is in progress: so far one work is edited in TEI, La Mode (Paris 1642); the site menu already lists about ten further works (Le bon esprit, L'honnête fille, L'honnête mariage, L'honnête veuve...). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.06 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "POLY-GRENAILLE is the digital critical edition of the moral works of François de Grenaille, published on the ELAN platform (UMR Litt&Arts, Grenoble) with TEI encoding and critical annotation. The edition is in progress: so far one work is edited in TEI, La Mode (Paris 1642); the site menu already lists about ten further works (Le bon esprit, L'honnête fille, L'honnête mariage, L'honnête veuve...). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "ELAN / UMR Litt&Arts (CNRS / Universite Grenoble Alpes), dir. Cecile Lignereux and Bernard Roukhomovsky (project MoREM)",
   "corpus_statistics": {
-    "snapshot": "v2026.06",
+    "snapshot": "v2026.10",
     "words": 77536,
     "texts": 1
   },

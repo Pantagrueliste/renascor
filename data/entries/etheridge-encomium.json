@@ -14,14 +14,20 @@
   "institution": "British Library and the Hellenic Institute, Royal Holloway, University of London",
   "author": "George Etheridge",
   "texts": 1,
-  "words": 5889,
+  "words": 4809,
   "date": "c. 1566",
   "period": "c. 1566",
   "region": "England",
   "countries": [
     "GB-ENG"
   ],
-  "notes": "Electronic edition of a Greek encomium in Etheridge's own hand, prepared for Elizabeth I's Oxford visit of 1566, with transcription, edited text with apparatus, English translation and manuscript images. Readable without login. words = our own count of the transcription pages for 76 folio sides (f. 1r-38v) as served by the site (visible words, including some editorial markers), so approximate. Built with HTML and JavaScript only, no TEI. The server's file listing shows the most recent edits on 2023-03-20 and the edition page is dated 20 March 2023; no later change found, so it is marked archived.",
+  "notes": "Electronic edition of a Greek encomium in Etheridge's own hand, prepared for Elizabeth I's Oxford visit of 1566, with transcription, edited text with apparatus, English translation and manuscript images. Readable without login. Built with HTML and JavaScript only, no TEI. The server's file listing shows the most recent edits on 2023-03-20 and the edition page is dated 20 March 2023; no later change found, so it is marked archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "last_modified": "2023-03-20",
-  "license": "Not stated"
+  "license": "Not stated",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 4809,
+    "texts": 1
+  },
+  "count_basis": "rq-retained-rows"
 }

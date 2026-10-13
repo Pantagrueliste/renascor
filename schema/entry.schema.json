@@ -86,6 +86,10 @@
       "uniqueItems": true,
       "items": {"type": "string", "enum": ["manuscript", "print", "inscription"]}
     },
+    "modernised": {
+      "type": "boolean",
+      "description": "True when the resource gives its texts only in modernised spelling, not as transcriptions of the original spelling. Optional; omit otherwise."
+    },
     "encoding": {
       "type": "string",
       "enum": [

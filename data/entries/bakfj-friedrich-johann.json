@@ -13,8 +13,8 @@
   "author": "Frederick the Wise and John the Steadfast, Electors of Saxony, and correspondents",
   "date": "1493-1532",
   "institution": "Sächsische Akademie der Wissenschaften zu Leipzig (Manfred Rudersdorf, Armin Kohnle and team)",
-  "words": 124715,
-  "texts": 330,
+  "words": 122554,
+  "texts": 301,
   "region": "Electoral Saxony",
   "countries": [
     "DE"
@@ -22,7 +22,13 @@
   "period": "1493-1532",
   "license": "CC-BY-NC-SA-4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "notes": "Academy edition of the church-policy correspondence and records of the two electors. The online database lists 3,385 documents; for 1,760 of them (dated 1493 to December 1522) editing is marked complete. Of these, 330 show an edited source text beside the German summary, about 125,000 words; the others currently show a summary and metadata only, and the rest of the database is metadata. The printed volumes (three so far, the latest in December 2025) are not online here. Counts are ours, taken from the document pages, so they will grow as texts are added. Twelve further documents appear with full transcriptions and images under 'Kabinettstücke'. News on the site is dated October 2026.",
+  "notes": "Academy edition of the church-policy correspondence and records of the two electors. The online database lists 3,385 documents; for 1,760 of them (dated 1493 to December 1522) editing is marked complete. Of these, those with an edited source text show it beside the German summary; the others currently show a summary and metadata only, and the rest of the database is metadata. The printed volumes (three so far, the latest in December 2025) are not online here. Twelve further documents appear with full transcriptions and images under 'Kabinettstücke'. News on the site is dated October 2026. The counts cover the 302 documents with an edited source text found on the document pages, and will grow as texts are added. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
-  "date_added": "2026-10-12"
+  "date_added": "2026-10-12",
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 122554,
+    "texts": 301
+  },
+  "count_basis": "rq-retained-rows"
 }
