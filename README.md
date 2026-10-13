@@ -1,8 +1,9 @@
-# Renascor [![Deployment](https://img.shields.io/github/actions/workflow/status/Pantagrueliste/renascor/pages.yml?branch=main&style=for-the-badge&label=Deployment&logo=github&logoColor=white)](https://github.com/Pantagrueliste/renascor/actions/workflows/pages.yml) [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23345610-1682d4?style=for-the-badge)](https://doi.org/10.5281/zenodo.23345610) 
-
-[![WCAG 2.2 AA](https://img.shields.io/badge/WCAG_2.2-AA-1a7f37?style=for-the-badge)](https://pantagrueliste.github.io/renascor/#accessibility) [![Browse the catalogue](https://img.shields.io/badge/Browse_the_catalogue-1a56db?style=for-the-badge&logo=github&logoColor=white)](https://pantagrueliste.github.io/renascor/) [![Suggest a collection](https://img.shields.io/badge/Suggest_a_collection-4b5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pantagrueliste/renascor/issues/new?template=new-entry.yml) [![Report a correction](https://img.shields.io/badge/Report_a_correction-4b5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pantagrueliste/renascor/issues/new?template=correction.yml) [![Buy me a coffee](https://img.shields.io/badge/Buy_me_a_coffee-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/clementgodbarge)
-
+# Renascor 
 An open catalogue of digital editions from **1450–1700**.
+[![Deployment](https://img.shields.io/github/actions/workflow/status/Pantagrueliste/renascor/pages.yml?branch=main&style=for-the-badge&label=Deployment&logo=github&logoColor=white)](https://github.com/Pantagrueliste/renascor/actions/workflows/pages.yml) [![WCAG 2.2 AA](https://img.shields.io/badge/WCAG_2.2-AA-1a7f37?style=for-the-badge)](https://pantagrueliste.github.io/renascor/#accessibility)  
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.23345610-1682d4?style=for-the-badge)](https://doi.org/10.5281/zenodo.23345610) 
+[![Suggest a collection](https://img.shields.io/badge/Suggest_a_collection-4b5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pantagrueliste/renascor/issues/new?template=new-entry.yml) [![Report a correction](https://img.shields.io/badge/Report_a_correction-4b5563?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Pantagrueliste/renascor/issues/new?template=correction.yml) [![Buy me a coffee](https://img.shields.io/badge/Buy_me_a_coffee-ff5e5b?style=for-the-badge&logo=kofi&logoColor=white)](https://ko-fi.com/clementgodbarge)
+
 
 ## Who this is for
 
