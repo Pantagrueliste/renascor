@@ -5,7 +5,7 @@
     "licence": "CC0-1.0",
     "version": "0.2.0",
     "data_updated": "2026-10-13",
-    "data_commit": "85c3fdb57ab8570f4b6ff90ec94e7a9e5191f0cd",
+    "data_commit": "eee4b5bf8af287fed0d17a60390ebc4da4e93ddd",
     "corpus_statistics": {
       "name": "Renascor Corpus",
       "snapshot": "v2026.10",
@@ -14,13 +14,13 @@
         1450,
         1700
       ],
-      "words": 2208819239,
-      "texts": 195603,
+      "words": 2218286819,
+      "texts": 206552,
       "basis": "After the corpus duplicate filter; complete working snapshot, before catalogue grouping",
       "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
-      "database_sha256": "1beb1afb8ac2c1522503ae2e6d034e536d5010d1c2dc4bf1d2b4bb2cf52e8908"
+      "database_sha256": "cc8ac445f23e4ff258a8e1b93fa10497275e7af0c0a94aa16790537a43dd7fdb"
     },
-    "records": 318,
+    "records": 330,
     "fields": [
       "id",
       "title",
@@ -1793,6 +1793,43 @@
         "print"
       ],
       "notes": "Colonia is the diachronic corpus of classical Portuguese (16th-20th c.) of the AC/DC annotation project at Linguateca (Diana Santos). The live Linguateca author/works list for Colonia enumerates exactly the collected works — Anchieta, Pero Vaz de Caminha, Gandavo, Vieira sermons/letters, Camões, Guerr(a?)e(d)eiro, Melo. The corpus's own site (corporavm.uni-koeln.de/colonia) is dead; Linguateca's page remains the live official listing. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "shakespeare-mit",
+      "title": "The Complete Works of William Shakespeare (MIT)",
+      "url": "https://shakespeare.mit.edu/",
+      "data_url": "https://github.com/TheMITTech/shakespeare",
+      "data_format": "html",
+      "institution": "Jeremy Hylton; operated by The Tech (MIT), hosted by MIT IS&T",
+      "languages": [
+        "English"
+      ],
+      "period": "c. 1590-1613",
+      "words": 934523,
+      "texts": 198,
+      "corpus_statistics": {
+        "snapshot": "v2026.10",
+        "words": 934523,
+        "texts": 198
+      },
+      "count_basis": "rq-retained-rows",
+      "encoding": "html",
+      "license": "Public domain",
+      "license_url": "https://shakespeare.mit.edu/",
+      "status": "archived",
+      "region": "England",
+      "countries": [
+        "GB-ENG"
+      ],
+      "author": "William Shakespeare",
+      "last_modified": "2023-09-19",
+      "provenance": "discovered",
+      "date_added": "2026-10-13",
+      "document_types": [
+        "print"
+      ],
+      "modernised": true,
+      "notes": "Online since 1993. HTML pages for the 37 plays, the Sonnets, Venus and Adonis, The Rape of Lucrece, A Lover's Complaint and A Funeral Elegy. All of it dates from 1450-1700. The text comes from the Moby Shakespeare, a modernised-spelling text, not a transcription of the early prints. HTML public domain according to the site. Status: the home page says 'Current copy taken from GitHub and hosted by MIT IS&T in a static location' (5/10/23) and the repository's last push is 2023-09-19; nothing newer was found. The counts cover the GitHub repository's plays, sonnets and poems, including The Passionate Pilgrim and The Phoenix and the Turtle from its plain-text poetry file. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "rin-conde",
@@ -3678,6 +3715,40 @@
       "notes": "The Neo-Latin plays (NeoLatDraCor, 21 of the texts) are not on the production platform dracor.org; they are served at staging.dracor.org and in the GitHub repository dracor-org/neolatdracor (https://github.com/dracor-org/neolatdracor). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
+      "id": "early-americas-digital-archive",
+      "title": "Early Americas Digital Archive (EADA)",
+      "url": "https://web.archive.org/web/2013/http://mith.umd.edu/eada/",
+      "institution": "Maryland Institute for Technology in the Humanities (MITH), University of Maryland; general editor Ralph Bauer",
+      "languages": [
+        "English",
+        "Spanish",
+        "Dutch"
+      ],
+      "period": "1492-c.1820",
+      "words": 515178,
+      "texts": 49,
+      "corpus_statistics": {
+        "snapshot": "v2026.10",
+        "words": 515178,
+        "texts": 49
+      },
+      "count_basis": "rq-retained-rows",
+      "encoding": "html",
+      "license": "Not stated",
+      "status": "discontinued",
+      "region": "The Americas (texts written in or about the Americas)",
+      "countries": [
+        "US"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-13",
+      "document_types": [
+        "print",
+        "manuscript"
+      ],
+      "notes": "Collection of electronic texts originally written in or about the Americas from 1492 to about 1820, stored as TEI and shown as HTML pages; about 134 text pages are preserved in the Wayback Machine. The part dating from 1450-1700 is the texts of the colonial period up to 1700 (for example the Plymouth Plantation history of William Bradford, written c. 1630-1650); later items such as Barlow's poems and Banneker's letter are eighteenth-century. The exact in-period share was not established. The live site is gone (eada.lib.umd.edu returns 400 Bad Request, checked 2026-10-13; last Wayback captures of the site are 2013-2015); the url is the Wayback copy. The TEI files are not downloadable from the archive. The counts cover the in-period texts among the 114 text pages captured by the Wayback Machine, in their original language; 27 modern English translations of Spanish and Dutch texts are not counted. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+    },
+    {
       "id": "phrygius-early-latin-poetry",
       "title": "The Early Latin Poetry of Sylvester Johannis Phrygius (P. Sjökvist, PhD thesis)",
       "url": "https://uu.diva-portal.org/smash/record.jsf?pid=diva2:171057",
@@ -5458,6 +5529,37 @@
       "notes": "The collection is DSL/tekstnet.dk's scientific online edition of Henrik Smid's six medical books (the posthumous 1577 edition), edited by Simon Skovgaard Boeck with Anne Mette Hansen and Ebba Hjorth; text transcribed from digital photographs in cooperation with the Universität Trier. The three harvested texts correspond word-for-word to the origin ids 'smith-h_1-laegebog-top-til-taa (1577)' etc., verified live (200) at tekstnet.dk/books/smith-h_1-laegebog-top-til-taa/. tekstnet.dk is DSL's portal for Old Danish text editions. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
+      "id": "henslowe-alleyn-digitisation-project",
+      "title": "The Henslowe-Alleyn Digitisation Project",
+      "url": "https://henslowe-alleyn.org.uk/",
+      "institution": "Dulwich College, with King's Digital Lab, King's College London",
+      "languages": [
+        "English"
+      ],
+      "period": "1587-1626",
+      "words": 10831,
+      "texts": 7,
+      "corpus_statistics": {
+        "snapshot": "v2026.10",
+        "words": 10831,
+        "texts": 7
+      },
+      "count_basis": "rq-retained-rows",
+      "encoding": "other",
+      "license": "Not stated",
+      "status": "active",
+      "region": "England (London)",
+      "countries": [
+        "GB-ENG"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-13",
+      "document_types": [
+        "manuscript"
+      ],
+      "notes": "Digitised manuscripts of the Henslowe-Alleyn papers at Dulwich College (Philip Henslowe's diary and account book 1592-1609, the Rose and Fortune playhouse contracts, letters, deeds, Edward Alleyn's papers 1612-1626), with essays and a set of transcriptions. All the documents date from 1450-1700 (about 1587-1626). The transcriptions are PDF documents. Although the catalogue says the diary and account book is transcribed, Henslowe's diary (MSS 7) is given only as images; the transcribed items are seven documents and Alleyn's diary (MSS 9, 116 page transcripts). The counts cover the seven documents; Alleyn's diary, mostly sums of money, falls under the corpus filter for text with too few letters. The old address henslowe-alleyn.org.uk/index.html returns HTTP 500 but the root address works. Site footer reads 2026, maintained by King's Digital Lab. robots.txt asks for a 10-second crawl delay. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+    },
+    {
       "id": "hexenverhoer-sigs",
       "title": "Hexenverhoerprotokolle (SiGS corpus, LAUDATIO repository)",
       "url": "https://doi.org/10.34644/laudatio-dev-2TkBi4gBUnBk-z0fwp-w",
@@ -5725,12 +5827,12 @@
         "German"
       ],
       "period": "1510-1528",
-      "words": 42516,
-      "texts": 85,
+      "words": 351291,
+      "texts": 800,
       "corpus_statistics": {
         "snapshot": "v2026.10",
-        "words": 42516,
-        "texts": 85
+        "words": 351291,
+        "texts": 800
       },
       "count_basis": "rq-retained-rows",
       "encoding": "html",
@@ -5750,7 +5852,7 @@
       "document_types": [
         "manuscript"
       ],
-      "notes": "Each letter is its own page (n=Brief.1 to Brief.790, 804 pages) with the running text of the critical edition Huldreich Zwinglis sämtliche Werke vol. 7-9 (Corpus Reformatorum 94-96, 1911-1925), without the apparatus; letters from 1510 to 1528. Letters 790-1292 (vols. 10-11, 1528-1531) are not online. Searchable by full text, sender, recipient and place. The wiki's change log shows the letters last edited in 2011 and the last change of any page on 1 July 2021, and the site still runs on old PHP, so it is listed as archived. The counts cover the 85 of 804 letters readable in Internet Archive copies; the live site blocks automated access. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Each letter is its own page (n=Brief.1 to Brief.790, 804 pages) with the running text of the critical edition Huldreich Zwinglis sämtliche Werke vol. 7-9 (Corpus Reformatorum 94-96, 1911-1925), without the apparatus; letters from 1510 to 1528. Letters 790-1292 (vols. 10-11, 1528-1531) are not online. Searchable by full text, sender, recipient and place. The wiki's change log shows the letters last edited in 2011 and the last change of any page on 1 July 2021, and the site still runs on old PHP, so it is listed as archived. The counts cover all 804 letter pages, fetched once in a browser because the site refuses automated clients. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "icepahc-icelandic",
@@ -7105,6 +7207,38 @@
       "notes": "Edition of a single statute book, the only known copy, with an introduction, historical and codicological chapters, an index of rubrics and the full text of the rubrics (page 'Edizione'). The original site (www.gol.grosseto.it) no longer answers; the link points to the Internet Archive capture of 17 February 2005, which loads fully. Statutes were approved by Siena in 1487, 1489 and 1490. The counts cover the full statute text of the archived copy, not the introduction or the historical and codicological chapters. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
+      "id": "london-lives-1690-1800",
+      "title": "London Lives 1690-1800",
+      "url": "https://www.londonlives.org/",
+      "institution": "Universities of Hertfordshire and Sheffield (Digital Humanities Institute)",
+      "languages": [
+        "English"
+      ],
+      "period": "1690-1800",
+      "words": 1583936,
+      "texts": 7303,
+      "corpus_statistics": {
+        "snapshot": "v2026.10",
+        "words": 1571442,
+        "texts": 7255
+      },
+      "count_basis": "rq-retained-rows",
+      "encoding": "html",
+      "license": "Not stated",
+      "status": "active",
+      "region": "England (London)",
+      "countries": [
+        "GB-ENG"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-13",
+      "document_types": [
+        "manuscript",
+        "print"
+      ],
+      "notes": "Searchable transcriptions of over 240,000 manuscript and printed pages from eight London archives (criminal justice, poor relief, parish, hospital and guild records), with linked datasets, covering 1690 to 1800. The part dating from 1450-1700 is limited to the first decade, 1690-1700; the rest is eighteenth-century. The in-period share was not established. Free, no login. The site is now a JavaScript application (assets rebuilt 2026-05-08). The project's XML transcriptions are downloadable from figshare under CC BY-NC 4.0; the licensing guide permits non-commercial and linguistic analysis but not the training of generative AI. The counts cover the pages dated 1690-1700 in that download (8,778 pages from 144 files). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+    },
+    {
       "id": "machyn-provisioners-chronicle",
       "title": "A London Provisioner's Chronicle, 1550-1563, by Henry Machyn: Manuscript, Transcription, and Modernization",
       "url": "https://quod.lib.umich.edu/m/machyn/",
@@ -7557,6 +7691,44 @@
         "manuscript"
       ],
       "notes": "Thirteen Middle Russian texts (documents, letters, chronicle passages and charms, c. 1300-1700) from the UD_Old_East_Slavic-RNC treebank, a sample of the Middle Russian Corpus of the Russian National Corpus. The RNC site itself offers no download of its Middle Russian corpus. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "mini-lazarillo",
+      "title": "Mini Lazarillo: Edición mínima del Lazarillo de Tormes",
+      "url": "http://minilazarillo.github.io/",
+      "data_url": "https://github.com/minilazarillo/minilazarillo.github.io/tree/master/xml",
+      "data_format": "tei",
+      "institution": "Department of Latin American and Iberian Cultures, Columbia University (Susanna Allés Torrent and students)",
+      "languages": [
+        "Spanish"
+      ],
+      "period": "1554",
+      "words": 18473,
+      "texts": 8,
+      "corpus_statistics": {
+        "snapshot": "v2026.10",
+        "words": 18473,
+        "texts": 8
+      },
+      "count_basis": "rq-retained-rows",
+      "encoding": "tei",
+      "license": "CC-BY-4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "status": "archived",
+      "region": "Spain",
+      "countries": [
+        "ES"
+      ],
+      "author": "Anonymous",
+      "date": "1554",
+      "last_modified": "2020-05-04",
+      "provenance": "discovered",
+      "date_added": "2026-10-13",
+      "document_types": [
+        "print"
+      ],
+      "modernised": true,
+      "notes": "Student digital edition of the 1554 Medina del Campo printing of the Vida de Lazarillo de Tormes, in a plain reading edition and an annotated edition, with images of the original volume. The text follows that printing but modernises spelling and accents (see the editorial criteria page), so it is a modernised edition, not a diplomatic transcription. A TEI master file is in the GitHub repository. The counts cover the TEI master text (prologue and seven tratados), keeping the original readings where the file encodes them. The repository was last updated on 4 May 2020. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "mitteldeutsche-selbstzeugnisse",
@@ -8079,6 +8251,48 @@
         "manuscript"
       ],
       "notes": "Four pages of Old Romanian religious texts transcribed on Romanian Wikisource: 'Povestea Sfintei Dumineci' from the Codex Sturdzanus (copied by priest Grigore of Măhaci, 1580-1619) and three texts from the Manuscrisul de la Ieud (c. 1630). Not related to the journal Diacronia. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "open-source-shakespeare",
+      "title": "Open Source Shakespeare (Globe edition of the complete works)",
+      "url": "https://www.opensourceshakespeare.org/",
+      "data_url": "https://www.opensourceshakespeare.org/downloads",
+      "data_format": "other",
+      "data_formats": [
+        "other",
+        "plain-text"
+      ],
+      "institution": "George Mason University",
+      "languages": [
+        "English"
+      ],
+      "period": "c. 1590-1613",
+      "words": 930853,
+      "texts": 43,
+      "corpus_statistics": {
+        "snapshot": "v2026.10",
+        "words": 930853,
+        "texts": 43
+      },
+      "count_basis": "rq-retained-rows",
+      "encoding": "html",
+      "license": "CC-BY-NC-4.0",
+      "license_url": "https://www.opensourceshakespeare.org/downloads",
+      "license_note": "The Shakespeare texts are in the public domain; the database, concordance and related data are CC BY-NC 4.0.",
+      "status": "active",
+      "region": "England",
+      "countries": [
+        "GB-ENG"
+      ],
+      "author": "William Shakespeare",
+      "date": "1590s-1613",
+      "provenance": "discovered",
+      "date_added": "2026-10-13",
+      "document_types": [
+        "print"
+      ],
+      "modernised": true,
+      "notes": "The complete works in the 1864 Globe edition (W. G. Clark and W. A. Wright), with a concordance, advanced search, character search and statistics. The text is the modernised spelling of a nineteenth-century edition, not a transcription of the early printings, as with the Folger Shakespeare entry. The site's statistics page gives 43 works and 884,421 words (plays, sonnets and poems), all written between about 1590 and 1613; the counts below are ours, from the downloaded database, with speaker names included. The database can be downloaded as SQL, Access and delimited text files. The site shows © 2003-2026 and a server update on 21 May 2026. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "openedges",
@@ -8661,6 +8875,39 @@
       "notes": "POLY-GRENAILLE is the digital critical edition of the moral works of François de Grenaille, published on the ELAN platform (UMR Litt&Arts, Grenoble) with TEI encoding and critical annotation. The edition is in progress: so far one work is edited in TEI, La Mode (Paris 1642); the site menu already lists about ten further works (Le bon esprit, L'honnête fille, L'honnête mariage, L'honnête veuve...). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
+      "id": "poly-olbion-project",
+      "title": "The Poly-Olbion Project (Michael Drayton, Poly-Olbion)",
+      "url": "https://poly-olbion.exeter.ac.uk/",
+      "institution": "University of Exeter (AHRC-funded Poly-Olbion Project)",
+      "languages": [
+        "English"
+      ],
+      "period": "1612-1622",
+      "words": 142903,
+      "texts": 30,
+      "corpus_statistics": {
+        "snapshot": "v2026.10",
+        "words": 142903,
+        "texts": 30
+      },
+      "count_basis": "rq-retained-rows",
+      "encoding": "html",
+      "license": "Not stated",
+      "status": "active",
+      "region": "England and Wales",
+      "countries": [
+        "GB-ENG",
+        "GB-WLS"
+      ],
+      "author": "Michael Drayton",
+      "provenance": "discovered",
+      "date_added": "2026-10-13",
+      "document_types": [
+        "print"
+      ],
+      "notes": "Full, unmodernised electronic copy of Drayton's 15,000-line topographical poem in the two parts published in 1612 and 1622 (songs 1-18 and 19-30), plus modernised extracts and a word list; John Selden's Illustrations are not included. All the text dates from 1450-1700. The site announces a forthcoming scholarly edition. Status: latest blog post is January 2019 but the site feed was rebuilt on 2024-04-11, so it is kept as active. No licence stated for the text; the CC BY-NC 3.0 mention on the home page concerns images. robots.txt blocks only /wp-admin/. The counts cover the thirty songs; the modernised extracts are not counted. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+    },
+    {
       "id": "wolfenbuettelpostil-lithuanian",
       "title": "Postil Time Machine (PosTiMe) — digital edition of the Old Lithuanian Postilles incl. the Wolfenbuettel Postille of 1573",
       "url": "https://github.com/postime/WP1573-TEI",
@@ -9040,6 +9287,31 @@
       "notes": "Online editions of plays associated with the Queen's Men: The Famous Victories of Henry V, Friar Bacon and Friar Bungay, King Leir, Selimus and The True Tragedy of Richard III, each in a modern-spelling and an old-spelling text from the early quarto, with introductions, collations, performance materials and videos. The Old Wives' Tale is announced in the menu but its edition page returns an error. The TEI source of each text is downloadable under /qme/xml/source/ (for example emdFV_Q1.xml); the index file is given as data address. The old address qme.internetshakespeare.uvic.ca redirects here. The counts cover the five old-spelling texts only, not the modern-spelling versions or The Old Wives' Tale. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
+      "id": "records-parliaments-scotland",
+      "title": "Records of the Parliaments of Scotland to 1707",
+      "url": "https://www.rps.ac.uk/",
+      "institution": "Scottish Parliament Project, School of History, University of St Andrews",
+      "languages": [
+        "Scots",
+        "Latin",
+        "French"
+      ],
+      "period": "1235-1707",
+      "encoding": "html",
+      "license": "Not stated",
+      "status": "active",
+      "region": "Scotland",
+      "countries": [
+        "GB-SCT"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-13",
+      "document_types": [
+        "manuscript"
+      ],
+      "notes": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. robots.txt asks for a 20-second crawl delay, which a harvest must respect. No data download found. A harvest respecting the crawl delay is in progress; counts will be added when it is complete."
+    },
+    {
       "id": "reed-english",
       "title": "REED English",
       "url": "https://ereed.org",
@@ -9224,6 +9496,39 @@
       "notes": "Twelve Regensburg office books of the 16th to early 19th century are shown as page images in the DFG-Viewer; only Band 06 (Wappen- und Porträtbuch des Vormundamtes, StAR I Aa 6) also has an edited text. It contains a preface (1649), the founding decree of 1537 and a list of directors, assessors and clerks from 1537 to 1787, with 64 portraits dated 1649 to c. 1751. The project dates from 2012 (TEI file dated 2012-03-29, site copyright 2012) and has no later update, so it is listed as archived. The counts cover Band 06 only, the one volume with an edited text, and the part of it dated 1700 or earlier. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
+      "id": "regi-magyar-exemplumadatbazis",
+      "title": "Régi Magyar Exemplumadatbázis / Database of Old Hungarian Exempla (RMEx)",
+      "url": "https://sermones.elte.hu/exemplumadatbazis/",
+      "doi": "10.21862/Exemplum_2014",
+      "institution": "ELTE BTK Magyar Irodalomtörténeti Intézet, Régi Magyar Irodalom Tanszék (edited by Bartók Zsófia Ágnes; OTKA PD 137996)",
+      "languages": [
+        "Hungarian"
+      ],
+      "period": "16th century (Hungarian codices)",
+      "words": 130280,
+      "texts": 461,
+      "corpus_statistics": {
+        "snapshot": "v2026.10",
+        "words": 130280,
+        "texts": 461
+      },
+      "count_basis": "rq-retained-rows",
+      "encoding": "html",
+      "license": "Not stated",
+      "status": "active",
+      "region": "Kingdom of Hungary",
+      "countries": [
+        "HU"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-13",
+      "document_types": [
+        "manuscript"
+      ],
+      "modernised": true,
+      "notes": "Searchable database of the exempla (short moral stories) found in the old Hungarian-language codices, including the Domonkos, Margit-legenda, Érdy, Cornides, Székelyudvarhelyi, Érsekújvári and Teleki codices. Each record gives the exemplum text (a modernised reading taken from the printed Nyelvemléktár editions), a summary, keywords, the source codex and folio, and Latin sources and parallels. Version 1.0 appeared in 2014 and version 2.0 has been in progress since 2021; records were uploaded as recently as 2024. The counts cover the 'exemplum text' field of the record pages 0001 to 0386 and their lettered variants (for example 0016a); the codices named on the site are Hungarian-language manuscripts of the early 16th century (for example the Debreceni codex of 1519, the Érdy codex of 1526-1527 and the Érsekújvári codex of 1529-1531). The text is edited and modernised, not a diplomatic transcription. Searches use a web form; no bulk download was found. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+    },
+    {
       "id": "rejestr-kontrybucji-poznan-1561",
       "title": "Rejestr kontrybucji diecezji poznańskiej z 1561 r. (digital edition)",
       "url": "https://exist.lhdb.kul.pl/exist/apps/1561/index.html",
@@ -9383,6 +9688,41 @@
       "notes": "RenArD is the Renaissance branch of the Translatoscope project (ELAN, Litt&Arts Grenoble), offering the first XML-TEI editions of the Latin humanist translations of Aristophanes — Ploutos and Les Nuees (Clouds) translated by Alessandro da Otranto (1470), Johannes Cuno, Beatus Rhenanus, Lorenzo Giacomini etc. — presented alongside the manuscript facsimile via EVT. The harvested origins ('Translatoscope: Les Nuees / Alessandro da Otranto (1470)', 'Translatoscope: Ploutos / Beatus Rhenanus (1520)') map directly onto these translations; TEI data is deposited on Nakala. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
+      "id": "renascence-editions",
+      "title": "Renascence Editions (University of Oregon / Luminarium mirror)",
+      "url": "https://www.luminarium.org/renascence-editions/",
+      "institution": "Risa Stephanie Bear, University of Oregon (hosted by Luminarium)",
+      "languages": [
+        "English",
+        "Middle English"
+      ],
+      "period": "1477-1799",
+      "words": 4238340,
+      "texts": 360,
+      "corpus_statistics": {
+        "snapshot": "v2026.10",
+        "words": 4238340,
+        "texts": 360
+      },
+      "count_basis": "rq-retained-rows",
+      "encoding": "html",
+      "license": "Not stated",
+      "status": "archived",
+      "region": "England, with some Scotland, Wales and North America",
+      "countries": [
+        "GB-ENG",
+        "GB-SCT",
+        "GB-WLS",
+        "US"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-13",
+      "document_types": [
+        "print"
+      ],
+      "notes": "Online repository of works printed in English between 1477 and 1799, sorted by author (222 titles in all). The part dating from 1450-1700 is the large majority: sixteenth- and seventeenth-century poetry, drama, prose, proclamations and pamphlets (for example Bacon, Spenser, Dekker, Elizabeth I's proclamations, 1640s-50s pamphlets). Later items (Defoe, Fielding, Gay, Goldsmith, Gray, American colonial documents of 1775-76) fall outside the period. Texts are keyed from the original or later facsimile editions in original spelling; each is a plain HTML page, with PDF copies at the University of Oregon Scholars Bank. No bulk download. The counts cover the in-period HTML texts of the index, one record per page or part. Status: the site states '222 titles; updated November 21, 2009', and nothing newer was found (page checked 2026-10-13); the host's robots.txt allows crawling except /cgi-bin. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+    },
+    {
       "id": "tbso-gh",
       "title": "Repositorio de teatro breve del Siglo de Oro (TBSO)",
       "url": "https://github.com/dxvidmr/repositorioTBSO",
@@ -9412,6 +9752,43 @@
         "print"
       ],
       "notes": "Personal research repository of short Golden Age plays (entremeses) by David Merino Recalde, as plain text and XML-TEI, based on printed editions such as Cotarelo y Mori (1911). The collection is not closed and only some texts have TEI. Released under CC BY-NC-SA 4.0. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "representative-poetry-online",
+      "title": "Representative Poetry Online (University of Toronto)",
+      "url": "https://rpo.library.utoronto.ca/",
+      "institution": "Department of English and Library, University of Toronto (Ian Lancashire, editor)",
+      "languages": [
+        "English",
+        "Middle English",
+        "Scots"
+      ],
+      "period": "Old English to the 20th century",
+      "words": 454246,
+      "texts": 941,
+      "corpus_statistics": {
+        "snapshot": "v2026.10",
+        "words": 453690,
+        "texts": 936
+      },
+      "count_basis": "rq-retained-rows",
+      "encoding": "html",
+      "license": "Mixed",
+      "license_url": "https://rpo.library.utoronto.ca/content/copyright",
+      "status": "active",
+      "region": "British Isles",
+      "countries": [
+        "GB-ENG",
+        "GB-SCT",
+        "IE"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-13",
+      "document_types": [
+        "print",
+        "manuscript"
+      ],
+      "notes": "Anthology of English-language poems (version 3.0 states about 4,700 poems by 723 poets from Caedmon to the 20th century). The part dating from 1450-1700 is the Renaissance and seventeenth-century sections (poets such as Skelton, Wyatt, Surrey, Sidney, Spenser, Shakespeare, Donne, Jonson, Herbert, Milton, Marvell). Spelling is mixed: the editors' introduction says the texts of the printed editions were generally normalised, while texts added only online are transcribed from original editions mainly without altered spelling, and Spenser is not modernised. The site is therefore not marked as modernised-only. Free to read; the copyright page says most poems are public domain and the collection as a whole is copyright. No bulk download. robots.txt blocks only admin and search paths. Site shows current daily content (checked 2026-10-13). The counts cover the poems of the poets who lived within 1450-1700; anonymous poems and poets who died after 1701 are not counted. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "rhythmiccorpus-sga",
@@ -10886,6 +11263,37 @@
         "inscription"
       ],
       "notes": "Open access platform of Latin Renaissance inscriptions from Venetian-ruled Cyprus (1474-1571) with interpreted and diplomatic transcriptions, English and Italian translations, apparatus and photos; no login needed (the LogIn link is for editors). 27 inscriptions in total on 17 sites: 24 are dated within or overlapping 1450-1700 (15 with numeric years, 9 with approximate dates such as 'end of the 15th century'), 1 is Janus I's epitaph of 1432, 2 are illegible fragments with 'Uncertain' dates. No bulk download or TEI export found. Pages modified as late as September 2024. Related: the Titulus/ERC GRAPH-EAST corpus covers Cyprus (575 texts) but is not yet published online. Verbal dates such as 'end of the 15th century' are converted to approximate years, so the share within 1450-1700 is approximate. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "verse-miscellanies-online",
+      "title": "Verse Miscellanies Online",
+      "url": "https://web.archive.org/web/20250730120155/https://versemiscellaniesonline.bodleian.ox.ac.uk/",
+      "institution": "University of Reading and University of Oxford (hosted by the Bodleian Libraries)",
+      "languages": [
+        "English"
+      ],
+      "period": "1557-1614",
+      "words": 212502,
+      "texts": 888,
+      "corpus_statistics": {
+        "snapshot": "v2026.10",
+        "words": 212292,
+        "texts": 887
+      },
+      "count_basis": "rq-retained-rows",
+      "encoding": "html",
+      "license": "Not stated",
+      "status": "discontinued",
+      "region": "England",
+      "countries": [
+        "GB-ENG"
+      ],
+      "provenance": "discovered",
+      "date_added": "2026-10-13",
+      "document_types": [
+        "print"
+      ],
+      "notes": "Critical edition of seven printed verse miscellanies: Tottel's Miscellany (1557), A Handful of Pleasant Delights (1566), The Paradise of Dainty Devices (1576 and later), The Gorgeous Gallery of Gallant Inventions (1578), The Phoenix Nest (1593), England's Helicon (1600, 1614) and The Poetical Rhapsody. Everything dates from 1450-1700 (all the texts are sixteenth- or early seventeenth-century prints); the annotations and indexes are modern. Texts come from the EEBO-TCP transcriptions (original spelling), with added notes. The Bodleian withdrew the live site (holding page: 'no longer available ... technologies ... reached end-of-life'); the url points to the Wayback Machine copy of 2025-07-30, which the Bodleian itself names as the archived static version. No data download found. The counts cover the leaf pages captured by the Wayback Machine (1,099 of 1,108). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "vespasianoletters",

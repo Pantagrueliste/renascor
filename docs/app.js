@@ -600,7 +600,7 @@ function cardFor(r) {
 		: hasNum(e.texts) ? 'No word count · ' + plural(e.texts, 'text') : NOT_RECORDED;
 	const visit = d.archived_copy ? ['Archived copy', 'Visit the archived copy: '] : ['Visit', 'Visit the resource: '];
 	el.innerHTML = tog(r, ` id="ct-${esc(r.id)}" aria-controls="cpanel-${esc(r.id)}"`) + `<dl class="card-dl"><dt>Languages</dt><dd class="c-langs"></dd><dt>Period</dt><dd>${p ? esc(p.label) + coverageBar(r.p) : NOT_RECORDED}</dd>` +
-		`<dt>Size</dt><dd>${size}</dd>` + (e.modernised ? '<dt>Spelling</dt><dd>Modernised</dd>' : '') + `<dt>Encoding</dt><dd>${esc(encLabel(e.encoding))}</dd>` +
+		`<dt>Size</dt><dd>${size}</dd>` + (e.modernised ? '<dt>Spelling</dt><dd>Normalised</dd>' : '') + `<dt>Encoding</dt><dd>${esc(encLabel(e.encoding))}</dd>` +
 		`<dt>Licence</dt><dd>${licenseHTML(e)}</dd>` +
 		(e.doi ? `<dt>DOI</dt><dd>${extLink('https://doi.org/' + e.doi, esc(e.doi))}</dd>` : '') +
 		(e.data_url ? `<dt>Files</dt><dd>${filesLink(r, ICON.down + esc(formatsLabel(e)), '')}</dd>` : '') +
@@ -735,7 +735,7 @@ function recordHTML(r) {
 	if (e.api_url) left.push(['API', extLink(e.api_url, 'API documentation' + NEW_TAB)]);
 	if (r.types[0] !== 'none') left.push(['Document type', esc(r.types.map(t => TYPE[t] || t).join(', '))]);
 	left.push(['Institution', e.institution ? esc(e.institution) : 'Not recorded'], ['Languages', languagesFull(r)], ['Period', periodFull(r)], ['Size', sizeFull(r)]);
-	if (e.modernised) left.push(['Spelling', 'Modernised' + muted('— the texts are given in modern spelling, not as transcribed from the sources')]);
+	if (e.modernised) left.push(['Spelling', 'Normalised' + muted('— spelling regularised by the editor; the language is unchanged')]);
 	if (e.region) left.push(['Region', esc(e.region)]);
 	if (r.countries.length) left.push(['Countries', esc(r.countryNames.join(', ')) + (r.areas.length ? muted('· ' + esc(r.areas.join(', '))) : '')]);
 	if (e.author) left.push(['Author', esc(e.author)]);
