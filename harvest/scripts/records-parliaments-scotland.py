@@ -4,12 +4,12 @@ sys.path.insert(0, HARVEST_DIR)
 from hlib import Harvest, tei_year, first_year, slug
 
 BASE = "https://www.rps.ac.uk/search.php"
-MAX_REQ = 3000
+MAX_REQ = 20000
 # (fn, first id) of the manuscript (original-language) text of each reign; the index of a reign lists every record.
 REIGNS = [("jamesii_ms", 2592), ("jamesiii_ms", 4111), ("jamesiv_ms", 5994), ("jamesv_ms", 7423),
           ("maryi_ms", 8819), ("jamesvi_ms", 12767), ("charlesi_ms", 25094), ("charlesii_ms", 40588),
           ("jamesvii_ms", 47762), ("william_and_mary_ms", 51238), ("williamii_ms", 57659)]
-h = Harvest("records-parliaments-scotland", delay=20)
+h = Harvest("records-parliaments-scotland", delay=3)  # 3 s agreed with the RPS team (2026-10-14); robots.txt asks 20 s
 reqs = 0
 
 def fetch(url, rel):
@@ -85,9 +85,9 @@ for f, i, year, label in sel:
           url=f"https://www.rps.ac.uk/frameset.php?id={i}&type=ms&filename={f}")
 
 pct = round(100 * len(sel) / max(n_all, 1), 1)
-rep = h.finish(method="Reign indexes (11 requests) parsed for record ids; one request per record page (search.php?action=fc, manuscript text only); 20 s crawl delay.",
-    coverage=f"Record-level systematic sample: {len(sel)} of {n_all} manuscript records dated 1450-1700 ({pct}%), spread evenly over all reigns from James II to William II, stopped at the {MAX_REQ}-request cap. Not exhaustive.",
-    problems=["Site has no bulk download or API; one page per record; coverage is a sample.",
+rep = h.finish(method="Reign indexes (11 requests) parsed for record ids; one request per record page (search.php?action=fc, manuscript text only); 3 s delay agreed with the RPS team (robots.txt asks 20 s).",
+    coverage=(f"All {n_all} manuscript records dated 1450-1700 listed in the reign indexes, James II to William II." if len(sel) == n_all else f"Record-level systematic sample: {len(sel)} of {n_all} manuscript records dated 1450-1700 ({pct}%), spread evenly over all reigns from James II to William II, stopped at the {MAX_REQ}-request cap. Not exhaustive."),
+    problems=["Site has no bulk download or API; one page per record.",
               "Language is guessed per record from word frequencies (Latin, French or Scots); records mix Latin, French and Scots, and some carry short English editorial headings.",
               "Records in English editorial summary form (non-parliamentary items) may be included."])
 print(rep["texts_in_window"], rep["words_in_window"])

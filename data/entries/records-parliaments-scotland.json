@@ -24,10 +24,18 @@
     "GB-SCT"
   ],
   "period": "1235-1707",
-  "notes": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. robots.txt asks for a 20-second crawl delay, which a harvest must respect. No data download found. A harvest respecting the crawl delay is in progress; counts will be added when it is complete.",
+  "notes": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. No data download found. The October 2026 harvest fetched the original-language text of the 11,104 records dated 1450-1700 listed in the reign indexes (two failed), at a rate agreed with the RPS team; languages are assigned per record, and short English editorial headings could not all be separated from the text. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-13",
   "license": "Copyright",
   "license_url": "https://www.rps.ac.uk/static/acknowledgements.html",
-  "license_note": "Footer and metadata: '(c) 2007-2026 University of St Andrews. Images of documents appear courtesy of the National Records of Scotland'; no open licence. The site is free to consult."
+  "license_note": "Footer and metadata: '(c) 2007-2026 University of St Andrews. Images of documents appear courtesy of the National Records of Scotland'; no open licence. The site is free to consult.",
+  "words": 6828151,
+  "texts": 10900,
+  "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 6815481,
+    "texts": 10856
+  },
+  "count_basis": "rq-retained-rows"
 }

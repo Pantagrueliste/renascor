@@ -14342,6 +14342,401 @@
    }
   ]
  },
+ "records-parliaments-scotland": {
+  "texts": 10900,
+  "words": 6828151,
+  "dup_texts": 63,
+  "dup_words": 22103,
+  "against": {
+   "records-parliaments-scotland": 44,
+   "RQ:EEBOphase2": 10,
+   "RQ:EEBO_TCP_fill": 9
+  },
+  "junk_texts": 202,
+  "junk_words": 2080,
+  "unique_texts": 10837,
+  "unique_words": 6806048,
+  "dups": [
+   {
+    "filename": "jamesiii_ms_4790.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesiii_ms_4774.txt",
+    "words": 210
+   },
+   {
+    "filename": "jamesiii_ms_4823.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesiii_ms_4770.txt",
+    "words": 219
+   },
+   {
+    "filename": "jamesiii_ms_5038.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesiii_ms_5035.txt",
+    "words": 450
+   },
+   {
+    "filename": "jamesiii_ms_5041.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesiii_ms_5029.txt",
+    "words": 445
+   },
+   {
+    "filename": "jamesiii_ms_5050.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesiii_ms_5029.txt",
+    "words": 455
+   },
+   {
+    "filename": "jamesiii_ms_5128.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesiii_ms_5122.txt",
+    "words": 1157
+   },
+   {
+    "filename": "jamesv_ms_7738.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesv_ms_7513.txt",
+    "words": 179
+   },
+   {
+    "filename": "jamesvi_ms_13387.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesvi_ms_13386.txt",
+    "words": 296
+   },
+   {
+    "filename": "jamesvi_ms_13556.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesvi_ms_13551.txt",
+    "words": 328
+   },
+   {
+    "filename": "jamesvi_ms_13867.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesvi_ms_13866.txt",
+    "words": 557
+   },
+   {
+    "filename": "jamesvi_ms_14710.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesvi_ms_14685.txt",
+    "words": 247
+   },
+   {
+    "filename": "charlesi_ms_28285.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesi_ms_27286.txt",
+    "words": 471
+   },
+   {
+    "filename": "charlesi_ms_31203.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesi_ms_30531.txt",
+    "words": 141
+   },
+   {
+    "filename": "charlesi_ms_33834.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesi_ms_33767.txt",
+    "words": 498
+   },
+   {
+    "filename": "charlesii_ms_40772.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesii_ms_40737.txt",
+    "words": 132
+   },
+   {
+    "filename": "charlesii_ms_40816.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesii_ms_40737.txt",
+    "words": 125
+   },
+   {
+    "filename": "charlesii_ms_41086.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesii_ms_40737.txt",
+    "words": 144
+   },
+   {
+    "filename": "charlesii_ms_41323.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesii_ms_41321.txt",
+    "words": 136
+   },
+   {
+    "filename": "charlesii_ms_43100.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesii_ms_43009.txt",
+    "words": 341
+   },
+   {
+    "filename": "charlesii_ms_43274.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesii_ms_42931.txt",
+    "words": 367
+   },
+   {
+    "filename": "charlesii_ms_43503.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 171
+   },
+   {
+    "filename": "charlesii_ms_44810.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesii_ms_44798.txt",
+    "words": 148
+   },
+   {
+    "filename": "charlesii_ms_45745.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesii_ms_44795.txt",
+    "words": 167
+   },
+   {
+    "filename": "charlesii_ms_46208.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesii_ms_46150.txt",
+    "words": 231
+   },
+   {
+    "filename": "charlesii_ms_46565.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesii_ms_46564.txt",
+    "words": 190
+   },
+   {
+    "filename": "charlesii_ms_46601.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesii_ms_46592.txt",
+    "words": 221
+   },
+   {
+    "filename": "charlesii_ms_46621.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/charlesii_ms_46620.txt",
+    "words": 174
+   },
+   {
+    "filename": "jamesvii_ms_47816.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 192
+   },
+   {
+    "filename": "jamesvii_ms_47869.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 182
+   },
+   {
+    "filename": "jamesvii_ms_47891.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 255
+   },
+   {
+    "filename": "jamesvii_ms_48307.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesvii_ms_48293.txt",
+    "words": 292
+   },
+   {
+    "filename": "jamesvii_ms_48479.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesvii_ms_47974.txt",
+    "words": 158
+   },
+   {
+    "filename": "william_and_mary_ms_51541.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/william_and_mary_ms_51540.txt",
+    "words": 275
+   },
+   {
+    "filename": "william_and_mary_ms_51542.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/william_and_mary_ms_51540.txt",
+    "words": 274
+   },
+   {
+    "filename": "william_and_mary_ms_51564.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/william_and_mary_ms_51544.txt",
+    "words": 290
+   },
+   {
+    "filename": "william_and_mary_ms_52260.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 370
+   },
+   {
+    "filename": "william_and_mary_ms_52754.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/jamesvii_ms_47974.txt",
+    "words": 196
+   },
+   {
+    "filename": "williamii_ms_58010.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 284
+   },
+   {
+    "filename": "williamii_ms_58093.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 237
+   },
+   {
+    "filename": "williamii_ms_58105.txt",
+    "kind": "exact",
+    "against": "records-parliaments-scotland/williamii_ms_57991.txt",
+    "words": 22
+   },
+   {
+    "filename": "williamii_ms_58111.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 397
+   },
+   {
+    "filename": "williamii_ms_58115.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 117
+   },
+   {
+    "filename": "williamii_ms_58116.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 141
+   },
+   {
+    "filename": "williamii_ms_58213.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/williamii_ms_58209.txt",
+    "words": 555
+   },
+   {
+    "filename": "williamii_ms_58682.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 523
+   },
+   {
+    "filename": "williamii_ms_59097.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/williamii_ms_59091.txt",
+    "words": 127
+   },
+   {
+    "filename": "williamii_ms_59306.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 688
+   },
+   {
+    "filename": "williamii_ms_59747.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/williamii_ms_59527.txt",
+    "words": 282
+   },
+   {
+    "filename": "williamii_ms_59897.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 1014
+   },
+   {
+    "filename": "williamii_ms_59898.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 695
+   },
+   {
+    "filename": "williamii_ms_59902.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 1200
+   },
+   {
+    "filename": "williamii_ms_60051.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 525
+   },
+   {
+    "filename": "williamii_ms_60052.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 1021
+   },
+   {
+    "filename": "williamii_ms_60068.txt",
+    "kind": "near",
+    "against": "RQ:EEBO_TCP_fill",
+    "words": 186
+   },
+   {
+    "filename": "williamii_ms_60163.txt",
+    "kind": "exact",
+    "against": "records-parliaments-scotland/williamii_ms_59995.txt",
+    "words": 38
+   },
+   {
+    "filename": "williamii_ms_60208.txt",
+    "kind": "exact",
+    "against": "records-parliaments-scotland/williamii_ms_59419.txt",
+    "words": 21
+   },
+   {
+    "filename": "williamii_ms_60633.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/williamii_ms_60631.txt",
+    "words": 253
+   },
+   {
+    "filename": "williamii_ms_60635.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/williamii_ms_60634.txt",
+    "words": 228
+   },
+   {
+    "filename": "williamii_ms_60640.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/williamii_ms_60634.txt",
+    "words": 246
+   },
+   {
+    "filename": "williamii_ms_60641.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/williamii_ms_60632.txt",
+    "words": 294
+   },
+   {
+    "filename": "williamii_ms_60643.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/williamii_ms_60632.txt",
+    "words": 278
+   },
+   {
+    "filename": "williamii_ms_60915.txt",
+    "kind": "near",
+    "against": "records-parliaments-scotland/williamii_ms_60443.txt",
+    "words": 812
+   },
+   {
+    "filename": "williamii_ms_61214.txt",
+    "kind": "near",
+    "against": "RQ:EEBOphase2",
+    "words": 1235
+   }
+  ]
+ },
  "apw-acta-pacis-westphalicae": {
   "texts": 3185,
   "words": 2789605,
