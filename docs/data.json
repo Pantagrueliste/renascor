@@ -11,8 +11,8 @@
   "released": "2026-10-13",
   "updated": "2026-10-14",
   "data_commit": {
-   "sha": "f419746a4b1ab481d2f90ab35edd498853401580",
-   "short": "f419746"
+   "sha": "b3fbdad046beb7b17cc6f1c8a42e51d4b72e8ac7",
+   "short": "b3fbdad"
   },
   "scope": {
    "from": 1450,
@@ -397,8 +397,8 @@
      1
     ]
    ],
-   "texts": 264903,
-   "words": 2419568150,
+   "texts": 264905,
+   "words": 2419568567,
    "with_texts": 327,
    "with_words": 325,
    "median_words": 182019,
@@ -506,11 +506,11 @@
     1450,
     1700
    ],
-   "words": 2225102300,
-   "texts": 217408,
+   "words": 2225102717,
+   "texts": 217410,
    "basis": "After the corpus duplicate filter; complete working snapshot, before catalogue grouping",
    "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
-   "database_sha256": "a7ce54ae783f3eac6f2c5584b153a624be4386316235504fadac9f2020104ae6"
+   "database_sha256": "8c49aed71187dcce4d048c41979447657abc17fd5656db4d2dfe08b8e6084354"
   },
   "timeline": {
    "snapshot": "v2026.10",
@@ -530,7 +530,7 @@
     59542078,
     65397813,
     71794189,
-    71746476,
+    71746731,
     97903590,
     115498492,
     95018312,
@@ -540,7 +540,7 @@
     161641005,
     173469952,
     213936938,
-    222589634
+    222589796
    ],
    "estimated_words": 11379662,
    "undated_words": 21377152,
@@ -554,11 +554,11 @@
    "editions_label": "328 resources",
    "languages": "71",
    "language_labels": "71",
-   "texts": "264,903",
-   "words": "2,419,568,150",
+   "texts": "264,905",
+   "words": "2,419,568,567",
    "words_compact": "2.42 billion",
-   "corpus_texts": "217,408",
-   "corpus_words": "2,225,102,300",
+   "corpus_texts": "217,410",
+   "corpus_words": "2,225,102,717",
    "corpus_words_compact": "2.23 billion",
    "with_words": "325",
    "with_words_editions": "325 resources",
@@ -572,15 +572,15 @@
    "updated_long": "14 October 2026",
    "updated_iso": "2026-10-14",
    "version": "1.0.1",
-   "data_commit_short": "f419746",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/f419746a4b1ab481d2f90ab35edd498853401580",
+   "data_commit_short": "b3fbdad",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/b3fbdad046beb7b17cc6f1c8a42e51d4b72e8ac7",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.10",
    "snapshot_frozen_long": "13 October 2026",
    "snapshot_month": "October 2026",
    "figures_other_sentence": "For 10 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Grand Tour digital, Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock and Sefaria.",
    "largest_share": "56%",
-   "share_note": "Shares of the 2,419,568,150 words recorded for 325 resources; 3 resources have no word count. Collection totals include overlapping texts.",
+   "share_note": "Shares of the 2,419,568,567 words recorded for 325 resources; 3 resources have no word count. Collection totals include overlapping texts.",
    "with_last_modified": "63 resources",
    "with_data_url": "214 resources",
    "with_countries": "135 resources",
@@ -10409,18 +10409,18 @@
     "GB-SCT"
    ],
    "period": "1235-1707",
-   "notes": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. No data download found. The October 2026 harvest fetched the original-language text of the 11,104 records dated 1450-1700 listed in the reign indexes (two failed), at a rate agreed with the RPS team; languages are assigned per record, and short English editorial headings could not all be separated from the text. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+   "notes": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. No data download found. The October 2026 harvest fetched the original-language text of the 11,104 records dated 1450-1700 listed in the reign indexes, at a rate agreed with the RPS team; languages are assigned per record, and short English editorial headings could not all be separated from the text. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
    "provenance": "discovered",
    "date_added": "2026-10-13",
    "license": "Copyright",
    "license_url": "https://www.rps.ac.uk/static/acknowledgements.html",
    "license_note": "Footer and metadata: '(c) 2007-2026 University of St Andrews. Images of documents appear courtesy of the National Records of Scotland'; no open licence. The site is free to consult.",
-   "words": 6828151,
-   "texts": 10900,
+   "words": 6828568,
+   "texts": 10902,
    "corpus_statistics": {
     "snapshot": "v2026.10",
-    "words": 6815481,
-    "texts": 10856
+    "words": 6815898,
+    "texts": 10858
    },
    "count_basis": "rq-retained-rows"
   },
@@ -32436,7 +32436,7 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.10",
-   "notes_display": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. No data download found. The October 2026 harvest fetched the original-language text of the 11,104 records dated 1450-1700 listed in the reign indexes (two failed), at a rate agreed with the RPS team; languages are assigned per record, and short English editorial headings could not all be separated from the text.",
+   "notes_display": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. No data download found. The October 2026 harvest fetched the original-language text of the 11,104 records dated 1450-1700 listed in the reign indexes, at a rate agreed with the RPS team; languages are assigned per record, and short English editorial headings could not all be separated from the text.",
    "period_words": {
     "decades": [
      375546,
@@ -32453,7 +32453,7 @@
      184446,
      102765,
      296895,
-     259560,
+     259815,
      252593,
      104898,
      125047,
@@ -32463,7 +32463,7 @@
      649973,
      246988,
      572419,
-     843083
+     843245
     ],
     "estimated": [
      0,
