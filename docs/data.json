@@ -9,10 +9,10 @@
   },
   "version": "1.0.1",
   "released": "2026-10-13",
-  "updated": "2026-10-13",
+  "updated": "2026-10-14",
   "data_commit": {
-   "sha": "0e34d308d52d532689e1b4715ff4e3d5ebba2624",
-   "short": "0e34d30"
+   "sha": "f419746a4b1ab481d2f90ab35edd498853401580",
+   "short": "f419746"
   },
   "scope": {
    "from": 1450,
@@ -397,11 +397,11 @@
      1
     ]
    ],
-   "texts": 254003,
-   "words": 2412739999,
-   "with_texts": 326,
-   "with_words": 324,
-   "median_words": 181492,
+   "texts": 264903,
+   "words": 2419568150,
+   "with_texts": 327,
+   "with_words": 325,
+   "median_words": 182019,
    "median_texts": 36,
    "period": {
     "numeric": 318,
@@ -409,9 +409,9 @@
     "missing": 0
    },
    "figures": {
-    "rq": 317,
+    "rq": 318,
     "other": 10,
-    "none": 1,
+    "none": 0,
     "other_titles": [
      "1641 Depositions (Trinity College Dublin)",
      "Briefwisseling van Constantijn Huygens 1607-1687",
@@ -424,34 +424,32 @@
      "Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock",
      "Sefaria"
     ],
-    "none_titles": [
-     "Records of the Parliaments of Scotland to 1707"
-    ]
+    "none_titles": []
    },
    "largest": {
     "id": "eebo-text-creation-partnership",
     "title": "EEBO Text Creation Partnership",
     "words": 1348840666,
-    "share": 0.559
+    "share": 0.5575
    },
    "top_by_words": [
     {
      "id": "eebo-text-creation-partnership",
      "label": "EEBO Text Creation Partnership",
      "words": 1348840666,
-     "share": 0.559
+     "share": 0.5575
     },
     {
      "id": "openiti",
      "label": "OpenITI",
      "words": 356834104,
-     "share": 0.1479
+     "share": 0.1475
     },
     {
      "id": "noscemus",
      "label": "NOSCEMUS",
      "words": 82381900,
-     "share": 0.0341
+     "share": 0.034
     },
     {
      "id": "sefaria",
@@ -508,41 +506,41 @@
     1450,
     1700
    ],
-   "words": 2218286819,
-   "texts": 206552,
+   "words": 2225102300,
+   "texts": 217408,
    "basis": "After the corpus duplicate filter; complete working snapshot, before catalogue grouping",
    "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
-   "database_sha256": "cc8ac445f23e4ff258a8e1b93fa10497275e7af0c0a94aa16790537a43dd7fdb"
+   "database_sha256": "a7ce54ae783f3eac6f2c5584b153a624be4386316235504fadac9f2020104ae6"
   },
   "timeline": {
    "snapshot": "v2026.10",
    "frozen": "2026-10-13",
    "decade_words": [
-    26611565,
-    4138915,
-    18521210,
-    19031769,
-    19687370,
-    30861402,
-    17653981,
-    24560149,
-    30453463,
-    41909897,
-    79624451,
-    59357632,
-    65295048,
-    71497294,
-    71486916,
-    97650997,
-    115393594,
-    94893265,
-    101442806,
-    155196893,
-    271359701,
-    160991032,
-    173222964,
-    213364519,
-    221746551
+    26987111,
+    4193898,
+    18720422,
+    19278480,
+    19945075,
+    31033726,
+    17664440,
+    24622948,
+    30473503,
+    42027020,
+    79670350,
+    59542078,
+    65397813,
+    71794189,
+    71746476,
+    97903590,
+    115498492,
+    95018312,
+    101662834,
+    156412273,
+    271538306,
+    161641005,
+    173469952,
+    213936938,
+    222589634
    ],
    "estimated_words": 11379662,
    "undated_words": 21377152,
@@ -556,33 +554,33 @@
    "editions_label": "328 resources",
    "languages": "71",
    "language_labels": "71",
-   "texts": "254,003",
-   "words": "2,412,739,999",
-   "words_compact": "2.41 billion",
-   "corpus_texts": "206,552",
-   "corpus_words": "2,218,286,819",
-   "corpus_words_compact": "2.22 billion",
-   "with_words": "324",
-   "with_words_editions": "324 resources",
-   "without_words": "4",
-   "figures_rq": "317",
+   "texts": "264,903",
+   "words": "2,419,568,150",
+   "words_compact": "2.42 billion",
+   "corpus_texts": "217,408",
+   "corpus_words": "2,225,102,300",
+   "corpus_words_compact": "2.23 billion",
+   "with_words": "325",
+   "with_words_editions": "325 resources",
+   "without_words": "3",
+   "figures_rq": "318",
    "discovered": "140",
    "discovered_sentence": "140 of the 328 records were proposed this way",
    "single_language": "246",
-   "median_words": "181,492",
+   "median_words": "182,019",
    "median_texts": "36",
-   "updated_long": "13 October 2026",
-   "updated_iso": "2026-10-13",
+   "updated_long": "14 October 2026",
+   "updated_iso": "2026-10-14",
    "version": "1.0.1",
-   "data_commit_short": "0e34d30",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/0e34d308d52d532689e1b4715ff4e3d5ebba2624",
+   "data_commit_short": "f419746",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/f419746a4b1ab481d2f90ab35edd498853401580",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.10",
    "snapshot_frozen_long": "13 October 2026",
    "snapshot_month": "October 2026",
-   "figures_other_sentence": "For 10 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Grand Tour digital, Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock and Sefaria. 1 resource has no word or text count.",
+   "figures_other_sentence": "For 10 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Grand Tour digital, Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock and Sefaria.",
    "largest_share": "56%",
-   "share_note": "Shares of the 2,412,739,999 words recorded for 324 resources; 4 resources have no word count. Collection totals include overlapping texts.",
+   "share_note": "Shares of the 2,419,568,150 words recorded for 325 resources; 3 resources have no word count. Collection totals include overlapping texts.",
    "with_last_modified": "63 resources",
    "with_data_url": "214 resources",
    "with_countries": "135 resources",
@@ -10411,12 +10409,20 @@
     "GB-SCT"
    ],
    "period": "1235-1707",
-   "notes": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. robots.txt asks for a 20-second crawl delay, which a harvest must respect. No data download found. A harvest respecting the crawl delay is in progress; counts will be added when it is complete.",
+   "notes": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. No data download found. The October 2026 harvest fetched the original-language text of the 11,104 records dated 1450-1700 listed in the reign indexes (two failed), at a rate agreed with the RPS team; languages are assigned per record, and short English editorial headings could not all be separated from the text. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
    "provenance": "discovered",
    "date_added": "2026-10-13",
    "license": "Copyright",
    "license_url": "https://www.rps.ac.uk/static/acknowledgements.html",
-   "license_note": "Footer and metadata: '(c) 2007-2026 University of St Andrews. Images of documents appear courtesy of the National Records of Scotland'; no open licence. The site is free to consult."
+   "license_note": "Footer and metadata: '(c) 2007-2026 University of St Andrews. Images of documents appear courtesy of the National Records of Scotland'; no open licence. The site is free to consult.",
+   "words": 6828151,
+   "texts": 10900,
+   "corpus_statistics": {
+    "snapshot": "v2026.10",
+    "words": 6815481,
+    "texts": 10856
+   },
+   "count_basis": "rq-retained-rows"
   },
   {
    "title": "REED English",
@@ -32427,11 +32433,68 @@
     "note": null,
     "beyond_scope": true
    },
-   "size_band": null,
-   "figures": "none",
-   "snapshot": null,
-   "notes_display": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. robots.txt asks for a 20-second crawl delay, which a harvest must respect. No data download found. A harvest respecting the crawl delay is in progress; counts will be added when it is complete.",
-   "period_words": null
+   "size_band": "1m-10m",
+   "figures": "rq",
+   "snapshot": "v2026.10",
+   "notes_display": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. No data download found. The October 2026 harvest fetched the original-language text of the 11,104 records dated 1450-1700 listed in the reign indexes (two failed), at a rate agreed with the RPS team; languages are assigned per record, and short English editorial headings could not all be separated from the text.",
+   "period_words": {
+    "decades": [
+     375546,
+     54983,
+     199212,
+     246711,
+     257705,
+     172324,
+     10459,
+     62799,
+     20040,
+     117123,
+     45899,
+     184446,
+     102765,
+     296895,
+     259560,
+     252593,
+     104898,
+     125047,
+     220028,
+     1215380,
+     178605,
+     649973,
+     246988,
+     572419,
+     843083
+    ],
+    "estimated": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "undated": 0,
+    "estimated_range": null
+   }
   },
   {
    "id": "reed-english",

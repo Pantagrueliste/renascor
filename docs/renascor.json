@@ -4,8 +4,8 @@
     "source": "https://github.com/Pantagrueliste/renascor",
     "licence": "CC0-1.0",
     "version": "1.0.1",
-    "data_updated": "2026-10-13",
-    "data_commit": "0e34d308d52d532689e1b4715ff4e3d5ebba2624",
+    "data_updated": "2026-10-14",
+    "data_commit": "f419746a4b1ab481d2f90ab35edd498853401580",
     "corpus_statistics": {
       "name": "Renascor Corpus",
       "snapshot": "v2026.10",
@@ -14,11 +14,11 @@
         1450,
         1700
       ],
-      "words": 2218286819,
-      "texts": 206552,
+      "words": 2225102300,
+      "texts": 217408,
       "basis": "After the corpus duplicate filter; complete working snapshot, before catalogue grouping",
       "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
-      "database_sha256": "cc8ac445f23e4ff258a8e1b93fa10497275e7af0c0a94aa16790537a43dd7fdb"
+      "database_sha256": "a7ce54ae783f3eac6f2c5584b153a624be4386316235504fadac9f2020104ae6"
     },
     "records": 328,
     "fields": [
@@ -10126,6 +10126,14 @@
         "French"
       ],
       "period": "1235-1707",
+      "words": 6828151,
+      "texts": 10900,
+      "corpus_statistics": {
+        "snapshot": "v2026.10",
+        "words": 6815481,
+        "texts": 10856
+      },
+      "count_basis": "rq-retained-rows",
       "encoding": "html",
       "license": "Copyright",
       "license_url": "https://www.rps.ac.uk/static/acknowledgements.html",
@@ -10140,7 +10148,7 @@
       "document_types": [
         "manuscript"
       ],
-      "notes": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. robots.txt asks for a 20-second crawl delay, which a harvest must respect. No data download found. A harvest respecting the crawl delay is in progress; counts will be added when it is complete."
+      "notes": "Proceedings of the Scottish parliament from the first surviving act of 1235 to the Union of 1707, with the original text (Latin, French, Scots) and a parallel English translation, links to the manuscript images and an editorial apparatus. The part dating from 1450-1700 is the fifteenth-, sixteenth- and seventeenth-century parliaments, conventions and committee records (roughly the second half of the 1235-1707 run); earlier and 1700-1707 records are outside the period. Free, no login. The site is an old frameset: the in-page 'Service currently unavailable' text is commented out and the footer reads '2007-2026 University of St Andrews'. No data download found. The October 2026 harvest fetched the original-language text of the 11,104 records dated 1450-1700 listed in the reign indexes (two failed), at a rate agreed with the RPS team; languages are assigned per record, and short English editorial headings could not all be separated from the text. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "reed-english",
