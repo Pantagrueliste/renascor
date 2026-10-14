@@ -7,12 +7,12 @@
    "data": "CC0-1.0",
    "code": "MIT"
   },
-  "version": "1.0.1",
-  "released": "2026-10-13",
+  "version": "1.1.0",
+  "released": "2026-10-14",
   "updated": "2026-10-14",
   "data_commit": {
-   "sha": "b3fbdad046beb7b17cc6f1c8a42e51d4b72e8ac7",
-   "short": "b3fbdad"
+   "sha": "19983a96ee6dfb2a48b2e5ea56988b07e9f648e3",
+   "short": "19983a9"
   },
   "scope": {
    "from": 1450,
@@ -571,9 +571,9 @@
    "median_texts": "36",
    "updated_long": "14 October 2026",
    "updated_iso": "2026-10-14",
-   "version": "1.0.1",
-   "data_commit_short": "b3fbdad",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/b3fbdad046beb7b17cc6f1c8a42e51d4b72e8ac7",
+   "version": "1.1.0",
+   "data_commit_short": "19983a9",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/19983a96ee6dfb2a48b2e5ea56988b07e9f648e3",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.10",
    "snapshot_frozen_long": "13 October 2026",
@@ -587,7 +587,7 @@
    "areas_list": "British Isles, France, Low Countries, Holy Roman Empire, Italian Peninsula, Iberian Peninsula, Scandinavia, Central and Eastern Europe, Balkans and Greece, Ottoman Empire and Near East, Americas, Asia and Africa",
    "citation_author_year": "Godbarge, Clément (2026).",
    "citation_title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
-   "citation_tail": "(Version 1.0.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23345610",
+   "citation_tail": "(Version 1.1.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23345610",
    "status_active": "201 resources.",
    "status_archived": "120 resources.",
    "status_discontinued": "7 resources.",
