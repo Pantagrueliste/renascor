@@ -1,7 +1,7 @@
 {
   "snapshot": "v2026.10",
   "source": "https://github.com/Pantagrueliste/renascor/blob/main/docs/MAINTENANCE.md#snapshot-v202610",
-  "database_sha256": "a7ce54ae783f3eac6f2c5584b153a624be4386316235504fadac9f2020104ae6",
+  "database_sha256": "8c49aed71187dcce4d048c41979447657abc17fd5656db4d2dfe08b8e6084354",
   "scope": [
     1450,
     1700
@@ -12258,10 +12258,10 @@
       "restored_words": 0
     },
     "Renascor_records-parliaments-scotland": {
-      "texts": 10900,
-      "words": 6828151,
-      "corpus_texts": 10856,
-      "corpus_words": 6815481,
+      "texts": 10902,
+      "words": 6828568,
+      "corpus_texts": 10858,
+      "corpus_words": 6815898,
       "languages": [
         "Latin",
         "Scots"

@@ -4,7 +4,7 @@
     1450,
     1700
   ],
-  "database_sha256": "a7ce54ae783f3eac6f2c5584b153a624be4386316235504fadac9f2020104ae6",
+  "database_sha256": "8c49aed71187dcce4d048c41979447657abc17fd5656db4d2dfe08b8e6084354",
   "decade_starts": [
     1450,
     1460,
@@ -592,8 +592,8 @@
       "texts": 3
     },
     "inferred": {
-      "words": 213994154,
-      "texts": 122228
+      "words": 213994571,
+      "texts": 122230
     },
     "inferred_per_work": {
       "words": 1508135,
@@ -21485,8 +21485,8 @@
       "entry": "queens-men-editions"
     },
     "Renascor_records-parliaments-scotland": {
-      "words": 6815481,
-      "texts": 10856,
+      "words": 6815898,
+      "texts": 10858,
       "decade_words": [
         375546,
         54983,
@@ -21502,7 +21502,7 @@
         184446,
         102765,
         296895,
-        259560,
+        259815,
         252593,
         104898,
         125047,
@@ -21512,7 +21512,7 @@
         649973,
         246988,
         572419,
-        843083
+        843245
       ],
       "estimated_decade_words": [
         0,

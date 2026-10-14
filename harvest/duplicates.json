@@ -14343,8 +14343,8 @@
   ]
  },
  "records-parliaments-scotland": {
-  "texts": 10900,
-  "words": 6828151,
+  "texts": 10902,
+  "words": 6828568,
   "dup_texts": 63,
   "dup_words": 22103,
   "against": {
@@ -14354,8 +14354,8 @@
   },
   "junk_texts": 202,
   "junk_words": 2080,
-  "unique_texts": 10837,
-  "unique_words": 6806048,
+  "unique_texts": 10839,
+  "unique_words": 6806465,
   "dups": [
    {
     "filename": "jamesiii_ms_4790.txt",

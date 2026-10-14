@@ -816,9 +816,9 @@
   "policy_dups": 0
  },
  "records-parliaments-scotland": {
-  "inserted": 10900,
-  "in_core": 10900,
-  "in_core_words": 6828151,
+  "inserted": 10902,
+  "in_core": 10902,
+  "in_core_words": 6828568,
   "junk": 202,
   "skipped_dup": 0,
   "policy_dups": 44

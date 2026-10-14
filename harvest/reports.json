@@ -1833,17 +1833,17 @@
  },
  "records-parliaments-scotland": {
   "id": "records-parliaments-scotland",
-  "texts_total": 11102,
-  "words_total": 6830231,
-  "texts_in_window": 11102,
-  "words_in_window": 6830231,
+  "texts_total": 11104,
+  "words_total": 6830648,
+  "texts_in_window": 11104,
+  "words_in_window": 6830648,
   "undated": 0,
   "language_words": {
    "Latin": 314602,
-   "Scots": 6515629
+   "Scots": 6516046
   },
   "method": "Reign indexes (11 requests) parsed for record ids; one request per record page (search.php?action=fc, manuscript text only). The first 2,984 records were fetched at the 20 s crawl delay of robots.txt, the rest at a 3 s delay agreed with the RPS team.",
-  "coverage": "All 11,104 manuscript records dated 1450-1700 listed in the reign indexes, James II to William II; two requests failed (connection reset).",
+  "coverage": "All 11,104 manuscript records dated 1450-1700 listed in the reign indexes, James II to William II.",
   "problems": [
    "Site has no bulk download or API; one page per record.",
    "Language is guessed per record from word frequencies (Latin, French or Scots); records mix Latin, French and Scots, and some carry short English editorial headings.",
