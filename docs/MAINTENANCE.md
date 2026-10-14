@@ -37,9 +37,9 @@ The recount reads the corpus without changing it and writes its audit to [data/r
 Snapshot v2026.10 is the frozen June database (v2026.06) plus the October 2026 harvest of the catalogued resources it did not hold, one collection per record named `Renascor_<record id>`. The frozen database itself is never modified: the snapshot is built on a copy. See [harvest/README.md](../harvest/README.md) for the harvest, its deduplication and the records that could not be counted.
 
 ```bash
-python3 scripts/rq_statistics.py --db /path/to/corpus_master.2026-10-13.v2026.10.sqlite --rq-root /path/to/RQ --snapshot v2026.10
-python3 scripts/language_breakdown.py --db /path/to/corpus_master.2026-10-13.v2026.10.sqlite
-python3 scripts/corpus_timeline.py --db /path/to/corpus_master.2026-10-13.v2026.10.sqlite
+python3 scripts/rq_statistics.py --db /path/to/corpus_master.2026-10-14.v2026.10.sqlite --rq-root /path/to/RQ --snapshot v2026.10
+python3 scripts/language_breakdown.py --db /path/to/corpus_master.2026-10-14.v2026.10.sqlite
+python3 scripts/corpus_timeline.py --db /path/to/corpus_master.2026-10-14.v2026.10.sqlite
 python3 scripts/build_site.py
 ```
 

@@ -24,13 +24,13 @@ python3 harvest/scripts/<id>.py                      # for each record (network;
 python3 harvest/fingerprint.py index-rq rq_index.sqlite   # fingerprints of the frozen corpus
 python3 harvest/fingerprint.py index-dirs rq_index.sqlite # corpus collections stored as whole raw files
 python3 harvest/dedup.py rq_index.sqlite duplicates.json
-python3 harvest/build_snapshot.py duplicates.json corpus_master.2026-10-13.v2026.10.sqlite
+python3 harvest/build_snapshot.py duplicates.json corpus_master.2026-10-14.v2026.10.sqlite
 ```
 
 Then refresh the catalogue as described in [docs/MAINTENANCE.md](../docs/MAINTENANCE.md#snapshot-v202610).
 
 ## Not counted
 
-Six records have no harvested count: 1641 Depositions (reCAPTCHA), Briefwisseling Constantijn Huygens and the Divisiekroniek (the Huygens server refuses automated clients), The Chymistry of Isaac Newton (robots.txt disallows the manuscript pages), CODEA+ 2022 (its licence forbids reuse in a corpus) and the Rostock matriculation portal (short name records, under the 20-word filter). Some other harvests are partial; `reports.json` and the record notes say which. The Records of the Parliaments of Scotland are not yet counted: their harvest, at the 20-second crawl delay the site asks for, is still running.
+Six records have no harvested count: 1641 Depositions (reCAPTCHA), Briefwisseling Constantijn Huygens and the Divisiekroniek (the Huygens server refuses automated clients), The Chymistry of Isaac Newton (robots.txt disallows the manuscript pages), CODEA+ 2022 (its licence forbids reuse in a corpus) and the Rostock matriculation portal (short name records, under the 20-word filter). Some other harvests are partial; `reports.json` and the record notes say which. The Records of the Parliaments of Scotland were harvested at the 20-second crawl delay of robots.txt, then at a faster rate agreed with the RPS team.
 
 The Rostocker Urgichten repository puts its file downloads behind a bot check. Their 50 TEI files, listed through its open OAI-PMH interface, were downloaded once in a browser with `scripts/rostocker-urgichten.download.js` (pasted in the browser console on the repository page); `scripts/rostocker-urgichten.py` stages the saved file. The letter pages of Zwingli's correspondence, which the server refuses to scripted requests although its robots.txt allows them, were fetched the same way with `scripts/zwingli-briefe.download.js`. No bot check is bypassed by the harvest code.
