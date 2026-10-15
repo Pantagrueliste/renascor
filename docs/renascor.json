@@ -4,8 +4,8 @@
     "source": "https://github.com/Pantagrueliste/renascor",
     "licence": "CC0-1.0",
     "version": "1.1.0",
-    "data_updated": "2026-10-14",
-    "data_commit": "19983a96ee6dfb2a48b2e5ea56988b07e9f648e3",
+    "data_updated": "2026-10-15",
+    "data_commit": "928b91dd3fb1fed371fa5814c9a88ac3d019554e",
     "corpus_statistics": {
       "name": "Renascor Corpus",
       "snapshot": "v2026.10",
@@ -217,7 +217,7 @@
         "texts": 3185
       },
       "count_basis": "rq-retained-rows",
-      "encoding": "xml",
+      "encoding": "tei",
       "license": "CC-BY-SA-4.0",
       "license_url": "https://apw.digitale-sammlungen.de/apweinf/static.html",
       "license_note": "Page \"APW digital\" (live version reached only through search because the site sits behind an Anubis bot wall): \"Die xml-Dateien auf APW digital stehen unter der Lizenz CC BY-SA 4.0\"; credit the Zentrum fuer Historische Friedensforschung, Bonn. The edition is published with permission of the Aschendorff publishing house; the licence is stated for the XML files.",
@@ -231,7 +231,7 @@
       "document_types": [
         "manuscript"
       ],
-      "notes": "Digital edition of the Acta Pacis Westphalicae, the documents of the Westphalian peace congress (instructions, correspondence, minutes, negotiation papers and diaries; the congress ran 1643-1649, with a few earlier or later items). All volumes of the three series are readable online with a document-by-document view, scans of the printed pages, PDF download of the printed volumes and the XML full text of each document. No login is needed. The edition text is a digitised critical edition of the archival originals (about 157 archives). The counts cover 3,210 of the 14,545 listed documents (22%), from 19 of the 41 volumes; the server was unstable during the harvest. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Digital edition of the Acta Pacis Westphalicae, the documents of the Westphalian peace congress (instructions, correspondence, minutes, negotiation papers and diaries; the congress ran 1643-1649, with a few earlier or later items). All volumes of the three series are readable online with a document-by-document view, scans of the printed pages, PDF download of the printed volumes and the TEI XML full text of each document (served as TEI fragments, without a teiHeader). No login is needed. The edition text is a digitised critical edition of the archival originals (about 157 archives). The counts cover 3,210 of the 14,545 listed documents (22%), from 19 of the 41 volumes; the server was unstable during the harvest. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "interregnum-acts",
@@ -606,6 +606,8 @@
       "id": "balkan-slavic-digital-editions",
       "title": "Balkan Slavic Digital Editions (Pop Punčov Sbornik, Life of St. Petka, Tale of Alexander, Excerpts)",
       "url": "https://www.punco.slavistik.lmu.de/",
+      "data_url": "https://www.punco.slavistik.lmu.de/lt_data.json",
+      "data_format": "json",
       "institution": "University of Zurich, Institute of Slavic Studies (SNSF project 176378, Barbara Sonnenhauser) and Czech Academy of Sciences; hosted at LMU Munich (Ivan Šimko, Anastasia Escher)",
       "editors": [
         "Ivan Šimko",
@@ -625,7 +627,7 @@
         "texts": 13
       },
       "count_basis": "rq-retained-rows",
-      "encoding": "html",
+      "encoding": "json",
       "license": "CC-BY-SA-4.0",
       "license_url": "https://www.punco.slavistik.lmu.de/petka-about.html",
       "status": "active",
@@ -642,7 +644,7 @@
         "manuscript",
         "print"
       ],
-      "notes": "Corpus of Balkan Slavic texts from the 10th to the 19th century collected for the study of linguistic change: Pop Punčo's Sbornik (1796), the Life of St. Petka in many copies, the Tale of Alexander the Elder, and an Excerpts sub-corpus. Texts come with English translations, morphological and syntactic annotation, search and facsimiles. Sources within 1450-1700 include Vuković's Zbornik za putnike (printed 1536), the Joseph-Volokolamsk manuscript of 1537, the Tikhonravov damaskin and other 17th-century damaskini, Šimun Kozičić (1530s), and Letters of Wallachian princes. Texts are read in the web interface; no bulk download was found. Status active: the home page was modified in July 2026 and the Excerpts page in February 2026. The counts cover the 13 texts dated within 1450-1700, leaving out the Sbornik (1796), and several dates are approximate (century midpoints or decades). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Corpus of Balkan Slavic texts from the 10th to the 19th century collected for the study of linguistic change: Pop Punčo's Sbornik (1796), the Life of St. Petka in many copies, the Tale of Alexander the Elder, and an Excerpts sub-corpus. Texts come with English translations, morphological and syntactic annotation, search and facsimiles. Sources within 1450-1700 include Vuković's Zbornik za putnike (printed 1536), the Joseph-Volokolamsk manuscript of 1537, the Tikhonravov damaskin and other 17th-century damaskini, Šimun Kozičić (1530s), and Letters of Wallachian princes. Texts are read in the web interface. The search engine loads its corpus from public token-level JSON files with diplomatic form, lemma, MULTEXT-East tags and Universal Dependencies relations (lt_data.json for the Excerpts texts, petka_data.json for the Life of St. Petka, sva_data.json for the Tale of Alexander, data_1.json and data_2.json for Pop Punčo's Sbornik of 1796). These files are not advertised as downloads. Search results can be exported as CSV or CoNLL-U. The 23 Damaskini texts are also deposited at CLARIN.SI (11356/1441). Status active: the home page was modified in July 2026 and the Excerpts page in February 2026. The counts cover the 13 texts dated within 1450-1700, leaving out the Sbornik (1796), and several dates are approximate (century midpoints or decades). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "bartoli-correspondence",
@@ -684,7 +686,11 @@
       "title": "Belarusian Skaryna",
       "url": "https://knihi.com/Francysk_Skaryna",
       "data_url": "https://knihi.com/Francysk_Skaryna/",
-      "data_format": "other",
+      "data_format": "html",
+      "data_formats": [
+        "html",
+        "other"
+      ],
       "languages": [
         "Belarusian"
       ],
@@ -1664,6 +1670,8 @@
       "id": "charta-corpus",
       "title": "CHARTA — Corpus hispánico y americano en la red: textos antiguos",
       "url": "https://corpora.uah.es/charta/index.php?action=corpus",
+      "data_url": "https://corpora.uah.es/charta/index.php?action=files",
+      "data_format": "tei",
       "institution": "Red CHARTA, coordinated by GITHE (Universidad de Alcalá; Ricardo Pichel, Víctor Caballero Gómez)",
       "published": 2015,
       "languages": [
@@ -1700,7 +1708,7 @@
       "document_types": [
         "manuscript"
       ],
-      "notes": "Selection of archival documents drawn from the corpora of the member research groups of the CHARTA network (CODCAR, CODEMA, CORHEN, CODEA, CDHM, COREECOM, CODDEC, DGSXIX, DOLEO, CorColombia, CORAPRINA, COHSANRE, COTAGAL, DCEP, CORDEREGRA, CORDINA, COHIECOS), so the texts also exist in those corpora. Each document has facsimile (where available), paleographic and critical presentations; free reading and search without login on the TEITOK platform; per-document TEI XML is served at corpora.uah.es/charta/xmlfiles/<id>.xml but there is no bulk download page. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Selection of archival documents drawn from the corpora of the member research groups of the CHARTA network (CODCAR, CODEMA, CORHEN, CODEA, CDHM, COREECOM, CODDEC, DGSXIX, DOLEO, CorColombia, CORAPRINA, COHSANRE, COTAGAL, DCEP, CORDEREGRA, CORDINA, COHIECOS), so the texts also exist in those corpora. Each document has facsimile (where available), paleographic and critical presentations; free reading and search without login on the TEITOK platform; per-document TEI XML is served at corpora.uah.es/charta/xmlfiles/<id>.xml the XML files are listed at index.php?action=files and downloaded one by one; there is no bulk archive. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "chm-mapudungun",
@@ -1790,7 +1798,7 @@
         "texts": 5
       },
       "count_basis": "rq-retained-rows",
-      "encoding": "plain-text",
+      "encoding": "other",
       "license": "Mixed",
       "license_url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
       "license_note": "Includes CC-BY-NC-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material.",
@@ -1801,7 +1809,7 @@
         "manuscript",
         "print"
       ],
-      "notes": "CLARIN:EL resource 'Resources of early modern Greek (16th-17th century)', a set of TEI-compliant XML editions of notarial deeds (Alexakis, Olokalos) and literary and deed editions (Kapianos, Visvizis, Montselese's Evgena, 1646). It is distinct from the CLARIN:EL record of 16th-century notarial deeds (inventory.clarin.gr/corpus/902), which is not what is counted here. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+      "notes": "CLARIN:EL resource 'Resources of early modern Greek (16th-17th century)', a set of editions of notarial deeds (Alexakis, Olokalos) and literary and deed editions (Kapianos, Visvizis, Montselese's Evgena, 1646), distributed as MS Word .doc files. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
       "id": "codea-plus-2022",
@@ -2040,7 +2048,7 @@
         "texts": 7311
       },
       "count_basis": "rq-retained-rows",
-      "encoding": "html",
+      "encoding": "other",
       "license": "Copyright",
       "license_url": "https://www.cordiam.org/doc/creditos.html",
       "license_note": "Credits page: 'Corpus Cordiam © Concepción Company y Virginia Bertolotti. Buscador © Alexander Gelbukh y Grigori Sidorov'; no open licence on the credits, presentation or citation pages (checked 2026-10-13). Only a citation format is prescribed.",
@@ -2062,7 +2070,7 @@
         "manuscript",
         "print"
       ],
-      "notes": "Three subcorpora: Documentos (6,851 texts, archival documents from 'corpus de corpus'), Literatura (6,367; 16th-19th c.) and Prensa (16,271; 18th-19th c. only). The search interface is open without login and full documents can be displayed and saved; there is no bulk download and no TEI. Documents are transcriptions with expanded abbreviations. The countries listed are a selection of the 20+ countries covered. The counts cover the 7,334 documents with a year between 1494 and 1700, and documents dated only by century are not included. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Three subcorpora: Documentos (6,851 texts, archival documents from 'corpus de corpus'), Literatura (6,367; 16th-19th c.) and Prensa (16,271; 18th-19th c. only). The search interface is open without login and full documents are available as per-document PDF files (with a metadata sheet on page 1); the search interface shows concordances and example passages as HTML; there is no bulk download and no TEI. Documents are transcriptions with expanded abbreviations. The countries listed are a selection of the 20+ countries covered. The counts cover the 7,334 documents with a year between 1494 and 1700, and documents dated only by century are not included. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "coreecom",
@@ -2768,13 +2776,13 @@
       "document_types": [
         "manuscript"
       ],
-      "notes": "Inventory manuscript (KHM shelfmark KK_6652) of the possessions of Archduke Ferdinand II of Tyrol (1529-1595), drawn up in 1596 at Innsbruck and Ambras, digitised with a full-text transcription in the repository viewer. The viewer sits behind a bot check, so the pages are best opened in a browser; the plain-text API returns the whole transcription. Status active: the repository and its DOI (registered under the recent 10.60477 prefix) are live in 2026. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Inventory manuscript (KHM shelfmark KK_6652) of the possessions of Archduke Ferdinand II of Tyrol (1529-1595), drawn up in 1596 at Innsbruck and Ambras, digitised with a full-text transcription in the repository viewer. The viewer sits behind a bot check, so the pages are best opened in a browser; the \"plaintext\" API endpoint returns the whole transcription as HTML fragments (the viewer's TEI export is only a wrapper around the same HTML, not a TEI encoding of the text). Status active: the repository and its DOI (registered under the recent 10.60477 prefix) are live in 2026. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "dasypodius-dictionarium-latinogermanicum",
       "title": "Dasypodius' Dictionarium Latinogermanicum (1535)",
       "url": "http://diglib.hab.de/edoc/ed000008/start.htm",
-      "data_url": "http://diglib.hab.de/edoc/ed000008/",
+      "data_url": "http://diglib.hab.de/edoc/ed000008/mets.xml",
       "data_format": "tei",
       "institution": "Herzog August Bibliothek Wolfenbüttel (transcribed and edited by Jonathan West)",
       "editors": [
@@ -2808,7 +2816,7 @@
       "document_types": [
         "print"
       ],
-      "notes": "Transcription of the first edition of Dasypodius' dictionary (Strasbourg: Rihel, 1535, Strasbourg copy) with variant readings of the 1536 edition, in five TEI files (contents and preface, A-B, C-H, I-O, P-Z), revised 30 November 2012. Last file modified 2012. The dictionary (about 6,600 entries) is counted as one text, without the 1536 variant readings. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Transcription of the first edition of Dasypodius' dictionary (Strasbourg: Rihel, 1535, Strasbourg copy) with variant readings of the 1536 edition, in five TEI files (contents and preface, A-B, C-H, I-O, P-Z) and a TEI introduction, revised 30 November 2012. Last file modified 2012. The dictionary (about 6,600 entries) is counted as one text, without the 1536 variant readings. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "van-der-goes-ystroom",
@@ -2877,7 +2885,7 @@
         "texts": 375
       },
       "count_basis": "rq-retained-rows",
-      "encoding": "html",
+      "encoding": "tei",
       "license": "CC-BY-4.0",
       "license_url": "https://epigraf.inschriften.net/pages/dumps",
       "license_note": "Data dumps: CC BY 4.0 'where possible' (every article of the CGIF dump carries cc:by/4.0 as licence); images have their own, more restricted copyright. The portal itself shows a two-year moving wall after print publication.",
@@ -2970,7 +2978,7 @@
       "title": "DIACU — A dataset for the DIAchronic analysis of Church Slavonic",
       "url": "https://github.com/MariaCassese/DIACU",
       "data_url": "https://github.com/MariaCassese/DIACU/tree/main/data",
-      "data_format": "other",
+      "data_format": "json",
       "institution": "Maria Cassese et al. (GitHub repo aggregating Sofia University historical-dictionary / Cyrillomethodiana texts)",
       "languages": [
         "Bulgarian"
@@ -2984,7 +2992,7 @@
         "texts": 24
       },
       "count_basis": "rq-retained-rows",
-      "encoding": "other",
+      "encoding": "json",
       "license": "CC-BY-4.0",
       "license_url": "https://dcl.bas.bg/bulnc/en/diachronic-corpus/",
       "status": "active",
@@ -2995,7 +3003,7 @@
         "manuscript",
         "print"
       ],
-      "notes": "DIACU v1.0 (GitHub repo live 200, description 'A dataset for the DIAchronic analysis of Church Slavonic, version 1.0') aggregates documents from Old Church Slavonic to Ruthenian, including 15th-century Bulgarian manuscripts distributed by Sofia University's historical dictionary / Cyrillomethodiana collections, matching the Late-15th-c. Bulgarian homilies of the collection (Homilia Domini nostri Iesu Christi de quid et quo..., Vita Hilarionis Moglen...). 3 texts retained. No explicit licence in repo metadata. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+      "notes": "DIACU v1.0 (GitHub repo live 200, description 'A dataset for the DIAchronic analysis of Church Slavonic, version 1.0') aggregates documents from Old Church Slavonic to Ruthenian, including 15th-century Bulgarian manuscripts distributed by Sofia University's historical dictionary / Cyrillomethodiana collections, matching the Late-15th-c. Bulgarian homilies of the collection (Homilia Domini nostri Iesu Christi de quid et quo..., Vita Hilarionis Moglen...). 3 texts retained. The data are distributed as a single JSON file (data/DIACU_1.0.json, about 22.8 MB, 652 documents), whose Content fields hold plain text. No explicit licence in repo metadata. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
       "id": "diakorp-czech",
@@ -3239,6 +3247,13 @@
       "id": "sozinianische-briefwechsel",
       "title": "Die sozinianischen Briefwechsel: Zwischen Theologie, frühmoderner Naturwissenschaft und politischer Korrespondenz",
       "url": "https://sozinianer.mni.thm.de/",
+      "data_url": "https://gitlab.rlp.net/adwmainz/digicademy/sbw/csv-data-dump/-/tree/main/data/xml/letters",
+      "data_format": "tei",
+      "data_formats": [
+        "tei",
+        "json",
+        "other"
+      ],
       "institution": "Technische Hochschule Mittelhessen (THM); DFG project 324518514",
       "languages": [
         "Latin",
@@ -3257,7 +3272,7 @@
         "texts": 2015
       },
       "count_basis": "rq-retained-rows",
-      "encoding": "json",
+      "encoding": "tei",
       "license": "CC-BY-4.0",
       "license_url": "https://creativecommons.org/licenses/by/4.0/",
       "license_note": "The site's data records name CC BY 4.0 for 2,123 text versions and CC BY-SA 3.0 for 136 printed versions.",
@@ -3277,7 +3292,7 @@
         "manuscript",
         "print"
       ],
-      "notes": "Letters of and to Socinian (anti-Trinitarian) scholars, including Fausto and Lelio Sozzini, Martin Ruar, Stanislaw Lubieniecki and Samuel Crell; the site holds 2,205 dated letters from 1545 to 1744 and 2,159 of them are dated 1700 or earlier. Each letter has one or more text versions (printed edition, copy, final copy, draft or autograph manuscript). The text is stored as standoff markup in a public GraphQL service rather than as downloadable files. The site was last deployed on 15 January 2026. The counts are per text version, so a letter with several versions is counted more than once, and letters without a transcription or a date are not included. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Letters of and to Socinian (anti-Trinitarian) scholars, including Fausto and Lelio Sozzini, Martin Ruar, Stanislaw Lubieniecki and Samuel Crell; the site holds 2,205 dated letters from 1545 to 1744 and 2,159 of them are dated 1700 or earlier. Each letter has one or more text versions (printed edition, copy, final copy, draft or autograph manuscript). The letters are published as TEI P5 XML files (one teiCorpus per letter with its attachments and witnesses, with standOff registers) in the project's GitLab data repository; the website itself serves the text through a public GraphQL service with standoff markup, and our counts were harvested from that service. The site was last deployed on 15 January 2026. The counts are per text version, so a letter with several versions is counted more than once, and letters without a transcription or a date are not included. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "koenigsfelden-urkunden-akten",
@@ -3502,6 +3517,8 @@
       "title": "Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon",
       "url": "https://github.com/AndreaLaVeglia/Postille_Poliziano_Sappho_EVT",
       "doi": "10.5281/zenodo.17315766",
+      "data_url": "https://github.com/AndreaLaVeglia/Postille_Poliziano_Sappho_EVT/blob/main/DigitalEditionEVT/data/text/AnnotationesPolitianiInSappho.xml",
+      "data_format": "tei",
       "institution": "Università di Salerno, Sapienza Università di Roma, Università di Napoli Federico II, Università di Torino, CNR-ILC",
       "editors": [
         "Andrea La Veglia"
@@ -4385,6 +4402,8 @@
       "id": "egpa",
       "title": "EGPA — Escritório Galego-Português Antigo",
       "url": "https://corpora.uah.es/egpa/",
+      "data_url": "https://corpora.uah.es/egpa/index.php?action=files",
+      "data_format": "tei",
       "institution": "Universidade de Santiago de Compostela (HERES project; direction Ricardo Pichel, now Universidad de Alcalá) with GITHE, UNED",
       "editors": [
         "Ricardo Pichel",
@@ -4419,7 +4438,7 @@
       "document_types": [
         "manuscript"
       ],
-      "notes": "Open collaborative platform of transcribed Galician-Portuguese archival documents (EGPAdoc) and literary texts (EGPAlit) from the Middle Ages to the 19th century, with paleographic and critical presentation; freely readable without login; per-document TEI at corpora.uah.es/egpa/xmlfiles/<id>.xml (checked EGPAdoc-0061). Most material is 12th-15th century; only a handful of documents dated 1478-1566 fall within 1450-1700. The counts cover the 5 documents dated within 1450-1700, and 20 documents without a date in the header are not counted. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Open collaborative platform of transcribed Galician-Portuguese archival documents (EGPAdoc) and literary texts (EGPAlit) from the Middle Ages to the 19th century, with paleographic and critical presentation; freely readable without login; per-document TEI at corpora.uah.es/egpa/xmlfiles/<id>.xml (checked EGPAdoc-0061); the public file list at index.php?action=files also includes test files (prueba_*). Most material is 12th-15th century; only a handful of documents dated 1478-1566 fall within 1450-1700. The counts cover the 5 documents dated within 1450-1700, and 20 documents without a date in the header are not counted. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "luther-sermon-ablass-gnade-taylor",
@@ -5479,7 +5498,7 @@
       "title": "Ganjoor (گنجور) — Persian poetry library",
       "url": "https://ganjoor.net",
       "data_url": "https://github.com/ganjoor/ganjoor-data",
-      "data_format": "other",
+      "data_format": "json",
       "institution": "Ganjoor project (independent, volunteer-run)",
       "languages": [
         "Persian"
@@ -5493,7 +5512,7 @@
         "texts": 41
       },
       "count_basis": "rq-retained-rows",
-      "encoding": "html",
+      "encoding": "json",
       "license": "Not stated",
       "license_url": "https://ganjoor.net/about",
       "license_note": "No licence statement on the site (home, About, FAQ, Sources), nor a LICENSE file or licence line in the ganjoor-data GitHub repository; the About page only says most texts come from freely available sources and the FAQ says most modern works are under copyright and cannot be published (checked 2026-10-13).",
@@ -5675,6 +5694,8 @@
       "title": "Grand Tour digital — TEI dataset of early modern travel testimonies (Grand Tour TEI)",
       "url": "https://zenodo.org/records/23055358",
       "doi": "10.5281/zenodo.23055357",
+      "data_url": "https://zenodo.org/records/23055358",
+      "data_format": "tei",
       "institution": "Herzog August Bibliothek Wolfenbüttel",
       "editors": [
         "Maximilian Görmar",
@@ -5708,7 +5729,7 @@
       "document_types": [
         "manuscript"
       ],
-      "notes": "TEI-XML files underlying the digital edition of a corpus of early modern travel testimonies (Reiseselbstzeugnisse). Full text was created with Transkribus HTR plus NER, i.e. project-released corrected machine text, published as an open dataset (CC BY-SA 4.0) on 30 September 2026. The corpus spans the 16th–18th centuries, so only part falls within the catalogue window; the dedicated edition website was not located, so the Zenodo deposit (and the git.hab.de repository it points to) is the stable access point. The counts cover the four travel journals in the deposit, of which three are dated within 1450-1700 (the fourth is dated 1701-1702).\n\nJustification: A brand-new (September 2026) Zenodo deposit of corrected HTR/TEI full text of early modern travel accounts produced by a DFG-funded project (2022–2025, project no. 469982284) at the Herzog August Bibliothek. Found via a Zenodo search for recent early modern TEI editions. Not in the catalogue.\nFound at: https://zenodo.org/records/23055358 Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "TEI-XML files underlying the digital edition of a corpus of early modern travel testimonies (Reiseselbstzeugnisse). Full text was created with Transkribus HTR plus NER, i.e. project-released corrected machine text, published as an open dataset (CC BY-SA 4.0) on 30 September 2026. The corpus spans the 16th–18th centuries, so only part falls within the catalogue window; the edition website is http://selbstzeugnisse.hab.de/edition_grand_tour, and the Zenodo deposit (with the git.hab.de repository it points to) is the stable access point for the TEI files. The counts cover the four travel journals in the deposit, of which three are dated within 1450-1700 (the fourth is dated 1701-1702). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "gutorglyn-welsh",
@@ -5878,7 +5899,7 @@
         "manuscript",
         "print"
       ],
-      "notes": "Correspondence, diaries and papers of the 'intelligencer' Samuel Hartlib (Sheffield University Library MS 61), with full-text transcriptions and facsimiles of over 25,000 folios; the open online edition dates from 2013. The site opens with a short automatic browser check. The plain-text transcriptions are downloadable as hartlib-txt.zip (5,740 files: 5,234 main documents, 442 additional items, 64 pamphlets). Dated documents run from the 1630s to the 1660s (a handful earlier or later); about 1,600 files carry no date but belong to the same papers. The data service also offers a cleaned and lemmatised version (TXT and XML) made by the Alan Turing Institute, and the page images (1.8 GB). Undated files are not counted in the period. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Correspondence, diaries and papers of the 'intelligencer' Samuel Hartlib (Sheffield University Library MS 61), with full-text transcriptions and facsimiles of over 25,000 folios; the open online edition dates from 2013. The site opens with a short automatic browser check. The transcriptions are downloadable as hartlib-txt.zip (5,740 .txt files: 5,234 main documents, 442 additional items, 64 pamphlets); the files are plain text carrying SGML/HTML-like layout and editorial tags (<DOC>, <HEADER>, <BLOCK>, <I>, <EDITOR>, <ADD>, <DEL>), not well-formed XML. Dated documents run from the 1630s to the 1660s (a handful earlier or later); about 1,600 files carry no date but belong to the same papers. The data service also offers a cleaned and lemmatised version (TXT and XML) made by the Alan Turing Institute, and the page images (1.8 GB). Undated files are not counted in the period. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "hearth-tax-digital",
@@ -6062,7 +6083,7 @@
         "manuscript",
         "print"
       ],
-      "notes": "HistCorp is an open platform for historical corpora and tools, distributed via the Swedish CLARIN node. Its Swedish section draws on Fornsvenska textbanken (machine-readable Old and Early Modern Swedish texts 1350-1758), all supplied as plain text. The source site (project2.sol.lu.se/fornsvenska) no longer resolves; the texts are available through the HistCorp Swedish download (Zenodo). The 5.6 M words exceed Fornsvenska's 44 texts and 1.4 M tokens, so the entry includes other HistCorp Swedish corpora; the texts counted here come from this download bundle. Freely available; the licence is CC BY. Related searchable corpora are offered by Språkbanken Text's Korp ('all_hist' mode). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+      "notes": "HistCorp is an open platform for historical corpora and tools, distributed via the Swedish CLARIN node. Its Swedish section draws on Fornsvenska textbanken (machine-readable Old and Early Modern Swedish texts 1350-1758), which HistCorp supplies as plain text (txt and one-token-per-line tok files); the original Fornsvenska textbanken material is published as annotated XML by Språkbanken Text (https://doi.org/10.23695/pyqj-0s75). The source site (project2.sol.lu.se/fornsvenska) no longer resolves; the texts are available through the HistCorp Swedish download (Zenodo). The 5.6 M words exceed Fornsvenska's 44 texts and 1.4 M tokens, so the entry includes other HistCorp Swedish corpora; the texts counted here come from this download bundle. Freely available; the licence is CC BY. Related searchable corpora are offered by Språkbanken Text's Korp ('all_hist' mode). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
       "id": "histoire-des-albigeois",
@@ -7831,6 +7852,11 @@
       "title": "London Lives 1690-1800",
       "url": "https://www.londonlives.org/",
       "doi": "10.15131/shef.data.4797829",
+      "data_url": "https://figshare.shef.ac.uk/articles/dataset/London_Lives_XML_Data/4797829",
+      "data_format": "xml",
+      "data_formats": [
+        "xml"
+      ],
       "institution": "Universities of Hertfordshire and Sheffield (Digital Humanities Institute)",
       "editors": [
         "Tim Hitchcock",
@@ -7851,7 +7877,7 @@
         "texts": 7255
       },
       "count_basis": "rq-retained-rows",
-      "encoding": "html",
+      "encoding": "xml",
       "license": "CC-BY-NC-4.0",
       "license_url": "https://figshare.shef.ac.uk/articles/dataset/London_Lives_XML_Data/4797829",
       "license_note": "The figshare record 'London Lives XML Data' (1624 XML files, DOI 10.15131/shef.data.4797829.v1, 2017) lists the licence CC BY-NC 4.0 (confirmed via the figshare API). The live site is a JavaScript application with no readable legal page; the licence applies to the XML transcriptions, not to the archives' original images.",
@@ -7866,7 +7892,7 @@
         "manuscript",
         "print"
       ],
-      "notes": "Searchable transcriptions of over 240,000 manuscript and printed pages from eight London archives (criminal justice, poor relief, parish, hospital and guild records), with linked datasets, covering 1690 to 1800. The part dating from 1450-1700 is limited to the first decade, 1690-1700; the rest is eighteenth-century. The in-period share was not established. Free, no login. The site is now a JavaScript application (assets rebuilt 2026-05-08). The project's XML transcriptions are downloadable from figshare under CC BY-NC 4.0; the licensing guide permits non-commercial and linguistic analysis but not the training of generative AI. The counts cover the pages dated 1690-1700 in that download (8,778 pages from 144 files). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Searchable transcriptions of over 240,000 manuscript and printed pages from eight London archives (criminal justice, poor relief, parish, hospital and guild records), with linked datasets, covering 1690 to 1800. The part dating from 1450-1700 is limited to the first decade, 1690-1700; the rest is eighteenth-century. The in-period share was not established. Free, no login. The site is now a JavaScript application (assets rebuilt 2026-05-08). The project's XML transcriptions (in its own Plebeian Lives XML schema, not TEI) are downloadable from figshare under CC BY-NC 4.0; the licensing guide permits non-commercial and linguistic analysis but not the training of generative AI. The counts cover the pages dated 1690-1700 in that download (8,778 pages from 144 files). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "machyn-provisioners-chronicle",
@@ -7992,6 +8018,12 @@
       "id": "scudery-artamene-grand-cyrus",
       "title": "Madeleine et Georges de Scudéry: Artamène ou le Grand Cyrus",
       "url": "https://artamene.othone.org/",
+      "data_url": "https://github.com/cschuwey/othone/tree/main/artamene",
+      "data_format": "tei",
+      "data_formats": [
+        "tei",
+        "other"
+      ],
       "institution": "Université de Fribourg (Claude Bourqui, Alexandre Gefen and Barbara Selmeci; original site 2002-2019, Université de Neuchâtel)",
       "editors": [
         "Christophe Schuwey",
@@ -8010,7 +8042,7 @@
         "texts": 10
       },
       "count_basis": "rq-retained-rows",
-      "encoding": "html",
+      "encoding": "tei",
       "license": "Not stated",
       "license_note": "No licence on the site (home, 'Edition' page, footer), in the TEI header of cyrus1.xml (publicationStmt gives only 'Projet Cyrus', Neuchatel), in the GitHub repository cschuwey/othone (artamene/cyrus*.xml; no LICENSE or README) or in the PDFs (checked 2026-10-13). Note: the TEI files are in github.com/cschuwey/othone/tree/main/artamene, and the new edition was designed by Christophe Schuwey (Universite Bretagne Sud) with Claude Bourqui.",
       "status": "active",
@@ -8025,7 +8057,7 @@
       "document_types": [
         "print"
       ],
-      "notes": "Complete text of the novel in diplomatic reproduction (edition of Paris, Courbé, 1656), divided into sequences and episodes with summaries, pop-up notes on characters and places, and the engravings of the 1654 edition. Each of the ten parts can be downloaded as a PDF (https://artamene.othone.org/pdfs/cyrus1.pdf to cyrus10.pdf); the site also gives a full-text search through the ARTFL PhiloLogic server and says TEI files are on the project's GitHub, but no repository could be found. The PDFs were last modified on 6 March 2024. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Complete text of the novel in diplomatic reproduction (edition of Paris, Courbé, 1656), divided into sequences and episodes with summaries, pop-up notes on characters and places, and the engravings of the 1654 edition. Each of the ten parts can be downloaded as a PDF (https://artamene.othone.org/pdfs/cyrus1.pdf to cyrus10.pdf); the site also gives a full-text search through the ARTFL PhiloLogic server and offers TEI files (TEI P4, one per part plus a complete cyrus.xml) in the Othone project's GitHub repository (github.com/cschuwey/othone, folder artamene). The PDFs were last modified on 6 March 2024. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "mek",
@@ -9140,6 +9172,10 @@
       "doi": "10.5281/zenodo.18931375",
       "data_url": "https://github.com/hispanicseminary/OSTA",
       "data_format": "plain-text",
+      "data_formats": [
+        "plain-text",
+        "html"
+      ],
       "institution": "Hispanic Seminary of Medieval Studies (HSMS); Francisco Gago Jover (College of the Holy Cross) & F. Javier Pueyo Mena",
       "editors": [
         "Francisco Gago Jover",
@@ -9497,6 +9533,14 @@
       "title": "Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636 (annotated digital edition)",
       "url": "https://hainhofer.hab.de/",
       "doi": "10.11588/data/DVU14P",
+      "data_url": "https://doi.org/10.11588/DATA/DVU14P",
+      "data_format": "tei",
+      "data_formats": [
+        "tei",
+        "html",
+        "plain-text",
+        "other"
+      ],
       "institution": "Herzog August Bibliothek Wolfenbüttel (DFG long-term project; research data archived at arthistoricum.net@heiDATA, Universität Heidelberg)",
       "editors": [
         "Martin de la Iglesia",
@@ -11700,6 +11744,12 @@
       "id": "svea-pommern",
       "title": "SVEA-Pommern: Maps and texts of the Swedish land survey of Pomerania north of the Peene (1692-1709)",
       "url": "https://svea.geo.uni-greifswald.de/svea/",
+      "data_url": "https://svea.geo.uni-greifswald.de/svea/files/xhtml-edition/auswahl.html",
+      "data_format": "tei",
+      "data_formats": [
+        "tei",
+        "html"
+      ],
       "institution": "Universität Greifswald (Geographisches Institut) with the Landesarchiv Greifswald and Universität Rostock (Stefan Kroll)",
       "languages": [
         "Swedish"
@@ -11727,7 +11777,7 @@
       "document_types": [
         "manuscript"
       ],
-      "notes": "Edition of the Swedish land survey (Landesaufnahme) of Pomerania north of the river Peene, the first cadastre of its kind in Germany: descriptions of villages and estates in older Swedish, with a transcription (HTML) and German translation (HTML and XML) for each of 255 places, a web map and indexes. The main survey is dated 1692-1698 (our check: 1694, 1696 and 1697 are the usual dates); a revision of 1704-1709 is transcribed in the same pages, so part of each text falls after 1700. Most pages give both the original fair copy and the draft. The project is described as finished and the site was last edited on 3 March 2025. The Greifswald and Rostock copyright notice allows research, teaching and private use. The counts cover the transcription pages, and because the revision of 1704-1709 sits in the same pages, part of the words fall after 1700. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+      "notes": "Edition of the Swedish land survey (Landesaufnahme) of Pomerania north of the river Peene, the first cadastre of its kind in Germany: descriptions of villages and estates in older Swedish, with a transcription (HTML only) and a German translation (HTML and TEI P5 XML) for each of 255 places; the TEI files cover the German translations only, not the Swedish transcriptions that we count, a web map and indexes. The main survey is dated 1692-1698 (our check: 1694, 1696 and 1697 are the usual dates); a revision of 1704-1709 is transcribed in the same pages, so part of each text falls after 1700. Most pages give both the original fair copy and the draft. The project is described as finished and the site was last edited on 3 March 2025. The Greifswald and Rostock copyright notice allows research, teaching and private use. The counts cover the transcription pages, and because the revision of 1704-1709 sits in the same pages, part of the words fall after 1700. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
     },
     {
       "id": "cornish-gwreansanbys",
