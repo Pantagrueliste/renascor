@@ -10,14 +10,14 @@
     "manuscript",
     "print"
   ],
-  "encoding": "plain-text",
+  "encoding": "other",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 152215,
   "texts": 5,
   "period": "1520-1646",
-  "notes": "CLARIN:EL resource 'Resources of early modern Greek (16th-17th century)', a set of TEI-compliant XML editions of notarial deeds (Alexakis, Olokalos) and literary and deed editions (Kapianos, Visvizis, Montselese's Evgena, 1646). It is distinct from the CLARIN:EL record of 16th-century notarial deeds (inventory.clarin.gr/corpus/902), which is not what is counted here. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "CLARIN:EL resource 'Resources of early modern Greek (16th-17th century)', a set of editions of notarial deeds (Alexakis, Olokalos) and literary and deed editions (Kapianos, Visvizis, Montselese's Evgena, 1646), distributed as MS Word .doc files. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "University of the Aegean / Greek Language Centre / ILSP 'Athena' (CLARIN:EL infrastructure)",
   "corpus_statistics": {
     "snapshot": "v2026.10",

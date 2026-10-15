@@ -1,6 +1,13 @@
 {
   "title": "Die sozinianischen Briefwechsel: Zwischen Theologie, frühmoderner Naturwissenschaft und politischer Korrespondenz",
   "url": "https://sozinianer.mni.thm.de/",
+  "data_url": "https://gitlab.rlp.net/adwmainz/digicademy/sbw/csv-data-dump/-/tree/main/data/xml/letters",
+  "data_format": "tei",
+  "data_formats": [
+    "tei",
+    "json",
+    "other"
+  ],
   "languages": [
     "Latin",
     "French",
@@ -13,7 +20,7 @@
     "manuscript",
     "print"
   ],
-  "encoding": "json",
+  "encoding": "tei",
   "status": "active",
   "institution": "Technische Hochschule Mittelhessen (THM); DFG project 324518514",
   "words": 1356281,
@@ -31,7 +38,7 @@
   "license": "CC-BY-4.0",
   "license_url": "https://creativecommons.org/licenses/by/4.0/",
   "license_note": "The site's data records name CC BY 4.0 for 2,123 text versions and CC BY-SA 3.0 for 136 printed versions.",
-  "notes": "Letters of and to Socinian (anti-Trinitarian) scholars, including Fausto and Lelio Sozzini, Martin Ruar, Stanislaw Lubieniecki and Samuel Crell; the site holds 2,205 dated letters from 1545 to 1744 and 2,159 of them are dated 1700 or earlier. Each letter has one or more text versions (printed edition, copy, final copy, draft or autograph manuscript). The text is stored as standoff markup in a public GraphQL service rather than as downloadable files. The site was last deployed on 15 January 2026. The counts are per text version, so a letter with several versions is counted more than once, and letters without a transcription or a date are not included. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Letters of and to Socinian (anti-Trinitarian) scholars, including Fausto and Lelio Sozzini, Martin Ruar, Stanislaw Lubieniecki and Samuel Crell; the site holds 2,205 dated letters from 1545 to 1744 and 2,159 of them are dated 1700 or earlier. Each letter has one or more text versions (printed edition, copy, final copy, draft or autograph manuscript). The letters are published as TEI P5 XML files (one teiCorpus per letter with its attachments and witnesses, with standOff registers) in the project's GitLab data repository; the website itself serves the text through a public GraphQL service with standoff markup, and our counts were harvested from that service. The site was last deployed on 15 January 2026. The counts are per text version, so a letter with several versions is counted more than once, and letters without a transcription or a date are not included. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {

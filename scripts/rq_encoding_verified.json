@@ -62,7 +62,7 @@
       "encoding": "html",
       "public_files": "none",
       "data_url": "https://knihi.com/Francysk_Skaryna/",
-      "basis": "knihi.com (Belaruskaja Palička) publishes the Skaryna texts as HTML pages, with per-text EPUB downloads and PDF/DjVu scans. No XML, TEI or source files are offered. The other RQ source, be.wikisource, holds the Harecki 1922 excerpts as wikitext, which ranks below HTML.",
+      "basis": "knihi.com (Belaruskaja Palička) publishes the Skaryna texts as HTML pages, with per-text EPUB downloads and PDF/DjVu scans. No XML, TEI or source files are offered. The other RQ source, be.wikisource, holds the Harecki 1922 excerpts as wikitext, which ranks below HTML. The catalogue now records html as the data format, with other for the EPUB, PDF and DjVu files; re-checked 2026-10-15.",
       "confidence": "high"
     },
     "bertonio-aymara": {
@@ -290,10 +290,10 @@
       "confidence": "high"
     },
     "diacu-bulgarian": {
-      "encoding": "other",
+      "encoding": "json",
       "public_files": "none",
       "data_url": "https://github.com/MariaCassese/DIACU/tree/main/data",
-      "basis": "DIACU publishes a single JSON file (data/DIACU_1.0.json, 652 documents) whose 'Content' fields hold plain text; it has no XML. Under the brief's rule (JSON -> other when nothing better is published), the result is 'other'. The upstream Histdict corpus models the texts in TEI-style structures, but its XML export is login-only.",
+      "basis": "DIACU publishes a single JSON file (data/DIACU_1.0.json, 652 documents) whose 'Content' fields hold plain text; it has no XML. The upstream Histdict corpus models the texts in TEI-style structures, but its XML export is login-only. Re-checked 2026-10-15: the repository holds only data/DIACU_1.0.json (22.8 MB), and the schema has a json category ranked above html, so the encoding is json, not other.",
       "confidence": "high"
     },
     "diakorp-czech": {
@@ -395,10 +395,10 @@
       "confidence": "high"
     },
     "earlymoderngreek-clarinel": {
-      "encoding": "plain-text",
+      "encoding": "other",
       "public_files": "none",
       "data_url": "https://hdl.handle.net/11500/CLARIN-EL-0000-0000-6A00-9",
-      "basis": "No TEI or XML exists for any part of this cluster. The 5 harvested texts come from CLARIN:EL resource 1210, whose only distribution is Sources.zip of MS Word .doc files (data_format omtd-share DocumentFormat; local copies are Composite Document File V2). The sibling corpus 902 behind the entry's handle documents UTF-8 plain 'Text' (8 files) but is a metadata-only record. Plain text is therefore the richest documented format, and Word is the only downloadable one.",
+      "basis": "No TEI or XML exists for any part of this cluster. The 5 harvested texts come from CLARIN:EL resource 1210, whose only distribution is Sources.zip of MS Word .doc files (data_format omtd-share DocumentFormat; local copies are Composite Document File V2). The sibling corpus 902 behind the entry's handle documents UTF-8 plain 'Text' (8 files) but is a metadata-only record. Word is the only downloadable format. Re-checked 2026-10-15: Word .doc is not plain text, so the encoding and data format are other; the handle resolves to resource 1210 (inventory.clarin.gr/corpus/1210), not 902.",
       "confidence": "medium"
     },
     "ebba": {
@@ -584,10 +584,10 @@
       "confidence": "high"
     },
     "ganjoorpersian": {
-      "encoding": "html",
+      "encoding": "json",
       "public_files": "none",
       "data_url": "https://github.com/ganjoor/ganjoor-data",
-      "basis": "Ganjoor publishes its texts as HTML pages, with verses in div.b/m1/m2. Its machine-readable outputs are SQLite (desktop releases), JSON (ganjoor-data), EPUB and a desktop plain-text export. No TEI or XML of the texts exists (FAQ id=11; the 67 repos of the ganjoor org), so HTML is the richest published format. RQ's plain text was derived from the SQLite DB.",
+      "basis": "Ganjoor publishes its texts as HTML pages, with verses in div.b/m1/m2. Its machine-readable outputs are SQLite (desktop releases), JSON (ganjoor-data), EPUB and a desktop plain-text export. No TEI or XML of the texts exists (FAQ id=11; the 67 repos of the ganjoor org), so HTML was the richest published format until the JSON repository appeared. RQ's plain text was derived from the SQLite DB. Re-checked 2026-10-15: ganjoor-data on GitHub now holds the full poem texts as per-poem JSON (manifest.json: 240 poets, 135,399 poems), so the data format is json.",
       "confidence": "high"
     },
     "gemi-midwifery": {
@@ -651,7 +651,7 @@
       "encoding": "plain-text",
       "public_files": "none",
       "data_url": "https://zenodo.org/records/10017247",
-      "basis": "HistCorp distributes its Swedish Fornsvenska and Konsistoriet subcorpora only as plain text ('txt', with a '#'-prefixed metadata header) and one-token-per-line 'tok' files. Its readmes say so, the HistCorp table shows no Anno/XML for these rows, and the Zenodo zip previews contain only .txt.",
+      "basis": "HistCorp distributes its Swedish Fornsvenska and Konsistoriet subcorpora only as plain text ('txt', with a '#'-prefixed metadata header) and one-token-per-line 'tok' files. Its readmes say so, the HistCorp table shows no Anno/XML for these rows, and the Zenodo zip previews contain only .txt. Re-checked 2026-10-15: the Zenodo bundle holds only txt and tok files for these subcorpora (its XML is lexicon data); the annotated XML of the original Fornsvenska textbanken is published separately by Språkbanken Text (doi 10.23695/pyqj-0s75).",
       "confidence": "high"
     },
     "huarochiri-quechua-full": {
@@ -875,7 +875,7 @@
       "encoding": "html",
       "public_files": "none",
       "data_url": "https://github.com/hispanicseminary/OSTA",
-      "basis": "Beyond its 670 plain-text semi-paleographic transcriptions (.txt with HSMS mnemonics), the project repo publishes verticalized/: 77 lemmatized, PoS-tagged texts that the README calls 'XML/HTML format'. These are HTML documents (<!DOCTYPE html><HTML><HEAD>) with custom tags (<w data1='token•lemma•PoS'>, <LN>, <FOL>, <RMK>, <ABB>) and they fail XML parsing. HTML therefore outranks plain text; no TEI or XML exists.",
+      "basis": "Beyond its 670 plain-text semi-paleographic transcriptions (.txt with HSMS mnemonics), the project repo publishes verticalized/: 77 lemmatized, PoS-tagged texts that the README calls 'XML/HTML format'. These are HTML documents (<!DOCTYPE html><HTML><HEAD>) with custom tags (<w data1='token•lemma•PoS'>, <LN>, <FOL>, <RMK>, <ABB>) and they fail XML parsing. HTML therefore outranks plain text; no TEI or XML exists. Re-checked 2026-10-15: data_formats now lists plain-text and html; no TEI or XML.",
       "confidence": "medium"
     },
     "otomi-mission": {
@@ -1273,6 +1273,118 @@
       "data_url": null,
       "basis": "Zlatý fond denníka SME published its texts as DocBook XML, which is not TEI. Archived files served by zlatyfond.sme.sk carry <!DOCTYPE book PUBLIC \"-//OASIS//DTD DocBook XML V4.2//EN\"> (2007) or V4.5 (2011, /download/xml), with root <book lang=\"sk\">. The March 2010 Cithara sanctorum Díl 1 page offered an 'xml' download for this exact work, labelled 'Súbor formátu Docbook'. The catalogue's plain-text is RQ's own JSONL derivation from Wayback HTML pages. Today the project serves HTML only.",
       "confidence": "high"
+    },
+    "apw-acta-pacis-westphalicae": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "The publisher's per-document files are TEI div fragments in the TEI namespace (lb, hi, orig, w with @lemma, choice/expan/abbr, placeName, pb), not HTML; no bulk file is offered. Re-checked 2026-10-15.",
+      "confidence": "high"
+    },
+    "balkan-slavic-digital-editions": {
+      "encoding": "json",
+      "public_files": "none",
+      "data_url": "https://www.punco.slavistik.lmu.de/lt_data.json",
+      "basis": "The search engine loads its corpus from public token-level JSON files (lt_data.json, petka_data.json, sva_data.json), which are not advertised as downloads; the CSV and CoNLL-U exports are per-search results. Re-checked 2026-10-15.",
+      "confidence": "medium"
+    },
+    "charta-corpus": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": "https://corpora.uah.es/charta/index.php?action=files",
+      "basis": "Per-document TEI XML files (TEI root with teiHeader) are listed publicly at index.php?action=files and downloaded one by one; there is no bulk archive. Re-checked 2026-10-15.",
+      "confidence": "high"
+    },
+    "cordiam": {
+      "encoding": "other",
+      "public_files": "none",
+      "data_url": null,
+      "basis": "Full documents are only offered as per-document PDF files (corpus/<id>.pdf); the HTML interface shows snippets and concordances, not full texts, and no TEI is offered. Re-checked 2026-10-15.",
+      "confidence": "medium"
+    },
+    "dasypodius-dictionarium-latinogermanicum": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": "http://diglib.hab.de/edoc/ed000008/mets.xml",
+      "basis": "The publisher's files are five TEI P5 transcripts plus a TEI introduction, listed in the METS manifest mets.xml (200); the bare directory URL is 404. Re-checked 2026-10-15.",
+      "confidence": "high"
+    },
+    "digital-scholarly-edition-of-angelo-poliziano-s-marginal-notes-to-the-epistle-of-sappho-to-phaon": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": "https://github.com/AndreaLaVeglia/Postille_Poliziano_Sappho_EVT/blob/main/DigitalEditionEVT/data/text/AnnotationesPolitianiInSappho.xml",
+      "basis": "The GitHub repository holds the TEI file DigitalEditionEVT/data/text/AnnotationesPolitianiInSappho.xml (TEI root, tei-c.org namespace). Re-checked 2026-10-15.",
+      "confidence": "high"
+    },
+    "dio": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": "https://epigraf.inschriften.net/pages/dumps",
+      "basis": "The Epigraf dumps page offers EpiDoc (TEI) zips for DI 7, DI 77 and DI 102, the volumes counted here; the portal itself is behind a bot check. Re-checked 2026-10-15.",
+      "confidence": "high"
+    },
+    "egpa": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": "https://corpora.uah.es/egpa/index.php?action=files",
+      "basis": "Per-document TEITOK XML files (TEI root, teiHeader) are listed publicly at index.php?action=files; the xmlfiles/ directory itself is 403. Re-checked 2026-10-15.",
+      "confidence": "high"
+    },
+    "grand-tour-digital-tei-dataset-of-early-modern-travel-testimonies-grand-tour-tei": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": "https://zenodo.org/records/23055358",
+      "basis": "The Zenodo record 23055358 holds one zip, grand-tour-tei.zip, with the TEI XML files (CC-BY-SA-4.0). Re-checked 2026-10-15.",
+      "confidence": "high"
+    },
+    "hartlib-papers": {
+      "encoding": "plain-text",
+      "public_files": "none",
+      "data_url": "https://www.dhi.ac.uk/data/hartlib",
+      "basis": "hartlib-txt.zip holds 5,740 .txt files carrying SGML/HTML-like tags (<DOC>, <HEADER>, <BLOCK>, <ADD>, <DEL>) with unclosed tags, so they are plain text and not well-formed XML; the XML in data_formats comes from the Turing derivative. Re-checked 2026-10-15.",
+      "confidence": "high"
+    },
+    "london-lives-1690-1800": {
+      "encoding": "xml",
+      "public_files": "none",
+      "data_url": "https://figshare.shef.ac.uk/articles/dataset/London_Lives_XML_Data/4797829",
+      "basis": "The figshare dataset London Lives XML Data (LL_XML_1-1.zip, about 1,625 XML files) uses the project's own Plebeian Lives DTD, not TEI; the website is a JavaScript application with no downloadable HTML. Re-checked 2026-10-15.",
+      "confidence": "high"
+    },
+    "nachlassinventar-ferdinand-ii-1596": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://repository.khm.at/viewer/api/v1/records/92663/plaintext",
+      "basis": "The plaintext endpoint serves HTML fragments (<p>, <span style>), and the viewer's TEI export is a wrapper around the same HTML with a bare teiHeader, so html is the published format. Re-checked 2026-10-15.",
+      "confidence": "high"
+    },
+    "philipp-hainhofer-reiseberichte-sammlungsbeschreibungen-1594-1636-annotated-digital-edition": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": "https://doi.org/10.11588/DATA/DVU14P",
+      "basis": "The heiDATA dataset (doi 10.11588/DATA/DVU14P) lists 17 XML files, of which the 16 journey files have a TEI root, plus XHTML, TXT and PDF renditions. Re-checked 2026-10-15.",
+      "confidence": "high"
+    },
+    "scudery-artamene-grand-cyrus": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": "https://github.com/cschuwey/othone/tree/main/artamene",
+      "basis": "The Othone GitHub repository (cschuwey/othone, folder artamene) holds TEI P4 files (cyrus1.xml to cyrus10.xml and cyrus.xml); the site also offers per-part PDFs. Re-checked 2026-10-15.",
+      "confidence": "high"
+    },
+    "sozinianische-briefwechsel": {
+      "encoding": "tei",
+      "public_files": "none",
+      "data_url": "https://gitlab.rlp.net/adwmainz/digicademy/sbw/csv-data-dump/-/tree/main/data/xml/letters",
+      "basis": "The site's Download page and the GitLab data repository (data/xml/letters) publish the letters as TEI P5 XML; the GraphQL service is only the website's own interface. Re-checked 2026-10-15.",
+      "confidence": "medium"
+    },
+    "svea-pommern": {
+      "encoding": "html",
+      "public_files": "none",
+      "data_url": "https://svea.geo.uni-greifswald.de/svea/files/xhtml-edition/auswahl.html",
+      "basis": "The counted Swedish transcriptions are published as HTML only; TEI P5 XML exists only for the German translations (uebers/*.xml), so the encoding stays html while data_format is tei. Re-checked 2026-10-15.",
+      "confidence": "medium"
     }
   }
 }

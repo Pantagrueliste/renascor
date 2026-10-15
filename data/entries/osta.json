@@ -3,6 +3,10 @@
   "url": "https://osta.oldspanishtextualarchive.org/",
   "data_url": "https://github.com/hispanicseminary/OSTA",
   "data_format": "plain-text",
+  "data_formats": [
+    "plain-text",
+    "html"
+  ],
   "languages": [
     "Aragonese",
     "Latin",

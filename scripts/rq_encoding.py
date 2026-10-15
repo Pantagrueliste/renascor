@@ -71,7 +71,7 @@ TEI_VERIFIED = [
     "cavriana-correspondence", "cidtc", "codiaje-judeospanish", "corpus17-french",
     "devonshire-manuscript", "dibilit-german", "dibiphil-renaissance",
     "disco-spanishsonnets", "dracor", "dsl-henriksmith", "dsl-salmer",
-    "earlymoderngreek-clarinel", "eebo-text-creation-partnership", "elan-crenum",
+    "eebo-text-creation-partnership", "elan-crenum",
     "elan-fnvr", "elan-polygrenaille", "emmo-folger", "ethicacomplementoria",
     "fabulasmitologicas", "fallofconstantinople-arranz", "freem",
     "fuerstinnenkorrespondenz", "gemi-midwifery", "germanc", "gongora-soledades",

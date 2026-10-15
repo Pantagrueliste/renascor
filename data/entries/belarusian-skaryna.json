@@ -2,7 +2,11 @@
   "title": "Belarusian Skaryna",
   "url": "https://knihi.com/Francysk_Skaryna",
   "data_url": "https://knihi.com/Francysk_Skaryna/",
-  "data_format": "other",
+  "data_format": "html",
+  "data_formats": [
+    "html",
+    "other"
+  ],
   "languages": [
     "Belarusian"
   ],

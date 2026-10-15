@@ -1,7 +1,7 @@
 {
   "title": "Digitale Edition und Kommentierung der Tagebücher des Fürsten Christian II. von Anhalt-Bernburg (1599-1656)",
   "url": "http://diglib.hab.de/edoc/ed000228/start.htm",
-  "data_url": "http://diglib.hab.de/edoc/ed000228/",
+  "data_url": "http://diglib.hab.de/edoc/ed000228/mets.xml",
   "data_format": "tei",
   "languages": [
     "German",

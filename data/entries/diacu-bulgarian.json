@@ -2,7 +2,7 @@
   "title": "DIACU — A dataset for the DIAchronic analysis of Church Slavonic",
   "url": "https://github.com/MariaCassese/DIACU",
   "data_url": "https://github.com/MariaCassese/DIACU/tree/main/data",
-  "data_format": "other",
+  "data_format": "json",
   "languages": [
     "Bulgarian"
   ],
@@ -10,14 +10,14 @@
     "manuscript",
     "print"
   ],
-  "encoding": "other",
+  "encoding": "json",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
   "words": 221171,
   "texts": 24,
   "period": "1450-1650",
-  "notes": "DIACU v1.0 (GitHub repo live 200, description 'A dataset for the DIAchronic analysis of Church Slavonic, version 1.0') aggregates documents from Old Church Slavonic to Ruthenian, including 15th-century Bulgarian manuscripts distributed by Sofia University's historical dictionary / Cyrillomethodiana collections, matching the Late-15th-c. Bulgarian homilies of the collection (Homilia Domini nostri Iesu Christi de quid et quo..., Vita Hilarionis Moglen...). 3 texts retained. No explicit licence in repo metadata. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "DIACU v1.0 (GitHub repo live 200, description 'A dataset for the DIAchronic analysis of Church Slavonic, version 1.0') aggregates documents from Old Church Slavonic to Ruthenian, including 15th-century Bulgarian manuscripts distributed by Sofia University's historical dictionary / Cyrillomethodiana collections, matching the Late-15th-c. Bulgarian homilies of the collection (Homilia Domini nostri Iesu Christi de quid et quo..., Vita Hilarionis Moglen...). 3 texts retained. The data are distributed as a single JSON file (data/DIACU_1.0.json, about 22.8 MB, 652 documents), whose Content fields hold plain text. No explicit licence in repo metadata. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Maria Cassese et al. (GitHub repo aggregating Sofia University historical-dictionary / Cyrillomethodiana texts)",
   "last_modified": "2025-06-12",
   "corpus_statistics": {

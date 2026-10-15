@@ -1,6 +1,12 @@
 {
   "title": "SVEA-Pommern: Maps and texts of the Swedish land survey of Pomerania north of the Peene (1692-1709)",
   "url": "https://svea.geo.uni-greifswald.de/svea/",
+  "data_url": "https://svea.geo.uni-greifswald.de/svea/files/xhtml-edition/auswahl.html",
+  "data_format": "tei",
+  "data_formats": [
+    "tei",
+    "html"
+  ],
   "languages": [
     "Swedish"
   ],
@@ -19,7 +25,7 @@
   "period": "1692-1709",
   "license": "Custom terms",
   "license_url": "https://svea.geo.uni-greifswald.de/svea/files/xhtml-edition/hinweise.html",
-  "notes": "Edition of the Swedish land survey (Landesaufnahme) of Pomerania north of the river Peene, the first cadastre of its kind in Germany: descriptions of villages and estates in older Swedish, with a transcription (HTML) and German translation (HTML and XML) for each of 255 places, a web map and indexes. The main survey is dated 1692-1698 (our check: 1694, 1696 and 1697 are the usual dates); a revision of 1704-1709 is transcribed in the same pages, so part of each text falls after 1700. Most pages give both the original fair copy and the draft. The project is described as finished and the site was last edited on 3 March 2025. The Greifswald and Rostock copyright notice allows research, teaching and private use. The counts cover the transcription pages, and because the revision of 1704-1709 sits in the same pages, part of the words fall after 1700. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Edition of the Swedish land survey (Landesaufnahme) of Pomerania north of the river Peene, the first cadastre of its kind in Germany: descriptions of villages and estates in older Swedish, with a transcription (HTML only) and a German translation (HTML and TEI P5 XML) for each of 255 places; the TEI files cover the German translations only, not the Swedish transcriptions that we count, a web map and indexes. The main survey is dated 1692-1698 (our check: 1694, 1696 and 1697 are the usual dates); a revision of 1704-1709 is transcribed in the same pages, so part of each text falls after 1700. Most pages give both the original fair copy and the draft. The project is described as finished and the site was last edited on 3 March 2025. The Greifswald and Rostock copyright notice allows research, teaching and private use. The counts cover the transcription pages, and because the revision of 1704-1709 sits in the same pages, part of the words fall after 1700. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "words": 288551,

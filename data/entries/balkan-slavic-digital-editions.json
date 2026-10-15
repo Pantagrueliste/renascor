@@ -1,6 +1,8 @@
 {
   "title": "Balkan Slavic Digital Editions (Pop Punčov Sbornik, Life of St. Petka, Tale of Alexander, Excerpts)",
   "url": "https://www.punco.slavistik.lmu.de/",
+  "data_url": "https://www.punco.slavistik.lmu.de/lt_data.json",
+  "data_format": "json",
   "languages": [
     "Church Slavonic",
     "Bulgarian"
@@ -9,7 +11,7 @@
     "manuscript",
     "print"
   ],
-  "encoding": "html",
+  "encoding": "json",
   "status": "active",
   "institution": "University of Zurich, Institute of Slavic Studies (SNSF project 176378, Barbara Sonnenhauser) and Czech Academy of Sciences; hosted at LMU Munich (Ivan Šimko, Anastasia Escher)",
   "editors": [
@@ -27,7 +29,7 @@
   "period": "10th-19th century (sources of 1450-1700 among them)",
   "license": "CC-BY-SA-4.0",
   "license_url": "https://www.punco.slavistik.lmu.de/petka-about.html",
-  "notes": "Corpus of Balkan Slavic texts from the 10th to the 19th century collected for the study of linguistic change: Pop Punčo's Sbornik (1796), the Life of St. Petka in many copies, the Tale of Alexander the Elder, and an Excerpts sub-corpus. Texts come with English translations, morphological and syntactic annotation, search and facsimiles. Sources within 1450-1700 include Vuković's Zbornik za putnike (printed 1536), the Joseph-Volokolamsk manuscript of 1537, the Tikhonravov damaskin and other 17th-century damaskini, Šimun Kozičić (1530s), and Letters of Wallachian princes. Texts are read in the web interface; no bulk download was found. Status active: the home page was modified in July 2026 and the Excerpts page in February 2026. The counts cover the 13 texts dated within 1450-1700, leaving out the Sbornik (1796), and several dates are approximate (century midpoints or decades). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Corpus of Balkan Slavic texts from the 10th to the 19th century collected for the study of linguistic change: Pop Punčo's Sbornik (1796), the Life of St. Petka in many copies, the Tale of Alexander the Elder, and an Excerpts sub-corpus. Texts come with English translations, morphological and syntactic annotation, search and facsimiles. Sources within 1450-1700 include Vuković's Zbornik za putnike (printed 1536), the Joseph-Volokolamsk manuscript of 1537, the Tikhonravov damaskin and other 17th-century damaskini, Šimun Kozičić (1530s), and Letters of Wallachian princes. Texts are read in the web interface. The search engine loads its corpus from public token-level JSON files with diplomatic form, lemma, MULTEXT-East tags and Universal Dependencies relations (lt_data.json for the Excerpts texts, petka_data.json for the Life of St. Petka, sva_data.json for the Tale of Alexander, data_1.json and data_2.json for Pop Punčo's Sbornik of 1796). These files are not advertised as downloads. Search results can be exported as CSV or CoNLL-U. The 23 Damaskini texts are also deposited at CLARIN.SI (11356/1441). Status active: the home page was modified in July 2026 and the Excerpts page in February 2026. The counts cover the 13 texts dated within 1450-1700, leaving out the Sbornik (1796), and several dates are approximate (century midpoints or decades). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "words": 24058,

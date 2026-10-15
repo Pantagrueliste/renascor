@@ -2,14 +2,14 @@
   "title": "Ganjoor (گنجور) — Persian poetry library",
   "url": "https://ganjoor.net",
   "data_url": "https://github.com/ganjoor/ganjoor-data",
-  "data_format": "other",
+  "data_format": "json",
   "languages": [
     "Persian"
   ],
   "document_types": [
     "manuscript"
   ],
-  "encoding": "html",
+  "encoding": "json",
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
