@@ -18,10 +18,6 @@ const ENC = {
 	other: ['Other', 'Another format, such as TSV, CoNLL-U or PDF.']
 };
 const ENC_ORDER = Object.keys(ENC);
-const FILE_LABEL = {
-	tei: 'TEI XML files', xml: 'Other XML files', json: 'JSON files', html: 'HTML files', wikitext: 'Wikitext files',
-	'plain-text': 'Plain-text files', markdown: 'Markdown files', other: 'Other files', none: 'No files recorded'
-};
 const STATUS = {
 	active: ['Active', 'Online and maintained.'],
 	archived: ['Archived', 'Still online, but no longer maintained.'],
@@ -36,11 +32,11 @@ const SIZE_LABEL = Object.fromEntries(SIZES);
 const firstDir = key => (key === 'words' || key === 'texts' ? 'desc' : 'asc');
 const TYPE = { manuscript: 'Manuscripts', print: 'Printed works', inscription: 'Inscriptions', none: 'Type not recorded' };
 const TYPE_ORDER = Object.keys(TYPE);
-const LIST_KEYS = ['lang', 'type', 'encoding', 'status', 'size', 'files'];
-const FACET_LABEL = { lang: 'Language', type: 'Type', encoding: 'Encoding', status: 'Status', size: 'Size', files: 'Files', period: 'Period' };
+const LIST_KEYS = ['lang', 'type', 'encoding', 'status', 'size'];
+const FACET_LABEL = { lang: 'Language', type: 'Type', encoding: 'Encoding', status: 'Status', size: 'Size', period: 'Period' };
 const FACET_VALUES = {
 	lang: r => r.labels, encoding: r => [r.e.encoding], status: r => [r.e.status], size: r => [r.d.size_band || 'none'],
-	files: r => r.fileKeys, type: r => r.types
+	type: r => r.types
 };
 const DECADES = Array.from({ length: NBINS }, (_, i) => MIN + 10 * i);
 const binEnd = i => (i === NBINS - 1 ? MAX : DECADES[i] + 9);
@@ -50,7 +46,7 @@ const VIEW_KEY = 'renascor.view';
 const state = { q: '', from: MIN, to: MAX, sort: 'title-asc', view: 'table' };
 let meta = {}, records = [], shown = [], terms = [], PSEUDO = new Set(), facetOpts = {};
 const byId = Object.create(null), open = new Set();
-let langExpanded = false, hasFiles = false, ready = false;
+let langExpanded = false, ready = false;
 let decadeScale = 1, lastCounts = new Array(NBINS).fill(0), wordsSorted = [], totalWords = 0;
 
 const nf = new Intl.NumberFormat('en');
@@ -142,7 +138,6 @@ function init(data) {
 	PSEUDO = new Set(stats.pseudo_languages || []);
 	records = (data.entries || []).map((e, i) => buildRecord(e, derived[i] || {}, i));
 	records.forEach(r => { byId[r.id] = r; });
-	hasFiles = records.some(r => r.e.data_url);
 	decadeScale = Math.max(1, ...(meta.timeline && meta.timeline.decade_words || []));
 	wordsSorted = records.map(r => r.e.words).filter(hasNum).sort((a, b) => a - b);
 	totalWords = wordsSorted.reduce((a, b) => a + b, 0);
@@ -170,8 +165,7 @@ function buildRecord(e, d, i) {
 	const r = {
 		id, e, d, labels, real: real.length ? real : labels.slice(), countries: codes, countryNames, areas,
 		types: Array.isArray(e.document_types) && e.document_types.length ? e.document_types : ['none'],
-		p: d.period && hasNum(d.period.start) && hasNum(d.period.end) ? d.period : null,
-		fileKeys: e.data_url ? dataFormats(e).map(f => has(ENC, f) ? f : 'other') : ['none']
+		p: d.period && hasNum(d.period.start) && hasNum(d.period.end) ? d.period : null
 	};
 	r.hay = fold([e.title, e.institution, (e.editors || []).join(' '), labels.join(' '), r.types.filter(t => t !== 'none').map(t => TYPE[t]).join(' '), d.notes_display, e.region, countryNames.join(' '), areas.join(' '),
 		e.author, e.date, e.doi, d.period && d.period.label, e.period, encLabel(e.encoding), e.encoding,
@@ -204,10 +198,6 @@ function buildFacets() {
 	html += facetHTML('encoding', 'Encoding', optList('encoding', ENC_ORDER.filter(k => present(k, r => r.e.encoding)), k => ENC[k][0]));
 	html += facetHTML('status', 'Status', optList('status', STATUS_ORDER, k => `<span class="st ${k}">${STATUS[k][0]}</span>`));
 	html += facetHTML('size', 'Size', optList('size', SIZES.map(s => s[0]).filter(k => present(k, r => r.d.size_band || 'none')), k => SIZE_LABEL[k]));
-	if (hasFiles) {
-		html += facetHTML('files', 'Files', optList('files', ENC_ORDER.concat('none').filter(k => records.some(r => r.fileKeys.includes(k))), k => FILE_LABEL[k]),
-			'The format of the files that can be downloaded for each resource: repository, download page or dataset record.');
-	}
 	els.facetList.innerHTML = html;
 	facetOpts = {};
 	els.facetList.querySelectorAll('input[data-facet]').forEach(input => {
@@ -498,7 +488,6 @@ function matches(r, skip) {
 	if (skip !== 'encoding' && S.encoding.length && !S.encoding.includes(e.encoding)) return false;
 	if (skip !== 'status' && S.status.length && !S.status.includes(e.status)) return false;
 	if (skip !== 'size' && S.size.length && !S.size.includes(r.d.size_band || 'none')) return false;
-	if (skip !== 'files' && S.files.length && !S.files.some(f => r.fileKeys.includes(f))) return false;
 	if (skip !== 'type' && S.type.length && !S.type.some(t => r.types.includes(t))) return false;
 	if (skip !== 'period' && periodActive() && (!r.p || r.p.start > S.to || r.p.end < S.from)) return false;
 	return true;
@@ -856,7 +845,7 @@ function renderEmpty() {
 function renderChips() {
 	const chips = state.lang.map(v => ['lang', v, v]);
 	if (periodActive()) chips.push(['period', '', yearsLabel(state.from, state.to)]);
-	const label = { encoding: encLabel, status: statusLabel, size: v => SIZE_LABEL[v] || v, files: v => FILE_LABEL[v] || v, type: v => TYPE[v] || v };
+	const label = { encoding: encLabel, status: statusLabel, size: v => SIZE_LABEL[v] || v, type: v => TYPE[v] || v };
 	LIST_KEYS.slice(1).forEach(k => state[k].forEach(v => chips.push([k, v, (label[k] || String)(v)])));
 	els.chips.innerHTML = chips.map(c => {
 		const k = FACET_LABEL[c[0]];
@@ -952,7 +941,7 @@ function openFromHash() {
 function readURL() {
 	const p = new URLSearchParams(location.search);
 	// Kept once, and only if some resource has it.
-	const valid = (k, v) => (k !== 'files' || hasFiles) && records.some(r => FACET_VALUES[k](r).includes(v));
+	const valid = (k, v) => records.some(r => FACET_VALUES[k](r).includes(v));
 	LIST_KEYS.forEach(k => { state[k] = p.getAll(k).filter((v, i, all) => all.indexOf(v) === i && valid(k, v)); });
 	setQ((p.get('q') || '').slice(0, 200));
 	const year = v => (/^\d{3,4}$/.test(v || '') ? clamp(+v, MIN, MAX) : null);
