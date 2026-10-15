@@ -11,8 +11,8 @@
   "released": "2026-10-14",
   "updated": "2026-10-15",
   "data_commit": {
-   "sha": "928b91dd3fb1fed371fa5814c9a88ac3d019554e",
-   "short": "928b91d"
+   "sha": "7a6d0124720149a74717b41be59b768e733806dc",
+   "short": "7a6d012"
   },
   "scope": {
    "from": 1450,
@@ -409,17 +409,15 @@
     "missing": 0
    },
    "figures": {
-    "rq": 319,
-    "other": 9,
+    "rq": 321,
+    "other": 7,
     "none": 0,
     "other_titles": [
      "1641 Depositions (Trinity College Dublin)",
      "Briefwisseling van Constantijn Huygens 1607-1687",
      "The Chymistry of Isaac Newton",
      "CODEA+ 2022 — Corpus de documentos españoles anteriores a 1900",
-     "Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon",
      "Die Chronyk van Hollandt, Zeelandt ende Vriesland (Divisiekroniek) of Cornelius Aurelius, 1517",
-     "Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636 (annotated digital edition)",
      "Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock",
      "Sefaria"
     ],
@@ -562,7 +560,7 @@
    "with_words": "325",
    "with_words_editions": "325 resources",
    "without_words": "3",
-   "figures_rq": "319",
+   "figures_rq": "321",
    "discovered": "140",
    "discovered_sentence": "140 of the 328 records were proposed this way",
    "single_language": "246",
@@ -571,13 +569,13 @@
    "updated_long": "15 October 2026",
    "updated_iso": "2026-10-15",
    "version": "1.1.0",
-   "data_commit_short": "928b91d",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/928b91dd3fb1fed371fa5814c9a88ac3d019554e",
+   "data_commit_short": "7a6d012",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/7a6d0124720149a74717b41be59b768e733806dc",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.10",
    "snapshot_frozen_long": "13 October 2026",
    "snapshot_month": "October 2026",
-   "figures_other_sentence": "For 9 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock and Sefaria.",
+   "figures_other_sentence": "For 7 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock and Sefaria.",
    "largest_share": "56%",
    "share_note": "Shares of the 2,419,568,567 words recorded for 325 resources; 3 resources have no word count. Collection totals include overlapping texts.",
    "with_last_modified": "63 resources",
@@ -4002,7 +4000,7 @@
    "published": 2025,
    "period": "15th century (Angelo Poliziano, 1454–1494)",
    "region": "Italy",
-   "notes": "EVT 2-based digital scholarly edition encoding multiple edition levels of Poliziano's manuscript annotations on the Epistle of Sappho to Phaon, with Wikidata items and CTS URNs; the dataset is also deposited on Zenodo (doi:10.5281/zenodo.17315766). It is a single-work edition, but carries a full scholarly apparatus (diplomatic and critical layers, apparatus of marks), so it is included despite the single-author caveat. The edition (238 marginal notes) is counted as one text.\n\nJustification: A peer-reviewed (Journal of Open Humanities Data, 2025) TEI digital scholarly edition of a 15th-century Renaissance manuscript annotation corpus. Found via Zenodo and Journal of Open Humanities Data search results. Not in the catalogue.\nFound at: https://openhumanitiesdata.metajnl.com/articles/10.5334/johd.493 Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+   "notes": "EVT 2-based digital scholarly edition encoding multiple edition levels of Poliziano's manuscript annotations on the Epistle of Sappho to Phaon, with Wikidata items and CTS URNs; the dataset is also deposited on Zenodo (doi:10.5281/zenodo.17315766). It is a single-work edition, but carries a full scholarly apparatus (diplomatic and critical layers, apparatus of marks), so it is included despite the single-author caveat. The edition (238 marginal notes) is counted as one text. It is peer-reviewed (Journal of Open Humanities Data, 2025). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
    "license": "CC-BY-NC-SA-4.0",
    "doi": "10.5281/zenodo.17315766",
    "words": 2466,
@@ -9860,7 +9858,7 @@
     "start": 2020,
     "end": "ongoing"
    },
-   "notes": "Annotated digital edition presenting the travel accounts and collection descriptions of the Augsburg merchant and cultural broker Philipp Hainhofer (1578–1647) for the first time in full, with manuscript facsimiles, full text, critical apparatus and text/image commentaries. TEI/XML transcriptions and registers are archived on arthistoricum.net@heiDATA. Edition website went online in 2020 (first DFG phase, Munich journeys 1603–1636); further phases are scheduled until 2029, so the project is ongoing. The counts cover the 16 journey and collection-description files published so far.\n\nJustification: A DFG-funded scholarly digital edition of 17th-century travel manuscripts with TEI/XML full text and critical apparatus, squarely inside the 1450–1700 window. Found via the DARIAH-DE partner projects page and the TEI Consortium projects list; the URL was verified live. Not in the catalogue.\nFound at: https://de.dariah.eu/en/mitmachen/partnerprojekte/ Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+   "notes": "Annotated digital edition presenting the travel accounts and collection descriptions of the Augsburg merchant and cultural broker Philipp Hainhofer (1578–1647) for the first time in full, with manuscript facsimiles, full text, critical apparatus and text/image commentaries. TEI/XML transcriptions and registers are archived on arthistoricum.net@heiDATA. Edition website went online in 2020 (first DFG phase, Munich journeys 1603–1636); further phases are scheduled until 2029, so the project is ongoing. The counts cover the 16 journey and collection-description files published so far. The edition is DFG-funded. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
    "license": "CC-BY-SA-4.0",
    "words": 579168,
    "texts": 16,
@@ -12213,7 +12211,7 @@
   {
    "title": "Digitale Edition und Kommentierung der Tagebücher des Fürsten Christian II. von Anhalt-Bernburg (1599-1656)",
    "url": "http://diglib.hab.de/edoc/ed000228/start.htm",
-   "data_url": "http://diglib.hab.de/edoc/ed000228/",
+   "data_url": "http://diglib.hab.de/edoc/ed000228/mets.xml",
    "data_format": "tei",
    "languages": [
     "German",
@@ -19729,9 +19727,9 @@
     "beyond_scope": true
    },
    "size_band": "under-10k",
-   "figures": "other",
-   "snapshot": null,
-   "notes_display": "EVT 2-based digital scholarly edition encoding multiple edition levels of Poliziano's manuscript annotations on the Epistle of Sappho to Phaon, with Wikidata items and CTS URNs; the dataset is also deposited on Zenodo (doi:10.5281/zenodo.17315766). It is a single-work edition, but carries a full scholarly apparatus (diplomatic and critical layers, apparatus of marks), so it is included despite the single-author caveat. The edition (238 marginal notes) is counted as one text.",
+   "figures": "rq",
+   "snapshot": "v2026.10",
+   "notes_display": "EVT 2-based digital scholarly edition encoding multiple edition levels of Poliziano's manuscript annotations on the Epistle of Sappho to Phaon, with Wikidata items and CTS URNs; the dataset is also deposited on Zenodo (doi:10.5281/zenodo.17315766). It is a single-work edition, but carries a full scholarly apparatus (diplomatic and critical layers, apparatus of marks), so it is included despite the single-author caveat. The edition (238 marginal notes) is counted as one text. It is peer-reviewed (Journal of Open Humanities Data, 2025).",
    "period_words": {
     "decades": [
      0,
@@ -31413,9 +31411,9 @@
     "beyond_scope": false
    },
    "size_band": "100k-1m",
-   "figures": "other",
-   "snapshot": null,
-   "notes_display": "Annotated digital edition presenting the travel accounts and collection descriptions of the Augsburg merchant and cultural broker Philipp Hainhofer (1578–1647) for the first time in full, with manuscript facsimiles, full text, critical apparatus and text/image commentaries. TEI/XML transcriptions and registers are archived on arthistoricum.net@heiDATA. Edition website went online in 2020 (first DFG phase, Munich journeys 1603–1636); further phases are scheduled until 2029, so the project is ongoing. The counts cover the 16 journey and collection-description files published so far.",
+   "figures": "rq",
+   "snapshot": "v2026.10",
+   "notes_display": "Annotated digital edition presenting the travel accounts and collection descriptions of the Augsburg merchant and cultural broker Philipp Hainhofer (1578–1647) for the first time in full, with manuscript facsimiles, full text, critical apparatus and text/image commentaries. TEI/XML transcriptions and registers are archived on arthistoricum.net@heiDATA. Edition website went online in 2020 (first DFG phase, Munich journeys 1603–1636); further phases are scheduled until 2029, so the project is ongoing. The counts cover the 16 journey and collection-description files published so far. The edition is DFG-funded.",
    "period_words": {
     "decades": [
      0,
@@ -36040,7 +36038,7 @@
    "host": "diglib.hab.de",
    "url_display": "diglib.hab.de/edoc/ed000228/start.htm",
    "archived_copy": null,
-   "data_display": "diglib.hab.de/edoc/ed000228",
+   "data_display": "diglib.hab.de/edoc/ed000228/mets.xml",
    "period": {
     "raw": "1621-1656",
     "label": "1621–1656",
