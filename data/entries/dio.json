@@ -16,7 +16,7 @@
   "document_types": [
     "inscription"
   ],
-  "encoding": "html",
+  "encoding": "tei",
   "status": "active",
   "texts": 376,
   "period": "1450-1650",

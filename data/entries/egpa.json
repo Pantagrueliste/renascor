@@ -1,6 +1,8 @@
 {
   "title": "EGPA — Escritório Galego-Português Antigo",
   "url": "https://corpora.uah.es/egpa/",
+  "data_url": "https://corpora.uah.es/egpa/index.php?action=files",
+  "data_format": "tei",
   "languages": [
     "Galician-Portuguese",
     "Spanish",
@@ -22,7 +24,7 @@
     "PT"
   ],
   "period": "12th-19th century",
-  "notes": "Open collaborative platform of transcribed Galician-Portuguese archival documents (EGPAdoc) and literary texts (EGPAlit) from the Middle Ages to the 19th century, with paleographic and critical presentation; freely readable without login; per-document TEI at corpora.uah.es/egpa/xmlfiles/<id>.xml (checked EGPAdoc-0061). Most material is 12th-15th century; only a handful of documents dated 1478-1566 fall within 1450-1700. The counts cover the 5 documents dated within 1450-1700, and 20 documents without a date in the header are not counted. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Open collaborative platform of transcribed Galician-Portuguese archival documents (EGPAdoc) and literary texts (EGPAlit) from the Middle Ages to the 19th century, with paleographic and critical presentation; freely readable without login; per-document TEI at corpora.uah.es/egpa/xmlfiles/<id>.xml (checked EGPAdoc-0061); the public file list at index.php?action=files also includes test files (prueba_*). Most material is 12th-15th century; only a handful of documents dated 1478-1566 fall within 1450-1700. The counts cover the 5 documents dated within 1450-1700, and 20 documents without a date in the header are not counted. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "Copyright",
   "provenance": "discovered",
   "date_added": "2026-10-12",

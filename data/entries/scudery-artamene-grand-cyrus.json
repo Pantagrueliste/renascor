@@ -1,13 +1,19 @@
 {
   "title": "Madeleine et Georges de Scudéry: Artamène ou le Grand Cyrus",
   "url": "https://artamene.othone.org/",
+  "data_url": "https://github.com/cschuwey/othone/tree/main/artamene",
+  "data_format": "tei",
+  "data_formats": [
+    "tei",
+    "other"
+  ],
   "languages": [
     "French"
   ],
   "document_types": [
     "print"
   ],
-  "encoding": "html",
+  "encoding": "tei",
   "status": "active",
   "institution": "Université de Fribourg (Claude Bourqui, Alexandre Gefen and Barbara Selmeci; original site 2002-2019, Université de Neuchâtel)",
   "editors": [
@@ -25,7 +31,7 @@
   "words": 1985666,
   "texts": 10,
   "license": "Not stated",
-  "notes": "Complete text of the novel in diplomatic reproduction (edition of Paris, Courbé, 1656), divided into sequences and episodes with summaries, pop-up notes on characters and places, and the engravings of the 1654 edition. Each of the ten parts can be downloaded as a PDF (https://artamene.othone.org/pdfs/cyrus1.pdf to cyrus10.pdf); the site also gives a full-text search through the ARTFL PhiloLogic server and says TEI files are on the project's GitHub, but no repository could be found. The PDFs were last modified on 6 March 2024. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Complete text of the novel in diplomatic reproduction (edition of Paris, Courbé, 1656), divided into sequences and episodes with summaries, pop-up notes on characters and places, and the engravings of the 1654 edition. Each of the ten parts can be downloaded as a PDF (https://artamene.othone.org/pdfs/cyrus1.pdf to cyrus10.pdf); the site also gives a full-text search through the ARTFL PhiloLogic server and offers TEI files (TEI P4, one per part plus a complete cyrus.xml) in the Othone project's GitHub repository (github.com/cschuwey/othone, folder artamene). The PDFs were last modified on 6 March 2024. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {

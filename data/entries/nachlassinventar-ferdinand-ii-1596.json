@@ -1,9 +1,9 @@
 {
   "title": "Das Nachlassinventar Erzherzog Ferdinands II. (1529-1595) von 1596",
   "url": "https://repository.khm.at/viewer/Nachlassinventar/Ferdinand/1596/",
-  "doi": "10.60477/khm1-92663",
   "data_url": "https://repository.khm.at/viewer/api/v1/records/92663/plaintext",
   "data_format": "html",
+  "doi": "10.60477/khm1-92663",
   "languages": [
     "German"
   ],
@@ -24,7 +24,7 @@
   "period": "1596",
   "license": "CC-BY-SA-4.0",
   "license_url": "https://doi.org/10.60477/khm1-92663",
-  "notes": "Inventory manuscript (KHM shelfmark KK_6652) of the possessions of Archduke Ferdinand II of Tyrol (1529-1595), drawn up in 1596 at Innsbruck and Ambras, digitised with a full-text transcription in the repository viewer. The viewer sits behind a bot check, so the pages are best opened in a browser; the plain-text API returns the whole transcription. Status active: the repository and its DOI (registered under the recent 10.60477 prefix) are live in 2026. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Inventory manuscript (KHM shelfmark KK_6652) of the possessions of Archduke Ferdinand II of Tyrol (1529-1595), drawn up in 1596 at Innsbruck and Ambras, digitised with a full-text transcription in the repository viewer. The viewer sits behind a bot check, so the pages are best opened in a browser; the \"plaintext\" API endpoint returns the whole transcription as HTML fragments (the viewer's TEI export is only a wrapper around the same HTML, not a TEI encoding of the text). Status active: the repository and its DOI (registered under the recent 10.60477 prefix) are live in 2026. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {

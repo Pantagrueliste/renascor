@@ -1,7 +1,7 @@
 {
   "title": "Dasypodius' Dictionarium Latinogermanicum (1535)",
   "url": "http://diglib.hab.de/edoc/ed000008/start.htm",
-  "data_url": "http://diglib.hab.de/edoc/ed000008/",
+  "data_url": "http://diglib.hab.de/edoc/ed000008/mets.xml",
   "data_format": "tei",
   "languages": [
     "Latin",
@@ -25,7 +25,7 @@
   "period": "1535",
   "words": 172925,
   "texts": 1,
-  "notes": "Transcription of the first edition of Dasypodius' dictionary (Strasbourg: Rihel, 1535, Strasbourg copy) with variant readings of the 1536 edition, in five TEI files (contents and preface, A-B, C-H, I-O, P-Z), revised 30 November 2012. Last file modified 2012. The dictionary (about 6,600 entries) is counted as one text, without the 1536 variant readings. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Transcription of the first edition of Dasypodius' dictionary (Strasbourg: Rihel, 1535, Strasbourg copy) with variant readings of the 1536 edition, in five TEI files (contents and preface, A-B, C-H, I-O, P-Z) and a TEI introduction, revised 30 November 2012. Last file modified 2012. The dictionary (about 6,600 entries) is counted as one text, without the 1536 variant readings. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "CC-BY-SA-3.0",
   "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
   "provenance": "discovered",

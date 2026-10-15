@@ -1,6 +1,14 @@
 {
   "title": "Philipp Hainhofer: Reiseberichte & Sammlungsbeschreibungen 1594–1636 (annotated digital edition)",
   "url": "https://hainhofer.hab.de/",
+  "data_url": "https://doi.org/10.11588/DATA/DVU14P",
+  "data_format": "tei",
+  "data_formats": [
+    "tei",
+    "html",
+    "plain-text",
+    "other"
+  ],
   "languages": [
     "German"
   ],

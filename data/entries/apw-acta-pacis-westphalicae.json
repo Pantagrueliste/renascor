@@ -9,7 +9,7 @@
   "document_types": [
     "manuscript"
   ],
-  "encoding": "xml",
+  "encoding": "tei",
   "status": "active",
   "institution": "Rheinische Friedrich-Wilhelms-Universität Bonn and Bayerische Staatsbibliothek (Bavarian State Library), Munich",
   "editors": [
@@ -24,7 +24,7 @@
     "DE"
   ],
   "period": "1643-1649",
-  "notes": "Digital edition of the Acta Pacis Westphalicae, the documents of the Westphalian peace congress (instructions, correspondence, minutes, negotiation papers and diaries; the congress ran 1643-1649, with a few earlier or later items). All volumes of the three series are readable online with a document-by-document view, scans of the printed pages, PDF download of the printed volumes and the XML full text of each document. No login is needed. The edition text is a digitised critical edition of the archival originals (about 157 archives). The counts cover 3,210 of the 14,545 listed documents (22%), from 19 of the 41 volumes; the server was unstable during the harvest. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Digital edition of the Acta Pacis Westphalicae, the documents of the Westphalian peace congress (instructions, correspondence, minutes, negotiation papers and diaries; the congress ran 1643-1649, with a few earlier or later items). All volumes of the three series are readable online with a document-by-document view, scans of the printed pages, PDF download of the printed volumes and the TEI XML full text of each document (served as TEI fragments, without a teiHeader). No login is needed. The edition text is a digitised critical edition of the archival originals (about 157 archives). The counts cover 3,210 of the 14,545 listed documents (22%), from 19 of the 41 volumes; the server was unstable during the harvest. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "words": 2789605,

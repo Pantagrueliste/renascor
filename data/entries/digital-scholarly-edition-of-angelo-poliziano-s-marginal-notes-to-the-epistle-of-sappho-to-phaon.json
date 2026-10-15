@@ -1,6 +1,8 @@
 {
   "title": "Digital Scholarly Edition of Angelo Poliziano's Marginal Notes to the Epistle of Sappho to Phaon",
   "url": "https://github.com/AndreaLaVeglia/Postille_Poliziano_Sappho_EVT",
+  "data_url": "https://github.com/AndreaLaVeglia/Postille_Poliziano_Sappho_EVT/blob/main/DigitalEditionEVT/data/text/AnnotationesPolitianiInSappho.xml",
+  "data_format": "tei",
   "languages": [
     "Italian",
     "Latin",

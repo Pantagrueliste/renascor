@@ -15,7 +15,7 @@ const ENC = {
 	wikitext: ['Wikitext', 'Wiki markup, as used by Wikisource.'],
 	'plain-text': ['Plain text', 'Text files without structural markup.'],
 	markdown: ['Markdown', 'Text with lightweight Markdown markup.'],
-	other: ['Other', 'Another format, such as TSV, CoNLL-U or JSON.']
+	other: ['Other', 'Another format, such as TSV, CoNLL-U or PDF.']
 };
 const ENC_ORDER = Object.keys(ENC);
 const FILE_LABEL = {
