@@ -3,9 +3,9 @@
     "title": "Renascor",
     "source": "https://github.com/Pantagrueliste/renascor",
     "licence": "CC0-1.0",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "data_updated": "2026-10-15",
-    "data_commit": "7a6d0124720149a74717b41be59b768e733806dc",
+    "data_commit": "452599ad8b6936fa69d9a64fcdcf1cdc6974ad1d",
     "corpus_statistics": {
       "name": "Renascor Corpus",
       "snapshot": "v2026.10",
