@@ -1,0 +1,23 @@
+{
+  "title": "MONLOE — Montaigne à l'œuvre: édition numérique génétique de l'Exemplaire de Bordeaux des Essais (1588) et autres éditions montaignistes",
+  "url": "https://montaigne.univ-tours.fr/essais-1588-exemplaire-bordeaux/",
+  "languages": [
+    "French",
+    "Latin",
+    "Greek"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-19",
+  "institution": "Centre d'Études Supérieures de la Renaissance (CESR), Université de Tours — ANR project MONLOE (ANR-12-CORP-0003-01), published on the BVH (Bibliothèques Virtuelles Humanistes) Epistemon base",
+  "period": "1588–1592",
+  "region": "France",
+  "years_active": {
+    "start": 2012,
+    "end": "ongoing"
+  },
+  "notes": "Genetic digital edition (XML/TEI) of Montaigne's annotated copy of the 1588 Essais (Exemplaire de Bordeaux, Bibliothèque municipale de Bordeaux), with integral transcription of the author's manuscript additions, corrections and deletions preserving original spelling and typographic practice; the TEI edition is deposited on HAL (halshs-01239978). The MONLOE site also publishes TEI editions of Montaigne-related manuscripts (La Boétie's 'Contr'un' Ms 2199, the marriage contract, 47 'arrêts' au rapport de Montaigne, 23 letters, marginal annotations) and, since September 2025, the integral edition of the annotations of Antoine de Laval and Pierre de La Mure on the 1595 Essais (Princeton exemplar). Single-author project, but a significant scholarly edition (ANR MONLOE; the Bordeaux copy is on the UNESCO Memory of the World register). The edition is published on the BVH-Epistemon platform, which has its own catalogue record; this entry covers the distinct MONLOE edition project and its HAL-deposited TEI data.\n\nJustification: A significant, freely accessible XML/TEI genetic scholarly edition of a major Renaissance annotated document (Montaigne's Exemplaire de Bordeaux, 1588), produced by the ANR MONLOE project at the CESR Tours and deposited as TEI on HAL; not in the catalogue as a distinct record. Found via a general web search for digital editions of Renaissance manuscripts (BVH/CESR project pages).\nFound at: https://montaigne.univ-tours.fr/",
+  "data_url": "https://shs.hal.science/halshs-01239978",
+  "data_format": "tei"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "RENUMAR — De minute en minute 2.0 (Ressources NUMériques pour l'édition des Archives de la Renaissance)",
+  "url": "https://renumar.univ-tours.fr/",
+  "languages": [
+    "French"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-19",
+  "institution": "Centre d'Études Supérieures de la Renaissance (CESR), Université de Tours, with MSH Val de Loire and the Archives départementales de l'Indre-et-Loire and du Cher",
+  "period": "15th–16th century",
+  "region": "France (Touraine, Berry, Paris)",
+  "texts": 21161,
+  "years_active": {
+    "start": 2007,
+    "end": "ongoing"
+  },
+  "notes": "Database of transcriptions and/or structured analyses of Renaissance archival acts (notarial minutes, municipal deliberations and correspondence, fiscal registers) mainly from Tours/Touraine, Bourges and Paris; documents run from 1462 with about 1% of entries analysing 18th-century acts. The project states 21,161 analyses or transcriptions as of 1 September 2025 (source: project 'Base' page, https://renumar.univ-tours.fr/base/; a 4 May 2026 update added 5,200+ entries); many entries are analyses rather than full transcriptions, so the count overstates full-text coverage, and no word count is published. The underlying data is encoded in XML-TEI (migration begun 2011, searched via XTF) but no downloadable files were found, so the published format is HTML. The original base was compiled by Pierre Aquilon and Bernard Chevalier.\n\nJustification: A freely accessible, actively maintained (updated 4 May 2026) digital edition/database of transcribed Renaissance archival documents (notarial acts) from the CESR, University of Tours, squarely within 1450–1700; not in the catalogue (the catalogued BVH–Épistomon record covers the BVH literary text corpus, a different collection). Found via a general web search for new French digital editions of 16th-century sources (École des chartes event listing).\nFound at: https://www.chartes.psl.eu/gazette-chartiste/agenda/de-nouvelles-sources-en-ligne-pour-lhistoire-de-france-du-xvie-s"
+}
