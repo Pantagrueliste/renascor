@@ -1,0 +1,21 @@
+{
+  "title": "D4R — Dissidences religieuses et Réception de la Réforme à la Renaissance en Espagne (XVIe s.)",
+  "url": "https://d4r.hypotheses.org/",
+  "languages": [
+    "Spanish"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-26",
+  "institution": "IRIEC and Praxiling, Université Paul-Valéry Montpellier 3, with IRIT (Toulouse), GRIAL and UHM (Barcelona), DeReHis (Universidad de Castilla-La Mancha, Toledo)",
+  "period": "16th century",
+  "region": "Spain",
+  "words": 850000,
+  "years_active": {
+    "start": 2022,
+    "end": "ongoing"
+  },
+  "notes": "ANR project ANR-21-CE38-0011 (funding Jan 2022–Dec 2025, 48 months). Corpus of 16th-century Spanish documents on the Reformation: 26 printed books (~1,620,000 words estimated, of which six retranscribed, ~520,000 words) plus manuscript inquisitorial/archival sources 'retranscrites et corrigées' (~850,000 words — project-stated approximate partial count, source: ANR project page; excludes the print corpus). Texts are encoded in XML-TEI per the project's published TEI encoding guidelines. Caveats: no stable public URL for the transcribed texts could be verified — the project blog (d4r.hypotheses.org) is the public face but was behind a bot filter at check time, and the exploration platform presented in Boeglin et al., 'D4R: An Interactive and Visual Exploration of a 16th Century Corpus on Spanish Inquisition' (AINA 2025) has no confirmed open-access address; free public access (catalogue criterion 3) must be confirmed by the reviewer before cataloguing. Encoding 'tei' reflects the project's documented XML-TEI data; the publicly readable format is unverified. 'published' is the project start year; the edition's own publication date is unknown.\n\nJustification: Found via a general web search for new French/ANR digital-edition projects (ANR and university project pages). The project editorialises a 16th-century Spanish corpus (inquisitorial sources and spirituality treatises) with human manuscript transcriptions corrected by the editors and TEI encoding — squarely within 1450–1700 and the catalogue's European focus — and is not in the catalogue. Proposed despite unverified free public access, which is flagged in notes for human review.\nFound at: https://anr.fr/Projet-ANR-21-CE38-0011",
+  "license": "Not stated"
+}
