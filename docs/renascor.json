@@ -4,8 +4,8 @@
     "source": "https://github.com/Pantagrueliste/renascor",
     "licence": "CC0-1.0",
     "version": "1.1.1",
-    "data_updated": "2026-10-15",
-    "data_commit": "452599ad8b6936fa69d9a64fcdcf1cdc6974ad1d",
+    "data_updated": "2026-10-27",
+    "data_commit": "9e72cd40b7b9225c321fd03409a578d687b6f691",
     "corpus_statistics": {
       "name": "Renascor Corpus",
       "snapshot": "v2026.10",
@@ -20,7 +20,7 @@
       "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
       "database_sha256": "8c49aed71187dcce4d048c41979447657abc17fd5656db4d2dfe08b8e6084354"
     },
-    "records": 328,
+    "records": 329,
     "fields": [
       "id",
       "title",
@@ -1032,7 +1032,7 @@
       "document_types": [
         "print"
       ],
-      "notes": "Epistemon is the text database of the Bibliothèques Virtuelles Humanistes (BVH) programme at the Centre d'Études Supérieures de la Renaissance, Université de Tours (head: Rémi Jimenes). It offers Renaissance texts (literature and author corpora, literary manuscripts and 16th-century archival documents) transcribed in a 'patrimonial' manner that respects layout, spelling and punctuation, encoded in XML-TEI following the project's TEI-Renaissance guidelines. The first texts went online in 1998 at the University of Poitiers and moved to Tours in 2001; TEI encoding has been used since 2007. Texts are read and searched through XTF, PhiloLogic and TXM, with facsimiles shown alongside where available. Fidelity levels of older transcriptions are heterogeneous, and the base is still being extended and revised. The counts combine two harvests that share no text: 70 texts from the BVH site and 46 printed texts from a legacy TEI copy in Lou Burnard's tei-fr repository on GitHub (last updated 2015). Corpus statistics (text, word and language counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+      "notes": "Epistemon is the text database of the Bibliothèques Virtuelles Humanistes (BVH) programme at the Centre d'Études Supérieures de la Renaissance, Université de Tours (head: Rémi Jimenes). It offers Renaissance texts (literature and author corpora, literary manuscripts and 16th-century archival documents) transcribed in a 'patrimonial' manner that respects layout, spelling and punctuation, encoded in XML-TEI following the project's TEI-Renaissance guidelines. The first texts went online in 1998 at the University of Poitiers and moved to Tours in 2001; TEI encoding has been used since 2007. Texts are read and searched through XTF, PhiloLogic and TXM, with facsimiles shown alongside where available. Fidelity levels of older transcriptions are heterogeneous, and the base is still being extended and revised. It includes the Montaigne author corpus of the ANR MONLOE project (montaigne.univ-tours.fr): the genetic edition of the Exemplaire de Bordeaux of the 1588 Essais (also deposited on HAL, halshs-01239978), the 1580 edition of the Essais (books I and II), Montaigne's 1581 translation of Sebond's Théologie naturelle, La Boétie's Servitude volontaire (Bordeaux Ms 2199), letters and family archives; MONLOE's editions of Montaigne's marginalia and inscriptions are PDFs on the BVH server and are not counted. The counts combine two harvests that share no text: 70 texts from the BVH site and 46 printed texts from a legacy TEI copy in Lou Burnard's tei-fr repository on GitHub (last updated 2015). Corpus statistics (text, word and language counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
       "id": "blotius-inventar-1576",
@@ -10650,6 +10650,32 @@
         "print"
       ],
       "notes": "Online repository of works printed in English between 1477 and 1799, sorted by author (222 titles in all). The part dating from 1450-1700 is the large majority: sixteenth- and seventeenth-century poetry, drama, prose, proclamations and pamphlets (for example Bacon, Spenser, Dekker, Elizabeth I's proclamations, 1640s-50s pamphlets). Later items (Defoe, Fielding, Gay, Goldsmith, Gray, American colonial documents of 1775-76) fall outside the period. Texts are keyed from the original or later facsimile editions in original spelling; each is a plain HTML page, with PDF copies at the University of Oregon Scholars Bank. No bulk download. The counts cover the in-period HTML texts of the index, one record per page or part. Status: the site states '222 titles; updated November 21, 2009', and nothing newer was found (page checked 2026-10-13); the host's robots.txt allows crawling except /cgi-bin. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it)."
+    },
+    {
+      "id": "renumar",
+      "title": "RENUMAR — De minute en minute 2.0 (Ressources numériques pour l'édition des archives de la Renaissance)",
+      "url": "https://renumar.univ-tours.fr/",
+      "institution": "Centre d'études supérieures de la Renaissance (CESR), Université de Tours, with the MSH Val de Loire (XTF) and the IRHT (TELMA)",
+      "languages": [
+        "French"
+      ],
+      "period": "1450-1650",
+      "encoding": "html",
+      "status": "active",
+      "region": "France (Touraine, Berry, Paris, Chartres, Châteaudun)",
+      "countries": [
+        "FR"
+      ],
+      "years_active": {
+        "start": 2007,
+        "end": "ongoing"
+      },
+      "provenance": "discovered",
+      "date_added": "2026-10-19",
+      "document_types": [
+        "manuscript"
+      ],
+      "notes": "Database of Renaissance archival acts at the CESR, Tours: 95% notarial minutes (Tours, Amboise, Touraine, Paris, Bourges, Chartres, Châteaudun), with municipal accounts and deliberations and urban correspondence, 1450-1650. Of the 20,800 documents published on 1 April 2025, about 85% are given as analyses (summaries) and about 15% as transcriptions; the search engine indexes the two separately. Only the transcriptions are texts for this catalogue, and their number is not published, so texts and words are omitted. The data are encoded in XML-TEI with TELMA (IRHT) and shown as HTML through XTF (MSH Val de Loire); no TEI download was found on the site, Nakala, Zenodo or HAL, and the 2023 BVH report lists a FAIR release as work in progress. The base continues 'De minute en minute', created by the CESR in 2007 on the BVH site and moved in full to this platform in 2018; Pierre Aquilon contributed the Tours and Paris notarial records. The site returned server errors (HTTP 502 and 500) on 2026-10-27; a progress report of November 2025 (HAL halshs-05404234) shows continuing work. Sources: D. Rivaud, presentation at the École des chartes, 9 April 2025 (https://www.chartes.psl.eu/sites/default/files/public/media/document/2025-05/rivaud.pdf); S. Breuil, HAL halshs-03597555 (2018); rfgenealogie.com, 25 October 2022."
     },
     {
       "id": "tbso-gh",
