@@ -4,7 +4,7 @@
     1450,
     1700
   ],
-  "database_sha256": "8c49aed71187dcce4d048c41979447657abc17fd5656db4d2dfe08b8e6084354",
+  "database_sha256": "c830d34aa37beb0b94cea5f90f390fa4ab9237bae482f6df30727f2d5cd5fbb9",
   "decade_starts": [
     1450,
     1460,
@@ -480,8 +480,8 @@
       "texts": 37
     },
     "collection": {
-      "words": 6024181,
-      "texts": 5274
+      "words": 5909820,
+      "texts": 5265
     },
     "collection_assumed": {
       "words": 1301063,
@@ -1771,8 +1771,8 @@
       "entry": "bibaugustana"
     },
     "BibCerTxt": {
-      "words": 2373898,
-      "texts": 125,
+      "words": 2259537,
+      "texts": 116,
       "decade_words": [
         0,
         0,
@@ -1827,7 +1827,7 @@
         0,
         0
       ],
-      "undated_words": 2373898,
+      "undated_words": 2259537,
       "date_estimates": [],
       "entry": "bibcertxt"
     },
