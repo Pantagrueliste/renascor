@@ -397,8 +397,8 @@
      1
     ]
    ],
-   "texts": 264908,
-   "words": 2420388846,
+   "texts": 264899,
+   "words": 2420274485,
    "with_texts": 329,
    "with_words": 327,
    "median_words": 182019,
@@ -507,11 +507,11 @@
     1450,
     1700
    ],
-   "words": 2225102717,
-   "texts": 217410,
+   "words": 2224988356,
+   "texts": 217401,
    "basis": "After the corpus duplicate filter; complete working snapshot, before catalogue grouping",
    "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
-   "database_sha256": "8c49aed71187dcce4d048c41979447657abc17fd5656db4d2dfe08b8e6084354"
+   "database_sha256": "c830d34aa37beb0b94cea5f90f390fa4ab9237bae482f6df30727f2d5cd5fbb9"
   },
   "timeline": {
    "snapshot": "v2026.10",
@@ -544,7 +544,7 @@
     222589796
    ],
    "estimated_words": 11379662,
-   "undated_words": 21377152,
+   "undated_words": 21262791,
    "unlisted_words": 10956283,
    "basis": "Retained in-core texts after the corpus duplicate filter. Each text is counted once.",
    "date_basis": "Recorded harvest years, including inferred dates and author-lifespan proxies; not a uniform chronology of composition or publication. Missing years with a complete in-scope Gutenberg author lifespan use a separate estimated distribution, weighted equally per year across that lifespan. This is a display convention, not evidence of equal production. Other missing years remain unallocated.",
@@ -555,12 +555,12 @@
    "editions_label": "331 resources",
    "languages": "71",
    "language_labels": "71",
-   "texts": "264,908",
-   "words": "2,420,388,846",
+   "texts": "264,899",
+   "words": "2,420,274,485",
    "words_compact": "2.42 billion",
-   "corpus_texts": "217,410",
-   "corpus_words": "2,225,102,717",
-   "corpus_words_compact": "2.23 billion",
+   "corpus_texts": "217,401",
+   "corpus_words": "2,224,988,356",
+   "corpus_words_compact": "2.22 billion",
    "with_words": "327",
    "with_words_editions": "327 resources",
    "without_words": "4",
@@ -581,7 +581,7 @@
    "snapshot_month": "October 2026",
    "figures_other_sentence": "For 9 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Traduction de l'Énéide par Octovien de Saint-Gelais, La Mer des histoires, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock and Sefaria. 1 resource has no word or text count.",
    "largest_share": "56%",
-   "share_note": "Shares of the 2,420,388,846 words recorded for 327 resources; 4 resources have no word count. Collection totals include overlapping texts.",
+   "share_note": "Shares of the 2,420,274,485 words recorded for 327 resources; 4 resources have no word count. Collection totals include overlapping texts.",
    "with_last_modified": "65 resources",
    "with_data_url": "226 resources",
    "with_countries": "138 resources",
@@ -1868,14 +1868,14 @@
    "status": "active",
    "provenance": "submitted",
    "date_added": "2026-10-07",
-   "words": 2373898,
-   "texts": 125,
-   "notes": "The 331 Spanish texts (comedias like 'El gran teatro del mundo', 'El vellocino de oro', etc.) were harvested from the Biblioteca Virtual Miguel de Cervantes, the major Spanish digital library run with the Universidad de Alicante. Site live. Open access but individual texts are copyrighted by BVMC (no blanket open licence). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "words": 2259537,
+   "texts": 116,
+   "notes": "Spanish texts harvested from the Biblioteca Virtual Miguel de Cervantes, the digital library of the Universidad de Alicante: comedias and autos by Lope de Vega, Calderón, Tirso de Molina, Moreto, Sor Juana Inés de la Cruz and others, with prose such as Cárcel de amor, La lozana andaluza and Don Quijote. Nine harvested texts date from the 18th century (five sainetes by Ramón de la Cruz, three works by José Cadalso and Torres Villarroel's Visiones y visitas, 1727-1728) and are not counted. Open access, but individual texts are copyrighted by the BVMC (no blanket open licence). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "institution": "Fundación Marcelino Botín / Universidad de Alicante",
    "corpus_statistics": {
     "snapshot": "v2026.10",
-    "words": 2373898,
-    "texts": 125
+    "words": 2259537,
+    "texts": 116
    },
    "count_basis": "rq-retained-rows",
    "license": "Custom terms",
@@ -10936,7 +10936,8 @@
     "start": 2007,
     "end": "ongoing"
    },
-   "notes": "Database of Renaissance archival acts at the CESR, Tours: 95% notarial minutes (Tours, Amboise, Touraine, Paris, Bourges, Chartres, Châteaudun), with municipal accounts and deliberations and urban correspondence, 1450-1650. Of the 20,800 documents published on 1 April 2025, about 85% are given as analyses (summaries) and about 15% as transcriptions; the search engine indexes the two separately. Only the transcriptions are texts for this catalogue, and their number is not published, so texts and words are omitted. The data are encoded in XML-TEI with TELMA (IRHT) and shown as HTML through XTF (MSH Val de Loire); no TEI download was found on the site, Nakala, Zenodo or HAL, and the 2023 BVH report lists a FAIR release as work in progress. The base continues 'De minute en minute', created by the CESR in 2007 on the BVH site and moved in full to this platform in 2018; Pierre Aquilon contributed the Tours and Paris notarial records. The site returned server errors (HTTP 502 and 500) on 2026-10-27; a progress report of November 2025 (HAL halshs-05404234) shows continuing work. Sources: D. Rivaud, presentation at the École des chartes, 9 April 2025 (https://www.chartes.psl.eu/sites/default/files/public/media/document/2025-05/rivaud.pdf); S. Breuil, HAL halshs-03597555 (2018); rfgenealogie.com, 25 October 2022."
+   "notes": "Database of Renaissance archival acts at the CESR, Tours: 95% notarial minutes (Tours, Amboise, Touraine, Paris, Bourges, Chartres, Châteaudun), with municipal accounts and deliberations and urban correspondence, 1450-1650. Of the 20,800 documents published on 1 April 2025, about 85% are given as analyses (summaries) and about 15% as transcriptions; the search engine indexes the two separately. Only the transcriptions are texts for this catalogue, and their number is not published, so texts and words are omitted. The data are encoded in XML-TEI with TELMA (IRHT) and shown as HTML through XTF (MSH Val de Loire); no TEI download was found on the site, Nakala, Zenodo or HAL, and the 2023 BVH report lists a FAIR release as work in progress. The base continues 'De minute en minute', created by the CESR in 2007 on the BVH site and moved in full to this platform in 2018; Pierre Aquilon contributed the Tours and Paris notarial records. The site returned server errors (HTTP 502 and 500) on 2026-10-27; a progress report of November 2025 (HAL halshs-05404234) shows continuing work. Sources: D. Rivaud, presentation at the École des chartes, 9 April 2025 (https://www.chartes.psl.eu/sites/default/files/public/media/document/2025-05/rivaud.pdf); S. Breuil, HAL halshs-03597555 (2018); rfgenealogie.com, 25 October 2022.",
+   "license": "Not stated"
   },
   {
    "title": "Representative Poetry Online (University of Toronto)",
@@ -15527,7 +15528,7 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.10",
-   "notes_display": "The 331 Spanish texts (comedias like 'El gran teatro del mundo', 'El vellocino de oro', etc.) were harvested from the Biblioteca Virtual Miguel de Cervantes, the major Spanish digital library run with the Universidad de Alicante. Open access but individual texts are copyrighted by BVMC (no blanket open licence).",
+   "notes_display": "Spanish texts harvested from the Biblioteca Virtual Miguel de Cervantes, the digital library of the Universidad de Alicante: comedias and autos by Lope de Vega, Calderón, Tirso de Molina, Moreto, Sor Juana Inés de la Cruz and others, with prose such as Cárcel de amor, La lozana andaluza and Don Quijote. Nine harvested texts date from the 18th century (five sainetes by Ramón de la Cruz, three works by José Cadalso and Torres Villarroel's Visiones y visitas, 1727-1728) and are not counted. Open access, but individual texts are copyrighted by the BVMC (no blanket open licence).",
    "period_words": {
     "decades": [
      0,
@@ -15583,7 +15584,7 @@
      0,
      0
     ],
-    "undated": 2373898,
+    "undated": 2259537,
     "estimated_range": null
    }
   },
