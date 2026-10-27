@@ -1,0 +1,25 @@
+{
+  "title": "RENUMAR — De minute en minute 2.0 (Ressources numériques pour l'édition des archives de la Renaissance)",
+  "url": "https://renumar.univ-tours.fr/",
+  "languages": [
+    "French"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-10-19",
+  "institution": "Centre d'études supérieures de la Renaissance (CESR), Université de Tours, with the MSH Val de Loire (XTF) and the IRHT (TELMA)",
+  "period": "1450-1650",
+  "region": "France (Touraine, Berry, Paris, Chartres, Châteaudun)",
+  "countries": [
+    "FR"
+  ],
+  "years_active": {
+    "start": 2007,
+    "end": "ongoing"
+  },
+  "notes": "Database of Renaissance archival acts at the CESR, Tours: 95% notarial minutes (Tours, Amboise, Touraine, Paris, Bourges, Chartres, Châteaudun), with municipal accounts and deliberations and urban correspondence, 1450-1650. Of the 20,800 documents published on 1 April 2025, about 85% are given as analyses (summaries) and about 15% as transcriptions; the search engine indexes the two separately. Only the transcriptions are texts for this catalogue, and their number is not published, so texts and words are omitted. The data are encoded in XML-TEI with TELMA (IRHT) and shown as HTML through XTF (MSH Val de Loire); no TEI download was found on the site, Nakala, Zenodo or HAL, and the 2023 BVH report lists a FAIR release as work in progress. The base continues 'De minute en minute', created by the CESR in 2007 on the BVH site and moved in full to this platform in 2018; Pierre Aquilon contributed the Tours and Paris notarial records. The site returned server errors (HTTP 502 and 500) on 2026-10-27; a progress report of November 2025 (HAL halshs-05404234) shows continuing work. Sources: D. Rivaud, presentation at the École des chartes, 9 April 2025 (https://www.chartes.psl.eu/sites/default/files/public/media/document/2025-05/rivaud.pdf); S. Breuil, HAL halshs-03597555 (2018); rfgenealogie.com, 25 October 2022."
+}
