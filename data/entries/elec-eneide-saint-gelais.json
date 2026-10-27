@@ -1,0 +1,41 @@
+{
+  "title": "Traduction de l'Énéide par Octovien de Saint-Gelais (Le Miroir des classiques), École des chartes (ELEC)",
+  "url": "https://github.com/chartes/miroir/tree/master/data/editions_miroir/eneide",
+  "data_url": "https://raw.githubusercontent.com/chartes/miroir/master/data/editions_miroir/eneide/eneide_B.xml",
+  "data_format": "tei",
+  "languages": [
+    "French"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "author": "Octovien de Saint-Gelais (translator of Virgil's Aeneid)",
+  "date": "1500 (translation); base manuscript c. 1505-1510",
+  "institution": "École nationale des chartes – PSL (Éditions en ligne de l'École des chartes, ELEC, vol. 17; Le Miroir des classiques, directed by Frédéric Duval)",
+  "editors": [
+    "Lucien Dugaz",
+    "Frédéric Duval"
+  ],
+  "published": 2026,
+  "words": 165737,
+  "texts": 1,
+  "region": "France",
+  "countries": [
+    "FR"
+  ],
+  "period": "c. 1500-1510",
+  "notes": "Complete critical edition of the French verse translation of Virgil's Aeneid that Octovien de Saint-Gelais finished for Louis XII in 1500: a prose prologue and twelve books in decasyllabic couplets (about 24,000 lines). The base text is Philadelphia, University of Pennsylvania, Ms. Codex 909 (dated c. 1505-1510 by Penn, 1450-1510 by Digital Scriptorium), corrected from Paris, BnF, français 861 (the 1500 presentation copy), with variants, notes and an index of names. The full TEI XML (eneide_B.xml) and a separate editorial introduction (eneide_intro.xml) are free on GitHub. The TEI gives http://elec.enc.sorbonne.fr/miroir/eneide_B as its address and the ENC reading app is configured for dev.chartes.psl.eu, but neither host answered from here (2026-10-26), so the entry points to the repository. The repository's other files are bibliographic notices on medieval French translations of the classics, with only short excerpts, and are not counted. Last push 2026-08-26, so marked active. The word count covers the edited text only (see resource_statistics).",
+  "last_modified": "2026-08-26",
+  "license": "CC-BY-NC-SA-4.0",
+  "license_url": "https://github.com/chartes/miroir/blob/master/data/editions_miroir/eneide/eneide_B.xml",
+  "license_note": "TEI header of eneide_B.xml: availability status=\"restricted\", licence '© École nationale des chartes - PSL (CC-BY-NC-SA 4.0)' with target https://creativecommons.org/licenses/by-nc-sa/4.0/. The introduction file states the same licence. The GitHub repository itself has no licence file.",
+  "resource_statistics": {
+    "url": "https://raw.githubusercontent.com/chartes/miroir/master/data/editions_miroir/eneide/eneide_B.xml",
+    "date": "2026-10-26",
+    "note": "Whitespace-separated tokens of the TEI <body> (prologue and books I-XII) at commit ccda17f (2026-08-26), keeping lemmata, corrections and additions and leaving out <note>, <rdg>, <sic>, <del> and <head>; the teiHeader, the back-matter index and the separate introduction are excluded. Gives 165,737 words (162,783 alphabetic tokens; 168,698 with all body text). One text, composed 1500."
+  },
+  "provenance": "discovered",
+  "date_added": "2026-10-26"
+}
