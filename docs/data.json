@@ -11,8 +11,8 @@
   "released": "2026-10-16",
   "updated": "2026-10-27",
   "data_commit": {
-   "sha": "3c598d5a5655b2ef4a4bcb9287cd3be5a3e0cb2a",
-   "short": "3c598d5"
+   "sha": "9e72cd40b7b9225c321fd03409a578d687b6f691",
+   "short": "9e72cd4"
   },
   "scope": {
    "from": 1450,
@@ -106,11 +106,11 @@
    "notes"
   ],
   "stats": {
-   "editions": 330,
+   "editions": 331,
    "language_labels": 71,
    "languages": 71,
    "pseudo_languages": [],
-   "single_language": 248,
+   "single_language": 249,
    "language_counts": [
     [
      "Latin",
@@ -126,7 +126,7 @@
     ],
     [
      "French",
-     56
+     57
     ],
     [
      "Spanish",
@@ -404,14 +404,14 @@
    "median_words": 182019,
    "median_texts": 35,
    "period": {
-    "numeric": 320,
+    "numeric": 321,
     "in_words": 10,
     "missing": 0
    },
    "figures": {
     "rq": 321,
     "other": 9,
-    "none": 0,
+    "none": 1,
     "other_titles": [
      "1641 Depositions (Trinity College Dublin)",
      "Briefwisseling van Constantijn Huygens 1607-1687",
@@ -423,7 +423,9 @@
      "Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock",
      "Sefaria"
     ],
-    "none_titles": []
+    "none_titles": [
+     "RENUMAR — De minute en minute 2.0 (Ressources numériques pour l'édition des archives de la Renaissance)"
+    ]
    },
    "largest": {
     "id": "eebo-text-creation-partnership",
@@ -464,7 +466,7 @@
     }
    ],
    "status": {
-    "active": 202,
+    "active": 203,
     "archived": 121,
     "discontinued": 7
    },
@@ -472,7 +474,7 @@
     "tei": 161,
     "xml": 17,
     "json": 6,
-    "html": 103,
+    "html": 104,
     "wikitext": 9,
     "plain-text": 13,
     "markdown": 1,
@@ -489,13 +491,13 @@
     "other": 12
    },
    "provenance": {
-    "discovered": 142,
+    "discovered": 143,
     "submitted": 188
    },
    "with_last_modified": 65,
    "with_data_url": 226,
-   "with_region": 144,
-   "with_countries": 137
+   "with_region": 145,
+   "with_countries": 138
   },
   "corpus_statistics": {
    "name": "Renascor Corpus",
@@ -549,8 +551,8 @@
    "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/period_word_counts.json"
   },
   "display": {
-   "editions": "330",
-   "editions_label": "330 resources",
+   "editions": "331",
+   "editions_label": "331 resources",
    "languages": "71",
    "language_labels": "71",
    "texts": "264,908",
@@ -561,39 +563,39 @@
    "corpus_words_compact": "2.23 billion",
    "with_words": "327",
    "with_words_editions": "327 resources",
-   "without_words": "3",
+   "without_words": "4",
    "figures_rq": "321",
-   "discovered": "142",
-   "discovered_sentence": "142 of the 330 records were proposed this way",
-   "single_language": "248",
+   "discovered": "143",
+   "discovered_sentence": "143 of the 331 records were proposed this way",
+   "single_language": "249",
    "median_words": "182,019",
    "median_texts": "35",
    "updated_long": "27 October 2026",
    "updated_iso": "2026-10-27",
    "version": "1.1.1",
-   "data_commit_short": "3c598d5",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/3c598d5a5655b2ef4a4bcb9287cd3be5a3e0cb2a",
+   "data_commit_short": "9e72cd4",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/9e72cd40b7b9225c321fd03409a578d687b6f691",
    "header_note": "Corpus totals exclude duplicate texts (October 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.10",
    "snapshot_frozen_long": "13 October 2026",
    "snapshot_month": "October 2026",
-   "figures_other_sentence": "For 9 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Traduction de l'Énéide par Octovien de Saint-Gelais, La Mer des histoires, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock and Sefaria.",
+   "figures_other_sentence": "For 9 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Traduction de l'Énéide par Octovien de Saint-Gelais, La Mer des histoires, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock and Sefaria. 1 resource has no word or text count.",
    "largest_share": "56%",
-   "share_note": "Shares of the 2,420,388,846 words recorded for 327 resources; 3 resources have no word count. Collection totals include overlapping texts.",
+   "share_note": "Shares of the 2,420,388,846 words recorded for 327 resources; 4 resources have no word count. Collection totals include overlapping texts.",
    "with_last_modified": "65 resources",
    "with_data_url": "226 resources",
-   "with_countries": "137 resources",
+   "with_countries": "138 resources",
    "areas_list": "British Isles, France, Low Countries, Holy Roman Empire, Italian Peninsula, Iberian Peninsula, Scandinavia, Central and Eastern Europe, Balkans and Greece, Ottoman Empire and Near East, Americas, Asia and Africa",
    "citation_author_year": "Godbarge, Clément (2026).",
    "citation_title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
    "citation_tail": "(Version 1.1.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23345610",
-   "status_active": "202 resources.",
+   "status_active": "203 resources.",
    "status_archived": "121 resources.",
    "status_discontinued": "7 resources.",
    "encoding_tei": "161 resources.",
    "encoding_xml": "17 resources.",
    "encoding_json": "6 resources.",
-   "encoding_html": "103 resources.",
+   "encoding_html": "104 resources.",
    "encoding_wikitext": "9 resources.",
    "encoding_plain_text": "13 resources.",
    "encoding_markdown": "1 resource.",
@@ -5493,7 +5495,7 @@
    "words": 5030539,
    "texts": 116,
    "institution": "Centre d'études supérieures de la Renaissance (CESR), Université de Tours / CNRS (Bibliothèques Virtuelles Humanistes)",
-   "notes": "Epistemon is the text database of the Bibliothèques Virtuelles Humanistes (BVH) programme at the Centre d'Études Supérieures de la Renaissance, Université de Tours (head: Rémi Jimenes). It offers Renaissance texts (literature and author corpora, literary manuscripts and 16th-century archival documents) transcribed in a 'patrimonial' manner that respects layout, spelling and punctuation, encoded in XML-TEI following the project's TEI-Renaissance guidelines. The first texts went online in 1998 at the University of Poitiers and moved to Tours in 2001; TEI encoding has been used since 2007. Texts are read and searched through XTF, PhiloLogic and TXM, with facsimiles shown alongside where available. Fidelity levels of older transcriptions are heterogeneous, and the base is still being extended and revised. The counts combine two harvests that share no text: 70 texts from the BVH site and 46 printed texts from a legacy TEI copy in Lou Burnard's tei-fr repository on GitHub (last updated 2015). Corpus statistics (text, word and language counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+   "notes": "Epistemon is the text database of the Bibliothèques Virtuelles Humanistes (BVH) programme at the Centre d'Études Supérieures de la Renaissance, Université de Tours (head: Rémi Jimenes). It offers Renaissance texts (literature and author corpora, literary manuscripts and 16th-century archival documents) transcribed in a 'patrimonial' manner that respects layout, spelling and punctuation, encoded in XML-TEI following the project's TEI-Renaissance guidelines. The first texts went online in 1998 at the University of Poitiers and moved to Tours in 2001; TEI encoding has been used since 2007. Texts are read and searched through XTF, PhiloLogic and TXM, with facsimiles shown alongside where available. Fidelity levels of older transcriptions are heterogeneous, and the base is still being extended and revised. It includes the Montaigne author corpus of the ANR MONLOE project (montaigne.univ-tours.fr): the genetic edition of the Exemplaire de Bordeaux of the 1588 Essais (also deposited on HAL, halshs-01239978), the 1580 edition of the Essais (books I and II), Montaigne's 1581 translation of Sebond's Théologie naturelle, La Boétie's Servitude volontaire (Bordeaux Ms 2199), letters and family archives; MONLOE's editions of Montaigne's marginalia and inscriptions are PDFs on the BVH server and are not counted. The counts combine two harvests that share no text: 70 texts from the BVH site and 46 printed texts from a legacy TEI copy in Lou Burnard's tei-fr repository on GitHub (last updated 2015). Corpus statistics (text, word and language counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
    "corpus_statistics": {
     "snapshot": "v2026.10",
     "words": 5030539,
@@ -10910,6 +10912,31 @@
    "license": "CC-BY-4.0",
    "license_url": "https://creativecommons.org/licenses/by/4.0/legalcode",
    "doi": "10.25592/uhhfdm.9195"
+  },
+  {
+   "title": "RENUMAR — De minute en minute 2.0 (Ressources numériques pour l'édition des archives de la Renaissance)",
+   "url": "https://renumar.univ-tours.fr/",
+   "languages": [
+    "French"
+   ],
+   "document_types": [
+    "manuscript"
+   ],
+   "encoding": "html",
+   "status": "active",
+   "provenance": "discovered",
+   "date_added": "2026-10-19",
+   "institution": "Centre d'études supérieures de la Renaissance (CESR), Université de Tours, with the MSH Val de Loire (XTF) and the IRHT (TELMA)",
+   "period": "1450-1650",
+   "region": "France (Touraine, Berry, Paris, Chartres, Châteaudun)",
+   "countries": [
+    "FR"
+   ],
+   "years_active": {
+    "start": 2007,
+    "end": "ongoing"
+   },
+   "notes": "Database of Renaissance archival acts at the CESR, Tours: 95% notarial minutes (Tours, Amboise, Touraine, Paris, Bourges, Chartres, Châteaudun), with municipal accounts and deliberations and urban correspondence, 1450-1650. Of the 20,800 documents published on 1 April 2025, about 85% are given as analyses (summaries) and about 15% as transcriptions; the search engine indexes the two separately. Only the transcriptions are texts for this catalogue, and their number is not published, so texts and words are omitted. The data are encoded in XML-TEI with TELMA (IRHT) and shown as HTML through XTF (MSH Val de Loire); no TEI download was found on the site, Nakala, Zenodo or HAL, and the 2023 BVH report lists a FAIR release as work in progress. The base continues 'De minute en minute', created by the CESR in 2007 on the BVH site and moved in full to this platform in 2018; Pierre Aquilon contributed the Tours and Paris notarial records. The site returned server errors (HTTP 502 and 500) on 2026-10-27; a progress report of November 2025 (HAL halshs-05404234) shows continuing work. Sources: D. Rivaud, presentation at the École des chartes, 9 April 2025 (https://www.chartes.psl.eu/sites/default/files/public/media/document/2025-05/rivaud.pdf); S. Breuil, HAL halshs-03597555 (2018); rfgenealogie.com, 25 October 2022."
   },
   {
    "title": "Representative Poetry Online (University of Toronto)",
@@ -22384,7 +22411,7 @@
    "size_band": "1m-10m",
    "figures": "rq",
    "snapshot": "v2026.10",
-   "notes_display": "Epistemon is the text database of the Bibliothèques Virtuelles Humanistes (BVH) programme at the Centre d'Études Supérieures de la Renaissance, Université de Tours (head: Rémi Jimenes). It offers Renaissance texts (literature and author corpora, literary manuscripts and 16th-century archival documents) transcribed in a 'patrimonial' manner that respects layout, spelling and punctuation, encoded in XML-TEI following the project's TEI-Renaissance guidelines. The first texts went online in 1998 at the University of Poitiers and moved to Tours in 2001; TEI encoding has been used since 2007. Texts are read and searched through XTF, PhiloLogic and TXM, with facsimiles shown alongside where available. Fidelity levels of older transcriptions are heterogeneous, and the base is still being extended and revised. The counts combine two harvests that share no text: 70 texts from the BVH site and 46 printed texts from a legacy TEI copy in Lou Burnard's tei-fr repository on GitHub (last updated 2015).",
+   "notes_display": "Epistemon is the text database of the Bibliothèques Virtuelles Humanistes (BVH) programme at the Centre d'Études Supérieures de la Renaissance, Université de Tours (head: Rémi Jimenes). It offers Renaissance texts (literature and author corpora, literary manuscripts and 16th-century archival documents) transcribed in a 'patrimonial' manner that respects layout, spelling and punctuation, encoded in XML-TEI following the project's TEI-Renaissance guidelines. The first texts went online in 1998 at the University of Poitiers and moved to Tours in 2001; TEI encoding has been used since 2007. Texts are read and searched through XTF, PhiloLogic and TXM, with facsimiles shown alongside where available. Fidelity levels of older transcriptions are heterogeneous, and the base is still being extended and revised. It includes the Montaigne author corpus of the ANR MONLOE project (montaigne.univ-tours.fr): the genetic edition of the Exemplaire de Bordeaux of the 1588 Essais (also deposited on HAL, halshs-01239978), the 1580 edition of the Essais (books I and II), Montaigne's 1581 translation of Sebond's Théologie naturelle, La Boétie's Servitude volontaire (Bordeaux Ms 2199), letters and family archives; MONLOE's editions of Montaigne's marginalia and inscriptions are PDFs on the BVH server and are not counted. The counts combine two harvests that share no text: 70 texts from the BVH site and 46 printed texts from a legacy TEI copy in Lou Burnard's tei-fr repository on GitHub (last updated 2015).",
    "period_words": {
     "decades": [
      0,
@@ -33391,6 +33418,29 @@
     "undated": 0,
     "estimated_range": null
    }
+  },
+  {
+   "id": "renumar",
+   "sort_title": "renumar — de minute en minute 2.0 (ressources numeriques pour l'edition des archives de la renaissance)",
+   "host": "renumar.univ-tours.fr",
+   "url_display": "renumar.univ-tours.fr",
+   "archived_copy": null,
+   "data_display": null,
+   "period": {
+    "raw": "1450-1650",
+    "label": "1450–1650",
+    "start": 1450,
+    "end": 1650,
+    "approx": false,
+    "kind": "range",
+    "note": null,
+    "beyond_scope": false
+   },
+   "size_band": null,
+   "figures": "none",
+   "snapshot": null,
+   "notes_display": "Database of Renaissance archival acts at the CESR, Tours: 95% notarial minutes (Tours, Amboise, Touraine, Paris, Bourges, Chartres, Châteaudun), with municipal accounts and deliberations and urban correspondence, 1450-1650. Of the 20,800 documents published on 1 April 2025, about 85% are given as analyses (summaries) and about 15% as transcriptions; the search engine indexes the two separately. Only the transcriptions are texts for this catalogue, and their number is not published, so texts and words are omitted. The data are encoded in XML-TEI with TELMA (IRHT) and shown as HTML through XTF (MSH Val de Loire); no TEI download was found on the site, Nakala, Zenodo or HAL, and the 2023 BVH report lists a FAIR release as work in progress. The base continues 'De minute en minute', created by the CESR in 2007 on the BVH site and moved in full to this platform in 2018; Pierre Aquilon contributed the Tours and Paris notarial records. The site returned server errors (HTTP 502 and 500) on 2026-10-27; a progress report of November 2025 (HAL halshs-05404234) shows continuing work. Sources: D. Rivaud, presentation at the École des chartes, 9 April 2025 (https://www.chartes.psl.eu/sites/default/files/public/media/document/2025-05/rivaud.pdf); S. Breuil, HAL halshs-03597555 (2018); rfgenealogie.com, 25 October 2022.",
+   "period_words": null
   },
   {
    "id": "representative-poetry-online",
