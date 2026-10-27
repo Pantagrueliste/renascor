@@ -1,0 +1,40 @@
+{
+  "title": "La Mer des histoires (Paris, Pierre Le Rouge for Vincent Commin, 1488-1489)",
+  "url": "https://github.com/chartes/mer_des_histoires",
+  "data_url": "https://github.com/chartes/mer_des_histoires",
+  "data_format": "tei",
+  "languages": [
+    "French"
+  ],
+  "document_types": [
+    "print"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "provenance": "discovered",
+  "date_added": "2026-10-26",
+  "date": "1488-1489",
+  "institution": "École nationale des chartes – PSL (supported by the LabEx Hastec)",
+  "editors": [
+    "Frédéric Duval",
+    "Marco Maulu"
+  ],
+  "published": 2019,
+  "words": 654542,
+  "texts": 2,
+  "region": "France (Paris)",
+  "countries": [
+    "FR"
+  ],
+  "period": "1488-1489",
+  "last_modified": "2021-02-24",
+  "notes": "Full transcription in TEI XML of the two volumes of La Mer des histoires, the French universal chronicle adapted from the Rudimentum novitiorum, printed in Paris by Pierre Le Rouge for Vincent Commin. The second volume's colophon reads 'achevé ou mois de fevrier ... l'an Mil .CCCC.iiiixx. et .viii.' (February 1488, Old Style, i.e. 1489); the teiHeaders give a creation date of 1491, which the colophon does not support. The source copies are Gallica bpt6k15102040 (vol. 1) and bpt6k1510206t (vol. 2). The text was produced with Transkribus OCR, then corrected by hand and with the LGeRM tools (ATILF); the README calls it a test of a workflow from OCR to a TEI edition. Line, column and page breaks are kept, with links to the Transkribus regions, and editorial remarks are left as XML comments. There is no reading site: the GitHub repository (two files, mdh_tome1.xml and mdh_tome2.xml) is the only access point. The last commit is dated 17 February 2021 and the repository was last pushed on 24 February 2021. Words were counted in the TEI body of both files (302,559 + 351,983), excluding the teiHeader, XML comments and 11 editorial headings marked resp=\"#FD\"; texts = the two volumes.",
+  "resource_statistics": {
+    "url": "https://github.com/chartes/mer_des_histoires",
+    "date": "2026-10-26",
+    "note": "Counted from a clone of the master branch (commit 8ef15b5, 17 February 2021). Whitespace-separated tokens containing at least one letter or digit in the text of tei:body of xml/mdh_tome1.xml (302,559) and xml/mdh_tome2.xml (351,983), total 654,542. Excluded: the teiHeader, XML comments (editorial remarks) and the 11 tei:head elements with resp=\"#FD\" supplied by the editor; tei:lb, tei:cb and tei:pb treated as word boundaries (only 2 letter-to-letter joins found). Both volumes are dated 1488-1489, so the whole text is within 1450-1700."
+  },
+  "license": "CC-BY-NC-ND-3.0-FR",
+  "license_url": "https://github.com/chartes/mer_des_histoires/blob/master/xml/mdh_tome1.xml",
+  "license_note": "teiHeader of both files, publicationStmt/availability (status \"restricted\"): \"Copyright © 2019 École nationale des chartes\", made available under \"Attribution - Pas d'Utilisation Commerciale - Pas de Modification 3.0 France (CC BY-NC-ND 3.0 FR)\", with target http://creativecommons.org/licenses/by-nc-nd/3.0/fr/. The repository has no separate licence file."
+}
