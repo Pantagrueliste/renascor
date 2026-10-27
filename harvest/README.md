@@ -15,7 +15,7 @@ The Renascor Corpus snapshot v2026.10 adds to the frozen June working corpus (v2
 
 Texts are counted with the corpus's own tools (`rqfootprint.textstats`, the `ingest_texts` language normaliser, 1450–1700 window and filter for texts under 20 words). Duplicates follow the corpus policy: a harvested text is flagged `is_dup=1` when its normalised word sequence equals another text's, or when it is a near-copy (at least 80% of sampled five-word sequences in common) of a text from the same upstream files. Those are the same resource, or a corpus collection that took its texts from that resource: TextGrid_German for the TextGrid Repository, OpenEDGeS for the OpenEDGeS Bibles, Corpus Corporum for Poeti d'Italia in lingua latina. Independent editions or transcriptions of the same work stay counted as separate witnesses.
 
-Two corrections were applied to the staging files after the harvest. Undated Hartlib Papers files are counted in the window, since Hartlib died in 1662. Three Lüne letters dated 1423-1438 are kept out of it.
+Two corrections were applied to the staging files after the harvest. Undated Hartlib Papers files are counted in the window, since Hartlib died in 1662. Three Lüne letters dated 1423-1438 are kept out of it. In the frozen corpus, nine undated texts of the Biblioteca Virtual Miguel de Cervantes turned out to be 18th-century works (Ramón de la Cruz, José Cadalso, Torres Villarroel); `dated_out_of_window.json` lists them with their dates, and `build_snapshot.py` records their year and takes them out of scope.
 
 ## Rebuilding
 
@@ -24,7 +24,7 @@ python3 harvest/scripts/<id>.py                      # for each record (network;
 python3 harvest/fingerprint.py index-rq rq_index.sqlite   # fingerprints of the frozen corpus
 python3 harvest/fingerprint.py index-dirs rq_index.sqlite # corpus collections stored as whole raw files
 python3 harvest/dedup.py rq_index.sqlite duplicates.json
-python3 harvest/build_snapshot.py duplicates.json corpus_master.2026-10-14.v2026.10.sqlite
+python3 harvest/build_snapshot.py duplicates.json corpus_master.2026-10-27.v2026.10.sqlite
 ```
 
 Then refresh the catalogue as described in [docs/MAINTENANCE.md](../docs/MAINTENANCE.md#snapshot-v202610).

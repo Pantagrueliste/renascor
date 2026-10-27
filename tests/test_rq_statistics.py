@@ -172,6 +172,20 @@ class ResourceStatisticsTests(unittest.TestCase):
         rs.refresh_entries(folder, counts, families, {}, snapshot="v2026.10")
         self.assertEqual(json.loads((folder / "harvested.json").read_text()), after)
 
+    def test_later_snapshot_recounts_frozen_collections_with_texts_dated_out(self):
+        counts, _ = rs.read_database(self.db)
+        folder = self.root / "entries"
+        folder.mkdir()
+        entry = {"title": "Example", "words": 400, "texts": 4, "languages": ["Latin"], "license": "Not stated",
+                 "corpus_statistics": {"snapshot": "v2026.06", "words": 400, "texts": 4},
+                 "notes": rq_import.STATS_NOTE}
+        (folder / "example.json").write_text(json.dumps(entry))
+        rs.refresh_entries(folder, counts, {"groups": []}, {}, snapshot="v2026.10", recounted=frozenset({"Example"}))
+        after = json.loads((folder / "example.json").read_text())
+        self.assertEqual((after["words"], after["texts"]), (350, 3))
+        self.assertEqual(after["corpus_statistics"], {"snapshot": "v2026.10", "words": 150, "texts": 2})
+        self.assertIn("snapshot v2026.10", after["notes"])
+
 
 if __name__ == "__main__":
     unittest.main()
