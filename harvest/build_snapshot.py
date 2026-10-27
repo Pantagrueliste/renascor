@@ -33,6 +33,18 @@ SAME_SOURCE = {
 # the copy but are taken out of scope (in_core=0), so the snapshot counts catalogued resources only.
 EXCLUDED_FROZEN: dict[str, str] = {}  # {"Collection": "record-id"}
 REJECTED = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "data", "rejected.json")
+# Undated frozen texts later dated outside 1450-1700: they get their year and leave the scope (in_core=0),
+# as the frozen database already does for dated texts outside the window.
+DATED_OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "dated_out_of_window.json")
+
+
+def apply_dated_out(con):
+    for t in json.load(open(DATED_OUT))["texts"]:
+        assert not 1450 <= t["year"] <= 1700, t["filename"]
+        cur = con.execute("UPDATE texts SET year = ?, century = ?, date_confidence = 'work_date', in_core = 0, "
+                          "in_sens = 0 WHERE collection = ? AND filename = ? AND year IS NULL",
+                          (t["year"], t["year"] // 100 + 1, t["collection"], t["filename"]))
+        assert cur.rowcount == 1, t["filename"]
 
 
 def is_policy_dup(rid, d):
@@ -51,6 +63,7 @@ def main(dedup_path, out):
     for coll, rid in EXCLUDED_FROZEN.items():
         assert rid in rejected, rid
         con.execute("UPDATE texts SET in_core = 0, in_sens = 0 WHERE collection = ?", (coll,))
+    apply_dated_out(con)
     con.commit()
     con.close()
     summary = {}

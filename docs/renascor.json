@@ -14,11 +14,11 @@
         1450,
         1700
       ],
-      "words": 2225102717,
-      "texts": 217410,
+      "words": 2224988356,
+      "texts": 217401,
       "basis": "After the corpus duplicate filter; complete working snapshot, before catalogue grouping",
       "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/rq_statistics.json",
-      "database_sha256": "8c49aed71187dcce4d048c41979447657abc17fd5656db4d2dfe08b8e6084354"
+      "database_sha256": "c830d34aa37beb0b94cea5f90f390fa4ab9237bae482f6df30727f2d5cd5fbb9"
     },
     "records": 331,
     "fields": [
@@ -950,12 +950,12 @@
         "Spanish"
       ],
       "period": "1492-1700",
-      "words": 2373898,
-      "texts": 125,
+      "words": 2259537,
+      "texts": 116,
       "corpus_statistics": {
         "snapshot": "v2026.10",
-        "words": 2373898,
-        "texts": 125
+        "words": 2259537,
+        "texts": 116
       },
       "count_basis": "rq-retained-rows",
       "encoding": "html",
@@ -968,7 +968,7 @@
       "document_types": [
         "print"
       ],
-      "notes": "The 331 Spanish texts (comedias like 'El gran teatro del mundo', 'El vellocino de oro', etc.) were harvested from the Biblioteca Virtual Miguel de Cervantes, the major Spanish digital library run with the Universidad de Alicante. Site live. Open access but individual texts are copyrighted by BVMC (no blanket open licence). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
+      "notes": "Spanish texts harvested from the Biblioteca Virtual Miguel de Cervantes, the digital library of the Universidad de Alicante: comedias and autos by Lope de Vega, Calderón, Tirso de Molina, Moreto, Sor Juana Inés de la Cruz and others, with prose such as Cárcel de amor, La lozana andaluza and Don Quijote. Nine harvested texts date from the 18th century (five sainetes by Ramón de la Cruz, three works by José Cadalso and Torres Villarroel's Visiones y visitas, 1727-1728) and are not counted. Open access, but individual texts are copyrighted by the BVMC (no blanket open licence). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it)."
     },
     {
       "id": "bibaugustana",
@@ -10702,6 +10702,7 @@
       ],
       "period": "1450-1650",
       "encoding": "html",
+      "license": "Not stated",
       "status": "active",
       "region": "France (Touraine, Berry, Paris, Chartres, Châteaudun)",
       "countries": [

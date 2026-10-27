@@ -28,6 +28,8 @@ SOURCE = "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06
 # Collections added by the catalogue harvest (RQ/data/raw/renascor_2026-10): Renascor_<record id>.
 HARVEST_PREFIX = "Renascor_"
 HARVEST_SCOPE = "texts harvested from this resource in October 2026, duplicates included; they may cover only part of it"
+# Frozen texts dated outside 1450-1700 after the freeze; build_snapshot.py takes them out of scope.
+DATED_OUT = ROOT / "harvest/dated_out_of_window.json"
 
 
 def checksum(path: Path) -> str:
@@ -164,7 +166,7 @@ def aggregate_collections(stats: dict, members: list[str]) -> dict:
 
 
 def refresh_entries(entries_dir: Path, stats: dict, families: dict, licenses: dict,
-                    snapshot: str = SNAPSHOT) -> dict:
+                    snapshot: str = SNAPSHOT, recounted: frozenset = frozenset()) -> dict:
     projects = project_collections(stats, families)
     changed, refreshed, increased = 0, 0, 0
     updates = []
@@ -173,7 +175,9 @@ def refresh_entries(entries_dir: Path, stats: dict, families: dict, licenses: di
         before = dict(entry)
         members = projects.get(path.stem)
         harvest = [m for m in members or [] if m.startswith(HARVEST_PREFIX)]
-        if snapshot != SNAPSHOT and not harvest:
+        # Frozen collections that lost texts dated outside the window are recounted.
+        changed_frozen = bool(recounted & set(members or []))
+        if snapshot != SNAPSHOT and not harvest and not changed_frozen:
             # A later snapshot copies the frozen collections unchanged: relabel, never recount
             # (some records hold hand-split shares of one frozen collection).
             if entry.get("corpus_statistics"):
@@ -193,7 +197,7 @@ def refresh_entries(entries_dir: Path, stats: dict, families: dict, licenses: di
             else:
                 # Refuse to silently mix the June snapshot with a later recount.
                 previous = entry.get("corpus_statistics", entry)
-                if (previous.get("words"), previous.get("texts")) != (s["corpus_words"], s["corpus_texts"]):
+                if not changed_frozen and (previous.get("words"), previous.get("texts")) != (s["corpus_words"], s["corpus_texts"]):
                     raise ValueError(f"{path.stem}: frozen counts do not match the catalogue; use its exact snapshot")
             corpus = {"snapshot": snapshot, "words": s["corpus_words"], "texts": s["corpus_texts"]}
             # A newer source census takes precedence over the frozen harvested subset.
@@ -256,7 +260,9 @@ def main() -> int:
     if not args.dry_run:
         families = json.loads(args.families.read_text())
         licenses = json.loads((ROOT / "scripts/rq_licenses_verified.json").read_text())["entries"]
-        print(json.dumps(refresh_entries(args.entries_dir, stats, families, licenses, args.snapshot)))
+        recounted = frozenset(t["collection"] for t in json.loads(DATED_OUT.read_text())["texts"]) \
+            if args.snapshot != SNAPSHOT else frozenset()
+        print(json.dumps(refresh_entries(args.entries_dir, stats, families, licenses, args.snapshot, recounted)))
         args.out.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n")
     print(f"Recovered {sum(a['restored_texts'] for a in audits):,} texts / "
           f"{sum(a['restored_words'] for a in audits):,} words from {len(audits)} locked staging files")

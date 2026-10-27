@@ -12,14 +12,14 @@
   "status": "active",
   "provenance": "submitted",
   "date_added": "2026-10-07",
-  "words": 2373898,
-  "texts": 125,
-  "notes": "The 331 Spanish texts (comedias like 'El gran teatro del mundo', 'El vellocino de oro', etc.) were harvested from the Biblioteca Virtual Miguel de Cervantes, the major Spanish digital library run with the Universidad de Alicante. Site live. Open access but individual texts are copyrighted by BVMC (no blanket open licence). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "words": 2259537,
+  "texts": 116,
+  "notes": "Spanish texts harvested from the Biblioteca Virtual Miguel de Cervantes, the digital library of the Universidad de Alicante: comedias and autos by Lope de Vega, Calderón, Tirso de Molina, Moreto, Sor Juana Inés de la Cruz and others, with prose such as Cárcel de amor, La lozana andaluza and Don Quijote. Nine harvested texts date from the 18th century (five sainetes by Ramón de la Cruz, three works by José Cadalso and Torres Villarroel's Visiones y visitas, 1727-1728) and are not counted. Open access, but individual texts are copyrighted by the BVMC (no blanket open licence). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "institution": "Fundación Marcelino Botín / Universidad de Alicante",
   "corpus_statistics": {
     "snapshot": "v2026.10",
-    "words": 2373898,
-    "texts": 125
+    "words": 2259537,
+    "texts": 116
   },
   "count_basis": "rq-retained-rows",
   "license": "Custom terms",

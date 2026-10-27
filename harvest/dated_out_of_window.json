@@ -1,0 +1,83 @@
+{
+ "comment": "Texts of the frozen corpus that had no year and were dated outside 1450-1700 (October 2026 review of the 125 undated BVMC texts: author, author's dates and the work's composition or first publication, each checked by a second reviewer). build_snapshot.py records the year and takes them out of scope (in_core=0). year is the composition or first-publication year, or the earliest firm year of the author's working life when no exact date is known.",
+ "reviewed": {
+  "collection": "BibCerTxt",
+  "texts": 125,
+  "outside_window": 9,
+  "date": "2026-10-27"
+ },
+ "texts": [
+  {
+   "collection": "BibCerTxt",
+   "filename": "de-tres-ninguna-2015.txt",
+   "title": "De tres, ninguna",
+   "author": "Ramón de la Cruz",
+   "year": 1757,
+   "date": "c. 1757-1794 (sainete; no premiere date found)"
+  },
+  {
+   "collection": "BibCerTxt",
+   "filename": "defensa-de-la-nacion-espanola-contra-la-carta-persiana-lxxviii-de-montesquieu-2012.txt",
+   "title": "Defensa de la nación española contra la «Carta Persiana LXXVIII» de Montesquieu",
+   "author": "José Cadalso",
+   "year": 1768,
+   "date": "c. 1768-1771 (manuscript; first printed 1970)"
+  },
+  {
+   "collection": "BibCerTxt",
+   "filename": "el-hospital-de-la-moda-2015.txt",
+   "title": "El hospital de la Moda",
+   "author": "Ramón de la Cruz",
+   "year": 1762,
+   "date": "1762"
+  },
+  {
+   "collection": "BibCerTxt",
+   "filename": "el-marido-discreto-2010.txt",
+   "title": "El marido discreto",
+   "author": "Ramón de la Cruz",
+   "year": 1757,
+   "date": "c. 1757-1794 (sainete; no premiere date found)"
+  },
+  {
+   "collection": "BibCerTxt",
+   "filename": "los-bandos-de-lavapies-2015.txt",
+   "title": "Los bandos de Lavapiés",
+   "author": "Ramón de la Cruz",
+   "year": 1776,
+   "date": "1776 (first performed in Madrid)"
+  },
+  {
+   "collection": "BibCerTxt",
+   "filename": "los-eruditos-a-la-violeta--2010.txt",
+   "title": "Los eruditos a la violeta",
+   "author": "José Cadalso",
+   "year": 1772,
+   "date": "1772 (first edition)"
+  },
+  {
+   "collection": "BibCerTxt",
+   "filename": "manolo-2015.txt",
+   "title": "Manolo",
+   "author": "Ramón de la Cruz",
+   "year": 1769,
+   "date": "1769 (first performed)"
+  },
+  {
+   "collection": "BibCerTxt",
+   "filename": "ocios-de-mi-juventud-2010.txt",
+   "title": "Ocios de mi juventud",
+   "author": "José Cadalso",
+   "year": 1773,
+   "date": "1773 (first edition)"
+  },
+  {
+   "collection": "BibCerTxt",
+   "filename": "visiones-y-visitas-de-torres-con-don-francisco-de-quevedo-por-la-corte-2011.txt",
+   "title": "Visiones y visitas de Torres con don Francisco de Quevedo por la Corte",
+   "author": "Diego de Torres Villarroel",
+   "year": 1727,
+   "date": "1727-1728 (first edition)"
+  }
+ ]
+}

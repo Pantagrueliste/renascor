@@ -1,7 +1,7 @@
 {
   "snapshot": "v2026.10",
   "source": "https://github.com/Pantagrueliste/renascor/blob/main/docs/MAINTENANCE.md#snapshot-v202610",
-  "database_sha256": "8c49aed71187dcce4d048c41979447657abc17fd5656db4d2dfe08b8e6084354",
+  "database_sha256": "c830d34aa37beb0b94cea5f90f390fa4ab9237bae482f6df30727f2d5cd5fbb9",
   "scope": [
     1450,
     1700
@@ -427,10 +427,10 @@
       "restored_words": 0
     },
     "BibCerTxt": {
-      "texts": 125,
-      "words": 2373898,
-      "corpus_texts": 125,
-      "corpus_words": 2373898,
+      "texts": 116,
+      "words": 2259537,
+      "corpus_texts": 116,
+      "corpus_words": 2259537,
       "languages": [
         "Spanish"
       ],
