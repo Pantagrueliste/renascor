@@ -408,6 +408,14 @@
       "reason": "English Prose Drama Database was a licensed Chadwyck-Healey product searched through Indiana's LETRS server; the server no longer resolves and the search pages are not archived.",
       "source_url": "http://www.letrs.indiana.edu/eprosed/index.html",
       "date": "2026-10-13"
+    },
+    {
+      "id": "elec-actes-royaux-du-poitou",
+      "title": "Actes royaux du Poitou (Recueil des documents concernant le Poitou contenus dans les registres de la Chancellerie de France), École des chartes",
+      "url": "https://github.com/chartes/actesroyauxdupoitou",
+      "reason": "Uncorrected OCR of Paul Guérin's 1881-1919 edition: the repository README says the OCR reading errors have not been proofread. Most of the material also falls before 1450 (acts of 1302-1483; about 500 of 1,616 transcribed acts date from 1450 or later).",
+      "source_url": "https://github.com/chartes/actesroyauxdupoitou/blob/migration/README.md",
+      "date": "2026-10-27"
     }
   ],
   "review_pending": [
