@@ -44,6 +44,10 @@ CITATION_PATH = REPO_ROOT / "CITATION.cff"
 DOCS_DIR = REPO_ROOT / "docs"
 REPO_URL = "https://github.com/Pantagrueliste/renascor"
 
+SITE_URL = "https://pantagrueliste.github.io/renascor/"
+SEO_TITLE = "Renascor | Renaissance Digital Editions, 1450–1700"
+SEO_DESCRIPTION = ("Find freely accessible Renaissance and early modern texts, 1450–1700. "
+                   "Browse digital editions by language, period and format; download open catalogue data.")
 SITE_TITLE = "Renascor"
 SITE_DESCRIPTION = "An open catalogue of digital editions of Renaissance-era written documents"
 
@@ -783,6 +787,70 @@ def share_chart(stats: dict) -> str:
             '<tbody>' + "".join(rows) + '</tbody></table>')
 
 
+def seo_head(meta: dict) -> str:
+    """Describe the public catalogue dataset, not the unreleased text corpus."""
+    citation = read_citation()
+    dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "@id": SITE_URL + "#dataset",
+        "url": SITE_URL,
+        "name": citation.get("title") or SITE_DESCRIPTION,
+        "description": SEO_DESCRIPTION,
+        "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "creator": {"@type": "Person", "name": citation.get("author", "")},
+        "version": meta["version"],
+        "temporalCoverage": "1450/1700",
+        "distribution": [
+            {"@type": "DataDownload", "contentUrl": SITE_URL + filename,
+             "encodingFormat": mime}
+            for filename, mime in [("renascor.csv", "text/csv"),
+                                   ("renascor.json", "application/json")]
+        ],
+    }
+    if citation.get("doi"):
+        dataset["identifier"] = "https://doi.org/" + citation["doi"]
+        dataset["sameAs"] = dataset["identifier"]
+    if meta.get("updated"):
+        dataset["dateModified"] = meta["updated"]
+    tags = [f'<title>{html.escape(SEO_TITLE)}</title>',
+            f'<link rel="canonical" href="{SITE_URL}">',
+            f'<link rel="sitemap" type="application/xml" href="{SITE_URL}sitemap.xml">']
+    for attr, key, value in [
+        ("name", "description", SEO_DESCRIPTION),
+        ("property", "og:type", "website"),
+        ("property", "og:site_name", SITE_TITLE),
+        ("property", "og:title", SEO_TITLE),
+        ("property", "og:description", SEO_DESCRIPTION),
+        ("property", "og:url", SITE_URL),
+        ("name", "twitter:card", "summary"),
+        ("name", "twitter:title", SEO_TITLE),
+        ("name", "twitter:description", SEO_DESCRIPTION),
+    ]:
+        tags.append(f'<meta {attr}="{key}" content="{html.escape(value, quote=True)}">')
+    # Prevent catalogue metadata from terminating the script element.
+    payload = json.dumps(dataset, ensure_ascii=False, indent=2).replace("<", "\\u003c")
+    tags.append('<script type="application/ld+json">' + payload + '</script>')
+    return "\n".join(tags)
+
+
+def static_catalogue(entries, derived) -> str:
+    """Readable records before JS loads, or when it is disabled/unavailable."""
+    records = []
+    for i in default_order(derived):
+        e, d = entries[i][1], derived[i]
+        title = html.escape(e["title"])
+        url = e.get("url", "")
+        if urlsplit(url).scheme in {"http", "https"}:
+            title = f'<a href="{html.escape(url, quote=True)}">{title}</a>'
+        details = " · ".join(filter(None, [", ".join(e.get("languages", [])),
+                              e.get("period"), e.get("encoding")]))
+        notes = html.escape(d.get("notes_display") or "")
+        records.append(f'<article id="{d["id"]}"><h3>{title}</h3>'
+                       f'<p>{html.escape(details)}</p><p>{notes}</p></article>')
+    return '<div id="static-catalogue" class="prose">' + "\n".join(records) + '</div>'
+
+
 # --- Writing index.html -------------------------------------------------------------------
 
 STAT_RE = re.compile(r'(<(?P<tag>[a-z0-9]+)\b[^>]*\sdata-stat="(?P<key>[a-z0-9_]+)"[^>]*>)(?P<inner>[^<]*)(</(?P=tag)>)')
@@ -927,7 +995,7 @@ def public_json(entries, derived, meta) -> dict:
 
 
 def write_outputs(entries, derived, meta, out_dir: Path, index_template: Path) -> list[str]:
-    """Write the five outputs; returns the names of the files that changed."""
+    """Write the public outputs; returns the names of the files that changed."""
     changed = []
     out_dir.mkdir(parents=True, exist_ok=True)
     payload = {"meta": meta, "entries": [e for _, e in entries], "derived": derived}
@@ -938,6 +1006,9 @@ def write_outputs(entries, derived, meta, out_dir: Path, index_template: Path) -
                                   for i in default_order(derived)]),
         "renascor.json": json.dumps(public_json(entries, derived, meta), ensure_ascii=False, indent=2) + "\n",
         "renascor.bib": bibtex_text(entries, derived),
+        "sitemap.xml": ('<?xml version="1.0" encoding="UTF-8"?>\n'
+                        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
+                        f'<url><loc>{SITE_URL}</loc></url></urlset>\n'),
     }
     for name, text in files.items():
         if write_if_changed(out_dir / name, text.encode("utf-8")):
@@ -950,7 +1021,9 @@ def write_outputs(entries, derived, meta, out_dir: Path, index_template: Path) -
         if app.exists() and write_if_changed(out_dir / "app.js", app.read_bytes()):
             changed.append("app.js")
     page = index_template.read_text(encoding="utf-8")
-    page = inject(page, meta["display"], {"share-chart": share_chart(meta["stats"])})
+    page = inject(page, meta["display"], {"share-chart": share_chart(meta["stats"]),
+                                       "seo": seo_head(meta),
+                                       "catalogue": static_catalogue(entries, derived)})
     if write_if_changed(target, page.encode("utf-8")):
         changed.append("index.html")
     return changed

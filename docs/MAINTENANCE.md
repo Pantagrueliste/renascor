@@ -9,7 +9,7 @@ python3 -m unittest discover -s tests -v
 python3 -m http.server 8000 --directory docs
 ```
 
-The build validates every entry and generates `docs/data.json`, `docs/renascor.csv`, `docs/renascor.json` and `docs/renascor.bib`. It also updates the figures and charts in `docs/index.html`. Rebuilding unchanged data is deterministic.
+The build validates every entry and generates `docs/data.json`, `docs/renascor.csv`, `docs/renascor.json` and `docs/renascor.bib`. It also updates the figures, charts, static catalogue records and search metadata in `docs/index.html`, and generates `docs/sitemap.xml`. Rebuilding unchanged data is deterministic.
 
 For a scratch build:
 
@@ -95,3 +95,13 @@ Multilingual entries harvested into the Renascor Corpus record how many texts an
 python3 scripts/language_breakdown.py --db /path/to/corpus_master.sqlite
 python3 scripts/build_site.py
 ```
+
+## Search visibility
+
+The build supplies a canonical URL, sharing metadata and Dataset JSON-LD for the public CC0 catalogue. The dataset description does not describe the unreleased Renascor Corpus. All records are readable in the initial HTML; JavaScript replaces this fallback after the interactive list renders successfully.
+
+The canonical deployment URL is `SITE_URL` in `scripts/build_site.py`. Update it if hosting changes. The sitemap lists the single catalogue page: record fragments and filter combinations are not separate pages. It deliberately omits `lastmod` because data commit dates do not capture all page changes.
+
+After deployment, submit `https://pantagrueliste.github.io/renascor/sitemap.xml` in Google Search Console and inspect the homepage with URL Inspection and the Rich Results Test. Dataset markup follows [Google’s dataset documentation](https://developers.google.com/search/docs/appearance/structured-data/dataset). Indexing and ranking remain search engine decisions.
+
+GitHub Pages hosts this project under `/renascor/`. A robots.txt inside that directory would not control crawling; robots rules must live at the origin root (`https://pantagrueliste.github.io/robots.txt`). No project-level robots.txt is generated.

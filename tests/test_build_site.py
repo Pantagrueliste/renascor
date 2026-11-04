@@ -10,6 +10,7 @@ import re
 import shutil
 import tempfile
 import unittest
+import xml.etree.ElementTree as ET
 from contextlib import redirect_stderr, redirect_stdout
 from io import StringIO
 from pathlib import Path
@@ -443,6 +444,32 @@ class BuildTests(unittest.TestCase):
         page = (self.out / "index.html").read_text(encoding="utf-8")
         self.assertIn('<dd data-stat="editions">3</dd>', page)
         self.assertNotIn("rq-open-corpus", page.lower())
+
+    def test_search_metadata_and_records_are_in_initial_html(self):
+        code, _, err = self.run_build()
+        self.assertEqual(code, 0, err)
+        page = (self.out / "index.html").read_text()
+        self.assertEqual(page.count('<link rel="canonical"'), 1)
+        self.assertIn(f'<link rel="canonical" href="{bs.SITE_URL}">', page)
+        raw = re.search(r'<script type="application/ld\+json">(.*?)</script>', page, re.S)
+        dataset = json.loads(raw.group(1))
+        self.assertEqual(dataset["@type"], "Dataset")
+        self.assertEqual(dataset["dateModified"], "2026-10-07")
+        for download in dataset["distribution"]:
+            self.assertTrue((self.out / download["contentUrl"].removeprefix(bs.SITE_URL)).exists())
+        for name in ("alpha", "beta", "gamma"):
+            self.assertIn(f'<article id="{name}">', page)
+        sitemap = ET.parse(self.out / "sitemap.xml")
+        urls = sitemap.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
+        self.assertEqual([url.text for url in urls], [bs.SITE_URL])
+
+    def test_static_catalogue_escapes_content_and_rejects_script_links(self):
+        e = entry(title='<script>alert(1)</script>', url='javascript:alert(1)',
+                  notes='A <b>description</b>')
+        result = bs.static_catalogue([('safe.json', e)], [bs.derive_entry('safe', e)])
+        self.assertNotIn('<script>', result)
+        self.assertNotIn('href=', result)
+        self.assertIn('&lt;b&gt;description&lt;/b&gt;', result)
 
     def test_build_fails_on_reserved_id_and_corpus_link(self):
         (self.entries / "about.json").write_text(json.dumps(entry()), encoding="utf-8")

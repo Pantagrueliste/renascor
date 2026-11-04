@@ -148,6 +148,7 @@ function init(data) {
 	ready = true;
 	els.results.removeAttribute('aria-busy');
 	render();
+	$('static-catalogue')?.remove();
 	announce.cancel();   // loading is not a change
 	updateStickyH();
 	if (location.hash.length > 1) openFromHash();
