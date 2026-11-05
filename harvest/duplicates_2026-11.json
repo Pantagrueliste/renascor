@@ -1,0 +1,69 @@
+{
+ "cordican": {
+  "texts": 354,
+  "words": 716216,
+  "dup_texts": 4,
+  "dup_words": 15165,
+  "against": {
+   "cordican": 4
+  },
+  "unique_texts": 350,
+  "unique_words": 701051,
+  "dups": [
+   {
+    "filename": "CORDICan_000117.xml.xml",
+    "kind": "near",
+    "against": "cordican/CORDICan_000107.xml.xml",
+    "words": 1622
+   },
+   {
+    "filename": "CORDICan_000229.xml.xml",
+    "kind": "near",
+    "against": "cordican/CORDICan_000173.xml.xml",
+    "words": 3348
+   },
+   {
+    "filename": "CORDICan_000238.xml.xml",
+    "kind": "near",
+    "against": "cordican/CORDICan_000177.xml.xml",
+    "words": 313
+   },
+   {
+    "filename": "CORDICan_000700.xml.xml",
+    "kind": "near",
+    "against": "cordican/CORDICan_000625.xml.xml",
+    "words": 9882
+   }
+  ]
+ },
+ "cta-ancient-texts": {
+  "texts": 13,
+  "words": 455238,
+  "dup_texts": 0,
+  "dup_words": 0,
+  "against": {},
+  "unique_texts": 13,
+  "unique_words": 455238,
+  "dups": []
+ },
+ "cordina-north-america": {
+  "texts": 0,
+  "words": 0,
+  "dup_texts": 0,
+  "dup_words": 0,
+  "against": {},
+  "unique_texts": 0,
+  "unique_words": 0,
+  "dups": []
+ },
+ "nostoi": {
+  "texts": 0,
+  "words": 0,
+  "dup_texts": 0,
+  "dup_words": 0,
+  "against": {},
+  "unique_texts": 0,
+  "unique_words": 0,
+  "dups": []
+ }
+}

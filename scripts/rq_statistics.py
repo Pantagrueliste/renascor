@@ -27,7 +27,13 @@ SNAPSHOT = "v2026.06"
 SOURCE = "https://github.com/Pantagrueliste/rq-open-corpus/releases/tag/v2026.06-frozen"
 # Collections added by the catalogue harvest (RQ/data/raw/renascor_2026-10): Renascor_<record id>.
 HARVEST_PREFIX = "Renascor_"
-HARVEST_SCOPE = "texts harvested from this resource in October 2026, duplicates included; they may cover only part of it"
+def harvest_scope(snapshot: str) -> str:
+    """Month name of a vYYYY.MM snapshot for the harvest note, e.g. v2026.11 -> November 2026."""
+    month = {"01": "January", "02": "February", "03": "March", "04": "April", "05": "May",
+             "06": "June", "07": "July", "08": "August", "09": "September", "10": "October",
+             "11": "November", "12": "December"}.get(snapshot.split(".")[-1], snapshot)
+    year = snapshot.split(".")[0][1:]
+    return f"texts harvested from this resource in {month} {year}, duplicates included; they may cover only part of it"
 # Frozen texts dated outside 1450-1700 after the freeze; build_snapshot.py takes them out of scope.
 DATED_OUT = ROOT / "harvest/dated_out_of_window.json"
 
@@ -220,7 +226,7 @@ def refresh_entries(entries_dir: Path, stats: dict, families: dict, licenses: di
                 notes = re.sub(r"((?:Renascor Corpus|RQ Open Corpus) snapshot )v[\w.]+", rf"\g<1>{snapshot}", notes)
             elif harvest and not entry.get("resource_statistics"):
                 notes = (notes.rstrip() + " " if notes.strip() else "") + \
-                    f"Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot {snapshot} ({HARVEST_SCOPE})."
+                    f"Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot {snapshot} ({harvest_scope(snapshot)})."
             if notes:
                 entry["notes"] = notes
         verified = licenses.get(path.stem)

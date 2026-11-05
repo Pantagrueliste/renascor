@@ -1,0 +1,66 @@
+{
+ "cordican": {
+  "id": "cordican",
+  "texts_total": 1095,
+  "words_total": 1152871,
+  "texts_in_window": 354,
+  "words_in_window": 716216,
+  "undated": 9,
+  "language_words": {
+   "Spanish": 716216
+  },
+  "method": "Document ids from the files listing of folder xmlfiles/CORDICan (action=files&folder=...), raw TEI via action=getxml&cid= (the stats action returns an empty reply on this instance); year from the TEI header document date.",
+  "coverage": "All 1095 documents in xmlfiles/CORDICan (other folders on the instance excluded).",
+  "problems": [
+   "9 of 1095 documents have no extractable date in the TEI header: year=None, dateless_in_window=False, so not counted in window (the corpus covers the 16th-19th centuries; some undated ones may be in window).",
+   "Only the xmlfiles/CORDICan folder was harvested; the instance also hosts other folders (Irene_Bello, Miguel_Inquisición, Pruebas_curso, Tesis_Cira) and root-level test files, which belong to other projects/tests. Raw TEI XML kept as harvested; year from origDate/msDesc."
+  ]
+ },
+ "cordina-north-america": {
+  "id": "cordina-north-america",
+  "texts_total": 122,
+  "words_total": 35877,
+  "texts_in_window": 0,
+  "words_in_window": 0,
+  "undated": 0,
+  "language_words": {},
+  "method": "Document ids from the stats pages (action=stats&start=...), raw TEI via action=getxml&cid=; year from the TEI header document date.",
+  "coverage": "All 122 documents listed on the statistics pages.",
+  "problems": [
+   "0 of 122 documents have no extractable date in the TEI header: year=None, dateless_in_window=False, so not counted in window (the corpus covers the 16th-20th centuries; some undated ones may be in window).",
+   "Raw TEI XML kept as harvested (RQ's counter keeps only <text>/<body>); year from origDate/msDesc (document date). Texts also appear in the CHARTA corpus (same CHARTA network files)."
+  ]
+ },
+ "cta-ancient-texts": {
+  "id": "cta-ancient-texts",
+  "texts_total": 35,
+  "words_total": 816773,
+  "texts_in_window": 13,
+  "words_in_window": 455238,
+  "undated": 4,
+  "language_words": {
+   "Portuguese": 455238
+  },
+  "method": "Document ids from the stats pages (action=stats&start=...), raw TEI via action=getxml&cid=; Test/ folder excluded; year from the TEI header document date.",
+  "coverage": "All 35 corpus documents listed on the statistics pages (Test/ platform files excluded).",
+  "problems": [
+   "4 of 35 documents have no extractable date in the TEI header: year=None, dateless_in_window=False, so not counted in window.",
+   "Raw TEI XML kept as harvested (RQ's counter keeps only <text>/<body>); year from origDate/msDesc (document date), not the composition date in sourceDesc."
+  ]
+ },
+ "nostoi": {
+  "id": "nostoi",
+  "texts_total": 2,
+  "words_total": 3302,
+  "texts_in_window": 0,
+  "words_in_window": 0,
+  "undated": 0,
+  "language_words": {},
+  "method": "Document ids from the files page (action=files), raw TEI via action=getxml&cid=; prueba* test files excluded; year from the TEI header document date.",
+  "coverage": "All 2 documents in the TEITOK files listing (the corpus is still being built).",
+  "problems": [
+   "0 of 2 documents have no extractable date in the TEI header: year=None, dateless_in_window=False, so not counted in window.",
+   "The TEITOK instance currently holds only 2 corpus documents (NOSTOI-01_HT, NOSTOI-02_CTc); the stats page lists just a test file. The remaining testimonies (NOSTOI-03 to NOSTOI-11) are presented on the static project site but are not yet in the TEITOK corpus."
+  ]
+ }
+}

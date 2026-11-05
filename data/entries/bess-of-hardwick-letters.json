@@ -31,11 +31,11 @@
   "period": "1550-1608",
   "license": "CC-BY-NC-4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
-  "notes": "Complete correspondence of Bess of Hardwick (c. 1521/7-1608): 234 letters to and from her, each with diplomatic and normalised transcripts, colour images of 185 of them, and commentary. All letters fall within 1550-1608 (1550s: 7; 1560s: 31; 1570s: 74; 1580s: 52; 1590s: 18; 1600s: 52). The letters are served as XML (a project-specific format, not TEI), and the whole set, with a metadata database, can be downloaded from the Digital Humanities Institute data service. Version 1.0 was released in September 2013 and the data was deposited on 13 July 2021; no later change is visible, so the status is archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Complete correspondence of Bess of Hardwick (c. 1521/7-1608): 234 letters to and from her, each with diplomatic and normalised transcripts, colour images of 185 of them, and commentary. All letters fall within 1550-1608 (1550s: 7; 1560s: 31; 1570s: 74; 1580s: 52; 1590s: 18; 1600s: 52). The letters are served as XML (a project-specific format, not TEI), and the whole set, with a metadata database, can be downloaded from the Digital Humanities Institute data service. Version 1.0 was released in September 2013 and the data was deposited on 13 July 2021; no later change is visible, so the status is archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 100764,
     "texts": 234
   },

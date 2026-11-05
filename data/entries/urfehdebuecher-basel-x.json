@@ -28,11 +28,11 @@
   "date": "1563-1569",
   "license": "CC-BY-NC-SA-4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0",
-  "notes": "Digital edition (beta) of one volume of the oaths of truce (Urfehden) sworn before the Basel council: Staatsarchiv Basel-Stadt, Ratsbücher O 10, Urfehdebuch X, January 1563 to December 1569. The site does not cover the other Urfehdebücher. The volume has 626 entries, all within the period. The record page shows 'zuletzt verändert am 31.1.2017' (last changed 31 January 2017) and the project belongs to a 2016 teaching exercise, so it is listed as archived. Page images are hosted externally by the Staatsarchiv Basel-Stadt. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Digital edition (beta) of one volume of the oaths of truce (Urfehden) sworn before the Basel council: Staatsarchiv Basel-Stadt, Ratsbücher O 10, Urfehdebuch X, January 1563 to December 1569. The site does not cover the other Urfehdebücher. The volume has 626 entries, all within the period. The record page shows 'zuletzt verändert am 31.1.2017' (last changed 31 January 2017) and the project belongs to a 2016 teaching exercise, so it is listed as archived. Page images are hosted externally by the Staatsarchiv Basel-Stadt. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 85455,
     "texts": 621
   },

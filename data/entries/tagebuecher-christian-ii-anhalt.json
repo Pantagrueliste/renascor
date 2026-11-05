@@ -31,13 +31,13 @@
   "words": 2643525,
   "texts": 338,
   "last_modified": "2026-05-13",
-  "notes": "Annotated edition of the diaries Prince Christian II wrote between 1621 and 1656 (about 17,000 manuscript pages, all done), with facsimiles, translations of foreign passages, comments, indexes and a project website (www.tagebuch-christian-ii-anhalt.de). One TEI XML file per month is served on the HAB server. The 338 monthly files hold 10,086 diary entries. Each monthly file is counted as one text. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Annotated edition of the diaries Prince Christian II wrote between 1621 and 1656 (about 17,000 manuscript pages, all done), with facsimiles, translations of foreign passages, comments, indexes and a project website (www.tagebuch-christian-ii-anhalt.de). One TEI XML file per month is served on the HAB server. The 338 monthly files hold 10,086 diary entries. Each monthly file is counted as one text. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "CC-BY-SA-3.0",
   "license_url": "http://diglib.hab.de/rights/cc_by-sa.html",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 2643525,
     "texts": 338
   },

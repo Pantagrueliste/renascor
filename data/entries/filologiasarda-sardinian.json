@@ -17,9 +17,9 @@
   "words": 10596,
   "texts": 4,
   "period": "1573-1597",
-  "notes": "Digital reproduction (PDF) of Gerolamo Araolla's 'Rimas diversas spirituales' (original collection 1597), the spiritual verse of a Sardinian priest of Sassari, edited by Maurizio Virdis (Cuec, series Scrittori sardi, 2006, 510 pp.). It is published on the portal of the Centro di Studi Filologici Sardi (Cagliari), which offers the series as PDF files beside the print edition. The record is one entry in an ongoing series of editions of Sardinian authors. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.filologiasarda.eu/.",
+  "notes": "Digital reproduction (PDF) of Gerolamo Araolla's 'Rimas diversas spirituales' (original collection 1597), the spiritual verse of a Sardinian priest of Sassari, edited by Maurizio Virdis (Cuec, series Scrittori sardi, 2006, 510 pp.). It is published on the portal of the Centro di Studi Filologici Sardi (Cagliari), which offers the series as PDF files beside the print edition. The record is one entry in an ongoing series of editions of Sardinian authors. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this edition, duplicates included; they may cover only part of it). https://www.filologiasarda.eu/.",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 10596,
     "texts": 4
   },

@@ -29,11 +29,11 @@
   },
   "license": "Copyright",
   "license_url": "http://diglib.hab.de/rights/copyright.html",
-  "notes": "Transcription of the nineteen Latin letters Athanasius Kircher sent to Duke August the Younger of Brunswick-Wolfenbüttel (Herzog August Bibliothek, BA II 351-365 and others), with line numbers, a transcription with apparatus, a German translation, commentary and source images. Published in 2003; the revision log shows the last changes in December 2012 and 2018 (link corrections), so the status is archived. HAB terms allow private scholarly use and bar commercial reuse. The counts cover the 21 letters found on the transcription page. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Transcription of the nineteen Latin letters Athanasius Kircher sent to Duke August the Younger of Brunswick-Wolfenbüttel (Herzog August Bibliothek, BA II 351-365 and others), with line numbers, a transcription with apparatus, a German translation, commentary and source images. Published in 2003; the revision log shows the last changes in December 2012 and 2018 (link corrections), so the status is archived. HAB terms allow private scholarly use and bar commercial reuse. The counts cover the 21 letters found on the transcription page. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 6794,
     "texts": 21
   },

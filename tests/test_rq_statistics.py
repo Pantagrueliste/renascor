@@ -168,7 +168,7 @@ class ResourceStatisticsTests(unittest.TestCase):
         self.assertEqual(after["corpus_statistics"], {"snapshot": "v2026.10", "words": 400, "texts": 1})
         self.assertEqual((after["languages"], after["period"]), (["German", "Latin"], "1590-1620"))
         self.assertTrue(after["notes"].endswith(
-            f"derived from the Renascor Corpus snapshot v2026.10 ({rs.HARVEST_SCOPE})."))
+            f"derived from the Renascor Corpus snapshot v2026.10 ({rs.harvest_scope('v2026.10')})."))
         rs.refresh_entries(folder, counts, families, {}, snapshot="v2026.10")
         self.assertEqual(json.loads((folder / "harvested.json").read_text()), after)
 

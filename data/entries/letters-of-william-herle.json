@@ -28,11 +28,11 @@
   "period": "1559-1588",
   "license": "Copyright",
   "license_url": "https://www.livesandletters.ac.uk/herle/copyright.html",
-  "notes": "Hypertext edition of the letters of Elizabethan intelligencer and diplomat William Herle, with a transcript of each (web page and PDF), a catalogue entry, indexes by date, sender, recipient, place and first line, a word search, and sample images. 302 letters, dated 1559 to 1588, so the whole resource lies in the period. Edition 2 was released in March 2006 and the content shows no change since; the server's file dates (2025) reflect migration only. Free for personal use; commercial use needs permission (all rights reserved). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Hypertext edition of the letters of Elizabethan intelligencer and diplomat William Herle, with a transcript of each (web page and PDF), a catalogue entry, indexes by date, sender, recipient, place and first line, a word search, and sample images. 302 letters, dated 1559 to 1588, so the whole resource lies in the period. Edition 2 was released in March 2006 and the content shows no change since; the server's file dates (2025) reflect migration only. Free for personal use; commercial use needs permission (all rights reserved). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 316815,
     "texts": 301
   },

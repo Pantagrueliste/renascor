@@ -1,0 +1,38 @@
+{
+  "title": "CORDICan — Corpus Documental de las Islas Canarias",
+  "url": "https://www.ull.es/corpora/cordican/",
+  "data_url": "https://www.ull.es/corpora/cordican/index.php?action=files",
+  "data_format": "tei",
+  "languages": [
+    "Spanish"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-05",
+  "institution": "Universidad de La Laguna (grupo LexHis)",
+  "editors": [
+    "Dolores Corbella",
+    "Ana Viña",
+    "Roberto González Zalacain"
+  ],
+  "region": "Canary Islands",
+  "countries": [
+    "ES"
+  ],
+  "period": "1500-1900",
+  "notes": "Digital edition of Canary Islands documentation from the 16th to the 19th century (private and public documents generated in or about the islands), developed by the LexHis group (projects FFI2016-76154-P, ProID2020010097 and others) in the TEITOK platform (also reachable at http://teitok.cordican.ull.es/); raw TEI served per document. The TEITOK projects list gives an indicative size of 16 docs / 17k tokens (checked 2026-11-05) for the whole corpus, which spans the 16th-19th centuries; the share dated within 1450-1700 has not been established, so no in-window count is recorded. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in November 2026, duplicates included; they may cover only part of it).",
+  "license": "Not stated",
+  "license_note": "No licence terms stated on the corpus page; funded by Spanish and Canary Islands public programmes.",
+  "words": 716216,
+  "texts": 354,
+  "corpus_statistics": {
+    "snapshot": "v2026.11",
+    "words": 701051,
+    "texts": 350
+  },
+  "count_basis": "rq-retained-rows"
+}

@@ -17,9 +17,9 @@
   "texts": 81,
   "period": "1590-1610",
   "status": "active",
-  "notes": "The Renaissance (early modern English) collection of the Perseus Digital Library, Tufts University. Its public GitHub repository (PerseusDL/canonical-engLit, last pushed June 2026) holds the collection's texts in folders by author or work, among them Shakespeare, Marlowe, Sidney, Bacon, Hakluyt, Holinshed, James I and Lanyer, alongside reference works such as Schmidt's Shakespeare Lexicon. The Perseus site presents the texts for online reading and searching. Individual editors and encoding details were not established. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "The Renaissance (early modern English) collection of the Perseus Digital Library, Tufts University. Its public GitHub repository (PerseusDL/canonical-engLit, last pushed June 2026) holds the collection's texts in folders by author or work, among them Shakespeare, Marlowe, Sidney, Bacon, Hakluyt, Holinshed, James I and Lanyer, alongside reference works such as Schmidt's Shakespeare Lexicon. The Perseus site presents the texts for online reading and searching. Individual editors and encoding details were not established. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 6762346,
     "texts": 81
   },

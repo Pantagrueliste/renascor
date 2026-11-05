@@ -18,12 +18,12 @@
   "period": "1630s-1650s",
   "words": 394925,
   "texts": 16,
-  "notes": "Edition of the fifteen surviving plays of Richard Brome and The Late Lancashire Witches (with Heywood), with the original quarto or octavo text and an annotated modern-spelling text side by side, essays, a glossary, stage histories and recorded workshop performances. Published 2010 (AHRC-funded); no later update seen. Copyright is held by Royal Holloway. The counts cover the original-spelling text, not the modernised version. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Edition of the fifteen surviving plays of Richard Brome and The Late Lancashire Witches (with Heywood), with the original quarto or octavo text and an annotated modern-spelling text side by side, essays, a glossary, stage histories and recorded workshop performances. Published 2010 (AHRC-funded); no later update seen. Copyright is held by Royal Holloway. The counts cover the original-spelling text, not the modernised version. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "Copyright",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 394925,
     "texts": 16
   },

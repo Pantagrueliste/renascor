@@ -16,9 +16,9 @@
   "words": 38078,
   "texts": 13,
   "period": "1556-1556",
-  "notes": "Computer text of the Tregear Homilies (Homelyes XIII in Cornysche, a Cornish translation of thirteen homilies, British Library Add MS 46397, dated 1556), transcribed on Wikisource as plain wikitext. It reproduces the 1994 KDL (Cornish Language Board) reprint of Christopher Bice's 1969 edition, prepared by Keith Syed, who followed Bice in every detail even where he knew the transcription differed from the manuscript. The page was created in 2009 and last edited on 7 February 2020; it carries a contents list of the thirteen homilies and bracketed compiler's notes. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Computer text of the Tregear Homilies (Homelyes XIII in Cornysche, a Cornish translation of thirteen homilies, British Library Add MS 46397, dated 1556), transcribed on Wikisource as plain wikitext. It reproduces the 1994 KDL (Cornish Language Board) reprint of Christopher Bice's 1969 edition, prepared by Keith Syed, who followed Bice in every detail even where he knew the transcription differed from the manuscript. The page was created in 2009 and last edited on 7 February 2020; it carries a contents list of the thirteen homilies and bracketed compiler's notes. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 38078,
     "texts": 13
   },

@@ -19,8 +19,8 @@ RQ = _os.environ.get("RQ_ROOT", _os.path.join(_os.path.dirname(_os.path.abspath(
 sys.path.insert(0, RQ + "/scripts/overnight")
 from ingest_lib import ingest_texts  # noqa: E402
 
-FROZEN = RQ + "/data/backups/corpus_master.2026-06-26.FROZEN.sqlite"
-HARVEST = RQ + "/data/raw/renascor_2026-10"
+FROZEN = _os.environ.get("RQ_BASE_DB", RQ + "/data/backups/corpus_master.2026-06-26.FROZEN.sqlite")
+HARVEST = RQ + "/data/raw/" + _os.environ.get("RQ_HARVEST_TAG", "renascor_2026-10")
 # Corpus collections that hold the same upstream files as a harvested resource.
 SAME_SOURCE = {
     "textgrid-repository": ("RQ:TextGrid_German",),
@@ -63,7 +63,8 @@ def main(dedup_path, out):
     for coll, rid in EXCLUDED_FROZEN.items():
         assert rid in rejected, rid
         con.execute("UPDATE texts SET in_core = 0, in_sens = 0 WHERE collection = ?", (coll,))
-    apply_dated_out(con)
+    if _os.path.abspath(FROZEN).endswith("FROZEN.sqlite"):
+        apply_dated_out(con)  # already applied in snapshots built on top of the frozen corpus
     con.commit()
     con.close()
     summary = {}

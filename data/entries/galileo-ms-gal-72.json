@@ -22,11 +22,11 @@
   "countries": [
     "IT"
   ],
-  "notes": "Galileo's working papers on motion and mechanics (folios 33-196 of Ms. Gal. 72): short texts, drafts for the Discorsi, calculations and tables. Each folio side has a transcription of the final text, plus levels showing the genetic apparatus, with indices. Readable without login after clicking a notice that accepts the conditions (images may not be published without the library's permission). The pages are marked Version 2.2 of 10 May 1999 and no later change was found. The folio sides are undated and are counted as falling within 1450-1700 because the papers document work from about 1590 to 1637. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Galileo's working papers on motion and mechanics (folios 33-196 of Ms. Gal. 72): short texts, drafts for the Discorsi, calculations and tables. Each folio side has a transcription of the final text, plus levels showing the genetic apparatus, with indices. Readable without login after clicking a notice that accepts the conditions (images may not be published without the library's permission). The pages are marked Version 2.2 of 10 May 1999 and no later change was found. The folio sides are undated and are counted as falling within 1450-1700 because the papers document work from about 1590 to 1637. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "Custom terms",
   "license_note": "Notice on the entry page: no part of the electronic representation may be used for publication or commercial purposes without written permission of the Biblioteca Nazionale Centrale, Florence.",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 37009,
     "texts": 150
   },

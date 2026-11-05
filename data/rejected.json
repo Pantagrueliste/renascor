@@ -1,447 +1,459 @@
 {
-  "comment": "Only active rejected records are excluded from discovery. Textual overlap is allowed in the catalogue; deduplication applies separately to the Renascor Corpus. Review-pending records preserve earlier decisions for reconsideration and are not excluded from discovery.",
-  "rejected": [
-    {
-      "id": "women-writers-online",
-      "title": "Women Writers Online",
-      "url": "https://www.wwp.northeastern.edu/",
-      "reason": "The full-text collection requires an institutional or individual subscription. Free metadata and temporary trials do not meet the catalogue's free-access requirement. Removed from the catalogue after its note incorrectly described it as free and open access.",
-      "source_url": "https://wwp.northeastern.edu/wwo/license/",
-      "date": "2026-10-09"
-    },
-    {
-      "id": "frantext",
-      "title": "Frantext",
-      "url": "https://www.frantext.fr/",
-      "reason": "Access to Frantext Intégral requires a paid institutional or individual subscription. Temporary access to restricted free corpora does not make the full collection freely accessible.",
-      "source_url": "https://paiement.frantext.fr/conditions-generales",
-      "date": "2026-10-09"
-    },
-    {
-      "id": "gallicorpora-french-htr",
-      "title": "Gallicorpora (French early prints, HTR)",
-      "url": "https://gallicorpora.github.io/",
-      "date": "2026-10-12",
-      "reason": "The Gallicorpora TEI files are uncorrected automatic transcriptions (Kraken HTR converted from ALTO, as their TEI headers state), not edited or corrected texts. The catalogue excludes uncorrected OCR and HTR. The entry also mixed texts from other projects (SETAF Pierre de Vingle, OCR17plus, CREMMA).",
-      "source_url": "https://github.com/Gallicorpora/TEI"
-    },
-    {
-      "id": "montoya-guarani",
-      "title": "Antonio Ruiz de Montoya, Arte, vocabulario y tesoro de la lengua guaraní (Internet Archive scan)",
-      "url": "https://archive.org/details/gramaticaydiccio02ruiz",
-      "date": "2026-10-12",
-      "reason": "The only text is uncorrected machine OCR (DjVu XML, hOCR) of a page scan on the Internet Archive, not a transcribed edition. The catalogue excludes uncorrected OCR.",
-      "source_url": "https://archive.org/details/gramaticaydiccio02ruiz"
-    },
-    {
-      "id": "gilberti-purepecha",
-      "title": "Maturino Gilberti, Vocabulario en lengua de Mechuacan, 1559 (Internet Archive scan)",
-      "url": "https://archive.org/details/vocabularioenlen00gilb",
-      "date": "2026-10-12",
-      "reason": "The only text is uncorrected ABBYY FineReader OCR of a scan of the 1559 print on the Internet Archive, not a transcribed edition. The catalogue excludes uncorrected OCR.",
-      "source_url": "https://archive.org/metadata/vocabularioenlen00gilb"
-    },
-    {
-      "id": "norman-musenormande",
-      "title": "La Muse normande de David Ferrand, 1891 edition (Internet Archive scan)",
-      "url": "https://archive.org/details/lamusenormanded09ferrgoog",
-      "date": "2026-10-12",
-      "reason": "The only text is uncorrected ABBYY FineReader OCR of a Google scan of the 1891 edition on the Internet Archive, not a transcribed edition. The catalogue excludes uncorrected OCR.",
-      "source_url": "https://archive.org/details/lamusenormanded09ferrgoog"
-    },
-    {
-      "id": "humanumgitlab",
-      "title": "GitLab des humanités numériques (Huma-Num)",
-      "url": "https://gitlab.huma-num.fr/",
-      "date": "2026-10-12",
-      "reason": "A hosting platform, not an edition: the record grouped seven unrelated projects found on Huma-Num's GitLab, and more than half of its words came from a 1746 dictionary outside 1450-1700. Individual editions hosted there can be proposed as their own entries.",
-      "source_url": "https://gitlab.huma-num.fr/"
-    },
-    {
-      "id": "nakala",
-      "title": "Nakala (Huma-Num data repository)",
-      "url": "https://nakala.fr/",
-      "date": "2026-10-12",
-      "reason": "A deposit platform, not an edition: the record grouped about twenty unrelated projects deposited on Nakala, and at least 50 of its 109 texts fall outside 1450-1700 (Balzac, Flaubert, recordings of spoken French from 2020). Individual editions deposited there can be proposed as their own entries.",
-      "source_url": "https://nakala.fr/"
-    },
-    {
-      "id": "codcar",
-      "title": "CODCAR — Documentación de Cancillería Castellana del Siglo XIII",
-      "url": "https://h-ueda.sakura.ne.jp/lyneal/codcar-norm.htm",
-      "reason": "All documents date from 1223-1312, before the catalogue's 1450-1700 range.",
-      "source_url": "https://h-ueda.sakura.ne.jp/lyneal/codcar-norm.htm",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "cordex",
-      "title": "CORDEX — Corpus diacrónico de Extremadura",
-      "url": "https://corpora.uah.es/cordex/",
-      "reason": "Reading the corpus requires a login; only a handful of trial files are public. It can be reconsidered if the texts become freely readable.",
-      "source_url": "https://corpora.uah.es/cordex/",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "cordina",
-      "title": "CORDINA — Corpus diacrónico del español de Norteamérica",
-      "url": "https://corpora.uah.es/cordina/",
-      "reason": "All 122 documents date from 1733-1895, after the catalogue's 1450-1700 range.",
-      "source_url": "https://corpora.uah.es/cordina/index.php?action=stats",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "zavaldicor",
-      "title": "ZAValDiCor — Corpus digital de correspondencias de la familia Zavala",
-      "url": "https://corpora.uah.es/zavaldicor/",
-      "reason": "The letters date from the late 18th to the 20th century, after the catalogue's 1450-1700 range.",
-      "source_url": "https://corpora.uah.es/zavaldicor/",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "corhiber",
-      "title": "CORHIBER — Portal de Corpus Históricos Iberorrománicos",
-      "url": "http://www.corhiber.org/",
-      "reason": "A directory of historical Ibero-Romance corpora, not a collection of texts. Corpora it lists can be proposed individually.",
-      "source_url": "https://portal-corhiber.wixsite.com/portal-corhiber",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "codema",
-      "title": "CODEMA — Corpus de documentos malagueños del siglo XIX",
-      "url": "http://teitok.uma.es/teitok/codema/",
-      "reason": "A corpus of 19th-century documents from Málaga, after the catalogue's 1450-1700 range.",
-      "source_url": "http://teitok.uma.es/teitok/codema/",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "corhen",
-      "title": "CORHEN — Corpus histórico del español norteño",
-      "url": "http://corhen.es/",
-      "reason": "Medieval private documents of the 10th-13th centuries, before the catalogue's 1450-1700 range.",
-      "source_url": "https://corhen.es/",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "corcolombia",
-      "title": "CorColombia",
-      "url": "https://grafila.unil.ch/corcolombia/",
-      "reason": "The corpus currently contains only 19th-century letters, after the catalogue's 1450-1700 range.",
-      "source_url": "https://grafila.unil.ch/corcolombia/",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "cmir-miranda-de-ebro",
-      "title": "CMIR — Documentos medievales de Miranda de Ebro",
-      "url": "https://campus.usal.es/~gedhytas/index.php/txt/doc/cmir",
-      "reason": "Documents dated 1262-1301, before the catalogue's 1450-1700 range.",
-      "source_url": "https://campus.usal.es/~gedhytas/index.php/txt/doc/cmir",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "cuba19-codhecun",
-      "title": "CODHECUN — Corpus de documentos históricos de Cuba (cuba19)",
-      "url": "http://cuba19.us.es/",
-      "reason": "Cuban documents of 1868-1898, after the catalogue's 1450-1700 range.",
-      "source_url": "https://cuba19.us.es/",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "historia15-cenefa",
-      "title": "CenEFA — Corpus epistolar de mujeres andaluzas (Historia15)",
-      "url": "https://historia15.us.es/CenEFA/",
-      "reason": "All 257 documents date from 1708-1830, after the catalogue's 1450-1700 range.",
-      "source_url": "https://historia15.us.es/CenEFA/index.php?action=stats",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "intexta-cohsanre",
-      "title": "Intexta / COHSANRE (Jaén)",
-      "url": "https://seminariodelexicografiahispanica.webnode.es/intexta/",
-      "reason": "A project description only: no corpus or texts are online yet. It can be reconsidered once texts are published.",
-      "source_url": "https://seminariodelexicografiahispanica.webnode.es/intexta/",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "cohiecos-costa-rica",
-      "title": "COHIECOS — Corpus histórico del español de Costa Rica",
-      "url": "https://teitok.ucr.ac.cr/",
-      "reason": "The corpus covers 1700-1821, essentially after the catalogue's 1450-1700 range.",
-      "source_url": "https://teitok.ucr.ac.cr/",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "cdhm-merida",
-      "title": "CDHM — Corpus de documentos históricos de Mérida (Venezuela)",
-      "url": "https://corpora.uah.es/charta/index.php?action=grupos",
-      "reason": "No site of its own: its documents are published only within the CHARTA corpus, which is catalogued (charta-corpus). The group's colonial documents of Mérida are catalogued as ula-corpus-documentos-coloniales-merida.",
-      "source_url": "https://corpora.uah.es/charta/index.php?action=grupos",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "epihum",
-      "title": "EPIHUM — Epigrafía humanística de España y Portugal",
-      "url": "https://www.epigrafiahumanistica.ulpgc.es/base-de-datos/",
-      "reason": "The database of Renaissance inscriptions (1500-1668) is open only to the project team; the public site offers a project description and a manual. It can be reconsidered if the transcriptions become freely readable.",
-      "source_url": "https://www.epigrafiahumanistica.ulpgc.es/base-de-datos/",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "thesaurus-epigraphie-islamique",
-      "title": "Thesaurus d'épigraphie islamique",
-      "url": "https://www.epigraphie-islamique.uliege.be/Thesaurus/",
-      "reason": "A catalogue of Islamic inscriptions: the freely searchable records give metadata (place, type, material, date) but no transcribed text.",
-      "source_url": "https://www.epigraphie-islamique.uliege.be/Thesaurus/User/MainSearch.aspx",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "titulus-cifm",
-      "title": "Titulus / Corpus des inscriptions de la France médiévale",
-      "url": "https://titulus.huma-num.fr/exist/apps/titulus/index.html",
-      "reason": "The inscriptions published online date from the 8th to the 14th century, before the catalogue's 1450-1700 range.",
-      "source_url": "https://titulus.huma-num.fr/exist/apps/titulus/index.html",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "corpus-epigrafi-medievali-padova",
-      "title": "Corpus delle epigrafi medievali di Padova",
-      "url": "http://cem.dissgea.unipd.it/indice.html",
-      "reason": "Access requires registration and the texts are PDFs of medieval inscriptions (701-1500), with a negligible share within 1450-1700.",
-      "source_url": "http://cem.dissgea.unipd.it/indice.html",
-      "date": "2026-10-12"
-    },
-    {
-      "id": "drama-online",
-      "title": "Drama Online",
-      "url": "http://www.dramaonlinelibrary.com/",
-      "reason": "Texts are behind a paid subscription or purchase.",
-      "source_url": "http://www.dramaonlinelibrary.com/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "oxford-scholarly-editions-online",
-      "title": "Oxford Scholarly Editions Online",
-      "url": "http://www.oxfordscholarlyeditions.com/",
-      "reason": "Texts are behind a paid subscription or purchase.",
-      "source_url": "http://www.oxfordscholarlyeditions.com/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "gale-shakespeare-collection",
-      "title": "The Shakespeare Collection (Gale)",
-      "url": "http://gale.cengage.co.uk/the-shakespeare-collection.aspx",
-      "reason": "Texts are behind a paid subscription or purchase.",
-      "source_url": "http://gale.cengage.co.uk/the-shakespeare-collection.aspx",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "cambridge-ben-jonson-online",
-      "title": "Cambridge Works of Ben Jonson Online",
-      "url": "http://universitypublishingonline.org/cambridge/benjonson/",
-      "reason": "Texts are behind a paid subscription or purchase.",
-      "source_url": "http://universitypublishingonline.org/cambridge/benjonson/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "brepolis-library-of-latin-texts",
-      "title": "Brepolis Library of Latin Texts",
-      "url": "http://apps.brepolis.net/BrepolisPortal/default.aspx",
-      "reason": "Texts are behind a paid subscription or purchase.",
-      "source_url": "http://apps.brepolis.net/BrepolisPortal/default.aspx",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "loeb-classical-library",
-      "title": "Loeb Classical Library Online",
-      "url": "https://www.loebclassics.com/",
-      "reason": "Texts are behind a paid subscription or purchase. The material is also classical.",
-      "source_url": "https://www.loebclassics.com/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "patrologia-latina-database",
-      "title": "Patrologia Latina Database",
-      "url": "http://pld.chadwyck.co.uk/",
-      "reason": "Texts are behind a paid subscription or purchase. The material is also patristic.",
-      "source_url": "http://pld.chadwyck.co.uk/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "digital-temple",
-      "title": "The Digital Temple: A Documentary Edition of George Herbert's English Verse",
-      "url": "https://digitaltemple.upress.virginia.edu/",
-      "reason": "Transcriptions are restricted to purchasers; only the documentation is public.",
-      "source_url": "https://digitaltemple.upress.virginia.edu/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "kircher-correspondence-stanford",
-      "title": "The Athanasius Kircher Correspondence Project (Stanford)",
-      "url": "https://web.stanford.edu/group/kircher/",
-      "reason": "Facsimile images of the correspondence with no transcriptions, and the image links are dead.",
-      "source_url": "https://web.stanford.edu/group/kircher/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "thomas-nashe-project",
-      "title": "The Thomas Nashe Project",
-      "url": "https://research.ncl.ac.uk/thethomasnasheproject/",
-      "reason": "Project page for a forthcoming print edition; no transcribed texts are published.",
-      "source_url": "https://research.ncl.ac.uk/thethomasnasheproject/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "gascon-rolls",
-      "title": "The Gascon Rolls Project",
-      "url": "https://www.gasconrolls.org/",
-      "reason": "English calendars (summaries) of the rolls rather than transcriptions, and only 1450-1467 falls within the period.",
-      "source_url": "https://www.gasconrolls.org/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "heidmann-oratio-bibliotheca-julia",
-      "title": "Christoph Heidmanns Oratio de Bibliotheca Julia",
-      "url": "http://diglib.hab.de/edoc/ed000084/start.htm",
-      "reason": "Publishes only a modern German translation; the Latin transcription is not available.",
-      "source_url": "http://diglib.hab.de/edoc/ed000084/start.htm",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "artfl-project",
-      "title": "ARTFL Project (free collections)",
-      "url": "https://artfl-project.uchicago.edu/",
-      "reason": "Portal and subscription service for ARTFL-FRANTEXT and other databases (membership required); the free sub-collections (Dictionnaires d'autrefois, Bibliothèque bleue de Troyes, Encyclopédie) would each need their own record, and the Encyclopédie and Bibliothèque bleue are mostly after 1700.",
-      "source_url": "https://artfl-project.uchicago.edu/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "down-survey-of-ireland",
-      "title": "The Down Survey of Ireland",
-      "url": "http://downsurvey.tcd.ie/index.html",
-      "reason": "Maps and survey data (Down Survey maps 1656-58, historical GIS, Books of Survey and Distribution) shown as an interactive application; no transcribed text found.",
-      "source_url": "https://www.downsurvey.ie/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "oxford-text-archive",
-      "title": "Oxford Text Archive",
-      "url": "https://ota.bodleian.ox.ac.uk/",
-      "reason": "A repository of many separate texts (not one resource) that has moved to the LLDS; the Bodleian address is legacy and timed out, and relevant individual collections are catalogued on their own pages (e.g. gemi-midwifery).",
-      "source_url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "digiberichte",
-      "title": "Digitale Reiseberichte (digiberichte.de)",
-      "url": "http://www.digiberichte.de/",
-      "reason": "Bibliographical database of about 375 European travel accounts with links to editions and literature, not a collection of transcribed texts.",
-      "source_url": "https://digiberichte.adw-goe.de/home",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "medici-archive-project",
-      "title": "Medici Archive Project (BIA)",
-      "url": "https://www.medici.org/",
-      "reason": "The documents database (MIA) and the Falconieri letters database (1655-75) both open on a login page (username and password, with registration approved by staff); no free access.",
-      "source_url": "https://mia.medici.org/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "emblematica-online",
-      "title": "Emblematica Online",
-      "url": "http://emblematica.grainger.illinois.edu/",
-      "reason": "Portal of emblem-book facsimiles (images) and descriptive emblem-level metadata drawn from partner libraries, not transcribed text.",
-      "source_url": "http://emblematica.grainger.illinois.edu/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "virtual-pauls-cross",
-      "title": "Virtual Paul's Cross Project",
-      "url": "https://vpcp.chass.ncsu.edu/",
-      "reason": "Acoustic and visual simulation of one 1622 sermon; the sermon witnesses are shown only as a manuscript image (PDF) and a link to another site, not as transcribed text.",
-      "source_url": "https://vpcross.chass.ncsu.edu/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "early-modern-london-theatres",
-      "title": "Early Modern London Theatres",
-      "url": "https://www.emlot.kcl.ac.uk/",
-      "reason": "Database that records where pre-1642 theatre documents were later transcribed, not the transcriptions themselves; the host emlot.kcl.ac.uk no longer resolves.",
-      "source_url": "https://www.emlot.kcl.ac.uk/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "broadside-ballads-online",
-      "title": "Broadside Ballads Online (Bodleian)",
-      "url": "http://ballads.bodleian.ox.ac.uk/",
-      "reason": "The standalone Bodleian database was taken offline at the end of 2024; its records (catalogue entries with images, titles and first lines) now live in SOLO and no transcribed ballad texts are offered.",
-      "source_url": "https://www.bodleian.ox.ac.uk/collections-and-resources/special-collections/finding-aids-and-catalogues/ballads",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "tudor-texts-otago",
-      "title": "Tudor texts (hlm.co.nz)",
-      "url": "http://www.hlm.co.nz/tudortexts/",
-      "reason": "Textbase of early Tudor verse (1485-1550) required registration approved by staff, and it is offline; the domain hlm.co.nz now hosts a land-management business.",
-      "source_url": "https://web.archive.org/web/20081015174052/http://www.hlm.co.nz/tudortexts/register.asp",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "scriptorium-cambridge",
-      "title": "Scriptorium: Medieval and Early Modern Manuscripts Online",
-      "url": "https://scriptorium.english.cam.ac.uk/",
-      "reason": "Images and descriptions of about 20 manuscript miscellanies; the standalone site is gone (images moved to Cambridge Digital Library, which returns 403 to scripted requests), and no transcriptions were found.",
-      "source_url": "https://scriptorium.english.cam.ac.uk/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "shakespeare-database-muenster",
-      "title": "Shakespeare database (Münster)",
-      "url": "http://www.shkspr.uni-muenster.de/",
-      "reason": "Project page and bibliography of the Münster Shakespeare Database (concordance work, all rights reserved); the site is offline and carries no texts.",
-      "source_url": "http://www.shkspr.uni-muenster.de/",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "eprosed-indiana",
-      "title": "Early Modern English prose (eProsed, Indiana)",
-      "url": "http://www.letrs.indiana.edu/eprosed/index.html",
-      "reason": "English Prose Drama Database was a licensed Chadwyck-Healey product searched through Indiana's LETRS server; the server no longer resolves and the search pages are not archived.",
-      "source_url": "http://www.letrs.indiana.edu/eprosed/index.html",
-      "date": "2026-10-13"
-    },
-    {
-      "id": "elec-actes-royaux-du-poitou",
-      "title": "Actes royaux du Poitou (Recueil des documents concernant le Poitou contenus dans les registres de la Chancellerie de France), École des chartes",
-      "url": "https://github.com/chartes/actesroyauxdupoitou",
-      "reason": "Uncorrected OCR of Paul Guérin's 1881-1919 edition: the repository README says the OCR reading errors have not been proofread. Most of the material also falls before 1450 (acts of 1302-1483; about 500 of 1,616 transcribed acts date from 1450 or later).",
-      "source_url": "https://github.com/chartes/actesroyauxdupoitou/blob/migration/README.md",
-      "date": "2026-10-27"
-    },
-    {
-      "id": "monloe-montaigne",
-      "title": "MONLOE — Montaigne à l'œuvre (Exemplaire de Bordeaux and Montaigne editions, CESR Tours)",
-      "url": "https://montaigne.univ-tours.fr/",
-      "reason": "Montaigne author corpus of BVH-Épistémon, already catalogued: its 38 TEI texts (Exemplaire de Bordeaux, the 1580 Essais, the 1581 Sebond translation, La Boétie's Ms 2199, letters, family archives) are Épistémon XTF files counted in the Épistémon record; the 47 arrêts are counted in FreEM; the remaining editions are PDFs on the BVH server.",
-      "source_url": "https://www.bvh.univ-tours.fr/Epistemon/index.asp",
-      "date": "2026-10-27"
-    },
-    {
-      "id": "d4r-dissidences-religieuses",
-      "title": "D4R — Dissidences religieuses et réception de la Réforme à la Renaissance en Espagne",
-      "url": "https://d4r.hypotheses.org/",
-      "reason": "Texts not publicly available: the project's platform paper (Boeglin et al., arXiv 2503.20914, §2.2) describes its dataset as private and 'not publicly available'; the only interface was a conference demonstration (d4r-app.irit.fr, HTTP 503 on 2026-10-27), and no text or TEI deposit was found on GitHub, Zenodo or HAL.",
-      "source_url": "https://arxiv.org/abs/2503.20914",
-      "date": "2026-10-27"
-    }
-  ],
-  "review_pending": [
-    {
-      "title": "Digital Latin Library — Library of Digital Latin Texts (LDLT)",
-      "url": "https://digitallatin.org/",
-      "previous_reason": "Federates texts published elsewhere: the words it adds cannot be counted exactly, and they cannot be shown not to be in the catalogue already.",
-      "previous_date": "2026-10-08",
-      "reason": "The overlap-based exclusion was withdrawn. Review whether this resource provides its own identifiable text collection and establish its 1450–1700 counts and coverage before adding a record.",
-      "date": "2026-10-09"
-    }
-  ]
+ "comment": "Only active rejected records are excluded from discovery. Textual overlap is allowed in the catalogue; deduplication applies separately to the Renascor Corpus. Review-pending records preserve earlier decisions for reconsideration and are not excluded from discovery.",
+ "rejected": [
+  {
+   "id": "women-writers-online",
+   "title": "Women Writers Online",
+   "url": "https://www.wwp.northeastern.edu/",
+   "reason": "The full-text collection requires an institutional or individual subscription. Free metadata and temporary trials do not meet the catalogue's free-access requirement. Removed from the catalogue after its note incorrectly described it as free and open access.",
+   "source_url": "https://wwp.northeastern.edu/wwo/license/",
+   "date": "2026-10-09"
+  },
+  {
+   "id": "frantext",
+   "title": "Frantext",
+   "url": "https://www.frantext.fr/",
+   "reason": "Access to Frantext Intégral requires a paid institutional or individual subscription. Temporary access to restricted free corpora does not make the full collection freely accessible.",
+   "source_url": "https://paiement.frantext.fr/conditions-generales",
+   "date": "2026-10-09"
+  },
+  {
+   "id": "gallicorpora-french-htr",
+   "title": "Gallicorpora (French early prints, HTR)",
+   "url": "https://gallicorpora.github.io/",
+   "date": "2026-10-12",
+   "reason": "The Gallicorpora TEI files are uncorrected automatic transcriptions (Kraken HTR converted from ALTO, as their TEI headers state), not edited or corrected texts. The catalogue excludes uncorrected OCR and HTR. The entry also mixed texts from other projects (SETAF Pierre de Vingle, OCR17plus, CREMMA).",
+   "source_url": "https://github.com/Gallicorpora/TEI"
+  },
+  {
+   "id": "montoya-guarani",
+   "title": "Antonio Ruiz de Montoya, Arte, vocabulario y tesoro de la lengua guaraní (Internet Archive scan)",
+   "url": "https://archive.org/details/gramaticaydiccio02ruiz",
+   "date": "2026-10-12",
+   "reason": "The only text is uncorrected machine OCR (DjVu XML, hOCR) of a page scan on the Internet Archive, not a transcribed edition. The catalogue excludes uncorrected OCR.",
+   "source_url": "https://archive.org/details/gramaticaydiccio02ruiz"
+  },
+  {
+   "id": "gilberti-purepecha",
+   "title": "Maturino Gilberti, Vocabulario en lengua de Mechuacan, 1559 (Internet Archive scan)",
+   "url": "https://archive.org/details/vocabularioenlen00gilb",
+   "date": "2026-10-12",
+   "reason": "The only text is uncorrected ABBYY FineReader OCR of a scan of the 1559 print on the Internet Archive, not a transcribed edition. The catalogue excludes uncorrected OCR.",
+   "source_url": "https://archive.org/metadata/vocabularioenlen00gilb"
+  },
+  {
+   "id": "norman-musenormande",
+   "title": "La Muse normande de David Ferrand, 1891 edition (Internet Archive scan)",
+   "url": "https://archive.org/details/lamusenormanded09ferrgoog",
+   "date": "2026-10-12",
+   "reason": "The only text is uncorrected ABBYY FineReader OCR of a Google scan of the 1891 edition on the Internet Archive, not a transcribed edition. The catalogue excludes uncorrected OCR.",
+   "source_url": "https://archive.org/details/lamusenormanded09ferrgoog"
+  },
+  {
+   "id": "humanumgitlab",
+   "title": "GitLab des humanités numériques (Huma-Num)",
+   "url": "https://gitlab.huma-num.fr/",
+   "date": "2026-10-12",
+   "reason": "A hosting platform, not an edition: the record grouped seven unrelated projects found on Huma-Num's GitLab, and more than half of its words came from a 1746 dictionary outside 1450-1700. Individual editions hosted there can be proposed as their own entries.",
+   "source_url": "https://gitlab.huma-num.fr/"
+  },
+  {
+   "id": "nakala",
+   "title": "Nakala (Huma-Num data repository)",
+   "url": "https://nakala.fr/",
+   "date": "2026-10-12",
+   "reason": "A deposit platform, not an edition: the record grouped about twenty unrelated projects deposited on Nakala, and at least 50 of its 109 texts fall outside 1450-1700 (Balzac, Flaubert, recordings of spoken French from 2020). Individual editions deposited there can be proposed as their own entries.",
+   "source_url": "https://nakala.fr/"
+  },
+  {
+   "id": "codcar",
+   "title": "CODCAR — Documentación de Cancillería Castellana del Siglo XIII",
+   "url": "https://h-ueda.sakura.ne.jp/lyneal/codcar-norm.htm",
+   "reason": "All documents date from 1223-1312, before the catalogue's 1450-1700 range.",
+   "source_url": "https://h-ueda.sakura.ne.jp/lyneal/codcar-norm.htm",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "cordex",
+   "title": "CORDEX — Corpus diacrónico de Extremadura",
+   "url": "https://corpora.uah.es/cordex/",
+   "reason": "Reading the corpus requires a login; only a handful of trial files are public. It can be reconsidered if the texts become freely readable.",
+   "source_url": "https://corpora.uah.es/cordex/",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "cordina",
+   "title": "CORDINA — Corpus diacrónico del español de Norteamérica",
+   "url": "https://corpora.uah.es/cordina/",
+   "reason": "All 122 documents date from 1733-1895, after the catalogue's 1450-1700 range.",
+   "source_url": "https://corpora.uah.es/cordina/index.php?action=stats",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "zavaldicor",
+   "title": "ZAValDiCor — Corpus digital de correspondencias de la familia Zavala",
+   "url": "https://corpora.uah.es/zavaldicor/",
+   "reason": "The letters date from the late 18th to the 20th century, after the catalogue's 1450-1700 range.",
+   "source_url": "https://corpora.uah.es/zavaldicor/",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "corhiber",
+   "title": "CORHIBER — Portal de Corpus Históricos Iberorrománicos",
+   "url": "http://www.corhiber.org/",
+   "reason": "A directory of historical Ibero-Romance corpora, not a collection of texts. Corpora it lists can be proposed individually.",
+   "source_url": "https://portal-corhiber.wixsite.com/portal-corhiber",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "codema",
+   "title": "CODEMA — Corpus de documentos malagueños del siglo XIX",
+   "url": "http://teitok.uma.es/teitok/codema/",
+   "reason": "A corpus of 19th-century documents from Málaga, after the catalogue's 1450-1700 range.",
+   "source_url": "http://teitok.uma.es/teitok/codema/",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "corhen",
+   "title": "CORHEN — Corpus histórico del español norteño",
+   "url": "http://corhen.es/",
+   "reason": "Medieval private documents of the 10th-13th centuries, before the catalogue's 1450-1700 range.",
+   "source_url": "https://corhen.es/",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "corcolombia",
+   "title": "CorColombia",
+   "url": "https://grafila.unil.ch/corcolombia/",
+   "reason": "The corpus currently contains only 19th-century letters, after the catalogue's 1450-1700 range.",
+   "source_url": "https://grafila.unil.ch/corcolombia/",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "cmir-miranda-de-ebro",
+   "title": "CMIR — Documentos medievales de Miranda de Ebro",
+   "url": "https://campus.usal.es/~gedhytas/index.php/txt/doc/cmir",
+   "reason": "Documents dated 1262-1301, before the catalogue's 1450-1700 range.",
+   "source_url": "https://campus.usal.es/~gedhytas/index.php/txt/doc/cmir",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "cuba19-codhecun",
+   "title": "CODHECUN — Corpus de documentos históricos de Cuba (cuba19)",
+   "url": "http://cuba19.us.es/",
+   "reason": "Cuban documents of 1868-1898, after the catalogue's 1450-1700 range.",
+   "source_url": "https://cuba19.us.es/",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "historia15-cenefa",
+   "title": "CenEFA — Corpus epistolar de mujeres andaluzas (Historia15)",
+   "url": "https://historia15.us.es/CenEFA/",
+   "reason": "All 257 documents date from 1708-1830, after the catalogue's 1450-1700 range.",
+   "source_url": "https://historia15.us.es/CenEFA/index.php?action=stats",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "intexta-cohsanre",
+   "title": "Intexta / COHSANRE (Jaén)",
+   "url": "https://seminariodelexicografiahispanica.webnode.es/intexta/",
+   "reason": "A project description only: no corpus or texts are online yet. It can be reconsidered once texts are published.",
+   "source_url": "https://seminariodelexicografiahispanica.webnode.es/intexta/",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "cohiecos-costa-rica",
+   "title": "COHIECOS — Corpus histórico del español de Costa Rica",
+   "url": "https://teitok.ucr.ac.cr/",
+   "reason": "The corpus covers 1700-1821, essentially after the catalogue's 1450-1700 range.",
+   "source_url": "https://teitok.ucr.ac.cr/",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "cdhm-merida",
+   "title": "CDHM — Corpus de documentos históricos de Mérida (Venezuela)",
+   "url": "https://corpora.uah.es/charta/index.php?action=grupos",
+   "reason": "No site of its own: its documents are published only within the CHARTA corpus, which is catalogued (charta-corpus). The group's colonial documents of Mérida are catalogued as ula-corpus-documentos-coloniales-merida.",
+   "source_url": "https://corpora.uah.es/charta/index.php?action=grupos",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "epihum",
+   "title": "EPIHUM — Epigrafía humanística de España y Portugal",
+   "url": "https://www.epigrafiahumanistica.ulpgc.es/base-de-datos/",
+   "reason": "The database of Renaissance inscriptions (1500-1668) is open only to the project team; the public site offers a project description and a manual. It can be reconsidered if the transcriptions become freely readable.",
+   "source_url": "https://www.epigrafiahumanistica.ulpgc.es/base-de-datos/",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "thesaurus-epigraphie-islamique",
+   "title": "Thesaurus d'épigraphie islamique",
+   "url": "https://www.epigraphie-islamique.uliege.be/Thesaurus/",
+   "reason": "A catalogue of Islamic inscriptions: the freely searchable records give metadata (place, type, material, date) but no transcribed text.",
+   "source_url": "https://www.epigraphie-islamique.uliege.be/Thesaurus/User/MainSearch.aspx",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "titulus-cifm",
+   "title": "Titulus / Corpus des inscriptions de la France médiévale",
+   "url": "https://titulus.huma-num.fr/exist/apps/titulus/index.html",
+   "reason": "The inscriptions published online date from the 8th to the 14th century, before the catalogue's 1450-1700 range.",
+   "source_url": "https://titulus.huma-num.fr/exist/apps/titulus/index.html",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "corpus-epigrafi-medievali-padova",
+   "title": "Corpus delle epigrafi medievali di Padova",
+   "url": "http://cem.dissgea.unipd.it/indice.html",
+   "reason": "Access requires registration and the texts are PDFs of medieval inscriptions (701-1500), with a negligible share within 1450-1700.",
+   "source_url": "http://cem.dissgea.unipd.it/indice.html",
+   "date": "2026-10-12"
+  },
+  {
+   "id": "drama-online",
+   "title": "Drama Online",
+   "url": "http://www.dramaonlinelibrary.com/",
+   "reason": "Texts are behind a paid subscription or purchase.",
+   "source_url": "http://www.dramaonlinelibrary.com/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "oxford-scholarly-editions-online",
+   "title": "Oxford Scholarly Editions Online",
+   "url": "http://www.oxfordscholarlyeditions.com/",
+   "reason": "Texts are behind a paid subscription or purchase.",
+   "source_url": "http://www.oxfordscholarlyeditions.com/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "gale-shakespeare-collection",
+   "title": "The Shakespeare Collection (Gale)",
+   "url": "http://gale.cengage.co.uk/the-shakespeare-collection.aspx",
+   "reason": "Texts are behind a paid subscription or purchase.",
+   "source_url": "http://gale.cengage.co.uk/the-shakespeare-collection.aspx",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "cambridge-ben-jonson-online",
+   "title": "Cambridge Works of Ben Jonson Online",
+   "url": "http://universitypublishingonline.org/cambridge/benjonson/",
+   "reason": "Texts are behind a paid subscription or purchase.",
+   "source_url": "http://universitypublishingonline.org/cambridge/benjonson/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "brepolis-library-of-latin-texts",
+   "title": "Brepolis Library of Latin Texts",
+   "url": "http://apps.brepolis.net/BrepolisPortal/default.aspx",
+   "reason": "Texts are behind a paid subscription or purchase.",
+   "source_url": "http://apps.brepolis.net/BrepolisPortal/default.aspx",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "loeb-classical-library",
+   "title": "Loeb Classical Library Online",
+   "url": "https://www.loebclassics.com/",
+   "reason": "Texts are behind a paid subscription or purchase. The material is also classical.",
+   "source_url": "https://www.loebclassics.com/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "patrologia-latina-database",
+   "title": "Patrologia Latina Database",
+   "url": "http://pld.chadwyck.co.uk/",
+   "reason": "Texts are behind a paid subscription or purchase. The material is also patristic.",
+   "source_url": "http://pld.chadwyck.co.uk/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "digital-temple",
+   "title": "The Digital Temple: A Documentary Edition of George Herbert's English Verse",
+   "url": "https://digitaltemple.upress.virginia.edu/",
+   "reason": "Transcriptions are restricted to purchasers; only the documentation is public.",
+   "source_url": "https://digitaltemple.upress.virginia.edu/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "kircher-correspondence-stanford",
+   "title": "The Athanasius Kircher Correspondence Project (Stanford)",
+   "url": "https://web.stanford.edu/group/kircher/",
+   "reason": "Facsimile images of the correspondence with no transcriptions, and the image links are dead.",
+   "source_url": "https://web.stanford.edu/group/kircher/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "thomas-nashe-project",
+   "title": "The Thomas Nashe Project",
+   "url": "https://research.ncl.ac.uk/thethomasnasheproject/",
+   "reason": "Project page for a forthcoming print edition; no transcribed texts are published.",
+   "source_url": "https://research.ncl.ac.uk/thethomasnasheproject/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "gascon-rolls",
+   "title": "The Gascon Rolls Project",
+   "url": "https://www.gasconrolls.org/",
+   "reason": "English calendars (summaries) of the rolls rather than transcriptions, and only 1450-1467 falls within the period.",
+   "source_url": "https://www.gasconrolls.org/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "heidmann-oratio-bibliotheca-julia",
+   "title": "Christoph Heidmanns Oratio de Bibliotheca Julia",
+   "url": "http://diglib.hab.de/edoc/ed000084/start.htm",
+   "reason": "Publishes only a modern German translation; the Latin transcription is not available.",
+   "source_url": "http://diglib.hab.de/edoc/ed000084/start.htm",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "artfl-project",
+   "title": "ARTFL Project (free collections)",
+   "url": "https://artfl-project.uchicago.edu/",
+   "reason": "Portal and subscription service for ARTFL-FRANTEXT and other databases (membership required); the free sub-collections (Dictionnaires d'autrefois, Bibliothèque bleue de Troyes, Encyclopédie) would each need their own record, and the Encyclopédie and Bibliothèque bleue are mostly after 1700.",
+   "source_url": "https://artfl-project.uchicago.edu/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "down-survey-of-ireland",
+   "title": "The Down Survey of Ireland",
+   "url": "http://downsurvey.tcd.ie/index.html",
+   "reason": "Maps and survey data (Down Survey maps 1656-58, historical GIS, Books of Survey and Distribution) shown as an interactive application; no transcribed text found.",
+   "source_url": "https://www.downsurvey.ie/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "oxford-text-archive",
+   "title": "Oxford Text Archive",
+   "url": "https://ota.bodleian.ox.ac.uk/",
+   "reason": "A repository of many separate texts (not one resource) that has moved to the LLDS; the Bodleian address is legacy and timed out, and relevant individual collections are catalogued on their own pages (e.g. gemi-midwifery).",
+   "source_url": "https://ota.bodleian.ox.ac.uk/repository/xmlui/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "digiberichte",
+   "title": "Digitale Reiseberichte (digiberichte.de)",
+   "url": "http://www.digiberichte.de/",
+   "reason": "Bibliographical database of about 375 European travel accounts with links to editions and literature, not a collection of transcribed texts.",
+   "source_url": "https://digiberichte.adw-goe.de/home",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "medici-archive-project",
+   "title": "Medici Archive Project (BIA)",
+   "url": "https://www.medici.org/",
+   "reason": "The documents database (MIA) and the Falconieri letters database (1655-75) both open on a login page (username and password, with registration approved by staff); no free access.",
+   "source_url": "https://mia.medici.org/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "emblematica-online",
+   "title": "Emblematica Online",
+   "url": "http://emblematica.grainger.illinois.edu/",
+   "reason": "Portal of emblem-book facsimiles (images) and descriptive emblem-level metadata drawn from partner libraries, not transcribed text.",
+   "source_url": "http://emblematica.grainger.illinois.edu/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "virtual-pauls-cross",
+   "title": "Virtual Paul's Cross Project",
+   "url": "https://vpcp.chass.ncsu.edu/",
+   "reason": "Acoustic and visual simulation of one 1622 sermon; the sermon witnesses are shown only as a manuscript image (PDF) and a link to another site, not as transcribed text.",
+   "source_url": "https://vpcross.chass.ncsu.edu/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "early-modern-london-theatres",
+   "title": "Early Modern London Theatres",
+   "url": "https://www.emlot.kcl.ac.uk/",
+   "reason": "Database that records where pre-1642 theatre documents were later transcribed, not the transcriptions themselves; the host emlot.kcl.ac.uk no longer resolves.",
+   "source_url": "https://www.emlot.kcl.ac.uk/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "broadside-ballads-online",
+   "title": "Broadside Ballads Online (Bodleian)",
+   "url": "http://ballads.bodleian.ox.ac.uk/",
+   "reason": "The standalone Bodleian database was taken offline at the end of 2024; its records (catalogue entries with images, titles and first lines) now live in SOLO and no transcribed ballad texts are offered.",
+   "source_url": "https://www.bodleian.ox.ac.uk/collections-and-resources/special-collections/finding-aids-and-catalogues/ballads",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "tudor-texts-otago",
+   "title": "Tudor texts (hlm.co.nz)",
+   "url": "http://www.hlm.co.nz/tudortexts/",
+   "reason": "Textbase of early Tudor verse (1485-1550) required registration approved by staff, and it is offline; the domain hlm.co.nz now hosts a land-management business.",
+   "source_url": "https://web.archive.org/web/20081015174052/http://www.hlm.co.nz/tudortexts/register.asp",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "scriptorium-cambridge",
+   "title": "Scriptorium: Medieval and Early Modern Manuscripts Online",
+   "url": "https://scriptorium.english.cam.ac.uk/",
+   "reason": "Images and descriptions of about 20 manuscript miscellanies; the standalone site is gone (images moved to Cambridge Digital Library, which returns 403 to scripted requests), and no transcriptions were found.",
+   "source_url": "https://scriptorium.english.cam.ac.uk/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "shakespeare-database-muenster",
+   "title": "Shakespeare database (Münster)",
+   "url": "http://www.shkspr.uni-muenster.de/",
+   "reason": "Project page and bibliography of the Münster Shakespeare Database (concordance work, all rights reserved); the site is offline and carries no texts.",
+   "source_url": "http://www.shkspr.uni-muenster.de/",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "eprosed-indiana",
+   "title": "Early Modern English prose (eProsed, Indiana)",
+   "url": "http://www.letrs.indiana.edu/eprosed/index.html",
+   "reason": "English Prose Drama Database was a licensed Chadwyck-Healey product searched through Indiana's LETRS server; the server no longer resolves and the search pages are not archived.",
+   "source_url": "http://www.letrs.indiana.edu/eprosed/index.html",
+   "date": "2026-10-13"
+  },
+  {
+   "id": "elec-actes-royaux-du-poitou",
+   "title": "Actes royaux du Poitou (Recueil des documents concernant le Poitou contenus dans les registres de la Chancellerie de France), École des chartes",
+   "url": "https://github.com/chartes/actesroyauxdupoitou",
+   "reason": "Uncorrected OCR of Paul Guérin's 1881-1919 edition: the repository README says the OCR reading errors have not been proofread. Most of the material also falls before 1450 (acts of 1302-1483; about 500 of 1,616 transcribed acts date from 1450 or later).",
+   "source_url": "https://github.com/chartes/actesroyauxdupoitou/blob/migration/README.md",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "monloe-montaigne",
+   "title": "MONLOE — Montaigne à l'œuvre (Exemplaire de Bordeaux and Montaigne editions, CESR Tours)",
+   "url": "https://montaigne.univ-tours.fr/",
+   "reason": "Montaigne author corpus of BVH-Épistémon, already catalogued: its 38 TEI texts (Exemplaire de Bordeaux, the 1580 Essais, the 1581 Sebond translation, La Boétie's Ms 2199, letters, family archives) are Épistémon XTF files counted in the Épistémon record; the 47 arrêts are counted in FreEM; the remaining editions are PDFs on the BVH server.",
+   "source_url": "https://www.bvh.univ-tours.fr/Epistemon/index.asp",
+   "date": "2026-10-27"
+  },
+  {
+   "id": "d4r-dissidences-religieuses",
+   "title": "D4R — Dissidences religieuses et réception de la Réforme à la Renaissance en Espagne",
+   "url": "https://d4r.hypotheses.org/",
+   "reason": "Texts not publicly available: the project's platform paper (Boeglin et al., arXiv 2503.20914, §2.2) describes its dataset as private and 'not publicly available'; the only interface was a conference demonstration (d4r-app.irit.fr, HTTP 503 on 2026-10-27), and no text or TEI deposit was found on GitHub, Zenodo or HAL.",
+   "source_url": "https://arxiv.org/abs/2503.20914",
+   "date": "2026-10-27"
+  }
+ ],
+ "review_pending": [
+  {
+   "title": "Digital Latin Library — Library of Digital Latin Texts (LDLT)",
+   "url": "https://digitallatin.org/",
+   "previous_reason": "Federates texts published elsewhere: the words it adds cannot be counted exactly, and they cannot be shown not to be in the catalogue already.",
+   "previous_date": "2026-10-08",
+   "reason": "The overlap-based exclusion was withdrawn. Review whether this resource provides its own identifiable text collection and establish its 1450–1700 counts and coverage before adding a record.",
+   "date": "2026-10-09"
+  },
+  {
+   "title": "CORDINA — Corpus diacrónico del español de Norteamérica",
+   "url": "https://corpora.uah.es/cordina/",
+   "reason": "No material currently within 1450-1700: the 2026-11-05 harvest (snapshot v2026.11) found all 122 dated documents in the 18th-20th centuries, so the in-window share is 0 and the majority rule excludes it for now. Its texts also appear in the CHARTA record. Reconsider when the corpus adds 16th-17th-century documents.",
+   "date": "2026-11-05"
+  },
+  {
+   "title": "NOSTOI — Corpus de textos troyanos ibéricos (ss. XIII-XVI)",
+   "url": "https://corpora.uah.es/nostoi/",
+   "reason": "The TEITOK instance holds only 2 documents (both 14th century), so the in-window share is currently 0 and the corpus is still being built towards ss. XIII-XVI. Reconsider when in-window (1450-1525) texts are added.",
+   "date": "2026-11-05"
+  }
+ ]
 }

@@ -34,12 +34,12 @@
     "DE",
     "SE"
   ],
-  "notes": "Digital version of the printed Briefwisseling van Hugo de Groot (letters written and received by Grotius from 1597 to 1645), with an introduction, name and quotation indices and the editors' Dutch notes. Every letter is readable online without login and can be browsed by year, sender or recipient. The site states 'basic digital version, October 2009'; its newest style file is dated 2023-07-04 and nothing newer was found, so it is marked archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Digital version of the printed Briefwisseling van Hugo de Groot (letters written and received by Grotius from 1597 to 1645), with an introduction, name and quotation indices and the editors' Dutch notes. Every letter is readable online without login and can be browsed by year, sender or recipient. The site states 'basic digital version, October 2009'; its newest style file is dated 2023-07-04 and nothing newer was found, so it is marked archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "last_modified": "2023-07-04",
   "license": "Copyright",
   "license_note": "Site footer: © Huygens Instituut – KNAW 2009.",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 3549906,
     "texts": 7790
   },

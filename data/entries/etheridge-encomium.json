@@ -21,11 +21,11 @@
   "countries": [
     "GB-ENG"
   ],
-  "notes": "Electronic edition of a Greek encomium in Etheridge's own hand, prepared for Elizabeth I's Oxford visit of 1566, with transcription, edited text with apparatus, English translation and manuscript images. Readable without login. Built with HTML and JavaScript only, no TEI. The server's file listing shows the most recent edits on 2023-03-20 and the edition page is dated 20 March 2023; no later change found, so it is marked archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Electronic edition of a Greek encomium in Etheridge's own hand, prepared for Elizabeth I's Oxford visit of 1566, with transcription, edited text with apparatus, English translation and manuscript images. Readable without login. Built with HTML and JavaScript only, no TEI. The server's file listing shows the most recent edits on 2023-03-20 and the edition page is dated 20 March 2023; no later change found, so it is marked archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "last_modified": "2023-03-20",
   "license": "Not stated",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 4809,
     "texts": 1
   },

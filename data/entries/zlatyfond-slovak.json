@@ -14,9 +14,9 @@
   "words": 61219,
   "texts": 14,
   "period": "1636-1636",
-  "notes": "Zlatý fond denníka SME is a digitised collection of classics of Slovak literature, run by the publisher Petit Press (daily SME) in cooperation with the Institute of Slovak Literature of the Slovak Academy of Sciences. Founded by Tomáš Ulej and launched around December 2006, it relies on volunteer digitisers and gives priority to recent, linguistically modern editions; the oldest editions are digitised only rarely. The project is led by Viera Studeničová. The live site refused automated requests (firewall), so these facts come from an archived copy of January 2025. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Zlatý fond denníka SME is a digitised collection of classics of Slovak literature, run by the publisher Petit Press (daily SME) in cooperation with the Institute of Slovak Literature of the Slovak Academy of Sciences. Founded by Tomáš Ulej and launched around December 2006, it relies on volunteer digitisers and gives priority to recent, linguistically modern editions; the oldest editions are digitised only rarely. The project is led by Viera Studeničová. The live site refused automated requests (firewall), so these facts come from an archived copy of January 2025. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 61219,
     "texts": 14
   },

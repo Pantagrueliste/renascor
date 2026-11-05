@@ -34,11 +34,11 @@
   "license": "CC-BY-NC-SA-4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.de",
   "license_note": "The TEI files are CC BY-NC-SA 4.0; the digitised copies follow the terms of the holding libraries.",
-  "notes": "Twelve editions or adaptations of Sebastian Brant's Narrenschiff printed before 1500: the three Basel editions (1494, 1495, 1499), the Nuremberg (1494) and Strasbourg (1494/5) German versions, three Latin editions by Jakob Locher (Basel 1497, 1498), the French Rivière version (Paris 1497) and its 1499 reprint, the Low German Lübeck version (1497) and the Dutch Paris print (1500). Each has a digital facsimile, transcription and, for eight, a normalised reading text, plus a synoptic view and registers. The home redirect is www.narragonien-digital.de/exist/. The news page shows entries up to June 2025. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Twelve editions or adaptations of Sebastian Brant's Narrenschiff printed before 1500: the three Basel editions (1494, 1495, 1499), the Nuremberg (1494) and Strasbourg (1494/5) German versions, three Latin editions by Jakob Locher (Basel 1497, 1498), the French Rivière version (Paris 1497) and its 1499 reprint, the Low German Lübeck version (1497) and the Dutch Paris print (1500). Each has a digital facsimile, transcription and, for eight, a normalised reading text, plus a synoptic view and registers. The home redirect is www.narragonien-digital.de/exist/. The news page shows entries up to June 2025. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 580012,
     "texts": 10
   },

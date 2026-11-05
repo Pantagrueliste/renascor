@@ -29,7 +29,7 @@ RQ = Path(_os.environ.get("RQ_ROOT", Path(__file__).resolve().parents[2] / "RQ")
 sys.path.insert(0, str(RQ / "src"))
 from rqfootprint.textstats import stats  # noqa: E402
 
-OUT = RQ / "data" / "raw" / "renascor_2026-10"
+OUT = RQ / "data" / "raw" / _os.environ.get("RQ_HARVEST_TAG", "renascor_2026-10")
 UA = "Renascor-harvest/0.1 (+https://pantagrueliste.github.io/renascor/)"
 LO, HI = 1450, 1700
 _YEAR = re.compile(r"(?<!\d)(1[3-9]\d\d)(?!\d)")
@@ -132,6 +132,25 @@ class Harvest:
                "method": method, "coverage": coverage, "problems": problems or []}
         (self.dir / "report.json").write_text(json.dumps(rep, ensure_ascii=False, indent=1), encoding="utf-8")
         return rep
+
+
+def tei_doc_year(xml: str) -> int | None:
+    """Document (not composition) date: origDate attributes/text, else years in msDesc, else header dates."""
+    for m in re.finditer(r"<origDate\b.*?(?:</origDate>|/>)", xml, re.S):
+        block = m.group(0)
+        for a in ("when", "notBefore", "from", "notAfter", "to", "n"):
+            am = re.search(rf'\b{a}="([^"]+)"', block)
+            if am and first_year(am.group(1)):
+                return first_year(am.group(1))
+        y = first_year(re.sub(r"<[^>]+>", " ", block))
+        if y:
+            return y
+    m = re.search(r"<msDesc\b.*?</msDesc>", xml, re.S)
+    if m:
+        y = first_year(re.sub(r"<[^>]+>", " ", m.group(0)))
+        if y:
+            return y
+    return tei_year(xml)
 
 
 def slug(s: str) -> str:

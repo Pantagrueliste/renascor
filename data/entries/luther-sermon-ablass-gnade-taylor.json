@@ -29,11 +29,11 @@
   "license": "CC-BY-SA-4.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
   "license_note": "XML files are CC BY-SA 4.0; the images are CC BY-NC-ND 4.0.",
-  "notes": "Transcription of Luther's Sermon von dem Ablass und Gnade (Leipzig print of 1518), with a facsimile, an English translation, linguistic notes and an introduction, and a note on the variant Basel print. Part of the Taylor Editions 'Reformation' pamphlet collection. The edition is dated 2018 (TEI change date 2018-02-14); the Taylor Editions site is online. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Transcription of Luther's Sermon von dem Ablass und Gnade (Leipzig print of 1518), with a facsimile, an English translation, linguistic notes and an introduction, and a note on the variant Basel print. Part of the Taylor Editions 'Reformation' pamphlet collection. The edition is dated 2018 (TEI change date 2018-02-14); the Taylor Editions site is online. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 1780,
     "texts": 1
   },

@@ -53,7 +53,8 @@ SITE_DESCRIPTION = "An open catalogue of digital editions of Renaissance-era wri
 
 SCOPE = (1450, 1700)
 SNAPSHOTS = {"v2026.06": {"frozen": "2026-06-26"},      # add a line for each new RQ snapshot
-             "v2026.10": {"frozen": "2026-10-13"}}
+             "v2026.10": {"frozen": "2026-10-13"},
+             "v2026.11": {"frozen": "2026-11-05"}}
 SNAPSHOT_NAME = "Renascor Corpus"
 SNAPSHOT_SCOPE = "texts harvested from each resource, duplicates included"
 PSEUDO_LANGUAGES = {"Multilingual", "Romance (other)"}
@@ -387,6 +388,11 @@ def read_citation(path: Path = CITATION_PATH) -> dict:
     fam = re.search(r"family-names:\s*[\"']?(.*?)[\"']?\s*$", text, re.M)
     giv = re.search(r"given-names:\s*[\"']?(.*?)[\"']?\s*$", text, re.M)
     out["author"] = f"{fam.group(1)}, {giv.group(1)}" if fam and giv else (fam.group(1) if fam else "")
+    if fam and giv:
+        out["author_full"] = f"{giv.group(1)} {fam.group(1)}"
+    aff = re.search(r"affiliation:\s*[\"']?(.*?)[\"']?\s*$", text, re.M)
+    if aff:
+        out["author_affiliation"] = aff.group(1)
     return out
 
 
@@ -746,6 +752,8 @@ def display_strings(stats: dict, *, updated: str, sha: str | None, citation: dic
         "with_data_url": plural(s["with_data_url"], 'resource') if s["with_data_url"] else "",
         "with_countries": plural(s["with_countries"], 'resource') if s["with_countries"] else "",
         "areas_list": join_and(areas or []),
+        "citation_author": citation.get("author_full") or citation.get("author", ""),
+        "citation_author_affiliation": citation.get("author_affiliation", ""),
         "citation_author_year": f"{citation.get('author', '')} ({year}).",
         "citation_title": citation.get("title", ""),
         "citation_tail": (f"(Version {version}) [Data set]. Zenodo. https://doi.org/{citation['doi']}"

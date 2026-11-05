@@ -35,11 +35,11 @@
   "period": "1507-1518",
   "license": "Custom terms",
   "license_url": "http://diglib.hab.de/rights/copyright.html",
-  "notes": "Critical edition of the writings and letters of the Wittenberg reformer Andreas Karlstadt, with a TEI transcript of each text (from printed works and manuscripts), commentary, German translations and facsimile links. The published part covers 1507 to 1518, 74 transcribed items. The TEI files are served one by one (for example texts/001/001_transcript.xml) with no bulk download, so no data link is given. The edition's files were last changed in 2017 and its METS record in April 2022. The HAB's terms allow private, scholarly use and forbid commercial use or republication. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Critical edition of the writings and letters of the Wittenberg reformer Andreas Karlstadt, with a TEI transcript of each text (from printed works and manuscripts), commentary, German translations and facsimile links. The published part covers 1507 to 1518, 74 transcribed items. The TEI files are served one by one (for example texts/001/001_transcript.xml) with no bulk download, so no data link is given. The edition's files were last changed in 2017 and its METS record in April 2022. The HAB's terms allow private, scholarly use and forbid commercial use or republication. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 158382,
     "texts": 74
   },

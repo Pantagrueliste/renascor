@@ -22,11 +22,11 @@
   "period": "1544-1644",
   "license": "Copyright",
   "license_url": "https://www.masshist.org/publications/winthrop/index.php/about",
-  "notes": "Digitised volumes of the Winthrop Papers documentary edition (letters, diaries, memoranda, legal documents and John Winthrop's journal), with the editors' markup of uncertain readings, deletions and gaps. The documents are dated 1544-1644 (plus 1682), and the browse list also holds a few items dated outside the period (1265, 1274, 1927). Only volumes 1-4 are online. No licence is stated beyond the MHS copyright line (2026). Status active: the site carries a 2026 copyright notice. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Digitised volumes of the Winthrop Papers documentary edition (letters, diaries, memoranda, legal documents and John Winthrop's journal), with the editors' markup of uncertain readings, deletions and gaps. The documents are dated 1544-1644 (plus 1682), and the browse list also holds a few items dated outside the period (1265, 1274, 1927). Only volumes 1-4 are online. No licence is stated beyond the MHS copyright line (2026). Status active: the site carries a 2026 copyright notice. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 672288,
     "texts": 1425
   },

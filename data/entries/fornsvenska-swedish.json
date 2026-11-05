@@ -17,9 +17,9 @@
   "words": 95194,
   "texts": 5,
   "period": "1536-1674",
-  "notes": "Nysvenska annexet of Fornsvenska textbanken (Lund University): 26 machine-readable Swedish texts from 1526 onwards, such as Olaus Petri's chronicle, Peder Swart's chronicle, Gustav Vasa's Bible (1541), Anna Vasa's letters and Agneta Horn's memoir, most from the project 'Bidrag till en nysvensk textbank pa data'. Mats Thelander and Carin Ostman gave permission to publish them. The texts are keyed or scanned from printed editions and proofread unevenly, so the site advises against quoting them and recommends them for word, phrase and statistical searches. The page was last updated on 2 September 2026. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Nysvenska annexet of Fornsvenska textbanken (Lund University): 26 machine-readable Swedish texts from 1526 onwards, such as Olaus Petri's chronicle, Peder Swart's chronicle, Gustav Vasa's Bible (1541), Anna Vasa's letters and Agneta Horn's memoir, most from the project 'Bidrag till en nysvensk textbank pa data'. Mats Thelander and Carin Ostman gave permission to publish them. The texts are keyed or scanned from printed editions and proofread unevenly, so the site advises against quoting them and recommends them for word, phrase and statistical searches. The page was last updated on 2 September 2026. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 95194,
     "texts": 5
   },

@@ -1,0 +1,36 @@
+{
+  "title": "CTA — Corpus de Textos Antigos em português (Corpus of Ancient Texts)",
+  "url": "http://teitok.clul.ul.pt/cta/",
+  "data_url": "http://teitok.clul.ul.pt/cta/index.php?action=files",
+  "data_format": "tei",
+  "languages": [
+    "Portuguese"
+  ],
+  "document_types": [
+    "manuscript"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-05",
+  "institution": "Centro de Linguística da Universidade de Lisboa (CLUL), Universidade de Lisboa",
+  "editors": [
+    "Cristina Sobral"
+  ],
+  "region": "Portugal",
+  "countries": [
+    "PT"
+  ],
+  "period": "1200-1525",
+  "words": 455238,
+  "texts": 13,
+  "notes": "Online paleographic editions of texts originally written in Portuguese or translated into Portuguese up to 1525, published in the TEITOK platform (project page: https://clul.ulisboa.pt/en/projeto/corpus-ancient-texts; ISLRN 192-137-552-657-9). Goals include reliable data for linguistic analysis, transcriptions as a first stage for critical editions, and making available unedited or rarely edited texts. Size (34 docs, 761k tokens, period 1200-1600) is the indicative whole-corpus figure from the TEITOK projects list (checked 2026-11-05); the corpus runs to 1525, so nearly all of it falls within or at the start of the catalogue window. Part of the historical Portuguese corpora surveyed in Language Resources and Evaluation (2024). Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in November 2026, duplicates included; they may cover only part of it).",
+  "license": "Not stated",
+  "license_note": "No licence terms found on the CLUL project page or the TEITOK instance; the site shows standard university copyright.",
+  "corpus_statistics": {
+    "snapshot": "v2026.11",
+    "words": 455238,
+    "texts": 13
+  },
+  "count_basis": "rq-retained-rows"
+}

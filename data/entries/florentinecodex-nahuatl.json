@@ -16,10 +16,10 @@
   "words": 290869,
   "texts": 12,
   "period": "1577-1577",
-  "notes": "Plain-text transcription of the Nahuatl text of Bernardino de Sahagun's Florentine Codex (General History of the Things of New Spain, Biblioteca Medicea Laurenziana, Florence), edited and deposited on Zenodo by Valery A. Berthoud F. The deposit has twelve text files, one per book, plus a readme; some special characters, such as the tilde, are missing. Version 1.0 was published on 16 October 2022 and the record was last modified in June 2025. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "Plain-text transcription of the Nahuatl text of Bernardino de Sahagun's Florentine Codex (General History of the Things of New Spain, Biblioteca Medicea Laurenziana, Florence), edited and deposited on Zenodo by Valery A. Berthoud F. The deposit has twelve text files, one per book, plus a readme; some special characters, such as the tilde, are missing. Version 1.0 was published on 16 October 2022 and the record was last modified in June 2025. Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2025-06-14",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 290869,
     "texts": 12
   },

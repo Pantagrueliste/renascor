@@ -45,6 +45,17 @@ python3 scripts/build_site.py
 
 With a later snapshot, records from the frozen corpus are relabelled, not recounted, because their collections are copied unchanged (some records hold hand-split shares of one collection). Harvested records get their words and texts from their own harvest and keep their curated languages and period, since the harvest assigns some languages and dates by approximation. The language breakdown leaves harvested collections out for the same reason. A record that also holds frozen copies of the same files (OpenEDGeS) takes its size from the harvest; both count towards its deduplicated corpus contribution.
 
+## Snapshot v2026.11
+
+Snapshot v2026.11 is the v2026.10 snapshot plus the November 2026 harvest (`renascor_2026-11`) of the TEITOK projects newly added to the catalogue: `cta-ancient-texts` and `cordican`. Deduplication ran against a fingerprint index of the whole v2026.10 snapshot (`harvest/duplicates_2026-11.json`): 363 unique in-window texts and 1,156,289 unique words were added; 4 CORDICan files near-duplicating other CORDICan files were marked `is_dup=1`. Two further harvested TEITOK projects, CORDINA and NOSTOI, contributed no in-window texts (all their dated documents fall outside 1450–1700), so they were moved to `review_pending` in `data/rejected.json` instead of getting catalogue records; their staged rows remain in the snapshot with `in_core=0` and do not affect any count.
+
+```bash
+python3 scripts/rq_statistics.py --db /path/to/corpus_master.2026-11-05.v2026.11.sqlite --rq-root /path/to/RQ --snapshot v2026.11 --source https://github.com/Pantagrueliste/renascor/blob/main/docs/MAINTENANCE.md#snapshot-v202611
+python3 scripts/language_breakdown.py --db /path/to/corpus_master.2026-11-05.v2026.11.sqlite
+python3 scripts/corpus_timeline.py --db /path/to/corpus_master.2026-11-05.v2026.11.sqlite
+python3 scripts/build_site.py
+```
+
 ## Period graph
 
 The graph uses deduplicated words from the same working snapshot. Recorded harvest years, which can themselves be inferred, remain separate from newly estimated dates. Dates are not consistently composition or publication dates. Other filters select catalogue collections, including all languages in a multilingual collection.

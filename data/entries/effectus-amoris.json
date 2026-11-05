@@ -26,12 +26,12 @@
   "countries": [
     "HU"
   ],
-  "notes": "Hungarian verse romance (széphistória) surviving only as damaged printed leaves from a Debrecen print of 1587-1588. Three free text versions: a letter-faithful critical transcription, a pronunciation-oriented text and a modern-language text, plus photographs. The site is a hand-made 1998-99 HTML publication; the server reports a last modification in 2006 and no later change was found. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Hungarian verse romance (széphistória) surviving only as damaged printed leaves from a Debrecen print of 1587-1588. Three free text versions: a letter-faithful critical transcription, a pronunciation-oriented text and a modern-language text, plus photographs. The site is a hand-made 1998-99 HTML publication; the server reports a last modification in 2006 and no later change was found. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "last_modified": "2006-02-28",
   "license": "Copyright",
   "license_note": "Copyright statement of the editor and publisher (1998-99); no open licence stated.",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 1656,
     "texts": 1
   },

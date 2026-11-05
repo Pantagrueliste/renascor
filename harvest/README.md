@@ -1,5 +1,7 @@
 # October 2026 harvest
 
+(The November 2026 harvest of `renascor_2026-11` — four TEITOK projects — reused the same helpers with `RQ_HARVEST_TAG=renascor_2026-11`; its dedup report is [duplicates_2026-11.json](duplicates_2026-11.json) and its per-resource reports [reports_2026-11.json](reports_2026-11.json). Only `cta-ancient-texts` and `cordican` became catalogue records; `cordina-north-america` and `nostoi` had no in-window texts and were moved to `review_pending` in [../data/rejected.json](../data/rejected.json). See [docs/MAINTENANCE.md](../docs/MAINTENANCE.md#snapshot-v202611) for snapshot v2026.11.)
+
 The Renascor Corpus snapshot v2026.10 adds to the frozen June working corpus (v2026.06) the texts of the catalogued resources that it did not hold. This directory contains the code and the text-free records of that harvest. The texts themselves stay outside the repository, in `$RQ_ROOT/data/raw/renascor_2026-10/` (`RQ_ROOT` defaults to `../RQ` beside this repository).
 
 ## Contents

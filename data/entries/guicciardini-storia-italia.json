@@ -29,11 +29,11 @@
   "last_modified": "2021-02-16",
   "license": "CC-BY-NC-SA-4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
-  "notes": "Semi-diplomatic transcriptions, beside facsimiles, of the successive drafts of the opening passage (exordium) of Guicciardini's History of Italy in eight manuscripts (family archive and Biblioteca Medicea Laurenziana, Florence). Only the opening is edited so far; the project hopes to extend it. The site was last changed in 2021 (server dates 2019-2021) and no extension has appeared since. The 14 transcribed sections carry no dates, so their place within 1450-1700 rests on the dating of the drafts to 1537-1540. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Semi-diplomatic transcriptions, beside facsimiles, of the successive drafts of the opening passage (exordium) of Guicciardini's History of Italy in eight manuscripts (family archive and Biblioteca Medicea Laurenziana, Florence). Only the opening is edited so far; the project hopes to extend it. The site was last changed in 2021 (server dates 2019-2021) and no extension has appeared since. The 14 transcribed sections carry no dates, so their place within 1450-1700 rests on the dating of the drafts to 1537-1540. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 7867,
     "texts": 14
   },

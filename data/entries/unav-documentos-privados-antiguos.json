@@ -20,10 +20,10 @@
     "ES"
   ],
   "period": "1550-1900",
-  "notes": "Despite the page title (1600-1900), the oldest document is dated 1550. Documents are 105 PDFs (notarial documents and letters), each with metadata, TRANSCRIPCIÓN PALEOGRÁFICA, PRESENTACIÓN CRÍTICA and facsimile; text layer present (pdftotext). The collection has 105 documents dated 1550-1900. Mostly Spanish, some Basque. PDFs only, no machine-readable XML. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Despite the page title (1600-1900), the oldest document is dated 1550. Documents are 105 PDFs (notarial documents and letters), each with metadata, TRANSCRIPCIÓN PALEOGRÁFICA, PRESENTACIÓN CRÍTICA and facsimile; text layer present (pdftotext). The collection has 105 documents dated 1550-1900. Mostly Spanish, some Basque. PDFs only, no machine-readable XML. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "Copyright",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 4192,
     "texts": 8
   },

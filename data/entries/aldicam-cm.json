@@ -18,12 +18,12 @@
     "ES"
   ],
   "period": "1250-1897",
-  "notes": "Transcribed archival documents from the 13th to the 19th century from archives of the Comunidad de Madrid (Archivo Regional, Archivo de la Villa, municipal, ecclesiastical and private archives), with paleographic and critical presentation and facsimiles, searchable and mappable without login. Same search engine as CODEA+ 2022; about a third of the regestos coincide with CODEA+ 2022 documents. No bulk download found. About a third of its document summaries coincide with CODEA+ 2022. Twelve documents without a date and three without paleographic text are not in the counts. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Transcribed archival documents from the 13th to the 19th century from archives of the Comunidad de Madrid (Archivo Regional, Archivo de la Villa, municipal, ecclesiastical and private archives), with paleographic and critical presentation and facsimiles, searchable and mappable without login. Same search engine as CODEA+ 2022; about a third of the regestos coincide with CODEA+ 2022 documents. No bulk download found. About a third of its document summaries coincide with CODEA+ 2022. Twelve documents without a date and three without paleographic text are not in the counts. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "license": "Not stated",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 143843,
     "texts": 310
   },

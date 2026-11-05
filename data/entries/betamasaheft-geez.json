@@ -16,10 +16,10 @@
   "words": 51400,
   "texts": 5,
   "period": "1555-1555",
-  "notes": "TEI-XML records of Ethiopian and Eritrean literary works (Ge'ez and other languages of the Christian written tradition) kept in the BetaMasaheft/Works GitHub repository, the data layer of the Beta masahaft project 'Manuscripts of Ethiopia and Eritrea'. The records are served through the project's eXist-db application at betamasaheft.eu, which links works to manuscripts, persons and places and is built on a Clavis Aethiopica numbering of works. The project is a long-term programme of the Academy of Sciences and Humanities in Hamburg (2016-2040), directed by Alessandro Bausi and hosted by the Hiob Ludolf Centre for Ethiopian and Eritrean Studies, University of Hamburg; it follows an ERC project led by Denis Nosnitsin (2009-2015). The repository is under active development (last push October 2026). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this edition, duplicates included; they may cover only part of it).",
+  "notes": "TEI-XML records of Ethiopian and Eritrean literary works (Ge'ez and other languages of the Christian written tradition) kept in the BetaMasaheft/Works GitHub repository, the data layer of the Beta masahaft project 'Manuscripts of Ethiopia and Eritrea'. The records are served through the project's eXist-db application at betamasaheft.eu, which links works to manuscripts, persons and places and is built on a Clavis Aethiopica numbering of works. The project is a long-term programme of the Academy of Sciences and Humanities in Hamburg (2016-2040), directed by Alessandro Bausi and hosted by the Hiob Ludolf Centre for Ethiopian and Eritrean Studies, University of Hamburg; it follows an ERC project led by Denis Nosnitsin (2009-2015). The repository is under active development (last push October 2026). Corpus statistics (text, word and language counts, period) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this edition, duplicates included; they may cover only part of it).",
   "last_modified": "2026-10-06",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 51400,
     "texts": 5
   },

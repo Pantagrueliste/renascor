@@ -27,11 +27,11 @@
   "period": "16th century",
   "license": "CC-BY-NC-ND-3.0",
   "license_url": "https://dharc-org.github.io/progetto-vasto/",
-  "notes": "Digital genetic and annotated edition (EVT2) of Varchi's unfinished Storia fiorentina, left incomplete at his death in 1565 and printed only in 1721 in a censored form. The site offers diplomatic and critical views with facsimile. Only the Proemio is published so far: the TEI file pilot_proemio.xml in the project's GitHub repository holds it; the whole work is not online. Status archived: the repository's last commit is 13 June 2021 and the site has had no update since. The licence is the Creative Commons BY-NC-ND 3.0 link shown on the home page. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Digital genetic and annotated edition (EVT2) of Varchi's unfinished Storia fiorentina, left incomplete at his death in 1565 and printed only in 1721 in a censored form. The site offers diplomatic and critical views with facsimile. Only the Proemio is published so far: the TEI file pilot_proemio.xml in the project's GitHub repository holds it; the whole work is not online. Status archived: the repository's last commit is 13 June 2021 and the site has had no update since. The licence is the Creative Commons BY-NC-ND 3.0 link shown on the home page. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 3045,
     "texts": 1
   },

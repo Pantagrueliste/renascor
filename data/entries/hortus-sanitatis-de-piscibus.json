@@ -25,11 +25,11 @@
   ],
   "period": "1491",
   "license": "Not stated",
-  "notes": "Online companion to the printed critical edition: the Latin Tractatus de piscibus (Book IV of the Hortus sanitatis, editio princeps by Meydenbach, Mainz 1491) with apparatus, a modern French translation, notes, an index and facsimiles of copies from Épernay and Valognes. The server shows the chapter pages last modified on 3 June 2022 and the home page on 10 January 2022, so it is listed as archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.10 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
+  "notes": "Online companion to the printed critical edition: the Latin Tractatus de piscibus (Book IV of the Hortus sanitatis, editio princeps by Meydenbach, Mainz 1491) with apparatus, a modern French translation, notes, an index and facsimiles of copies from Épernay and Valognes. The server shows the chapter pages last modified on 3 June 2022 and the home page on 10 January 2022, so it is listed as archived. Corpus statistics (text and word counts) derived from the Renascor Corpus snapshot v2026.11 (texts harvested from this resource in October 2026, duplicates included; they may cover only part of it).",
   "provenance": "discovered",
   "date_added": "2026-10-12",
   "corpus_statistics": {
-    "snapshot": "v2026.10",
+    "snapshot": "v2026.11",
     "words": 19867,
     "texts": 107
   },

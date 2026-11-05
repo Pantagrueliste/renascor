@@ -24,7 +24,8 @@ RQ = _os.environ.get("RQ_ROOT", _os.path.join(_os.path.dirname(_os.path.abspath(
 sys.path.insert(0, RQ + "/src")
 from rqfootprint.textstats import extract_primary_text  # noqa: E402
 
-FROZEN = RQ + "/data/backups/corpus_master.2026-06-26.FROZEN.sqlite"
+FROZEN = _os.environ.get("RQ_INDEX_DB", RQ + "/data/backups/corpus_master.2026-06-26.FROZEN.sqlite")
+SKIP_TAGS = tuple(_os.environ.get("RQ_SKIP_TAGS", "renascor_2026-10").split(","))
 MOD = 32
 K = 5
 _NONLET = re.compile(r"[^a-z]+")
@@ -77,7 +78,7 @@ def tasks():
     done = set()
     # staging records first (exact (collection, filename) or filename match)
     for p in glob.glob(RQ + "/data/raw/**/*.jsonl", recursive=True):
-        if "renascor_2026-10" in p:
+        if any(t in p for t in SKIP_TAGS):
             continue
         for line in open(p, encoding="utf-8", errors="replace"):
             try:
@@ -94,7 +95,7 @@ def tasks():
                     yield (c, fn, ("stage", r["raw"]))
     files = collections.defaultdict(list)
     for root, _, fs in os.walk(RQ + "/data/raw"):
-        if "renascor_2026-10" in root:
+        if any(t in root for t in SKIP_TAGS):
             continue
         for f in fs:
             if not f.endswith((".jpg", ".gif", ".png", ".pdf", ".zip", ".gz", ".jsonl", ".tsv")):
