@@ -1,0 +1,15 @@
+{
+  "title": "Library of Digital Latin Texts (LDLT) — Digital Latin Library",
+  "url": "https://ldlt.digitallatin.org/",
+  "languages": [
+    "Latin"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-09",
+  "institution": "Digital Latin Library — Society for Classical Studies, Medieval Academy of America, Renaissance Society of America",
+  "period": "Late Antiquity–Renaissance; strong 1450–1700 coverage via the Renaissance Society of America series",
+  "region": "Europe",
+  "notes": "Peer-reviewed critical editions published as single version-controlled TEI XML files (LDLT guidelines, a TEI+EpiDoc ODD), each with preface, critical text and scholarly apparatus. Coverage spans late antique, medieval and Renaissance Latin, so the catalogue-relevant subset is the Renaissance portion (1450–1700). Distinct from The Latin Library already in the catalogue. TEI XML files are downloadable from the LDLT site and its GitHub repositories; the exact repository path was not verified in this run.\n\nJustification: Ongoing series of open, peer-reviewed TEI XML critical editions co-published with the Renaissance Society of America with explicit Renaissance-era coverage, freely accessible and not in the catalogue; found via the TEI Consortium projects list and the LDLT encoding guidelines.\nFound at: https://tei-c.org/activities/projects/the-digital-latin-librarys-library-of-digital-latin-texts/"
+}
