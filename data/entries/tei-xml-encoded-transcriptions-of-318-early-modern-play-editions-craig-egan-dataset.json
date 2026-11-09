@@ -1,0 +1,18 @@
+{
+  "title": "TEI-XML encoded transcriptions of 318 early modern play editions (Craig–Egan dataset)",
+  "url": "https://zenodo.org/records/14289452",
+  "languages": [
+    "English"
+  ],
+  "encoding": "tei",
+  "status": "archived",
+  "provenance": "discovered",
+  "date_added": "2026-11-09",
+  "period": "16th–17th century",
+  "region": "England",
+  "texts": 318,
+  "notes": "ZIP of TEI-XML transcriptions of 318 editions of 288 early modern plays by 77 authors (keyed/corrected transcriptions of early printed editions, related to EEBO-TCP texts, with corrections by Gabriel Egan in derivative subsets). The count of 318 editions is stated on the Zenodo record; word count not stated.\n\nJustification: Freely downloadable, project-released TEI-XML full-text dataset of early modern English drama within 1450–1700, distinct from the catalogued EEBO-TCP and DraCor records; found via a Zenodo search for early modern TEI play transcriptions.\nFound at: https://zenodo.org/records/14289452",
+  "doi": "10.5281/zenodo.14289452",
+  "data_url": "https://zenodo.org/records/14289452",
+  "data_format": "tei"
+}

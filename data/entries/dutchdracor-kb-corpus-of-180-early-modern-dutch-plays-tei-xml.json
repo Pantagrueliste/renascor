@@ -1,0 +1,16 @@
+{
+  "title": "DutchDraCor — KB corpus of 180 early modern Dutch plays (TEI XML)",
+  "url": "https://lab.kb.nl/about-us/blog/presenting-dutchdracor-new-kb-dataset-computational-approaches-early-modern-dutch",
+  "languages": [
+    "Dutch"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-09",
+  "institution": "KB — National Library of the Netherlands (KB LAB)",
+  "period": "16th–17th century",
+  "region": "Low Countries",
+  "texts": 180,
+  "notes": "Corpus of 180 early modern Dutch plays fully encoded and annotated in TEI XML following DraCor standards, drawing on DBNL and Ceneton transcriptions; available through the DraCor infrastructure with a standalone Zenodo version announced. The stable project URL beyond the KB LAB announcement was not verified in this run; this is a distinct Dutch-language collection, not the catalogued DraCor record itself.\n\nJustification: Identifiable TEI XML text collection of 180 early modern Dutch plays within 1450–1700, freely accessible; found via a web search for new DraCor-family corpora announced on Zenodo and KB LAB.\nFound at: https://lab.kb.nl/about-us/blog/presenting-dutchdracor-new-kb-dataset-computational-approaches-early-modern-dutch"
+}

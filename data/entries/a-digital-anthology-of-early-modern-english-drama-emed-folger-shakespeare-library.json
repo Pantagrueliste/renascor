@@ -1,0 +1,17 @@
+{
+  "title": "A Digital Anthology of Early Modern English Drama (EMED) — Folger Shakespeare Library",
+  "url": "https://emed.folger.edu/",
+  "languages": [
+    "English"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-09",
+  "institution": "Folger Shakespeare Library",
+  "period": "16th–17th century",
+  "region": "England",
+  "notes": "Documentary editions with proofed TEI XML transcriptions of single copies of the earliest surviving printed editions of non-Shakespearean early modern plays (about 30 texts in the TEI P5 subset, additional proofed transcriptions offered for download). Project documentation states transcriptions are edited for accuracy and regularized in spelling, hence modernised=true. Distinct from the catalogued Folger Shakespeare record.\n\nJustification: Freely accessible proofed TEI transcriptions of early modern English drama within 1450–1700 with downloadable XML files; found via the Folgerpedia bibliography of digital editions of English Renaissance drama.\nFound at: https://folgerpedia.folger.edu/A_Digital_Anthology_of_Early_Modern_English_Drama",
+  "data_url": "https://emed.folger.edu/research-resources/data",
+  "data_format": "tei"
+}

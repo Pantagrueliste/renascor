@@ -1,0 +1,16 @@
+{
+  "title": "Projet GORDES — Édition numérique de la correspondance du baron de Gordes (1565–1576)",
+  "url": "https://www.projetgordes.fr/",
+  "languages": [
+    "French"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-09",
+  "institution": "Université Sorbonne Paris Nord (PLÉIADE) / Institut de France, Bibliothèque et Archives du château de Chantilly",
+  "period": "1565-1576",
+  "region": "France (Dauphiné)",
+  "texts": 1771,
+  "notes": "Scholarly edition of the correspondence received by Bertrand-Raimbaud de Simiane, baron de Gordes, lieutenant-général du roi en Dauphiné: transcriptions with facsimiles, thematic indexing (proper names, places, text strings) and cartography. The site states 1,771 letters/documents consultable online out of 7,018 in series K of the Chantilly archives (partial coverage, vols. XVII–XIX / 1572 emphasized). Transcriptions are displayed as HTML; no machine-readable file download was verified in this run, so encoding is recorded as html and no data_url is given.\n\nJustification: Freely accessible scholarly digital edition of a major 16th-century French correspondence corpus, squarely within 1450–1700 and not in the catalogue; found via a general web search for new French digital editions of 16th-century letters and verified on the project site.\nFound at: https://www.projetgordes.fr/1/accueil"
+}
