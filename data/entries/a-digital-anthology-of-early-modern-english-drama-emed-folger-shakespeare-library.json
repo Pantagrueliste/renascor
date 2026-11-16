@@ -1,0 +1,18 @@
+{
+  "title": "A Digital Anthology of Early Modern English Drama (EMED), Folger Shakespeare Library",
+  "url": "https://emed.folger.edu/",
+  "languages": [
+    "English"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-16",
+  "institution": "Folger Shakespeare Library",
+  "period": "1576-1642 (plays printed before 1660)",
+  "region": "England",
+  "texts": 403,
+  "notes": "Corpus of 403 plays first professionally performed in London 1576-1642 and printed before 1660 (count per EMED/Folgerpedia documentation): 343 plays transcribed from EEBO-TCP texts (via Martin Mueller's Shakespeare His Contemporaries corpus) plus about 30 consistently encoded in TEI P5 as documentary editions; TEI XML files downloadable from the project data page. Coverage of full TEI encoding is partial, so the 403 count covers the whole corpus, not only the TEI-encoded subset. First-publication year not verified; project documentation consulted 2026.\n\nJustification: A freely accessible TEI digital anthology of early modern English drama with downloadable XML, within 1450-1700 and not in the catalogue (EEBO-TCP and the Folger Shakespeare are catalogued separately). Found via Folgerpedia's listing of early modern drama projects and the EMED data page.\nFound at: https://folgerpedia.folger.edu/A_Digital_Anthology_of_Early_Modern_English_Drama",
+  "data_url": "https://emed.folger.edu/research-resources/data",
+  "data_format": "tei"
+}
