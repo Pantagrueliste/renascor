@@ -1,0 +1,17 @@
+{
+  "title": "COR2 — Édition numérique de la correspondance de Pierre Corneille",
+  "url": "http://corneille-correspondance.huma-num.fr/cor2/accueil.html",
+  "languages": [
+    "French",
+    "Latin"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-23",
+  "institution": "Huma-Num (consortium CORLI)",
+  "period": "17th century (1630s–1680s)",
+  "region": "France",
+  "texts": 20,
+  "notes": "Pierre Corneille destroyed most of his correspondence; only about twenty letters survive ('la vingtaine de lettres qui demeurent', per the project page), so texts ≈ 20, approximate. Edition combines facsimile of the autograph, semi-diplomatic edition showing Corneille's own interventions (erasures, corrections), a modernised transcription, hypertext annotation and indexes, encoded in XML-TEI per the Cahier consortium guidelines; freely accessible on Huma-Num. Word count not stated. Small single-author correspondence, but a recognised scholarly edition of the surviving letters.\n\nJustification: A freely accessible TEI-XML philological digital edition of the surviving 17th-century autograph letters of Pierre Corneille (within 1450–1700), with diplomatic and modernised views and scholarly apparatus; not in the catalogue. Found via a general French-language web search for 2026 digital edition projects on Huma-Num.\nFound at: http://corneille-correspondance.huma-num.fr/cor2/projet.html"
+}
