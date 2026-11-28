@@ -1,0 +1,18 @@
+{
+  "title": "KONDE — Kontextualisierung von Reiseberichten (digital corpus of early modern travel accounts)",
+  "url": "https://www.digitale-edition.at/archive/objects/o:konde.p18/",
+  "languages": [
+    "German"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-09",
+  "license": "CC-BY-NC-4.0",
+  "license_url": "https://digitale-edition.at/o:konde.256/TEI_SOURCE",
+  "license_note": "TEI header of each KONDE text on digitale-edition.at states Creative Commons BY-NC 4.0 (creativecommons.org/licenses/by-nc/4.0); non-commercial reuse with attribution only.",
+  "institution": "Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH, Austrian Academy of Sciences)",
+  "period": "16th–17th century",
+  "region": "German-speaking Europe",
+  "notes": "ACDH corpus project providing TEI-encoded, linguistically annotated full text of early modern travel literature together with facsimiles, hosted on the digitale-edition.at platform; distinct from the catalogued Grand Tour digital dataset. Exact text and word counts were not verified in this run.\n\nJustification: TEI-encoded, editorially annotated full text of early modern travel accounts within 1450–1700, freely accessible on the Austrian digitale-edition.at platform and not in the catalogue; found via a re3data/DARIAH-oriented web search.\nFound at: https://www.digitale-edition.at/archive/objects/o:konde.p18/"
+}
