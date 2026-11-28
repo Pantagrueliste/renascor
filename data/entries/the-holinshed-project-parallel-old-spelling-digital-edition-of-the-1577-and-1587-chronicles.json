@@ -1,6 +1,6 @@
 {
   "title": "The Holinshed Project: parallel old-spelling digital edition of the 1577 and 1587 Chronicles",
-  "url": "https://english.nsms.ox.ac.uk/Holinshed/",
+  "url": "https://english.nsms.ox.ac.uk/holinshed/",
   "languages": [
     "English"
   ],
@@ -8,6 +8,9 @@
   "status": "active",
   "provenance": "discovered",
   "date_added": "2026-11-16",
+  "license": "Copyright",
+  "license_url": "https://english.nsms.ox.ac.uk/holinshed/",
+  "license_note": "Site footer: 'All content © The Holinshed Project 2008-13'; no open licence for the parallel edition and annotations. The underlying 1577 and 1587 printed texts are in the public domain. Do not harvest the edition text into the corpus without permission (same policy as CODEA+ 2022); the 1587 text is already covered by the catalogued EEBO-TCP record.",
   "institution": "University of Oxford (Centre for Editing Lives and Letters / Faculty of English)",
   "period": "1577 and 1587 editions",
   "region": "England",
