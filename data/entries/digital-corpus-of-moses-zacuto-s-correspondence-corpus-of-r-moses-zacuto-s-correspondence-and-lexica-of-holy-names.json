@@ -1,0 +1,23 @@
+{
+  "title": "Digital Corpus of Moses Zacuto's Correspondence (Corpus of R. Moses Zacuto's Correspondence and Lexica of Holy Names)",
+  "url": "https://zacuto.kabbalaheditions.org/",
+  "languages": [
+    "Hebrew"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-23",
+  "license": "Public domain",
+  "license_url": "https://correspsearch.net/en/home.html",
+  "license_note": "The letters (17th-century Hebrew correspondence) are in the public domain; the edition site states no open licence for its TEI files, but correspSearch serves the aggregated CMIF/TEI-XML data of registered editions under CC BY 4.0.",
+  "institution": "Martin Luther University Halle-Wittenberg / Ben-Gurion University of the Negev (DFG-funded project)",
+  "period": "17th century (ca. 1610–1697)",
+  "region": "Italy and Amsterdam (Netherlands)",
+  "texts": 400,
+  "years_active": {
+    "start": 2022,
+    "end": "ongoing"
+  },
+  "notes": "Version 1.0.1 released 2 September 2026; listed in the correspSearch registry of scholarly correspondence editions. TEI-XML letters with variants, named entities and commentaries delivered via a customized TEI Publisher instance; parallel textual versions per letter. Text count is approximate ('about 400 letters', per the project's own conference abstract at the 18th World Congress of Jewish Studies); word count not stated. Correspondence predominantly in Hebrew; possible letters in other languages not verified. Downloadable TEI files not located — only the TEI Publisher web view and correspSearch TEI-XML query results, so no data_url given.\n\nJustification: A brand-new (September 2026), freely accessible TEI digital scholarly edition of a 17th-century correspondence corpus (~400 letters of Rabbi Moses Zacuto, ca. 1610–1697), within the 1450–1700 window and documenting Jewish-European scholarly networks; not in the catalogue. Found via the correspSearch registry (TEI SIG Correspondence) during a general web search for new correspondence editions.\nFound at: https://correspsearch.net/en/home.html"
+}
