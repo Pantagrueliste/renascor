@@ -1,0 +1,20 @@
+{
+  "title": "The Holinshed Project: parallel old-spelling digital edition of the 1577 and 1587 Chronicles",
+  "url": "https://english.nsms.ox.ac.uk/holinshed/",
+  "languages": [
+    "English"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-16",
+  "license": "Copyright",
+  "license_url": "https://english.nsms.ox.ac.uk/holinshed/",
+  "license_note": "Site footer: 'All content © The Holinshed Project 2008-13'; no open licence for the parallel edition and annotations. The underlying 1577 and 1587 printed texts are in the public domain. Do not harvest the edition text into the corpus without permission (same policy as CODEA+ 2022); the 1587 text is already covered by the catalogued EEBO-TCP record.",
+  "institution": "University of Oxford (Centre for Editing Lives and Letters / Faculty of English)",
+  "period": "1577 and 1587 editions",
+  "region": "England",
+  "words": 6000000,
+  "texts": 2,
+  "notes": "Complete old-spelling annotated parallel-text edition of both print editions of Holinshed's Chronicles; the project states 2.5 million words for 1577 and 3.5 million words for 1587 (source: project 'Texts' page). The 1577 text was keyed for this project (Harvard copy, STC 13568b); the 1587 text derives from EEBO-TCP. Distinct from the catalogued EEBO-TCP record. Site live but blocks automated reading; details verified via project pages and ReKN/Early Modern Web listings.\n\nJustification: A major freely accessible scholarly digital edition of a Renaissance printed work (1577/1587), squarely within 1450-1700, not in the catalogue. Found via a general web search of early modern primary-source listings (earlymodernweb.org), confirmed on the Oxford project site.\nFound at: https://earlymodernweb.org/resources/primary-sources.html"
+}

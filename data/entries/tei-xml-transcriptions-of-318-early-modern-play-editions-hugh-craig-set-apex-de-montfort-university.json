@@ -1,0 +1,22 @@
+{
+  "title": "TEI-XML transcriptions of 318 early modern play editions (Hugh Craig set, APEX / De Montfort University)",
+  "url": "https://apex.dmu.ac.uk/",
+  "languages": [
+    "English"
+  ],
+  "encoding": "tei",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-16",
+  "license": "CC-BY-4.0",
+  "license_url": "https://zenodo.org/records/14289452",
+  "license_note": "Zenodo record 14289452 (DOI 10.5281/zenodo.14289452) is open access with licence CC BY 4.0 (cc-by-4.0 in the record metadata).",
+  "institution": "APEX, De Montfort University (Gabriel Egan); texts supplied by Hugh Craig",
+  "period": "c. 1576-1642",
+  "region": "England",
+  "texts": 318,
+  "notes": "Zenodo dataset (DOI 10.5281/zenodo.14289452) containing TEI-XML transcriptions of 318 editions of 288 early modern plays by 77 authors (count stated in the dataset description). Base texts are double-keyed EEBO-TCP-style transcriptions supplied by Hugh Craig, with minor corrections by Gabriel Egan; related corrected subsets (e.g. Folio-only Shakespeare plays) are deposited separately on Zenodo. Word count not published.\n\nJustification: A project-released, corrected TEI full-text dataset of Renaissance-era printed drama, freely downloadable with a stable DOI, not in the catalogue. Found via a Zenodo search for TEI-encoded early modern play corpora.\nFound at: https://zenodo.org/records/14289452",
+  "doi": "10.5281/zenodo.14289452",
+  "data_url": "https://zenodo.org/records/14289452",
+  "data_format": "tei"
+}

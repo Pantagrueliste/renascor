@@ -1,0 +1,19 @@
+{
+  "title": "Projet Gordes: digital edition of the correspondence received by Bertrand de Simiane, baron de Gordes (1565-1576)",
+  "url": "https://www.projetgordes.fr/",
+  "languages": [
+    "French"
+  ],
+  "encoding": "html",
+  "status": "active",
+  "provenance": "discovered",
+  "date_added": "2026-11-16",
+  "license": "Public domain",
+  "license_url": "https://www.projetgordes.fr/",
+  "license_note": "The letters (1565-1576 Chantilly manuscripts) are in the public domain; the project site states no open licence for its transcriptions and documentary apparatus, so the edition layer remains copyrighted.",
+  "institution": "Université Sorbonne Paris Nord (PLÉIADE) with University of Sheffield, Institut de France and Archives du château de Chantilly",
+  "period": "1565-1576",
+  "region": "France (Dauphiné)",
+  "texts": 1771,
+  "notes": "Participatory digital edition of letters received by the baron de Gordes during the first French Wars of Religion: 1,771 letters and documents in 9 volumes consultable online (source: project homepage), drawn from a fonds of 7,018 letters in 31 volumes (Chantilly, Archives du domaine de Chantilly, série K). Transcriptions with facsimiles and documentary apparatus are freely accessible; no downloadable TEI files found, so encoding recorded as html. Word count not published.\n\nJustification: A freely accessible, actively maintained scholarly edition of transcribed 16th-century manuscript correspondence, squarely within 1450-1700 and not in the catalogue. Found via a general web search for new French-language digital editions of 16th-century correspondence.\nFound at: https://www.projetgordes.fr/1/accueil"
+}
