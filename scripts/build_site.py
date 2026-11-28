@@ -51,6 +51,43 @@ SEO_DESCRIPTION = ("Find freely accessible Renaissance and early modern texts, 1
 SITE_TITLE = "Renascor"
 SITE_DESCRIPTION = "An open catalogue of digital editions of Renaissance-era written documents"
 
+# Single source for the FAQ section (HTML) and the FAQPage JSON-LD, so both stay in sync.
+# Answers are plain text; they are wrapped in <p> in the page and quoted verbatim in JSON-LD.
+FAQ_ITEMS = [
+    ("What is Renascor?",
+     "Renascor is an open catalogue of freely accessible digital editions and text collections of "
+     "written documents from about 1450 to 1700: manuscript editions, printed works, correspondence "
+     "and inscriptions. Each record describes the project behind a collection: scope, period, "
+     "languages, size, encoding, licence and access links."),
+    ("What period and geography does it cover?",
+     "The years 1450 to 1700, centred on Europe, including texts arising from Europe's documented "
+     "contacts with the rest of the world (trade, diplomacy, travel, migration, missions and colonial "
+     "encounters), in any language."),
+    ("Is the catalogue free? Are the texts free?",
+     "Yes on both counts. The catalogue metadata is licensed CC0 1.0 and the code is MIT. The "
+     "catalogued resources themselves must be freely accessible (no paywall); the licence of each "
+     "edition's texts is recorded per record, because free access does not imply an open licence."),
+    ("What is the difference between the catalogue and the Renascor Corpus?",
+     "The catalogue lists and describes the resources. The Renascor Corpus counts and deduplicates "
+     "their texts: catalogue words/texts counts cover each resource within 1450-1700 before "
+     "deduplication, while corpus_statistics records the deduplicated contribution of a resource."),
+    ("How do I download the data?",
+     "As CSV (renascor.csv), JSON (renascor.json), BibTeX (renascor.bib) or the page payload "
+     "(data.json). For AI assistants, llms.txt summarises the site and llms-full.txt lists the whole "
+     "catalogue in Markdown."),
+    ("How do I cite Renascor?",
+     "Cite the version you used, with the concept DOI 10.5281/zenodo.23345610 (archived on Zenodo); "
+     "the ready-made citation is in the Cite section of the page and in CITATION.cff."),
+    ("Are paywalled or image-only resources included?",
+     "No. A resource must provide an identifiable collection of transcribed or editorially corrected "
+     "texts, freely accessible. Facsimiles without transcription, raw uncorrected OCR and "
+     "bibliographies are excluded."),
+    ("How can I add a resource or report an error?",
+     "Use the Suggest a resource or Report a correction forms, which open an issue on GitHub; no "
+     "Git or JSON knowledge is needed. Every proposal is reviewed by a human maintainer before it "
+     "enters the catalogue."),
+]
+
 SCOPE = (1450, 1700)
 SNAPSHOTS = {"v2026.06": {"frozen": "2026-06-26"},      # add a line for each new RQ snapshot
              "v2026.10": {"frozen": "2026-10-13"},
@@ -844,6 +881,7 @@ def seo_head(meta: dict) -> str:
     # Prevent catalogue metadata from terminating the script element.
     payload = json.dumps(dataset, ensure_ascii=False, indent=2).replace("<", "\\u003c")
     tags.append('<script type="application/ld+json">' + payload + '</script>')
+    tags.append(faq_jsonld())
     return "\n".join(tags)
 
 
@@ -871,6 +909,7 @@ def llms_txt(meta: dict) -> str:
         f"- [Catalogue data as BibTeX]({SITE_URL}renascor.bib)",
         f"- [Page payload (data.json)]({SITE_URL}data.json)",
         f"- [Complete catalogue as Markdown]({SITE_URL}llms-full.txt)",
+        f"- [FAQ]({SITE_URL}#faq)",
         f"- [Sitemap]({SITE_URL}sitemap.xml)",
         "",
         "## Project",
@@ -917,6 +956,29 @@ def llms_full_txt(entries, derived) -> str:
         lines.append(f"- [{e['title']}]({e['url']}) — " + "; ".join(bits))
     lines.append("")
     return "\n".join(lines)
+
+
+def faq_html() -> str:
+    """FAQ folds for the page, from FAQ_ITEMS (readable without JavaScript)."""
+    folds = []
+    for question, answer in FAQ_ITEMS:
+        folds.append(f'<details class="fold"><summary>{html.escape(question)}</summary>'
+                     f'<div class="fold-body"><p>{html.escape(answer)}</p></div></details>')
+    return '<div class="folds">\n\t\t\t\t\t' + "\n\t\t\t\t\t".join(folds) + "\n\t\t\t\t</div>"
+
+
+def faq_jsonld() -> str:
+    """FAQPage structured data matching the visible FAQ section."""
+    faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {"@type": "Question", "name": q,
+             "acceptedAnswer": {"@type": "Answer", "text": a}}
+            for q, a in FAQ_ITEMS
+        ],
+    }
+    return '<script type="application/ld+json">' + json.dumps(faq, ensure_ascii=False, indent=2).replace("<", "\\u003c") + '</script>'
 
 
 def static_catalogue(entries, derived) -> str:
@@ -1110,7 +1172,8 @@ def write_outputs(entries, derived, meta, out_dir: Path, index_template: Path) -
     page = index_template.read_text(encoding="utf-8")
     page = inject(page, meta["display"], {"share-chart": share_chart(meta["stats"]),
                                        "seo": seo_head(meta),
-                                       "catalogue": static_catalogue(entries, derived)})
+                                       "catalogue": static_catalogue(entries, derived),
+                                       "faq": faq_html()})
     if write_if_changed(target, page.encode("utf-8")):
         changed.append("index.html")
     return changed

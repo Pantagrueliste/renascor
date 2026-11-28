@@ -67,6 +67,76 @@
   "sameAs": "https://doi.org/10.5281/zenodo.23345610",
   "dateModified": "2026-11-28"
 }</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Renascor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Renascor is an open catalogue of freely accessible digital editions and text collections of written documents from about 1450 to 1700: manuscript editions, printed works, correspondence and inscriptions. Each record describes the project behind a collection: scope, period, languages, size, encoding, licence and access links."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What period and geography does it cover?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The years 1450 to 1700, centred on Europe, including texts arising from Europe's documented contacts with the rest of the world (trade, diplomacy, travel, migration, missions and colonial encounters), in any language."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the catalogue free? Are the texts free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes on both counts. The catalogue metadata is licensed CC0 1.0 and the code is MIT. The catalogued resources themselves must be freely accessible (no paywall); the licence of each edition's texts is recorded per record, because free access does not imply an open licence."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between the catalogue and the Renascor Corpus?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The catalogue lists and describes the resources. The Renascor Corpus counts and deduplicates their texts: catalogue words/texts counts cover each resource within 1450-1700 before deduplication, while corpus_statistics records the deduplicated contribution of a resource."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I download the data?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "As CSV (renascor.csv), JSON (renascor.json), BibTeX (renascor.bib) or the page payload (data.json). For AI assistants, llms.txt summarises the site and llms-full.txt lists the whole catalogue in Markdown."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do I cite Renascor?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Cite the version you used, with the concept DOI 10.5281/zenodo.23345610 (archived on Zenodo); the ready-made citation is in the Cite section of the page and in CITATION.cff."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are paywalled or image-only resources included?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. A resource must provide an identifiable collection of transcribed or editorially corrected texts, freely accessible. Facsimiles without transcription, raw uncorrected OCR and bibliographies are excluded."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How can I add a resource or report an error?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use the Suggest a resource or Report a correction forms, which open an issue on GitHub; no Git or JSON knowledge is needed. Every proposal is reviewed by a human maintainer before it enters the catalogue."
+      }
+    }
+  ]
+}</script>
 <!-- /build:seo -->
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
@@ -605,6 +675,7 @@ figure { margin: 0; }
 				<a href="#download">Download</a>
 				<a href="#cite">Cite</a>
 				<a href="#contribute">Contribute</a>
+				<a href="#faq">FAQ</a>
 				<a href="https://github.com/Pantagrueliste/renascor">GitHub</a>
 				<a href="https://pantagrueliste.github.io/renascor-atlas/">Atlas</a>
 			</nav>
@@ -1201,6 +1272,23 @@ The counts cover the 186 poem and item files of the manuscript, not the 288 witn
 					<a class="btn" href="https://github.com/Pantagrueliste/renascor">View the repository</a>
 					<a class="btn" href="https://ko-fi.com/clementgodbarge">Buy me a coffee</a>
 				</div>
+			</div>
+		</div>
+		<div class="about-row" id="faq">
+			<h2>Frequently asked questions</h2>
+			<div class="prose">
+				<!-- build:faq -->
+<div class="folds">
+					<details class="fold"><summary>What is Renascor?</summary><div class="fold-body"><p>Renascor is an open catalogue of freely accessible digital editions and text collections of written documents from about 1450 to 1700: manuscript editions, printed works, correspondence and inscriptions. Each record describes the project behind a collection: scope, period, languages, size, encoding, licence and access links.</p></div></details>
+					<details class="fold"><summary>What period and geography does it cover?</summary><div class="fold-body"><p>The years 1450 to 1700, centred on Europe, including texts arising from Europe&#x27;s documented contacts with the rest of the world (trade, diplomacy, travel, migration, missions and colonial encounters), in any language.</p></div></details>
+					<details class="fold"><summary>Is the catalogue free? Are the texts free?</summary><div class="fold-body"><p>Yes on both counts. The catalogue metadata is licensed CC0 1.0 and the code is MIT. The catalogued resources themselves must be freely accessible (no paywall); the licence of each edition&#x27;s texts is recorded per record, because free access does not imply an open licence.</p></div></details>
+					<details class="fold"><summary>What is the difference between the catalogue and the Renascor Corpus?</summary><div class="fold-body"><p>The catalogue lists and describes the resources. The Renascor Corpus counts and deduplicates their texts: catalogue words/texts counts cover each resource within 1450-1700 before deduplication, while corpus_statistics records the deduplicated contribution of a resource.</p></div></details>
+					<details class="fold"><summary>How do I download the data?</summary><div class="fold-body"><p>As CSV (renascor.csv), JSON (renascor.json), BibTeX (renascor.bib) or the page payload (data.json). For AI assistants, llms.txt summarises the site and llms-full.txt lists the whole catalogue in Markdown.</p></div></details>
+					<details class="fold"><summary>How do I cite Renascor?</summary><div class="fold-body"><p>Cite the version you used, with the concept DOI 10.5281/zenodo.23345610 (archived on Zenodo); the ready-made citation is in the Cite section of the page and in CITATION.cff.</p></div></details>
+					<details class="fold"><summary>Are paywalled or image-only resources included?</summary><div class="fold-body"><p>No. A resource must provide an identifiable collection of transcribed or editorially corrected texts, freely accessible. Facsimiles without transcription, raw uncorrected OCR and bibliographies are excluded.</p></div></details>
+					<details class="fold"><summary>How can I add a resource or report an error?</summary><div class="fold-body"><p>Use the Suggest a resource or Report a correction forms, which open an issue on GitHub; no Git or JSON knowledge is needed. Every proposal is reviewed by a human maintainer before it enters the catalogue.</p></div></details>
+				</div>
+<!-- /build:faq -->
 			</div>
 		</div>
 		<div class="about-row" id="accessibility">

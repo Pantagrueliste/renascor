@@ -4,6 +4,7 @@ Run: python -m unittest discover -s tests -v
 """
 from __future__ import annotations
 
+import html
 import importlib.util
 import json
 import re
@@ -350,7 +351,7 @@ class InjectTests(unittest.TestCase):
             e = entry(words=10, **({"countries": countries} if countries else {}))
             with redirect_stderr(StringIO()):
                 meta, _ = bs.build_payload([("a-test.json", e)], schema, Path(tempfile.gettempdir()))
-            regions = {"share-chart": bs.share_chart(meta["stats"])}
+            regions = {"share-chart": bs.share_chart(meta["stats"]), "faq": bs.faq_html()}
             out = bs.inject(page, meta["display"], regions)
             item = re.search(r'<details class="fold" data-if="with_countries"[^>]*>', out).group(0)
             self.assertEqual(" hidden" in item, not countries)
@@ -364,7 +365,7 @@ class InjectTests(unittest.TestCase):
         schema = bs.load_schema()
         with redirect_stderr(StringIO()):
             meta, _ = bs.build_payload(entries, schema, Path(tempfile.gettempdir()))
-        regions = {"share-chart": bs.share_chart(meta["stats"])}
+        regions = {"share-chart": bs.share_chart(meta["stats"]), "faq": bs.faq_html()}
         out = bs.inject(page, meta["display"], regions)
         self.assertEqual(bs.inject(out, meta["display"], regions), out)
 
@@ -483,6 +484,22 @@ class BuildTests(unittest.TestCase):
         self.assertIn("DOI: 10.5281/zenodo.14559525", full)
         self.assertIn("texts: 40", full)
         self.assertEqual(full.count("\n- ["), 3)                   # one line per entry
+
+    def test_faq_section_and_jsonld_are_built_and_in_sync(self):
+        code, _, err = self.run_build()
+        self.assertEqual(code, 0, err)
+        page = (self.out / "index.html").read_text(encoding="utf-8")
+        self.assertIn('<div class="about-row" id="faq">', page)
+        self.assertIn('<a href="#faq">FAQ</a>', page)
+        blocks = re.findall(r'<script type="application/ld\+json">(.*?)</script>', page, re.S)
+        faq = next(json.loads(b) for b in blocks if json.loads(b)["@type"] == "FAQPage")
+        self.assertEqual(len(faq["mainEntity"]), len(bs.FAQ_ITEMS))
+        for entity, (q, a) in zip(faq["mainEntity"], bs.FAQ_ITEMS):
+            self.assertEqual(entity["name"], q)
+            self.assertEqual(entity["acceptedAnswer"]["text"], a)
+            self.assertIn(html.escape(q), page)       # visible question matches the markup
+        llms = (self.out / "llms.txt").read_text(encoding="utf-8")
+        self.assertIn(f"({bs.SITE_URL}#faq)", llms)
 
     def test_static_catalogue_escapes_content_and_rejects_script_links(self):
         e = entry(title='<script>alert(1)</script>', url='javascript:alert(1)',
