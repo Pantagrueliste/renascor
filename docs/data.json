@@ -7,12 +7,12 @@
    "data": "CC0-1.0",
    "code": "MIT"
   },
-  "version": "1.2.0",
-  "released": "2026-11-05",
-  "updated": "2026-11-05",
+  "version": "1.3.0",
+  "released": "2026-11-28",
+  "updated": "2026-11-28",
   "data_commit": {
-   "sha": "36c4c8f4b96d6caea7886524f2d0c9c0ea121b96",
-   "short": "36c4c8f"
+   "sha": "c4305543a929c018bf171a3a168b4c5e9ef74b6c",
+   "short": "c430554"
   },
   "scope": {
    "from": 1450,
@@ -106,27 +106,27 @@
    "notes"
   ],
   "stats": {
-   "editions": 333,
+   "editions": 342,
    "language_labels": 71,
    "languages": 71,
    "pseudo_languages": [],
-   "single_language": 251,
+   "single_language": 259,
    "language_counts": [
     [
      "Latin",
-     92
+     94
     ],
     [
      "German",
-     72
+     73
     ],
     [
      "English",
-     67
+     70
     ],
     [
      "French",
-     57
+     59
     ],
     [
      "Spanish",
@@ -138,7 +138,7 @@
     ],
     [
      "Dutch",
-     22
+     23
     ],
     [
      "Hungarian",
@@ -157,11 +157,11 @@
      8
     ],
     [
-     "Czech",
-     6
+     "Hebrew",
+     7
     ],
     [
-     "Hebrew",
+     "Czech",
      6
     ],
     [
@@ -397,33 +397,42 @@
      1
     ]
    ],
-   "texts": 265266,
-   "words": 2421445939,
-   "with_texts": 331,
-   "with_words": 329,
-   "median_words": 182943,
-   "median_texts": 35,
+   "texts": 268360,
+   "words": 2427445939,
+   "with_texts": 338,
+   "with_words": 330,
+   "median_words": 185183,
+   "median_texts": 37,
    "period": {
-    "numeric": 323,
-    "in_words": 10,
+    "numeric": 330,
+    "in_words": 12,
     "missing": 0
    },
    "figures": {
     "rq": 323,
-    "other": 9,
-    "none": 1,
+    "other": 16,
+    "none": 3,
     "other_titles": [
      "1641 Depositions (Trinity College Dublin)",
+     "A Digital Anthology of Early Modern English Drama (EMED), Folger Shakespeare Library",
      "Briefwisseling van Constantijn Huygens 1607-1687",
      "The Chymistry of Isaac Newton",
      "CODEA+ 2022 — Corpus de documentos españoles anteriores a 1900",
+     "COR2 — Édition numérique de la correspondance de Pierre Corneille",
+     "Digital Corpus of Moses Zacuto's Correspondence (Corpus of R. Moses Zacuto's Correspondence and Lexica of Holy Names)",
      "Die Chronyk van Hollandt, Zeelandt ende Vriesland (Divisiekroniek) of Cornelius Aurelius, 1517",
+     "DutchDraCor — KB corpus of 180 early modern Dutch plays (TEI XML)",
      "Traduction de l'Énéide par Octovien de Saint-Gelais (Le Miroir des classiques), École des chartes (ELEC)",
      "La Mer des histoires (Paris, Pierre Le Rouge for Vincent Commin, 1488-1489)",
+     "Projet Gordes: digital edition of the correspondence received by Bertrand de Simiane, baron de Gordes (1565-1576)",
      "Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock",
-     "Sefaria"
+     "Sefaria",
+     "TEI-XML transcriptions of 318 early modern play editions (Hugh Craig set, APEX / De Montfort University)",
+     "The Holinshed Project: parallel old-spelling digital edition of the 1577 and 1587 Chronicles"
     ],
     "none_titles": [
+     "KONDE — Kontextualisierung von Reiseberichten (digital corpus of early modern travel accounts)",
+     "Library of Digital Latin Texts (LDLT) — Digital Latin Library",
      "RENUMAR — De minute en minute 2.0 (Ressources numériques pour l'édition des archives de la Renaissance)"
     ]
    },
@@ -431,57 +440,57 @@
     "id": "eebo-text-creation-partnership",
     "title": "EEBO Text Creation Partnership",
     "words": 1348840666,
-    "share": 0.557
+    "share": 0.5557
    },
    "top_by_words": [
     {
      "id": "eebo-text-creation-partnership",
      "label": "EEBO Text Creation Partnership",
      "words": 1348840666,
-     "share": 0.557
+     "share": 0.5557
     },
     {
      "id": "openiti",
      "label": "OpenITI",
      "words": 356834104,
-     "share": 0.1474
+     "share": 0.147
     },
     {
      "id": "noscemus",
      "label": "NOSCEMUS",
      "words": 82381900,
-     "share": 0.034
+     "share": 0.0339
     },
     {
      "id": "sefaria",
      "label": "Sefaria",
      "words": 51508557,
-     "share": 0.0213
+     "share": 0.0212
     },
     {
      "id": "dta",
      "label": "Deutsches Textarchiv (DTA)",
      "words": 41616768,
-     "share": 0.0172
+     "share": 0.0171
     }
    ],
    "status": {
-    "active": 205,
+    "active": 214,
     "archived": 121,
     "discontinued": 7
    },
    "encoding": {
-    "tei": 163,
+    "tei": 170,
     "xml": 17,
     "json": 6,
-    "html": 104,
+    "html": 106,
     "wikitext": 9,
     "plain-text": 13,
     "markdown": 1,
     "other": 20
    },
    "data_format": {
-    "tei": 156,
+    "tei": 159,
     "xml": 18,
     "json": 6,
     "html": 12,
@@ -491,12 +500,12 @@
     "other": 12
    },
    "provenance": {
-    "discovered": 145,
+    "discovered": 154,
     "submitted": 188
    },
    "with_last_modified": 65,
-   "with_data_url": 228,
-   "with_region": 147,
+   "with_data_url": 231,
+   "with_region": 156,
    "with_countries": 140
   },
   "corpus_statistics": {
@@ -551,53 +560,53 @@
    "source": "https://github.com/Pantagrueliste/renascor/blob/main/data/period_word_counts.json"
   },
   "display": {
-   "editions": "333",
-   "editions_label": "333 resources",
+   "editions": "342",
+   "editions_label": "342 resources",
    "languages": "71",
    "language_labels": "71",
-   "texts": "265,266",
-   "words": "2,421,445,939",
-   "words_compact": "2.42 billion",
+   "texts": "268,360",
+   "words": "2,427,445,939",
+   "words_compact": "2.43 billion",
    "corpus_texts": "217,764",
    "corpus_words": "2,226,144,645",
    "corpus_words_compact": "2.23 billion",
-   "with_words": "329",
-   "with_words_editions": "329 resources",
-   "without_words": "4",
+   "with_words": "330",
+   "with_words_editions": "330 resources",
+   "without_words": "12",
    "figures_rq": "323",
-   "discovered": "145",
-   "discovered_sentence": "145 of the 333 records were proposed this way",
-   "single_language": "251",
-   "median_words": "182,943",
-   "median_texts": "35",
-   "updated_long": "5 November 2026",
-   "updated_iso": "2026-11-05",
-   "version": "1.2.0",
-   "data_commit_short": "36c4c8f",
-   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/36c4c8f4b96d6caea7886524f2d0c9c0ea121b96",
+   "discovered": "154",
+   "discovered_sentence": "154 of the 342 records were proposed this way",
+   "single_language": "259",
+   "median_words": "185,183",
+   "median_texts": "37",
+   "updated_long": "28 November 2026",
+   "updated_iso": "2026-11-28",
+   "version": "1.3.0",
+   "data_commit_short": "c430554",
+   "data_commit_url": "https://github.com/Pantagrueliste/renascor/commit/c4305543a929c018bf171a3a168b4c5e9ef74b6c",
    "header_note": "Corpus totals exclude duplicate texts (November 2026 working count). Individual collection sizes include overlaps and may be partial.",
    "snapshot_version": "v2026.11",
    "snapshot_frozen_long": "5 November 2026",
    "snapshot_month": "November 2026",
-   "figures_other_sentence": "For 9 resources the counts come from other sources: 1641 Depositions, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, Die Chronyk van Hollandt, Zeelandt ende Vriesland, Traduction de l'Énéide par Octovien de Saint-Gelais, La Mer des histoires, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock and Sefaria. 1 resource has no word or text count.",
+   "figures_other_sentence": "For 16 resources the counts come from other sources: 1641 Depositions, A Digital Anthology of Early Modern English Drama, Briefwisseling van Constantijn Huygens 1607-1687, The Chymistry of Isaac Newton, CODEA+ 2022, COR2, Digital Corpus of Moses Zacuto's Correspondence, Die Chronyk van Hollandt, Zeelandt ende Vriesland, DutchDraCor, Traduction de l'Énéide par Octovien de Saint-Gelais, La Mer des histoires, Projet Gordes: digital edition of the correspondence received by Bertrand de Simiane, baron de Gordes, Rostocker Matrikelportal: database edition of the matriculation of students at the University of Rostock, Sefaria, TEI-XML transcriptions of 318 early modern play editions and The Holinshed Project: parallel old-spelling digital edition of the 1577 and 1587 Chronicles. 3 resources have no word or text count.",
    "largest_share": "56%",
-   "share_note": "Shares of the 2,421,445,939 words recorded for 329 resources; 4 resources have no word count. Collection totals include overlapping texts.",
+   "share_note": "Shares of the 2,427,445,939 words recorded for 330 resources; 12 resources have no word count. Collection totals include overlapping texts.",
    "with_last_modified": "65 resources",
-   "with_data_url": "228 resources",
+   "with_data_url": "231 resources",
    "with_countries": "140 resources",
    "areas_list": "British Isles, France, Low Countries, Holy Roman Empire, Italian Peninsula, Iberian Peninsula, Scandinavia, Central and Eastern Europe, Balkans and Greece, Ottoman Empire and Near East, Americas, Asia and Africa",
    "citation_author": "Clément Godbarge",
    "citation_author_affiliation": "University of St Andrews",
    "citation_author_year": "Godbarge, Clément (2026).",
    "citation_title": "Renascor: An open catalogue of digital editions of Renaissance-era written documents",
-   "citation_tail": "(Version 1.2.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23345610",
-   "status_active": "205 resources.",
+   "citation_tail": "(Version 1.3.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.23345610",
+   "status_active": "214 resources.",
    "status_archived": "121 resources.",
    "status_discontinued": "7 resources.",
-   "encoding_tei": "163 resources.",
+   "encoding_tei": "170 resources.",
    "encoding_xml": "17 resources.",
    "encoding_json": "6 resources.",
-   "encoding_html": "104 resources.",
+   "encoding_html": "106 resources.",
    "encoding_wikitext": "9 resources.",
    "encoding_plain_text": "13 resources.",
    "encoding_markdown": "1 resource.",
@@ -1153,6 +1162,27 @@
    "license": "Copyright",
    "license_url": "https://web.archive.org/web/2023/https://1641.tcd.ie/index.php/using-faq/",
    "license_note": "FAQ (archived copy; live site is behind a CAPTCHA): \"The copyright for the transcriptions belongs to the 1641 Depositions Project/the Library of TCD and the transcriptions may not be published without permission\"; image copyright belongs to the Board of the Library of TCD and images cannot be downloaded."
+  },
+  {
+   "title": "A Digital Anthology of Early Modern English Drama (EMED), Folger Shakespeare Library",
+   "url": "https://emed.folger.edu/",
+   "languages": [
+    "English"
+   ],
+   "encoding": "tei",
+   "status": "active",
+   "provenance": "discovered",
+   "date_added": "2026-11-16",
+   "license": "CC-BY-SA-4.0",
+   "license_url": "https://emed.folger.edu/research-resources/data",
+   "license_note": "EMED-distributed TEI XML and PDF files state in their headers: distributed under a Creative Commons Attribution-ShareAlike 4.0 International License.",
+   "institution": "Folger Shakespeare Library",
+   "period": "1576-1642 (plays printed before 1660)",
+   "region": "England",
+   "texts": 403,
+   "notes": "Corpus of 403 plays first professionally performed in London 1576-1642 and printed before 1660 (count per EMED/Folgerpedia documentation): 343 plays transcribed from EEBO-TCP texts (via Martin Mueller's Shakespeare His Contemporaries corpus) plus about 30 consistently encoded in TEI P5 as documentary editions; TEI XML files downloadable from the project data page. Coverage of full TEI encoding is partial, so the 403 count covers the whole corpus, not only the TEI-encoded subset. First-publication year not verified; project documentation consulted 2026.\n\nJustification: A freely accessible TEI digital anthology of early modern English drama with downloadable XML, within 1450-1700 and not in the catalogue (EEBO-TCP and the Folger Shakespeare are catalogued separately). Found via Folgerpedia's listing of early modern drama projects and the EMED data page.\nFound at: https://folgerpedia.folger.edu/A_Digital_Anthology_of_Early_Modern_English_Drama",
+   "data_url": "https://emed.folger.edu/research-resources/data",
+   "data_format": "tei"
   },
   {
    "title": "ABaC:us — Austrian Baroque Corpus",
@@ -3111,6 +3141,26 @@
    "license_url": "https://github.com/cyrcan/GIT-Coqalane/blob/main/LICENSE"
   },
   {
+   "title": "COR2 — Édition numérique de la correspondance de Pierre Corneille",
+   "url": "http://corneille-correspondance.huma-num.fr/cor2/accueil.html",
+   "languages": [
+    "French",
+    "Latin"
+   ],
+   "encoding": "tei",
+   "status": "active",
+   "provenance": "discovered",
+   "date_added": "2026-11-23",
+   "license": "Public domain",
+   "license_url": "http://corneille-correspondance.huma-num.fr/cor2/projet.html",
+   "license_note": "The letters (17th-century autographs) are in the public domain; the project states no open licence for its TEI edition and annotation, and Huma-Num's general terms do not license hosted content, so the edition layer remains copyrighted.",
+   "institution": "Huma-Num (consortium CORLI)",
+   "period": "17th century (1630s–1680s)",
+   "region": "France",
+   "texts": 20,
+   "notes": "Pierre Corneille destroyed most of his correspondence; only about twenty letters survive ('la vingtaine de lettres qui demeurent', per the project page), so texts ≈ 20, approximate. Edition combines facsimile of the autograph, semi-diplomatic edition showing Corneille's own interventions (erasures, corrections), a modernised transcription, hypertext annotation and indexes, encoded in XML-TEI per the Cahier consortium guidelines; freely accessible on Huma-Num. Word count not stated. Small single-author correspondence, but a recognised scholarly edition of the surviving letters.\n\nJustification: A freely accessible TEI-XML philological digital edition of the surviving 17th-century autograph letters of Pierre Corneille (within 1450–1700), with diplomatic and modernised views and scholarly apparatus; not in the catalogue. Found via a general French-language web search for 2026 digital edition projects on Huma-Num.\nFound at: http://corneille-correspondance.huma-num.fr/cor2/projet.html"
+  },
+  {
    "title": "CORDIAM — Corpus Diacrónico y Diatópico del Español de América",
    "url": "https://www.cordiam.org/",
    "languages": [
@@ -3987,6 +4037,29 @@
    "published": 1999
   },
   {
+   "title": "Digital Corpus of Moses Zacuto's Correspondence (Corpus of R. Moses Zacuto's Correspondence and Lexica of Holy Names)",
+   "url": "https://zacuto.kabbalaheditions.org/",
+   "languages": [
+    "Hebrew"
+   ],
+   "encoding": "tei",
+   "status": "active",
+   "provenance": "discovered",
+   "date_added": "2026-11-23",
+   "license": "Public domain",
+   "license_url": "https://correspsearch.net/en/home.html",
+   "license_note": "The letters (17th-century Hebrew correspondence) are in the public domain; the edition site states no open licence for its TEI files, but correspSearch serves the aggregated CMIF/TEI-XML data of registered editions under CC BY 4.0.",
+   "institution": "Martin Luther University Halle-Wittenberg / Ben-Gurion University of the Negev (DFG-funded project)",
+   "period": "17th century (ca. 1610–1697)",
+   "region": "Italy and Amsterdam (Netherlands)",
+   "texts": 400,
+   "years_active": {
+    "start": 2022,
+    "end": "ongoing"
+   },
+   "notes": "Version 1.0.1 released 2 September 2026; listed in the correspSearch registry of scholarly correspondence editions. TEI-XML letters with variants, named entities and commentaries delivered via a customized TEI Publisher instance; parallel textual versions per letter. Text count is approximate ('about 400 letters', per the project's own conference abstract at the 18th World Congress of Jewish Studies); word count not stated. Correspondence predominantly in Hebrew; possible letters in other languages not verified. Downloadable TEI files not located — only the TEI Publisher web view and correspSearch TEI-XML query results, so no data_url given.\n\nJustification: A brand-new (September 2026), freely accessible TEI digital scholarly edition of a 17th-century correspondence corpus (~400 letters of Rabbi Moses Zacuto, ca. 1610–1697), within the 1450–1700 window and documenting Jewish-European scholarly networks; not in the catalogue. Found via the correspSearch registry (TEI SIG Correspondence) during a general web search for new correspondence editions.\nFound at: https://correspsearch.net/en/home.html"
+  },
+  {
    "title": "The Digital Donne Project",
    "url": "https://digitaldonne.drc.usask.ca/",
    "data_url": "https://drc.usask.ca/projects/ark/XML/Poems/Poems.xml",
@@ -4584,6 +4657,27 @@
    "license": "Mixed",
    "license_url": "http://www.deutschestextarchiv.de/",
    "license_note": "Includes CC-BY-NC, CC-BY-SA-3.0-DE, CC-BY-SA-4.0. Licences or rights differ by text, corpus or editorial layer; consult the source terms for the selected material."
+  },
+  {
+   "title": "DutchDraCor — KB corpus of 180 early modern Dutch plays (TEI XML)",
+   "url": "https://lab.kb.nl/about-us/blog/presenting-dutchdracor-new-kb-dataset-computational-approaches-early-modern-dutch",
+   "languages": [
+    "Dutch"
+   ],
+   "encoding": "tei",
+   "status": "active",
+   "provenance": "discovered",
+   "date_added": "2026-11-09",
+   "license": "CC0-1.0",
+   "license_url": "https://lab.kb.nl/dataset/dutch-dracor",
+   "license_note": "KB LAB dataset page records Copyright 'Public domain/CC0'; the dracor-org/dutchdracor GitHub LICENSE is CC0-1.0 and the corpus.xml TEI header states CC0 (creativecommons.org/publicdomain/zero/1.0/).",
+   "institution": "KB — National Library of the Netherlands (KB LAB)",
+   "period": "16th–17th century",
+   "region": "Low Countries",
+   "texts": 180,
+   "data_url": "https://github.com/dracor-org/dutchdracor",
+   "data_format": "tei",
+   "notes": "Corpus of 180 early modern Dutch plays fully encoded and annotated in TEI XML following DraCor standards, drawing on DBNL and Ceneton transcriptions; available through the DraCor infrastructure with a standalone Zenodo version announced. The stable project URL beyond the KB LAB announcement was not verified in this run; this is a distinct Dutch-language collection, not the catalogued DraCor record itself.\n\nJustification: Identifiable TEI XML text collection of 180 early modern Dutch plays within 1450–1700, freely accessible; found via a web search for new DraCor-family corpora announced on Zenodo and KB LAB.\nFound at: https://lab.kb.nl/about-us/blog/presenting-dutchdracor-new-kb-dataset-computational-approaches-early-modern-dutch"
   },
   {
    "title": "Early Americas Digital Archive (EADA)",
@@ -7733,6 +7827,24 @@
    "count_basis": "rq-retained-rows"
   },
   {
+   "title": "KONDE — Kontextualisierung von Reiseberichten (digital corpus of early modern travel accounts)",
+   "url": "https://www.digitale-edition.at/archive/objects/o:konde.p18/",
+   "languages": [
+    "German"
+   ],
+   "encoding": "tei",
+   "status": "active",
+   "provenance": "discovered",
+   "date_added": "2026-11-09",
+   "license": "CC-BY-NC-4.0",
+   "license_url": "https://digitale-edition.at/o:konde.256/TEI_SOURCE",
+   "license_note": "TEI header of each KONDE text on digitale-edition.at states Creative Commons BY-NC 4.0 (creativecommons.org/licenses/by-nc/4.0); non-commercial reuse with attribution only.",
+   "institution": "Austrian Centre for Digital Humanities and Cultural Heritage (ACDH-CH, Austrian Academy of Sciences)",
+   "period": "16th–17th century",
+   "region": "German-speaking Europe",
+   "notes": "ACDH corpus project providing TEI-encoded, linguistically annotated full text of early modern travel literature together with facsimiles, hosted on the digitale-edition.at platform; distinct from the catalogued Grand Tour digital dataset. Exact text and word counts were not verified in this run.\n\nJustification: TEI-encoded, editorially annotated full text of early modern travel accounts within 1450–1700, freely accessible on the Austrian digitale-edition.at platform and not in the catalogue; found via a re3data/DARIAH-oriented web search.\nFound at: https://www.digitale-edition.at/archive/objects/o:konde.p18/"
+  },
+  {
    "title": "KorBa — Elektroniczny korpus tekstów polskich z XVII i XVIII w.",
    "url": "https://korba.edu.pl/",
    "data_url": "https://korba.edu.pl/download",
@@ -8210,6 +8322,24 @@
      ]
     }
    ]
+  },
+  {
+   "title": "Library of Digital Latin Texts (LDLT) — Digital Latin Library",
+   "url": "https://ldlt.digitallatin.org/",
+   "languages": [
+    "Latin"
+   ],
+   "encoding": "tei",
+   "status": "active",
+   "provenance": "discovered",
+   "date_added": "2026-11-09",
+   "license": "CC-BY-SA-4.0",
+   "license_url": "https://github.com/Library-of-Digital-Latin-Texts/balex/blob/main/LICENSE.md",
+   "license_note": "Each official LDLT edition repository (Library-of-Digital-Latin-Texts on GitHub) carries a LICENSE.md and a TEI licence header stating Creative Commons Attribution-ShareAlike 4.0.",
+   "institution": "Digital Latin Library — Society for Classical Studies, Medieval Academy of America, Renaissance Society of America",
+   "period": "Late Antiquity–Renaissance; strong 1450–1700 coverage via the Renaissance Society of America series",
+   "region": "Europe",
+   "notes": "Peer-reviewed critical editions published as single version-controlled TEI XML files (LDLT guidelines, a TEI+EpiDoc ODD), each with preface, critical text and scholarly apparatus. Coverage spans late antique, medieval and Renaissance Latin, so the catalogue-relevant subset is the Renaissance portion (1450–1700). Distinct from The Latin Library already in the catalogue. TEI XML files are downloadable from the LDLT site and its GitHub repositories; the exact repository path was not verified in this run.\n\nJustification: Ongoing series of open, peer-reviewed TEI XML critical editions co-published with the Renaissance Society of America with explicit Renaissance-era coverage, freely accessible and not in the catalogue; found via the TEI Consortium projects list and the LDLT encoding guidelines.\nFound at: https://tei-c.org/activities/projects/the-digital-latin-librarys-library-of-digital-latin-texts/"
   },
   {
    "title": "Justus Lipsius, De Bibliothecis Syntagma (1602): digital edition",
@@ -10443,6 +10573,25 @@
    "institution": "Project Gutenberg Literary Archive Foundation"
   },
   {
+   "title": "Projet Gordes: digital edition of the correspondence received by Bertrand de Simiane, baron de Gordes (1565-1576)",
+   "url": "https://www.projetgordes.fr/",
+   "languages": [
+    "French"
+   ],
+   "encoding": "html",
+   "status": "active",
+   "provenance": "discovered",
+   "date_added": "2026-11-16",
+   "license": "Public domain",
+   "license_url": "https://www.projetgordes.fr/",
+   "license_note": "The letters (1565-1576 Chantilly manuscripts) are in the public domain; the project site states no open licence for its transcriptions and documentary apparatus, so the edition layer remains copyrighted.",
+   "institution": "Université Sorbonne Paris Nord (PLÉIADE) with University of Sheffield, Institut de France and Archives du château de Chantilly",
+   "period": "1565-1576",
+   "region": "France (Dauphiné)",
+   "texts": 1771,
+   "notes": "Participatory digital edition of letters received by the baron de Gordes during the first French Wars of Religion: 1,771 letters and documents in 9 volumes consultable online (source: project homepage), drawn from a fonds of 7,018 letters in 31 volumes (Chantilly, Archives du domaine de Chantilly, série K). Transcriptions with facsimiles and documentary apparatus are freely accessible; no downloadable TEI files found, so encoding recorded as html. Word count not published.\n\nJustification: A freely accessible, actively maintained scholarly edition of transcribed 16th-century manuscript correspondence, squarely within 1450-1700 and not in the catalogue. Found via a general web search for new French-language digital editions of 16th-century correspondence.\nFound at: https://www.projetgordes.fr/1/accueil"
+  },
+  {
    "title": "Protokoll des Religionskolloquiums in Vilnius am 14. Juni 1585",
    "url": "http://diglib.hab.de/edoc/ed000004/startx.htm",
    "data_url": "http://diglib.hab.de/edoc/ed000004/tei-transcript.xml",
@@ -12471,6 +12620,28 @@
    "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
   },
   {
+   "title": "TEI-XML transcriptions of 318 early modern play editions (Hugh Craig set, APEX / De Montfort University)",
+   "url": "https://apex.dmu.ac.uk/",
+   "languages": [
+    "English"
+   ],
+   "encoding": "tei",
+   "status": "active",
+   "provenance": "discovered",
+   "date_added": "2026-11-16",
+   "license": "CC-BY-4.0",
+   "license_url": "https://zenodo.org/records/14289452",
+   "license_note": "Zenodo record 14289452 (DOI 10.5281/zenodo.14289452) is open access with licence CC BY 4.0 (cc-by-4.0 in the record metadata).",
+   "institution": "APEX, De Montfort University (Gabriel Egan); texts supplied by Hugh Craig",
+   "period": "c. 1576-1642",
+   "region": "England",
+   "texts": 318,
+   "notes": "Zenodo dataset (DOI 10.5281/zenodo.14289452) containing TEI-XML transcriptions of 318 editions of 288 early modern plays by 77 authors (count stated in the dataset description). Base texts are double-keyed EEBO-TCP-style transcriptions supplied by Hugh Craig, with minor corrections by Gabriel Egan; related corrected subsets (e.g. Folio-only Shakespeare plays) are deposited separately on Zenodo. Word count not published.\n\nJustification: A project-released, corrected TEI full-text dataset of Renaissance-era printed drama, freely downloadable with a stable DOI, not in the catalogue. Found via a Zenodo search for TEI-encoded early modern play corpora.\nFound at: https://zenodo.org/records/14289452",
+   "doi": "10.5281/zenodo.14289452",
+   "data_url": "https://zenodo.org/records/14289452",
+   "data_format": "tei"
+  },
+  {
    "title": "The Testaments of Culhuacan (S. L. Cline & M. León-Portilla)",
    "url": "https://www.history.ucsb.edu/wp-content/uploads/testaments_of_culhuacan.pdf",
    "languages": [
@@ -12538,6 +12709,26 @@
     "texts": 13208
    },
    "count_basis": "rq-retained-rows"
+  },
+  {
+   "title": "The Holinshed Project: parallel old-spelling digital edition of the 1577 and 1587 Chronicles",
+   "url": "https://english.nsms.ox.ac.uk/holinshed/",
+   "languages": [
+    "English"
+   ],
+   "encoding": "html",
+   "status": "active",
+   "provenance": "discovered",
+   "date_added": "2026-11-16",
+   "license": "Copyright",
+   "license_url": "https://english.nsms.ox.ac.uk/holinshed/",
+   "license_note": "Site footer: 'All content © The Holinshed Project 2008-13'; no open licence for the parallel edition and annotations. The underlying 1577 and 1587 printed texts are in the public domain. Do not harvest the edition text into the corpus without permission (same policy as CODEA+ 2022); the 1587 text is already covered by the catalogued EEBO-TCP record.",
+   "institution": "University of Oxford (Centre for Editing Lives and Letters / Faculty of English)",
+   "period": "1577 and 1587 editions",
+   "region": "England",
+   "words": 6000000,
+   "texts": 2,
+   "notes": "Complete old-spelling annotated parallel-text edition of both print editions of Holinshed's Chronicles; the project states 2.5 million words for 1577 and 3.5 million words for 1587 (source: project 'Texts' page). The 1577 text was keyed for this project (Harvard copy, STC 13568b); the 1587 text derives from EEBO-TCP. Distinct from the catalogued EEBO-TCP record. Site live but blocks automated reading; details verified via project pages and ReKN/Early Modern Web listings.\n\nJustification: A major freely accessible scholarly digital edition of a Renaissance printed work (1577/1587), squarely within 1450-1700, not in the catalogue. Found via a general web search of early modern primary-source listings (earlymodernweb.org), confirmed on the Oxford project site.\nFound at: https://earlymodernweb.org/resources/primary-sources.html"
   },
   {
    "title": "The Latin Library",
@@ -13979,6 +14170,29 @@
    "figures": "other",
    "snapshot": null,
    "notes_display": "Transcripts, with page images, of the witness statements (depositions and examinations) collected after the Irish rising of October 1641, bound in 32 volumes (TCD MSS 809-840) and kept in Trinity College Library. Every transcript is readable online without login. The project page says the transcribing and online publication ran from 2007 to September 2010 and that the site presents about 8,000 depositions, examinations and associated materials. All the depositions are dated 1641-1653, within 1450-1700. The site's content pages were last changed on 2020-10-16 (WordPress page records), so it is marked archived. Only a TEI-compliant encoding is mentioned on the project pages; no download of the files was found. The counts rest on the site's own listing of 6,932 deposition records, and the texts themselves could not be read: the site answers automated requests with a reCAPTCHA challenge.",
+   "period_words": null
+  },
+  {
+   "id": "a-digital-anthology-of-early-modern-english-drama-emed-folger-shakespeare-library",
+   "sort_title": "digital anthology of early modern english drama (emed), folger shakespeare library",
+   "host": "emed.folger.edu",
+   "url_display": "emed.folger.edu",
+   "archived_copy": null,
+   "data_display": "emed.folger.edu/research-resources/data",
+   "period": {
+    "raw": "1576-1642 (plays printed before 1660)",
+    "label": "1576–1642",
+    "start": 1576,
+    "end": 1642,
+    "approx": false,
+    "kind": "range",
+    "note": "plays printed before 1660",
+    "beyond_scope": false
+   },
+   "size_band": null,
+   "figures": "other",
+   "snapshot": null,
+   "notes_display": "Corpus of 403 plays first professionally performed in London 1576-1642 and printed before 1660 (count per EMED/Folgerpedia documentation): 343 plays transcribed from EEBO-TCP texts (via Martin Mueller's Shakespeare His Contemporaries corpus) plus about 30 consistently encoded in TEI P5 as documentary editions; TEI XML files downloadable from the project data page. Coverage of full TEI encoding is partial, so the 403 count covers the whole corpus, not only the TEI-encoded subset. First-publication year not verified; project documentation consulted 2026.",
    "period_words": null
   },
   {
@@ -17894,6 +18108,29 @@
    }
   },
   {
+   "id": "cor2-dition-num-rique-de-la-correspondance-de-pierre-corneille",
+   "sort_title": "cor2 — edition numerique de la correspondance de pierre corneille",
+   "host": "corneille-correspondance.huma-num.fr",
+   "url_display": "corneille-correspondance.huma-num.fr/cor2/accueil.html",
+   "archived_copy": null,
+   "data_display": null,
+   "period": {
+    "raw": "17th century (1630s–1680s)",
+    "label": "17th century",
+    "start": 1600,
+    "end": 1699,
+    "approx": true,
+    "kind": "century",
+    "note": "1630s–1680s",
+    "beyond_scope": false
+   },
+   "size_band": null,
+   "figures": "other",
+   "snapshot": null,
+   "notes_display": "Pierre Corneille destroyed most of his correspondence; only about twenty letters survive ('la vingtaine de lettres qui demeurent', per the project page), so texts ≈ 20, approximate. Edition combines facsimile of the autograph, semi-diplomatic edition showing Corneille's own interventions (erasures, corrections), a modernised transcription, hypertext annotation and indexes, encoded in XML-TEI per the Cahier consortium guidelines; freely accessible on Huma-Num. Word count not stated. Small single-author correspondence, but a recognised scholarly edition of the surviving letters.",
+   "period_words": null
+  },
+  {
    "id": "cordiam",
    "sort_title": "cordiam — corpus diacronico y diatopico del espanol de america",
    "host": "cordiam.org",
@@ -19897,6 +20134,29 @@
    }
   },
   {
+   "id": "digital-corpus-of-moses-zacuto-s-correspondence-corpus-of-r-moses-zacuto-s-correspondence-and-lexica-of-holy-names",
+   "sort_title": "digital corpus of moses zacuto's correspondence (corpus of r. moses zacuto's correspondence and lexica of holy names)",
+   "host": "zacuto.kabbalaheditions.org",
+   "url_display": "zacuto.kabbalaheditions.org",
+   "archived_copy": null,
+   "data_display": null,
+   "period": {
+    "raw": "17th century (ca. 1610–1697)",
+    "label": "17th century",
+    "start": 1600,
+    "end": 1699,
+    "approx": true,
+    "kind": "century",
+    "note": "ca. 1610–1697",
+    "beyond_scope": false
+   },
+   "size_band": null,
+   "figures": "other",
+   "snapshot": null,
+   "notes_display": "Version 1.0.1 released 2 September 2026; listed in the correspSearch registry of scholarly correspondence editions. TEI-XML letters with variants, named entities and commentaries delivered via a customized TEI Publisher instance; parallel textual versions per letter. Text count is approximate ('about 400 letters', per the project's own conference abstract at the 18th World Congress of Jewish Studies); word count not stated. Correspondence predominantly in Hebrew; possible letters in other languages not verified. Downloadable TEI files not located — only the TEI Publisher web view and correspSearch TEI-XML query results, so no data_url given.",
+   "period_words": null
+  },
+  {
    "id": "digital-donne",
    "sort_title": "digital donne project",
    "host": "digitaldonne.drc.usask.ca",
@@ -21061,6 +21321,29 @@
     "undated": 0,
     "estimated_range": null
    }
+  },
+  {
+   "id": "dutchdracor-kb-corpus-of-180-early-modern-dutch-plays-tei-xml",
+   "sort_title": "dutchdracor — kb corpus of 180 early modern dutch plays (tei xml)",
+   "host": "lab.kb.nl",
+   "url_display": "lab.kb.nl/about-us/blog/presenting-dutchdracor-new-kb-dataset-computational-approaches-early-modern-dutch",
+   "archived_copy": null,
+   "data_display": "github.com/dracor-org/dutchdracor",
+   "period": {
+    "raw": "16th–17th century",
+    "label": "16th–17th century",
+    "start": 1500,
+    "end": 1699,
+    "approx": true,
+    "kind": "century",
+    "note": null,
+    "beyond_scope": false
+   },
+   "size_band": null,
+   "figures": "other",
+   "snapshot": null,
+   "notes_display": "Corpus of 180 early modern Dutch plays fully encoded and annotated in TEI XML following DraCor standards, drawing on DBNL and Ceneton transcriptions; available through the DraCor infrastructure with a standalone Zenodo version announced. The stable project URL beyond the KB LAB announcement was not verified in this run; this is a distinct Dutch-language collection, not the catalogued DraCor record itself.",
+   "period_words": null
   },
   {
    "id": "early-americas-digital-archive",
@@ -27212,6 +27495,29 @@
    }
   },
   {
+   "id": "konde-kontextualisierung-von-reiseberichten-digital-corpus-of-early-modern-travel-accounts",
+   "sort_title": "konde — kontextualisierung von reiseberichten (digital corpus of early modern travel accounts)",
+   "host": "digitale-edition.at",
+   "url_display": "digitale-edition.at/archive/objects/o:konde.p18",
+   "archived_copy": null,
+   "data_display": null,
+   "period": {
+    "raw": "16th–17th century",
+    "label": "16th–17th century",
+    "start": 1500,
+    "end": 1699,
+    "approx": true,
+    "kind": "century",
+    "note": null,
+    "beyond_scope": false
+   },
+   "size_band": null,
+   "figures": "none",
+   "snapshot": null,
+   "notes_display": "ACDH corpus project providing TEI-encoded, linguistically annotated full text of early modern travel literature together with facsimiles, hosted on the digitale-edition.at platform; distinct from the catalogued Grand Tour digital dataset. Exact text and word counts were not verified in this run.",
+   "period_words": null
+  },
+  {
    "id": "korba-polish",
    "sort_title": "korba — elektroniczny korpus tekstow polskich z xvii i xviii w.",
    "host": "korba.edu.pl",
@@ -28113,6 +28419,29 @@
     "undated": 0,
     "estimated_range": null
    }
+  },
+  {
+   "id": "library-of-digital-latin-texts-ldlt-digital-latin-library",
+   "sort_title": "library of digital latin texts (ldlt) — digital latin library",
+   "host": "ldlt.digitallatin.org",
+   "url_display": "ldlt.digitallatin.org",
+   "archived_copy": null,
+   "data_display": null,
+   "period": {
+    "raw": "Late Antiquity–Renaissance; strong 1450–1700 coverage via the Renaissance Society of America series",
+    "label": "Late Antiquity–Renaissance; strong 1450–1700 coverage via the Renaissance Society of America series",
+    "start": null,
+    "end": null,
+    "approx": false,
+    "kind": "text",
+    "note": null,
+    "beyond_scope": false
+   },
+   "size_band": null,
+   "figures": "none",
+   "snapshot": null,
+   "notes_display": "Peer-reviewed critical editions published as single version-controlled TEI XML files (LDLT guidelines, a TEI+EpiDoc ODD), each with preface, critical text and scholarly apparatus. Coverage spans late antique, medieval and Renaissance Latin, so the catalogue-relevant subset is the Renaissance portion (1450–1700). Distinct from The Latin Library already in the catalogue. TEI XML files are downloadable from the LDLT site and its GitHub repositories; the exact repository path was not verified in this run.",
+   "period_words": null
   },
   {
    "id": "lipsius-de-bibliothecis-syntagma-hab",
@@ -32617,6 +32946,29 @@
    }
   },
   {
+   "id": "projet-gordes-digital-edition-of-the-correspondence-received-by-bertrand-de-simiane-baron-de-gordes-1565-1576",
+   "sort_title": "projet gordes: digital edition of the correspondence received by bertrand de simiane, baron de gordes (1565-1576)",
+   "host": "projetgordes.fr",
+   "url_display": "projetgordes.fr",
+   "archived_copy": null,
+   "data_display": null,
+   "period": {
+    "raw": "1565-1576",
+    "label": "1565–1576",
+    "start": 1565,
+    "end": 1576,
+    "approx": false,
+    "kind": "range",
+    "note": null,
+    "beyond_scope": false
+   },
+   "size_band": null,
+   "figures": "other",
+   "snapshot": null,
+   "notes_display": "Participatory digital edition of letters received by the baron de Gordes during the first French Wars of Religion: 1,771 letters and documents in 9 volumes consultable online (source: project homepage), drawn from a fonds of 7,018 letters in 31 volumes (Chantilly, Archives du domaine de Chantilly, série K). Transcriptions with facsimiles and documentary apparatus are freely accessible; no downloadable TEI files found, so encoding recorded as html. Word count not published.",
+   "period_words": null
+  },
+  {
    "id": "protokoll-religionskolloquium-vilnius-1585",
    "sort_title": "protokoll des religionskolloquiums in vilnius am 14. juni 1585",
    "host": "diglib.hab.de",
@@ -36609,6 +36961,29 @@
    }
   },
   {
+   "id": "tei-xml-transcriptions-of-318-early-modern-play-editions-hugh-craig-set-apex-de-montfort-university",
+   "sort_title": "tei-xml transcriptions of 318 early modern play editions (hugh craig set, apex / de montfort university)",
+   "host": "apex.dmu.ac.uk",
+   "url_display": "apex.dmu.ac.uk",
+   "archived_copy": null,
+   "data_display": "zenodo.org/records/14289452",
+   "period": {
+    "raw": "c. 1576-1642",
+    "label": "c. 1576–1642",
+    "start": 1576,
+    "end": 1642,
+    "approx": true,
+    "kind": "range",
+    "note": null,
+    "beyond_scope": false
+   },
+   "size_band": null,
+   "figures": "other",
+   "snapshot": null,
+   "notes_display": "Zenodo dataset (DOI 10.5281/zenodo.14289452) containing TEI-XML transcriptions of 318 editions of 288 early modern plays by 77 authors (count stated in the dataset description). Base texts are double-keyed EEBO-TCP-style transcriptions supplied by Hugh Craig, with minor corrections by Gabriel Egan; related corrected subsets (e.g. Folio-only Shakespeare plays) are deposited separately on Zenodo. Word count not published.",
+   "period_words": null
+  },
+  {
    "id": "testaments-of-culhuacan",
    "sort_title": "testaments of culhuacan (s. l. cline & m. leon-portilla)",
    "host": "history.ucsb.edu",
@@ -36710,6 +37085,29 @@
     "undated": 1688704,
     "estimated_range": null
    }
+  },
+  {
+   "id": "the-holinshed-project-parallel-old-spelling-digital-edition-of-the-1577-and-1587-chronicles",
+   "sort_title": "holinshed project: parallel old-spelling digital edition of the 1577 and 1587 chronicles",
+   "host": "english.nsms.ox.ac.uk",
+   "url_display": "english.nsms.ox.ac.uk/holinshed",
+   "archived_copy": null,
+   "data_display": null,
+   "period": {
+    "raw": "1577 and 1587 editions",
+    "label": "1577 and 1587 editions",
+    "start": null,
+    "end": null,
+    "approx": false,
+    "kind": "text",
+    "note": null,
+    "beyond_scope": false
+   },
+   "size_band": "1m-10m",
+   "figures": "other",
+   "snapshot": null,
+   "notes_display": "Complete old-spelling annotated parallel-text edition of both print editions of Holinshed's Chronicles; the project states 2.5 million words for 1577 and 3.5 million words for 1587 (source: project 'Texts' page). The 1577 text was keyed for this project (Harvard copy, STC 13568b); the 1587 text derives from EEBO-TCP. Distinct from the catalogued EEBO-TCP record. Site live but blocks automated reading; details verified via project pages and ReKN/Early Modern Web listings.",
+   "period_words": null
   },
   {
    "id": "the-latin-library",
