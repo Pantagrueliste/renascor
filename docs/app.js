@@ -117,7 +117,7 @@ function setQ(v) { state.q = els.q.value = v; els.qClear.hidden = !v; }
 
 // == Loading ==
 function load() {
-	fetch('data.json', { cache: 'no-cache' })
+	fetch('data.json')
 		.then(res => { if (!res.ok) throw new Error('HTTP ' + res.status); return res.json(); })
 		.then(init)
 		.catch(err => {

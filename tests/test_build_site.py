@@ -409,7 +409,8 @@ class BuildTests(unittest.TestCase):
         code, out, err = self.run_build()
         self.assertEqual(code, 0, err)
         self.assertIn("Built site: 3 entries", out)
-        for name in ("data.json", "renascor.csv", "renascor.json", "renascor.bib", "index.html", "app.js"):
+        for name in ("data.json", "renascor.csv", "renascor.json", "renascor.bib", "index.html", "app.js",
+                     "llms.txt", "llms-full.txt"):
             self.assertTrue((self.out / name).exists(), name)
         before = {p.name: p.read_bytes() for p in self.out.iterdir()}
         code, out, _ = self.run_build()
@@ -457,11 +458,31 @@ class BuildTests(unittest.TestCase):
         self.assertEqual(dataset["dateModified"], "2026-10-07")
         for download in dataset["distribution"]:
             self.assertTrue((self.out / download["contentUrl"].removeprefix(bs.SITE_URL)).exists())
+        self.assertEqual({d["encodingFormat"] for d in dataset["distribution"]},
+                         {"text/csv", "application/json", "application/x-bibtex"})
+        self.assertTrue(dataset["isAccessibleForFree"])
         for name in ("alpha", "beta", "gamma"):
             self.assertIn(f'<article id="{name}">', page)
         sitemap = ET.parse(self.out / "sitemap.xml")
         urls = sitemap.findall(".//{http://www.sitemaps.org/schemas/sitemap/0.9}loc")
         self.assertEqual([url.text for url in urls], [bs.SITE_URL])
+
+    def test_llms_files(self):
+        code, _, err = self.run_build()
+        self.assertEqual(code, 0, err)
+        llms = (self.out / "llms.txt").read_text(encoding="utf-8")
+        self.assertTrue(llms.startswith("# Renascor\n"))
+        self.assertIn("> ", llms)                                   # blockquote summary
+        self.assertIn(f"- [Browse the catalogue online]({bs.SITE_URL})", llms)
+        self.assertIn(f"({bs.SITE_URL}renascor.bib)", llms)
+        self.assertIn(f"({bs.SITE_URL}llms-full.txt)", llms)
+        self.assertIn(f"({bs.REPO_URL})", llms)
+        full = (self.out / "llms-full.txt").read_text(encoding="utf-8")
+        self.assertIn("# Renascor — complete catalogue", full)
+        self.assertIn("- [The Alpha Letters](https://example.org/edition/)", full)
+        self.assertIn("DOI: 10.5281/zenodo.14559525", full)
+        self.assertIn("texts: 40", full)
+        self.assertEqual(full.count("\n- ["), 3)                   # one line per entry
 
     def test_static_catalogue_escapes_content_and_rejects_script_links(self):
         e = entry(title='<script>alert(1)</script>', url='javascript:alert(1)',

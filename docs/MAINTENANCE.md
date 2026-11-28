@@ -109,7 +109,9 @@ python3 scripts/build_site.py
 
 ## Search visibility
 
-The build supplies a canonical URL, sharing metadata and Dataset JSON-LD for the public CC0 catalogue. The dataset description does not describe the unreleased Renascor Corpus. All records are readable in the initial HTML; JavaScript replaces this fallback after the interactive list renders successfully.
+The build supplies a canonical URL, sharing metadata and Dataset JSON-LD for the public CC0 catalogue (CSV, JSON and BibTeX downloads listed as `DataDownload`). The dataset description does not describe the unreleased Renascor Corpus. All records are readable in the initial HTML; JavaScript replaces this fallback after the interactive list renders successfully.
+
+For LLM crawlers, the build also writes `llms.txt` (summary, scope, licence and links, per [llmstxt.org](https://llmstxt.org)) and `llms-full.txt` (the complete catalogue as Markdown, one line per resource) next to the page; `data.json` is fetched with default HTTP caching so repeat visits revalidate instead of re-downloading.
 
 The canonical deployment URL is `SITE_URL` in `scripts/build_site.py`. Update it if hosting changes. The sitemap lists the single catalogue page: record fragments and filter combinations are not separate pages. It deliberately omits `lastmod` because data commit dates do not capture all page changes.
 

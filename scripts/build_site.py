@@ -809,11 +809,16 @@ def seo_head(meta: dict) -> str:
         "creator": {"@type": "Person", "name": citation.get("author", "")},
         "version": meta["version"],
         "temporalCoverage": "1450/1700",
+        "spatialCoverage": {"@type": "Place", "name": "Europe and its documented contacts worldwide"},
+        "isAccessibleForFree": True,
+        "keywords": ["digital humanities", "renaissance", "digital editions", "catalogue", "TEI",
+                     "early modern", "text corpora", "open data"],
         "distribution": [
             {"@type": "DataDownload", "contentUrl": SITE_URL + filename,
              "encodingFormat": mime}
             for filename, mime in [("renascor.csv", "text/csv"),
-                                   ("renascor.json", "application/json")]
+                                   ("renascor.json", "application/json"),
+                                   ("renascor.bib", "application/x-bibtex")]
         ],
     }
     if citation.get("doi"):
@@ -840,6 +845,78 @@ def seo_head(meta: dict) -> str:
     payload = json.dumps(dataset, ensure_ascii=False, indent=2).replace("<", "\\u003c")
     tags.append('<script type="application/ld+json">' + payload + '</script>')
     return "\n".join(tags)
+
+
+def llms_txt(meta: dict) -> str:
+    """llms.txt (llmstxt.org): short machine-readable summary for LLM crawlers."""
+    s = meta["stats"]
+    citation = read_citation()
+    lines = [
+        "# Renascor",
+        "",
+        "> Renascor is an open catalogue of freely accessible digital editions and text "
+        "collections of written documents from 1450 to 1700 (manuscripts, printed works, "
+        "correspondence, inscriptions). Each record describes the project behind a collection: "
+        "scope, period, languages, format, licence and access links. The catalogue metadata is "
+        "licensed CC0 1.0.",
+        "",
+        f"Version {meta['version']}, data updated {meta['updated']}: {s['editions']} catalogued "
+        f"resources in {s['languages']} languages.",
+        "",
+        "## Catalogue",
+        "",
+        f"- [Browse the catalogue online]({SITE_URL})",
+        f"- [Catalogue data as CSV]({SITE_URL}renascor.csv)",
+        f"- [Catalogue data as JSON]({SITE_URL}renascor.json)",
+        f"- [Catalogue data as BibTeX]({SITE_URL}renascor.bib)",
+        f"- [Page payload (data.json)]({SITE_URL}data.json)",
+        f"- [Complete catalogue as Markdown]({SITE_URL}llms-full.txt)",
+        f"- [Sitemap]({SITE_URL}sitemap.xml)",
+        "",
+        "## Project",
+        "",
+        f"- [Source repository and per-resource JSON files on GitHub]({REPO_URL})",
+    ]
+    if citation.get("doi"):
+        lines.append(f"- [DOI (concept DOI, all versions, archived on Zenodo)](https://doi.org/{citation['doi']})")
+    lines.append("")
+    return "\n".join(lines)
+
+
+def llms_full_txt(entries, derived) -> str:
+    """llms-full.txt: the whole catalogue as Markdown, one line per resource."""
+    lines = [
+        "# Renascor — complete catalogue",
+        "",
+        "One line per catalogued resource: title (link), then languages, period, region, "
+        "encoding, status, licence, texts, words and DOI where known. Counts cover the "
+        "resource within 1450–1700 before content deduplication. Catalogue metadata: CC0 1.0.",
+        "",
+    ]
+    for i in default_order(derived):
+        e = entries[i][1]
+        bits = []
+        if e.get("languages"):
+            bits.append("languages: " + ", ".join(e["languages"]))
+        if e.get("period"):
+            bits.append("period: " + e["period"])
+        if e.get("region"):
+            bits.append("region: " + e["region"])
+        if e.get("encoding"):
+            bits.append("encoding: " + e["encoding"])
+        if e.get("status"):
+            bits.append("status: " + e["status"])
+        if e.get("license"):
+            bits.append("licence: " + e["license"])
+        if e.get("texts") is not None:
+            bits.append(f"texts: {e['texts']}")
+        if e.get("words") is not None:
+            bits.append(f"words: {e['words']}")
+        if e.get("doi"):
+            bits.append("DOI: " + e["doi"])
+        lines.append(f"- [{e['title']}]({e['url']}) — " + "; ".join(bits))
+    lines.append("")
+    return "\n".join(lines)
 
 
 def static_catalogue(entries, derived) -> str:
@@ -1017,6 +1094,8 @@ def write_outputs(entries, derived, meta, out_dir: Path, index_template: Path) -
         "sitemap.xml": ('<?xml version="1.0" encoding="UTF-8"?>\n'
                         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'
                         f'<url><loc>{SITE_URL}</loc></url></urlset>\n'),
+        "llms.txt": llms_txt(meta),
+        "llms-full.txt": llms_full_txt(entries, derived),
     }
     for name, text in files.items():
         if write_if_changed(out_dir / name, text.encode("utf-8")):

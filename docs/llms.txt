@@ -1,0 +1,20 @@
+# Renascor
+
+> Renascor is an open catalogue of freely accessible digital editions and text collections of written documents from 1450 to 1700 (manuscripts, printed works, correspondence, inscriptions). Each record describes the project behind a collection: scope, period, languages, format, licence and access links. The catalogue metadata is licensed CC0 1.0.
+
+Version 1.3.0, data updated 2026-11-28: 342 catalogued resources in 71 languages.
+
+## Catalogue
+
+- [Browse the catalogue online](https://pantagrueliste.github.io/renascor/)
+- [Catalogue data as CSV](https://pantagrueliste.github.io/renascor/renascor.csv)
+- [Catalogue data as JSON](https://pantagrueliste.github.io/renascor/renascor.json)
+- [Catalogue data as BibTeX](https://pantagrueliste.github.io/renascor/renascor.bib)
+- [Page payload (data.json)](https://pantagrueliste.github.io/renascor/data.json)
+- [Complete catalogue as Markdown](https://pantagrueliste.github.io/renascor/llms-full.txt)
+- [Sitemap](https://pantagrueliste.github.io/renascor/sitemap.xml)
+
+## Project
+
+- [Source repository and per-resource JSON files on GitHub](https://github.com/Pantagrueliste/renascor)
+- [DOI (concept DOI, all versions, archived on Zenodo)](https://doi.org/10.5281/zenodo.23345610)
